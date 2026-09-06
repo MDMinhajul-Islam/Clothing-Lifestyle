@@ -1,0 +1,163 @@
+{
+  "product_id": "zara-us:01879649",
+  "source_url": "https://www.zara.com/us/en/washed-effect-leon-s-bagels---embroidered-cap-p01879649.html",
+  "final_url": "https://www.zara.com/us/en/washed-effect-leon-s-bagels---embroidered-cap-p01879649.html",
+  "canonical_url": "https://www.zara.com/us/en/washed-effect-leon-s-bagels---embroidered-cap-p01879649.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEON'S BAGELS ® EMBROIDERED WASHED CAP",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEON'S BAGELS ® EMBROIDERED WASHED CAP",
+      "url": "https://www.zara.com/us/en/washed-effect-leon-s-bagels---embroidered-cap-p01879649.html",
+      "productGroupID": "01879649",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Cap with an adjustable strap at the back. Features LEON'S BAGELS ® embroidery on the front.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/83b2/0863/34174be98ad5/914c848aec8e/01879649529-e1/01879649529-e1.jpg?ts=1785309538235&w=1920",
+        "https://static.zara.net/assets/public/ed0b/099e/4c6545989122/92454c79d27e/01879649529-e2/01879649529-e2.jpg?ts=1785309539704&w=1920",
+        "https://static.zara.net/assets/public/2725/4737/265a406284f6/e02beb6c7602/01879649529-e3/01879649529-e3.jpg?ts=1785309538058&w=1920",
+        "https://static.zara.net/assets/public/ac34/2073/d52d41ccb0cc/50c0afc422e2/01879649529-e5/01879649529-e5.jpg?ts=1785309539722&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEON'S BAGELS ® EMBROIDERED WASHED CAP - Dark green - XS",
+          "sku": "549311470-529-3",
+          "mpn": "549311470-529-3",
+          "color": "Dark green",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/83b2/0863/34174be98ad5/914c848aec8e/01879649529-e1/01879649529-e1.jpg?ts=1785309538235&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/washed-effect-leon-s-bagels---embroidered-cap-p01879649.html?v1=549311470",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEON'S BAGELS ® EMBROIDERED WASHED CAP - Dark green - S",
+          "sku": "549311470-529-6",
+          "mpn": "549311470-529-6",
+          "color": "Dark green",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/83b2/0863/34174be98ad5/914c848aec8e/01879649529-e1/01879649529-e1.jpg?ts=1785309538235&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/washed-effect-leon-s-bagels---embroidered-cap-p01879649.html?v1=549311470",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEON'S BAGELS ® EMBROIDERED WASHED CAP",
+      "product_group_id": "01879649",
+      "brand": "ZARA",
+      "description": "Cap with an adjustable strap at the back. Features LEON'S BAGELS ® embroidery on the front.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | LINING: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEON'S BAGELS ® EMBROIDERED WASHED CAP - Dark green - XS",
+          "sku": "549311470-529-3",
+          "mpn": "549311470-529-3",
+          "color_name": "Dark green",
+          "size_name": "XS",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/washed-effect-leon-s-bagels---embroidered-cap-p01879649.html?v1=549311470",
+          "images": [
+            "https://static.zara.net/assets/public/83b2/0863/34174be98ad5/914c848aec8e/01879649529-e1/01879649529-e1.jpg?ts=1785309538235&w=1920"
+          ]
+        },
+        {
+          "name": "LEON'S BAGELS ® EMBROIDERED WASHED CAP - Dark green - S",
+          "sku": "549311470-529-6",
+          "mpn": "549311470-529-6",
+          "color_name": "Dark green",
+          "size_name": "S",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/washed-effect-leon-s-bagels---embroidered-cap-p01879649.html?v1=549311470",
+          "images": [
+            "https://static.zara.net/assets/public/83b2/0863/34174be98ad5/914c848aec8e/01879649529-e1/01879649529-e1.jpg?ts=1785309538235&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/83b2/0863/34174be98ad5/914c848aec8e/01879649529-e1/01879649529-e1.jpg?ts=1785309538235&w=1920",
+        "https://static.zara.net/assets/public/ed0b/099e/4c6545989122/92454c79d27e/01879649529-e2/01879649529-e2.jpg?ts=1785309539704&w=1920",
+        "https://static.zara.net/assets/public/2725/4737/265a406284f6/e02beb6c7602/01879649529-e3/01879649529-e3.jpg?ts=1785309538058&w=1920",
+        "https://static.zara.net/assets/public/ac34/2073/d52d41ccb0cc/50c0afc422e2/01879649529-e5/01879649529-e5.jpg?ts=1785309539722&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nCap with an adjustable strap at the back. Features LEON'S BAGELS ® embroidery on the front.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b29c66af8b916e851d6966966c2893ecc2f4541efc94b7f45d217ba660de05af",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

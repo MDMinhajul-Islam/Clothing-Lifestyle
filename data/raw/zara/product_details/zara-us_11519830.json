@@ -1,0 +1,140 @@
+{
+  "product_id": "zara-us:11519830",
+  "source_url": "https://www.zara.com/us/en/snoopy-peanuts--backpack-p11519830.html",
+  "final_url": "https://www.zara.com/us/en/snoopy-peanuts--backpack-p11519830.html",
+  "canonical_url": "https://www.zara.com/us/en/snoopy-peanuts--backpack-p11519830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SNOOPY PEANUTS™ BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SNOOPY PEANUTS™ BACKPACK",
+      "url": "https://www.zara.com/us/en/snoopy-peanuts--backpack-p11519830.html",
+      "productGroupID": "11519830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "SNOOPY PEANUTS™ backpack. Features a main compartment and a front pocket with zip closure. Includes a top handle and dual adjustable shoulder straps.\n\nHeight x Width x Depth: 11.4 x 10.6 x 3.5 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6496/d69d/635b412db501/f9df8c24a445/11519830032-e1/11519830032-e1.jpg?ts=1786373244411&w=1920",
+        "https://static.zara.net/assets/public/0dd4/b5c1/44c9412585cd/05c97be4e42f/11519830032-e2/11519830032-e2.jpg?ts=1786373244699&w=1920",
+        "https://static.zara.net/assets/public/e99e/ab07/3abd4796b6a1/adda14c25b9b/11519830032-e3/11519830032-e3.jpg?ts=1786373247268&w=1920",
+        "https://static.zara.net/assets/public/c771/9d92/8833434c8dbb/3d6c81067161/11519830032-e4/11519830032-e4.jpg?ts=1786373247906&w=1920",
+        "https://static.zara.net/assets/public/0bd5/af33/634840f38dab/2166881fd884/11519830032-e5/11519830032-e5.jpg?ts=1786373245155&w=1920",
+        "https://static.zara.net/assets/public/4a0b/755a/49334c53b804/741fd48ac90e/11519830032-e6/11519830032-e6.jpg?ts=1786373244155&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SNOOPY PEANUTS™ BACKPACK - Khaki Green - ONE SIZE ONLY",
+          "sku": "547749559-032-53",
+          "mpn": "547749559-032-53",
+          "color": "Khaki Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6496/d69d/635b412db501/f9df8c24a445/11519830032-e1/11519830032-e1.jpg?ts=1786373244411&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/snoopy-peanuts--backpack-p11519830.html?v1=547749559",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SNOOPY PEANUTS™ BACKPACK",
+      "product_group_id": "11519830",
+      "brand": "ZARA",
+      "description": "SNOOPY PEANUTS™ backpack. Features a main compartment and a front pocket with zip closure. Includes a top handle and dual adjustable shoulder straps.\n\nHeight x Width x Depth: 11.4 x 10.6 x 3.5 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SNOOPY PEANUTS™ BACKPACK - Khaki Green - ONE SIZE ONLY",
+          "sku": "547749559-032-53",
+          "mpn": "547749559-032-53",
+          "color_name": "Khaki Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/snoopy-peanuts--backpack-p11519830.html?v1=547749559",
+          "images": [
+            "https://static.zara.net/assets/public/6496/d69d/635b412db501/f9df8c24a445/11519830032-e1/11519830032-e1.jpg?ts=1786373244411&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6496/d69d/635b412db501/f9df8c24a445/11519830032-e1/11519830032-e1.jpg?ts=1786373244411&w=1920",
+        "https://static.zara.net/assets/public/0dd4/b5c1/44c9412585cd/05c97be4e42f/11519830032-e2/11519830032-e2.jpg?ts=1786373244699&w=1920",
+        "https://static.zara.net/assets/public/e99e/ab07/3abd4796b6a1/adda14c25b9b/11519830032-e3/11519830032-e3.jpg?ts=1786373247268&w=1920",
+        "https://static.zara.net/assets/public/c771/9d92/8833434c8dbb/3d6c81067161/11519830032-e4/11519830032-e4.jpg?ts=1786373247906&w=1920",
+        "https://static.zara.net/assets/public/0bd5/af33/634840f38dab/2166881fd884/11519830032-e5/11519830032-e5.jpg?ts=1786373245155&w=1920",
+        "https://static.zara.net/assets/public/4a0b/755a/49334c53b804/741fd48ac90e/11519830032-e6/11519830032-e6.jpg?ts=1786373244155&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nSNOOPY PEANUTS™ backpack. Features a main compartment and a front pocket with zip closure. Includes a top handle and dual adjustable shoulder straps.\nHeight x Width x Depth: 11.4 x 10.6 x 3.5 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ce10dfaa7d917bd83329dfc236824ec6d6a11772e0adb7b63dc0a928d80476a1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

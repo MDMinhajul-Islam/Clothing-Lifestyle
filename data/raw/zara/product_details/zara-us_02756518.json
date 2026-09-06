@@ -1,0 +1,233 @@
+{
+  "product_id": "zara-us:02756518",
+  "source_url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html",
+  "final_url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html",
+  "canonical_url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "REVERSIBLE GINGHAM KNIT VEST",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "REVERSIBLE GINGHAM KNIT VEST",
+      "url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html",
+      "productGroupID": "02756518",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Reversible knit vest featuring a Peter Pan collar and sleeveless design. Front patch pockets and teardrop button closure. Gingham print with embroidered floral details.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920",
+        "https://static.zara.net/assets/public/7690/03e4/7de44da48c19/d0580b5f1e13/02756518630-e2/02756518630-e2.jpg?ts=1785169720709&w=1920",
+        "https://static.zara.net/assets/public/bb20/3f6d/4c544dd8804a/fe4ab2ebaeaa/02756518630-e3/02756518630-e3.jpg?ts=1785169720240&w=1920",
+        "https://static.zara.net/assets/public/4b2c/217b/2e874b7e8a87/b997c407e0a8/02756518630-e4/02756518630-e4.jpg?ts=1785169720042&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "REVERSIBLE GINGHAM KNIT VEST - Fuchsia - 1/2 years (35 INCHES)",
+          "sku": "545485994-630-24",
+          "mpn": "545485994-630-24",
+          "color": "Fuchsia",
+          "size": "1/2 years (35 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html?v1=545485994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REVERSIBLE GINGHAM KNIT VEST - Fuchsia - 2/3 years (38,58 INCHES)",
+          "sku": "545485994-630-36",
+          "mpn": "545485994-630-36",
+          "color": "Fuchsia",
+          "size": "2/3 years (38,58 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html?v1=545485994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REVERSIBLE GINGHAM KNIT VEST - Fuchsia - 4/5 years (42,12 INCHES)",
+          "sku": "545485994-630-60",
+          "mpn": "545485994-630-60",
+          "color": "Fuchsia",
+          "size": "4/5 years (42,12 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html?v1=545485994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REVERSIBLE GINGHAM KNIT VEST - Fuchsia - 5/6 years (45,66 INCHES)",
+          "sku": "545485994-630-72",
+          "mpn": "545485994-630-72",
+          "color": "Fuchsia",
+          "size": "5/6 years (45,66 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html?v1=545485994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "REVERSIBLE GINGHAM KNIT VEST",
+      "product_group_id": "02756518",
+      "brand": "ZARA",
+      "description": "Reversible knit vest featuring a Peter Pan collar and sleeveless design. Front patch pockets and teardrop button closure. Gingham print with embroidered floral details.",
+      "material": null,
+      "composition": "LINING: 100% cotton | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "REVERSIBLE GINGHAM KNIT VEST - Fuchsia - 1/2 years (35 INCHES)",
+          "sku": "545485994-630-24",
+          "mpn": "545485994-630-24",
+          "color_name": "Fuchsia",
+          "size_name": "1/2 years (35 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html?v1=545485994",
+          "images": [
+            "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920"
+          ]
+        },
+        {
+          "name": "REVERSIBLE GINGHAM KNIT VEST - Fuchsia - 2/3 years (38,58 INCHES)",
+          "sku": "545485994-630-36",
+          "mpn": "545485994-630-36",
+          "color_name": "Fuchsia",
+          "size_name": "2/3 years (38,58 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html?v1=545485994",
+          "images": [
+            "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920"
+          ]
+        },
+        {
+          "name": "REVERSIBLE GINGHAM KNIT VEST - Fuchsia - 4/5 years (42,12 INCHES)",
+          "sku": "545485994-630-60",
+          "mpn": "545485994-630-60",
+          "color_name": "Fuchsia",
+          "size_name": "4/5 years (42,12 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html?v1=545485994",
+          "images": [
+            "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920"
+          ]
+        },
+        {
+          "name": "REVERSIBLE GINGHAM KNIT VEST - Fuchsia - 5/6 years (45,66 INCHES)",
+          "sku": "545485994-630-72",
+          "mpn": "545485994-630-72",
+          "color_name": "Fuchsia",
+          "size_name": "5/6 years (45,66 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/reversible-gingham-knit-vest-p02756518.html?v1=545485994",
+          "images": [
+            "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/862e/0aa8/111e404184e6/1672b56e7081/02756518630-e1/02756518630-e1.jpg?ts=1785169719846&w=1920",
+        "https://static.zara.net/assets/public/7690/03e4/7de44da48c19/d0580b5f1e13/02756518630-e2/02756518630-e2.jpg?ts=1785169720709&w=1920",
+        "https://static.zara.net/assets/public/bb20/3f6d/4c544dd8804a/fe4ab2ebaeaa/02756518630-e3/02756518630-e3.jpg?ts=1785169720240&w=1920",
+        "https://static.zara.net/assets/public/4b2c/217b/2e874b7e8a87/b997c407e0a8/02756518630-e4/02756518630-e4.jpg?ts=1785169720042&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nReversible knit vest featuring a Peter Pan collar and sleeveless design. Front patch pockets and teardrop button closure. Gingham print with embroidered floral details.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 4,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "06e0cf14c3746a28d876b2c080a98c18fbe761697287b6ff1f3590276222bf43",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

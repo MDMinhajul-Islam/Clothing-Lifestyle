@@ -1,0 +1,384 @@
+{
+  "product_id": "zara-us:16303830",
+  "source_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html",
+  "final_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html",
+  "canonical_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COLORFUL SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COLORFUL SNEAKERS",
+      "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html",
+      "productGroupID": "16303830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers with colorful accents and contrasting mesh detailing. Features a lace-up fastening and a back pull tab for easy wear. Finished with a chunky rubber sole and an OrthoLite® insole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920",
+        "https://static.zara.net/assets/public/17e9/7c88/5dbe4dfeaf4c/74191e3e3300/16303830001-e2/16303830001-e2.jpg?ts=1781857552322&w=1920",
+        "https://static.zara.net/assets/public/5ec1/63c1/3473454b898a/c115b6a15c03/16303830001-e3/16303830001-e3.jpg?ts=1781857553782&w=1920",
+        "https://static.zara.net/assets/public/fe52/33f2/d7214d81884a/8cbc7cc87dd2/16303830001-e4/16303830001-e4.jpg?ts=1781857554764&w=1920",
+        "https://static.zara.net/assets/public/4d5d/ebbd/5e5e432d86c5/ea4f12ddd341/16303830001-e5/16303830001-e5.jpg?ts=1781857553800&w=1920",
+        "https://static.zara.net/assets/public/b25b/9dbd/dbff4d949a71/0fd374e78e0f/16303830001-e6/16303830001-e6.jpg?ts=1781857553995&w=1920",
+        "https://static.zara.net/assets/public/7014/3583/71ac46ac8906/628d0faab5ce/16303830001-e7/16303830001-e7.jpg?ts=1781857552860&w=1920",
+        "https://static.zara.net/assets/public/7001/a2c8/e32b49bbba84/3e1e974f4abd/16303830001-e8/16303830001-e8.jpg?ts=1781857552938&w=1920",
+        "https://static.zara.net/assets/public/8f63/e965/8a2b41dcaa00/d09e18cbd820/16303830001-e9/16303830001-e9.jpg?ts=1781857552623&w=1920"
+      ],
+      "material": "polyurethane/polyester/rubber",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "55% polyurethane, 24% polyester, 15% rubber, 6% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COLORFUL SNEAKERS - White - 6½ (5.3 INCHES)",
+          "sku": "545437357-001-22",
+          "mpn": "545437357-001-22",
+          "color": "White",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORFUL SNEAKERS - White - 7 (5.6 INCHES)",
+          "sku": "545437357-001-23",
+          "mpn": "545437357-001-23",
+          "color": "White",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORFUL SNEAKERS - White - 8 (5.9 INCHES)",
+          "sku": "545437357-001-24",
+          "mpn": "545437357-001-24",
+          "color": "White",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORFUL SNEAKERS - White - 9 (6.1 INCHES)",
+          "sku": "545437357-001-25",
+          "mpn": "545437357-001-25",
+          "color": "White",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORFUL SNEAKERS - White - 9½ (6.4 INCHES)",
+          "sku": "545437357-001-26",
+          "mpn": "545437357-001-26",
+          "color": "White",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORFUL SNEAKERS - White - 10½ (6.6 INCHES)",
+          "sku": "545437357-001-27",
+          "mpn": "545437357-001-27",
+          "color": "White",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORFUL SNEAKERS - White - 11 (7.0 INCHES)",
+          "sku": "545437357-001-28",
+          "mpn": "545437357-001-28",
+          "color": "White",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORFUL SNEAKERS - White - 12 (7.2 INCHES)",
+          "sku": "545437357-001-29",
+          "mpn": "545437357-001-29",
+          "color": "White",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COLORFUL SNEAKERS",
+      "product_group_id": "16303830",
+      "brand": "ZARA",
+      "description": "Sneakers with colorful accents and contrasting mesh detailing. Features a lace-up fastening and a back pull tab for easy wear. Finished with a chunky rubber sole and an OrthoLite® insole.",
+      "material": "polyurethane/polyester/rubber",
+      "composition": "UPPER: 55% polyurethane, 24% polyester, 15% rubber, 6% polyurethane thermoplastic | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COLORFUL SNEAKERS - White - 6½ (5.3 INCHES)",
+          "sku": "545437357-001-22",
+          "mpn": "545437357-001-22",
+          "color_name": "White",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+          "images": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ]
+        },
+        {
+          "name": "COLORFUL SNEAKERS - White - 7 (5.6 INCHES)",
+          "sku": "545437357-001-23",
+          "mpn": "545437357-001-23",
+          "color_name": "White",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+          "images": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ]
+        },
+        {
+          "name": "COLORFUL SNEAKERS - White - 8 (5.9 INCHES)",
+          "sku": "545437357-001-24",
+          "mpn": "545437357-001-24",
+          "color_name": "White",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+          "images": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ]
+        },
+        {
+          "name": "COLORFUL SNEAKERS - White - 9 (6.1 INCHES)",
+          "sku": "545437357-001-25",
+          "mpn": "545437357-001-25",
+          "color_name": "White",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+          "images": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ]
+        },
+        {
+          "name": "COLORFUL SNEAKERS - White - 9½ (6.4 INCHES)",
+          "sku": "545437357-001-26",
+          "mpn": "545437357-001-26",
+          "color_name": "White",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+          "images": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ]
+        },
+        {
+          "name": "COLORFUL SNEAKERS - White - 10½ (6.6 INCHES)",
+          "sku": "545437357-001-27",
+          "mpn": "545437357-001-27",
+          "color_name": "White",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+          "images": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ]
+        },
+        {
+          "name": "COLORFUL SNEAKERS - White - 11 (7.0 INCHES)",
+          "sku": "545437357-001-28",
+          "mpn": "545437357-001-28",
+          "color_name": "White",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+          "images": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ]
+        },
+        {
+          "name": "COLORFUL SNEAKERS - White - 12 (7.2 INCHES)",
+          "sku": "545437357-001-29",
+          "mpn": "545437357-001-29",
+          "color_name": "White",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorful-sneakers-p16303830.html?v1=545437357",
+          "images": [
+            "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4a92/a0be/1ba34b359e6b/34c75e4a6663/16303830001-e1/16303830001-e1.jpg?ts=1781857553152&w=1920",
+        "https://static.zara.net/assets/public/17e9/7c88/5dbe4dfeaf4c/74191e3e3300/16303830001-e2/16303830001-e2.jpg?ts=1781857552322&w=1920",
+        "https://static.zara.net/assets/public/5ec1/63c1/3473454b898a/c115b6a15c03/16303830001-e3/16303830001-e3.jpg?ts=1781857553782&w=1920",
+        "https://static.zara.net/assets/public/fe52/33f2/d7214d81884a/8cbc7cc87dd2/16303830001-e4/16303830001-e4.jpg?ts=1781857554764&w=1920",
+        "https://static.zara.net/assets/public/4d5d/ebbd/5e5e432d86c5/ea4f12ddd341/16303830001-e5/16303830001-e5.jpg?ts=1781857553800&w=1920",
+        "https://static.zara.net/assets/public/b25b/9dbd/dbff4d949a71/0fd374e78e0f/16303830001-e6/16303830001-e6.jpg?ts=1781857553995&w=1920",
+        "https://static.zara.net/assets/public/7014/3583/71ac46ac8906/628d0faab5ce/16303830001-e7/16303830001-e7.jpg?ts=1781857552860&w=1920",
+        "https://static.zara.net/assets/public/7001/a2c8/e32b49bbba84/3e1e974f4abd/16303830001-e8/16303830001-e8.jpg?ts=1781857552938&w=1920",
+        "https://static.zara.net/assets/public/8f63/e965/8a2b41dcaa00/d09e18cbd820/16303830001-e9/16303830001-e9.jpg?ts=1781857552623&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nSneakers with colorful accents and contrasting mesh detailing. Features a lace-up fastening and a back pull tab for easy wear. Finished with a chunky rubber sole and an OrthoLite® insole.",
+  "comp_care_text": null,
+  "raw_images_count": 19,
+  "valid_images_count": 9,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.99",
+    "original_price": "49.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "29.99",
+    "dom_price": "49.90",
+    "normalized_price": "29.99",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '29.99' != DOM price '49.90'"
+  },
+  "source_content_hash": "927838dca3d2f5a65cea6d00f0b81406145fc5e7e2da997daee9aa6b759a8a77",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

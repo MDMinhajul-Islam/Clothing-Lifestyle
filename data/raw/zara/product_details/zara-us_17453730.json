@@ -1,0 +1,381 @@
+{
+  "product_id": "zara-us:17453730",
+  "source_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html",
+  "final_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html",
+  "canonical_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LACE-UP SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LACE-UP SNEAKERS",
+      "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html",
+      "productGroupID": "17453730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers made of 100% cotton with a contrasting color design. Adjustable laces and a voluminous rubber sole.\n\nSTARFIT®",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920",
+        "https://static.zara.net/assets/public/f7ab/46da/08264000a3dd/2598e6bd9c14/17453730700-e2/17453730700-e2.jpg?ts=1779367593536&w=1920",
+        "https://static.zara.net/assets/public/142e/7b49/a9e44393a78e/29dbea176962/17453730700-e3/17453730700-e3.jpg?ts=1779377024595&w=1920",
+        "https://static.zara.net/assets/public/07ef/2225/acef40b6b803/852e16372077/17453730700-e4/17453730700-e4.jpg?ts=1779367592864&w=1920",
+        "https://static.zara.net/assets/public/7017/1711/28fd46179992/e000be5d420b/17453730700-e5/17453730700-e5.jpg?ts=1779367593822&w=1920",
+        "https://static.zara.net/assets/public/a7e7/73bc/592c4e06829b/3dedf97bfb7d/17453730700-e6/17453730700-e6.jpg?ts=1779367593815&w=1920",
+        "https://static.zara.net/assets/public/6ba0/7a79/6f0a493ebc7c/d4beb0b34c4f/17453730700-e7/17453730700-e7.jpg?ts=1779367593882&w=1920",
+        "https://static.zara.net/assets/public/8241/298b/85454c59bf21/b082c8979a8b/17453730700-e8/17453730700-e8.jpg?ts=1779367593784&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LACE-UP SNEAKERS - Brown - 6½ (5.3 INCHES)",
+          "sku": "575659979-700-22",
+          "mpn": "575659979-700-22",
+          "color": "Brown",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE-UP SNEAKERS - Brown - 7 (5.6 INCHES)",
+          "sku": "575659979-700-23",
+          "mpn": "575659979-700-23",
+          "color": "Brown",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE-UP SNEAKERS - Brown - 8 (5.9 INCHES)",
+          "sku": "575659979-700-24",
+          "mpn": "575659979-700-24",
+          "color": "Brown",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE-UP SNEAKERS - Brown - 9 (6.1 INCHES)",
+          "sku": "575659979-700-25",
+          "mpn": "575659979-700-25",
+          "color": "Brown",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE-UP SNEAKERS - Brown - 9½ (6.4 INCHES)",
+          "sku": "575659979-700-26",
+          "mpn": "575659979-700-26",
+          "color": "Brown",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE-UP SNEAKERS - Brown - 10½ (6.6 INCHES)",
+          "sku": "575659979-700-27",
+          "mpn": "575659979-700-27",
+          "color": "Brown",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE-UP SNEAKERS - Brown - 11 (7.0 INCHES)",
+          "sku": "575659979-700-28",
+          "mpn": "575659979-700-28",
+          "color": "Brown",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE-UP SNEAKERS - Brown - 12 (7.2 INCHES)",
+          "sku": "575659979-700-29",
+          "mpn": "575659979-700-29",
+          "color": "Brown",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LACE-UP SNEAKERS",
+      "product_group_id": "17453730",
+      "brand": "ZARA",
+      "description": "Sneakers made of 100% cotton with a contrasting color design. Adjustable laces and a voluminous rubber sole.\n\nSTARFIT®",
+      "material": "100% cotton",
+      "composition": "UPPER: 100% cotton | LINING: 65% cotton, 35% polyester | SOLE: 100% rubber | INSOLE: 65% cotton, 35% polyester | TONGUE: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LACE-UP SNEAKERS - Brown - 6½ (5.3 INCHES)",
+          "sku": "575659979-700-22",
+          "mpn": "575659979-700-22",
+          "color_name": "Brown",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+          "images": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ]
+        },
+        {
+          "name": "LACE-UP SNEAKERS - Brown - 7 (5.6 INCHES)",
+          "sku": "575659979-700-23",
+          "mpn": "575659979-700-23",
+          "color_name": "Brown",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+          "images": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ]
+        },
+        {
+          "name": "LACE-UP SNEAKERS - Brown - 8 (5.9 INCHES)",
+          "sku": "575659979-700-24",
+          "mpn": "575659979-700-24",
+          "color_name": "Brown",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+          "images": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ]
+        },
+        {
+          "name": "LACE-UP SNEAKERS - Brown - 9 (6.1 INCHES)",
+          "sku": "575659979-700-25",
+          "mpn": "575659979-700-25",
+          "color_name": "Brown",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+          "images": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ]
+        },
+        {
+          "name": "LACE-UP SNEAKERS - Brown - 9½ (6.4 INCHES)",
+          "sku": "575659979-700-26",
+          "mpn": "575659979-700-26",
+          "color_name": "Brown",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+          "images": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ]
+        },
+        {
+          "name": "LACE-UP SNEAKERS - Brown - 10½ (6.6 INCHES)",
+          "sku": "575659979-700-27",
+          "mpn": "575659979-700-27",
+          "color_name": "Brown",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+          "images": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ]
+        },
+        {
+          "name": "LACE-UP SNEAKERS - Brown - 11 (7.0 INCHES)",
+          "sku": "575659979-700-28",
+          "mpn": "575659979-700-28",
+          "color_name": "Brown",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+          "images": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ]
+        },
+        {
+          "name": "LACE-UP SNEAKERS - Brown - 12 (7.2 INCHES)",
+          "sku": "575659979-700-29",
+          "mpn": "575659979-700-29",
+          "color_name": "Brown",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-sneakers-p17453730.html?v1=575659979",
+          "images": [
+            "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e923/b5c0/c08d4fee994e/dc32c81821f2/17453730700-e1/17453730700-e1.jpg?ts=1779367593830&w=1920",
+        "https://static.zara.net/assets/public/f7ab/46da/08264000a3dd/2598e6bd9c14/17453730700-e2/17453730700-e2.jpg?ts=1779367593536&w=1920",
+        "https://static.zara.net/assets/public/142e/7b49/a9e44393a78e/29dbea176962/17453730700-e3/17453730700-e3.jpg?ts=1779377024595&w=1920",
+        "https://static.zara.net/assets/public/07ef/2225/acef40b6b803/852e16372077/17453730700-e4/17453730700-e4.jpg?ts=1779367592864&w=1920",
+        "https://static.zara.net/assets/public/7017/1711/28fd46179992/e000be5d420b/17453730700-e5/17453730700-e5.jpg?ts=1779367593822&w=1920",
+        "https://static.zara.net/assets/public/a7e7/73bc/592c4e06829b/3dedf97bfb7d/17453730700-e6/17453730700-e6.jpg?ts=1779367593815&w=1920",
+        "https://static.zara.net/assets/public/6ba0/7a79/6f0a493ebc7c/d4beb0b34c4f/17453730700-e7/17453730700-e7.jpg?ts=1779367593882&w=1920",
+        "https://static.zara.net/assets/public/8241/298b/85454c59bf21/b082c8979a8b/17453730700-e8/17453730700-e8.jpg?ts=1779367593784&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nSneakers made of 100% cotton with a contrasting color design. Adjustable laces and a voluminous rubber sole.\nSTARFIT®",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a04e71178f8d70b17cd8893918860fbecefa482eb0f9afec7e03133589a8944b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

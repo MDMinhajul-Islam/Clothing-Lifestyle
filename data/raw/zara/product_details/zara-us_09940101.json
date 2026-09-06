@@ -1,0 +1,483 @@
+{
+  "product_id": "zara-us:09940101",
+  "source_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html",
+  "final_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html",
+  "canonical_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLAIN SWEATSHIRT AND LEGGING SET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLAIN SWEATSHIRT AND LEGGING SET",
+      "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html",
+      "productGroupID": "09940101",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Two-piece set. Round neck sweatshirt with long sleeves. Ribbed trim. Leggings with an elastic waistband.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920",
+        "https://static.zara.net/assets/public/c0c5/8064/c865449894f9/6f950a57da11/09940101140-e2/09940101140-e2.jpg?ts=1781772029917&w=1920",
+        "https://static.zara.net/assets/public/64c8/6dee/c626451fb8a7/22316e2446e6/09940101140-e3/09940101140-e3.jpg?ts=1781772030825&w=1920",
+        "https://static.zara.net/assets/public/b081/6ce5/dbb3490fa753/89fc7af88a55/09940101140-e4/09940101140-e4.jpg?ts=1781772031188&w=1920",
+        "https://static.zara.net/assets/public/660c/6f5d/d7d845d4bb95/d52949c0a0be/09940101140-e5/09940101140-e5.jpg?ts=1781772031084&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "62% cotton, 38% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 1½ years (33,9 INCHES)",
+          "sku": "545470255-140-18",
+          "mpn": "545470255-140-18",
+          "color": "140",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 2 years (36,2 INCHES)",
+          "sku": "545470255-140-24",
+          "mpn": "545470255-140-24",
+          "color": "140",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 3 years (38,6 INCHES)",
+          "sku": "545470255-140-36",
+          "mpn": "545470255-140-36",
+          "color": "140",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 4 years (40,9 INCHES)",
+          "sku": "545470255-140-48",
+          "mpn": "545470255-140-48",
+          "color": "140",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 5 years (43,3 INCHES)",
+          "sku": "545470255-140-60",
+          "mpn": "545470255-140-60",
+          "color": "140",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 6 years (45,2 INCHES)",
+          "sku": "545470255-140-72",
+          "mpn": "545470255-140-72",
+          "color": "140",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 1½ years (33,9 INCHES)",
+          "sku": "545470255-737-18",
+          "mpn": "545470255-737-18",
+          "color": "Brown / Taupe",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 2 years (36,2 INCHES)",
+          "sku": "545470255-737-24",
+          "mpn": "545470255-737-24",
+          "color": "Brown / Taupe",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 3 years (38,6 INCHES)",
+          "sku": "545470255-737-36",
+          "mpn": "545470255-737-36",
+          "color": "Brown / Taupe",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 4 years (40,9 INCHES)",
+          "sku": "545470255-737-48",
+          "mpn": "545470255-737-48",
+          "color": "Brown / Taupe",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 5 years (43,3 INCHES)",
+          "sku": "545470255-737-60",
+          "mpn": "545470255-737-60",
+          "color": "Brown / Taupe",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 6 years (45,2 INCHES)",
+          "sku": "545470255-737-72",
+          "mpn": "545470255-737-72",
+          "color": "Brown / Taupe",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLAIN SWEATSHIRT AND LEGGING SET",
+      "product_group_id": "09940101",
+      "brand": "ZARA",
+      "description": "Two-piece set. Round neck sweatshirt with long sleeves. Ribbed trim. Leggings with an elastic waistband.",
+      "material": "cotton/polyester",
+      "composition": "OUTER SHELL: 62% cotton, 38% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 1½ years (33,9 INCHES)",
+          "sku": "545470255-140-18",
+          "mpn": "545470255-140-18",
+          "color_name": "140",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+          "images": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 2 years (36,2 INCHES)",
+          "sku": "545470255-140-24",
+          "mpn": "545470255-140-24",
+          "color_name": "140",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+          "images": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 3 years (38,6 INCHES)",
+          "sku": "545470255-140-36",
+          "mpn": "545470255-140-36",
+          "color_name": "140",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+          "images": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 4 years (40,9 INCHES)",
+          "sku": "545470255-140-48",
+          "mpn": "545470255-140-48",
+          "color_name": "140",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+          "images": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 5 years (43,3 INCHES)",
+          "sku": "545470255-140-60",
+          "mpn": "545470255-140-60",
+          "color_name": "140",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+          "images": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - 140 - 6 years (45,2 INCHES)",
+          "sku": "545470255-140-72",
+          "mpn": "545470255-140-72",
+          "color_name": "140",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470255",
+          "images": [
+            "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 1½ years (33,9 INCHES)",
+          "sku": "545470255-737-18",
+          "mpn": "545470255-737-18",
+          "color_name": "Brown / Taupe",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+          "images": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 2 years (36,2 INCHES)",
+          "sku": "545470255-737-24",
+          "mpn": "545470255-737-24",
+          "color_name": "Brown / Taupe",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+          "images": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 3 years (38,6 INCHES)",
+          "sku": "545470255-737-36",
+          "mpn": "545470255-737-36",
+          "color_name": "Brown / Taupe",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+          "images": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 4 years (40,9 INCHES)",
+          "sku": "545470255-737-48",
+          "mpn": "545470255-737-48",
+          "color_name": "Brown / Taupe",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+          "images": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 5 years (43,3 INCHES)",
+          "sku": "545470255-737-60",
+          "mpn": "545470255-737-60",
+          "color_name": "Brown / Taupe",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+          "images": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN SWEATSHIRT AND LEGGING SET - Brown / Taupe - 6 years (45,2 INCHES)",
+          "sku": "545470255-737-72",
+          "mpn": "545470255-737-72",
+          "color_name": "Brown / Taupe",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-sweatshirt-and-legging-set-p09940101.html?v1=545470254",
+          "images": [
+            "https://static.zara.net/assets/public/2112/3625/b215460d9d40/8551855efdc9/09940101737-e1/09940101737-e1.jpg?ts=1781772025656&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a248/f71f/b74141c3be88/0942f5a62b48/09940101140-e1/09940101140-e1.jpg?ts=1781772030599&w=1920",
+        "https://static.zara.net/assets/public/c0c5/8064/c865449894f9/6f950a57da11/09940101140-e2/09940101140-e2.jpg?ts=1781772029917&w=1920",
+        "https://static.zara.net/assets/public/64c8/6dee/c626451fb8a7/22316e2446e6/09940101140-e3/09940101140-e3.jpg?ts=1781772030825&w=1920",
+        "https://static.zara.net/assets/public/b081/6ce5/dbb3490fa753/89fc7af88a55/09940101140-e4/09940101140-e4.jpg?ts=1781772031188&w=1920",
+        "https://static.zara.net/assets/public/660c/6f5d/d7d845d4bb95/d52949c0a0be/09940101140-e5/09940101140-e5.jpg?ts=1781772031084&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "140",
+    "Brown / Taupe"
+  ],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nTwo-piece set. Round neck sweatshirt with long sleeves. Ribbed trim. Leggings with an elastic waistband.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 6,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "174d0721e40bd9c5e716664af514895d9b684ed3b8ed239e9be5a6efb757806d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,291 @@
+{
+  "product_id": "zara-us:01880589",
+  "source_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html",
+  "final_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html",
+  "canonical_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CARGO SWEATPANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CARGO SWEATPANTS",
+      "url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html",
+      "productGroupID": "01880589",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sweatpants in a cargo style with an elasticized waistband and adjustable front drawstrings. Features front pockets and patch pockets with flaps on the sides.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920",
+        "https://static.zara.net/assets/public/2ec3/122e/d0ce422a8920/40752622d0a9/01880589700-e2/01880589700-e2.jpg?ts=1787744381937&w=1920",
+        "https://static.zara.net/assets/public/2ade/31e7/38324d2fb81e/61de525912b4/01880589700-e3/01880589700-e3.jpg?ts=1787744383151&w=1920",
+        "https://static.zara.net/assets/public/dd82/1511/58b0456fbe5a/bba91a378a45/01880589700-e4/01880589700-e4.jpg?ts=1787744382580&w=1920",
+        "https://static.zara.net/assets/public/d49b/532d/1d3d472cabc0/67ddee1f82e8/01880589700400-p/01880589700400-p.jpg?ts=1788273526560&w=1920",
+        "https://static.zara.net/assets/public/909e/05f8/9e27493db361/c792031cf465/01880589700400-a1/01880589700400-a1.jpg?ts=1788273527288&w=1920",
+        "https://static.zara.net/assets/public/57c0/5624/0b7a459b8de5/677cfe1c43e5/01880589700400-a2/01880589700400-a2.jpg?ts=1788348444509&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CARGO SWEATPANTS - Brown - 1½ years (33,9 INCHES)",
+          "sku": "555024313-700-18",
+          "mpn": "555024313-700-18",
+          "color": "Brown",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARGO SWEATPANTS - Brown - 2 years (36,2 INCHES)",
+          "sku": "555024313-700-24",
+          "mpn": "555024313-700-24",
+          "color": "Brown",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARGO SWEATPANTS - Brown - 3 years (38,6 INCHES)",
+          "sku": "555024313-700-36",
+          "mpn": "555024313-700-36",
+          "color": "Brown",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARGO SWEATPANTS - Brown - 4 years (40,9 INCHES)",
+          "sku": "555024313-700-48",
+          "mpn": "555024313-700-48",
+          "color": "Brown",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARGO SWEATPANTS - Brown - 5 years (43,3 INCHES)",
+          "sku": "555024313-700-60",
+          "mpn": "555024313-700-60",
+          "color": "Brown",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARGO SWEATPANTS - Brown - 6 years (45,2 INCHES)",
+          "sku": "555024313-700-72",
+          "mpn": "555024313-700-72",
+          "color": "Brown",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CARGO SWEATPANTS",
+      "product_group_id": "01880589",
+      "brand": "ZARA",
+      "description": "Sweatpants in a cargo style with an elasticized waistband and adjustable front drawstrings. Features front pockets and patch pockets with flaps on the sides.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CARGO SWEATPANTS - Brown - 1½ years (33,9 INCHES)",
+          "sku": "555024313-700-18",
+          "mpn": "555024313-700-18",
+          "color_name": "Brown",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+          "images": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ]
+        },
+        {
+          "name": "CARGO SWEATPANTS - Brown - 2 years (36,2 INCHES)",
+          "sku": "555024313-700-24",
+          "mpn": "555024313-700-24",
+          "color_name": "Brown",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+          "images": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ]
+        },
+        {
+          "name": "CARGO SWEATPANTS - Brown - 3 years (38,6 INCHES)",
+          "sku": "555024313-700-36",
+          "mpn": "555024313-700-36",
+          "color_name": "Brown",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+          "images": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ]
+        },
+        {
+          "name": "CARGO SWEATPANTS - Brown - 4 years (40,9 INCHES)",
+          "sku": "555024313-700-48",
+          "mpn": "555024313-700-48",
+          "color_name": "Brown",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+          "images": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ]
+        },
+        {
+          "name": "CARGO SWEATPANTS - Brown - 5 years (43,3 INCHES)",
+          "sku": "555024313-700-60",
+          "mpn": "555024313-700-60",
+          "color_name": "Brown",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+          "images": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ]
+        },
+        {
+          "name": "CARGO SWEATPANTS - Brown - 6 years (45,2 INCHES)",
+          "sku": "555024313-700-72",
+          "mpn": "555024313-700-72",
+          "color_name": "Brown",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fleece-cargo-pants-p01880589.html?v1=555024313",
+          "images": [
+            "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5591/308d/176d4ff1a31c/101ba39ab108/01880589700-e1/01880589700-e1.jpg?ts=1787744381560&w=1920",
+        "https://static.zara.net/assets/public/2ec3/122e/d0ce422a8920/40752622d0a9/01880589700-e2/01880589700-e2.jpg?ts=1787744381937&w=1920",
+        "https://static.zara.net/assets/public/2ade/31e7/38324d2fb81e/61de525912b4/01880589700-e3/01880589700-e3.jpg?ts=1787744383151&w=1920",
+        "https://static.zara.net/assets/public/dd82/1511/58b0456fbe5a/bba91a378a45/01880589700-e4/01880589700-e4.jpg?ts=1787744382580&w=1920",
+        "https://static.zara.net/assets/public/d49b/532d/1d3d472cabc0/67ddee1f82e8/01880589700400-p/01880589700400-p.jpg?ts=1788273526560&w=1920",
+        "https://static.zara.net/assets/public/909e/05f8/9e27493db361/c792031cf465/01880589700400-a1/01880589700400-a1.jpg?ts=1788273527288&w=1920",
+        "https://static.zara.net/assets/public/57c0/5624/0b7a459b8de5/677cfe1c43e5/01880589700400-a2/01880589700400-a2.jpg?ts=1788348444509&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "19.90",
+  "rendered_description": "Description\nSweatpants in a cargo style with an elasticized waistband and adjustable front drawstrings. Features front pockets and patch pockets with flaps on the sides.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "19.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "19.90",
+    "dom_price": "19.90",
+    "normalized_price": "19.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7cfd711cbda4408469e7b423fd5a195384059c019124b39a436001e8da868e30",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

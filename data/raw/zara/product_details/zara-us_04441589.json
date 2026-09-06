@@ -1,0 +1,290 @@
+{
+  "product_id": "zara-us:04441589",
+  "source_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html",
+  "final_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html",
+  "canonical_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BAGGY JEANS © DISNEY",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BAGGY JEANS © DISNEY",
+      "url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html",
+      "productGroupID": "04441589",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Baggy style jeans with elastic waistband and snap button closure. Front pockets and back patch pockets. Embroidered cross-stitch details © DISNEY.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920",
+        "https://static.zara.net/assets/public/dc6a/24ed/717f4ac09939/676717deb254/04441589427-e2/04441589427-e2.jpg?ts=1780400717629&w=1920",
+        "https://static.zara.net/assets/public/6a6b/92b2/68b44f178ae0/26bd1a4a8d93/04441589427-e3/04441589427-e3.jpg?ts=1780400717147&w=1920",
+        "https://static.zara.net/assets/public/8bc6/ec2f/9ab942c5bfb3/a553ad1b11a6/04441589427-e4/04441589427-e4.jpg?ts=1780400717109&w=1920",
+        "https://static.zara.net/assets/public/fa10/1691/8f8e4570ba42/076f35c63a0a/04441589427400-p/04441589427400-p.jpg?ts=1782467649535&w=1920",
+        "https://static.zara.net/assets/public/1a12/5110/bb484129b0a0/48493a6373b7/04441589427400-a1/04441589427400-a1.jpg?ts=1782467667635&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 1½ years (33,9 INCHES)",
+          "sku": "545485794-427-18",
+          "mpn": "545485794-427-18",
+          "color": "Mid-blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 2 years (36,2 INCHES)",
+          "sku": "545485794-427-24",
+          "mpn": "545485794-427-24",
+          "color": "Mid-blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 3 years (38,6 INCHES)",
+          "sku": "545485794-427-36",
+          "mpn": "545485794-427-36",
+          "color": "Mid-blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 4 years (40,9 INCHES)",
+          "sku": "545485794-427-48",
+          "mpn": "545485794-427-48",
+          "color": "Mid-blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 5 years (43,3 INCHES)",
+          "sku": "545485794-427-60",
+          "mpn": "545485794-427-60",
+          "color": "Mid-blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 6 years (45,2 INCHES)",
+          "sku": "545485794-427-72",
+          "mpn": "545485794-427-72",
+          "color": "Mid-blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BAGGY JEANS © DISNEY",
+      "product_group_id": "04441589",
+      "brand": "ZARA",
+      "description": "Baggy style jeans with elastic waistband and snap button closure. Front pockets and back patch pockets. Embroidered cross-stitch details © DISNEY.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 1½ years (33,9 INCHES)",
+          "sku": "545485794-427-18",
+          "mpn": "545485794-427-18",
+          "color_name": "Mid-blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+          "images": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 2 years (36,2 INCHES)",
+          "sku": "545485794-427-24",
+          "mpn": "545485794-427-24",
+          "color_name": "Mid-blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+          "images": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 3 years (38,6 INCHES)",
+          "sku": "545485794-427-36",
+          "mpn": "545485794-427-36",
+          "color_name": "Mid-blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+          "images": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 4 years (40,9 INCHES)",
+          "sku": "545485794-427-48",
+          "mpn": "545485794-427-48",
+          "color_name": "Mid-blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+          "images": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 5 years (43,3 INCHES)",
+          "sku": "545485794-427-60",
+          "mpn": "545485794-427-60",
+          "color_name": "Mid-blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+          "images": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS © DISNEY - Mid-blue - 6 years (45,2 INCHES)",
+          "sku": "545485794-427-72",
+          "mpn": "545485794-427-72",
+          "color_name": "Mid-blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans---disney-p04441589.html?v1=545485794",
+          "images": [
+            "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c725/b6ca/b3cf4e2b9e85/82741b45934e/04441589427-e1/04441589427-e1.jpg?ts=1780400716683&w=1920",
+        "https://static.zara.net/assets/public/dc6a/24ed/717f4ac09939/676717deb254/04441589427-e2/04441589427-e2.jpg?ts=1780400717629&w=1920",
+        "https://static.zara.net/assets/public/6a6b/92b2/68b44f178ae0/26bd1a4a8d93/04441589427-e3/04441589427-e3.jpg?ts=1780400717147&w=1920",
+        "https://static.zara.net/assets/public/8bc6/ec2f/9ab942c5bfb3/a553ad1b11a6/04441589427-e4/04441589427-e4.jpg?ts=1780400717109&w=1920",
+        "https://static.zara.net/assets/public/fa10/1691/8f8e4570ba42/076f35c63a0a/04441589427400-p/04441589427400-p.jpg?ts=1782467649535&w=1920",
+        "https://static.zara.net/assets/public/1a12/5110/bb484129b0a0/48493a6373b7/04441589427400-a1/04441589427400-a1.jpg?ts=1782467667635&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nBaggy style jeans with elastic waistband and snap button closure. Front pockets and back patch pockets. Embroidered cross-stitch details © DISNEY.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "252804b0fc2867cefd6a3ef73f5aac85d5054f13bd99b6517c846cd272fa0561",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

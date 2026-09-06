@@ -1,0 +1,373 @@
+{
+  "product_id": "zara-us:17411730",
+  "source_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html",
+  "final_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC SNEAKERS",
+      "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html",
+      "productGroupID": "17411730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers made of 81% cotton with a contrasting color design and a thin rubber sole. They fasten with elastic laces and include a hook-and-loop strap on the instep and a back pull tab for ease.\n\nSTARFIT®",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920",
+        "https://static.zara.net/assets/public/9f5d/94b3/b7d140c68513/14a1c86aa8d5/17411730111-e2/17411730111-e2.jpg?ts=1779438963071&w=1920",
+        "https://static.zara.net/assets/public/8866/50a4/13aa4eb7a59f/d145b0d88728/17411730111-e3/17411730111-e3.jpg?ts=1779438964463&w=1920",
+        "https://static.zara.net/assets/public/1a43/9828/7be145139e30/440472926f7f/17411730111-e4/17411730111-e4.jpg?ts=1779438964807&w=1920",
+        "https://static.zara.net/assets/public/7bc2/e321/51214635bbb1/fb152dee1fb8/17411730111-e5/17411730111-e5.jpg?ts=1779438963783&w=1920",
+        "https://static.zara.net/assets/public/ac7d/2d8b/370a495a9129/b3f55e8b16ab/17411730111-e6/17411730111-e6.jpg?ts=1779438964536&w=1920",
+        "https://static.zara.net/assets/public/f122/efed/673b43e6935d/b0035648c02a/17411730111-e7/17411730111-e7.jpg?ts=1779438966997&w=1920"
+      ],
+      "material": "cotton/polyester/elastodiene",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "81% cotton, 16% polyester, 3% elastodiene"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Light beige - 6½ (5.3 INCHES)",
+          "sku": "545494474-111-22",
+          "mpn": "545494474-111-22",
+          "color": "Light beige",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Light beige - 7 (5.6 INCHES)",
+          "sku": "545494474-111-23",
+          "mpn": "545494474-111-23",
+          "color": "Light beige",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Light beige - 8 (5.9 INCHES)",
+          "sku": "545494474-111-24",
+          "mpn": "545494474-111-24",
+          "color": "Light beige",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Light beige - 9 (6.1 INCHES)",
+          "sku": "545494474-111-25",
+          "mpn": "545494474-111-25",
+          "color": "Light beige",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Light beige - 9½ (6.4 INCHES)",
+          "sku": "545494474-111-26",
+          "mpn": "545494474-111-26",
+          "color": "Light beige",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Light beige - 10½ (6.6 INCHES)",
+          "sku": "545494474-111-27",
+          "mpn": "545494474-111-27",
+          "color": "Light beige",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Light beige - 11 (7.0 INCHES)",
+          "sku": "545494474-111-28",
+          "mpn": "545494474-111-28",
+          "color": "Light beige",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Light beige - 12 (7.2 INCHES)",
+          "sku": "545494474-111-29",
+          "mpn": "545494474-111-29",
+          "color": "Light beige",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC SNEAKERS",
+      "product_group_id": "17411730",
+      "brand": "ZARA",
+      "description": "Sneakers made of 81% cotton with a contrasting color design and a thin rubber sole. They fasten with elastic laces and include a hook-and-loop strap on the instep and a back pull tab for ease.\n\nSTARFIT®",
+      "material": "cotton/polyester/elastodiene",
+      "composition": "UPPER: 81% cotton, 16% polyester, 3% elastodiene | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC SNEAKERS - Light beige - 6½ (5.3 INCHES)",
+          "sku": "545494474-111-22",
+          "mpn": "545494474-111-22",
+          "color_name": "Light beige",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+          "images": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Light beige - 7 (5.6 INCHES)",
+          "sku": "545494474-111-23",
+          "mpn": "545494474-111-23",
+          "color_name": "Light beige",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+          "images": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Light beige - 8 (5.9 INCHES)",
+          "sku": "545494474-111-24",
+          "mpn": "545494474-111-24",
+          "color_name": "Light beige",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+          "images": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Light beige - 9 (6.1 INCHES)",
+          "sku": "545494474-111-25",
+          "mpn": "545494474-111-25",
+          "color_name": "Light beige",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+          "images": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Light beige - 9½ (6.4 INCHES)",
+          "sku": "545494474-111-26",
+          "mpn": "545494474-111-26",
+          "color_name": "Light beige",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+          "images": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Light beige - 10½ (6.6 INCHES)",
+          "sku": "545494474-111-27",
+          "mpn": "545494474-111-27",
+          "color_name": "Light beige",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+          "images": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Light beige - 11 (7.0 INCHES)",
+          "sku": "545494474-111-28",
+          "mpn": "545494474-111-28",
+          "color_name": "Light beige",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+          "images": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Light beige - 12 (7.2 INCHES)",
+          "sku": "545494474-111-29",
+          "mpn": "545494474-111-29",
+          "color_name": "Light beige",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p17411730.html?v1=545494474",
+          "images": [
+            "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fd95/d24c/309440cbaaef/b5d869d6ffc8/17411730111-e1/17411730111-e1.jpg?ts=1779438965820&w=1920",
+        "https://static.zara.net/assets/public/9f5d/94b3/b7d140c68513/14a1c86aa8d5/17411730111-e2/17411730111-e2.jpg?ts=1779438963071&w=1920",
+        "https://static.zara.net/assets/public/8866/50a4/13aa4eb7a59f/d145b0d88728/17411730111-e3/17411730111-e3.jpg?ts=1779438964463&w=1920",
+        "https://static.zara.net/assets/public/1a43/9828/7be145139e30/440472926f7f/17411730111-e4/17411730111-e4.jpg?ts=1779438964807&w=1920",
+        "https://static.zara.net/assets/public/7bc2/e321/51214635bbb1/fb152dee1fb8/17411730111-e5/17411730111-e5.jpg?ts=1779438963783&w=1920",
+        "https://static.zara.net/assets/public/ac7d/2d8b/370a495a9129/b3f55e8b16ab/17411730111-e6/17411730111-e6.jpg?ts=1779438964536&w=1920",
+        "https://static.zara.net/assets/public/f122/efed/673b43e6935d/b0035648c02a/17411730111-e7/17411730111-e7.jpg?ts=1779438966997&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nSneakers made of 81% cotton with a contrasting color design and a thin rubber sole. They fasten with elastic laces and include a hook-and-loop strap on the instep and a back pull tab for ease.\nSTARFIT®",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3d947d60a4c06b405bdd321184c4fc4b9f72a7de54ec54b0d44cbada2cb328f3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

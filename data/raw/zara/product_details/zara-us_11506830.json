@@ -1,0 +1,140 @@
+{
+  "product_id": "zara-us:11506830",
+  "source_url": "https://www.zara.com/us/en/multicolor-backpack-p11506830.html",
+  "final_url": "https://www.zara.com/us/en/multicolor-backpack-p11506830.html",
+  "canonical_url": "https://www.zara.com/us/en/multicolor-backpack-p11506830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COLORBLOCK BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COLORBLOCK BACKPACK",
+      "url": "https://www.zara.com/us/en/multicolor-backpack-p11506830.html",
+      "productGroupID": "11506830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Colorblock backpack. Features a main compartment and front zip pocket, side mesh pockets, and dual adjustable shoulder straps.\n\nHeight x Length x Width: 11.8 x 10.6 x 3.5 inches (30 x 27 x 9 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9b9c/6495/30b24657818d/bc6989485181/11506830202-e1/11506830202-e1.jpg?ts=1779723123629&w=1920",
+        "https://static.zara.net/assets/public/37ed/a927/9fa44fa49597/ea439fe7903e/11506830202-e2/11506830202-e2.jpg?ts=1779723122084&w=1920",
+        "https://static.zara.net/assets/public/f6bf/4fab/4f834303be0b/f62bbd7faf9e/11506830202-e3/11506830202-e3.jpg?ts=1779723122707&w=1920",
+        "https://static.zara.net/assets/public/ee7d/f8ae/c7a042c68188/8dd59fcce845/11506830202-e4/11506830202-e4.jpg?ts=1779723122058&w=1920",
+        "https://static.zara.net/assets/public/40f4/a762/abbd49329c3e/5a83dd8cc1d0/11506830202-e5/11506830202-e5.jpg?ts=1779723122735&w=1920",
+        "https://static.zara.net/assets/public/cee8/c8a9/0a204b63a342/2eb8ba161fef/11506830202-e6/11506830202-e6.jpg?ts=1779723122859&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyethylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COLORBLOCK BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545486117-202-53",
+          "mpn": "545486117-202-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/9b9c/6495/30b24657818d/bc6989485181/11506830202-e1/11506830202-e1.jpg?ts=1779723123629&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/multicolor-backpack-p11506830.html?v1=545486117",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COLORBLOCK BACKPACK",
+      "product_group_id": "11506830",
+      "brand": "ZARA",
+      "description": "Colorblock backpack. Features a main compartment and front zip pocket, side mesh pockets, and dual adjustable shoulder straps.\n\nHeight x Length x Width: 11.8 x 10.6 x 3.5 inches (30 x 27 x 9 cm)",
+      "material": null,
+      "composition": "LINING: 100% polyester | FILLING: 100% polyethylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COLORBLOCK BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545486117-202-53",
+          "mpn": "545486117-202-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multicolor-backpack-p11506830.html?v1=545486117",
+          "images": [
+            "https://static.zara.net/assets/public/9b9c/6495/30b24657818d/bc6989485181/11506830202-e1/11506830202-e1.jpg?ts=1779723123629&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9b9c/6495/30b24657818d/bc6989485181/11506830202-e1/11506830202-e1.jpg?ts=1779723123629&w=1920",
+        "https://static.zara.net/assets/public/37ed/a927/9fa44fa49597/ea439fe7903e/11506830202-e2/11506830202-e2.jpg?ts=1779723122084&w=1920",
+        "https://static.zara.net/assets/public/f6bf/4fab/4f834303be0b/f62bbd7faf9e/11506830202-e3/11506830202-e3.jpg?ts=1779723122707&w=1920",
+        "https://static.zara.net/assets/public/ee7d/f8ae/c7a042c68188/8dd59fcce845/11506830202-e4/11506830202-e4.jpg?ts=1779723122058&w=1920",
+        "https://static.zara.net/assets/public/40f4/a762/abbd49329c3e/5a83dd8cc1d0/11506830202-e5/11506830202-e5.jpg?ts=1779723122735&w=1920",
+        "https://static.zara.net/assets/public/cee8/c8a9/0a204b63a342/2eb8ba161fef/11506830202-e6/11506830202-e6.jpg?ts=1779723122859&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nColorblock backpack. Features a main compartment and front zip pocket, side mesh pockets, and dual adjustable shoulder straps.\nHeight x Length x Width: 11.8 x 10.6 x 3.5 inches (30 x 27 x 9 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ed903b8bdcd7c56553978d5026778bea096b2fb8b3f3d0e3b4edd080e6d021f9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

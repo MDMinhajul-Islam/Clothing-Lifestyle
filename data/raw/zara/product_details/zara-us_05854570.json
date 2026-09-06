@@ -1,0 +1,306 @@
+{
+  "product_id": "zara-us:05854570",
+  "source_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html",
+  "final_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html",
+  "canonical_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "QUILTED PLAID LINED TRENCH COAT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "QUILTED PLAID LINED TRENCH COAT",
+      "url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html",
+      "productGroupID": "05854570",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Trench coat with lapel collar and long sleeves. Double-breasted front closure. Adjustable belt at waist. Front welt pockets. Quilted interior lining with plaid print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920",
+        "https://static.zara.net/assets/public/1acb/2af6/56334f0699c4/6e55dbd7b8a1/05854570710-e2/05854570710-e2.jpg?ts=1784558177673&w=1920",
+        "https://static.zara.net/assets/public/ca33/da64/80804bacbfcf/db3cc0dfe1ad/05854570710-e3/05854570710-e3.jpg?ts=1784558177798&w=1920",
+        "https://static.zara.net/assets/public/2d73/644d/d90942919515/28c1fefa1d6f/05854570710-e4/05854570710-e4.jpg?ts=1784558177333&w=1920",
+        "https://static.zara.net/assets/public/3071/648d/f3a7459f84b7/bd2f0387606a/05854570710-e5/05854570710-e5.jpg?ts=1784558179082&w=1920",
+        "https://static.zara.net/assets/public/2d58/433d/92a24b1f9c26/4a6838f65e09/05854570710-e6/05854570710-e6.jpg?ts=1784558177808&w=1920",
+        "https://static.zara.net/assets/public/81a0/b3c0/7d44446a942b/d8bf6f892189/05854570710-e7/05854570710-e7.jpg?ts=1784558178180&w=1920",
+        "https://static.zara.net/assets/public/8f40/6812/b0394c23a390/78b42c90cf96/05854570710-e8/05854570710-e8.jpg?ts=1784558177590&w=1920"
+      ],
+      "material": "cotton/elastomultiester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "60% cotton, 40% elastomultiester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 1½ years (33,9 INCHES)",
+          "sku": "545453635-710-18",
+          "mpn": "545453635-710-18",
+          "color": "Beige",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 2 years (36,2 INCHES)",
+          "sku": "545453635-710-24",
+          "mpn": "545453635-710-24",
+          "color": "Beige",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 3 years (38,6 INCHES)",
+          "sku": "545453635-710-36",
+          "mpn": "545453635-710-36",
+          "color": "Beige",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 4 years (40,9 INCHES)",
+          "sku": "545453635-710-48",
+          "mpn": "545453635-710-48",
+          "color": "Beige",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 5 years (43,3 INCHES)",
+          "sku": "545453635-710-60",
+          "mpn": "545453635-710-60",
+          "color": "Beige",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 6 years (45,2 INCHES)",
+          "sku": "545453635-710-72",
+          "mpn": "545453635-710-72",
+          "color": "Beige",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "QUILTED PLAID LINED TRENCH COAT",
+      "product_group_id": "05854570",
+      "brand": "ZARA",
+      "description": "Trench coat with lapel collar and long sleeves. Double-breasted front closure. Adjustable belt at waist. Front welt pockets. Quilted interior lining with plaid print.",
+      "material": "cotton/elastomultiester",
+      "composition": "OUTER SHELL: 60% cotton, 40% elastomultiester | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 1½ years (33,9 INCHES)",
+          "sku": "545453635-710-18",
+          "mpn": "545453635-710-18",
+          "color_name": "Beige",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+          "images": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ]
+        },
+        {
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 2 years (36,2 INCHES)",
+          "sku": "545453635-710-24",
+          "mpn": "545453635-710-24",
+          "color_name": "Beige",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+          "images": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ]
+        },
+        {
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 3 years (38,6 INCHES)",
+          "sku": "545453635-710-36",
+          "mpn": "545453635-710-36",
+          "color_name": "Beige",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+          "images": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ]
+        },
+        {
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 4 years (40,9 INCHES)",
+          "sku": "545453635-710-48",
+          "mpn": "545453635-710-48",
+          "color_name": "Beige",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+          "images": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ]
+        },
+        {
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 5 years (43,3 INCHES)",
+          "sku": "545453635-710-60",
+          "mpn": "545453635-710-60",
+          "color_name": "Beige",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+          "images": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ]
+        },
+        {
+          "name": "QUILTED PLAID LINED TRENCH COAT - Beige - 6 years (45,2 INCHES)",
+          "sku": "545453635-710-72",
+          "mpn": "545453635-710-72",
+          "color_name": "Beige",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-lined-quilted-trench-coat-p05854570.html?v1=545453635",
+          "images": [
+            "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/79e7/b203/bb9a455395dd/554467ddf4c8/05854570710-e1/05854570710-e1.jpg?ts=1784558177618&w=1920",
+        "https://static.zara.net/assets/public/1acb/2af6/56334f0699c4/6e55dbd7b8a1/05854570710-e2/05854570710-e2.jpg?ts=1784558177673&w=1920",
+        "https://static.zara.net/assets/public/ca33/da64/80804bacbfcf/db3cc0dfe1ad/05854570710-e3/05854570710-e3.jpg?ts=1784558177798&w=1920",
+        "https://static.zara.net/assets/public/2d73/644d/d90942919515/28c1fefa1d6f/05854570710-e4/05854570710-e4.jpg?ts=1784558177333&w=1920",
+        "https://static.zara.net/assets/public/3071/648d/f3a7459f84b7/bd2f0387606a/05854570710-e5/05854570710-e5.jpg?ts=1784558179082&w=1920",
+        "https://static.zara.net/assets/public/2d58/433d/92a24b1f9c26/4a6838f65e09/05854570710-e6/05854570710-e6.jpg?ts=1784558177808&w=1920",
+        "https://static.zara.net/assets/public/81a0/b3c0/7d44446a942b/d8bf6f892189/05854570710-e7/05854570710-e7.jpg?ts=1784558178180&w=1920",
+        "https://static.zara.net/assets/public/8f40/6812/b0394c23a390/78b42c90cf96/05854570710-e8/05854570710-e8.jpg?ts=1784558177590&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nTrench coat with lapel collar and long sleeves. Double-breasted front closure. Adjustable belt at waist. Front welt pockets. Quilted interior lining with plaid print.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 8,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d4774743e799df14235e535604e38ac43b14757c8870a58adc98b2fa76d290e7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

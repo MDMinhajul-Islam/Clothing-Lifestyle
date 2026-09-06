@@ -1,0 +1,175 @@
+{
+  "product_id": "zara-us:11542830",
+  "source_url": "https://www.zara.com/us/en/quilted-pouch-p11542830.html",
+  "final_url": "https://www.zara.com/us/en/quilted-pouch-p11542830.html",
+  "canonical_url": "https://www.zara.com/us/en/quilted-pouch-p11542830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "QUILTED POUCH",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "QUILTED POUCH",
+      "url": "https://www.zara.com/us/en/quilted-pouch-p11542830.html",
+      "productGroupID": "11542830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Quilted toiletry bag in a color-block design. Features a main compartment with zip closure and a side handle.\n\nHeight x Length x Width: 8.3 x 3.9 x 3.5 inches (21 x 10 x 9 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7a99/74b3/2e7d47ec8310/92e328a1c5ed/11542830202-e1/11542830202-e1.jpg?ts=1783415186510&w=1920",
+        "https://static.zara.net/assets/public/c02d/9f45/2fa54a45baa0/0f2c8e4c1f77/11542830202-e2/11542830202-e2.jpg?ts=1783415186506&w=1920",
+        "https://static.zara.net/assets/public/2b23/272c/eb31420f87a8/3cc05f74a57c/11542830202-e3/11542830202-e3.jpg?ts=1783415186297&w=1920",
+        "https://static.zara.net/assets/public/e33d/b1f6/d3014d2fa060/609a0214ede0/11542830202-e4/11542830202-e4.jpg?ts=1783415185292&w=1920",
+        "https://static.zara.net/assets/public/96f4/0ecb/a1a34a668b6d/2f2d22b03d4a/11542830202-e5/11542830202-e5.jpg?ts=1783415185328&w=1920",
+        "https://static.zara.net/assets/public/dcd8/f529/64dc4a5292c4/321ebd7e4781/11542830202-e6/11542830202-e6.jpg?ts=1783415186411&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyethylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "QUILTED POUCH - Multi-color - ONE SIZE ONLY",
+          "sku": "548990056-202-53",
+          "mpn": "548990056-202-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/7a99/74b3/2e7d47ec8310/92e328a1c5ed/11542830202-e1/11542830202-e1.jpg?ts=1783415186510&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/quilted-pouch-p11542830.html?v1=548990056",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "QUILTED POUCH - Multi-color - ONE SIZE ONLY",
+          "sku": "548990056-203-53",
+          "mpn": "548990056-203-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/adfc/b0a8/c1944d089331/498471f43313/11543830203-e1/11543830203-e1.jpg?ts=1783415953801&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/quilted-pouch-p11542830.html?v1=548990057",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "QUILTED POUCH",
+      "product_group_id": "11542830",
+      "brand": "ZARA",
+      "description": "Quilted toiletry bag in a color-block design. Features a main compartment with zip closure and a side handle.\n\nHeight x Length x Width: 8.3 x 3.9 x 3.5 inches (21 x 10 x 9 cm)",
+      "material": null,
+      "composition": "LINING: 100% polyester | FILLING: 100% polyethylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "QUILTED POUCH - Multi-color - ONE SIZE ONLY",
+          "sku": "548990056-202-53",
+          "mpn": "548990056-202-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/quilted-pouch-p11542830.html?v1=548990056",
+          "images": [
+            "https://static.zara.net/assets/public/7a99/74b3/2e7d47ec8310/92e328a1c5ed/11542830202-e1/11542830202-e1.jpg?ts=1783415186510&w=1920"
+          ]
+        },
+        {
+          "name": "QUILTED POUCH - Multi-color - ONE SIZE ONLY",
+          "sku": "548990056-203-53",
+          "mpn": "548990056-203-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/quilted-pouch-p11542830.html?v1=548990057",
+          "images": [
+            "https://static.zara.net/assets/public/adfc/b0a8/c1944d089331/498471f43313/11543830203-e1/11543830203-e1.jpg?ts=1783415953801&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7a99/74b3/2e7d47ec8310/92e328a1c5ed/11542830202-e1/11542830202-e1.jpg?ts=1783415186510&w=1920",
+        "https://static.zara.net/assets/public/c02d/9f45/2fa54a45baa0/0f2c8e4c1f77/11542830202-e2/11542830202-e2.jpg?ts=1783415186506&w=1920",
+        "https://static.zara.net/assets/public/2b23/272c/eb31420f87a8/3cc05f74a57c/11542830202-e3/11542830202-e3.jpg?ts=1783415186297&w=1920",
+        "https://static.zara.net/assets/public/e33d/b1f6/d3014d2fa060/609a0214ede0/11542830202-e4/11542830202-e4.jpg?ts=1783415185292&w=1920",
+        "https://static.zara.net/assets/public/96f4/0ecb/a1a34a668b6d/2f2d22b03d4a/11542830202-e5/11542830202-e5.jpg?ts=1783415185328&w=1920",
+        "https://static.zara.net/assets/public/dcd8/f529/64dc4a5292c4/321ebd7e4781/11542830202-e6/11542830202-e6.jpg?ts=1783415186411&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Multi-color"
+  ],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nQuilted toiletry bag in a color-block design. Features a main compartment with zip closure and a side handle.\nHeight x Length x Width: 8.3 x 3.9 x 3.5 inches (21 x 10 x 9 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e47fe29a61e691c4a7ed76561b224df66e444b474f008e95a33faa856210d8ec",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

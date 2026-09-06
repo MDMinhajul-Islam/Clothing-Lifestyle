@@ -1,0 +1,140 @@
+{
+  "product_id": "zara-us:11529830",
+  "source_url": "https://www.zara.com/us/en/dog-backpack-p11529830.html",
+  "final_url": "https://www.zara.com/us/en/dog-backpack-p11529830.html",
+  "canonical_url": "https://www.zara.com/us/en/dog-backpack-p11529830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PUPPY BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PUPPY BACKPACK",
+      "url": "https://www.zara.com/us/en/dog-backpack-p11529830.html",
+      "productGroupID": "11529830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Puppy-shaped backpack with a curly faux-fur finish. Features a main compartment with a zipper closure, a top handle, and dual adjustable shoulder straps.\n\nHeight x Width x Depth: 11.4 x 10.6 x 3.5 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0720/aeec/b2794924a5a4/541213155e8e/11529830700-e1/11529830700-e1.jpg?ts=1786431013581&w=1920",
+        "https://static.zara.net/assets/public/8750/8067/666f4a59ac50/592c2a0c1f96/11529830700-e2/11529830700-e2.jpg?ts=1786431014216&w=1920",
+        "https://static.zara.net/assets/public/a5c1/8a96/487d4d2997c8/9ab302e593bd/11529830700-e3/11529830700-e3.jpg?ts=1786431013071&w=1920",
+        "https://static.zara.net/assets/public/88a8/6a92/30a640c39e1e/c8d81297d574/11529830700-e4/11529830700-e4.jpg?ts=1786431013993&w=1920",
+        "https://static.zara.net/assets/public/b1fc/a2e6/fa4e465ea166/c6bed62ccbf1/11529830700-e5/11529830700-e5.jpg?ts=1786431013637&w=1920",
+        "https://static.zara.net/assets/public/71d2/4da5/e22144f29366/e2d38fd3b710/11529830700-e6/11529830700-e6.jpg?ts=1786431014237&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PUPPY BACKPACK - Brown - ONE SIZE ONLY",
+          "sku": "545474698-700-53",
+          "mpn": "545474698-700-53",
+          "color": "Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0720/aeec/b2794924a5a4/541213155e8e/11529830700-e1/11529830700-e1.jpg?ts=1786431013581&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/dog-backpack-p11529830.html?v1=545474698",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PUPPY BACKPACK",
+      "product_group_id": "11529830",
+      "brand": "ZARA",
+      "description": "Puppy-shaped backpack with a curly faux-fur finish. Features a main compartment with a zipper closure, a top handle, and dual adjustable shoulder straps.\n\nHeight x Width x Depth: 11.4 x 10.6 x 3.5 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PUPPY BACKPACK - Brown - ONE SIZE ONLY",
+          "sku": "545474698-700-53",
+          "mpn": "545474698-700-53",
+          "color_name": "Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dog-backpack-p11529830.html?v1=545474698",
+          "images": [
+            "https://static.zara.net/assets/public/0720/aeec/b2794924a5a4/541213155e8e/11529830700-e1/11529830700-e1.jpg?ts=1786431013581&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0720/aeec/b2794924a5a4/541213155e8e/11529830700-e1/11529830700-e1.jpg?ts=1786431013581&w=1920",
+        "https://static.zara.net/assets/public/8750/8067/666f4a59ac50/592c2a0c1f96/11529830700-e2/11529830700-e2.jpg?ts=1786431014216&w=1920",
+        "https://static.zara.net/assets/public/a5c1/8a96/487d4d2997c8/9ab302e593bd/11529830700-e3/11529830700-e3.jpg?ts=1786431013071&w=1920",
+        "https://static.zara.net/assets/public/88a8/6a92/30a640c39e1e/c8d81297d574/11529830700-e4/11529830700-e4.jpg?ts=1786431013993&w=1920",
+        "https://static.zara.net/assets/public/b1fc/a2e6/fa4e465ea166/c6bed62ccbf1/11529830700-e5/11529830700-e5.jpg?ts=1786431013637&w=1920",
+        "https://static.zara.net/assets/public/71d2/4da5/e22144f29366/e2d38fd3b710/11529830700-e6/11529830700-e6.jpg?ts=1786431014237&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nPuppy-shaped backpack with a curly faux-fur finish. Features a main compartment with a zipper closure, a top handle, and dual adjustable shoulder straps.\nHeight x Width x Depth: 11.4 x 10.6 x 3.5 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2d6d786542d0bd3c24f2e7326d89b99e32b2f1c1273d7c43da6a8fbed1f253dd",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

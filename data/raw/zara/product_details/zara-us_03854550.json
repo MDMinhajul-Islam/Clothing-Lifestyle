@@ -1,0 +1,288 @@
+{
+  "product_id": "zara-us:03854550",
+  "source_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html",
+  "final_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED VARSITY SWEATSHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED VARSITY SWEATSHIRT",
+      "url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html",
+      "productGroupID": "03854550",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Long sleeve sweatshirt with a stand-up collar. Yoke zip fastening. Ribbed trims. Striped varsity print on the chest. Label appliqué on the back. Brushed interior for a warm and soft feel.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920",
+        "https://static.zara.net/assets/public/5bea/4702/ada54b6bb670/3b1fe20ffa22/03854550606-e2/03854550606-e2.jpg?ts=1788182684770&w=1920",
+        "https://static.zara.net/assets/public/b064/c310/402f47159e5a/edb2c634a633/03854550606-e3/03854550606-e3.jpg?ts=1788182684438&w=1920",
+        "https://static.zara.net/assets/public/12d4/4f54/e5874815b92d/0e5f98645e4a/03854550606-e4/03854550606-e4.jpg?ts=1788182685448&w=1920",
+        "https://static.zara.net/assets/public/0934/5d37/de77494ea11b/d182cc3695c5/03854555052-p/03854555052-p.jpg?ts=1788515187950&w=1920",
+        "https://static.zara.net/assets/public/f986/b735/dfa8416285ee/a7ccf3e7c150/04456572606-a1/04456572606-a1.jpg?ts=1788515179178&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 1½ years (33,9 INCHES)",
+          "sku": "557896633-606-18",
+          "mpn": "557896633-606-18",
+          "color": "Burgundy",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 2 years (36,2 INCHES)",
+          "sku": "557896633-606-24",
+          "mpn": "557896633-606-24",
+          "color": "Burgundy",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 3 years (38,6 INCHES)",
+          "sku": "557896633-606-36",
+          "mpn": "557896633-606-36",
+          "color": "Burgundy",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 4 years (40,9 INCHES)",
+          "sku": "557896633-606-48",
+          "mpn": "557896633-606-48",
+          "color": "Burgundy",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 5 years (43,3 INCHES)",
+          "sku": "557896633-606-60",
+          "mpn": "557896633-606-60",
+          "color": "Burgundy",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 6 years (45,2 INCHES)",
+          "sku": "557896633-606-72",
+          "mpn": "557896633-606-72",
+          "color": "Burgundy",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED VARSITY SWEATSHIRT",
+      "product_group_id": "03854550",
+      "brand": "ZARA",
+      "description": "Long sleeve sweatshirt with a stand-up collar. Yoke zip fastening. Ribbed trims. Striped varsity print on the chest. Label appliqué on the back. Brushed interior for a warm and soft feel.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 1½ years (33,9 INCHES)",
+          "sku": "557896633-606-18",
+          "mpn": "557896633-606-18",
+          "color_name": "Burgundy",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+          "images": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 2 years (36,2 INCHES)",
+          "sku": "557896633-606-24",
+          "mpn": "557896633-606-24",
+          "color_name": "Burgundy",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+          "images": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 3 years (38,6 INCHES)",
+          "sku": "557896633-606-36",
+          "mpn": "557896633-606-36",
+          "color_name": "Burgundy",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+          "images": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 4 years (40,9 INCHES)",
+          "sku": "557896633-606-48",
+          "mpn": "557896633-606-48",
+          "color_name": "Burgundy",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+          "images": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 5 years (43,3 INCHES)",
+          "sku": "557896633-606-60",
+          "mpn": "557896633-606-60",
+          "color_name": "Burgundy",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+          "images": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED VARSITY SWEATSHIRT - Burgundy - 6 years (45,2 INCHES)",
+          "sku": "557896633-606-72",
+          "mpn": "557896633-606-72",
+          "color_name": "Burgundy",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-varsity-sweatshirt-p03854550.html?v1=557896633",
+          "images": [
+            "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/370b/fe89/3f2741418eb2/c59b0e65d9d1/03854550606-e1/03854550606-e1.jpg?ts=1788182682700&w=1920",
+        "https://static.zara.net/assets/public/5bea/4702/ada54b6bb670/3b1fe20ffa22/03854550606-e2/03854550606-e2.jpg?ts=1788182684770&w=1920",
+        "https://static.zara.net/assets/public/b064/c310/402f47159e5a/edb2c634a633/03854550606-e3/03854550606-e3.jpg?ts=1788182684438&w=1920",
+        "https://static.zara.net/assets/public/12d4/4f54/e5874815b92d/0e5f98645e4a/03854550606-e4/03854550606-e4.jpg?ts=1788182685448&w=1920",
+        "https://static.zara.net/assets/public/0934/5d37/de77494ea11b/d182cc3695c5/03854555052-p/03854555052-p.jpg?ts=1788515187950&w=1920",
+        "https://static.zara.net/assets/public/f986/b735/dfa8416285ee/a7ccf3e7c150/04456572606-a1/04456572606-a1.jpg?ts=1788515179178&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nLong sleeve sweatshirt with a stand-up collar. Yoke zip fastening. Ribbed trims. Striped varsity print on the chest. Label appliqué on the back. Brushed interior for a warm and soft feel.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a91bfe3f6181dd85935d1eb2722c2949e55c67fa456a404a932c83430e20dd0e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

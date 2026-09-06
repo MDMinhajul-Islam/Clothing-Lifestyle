@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:11513830",
+  "source_url": "https://www.zara.com/us/en/cars--disney-pixar-pouch-p11513830.html",
+  "final_url": "https://www.zara.com/us/en/cars--disney-pixar-pouch-p11513830.html",
+  "canonical_url": "https://www.zara.com/us/en/cars--disney-pixar-pouch-p11513830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CARS© DISNEY PIXAR PENCIL CASE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CARS© DISNEY PIXAR PENCIL CASE",
+      "url": "https://www.zara.com/us/en/cars--disney-pixar-pouch-p11513830.html",
+      "productGroupID": "11513830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "CARS© DISNEY PIXAR pencil case. Features a main compartment with zip closure.\n\nHeight x Length x Width: 5.1 x 7.9 x 3.1 inches (13 x 20 x 8 cm).",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f58c/80dc/244c4fbfa978/4610cf8d10bc/11513830600-e1/11513830600-e1.jpg?ts=1781099154644&w=1920",
+        "https://static.zara.net/assets/public/56b1/66eb/1bf7488d8e8a/acd50defdf37/11513830600-e2/11513830600-e2.jpg?ts=1781099155349&w=1920",
+        "https://static.zara.net/assets/public/2156/0339/c12a4371ba04/163dc7e1f5ef/11513830600-e3/11513830600-e3.jpg?ts=1781099156542&w=1920",
+        "https://static.zara.net/assets/public/a68a/8261/cfc54ee49e97/24d2e06e0822/11513830600-e4/11513830600-e4.jpg?ts=1781099155610&w=1920",
+        "https://static.zara.net/assets/public/c6bb/5a55/2eea4e68854b/4d3d6ae8bfd8/11513830600-e5/11513830600-e5.jpg?ts=1781099155464&w=1920",
+        "https://static.zara.net/assets/public/1a25/9ee5/3cb348f29d03/4667ff25f616/11513830600-e6/11513830600-e6.jpg?ts=1781099156337&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CARS© DISNEY PIXAR PENCIL CASE - Red - ONE SIZE ONLY",
+          "sku": "545486135-600-53",
+          "mpn": "545486135-600-53",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/f58c/80dc/244c4fbfa978/4610cf8d10bc/11513830600-e1/11513830600-e1.jpg?ts=1781099154644&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/cars--disney-pixar-pouch-p11513830.html?v1=545486135",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CARS© DISNEY PIXAR PENCIL CASE",
+      "product_group_id": "11513830",
+      "brand": "ZARA",
+      "description": "CARS© DISNEY PIXAR pencil case. Features a main compartment with zip closure.\n\nHeight x Length x Width: 5.1 x 7.9 x 3.1 inches (13 x 20 x 8 cm).",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CARS© DISNEY PIXAR PENCIL CASE - Red - ONE SIZE ONLY",
+          "sku": "545486135-600-53",
+          "mpn": "545486135-600-53",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cars--disney-pixar-pouch-p11513830.html?v1=545486135",
+          "images": [
+            "https://static.zara.net/assets/public/f58c/80dc/244c4fbfa978/4610cf8d10bc/11513830600-e1/11513830600-e1.jpg?ts=1781099154644&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f58c/80dc/244c4fbfa978/4610cf8d10bc/11513830600-e1/11513830600-e1.jpg?ts=1781099154644&w=1920",
+        "https://static.zara.net/assets/public/56b1/66eb/1bf7488d8e8a/acd50defdf37/11513830600-e2/11513830600-e2.jpg?ts=1781099155349&w=1920",
+        "https://static.zara.net/assets/public/2156/0339/c12a4371ba04/163dc7e1f5ef/11513830600-e3/11513830600-e3.jpg?ts=1781099156542&w=1920",
+        "https://static.zara.net/assets/public/a68a/8261/cfc54ee49e97/24d2e06e0822/11513830600-e4/11513830600-e4.jpg?ts=1781099155610&w=1920",
+        "https://static.zara.net/assets/public/c6bb/5a55/2eea4e68854b/4d3d6ae8bfd8/11513830600-e5/11513830600-e5.jpg?ts=1781099155464&w=1920",
+        "https://static.zara.net/assets/public/1a25/9ee5/3cb348f29d03/4667ff25f616/11513830600-e6/11513830600-e6.jpg?ts=1781099156337&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nCARS© DISNEY PIXAR pencil case. Features a main compartment with zip closure.\nHeight x Length x Width: 5.1 x 7.9 x 3.1 inches (13 x 20 x 8 cm).",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d757cf98d1d451cc398c35f438a3b29da82486ee2950e1ffbf1b25997756e3d6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,405 @@
+{
+  "product_id": "zara-us:16519830",
+  "source_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html",
+  "final_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html",
+  "canonical_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CLASSIC BALLET FLATS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CLASSIC BALLET FLATS",
+      "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html",
+      "productGroupID": "16519830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Classic ballet flats with a sleek, solid-color design. Features an instep buckle strap closure and a rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920",
+        "https://static.zara.net/assets/public/1e34/efbb/90564982bf86/73edfc2138cc/16519830002-e2/16519830002-e2.jpg?ts=1781697024811&w=1920",
+        "https://static.zara.net/assets/public/4edd/68dd/435545bdb0ea/203d66a028fb/16519830002-e3/16519830002-e3.jpg?ts=1781697025622&w=1920",
+        "https://static.zara.net/assets/public/04dd/7f33/a41142bb9255/62bf4a0ad6c8/16519830002-e4/16519830002-e4.jpg?ts=1781697026057&w=1920",
+        "https://static.zara.net/assets/public/fa5d/897b/fa544a8e9b11/17541349ea81/16519830002-e5/16519830002-e5.jpg?ts=1781697024666&w=1920",
+        "https://static.zara.net/assets/public/1d10/b7ed/dc0b4270bb4d/d9bf0988f6ed/16519830002-e6/16519830002-e6.jpg?ts=1781697024948&w=1920",
+        "https://static.zara.net/assets/public/8775/5440/aea74d31a9eb/4b96726fb3ec/16519830002-e7/16519830002-e7.jpg?ts=1781697024739&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 5½ (5.1 INCHES)",
+          "sku": "545437291-002-21",
+          "mpn": "545437291-002-21",
+          "color": "Off White",
+          "size": "5½ (5.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 6½ (5.3 INCHES)",
+          "sku": "545437291-002-22",
+          "mpn": "545437291-002-22",
+          "color": "Off White",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 7 (5.6 INCHES)",
+          "sku": "545437291-002-23",
+          "mpn": "545437291-002-23",
+          "color": "Off White",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 8 (5.9 INCHES)",
+          "sku": "545437291-002-24",
+          "mpn": "545437291-002-24",
+          "color": "Off White",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 9 (6.1 INCHES)",
+          "sku": "545437291-002-25",
+          "mpn": "545437291-002-25",
+          "color": "Off White",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 9½ (6.4 INCHES)",
+          "sku": "545437291-002-26",
+          "mpn": "545437291-002-26",
+          "color": "Off White",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 10½ (6.6 INCHES)",
+          "sku": "545437291-002-27",
+          "mpn": "545437291-002-27",
+          "color": "Off White",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 11 (7.0 INCHES)",
+          "sku": "545437291-002-28",
+          "mpn": "545437291-002-28",
+          "color": "Off White",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLASSIC BALLET FLATS - Off White - 12 (7.2 INCHES)",
+          "sku": "545437291-002-29",
+          "mpn": "545437291-002-29",
+          "color": "Off White",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CLASSIC BALLET FLATS",
+      "product_group_id": "16519830",
+      "brand": "ZARA",
+      "description": "Classic ballet flats with a sleek, solid-color design. Features an instep buckle strap closure and a rubber sole.",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 100% polyester | SOLE: 100% polyurethane thermoplastic | INSOLE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 5½ (5.1 INCHES)",
+          "sku": "545437291-002-21",
+          "mpn": "545437291-002-21",
+          "color_name": "Off White",
+          "size_name": "5½ (5.1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        },
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 6½ (5.3 INCHES)",
+          "sku": "545437291-002-22",
+          "mpn": "545437291-002-22",
+          "color_name": "Off White",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        },
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 7 (5.6 INCHES)",
+          "sku": "545437291-002-23",
+          "mpn": "545437291-002-23",
+          "color_name": "Off White",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        },
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 8 (5.9 INCHES)",
+          "sku": "545437291-002-24",
+          "mpn": "545437291-002-24",
+          "color_name": "Off White",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        },
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 9 (6.1 INCHES)",
+          "sku": "545437291-002-25",
+          "mpn": "545437291-002-25",
+          "color_name": "Off White",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        },
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 9½ (6.4 INCHES)",
+          "sku": "545437291-002-26",
+          "mpn": "545437291-002-26",
+          "color_name": "Off White",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        },
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 10½ (6.6 INCHES)",
+          "sku": "545437291-002-27",
+          "mpn": "545437291-002-27",
+          "color_name": "Off White",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        },
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 11 (7.0 INCHES)",
+          "sku": "545437291-002-28",
+          "mpn": "545437291-002-28",
+          "color_name": "Off White",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        },
+        {
+          "name": "CLASSIC BALLET FLATS - Off White - 12 (7.2 INCHES)",
+          "sku": "545437291-002-29",
+          "mpn": "545437291-002-29",
+          "color_name": "Off White",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/classic-ballet-flats-p16519830.html?v1=545437291",
+          "images": [
+            "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1212/8d02/020c402b9f58/285ab79c18fd/16519830002-e1/16519830002-e1.jpg?ts=1781697024390&w=1920",
+        "https://static.zara.net/assets/public/1e34/efbb/90564982bf86/73edfc2138cc/16519830002-e2/16519830002-e2.jpg?ts=1781697024811&w=1920",
+        "https://static.zara.net/assets/public/4edd/68dd/435545bdb0ea/203d66a028fb/16519830002-e3/16519830002-e3.jpg?ts=1781697025622&w=1920",
+        "https://static.zara.net/assets/public/04dd/7f33/a41142bb9255/62bf4a0ad6c8/16519830002-e4/16519830002-e4.jpg?ts=1781697026057&w=1920",
+        "https://static.zara.net/assets/public/fa5d/897b/fa544a8e9b11/17541349ea81/16519830002-e5/16519830002-e5.jpg?ts=1781697024666&w=1920",
+        "https://static.zara.net/assets/public/1d10/b7ed/dc0b4270bb4d/d9bf0988f6ed/16519830002-e6/16519830002-e6.jpg?ts=1781697024948&w=1920",
+        "https://static.zara.net/assets/public/8775/5440/aea74d31a9eb/4b96726fb3ec/16519830002-e7/16519830002-e7.jpg?ts=1781697024739&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nClassic ballet flats with a sleek, solid-color design. Features an instep buckle strap closure and a rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 9,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8190c99a5ae9e8ac5880313600013a88b56d5896b6be12145c98515b0c93d16e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

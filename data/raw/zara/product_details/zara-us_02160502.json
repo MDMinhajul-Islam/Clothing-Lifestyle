@@ -1,0 +1,289 @@
+{
+  "product_id": "zara-us:02160502",
+  "source_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html",
+  "final_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html",
+  "canonical_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "NIRVANA ® PRINT T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "NIRVANA ® PRINT T-SHIRT",
+      "url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html",
+      "productGroupID": "02160502",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Long sleeve T-shirt with contrasting round neck. Front NIRVANA ® print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920",
+        "https://static.zara.net/assets/public/9a55/338a/92e040b2a173/de70f8f919ef/02160502620-e2/02160502620-e2.jpg?ts=1784559977037&w=1920",
+        "https://static.zara.net/assets/public/6195/21e7/383f41b4a9bc/dbfe7f405599/02160502620-e3/02160502620-e3.jpg?ts=1784559977993&w=1920",
+        "https://static.zara.net/assets/public/9f49/0ac6/e9de4f908bf8/ed16eba31468/02160502620-e4/02160502620-e4.jpg?ts=1784559977509&w=1920",
+        "https://static.zara.net/assets/public/fb16/1378/75d1410fb0d2/d9a750314581/02160502620200-p/02160502620200-p.jpg?ts=1786017004355&w=1920",
+        "https://static.zara.net/assets/public/23af/efc7/762842998505/f0129c4a5a05/02160502620200-a1/02160502620200-a1.jpg?ts=1786017011368&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 1½ years (33,9 INCHES)",
+          "sku": "553031681-620-18",
+          "mpn": "553031681-620-18",
+          "color": "Pink",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 2 years (36,2 INCHES)",
+          "sku": "553031681-620-24",
+          "mpn": "553031681-620-24",
+          "color": "Pink",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 3 years (38,6 INCHES)",
+          "sku": "553031681-620-36",
+          "mpn": "553031681-620-36",
+          "color": "Pink",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 4 years (40,9 INCHES)",
+          "sku": "553031681-620-48",
+          "mpn": "553031681-620-48",
+          "color": "Pink",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 5 years (43,3 INCHES)",
+          "sku": "553031681-620-60",
+          "mpn": "553031681-620-60",
+          "color": "Pink",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 6 years (45,2 INCHES)",
+          "sku": "553031681-620-72",
+          "mpn": "553031681-620-72",
+          "color": "Pink",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "NIRVANA ® PRINT T-SHIRT",
+      "product_group_id": "02160502",
+      "brand": "ZARA",
+      "description": "Long sleeve T-shirt with contrasting round neck. Front NIRVANA ® print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 1½ years (33,9 INCHES)",
+          "sku": "553031681-620-18",
+          "mpn": "553031681-620-18",
+          "color_name": "Pink",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+          "images": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ]
+        },
+        {
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 2 years (36,2 INCHES)",
+          "sku": "553031681-620-24",
+          "mpn": "553031681-620-24",
+          "color_name": "Pink",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+          "images": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ]
+        },
+        {
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 3 years (38,6 INCHES)",
+          "sku": "553031681-620-36",
+          "mpn": "553031681-620-36",
+          "color_name": "Pink",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+          "images": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ]
+        },
+        {
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 4 years (40,9 INCHES)",
+          "sku": "553031681-620-48",
+          "mpn": "553031681-620-48",
+          "color_name": "Pink",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+          "images": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ]
+        },
+        {
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 5 years (43,3 INCHES)",
+          "sku": "553031681-620-60",
+          "mpn": "553031681-620-60",
+          "color_name": "Pink",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+          "images": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ]
+        },
+        {
+          "name": "NIRVANA ® PRINT T-SHIRT - Pink - 6 years (45,2 INCHES)",
+          "sku": "553031681-620-72",
+          "mpn": "553031681-620-72",
+          "color_name": "Pink",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "19.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/nirvana---printed-t-shirt-p02160502.html?v1=553031681",
+          "images": [
+            "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6162/bae9/c1454c86beb2/aba98cc7e5de/02160502620-e1/02160502620-e1.jpg?ts=1784559977053&w=1920",
+        "https://static.zara.net/assets/public/9a55/338a/92e040b2a173/de70f8f919ef/02160502620-e2/02160502620-e2.jpg?ts=1784559977037&w=1920",
+        "https://static.zara.net/assets/public/6195/21e7/383f41b4a9bc/dbfe7f405599/02160502620-e3/02160502620-e3.jpg?ts=1784559977993&w=1920",
+        "https://static.zara.net/assets/public/9f49/0ac6/e9de4f908bf8/ed16eba31468/02160502620-e4/02160502620-e4.jpg?ts=1784559977509&w=1920",
+        "https://static.zara.net/assets/public/fb16/1378/75d1410fb0d2/d9a750314581/02160502620200-p/02160502620200-p.jpg?ts=1786017004355&w=1920",
+        "https://static.zara.net/assets/public/23af/efc7/762842998505/f0129c4a5a05/02160502620200-a1/02160502620200-a1.jpg?ts=1786017011368&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "19.90",
+  "rendered_description": "Description\nLong sleeve T-shirt with contrasting round neck. Front NIRVANA ® print.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "19.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "19.90",
+    "dom_price": "19.90",
+    "normalized_price": "19.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c9a3f8f0473b5dcb06140f4689651af20117278bd4f94eaad0501af8d1799368",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

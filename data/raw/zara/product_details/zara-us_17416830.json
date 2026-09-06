@@ -1,0 +1,382 @@
+{
+  "product_id": "zara-us:17416830",
+  "source_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html",
+  "final_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html",
+  "canonical_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CONTRASTING SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CONTRASTING SNEAKERS",
+      "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html",
+      "productGroupID": "17416830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leather sneakers with a contrasting color design. Features lace-up and side zip closure. Finished with rubber soles.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920",
+        "https://static.zara.net/assets/public/ec71/652c/a9ce45aba37d/d8d432ed6442/17416831001-e2/17416831001-e2.jpg?ts=1784620183575&w=1920",
+        "https://static.zara.net/assets/public/201b/b515/d37d46199e15/d4667dd1dad0/17416831001-e3/17416831001-e3.jpg?ts=1784620182512&w=1920",
+        "https://static.zara.net/assets/public/9e00/a306/09204bd2b8be/b3f6ddfb780a/17416831001-e4/17416831001-e4.jpg?ts=1784620184350&w=1920",
+        "https://static.zara.net/assets/public/f847/fcac/d50d4cfe96b7/2849a074ac4b/17416831001-e5/17416831001-e5.jpg?ts=1784620182549&w=1920",
+        "https://static.zara.net/assets/public/927b/1245/b4a745a299ad/5c45b24db112/17416831001-e6/17416831001-e6.jpg?ts=1784620183210&w=1920",
+        "https://static.zara.net/assets/public/3d9a/bcb5/dc294615b9ff/b0a0b7ea18ef/17416831001-e7/17416831001-e7.jpg?ts=1784620182970&w=1920",
+        "https://static.zara.net/assets/public/b46e/4c03/e43e4d239c03/eb81d72d99ae/17416831001-e8/17416831001-e8.jpg?ts=1784620182882&w=1920"
+      ],
+      "material": "polyurethane/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "77% polyurethane, 23% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CONTRASTING SNEAKERS - White - 6½ (5.3 INCHES)",
+          "sku": "545454065-001-22",
+          "mpn": "545454065-001-22",
+          "color": "White",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRASTING SNEAKERS - White - 7 (5.6 INCHES)",
+          "sku": "545454065-001-23",
+          "mpn": "545454065-001-23",
+          "color": "White",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRASTING SNEAKERS - White - 8 (5.9 INCHES)",
+          "sku": "545454065-001-24",
+          "mpn": "545454065-001-24",
+          "color": "White",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRASTING SNEAKERS - White - 9 (6.1 INCHES)",
+          "sku": "545454065-001-25",
+          "mpn": "545454065-001-25",
+          "color": "White",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRASTING SNEAKERS - White - 9½ (6.4 INCHES)",
+          "sku": "545454065-001-26",
+          "mpn": "545454065-001-26",
+          "color": "White",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRASTING SNEAKERS - White - 10½ (6.6 INCHES)",
+          "sku": "545454065-001-27",
+          "mpn": "545454065-001-27",
+          "color": "White",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRASTING SNEAKERS - White - 11 (7.0 INCHES)",
+          "sku": "545454065-001-28",
+          "mpn": "545454065-001-28",
+          "color": "White",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRASTING SNEAKERS - White - 12 (7.2 INCHES)",
+          "sku": "545454065-001-29",
+          "mpn": "545454065-001-29",
+          "color": "White",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CONTRASTING SNEAKERS",
+      "product_group_id": "17416830",
+      "brand": "ZARA",
+      "description": "Leather sneakers with a contrasting color design. Features lace-up and side zip closure. Finished with rubber soles.",
+      "material": "polyurethane/polyester",
+      "composition": "UPPER: 77% polyurethane, 23% polyester | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CONTRASTING SNEAKERS - White - 6½ (5.3 INCHES)",
+          "sku": "545454065-001-22",
+          "mpn": "545454065-001-22",
+          "color_name": "White",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+          "images": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRASTING SNEAKERS - White - 7 (5.6 INCHES)",
+          "sku": "545454065-001-23",
+          "mpn": "545454065-001-23",
+          "color_name": "White",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+          "images": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRASTING SNEAKERS - White - 8 (5.9 INCHES)",
+          "sku": "545454065-001-24",
+          "mpn": "545454065-001-24",
+          "color_name": "White",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+          "images": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRASTING SNEAKERS - White - 9 (6.1 INCHES)",
+          "sku": "545454065-001-25",
+          "mpn": "545454065-001-25",
+          "color_name": "White",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+          "images": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRASTING SNEAKERS - White - 9½ (6.4 INCHES)",
+          "sku": "545454065-001-26",
+          "mpn": "545454065-001-26",
+          "color_name": "White",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+          "images": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRASTING SNEAKERS - White - 10½ (6.6 INCHES)",
+          "sku": "545454065-001-27",
+          "mpn": "545454065-001-27",
+          "color_name": "White",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+          "images": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRASTING SNEAKERS - White - 11 (7.0 INCHES)",
+          "sku": "545454065-001-28",
+          "mpn": "545454065-001-28",
+          "color_name": "White",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+          "images": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRASTING SNEAKERS - White - 12 (7.2 INCHES)",
+          "sku": "545454065-001-29",
+          "mpn": "545454065-001-29",
+          "color_name": "White",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrasting-leather-sneakers-p17416830.html?v1=545454065",
+          "images": [
+            "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e572/7d90/0d2e46e6992a/6939ca0af6ef/17416831001-e1/17416831001-e1.jpg?ts=1784620183205&w=1920",
+        "https://static.zara.net/assets/public/ec71/652c/a9ce45aba37d/d8d432ed6442/17416831001-e2/17416831001-e2.jpg?ts=1784620183575&w=1920",
+        "https://static.zara.net/assets/public/201b/b515/d37d46199e15/d4667dd1dad0/17416831001-e3/17416831001-e3.jpg?ts=1784620182512&w=1920",
+        "https://static.zara.net/assets/public/9e00/a306/09204bd2b8be/b3f6ddfb780a/17416831001-e4/17416831001-e4.jpg?ts=1784620184350&w=1920",
+        "https://static.zara.net/assets/public/f847/fcac/d50d4cfe96b7/2849a074ac4b/17416831001-e5/17416831001-e5.jpg?ts=1784620182549&w=1920",
+        "https://static.zara.net/assets/public/927b/1245/b4a745a299ad/5c45b24db112/17416831001-e6/17416831001-e6.jpg?ts=1784620183210&w=1920",
+        "https://static.zara.net/assets/public/3d9a/bcb5/dc294615b9ff/b0a0b7ea18ef/17416831001-e7/17416831001-e7.jpg?ts=1784620182970&w=1920",
+        "https://static.zara.net/assets/public/b46e/4c03/e43e4d239c03/eb81d72d99ae/17416831001-e8/17416831001-e8.jpg?ts=1784620182882&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nLeather sneakers with a contrasting color design. Features lace-up and side zip closure. Finished with rubber soles.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "893ddfeb4f4a66ea680832aa99ad3fb30eabdb39d546954979a99cf5a42a141a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

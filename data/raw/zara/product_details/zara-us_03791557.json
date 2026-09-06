@@ -1,0 +1,495 @@
+{
+  "product_id": "zara-us:03791557",
+  "source_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html",
+  "final_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html",
+  "canonical_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HOODED FLEECE JACKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HOODED FLEECE JACKET",
+      "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html",
+      "productGroupID": "03791557",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Fleece jacket with hoodie and long sleeves with elastic cuffs. Front zip closure. Front pockets. Polar fleece lined interior.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920",
+        "https://static.zara.net/assets/public/32ae/6b97/d67d4d1bb2ce/cb3c70f0fe56/03791557630-e2/03791557630-e2.jpg?ts=1780911011217&w=1920",
+        "https://static.zara.net/assets/public/b899/4e51/66774e9a9694/ffc5ec669cb1/03791557630-e3/03791557630-e3.jpg?ts=1780911011184&w=1920",
+        "https://static.zara.net/assets/public/6e97/a30e/be5242ec858e/e1984d6d5461/03791557630-e4/03791557630-e4.jpg?ts=1780911011268&w=1920",
+        "https://static.zara.net/assets/public/2cac/96b4/77d843e28fe8/fc944a8e4603/03791557630-e5/03791557630-e5.jpg?ts=1780911012852&w=1920",
+        "https://static.zara.net/assets/public/c8cd/ea6f/4980416c94b6/878b3a7c4836/03791557630-e6/03791557630-e6.jpg?ts=1780911011385&w=1920",
+        "https://static.zara.net/assets/public/4ca6/b1d9/38f2458199a6/3018e40c9bf0/03791557630-e7/03791557630-e7.jpg?ts=1780911013797&w=1920",
+        "https://static.zara.net/assets/public/0ab5/6249/75b14382b6f6/b3b6a83208a0/03791557630-e8/03791557630-e8.jpg?ts=1780911011281&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Fuchsia - 1½ years (33,9 INCHES)",
+          "sku": "545421970-630-18",
+          "mpn": "545421970-630-18",
+          "color": "Fuchsia",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Fuchsia - 2 years (36,2 INCHES)",
+          "sku": "545421970-630-24",
+          "mpn": "545421970-630-24",
+          "color": "Fuchsia",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Fuchsia - 3 years (38,6 INCHES)",
+          "sku": "545421970-630-36",
+          "mpn": "545421970-630-36",
+          "color": "Fuchsia",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Fuchsia - 4 years (40,9 INCHES)",
+          "sku": "545421970-630-48",
+          "mpn": "545421970-630-48",
+          "color": "Fuchsia",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Fuchsia - 5 years (43,3 INCHES)",
+          "sku": "545421970-630-60",
+          "mpn": "545421970-630-60",
+          "color": "Fuchsia",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Fuchsia - 6 years (45,2 INCHES)",
+          "sku": "545421970-630-72",
+          "mpn": "545421970-630-72",
+          "color": "Fuchsia",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Dark russet - 1½ years (33,9 INCHES)",
+          "sku": "545421970-749-18",
+          "mpn": "545421970-749-18",
+          "color": "Dark russet",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Dark russet - 2 years (36,2 INCHES)",
+          "sku": "545421970-749-24",
+          "mpn": "545421970-749-24",
+          "color": "Dark russet",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Dark russet - 3 years (38,6 INCHES)",
+          "sku": "545421970-749-36",
+          "mpn": "545421970-749-36",
+          "color": "Dark russet",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Dark russet - 4 years (40,9 INCHES)",
+          "sku": "545421970-749-48",
+          "mpn": "545421970-749-48",
+          "color": "Dark russet",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Dark russet - 5 years (43,3 INCHES)",
+          "sku": "545421970-749-60",
+          "mpn": "545421970-749-60",
+          "color": "Dark russet",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOODED FLEECE JACKET - Dark russet - 6 years (45,2 INCHES)",
+          "sku": "545421970-749-72",
+          "mpn": "545421970-749-72",
+          "color": "Dark russet",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HOODED FLEECE JACKET",
+      "product_group_id": "03791557",
+      "brand": "ZARA",
+      "description": "Fleece jacket with hoodie and long sleeves with elastic cuffs. Front zip closure. Front pockets. Polar fleece lined interior.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HOODED FLEECE JACKET - Fuchsia - 1½ years (33,9 INCHES)",
+          "sku": "545421970-630-18",
+          "mpn": "545421970-630-18",
+          "color_name": "Fuchsia",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+          "images": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Fuchsia - 2 years (36,2 INCHES)",
+          "sku": "545421970-630-24",
+          "mpn": "545421970-630-24",
+          "color_name": "Fuchsia",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+          "images": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Fuchsia - 3 years (38,6 INCHES)",
+          "sku": "545421970-630-36",
+          "mpn": "545421970-630-36",
+          "color_name": "Fuchsia",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+          "images": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Fuchsia - 4 years (40,9 INCHES)",
+          "sku": "545421970-630-48",
+          "mpn": "545421970-630-48",
+          "color_name": "Fuchsia",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+          "images": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Fuchsia - 5 years (43,3 INCHES)",
+          "sku": "545421970-630-60",
+          "mpn": "545421970-630-60",
+          "color_name": "Fuchsia",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+          "images": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Fuchsia - 6 years (45,2 INCHES)",
+          "sku": "545421970-630-72",
+          "mpn": "545421970-630-72",
+          "color_name": "Fuchsia",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421970",
+          "images": [
+            "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Dark russet - 1½ years (33,9 INCHES)",
+          "sku": "545421970-749-18",
+          "mpn": "545421970-749-18",
+          "color_name": "Dark russet",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+          "images": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Dark russet - 2 years (36,2 INCHES)",
+          "sku": "545421970-749-24",
+          "mpn": "545421970-749-24",
+          "color_name": "Dark russet",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+          "images": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Dark russet - 3 years (38,6 INCHES)",
+          "sku": "545421970-749-36",
+          "mpn": "545421970-749-36",
+          "color_name": "Dark russet",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+          "images": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Dark russet - 4 years (40,9 INCHES)",
+          "sku": "545421970-749-48",
+          "mpn": "545421970-749-48",
+          "color_name": "Dark russet",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+          "images": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Dark russet - 5 years (43,3 INCHES)",
+          "sku": "545421970-749-60",
+          "mpn": "545421970-749-60",
+          "color_name": "Dark russet",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+          "images": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ]
+        },
+        {
+          "name": "HOODED FLEECE JACKET - Dark russet - 6 years (45,2 INCHES)",
+          "sku": "545421970-749-72",
+          "mpn": "545421970-749-72",
+          "color_name": "Dark russet",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-fleece-jacket-p03791557.html?v1=545421971",
+          "images": [
+            "https://static.zara.net/assets/public/505f/1541/c9e746b38a3f/3025adf64f80/03791557749-e1/03791557749-e1.jpg?ts=1780911019726&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/aa9d/a95a/df2c403b8fdd/a3b4dfaecd0c/03791557630-e1/03791557630-e1.jpg?ts=1780911012524&w=1920",
+        "https://static.zara.net/assets/public/32ae/6b97/d67d4d1bb2ce/cb3c70f0fe56/03791557630-e2/03791557630-e2.jpg?ts=1780911011217&w=1920",
+        "https://static.zara.net/assets/public/b899/4e51/66774e9a9694/ffc5ec669cb1/03791557630-e3/03791557630-e3.jpg?ts=1780911011184&w=1920",
+        "https://static.zara.net/assets/public/6e97/a30e/be5242ec858e/e1984d6d5461/03791557630-e4/03791557630-e4.jpg?ts=1780911011268&w=1920",
+        "https://static.zara.net/assets/public/2cac/96b4/77d843e28fe8/fc944a8e4603/03791557630-e5/03791557630-e5.jpg?ts=1780911012852&w=1920",
+        "https://static.zara.net/assets/public/c8cd/ea6f/4980416c94b6/878b3a7c4836/03791557630-e6/03791557630-e6.jpg?ts=1780911011385&w=1920",
+        "https://static.zara.net/assets/public/4ca6/b1d9/38f2458199a6/3018e40c9bf0/03791557630-e7/03791557630-e7.jpg?ts=1780911013797&w=1920",
+        "https://static.zara.net/assets/public/0ab5/6249/75b14382b6f6/b3b6a83208a0/03791557630-e8/03791557630-e8.jpg?ts=1780911011281&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Fuchsia",
+    "Dark russet"
+  ],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nFleece jacket with hoodie and long sleeves with elastic cuffs. Front zip closure. Front pockets. Polar fleece lined interior.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 9,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f03892f6a428095b81b16efe7026a3bfef9aa0286eb9b689b928d4f1257df7ef",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

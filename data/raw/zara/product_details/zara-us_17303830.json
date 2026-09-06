@@ -1,0 +1,381 @@
+{
+  "product_id": "zara-us:17303830",
+  "source_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html",
+  "final_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html",
+  "canonical_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PREMIUM SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PREMIUM SNEAKERS",
+      "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html",
+      "productGroupID": "17303830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "60% suede-finish leather sneakers featuring a combination of panels and mesh details. Designed with adjustable lace-up fastening and a textured rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920",
+        "https://static.zara.net/assets/public/92e6/69d1/5de3471b98cc/645b66f7c0b8/17303830107-e2/17303830107-e2.jpg?ts=1787583968786&w=1920",
+        "https://static.zara.net/assets/public/a5c4/2b0a/8787406e9dce/db5ab55afc8b/17303830107-e3/17303830107-e3.jpg?ts=1787585398648&w=1920",
+        "https://static.zara.net/assets/public/2753/68c2/40434d26be1e/1a9c020e9dae/17303830107-e4/17303830107-e4.jpg?ts=1787585398304&w=1920",
+        "https://static.zara.net/assets/public/6444/238b/a72540109a72/ded593232293/17303830107-e5/17303830107-e5.jpg?ts=1787585398014&w=1920",
+        "https://static.zara.net/assets/public/c030/29b6/d64542c69d5c/e42a8938dba3/17303830107-e6/17303830107-e6.jpg?ts=1787583968476&w=1920",
+        "https://static.zara.net/assets/public/178e/4c61/64d442dbbd96/c6e3c5d2bc49/17303830107-e7/17303830107-e7.jpg?ts=1787583968131&w=1920",
+        "https://static.zara.net/assets/public/3c3a/f5cb/f21b4e4287eb/807e4efa7e7d/17303830107-e8/17303830107-e8.jpg?ts=1787583969072&w=1920"
+      ],
+      "material": "cow leather/polyester/polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "60% cow leather, 34% polyester, 6% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 6½ (5.3 INCHES)",
+          "sku": "545490552-107-22",
+          "mpn": "545490552-107-22",
+          "color": "Sandy Brown",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 7 (5.6 INCHES)",
+          "sku": "545490552-107-23",
+          "mpn": "545490552-107-23",
+          "color": "Sandy Brown",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 8 (5.9 INCHES)",
+          "sku": "545490552-107-24",
+          "mpn": "545490552-107-24",
+          "color": "Sandy Brown",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 9 (6.1 INCHES)",
+          "sku": "545490552-107-25",
+          "mpn": "545490552-107-25",
+          "color": "Sandy Brown",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 9½ (6.4 INCHES)",
+          "sku": "545490552-107-26",
+          "mpn": "545490552-107-26",
+          "color": "Sandy Brown",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 10½ (6.6 INCHES)",
+          "sku": "545490552-107-27",
+          "mpn": "545490552-107-27",
+          "color": "Sandy Brown",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 11 (7.0 INCHES)",
+          "sku": "545490552-107-28",
+          "mpn": "545490552-107-28",
+          "color": "Sandy Brown",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 12 (7.2 INCHES)",
+          "sku": "545490552-107-29",
+          "mpn": "545490552-107-29",
+          "color": "Sandy Brown",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PREMIUM SNEAKERS",
+      "product_group_id": "17303830",
+      "brand": "ZARA",
+      "description": "60% suede-finish leather sneakers featuring a combination of panels and mesh details. Designed with adjustable lace-up fastening and a textured rubber sole.",
+      "material": "cow leather/polyester/polyurethane",
+      "composition": "UPPER: 60% cow leather, 34% polyester, 6% polyurethane | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 6½ (5.3 INCHES)",
+          "sku": "545490552-107-22",
+          "mpn": "545490552-107-22",
+          "color_name": "Sandy Brown",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+          "images": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ]
+        },
+        {
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 7 (5.6 INCHES)",
+          "sku": "545490552-107-23",
+          "mpn": "545490552-107-23",
+          "color_name": "Sandy Brown",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+          "images": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ]
+        },
+        {
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 8 (5.9 INCHES)",
+          "sku": "545490552-107-24",
+          "mpn": "545490552-107-24",
+          "color_name": "Sandy Brown",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+          "images": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ]
+        },
+        {
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 9 (6.1 INCHES)",
+          "sku": "545490552-107-25",
+          "mpn": "545490552-107-25",
+          "color_name": "Sandy Brown",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+          "images": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ]
+        },
+        {
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 9½ (6.4 INCHES)",
+          "sku": "545490552-107-26",
+          "mpn": "545490552-107-26",
+          "color_name": "Sandy Brown",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+          "images": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ]
+        },
+        {
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 10½ (6.6 INCHES)",
+          "sku": "545490552-107-27",
+          "mpn": "545490552-107-27",
+          "color_name": "Sandy Brown",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+          "images": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ]
+        },
+        {
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 11 (7.0 INCHES)",
+          "sku": "545490552-107-28",
+          "mpn": "545490552-107-28",
+          "color_name": "Sandy Brown",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+          "images": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ]
+        },
+        {
+          "name": "PREMIUM SNEAKERS - Sandy Brown - 12 (7.2 INCHES)",
+          "sku": "545490552-107-29",
+          "mpn": "545490552-107-29",
+          "color_name": "Sandy Brown",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/premium-sneakers-p17303830.html?v1=545490552",
+          "images": [
+            "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2386/8269/3aa04a75adc1/bc90c5dd2d2a/17303830107-e1/17303830107-e1.jpg?ts=1787583971171&w=1920",
+        "https://static.zara.net/assets/public/92e6/69d1/5de3471b98cc/645b66f7c0b8/17303830107-e2/17303830107-e2.jpg?ts=1787583968786&w=1920",
+        "https://static.zara.net/assets/public/a5c4/2b0a/8787406e9dce/db5ab55afc8b/17303830107-e3/17303830107-e3.jpg?ts=1787585398648&w=1920",
+        "https://static.zara.net/assets/public/2753/68c2/40434d26be1e/1a9c020e9dae/17303830107-e4/17303830107-e4.jpg?ts=1787585398304&w=1920",
+        "https://static.zara.net/assets/public/6444/238b/a72540109a72/ded593232293/17303830107-e5/17303830107-e5.jpg?ts=1787585398014&w=1920",
+        "https://static.zara.net/assets/public/c030/29b6/d64542c69d5c/e42a8938dba3/17303830107-e6/17303830107-e6.jpg?ts=1787583968476&w=1920",
+        "https://static.zara.net/assets/public/178e/4c61/64d442dbbd96/c6e3c5d2bc49/17303830107-e7/17303830107-e7.jpg?ts=1787583968131&w=1920",
+        "https://static.zara.net/assets/public/3c3a/f5cb/f21b4e4287eb/807e4efa7e7d/17303830107-e8/17303830107-e8.jpg?ts=1787583969072&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\n60% suede-finish leather sneakers featuring a combination of panels and mesh details. Designed with adjustable lace-up fastening and a textured rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "30c9fd0a1454a5cd8df08dfcda759d52d71f23b0ad684368802ca0e5d08eedf3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

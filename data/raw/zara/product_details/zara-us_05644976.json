@@ -1,0 +1,482 @@
+{
+  "product_id": "zara-us:05644976",
+  "source_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html",
+  "final_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html",
+  "canonical_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLAIN T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLAIN T-SHIRT",
+      "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html",
+      "productGroupID": "05644976",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920",
+        "https://static.zara.net/assets/public/8cbe/3e62/a4e44ef48a25/db54268b5619/05644976519-e2/05644976519-e2.jpg?ts=1779200294503&w=1920",
+        "https://static.zara.net/assets/public/0734/314c/de3849faaf5a/be458fc208b8/05644976519-e3/05644976519-e3.jpg?ts=1779200294621&w=1920",
+        "https://static.zara.net/assets/public/4d02/4654/78c54d5987d7/a98e5572f439/05644976519-e4/05644976519-e4.jpg?ts=1779200295000&w=1920",
+        "https://static.zara.net/assets/public/8c24/899e/4a534db7aa4a/c40c863ce83e/05644976519400-p/05644976519400-p.jpg?ts=1780408338417&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Washed green - 1½ years (33,9 INCHES)",
+          "sku": "545479794-519-18",
+          "mpn": "545479794-519-18",
+          "color": "Washed green",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Washed green - 2 years (36,2 INCHES)",
+          "sku": "545479794-519-24",
+          "mpn": "545479794-519-24",
+          "color": "Washed green",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Washed green - 3 years (38,6 INCHES)",
+          "sku": "545479794-519-36",
+          "mpn": "545479794-519-36",
+          "color": "Washed green",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Washed green - 4 years (40,9 INCHES)",
+          "sku": "545479794-519-48",
+          "mpn": "545479794-519-48",
+          "color": "Washed green",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Washed green - 5 years (43,3 INCHES)",
+          "sku": "545479794-519-60",
+          "mpn": "545479794-519-60",
+          "color": "Washed green",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Washed green - 6 years (45,2 INCHES)",
+          "sku": "545479794-519-72",
+          "mpn": "545479794-519-72",
+          "color": "Washed green",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pearl gray - 1½ years (33,9 INCHES)",
+          "sku": "545479794-804-18",
+          "mpn": "545479794-804-18",
+          "color": "Pearl gray",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pearl gray - 2 years (36,2 INCHES)",
+          "sku": "545479794-804-24",
+          "mpn": "545479794-804-24",
+          "color": "Pearl gray",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pearl gray - 3 years (38,6 INCHES)",
+          "sku": "545479794-804-36",
+          "mpn": "545479794-804-36",
+          "color": "Pearl gray",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pearl gray - 4 years (40,9 INCHES)",
+          "sku": "545479794-804-48",
+          "mpn": "545479794-804-48",
+          "color": "Pearl gray",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pearl gray - 5 years (43,3 INCHES)",
+          "sku": "545479794-804-60",
+          "mpn": "545479794-804-60",
+          "color": "Pearl gray",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pearl gray - 6 years (45,2 INCHES)",
+          "sku": "545479794-804-72",
+          "mpn": "545479794-804-72",
+          "color": "Pearl gray",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLAIN T-SHIRT",
+      "product_group_id": "05644976",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLAIN T-SHIRT - Washed green - 1½ years (33,9 INCHES)",
+          "sku": "545479794-519-18",
+          "mpn": "545479794-519-18",
+          "color_name": "Washed green",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+          "images": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Washed green - 2 years (36,2 INCHES)",
+          "sku": "545479794-519-24",
+          "mpn": "545479794-519-24",
+          "color_name": "Washed green",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+          "images": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Washed green - 3 years (38,6 INCHES)",
+          "sku": "545479794-519-36",
+          "mpn": "545479794-519-36",
+          "color_name": "Washed green",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+          "images": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Washed green - 4 years (40,9 INCHES)",
+          "sku": "545479794-519-48",
+          "mpn": "545479794-519-48",
+          "color_name": "Washed green",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+          "images": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Washed green - 5 years (43,3 INCHES)",
+          "sku": "545479794-519-60",
+          "mpn": "545479794-519-60",
+          "color_name": "Washed green",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+          "images": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Washed green - 6 years (45,2 INCHES)",
+          "sku": "545479794-519-72",
+          "mpn": "545479794-519-72",
+          "color_name": "Washed green",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479794",
+          "images": [
+            "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pearl gray - 1½ years (33,9 INCHES)",
+          "sku": "545479794-804-18",
+          "mpn": "545479794-804-18",
+          "color_name": "Pearl gray",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+          "images": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pearl gray - 2 years (36,2 INCHES)",
+          "sku": "545479794-804-24",
+          "mpn": "545479794-804-24",
+          "color_name": "Pearl gray",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+          "images": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pearl gray - 3 years (38,6 INCHES)",
+          "sku": "545479794-804-36",
+          "mpn": "545479794-804-36",
+          "color_name": "Pearl gray",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+          "images": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pearl gray - 4 years (40,9 INCHES)",
+          "sku": "545479794-804-48",
+          "mpn": "545479794-804-48",
+          "color_name": "Pearl gray",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+          "images": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pearl gray - 5 years (43,3 INCHES)",
+          "sku": "545479794-804-60",
+          "mpn": "545479794-804-60",
+          "color_name": "Pearl gray",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+          "images": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pearl gray - 6 years (45,2 INCHES)",
+          "sku": "545479794-804-72",
+          "mpn": "545479794-804-72",
+          "color_name": "Pearl gray",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p05644976.html?v1=545479793",
+          "images": [
+            "https://static.zara.net/assets/public/a741/196c/3f724c92b14d/d7025cccbdf0/05644976804-e1/05644976804-e1.jpg?ts=1779176284065&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d382/a142/5ab9444a83cc/29c15215e9f3/05644976519-e1/05644976519-e1.jpg?ts=1779200294408&w=1920",
+        "https://static.zara.net/assets/public/8cbe/3e62/a4e44ef48a25/db54268b5619/05644976519-e2/05644976519-e2.jpg?ts=1779200294503&w=1920",
+        "https://static.zara.net/assets/public/0734/314c/de3849faaf5a/be458fc208b8/05644976519-e3/05644976519-e3.jpg?ts=1779200294621&w=1920",
+        "https://static.zara.net/assets/public/4d02/4654/78c54d5987d7/a98e5572f439/05644976519-e4/05644976519-e4.jpg?ts=1779200295000&w=1920",
+        "https://static.zara.net/assets/public/8c24/899e/4a534db7aa4a/c40c863ce83e/05644976519400-p/05644976519400-p.jpg?ts=1780408338417&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Washed green",
+    "Pearl gray"
+  ],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 6,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "24e43607818e99a673ac6e872fba894b189c9d14e25c718c7658e041d532105e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,485 @@
+{
+  "product_id": "zara-us:01880576",
+  "source_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html",
+  "final_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html",
+  "canonical_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BALLOON FLEECE PANTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BALLOON FLEECE PANTS",
+      "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html",
+      "productGroupID": "01880576",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Balloon-fit fleece pants with an elastic waistband and adjustable front drawstrings. Front pockets and patch pockets on the back.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920",
+        "https://static.zara.net/assets/public/a876/3160/36274a65bcb7/e290e8decd24/01880576664-e2/01880576664-e2.jpg?ts=1787744379334&w=1920",
+        "https://static.zara.net/assets/public/36f5/ce7b/e6d44f548cab/d179c60df267/01880576664-e3/01880576664-e3.jpg?ts=1787744380574&w=1920",
+        "https://static.zara.net/assets/public/06bd/ab38/71f64a6d89da/a022c6f18a83/01880576664-e4/01880576664-e4.jpg?ts=1787744381527&w=1920",
+        "https://static.zara.net/assets/public/e00b/afa0/b42b4f22a3e4/689d3026a1ff/01880576664400-p/01880576664400-p.jpg?ts=1788273526675&w=1920",
+        "https://static.zara.net/assets/public/3d4a/beee/8d69498583ed/6b598be9f31e/01880576664400-a1/01880576664400-a1.jpg?ts=1788273526974&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Dark pink - 1½ years (33,9 INCHES)",
+          "sku": "553972438-664-18",
+          "mpn": "553972438-664-18",
+          "color": "Dark pink",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Dark pink - 2 years (36,2 INCHES)",
+          "sku": "553972438-664-24",
+          "mpn": "553972438-664-24",
+          "color": "Dark pink",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Dark pink - 3 years (38,6 INCHES)",
+          "sku": "553972438-664-36",
+          "mpn": "553972438-664-36",
+          "color": "Dark pink",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Dark pink - 4 years (40,9 INCHES)",
+          "sku": "553972438-664-48",
+          "mpn": "553972438-664-48",
+          "color": "Dark pink",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Dark pink - 5 years (43,3 INCHES)",
+          "sku": "553972438-664-60",
+          "mpn": "553972438-664-60",
+          "color": "Dark pink",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Dark pink - 6 years (45,2 INCHES)",
+          "sku": "553972438-664-72",
+          "mpn": "553972438-664-72",
+          "color": "Dark pink",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Bluish - 1½ years (33,9 INCHES)",
+          "sku": "553972438-920-18",
+          "mpn": "553972438-920-18",
+          "color": "Bluish",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Bluish - 2 years (36,2 INCHES)",
+          "sku": "553972438-920-24",
+          "mpn": "553972438-920-24",
+          "color": "Bluish",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Bluish - 3 years (38,6 INCHES)",
+          "sku": "553972438-920-36",
+          "mpn": "553972438-920-36",
+          "color": "Bluish",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Bluish - 4 years (40,9 INCHES)",
+          "sku": "553972438-920-48",
+          "mpn": "553972438-920-48",
+          "color": "Bluish",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Bluish - 5 years (43,3 INCHES)",
+          "sku": "553972438-920-60",
+          "mpn": "553972438-920-60",
+          "color": "Bluish",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON FLEECE PANTS - Bluish - 6 years (45,2 INCHES)",
+          "sku": "553972438-920-72",
+          "mpn": "553972438-920-72",
+          "color": "Bluish",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BALLOON FLEECE PANTS",
+      "product_group_id": "01880576",
+      "brand": "ZARA",
+      "description": "Balloon-fit fleece pants with an elastic waistband and adjustable front drawstrings. Front pockets and patch pockets on the back.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BALLOON FLEECE PANTS - Dark pink - 1½ years (33,9 INCHES)",
+          "sku": "553972438-664-18",
+          "mpn": "553972438-664-18",
+          "color_name": "Dark pink",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+          "images": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Dark pink - 2 years (36,2 INCHES)",
+          "sku": "553972438-664-24",
+          "mpn": "553972438-664-24",
+          "color_name": "Dark pink",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+          "images": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Dark pink - 3 years (38,6 INCHES)",
+          "sku": "553972438-664-36",
+          "mpn": "553972438-664-36",
+          "color_name": "Dark pink",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+          "images": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Dark pink - 4 years (40,9 INCHES)",
+          "sku": "553972438-664-48",
+          "mpn": "553972438-664-48",
+          "color_name": "Dark pink",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+          "images": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Dark pink - 5 years (43,3 INCHES)",
+          "sku": "553972438-664-60",
+          "mpn": "553972438-664-60",
+          "color_name": "Dark pink",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+          "images": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Dark pink - 6 years (45,2 INCHES)",
+          "sku": "553972438-664-72",
+          "mpn": "553972438-664-72",
+          "color_name": "Dark pink",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972438",
+          "images": [
+            "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Bluish - 1½ years (33,9 INCHES)",
+          "sku": "553972438-920-18",
+          "mpn": "553972438-920-18",
+          "color_name": "Bluish",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+          "images": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Bluish - 2 years (36,2 INCHES)",
+          "sku": "553972438-920-24",
+          "mpn": "553972438-920-24",
+          "color_name": "Bluish",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+          "images": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Bluish - 3 years (38,6 INCHES)",
+          "sku": "553972438-920-36",
+          "mpn": "553972438-920-36",
+          "color_name": "Bluish",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+          "images": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Bluish - 4 years (40,9 INCHES)",
+          "sku": "553972438-920-48",
+          "mpn": "553972438-920-48",
+          "color_name": "Bluish",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+          "images": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Bluish - 5 years (43,3 INCHES)",
+          "sku": "553972438-920-60",
+          "mpn": "553972438-920-60",
+          "color_name": "Bluish",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+          "images": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON FLEECE PANTS - Bluish - 6 years (45,2 INCHES)",
+          "sku": "553972438-920-72",
+          "mpn": "553972438-920-72",
+          "color_name": "Bluish",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-fit-sweatpants-p01880576.html?v1=553972439",
+          "images": [
+            "https://static.zara.net/assets/public/6035/7969/e39b469b9830/e7bbca08a120/01880576920-e1/01880576920-e1.jpg?ts=1787744381947&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e855/7604/b0404c919002/9280bcd601b1/01880576664-e1/01880576664-e1.jpg?ts=1787744379344&w=1920",
+        "https://static.zara.net/assets/public/a876/3160/36274a65bcb7/e290e8decd24/01880576664-e2/01880576664-e2.jpg?ts=1787744379334&w=1920",
+        "https://static.zara.net/assets/public/36f5/ce7b/e6d44f548cab/d179c60df267/01880576664-e3/01880576664-e3.jpg?ts=1787744380574&w=1920",
+        "https://static.zara.net/assets/public/06bd/ab38/71f64a6d89da/a022c6f18a83/01880576664-e4/01880576664-e4.jpg?ts=1787744381527&w=1920",
+        "https://static.zara.net/assets/public/e00b/afa0/b42b4f22a3e4/689d3026a1ff/01880576664400-p/01880576664400-p.jpg?ts=1788273526675&w=1920",
+        "https://static.zara.net/assets/public/3d4a/beee/8d69498583ed/6b598be9f31e/01880576664400-a1/01880576664400-a1.jpg?ts=1788273526974&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Dark pink",
+    "Bluish"
+  ],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nBalloon-fit fleece pants with an elastic waistband and adjustable front drawstrings. Front pockets and patch pockets on the back.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "eb27666130e284cc3fa9d4d6391df7cdc4d585cc1183a7b5509d5e6790f3d872",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

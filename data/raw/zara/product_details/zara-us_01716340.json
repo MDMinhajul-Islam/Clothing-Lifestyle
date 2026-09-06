@@ -1,0 +1,1451 @@
+{
+  "product_id": "zara-us:01716340",
+  "source_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html",
+  "final_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html",
+  "canonical_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLAIN T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLAIN T-SHIRT",
+      "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html",
+      "productGroupID": "01716340",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920",
+        "https://static.zara.net/assets/public/8715/2eec/cf0a4584939e/3799eecfbe86/01716340250-e2/01716340250-e2.jpg?ts=1768488335743&w=1920",
+        "https://static.zara.net/assets/public/4838/22f7/b29b4a4fbb5c/fa58fc4bd246/01716340250-e3/01716340250-e3.jpg?ts=1768488334611&w=1920",
+        "https://static.zara.net/assets/public/7a67/9359/332a47fbad2e/3d3568f5297b/01716340250-e4/01716340250-e4.jpg?ts=1768488334743&w=1920",
+        "https://static.zara.net/assets/public/2c92/3ead/85684f1989da/1e23b42f3c31/01716340250200-p/01716340250200-p.jpg?ts=1772801327497&w=1920",
+        "https://static.zara.net/assets/public/d900/43ff/15b24d65902a/6718f3c21765/01716340250202-a1/01716340250202-a1.jpg?ts=1780927612349&w=1920",
+        "https://static.zara.net/assets/public/488d/40b3/51e343698362/eca9b1fc22a7/01716340250202-a2/01716340250202-a2.jpg?ts=1780927611937&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - White - 1½ years (33,9 INCHES)",
+          "sku": "554914648-250-18",
+          "mpn": "554914648-250-18",
+          "color": "White",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - White - 2 years (36,2 INCHES)",
+          "sku": "554914648-250-24",
+          "mpn": "554914648-250-24",
+          "color": "White",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - White - 3 years (38,6 INCHES)",
+          "sku": "554914648-250-36",
+          "mpn": "554914648-250-36",
+          "color": "White",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - White - 4 years (40,9 INCHES)",
+          "sku": "554914648-250-48",
+          "mpn": "554914648-250-48",
+          "color": "White",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - White - 5 years (43,3 INCHES)",
+          "sku": "554914648-250-60",
+          "mpn": "554914648-250-60",
+          "color": "White",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - White - 6 years (45,2 INCHES)",
+          "sku": "554914648-250-72",
+          "mpn": "554914648-250-72",
+          "color": "White",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Mauve - 1½ years (33,9 INCHES)",
+          "sku": "554914648-612-18",
+          "mpn": "554914648-612-18",
+          "color": "Mauve",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Mauve - 2 years (36,2 INCHES)",
+          "sku": "554914648-612-24",
+          "mpn": "554914648-612-24",
+          "color": "Mauve",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Mauve - 3 years (38,6 INCHES)",
+          "sku": "554914648-612-36",
+          "mpn": "554914648-612-36",
+          "color": "Mauve",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Mauve - 4 years (40,9 INCHES)",
+          "sku": "554914648-612-48",
+          "mpn": "554914648-612-48",
+          "color": "Mauve",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Mauve - 5 years (43,3 INCHES)",
+          "sku": "554914648-612-60",
+          "mpn": "554914648-612-60",
+          "color": "Mauve",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Mauve - 6 years (45,2 INCHES)",
+          "sku": "554914648-612-72",
+          "mpn": "554914648-612-72",
+          "color": "Mauve",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Yellow - 1½ years (33,9 INCHES)",
+          "sku": "554914648-300-18",
+          "mpn": "554914648-300-18",
+          "color": "Yellow",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Yellow - 2 years (36,2 INCHES)",
+          "sku": "554914648-300-24",
+          "mpn": "554914648-300-24",
+          "color": "Yellow",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Yellow - 3 years (38,6 INCHES)",
+          "sku": "554914648-300-36",
+          "mpn": "554914648-300-36",
+          "color": "Yellow",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Yellow - 4 years (40,9 INCHES)",
+          "sku": "554914648-300-48",
+          "mpn": "554914648-300-48",
+          "color": "Yellow",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Yellow - 5 years (43,3 INCHES)",
+          "sku": "554914648-300-60",
+          "mpn": "554914648-300-60",
+          "color": "Yellow",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Yellow - 6 years (45,2 INCHES)",
+          "sku": "554914648-300-72",
+          "mpn": "554914648-300-72",
+          "color": "Yellow",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Dark anthracite - 1½ years (33,9 INCHES)",
+          "sku": "554914648-898-18",
+          "mpn": "554914648-898-18",
+          "color": "Dark anthracite",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Dark anthracite - 2 years (36,2 INCHES)",
+          "sku": "554914648-898-24",
+          "mpn": "554914648-898-24",
+          "color": "Dark anthracite",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Dark anthracite - 3 years (38,6 INCHES)",
+          "sku": "554914648-898-36",
+          "mpn": "554914648-898-36",
+          "color": "Dark anthracite",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Dark anthracite - 4 years (40,9 INCHES)",
+          "sku": "554914648-898-48",
+          "mpn": "554914648-898-48",
+          "color": "Dark anthracite",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Dark anthracite - 5 years (43,3 INCHES)",
+          "sku": "554914648-898-60",
+          "mpn": "554914648-898-60",
+          "color": "Dark anthracite",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Dark anthracite - 6 years (45,2 INCHES)",
+          "sku": "554914648-898-72",
+          "mpn": "554914648-898-72",
+          "color": "Dark anthracite",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pink - 1½ years (33,9 INCHES)",
+          "sku": "554914648-620-18",
+          "mpn": "554914648-620-18",
+          "color": "Pink",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pink - 2 years (36,2 INCHES)",
+          "sku": "554914648-620-24",
+          "mpn": "554914648-620-24",
+          "color": "Pink",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pink - 3 years (38,6 INCHES)",
+          "sku": "554914648-620-36",
+          "mpn": "554914648-620-36",
+          "color": "Pink",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pink - 4 years (40,9 INCHES)",
+          "sku": "554914648-620-48",
+          "mpn": "554914648-620-48",
+          "color": "Pink",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pink - 5 years (43,3 INCHES)",
+          "sku": "554914648-620-60",
+          "mpn": "554914648-620-60",
+          "color": "Pink",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Pink - 6 years (45,2 INCHES)",
+          "sku": "554914648-620-72",
+          "mpn": "554914648-620-72",
+          "color": "Pink",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Aquamarine - 1½ years (33,9 INCHES)",
+          "sku": "554914648-426-18",
+          "mpn": "554914648-426-18",
+          "color": "Aquamarine",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Aquamarine - 2 years (36,2 INCHES)",
+          "sku": "554914648-426-24",
+          "mpn": "554914648-426-24",
+          "color": "Aquamarine",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Aquamarine - 3 years (38,6 INCHES)",
+          "sku": "554914648-426-36",
+          "mpn": "554914648-426-36",
+          "color": "Aquamarine",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Aquamarine - 4 years (40,9 INCHES)",
+          "sku": "554914648-426-48",
+          "mpn": "554914648-426-48",
+          "color": "Aquamarine",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Aquamarine - 5 years (43,3 INCHES)",
+          "sku": "554914648-426-60",
+          "mpn": "554914648-426-60",
+          "color": "Aquamarine",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Aquamarine - 6 years (45,2 INCHES)",
+          "sku": "554914648-426-72",
+          "mpn": "554914648-426-72",
+          "color": "Aquamarine",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Neon pink - 1½ years (33,9 INCHES)",
+          "sku": "554914648-460-18",
+          "mpn": "554914648-460-18",
+          "color": "Neon pink",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Neon pink - 2 years (36,2 INCHES)",
+          "sku": "554914648-460-24",
+          "mpn": "554914648-460-24",
+          "color": "Neon pink",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Neon pink - 3 years (38,6 INCHES)",
+          "sku": "554914648-460-36",
+          "mpn": "554914648-460-36",
+          "color": "Neon pink",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Neon pink - 4 years (40,9 INCHES)",
+          "sku": "554914648-460-48",
+          "mpn": "554914648-460-48",
+          "color": "Neon pink",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Neon pink - 5 years (43,3 INCHES)",
+          "sku": "554914648-460-60",
+          "mpn": "554914648-460-60",
+          "color": "Neon pink",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Neon pink - 6 years (45,2 INCHES)",
+          "sku": "554914648-460-72",
+          "mpn": "554914648-460-72",
+          "color": "Neon pink",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLAIN T-SHIRT",
+      "product_group_id": "01716340",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLAIN T-SHIRT - White - 1½ years (33,9 INCHES)",
+          "sku": "554914648-250-18",
+          "mpn": "554914648-250-18",
+          "color_name": "White",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+          "images": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - White - 2 years (36,2 INCHES)",
+          "sku": "554914648-250-24",
+          "mpn": "554914648-250-24",
+          "color_name": "White",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+          "images": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - White - 3 years (38,6 INCHES)",
+          "sku": "554914648-250-36",
+          "mpn": "554914648-250-36",
+          "color_name": "White",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+          "images": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - White - 4 years (40,9 INCHES)",
+          "sku": "554914648-250-48",
+          "mpn": "554914648-250-48",
+          "color_name": "White",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+          "images": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - White - 5 years (43,3 INCHES)",
+          "sku": "554914648-250-60",
+          "mpn": "554914648-250-60",
+          "color_name": "White",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+          "images": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - White - 6 years (45,2 INCHES)",
+          "sku": "554914648-250-72",
+          "mpn": "554914648-250-72",
+          "color_name": "White",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914648",
+          "images": [
+            "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Mauve - 1½ years (33,9 INCHES)",
+          "sku": "554914648-612-18",
+          "mpn": "554914648-612-18",
+          "color_name": "Mauve",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+          "images": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Mauve - 2 years (36,2 INCHES)",
+          "sku": "554914648-612-24",
+          "mpn": "554914648-612-24",
+          "color_name": "Mauve",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+          "images": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Mauve - 3 years (38,6 INCHES)",
+          "sku": "554914648-612-36",
+          "mpn": "554914648-612-36",
+          "color_name": "Mauve",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+          "images": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Mauve - 4 years (40,9 INCHES)",
+          "sku": "554914648-612-48",
+          "mpn": "554914648-612-48",
+          "color_name": "Mauve",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+          "images": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Mauve - 5 years (43,3 INCHES)",
+          "sku": "554914648-612-60",
+          "mpn": "554914648-612-60",
+          "color_name": "Mauve",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+          "images": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Mauve - 6 years (45,2 INCHES)",
+          "sku": "554914648-612-72",
+          "mpn": "554914648-612-72",
+          "color_name": "Mauve",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914646",
+          "images": [
+            "https://static.zara.net/assets/public/d68a/5e63/9d9c4d8ea20b/c0c545d891e5/01716340612-e1/01716340612-e1.jpg?ts=1774857117238&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Yellow - 1½ years (33,9 INCHES)",
+          "sku": "554914648-300-18",
+          "mpn": "554914648-300-18",
+          "color_name": "Yellow",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+          "images": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Yellow - 2 years (36,2 INCHES)",
+          "sku": "554914648-300-24",
+          "mpn": "554914648-300-24",
+          "color_name": "Yellow",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+          "images": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Yellow - 3 years (38,6 INCHES)",
+          "sku": "554914648-300-36",
+          "mpn": "554914648-300-36",
+          "color_name": "Yellow",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+          "images": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Yellow - 4 years (40,9 INCHES)",
+          "sku": "554914648-300-48",
+          "mpn": "554914648-300-48",
+          "color_name": "Yellow",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+          "images": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Yellow - 5 years (43,3 INCHES)",
+          "sku": "554914648-300-60",
+          "mpn": "554914648-300-60",
+          "color_name": "Yellow",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+          "images": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Yellow - 6 years (45,2 INCHES)",
+          "sku": "554914648-300-72",
+          "mpn": "554914648-300-72",
+          "color_name": "Yellow",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914643",
+          "images": [
+            "https://static.zara.net/assets/public/d267/6461/32e945798e9e/66d079cea4b1/01716340300-e1/01716340300-e1.jpg?ts=1774857676207&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Dark anthracite - 1½ years (33,9 INCHES)",
+          "sku": "554914648-898-18",
+          "mpn": "554914648-898-18",
+          "color_name": "Dark anthracite",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+          "images": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Dark anthracite - 2 years (36,2 INCHES)",
+          "sku": "554914648-898-24",
+          "mpn": "554914648-898-24",
+          "color_name": "Dark anthracite",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+          "images": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Dark anthracite - 3 years (38,6 INCHES)",
+          "sku": "554914648-898-36",
+          "mpn": "554914648-898-36",
+          "color_name": "Dark anthracite",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+          "images": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Dark anthracite - 4 years (40,9 INCHES)",
+          "sku": "554914648-898-48",
+          "mpn": "554914648-898-48",
+          "color_name": "Dark anthracite",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+          "images": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Dark anthracite - 5 years (43,3 INCHES)",
+          "sku": "554914648-898-60",
+          "mpn": "554914648-898-60",
+          "color_name": "Dark anthracite",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+          "images": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Dark anthracite - 6 years (45,2 INCHES)",
+          "sku": "554914648-898-72",
+          "mpn": "554914648-898-72",
+          "color_name": "Dark anthracite",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914645",
+          "images": [
+            "https://static.zara.net/assets/public/3ecc/8778/427b4d0dbc03/95255251a928/01716340898-e1/01716340898-e1.jpg?ts=1768473306736&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pink - 1½ years (33,9 INCHES)",
+          "sku": "554914648-620-18",
+          "mpn": "554914648-620-18",
+          "color_name": "Pink",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+          "images": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pink - 2 years (36,2 INCHES)",
+          "sku": "554914648-620-24",
+          "mpn": "554914648-620-24",
+          "color_name": "Pink",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+          "images": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pink - 3 years (38,6 INCHES)",
+          "sku": "554914648-620-36",
+          "mpn": "554914648-620-36",
+          "color_name": "Pink",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+          "images": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pink - 4 years (40,9 INCHES)",
+          "sku": "554914648-620-48",
+          "mpn": "554914648-620-48",
+          "color_name": "Pink",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+          "images": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pink - 5 years (43,3 INCHES)",
+          "sku": "554914648-620-60",
+          "mpn": "554914648-620-60",
+          "color_name": "Pink",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+          "images": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Pink - 6 years (45,2 INCHES)",
+          "sku": "554914648-620-72",
+          "mpn": "554914648-620-72",
+          "color_name": "Pink",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914644",
+          "images": [
+            "https://static.zara.net/assets/public/f755/b51d/c598488593ce/04c5e4f34aaf/01716340620-e1/01716340620-e1.jpg?ts=1771845870337&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Aquamarine - 1½ years (33,9 INCHES)",
+          "sku": "554914648-426-18",
+          "mpn": "554914648-426-18",
+          "color_name": "Aquamarine",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+          "images": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Aquamarine - 2 years (36,2 INCHES)",
+          "sku": "554914648-426-24",
+          "mpn": "554914648-426-24",
+          "color_name": "Aquamarine",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+          "images": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Aquamarine - 3 years (38,6 INCHES)",
+          "sku": "554914648-426-36",
+          "mpn": "554914648-426-36",
+          "color_name": "Aquamarine",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+          "images": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Aquamarine - 4 years (40,9 INCHES)",
+          "sku": "554914648-426-48",
+          "mpn": "554914648-426-48",
+          "color_name": "Aquamarine",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+          "images": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Aquamarine - 5 years (43,3 INCHES)",
+          "sku": "554914648-426-60",
+          "mpn": "554914648-426-60",
+          "color_name": "Aquamarine",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+          "images": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Aquamarine - 6 years (45,2 INCHES)",
+          "sku": "554914648-426-72",
+          "mpn": "554914648-426-72",
+          "color_name": "Aquamarine",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914647",
+          "images": [
+            "https://static.zara.net/assets/public/dd0c/3d53/2b4647e28f9f/a5d567e635ba/01716340426-e1/01716340426-e1.jpg?ts=1774857668476&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Neon pink - 1½ years (33,9 INCHES)",
+          "sku": "554914648-460-18",
+          "mpn": "554914648-460-18",
+          "color_name": "Neon pink",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+          "images": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Neon pink - 2 years (36,2 INCHES)",
+          "sku": "554914648-460-24",
+          "mpn": "554914648-460-24",
+          "color_name": "Neon pink",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+          "images": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Neon pink - 3 years (38,6 INCHES)",
+          "sku": "554914648-460-36",
+          "mpn": "554914648-460-36",
+          "color_name": "Neon pink",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+          "images": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Neon pink - 4 years (40,9 INCHES)",
+          "sku": "554914648-460-48",
+          "mpn": "554914648-460-48",
+          "color_name": "Neon pink",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+          "images": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Neon pink - 5 years (43,3 INCHES)",
+          "sku": "554914648-460-60",
+          "mpn": "554914648-460-60",
+          "color_name": "Neon pink",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+          "images": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Neon pink - 6 years (45,2 INCHES)",
+          "sku": "554914648-460-72",
+          "mpn": "554914648-460-72",
+          "color_name": "Neon pink",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01716340.html?v1=554914649",
+          "images": [
+            "https://static.zara.net/assets/public/904c/c48d/6ed44c34af92/49f9fb145a42/01716340460-e1/01716340460-e1.jpg?ts=1773996331771&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0bd2/d868/a1fb41408205/f39e25034a47/01716340250-e1/01716340250-e1.jpg?ts=1768488335322&w=1920",
+        "https://static.zara.net/assets/public/8715/2eec/cf0a4584939e/3799eecfbe86/01716340250-e2/01716340250-e2.jpg?ts=1768488335743&w=1920",
+        "https://static.zara.net/assets/public/4838/22f7/b29b4a4fbb5c/fa58fc4bd246/01716340250-e3/01716340250-e3.jpg?ts=1768488334611&w=1920",
+        "https://static.zara.net/assets/public/7a67/9359/332a47fbad2e/3d3568f5297b/01716340250-e4/01716340250-e4.jpg?ts=1768488334743&w=1920",
+        "https://static.zara.net/assets/public/2c92/3ead/85684f1989da/1e23b42f3c31/01716340250200-p/01716340250200-p.jpg?ts=1772801327497&w=1920",
+        "https://static.zara.net/assets/public/d900/43ff/15b24d65902a/6718f3c21765/01716340250202-a1/01716340250202-a1.jpg?ts=1780927612349&w=1920",
+        "https://static.zara.net/assets/public/488d/40b3/51e343698362/eca9b1fc22a7/01716340250202-a2/01716340250202-a2.jpg?ts=1780927611937&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Mauve",
+    "Yellow",
+    "Dark anthracite",
+    "Pink",
+    "Aquamarine",
+    "Neon pink"
+  ],
+  "rendered_price": "8.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 13,
+  "variants_count": 42,
+  "colors_count": 7,
+  "pricing_stats": {
+    "current_price": "8.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "8.90",
+    "dom_price": "8.90",
+    "normalized_price": "8.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "870d5ae13b56aec32adbbf004a69e4dc6541f85588371b368a6311f256f53340",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

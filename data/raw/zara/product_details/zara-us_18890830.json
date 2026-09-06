@@ -1,0 +1,505 @@
+{
+  "product_id": "zara-us:18890830",
+  "source_url": "https://www.zara.com/us/en/rain-boots-p18890830.html",
+  "final_url": "https://www.zara.com/us/en/rain-boots-p18890830.html",
+  "canonical_url": "https://www.zara.com/us/en/rain-boots-p18890830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RAIN BOOTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RAIN BOOTS",
+      "url": "https://www.zara.com/us/en/rain-boots-p18890830.html",
+      "productGroupID": "18890830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Rain boots with a handle integrated into the shaft. Featuring a lugged rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920",
+        "https://static.zara.net/assets/public/ccf1/55d7/dd8044bda504/4172910da945/18892830032-e2/18892830032-e2.jpg?ts=1787125554288&w=1920",
+        "https://static.zara.net/assets/public/3b7d/f58e/28594305954a/f5a5ab2dcf05/18892830032-e3/18892830032-e3.jpg?ts=1787125554848&w=1920",
+        "https://static.zara.net/assets/public/9b96/37f0/d01140ce8cea/66a43b51a9a6/18892830032-e4/18892830032-e4.jpg?ts=1787125555043&w=1920",
+        "https://static.zara.net/assets/public/2a39/7ea0/d52543eda3aa/29c8d84842bd/18892830032-e5/18892830032-e5.jpg?ts=1787125555447&w=1920",
+        "https://static.zara.net/assets/public/daf5/2258/e5d2446894db/2ae28f6dd0c3/18892830032-e6/18892830032-e6.jpg?ts=1787125554527&w=1920",
+        "https://static.zara.net/assets/public/89c7/9bb3/805749bbbbf9/f66859be45c4/18892830032-e7/18892830032-e7.jpg?ts=1787125555491&w=1920"
+      ],
+      "material": "100% sbs",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Khaki Green - 4/4½ (4.8 INCHES)",
+          "sku": "568400114-032-19",
+          "mpn": "568400114-032-19",
+          "color": "Khaki Green",
+          "size": "4/4½ (4.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400114",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Khaki Green - 5½/6½ (5.3 INCHES)",
+          "sku": "568400114-032-21",
+          "mpn": "568400114-032-21",
+          "color": "Khaki Green",
+          "size": "5½/6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400114",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Khaki Green - 7/8 (5.9 INCHES)",
+          "sku": "568400114-032-23",
+          "mpn": "568400114-032-23",
+          "color": "Khaki Green",
+          "size": "7/8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400114",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Khaki Green - 9/9½ (6.4 INCHES)",
+          "sku": "568400114-032-25",
+          "mpn": "568400114-032-25",
+          "color": "Khaki Green",
+          "size": "9/9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400114",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Chocolate - 4/4½ (4.8 INCHES)",
+          "sku": "568400114-721-19",
+          "mpn": "568400114-721-19",
+          "color": "Chocolate",
+          "size": "4/4½ (4.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d88b/fa85/caba4e5cb0c3/701861f09dcf/18890830721-e1/18890830721-e1.jpg?ts=1786528049354&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=545889016",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Chocolate - 5½/6½ (5.3 INCHES)",
+          "sku": "568400114-721-21",
+          "mpn": "568400114-721-21",
+          "color": "Chocolate",
+          "size": "5½/6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d88b/fa85/caba4e5cb0c3/701861f09dcf/18890830721-e1/18890830721-e1.jpg?ts=1786528049354&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=545889016",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Chocolate - 7/8 (5.9 INCHES)",
+          "sku": "568400114-721-23",
+          "mpn": "568400114-721-23",
+          "color": "Chocolate",
+          "size": "7/8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d88b/fa85/caba4e5cb0c3/701861f09dcf/18890830721-e1/18890830721-e1.jpg?ts=1786528049354&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=545889016",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Chocolate - 9/9½ (6.4 INCHES)",
+          "sku": "568400114-721-25",
+          "mpn": "568400114-721-25",
+          "color": "Chocolate",
+          "size": "9/9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d88b/fa85/caba4e5cb0c3/701861f09dcf/18890830721-e1/18890830721-e1.jpg?ts=1786528049354&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=545889016",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Pink - 4/4½ (4.8 INCHES)",
+          "sku": "568400114-050-19",
+          "mpn": "568400114-050-19",
+          "color": "Pink",
+          "size": "4/4½ (4.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f232/4e84/696e4f1c9f26/3f53387f3765/18891830050-e1/18891830050-e1.jpg?ts=1787045846227&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400113",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Pink - 5½/6½ (5.3 INCHES)",
+          "sku": "568400114-050-21",
+          "mpn": "568400114-050-21",
+          "color": "Pink",
+          "size": "5½/6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f232/4e84/696e4f1c9f26/3f53387f3765/18891830050-e1/18891830050-e1.jpg?ts=1787045846227&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400113",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Pink - 7/8 (5.9 INCHES)",
+          "sku": "568400114-050-23",
+          "mpn": "568400114-050-23",
+          "color": "Pink",
+          "size": "7/8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f232/4e84/696e4f1c9f26/3f53387f3765/18891830050-e1/18891830050-e1.jpg?ts=1787045846227&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400113",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RAIN BOOTS - Pink - 9/9½ (6.4 INCHES)",
+          "sku": "568400114-050-25",
+          "mpn": "568400114-050-25",
+          "color": "Pink",
+          "size": "9/9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f232/4e84/696e4f1c9f26/3f53387f3765/18891830050-e1/18891830050-e1.jpg?ts=1787045846227&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400113",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RAIN BOOTS",
+      "product_group_id": "18890830",
+      "brand": "ZARA",
+      "description": "Rain boots with a handle integrated into the shaft. Featuring a lugged rubber sole.",
+      "material": "100% sbs",
+      "composition": "UPPER: 100% sbs | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RAIN BOOTS - Khaki Green - 4/4½ (4.8 INCHES)",
+          "sku": "568400114-032-19",
+          "mpn": "568400114-032-19",
+          "color_name": "Khaki Green",
+          "size_name": "4/4½ (4.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400114",
+          "images": [
+            "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Khaki Green - 5½/6½ (5.3 INCHES)",
+          "sku": "568400114-032-21",
+          "mpn": "568400114-032-21",
+          "color_name": "Khaki Green",
+          "size_name": "5½/6½ (5.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400114",
+          "images": [
+            "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Khaki Green - 7/8 (5.9 INCHES)",
+          "sku": "568400114-032-23",
+          "mpn": "568400114-032-23",
+          "color_name": "Khaki Green",
+          "size_name": "7/8 (5.9 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400114",
+          "images": [
+            "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Khaki Green - 9/9½ (6.4 INCHES)",
+          "sku": "568400114-032-25",
+          "mpn": "568400114-032-25",
+          "color_name": "Khaki Green",
+          "size_name": "9/9½ (6.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400114",
+          "images": [
+            "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Chocolate - 4/4½ (4.8 INCHES)",
+          "sku": "568400114-721-19",
+          "mpn": "568400114-721-19",
+          "color_name": "Chocolate",
+          "size_name": "4/4½ (4.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=545889016",
+          "images": [
+            "https://static.zara.net/assets/public/d88b/fa85/caba4e5cb0c3/701861f09dcf/18890830721-e1/18890830721-e1.jpg?ts=1786528049354&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Chocolate - 5½/6½ (5.3 INCHES)",
+          "sku": "568400114-721-21",
+          "mpn": "568400114-721-21",
+          "color_name": "Chocolate",
+          "size_name": "5½/6½ (5.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=545889016",
+          "images": [
+            "https://static.zara.net/assets/public/d88b/fa85/caba4e5cb0c3/701861f09dcf/18890830721-e1/18890830721-e1.jpg?ts=1786528049354&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Chocolate - 7/8 (5.9 INCHES)",
+          "sku": "568400114-721-23",
+          "mpn": "568400114-721-23",
+          "color_name": "Chocolate",
+          "size_name": "7/8 (5.9 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=545889016",
+          "images": [
+            "https://static.zara.net/assets/public/d88b/fa85/caba4e5cb0c3/701861f09dcf/18890830721-e1/18890830721-e1.jpg?ts=1786528049354&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Chocolate - 9/9½ (6.4 INCHES)",
+          "sku": "568400114-721-25",
+          "mpn": "568400114-721-25",
+          "color_name": "Chocolate",
+          "size_name": "9/9½ (6.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=545889016",
+          "images": [
+            "https://static.zara.net/assets/public/d88b/fa85/caba4e5cb0c3/701861f09dcf/18890830721-e1/18890830721-e1.jpg?ts=1786528049354&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Pink - 4/4½ (4.8 INCHES)",
+          "sku": "568400114-050-19",
+          "mpn": "568400114-050-19",
+          "color_name": "Pink",
+          "size_name": "4/4½ (4.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400113",
+          "images": [
+            "https://static.zara.net/assets/public/f232/4e84/696e4f1c9f26/3f53387f3765/18891830050-e1/18891830050-e1.jpg?ts=1787045846227&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Pink - 5½/6½ (5.3 INCHES)",
+          "sku": "568400114-050-21",
+          "mpn": "568400114-050-21",
+          "color_name": "Pink",
+          "size_name": "5½/6½ (5.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400113",
+          "images": [
+            "https://static.zara.net/assets/public/f232/4e84/696e4f1c9f26/3f53387f3765/18891830050-e1/18891830050-e1.jpg?ts=1787045846227&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Pink - 7/8 (5.9 INCHES)",
+          "sku": "568400114-050-23",
+          "mpn": "568400114-050-23",
+          "color_name": "Pink",
+          "size_name": "7/8 (5.9 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400113",
+          "images": [
+            "https://static.zara.net/assets/public/f232/4e84/696e4f1c9f26/3f53387f3765/18891830050-e1/18891830050-e1.jpg?ts=1787045846227&w=1920"
+          ]
+        },
+        {
+          "name": "RAIN BOOTS - Pink - 9/9½ (6.4 INCHES)",
+          "sku": "568400114-050-25",
+          "mpn": "568400114-050-25",
+          "color_name": "Pink",
+          "size_name": "9/9½ (6.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rain-boots-p18890830.html?v1=568400113",
+          "images": [
+            "https://static.zara.net/assets/public/f232/4e84/696e4f1c9f26/3f53387f3765/18891830050-e1/18891830050-e1.jpg?ts=1787045846227&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2617/16b0/147b4e7d9fd6/047527a7bc08/18892830032-e1/18892830032-e1.jpg?ts=1787124860018&w=1920",
+        "https://static.zara.net/assets/public/ccf1/55d7/dd8044bda504/4172910da945/18892830032-e2/18892830032-e2.jpg?ts=1787125554288&w=1920",
+        "https://static.zara.net/assets/public/3b7d/f58e/28594305954a/f5a5ab2dcf05/18892830032-e3/18892830032-e3.jpg?ts=1787125554848&w=1920",
+        "https://static.zara.net/assets/public/9b96/37f0/d01140ce8cea/66a43b51a9a6/18892830032-e4/18892830032-e4.jpg?ts=1787125555043&w=1920",
+        "https://static.zara.net/assets/public/2a39/7ea0/d52543eda3aa/29c8d84842bd/18892830032-e5/18892830032-e5.jpg?ts=1787125555447&w=1920",
+        "https://static.zara.net/assets/public/daf5/2258/e5d2446894db/2ae28f6dd0c3/18892830032-e6/18892830032-e6.jpg?ts=1787125554527&w=1920",
+        "https://static.zara.net/assets/public/89c7/9bb3/805749bbbbf9/f66859be45c4/18892830032-e7/18892830032-e7.jpg?ts=1787125555491&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Khaki Green",
+    "Chocolate",
+    "Pink"
+  ],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nRain boots with a handle integrated into the shaft. Featuring a lugged rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 9,
+  "variants_count": 12,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e046530dc3427a6300b45a5ad5e7169d17da259f1132792b8dd905cf90ba517b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

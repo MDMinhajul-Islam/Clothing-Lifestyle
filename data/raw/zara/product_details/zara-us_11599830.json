@@ -1,0 +1,169 @@
+{
+  "product_id": "zara-us:11599830",
+  "source_url": "https://www.zara.com/us/en/monochrome-shopper-bag-p11599830.html",
+  "final_url": "https://www.zara.com/us/en/monochrome-shopper-bag-p11599830.html",
+  "canonical_url": "https://www.zara.com/us/en/monochrome-shopper-bag-p11599830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MONOCHROME SHOPPER BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MONOCHROME SHOPPER BAG",
+      "url": "https://www.zara.com/us/en/monochrome-shopper-bag-p11599830.html",
+      "productGroupID": "11599830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Solid-colored shopper bag with a front pocket and decorative charm. Features a main compartment, dual top handles, and an adjustable shoulder strap.\n\nHeight x Width x Depth: 9.4 x 13 x 3.9 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2fdc/a82c/d47047d78328/a4145ecb1b6a/11599830400-e1/11599830400-e1.jpg?ts=1787139453435&w=1920",
+        "https://static.zara.net/assets/public/067a/b7eb/e6454337a62d/4d603c7a7005/11599830400-e2/11599830400-e2.jpg?ts=1787139452079&w=1920",
+        "https://static.zara.net/assets/public/824b/8bb9/fd6a4ee58d02/f23f05e79611/11599830400-e3/11599830400-e3.jpg?ts=1787139451563&w=1920",
+        "https://static.zara.net/assets/public/fa3f/3c4d/65d2463d8639/50e77b85079a/11599830400-e4/11599830400-e4.jpg?ts=1787139453164&w=1920",
+        "https://static.zara.net/assets/public/bca8/0f51/dc1e430b957b/2766af437d10/11599830400-e5/11599830400-e5.jpg?ts=1787139451064&w=1920",
+        "https://static.zara.net/assets/public/11e4/fa14/e8f4451fbe8d/86c9a660fb07/11599830400-e6/11599830400-e6.jpg?ts=1787139450847&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MONOCHROME SHOPPER BAG - Blue - ONE SIZE ONLY",
+          "sku": "557822277-400-53",
+          "mpn": "557822277-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2fdc/a82c/d47047d78328/a4145ecb1b6a/11599830400-e1/11599830400-e1.jpg?ts=1787139453435&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/monochrome-shopper-bag-p11599830.html?v1=557822277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MONOCHROME SHOPPER BAG - Red - ONE SIZE ONLY",
+          "sku": "557822277-600-53",
+          "mpn": "557822277-600-53",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/906b/496e/2f58449ebb0a/7dfc1f203719/11599830600-e1/11599830600-e1.jpg?ts=1787139453841&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/monochrome-shopper-bag-p11599830.html?v1=557822278",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MONOCHROME SHOPPER BAG",
+      "product_group_id": "11599830",
+      "brand": "ZARA",
+      "description": "Solid-colored shopper bag with a front pocket and decorative charm. Features a main compartment, dual top handles, and an adjustable shoulder strap.\n\nHeight x Width x Depth: 9.4 x 13 x 3.9 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MONOCHROME SHOPPER BAG - Blue - ONE SIZE ONLY",
+          "sku": "557822277-400-53",
+          "mpn": "557822277-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/monochrome-shopper-bag-p11599830.html?v1=557822277",
+          "images": [
+            "https://static.zara.net/assets/public/2fdc/a82c/d47047d78328/a4145ecb1b6a/11599830400-e1/11599830400-e1.jpg?ts=1787139453435&w=1920"
+          ]
+        },
+        {
+          "name": "MONOCHROME SHOPPER BAG - Red - ONE SIZE ONLY",
+          "sku": "557822277-600-53",
+          "mpn": "557822277-600-53",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/monochrome-shopper-bag-p11599830.html?v1=557822278",
+          "images": [
+            "https://static.zara.net/assets/public/906b/496e/2f58449ebb0a/7dfc1f203719/11599830600-e1/11599830600-e1.jpg?ts=1787139453841&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2fdc/a82c/d47047d78328/a4145ecb1b6a/11599830400-e1/11599830400-e1.jpg?ts=1787139453435&w=1920",
+        "https://static.zara.net/assets/public/067a/b7eb/e6454337a62d/4d603c7a7005/11599830400-e2/11599830400-e2.jpg?ts=1787139452079&w=1920",
+        "https://static.zara.net/assets/public/824b/8bb9/fd6a4ee58d02/f23f05e79611/11599830400-e3/11599830400-e3.jpg?ts=1787139451563&w=1920",
+        "https://static.zara.net/assets/public/fa3f/3c4d/65d2463d8639/50e77b85079a/11599830400-e4/11599830400-e4.jpg?ts=1787139453164&w=1920",
+        "https://static.zara.net/assets/public/bca8/0f51/dc1e430b957b/2766af437d10/11599830400-e5/11599830400-e5.jpg?ts=1787139451064&w=1920",
+        "https://static.zara.net/assets/public/11e4/fa14/e8f4451fbe8d/86c9a660fb07/11599830400-e6/11599830400-e6.jpg?ts=1787139450847&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Red"
+  ],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nSolid-colored shopper bag with a front pocket and decorative charm. Features a main compartment, dual top handles, and an adjustable shoulder strap.\nHeight x Width x Depth: 9.4 x 13 x 3.9 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ede8431538e2242bed39078031f17b25b2ad66a412ff782a16723e1d6352cf37",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

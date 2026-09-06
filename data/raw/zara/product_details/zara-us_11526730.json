@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:11526730",
+  "source_url": "https://www.zara.com/us/en/dinosaur-identifier-p11526730.html",
+  "final_url": "https://www.zara.com/us/en/dinosaur-identifier-p11526730.html",
+  "canonical_url": "https://www.zara.com/us/en/dinosaur-identifier-p11526730.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DINOSAUR IDENTIFIER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DINOSAUR IDENTIFIER",
+      "url": "https://www.zara.com/us/en/dinosaur-identifier-p11526730.html",
+      "productGroupID": "11526730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Dinosaur-shaped identifier mounted on a skateboard.\n\nHeight x Width x Depth: 2.76 x 2.76 x 0.39 inches (7 x 7 x 1 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/909e/51e1/fe1142859675/72b36fd8b0fc/11526730202-e1/11526730202-e1.jpg?ts=1772033085758&w=1920",
+        "https://static.zara.net/assets/public/3fa8/4eb2/8cea47798741/70b62f981526/11526730202-e2/11526730202-e2.jpg?ts=1772033085881&w=1920",
+        "https://static.zara.net/assets/public/4021/9df1/fa624865b623/af126313a3a5/11526730202-e3/11526730202-e3.jpg?ts=1772033085818&w=1920",
+        "https://static.zara.net/assets/public/100c/6879/233644b2a5ca/c50e0600f75e/11526730202-e4/11526730202-e4.jpg?ts=1772033086256&w=1920"
+      ],
+      "material": "rubber/polyester/iron",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "70% rubber, 20% polyester, 10% iron"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DINOSAUR IDENTIFIER - Multi-color - ONE SIZE ONLY",
+          "sku": "554734580-202-53",
+          "mpn": "554734580-202-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/909e/51e1/fe1142859675/72b36fd8b0fc/11526730202-e1/11526730202-e1.jpg?ts=1772033085758&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/dinosaur-identifier-p11526730.html?v1=554734580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DINOSAUR IDENTIFIER",
+      "product_group_id": "11526730",
+      "brand": "ZARA",
+      "description": "Dinosaur-shaped identifier mounted on a skateboard.\n\nHeight x Width x Depth: 2.76 x 2.76 x 0.39 inches (7 x 7 x 1 cm)",
+      "material": "rubber/polyester/iron",
+      "composition": "OUTER SHELL: 70% rubber, 20% polyester, 10% iron",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DINOSAUR IDENTIFIER - Multi-color - ONE SIZE ONLY",
+          "sku": "554734580-202-53",
+          "mpn": "554734580-202-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dinosaur-identifier-p11526730.html?v1=554734580",
+          "images": [
+            "https://static.zara.net/assets/public/909e/51e1/fe1142859675/72b36fd8b0fc/11526730202-e1/11526730202-e1.jpg?ts=1772033085758&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/909e/51e1/fe1142859675/72b36fd8b0fc/11526730202-e1/11526730202-e1.jpg?ts=1772033085758&w=1920",
+        "https://static.zara.net/assets/public/3fa8/4eb2/8cea47798741/70b62f981526/11526730202-e2/11526730202-e2.jpg?ts=1772033085881&w=1920",
+        "https://static.zara.net/assets/public/4021/9df1/fa624865b623/af126313a3a5/11526730202-e3/11526730202-e3.jpg?ts=1772033085818&w=1920",
+        "https://static.zara.net/assets/public/100c/6879/233644b2a5ca/c50e0600f75e/11526730202-e4/11526730202-e4.jpg?ts=1772033086256&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nDinosaur-shaped identifier mounted on a skateboard.\nHeight x Width x Depth: 2.76 x 2.76 x 0.39 inches (7 x 7 x 1 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "82679c7adcec634626a1206520fe85f29454af00563d5c19396017aae986b75f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

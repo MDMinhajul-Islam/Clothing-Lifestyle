@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:11579830",
+  "source_url": "https://www.zara.com/us/en/leon-s-and-bagels--bag-p11579830.html",
+  "final_url": "https://www.zara.com/us/en/leon-s-and-bagels--bag-p11579830.html",
+  "canonical_url": "https://www.zara.com/us/en/leon-s-and-bagels--bag-p11579830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEON’S AND BAGELS® BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEON’S AND BAGELS® BAG",
+      "url": "https://www.zara.com/us/en/leon-s-and-bagels--bag-p11579830.html",
+      "productGroupID": "11579830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "LEON’S AND BAGELS® bag with a contrasting checkered design. Features a main compartment with a snap-button closure.\n\nHeight x Width x Depth: 8.3 x 15.7 x 5.9 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/dbc8/7d76/853347c1971b/4fe8b9998beb/11579830107-e1/11579830107-e1.jpg?ts=1786373245237&w=1920",
+        "https://static.zara.net/assets/public/39c5/f30d/449b4b32a801/f9fbb64ff2e7/11579830107-e2/11579830107-e2.jpg?ts=1786373247675&w=1920",
+        "https://static.zara.net/assets/public/eba9/7776/699541f79f23/c4f790a76dd6/11579830107-e3/11579830107-e3.jpg?ts=1786373248605&w=1920",
+        "https://static.zara.net/assets/public/81b2/a0e9/823142eb923a/ee2ecbe959f1/11579830107-e4/11579830107-e4.jpg?ts=1786373247276&w=1920",
+        "https://static.zara.net/assets/public/5bc4/9f41/db144fd7ad21/cf850c6f3f95/11579830107-e5/11579830107-e5.jpg?ts=1786373248368&w=1920",
+        "https://static.zara.net/assets/public/42ca/7dc4/b9834f1c981b/d3606ab10283/11579830107-e6/11579830107-e6.jpg?ts=1786373247203&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "90% cotton, 10% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% PET"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEON’S AND BAGELS® BAG - Sandy Brown - ONE SIZE ONLY",
+          "sku": "547793088-107-53",
+          "mpn": "547793088-107-53",
+          "color": "Sandy Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/dbc8/7d76/853347c1971b/4fe8b9998beb/11579830107-e1/11579830107-e1.jpg?ts=1786373245237&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leon-s-and-bagels--bag-p11579830.html?v1=547793088",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEON’S AND BAGELS® BAG",
+      "product_group_id": "11579830",
+      "brand": "ZARA",
+      "description": "LEON’S AND BAGELS® bag with a contrasting checkered design. Features a main compartment with a snap-button closure.\n\nHeight x Width x Depth: 8.3 x 15.7 x 5.9 inches.",
+      "material": "cotton/polyester",
+      "composition": "OUTER SHELL: 90% cotton, 10% polyester | LINING: 100% PET",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEON’S AND BAGELS® BAG - Sandy Brown - ONE SIZE ONLY",
+          "sku": "547793088-107-53",
+          "mpn": "547793088-107-53",
+          "color_name": "Sandy Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leon-s-and-bagels--bag-p11579830.html?v1=547793088",
+          "images": [
+            "https://static.zara.net/assets/public/dbc8/7d76/853347c1971b/4fe8b9998beb/11579830107-e1/11579830107-e1.jpg?ts=1786373245237&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/dbc8/7d76/853347c1971b/4fe8b9998beb/11579830107-e1/11579830107-e1.jpg?ts=1786373245237&w=1920",
+        "https://static.zara.net/assets/public/39c5/f30d/449b4b32a801/f9fbb64ff2e7/11579830107-e2/11579830107-e2.jpg?ts=1786373247675&w=1920",
+        "https://static.zara.net/assets/public/eba9/7776/699541f79f23/c4f790a76dd6/11579830107-e3/11579830107-e3.jpg?ts=1786373248605&w=1920",
+        "https://static.zara.net/assets/public/81b2/a0e9/823142eb923a/ee2ecbe959f1/11579830107-e4/11579830107-e4.jpg?ts=1786373247276&w=1920",
+        "https://static.zara.net/assets/public/5bc4/9f41/db144fd7ad21/cf850c6f3f95/11579830107-e5/11579830107-e5.jpg?ts=1786373248368&w=1920",
+        "https://static.zara.net/assets/public/42ca/7dc4/b9834f1c981b/d3606ab10283/11579830107-e6/11579830107-e6.jpg?ts=1786373247203&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nLEON’S AND BAGELS® bag with a contrasting checkered design. Features a main compartment with a snap-button closure.\nHeight x Width x Depth: 8.3 x 15.7 x 5.9 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f0998ba00cb1839b6ab1310e60468f68c0c1bb6487bb8c113174ad6ae0aa52a3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

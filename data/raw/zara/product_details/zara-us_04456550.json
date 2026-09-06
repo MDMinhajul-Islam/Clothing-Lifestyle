@@ -1,0 +1,482 @@
+{
+  "product_id": "zara-us:04456550",
+  "source_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html",
+  "final_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html",
+  "canonical_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PRINTED T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PRINTED T-SHIRT",
+      "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html",
+      "productGroupID": "04456550",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck T-shirt with short sleeves. All-over print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920",
+        "https://static.zara.net/assets/public/167a/699e/ef6c455b90f4/1782b8774902/04456550251-e2/04456550251-e2.jpg?ts=1781610616886&w=1920",
+        "https://static.zara.net/assets/public/ada9/99bb/c91f4a3ca5fd/43cd882ce6ad/04456550251-e3/04456550251-e3.jpg?ts=1781610617800&w=1920",
+        "https://static.zara.net/assets/public/83f3/bcaa/8f6d4c4bb054/45832350d6c8/04456550251-e4/04456550251-e4.jpg?ts=1781610617655&w=1920",
+        "https://static.zara.net/assets/public/e5b4/430d/5a69472ab76f/72969da074f4/04456550251400-p/04456550251400-p.jpg?ts=1785413292732&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Oyster-white - 1½ years (33,9 INCHES)",
+          "sku": "545422061-251-18",
+          "mpn": "545422061-251-18",
+          "color": "Oyster-white",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Oyster-white - 2 years (36,2 INCHES)",
+          "sku": "545422061-251-24",
+          "mpn": "545422061-251-24",
+          "color": "Oyster-white",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Oyster-white - 3 years (38,6 INCHES)",
+          "sku": "545422061-251-36",
+          "mpn": "545422061-251-36",
+          "color": "Oyster-white",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Oyster-white - 4 years (40,9 INCHES)",
+          "sku": "545422061-251-48",
+          "mpn": "545422061-251-48",
+          "color": "Oyster-white",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Oyster-white - 5 years (43,3 INCHES)",
+          "sku": "545422061-251-60",
+          "mpn": "545422061-251-60",
+          "color": "Oyster-white",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Oyster-white - 6 years (45,2 INCHES)",
+          "sku": "545422061-251-72",
+          "mpn": "545422061-251-72",
+          "color": "Oyster-white",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Chocolate - 1½ years (33,9 INCHES)",
+          "sku": "545422061-717-18",
+          "mpn": "545422061-717-18",
+          "color": "Chocolate",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Chocolate - 2 years (36,2 INCHES)",
+          "sku": "545422061-717-24",
+          "mpn": "545422061-717-24",
+          "color": "Chocolate",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Chocolate - 3 years (38,6 INCHES)",
+          "sku": "545422061-717-36",
+          "mpn": "545422061-717-36",
+          "color": "Chocolate",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Chocolate - 4 years (40,9 INCHES)",
+          "sku": "545422061-717-48",
+          "mpn": "545422061-717-48",
+          "color": "Chocolate",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Chocolate - 5 years (43,3 INCHES)",
+          "sku": "545422061-717-60",
+          "mpn": "545422061-717-60",
+          "color": "Chocolate",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Chocolate - 6 years (45,2 INCHES)",
+          "sku": "545422061-717-72",
+          "mpn": "545422061-717-72",
+          "color": "Chocolate",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PRINTED T-SHIRT",
+      "product_group_id": "04456550",
+      "brand": "ZARA",
+      "description": "Round neck T-shirt with short sleeves. All-over print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PRINTED T-SHIRT - Oyster-white - 1½ years (33,9 INCHES)",
+          "sku": "545422061-251-18",
+          "mpn": "545422061-251-18",
+          "color_name": "Oyster-white",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+          "images": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Oyster-white - 2 years (36,2 INCHES)",
+          "sku": "545422061-251-24",
+          "mpn": "545422061-251-24",
+          "color_name": "Oyster-white",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+          "images": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Oyster-white - 3 years (38,6 INCHES)",
+          "sku": "545422061-251-36",
+          "mpn": "545422061-251-36",
+          "color_name": "Oyster-white",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+          "images": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Oyster-white - 4 years (40,9 INCHES)",
+          "sku": "545422061-251-48",
+          "mpn": "545422061-251-48",
+          "color_name": "Oyster-white",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+          "images": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Oyster-white - 5 years (43,3 INCHES)",
+          "sku": "545422061-251-60",
+          "mpn": "545422061-251-60",
+          "color_name": "Oyster-white",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+          "images": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Oyster-white - 6 years (45,2 INCHES)",
+          "sku": "545422061-251-72",
+          "mpn": "545422061-251-72",
+          "color_name": "Oyster-white",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422061",
+          "images": [
+            "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Chocolate - 1½ years (33,9 INCHES)",
+          "sku": "545422061-717-18",
+          "mpn": "545422061-717-18",
+          "color_name": "Chocolate",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+          "images": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Chocolate - 2 years (36,2 INCHES)",
+          "sku": "545422061-717-24",
+          "mpn": "545422061-717-24",
+          "color_name": "Chocolate",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+          "images": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Chocolate - 3 years (38,6 INCHES)",
+          "sku": "545422061-717-36",
+          "mpn": "545422061-717-36",
+          "color_name": "Chocolate",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+          "images": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Chocolate - 4 years (40,9 INCHES)",
+          "sku": "545422061-717-48",
+          "mpn": "545422061-717-48",
+          "color_name": "Chocolate",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+          "images": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Chocolate - 5 years (43,3 INCHES)",
+          "sku": "545422061-717-60",
+          "mpn": "545422061-717-60",
+          "color_name": "Chocolate",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+          "images": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Chocolate - 6 years (45,2 INCHES)",
+          "sku": "545422061-717-72",
+          "mpn": "545422061-717-72",
+          "color_name": "Chocolate",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p04456550.html?v1=545422060",
+          "images": [
+            "https://static.zara.net/assets/public/ae8e/ceea/0f234e3f95da/bd114fb11bae/04456550717-e1/04456550717-e1.jpg?ts=1781607826141&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e76f/9a9a/e5e54b018d29/54f78a7f55a9/04456550251-e1/04456550251-e1.jpg?ts=1781610617270&w=1920",
+        "https://static.zara.net/assets/public/167a/699e/ef6c455b90f4/1782b8774902/04456550251-e2/04456550251-e2.jpg?ts=1781610616886&w=1920",
+        "https://static.zara.net/assets/public/ada9/99bb/c91f4a3ca5fd/43cd882ce6ad/04456550251-e3/04456550251-e3.jpg?ts=1781610617800&w=1920",
+        "https://static.zara.net/assets/public/83f3/bcaa/8f6d4c4bb054/45832350d6c8/04456550251-e4/04456550251-e4.jpg?ts=1781610617655&w=1920",
+        "https://static.zara.net/assets/public/e5b4/430d/5a69472ab76f/72969da074f4/04456550251400-p/04456550251400-p.jpg?ts=1785413292732&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Oyster-white",
+    "Chocolate"
+  ],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nRound neck T-shirt with short sleeves. All-over print.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 6,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "9.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "9.90",
+    "dom_price": "9.90",
+    "normalized_price": "9.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a33a23215ddfdf37ab716de86fc3a138357664831907448b1c336dc88dac8961",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,382 @@
+{
+  "product_id": "zara-us:17327830",
+  "source_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html",
+  "final_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html",
+  "canonical_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TECHNICAL SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TECHNICAL SNEAKERS",
+      "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html",
+      "productGroupID": "17327830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Technical sneakers featuring a mix of panels and contrasting color details. Designed with an elastic lace-up fastening and a hook-and-loop strap. Features a chunky rubber sole with an embossed design.\n\nOrthoLite® insole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920",
+        "https://static.zara.net/assets/public/96dc/c1bf/7db34cbab90e/266c17461759/17327830202-e2/17327830202-e2.jpg?ts=1788162799257&w=1920",
+        "https://static.zara.net/assets/public/ef5f/d494/af104e1ea3e0/8783fed8ae9a/17327830202-e3/17327830202-e3.jpg?ts=1788162798263&w=1920",
+        "https://static.zara.net/assets/public/f83f/9111/687946bca29e/4c0829d5a203/17327830202-e4/17327830202-e4.jpg?ts=1788162797338&w=1920",
+        "https://static.zara.net/assets/public/e355/cff6/bebd4c7ebfdc/3f184eda990c/17327830202-e5/17327830202-e5.jpg?ts=1788162798971&w=1920",
+        "https://static.zara.net/assets/public/839f/74d2/766b48d9bf62/39cbf13ce4ff/17327830202-e6/17327830202-e6.jpg?ts=1788162798867&w=1920",
+        "https://static.zara.net/assets/public/8258/833a/857d49649c04/0fa8bc24f046/17327830202-e7/17327830202-e7.jpg?ts=1788162798405&w=1920",
+        "https://static.zara.net/assets/public/1260/603d/b676457085e4/efcac71d5231/17327830202-e8/17327830202-e8.jpg?ts=1788162797744&w=1920"
+      ],
+      "material": "polyamide/polyurethane thermoplastic/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "50% polyamide, 32% polyurethane thermoplastic, 18% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "60% polyamide, 40% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - Multi-color - 6½ (5.3 INCHES)",
+          "sku": "554794398-202-22",
+          "mpn": "554794398-202-22",
+          "color": "Multi-color",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - Multi-color - 7 (5.6 INCHES)",
+          "sku": "554794398-202-23",
+          "mpn": "554794398-202-23",
+          "color": "Multi-color",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - Multi-color - 8 (5.9 INCHES)",
+          "sku": "554794398-202-24",
+          "mpn": "554794398-202-24",
+          "color": "Multi-color",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - Multi-color - 9 (6.1 INCHES)",
+          "sku": "554794398-202-25",
+          "mpn": "554794398-202-25",
+          "color": "Multi-color",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - Multi-color - 9½ (6.4 INCHES)",
+          "sku": "554794398-202-26",
+          "mpn": "554794398-202-26",
+          "color": "Multi-color",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - Multi-color - 10½ (6.6 INCHES)",
+          "sku": "554794398-202-27",
+          "mpn": "554794398-202-27",
+          "color": "Multi-color",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - Multi-color - 11 (7.0 INCHES)",
+          "sku": "554794398-202-28",
+          "mpn": "554794398-202-28",
+          "color": "Multi-color",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - Multi-color - 12 (7.2 INCHES)",
+          "sku": "554794398-202-29",
+          "mpn": "554794398-202-29",
+          "color": "Multi-color",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TECHNICAL SNEAKERS",
+      "product_group_id": "17327830",
+      "brand": "ZARA",
+      "description": "Technical sneakers featuring a mix of panels and contrasting color details. Designed with an elastic lace-up fastening and a hook-and-loop strap. Features a chunky rubber sole with an embossed design.\n\nOrthoLite® insole.",
+      "material": "polyamide/polyurethane thermoplastic/polyester",
+      "composition": "UPPER: 50% polyamide, 32% polyurethane thermoplastic, 18% polyester | LINING: 60% polyamide, 40% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TECHNICAL SNEAKERS - Multi-color - 6½ (5.3 INCHES)",
+          "sku": "554794398-202-22",
+          "mpn": "554794398-202-22",
+          "color_name": "Multi-color",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+          "images": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - Multi-color - 7 (5.6 INCHES)",
+          "sku": "554794398-202-23",
+          "mpn": "554794398-202-23",
+          "color_name": "Multi-color",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+          "images": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - Multi-color - 8 (5.9 INCHES)",
+          "sku": "554794398-202-24",
+          "mpn": "554794398-202-24",
+          "color_name": "Multi-color",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+          "images": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - Multi-color - 9 (6.1 INCHES)",
+          "sku": "554794398-202-25",
+          "mpn": "554794398-202-25",
+          "color_name": "Multi-color",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+          "images": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - Multi-color - 9½ (6.4 INCHES)",
+          "sku": "554794398-202-26",
+          "mpn": "554794398-202-26",
+          "color_name": "Multi-color",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+          "images": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - Multi-color - 10½ (6.6 INCHES)",
+          "sku": "554794398-202-27",
+          "mpn": "554794398-202-27",
+          "color_name": "Multi-color",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+          "images": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - Multi-color - 11 (7.0 INCHES)",
+          "sku": "554794398-202-28",
+          "mpn": "554794398-202-28",
+          "color_name": "Multi-color",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+          "images": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - Multi-color - 12 (7.2 INCHES)",
+          "sku": "554794398-202-29",
+          "mpn": "554794398-202-29",
+          "color_name": "Multi-color",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p17327830.html?v1=554794398",
+          "images": [
+            "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/679a/8fdf/52ae4ae48100/aca20d00cfbf/17327830202-e1/17327830202-e1.jpg?ts=1788162797345&w=1920",
+        "https://static.zara.net/assets/public/96dc/c1bf/7db34cbab90e/266c17461759/17327830202-e2/17327830202-e2.jpg?ts=1788162799257&w=1920",
+        "https://static.zara.net/assets/public/ef5f/d494/af104e1ea3e0/8783fed8ae9a/17327830202-e3/17327830202-e3.jpg?ts=1788162798263&w=1920",
+        "https://static.zara.net/assets/public/f83f/9111/687946bca29e/4c0829d5a203/17327830202-e4/17327830202-e4.jpg?ts=1788162797338&w=1920",
+        "https://static.zara.net/assets/public/e355/cff6/bebd4c7ebfdc/3f184eda990c/17327830202-e5/17327830202-e5.jpg?ts=1788162798971&w=1920",
+        "https://static.zara.net/assets/public/839f/74d2/766b48d9bf62/39cbf13ce4ff/17327830202-e6/17327830202-e6.jpg?ts=1788162798867&w=1920",
+        "https://static.zara.net/assets/public/8258/833a/857d49649c04/0fa8bc24f046/17327830202-e7/17327830202-e7.jpg?ts=1788162798405&w=1920",
+        "https://static.zara.net/assets/public/1260/603d/b676457085e4/efcac71d5231/17327830202-e8/17327830202-e8.jpg?ts=1788162797744&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nTechnical sneakers featuring a mix of panels and contrasting color details. Designed with an elastic lace-up fastening and a hook-and-loop strap. Features a chunky rubber sole with an embossed design.\nOrthoLite® insole.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "cc80b73f491b6c347f25a424ca3a623e9282e128a56f63289fab4bc4a9dfc5aa",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

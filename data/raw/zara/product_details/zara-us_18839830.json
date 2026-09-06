@@ -1,0 +1,387 @@
+{
+  "product_id": "zara-us:18839830",
+  "source_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html",
+  "final_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER BAREFOOT SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER BAREFOOT SNEAKERS",
+      "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html",
+      "productGroupID": "18839830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Barefoot-style sneakers crafted from 100% split suede leather. Featuring a double hook-and-loop closure for a secure fit and a back pull tab for easy entry. Designed with a reinforced, rounded, and wide toe box that allows for free movement of the toes. Includes a removable insole. Flexible rubber sole with an appropriate drop and a highly flexible heel counter. LEATHER: This product is made from a premium material. Any markings or color variations are characteristics that confirm the authenticity of the leather.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920",
+        "https://static.zara.net/assets/public/c760/784b/5a2b4df0a927/175a386ef61e/18839830107-e2/18839830107-e2.jpg?ts=1786629423321&w=1920",
+        "https://static.zara.net/assets/public/f84f/947f/76a64484b8f0/66dc3a89ac8d/18839830107-e3/18839830107-e3.jpg?ts=1786635045687&w=1920",
+        "https://static.zara.net/assets/public/b637/7822/153c44b9bce3/4af926f51e07/18839830107-e4/18839830107-e4.jpg?ts=1786635045354&w=1920",
+        "https://static.zara.net/assets/public/392a/0261/5a304257b72f/b8c1c63362ab/18839830107-e5/18839830107-e5.jpg?ts=1786635044809&w=1920",
+        "https://static.zara.net/assets/public/933f/d896/21f445e6a155/6f3065da1767/18839830107-e6/18839830107-e6.jpg?ts=1786635045889&w=1920",
+        "https://static.zara.net/assets/public/45dd/859e/60774088b7ca/6000e5f83f33/18839830107-e7/18839830107-e7.jpg?ts=1786635045088&w=1920",
+        "https://static.zara.net/assets/public/8486/9e13/b7e84dceb92e/4a1aa87d302e/18839830107-e8/18839830107-e8.jpg?ts=1786635046148&w=1920",
+        "https://static.zara.net/assets/public/cb4f/db16/fcc9488e821e/875577ffa281/18839830107-e9/18839830107-e9.jpg?ts=1786635045935&w=1920",
+        "https://static.zara.net/assets/public/3304/72ac/0f5a4650aeff/269c4fcce08a/1333333333-e12/1333333333-e12.jpg?ts=1786634887919&w=1920",
+        "https://static.zara.net/assets/public/2545/57e4/e8c246f99dc6/5f760421d897/1333333333-e13/1333333333-e13.jpg?ts=1786634887942&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 4 (4.6 INCHES)",
+          "sku": "545470667-107-19",
+          "mpn": "545470667-107-19",
+          "color": "Sandy Brown",
+          "size": "4 (4.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 4½ (4.8 INCHES)",
+          "sku": "545470667-107-20",
+          "mpn": "545470667-107-20",
+          "color": "Sandy Brown",
+          "size": "4½ (4.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 5½ (5.1 INCHES)",
+          "sku": "545470667-107-21",
+          "mpn": "545470667-107-21",
+          "color": "Sandy Brown",
+          "size": "5½ (5.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 6½ (5.3 INCHES)",
+          "sku": "545470667-107-22",
+          "mpn": "545470667-107-22",
+          "color": "Sandy Brown",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 7 (5.6 INCHES)",
+          "sku": "545470667-107-23",
+          "mpn": "545470667-107-23",
+          "color": "Sandy Brown",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 8 (5.9 INCHES)",
+          "sku": "545470667-107-24",
+          "mpn": "545470667-107-24",
+          "color": "Sandy Brown",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 9 (6.1 INCHES)",
+          "sku": "545470667-107-25",
+          "mpn": "545470667-107-25",
+          "color": "Sandy Brown",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 9½ (6.4 INCHES)",
+          "sku": "545470667-107-26",
+          "mpn": "545470667-107-26",
+          "color": "Sandy Brown",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER BAREFOOT SNEAKERS",
+      "product_group_id": "18839830",
+      "brand": "ZARA",
+      "description": "Barefoot-style sneakers crafted from 100% split suede leather. Featuring a double hook-and-loop closure for a secure fit and a back pull tab for easy entry. Designed with a reinforced, rounded, and wide toe box that allows for free movement of the toes. Includes a removable insole. Flexible rubber sole with an appropriate drop and a highly flexible heel counter. LEATHER: This product is made from a premium material. Any markings or color variations are characteristics that confirm the authenticity of the leather.",
+      "material": "100% cow leather",
+      "composition": "UPPER: 100% cow leather | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 4 (4.6 INCHES)",
+          "sku": "545470667-107-19",
+          "mpn": "545470667-107-19",
+          "color_name": "Sandy Brown",
+          "size_name": "4 (4.6 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+          "images": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 4½ (4.8 INCHES)",
+          "sku": "545470667-107-20",
+          "mpn": "545470667-107-20",
+          "color_name": "Sandy Brown",
+          "size_name": "4½ (4.8 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+          "images": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 5½ (5.1 INCHES)",
+          "sku": "545470667-107-21",
+          "mpn": "545470667-107-21",
+          "color_name": "Sandy Brown",
+          "size_name": "5½ (5.1 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+          "images": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 6½ (5.3 INCHES)",
+          "sku": "545470667-107-22",
+          "mpn": "545470667-107-22",
+          "color_name": "Sandy Brown",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+          "images": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 7 (5.6 INCHES)",
+          "sku": "545470667-107-23",
+          "mpn": "545470667-107-23",
+          "color_name": "Sandy Brown",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+          "images": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 8 (5.9 INCHES)",
+          "sku": "545470667-107-24",
+          "mpn": "545470667-107-24",
+          "color_name": "Sandy Brown",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+          "images": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 9 (6.1 INCHES)",
+          "sku": "545470667-107-25",
+          "mpn": "545470667-107-25",
+          "color_name": "Sandy Brown",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+          "images": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Sandy Brown - 9½ (6.4 INCHES)",
+          "sku": "545470667-107-26",
+          "mpn": "545470667-107-26",
+          "color_name": "Sandy Brown",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-barefoot-sneakers-p18839830.html?v1=545470667",
+          "images": [
+            "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5806/9a79/ee654c8abf79/83be2e1a90fb/18839830107-e1/18839830107-e1.jpg?ts=1786629424890&w=1920",
+        "https://static.zara.net/assets/public/c760/784b/5a2b4df0a927/175a386ef61e/18839830107-e2/18839830107-e2.jpg?ts=1786629423321&w=1920",
+        "https://static.zara.net/assets/public/f84f/947f/76a64484b8f0/66dc3a89ac8d/18839830107-e3/18839830107-e3.jpg?ts=1786635045687&w=1920",
+        "https://static.zara.net/assets/public/b637/7822/153c44b9bce3/4af926f51e07/18839830107-e4/18839830107-e4.jpg?ts=1786635045354&w=1920",
+        "https://static.zara.net/assets/public/392a/0261/5a304257b72f/b8c1c63362ab/18839830107-e5/18839830107-e5.jpg?ts=1786635044809&w=1920",
+        "https://static.zara.net/assets/public/933f/d896/21f445e6a155/6f3065da1767/18839830107-e6/18839830107-e6.jpg?ts=1786635045889&w=1920",
+        "https://static.zara.net/assets/public/45dd/859e/60774088b7ca/6000e5f83f33/18839830107-e7/18839830107-e7.jpg?ts=1786635045088&w=1920",
+        "https://static.zara.net/assets/public/8486/9e13/b7e84dceb92e/4a1aa87d302e/18839830107-e8/18839830107-e8.jpg?ts=1786635046148&w=1920",
+        "https://static.zara.net/assets/public/cb4f/db16/fcc9488e821e/875577ffa281/18839830107-e9/18839830107-e9.jpg?ts=1786635045935&w=1920",
+        "https://static.zara.net/assets/public/3304/72ac/0f5a4650aeff/269c4fcce08a/1333333333-e12/1333333333-e12.jpg?ts=1786634887919&w=1920",
+        "https://static.zara.net/assets/public/2545/57e4/e8c246f99dc6/5f760421d897/1333333333-e13/1333333333-e13.jpg?ts=1786634887942&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nBarefoot-style sneakers crafted from 100% split suede leather. Featuring a double hook-and-loop closure for a secure fit and a back pull tab for easy entry. Designed with a reinforced, rounded, and wide toe box that allows for free movement of the toes. Includes a removable insole. Flexible rubber sole with an appropriate drop and a highly flexible heel counter. LEATHER: This product is made from a premium material. Any markings or color variations are characteristics that confirm the authenticity of the leather.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 11,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4950b046dcfc69cfd9bcbcc17ce385df7f9899f3a1166e3183c312192aa62d64",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,189 @@
+{
+  "product_id": "zara-us:02496557",
+  "source_url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html",
+  "final_url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html",
+  "canonical_url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html",
+  "enriched_at": "2026-09-06T19:07:15.246242+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK",
+      "url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html",
+      "productGroupID": "02496557",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Two-pack of mid-height socks featuring a SNOOPY PEANUTS™ print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f660/e0bd/f96044e493bf/73901adfaf8e/02496557131-e1/02496557131-e1.jpg?ts=1778151238366&w=1920",
+        "https://static.zara.net/assets/public/5f9b/d1e2/3d6d4779b013/3a38c07eae9f/02496557131-e2/02496557131-e2.jpg?ts=1778151239100&w=1920",
+        "https://static.zara.net/assets/public/168d/fcb5/1d96424caca0/051646891fd1/02496557131-e3/02496557131-e3.jpg?ts=1778151238734&w=1920",
+        "https://static.zara.net/assets/public/de9e/afe8/a87343368ef0/ae2d7061f60a/02496557131-e5/02496557131-e5.jpg?ts=1778151238650&w=1920"
+      ],
+      "material": "cotton/polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "60% cotton, 36% polyamide, 4% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK - Green/White - 1-2 years (20-22)",
+          "sku": "545422909-131-24",
+          "mpn": "545422909-131-24",
+          "color": "Green/White",
+          "size": "1-2 years (20-22)",
+          "image": [
+            "https://static.zara.net/assets/public/f660/e0bd/f96044e493bf/73901adfaf8e/02496557131-e1/02496557131-e1.jpg?ts=1778151238366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html?v1=545422909",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK - Green/White - 2-4 years (23-25)",
+          "sku": "545422909-131-48",
+          "mpn": "545422909-131-48",
+          "color": "Green/White",
+          "size": "2-4 years (23-25)",
+          "image": [
+            "https://static.zara.net/assets/public/f660/e0bd/f96044e493bf/73901adfaf8e/02496557131-e1/02496557131-e1.jpg?ts=1778151238366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html?v1=545422909",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK - Green/White - 4-6 years (26-28)",
+          "sku": "545422909-131-72",
+          "mpn": "545422909-131-72",
+          "color": "Green/White",
+          "size": "4-6 years (26-28)",
+          "image": [
+            "https://static.zara.net/assets/public/f660/e0bd/f96044e493bf/73901adfaf8e/02496557131-e1/02496557131-e1.jpg?ts=1778151238366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html?v1=545422909",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK",
+      "product_group_id": "02496557",
+      "brand": "ZARA",
+      "description": "Two-pack of mid-height socks featuring a SNOOPY PEANUTS™ print.",
+      "material": "cotton/polyamide/elastane",
+      "composition": "OUTER SHELL: 60% cotton, 36% polyamide, 4% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK - Green/White - 1-2 years (20-22)",
+          "sku": "545422909-131-24",
+          "mpn": "545422909-131-24",
+          "color_name": "Green/White",
+          "size_name": "1-2 years (20-22)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html?v1=545422909",
+          "images": [
+            "https://static.zara.net/assets/public/f660/e0bd/f96044e493bf/73901adfaf8e/02496557131-e1/02496557131-e1.jpg?ts=1778151238366&w=1920"
+          ]
+        },
+        {
+          "name": "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK - Green/White - 2-4 years (23-25)",
+          "sku": "545422909-131-48",
+          "mpn": "545422909-131-48",
+          "color_name": "Green/White",
+          "size_name": "2-4 years (23-25)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html?v1=545422909",
+          "images": [
+            "https://static.zara.net/assets/public/f660/e0bd/f96044e493bf/73901adfaf8e/02496557131-e1/02496557131-e1.jpg?ts=1778151238366&w=1920"
+          ]
+        },
+        {
+          "name": "SNOOPY PEANUTS™ MID-HEIGHT SOCKS - TWO PACK - Green/White - 4-6 years (26-28)",
+          "sku": "545422909-131-72",
+          "mpn": "545422909-131-72",
+          "color_name": "Green/White",
+          "size_name": "4-6 years (26-28)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/snoopy-peanuts--mid-calf-socks-two-pack-p02496557.html?v1=545422909",
+          "images": [
+            "https://static.zara.net/assets/public/f660/e0bd/f96044e493bf/73901adfaf8e/02496557131-e1/02496557131-e1.jpg?ts=1778151238366&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f660/e0bd/f96044e493bf/73901adfaf8e/02496557131-e1/02496557131-e1.jpg?ts=1778151238366&w=1920",
+        "https://static.zara.net/assets/public/5f9b/d1e2/3d6d4779b013/3a38c07eae9f/02496557131-e2/02496557131-e2.jpg?ts=1778151239100&w=1920",
+        "https://static.zara.net/assets/public/168d/fcb5/1d96424caca0/051646891fd1/02496557131-e3/02496557131-e3.jpg?ts=1778151238734&w=1920",
+        "https://static.zara.net/assets/public/de9e/afe8/a87343368ef0/ae2d7061f60a/02496557131-e5/02496557131-e5.jpg?ts=1778151238650&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nTwo-pack of mid-height socks featuring a SNOOPY PEANUTS™ print.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ca5265347342775cc11c2a24c6a0513088fe42ef3f8762b90da7497c0d007b0b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
