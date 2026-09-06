@@ -1,0 +1,195 @@
+{
+  "product_id": "zara-us:06674304",
+  "source_url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html",
+  "final_url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html",
+  "canonical_url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html",
+  "enriched_at": "2026-09-06T19:55:09.303714+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "REGULAR FIT CARDIGAN",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "REGULAR FIT CARDIGAN",
+      "url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html",
+      "productGroupID": "06674304",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Regular fit cardigan made from cotton-blend piqué knit fabric (excluding elasticated details). Features a lapel collar, long sleeves, and ribbed trim. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9a6f/5bf6/bc74452ba64d/bdde18c6b581/06674304401-p/06674304401-p.jpg?ts=1786981732662&w=1920",
+        "https://static.zara.net/assets/public/1c67/dce9/91eb406e8c15/117268151588/06674304401-a1/06674304401-a1.jpg?ts=1786981732314&w=1920",
+        "https://static.zara.net/assets/public/3bf5/3186/d4884185b087/b82e2de859e3/06674304401-a2/06674304401-a2.jpg?ts=1786981732641&w=1920",
+        "https://static.zara.net/assets/public/121b/0451/82de44d6ab94/03eca3b022ab/06674304401-a3/06674304401-a3.jpg?ts=1786981731706&w=1920",
+        "https://static.zara.net/assets/public/0558/ab65/69634b06a77a/e043a022adab/06674304401-000-a4/06674304401-000-a4.jpg?ts=1787297785888&w=1920",
+        "https://static.zara.net/assets/public/6f58/b962/92b044d29fe2/bf8f6379794c/06674304401-e1/06674304401-e1.jpg?ts=1786978438463&w=1920",
+        "https://static.zara.net/assets/public/8367/1a68/a7f141f3b641/49417e628ef9/06674304401-e2/06674304401-e2.jpg?ts=1786978443307&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT CARDIGAN - Navy blue - M",
+          "sku": "549291004-401-3",
+          "mpn": "549291004-401-3",
+          "color": "Navy blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/9a6f/5bf6/bc74452ba64d/bdde18c6b581/06674304401-p/06674304401-p.jpg?ts=1786981732662&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html?v1=549291004",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT CARDIGAN - Navy blue - L",
+          "sku": "549291004-401-4",
+          "mpn": "549291004-401-4",
+          "color": "Navy blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/9a6f/5bf6/bc74452ba64d/bdde18c6b581/06674304401-p/06674304401-p.jpg?ts=1786981732662&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html?v1=549291004",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT CARDIGAN - Navy blue - XL",
+          "sku": "549291004-401-5",
+          "mpn": "549291004-401-5",
+          "color": "Navy blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/9a6f/5bf6/bc74452ba64d/bdde18c6b581/06674304401-p/06674304401-p.jpg?ts=1786981732662&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html?v1=549291004",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "REGULAR FIT CARDIGAN",
+      "product_group_id": "06674304",
+      "brand": "ZARA",
+      "description": "Regular fit cardigan made from cotton-blend piqué knit fabric (excluding elasticated details). Features a lapel collar, long sleeves, and ribbed trim. Front button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "REGULAR FIT CARDIGAN - Navy blue - M",
+          "sku": "549291004-401-3",
+          "mpn": "549291004-401-3",
+          "color_name": "Navy blue",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html?v1=549291004",
+          "images": [
+            "https://static.zara.net/assets/public/9a6f/5bf6/bc74452ba64d/bdde18c6b581/06674304401-p/06674304401-p.jpg?ts=1786981732662&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT CARDIGAN - Navy blue - L",
+          "sku": "549291004-401-4",
+          "mpn": "549291004-401-4",
+          "color_name": "Navy blue",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html?v1=549291004",
+          "images": [
+            "https://static.zara.net/assets/public/9a6f/5bf6/bc74452ba64d/bdde18c6b581/06674304401-p/06674304401-p.jpg?ts=1786981732662&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT CARDIGAN - Navy blue - XL",
+          "sku": "549291004-401-5",
+          "mpn": "549291004-401-5",
+          "color_name": "Navy blue",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-cardigan-p06674304.html?v1=549291004",
+          "images": [
+            "https://static.zara.net/assets/public/9a6f/5bf6/bc74452ba64d/bdde18c6b581/06674304401-p/06674304401-p.jpg?ts=1786981732662&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9a6f/5bf6/bc74452ba64d/bdde18c6b581/06674304401-p/06674304401-p.jpg?ts=1786981732662&w=1920",
+        "https://static.zara.net/assets/public/1c67/dce9/91eb406e8c15/117268151588/06674304401-a1/06674304401-a1.jpg?ts=1786981732314&w=1920",
+        "https://static.zara.net/assets/public/3bf5/3186/d4884185b087/b82e2de859e3/06674304401-a2/06674304401-a2.jpg?ts=1786981732641&w=1920",
+        "https://static.zara.net/assets/public/121b/0451/82de44d6ab94/03eca3b022ab/06674304401-a3/06674304401-a3.jpg?ts=1786981731706&w=1920",
+        "https://static.zara.net/assets/public/0558/ab65/69634b06a77a/e043a022adab/06674304401-000-a4/06674304401-000-a4.jpg?ts=1787297785888&w=1920",
+        "https://static.zara.net/assets/public/6f58/b962/92b044d29fe2/bf8f6379794c/06674304401-e1/06674304401-e1.jpg?ts=1786978438463&w=1920",
+        "https://static.zara.net/assets/public/8367/1a68/a7f141f3b641/49417e628ef9/06674304401-e2/06674304401-e2.jpg?ts=1786978443307&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRegular fit cardigan made from cotton-blend piqué knit fabric (excluding elasticated details). Features a lapel collar, long sleeves, and ribbed trim. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0485e9b2ef967ac7b1b08f1a7c4c8d5570d0ea33a2ecd15333c40b72ea19a1b2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

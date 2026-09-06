@@ -1,0 +1,166 @@
+{
+  "product_id": "zara-us:05755305",
+  "source_url": "https://www.zara.com/us/en/100-hemp-relaxed-fit-sweater-p05755305.html",
+  "final_url": "https://www.zara.com/us/en/100-hemp-relaxed-fit-sweater-p05755305.html",
+  "canonical_url": "https://www.zara.com/us/en/100-hemp-relaxed-fit-sweater-p05755305.html",
+  "enriched_at": "2026-09-06T19:55:09.303714+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "100% HEMP RELAXED FIT SWEATER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "100% HEMP RELAXED FIT SWEATER",
+      "url": "https://www.zara.com/us/en/100-hemp-relaxed-fit-sweater-p05755305.html",
+      "productGroupID": "05755305",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit knit sweater made of hemp yarn (excluding elastic). Round neck and long sleeves. Ribbed trims.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7f18/7592/7d7e4cf79fc7/111f04c71cd3/05755305903-p/05755305903-p.jpg?ts=1785760496110&w=1920",
+        "https://static.zara.net/assets/public/8656/eb99/2c6b44d89bf0/b285c165eeb4/05755305903-a1/05755305903-a1.jpg?ts=1785760495976&w=1920",
+        "https://static.zara.net/assets/public/7a5a/10d3/d9124510bf75/7652e482e882/05755305903-a2/05755305903-a2.jpg?ts=1785760496033&w=1920",
+        "https://static.zara.net/assets/public/dd5e/ad48/1be749f4aa07/93c5412566d3/05755305903-a3/05755305903-a3.jpg?ts=1785760498614&w=1920",
+        "https://static.zara.net/assets/public/7f4f/c810/60774e228b03/361967ed6def/05755305903-a4/05755305903-a4.jpg?ts=1785760496125&w=1920",
+        "https://static.zara.net/assets/public/b541/d247/c25445bf9cb3/d9e41fe2e61b/05755305903-a5/05755305903-a5.jpg?ts=1785760499166&w=1920",
+        "https://static.zara.net/assets/public/2307/22f2/a3f541bcac64/199325e3d0f8/05755305903-e1/05755305903-e1.jpg?ts=1784133270901&w=1920",
+        "https://static.zara.net/assets/public/d75f/d089/ecb445dfa409/32c41a6672e8/05755305903-e2/05755305903-e2.jpg?ts=1784133270500&w=1920"
+      ],
+      "material": "100% hemp",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% hemp"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "100% HEMP RELAXED FIT SWEATER - Blue green - S-M",
+          "sku": "545461478-903-97",
+          "mpn": "545461478-903-97",
+          "color": "Blue green",
+          "size": "S-M",
+          "image": [
+            "https://static.zara.net/assets/public/7f18/7592/7d7e4cf79fc7/111f04c71cd3/05755305903-p/05755305903-p.jpg?ts=1785760496110&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-hemp-relaxed-fit-sweater-p05755305.html?v1=545461478",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% HEMP RELAXED FIT SWEATER - Blue green - L-XL",
+          "sku": "545461478-903-96",
+          "mpn": "545461478-903-96",
+          "color": "Blue green",
+          "size": "L-XL",
+          "image": [
+            "https://static.zara.net/assets/public/7f18/7592/7d7e4cf79fc7/111f04c71cd3/05755305903-p/05755305903-p.jpg?ts=1785760496110&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-hemp-relaxed-fit-sweater-p05755305.html?v1=545461478",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "100% HEMP RELAXED FIT SWEATER",
+      "product_group_id": "05755305",
+      "brand": "ZARA",
+      "description": "Relaxed fit knit sweater made of hemp yarn (excluding elastic). Round neck and long sleeves. Ribbed trims.",
+      "material": "100% hemp",
+      "composition": "OUTER SHELL: 100% hemp",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "100% HEMP RELAXED FIT SWEATER - Blue green - S-M",
+          "sku": "545461478-903-97",
+          "mpn": "545461478-903-97",
+          "color_name": "Blue green",
+          "size_name": "S-M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-hemp-relaxed-fit-sweater-p05755305.html?v1=545461478",
+          "images": [
+            "https://static.zara.net/assets/public/7f18/7592/7d7e4cf79fc7/111f04c71cd3/05755305903-p/05755305903-p.jpg?ts=1785760496110&w=1920"
+          ]
+        },
+        {
+          "name": "100% HEMP RELAXED FIT SWEATER - Blue green - L-XL",
+          "sku": "545461478-903-96",
+          "mpn": "545461478-903-96",
+          "color_name": "Blue green",
+          "size_name": "L-XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-hemp-relaxed-fit-sweater-p05755305.html?v1=545461478",
+          "images": [
+            "https://static.zara.net/assets/public/7f18/7592/7d7e4cf79fc7/111f04c71cd3/05755305903-p/05755305903-p.jpg?ts=1785760496110&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7f18/7592/7d7e4cf79fc7/111f04c71cd3/05755305903-p/05755305903-p.jpg?ts=1785760496110&w=1920",
+        "https://static.zara.net/assets/public/8656/eb99/2c6b44d89bf0/b285c165eeb4/05755305903-a1/05755305903-a1.jpg?ts=1785760495976&w=1920",
+        "https://static.zara.net/assets/public/7a5a/10d3/d9124510bf75/7652e482e882/05755305903-a2/05755305903-a2.jpg?ts=1785760496033&w=1920",
+        "https://static.zara.net/assets/public/dd5e/ad48/1be749f4aa07/93c5412566d3/05755305903-a3/05755305903-a3.jpg?ts=1785760498614&w=1920",
+        "https://static.zara.net/assets/public/7f4f/c810/60774e228b03/361967ed6def/05755305903-a4/05755305903-a4.jpg?ts=1785760496125&w=1920",
+        "https://static.zara.net/assets/public/b541/d247/c25445bf9cb3/d9e41fe2e61b/05755305903-a5/05755305903-a5.jpg?ts=1785760499166&w=1920",
+        "https://static.zara.net/assets/public/2307/22f2/a3f541bcac64/199325e3d0f8/05755305903-e1/05755305903-e1.jpg?ts=1784133270901&w=1920",
+        "https://static.zara.net/assets/public/d75f/d089/ecb445dfa409/32c41a6672e8/05755305903-e2/05755305903-e2.jpg?ts=1784133270500&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed fit knit sweater made of hemp yarn (excluding elastic). Round neck and long sleeves. Ribbed trims.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 8,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bbe7e56de4bcccc7878e5b8f51088bea2df7a13d84071e35714628eae972504c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

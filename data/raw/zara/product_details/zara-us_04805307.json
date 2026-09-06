@@ -1,0 +1,225 @@
+{
+  "product_id": "zara-us:04805307",
+  "source_url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html",
+  "final_url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html",
+  "canonical_url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html",
+  "enriched_at": "2026-09-06T19:55:09.303714+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WASHED PRINTED KNIT T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WASHED PRINTED KNIT T-SHIRT",
+      "url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html",
+      "productGroupID": "04805307",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit knit T-shirt made of cotton yarn. Round neck and short sleeves. Contrasting prints on the back. Washed effect. This garment has a unique appearance due to its special washing process. For this reason, the color may vary slightly from the photo.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920",
+        "https://static.zara.net/assets/public/1cdd/e14d/0e5d4a378689/f6e51cfe5057/04805307401-a1/04805307401-a1.jpg?ts=1785768803559&w=1920",
+        "https://static.zara.net/assets/public/72bd/8e4a/d7cd4c399d2f/e94f7bbad055/04805307401-a2/04805307401-a2.jpg?ts=1785768806836&w=1920",
+        "https://static.zara.net/assets/public/07c4/d0ce/da1c4cd2b1cf/81fa913bf54b/04805307401-a3/04805307401-a3.jpg?ts=1785768803346&w=1920",
+        "https://static.zara.net/assets/public/b3db/7c1c/12c24d5cb771/1bc8aef3d696/04805307401-e1/04805307401-e1.jpg?ts=1783592796262&w=1920",
+        "https://static.zara.net/assets/public/9a1a/f967/7a594974a3b2/0b8f32aac65c/04805307401-e2/04805307401-e2.jpg?ts=1783592796560&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WASHED PRINTED KNIT T-SHIRT - Navy blue - S",
+          "sku": "545446400-401-2",
+          "mpn": "545446400-401-2",
+          "color": "Navy blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html?v1=545446400",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED PRINTED KNIT T-SHIRT - Navy blue - M",
+          "sku": "545446400-401-3",
+          "mpn": "545446400-401-3",
+          "color": "Navy blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html?v1=545446400",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED PRINTED KNIT T-SHIRT - Navy blue - L",
+          "sku": "545446400-401-4",
+          "mpn": "545446400-401-4",
+          "color": "Navy blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html?v1=545446400",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED PRINTED KNIT T-SHIRT - Navy blue - XL",
+          "sku": "545446400-401-5",
+          "mpn": "545446400-401-5",
+          "color": "Navy blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html?v1=545446400",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WASHED PRINTED KNIT T-SHIRT",
+      "product_group_id": "04805307",
+      "brand": "ZARA",
+      "description": "Relaxed fit knit T-shirt made of cotton yarn. Round neck and short sleeves. Contrasting prints on the back. Washed effect. This garment has a unique appearance due to its special washing process. For this reason, the color may vary slightly from the photo.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WASHED PRINTED KNIT T-SHIRT - Navy blue - S",
+          "sku": "545446400-401-2",
+          "mpn": "545446400-401-2",
+          "color_name": "Navy blue",
+          "size_name": "S",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html?v1=545446400",
+          "images": [
+            "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED PRINTED KNIT T-SHIRT - Navy blue - M",
+          "sku": "545446400-401-3",
+          "mpn": "545446400-401-3",
+          "color_name": "Navy blue",
+          "size_name": "M",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html?v1=545446400",
+          "images": [
+            "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED PRINTED KNIT T-SHIRT - Navy blue - L",
+          "sku": "545446400-401-4",
+          "mpn": "545446400-401-4",
+          "color_name": "Navy blue",
+          "size_name": "L",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html?v1=545446400",
+          "images": [
+            "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED PRINTED KNIT T-SHIRT - Navy blue - XL",
+          "sku": "545446400-401-5",
+          "mpn": "545446400-401-5",
+          "color_name": "Navy blue",
+          "size_name": "XL",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/washed-printed-knit-t-shirt-p04805307.html?v1=545446400",
+          "images": [
+            "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b865/fd4a/78f94f42ae97/437524563100/04805307401-p/04805307401-p.jpg?ts=1785768803441&w=1920",
+        "https://static.zara.net/assets/public/1cdd/e14d/0e5d4a378689/f6e51cfe5057/04805307401-a1/04805307401-a1.jpg?ts=1785768803559&w=1920",
+        "https://static.zara.net/assets/public/72bd/8e4a/d7cd4c399d2f/e94f7bbad055/04805307401-a2/04805307401-a2.jpg?ts=1785768806836&w=1920",
+        "https://static.zara.net/assets/public/07c4/d0ce/da1c4cd2b1cf/81fa913bf54b/04805307401-a3/04805307401-a3.jpg?ts=1785768803346&w=1920",
+        "https://static.zara.net/assets/public/b3db/7c1c/12c24d5cb771/1bc8aef3d696/04805307401-e1/04805307401-e1.jpg?ts=1783592796262&w=1920",
+        "https://static.zara.net/assets/public/9a1a/f967/7a594974a3b2/0b8f32aac65c/04805307401-e2/04805307401-e2.jpg?ts=1783592796560&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nRelaxed fit knit T-shirt made of cotton yarn. Round neck and short sleeves. Contrasting prints on the back. Washed effect. This garment has a unique appearance due to its special washing process. For this reason, the color may vary slightly from the photo.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "541e089ffe39638fe23ac363c66f1433d0bdf6caeb386eb23fcf1a8dfa579f3e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

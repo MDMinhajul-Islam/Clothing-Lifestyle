@@ -1,0 +1,168 @@
+{
+  "product_id": "zara-us:07140311",
+  "source_url": "https://www.zara.com/us/en/textured-knit-vest-p07140311.html",
+  "final_url": "https://www.zara.com/us/en/textured-knit-vest-p07140311.html",
+  "canonical_url": "https://www.zara.com/us/en/textured-knit-vest-p07140311.html",
+  "enriched_at": "2026-09-06T19:55:09.303714+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TEXTURED KNIT VEST",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TEXTURED KNIT VEST",
+      "url": "https://www.zara.com/us/en/textured-knit-vest-p07140311.html",
+      "productGroupID": "07140311",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit knit vest made with cotton blend yarn. Round neckline and sleeveless. Ribbed trim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a936/9921/c3dc4cfcbc23/176cc239fc18/07140311712-p/07140311712-p.jpg?ts=1785745485340&w=1920",
+        "https://static.zara.net/assets/public/ad0e/4525/b4984afb9cfe/47363a8dccee/07140311712-a1/07140311712-a1.jpg?ts=1785745484875&w=1920",
+        "https://static.zara.net/assets/public/bd6c/d36c/a7d0465eba8f/e3774369626a/07140311712-a2/07140311712-a2.jpg?ts=1785745485982&w=1920",
+        "https://static.zara.net/assets/public/2645/90ed/9e73450e871c/ee78af4a9e23/07140311712-a3/07140311712-a3.jpg?ts=1785745485255&w=1920",
+        "https://static.zara.net/assets/public/0d1e/a183/ed8e48f6919a/3796d97830da/07140311712-a4/07140311712-a4.jpg?ts=1785745485111&w=1920",
+        "https://static.zara.net/assets/public/adff/ace8/f6dd4ac7937c/2414e50c2b0f/07140311712-a5/07140311712-a5.jpg?ts=1785745485094&w=1920",
+        "https://static.zara.net/assets/public/b679/ce59/24654057bc01/2d6cda092aa3/07140311712-a6/07140311712-a6.jpg?ts=1785745485916&w=1920",
+        "https://static.zara.net/assets/public/f673/4487/2cc8401cbdf9/9133f77d2928/07140311712-e1/07140311712-e1.jpg?ts=1783592802428&w=1920",
+        "https://static.zara.net/assets/public/a6a7/2a7d/57de4fcba95f/6de4d504ef90/07140311712-e2/07140311712-e2.jpg?ts=1783592802843&w=1920"
+      ],
+      "material": "polyester/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "55% polyester, 45% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TEXTURED KNIT VEST - Ecru - S-M",
+          "sku": "545479706-712-97",
+          "mpn": "545479706-712-97",
+          "color": "Ecru",
+          "size": "S-M",
+          "image": [
+            "https://static.zara.net/assets/public/a936/9921/c3dc4cfcbc23/176cc239fc18/07140311712-p/07140311712-p.jpg?ts=1785745485340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/textured-knit-vest-p07140311.html?v1=545479706",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED KNIT VEST - Ecru - L-XL",
+          "sku": "545479706-712-96",
+          "mpn": "545479706-712-96",
+          "color": "Ecru",
+          "size": "L-XL",
+          "image": [
+            "https://static.zara.net/assets/public/a936/9921/c3dc4cfcbc23/176cc239fc18/07140311712-p/07140311712-p.jpg?ts=1785745485340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/textured-knit-vest-p07140311.html?v1=545479706",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TEXTURED KNIT VEST",
+      "product_group_id": "07140311",
+      "brand": "ZARA",
+      "description": "Relaxed fit knit vest made with cotton blend yarn. Round neckline and sleeveless. Ribbed trim.",
+      "material": "polyester/cotton",
+      "composition": "OUTER SHELL: 55% polyester, 45% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TEXTURED KNIT VEST - Ecru - S-M",
+          "sku": "545479706-712-97",
+          "mpn": "545479706-712-97",
+          "color_name": "Ecru",
+          "size_name": "S-M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-knit-vest-p07140311.html?v1=545479706",
+          "images": [
+            "https://static.zara.net/assets/public/a936/9921/c3dc4cfcbc23/176cc239fc18/07140311712-p/07140311712-p.jpg?ts=1785745485340&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED KNIT VEST - Ecru - L-XL",
+          "sku": "545479706-712-96",
+          "mpn": "545479706-712-96",
+          "color_name": "Ecru",
+          "size_name": "L-XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-knit-vest-p07140311.html?v1=545479706",
+          "images": [
+            "https://static.zara.net/assets/public/a936/9921/c3dc4cfcbc23/176cc239fc18/07140311712-p/07140311712-p.jpg?ts=1785745485340&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a936/9921/c3dc4cfcbc23/176cc239fc18/07140311712-p/07140311712-p.jpg?ts=1785745485340&w=1920",
+        "https://static.zara.net/assets/public/ad0e/4525/b4984afb9cfe/47363a8dccee/07140311712-a1/07140311712-a1.jpg?ts=1785745484875&w=1920",
+        "https://static.zara.net/assets/public/bd6c/d36c/a7d0465eba8f/e3774369626a/07140311712-a2/07140311712-a2.jpg?ts=1785745485982&w=1920",
+        "https://static.zara.net/assets/public/2645/90ed/9e73450e871c/ee78af4a9e23/07140311712-a3/07140311712-a3.jpg?ts=1785745485255&w=1920",
+        "https://static.zara.net/assets/public/0d1e/a183/ed8e48f6919a/3796d97830da/07140311712-a4/07140311712-a4.jpg?ts=1785745485111&w=1920",
+        "https://static.zara.net/assets/public/adff/ace8/f6dd4ac7937c/2414e50c2b0f/07140311712-a5/07140311712-a5.jpg?ts=1785745485094&w=1920",
+        "https://static.zara.net/assets/public/b679/ce59/24654057bc01/2d6cda092aa3/07140311712-a6/07140311712-a6.jpg?ts=1785745485916&w=1920",
+        "https://static.zara.net/assets/public/f673/4487/2cc8401cbdf9/9133f77d2928/07140311712-e1/07140311712-e1.jpg?ts=1783592802428&w=1920",
+        "https://static.zara.net/assets/public/a6a7/2a7d/57de4fcba95f/6de4d504ef90/07140311712-e2/07140311712-e2.jpg?ts=1783592802843&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nRelaxed fit knit vest made with cotton blend yarn. Round neckline and sleeveless. Ribbed trim.",
+  "comp_care_text": null,
+  "raw_images_count": 13,
+  "valid_images_count": 9,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "19138053035a7639c8b7b745a6e6b059c67e89e9ae0f91f7cd04cf490d259f9c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

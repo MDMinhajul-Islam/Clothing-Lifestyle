@@ -1,0 +1,198 @@
+{
+  "product_id": "zara-us:03166304",
+  "source_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html",
+  "final_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html",
+  "canonical_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html",
+  "enriched_at": "2026-09-06T19:55:09.303714+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KNIT HENLEY T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KNIT HENLEY T-SHIRT",
+      "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html",
+      "productGroupID": "03166304",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed-fit knit T-shirt crafted from a viscose and linen blend. Features a crew neck with a button-front placket, short sleeves, and ribbed trims.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7167/a25d/060d4a8bb5ae/d343611ad28c/03166304711-p/03166304711-p.jpg?ts=1785421870842&w=1920",
+        "https://static.zara.net/assets/public/85d1/3f39/833c4f138625/d1d38a11beae/03166304711-a1/03166304711-a1.jpg?ts=1785421871576&w=1920",
+        "https://static.zara.net/assets/public/3507/7786/20964fbf8286/cb36547b6c38/03166304711-a2/03166304711-a2.jpg?ts=1785421871737&w=1920",
+        "https://static.zara.net/assets/public/12e9/eb04/5c9a4c788a2a/9bff04819e46/03166304711-a3/03166304711-a3.jpg?ts=1785421872058&w=1920",
+        "https://static.zara.net/assets/public/ff5a/c250/434743b7b837/b54714cf8d7b/03166304711-a4/03166304711-a4.jpg?ts=1785421871631&w=1920",
+        "https://static.zara.net/assets/public/fff4/adf8/ff624fab8af5/2879c5676d1b/03166304711-a5/03166304711-a5.jpg?ts=1785421871028&w=1920",
+        "https://static.zara.net/assets/public/bdec/19ec/dea74256a15d/8441b926b962/03166304711-e1/03166304711-e1.jpg?ts=1785401591546&w=1920",
+        "https://static.zara.net/assets/public/c7cd/faf6/a98849f2a8a8/bf9e6b4a0bbf/03166304711-e2/03166304711-e2.jpg?ts=1785401590310&w=1920"
+      ],
+      "material": "viscose/cotton/linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "36% viscose, 32% cotton, 32% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KNIT HENLEY T-SHIRT - Sand - M",
+          "sku": "545436730-711-3",
+          "mpn": "545436730-711-3",
+          "color": "Sand",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/7167/a25d/060d4a8bb5ae/d343611ad28c/03166304711-p/03166304711-p.jpg?ts=1785421870842&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html?v1=545436730",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KNIT HENLEY T-SHIRT - Sand - L",
+          "sku": "545436730-711-4",
+          "mpn": "545436730-711-4",
+          "color": "Sand",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/7167/a25d/060d4a8bb5ae/d343611ad28c/03166304711-p/03166304711-p.jpg?ts=1785421870842&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html?v1=545436730",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KNIT HENLEY T-SHIRT - Sand - XL",
+          "sku": "545436730-711-5",
+          "mpn": "545436730-711-5",
+          "color": "Sand",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/7167/a25d/060d4a8bb5ae/d343611ad28c/03166304711-p/03166304711-p.jpg?ts=1785421870842&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html?v1=545436730",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KNIT HENLEY T-SHIRT",
+      "product_group_id": "03166304",
+      "brand": "ZARA",
+      "description": "Relaxed-fit knit T-shirt crafted from a viscose and linen blend. Features a crew neck with a button-front placket, short sleeves, and ribbed trims.",
+      "material": "viscose/cotton/linen",
+      "composition": "OUTER SHELL: 36% viscose, 32% cotton, 32% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KNIT HENLEY T-SHIRT - Sand - M",
+          "sku": "545436730-711-3",
+          "mpn": "545436730-711-3",
+          "color_name": "Sand",
+          "size_name": "M",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html?v1=545436730",
+          "images": [
+            "https://static.zara.net/assets/public/7167/a25d/060d4a8bb5ae/d343611ad28c/03166304711-p/03166304711-p.jpg?ts=1785421870842&w=1920"
+          ]
+        },
+        {
+          "name": "KNIT HENLEY T-SHIRT - Sand - L",
+          "sku": "545436730-711-4",
+          "mpn": "545436730-711-4",
+          "color_name": "Sand",
+          "size_name": "L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html?v1=545436730",
+          "images": [
+            "https://static.zara.net/assets/public/7167/a25d/060d4a8bb5ae/d343611ad28c/03166304711-p/03166304711-p.jpg?ts=1785421870842&w=1920"
+          ]
+        },
+        {
+          "name": "KNIT HENLEY T-SHIRT - Sand - XL",
+          "sku": "545436730-711-5",
+          "mpn": "545436730-711-5",
+          "color_name": "Sand",
+          "size_name": "XL",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p03166304.html?v1=545436730",
+          "images": [
+            "https://static.zara.net/assets/public/7167/a25d/060d4a8bb5ae/d343611ad28c/03166304711-p/03166304711-p.jpg?ts=1785421870842&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7167/a25d/060d4a8bb5ae/d343611ad28c/03166304711-p/03166304711-p.jpg?ts=1785421870842&w=1920",
+        "https://static.zara.net/assets/public/85d1/3f39/833c4f138625/d1d38a11beae/03166304711-a1/03166304711-a1.jpg?ts=1785421871576&w=1920",
+        "https://static.zara.net/assets/public/3507/7786/20964fbf8286/cb36547b6c38/03166304711-a2/03166304711-a2.jpg?ts=1785421871737&w=1920",
+        "https://static.zara.net/assets/public/12e9/eb04/5c9a4c788a2a/9bff04819e46/03166304711-a3/03166304711-a3.jpg?ts=1785421872058&w=1920",
+        "https://static.zara.net/assets/public/ff5a/c250/434743b7b837/b54714cf8d7b/03166304711-a4/03166304711-a4.jpg?ts=1785421871631&w=1920",
+        "https://static.zara.net/assets/public/fff4/adf8/ff624fab8af5/2879c5676d1b/03166304711-a5/03166304711-a5.jpg?ts=1785421871028&w=1920",
+        "https://static.zara.net/assets/public/bdec/19ec/dea74256a15d/8441b926b962/03166304711-e1/03166304711-e1.jpg?ts=1785401591546&w=1920",
+        "https://static.zara.net/assets/public/c7cd/faf6/a98849f2a8a8/bf9e6b4a0bbf/03166304711-e2/03166304711-e2.jpg?ts=1785401590310&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nRelaxed-fit knit T-shirt crafted from a viscose and linen blend. Features a crew neck with a button-front placket, short sleeves, and ribbed trims.",
+  "comp_care_text": null,
+  "raw_images_count": 13,
+  "valid_images_count": 8,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "45547fa775fe3a7c13ea43ea02f308c8ff6d722effb7a88ae443a447a88e42ba",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
