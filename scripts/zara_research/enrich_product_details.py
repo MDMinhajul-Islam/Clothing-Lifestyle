@@ -987,15 +987,12 @@ def run_enrichment_batch(product_ids=None, batch_size=100, preserve_completed=Tr
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Phase 1C Product Detail Enrichment Worker")
-    parser.add_argument("--batch-size", type=int, default=20, help="Batch size to enrich")
     parser.add_argument("--batch-size", type=int, default=100, help="Batch size to enrich")
     parser.add_argument("--product-ids", type=str, default=None, help="Comma-separated product IDs to process")
     parser.add_argument("--product-ids-file", type=str, default=None, help="Path to JSON file containing list of product IDs")
     parser.add_argument("--force-reprocess", action="store_true", help="Force re-enrichment of already completed products")
     args = parser.parse_args()
 
-    p_ids = [p.strip() for p in args.product_ids.split(",") if p.strip()] if args.product_ids else None
-    results, metrics = run_enrichment_batch(product_ids=p_ids, batch_size=args.batch_size)
     p_ids = None
     if args.product_ids_file:
         with open(args.product_ids_file, "r", encoding="utf-8") as f:
@@ -1003,7 +1000,11 @@ if __name__ == '__main__':
     elif args.product_ids:
         p_ids = [p.strip() for p in args.product_ids.split(",") if p.strip()]
 
-    results, metrics = run_enrichment_batch(product_ids=p_ids, batch_size=args.batch_size, preserve_completed=not args.force_reprocess)
+    results, metrics = run_enrichment_batch(
+        product_ids=p_ids,
+        batch_size=args.batch_size,
+        preserve_completed=not args.force_reprocess
+    )
     print("\nBatch Metrics:")
     print(json.dumps(metrics, indent=2))
 
