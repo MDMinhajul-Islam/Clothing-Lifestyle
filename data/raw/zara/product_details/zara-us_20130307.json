@@ -1,0 +1,113 @@
+{
+  "product_id": "zara-us:20130307",
+  "source_url": "https://www.zara.com/us/en/lightly-bloom-edp-100-ml--3-4-fl--oz---p20130307.html",
+  "final_url": "https://www.zara.com/us/en/lightly-bloom-edp-100-ml--3-4-fl--oz---p20130307.html",
+  "canonical_url": "https://www.zara.com/us/en/lightly-bloom-edp-100-ml--3-4-fl--oz---p20130307.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIGHTLY BLOOM EDP 100 ML (3.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/lightly-bloom-edp-100-ml--3-4-fl--oz---p20130307.html",
+      "productGroupID": "20130307",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "LIGHTLY BLOOM EDP 100 ML (3.4 FL. OZ.). A delicate and ethereal floral fragrance inspired by the lightness of petals at dawn. Lotus flower provides an aquatic freshness that blends with the romantic softness of peony. Musk introduces a clean, hypnotic base that melts into the skin with natural elegance.\n\nFloral fruity musky | Delicate, luminous and elegant.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/47df/5b21/e334466ea978/0b08b482b15a/20130307999-e20/20130307999-e20.jpg?ts=1783594484547&w=1920",
+        "https://static.zara.net/assets/public/c8a6/ff68/44df42239143/b85cf5e6dad4/20130307999-e21/20130307999-e21.jpg?ts=1783594483506&w=1920",
+        "https://static.zara.net/assets/public/2469/8c4d/e86e4991ae19/07bafb891e55/20130307999-e38/20130307999-e38.jpg?ts=1783942341518&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIGHTLY BLOOM EDP 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545461412-999-99",
+          "mpn": "545461412-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/47df/5b21/e334466ea978/0b08b482b15a/20130307999-e20/20130307999-e20.jpg?ts=1783594484547&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/lightly-bloom-edp-100-ml--3-4-fl--oz---p20130307.html?v1=545461412",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIGHTLY BLOOM EDP 100 ML (3.4 FL. OZ.)",
+      "product_group_id": "20130307",
+      "brand": "ZARA",
+      "description": "LIGHTLY BLOOM EDP 100 ML (3.4 FL. OZ.). A delicate and ethereal floral fragrance inspired by the lightness of petals at dawn. Lotus flower provides an aquatic freshness that blends with the romantic softness of peony. Musk introduces a clean, hypnotic base that melts into the skin with natural elegance.\n\nFloral fruity musky | Delicate, luminous and elegant.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIGHTLY BLOOM EDP 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545461412-999-99",
+          "mpn": "545461412-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lightly-bloom-edp-100-ml--3-4-fl--oz---p20130307.html?v1=545461412",
+          "images": [
+            "https://static.zara.net/assets/public/47df/5b21/e334466ea978/0b08b482b15a/20130307999-e20/20130307999-e20.jpg?ts=1783594484547&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/47df/5b21/e334466ea978/0b08b482b15a/20130307999-e20/20130307999-e20.jpg?ts=1783594484547&w=1920",
+        "https://static.zara.net/assets/public/c8a6/ff68/44df42239143/b85cf5e6dad4/20130307999-e21/20130307999-e21.jpg?ts=1783594483506&w=1920",
+        "https://static.zara.net/assets/public/2469/8c4d/e86e4991ae19/07bafb891e55/20130307999-e38/20130307999-e38.jpg?ts=1783942341518&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nLIGHTLY BLOOM EDP 100 ML (3.4 FL. OZ.). A delicate and ethereal floral fragrance inspired by the lightness of petals at dawn. Lotus flower provides an aquatic freshness that blends with the romantic softness of peony. Musk introduces a clean, hypnotic base that melts into the skin with natural elegance.\nFloral fruity musky | Delicate, luminous and elegant.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "697c01f88a77ad6f0ecdf78a0bfbf4e7bb7c719c427667e656e6c3fc78a84ff5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

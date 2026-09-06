@@ -1,0 +1,483 @@
+{
+  "product_id": "zara-us:01880678",
+  "source_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html",
+  "final_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC SWEATSHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC SWEATSHIRT",
+      "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html",
+      "productGroupID": "01880678",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck sweatshirt with long sleeves. Ribbed trim. Side label appliqué. Brushed, warm, and soft interior.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920",
+        "https://static.zara.net/assets/public/9dcc/87ea/1431495283ab/fcfcddde26e0/01880678600-e2/01880678600-e2.jpg?ts=1783336391095&w=1920",
+        "https://static.zara.net/assets/public/6227/08c1/e9f34c41a485/733376b77f54/01880678600-e3/01880678600-e3.jpg?ts=1783336391903&w=1920",
+        "https://static.zara.net/assets/public/ca2e/729d/ca6348c1a4c4/12baa99bd97a/01880678600-e4/01880678600-e4.jpg?ts=1783336390992&w=1920",
+        "https://static.zara.net/assets/public/01e7/807a/22824c1ab4bd/c1a9ad824149/01880678600-p/01880678600-p.jpg?ts=1788248692068&w=1920",
+        "https://static.zara.net/assets/public/97b3/841a/1cc24ea5bb4f/8df48ab23b77/01880678600-p/01880678600-p.jpg?ts=1784210457398&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Red - 6-7 years (48,0 INCHES)",
+          "sku": "545401367-600-7",
+          "mpn": "545401367-600-7",
+          "color": "Red",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Red - 7-8 years (50,4 INCHES)",
+          "sku": "545401367-600-8",
+          "mpn": "545401367-600-8",
+          "color": "Red",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Red - 8-9 years (52,7 INCHES)",
+          "sku": "545401367-600-9",
+          "mpn": "545401367-600-9",
+          "color": "Red",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Red - 9-10 years (55,1 INCHES)",
+          "sku": "545401367-600-10",
+          "mpn": "545401367-600-10",
+          "color": "Red",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Red - 11-12 years (59,8 INCHES)",
+          "sku": "545401367-600-12",
+          "mpn": "545401367-600-12",
+          "color": "Red",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Red - 13-14 years (64,6 INCHES)",
+          "sku": "545401367-600-14",
+          "mpn": "545401367-600-14",
+          "color": "Red",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Black - 6-7 years (48,0 INCHES)",
+          "sku": "545401367-800-7",
+          "mpn": "545401367-800-7",
+          "color": "Black",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Black - 7-8 years (50,4 INCHES)",
+          "sku": "545401367-800-8",
+          "mpn": "545401367-800-8",
+          "color": "Black",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Black - 8-9 years (52,7 INCHES)",
+          "sku": "545401367-800-9",
+          "mpn": "545401367-800-9",
+          "color": "Black",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Black - 9-10 years (55,1 INCHES)",
+          "sku": "545401367-800-10",
+          "mpn": "545401367-800-10",
+          "color": "Black",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Black - 11-12 years (59,8 INCHES)",
+          "sku": "545401367-800-12",
+          "mpn": "545401367-800-12",
+          "color": "Black",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SWEATSHIRT - Black - 13-14 years (64,6 INCHES)",
+          "sku": "545401367-800-14",
+          "mpn": "545401367-800-14",
+          "color": "Black",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC SWEATSHIRT",
+      "product_group_id": "01880678",
+      "brand": "ZARA",
+      "description": "Round neck sweatshirt with long sleeves. Ribbed trim. Side label appliqué. Brushed, warm, and soft interior.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC SWEATSHIRT - Red - 6-7 years (48,0 INCHES)",
+          "sku": "545401367-600-7",
+          "mpn": "545401367-600-7",
+          "color_name": "Red",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+          "images": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Red - 7-8 years (50,4 INCHES)",
+          "sku": "545401367-600-8",
+          "mpn": "545401367-600-8",
+          "color_name": "Red",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+          "images": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Red - 8-9 years (52,7 INCHES)",
+          "sku": "545401367-600-9",
+          "mpn": "545401367-600-9",
+          "color_name": "Red",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+          "images": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Red - 9-10 years (55,1 INCHES)",
+          "sku": "545401367-600-10",
+          "mpn": "545401367-600-10",
+          "color_name": "Red",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+          "images": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Red - 11-12 years (59,8 INCHES)",
+          "sku": "545401367-600-12",
+          "mpn": "545401367-600-12",
+          "color_name": "Red",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+          "images": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Red - 13-14 years (64,6 INCHES)",
+          "sku": "545401367-600-14",
+          "mpn": "545401367-600-14",
+          "color_name": "Red",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401367",
+          "images": [
+            "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Black - 6-7 years (48,0 INCHES)",
+          "sku": "545401367-800-7",
+          "mpn": "545401367-800-7",
+          "color_name": "Black",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+          "images": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Black - 7-8 years (50,4 INCHES)",
+          "sku": "545401367-800-8",
+          "mpn": "545401367-800-8",
+          "color_name": "Black",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+          "images": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Black - 8-9 years (52,7 INCHES)",
+          "sku": "545401367-800-9",
+          "mpn": "545401367-800-9",
+          "color_name": "Black",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+          "images": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Black - 9-10 years (55,1 INCHES)",
+          "sku": "545401367-800-10",
+          "mpn": "545401367-800-10",
+          "color_name": "Black",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+          "images": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Black - 11-12 years (59,8 INCHES)",
+          "sku": "545401367-800-12",
+          "mpn": "545401367-800-12",
+          "color_name": "Black",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+          "images": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SWEATSHIRT - Black - 13-14 years (64,6 INCHES)",
+          "sku": "545401367-800-14",
+          "mpn": "545401367-800-14",
+          "color_name": "Black",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880678.html?v1=545401368",
+          "images": [
+            "https://static.zara.net/assets/public/8714/f2a1/5b4447de9059/1b92e970472c/01880678800-e1/01880678800-e1.jpg?ts=1783336386287&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/da69/1d41/faf04f65949b/e48c1406c84a/01880678600-e1/01880678600-e1.jpg?ts=1783336391145&w=1920",
+        "https://static.zara.net/assets/public/9dcc/87ea/1431495283ab/fcfcddde26e0/01880678600-e2/01880678600-e2.jpg?ts=1783336391095&w=1920",
+        "https://static.zara.net/assets/public/6227/08c1/e9f34c41a485/733376b77f54/01880678600-e3/01880678600-e3.jpg?ts=1783336391903&w=1920",
+        "https://static.zara.net/assets/public/ca2e/729d/ca6348c1a4c4/12baa99bd97a/01880678600-e4/01880678600-e4.jpg?ts=1783336390992&w=1920",
+        "https://static.zara.net/assets/public/01e7/807a/22824c1ab4bd/c1a9ad824149/01880678600-p/01880678600-p.jpg?ts=1788248692068&w=1920",
+        "https://static.zara.net/assets/public/97b3/841a/1cc24ea5bb4f/8df48ab23b77/01880678600-p/01880678600-p.jpg?ts=1784210457398&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Red",
+    "Black"
+  ],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nRound neck sweatshirt with long sleeves. Ribbed trim. Side label appliqué. Brushed, warm, and soft interior.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c222883120892c0afe00201226c037f26800fa5885056439b06f6be6af0c66c1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

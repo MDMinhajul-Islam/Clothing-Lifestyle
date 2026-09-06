@@ -1,0 +1,116 @@
+{
+  "product_id": "zara-us:20110957",
+  "source_url": "https://www.zara.com/us/en/bright-fruit-perfume-80-ml--2-72-fl--oz---p20110957.html",
+  "final_url": "https://www.zara.com/us/en/bright-fruit-perfume-80-ml--2-72-fl--oz---p20110957.html",
+  "canonical_url": "https://www.zara.com/us/en/bright-fruit-perfume-80-ml--2-72-fl--oz---p20110957.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BRIGHT FRUIT",
+    "WHITE LUMINOSITY",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BRIGHT FRUIT PARFUM 80 ML (2.72 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/bright-fruit-perfume-80-ml--2-72-fl--oz---p20110957.html",
+      "productGroupID": "20110957",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "BRIGHT FRUIT PARFUM 80 ML (2.72 FL. OZ.). A vibrant fruity floral that captures the energy of sun-kissed skin at the end of summer. Passionfruit brings an exotic and luminous juiciness intertwined with the green freshness of mandarin and the velvety sensuality of rose. In the background, vanilla and amber musks envelop the fragrance in a soft, addictive warmth, leaving a magnetic and carelessly sensual trail.\n\nFruity floral | Solar, juicy, and magnetic.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8315/a8eb/349547389222/d65964b2f325/20110957999-e20/20110957999-e20.jpg?ts=1779433790657&w=1920",
+        "https://static.zara.net/assets/public/50ed/0b36/3e334ca5aca4/5f27ef05c650/20110957999-e21/20110957999-e21.jpg?ts=1779433791151&w=1920",
+        "https://static.zara.net/assets/public/ac34/e53c/17794e89abcd/c0fa99d5afee/20110957999-e22/20110957999-e22.jpg?ts=1779433790500&w=1920",
+        "https://static.zara.net/assets/public/3355/a3c2/887c4fbc9e8d/18a4587bdc5a/20110957999-e38/20110957999-e38.jpg?ts=1779782686877&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BRIGHT FRUIT PARFUM 80 ML (2.72 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545454445-999-99",
+          "mpn": "545454445-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/8315/a8eb/349547389222/d65964b2f325/20110957999-e20/20110957999-e20.jpg?ts=1779433790657&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/bright-fruit-perfume-80-ml--2-72-fl--oz---p20110957.html?v1=545454445",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BRIGHT FRUIT PARFUM 80 ML (2.72 FL. OZ.)",
+      "product_group_id": "20110957",
+      "brand": "ZARA",
+      "description": "BRIGHT FRUIT PARFUM 80 ML (2.72 FL. OZ.). A vibrant fruity floral that captures the energy of sun-kissed skin at the end of summer. Passionfruit brings an exotic and luminous juiciness intertwined with the green freshness of mandarin and the velvety sensuality of rose. In the background, vanilla and amber musks envelop the fragrance in a soft, addictive warmth, leaving a magnetic and carelessly sensual trail.\n\nFruity floral | Solar, juicy, and magnetic.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BRIGHT FRUIT PARFUM 80 ML (2.72 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545454445-999-99",
+          "mpn": "545454445-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bright-fruit-perfume-80-ml--2-72-fl--oz---p20110957.html?v1=545454445",
+          "images": [
+            "https://static.zara.net/assets/public/8315/a8eb/349547389222/d65964b2f325/20110957999-e20/20110957999-e20.jpg?ts=1779433790657&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8315/a8eb/349547389222/d65964b2f325/20110957999-e20/20110957999-e20.jpg?ts=1779433790657&w=1920",
+        "https://static.zara.net/assets/public/50ed/0b36/3e334ca5aca4/5f27ef05c650/20110957999-e21/20110957999-e21.jpg?ts=1779433791151&w=1920",
+        "https://static.zara.net/assets/public/ac34/e53c/17794e89abcd/c0fa99d5afee/20110957999-e22/20110957999-e22.jpg?ts=1779433790500&w=1920",
+        "https://static.zara.net/assets/public/3355/a3c2/887c4fbc9e8d/18a4587bdc5a/20110957999-e38/20110957999-e38.jpg?ts=1779782686877&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nBRIGHT FRUIT PARFUM 80 ML (2.72 FL. OZ.). A vibrant fruity floral that captures the energy of sun-kissed skin at the end of summer. Passionfruit brings an exotic and luminous juiciness intertwined with the green freshness of mandarin and the velvety sensuality of rose. In the background, vanilla and amber musks envelop the fragrance in a soft, addictive warmth, leaving a magnetic and carelessly sensual trail.\nFruity floral | Solar, juicy, and magnetic.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2e6b4711942a95de070bcf9f8bc67dff2c3418015ed748b2eba5bbb22df1809f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

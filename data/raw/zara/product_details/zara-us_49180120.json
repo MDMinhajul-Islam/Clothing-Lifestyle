@@ -1,0 +1,192 @@
+{
+  "product_id": "zara-us:49180120",
+  "source_url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html",
+  "final_url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html",
+  "canonical_url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULBERRY SILK BANDEAU BRA",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULBERRY SILK BANDEAU BRA",
+      "url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html",
+      "productGroupID": "49180120",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Bandeau bra crafted from a mulberry silk blend. Plain design with thin straps.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cb40/8778/f8b247e6bbad/02d05664cbe9/49180120712-e1/49180120712-e1.jpg?ts=1770049118595&w=1920",
+        "https://static.zara.net/assets/public/afb1/e408/cb274efd9c9e/269be713ffb6/49180120712-e2/49180120712-e2.jpg?ts=1770049119438&w=1920",
+        "https://static.zara.net/assets/public/9dfb/402e/4b3d4c22ac99/9eaa90f16e42/49180120712-e3/49180120712-e3.jpg?ts=1770049119383&w=1920",
+        "https://static.zara.net/assets/public/b70c/0a19/d1054431a5d4/0997f0ad1471/49180120712-e4/49180120712-e4.jpg?ts=1770049117369&w=1920",
+        "https://static.zara.net/assets/public/dcfa/a0cc/c5aa4e7b9898/0b7eef755462/49180120712-a1/49180120712-a1.jpg?ts=1787671306483&w=1920"
+      ],
+      "material": "silk (mulberry)/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "92% silk (mulberry), 8% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK BANDEAU BRA - Ecru - S",
+          "sku": "545426551-712-2",
+          "mpn": "545426551-712-2",
+          "color": "Ecru",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/cb40/8778/f8b247e6bbad/02d05664cbe9/49180120712-e1/49180120712-e1.jpg?ts=1770049118595&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html?v1=545426551",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK BANDEAU BRA - Ecru - M",
+          "sku": "545426551-712-3",
+          "mpn": "545426551-712-3",
+          "color": "Ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/cb40/8778/f8b247e6bbad/02d05664cbe9/49180120712-e1/49180120712-e1.jpg?ts=1770049118595&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html?v1=545426551",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK BANDEAU BRA - Ecru - L",
+          "sku": "545426551-712-4",
+          "mpn": "545426551-712-4",
+          "color": "Ecru",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/cb40/8778/f8b247e6bbad/02d05664cbe9/49180120712-e1/49180120712-e1.jpg?ts=1770049118595&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html?v1=545426551",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULBERRY SILK BANDEAU BRA",
+      "product_group_id": "49180120",
+      "brand": "ZARAHOME",
+      "description": "Bandeau bra crafted from a mulberry silk blend. Plain design with thin straps.",
+      "material": "silk (mulberry)/elastane",
+      "composition": "OUTER SHELL: 92% silk (mulberry), 8% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULBERRY SILK BANDEAU BRA - Ecru - S",
+          "sku": "545426551-712-2",
+          "mpn": "545426551-712-2",
+          "color_name": "Ecru",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html?v1=545426551",
+          "images": [
+            "https://static.zara.net/assets/public/cb40/8778/f8b247e6bbad/02d05664cbe9/49180120712-e1/49180120712-e1.jpg?ts=1770049118595&w=1920"
+          ]
+        },
+        {
+          "name": "MULBERRY SILK BANDEAU BRA - Ecru - M",
+          "sku": "545426551-712-3",
+          "mpn": "545426551-712-3",
+          "color_name": "Ecru",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html?v1=545426551",
+          "images": [
+            "https://static.zara.net/assets/public/cb40/8778/f8b247e6bbad/02d05664cbe9/49180120712-e1/49180120712-e1.jpg?ts=1770049118595&w=1920"
+          ]
+        },
+        {
+          "name": "MULBERRY SILK BANDEAU BRA - Ecru - L",
+          "sku": "545426551-712-4",
+          "mpn": "545426551-712-4",
+          "color_name": "Ecru",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-bandeau-bra-p49180120.html?v1=545426551",
+          "images": [
+            "https://static.zara.net/assets/public/cb40/8778/f8b247e6bbad/02d05664cbe9/49180120712-e1/49180120712-e1.jpg?ts=1770049118595&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cb40/8778/f8b247e6bbad/02d05664cbe9/49180120712-e1/49180120712-e1.jpg?ts=1770049118595&w=1920",
+        "https://static.zara.net/assets/public/afb1/e408/cb274efd9c9e/269be713ffb6/49180120712-e2/49180120712-e2.jpg?ts=1770049119438&w=1920",
+        "https://static.zara.net/assets/public/9dfb/402e/4b3d4c22ac99/9eaa90f16e42/49180120712-e3/49180120712-e3.jpg?ts=1770049119383&w=1920",
+        "https://static.zara.net/assets/public/b70c/0a19/d1054431a5d4/0997f0ad1471/49180120712-e4/49180120712-e4.jpg?ts=1770049117369&w=1920",
+        "https://static.zara.net/assets/public/dcfa/a0cc/c5aa4e7b9898/0b7eef755462/49180120712-a1/49180120712-a1.jpg?ts=1787671306483&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nBandeau bra crafted from a mulberry silk blend. Plain design with thin straps.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 5,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "65771444cbce0de39315c966a477c674781e80ce2b6421dad6da14ed3af7ec99",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

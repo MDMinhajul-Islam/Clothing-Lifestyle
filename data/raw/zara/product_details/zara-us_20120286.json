@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20120286",
+  "source_url": "https://www.zara.com/us/en/red-vanilla-edt-90-ml--3-04-fl--oz---p20120286.html",
+  "final_url": "https://www.zara.com/us/en/red-vanilla-edt-90-ml--3-04-fl--oz---p20120286.html",
+  "canonical_url": "https://www.zara.com/us/en/red-vanilla-edt-90-ml--3-04-fl--oz---p20120286.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RED VANILLA",
+    "NIGHT | EAU DE TOILETTE",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RED VANILLA EDT 90 ML (3.04 FL. OZ)",
+      "url": "https://www.zara.com/us/en/red-vanilla-edt-90-ml--3-04-fl--oz---p20120286.html",
+      "productGroupID": "20120286",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "RED VANILLA EDT 90 ML (3.04 FL. OZ). Raspberry brings a juicy and vibrant brightness that blends with the creamy sweetness of praline. Patchouli introduces a warm depth that balances the composition with an intense and seductive gourmand trail.\n\nFruity gourmand | Sweet, intense and addictive",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/971e/405a/46d34d5f847e/876268785dfe/20120286999-000-e20/20120286999-000-e20.jpg?ts=1781509576852&w=1920",
+        "https://static.zara.net/assets/public/bfc7/2e31/d2244864a630/e2dc144ea840/20120286999-000-e21/20120286999-000-e21.jpg?ts=1781509576982&w=1920",
+        "https://static.zara.net/assets/public/db50/013b/4aa84fdb83f0/6772d083242a/20120286999-000-e38/20120286999-000-e38.jpg?ts=1781509578383&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RED VANILLA EDT 90 ML (3.04 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545470648-999-99",
+          "mpn": "545470648-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/971e/405a/46d34d5f847e/876268785dfe/20120286999-000-e20/20120286999-000-e20.jpg?ts=1781509576852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/red-vanilla-edt-90-ml--3-04-fl--oz---p20120286.html?v1=545470648",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RED VANILLA EDT 90 ML (3.04 FL. OZ)",
+      "product_group_id": "20120286",
+      "brand": "ZARA",
+      "description": "RED VANILLA EDT 90 ML (3.04 FL. OZ). Raspberry brings a juicy and vibrant brightness that blends with the creamy sweetness of praline. Patchouli introduces a warm depth that balances the composition with an intense and seductive gourmand trail.\n\nFruity gourmand | Sweet, intense and addictive",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RED VANILLA EDT 90 ML (3.04 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545470648-999-99",
+          "mpn": "545470648-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/red-vanilla-edt-90-ml--3-04-fl--oz---p20120286.html?v1=545470648",
+          "images": [
+            "https://static.zara.net/assets/public/971e/405a/46d34d5f847e/876268785dfe/20120286999-000-e20/20120286999-000-e20.jpg?ts=1781509576852&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/971e/405a/46d34d5f847e/876268785dfe/20120286999-000-e20/20120286999-000-e20.jpg?ts=1781509576852&w=1920",
+        "https://static.zara.net/assets/public/bfc7/2e31/d2244864a630/e2dc144ea840/20120286999-000-e21/20120286999-000-e21.jpg?ts=1781509576982&w=1920",
+        "https://static.zara.net/assets/public/db50/013b/4aa84fdb83f0/6772d083242a/20120286999-000-e38/20120286999-000-e38.jpg?ts=1781509578383&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nRED VANILLA EDT 90 ML (3.04 FL. OZ). Raspberry brings a juicy and vibrant brightness that blends with the creamy sweetness of praline. Patchouli introduces a warm depth that balances the composition with an intense and seductive gourmand trail.\nFruity gourmand | Sweet, intense and addictive",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b0f92d5e9b1a7f7f0ae2d146f4850a5e1708ee89352db325d0847276c9e0508d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

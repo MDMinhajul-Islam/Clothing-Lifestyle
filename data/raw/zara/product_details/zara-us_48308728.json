@@ -1,0 +1,132 @@
+{
+  "product_id": "zara-us:48308728",
+  "source_url": "https://www.zara.com/us/en/wooden-pencil-set--pack-of-3--%7C-0fr--paris-p48308728.html",
+  "final_url": "https://www.zara.com/us/en/wooden-pencil-set--pack-of-3--%7C-0fr--paris-p48308728.html",
+  "canonical_url": "https://www.zara.com/us/en/wooden-pencil-set--pack-of-3--%7C-0fr--paris-p48308728.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WOODEN PENCIL SET (PACK OF 3) | 0FR. PARIS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WOODEN PENCIL SET (PACK OF 3) | 0FR. PARIS",
+      "url": "https://www.zara.com/us/en/wooden-pencil-set--pack-of-3--%7C-0fr--paris-p48308728.html",
+      "productGroupID": "48308728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pack of wooden pencils with a lacquered finish. Hexagonal design featuring the 0fr. Paris logo detail and an eraser at the end.\n\nThe set includes 3 pencils, each with a different exterior color.\n\n0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/31b6/53a0/0b0c4725af79/1956e6ea8395/48308728999-e1/48308728999-e1.jpg?ts=1787643596345&w=1920",
+        "https://static.zara.net/assets/public/e67c/584f/25b643968066/9a08da67b517/48308728999-e2/48308728999-e2.jpg?ts=1787643596543&w=1920",
+        "https://static.zara.net/assets/public/f9fd/6747/b0aa4593898d/936159125609/48308728999-e3/48308728999-e3.jpg?ts=1787643595952&w=1920",
+        "https://static.zara.net/assets/public/b6e6/2eaa/2bb04abbb221/c22af12721f6/48308728999-e4/48308728999-e4.jpg?ts=1787643595784&w=1920",
+        "https://static.zara.net/assets/public/c12d/0ac4/6504464abd38/768193b1e83c/8308728999-e15/8308728999-e15.jpg?ts=1787657376299&w=1920",
+        "https://static.zara.net/assets/public/02c0/dc42/925c4f52b9b0/40ae96f8ddec/8308728999-e16/8308728999-e16.jpg?ts=1787657376121&w=1920",
+        "https://static.zara.net/assets/public/4080/da98/16ab4ebf8f28/76ccbeac959d/48308728999-a1/48308728999-a1.jpg?ts=1788258210493&w=1920"
+      ],
+      "material": "wood/aluminium/rubber",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "98% wood, 1% aluminium, 1% rubber"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WOODEN PENCIL SET (PACK OF 3) | 0FR. PARIS - Multicolored - ONE SIZE ONLY",
+          "sku": "568353038-999-99",
+          "mpn": "568353038-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/31b6/53a0/0b0c4725af79/1956e6ea8395/48308728999-e1/48308728999-e1.jpg?ts=1787643596345&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "11.9",
+            "url": "https://www.zara.com/us/en/wooden-pencil-set--pack-of-3--%7C-0fr--paris-p48308728.html?v1=568353038",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WOODEN PENCIL SET (PACK OF 3) | 0FR. PARIS",
+      "product_group_id": "48308728",
+      "brand": "ZARAHOME",
+      "description": "Pack of wooden pencils with a lacquered finish. Hexagonal design featuring the 0fr. Paris logo detail and an eraser at the end.\n\nThe set includes 3 pencils, each with a different exterior color.\n\n0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+      "material": "wood/aluminium/rubber",
+      "composition": "OUTER SHELL: 98% wood, 1% aluminium, 1% rubber",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WOODEN PENCIL SET (PACK OF 3) | 0FR. PARIS - Multicolored - ONE SIZE ONLY",
+          "sku": "568353038-999-99",
+          "mpn": "568353038-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "11.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wooden-pencil-set--pack-of-3--%7C-0fr--paris-p48308728.html?v1=568353038",
+          "images": [
+            "https://static.zara.net/assets/public/31b6/53a0/0b0c4725af79/1956e6ea8395/48308728999-e1/48308728999-e1.jpg?ts=1787643596345&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/31b6/53a0/0b0c4725af79/1956e6ea8395/48308728999-e1/48308728999-e1.jpg?ts=1787643596345&w=1920",
+        "https://static.zara.net/assets/public/e67c/584f/25b643968066/9a08da67b517/48308728999-e2/48308728999-e2.jpg?ts=1787643596543&w=1920",
+        "https://static.zara.net/assets/public/f9fd/6747/b0aa4593898d/936159125609/48308728999-e3/48308728999-e3.jpg?ts=1787643595952&w=1920",
+        "https://static.zara.net/assets/public/b6e6/2eaa/2bb04abbb221/c22af12721f6/48308728999-e4/48308728999-e4.jpg?ts=1787643595784&w=1920",
+        "https://static.zara.net/assets/public/c12d/0ac4/6504464abd38/768193b1e83c/8308728999-e15/8308728999-e15.jpg?ts=1787657376299&w=1920",
+        "https://static.zara.net/assets/public/02c0/dc42/925c4f52b9b0/40ae96f8ddec/8308728999-e16/8308728999-e16.jpg?ts=1787657376121&w=1920",
+        "https://static.zara.net/assets/public/4080/da98/16ab4ebf8f28/76ccbeac959d/48308728999-a1/48308728999-a1.jpg?ts=1788258210493&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "11.90",
+  "rendered_description": "Description\nPack of wooden pencils with a lacquered finish. Hexagonal design featuring the 0fr. Paris logo detail and an eraser at the end.\nThe set includes 3 pencils, each with a different exterior color.\n0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "11.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "11.90",
+    "dom_price": "11.90",
+    "normalized_price": "11.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6ad5d3052159c6370c9a4599c1f56fe5ae43dd9b012545f228c00d8f3755b283",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

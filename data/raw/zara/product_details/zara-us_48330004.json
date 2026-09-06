@@ -1,0 +1,168 @@
+{
+  "product_id": "zara-us:48330004",
+  "source_url": "https://www.zara.com/us/en/two-tone-wool-blanket-%7C-0fr--paris-p48330004.html",
+  "final_url": "https://www.zara.com/us/en/two-tone-wool-blanket-%7C-0fr--paris-p48330004.html",
+  "canonical_url": "https://www.zara.com/us/en/two-tone-wool-blanket-%7C-0fr--paris-p48330004.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TWO-TONE WOOL BLANKET | 0FR. PARIS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TWO-TONE WOOL BLANKET | 0FR. PARIS",
+      "url": "https://www.zara.com/us/en/two-tone-wool-blanket-%7C-0fr--paris-p48330004.html",
+      "productGroupID": "48330004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Wool blanket featuring a two-tone contrast design and a 0fr. Paris label on one of the corners. 0fr. Paris is an independent bookstore, art gallery, publishing house and cultural space founded in 1996 in Paris.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e0a6/90ad/d003482592d0/9392f628d3e6/48330004400-e1/48330004400-e1.jpg?ts=1788505581650&w=1920",
+        "https://static.zara.net/assets/public/2f50/e0f2/552d44bcbc37/00f1fa17c11f/48330004400-e2/48330004400-e2.jpg?ts=1788505580555&w=1920",
+        "https://static.zara.net/assets/public/f0be/d869/cf08427285a5/94832a1b50ce/48330004400-e3/48330004400-e3.jpg?ts=1788505582149&w=1920",
+        "https://static.zara.net/assets/public/2ed1/1fb1/7a2a479d90fd/2c884c364754/48330004400-e4/48330004400-e4.jpg?ts=1788505581836&w=1920",
+        "https://static.zara.net/assets/public/431a/c92a/2bd54a00bd69/ed651aa69b88/48330004400-e5/48330004400-e5.jpg?ts=1788505580704&w=1920",
+        "https://static.zara.net/assets/public/46aa/e062/43f4400fbd60/93d581e4a3a9/8330004400-e15/8330004400-e15.jpg?ts=1787657398360&w=1920",
+        "https://static.zara.net/assets/public/6559/52a9/eaa74a82b7da/8efa9b4b7e1f/8330004400-e16/8330004400-e16.jpg?ts=1787657399318&w=1920",
+        "https://static.zara.net/assets/public/fc42/2950/82914bfb87df/bd11fdee3315/48330004400-a1/48330004400-a1.jpg?ts=1787573637305&w=1920"
+      ],
+      "material": "wool/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "93% wool, 7% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TWO-TONE WOOL BLANKET | 0FR. PARIS - Blue - 55 x 75 \"",
+          "sku": "571479001-400-16",
+          "mpn": "571479001-400-16",
+          "color": "Blue",
+          "size": "55 x 75 \"",
+          "image": [
+            "https://static.zara.net/assets/public/e0a6/90ad/d003482592d0/9392f628d3e6/48330004400-e1/48330004400-e1.jpg?ts=1788505581650&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/two-tone-wool-blanket-%7C-0fr--paris-p48330004.html?v1=571479001",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TWO-TONE WOOL BLANKET | 0FR. PARIS - Pink - 55 x 75 \"",
+          "sku": "571479001-620-16",
+          "mpn": "571479001-620-16",
+          "color": "Pink",
+          "size": "55 x 75 \"",
+          "image": [
+            "https://static.zara.net/assets/public/e614/bc31/275d43cdb269/8ef4e1ba2891/48330004620-e1/48330004620-e1.jpg?ts=1788505582446&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/two-tone-wool-blanket-%7C-0fr--paris-p48330004.html?v1=571479002",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TWO-TONE WOOL BLANKET | 0FR. PARIS",
+      "product_group_id": "48330004",
+      "brand": "ZARAHOME",
+      "description": "Wool blanket featuring a two-tone contrast design and a 0fr. Paris label on one of the corners. 0fr. Paris is an independent bookstore, art gallery, publishing house and cultural space founded in 1996 in Paris.",
+      "material": "wool/polyester",
+      "composition": "OUTER SHELL: 93% wool, 7% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TWO-TONE WOOL BLANKET | 0FR. PARIS - Blue - 55 x 75 \"",
+          "sku": "571479001-400-16",
+          "mpn": "571479001-400-16",
+          "color_name": "Blue",
+          "size_name": "55 x 75 \"",
+          "price": "169.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/two-tone-wool-blanket-%7C-0fr--paris-p48330004.html?v1=571479001",
+          "images": [
+            "https://static.zara.net/assets/public/e0a6/90ad/d003482592d0/9392f628d3e6/48330004400-e1/48330004400-e1.jpg?ts=1788505581650&w=1920"
+          ]
+        },
+        {
+          "name": "TWO-TONE WOOL BLANKET | 0FR. PARIS - Pink - 55 x 75 \"",
+          "sku": "571479001-620-16",
+          "mpn": "571479001-620-16",
+          "color_name": "Pink",
+          "size_name": "55 x 75 \"",
+          "price": "169.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/two-tone-wool-blanket-%7C-0fr--paris-p48330004.html?v1=571479002",
+          "images": [
+            "https://static.zara.net/assets/public/e614/bc31/275d43cdb269/8ef4e1ba2891/48330004620-e1/48330004620-e1.jpg?ts=1788505582446&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e0a6/90ad/d003482592d0/9392f628d3e6/48330004400-e1/48330004400-e1.jpg?ts=1788505581650&w=1920",
+        "https://static.zara.net/assets/public/2f50/e0f2/552d44bcbc37/00f1fa17c11f/48330004400-e2/48330004400-e2.jpg?ts=1788505580555&w=1920",
+        "https://static.zara.net/assets/public/f0be/d869/cf08427285a5/94832a1b50ce/48330004400-e3/48330004400-e3.jpg?ts=1788505582149&w=1920",
+        "https://static.zara.net/assets/public/2ed1/1fb1/7a2a479d90fd/2c884c364754/48330004400-e4/48330004400-e4.jpg?ts=1788505581836&w=1920",
+        "https://static.zara.net/assets/public/431a/c92a/2bd54a00bd69/ed651aa69b88/48330004400-e5/48330004400-e5.jpg?ts=1788505580704&w=1920",
+        "https://static.zara.net/assets/public/46aa/e062/43f4400fbd60/93d581e4a3a9/8330004400-e15/8330004400-e15.jpg?ts=1787657398360&w=1920",
+        "https://static.zara.net/assets/public/6559/52a9/eaa74a82b7da/8efa9b4b7e1f/8330004400-e16/8330004400-e16.jpg?ts=1787657399318&w=1920",
+        "https://static.zara.net/assets/public/fc42/2950/82914bfb87df/bd11fdee3315/48330004400-a1/48330004400-a1.jpg?ts=1787573637305&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Pink"
+  ],
+  "rendered_price": "169.00",
+  "rendered_description": "Description\nWool blanket featuring a two-tone contrast design and a 0fr. Paris label on one of the corners. 0fr. Paris is an independent bookstore, art gallery, publishing house and cultural space founded in 1996 in Paris.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 9,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "169.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "169.00",
+    "dom_price": "169.00",
+    "normalized_price": "169.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b806eba5e1d38919eabaab3f4fa2a4616f813d09c3bc3adc8d2edb129306ad11",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

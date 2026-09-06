@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20120495",
+  "source_url": "https://www.zara.com/us/en/hibiscus-edp-90-ml--3-0-fl--oz---p20120495.html",
+  "final_url": "https://www.zara.com/us/en/hibiscus-edp-90-ml--3-0-fl--oz---p20120495.html",
+  "canonical_url": "https://www.zara.com/us/en/hibiscus-edp-90-ml--3-0-fl--oz---p20120495.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HIBISCUS",
+    "BLOOM | EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HIBISCUS EDP 90 ML (3.0 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/hibiscus-edp-90-ml--3-0-fl--oz---p20120495.html",
+      "productGroupID": "20120495",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "HIBISCUS EDP 90 ML (3.0 FL. OZ.). Mango provides a juicy, tropical brightness that blends with the floral sensuality of hibiscus. Vanilla orchid introduces a creamy texture that wraps the fragrance in a warm, radiant sensation, evoking modern, exotic elegance.\n\nFloral | Exotic, radiant and enveloping",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cbb8/f9f8/340e47e9a245/82e5caaa60d9/20120495999-000-e20/20120495999-000-e20.jpg?ts=1781509654377&w=1920",
+        "https://static.zara.net/assets/public/97cf/6c00/cb24475ca0aa/06007dd5c956/20120495999-000-e21/20120495999-000-e21.jpg?ts=1781509655801&w=1920",
+        "https://static.zara.net/assets/public/d002/f5a3/344246bcb022/a0c2541dad1b/20120495999-000-e38/20120495999-000-e38.jpg?ts=1781509655399&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HIBISCUS EDP 90 ML (3.0 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545454113-999-99",
+          "mpn": "545454113-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/cbb8/f9f8/340e47e9a245/82e5caaa60d9/20120495999-000-e20/20120495999-000-e20.jpg?ts=1781509654377&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/hibiscus-edp-90-ml--3-0-fl--oz---p20120495.html?v1=545454113",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HIBISCUS EDP 90 ML (3.0 FL. OZ.)",
+      "product_group_id": "20120495",
+      "brand": "ZARA",
+      "description": "HIBISCUS EDP 90 ML (3.0 FL. OZ.). Mango provides a juicy, tropical brightness that blends with the floral sensuality of hibiscus. Vanilla orchid introduces a creamy texture that wraps the fragrance in a warm, radiant sensation, evoking modern, exotic elegance.\n\nFloral | Exotic, radiant and enveloping",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HIBISCUS EDP 90 ML (3.0 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545454113-999-99",
+          "mpn": "545454113-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hibiscus-edp-90-ml--3-0-fl--oz---p20120495.html?v1=545454113",
+          "images": [
+            "https://static.zara.net/assets/public/cbb8/f9f8/340e47e9a245/82e5caaa60d9/20120495999-000-e20/20120495999-000-e20.jpg?ts=1781509654377&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cbb8/f9f8/340e47e9a245/82e5caaa60d9/20120495999-000-e20/20120495999-000-e20.jpg?ts=1781509654377&w=1920",
+        "https://static.zara.net/assets/public/97cf/6c00/cb24475ca0aa/06007dd5c956/20120495999-000-e21/20120495999-000-e21.jpg?ts=1781509655801&w=1920",
+        "https://static.zara.net/assets/public/d002/f5a3/344246bcb022/a0c2541dad1b/20120495999-000-e38/20120495999-000-e38.jpg?ts=1781509655399&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nHIBISCUS EDP 90 ML (3.0 FL. OZ.). Mango provides a juicy, tropical brightness that blends with the floral sensuality of hibiscus. Vanilla orchid introduces a creamy texture that wraps the fragrance in a warm, radiant sensation, evoking modern, exotic elegance.\nFloral | Exotic, radiant and enveloping",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "028af875be18611479a933d98849928c967ee767797882c1585f87da425cfa99",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

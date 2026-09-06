@@ -1,0 +1,113 @@
+{
+  "product_id": "zara-us:20130300",
+  "source_url": "https://www.zara.com/us/en/nude-bouquet-edp-100-ml--3-4-fl--oz---p20130300.html",
+  "final_url": "https://www.zara.com/us/en/nude-bouquet-edp-100-ml--3-4-fl--oz---p20130300.html",
+  "canonical_url": "https://www.zara.com/us/en/nude-bouquet-edp-100-ml--3-4-fl--oz---p20130300.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "NUDE BOUQUET EDP 100 ML (3.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/nude-bouquet-edp-100-ml--3-4-fl--oz---p20130300.html",
+      "productGroupID": "20130300",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "NUDE BOUQUET EDP 100 ML (3.4 FL. OZ.). Cardamom provides a vibrant, spicy freshness balanced by the luminous elegance of jasmine. Sandalwood introduces an enveloping, structured warmth that adds depth and softness to the composition. The result is a modern, sophisticated fragrance that blends naturally with the skin.\n\nFloral fruity | Luminous, elegant, and delicate.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e275/7a52/ad1843fab322/f7b1a2758018/20130300999-e20/20130300999-e20.jpg?ts=1783594488023&w=1920",
+        "https://static.zara.net/assets/public/7903/8530/29fe43cba92a/3f3d1d4d593b/20130300999-e21/20130300999-e21.jpg?ts=1783594483159&w=1920",
+        "https://static.zara.net/assets/public/a30a/a2ed/5ee94383a93d/65551a742330/20130300999-e38/20130300999-e38.jpg?ts=1783942274555&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "NUDE BOUQUET EDP 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545461385-999-99",
+          "mpn": "545461385-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e275/7a52/ad1843fab322/f7b1a2758018/20130300999-e20/20130300999-e20.jpg?ts=1783594488023&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/nude-bouquet-edp-100-ml--3-4-fl--oz---p20130300.html?v1=545461385",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "NUDE BOUQUET EDP 100 ML (3.4 FL. OZ.)",
+      "product_group_id": "20130300",
+      "brand": "ZARA",
+      "description": "NUDE BOUQUET EDP 100 ML (3.4 FL. OZ.). Cardamom provides a vibrant, spicy freshness balanced by the luminous elegance of jasmine. Sandalwood introduces an enveloping, structured warmth that adds depth and softness to the composition. The result is a modern, sophisticated fragrance that blends naturally with the skin.\n\nFloral fruity | Luminous, elegant, and delicate.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "NUDE BOUQUET EDP 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545461385-999-99",
+          "mpn": "545461385-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/nude-bouquet-edp-100-ml--3-4-fl--oz---p20130300.html?v1=545461385",
+          "images": [
+            "https://static.zara.net/assets/public/e275/7a52/ad1843fab322/f7b1a2758018/20130300999-e20/20130300999-e20.jpg?ts=1783594488023&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e275/7a52/ad1843fab322/f7b1a2758018/20130300999-e20/20130300999-e20.jpg?ts=1783594488023&w=1920",
+        "https://static.zara.net/assets/public/7903/8530/29fe43cba92a/3f3d1d4d593b/20130300999-e21/20130300999-e21.jpg?ts=1783594483159&w=1920",
+        "https://static.zara.net/assets/public/a30a/a2ed/5ee94383a93d/65551a742330/20130300999-e38/20130300999-e38.jpg?ts=1783942274555&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nNUDE BOUQUET EDP 100 ML (3.4 FL. OZ.). Cardamom provides a vibrant, spicy freshness balanced by the luminous elegance of jasmine. Sandalwood introduces an enveloping, structured warmth that adds depth and softness to the composition. The result is a modern, sophisticated fragrance that blends naturally with the skin.\nFloral fruity | Luminous, elegant, and delicate.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f5cdc4fac495cde6f94adc02d750ea03567693e9b16805a0a8a65a0391d63e80",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

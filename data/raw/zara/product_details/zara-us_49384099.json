@@ -1,0 +1,158 @@
+{
+  "product_id": "zara-us:49384099",
+  "source_url": "https://www.zara.com/us/en/metal-stone-box-p49384099.html",
+  "final_url": "https://www.zara.com/us/en/metal-stone-box-p49384099.html",
+  "canonical_url": "https://www.zara.com/us/en/metal-stone-box-p49384099.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "METAL STONE BOX",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "METAL STONE BOX",
+      "url": "https://www.zara.com/us/en/metal-stone-box-p49384099.html",
+      "productGroupID": "49384099",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Metal box with a smooth finish and a rectangular shape. It features a solid structure with a top lid and a central detail in the shape of an inlaid stone.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bc55/7886/bfc34210aa2b/3bf72524e464/49384099836-e1/49384099836-e1.jpg?ts=1774002691410&w=1920",
+        "https://static.zara.net/assets/public/c215/8214/9dbc4018848b/b7fddc661519/49384099836-e2/49384099836-e2.jpg?ts=1774002691475&w=1920",
+        "https://static.zara.net/assets/public/6a4c/f321/b5f24649ab4a/b21fd5bf7210/49384099836-e3/49384099836-e3.jpg?ts=1774002691566&w=1920",
+        "https://static.zara.net/assets/public/6023/18ca/a97f4161be97/3a0bcfafec8b/49384099836-e4/49384099836-e4.jpg?ts=1774002691036&w=1920",
+        "https://static.zara.net/assets/public/87c9/f05e/a267474ea713/ef0d866255a7/49384099836-a1/49384099836-a1.jpg?ts=1783345552299&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "METAL STONE BOX - Dark silver - 1.8 x 4.1 x 4.1 \"",
+          "sku": "545413416-836-1",
+          "mpn": "545413416-836-1",
+          "color": "Dark silver",
+          "size": "1.8 x 4.1 x 4.1 \"",
+          "image": [
+            "https://static.zara.net/assets/public/bc55/7886/bfc34210aa2b/3bf72524e464/49384099836-e1/49384099836-e1.jpg?ts=1774002691410&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/metal-stone-box-p49384099.html?v1=545413416",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METAL STONE BOX - Dark silver - 1.8 x 8.1 x 4.1 \"",
+          "sku": "545413416-836-2",
+          "mpn": "545413416-836-2",
+          "color": "Dark silver",
+          "size": "1.8 x 8.1 x 4.1 \"",
+          "image": [
+            "https://static.zara.net/assets/public/bc55/7886/bfc34210aa2b/3bf72524e464/49384099836-e1/49384099836-e1.jpg?ts=1774002691410&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/metal-stone-box-p49384099.html?v1=545413416",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "METAL STONE BOX",
+      "product_group_id": "49384099",
+      "brand": "ZARAHOME",
+      "description": "Metal box with a smooth finish and a rectangular shape. It features a solid structure with a top lid and a central detail in the shape of an inlaid stone.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "METAL STONE BOX - Dark silver - 1.8 x 4.1 x 4.1 \"",
+          "sku": "545413416-836-1",
+          "mpn": "545413416-836-1",
+          "color_name": "Dark silver",
+          "size_name": "1.8 x 4.1 x 4.1 \"",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metal-stone-box-p49384099.html?v1=545413416",
+          "images": [
+            "https://static.zara.net/assets/public/bc55/7886/bfc34210aa2b/3bf72524e464/49384099836-e1/49384099836-e1.jpg?ts=1774002691410&w=1920"
+          ]
+        },
+        {
+          "name": "METAL STONE BOX - Dark silver - 1.8 x 8.1 x 4.1 \"",
+          "sku": "545413416-836-2",
+          "mpn": "545413416-836-2",
+          "color_name": "Dark silver",
+          "size_name": "1.8 x 8.1 x 4.1 \"",
+          "price": "55.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metal-stone-box-p49384099.html?v1=545413416",
+          "images": [
+            "https://static.zara.net/assets/public/bc55/7886/bfc34210aa2b/3bf72524e464/49384099836-e1/49384099836-e1.jpg?ts=1774002691410&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bc55/7886/bfc34210aa2b/3bf72524e464/49384099836-e1/49384099836-e1.jpg?ts=1774002691410&w=1920",
+        "https://static.zara.net/assets/public/c215/8214/9dbc4018848b/b7fddc661519/49384099836-e2/49384099836-e2.jpg?ts=1774002691475&w=1920",
+        "https://static.zara.net/assets/public/6a4c/f321/b5f24649ab4a/b21fd5bf7210/49384099836-e3/49384099836-e3.jpg?ts=1774002691566&w=1920",
+        "https://static.zara.net/assets/public/6023/18ca/a97f4161be97/3a0bcfafec8b/49384099836-e4/49384099836-e4.jpg?ts=1774002691036&w=1920",
+        "https://static.zara.net/assets/public/87c9/f05e/a267474ea713/ef0d866255a7/49384099836-a1/49384099836-a1.jpg?ts=1783345552299&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nMetal box with a smooth finish and a rectangular shape. It features a solid structure with a top lid and a central detail in the shape of an inlaid stone.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7612c4bb0ab133d6c9035838bce7752b6c64c6c84849c57784a09d9ce9f376ad",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

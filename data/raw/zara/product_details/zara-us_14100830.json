@@ -1,0 +1,469 @@
+{
+  "product_id": "zara-us:14100830",
+  "source_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html",
+  "final_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html",
+  "canonical_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHELSEA ANKLE BOOTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHELSEA ANKLE BOOTS",
+      "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html",
+      "productGroupID": "14100830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Chelsea-style ankle boots with elastic side panels. Features double pull tabs for easy on and off. Finished with a lugged rubber sole. Size 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920",
+        "https://static.zara.net/assets/public/a6a5/ce6b/67514c61bc2c/dce48723521f/14100830800-e2/14100830800-e2.jpg?ts=1788190900293&w=1920",
+        "https://static.zara.net/assets/public/ddb0/338a/212745809f1f/157c14c0b057/14100830800-e3/14100830800-e3.jpg?ts=1782746165827&w=1920",
+        "https://static.zara.net/assets/public/362a/5682/a51345908243/6be04857d71e/14100830800-e4/14100830800-e4.jpg?ts=1788190900474&w=1920",
+        "https://static.zara.net/assets/public/eae3/1617/a6b54332a432/5b474184f94d/14100830800-e5/14100830800-e5.jpg?ts=1782746166253&w=1920",
+        "https://static.zara.net/assets/public/9ac7/774f/b00b4b138502/3e12888775dd/14100830800-e6/14100830800-e6.jpg?ts=1788190900607&w=1920",
+        "https://static.zara.net/assets/public/d153/238c/21fe470c8815/4865c372580d/14100830800-e7/14100830800-e7.jpg?ts=1782746167077&w=1920"
+      ],
+      "material": "polyurethane/polyester/elastodiene",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "85% polyurethane, 10% polyester, 5% elastodiene"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 12½ (7.4 INCHES)",
+          "sku": "545422566-800-30",
+          "mpn": "545422566-800-30",
+          "color": "Black",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 13½ (7.7 INCHES)",
+          "sku": "545422566-800-31",
+          "mpn": "545422566-800-31",
+          "color": "Black",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 1 (8.0 INCHES)",
+          "sku": "545422566-800-32",
+          "mpn": "545422566-800-32",
+          "color": "Black",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 2 (8.2 INCHES)",
+          "sku": "545422566-800-33",
+          "mpn": "545422566-800-33",
+          "color": "Black",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 2½ (8.5 INCHES)",
+          "sku": "545422566-800-34",
+          "mpn": "545422566-800-34",
+          "color": "Black",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 3½ (8.8 INCHES)",
+          "sku": "545422566-800-35",
+          "mpn": "545422566-800-35",
+          "color": "Black",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 4 (9.0 INCHES)",
+          "sku": "545422566-800-36",
+          "mpn": "545422566-800-36",
+          "color": "Black",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 5 (9.3 INCHES)",
+          "sku": "545422566-800-37",
+          "mpn": "545422566-800-37",
+          "color": "Black",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 5½ (9.5 INCHES)",
+          "sku": "545422566-800-38",
+          "mpn": "545422566-800-38",
+          "color": "Black",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 6 (9.8 INCHES)",
+          "sku": "545422566-800-39",
+          "mpn": "545422566-800-39",
+          "color": "Black",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA ANKLE BOOTS - Black - 7 (10.0 INCHES)",
+          "sku": "545422566-800-40",
+          "mpn": "545422566-800-40",
+          "color": "Black",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHELSEA ANKLE BOOTS",
+      "product_group_id": "14100830",
+      "brand": "ZARA",
+      "description": "Chelsea-style ankle boots with elastic side panels. Features double pull tabs for easy on and off. Finished with a lugged rubber sole. Size 40: Shoes available in size 40.",
+      "material": "polyurethane/polyester/elastodiene",
+      "composition": "UPPER: 85% polyurethane, 10% polyester, 5% elastodiene | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 12½ (7.4 INCHES)",
+          "sku": "545422566-800-30",
+          "mpn": "545422566-800-30",
+          "color_name": "Black",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 13½ (7.7 INCHES)",
+          "sku": "545422566-800-31",
+          "mpn": "545422566-800-31",
+          "color_name": "Black",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 1 (8.0 INCHES)",
+          "sku": "545422566-800-32",
+          "mpn": "545422566-800-32",
+          "color_name": "Black",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 2 (8.2 INCHES)",
+          "sku": "545422566-800-33",
+          "mpn": "545422566-800-33",
+          "color_name": "Black",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 2½ (8.5 INCHES)",
+          "sku": "545422566-800-34",
+          "mpn": "545422566-800-34",
+          "color_name": "Black",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 3½ (8.8 INCHES)",
+          "sku": "545422566-800-35",
+          "mpn": "545422566-800-35",
+          "color_name": "Black",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 4 (9.0 INCHES)",
+          "sku": "545422566-800-36",
+          "mpn": "545422566-800-36",
+          "color_name": "Black",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 5 (9.3 INCHES)",
+          "sku": "545422566-800-37",
+          "mpn": "545422566-800-37",
+          "color_name": "Black",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 5½ (9.5 INCHES)",
+          "sku": "545422566-800-38",
+          "mpn": "545422566-800-38",
+          "color_name": "Black",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 6 (9.8 INCHES)",
+          "sku": "545422566-800-39",
+          "mpn": "545422566-800-39",
+          "color_name": "Black",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA ANKLE BOOTS - Black - 7 (10.0 INCHES)",
+          "sku": "545422566-800-40",
+          "mpn": "545422566-800-40",
+          "color_name": "Black",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p14100830.html?v1=545422566",
+          "images": [
+            "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b3b9/be87/17364f40a32e/1031cc078f5d/14100830800-e1/14100830800-e1.jpg?ts=1788190900571&w=1920",
+        "https://static.zara.net/assets/public/a6a5/ce6b/67514c61bc2c/dce48723521f/14100830800-e2/14100830800-e2.jpg?ts=1788190900293&w=1920",
+        "https://static.zara.net/assets/public/ddb0/338a/212745809f1f/157c14c0b057/14100830800-e3/14100830800-e3.jpg?ts=1782746165827&w=1920",
+        "https://static.zara.net/assets/public/362a/5682/a51345908243/6be04857d71e/14100830800-e4/14100830800-e4.jpg?ts=1788190900474&w=1920",
+        "https://static.zara.net/assets/public/eae3/1617/a6b54332a432/5b474184f94d/14100830800-e5/14100830800-e5.jpg?ts=1782746166253&w=1920",
+        "https://static.zara.net/assets/public/9ac7/774f/b00b4b138502/3e12888775dd/14100830800-e6/14100830800-e6.jpg?ts=1788190900607&w=1920",
+        "https://static.zara.net/assets/public/d153/238c/21fe470c8815/4865c372580d/14100830800-e7/14100830800-e7.jpg?ts=1782746167077&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nChelsea-style ankle boots with elastic side panels. Features double pull tabs for easy on and off. Finished with a lugged rubber sole. Size 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ace702059e26708af2ff701963ca4e246ff267a2129c4ecc20ef8440babf653b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

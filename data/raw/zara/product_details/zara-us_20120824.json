@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20120824",
+  "source_url": "https://www.zara.com/us/en/gardenia-edp-90-ml--3-04-fl--oz--p20120824.html",
+  "final_url": "https://www.zara.com/us/en/gardenia-edp-90-ml--3-04-fl--oz--p20120824.html",
+  "canonical_url": "https://www.zara.com/us/en/gardenia-edp-90-ml--3-04-fl--oz--p20120824.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GARDENIA",
+    "BLOOM | EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GARDENIA EDP 90 ML (3.04 FL. OZ)",
+      "url": "https://www.zara.com/us/en/gardenia-edp-90-ml--3-04-fl--oz--p20120824.html",
+      "productGroupID": "20120824",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "GARDENIA EDP 90 ML (3.04 FL. OZ). Orange blossom brings an intense floral luminosity that blends with the warm depth of coffee. Vanilla envelops the composition with a creamy, sophisticated texture, balancing intensity with elegant sweetness. A fragrance with character, designed to leave an unforgettable impression. Gourmand | Intense, warm, and sophisticated.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/64e8/9286/b1d944debfa1/4e5d96e4763d/20120824999-e20/20120824999-e20.jpg?ts=1776172705614&w=1920",
+        "https://static.zara.net/assets/public/f01a/ef5f/ffa046afb7cc/3cd0812077a5/20120824999-e21/20120824999-e21.jpg?ts=1776172705756&w=1920",
+        "https://static.zara.net/assets/public/403f/d582/48df4bb9a2e6/9b3454d2d5f9/20120824999-e38/20120824999-e38.jpg?ts=1776331045167&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GARDENIA EDP 90 ML (3.04 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545496339-999-99",
+          "mpn": "545496339-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/64e8/9286/b1d944debfa1/4e5d96e4763d/20120824999-e20/20120824999-e20.jpg?ts=1776172705614&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/gardenia-edp-90-ml--3-04-fl--oz--p20120824.html?v1=545496339",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GARDENIA EDP 90 ML (3.04 FL. OZ)",
+      "product_group_id": "20120824",
+      "brand": "ZARA",
+      "description": "GARDENIA EDP 90 ML (3.04 FL. OZ). Orange blossom brings an intense floral luminosity that blends with the warm depth of coffee. Vanilla envelops the composition with a creamy, sophisticated texture, balancing intensity with elegant sweetness. A fragrance with character, designed to leave an unforgettable impression. Gourmand | Intense, warm, and sophisticated.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GARDENIA EDP 90 ML (3.04 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545496339-999-99",
+          "mpn": "545496339-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/gardenia-edp-90-ml--3-04-fl--oz--p20120824.html?v1=545496339",
+          "images": [
+            "https://static.zara.net/assets/public/64e8/9286/b1d944debfa1/4e5d96e4763d/20120824999-e20/20120824999-e20.jpg?ts=1776172705614&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/64e8/9286/b1d944debfa1/4e5d96e4763d/20120824999-e20/20120824999-e20.jpg?ts=1776172705614&w=1920",
+        "https://static.zara.net/assets/public/f01a/ef5f/ffa046afb7cc/3cd0812077a5/20120824999-e21/20120824999-e21.jpg?ts=1776172705756&w=1920",
+        "https://static.zara.net/assets/public/403f/d582/48df4bb9a2e6/9b3454d2d5f9/20120824999-e38/20120824999-e38.jpg?ts=1776331045167&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nGARDENIA EDP 90 ML (3.04 FL. OZ). Orange blossom brings an intense floral luminosity that blends with the warm depth of coffee. Vanilla envelops the composition with a creamy, sophisticated texture, balancing intensity with elegant sweetness. A fragrance with character, designed to leave an unforgettable impression. Gourmand | Intense, warm, and sophisticated.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8d96a3b80f6586e10c65555830244de2f14131dc8e7cfa8e828336e27fe25d41",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,116 @@
+{
+  "product_id": "zara-us:20110243",
+  "source_url": "https://www.zara.com/us/en/rose-gourmand-edp-80ml--2-71-fl--oz--p20110243.html",
+  "final_url": "https://www.zara.com/us/en/rose-gourmand-edp-80ml--2-71-fl--oz--p20110243.html",
+  "canonical_url": "https://www.zara.com/us/en/rose-gourmand-edp-80ml--2-71-fl--oz--p20110243.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ROSE GOURMAND",
+    "CLASSIC | EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ROSE GOURMAND EDP 80 ML (2.71 FL. OZ).",
+      "url": "https://www.zara.com/us/en/rose-gourmand-edp-80ml--2-71-fl--oz--p20110243.html",
+      "productGroupID": "20110243",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "ROSE GOURMAND EDP 80 ML (2.71 FL. OZ). A modern floral fragrance that combines freshness, softness, and character. Rose is presented in its purest and most luminous facet, enhanced by an enveloping duo of vanilla and tonka bean. The result is a balanced, addictive aroma with a sensual warmth that lingers on the skin.\n\nGourmand | Sweet, delicate, and addictive.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/93a7/b20b/7c324d29ab65/f8e49086aab8/20110243999-e20/20110243999-e20.jpg?ts=1774517513242&w=1920",
+        "https://static.zara.net/assets/public/9821/f828/d1634417831b/195c4816957b/20110243999-e21/20110243999-e21.jpg?ts=1774517514803&w=1920",
+        "https://static.zara.net/assets/public/94f2/18ed/7887483ca19b/ad7fe09a4b00/20110243999-e22/20110243999-e22.jpg?ts=1774517513813&w=1920",
+        "https://static.zara.net/assets/public/5f5e/3293/3bbc432c840a/d711236cd1e5/20110243999-e38/20110243999-e38.jpg?ts=1774531842185&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ROSE GOURMAND EDP 80 ML (2.71 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545410075-999-99",
+          "mpn": "545410075-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/93a7/b20b/7c324d29ab65/f8e49086aab8/20110243999-e20/20110243999-e20.jpg?ts=1774517513242&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rose-gourmand-edp-80ml--2-71-fl--oz--p20110243.html?v1=545410075",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ROSE GOURMAND EDP 80 ML (2.71 FL. OZ).",
+      "product_group_id": "20110243",
+      "brand": "ZARA",
+      "description": "ROSE GOURMAND EDP 80 ML (2.71 FL. OZ). A modern floral fragrance that combines freshness, softness, and character. Rose is presented in its purest and most luminous facet, enhanced by an enveloping duo of vanilla and tonka bean. The result is a balanced, addictive aroma with a sensual warmth that lingers on the skin.\n\nGourmand | Sweet, delicate, and addictive.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ROSE GOURMAND EDP 80 ML (2.71 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545410075-999-99",
+          "mpn": "545410075-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rose-gourmand-edp-80ml--2-71-fl--oz--p20110243.html?v1=545410075",
+          "images": [
+            "https://static.zara.net/assets/public/93a7/b20b/7c324d29ab65/f8e49086aab8/20110243999-e20/20110243999-e20.jpg?ts=1774517513242&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/93a7/b20b/7c324d29ab65/f8e49086aab8/20110243999-e20/20110243999-e20.jpg?ts=1774517513242&w=1920",
+        "https://static.zara.net/assets/public/9821/f828/d1634417831b/195c4816957b/20110243999-e21/20110243999-e21.jpg?ts=1774517514803&w=1920",
+        "https://static.zara.net/assets/public/94f2/18ed/7887483ca19b/ad7fe09a4b00/20110243999-e22/20110243999-e22.jpg?ts=1774517513813&w=1920",
+        "https://static.zara.net/assets/public/5f5e/3293/3bbc432c840a/d711236cd1e5/20110243999-e38/20110243999-e38.jpg?ts=1774531842185&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nROSE GOURMAND EDP 80 ML (2.71 FL. OZ). A modern floral fragrance that combines freshness, softness, and character. Rose is presented in its purest and most luminous facet, enhanced by an enveloping duo of vanilla and tonka bean. The result is a balanced, addictive aroma with a sensual warmth that lingers on the skin.\nGourmand | Sweet, delicate, and addictive.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "10f36a7230990fab911f0a0ba4269b12cfc6e040f0c63763b81da37bd7e2b278",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

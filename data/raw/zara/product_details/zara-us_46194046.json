@@ -1,0 +1,163 @@
+{
+  "product_id": "zara-us:46194046",
+  "source_url": "https://www.zara.com/us/en/steel-vase-p46194046.html",
+  "final_url": "https://www.zara.com/us/en/steel-vase-p46194046.html",
+  "canonical_url": "https://www.zara.com/us/en/steel-vase-p46194046.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STEEL VASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STEEL VASE",
+      "url": "https://www.zara.com/us/en/steel-vase-p46194046.html",
+      "productGroupID": "46194046",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Small steel vase. Available in two sizes.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1c35/e2e4/d891404e9e5f/9864c34eda09/46194046808-e1/46194046808-e1.jpg?ts=1742545712702&w=1920",
+        "https://static.zara.net/assets/public/7104/56f4/784649df904f/dee08891a7ca/46194046808-e2/46194046808-e2.jpg?ts=1742545682772&w=1920",
+        "https://static.zara.net/assets/public/1ee6/0d83/b72848998771/8fd8a0f4b7c8/46194046808-e3/46194046808-e3.jpg?ts=1742478092147&w=1920",
+        "https://static.zara.net/assets/public/9347/7229/67be47578c62/d4a586ba12a2/46194046808-e4/46194046808-e4.jpg?ts=1742478092026&w=1920",
+        "https://static.zara.net/assets/public/77f8/ed28/cbca43a59507/2dc852837b7e/46194046808-e5/46194046808-e5.jpg?ts=1742478088973&w=1920",
+        "https://static.zara.net/assets/public/1b52/55db/350d4e4fb320/740982aa02a8/46194046808-a1/46194046808-a1.jpg?ts=1784539497006&w=1920",
+        "https://static.zara.net/assets/public/4fbe/9e81/843d4671b162/e7f2a827c3f0/46194046808-a7/46194046808-a7.jpg?ts=1776242517189&w=1920"
+      ],
+      "material": "100% steel",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% steel"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STEEL VASE - Silver - 3.9 x 2.8 x 2.8 \"",
+          "sku": "545453902-808-1",
+          "mpn": "545453902-808-1",
+          "color": "Silver",
+          "size": "3.9 x 2.8 x 2.8 \"",
+          "image": [
+            "https://static.zara.net/assets/public/1c35/e2e4/d891404e9e5f/9864c34eda09/46194046808-e1/46194046808-e1.jpg?ts=1742545712702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/steel-vase-p46194046.html?v1=545453902",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STEEL VASE - Silver - 5.1 x 2.8 x 2.8 \"",
+          "sku": "545453902-808-2",
+          "mpn": "545453902-808-2",
+          "color": "Silver",
+          "size": "5.1 x 2.8 x 2.8 \"",
+          "image": [
+            "https://static.zara.net/assets/public/1c35/e2e4/d891404e9e5f/9864c34eda09/46194046808-e1/46194046808-e1.jpg?ts=1742545712702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/steel-vase-p46194046.html?v1=545453902",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STEEL VASE",
+      "product_group_id": "46194046",
+      "brand": "ZARAHOME",
+      "description": "Small steel vase. Available in two sizes.",
+      "material": "100% steel",
+      "composition": "OUTER SHELL: 100% steel",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STEEL VASE - Silver - 3.9 x 2.8 x 2.8 \"",
+          "sku": "545453902-808-1",
+          "mpn": "545453902-808-1",
+          "color_name": "Silver",
+          "size_name": "3.9 x 2.8 x 2.8 \"",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/steel-vase-p46194046.html?v1=545453902",
+          "images": [
+            "https://static.zara.net/assets/public/1c35/e2e4/d891404e9e5f/9864c34eda09/46194046808-e1/46194046808-e1.jpg?ts=1742545712702&w=1920"
+          ]
+        },
+        {
+          "name": "STEEL VASE - Silver - 5.1 x 2.8 x 2.8 \"",
+          "sku": "545453902-808-2",
+          "mpn": "545453902-808-2",
+          "color_name": "Silver",
+          "size_name": "5.1 x 2.8 x 2.8 \"",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/steel-vase-p46194046.html?v1=545453902",
+          "images": [
+            "https://static.zara.net/assets/public/1c35/e2e4/d891404e9e5f/9864c34eda09/46194046808-e1/46194046808-e1.jpg?ts=1742545712702&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1c35/e2e4/d891404e9e5f/9864c34eda09/46194046808-e1/46194046808-e1.jpg?ts=1742545712702&w=1920",
+        "https://static.zara.net/assets/public/7104/56f4/784649df904f/dee08891a7ca/46194046808-e2/46194046808-e2.jpg?ts=1742545682772&w=1920",
+        "https://static.zara.net/assets/public/1ee6/0d83/b72848998771/8fd8a0f4b7c8/46194046808-e3/46194046808-e3.jpg?ts=1742478092147&w=1920",
+        "https://static.zara.net/assets/public/9347/7229/67be47578c62/d4a586ba12a2/46194046808-e4/46194046808-e4.jpg?ts=1742478092026&w=1920",
+        "https://static.zara.net/assets/public/77f8/ed28/cbca43a59507/2dc852837b7e/46194046808-e5/46194046808-e5.jpg?ts=1742478088973&w=1920",
+        "https://static.zara.net/assets/public/1b52/55db/350d4e4fb320/740982aa02a8/46194046808-a1/46194046808-a1.jpg?ts=1784539497006&w=1920",
+        "https://static.zara.net/assets/public/4fbe/9e81/843d4671b162/e7f2a827c3f0/46194046808-a7/46194046808-a7.jpg?ts=1776242517189&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nSmall steel vase. Available in two sizes.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "92106a1ec09cc549150d445ebe0ac6ab5ec4936a58539ba65732a90990ea57e1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

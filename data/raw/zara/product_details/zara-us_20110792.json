@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20110792",
+  "source_url": "https://www.zara.com/us/en/lush-vanilla-edp-50-ml--1-7-fl--oz---p20110792.html",
+  "final_url": "https://www.zara.com/us/en/lush-vanilla-edp-50-ml--1-7-fl--oz---p20110792.html",
+  "canonical_url": "https://www.zara.com/us/en/lush-vanilla-edp-50-ml--1-7-fl--oz---p20110792.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LUSH VANILLA",
+    "OLFACTORY COMPOSITION",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LUSH VANILLA EDP 50 ML (1.7 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/lush-vanilla-edp-50-ml--1-7-fl--oz---p20110792.html",
+      "productGroupID": "20110792",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "LUSH VANILLA EDP 50 ML (1.7 FL. OZ.). Kiwi and peach provide a bright, juicy opening that softens into a creamy vanilla. This combination balances fruity freshness with a sweet, comforting base, leaving a delicate, modern, and easy-to-wear trail. Fresh, creamy, and bright.\n\nFruity gourmand | Juicy, creamy, and comforting.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/07fe/9bd7/be254df096e6/67fb36bb1e05/20110792999-e1/20110792999-e1.jpg?ts=1783077906531&w=1920",
+        "https://static.zara.net/assets/public/08a3/4242/84ad47b08424/95a14093c5ab/20110792999-e2/20110792999-e2.jpg?ts=1783077905259&w=1920",
+        "https://static.zara.net/assets/public/9db7/8440/8c1444a5a4ce/a69ef241ea47/20110792999-e3/20110792999-e3.jpg?ts=1783077905172&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LUSH VANILLA EDP 50 ML (1.7 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545490465-999-99",
+          "mpn": "545490465-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/07fe/9bd7/be254df096e6/67fb36bb1e05/20110792999-e1/20110792999-e1.jpg?ts=1783077906531&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/lush-vanilla-edp-50-ml--1-7-fl--oz---p20110792.html?v1=545490465",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LUSH VANILLA EDP 50 ML (1.7 FL. OZ.)",
+      "product_group_id": "20110792",
+      "brand": "ZARA",
+      "description": "LUSH VANILLA EDP 50 ML (1.7 FL. OZ.). Kiwi and peach provide a bright, juicy opening that softens into a creamy vanilla. This combination balances fruity freshness with a sweet, comforting base, leaving a delicate, modern, and easy-to-wear trail. Fresh, creamy, and bright.\n\nFruity gourmand | Juicy, creamy, and comforting.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LUSH VANILLA EDP 50 ML (1.7 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545490465-999-99",
+          "mpn": "545490465-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lush-vanilla-edp-50-ml--1-7-fl--oz---p20110792.html?v1=545490465",
+          "images": [
+            "https://static.zara.net/assets/public/07fe/9bd7/be254df096e6/67fb36bb1e05/20110792999-e1/20110792999-e1.jpg?ts=1783077906531&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/07fe/9bd7/be254df096e6/67fb36bb1e05/20110792999-e1/20110792999-e1.jpg?ts=1783077906531&w=1920",
+        "https://static.zara.net/assets/public/08a3/4242/84ad47b08424/95a14093c5ab/20110792999-e2/20110792999-e2.jpg?ts=1783077905259&w=1920",
+        "https://static.zara.net/assets/public/9db7/8440/8c1444a5a4ce/a69ef241ea47/20110792999-e3/20110792999-e3.jpg?ts=1783077905172&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nLUSH VANILLA EDP 50 ML (1.7 FL. OZ.). Kiwi and peach provide a bright, juicy opening that softens into a creamy vanilla. This combination balances fruity freshness with a sweet, comforting base, leaving a delicate, modern, and easy-to-wear trail. Fresh, creamy, and bright.\nFruity gourmand | Juicy, creamy, and comforting.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5ecffe8734e751758b0b632b8f37bed89ec1159d95d36768d32940bfd3d58612",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

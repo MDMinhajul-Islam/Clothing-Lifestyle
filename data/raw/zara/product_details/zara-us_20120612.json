@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20120612",
+  "source_url": "https://www.zara.com/us/en/vibrant-caramel-edp-90-ml--3-04-fl--oz--p20120612.html",
+  "final_url": "https://www.zara.com/us/en/vibrant-caramel-edp-90-ml--3-04-fl--oz--p20120612.html",
+  "canonical_url": "https://www.zara.com/us/en/vibrant-caramel-edp-90-ml--3-04-fl--oz--p20120612.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "VIBRANT CARAMEL",
+    "NIGHT | EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "VIBRANT CARAMEL EDP 90 ML (3.04 FL. OZ).",
+      "url": "https://www.zara.com/us/en/vibrant-caramel-edp-90-ml--3-04-fl--oz--p20120612.html",
+      "productGroupID": "20120612",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "VIBRANT CARAMEL EDP 90 ML (3.04 FL. OZ). Luminous aquatic fruits provide a juicy and refreshing opening that blends with the floral elegance of neroli. Amber introduces a warm and silky base that envelops the composition with a soft and radiant trail.\n\nFruity floral | Fresh, luminous, and vibrant",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a83b/8cfe/69904fa382dd/71cea56faff6/20120612999-e20/20120612999-e20.jpg?ts=1776755403148&w=1920",
+        "https://static.zara.net/assets/public/726a/77ea/99844a1490cc/64a0f4c40e3c/20120612999-e38/20120612999-e38.jpg?ts=1776183642980&w=1920",
+        "https://static.zara.net/assets/public/08b2/d2b7/4bff47fdbaeb/393bc1e87796/20120612999-e21/20120612999-e21.jpg?ts=1776173201074&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "VIBRANT CARAMEL EDP 90 ML (3.04 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545496264-999-99",
+          "mpn": "545496264-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a83b/8cfe/69904fa382dd/71cea56faff6/20120612999-e20/20120612999-e20.jpg?ts=1776755403148&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/vibrant-caramel-edp-90-ml--3-04-fl--oz--p20120612.html?v1=545496264",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "VIBRANT CARAMEL EDP 90 ML (3.04 FL. OZ).",
+      "product_group_id": "20120612",
+      "brand": "ZARA",
+      "description": "VIBRANT CARAMEL EDP 90 ML (3.04 FL. OZ). Luminous aquatic fruits provide a juicy and refreshing opening that blends with the floral elegance of neroli. Amber introduces a warm and silky base that envelops the composition with a soft and radiant trail.\n\nFruity floral | Fresh, luminous, and vibrant",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "VIBRANT CARAMEL EDP 90 ML (3.04 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545496264-999-99",
+          "mpn": "545496264-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/vibrant-caramel-edp-90-ml--3-04-fl--oz--p20120612.html?v1=545496264",
+          "images": [
+            "https://static.zara.net/assets/public/a83b/8cfe/69904fa382dd/71cea56faff6/20120612999-e20/20120612999-e20.jpg?ts=1776755403148&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a83b/8cfe/69904fa382dd/71cea56faff6/20120612999-e20/20120612999-e20.jpg?ts=1776755403148&w=1920",
+        "https://static.zara.net/assets/public/726a/77ea/99844a1490cc/64a0f4c40e3c/20120612999-e38/20120612999-e38.jpg?ts=1776183642980&w=1920",
+        "https://static.zara.net/assets/public/08b2/d2b7/4bff47fdbaeb/393bc1e87796/20120612999-e21/20120612999-e21.jpg?ts=1776173201074&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nVIBRANT CARAMEL EDP 90 ML (3.04 FL. OZ). Luminous aquatic fruits provide a juicy and refreshing opening that blends with the floral elegance of neroli. Amber introduces a warm and silky base that envelops the composition with a soft and radiant trail.\nFruity floral | Fresh, luminous, and vibrant",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "352be23b7b9d227d38800eb4164fb765e8d51d768f495e3e84ef6ca0ad6ceb8c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

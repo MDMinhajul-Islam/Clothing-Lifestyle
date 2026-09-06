@@ -1,0 +1,116 @@
+{
+  "product_id": "zara-us:20110707",
+  "source_url": "https://www.zara.com/us/en/golden-sweet-decade-edp-80ml--2-71-fl--oz--p20110707.html",
+  "final_url": "https://www.zara.com/us/en/golden-sweet-decade-edp-80ml--2-71-fl--oz--p20110707.html",
+  "canonical_url": "https://www.zara.com/us/en/golden-sweet-decade-edp-80ml--2-71-fl--oz--p20110707.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GOLDEN SWEET DECADE",
+    "SWEET | EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GOLDEN SWEET DECADE EDP 80ML (2.71 FL. OZ).",
+      "url": "https://www.zara.com/us/en/golden-sweet-decade-edp-80ml--2-71-fl--oz--p20110707.html",
+      "productGroupID": "20110707",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "GOLDEN SWEET DECADE EDP 80ML (2.71 FL. OZ). A more indulgent and gourmand interpretation of Golden Decade. The orange blossom maintains its characteristic luminosity while vanilla orchid provides a creamy and sophisticated sweetness. Tonka introduces a warm and balsamic texture that envelops the composition with a sensual and addictive trail.\n\nGourmand Amber | Sweet, creamy and enveloping",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6a8b/3a85/4a22412b9c1c/0dd85bc412a6/20110707999-e20/20110707999-e20.jpg?ts=1774517819477&w=1920",
+        "https://static.zara.net/assets/public/9c8d/ab8d/b37f40159d2c/5af7d7990512/20110707999-e21/20110707999-e21.jpg?ts=1774517820497&w=1920",
+        "https://static.zara.net/assets/public/9aee/1269/27154ba9adc0/1acb15fb592c/20110707999-e22/20110707999-e22.jpg?ts=1774517819485&w=1920",
+        "https://static.zara.net/assets/public/be7c/3125/299f4f99b806/19ba5a66d2af/20110707999-e38/20110707999-e38.jpg?ts=1774543894687&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GOLDEN SWEET DECADE EDP 80ML (2.71 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545423026-999-99",
+          "mpn": "545423026-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6a8b/3a85/4a22412b9c1c/0dd85bc412a6/20110707999-e20/20110707999-e20.jpg?ts=1774517819477&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/golden-sweet-decade-edp-80ml--2-71-fl--oz--p20110707.html?v1=545423026",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GOLDEN SWEET DECADE EDP 80ML (2.71 FL. OZ).",
+      "product_group_id": "20110707",
+      "brand": "ZARA",
+      "description": "GOLDEN SWEET DECADE EDP 80ML (2.71 FL. OZ). A more indulgent and gourmand interpretation of Golden Decade. The orange blossom maintains its characteristic luminosity while vanilla orchid provides a creamy and sophisticated sweetness. Tonka introduces a warm and balsamic texture that envelops the composition with a sensual and addictive trail.\n\nGourmand Amber | Sweet, creamy and enveloping",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GOLDEN SWEET DECADE EDP 80ML (2.71 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545423026-999-99",
+          "mpn": "545423026-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/golden-sweet-decade-edp-80ml--2-71-fl--oz--p20110707.html?v1=545423026",
+          "images": [
+            "https://static.zara.net/assets/public/6a8b/3a85/4a22412b9c1c/0dd85bc412a6/20110707999-e20/20110707999-e20.jpg?ts=1774517819477&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6a8b/3a85/4a22412b9c1c/0dd85bc412a6/20110707999-e20/20110707999-e20.jpg?ts=1774517819477&w=1920",
+        "https://static.zara.net/assets/public/9c8d/ab8d/b37f40159d2c/5af7d7990512/20110707999-e21/20110707999-e21.jpg?ts=1774517820497&w=1920",
+        "https://static.zara.net/assets/public/9aee/1269/27154ba9adc0/1acb15fb592c/20110707999-e22/20110707999-e22.jpg?ts=1774517819485&w=1920",
+        "https://static.zara.net/assets/public/be7c/3125/299f4f99b806/19ba5a66d2af/20110707999-e38/20110707999-e38.jpg?ts=1774543894687&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nGOLDEN SWEET DECADE EDP 80ML (2.71 FL. OZ). A more indulgent and gourmand interpretation of Golden Decade. The orange blossom maintains its characteristic luminosity while vanilla orchid provides a creamy and sophisticated sweetness. Tonka introduces a warm and balsamic texture that envelops the composition with a sensual and addictive trail.\nGourmand Amber | Sweet, creamy and enveloping",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b0b857bb227f362ef43b3dbb7d6878bfdd6f50756b02403b5acd86a9d7b0e451",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:46182040",
+  "source_url": "https://www.zara.com/us/en/oval-metal-tray-p46182040.html",
+  "final_url": "https://www.zara.com/us/en/oval-metal-tray-p46182040.html",
+  "canonical_url": "https://www.zara.com/us/en/oval-metal-tray-p46182040.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "OVAL METAL TRAY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "OVAL METAL TRAY",
+      "url": "https://www.zara.com/us/en/oval-metal-tray-p46182040.html",
+      "productGroupID": "46182040",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Oval aluminum tray with slightly raised edges. Available in two sizes.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/df6f/bcd7/581842379ad1/0eaff28426da/46182040808-e1/46182040808-e1.jpg?ts=1786436480742&w=1920",
+        "https://static.zara.net/assets/public/cb72/d99f/1fe44c14b9de/7f947950bb15/46182040808-e2/46182040808-e2.jpg?ts=1786436482976&w=1920",
+        "https://static.zara.net/assets/public/1a10/9310/eb8e418eab16/9fad6638c1c0/46182040808-e3/46182040808-e3.jpg?ts=1786436483742&w=1920",
+        "https://static.zara.net/assets/public/f3ee/fe35/0a3146609e3d/47a37e056429/46182040808-e4/46182040808-e4.jpg?ts=1786436482631&w=1920",
+        "https://static.zara.net/assets/public/444f/1841/eb9c4ade8675/834362138099/46182040808-a1/46182040808-a1.jpg?ts=1786460522468&w=1920"
+      ],
+      "material": "100% aluminium",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% aluminium"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "OVAL METAL TRAY - Silver - 0.8 x 7.1 x 4.3 \"",
+          "sku": "545447513-808-1",
+          "mpn": "545447513-808-1",
+          "color": "Silver",
+          "size": "0.8 x 7.1 x 4.3 \"",
+          "image": [
+            "https://static.zara.net/assets/public/df6f/bcd7/581842379ad1/0eaff28426da/46182040808-e1/46182040808-e1.jpg?ts=1786436480742&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/oval-metal-tray-p46182040.html?v1=545447513",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OVAL METAL TRAY - Silver - 0.8 x 8.7 x 5.5 \"",
+          "sku": "545447513-808-2",
+          "mpn": "545447513-808-2",
+          "color": "Silver",
+          "size": "0.8 x 8.7 x 5.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/df6f/bcd7/581842379ad1/0eaff28426da/46182040808-e1/46182040808-e1.jpg?ts=1786436480742&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/oval-metal-tray-p46182040.html?v1=545447513",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "OVAL METAL TRAY",
+      "product_group_id": "46182040",
+      "brand": "ZARAHOME",
+      "description": "Oval aluminum tray with slightly raised edges. Available in two sizes.",
+      "material": "100% aluminium",
+      "composition": "OUTER SHELL: 100% aluminium",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "OVAL METAL TRAY - Silver - 0.8 x 7.1 x 4.3 \"",
+          "sku": "545447513-808-1",
+          "mpn": "545447513-808-1",
+          "color_name": "Silver",
+          "size_name": "0.8 x 7.1 x 4.3 \"",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/oval-metal-tray-p46182040.html?v1=545447513",
+          "images": [
+            "https://static.zara.net/assets/public/df6f/bcd7/581842379ad1/0eaff28426da/46182040808-e1/46182040808-e1.jpg?ts=1786436480742&w=1920"
+          ]
+        },
+        {
+          "name": "OVAL METAL TRAY - Silver - 0.8 x 8.7 x 5.5 \"",
+          "sku": "545447513-808-2",
+          "mpn": "545447513-808-2",
+          "color_name": "Silver",
+          "size_name": "0.8 x 8.7 x 5.5 \"",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/oval-metal-tray-p46182040.html?v1=545447513",
+          "images": [
+            "https://static.zara.net/assets/public/df6f/bcd7/581842379ad1/0eaff28426da/46182040808-e1/46182040808-e1.jpg?ts=1786436480742&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/df6f/bcd7/581842379ad1/0eaff28426da/46182040808-e1/46182040808-e1.jpg?ts=1786436480742&w=1920",
+        "https://static.zara.net/assets/public/cb72/d99f/1fe44c14b9de/7f947950bb15/46182040808-e2/46182040808-e2.jpg?ts=1786436482976&w=1920",
+        "https://static.zara.net/assets/public/1a10/9310/eb8e418eab16/9fad6638c1c0/46182040808-e3/46182040808-e3.jpg?ts=1786436483742&w=1920",
+        "https://static.zara.net/assets/public/f3ee/fe35/0a3146609e3d/47a37e056429/46182040808-e4/46182040808-e4.jpg?ts=1786436482631&w=1920",
+        "https://static.zara.net/assets/public/444f/1841/eb9c4ade8675/834362138099/46182040808-a1/46182040808-a1.jpg?ts=1786460522468&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nOval aluminum tray with slightly raised edges. Available in two sizes.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7da15dd55d4e63763b661a4ac0408602e08a2217ae66438eb1123ca3206485b9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

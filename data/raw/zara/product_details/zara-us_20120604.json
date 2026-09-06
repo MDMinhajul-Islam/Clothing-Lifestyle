@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20120604",
+  "source_url": "https://www.zara.com/us/en/ray-of-orchid-edp-90-ml--3-04-fl--oz---p20120604.html",
+  "final_url": "https://www.zara.com/us/en/ray-of-orchid-edp-90-ml--3-04-fl--oz---p20120604.html",
+  "canonical_url": "https://www.zara.com/us/en/ray-of-orchid-edp-90-ml--3-04-fl--oz---p20120604.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RAY OF ORCHID",
+    "BASICS | RAY OF",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RAY OF ORCHID EDP 90 ML (3.04 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/ray-of-orchid-edp-90-ml--3-04-fl--oz---p20120604.html",
+      "productGroupID": "20120604",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "RAY OF ORCHID EDP 90 ML (3.04 FL. OZ.). A bright version of the best-selling Orchid, awakening with the fruity freshness of passion fruit and the elegance of orchid. A musky touch is balanced with vanilla and praline, creating a delicate and sensual trail.\n\n\nFruity floral | Exotic, bright and sensual.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/71fe/1e69/f7f64eb3b4ea/5999f16351e9/20120604999-e1/20120604999-e1.jpg?ts=1784126736330&w=1920",
+        "https://static.zara.net/assets/public/48d9/1b2a/fa0d48cca621/72e984ad9116/20120604999-e2/20120604999-e2.jpg?ts=1784126736521&w=1920",
+        "https://static.zara.net/assets/public/b3ae/57fa/316248a5a34a/68ba3c656845/20120604999-e3/20120604999-e3.jpg?ts=1784126735497&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RAY OF ORCHID EDP 90 ML (3.04 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545474700-999-99",
+          "mpn": "545474700-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/71fe/1e69/f7f64eb3b4ea/5999f16351e9/20120604999-e1/20120604999-e1.jpg?ts=1784126736330&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/ray-of-orchid-edp-90-ml--3-04-fl--oz---p20120604.html?v1=545474700",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RAY OF ORCHID EDP 90 ML (3.04 FL. OZ.)",
+      "product_group_id": "20120604",
+      "brand": "ZARA",
+      "description": "RAY OF ORCHID EDP 90 ML (3.04 FL. OZ.). A bright version of the best-selling Orchid, awakening with the fruity freshness of passion fruit and the elegance of orchid. A musky touch is balanced with vanilla and praline, creating a delicate and sensual trail.\n\n\nFruity floral | Exotic, bright and sensual.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RAY OF ORCHID EDP 90 ML (3.04 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545474700-999-99",
+          "mpn": "545474700-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ray-of-orchid-edp-90-ml--3-04-fl--oz---p20120604.html?v1=545474700",
+          "images": [
+            "https://static.zara.net/assets/public/71fe/1e69/f7f64eb3b4ea/5999f16351e9/20120604999-e1/20120604999-e1.jpg?ts=1784126736330&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/71fe/1e69/f7f64eb3b4ea/5999f16351e9/20120604999-e1/20120604999-e1.jpg?ts=1784126736330&w=1920",
+        "https://static.zara.net/assets/public/48d9/1b2a/fa0d48cca621/72e984ad9116/20120604999-e2/20120604999-e2.jpg?ts=1784126736521&w=1920",
+        "https://static.zara.net/assets/public/b3ae/57fa/316248a5a34a/68ba3c656845/20120604999-e3/20120604999-e3.jpg?ts=1784126735497&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nRAY OF ORCHID EDP 90 ML (3.04 FL. OZ.). A bright version of the best-selling Orchid, awakening with the fruity freshness of passion fruit and the elegance of orchid. A musky touch is balanced with vanilla and praline, creating a delicate and sensual trail.\nFruity floral | Exotic, bright and sensual.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "15a33d12ef7482850e288f5808bc34460d4dda3b2abb6dce5ecca57f9454111a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

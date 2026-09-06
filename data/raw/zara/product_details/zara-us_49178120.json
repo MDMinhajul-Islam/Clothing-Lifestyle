@@ -1,0 +1,192 @@
+{
+  "product_id": "zara-us:49178120",
+  "source_url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html",
+  "final_url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html",
+  "canonical_url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULBERRY SILK BRA",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULBERRY SILK BRA",
+      "url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html",
+      "productGroupID": "49178120",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Bra made of a mulberry silk blend. Plain design with thin straps.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4a77/eba7/652049ef979a/903e7b468f3b/49178120802-e1/49178120802-e1.jpg?ts=1770624105369&w=1920",
+        "https://static.zara.net/assets/public/84f3/3305/1d5b4fb69e3e/dc64bcec97a4/49178120802-e2/49178120802-e2.jpg?ts=1770624104691&w=1920",
+        "https://static.zara.net/assets/public/9fea/5116/8a3d44c88e38/fe09b090830c/49178120802-e3/49178120802-e3.jpg?ts=1770624103318&w=1920",
+        "https://static.zara.net/assets/public/be0c/844d/674c4f30ac2f/a625414a0d14/49178120802-e4/49178120802-e4.jpg?ts=1770624103728&w=1920",
+        "https://static.zara.net/assets/public/7e66/ba91/8f814b2599b3/0b1e6020a5fd/49178120802-a1/49178120802-a1.jpg?ts=1787732315540&w=1920"
+      ],
+      "material": "silk (mulberry)/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "92% silk (mulberry), 8% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK BRA - Gray - S",
+          "sku": "545426564-802-2",
+          "mpn": "545426564-802-2",
+          "color": "Gray",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/4a77/eba7/652049ef979a/903e7b468f3b/49178120802-e1/49178120802-e1.jpg?ts=1770624105369&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html?v1=545426564",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK BRA - Gray - M",
+          "sku": "545426564-802-3",
+          "mpn": "545426564-802-3",
+          "color": "Gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/4a77/eba7/652049ef979a/903e7b468f3b/49178120802-e1/49178120802-e1.jpg?ts=1770624105369&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html?v1=545426564",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK BRA - Gray - L",
+          "sku": "545426564-802-4",
+          "mpn": "545426564-802-4",
+          "color": "Gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/4a77/eba7/652049ef979a/903e7b468f3b/49178120802-e1/49178120802-e1.jpg?ts=1770624105369&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html?v1=545426564",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULBERRY SILK BRA",
+      "product_group_id": "49178120",
+      "brand": "ZARAHOME",
+      "description": "Bra made of a mulberry silk blend. Plain design with thin straps.",
+      "material": "silk (mulberry)/elastane",
+      "composition": "OUTER SHELL: 92% silk (mulberry), 8% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULBERRY SILK BRA - Gray - S",
+          "sku": "545426564-802-2",
+          "mpn": "545426564-802-2",
+          "color_name": "Gray",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html?v1=545426564",
+          "images": [
+            "https://static.zara.net/assets/public/4a77/eba7/652049ef979a/903e7b468f3b/49178120802-e1/49178120802-e1.jpg?ts=1770624105369&w=1920"
+          ]
+        },
+        {
+          "name": "MULBERRY SILK BRA - Gray - M",
+          "sku": "545426564-802-3",
+          "mpn": "545426564-802-3",
+          "color_name": "Gray",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html?v1=545426564",
+          "images": [
+            "https://static.zara.net/assets/public/4a77/eba7/652049ef979a/903e7b468f3b/49178120802-e1/49178120802-e1.jpg?ts=1770624105369&w=1920"
+          ]
+        },
+        {
+          "name": "MULBERRY SILK BRA - Gray - L",
+          "sku": "545426564-802-4",
+          "mpn": "545426564-802-4",
+          "color_name": "Gray",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-bra-p49178120.html?v1=545426564",
+          "images": [
+            "https://static.zara.net/assets/public/4a77/eba7/652049ef979a/903e7b468f3b/49178120802-e1/49178120802-e1.jpg?ts=1770624105369&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4a77/eba7/652049ef979a/903e7b468f3b/49178120802-e1/49178120802-e1.jpg?ts=1770624105369&w=1920",
+        "https://static.zara.net/assets/public/84f3/3305/1d5b4fb69e3e/dc64bcec97a4/49178120802-e2/49178120802-e2.jpg?ts=1770624104691&w=1920",
+        "https://static.zara.net/assets/public/9fea/5116/8a3d44c88e38/fe09b090830c/49178120802-e3/49178120802-e3.jpg?ts=1770624103318&w=1920",
+        "https://static.zara.net/assets/public/be0c/844d/674c4f30ac2f/a625414a0d14/49178120802-e4/49178120802-e4.jpg?ts=1770624103728&w=1920",
+        "https://static.zara.net/assets/public/7e66/ba91/8f814b2599b3/0b1e6020a5fd/49178120802-a1/49178120802-a1.jpg?ts=1787732315540&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nBra made of a mulberry silk blend. Plain design with thin straps.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 5,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "689fd3640bf1d5368ba7db65350708118da5dd64aa6fb3fc2a855df09e311202",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:48310728",
+  "source_url": "https://www.zara.com/us/en/suede-book-cover-%7C-0fr--paris-p48310728.html",
+  "final_url": "https://www.zara.com/us/en/suede-book-cover-%7C-0fr--paris-p48310728.html",
+  "canonical_url": "https://www.zara.com/us/en/suede-book-cover-%7C-0fr--paris-p48310728.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SUEDE BOOK COVER | 0FR. PARIS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SUEDE BOOK COVER | 0FR. PARIS",
+      "url": "https://www.zara.com/us/en/suede-book-cover-%7C-0fr--paris-p48310728.html",
+      "productGroupID": "48310728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Solid suede leather cover. Rectangular design with 0fr. Paris logo detail in the bottom corner. Can be used for books. 0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a5fc/eb13/49dc47d986c8/f169496fbe61/48310728450-e1/48310728450-e1.jpg?ts=1787648114325&w=1920",
+        "https://static.zara.net/assets/public/2509/6d8e/a16b423c9324/40e1b405b4c1/48310728450-e2/48310728450-e2.jpg?ts=1787648108736&w=1920",
+        "https://static.zara.net/assets/public/2fb5/593b/cdbf4e75b7ea/e774dbf8c3e1/48310728450-e3/48310728450-e3.jpg?ts=1787648108704&w=1920",
+        "https://static.zara.net/assets/public/2cae/dc96/27dd4b2d83ae/8f7840b51af5/48310728450-e4/48310728450-e4.jpg?ts=1787648115205&w=1920",
+        "https://static.zara.net/assets/public/af09/6bcb/feef4decb479/5fe4767dad1a/8310728450-e15/8310728450-e15.jpg?ts=1787643962190&w=1920",
+        "https://static.zara.net/assets/public/8ce9/9055/e4814acfa79f/cbefa4360847/8310728450-e16/8310728450-e16.jpg?ts=1787643962179&w=1920",
+        "https://static.zara.net/assets/public/dd19/67f3/980345c0bdc8/cf420b2ab300/8310728450-e17/8310728450-e17.jpg?ts=1787643962295&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SUEDE BOOK COVER | 0FR. PARIS - Beige - ONE SIZE ONLY",
+          "sku": "566843522-450-99",
+          "mpn": "566843522-450-99",
+          "color": "Beige",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a5fc/eb13/49dc47d986c8/f169496fbe61/48310728450-e1/48310728450-e1.jpg?ts=1787648114325&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/suede-book-cover-%7C-0fr--paris-p48310728.html?v1=566843522",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SUEDE BOOK COVER | 0FR. PARIS",
+      "product_group_id": "48310728",
+      "brand": "ZARAHOME",
+      "description": "Solid suede leather cover. Rectangular design with 0fr. Paris logo detail in the bottom corner. Can be used for books. 0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+      "material": "100% cow leather",
+      "composition": "OUTER SHELL: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SUEDE BOOK COVER | 0FR. PARIS - Beige - ONE SIZE ONLY",
+          "sku": "566843522-450-99",
+          "mpn": "566843522-450-99",
+          "color_name": "Beige",
+          "size_name": "ONE SIZE ONLY",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/suede-book-cover-%7C-0fr--paris-p48310728.html?v1=566843522",
+          "images": [
+            "https://static.zara.net/assets/public/a5fc/eb13/49dc47d986c8/f169496fbe61/48310728450-e1/48310728450-e1.jpg?ts=1787648114325&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a5fc/eb13/49dc47d986c8/f169496fbe61/48310728450-e1/48310728450-e1.jpg?ts=1787648114325&w=1920",
+        "https://static.zara.net/assets/public/2509/6d8e/a16b423c9324/40e1b405b4c1/48310728450-e2/48310728450-e2.jpg?ts=1787648108736&w=1920",
+        "https://static.zara.net/assets/public/2fb5/593b/cdbf4e75b7ea/e774dbf8c3e1/48310728450-e3/48310728450-e3.jpg?ts=1787648108704&w=1920",
+        "https://static.zara.net/assets/public/2cae/dc96/27dd4b2d83ae/8f7840b51af5/48310728450-e4/48310728450-e4.jpg?ts=1787648115205&w=1920",
+        "https://static.zara.net/assets/public/af09/6bcb/feef4decb479/5fe4767dad1a/8310728450-e15/8310728450-e15.jpg?ts=1787643962190&w=1920",
+        "https://static.zara.net/assets/public/8ce9/9055/e4814acfa79f/cbefa4360847/8310728450-e16/8310728450-e16.jpg?ts=1787643962179&w=1920",
+        "https://static.zara.net/assets/public/dd19/67f3/980345c0bdc8/cf420b2ab300/8310728450-e17/8310728450-e17.jpg?ts=1787643962295&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nSolid suede leather cover. Rectangular design with 0fr. Paris logo detail in the bottom corner. Can be used for books. 0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "774148ab6b6dbf04aa5a68b72da4672406c8b7f3b1a9da8f4d2ba20cbe972e20",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

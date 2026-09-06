@@ -1,0 +1,136 @@
+{
+  "product_id": "zara-us:49300019",
+  "source_url": "https://www.zara.com/us/en/cotton-and-leather-backpack-p49300019.html",
+  "final_url": "https://www.zara.com/us/en/cotton-and-leather-backpack-p49300019.html",
+  "canonical_url": "https://www.zara.com/us/en/cotton-and-leather-backpack-p49300019.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COTTON AND LEATHER BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COTTON AND LEATHER BACKPACK",
+      "url": "https://www.zara.com/us/en/cotton-and-leather-backpack-p49300019.html",
+      "productGroupID": "49300019",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Backpack made of waxed cotton with cow leather details. Design features a top flap, side pockets, and adjustable buckle straps. Cotton-lined interior.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/08cc/c017/d441493da037/0ed291393242/49300019054-e1/49300019054-e1.jpg?ts=1782204408600&w=1920",
+        "https://static.zara.net/assets/public/1b5f/d0c7/9154410289cf/2660e7750f52/49300019054-e2/49300019054-e2.jpg?ts=1782204408502&w=1920",
+        "https://static.zara.net/assets/public/c449/5ab3/8ea04eaab08f/0ba4fe65f3c1/49300019054-e3/49300019054-e3.jpg?ts=1782204408600&w=1920",
+        "https://static.zara.net/assets/public/1561/ae6d/705e4b96b887/bc8646165e50/49300019054-e4/49300019054-e4.jpg?ts=1782204408669&w=1920",
+        "https://static.zara.net/assets/public/0f78/c4ca/6b26467e9f55/f728009c93f9/49300019054-e5/49300019054-e5.jpg?ts=1782204408439&w=1920",
+        "https://static.zara.net/assets/public/9fc4/959d/781043a39b74/adb94b89eb51/49300019054-e6/49300019054-e6.jpg?ts=1782204408704&w=1920",
+        "https://static.zara.net/assets/public/64e1/4c62/5b36449cb2eb/9b8b2f389430/49300019054-a1/49300019054-a1.jpg?ts=1783351192404&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COTTON AND LEATHER BACKPACK - Brown / Green - ONE SIZE ONLY",
+          "sku": "545453572-054-99",
+          "mpn": "545453572-054-99",
+          "color": "Brown / Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/08cc/c017/d441493da037/0ed291393242/49300019054-e1/49300019054-e1.jpg?ts=1782204408600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "299",
+            "url": "https://www.zara.com/us/en/cotton-and-leather-backpack-p49300019.html?v1=545453572",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COTTON AND LEATHER BACKPACK",
+      "product_group_id": "49300019",
+      "brand": "ZARAHOME",
+      "description": "Backpack made of waxed cotton with cow leather details. Design features a top flap, side pockets, and adjustable buckle straps. Cotton-lined interior.",
+      "material": null,
+      "composition": "LINING: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COTTON AND LEATHER BACKPACK - Brown / Green - ONE SIZE ONLY",
+          "sku": "545453572-054-99",
+          "mpn": "545453572-054-99",
+          "color_name": "Brown / Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "299.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-and-leather-backpack-p49300019.html?v1=545453572",
+          "images": [
+            "https://static.zara.net/assets/public/08cc/c017/d441493da037/0ed291393242/49300019054-e1/49300019054-e1.jpg?ts=1782204408600&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/08cc/c017/d441493da037/0ed291393242/49300019054-e1/49300019054-e1.jpg?ts=1782204408600&w=1920",
+        "https://static.zara.net/assets/public/1b5f/d0c7/9154410289cf/2660e7750f52/49300019054-e2/49300019054-e2.jpg?ts=1782204408502&w=1920",
+        "https://static.zara.net/assets/public/c449/5ab3/8ea04eaab08f/0ba4fe65f3c1/49300019054-e3/49300019054-e3.jpg?ts=1782204408600&w=1920",
+        "https://static.zara.net/assets/public/1561/ae6d/705e4b96b887/bc8646165e50/49300019054-e4/49300019054-e4.jpg?ts=1782204408669&w=1920",
+        "https://static.zara.net/assets/public/0f78/c4ca/6b26467e9f55/f728009c93f9/49300019054-e5/49300019054-e5.jpg?ts=1782204408439&w=1920",
+        "https://static.zara.net/assets/public/9fc4/959d/781043a39b74/adb94b89eb51/49300019054-e6/49300019054-e6.jpg?ts=1782204408704&w=1920",
+        "https://static.zara.net/assets/public/64e1/4c62/5b36449cb2eb/9b8b2f389430/49300019054-a1/49300019054-a1.jpg?ts=1783351192404&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "299.00",
+  "rendered_description": "Description\nBackpack made of waxed cotton with cow leather details. Design features a top flap, side pockets, and adjustable buckle straps. Cotton-lined interior.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "299.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "299.00",
+    "dom_price": "299.00",
+    "normalized_price": "299.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "05eb0ae8d6ca6c80f98c27a3ed83549be69e468acab692da4b9a3e405c102945",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

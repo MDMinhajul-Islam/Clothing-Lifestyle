@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20120338",
+  "source_url": "https://www.zara.com/us/en/peony-edp-90-ml--3-04-fl--oz---p20120338.html",
+  "final_url": "https://www.zara.com/us/en/peony-edp-90-ml--3-04-fl--oz---p20120338.html",
+  "canonical_url": "https://www.zara.com/us/en/peony-edp-90-ml--3-04-fl--oz---p20120338.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PEONY",
+    "BLOOM | EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PEONY EDP 90 ML (3.04 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/peony-edp-90-ml--3-04-fl--oz---p20120338.html",
+      "productGroupID": "20120338",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "PEONY EDP 90 ML (3.04 FL. OZ.). Black currant adds a juicy and vibrant nuance that brightens the fragrance's opening. Peony reveals an elegant, delicately velvety floral heart, while vanilla introduces a soft, luminous base that envelops the skin in a feminine and refined trail.\n\nFloral chypre | Elegant, luminous, and delicate",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/85ac/c4c9/82304bd1bb66/1a789e16c19e/20120338999-000-e20/20120338999-000-e20.jpg?ts=1781509583942&w=1920",
+        "https://static.zara.net/assets/public/4519/a2e7/847c4bffa38d/f9945aeee882/20120338999-000-e21/20120338999-000-e21.jpg?ts=1781509585717&w=1920",
+        "https://static.zara.net/assets/public/2bf7/391d/7dde4c8ca5dc/744b87d3f3e8/20120338999-000-e38/20120338999-000-e38.jpg?ts=1781509587352&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PEONY EDP 90 ML (3.04 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545470638-999-99",
+          "mpn": "545470638-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/85ac/c4c9/82304bd1bb66/1a789e16c19e/20120338999-000-e20/20120338999-000-e20.jpg?ts=1781509583942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/peony-edp-90-ml--3-04-fl--oz---p20120338.html?v1=545470638",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PEONY EDP 90 ML (3.04 FL. OZ.)",
+      "product_group_id": "20120338",
+      "brand": "ZARA",
+      "description": "PEONY EDP 90 ML (3.04 FL. OZ.). Black currant adds a juicy and vibrant nuance that brightens the fragrance's opening. Peony reveals an elegant, delicately velvety floral heart, while vanilla introduces a soft, luminous base that envelops the skin in a feminine and refined trail.\n\nFloral chypre | Elegant, luminous, and delicate",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PEONY EDP 90 ML (3.04 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545470638-999-99",
+          "mpn": "545470638-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/peony-edp-90-ml--3-04-fl--oz---p20120338.html?v1=545470638",
+          "images": [
+            "https://static.zara.net/assets/public/85ac/c4c9/82304bd1bb66/1a789e16c19e/20120338999-000-e20/20120338999-000-e20.jpg?ts=1781509583942&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/85ac/c4c9/82304bd1bb66/1a789e16c19e/20120338999-000-e20/20120338999-000-e20.jpg?ts=1781509583942&w=1920",
+        "https://static.zara.net/assets/public/4519/a2e7/847c4bffa38d/f9945aeee882/20120338999-000-e21/20120338999-000-e21.jpg?ts=1781509585717&w=1920",
+        "https://static.zara.net/assets/public/2bf7/391d/7dde4c8ca5dc/744b87d3f3e8/20120338999-000-e38/20120338999-000-e38.jpg?ts=1781509587352&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nPEONY EDP 90 ML (3.04 FL. OZ.). Black currant adds a juicy and vibrant nuance that brightens the fragrance's opening. Peony reveals an elegant, delicately velvety floral heart, while vanilla introduces a soft, luminous base that envelops the skin in a feminine and refined trail.\nFloral chypre | Elegant, luminous, and delicate",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9def53876d4910bca05bfcfa8f1464229951d7c09f2e88e6168d3e02a93424a8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

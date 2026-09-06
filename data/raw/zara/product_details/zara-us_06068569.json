@@ -1,0 +1,318 @@
+{
+  "product_id": "zara-us:06068569",
+  "source_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html",
+  "final_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html",
+  "canonical_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS",
+      "url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html",
+      "productGroupID": "06068569",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of three mid-calf socks. Bear and stripe print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920",
+        "https://static.zara.net/assets/public/53c8/ab77/837a43fbbaac/9ef96b1bf26d/06068569605-e2/06068569605-e2.jpg?ts=1787758741596&w=1920",
+        "https://static.zara.net/assets/public/a64c/5dcc/673f41feac4c/d4a1813f3bc1/06068569605-e3/06068569605-e3.jpg?ts=1787758747360&w=1920",
+        "https://static.zara.net/assets/public/53d6/cb7a/26174e13baad/d7255f590ce3/06068569605-e5/06068569605-e5.jpg?ts=1787758748273&w=1920"
+      ],
+      "material": "cotton/polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "79% cotton, 19% polyamide, 2% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 1-2 years (20-22)",
+          "sku": "561261156-605-24",
+          "mpn": "561261156-605-24",
+          "color": "Maroon",
+          "size": "1-2 years (20-22)",
+          "image": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 2-4 years (23-25)",
+          "sku": "561261156-605-48",
+          "mpn": "561261156-605-48",
+          "color": "Maroon",
+          "size": "2-4 years (23-25)",
+          "image": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 4-6 years (26-28)",
+          "sku": "561261156-605-72",
+          "mpn": "561261156-605-72",
+          "color": "Maroon",
+          "size": "4-6 years (26-28)",
+          "image": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 6-8 years (28-30)",
+          "sku": "561261156-605-88",
+          "mpn": "561261156-605-88",
+          "color": "Maroon",
+          "size": "6-8 years (28-30)",
+          "image": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 8-10 years (31-33)",
+          "sku": "561261156-605-90",
+          "mpn": "561261156-605-90",
+          "color": "Maroon",
+          "size": "8-10 years (31-33)",
+          "image": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 10-12 years (34-36)",
+          "sku": "561261156-605-92",
+          "mpn": "561261156-605-92",
+          "color": "Maroon",
+          "size": "10-12 years (34-36)",
+          "image": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 12-14 years (37-40)",
+          "sku": "561261156-605-94",
+          "mpn": "561261156-605-94",
+          "color": "Maroon",
+          "size": "12-14 years (37-40)",
+          "image": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS",
+      "product_group_id": "06068569",
+      "brand": "ZARA",
+      "description": "Pack of three mid-calf socks. Bear and stripe print.",
+      "material": "cotton/polyamide/elastane",
+      "composition": "OUTER SHELL: 79% cotton, 19% polyamide, 2% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 1-2 years (20-22)",
+          "sku": "561261156-605-24",
+          "mpn": "561261156-605-24",
+          "color_name": "Maroon",
+          "size_name": "1-2 years (20-22)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+          "images": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ]
+        },
+        {
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 2-4 years (23-25)",
+          "sku": "561261156-605-48",
+          "mpn": "561261156-605-48",
+          "color_name": "Maroon",
+          "size_name": "2-4 years (23-25)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+          "images": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ]
+        },
+        {
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 4-6 years (26-28)",
+          "sku": "561261156-605-72",
+          "mpn": "561261156-605-72",
+          "color_name": "Maroon",
+          "size_name": "4-6 years (26-28)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+          "images": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ]
+        },
+        {
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 6-8 years (28-30)",
+          "sku": "561261156-605-88",
+          "mpn": "561261156-605-88",
+          "color_name": "Maroon",
+          "size_name": "6-8 years (28-30)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+          "images": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ]
+        },
+        {
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 8-10 years (31-33)",
+          "sku": "561261156-605-90",
+          "mpn": "561261156-605-90",
+          "color_name": "Maroon",
+          "size_name": "8-10 years (31-33)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+          "images": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ]
+        },
+        {
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 10-12 years (34-36)",
+          "sku": "561261156-605-92",
+          "mpn": "561261156-605-92",
+          "color_name": "Maroon",
+          "size_name": "10-12 years (34-36)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+          "images": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ]
+        },
+        {
+          "name": "3-PACK OF MID-CALF BEAR AND STRIPE SOCKS - Maroon - 12-14 years (37-40)",
+          "sku": "561261156-605-94",
+          "mpn": "561261156-605-94",
+          "color_name": "Maroon",
+          "size_name": "12-14 years (37-40)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/3-pack-of-mid-calf-bear-and-stripe-socks-p06068569.html?v1=561261156",
+          "images": [
+            "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/907f/08f4/bbd54d4c8f70/db7ac54d1fd8/06068569605-e1/06068569605-e1.jpg?ts=1787758748556&w=1920",
+        "https://static.zara.net/assets/public/53c8/ab77/837a43fbbaac/9ef96b1bf26d/06068569605-e2/06068569605-e2.jpg?ts=1787758741596&w=1920",
+        "https://static.zara.net/assets/public/a64c/5dcc/673f41feac4c/d4a1813f3bc1/06068569605-e3/06068569605-e3.jpg?ts=1787758747360&w=1920",
+        "https://static.zara.net/assets/public/53d6/cb7a/26174e13baad/d7255f590ce3/06068569605-e5/06068569605-e5.jpg?ts=1787758748273&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nPack of three mid-calf socks. Bear and stripe print.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 4,
+  "variants_count": 7,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "31626467b293ad40bb05b6425226c42f8891daa78ac83d85b4ce3ccc2fe2fdc2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

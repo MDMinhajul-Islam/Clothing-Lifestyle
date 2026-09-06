@@ -1,0 +1,195 @@
+{
+  "product_id": "zara-us:46309045",
+  "source_url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html",
+  "final_url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html",
+  "canonical_url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WAVY WOODEN PICTURE FRAME",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WAVY WOODEN PICTURE FRAME",
+      "url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html",
+      "productGroupID": "46309045",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Wooden picture frame with a wavy border. It can be placed vertically or horizontally and hung on the wall using the attachments at the back.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a8e9/0f75/87e644369c9b/0e22a7d074d5/46309045250-e1/46309045250-e1.jpg?ts=1787037128116&w=1920",
+        "https://static.zara.net/assets/public/1324/b29e/633a44328566/0ba94a5cb8b9/46309045250-e2/46309045250-e2.jpg?ts=1787037134338&w=1920",
+        "https://static.zara.net/assets/public/c4be/8d96/86fd483b9892/b139b313a2a1/46309045250-e3/46309045250-e3.jpg?ts=1787037127909&w=1920",
+        "https://static.zara.net/assets/public/d21c/ed70/153247509bac/80f9bede6078/46309045250-e4/46309045250-e4.jpg?ts=1787037128150&w=1920",
+        "https://static.zara.net/assets/public/df21/dcf4/1b654b9c995c/a4cff1867082/46309045250-a1/46309045250-a1.jpg?ts=1784025462178&w=1920"
+      ],
+      "material": "mdf/glass/paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "50% mdf, 40% glass, 10% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WAVY WOODEN PICTURE FRAME - White - 9.1 x 7.1 x 0.7 \"",
+          "sku": "549839905-250-3",
+          "mpn": "549839905-250-3",
+          "color": "White",
+          "size": "9.1 x 7.1 x 0.7 \"",
+          "image": [
+            "https://static.zara.net/assets/public/a8e9/0f75/87e644369c9b/0e22a7d074d5/46309045250-e1/46309045250-e1.jpg?ts=1787037128116&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html?v1=549839905",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WAVY WOODEN PICTURE FRAME - Red - 9.1 x 7.1 x 0.7 \"",
+          "sku": "549839905-600-3",
+          "mpn": "549839905-600-3",
+          "color": "Red",
+          "size": "9.1 x 7.1 x 0.7 \"",
+          "image": [
+            "https://static.zara.net/assets/public/9f35/37ef/bb3140f58cab/e8fe7d7c3b0b/46309045600-e1/46309045600-e1.jpg?ts=1787037134628&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html?v1=549839903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WAVY WOODEN PICTURE FRAME - Brown - 9.1 x 7.1 x 0.7 \"",
+          "sku": "549839905-700-3",
+          "mpn": "549839905-700-3",
+          "color": "Brown",
+          "size": "9.1 x 7.1 x 0.7 \"",
+          "image": [
+            "https://static.zara.net/assets/public/234c/7e64/c8f243f1ac8e/8260afcd69d6/46309045700-e1/46309045700-e1.jpg?ts=1787037134660&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html?v1=549839904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WAVY WOODEN PICTURE FRAME",
+      "product_group_id": "46309045",
+      "brand": "ZARAHOME",
+      "description": "Wooden picture frame with a wavy border. It can be placed vertically or horizontally and hung on the wall using the attachments at the back.",
+      "material": "mdf/glass/paper",
+      "composition": "OUTER SHELL: 50% mdf, 40% glass, 10% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WAVY WOODEN PICTURE FRAME - White - 9.1 x 7.1 x 0.7 \"",
+          "sku": "549839905-250-3",
+          "mpn": "549839905-250-3",
+          "color_name": "White",
+          "size_name": "9.1 x 7.1 x 0.7 \"",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html?v1=549839905",
+          "images": [
+            "https://static.zara.net/assets/public/a8e9/0f75/87e644369c9b/0e22a7d074d5/46309045250-e1/46309045250-e1.jpg?ts=1787037128116&w=1920"
+          ]
+        },
+        {
+          "name": "WAVY WOODEN PICTURE FRAME - Red - 9.1 x 7.1 x 0.7 \"",
+          "sku": "549839905-600-3",
+          "mpn": "549839905-600-3",
+          "color_name": "Red",
+          "size_name": "9.1 x 7.1 x 0.7 \"",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html?v1=549839903",
+          "images": [
+            "https://static.zara.net/assets/public/9f35/37ef/bb3140f58cab/e8fe7d7c3b0b/46309045600-e1/46309045600-e1.jpg?ts=1787037134628&w=1920"
+          ]
+        },
+        {
+          "name": "WAVY WOODEN PICTURE FRAME - Brown - 9.1 x 7.1 x 0.7 \"",
+          "sku": "549839905-700-3",
+          "mpn": "549839905-700-3",
+          "color_name": "Brown",
+          "size_name": "9.1 x 7.1 x 0.7 \"",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wavy-wooden-picture-frame-p46309045.html?v1=549839904",
+          "images": [
+            "https://static.zara.net/assets/public/234c/7e64/c8f243f1ac8e/8260afcd69d6/46309045700-e1/46309045700-e1.jpg?ts=1787037134660&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a8e9/0f75/87e644369c9b/0e22a7d074d5/46309045250-e1/46309045250-e1.jpg?ts=1787037128116&w=1920",
+        "https://static.zara.net/assets/public/1324/b29e/633a44328566/0ba94a5cb8b9/46309045250-e2/46309045250-e2.jpg?ts=1787037134338&w=1920",
+        "https://static.zara.net/assets/public/c4be/8d96/86fd483b9892/b139b313a2a1/46309045250-e3/46309045250-e3.jpg?ts=1787037127909&w=1920",
+        "https://static.zara.net/assets/public/d21c/ed70/153247509bac/80f9bede6078/46309045250-e4/46309045250-e4.jpg?ts=1787037128150&w=1920",
+        "https://static.zara.net/assets/public/df21/dcf4/1b654b9c995c/a4cff1867082/46309045250-a1/46309045250-a1.jpg?ts=1784025462178&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Red",
+    "Brown"
+  ],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nWooden picture frame with a wavy border. It can be placed vertically or horizontally and hung on the wall using the attachments at the back.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 7,
+  "variants_count": 3,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "14effac6561806eee0cab56ae0403171b46788fd677d11eaadfce3b9373123a0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,167 @@
+{
+  "product_id": "zara-us:48306728",
+  "source_url": "https://www.zara.com/us/en/canvas-pouch-%7C-0fr--paris-p48306728.html",
+  "final_url": "https://www.zara.com/us/en/canvas-pouch-%7C-0fr--paris-p48306728.html",
+  "canonical_url": "https://www.zara.com/us/en/canvas-pouch-%7C-0fr--paris-p48306728.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CANVAS POUCH | 0FR. PARIS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CANVAS POUCH | 0FR. PARIS",
+      "url": "https://www.zara.com/us/en/canvas-pouch-%7C-0fr--paris-p48306728.html",
+      "productGroupID": "48306728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pouch made of solid-colored canvas fabric. Rectangular design with a top zip closure and 0fr. Paris logo detail on the front.\n\n0fr. Paris is an independent bookstore, art gallery, publisher, and cultural space founded in 1996 in Paris.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fbe0/ae66/8cb444cabf9a/a587c4cd589a/48306728400-e1/48306728400-e1.jpg?ts=1787577258018&w=1920",
+        "https://static.zara.net/assets/public/421a/a35e/c4e4493fbe34/4d2465dd25f9/48306728400-e2/48306728400-e2.jpg?ts=1787577263626&w=1920",
+        "https://static.zara.net/assets/public/bc1b/5086/bc794376a0d4/167c5c1ba7fa/48306728400-e3/48306728400-e3.jpg?ts=1787577258070&w=1920",
+        "https://static.zara.net/assets/public/a48e/e9f6/fad547c1a06a/ec175bb40078/48306728400-e4/48306728400-e4.jpg?ts=1787577257909&w=1920",
+        "https://static.zara.net/assets/public/a937/70d3/a4304d92a2eb/c5b693a6067f/8306728400-e15/8306728400-e15.jpg?ts=1787645492930&w=1920",
+        "https://static.zara.net/assets/public/337b/3f15/355e46e2aac4/f2de6c183cc2/8306728400-e18/8306728400-e18.jpg?ts=1787645493102&w=1920",
+        "https://static.zara.net/assets/public/a541/5513/217c49f2b1fe/433f760259c9/48306728400-a1/48306728400-a1.jpg?ts=1788254112183&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CANVAS POUCH | 0FR. PARIS - Blue - ONE SIZE ONLY",
+          "sku": "563599221-400-99",
+          "mpn": "563599221-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/fbe0/ae66/8cb444cabf9a/a587c4cd589a/48306728400-e1/48306728400-e1.jpg?ts=1787577258018&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/canvas-pouch-%7C-0fr--paris-p48306728.html?v1=563599221",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CANVAS POUCH | 0FR. PARIS - Orange - ONE SIZE ONLY",
+          "sku": "563599221-615-99",
+          "mpn": "563599221-615-99",
+          "color": "Orange",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/4d45/0fbb/ed57491cb2fb/8f2d92d8443c/48306728615-e1/48306728615-e1.jpg?ts=1787577262907&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/canvas-pouch-%7C-0fr--paris-p48306728.html?v1=563599222",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CANVAS POUCH | 0FR. PARIS",
+      "product_group_id": "48306728",
+      "brand": "ZARAHOME",
+      "description": "Pouch made of solid-colored canvas fabric. Rectangular design with a top zip closure and 0fr. Paris logo detail on the front.\n\n0fr. Paris is an independent bookstore, art gallery, publisher, and cultural space founded in 1996 in Paris.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CANVAS POUCH | 0FR. PARIS - Blue - ONE SIZE ONLY",
+          "sku": "563599221-400-99",
+          "mpn": "563599221-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/canvas-pouch-%7C-0fr--paris-p48306728.html?v1=563599221",
+          "images": [
+            "https://static.zara.net/assets/public/fbe0/ae66/8cb444cabf9a/a587c4cd589a/48306728400-e1/48306728400-e1.jpg?ts=1787577258018&w=1920"
+          ]
+        },
+        {
+          "name": "CANVAS POUCH | 0FR. PARIS - Orange - ONE SIZE ONLY",
+          "sku": "563599221-615-99",
+          "mpn": "563599221-615-99",
+          "color_name": "Orange",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/canvas-pouch-%7C-0fr--paris-p48306728.html?v1=563599222",
+          "images": [
+            "https://static.zara.net/assets/public/4d45/0fbb/ed57491cb2fb/8f2d92d8443c/48306728615-e1/48306728615-e1.jpg?ts=1787577262907&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fbe0/ae66/8cb444cabf9a/a587c4cd589a/48306728400-e1/48306728400-e1.jpg?ts=1787577258018&w=1920",
+        "https://static.zara.net/assets/public/421a/a35e/c4e4493fbe34/4d2465dd25f9/48306728400-e2/48306728400-e2.jpg?ts=1787577263626&w=1920",
+        "https://static.zara.net/assets/public/bc1b/5086/bc794376a0d4/167c5c1ba7fa/48306728400-e3/48306728400-e3.jpg?ts=1787577258070&w=1920",
+        "https://static.zara.net/assets/public/a48e/e9f6/fad547c1a06a/ec175bb40078/48306728400-e4/48306728400-e4.jpg?ts=1787577257909&w=1920",
+        "https://static.zara.net/assets/public/a937/70d3/a4304d92a2eb/c5b693a6067f/8306728400-e15/8306728400-e15.jpg?ts=1787645492930&w=1920",
+        "https://static.zara.net/assets/public/337b/3f15/355e46e2aac4/f2de6c183cc2/8306728400-e18/8306728400-e18.jpg?ts=1787645493102&w=1920",
+        "https://static.zara.net/assets/public/a541/5513/217c49f2b1fe/433f760259c9/48306728400-a1/48306728400-a1.jpg?ts=1788254112183&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Orange"
+  ],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nPouch made of solid-colored canvas fabric. Rectangular design with a top zip closure and 0fr. Paris logo detail on the front.\n0fr. Paris is an independent bookstore, art gallery, publisher, and cultural space founded in 1996 in Paris.",
+  "comp_care_text": null,
+  "raw_images_count": 14,
+  "valid_images_count": 8,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1aa09001005b68dff81cfcced4812551978bed6527e22eab3d228ad02ed9ece8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

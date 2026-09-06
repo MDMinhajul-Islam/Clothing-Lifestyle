@@ -1,0 +1,191 @@
+{
+  "product_id": "zara-us:49179120",
+  "source_url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html",
+  "final_url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html",
+  "canonical_url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULBERRY SILK TRIANGLE BRA",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULBERRY SILK TRIANGLE BRA",
+      "url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html",
+      "productGroupID": "49179120",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Triangle bra made of a mulberry silk blend. Plain design with thin straps.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0950/37d0/dc4443d0894e/57fb728997b8/49179120802-e1/49179120802-e1.jpg?ts=1770653791918&w=1920",
+        "https://static.zara.net/assets/public/e19a/6f4c/afba40a78577/832213974091/49179120802-e2/49179120802-e2.jpg?ts=1770653790185&w=1920",
+        "https://static.zara.net/assets/public/e438/e0bc/8cd74b598906/5dccf9a92eaf/49179120802-e3/49179120802-e3.jpg?ts=1770653789520&w=1920",
+        "https://static.zara.net/assets/public/612c/c106/73414b90a5e6/816683b933ab/49179120802-e4/49179120802-e4.jpg?ts=1770624103632&w=1920",
+        "https://static.zara.net/assets/public/8426/b655/1f9d47a08d8b/a572428c2975/49179120802-a1/49179120802-a1.jpg?ts=1787730507583&w=1920"
+      ],
+      "material": "silk (mulberry)/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "92% silk (mulberry), 8% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK TRIANGLE BRA - Gray - S",
+          "sku": "545426554-802-2",
+          "mpn": "545426554-802-2",
+          "color": "Gray",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/0950/37d0/dc4443d0894e/57fb728997b8/49179120802-e1/49179120802-e1.jpg?ts=1770653791918&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html?v1=545426554",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK TRIANGLE BRA - Gray - M",
+          "sku": "545426554-802-3",
+          "mpn": "545426554-802-3",
+          "color": "Gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/0950/37d0/dc4443d0894e/57fb728997b8/49179120802-e1/49179120802-e1.jpg?ts=1770653791918&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html?v1=545426554",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK TRIANGLE BRA - Gray - L",
+          "sku": "545426554-802-4",
+          "mpn": "545426554-802-4",
+          "color": "Gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/0950/37d0/dc4443d0894e/57fb728997b8/49179120802-e1/49179120802-e1.jpg?ts=1770653791918&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html?v1=545426554",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULBERRY SILK TRIANGLE BRA",
+      "product_group_id": "49179120",
+      "brand": "ZARAHOME",
+      "description": "Triangle bra made of a mulberry silk blend. Plain design with thin straps.",
+      "material": "silk (mulberry)/elastane",
+      "composition": "OUTER SHELL: 92% silk (mulberry), 8% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULBERRY SILK TRIANGLE BRA - Gray - S",
+          "sku": "545426554-802-2",
+          "mpn": "545426554-802-2",
+          "color_name": "Gray",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html?v1=545426554",
+          "images": [
+            "https://static.zara.net/assets/public/0950/37d0/dc4443d0894e/57fb728997b8/49179120802-e1/49179120802-e1.jpg?ts=1770653791918&w=1920"
+          ]
+        },
+        {
+          "name": "MULBERRY SILK TRIANGLE BRA - Gray - M",
+          "sku": "545426554-802-3",
+          "mpn": "545426554-802-3",
+          "color_name": "Gray",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html?v1=545426554",
+          "images": [
+            "https://static.zara.net/assets/public/0950/37d0/dc4443d0894e/57fb728997b8/49179120802-e1/49179120802-e1.jpg?ts=1770653791918&w=1920"
+          ]
+        },
+        {
+          "name": "MULBERRY SILK TRIANGLE BRA - Gray - L",
+          "sku": "545426554-802-4",
+          "mpn": "545426554-802-4",
+          "color_name": "Gray",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-triangle-bra-p49179120.html?v1=545426554",
+          "images": [
+            "https://static.zara.net/assets/public/0950/37d0/dc4443d0894e/57fb728997b8/49179120802-e1/49179120802-e1.jpg?ts=1770653791918&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0950/37d0/dc4443d0894e/57fb728997b8/49179120802-e1/49179120802-e1.jpg?ts=1770653791918&w=1920",
+        "https://static.zara.net/assets/public/e19a/6f4c/afba40a78577/832213974091/49179120802-e2/49179120802-e2.jpg?ts=1770653790185&w=1920",
+        "https://static.zara.net/assets/public/e438/e0bc/8cd74b598906/5dccf9a92eaf/49179120802-e3/49179120802-e3.jpg?ts=1770653789520&w=1920",
+        "https://static.zara.net/assets/public/612c/c106/73414b90a5e6/816683b933ab/49179120802-e4/49179120802-e4.jpg?ts=1770624103632&w=1920",
+        "https://static.zara.net/assets/public/8426/b655/1f9d47a08d8b/a572428c2975/49179120802-a1/49179120802-a1.jpg?ts=1787730507583&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nTriangle bra made of a mulberry silk blend. Plain design with thin straps.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b640b2acad0aba7bc9049f972d276937fd6d1510e88d65e8b567e375f3e66b93",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

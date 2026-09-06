@@ -1,0 +1,167 @@
+{
+  "product_id": "zara-us:44100005",
+  "source_url": "https://www.zara.com/us/en/check-cotton-quilt-p44100005.html",
+  "final_url": "https://www.zara.com/us/en/check-cotton-quilt-p44100005.html",
+  "canonical_url": "https://www.zara.com/us/en/check-cotton-quilt-p44100005.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHECK COTTON QUILT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHECK COTTON QUILT",
+      "url": "https://www.zara.com/us/en/check-cotton-quilt-p44100005.html",
+      "productGroupID": "44100005",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Padded quilt made of cotton. Features a two-tone check print design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8860/5420/d1e242798001/6d298dd82f0d/44100005400-e1/44100005400-e1.jpg?ts=1787314829066&w=1920",
+        "https://static.zara.net/assets/public/df19/55c1/9c9f4e38aa5a/4681eacf351a/44100005400-e2/44100005400-e2.jpg?ts=1787314832805&w=1920",
+        "https://static.zara.net/assets/public/5185/b096/426740e2b0f9/b0d6d17e892d/44100005400-e3/44100005400-e3.jpg?ts=1787314828903&w=1920",
+        "https://static.zara.net/assets/public/a37a/ac6f/2c564d03b44a/b7f27d2c4de3/44100005400-e4/44100005400-e4.jpg?ts=1787314828959&w=1920",
+        "https://static.zara.net/assets/public/6fc7/399f/8d864711b281/75a1b2d1ccbb/44100005400-a1/44100005400-a1.jpg?ts=1787046167069&w=1920",
+        "https://static.zara.net/assets/public/b846/54c4/c5d24d64b8f3/0ca9202baec1/44100000400BHTU-a10/44100000400BHTU-a10.jpg?ts=1787221597652&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHECK COTTON QUILT - Blue - single ()",
+          "sku": "545461267-400-45",
+          "mpn": "545461267-400-45",
+          "color": "Blue",
+          "size": "single ()",
+          "image": [
+            "https://static.zara.net/assets/public/8860/5420/d1e242798001/6d298dd82f0d/44100005400-e1/44100005400-e1.jpg?ts=1787314829066&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "219",
+            "url": "https://www.zara.com/us/en/check-cotton-quilt-p44100005.html?v1=545461267",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECK COTTON QUILT - Blue - double/king ()",
+          "sku": "545461267-400-46",
+          "mpn": "545461267-400-46",
+          "color": "Blue",
+          "size": "double/king ()",
+          "image": [
+            "https://static.zara.net/assets/public/8860/5420/d1e242798001/6d298dd82f0d/44100005400-e1/44100005400-e1.jpg?ts=1787314829066&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "239",
+            "url": "https://www.zara.com/us/en/check-cotton-quilt-p44100005.html?v1=545461267",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHECK COTTON QUILT",
+      "product_group_id": "44100005",
+      "brand": "ZARAHOME",
+      "description": "Padded quilt made of cotton. Features a two-tone check print design.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHECK COTTON QUILT - Blue - single ()",
+          "sku": "545461267-400-45",
+          "mpn": "545461267-400-45",
+          "color_name": "Blue",
+          "size_name": "single ()",
+          "price": "219.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/check-cotton-quilt-p44100005.html?v1=545461267",
+          "images": [
+            "https://static.zara.net/assets/public/8860/5420/d1e242798001/6d298dd82f0d/44100005400-e1/44100005400-e1.jpg?ts=1787314829066&w=1920"
+          ]
+        },
+        {
+          "name": "CHECK COTTON QUILT - Blue - double/king ()",
+          "sku": "545461267-400-46",
+          "mpn": "545461267-400-46",
+          "color_name": "Blue",
+          "size_name": "double/king ()",
+          "price": "239.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/check-cotton-quilt-p44100005.html?v1=545461267",
+          "images": [
+            "https://static.zara.net/assets/public/8860/5420/d1e242798001/6d298dd82f0d/44100005400-e1/44100005400-e1.jpg?ts=1787314829066&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8860/5420/d1e242798001/6d298dd82f0d/44100005400-e1/44100005400-e1.jpg?ts=1787314829066&w=1920",
+        "https://static.zara.net/assets/public/df19/55c1/9c9f4e38aa5a/4681eacf351a/44100005400-e2/44100005400-e2.jpg?ts=1787314832805&w=1920",
+        "https://static.zara.net/assets/public/5185/b096/426740e2b0f9/b0d6d17e892d/44100005400-e3/44100005400-e3.jpg?ts=1787314828903&w=1920",
+        "https://static.zara.net/assets/public/a37a/ac6f/2c564d03b44a/b7f27d2c4de3/44100005400-e4/44100005400-e4.jpg?ts=1787314828959&w=1920",
+        "https://static.zara.net/assets/public/6fc7/399f/8d864711b281/75a1b2d1ccbb/44100005400-a1/44100005400-a1.jpg?ts=1787046167069&w=1920",
+        "https://static.zara.net/assets/public/b846/54c4/c5d24d64b8f3/0ca9202baec1/44100000400BHTU-a10/44100000400BHTU-a10.jpg?ts=1787221597652&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "219.00",
+  "rendered_description": "Description\nPadded quilt made of cotton. Features a two-tone check print design.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "219.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "219.00",
+    "dom_price": "219.00",
+    "normalized_price": "219.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "696792734cb0aed46cc3816e11b5562a6265eac0db1bf24b4499d9d8fde30b6b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

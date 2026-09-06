@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:40398043",
+  "source_url": "https://www.zara.com/us/en/glossy-decorative-tray-p40398043.html",
+  "final_url": "https://www.zara.com/us/en/glossy-decorative-tray-p40398043.html",
+  "canonical_url": "https://www.zara.com/us/en/glossy-decorative-tray-p40398043.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GLOSSY DECORATIVE TRAY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GLOSSY DECORATIVE TRAY",
+      "url": "https://www.zara.com/us/en/glossy-decorative-tray-p40398043.html",
+      "productGroupID": "40398043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Decorative ceramic tray. Circular design with a glossy finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/27c5/e762/c71e404bbaf3/64815355f9ad/40398043716-e1/40398043716-e1.jpg?ts=1765806862151&w=1920",
+        "https://static.zara.net/assets/public/efce/4529/003945aca70a/c9568bb0bf1d/40398043716-e2/40398043716-e2.jpg?ts=1765806858141&w=1920",
+        "https://static.zara.net/assets/public/2aea/beb4/d08341e7a642/afcd52b9d2c3/40398043716-e3/40398043716-e3.jpg?ts=1765806858749&w=1920",
+        "https://static.zara.net/assets/public/4692/fe5b/5f1a45cfb886/0b5826389e85/40398043716-e4/40398043716-e4.jpg?ts=1765806855499&w=1920",
+        "https://static.zara.net/assets/public/cbf7/98cf/766547a8b7f1/a5e128e6644b/40398043716-e7/40398043716-e7.jpg?ts=1766143801132&w=1920",
+        "https://static.zara.net/assets/public/3a70/a56e/262942e6886e/6cd2689fc9a5/40398043716-a1/40398043716-a1.jpg?ts=1778166997154&w=1920"
+      ],
+      "material": "100% stoneware",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% stoneware"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GLOSSY DECORATIVE TRAY - Dark brown - 1.6 x 6.3 x 6.3 \"",
+          "sku": "545453835-716-2",
+          "mpn": "545453835-716-2",
+          "color": "Dark brown",
+          "size": "1.6 x 6.3 x 6.3 \"",
+          "image": [
+            "https://static.zara.net/assets/public/27c5/e762/c71e404bbaf3/64815355f9ad/40398043716-e1/40398043716-e1.jpg?ts=1765806862151&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/glossy-decorative-tray-p40398043.html?v1=545453835",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GLOSSY DECORATIVE TRAY - Dark brown - 1.6 x 10.2 x 10.2 \"",
+          "sku": "545453835-716-3",
+          "mpn": "545453835-716-3",
+          "color": "Dark brown",
+          "size": "1.6 x 10.2 x 10.2 \"",
+          "image": [
+            "https://static.zara.net/assets/public/27c5/e762/c71e404bbaf3/64815355f9ad/40398043716-e1/40398043716-e1.jpg?ts=1765806862151&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/glossy-decorative-tray-p40398043.html?v1=545453835",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GLOSSY DECORATIVE TRAY",
+      "product_group_id": "40398043",
+      "brand": "ZARAHOME",
+      "description": "Decorative ceramic tray. Circular design with a glossy finish.",
+      "material": "100% stoneware",
+      "composition": "OUTER SHELL: 100% stoneware",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GLOSSY DECORATIVE TRAY - Dark brown - 1.6 x 6.3 x 6.3 \"",
+          "sku": "545453835-716-2",
+          "mpn": "545453835-716-2",
+          "color_name": "Dark brown",
+          "size_name": "1.6 x 6.3 x 6.3 \"",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/glossy-decorative-tray-p40398043.html?v1=545453835",
+          "images": [
+            "https://static.zara.net/assets/public/27c5/e762/c71e404bbaf3/64815355f9ad/40398043716-e1/40398043716-e1.jpg?ts=1765806862151&w=1920"
+          ]
+        },
+        {
+          "name": "GLOSSY DECORATIVE TRAY - Dark brown - 1.6 x 10.2 x 10.2 \"",
+          "sku": "545453835-716-3",
+          "mpn": "545453835-716-3",
+          "color_name": "Dark brown",
+          "size_name": "1.6 x 10.2 x 10.2 \"",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/glossy-decorative-tray-p40398043.html?v1=545453835",
+          "images": [
+            "https://static.zara.net/assets/public/27c5/e762/c71e404bbaf3/64815355f9ad/40398043716-e1/40398043716-e1.jpg?ts=1765806862151&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/27c5/e762/c71e404bbaf3/64815355f9ad/40398043716-e1/40398043716-e1.jpg?ts=1765806862151&w=1920",
+        "https://static.zara.net/assets/public/efce/4529/003945aca70a/c9568bb0bf1d/40398043716-e2/40398043716-e2.jpg?ts=1765806858141&w=1920",
+        "https://static.zara.net/assets/public/2aea/beb4/d08341e7a642/afcd52b9d2c3/40398043716-e3/40398043716-e3.jpg?ts=1765806858749&w=1920",
+        "https://static.zara.net/assets/public/4692/fe5b/5f1a45cfb886/0b5826389e85/40398043716-e4/40398043716-e4.jpg?ts=1765806855499&w=1920",
+        "https://static.zara.net/assets/public/cbf7/98cf/766547a8b7f1/a5e128e6644b/40398043716-e7/40398043716-e7.jpg?ts=1766143801132&w=1920",
+        "https://static.zara.net/assets/public/3a70/a56e/262942e6886e/6cd2689fc9a5/40398043716-a1/40398043716-a1.jpg?ts=1778166997154&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nDecorative ceramic tray. Circular design with a glossy finish.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6ab3c7f70936f2331271863ba8da24f54ca1fe63a4f1d15e2b431243311f66c5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

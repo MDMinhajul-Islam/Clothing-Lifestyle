@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:47110046",
+  "source_url": "https://www.zara.com/us/en/gloss-sphere-vase-p47110046.html",
+  "final_url": "https://www.zara.com/us/en/gloss-sphere-vase-p47110046.html",
+  "canonical_url": "https://www.zara.com/us/en/gloss-sphere-vase-p47110046.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GLOSS SPHERE VASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GLOSS SPHERE VASE",
+      "url": "https://www.zara.com/us/en/gloss-sphere-vase-p47110046.html",
+      "productGroupID": "47110046",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Stoneware vase with a spherical shape and a gloss finish.\n\nMay be filled with water.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8917/851a/b78141a68084/159469ce72ea/47110046700-e1/47110046700-e1.jpg?ts=1770195884231&w=1920",
+        "https://static.zara.net/assets/public/394e/d815/21ee4fb48a36/348d2fe038ed/47110046700-e2/47110046700-e2.jpg?ts=1770195882065&w=1920",
+        "https://static.zara.net/assets/public/8291/e4ea/f13c46b99124/617112510ef6/47110046700-e3/47110046700-e3.jpg?ts=1770195885063&w=1920",
+        "https://static.zara.net/assets/public/9fed/2386/dd7d46c486e8/c2cde5cb36a7/47110046700-e4/47110046700-e4.jpg?ts=1770195883845&w=1920",
+        "https://static.zara.net/assets/public/6e04/6709/d317410d8acc/8ea66633de04/47110046700-a1/47110046700-a1.jpg?ts=1784104637994&w=1920"
+      ],
+      "material": "100% stoneware",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% stoneware"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GLOSS SPHERE VASE - Brown - 9.8 x 9.8 x 9.8 \"",
+          "sku": "545436349-700-1",
+          "mpn": "545436349-700-1",
+          "color": "Brown",
+          "size": "9.8 x 9.8 x 9.8 \"",
+          "image": [
+            "https://static.zara.net/assets/public/8917/851a/b78141a68084/159469ce72ea/47110046700-e1/47110046700-e1.jpg?ts=1770195884231&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/gloss-sphere-vase-p47110046.html?v1=545436349",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GLOSS SPHERE VASE - Brown - 11.8 x 11.8 x 11.8 \"",
+          "sku": "545436349-700-2",
+          "mpn": "545436349-700-2",
+          "color": "Brown",
+          "size": "11.8 x 11.8 x 11.8 \"",
+          "image": [
+            "https://static.zara.net/assets/public/8917/851a/b78141a68084/159469ce72ea/47110046700-e1/47110046700-e1.jpg?ts=1770195884231&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/gloss-sphere-vase-p47110046.html?v1=545436349",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GLOSS SPHERE VASE",
+      "product_group_id": "47110046",
+      "brand": "ZARAHOME",
+      "description": "Stoneware vase with a spherical shape and a gloss finish.\n\nMay be filled with water.",
+      "material": "100% stoneware",
+      "composition": "OUTER SHELL: 100% stoneware",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GLOSS SPHERE VASE - Brown - 9.8 x 9.8 x 9.8 \"",
+          "sku": "545436349-700-1",
+          "mpn": "545436349-700-1",
+          "color_name": "Brown",
+          "size_name": "9.8 x 9.8 x 9.8 \"",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/gloss-sphere-vase-p47110046.html?v1=545436349",
+          "images": [
+            "https://static.zara.net/assets/public/8917/851a/b78141a68084/159469ce72ea/47110046700-e1/47110046700-e1.jpg?ts=1770195884231&w=1920"
+          ]
+        },
+        {
+          "name": "GLOSS SPHERE VASE - Brown - 11.8 x 11.8 x 11.8 \"",
+          "sku": "545436349-700-2",
+          "mpn": "545436349-700-2",
+          "color_name": "Brown",
+          "size_name": "11.8 x 11.8 x 11.8 \"",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/gloss-sphere-vase-p47110046.html?v1=545436349",
+          "images": [
+            "https://static.zara.net/assets/public/8917/851a/b78141a68084/159469ce72ea/47110046700-e1/47110046700-e1.jpg?ts=1770195884231&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8917/851a/b78141a68084/159469ce72ea/47110046700-e1/47110046700-e1.jpg?ts=1770195884231&w=1920",
+        "https://static.zara.net/assets/public/394e/d815/21ee4fb48a36/348d2fe038ed/47110046700-e2/47110046700-e2.jpg?ts=1770195882065&w=1920",
+        "https://static.zara.net/assets/public/8291/e4ea/f13c46b99124/617112510ef6/47110046700-e3/47110046700-e3.jpg?ts=1770195885063&w=1920",
+        "https://static.zara.net/assets/public/9fed/2386/dd7d46c486e8/c2cde5cb36a7/47110046700-e4/47110046700-e4.jpg?ts=1770195883845&w=1920",
+        "https://static.zara.net/assets/public/6e04/6709/d317410d8acc/8ea66633de04/47110046700-a1/47110046700-a1.jpg?ts=1784104637994&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nStoneware vase with a spherical shape and a gloss finish.\nMay be filled with water.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "98dd82084ace038f0f2154820fe1d63cf8f0b65b8b09df399ad53e04a07c91e5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

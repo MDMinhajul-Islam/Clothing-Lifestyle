@@ -1,0 +1,293 @@
+{
+  "product_id": "zara-us:03992660",
+  "source_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html",
+  "final_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED T-SHIRT",
+      "url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html",
+      "productGroupID": "03992660",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Long-sleeve T-shirt with a contrasting round neck. Features a striped print. Crafted from 100% cotton fabric.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920",
+        "https://static.zara.net/assets/public/3f60/9330/d84043b88524/875ac705bd73/03992660400-e2/03992660400-e2.jpg?ts=1785833190664&w=1920",
+        "https://static.zara.net/assets/public/d5ea/64ae/03cc4da4b0be/d546f9be52e9/03992660400-e3/03992660400-e3.jpg?ts=1785833193652&w=1920",
+        "https://static.zara.net/assets/public/1618/2ae0/05494222b14a/0a82d216e8b2/03992660400-e4/03992660400-e4.jpg?ts=1785833192226&w=1920",
+        "https://static.zara.net/assets/public/c68c/f484/3bbd476dbd90/2e2349294b5a/03992660400-a4/03992660400-a4.jpg?ts=1785852217528&w=1920",
+        "https://static.zara.net/assets/public/48f9/f0aa/47074d24977c/d930629ec418/03992660400-p/03992660400-p.jpg?ts=1785852220626&w=1920",
+        "https://static.zara.net/assets/public/32f4/e984/ed9e480e90ca/1b8617287748/03992660400-a1/03992660400-a1.jpg?ts=1785852219159&w=1920",
+        "https://static.zara.net/assets/public/0dcb/f389/6b1345fe90e1/af64e39b5a4d/03992660400-a2/03992660400-a2.jpg?ts=1785852219907&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "559750608-400-7",
+          "mpn": "559750608-400-7",
+          "color": "Blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue - 7-8 years (50,4 INCHES)",
+          "sku": "559750608-400-8",
+          "mpn": "559750608-400-8",
+          "color": "Blue",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue - 8-9 years (52,7 INCHES)",
+          "sku": "559750608-400-9",
+          "mpn": "559750608-400-9",
+          "color": "Blue",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "559750608-400-10",
+          "mpn": "559750608-400-10",
+          "color": "Blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue - 11-12 years (59,8 INCHES)",
+          "sku": "559750608-400-12",
+          "mpn": "559750608-400-12",
+          "color": "Blue",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "559750608-400-14",
+          "mpn": "559750608-400-14",
+          "color": "Blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED T-SHIRT",
+      "product_group_id": "03992660",
+      "brand": "ZARA",
+      "description": "Long-sleeve T-shirt with a contrasting round neck. Features a striped print. Crafted from 100% cotton fabric.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED T-SHIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "559750608-400-7",
+          "mpn": "559750608-400-7",
+          "color_name": "Blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+          "images": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue - 7-8 years (50,4 INCHES)",
+          "sku": "559750608-400-8",
+          "mpn": "559750608-400-8",
+          "color_name": "Blue",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+          "images": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue - 8-9 years (52,7 INCHES)",
+          "sku": "559750608-400-9",
+          "mpn": "559750608-400-9",
+          "color_name": "Blue",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+          "images": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "559750608-400-10",
+          "mpn": "559750608-400-10",
+          "color_name": "Blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+          "images": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue - 11-12 years (59,8 INCHES)",
+          "sku": "559750608-400-12",
+          "mpn": "559750608-400-12",
+          "color_name": "Blue",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+          "images": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "559750608-400-14",
+          "mpn": "559750608-400-14",
+          "color_name": "Blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-print-t-shirt-p03992660.html?v1=559750608",
+          "images": [
+            "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ab95/db42/6ac24303afaf/5479dbdc11f0/03992660400-e1/03992660400-e1.jpg?ts=1785833191417&w=1920",
+        "https://static.zara.net/assets/public/3f60/9330/d84043b88524/875ac705bd73/03992660400-e2/03992660400-e2.jpg?ts=1785833190664&w=1920",
+        "https://static.zara.net/assets/public/d5ea/64ae/03cc4da4b0be/d546f9be52e9/03992660400-e3/03992660400-e3.jpg?ts=1785833193652&w=1920",
+        "https://static.zara.net/assets/public/1618/2ae0/05494222b14a/0a82d216e8b2/03992660400-e4/03992660400-e4.jpg?ts=1785833192226&w=1920",
+        "https://static.zara.net/assets/public/c68c/f484/3bbd476dbd90/2e2349294b5a/03992660400-a4/03992660400-a4.jpg?ts=1785852217528&w=1920",
+        "https://static.zara.net/assets/public/48f9/f0aa/47074d24977c/d930629ec418/03992660400-p/03992660400-p.jpg?ts=1785852220626&w=1920",
+        "https://static.zara.net/assets/public/32f4/e984/ed9e480e90ca/1b8617287748/03992660400-a1/03992660400-a1.jpg?ts=1785852219159&w=1920",
+        "https://static.zara.net/assets/public/0dcb/f389/6b1345fe90e1/af64e39b5a4d/03992660400-a2/03992660400-a2.jpg?ts=1785852219907&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nLong-sleeve T-shirt with a contrasting round neck. Features a striped print. Crafted from 100% cotton fabric.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ce6644695a44a83a486448053f07d91b8046dc8fcdd05422c1f840b3dbd1d539",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

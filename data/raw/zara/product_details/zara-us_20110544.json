@@ -1,0 +1,112 @@
+{
+  "product_id": "zara-us:20110544",
+  "source_url": "https://www.zara.com/us/en/hypnotic-vanilla-winter-edp-80-ml-p20110544.html",
+  "final_url": "https://www.zara.com/us/en/hypnotic-vanilla-winter-edp-80-ml-p20110544.html",
+  "canonical_url": "https://www.zara.com/us/en/hypnotic-vanilla-winter-edp-80-ml-p20110544.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HYPNOTIC VANILLA WINTER",
+    "VANILLA | WINTER",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HYPNOTIC VANILLA WINTER EDP 80ML",
+      "url": "https://www.zara.com/us/en/hypnotic-vanilla-winter-edp-80-ml-p20110544.html",
+      "productGroupID": "20110544",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "HYPNOTIC VANILLA WINTER EDP 80ML. The Winter version of Hypnotic Vanilla maintains its warm and addictive essence, now with a deeper and more mysterious winter touch. Frankincense adds a smoky warmth, orange blossom illuminates the composition, and Vanilla Absolute wraps the skin in a creamy, sensual, and comforting trail. Amber gourmand | Warm, mysterious, and enveloping",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c078/ed15/a06a48dd8d17/acac29b2c991/20110544999-e22/20110544999-e22.jpg?ts=1787909641514&w=1920",
+        "https://static.zara.net/assets/public/835d/a00c/008446fea975/8f39b13a785b/20110544999-e23/20110544999-e23.jpg?ts=1787909643094&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HYPNOTIC VANILLA WINTER EDP 80ML - ONE SIZE ONLY",
+          "sku": "545486237-999-99",
+          "mpn": "545486237-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/c078/ed15/a06a48dd8d17/acac29b2c991/20110544999-e22/20110544999-e22.jpg?ts=1787909641514&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/hypnotic-vanilla-winter-edp-80-ml-p20110544.html?v1=545486237",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HYPNOTIC VANILLA WINTER EDP 80ML",
+      "product_group_id": "20110544",
+      "brand": "ZARA",
+      "description": "HYPNOTIC VANILLA WINTER EDP 80ML. The Winter version of Hypnotic Vanilla maintains its warm and addictive essence, now with a deeper and more mysterious winter touch. Frankincense adds a smoky warmth, orange blossom illuminates the composition, and Vanilla Absolute wraps the skin in a creamy, sensual, and comforting trail. Amber gourmand | Warm, mysterious, and enveloping",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HYPNOTIC VANILLA WINTER EDP 80ML - ONE SIZE ONLY",
+          "sku": "545486237-999-99",
+          "mpn": "545486237-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hypnotic-vanilla-winter-edp-80-ml-p20110544.html?v1=545486237",
+          "images": [
+            "https://static.zara.net/assets/public/c078/ed15/a06a48dd8d17/acac29b2c991/20110544999-e22/20110544999-e22.jpg?ts=1787909641514&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c078/ed15/a06a48dd8d17/acac29b2c991/20110544999-e22/20110544999-e22.jpg?ts=1787909641514&w=1920",
+        "https://static.zara.net/assets/public/835d/a00c/008446fea975/8f39b13a785b/20110544999-e23/20110544999-e23.jpg?ts=1787909643094&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nHYPNOTIC VANILLA WINTER EDP 80ML. The Winter version of Hypnotic Vanilla maintains its warm and addictive essence, now with a deeper and more mysterious winter touch. Frankincense adds a smoky warmth, orange blossom illuminates the composition, and Vanilla Absolute wraps the skin in a creamy, sensual, and comforting trail. Amber gourmand | Warm, mysterious, and enveloping",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3eb8d72d6475756d4f184dcee6493bb298cc4f089a846e042c104e631adf7c83",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

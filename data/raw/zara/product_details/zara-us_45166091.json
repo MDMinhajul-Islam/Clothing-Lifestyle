@@ -1,0 +1,195 @@
+{
+  "product_id": "zara-us:45166091",
+  "source_url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html",
+  "final_url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html",
+  "canonical_url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COTTON PILLOWCASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COTTON PILLOWCASE",
+      "url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html",
+      "productGroupID": "45166091",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pillowcase made of yarn-dyed cotton. Features a fine-line plaid print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c006/ed36/0e874086a216/5e2cbd0a0a6e/45166091712-e1/45166091712-e1.jpg?ts=1787154461768&w=1920",
+        "https://static.zara.net/assets/public/853b/1e18/7c624e438f64/383f00119c20/45166091712-e2/45166091712-e2.jpg?ts=1786012928273&w=1920",
+        "https://static.zara.net/assets/public/72f9/d73a/f4e345938d29/4319a387fc67/45166091712-e3/45166091712-e3.jpg?ts=1786012928124&w=1920",
+        "https://static.zara.net/assets/public/dd3e/4ac8/99cf4a88897e/0606704a5182/45166091712-e4/45166091712-e4.jpg?ts=1786012928461&w=1920",
+        "https://static.zara.net/assets/public/bd4a/bf9e/e3a843aab7f2/6a05ddd324c6/45166091712-e5/45166091712-e5.jpg?ts=1786012928196&w=1920",
+        "https://static.zara.net/assets/public/f08b/7d4c/d0d14239a8bc/7f56dd219cc0/45166091712-a1/45166091712-a1.jpg?ts=1786368181827&w=1920",
+        "https://static.zara.net/assets/public/ef31/9d69/abb1492883db/7c94bcbcd40a/4516609171202-a2/4516609171202-a2.jpg?ts=1787219944233&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COTTON PILLOWCASE - Ecru - (SET OF 2)",
+          "sku": "545888962-712-27",
+          "mpn": "545888962-712-27",
+          "color": "Ecru",
+          "size": "(SET OF 2)",
+          "image": [
+            "https://static.zara.net/assets/public/c006/ed36/0e874086a216/5e2cbd0a0a6e/45166091712-e1/45166091712-e1.jpg?ts=1787154461768&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html?v1=545888962",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON PILLOWCASE - Ecru - (SET OF 2)",
+          "sku": "545888962-712-28",
+          "mpn": "545888962-712-28",
+          "color": "Ecru",
+          "size": "(SET OF 2)",
+          "image": [
+            "https://static.zara.net/assets/public/c006/ed36/0e874086a216/5e2cbd0a0a6e/45166091712-e1/45166091712-e1.jpg?ts=1787154461768&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html?v1=545888962",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON PILLOWCASE - Ecru - (SET OF 2)",
+          "sku": "545888962-712-29",
+          "mpn": "545888962-712-29",
+          "color": "Ecru",
+          "size": "(SET OF 2)",
+          "image": [
+            "https://static.zara.net/assets/public/c006/ed36/0e874086a216/5e2cbd0a0a6e/45166091712-e1/45166091712-e1.jpg?ts=1787154461768&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html?v1=545888962",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COTTON PILLOWCASE",
+      "product_group_id": "45166091",
+      "brand": "ZARAHOME",
+      "description": "Pillowcase made of yarn-dyed cotton. Features a fine-line plaid print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COTTON PILLOWCASE - Ecru - (SET OF 2)",
+          "sku": "545888962-712-27",
+          "mpn": "545888962-712-27",
+          "color_name": "Ecru",
+          "size_name": "(SET OF 2)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html?v1=545888962",
+          "images": [
+            "https://static.zara.net/assets/public/c006/ed36/0e874086a216/5e2cbd0a0a6e/45166091712-e1/45166091712-e1.jpg?ts=1787154461768&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON PILLOWCASE - Ecru - (SET OF 2)",
+          "sku": "545888962-712-28",
+          "mpn": "545888962-712-28",
+          "color_name": "Ecru",
+          "size_name": "(SET OF 2)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html?v1=545888962",
+          "images": [
+            "https://static.zara.net/assets/public/c006/ed36/0e874086a216/5e2cbd0a0a6e/45166091712-e1/45166091712-e1.jpg?ts=1787154461768&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON PILLOWCASE - Ecru - (SET OF 2)",
+          "sku": "545888962-712-29",
+          "mpn": "545888962-712-29",
+          "color_name": "Ecru",
+          "size_name": "(SET OF 2)",
+          "price": "55.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-pillowcase-p45166091.html?v1=545888962",
+          "images": [
+            "https://static.zara.net/assets/public/c006/ed36/0e874086a216/5e2cbd0a0a6e/45166091712-e1/45166091712-e1.jpg?ts=1787154461768&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c006/ed36/0e874086a216/5e2cbd0a0a6e/45166091712-e1/45166091712-e1.jpg?ts=1787154461768&w=1920",
+        "https://static.zara.net/assets/public/853b/1e18/7c624e438f64/383f00119c20/45166091712-e2/45166091712-e2.jpg?ts=1786012928273&w=1920",
+        "https://static.zara.net/assets/public/72f9/d73a/f4e345938d29/4319a387fc67/45166091712-e3/45166091712-e3.jpg?ts=1786012928124&w=1920",
+        "https://static.zara.net/assets/public/dd3e/4ac8/99cf4a88897e/0606704a5182/45166091712-e4/45166091712-e4.jpg?ts=1786012928461&w=1920",
+        "https://static.zara.net/assets/public/bd4a/bf9e/e3a843aab7f2/6a05ddd324c6/45166091712-e5/45166091712-e5.jpg?ts=1786012928196&w=1920",
+        "https://static.zara.net/assets/public/f08b/7d4c/d0d14239a8bc/7f56dd219cc0/45166091712-a1/45166091712-a1.jpg?ts=1786368181827&w=1920",
+        "https://static.zara.net/assets/public/ef31/9d69/abb1492883db/7c94bcbcd40a/4516609171202-a2/4516609171202-a2.jpg?ts=1787219944233&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nPillowcase made of yarn-dyed cotton. Features a fine-line plaid print.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f547013e0dc180a9dd010dfb43430fc718722315cb49f17041f8c5fa76c24d79",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

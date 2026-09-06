@@ -1,0 +1,191 @@
+{
+  "product_id": "zara-us:44118434",
+  "source_url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html",
+  "final_url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html",
+  "canonical_url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULBERRY SILK LONG ROBE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULBERRY SILK LONG ROBE",
+      "url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html",
+      "productGroupID": "44118434",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Long robe crafted from mulberry silk. Features a long-sleeved design, a shawl collar, and a self-tie adjustable belt in the same fabric.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4fc3/497a/774f4fe1b401/0c0867c84fc1/44118434712-e1/44118434712-e1.jpg?ts=1784105939360&w=1920",
+        "https://static.zara.net/assets/public/2330/48b4/28aa451989e9/e8404ae23c54/44118434712-e2/44118434712-e2.jpg?ts=1784105936396&w=1920",
+        "https://static.zara.net/assets/public/9c55/553a/7c8444a0afb4/f929bc5c23e0/44118434712-e3/44118434712-e3.jpg?ts=1784105935803&w=1920",
+        "https://static.zara.net/assets/public/0792/96e5/789b4052b5cd/b5deb6991bf3/44118434712-e4/44118434712-e4.jpg?ts=1784105936872&w=1920",
+        "https://static.zara.net/assets/public/944d/bdf6/62df47b5b0a3/97eec77054c0/44118434712-a1/44118434712-a1.jpg?ts=1788187098197&w=1920"
+      ],
+      "material": "100% silk (mulberry)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% silk (mulberry)"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK LONG ROBE - Ecru - S",
+          "sku": "553960455-712-2",
+          "mpn": "553960455-712-2",
+          "color": "Ecru",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/4fc3/497a/774f4fe1b401/0c0867c84fc1/44118434712-e1/44118434712-e1.jpg?ts=1784105939360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "339",
+            "url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html?v1=553960455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK LONG ROBE - Ecru - M",
+          "sku": "553960455-712-3",
+          "mpn": "553960455-712-3",
+          "color": "Ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/4fc3/497a/774f4fe1b401/0c0867c84fc1/44118434712-e1/44118434712-e1.jpg?ts=1784105939360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "339",
+            "url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html?v1=553960455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULBERRY SILK LONG ROBE - Ecru - L",
+          "sku": "553960455-712-4",
+          "mpn": "553960455-712-4",
+          "color": "Ecru",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/4fc3/497a/774f4fe1b401/0c0867c84fc1/44118434712-e1/44118434712-e1.jpg?ts=1784105939360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "339",
+            "url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html?v1=553960455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULBERRY SILK LONG ROBE",
+      "product_group_id": "44118434",
+      "brand": "ZARAHOME",
+      "description": "Long robe crafted from mulberry silk. Features a long-sleeved design, a shawl collar, and a self-tie adjustable belt in the same fabric.",
+      "material": "100% silk (mulberry)",
+      "composition": "OUTER SHELL: 100% silk (mulberry)",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULBERRY SILK LONG ROBE - Ecru - S",
+          "sku": "553960455-712-2",
+          "mpn": "553960455-712-2",
+          "color_name": "Ecru",
+          "size_name": "S",
+          "price": "339.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html?v1=553960455",
+          "images": [
+            "https://static.zara.net/assets/public/4fc3/497a/774f4fe1b401/0c0867c84fc1/44118434712-e1/44118434712-e1.jpg?ts=1784105939360&w=1920"
+          ]
+        },
+        {
+          "name": "MULBERRY SILK LONG ROBE - Ecru - M",
+          "sku": "553960455-712-3",
+          "mpn": "553960455-712-3",
+          "color_name": "Ecru",
+          "size_name": "M",
+          "price": "339.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html?v1=553960455",
+          "images": [
+            "https://static.zara.net/assets/public/4fc3/497a/774f4fe1b401/0c0867c84fc1/44118434712-e1/44118434712-e1.jpg?ts=1784105939360&w=1920"
+          ]
+        },
+        {
+          "name": "MULBERRY SILK LONG ROBE - Ecru - L",
+          "sku": "553960455-712-4",
+          "mpn": "553960455-712-4",
+          "color_name": "Ecru",
+          "size_name": "L",
+          "price": "339.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mulberry-silk-long-robe-p44118434.html?v1=553960455",
+          "images": [
+            "https://static.zara.net/assets/public/4fc3/497a/774f4fe1b401/0c0867c84fc1/44118434712-e1/44118434712-e1.jpg?ts=1784105939360&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4fc3/497a/774f4fe1b401/0c0867c84fc1/44118434712-e1/44118434712-e1.jpg?ts=1784105939360&w=1920",
+        "https://static.zara.net/assets/public/2330/48b4/28aa451989e9/e8404ae23c54/44118434712-e2/44118434712-e2.jpg?ts=1784105936396&w=1920",
+        "https://static.zara.net/assets/public/9c55/553a/7c8444a0afb4/f929bc5c23e0/44118434712-e3/44118434712-e3.jpg?ts=1784105935803&w=1920",
+        "https://static.zara.net/assets/public/0792/96e5/789b4052b5cd/b5deb6991bf3/44118434712-e4/44118434712-e4.jpg?ts=1784105936872&w=1920",
+        "https://static.zara.net/assets/public/944d/bdf6/62df47b5b0a3/97eec77054c0/44118434712-a1/44118434712-a1.jpg?ts=1788187098197&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "339.00",
+  "rendered_description": "Description\nLong robe crafted from mulberry silk. Features a long-sleeved design, a shawl collar, and a self-tie adjustable belt in the same fabric.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "339.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "339.00",
+    "dom_price": "339.00",
+    "normalized_price": "339.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "de2d41f61e364ce6525049a4db64d4283914333c32fff9d665c07b1b3c2e779d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

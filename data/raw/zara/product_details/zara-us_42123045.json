@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:42123045",
+  "source_url": "https://www.zara.com/us/en/metallic-picture-frame-p42123045.html",
+  "final_url": "https://www.zara.com/us/en/metallic-picture-frame-p42123045.html",
+  "canonical_url": "https://www.zara.com/us/en/metallic-picture-frame-p42123045.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "METALLIC PICTURE FRAME",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "METALLIC PICTURE FRAME",
+      "url": "https://www.zara.com/us/en/metallic-picture-frame-p42123045.html",
+      "productGroupID": "42123045",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Metal picture frame with a centered window.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/81f0/5371/963240b7b7f9/61892ddde77e/42123045808-e1/42123045808-e1.jpg?ts=1786516334526&w=1920",
+        "https://static.zara.net/assets/public/7455/9fad/1b3749b08911/867a36363845/42123045808-e2/42123045808-e2.jpg?ts=1786516334406&w=1920",
+        "https://static.zara.net/assets/public/5a0e/93f1/5db94775b092/88e78a5ae0b1/42123045808-e3/42123045808-e3.jpg?ts=1786516334735&w=1920",
+        "https://static.zara.net/assets/public/5ff0/4df2/db3349e087fc/059c6d83a16e/42123045808-e5/42123045808-e5.jpg?ts=1786516330174&w=1920",
+        "https://static.zara.net/assets/public/75bf/7a19/be7b40ea9c92/8497253739c6/42123045808-a1/42123045808-a1.jpg?ts=1786460377462&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "METALLIC PICTURE FRAME - Silver - 13.8 x 11.8 x 0.6 \"",
+          "sku": "545401195-808-1",
+          "mpn": "545401195-808-1",
+          "color": "Silver",
+          "size": "13.8 x 11.8 x 0.6 \"",
+          "image": [
+            "https://static.zara.net/assets/public/81f0/5371/963240b7b7f9/61892ddde77e/42123045808-e1/42123045808-e1.jpg?ts=1786516334526&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/metallic-picture-frame-p42123045.html?v1=545401195",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "METALLIC PICTURE FRAME",
+      "product_group_id": "42123045",
+      "brand": "ZARAHOME",
+      "description": "Metal picture frame with a centered window.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "METALLIC PICTURE FRAME - Silver - 13.8 x 11.8 x 0.6 \"",
+          "sku": "545401195-808-1",
+          "mpn": "545401195-808-1",
+          "color_name": "Silver",
+          "size_name": "13.8 x 11.8 x 0.6 \"",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-picture-frame-p42123045.html?v1=545401195",
+          "images": [
+            "https://static.zara.net/assets/public/81f0/5371/963240b7b7f9/61892ddde77e/42123045808-e1/42123045808-e1.jpg?ts=1786516334526&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/81f0/5371/963240b7b7f9/61892ddde77e/42123045808-e1/42123045808-e1.jpg?ts=1786516334526&w=1920",
+        "https://static.zara.net/assets/public/7455/9fad/1b3749b08911/867a36363845/42123045808-e2/42123045808-e2.jpg?ts=1786516334406&w=1920",
+        "https://static.zara.net/assets/public/5a0e/93f1/5db94775b092/88e78a5ae0b1/42123045808-e3/42123045808-e3.jpg?ts=1786516334735&w=1920",
+        "https://static.zara.net/assets/public/5ff0/4df2/db3349e087fc/059c6d83a16e/42123045808-e5/42123045808-e5.jpg?ts=1786516330174&w=1920",
+        "https://static.zara.net/assets/public/75bf/7a19/be7b40ea9c92/8497253739c6/42123045808-a1/42123045808-a1.jpg?ts=1786460377462&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nMetal picture frame with a centered window.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3e5e6a699b5452e30ad4b1040bb70e24346d0422124629807d27e7ead5814f27",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

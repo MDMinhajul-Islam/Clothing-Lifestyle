@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:46179072",
+  "source_url": "https://www.zara.com/us/en/oak-wood-bedside-table-p46179072.html",
+  "final_url": "https://www.zara.com/us/en/oak-wood-bedside-table-p46179072.html",
+  "canonical_url": "https://www.zara.com/us/en/oak-wood-bedside-table-p46179072.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "OAK WOOD BEDSIDE TABLE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "OAK WOOD BEDSIDE TABLE",
+      "url": "https://www.zara.com/us/en/oak-wood-bedside-table-p46179072.html",
+      "productGroupID": "46179072",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Bedside table crafted from oak wood. Rectangular design with two drawers of different sizes and a knob integrated into the wood itself.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ee6e/193e/24ce4643a7dc/48e15b03d2d2/46179072052-e1/46179072052-e1.jpg?ts=1785247968125&w=1920",
+        "https://static.zara.net/assets/public/0f92/fcfb/dd7642988bcd/04696e4ec61c/46179072052-e2/46179072052-e2.jpg?ts=1785247968519&w=1920",
+        "https://static.zara.net/assets/public/94d1/4a97/f19243bb9794/d53b1b9ab1a6/46179072052-e3/46179072052-e3.jpg?ts=1785247968611&w=1920",
+        "https://static.zara.net/assets/public/c404/c3f7/5f7e47b6bbc5/cd42e1a3e117/46179072052-e4/46179072052-e4.jpg?ts=1785247968555&w=1920",
+        "https://static.zara.net/assets/public/3ad6/abf3/3fa14ccaad27/ec60d9160fab/46179072052-a1/46179072052-a1.jpg?ts=1785241006702&w=1920"
+      ],
+      "material": "100% oak wood",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% oak wood"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "OAK WOOD BEDSIDE TABLE - Light beige - ONE SIZE ONLY",
+          "sku": "545426596-052-99",
+          "mpn": "545426596-052-99",
+          "color": "Light beige",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ee6e/193e/24ce4643a7dc/48e15b03d2d2/46179072052-e1/46179072052-e1.jpg?ts=1785247968125&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "299",
+            "url": "https://www.zara.com/us/en/oak-wood-bedside-table-p46179072.html?v1=545426596",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "OAK WOOD BEDSIDE TABLE",
+      "product_group_id": "46179072",
+      "brand": "ZARAHOME",
+      "description": "Bedside table crafted from oak wood. Rectangular design with two drawers of different sizes and a knob integrated into the wood itself.",
+      "material": "100% oak wood",
+      "composition": "OUTER SHELL: 100% oak wood",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "OAK WOOD BEDSIDE TABLE - Light beige - ONE SIZE ONLY",
+          "sku": "545426596-052-99",
+          "mpn": "545426596-052-99",
+          "color_name": "Light beige",
+          "size_name": "ONE SIZE ONLY",
+          "price": "299.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/oak-wood-bedside-table-p46179072.html?v1=545426596",
+          "images": [
+            "https://static.zara.net/assets/public/ee6e/193e/24ce4643a7dc/48e15b03d2d2/46179072052-e1/46179072052-e1.jpg?ts=1785247968125&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ee6e/193e/24ce4643a7dc/48e15b03d2d2/46179072052-e1/46179072052-e1.jpg?ts=1785247968125&w=1920",
+        "https://static.zara.net/assets/public/0f92/fcfb/dd7642988bcd/04696e4ec61c/46179072052-e2/46179072052-e2.jpg?ts=1785247968519&w=1920",
+        "https://static.zara.net/assets/public/94d1/4a97/f19243bb9794/d53b1b9ab1a6/46179072052-e3/46179072052-e3.jpg?ts=1785247968611&w=1920",
+        "https://static.zara.net/assets/public/c404/c3f7/5f7e47b6bbc5/cd42e1a3e117/46179072052-e4/46179072052-e4.jpg?ts=1785247968555&w=1920",
+        "https://static.zara.net/assets/public/3ad6/abf3/3fa14ccaad27/ec60d9160fab/46179072052-a1/46179072052-a1.jpg?ts=1785241006702&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "299.00",
+  "rendered_description": "Description\nBedside table crafted from oak wood. Rectangular design with two drawers of different sizes and a knob integrated into the wood itself.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "299.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "299.00",
+    "dom_price": "299.00",
+    "normalized_price": "299.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d6e70b18c83777fd58fdf7f3102fb6406e2c5411c4d16477379613ae3ed1721b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

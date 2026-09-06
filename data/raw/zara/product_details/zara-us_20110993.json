@@ -1,0 +1,115 @@
+{
+  "product_id": "zara-us:20110993",
+  "source_url": "https://www.zara.com/us/en/orange-blossom-eau-de-parfum-100ml--3-4-fl--oz---p20110993.html",
+  "final_url": "https://www.zara.com/us/en/orange-blossom-eau-de-parfum-100ml--3-4-fl--oz---p20110993.html",
+  "canonical_url": "https://www.zara.com/us/en/orange-blossom-eau-de-parfum-100ml--3-4-fl--oz---p20110993.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ORANGE BLOSSOM EDP 100 ML (3.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/orange-blossom-eau-de-parfum-100ml--3-4-fl--oz---p20110993.html",
+      "productGroupID": "20110993",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "ORANGE BLOSSOM EDP 100 ML (3.4 FL. OZ.). A luminous floral fragrance centered on the delicacy of orange blossom. Neroli provides a brilliant freshness, while orange blossom reveals a soft and elegant floral heart. White musk envelops the composition in a clean, embracing sensation that melts into the skin.\n\nA collection created by Ms. Jo Malone CBE, founder of Jo Loves.\n\nMusky floral | Luminous, soft, and bright",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1f30/47d9/ba6040da92c3/1e8b80999672/20110993999-000-e20/20110993999-000-e20.jpg?ts=1781509571678&w=1920",
+        "https://static.zara.net/assets/public/cbdb/6f16/69c0496ca898/4029bc6ae82f/20110993999-000-e21/20110993999-000-e21.jpg?ts=1781509569336&w=1920",
+        "https://static.zara.net/assets/public/dfad/8d1c/fdbb409295d6/04e339f3a32e/20110993999-000-e22/20110993999-000-e22.jpg?ts=1781509569685&w=1920",
+        "https://static.zara.net/assets/public/c5bf/6274/c95c40f29c48/75b7ab0b8e65/20110993999-000-e38/20110993999-000-e38.jpg?ts=1781509570590&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ORANGE BLOSSOM EDP 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545461262-999-99",
+          "mpn": "545461262-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/1f30/47d9/ba6040da92c3/1e8b80999672/20110993999-000-e20/20110993999-000-e20.jpg?ts=1781509571678&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/orange-blossom-eau-de-parfum-100ml--3-4-fl--oz---p20110993.html?v1=545461262",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ORANGE BLOSSOM EDP 100 ML (3.4 FL. OZ.)",
+      "product_group_id": "20110993",
+      "brand": "ZARA",
+      "description": "ORANGE BLOSSOM EDP 100 ML (3.4 FL. OZ.). A luminous floral fragrance centered on the delicacy of orange blossom. Neroli provides a brilliant freshness, while orange blossom reveals a soft and elegant floral heart. White musk envelops the composition in a clean, embracing sensation that melts into the skin.\n\nA collection created by Ms. Jo Malone CBE, founder of Jo Loves.\n\nMusky floral | Luminous, soft, and bright",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ORANGE BLOSSOM EDP 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545461262-999-99",
+          "mpn": "545461262-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "59.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/orange-blossom-eau-de-parfum-100ml--3-4-fl--oz---p20110993.html?v1=545461262",
+          "images": [
+            "https://static.zara.net/assets/public/1f30/47d9/ba6040da92c3/1e8b80999672/20110993999-000-e20/20110993999-000-e20.jpg?ts=1781509571678&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1f30/47d9/ba6040da92c3/1e8b80999672/20110993999-000-e20/20110993999-000-e20.jpg?ts=1781509571678&w=1920",
+        "https://static.zara.net/assets/public/cbdb/6f16/69c0496ca898/4029bc6ae82f/20110993999-000-e21/20110993999-000-e21.jpg?ts=1781509569336&w=1920",
+        "https://static.zara.net/assets/public/dfad/8d1c/fdbb409295d6/04e339f3a32e/20110993999-000-e22/20110993999-000-e22.jpg?ts=1781509569685&w=1920",
+        "https://static.zara.net/assets/public/c5bf/6274/c95c40f29c48/75b7ab0b8e65/20110993999-000-e38/20110993999-000-e38.jpg?ts=1781509570590&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nORANGE BLOSSOM EDP 100 ML (3.4 FL. OZ.). A luminous floral fragrance centered on the delicacy of orange blossom. Neroli provides a brilliant freshness, while orange blossom reveals a soft and elegant floral heart. White musk envelops the composition in a clean, embracing sensation that melts into the skin.\nA collection created by Ms. Jo Malone CBE, founder of Jo Loves.\nMusky floral | Luminous, soft, and bright",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b61cc7419a0fd9dfaceb80357ae10960798cffb32c2187229e5d986cef296a93",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

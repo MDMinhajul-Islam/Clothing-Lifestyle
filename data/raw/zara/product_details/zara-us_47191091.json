@@ -1,0 +1,193 @@
+{
+  "product_id": "zara-us:47191091",
+  "source_url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html",
+  "final_url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html",
+  "canonical_url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FADED STRIPED COTTON PILLOWCASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FADED STRIPED COTTON PILLOWCASE",
+      "url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html",
+      "productGroupID": "47191091",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pillowcase made of cotton with a faded effect. Fine stripe design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/922c/565c/82394b2bbfa3/40e388d4b9d7/47191091700-e1/47191091700-e1.jpg?ts=1787154683235&w=1920",
+        "https://static.zara.net/assets/public/1dfd/2db3/64ba4758bcbe/1dad2fd939de/47191091700-e2/47191091700-e2.jpg?ts=1786014073650&w=1920",
+        "https://static.zara.net/assets/public/da84/74bf/a6394015b753/e6b9db394a9d/47191091700-e3/47191091700-e3.jpg?ts=1786014073533&w=1920",
+        "https://static.zara.net/assets/public/0910/a7e5/937547be96a2/6a7b3adb5556/47191091700-e4/47191091700-e4.jpg?ts=1786014073329&w=1920",
+        "https://static.zara.net/assets/public/d285/e403/c8d042889449/449d5e38f9fa/47191091700-e5/47191091700-e5.jpg?ts=1786014073331&w=1920",
+        "https://static.zara.net/assets/public/3dd6/69d1/ce2343b09a31/b274765fd855/47191091700-a1/47191091700-a1.jpg?ts=1786528491866&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FADED STRIPED COTTON PILLOWCASE - Brown - (SET OF 2)",
+          "sku": "550871656-700-27",
+          "mpn": "550871656-700-27",
+          "color": "Brown",
+          "size": "(SET OF 2)",
+          "image": [
+            "https://static.zara.net/assets/public/922c/565c/82394b2bbfa3/40e388d4b9d7/47191091700-e1/47191091700-e1.jpg?ts=1787154683235&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html?v1=550871656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FADED STRIPED COTTON PILLOWCASE - Brown - (SET OF 2)",
+          "sku": "550871656-700-28",
+          "mpn": "550871656-700-28",
+          "color": "Brown",
+          "size": "(SET OF 2)",
+          "image": [
+            "https://static.zara.net/assets/public/922c/565c/82394b2bbfa3/40e388d4b9d7/47191091700-e1/47191091700-e1.jpg?ts=1787154683235&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html?v1=550871656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FADED STRIPED COTTON PILLOWCASE - Brown - (SET OF 2)",
+          "sku": "550871656-700-29",
+          "mpn": "550871656-700-29",
+          "color": "Brown",
+          "size": "(SET OF 2)",
+          "image": [
+            "https://static.zara.net/assets/public/922c/565c/82394b2bbfa3/40e388d4b9d7/47191091700-e1/47191091700-e1.jpg?ts=1787154683235&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html?v1=550871656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FADED STRIPED COTTON PILLOWCASE",
+      "product_group_id": "47191091",
+      "brand": "ZARAHOME",
+      "description": "Pillowcase made of cotton with a faded effect. Fine stripe design.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FADED STRIPED COTTON PILLOWCASE - Brown - (SET OF 2)",
+          "sku": "550871656-700-27",
+          "mpn": "550871656-700-27",
+          "color_name": "Brown",
+          "size_name": "(SET OF 2)",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html?v1=550871656",
+          "images": [
+            "https://static.zara.net/assets/public/922c/565c/82394b2bbfa3/40e388d4b9d7/47191091700-e1/47191091700-e1.jpg?ts=1787154683235&w=1920"
+          ]
+        },
+        {
+          "name": "FADED STRIPED COTTON PILLOWCASE - Brown - (SET OF 2)",
+          "sku": "550871656-700-28",
+          "mpn": "550871656-700-28",
+          "color_name": "Brown",
+          "size_name": "(SET OF 2)",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html?v1=550871656",
+          "images": [
+            "https://static.zara.net/assets/public/922c/565c/82394b2bbfa3/40e388d4b9d7/47191091700-e1/47191091700-e1.jpg?ts=1787154683235&w=1920"
+          ]
+        },
+        {
+          "name": "FADED STRIPED COTTON PILLOWCASE - Brown - (SET OF 2)",
+          "sku": "550871656-700-29",
+          "mpn": "550871656-700-29",
+          "color_name": "Brown",
+          "size_name": "(SET OF 2)",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faded-striped-cotton-pillowcase-p47191091.html?v1=550871656",
+          "images": [
+            "https://static.zara.net/assets/public/922c/565c/82394b2bbfa3/40e388d4b9d7/47191091700-e1/47191091700-e1.jpg?ts=1787154683235&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/922c/565c/82394b2bbfa3/40e388d4b9d7/47191091700-e1/47191091700-e1.jpg?ts=1787154683235&w=1920",
+        "https://static.zara.net/assets/public/1dfd/2db3/64ba4758bcbe/1dad2fd939de/47191091700-e2/47191091700-e2.jpg?ts=1786014073650&w=1920",
+        "https://static.zara.net/assets/public/da84/74bf/a6394015b753/e6b9db394a9d/47191091700-e3/47191091700-e3.jpg?ts=1786014073533&w=1920",
+        "https://static.zara.net/assets/public/0910/a7e5/937547be96a2/6a7b3adb5556/47191091700-e4/47191091700-e4.jpg?ts=1786014073329&w=1920",
+        "https://static.zara.net/assets/public/d285/e403/c8d042889449/449d5e38f9fa/47191091700-e5/47191091700-e5.jpg?ts=1786014073331&w=1920",
+        "https://static.zara.net/assets/public/3dd6/69d1/ce2343b09a31/b274765fd855/47191091700-a1/47191091700-a1.jpg?ts=1786528491866&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nPillowcase made of cotton with a faded effect. Fine stripe design.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3891fc1f458f2eaf0ec524542659c0b41f77806074f8ab6e55abad466fe50472",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

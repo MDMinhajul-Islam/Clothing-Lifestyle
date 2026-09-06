@@ -1,0 +1,168 @@
+{
+  "product_id": "zara-us:48315728",
+  "source_url": "https://www.zara.com/us/en/iron-case-%7C-0fr--paris-p48315728.html",
+  "final_url": "https://www.zara.com/us/en/iron-case-%7C-0fr--paris-p48315728.html",
+  "canonical_url": "https://www.zara.com/us/en/iron-case-%7C-0fr--paris-p48315728.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "IRON CASE | 0FR. PARIS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "IRON CASE | 0FR. PARIS",
+      "url": "https://www.zara.com/us/en/iron-case-%7C-0fr--paris-p48315728.html",
+      "productGroupID": "48315728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Solid-colored iron case. Rectangular design with rounded corners, removable lid, and 0fr. Paris logo detail on top. 0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/288c/eeb6/1e6748bcbb9d/ea886cf70953/48315728400-e1/48315728400-e1.jpg?ts=1787586972691&w=1920",
+        "https://static.zara.net/assets/public/3c89/98c5/fa324d17b97d/fef5990f6b97/48315728400-e2/48315728400-e2.jpg?ts=1787586973084&w=1920",
+        "https://static.zara.net/assets/public/f5fc/d6fb/f0d4471f8747/7e6f5e605585/48315728400-e3/48315728400-e3.jpg?ts=1787586965328&w=1920",
+        "https://static.zara.net/assets/public/1bbd/8a37/73b1480bacd2/8a348f3c529a/48315728400-e4/48315728400-e4.jpg?ts=1787586965711&w=1920",
+        "https://static.zara.net/assets/public/de9a/a718/240a4902a4a0/acb57a485038/8315728400-e15/8315728400-e15.jpg?ts=1787643682749&w=1920",
+        "https://static.zara.net/assets/public/fa38/6ac5/5f76451a8d91/11b23af117d9/8315728400-e16/8315728400-e16.jpg?ts=1787643681475&w=1920",
+        "https://static.zara.net/assets/public/06ee/402f/3fad48ac8340/43cc18121868/8315728400-e17/8315728400-e17.jpg?ts=1787643681762&w=1920",
+        "https://static.zara.net/assets/public/8972/2158/90f5443fb194/43308bbe680c/48315728400-a1/48315728400-a1.jpg?ts=1788258210540&w=1920"
+      ],
+      "material": "100% iron",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% iron"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "IRON CASE | 0FR. PARIS - Blue - ONE SIZE ONLY",
+          "sku": "566847393-400-99",
+          "mpn": "566847393-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/288c/eeb6/1e6748bcbb9d/ea886cf70953/48315728400-e1/48315728400-e1.jpg?ts=1787586972691&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/iron-case-%7C-0fr--paris-p48315728.html?v1=566847393",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "IRON CASE | 0FR. PARIS - Green - ONE SIZE ONLY",
+          "sku": "566847393-500-99",
+          "mpn": "566847393-500-99",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a6c4/d724/ef1c4eee8094/284578671488/48315728500-e1/48315728500-e1.jpg?ts=1787586964788&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/iron-case-%7C-0fr--paris-p48315728.html?v1=566847394",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "IRON CASE | 0FR. PARIS",
+      "product_group_id": "48315728",
+      "brand": "ZARAHOME",
+      "description": "Solid-colored iron case. Rectangular design with rounded corners, removable lid, and 0fr. Paris logo detail on top. 0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+      "material": "100% iron",
+      "composition": "OUTER SHELL: 100% iron",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "IRON CASE | 0FR. PARIS - Blue - ONE SIZE ONLY",
+          "sku": "566847393-400-99",
+          "mpn": "566847393-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/iron-case-%7C-0fr--paris-p48315728.html?v1=566847393",
+          "images": [
+            "https://static.zara.net/assets/public/288c/eeb6/1e6748bcbb9d/ea886cf70953/48315728400-e1/48315728400-e1.jpg?ts=1787586972691&w=1920"
+          ]
+        },
+        {
+          "name": "IRON CASE | 0FR. PARIS - Green - ONE SIZE ONLY",
+          "sku": "566847393-500-99",
+          "mpn": "566847393-500-99",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/iron-case-%7C-0fr--paris-p48315728.html?v1=566847394",
+          "images": [
+            "https://static.zara.net/assets/public/a6c4/d724/ef1c4eee8094/284578671488/48315728500-e1/48315728500-e1.jpg?ts=1787586964788&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/288c/eeb6/1e6748bcbb9d/ea886cf70953/48315728400-e1/48315728400-e1.jpg?ts=1787586972691&w=1920",
+        "https://static.zara.net/assets/public/3c89/98c5/fa324d17b97d/fef5990f6b97/48315728400-e2/48315728400-e2.jpg?ts=1787586973084&w=1920",
+        "https://static.zara.net/assets/public/f5fc/d6fb/f0d4471f8747/7e6f5e605585/48315728400-e3/48315728400-e3.jpg?ts=1787586965328&w=1920",
+        "https://static.zara.net/assets/public/1bbd/8a37/73b1480bacd2/8a348f3c529a/48315728400-e4/48315728400-e4.jpg?ts=1787586965711&w=1920",
+        "https://static.zara.net/assets/public/de9a/a718/240a4902a4a0/acb57a485038/8315728400-e15/8315728400-e15.jpg?ts=1787643682749&w=1920",
+        "https://static.zara.net/assets/public/fa38/6ac5/5f76451a8d91/11b23af117d9/8315728400-e16/8315728400-e16.jpg?ts=1787643681475&w=1920",
+        "https://static.zara.net/assets/public/06ee/402f/3fad48ac8340/43cc18121868/8315728400-e17/8315728400-e17.jpg?ts=1787643681762&w=1920",
+        "https://static.zara.net/assets/public/8972/2158/90f5443fb194/43308bbe680c/48315728400-a1/48315728400-a1.jpg?ts=1788258210540&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Green"
+  ],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nSolid-colored iron case. Rectangular design with rounded corners, removable lid, and 0fr. Paris logo detail on top. 0fr. Paris is an independent bookstore, art gallery, publishing house, and cultural space founded in 1996 in Paris.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 9,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "086eff115fdea0dbe06a86fcab03aecd27b22a39af82b60162b2cbd049fbdf5f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,115 @@
+{
+  "product_id": "zara-us:20120874",
+  "source_url": "https://www.zara.com/us/en/twilight-mauve-edt-90-ml--3-04-fl--oz---p20120874.html",
+  "final_url": "https://www.zara.com/us/en/twilight-mauve-edt-90-ml--3-04-fl--oz---p20120874.html",
+  "canonical_url": "https://www.zara.com/us/en/twilight-mauve-edt-90-ml--3-04-fl--oz---p20120874.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TWILIGHT MAUVE",
+    "WEEKEND | EAU DE TOILETTE",
+    "Description",
+    "You might like",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TWILIGHT MAUVE EDT 90 ML (3.04 FL. OZ).",
+      "url": "https://www.zara.com/us/en/twilight-mauve-edt-90-ml--3-04-fl--oz---p20120874.html",
+      "productGroupID": "20120874",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "TWILIGHT MAUVE EDT 90 ML (3.04 FL. OZ). Fig leaf introduces a green and slightly milky nuance that adds freshness and texture. The fig accord becomes creamy and enveloping, while white musk provides a soft and clean base that blends naturally with the skin.\n\nWoody floral | Soft, elegant, and enveloping",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ba82/d5ff/337f4f8fb4f9/cfe9e7f2d9cd/20120874999-e20/20120874999-e20.jpg?ts=1774540703118&w=1920",
+        "https://static.zara.net/assets/public/0ebc/0fef/42c142239d4f/da990ac99525/20120874999-e21/20120874999-e21.jpg?ts=1774540702522&w=1920",
+        "https://static.zara.net/assets/public/fb9f/1c9b/d89c43a7836a/503abd0376e1/20120874999-e38/20120874999-e38.jpg?ts=1774531349789&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TWILIGHT MAUVE EDT 90 ML (3.04 FL. OZ). - ONE SIZE ONLY",
+          "sku": "547042334-999-99",
+          "mpn": "547042334-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ba82/d5ff/337f4f8fb4f9/cfe9e7f2d9cd/20120874999-e20/20120874999-e20.jpg?ts=1774540703118&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/twilight-mauve-edt-90-ml--3-04-fl--oz---p20120874.html?v1=547042334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TWILIGHT MAUVE EDT 90 ML (3.04 FL. OZ).",
+      "product_group_id": "20120874",
+      "brand": "ZARA",
+      "description": "TWILIGHT MAUVE EDT 90 ML (3.04 FL. OZ). Fig leaf introduces a green and slightly milky nuance that adds freshness and texture. The fig accord becomes creamy and enveloping, while white musk provides a soft and clean base that blends naturally with the skin.\n\nWoody floral | Soft, elegant, and enveloping",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TWILIGHT MAUVE EDT 90 ML (3.04 FL. OZ). - ONE SIZE ONLY",
+          "sku": "547042334-999-99",
+          "mpn": "547042334-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/twilight-mauve-edt-90-ml--3-04-fl--oz---p20120874.html?v1=547042334",
+          "images": [
+            "https://static.zara.net/assets/public/ba82/d5ff/337f4f8fb4f9/cfe9e7f2d9cd/20120874999-e20/20120874999-e20.jpg?ts=1774540703118&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ba82/d5ff/337f4f8fb4f9/cfe9e7f2d9cd/20120874999-e20/20120874999-e20.jpg?ts=1774540703118&w=1920",
+        "https://static.zara.net/assets/public/0ebc/0fef/42c142239d4f/da990ac99525/20120874999-e21/20120874999-e21.jpg?ts=1774540702522&w=1920",
+        "https://static.zara.net/assets/public/fb9f/1c9b/d89c43a7836a/503abd0376e1/20120874999-e38/20120874999-e38.jpg?ts=1774531349789&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nTWILIGHT MAUVE EDT 90 ML (3.04 FL. OZ). Fig leaf introduces a green and slightly milky nuance that adds freshness and texture. The fig accord becomes creamy and enveloping, while white musk provides a soft and clean base that blends naturally with the skin.\nWoody floral | Soft, elegant, and enveloping",
+  "comp_care_text": null,
+  "raw_images_count": 84,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "cc4756486535043b3569540cc26ea8877a14c6f3192b2b7cc766fa70207fa7a5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

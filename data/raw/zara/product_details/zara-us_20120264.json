@@ -1,0 +1,113 @@
+{
+  "product_id": "zara-us:20120264",
+  "source_url": "https://www.zara.com/us/en/coeur-nocturne-solid-perfume-1-6-g--0-06-oz--p20120264.html",
+  "final_url": "https://www.zara.com/us/en/coeur-nocturne-solid-perfume-1-6-g--0-06-oz--p20120264.html",
+  "canonical_url": "https://www.zara.com/us/en/coeur-nocturne-solid-perfume-1-6-g--0-06-oz--p20120264.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SOLID PERFUME",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COEUR NOCTURNE SOLID PERFUME 1.6 G (0.06 OZ)",
+      "url": "https://www.zara.com/us/en/coeur-nocturne-solid-perfume-1-6-g--0-06-oz--p20120264.html",
+      "productGroupID": "20120264",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "COEUR NOCTURNE SOLID PERFUME 1.6 G (0.06 OZ). The solid version of Coeur Nocturne, ideal for reapplying the fragrance throughout the day. Applied to pulse points, it intensifies and prolongs its trail, revealing the radiance of orange blossom, the elegance of patchouli, and the contemporary depth of ambrox.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4249/ff67/92714be09416/926e8f92cc78/20120264999-e1/20120264999-e1.jpg?ts=1784113028615&w=1920",
+        "https://static.zara.net/assets/public/cac2/c0f4/0e4e430480ea/f5cae3d78545/20120264999-e2/20120264999-e2.jpg?ts=1784113029209&w=1920",
+        "https://static.zara.net/assets/public/8ad0/1e14/6ebf4fc8b757/f442fd0cd5b7/20120264999-e3/20120264999-e3.jpg?ts=1784127668677&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COEUR NOCTURNE SOLID PERFUME 1.6 G (0.06 OZ) - TINTED LEATHER - ONE SIZE ONLY",
+          "sku": "545494566-999-99",
+          "mpn": "545494566-999-99",
+          "color": "TINTED LEATHER",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/4249/ff67/92714be09416/926e8f92cc78/20120264999-e1/20120264999-e1.jpg?ts=1784113028615&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/coeur-nocturne-solid-perfume-1-6-g--0-06-oz--p20120264.html?v1=545494566",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COEUR NOCTURNE SOLID PERFUME 1.6 G (0.06 OZ)",
+      "product_group_id": "20120264",
+      "brand": "ZARA",
+      "description": "COEUR NOCTURNE SOLID PERFUME 1.6 G (0.06 OZ). The solid version of Coeur Nocturne, ideal for reapplying the fragrance throughout the day. Applied to pulse points, it intensifies and prolongs its trail, revealing the radiance of orange blossom, the elegance of patchouli, and the contemporary depth of ambrox.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COEUR NOCTURNE SOLID PERFUME 1.6 G (0.06 OZ) - TINTED LEATHER - ONE SIZE ONLY",
+          "sku": "545494566-999-99",
+          "mpn": "545494566-999-99",
+          "color_name": "TINTED LEATHER",
+          "size_name": "ONE SIZE ONLY",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/coeur-nocturne-solid-perfume-1-6-g--0-06-oz--p20120264.html?v1=545494566",
+          "images": [
+            "https://static.zara.net/assets/public/4249/ff67/92714be09416/926e8f92cc78/20120264999-e1/20120264999-e1.jpg?ts=1784113028615&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4249/ff67/92714be09416/926e8f92cc78/20120264999-e1/20120264999-e1.jpg?ts=1784113028615&w=1920",
+        "https://static.zara.net/assets/public/cac2/c0f4/0e4e430480ea/f5cae3d78545/20120264999-e2/20120264999-e2.jpg?ts=1784113029209&w=1920",
+        "https://static.zara.net/assets/public/8ad0/1e14/6ebf4fc8b757/f442fd0cd5b7/20120264999-e3/20120264999-e3.jpg?ts=1784127668677&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "19.90",
+  "rendered_description": "Description\nCOEUR NOCTURNE SOLID PERFUME 1.6 G (0.06 OZ). The solid version of Coeur Nocturne, ideal for reapplying the fragrance throughout the day. Applied to pulse points, it intensifies and prolongs its trail, revealing the radiance of orange blossom, the elegance of patchouli, and the contemporary depth of ambrox.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "19.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "19.90",
+    "dom_price": "19.90",
+    "normalized_price": "19.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "04218c33c8d3ae53ffc5408851e9e06d517c44bc5fe8dc3ae420dc5c988d3a20",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20120919",
+  "source_url": "https://www.zara.com/us/en/cocoa-bliss-edp-100-ml--3-4-fl--oz---p20120919.html",
+  "final_url": "https://www.zara.com/us/en/cocoa-bliss-edp-100-ml--3-4-fl--oz---p20120919.html",
+  "canonical_url": "https://www.zara.com/us/en/cocoa-bliss-edp-100-ml--3-4-fl--oz---p20120919.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COCOA BLISS",
+    "EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COCOA BLISS EDP 100 ML (3.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/cocoa-bliss-edp-100-ml--3-4-fl--oz---p20120919.html",
+      "productGroupID": "20120919",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "COCOA BLISS EDP 100 ML (3.4 FL. OZ.). Passion fruit and peach provide a bright, juicy opening that awakens the senses. Dark chocolate appears deep and enveloping, creating an intense gourmand texture that melts into the skin with warm, sophisticated sensuality. An indulgent fragrance that balances fruity freshness with dark sweetness.\n\nFruity amber gourmand | Intense, juicy and seductive",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2478/88fa/624f4849a447/f07b5be965c0/20120919999-e20/20120919999-e20.jpg?ts=1777027567153&w=1920",
+        "https://static.zara.net/assets/public/9d4f/43bf/5fe14d2db5d0/6f7717d51516/20120919999-e21/20120919999-e21.jpg?ts=1777027568844&w=1920",
+        "https://static.zara.net/assets/public/c8a2/fb84/9aa04505803f/65d708ed7890/20120919999-e38/20120919999-e38.jpg?ts=1774524461134&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COCOA BLISS EDP 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545470243-999-99",
+          "mpn": "545470243-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2478/88fa/624f4849a447/f07b5be965c0/20120919999-e20/20120919999-e20.jpg?ts=1777027567153&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cocoa-bliss-edp-100-ml--3-4-fl--oz---p20120919.html?v1=545470243",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COCOA BLISS EDP 100 ML (3.4 FL. OZ.)",
+      "product_group_id": "20120919",
+      "brand": "ZARA",
+      "description": "COCOA BLISS EDP 100 ML (3.4 FL. OZ.). Passion fruit and peach provide a bright, juicy opening that awakens the senses. Dark chocolate appears deep and enveloping, creating an intense gourmand texture that melts into the skin with warm, sophisticated sensuality. An indulgent fragrance that balances fruity freshness with dark sweetness.\n\nFruity amber gourmand | Intense, juicy and seductive",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COCOA BLISS EDP 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545470243-999-99",
+          "mpn": "545470243-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cocoa-bliss-edp-100-ml--3-4-fl--oz---p20120919.html?v1=545470243",
+          "images": [
+            "https://static.zara.net/assets/public/2478/88fa/624f4849a447/f07b5be965c0/20120919999-e20/20120919999-e20.jpg?ts=1777027567153&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2478/88fa/624f4849a447/f07b5be965c0/20120919999-e20/20120919999-e20.jpg?ts=1777027567153&w=1920",
+        "https://static.zara.net/assets/public/9d4f/43bf/5fe14d2db5d0/6f7717d51516/20120919999-e21/20120919999-e21.jpg?ts=1777027568844&w=1920",
+        "https://static.zara.net/assets/public/c8a2/fb84/9aa04505803f/65d708ed7890/20120919999-e38/20120919999-e38.jpg?ts=1774524461134&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nCOCOA BLISS EDP 100 ML (3.4 FL. OZ.). Passion fruit and peach provide a bright, juicy opening that awakens the senses. Dark chocolate appears deep and enveloping, creating an intense gourmand texture that melts into the skin with warm, sophisticated sensuality. An indulgent fragrance that balances fruity freshness with dark sweetness.\nFruity amber gourmand | Intense, juicy and seductive",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "753b682d46c81347c731895445a936f710242a072b6bcbacad70c5dfe616e039",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,485 @@
+{
+  "product_id": "zara-us:01063600",
+  "source_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html",
+  "final_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html",
+  "canonical_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "POCKET CARGO PANTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "POCKET CARGO PANTS",
+      "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html",
+      "productGroupID": "01063600",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Cargo-style pants with an elastic waistband, button closure, and front adjustable drawstrings. Features front pockets, back welt pocket detailing, and side flap patch pockets.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920",
+        "https://static.zara.net/assets/public/9b0a/434b/894f4df68a2d/b5dfe08784ed/01063600305-e2/01063600305-e2.jpg?ts=1784802590157&w=1920",
+        "https://static.zara.net/assets/public/737d/e85b/dbdb4be8a36c/005af0ef14d4/01063600305-e3/01063600305-e3.jpg?ts=1784802590940&w=1920",
+        "https://static.zara.net/assets/public/59c5/e14d/ed7943d4951c/0abb41d9385a/01063600305-e4/01063600305-e4.jpg?ts=1784802602270&w=1920",
+        "https://static.zara.net/assets/public/7e5a/8c73/e74443cf849a/9a31c0d45fb6/01063600305-p/01063600305-p.jpg?ts=1785332048020&w=1920",
+        "https://static.zara.net/assets/public/d241/097d/a5b94439959d/adbd96349e4e/01063600305-a1/01063600305-a1.jpg?ts=1785332047934&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Mustard - 6-7 years (48,0 INCHES)",
+          "sku": "569384298-305-7",
+          "mpn": "569384298-305-7",
+          "color": "Mustard",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Mustard - 7-8 years (50,4 INCHES)",
+          "sku": "569384298-305-8",
+          "mpn": "569384298-305-8",
+          "color": "Mustard",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Mustard - 8-9 years (52,7 INCHES)",
+          "sku": "569384298-305-9",
+          "mpn": "569384298-305-9",
+          "color": "Mustard",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Mustard - 9-10 years (55,1 INCHES)",
+          "sku": "569384298-305-10",
+          "mpn": "569384298-305-10",
+          "color": "Mustard",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Mustard - 11-12 years (59,8 INCHES)",
+          "sku": "569384298-305-12",
+          "mpn": "569384298-305-12",
+          "color": "Mustard",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Mustard - 13-14 years (64,6 INCHES)",
+          "sku": "569384298-305-14",
+          "mpn": "569384298-305-14",
+          "color": "Mustard",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Ink blue - 6-7 years (48,0 INCHES)",
+          "sku": "569384298-430-7",
+          "mpn": "569384298-430-7",
+          "color": "Ink blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Ink blue - 7-8 years (50,4 INCHES)",
+          "sku": "569384298-430-8",
+          "mpn": "569384298-430-8",
+          "color": "Ink blue",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Ink blue - 8-9 years (52,7 INCHES)",
+          "sku": "569384298-430-9",
+          "mpn": "569384298-430-9",
+          "color": "Ink blue",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Ink blue - 9-10 years (55,1 INCHES)",
+          "sku": "569384298-430-10",
+          "mpn": "569384298-430-10",
+          "color": "Ink blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Ink blue - 11-12 years (59,8 INCHES)",
+          "sku": "569384298-430-12",
+          "mpn": "569384298-430-12",
+          "color": "Ink blue",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POCKET CARGO PANTS - Ink blue - 13-14 years (64,6 INCHES)",
+          "sku": "569384298-430-14",
+          "mpn": "569384298-430-14",
+          "color": "Ink blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "POCKET CARGO PANTS",
+      "product_group_id": "01063600",
+      "brand": "ZARA",
+      "description": "Cargo-style pants with an elastic waistband, button closure, and front adjustable drawstrings. Features front pockets, back welt pocket detailing, and side flap patch pockets.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "POCKET CARGO PANTS - Mustard - 6-7 years (48,0 INCHES)",
+          "sku": "569384298-305-7",
+          "mpn": "569384298-305-7",
+          "color_name": "Mustard",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+          "images": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Mustard - 7-8 years (50,4 INCHES)",
+          "sku": "569384298-305-8",
+          "mpn": "569384298-305-8",
+          "color_name": "Mustard",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+          "images": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Mustard - 8-9 years (52,7 INCHES)",
+          "sku": "569384298-305-9",
+          "mpn": "569384298-305-9",
+          "color_name": "Mustard",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+          "images": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Mustard - 9-10 years (55,1 INCHES)",
+          "sku": "569384298-305-10",
+          "mpn": "569384298-305-10",
+          "color_name": "Mustard",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+          "images": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Mustard - 11-12 years (59,8 INCHES)",
+          "sku": "569384298-305-12",
+          "mpn": "569384298-305-12",
+          "color_name": "Mustard",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+          "images": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Mustard - 13-14 years (64,6 INCHES)",
+          "sku": "569384298-305-14",
+          "mpn": "569384298-305-14",
+          "color_name": "Mustard",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384298",
+          "images": [
+            "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Ink blue - 6-7 years (48,0 INCHES)",
+          "sku": "569384298-430-7",
+          "mpn": "569384298-430-7",
+          "color_name": "Ink blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+          "images": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Ink blue - 7-8 years (50,4 INCHES)",
+          "sku": "569384298-430-8",
+          "mpn": "569384298-430-8",
+          "color_name": "Ink blue",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+          "images": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Ink blue - 8-9 years (52,7 INCHES)",
+          "sku": "569384298-430-9",
+          "mpn": "569384298-430-9",
+          "color_name": "Ink blue",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+          "images": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Ink blue - 9-10 years (55,1 INCHES)",
+          "sku": "569384298-430-10",
+          "mpn": "569384298-430-10",
+          "color_name": "Ink blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+          "images": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Ink blue - 11-12 years (59,8 INCHES)",
+          "sku": "569384298-430-12",
+          "mpn": "569384298-430-12",
+          "color_name": "Ink blue",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+          "images": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ]
+        },
+        {
+          "name": "POCKET CARGO PANTS - Ink blue - 13-14 years (64,6 INCHES)",
+          "sku": "569384298-430-14",
+          "mpn": "569384298-430-14",
+          "color_name": "Ink blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-cargo-pants-p01063600.html?v1=569384297",
+          "images": [
+            "https://static.zara.net/assets/public/23d8/d3f8/fcf447129338/8e3a93a9ae17/01063600430-e1/01063600430-e1.jpg?ts=1785325514308&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8984/84bf/62d54a2b80cc/77111f22a560/01063600305-e1/01063600305-e1.jpg?ts=1784802591318&w=1920",
+        "https://static.zara.net/assets/public/9b0a/434b/894f4df68a2d/b5dfe08784ed/01063600305-e2/01063600305-e2.jpg?ts=1784802590157&w=1920",
+        "https://static.zara.net/assets/public/737d/e85b/dbdb4be8a36c/005af0ef14d4/01063600305-e3/01063600305-e3.jpg?ts=1784802590940&w=1920",
+        "https://static.zara.net/assets/public/59c5/e14d/ed7943d4951c/0abb41d9385a/01063600305-e4/01063600305-e4.jpg?ts=1784802602270&w=1920",
+        "https://static.zara.net/assets/public/7e5a/8c73/e74443cf849a/9a31c0d45fb6/01063600305-p/01063600305-p.jpg?ts=1785332048020&w=1920",
+        "https://static.zara.net/assets/public/d241/097d/a5b94439959d/adbd96349e4e/01063600305-a1/01063600305-a1.jpg?ts=1785332047934&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Mustard",
+    "Ink blue"
+  ],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nCargo-style pants with an elastic waistband, button closure, and front adjustable drawstrings. Features front pockets, back welt pocket detailing, and side flap patch pockets.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b7f51cc1e4790410a8ca98b4a76a95a7d25aeafbd127a143b194620e435e7527",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

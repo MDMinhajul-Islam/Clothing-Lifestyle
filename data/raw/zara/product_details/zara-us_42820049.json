@@ -1,0 +1,133 @@
+{
+  "product_id": "zara-us:42820049",
+  "source_url": "https://www.zara.com/us/en/rattan-picnic-basket-p42820049.html",
+  "final_url": "https://www.zara.com/us/en/rattan-picnic-basket-p42820049.html",
+  "canonical_url": "https://www.zara.com/us/en/rattan-picnic-basket-p42820049.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RATTAN PICNIC BASKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RATTAN PICNIC BASKET",
+      "url": "https://www.zara.com/us/en/rattan-picnic-basket-p42820049.html",
+      "productGroupID": "42820049",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Woven rattan picnic basket featuring a hinged lid. Rectangular design with dual top handles.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6325/df91/5487414c9e65/08c79b9680f5/42820049600-e1/42820049600-e1.jpg?ts=1781269153753&w=1920",
+        "https://static.zara.net/assets/public/b1b1/76bf/739642bf9235/06581582a35a/42820049600-e2/42820049600-e2.jpg?ts=1781269153478&w=1920",
+        "https://static.zara.net/assets/public/7759/c4c4/ac8e4409a3c7/7fb8a5eecc9c/42820049600-e3/42820049600-e3.jpg?ts=1781269154162&w=1920",
+        "https://static.zara.net/assets/public/290a/46d1/1815414e9d59/e0de1d5ebbbc/42820049600-e4/42820049600-e4.jpg?ts=1781269153325&w=1920",
+        "https://static.zara.net/assets/public/f104/73bc/961746a786d2/07399ac813a4/42820049600-a1/42820049600-a1.jpg?ts=1781599932125&w=1920"
+      ],
+      "material": "rattan/iron",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "85% rattan, 15% iron"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RATTAN PICNIC BASKET - Red - ONE SIZE ONLY",
+          "sku": "545447725-600-99",
+          "mpn": "545447725-600-99",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6325/df91/5487414c9e65/08c79b9680f5/42820049600-e1/42820049600-e1.jpg?ts=1781269153753&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119.2",
+            "url": "https://www.zara.com/us/en/rattan-picnic-basket-p42820049.html?v1=545447725",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RATTAN PICNIC BASKET",
+      "product_group_id": "42820049",
+      "brand": "ZARAHOME",
+      "description": "Woven rattan picnic basket featuring a hinged lid. Rectangular design with dual top handles.",
+      "material": "rattan/iron",
+      "composition": "OUTER SHELL: 85% rattan, 15% iron | LINING: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RATTAN PICNIC BASKET - Red - ONE SIZE ONLY",
+          "sku": "545447725-600-99",
+          "mpn": "545447725-600-99",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "119.20",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rattan-picnic-basket-p42820049.html?v1=545447725",
+          "images": [
+            "https://static.zara.net/assets/public/6325/df91/5487414c9e65/08c79b9680f5/42820049600-e1/42820049600-e1.jpg?ts=1781269153753&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6325/df91/5487414c9e65/08c79b9680f5/42820049600-e1/42820049600-e1.jpg?ts=1781269153753&w=1920",
+        "https://static.zara.net/assets/public/b1b1/76bf/739642bf9235/06581582a35a/42820049600-e2/42820049600-e2.jpg?ts=1781269153478&w=1920",
+        "https://static.zara.net/assets/public/7759/c4c4/ac8e4409a3c7/7fb8a5eecc9c/42820049600-e3/42820049600-e3.jpg?ts=1781269154162&w=1920",
+        "https://static.zara.net/assets/public/290a/46d1/1815414e9d59/e0de1d5ebbbc/42820049600-e4/42820049600-e4.jpg?ts=1781269153325&w=1920",
+        "https://static.zara.net/assets/public/f104/73bc/961746a786d2/07399ac813a4/42820049600-a1/42820049600-a1.jpg?ts=1781599932125&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nWoven rattan picnic basket featuring a hinged lid. Rectangular design with dual top handles.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "119.20",
+    "original_price": "149.00",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "119.20",
+    "dom_price": "149.00",
+    "normalized_price": "119.20",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '119.20' != DOM price '149.00'"
+  },
+  "source_content_hash": "9f8fc7e7e0da3395cc207701a28e5c009dde4c27b13117aa27e1c3deacd9d4d5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

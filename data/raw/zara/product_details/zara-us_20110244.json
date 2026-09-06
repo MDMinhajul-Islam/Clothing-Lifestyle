@@ -1,0 +1,116 @@
+{
+  "product_id": "zara-us:20110244",
+  "source_url": "https://www.zara.com/us/en/amber-fusion-edp-80ml--2-71-fl--oz---p20110244.html",
+  "final_url": "https://www.zara.com/us/en/amber-fusion-edp-80ml--2-71-fl--oz---p20110244.html",
+  "canonical_url": "https://www.zara.com/us/en/amber-fusion-edp-80ml--2-71-fl--oz---p20110244.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "AMBER FUSION",
+    "CLASSIC | EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "AMBER FUSION EDP 80ML (2.71 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/amber-fusion-edp-80ml--2-71-fl--oz---p20110244.html",
+      "productGroupID": "20110244",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "AMBER FUSION EDP 80ML (2.71 FL. OZ.). A citrus burst of bergamot and mandarin blends with marine notes and sparkling red fruits. The floral heart balances the freshness of lily of the valley with the warmth of ylang-ylang. The base, with soft woods and intense amber, leaves a warm, enveloping, and distinctive trail.\n\nCitrus Amber | Vibrant, warm, and enveloping.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2fd2/1d9f/34b14220bae1/3671c05c4998/20110244999-e20/20110244999-e20.jpg?ts=1774517395387&w=1920",
+        "https://static.zara.net/assets/public/7ee1/4aef/7aea45f8a4c0/055f6d082a10/20110244999-e21/20110244999-e21.jpg?ts=1774517395468&w=1920",
+        "https://static.zara.net/assets/public/cb75/d938/061e486c9c98/ec478c5ddcd7/20110244999-e22/20110244999-e22.jpg?ts=1774517395421&w=1920",
+        "https://static.zara.net/assets/public/1bc3/4631/d419413a89c6/949f2b8e7e87/20110244999-e38/20110244999-e38.jpg?ts=1774531841964&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "AMBER FUSION EDP 80ML (2.71 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545405125-999-99",
+          "mpn": "545405125-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2fd2/1d9f/34b14220bae1/3671c05c4998/20110244999-e20/20110244999-e20.jpg?ts=1774517395387&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/amber-fusion-edp-80ml--2-71-fl--oz---p20110244.html?v1=545405125",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "AMBER FUSION EDP 80ML (2.71 FL. OZ.)",
+      "product_group_id": "20110244",
+      "brand": "ZARA",
+      "description": "AMBER FUSION EDP 80ML (2.71 FL. OZ.). A citrus burst of bergamot and mandarin blends with marine notes and sparkling red fruits. The floral heart balances the freshness of lily of the valley with the warmth of ylang-ylang. The base, with soft woods and intense amber, leaves a warm, enveloping, and distinctive trail.\n\nCitrus Amber | Vibrant, warm, and enveloping.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "AMBER FUSION EDP 80ML (2.71 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545405125-999-99",
+          "mpn": "545405125-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/amber-fusion-edp-80ml--2-71-fl--oz---p20110244.html?v1=545405125",
+          "images": [
+            "https://static.zara.net/assets/public/2fd2/1d9f/34b14220bae1/3671c05c4998/20110244999-e20/20110244999-e20.jpg?ts=1774517395387&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2fd2/1d9f/34b14220bae1/3671c05c4998/20110244999-e20/20110244999-e20.jpg?ts=1774517395387&w=1920",
+        "https://static.zara.net/assets/public/7ee1/4aef/7aea45f8a4c0/055f6d082a10/20110244999-e21/20110244999-e21.jpg?ts=1774517395468&w=1920",
+        "https://static.zara.net/assets/public/cb75/d938/061e486c9c98/ec478c5ddcd7/20110244999-e22/20110244999-e22.jpg?ts=1774517395421&w=1920",
+        "https://static.zara.net/assets/public/1bc3/4631/d419413a89c6/949f2b8e7e87/20110244999-e38/20110244999-e38.jpg?ts=1774531841964&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nAMBER FUSION EDP 80ML (2.71 FL. OZ.). A citrus burst of bergamot and mandarin blends with marine notes and sparkling red fruits. The floral heart balances the freshness of lily of the valley with the warmth of ylang-ylang. The base, with soft woods and intense amber, leaves a warm, enveloping, and distinctive trail.\nCitrus Amber | Vibrant, warm, and enveloping.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e71c0e29363994c64dfa04dac2565a271a82e970d4e09c180a54a148b05f4f46",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

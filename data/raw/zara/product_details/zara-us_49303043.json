@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:49303043",
+  "source_url": "https://www.zara.com/us/en/camping-pin-set--set-of-7--p49303043.html",
+  "final_url": "https://www.zara.com/us/en/camping-pin-set--set-of-7--p49303043.html",
+  "canonical_url": "https://www.zara.com/us/en/camping-pin-set--set-of-7--p49303043.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CAMPING PIN SET (SET OF 7)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CAMPING PIN SET (SET OF 7)",
+      "url": "https://www.zara.com/us/en/camping-pin-set--set-of-7--p49303043.html",
+      "productGroupID": "49303043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pack of 7 pins. Each pin features a different design inspired by camping, adventure, and exploration-related activities.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bf7e/189b/40004cbe9119/a033db3b72cf/49303043999-e1/49303043999-e1.jpg?ts=1781772716876&w=1920",
+        "https://static.zara.net/assets/public/00ea/78af/14784255b885/2613f0cd6a3c/49303043999-e2/49303043999-e2.jpg?ts=1781772709202&w=1920",
+        "https://static.zara.net/assets/public/18eb/f2b9/fd1643a28b62/2e4441dd39e2/49303043999-e3/49303043999-e3.jpg?ts=1781772709106&w=1920",
+        "https://static.zara.net/assets/public/3dd3/a729/f44646ac846b/2d6a64d0c33b/49303043999-e4/49303043999-e4.jpg?ts=1781772717835&w=1920"
+      ],
+      "material": "100% zinc",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% zinc"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CAMPING PIN SET (SET OF 7) - Multicolored - ONE SIZE ONLY",
+          "sku": "545400470-999-99",
+          "mpn": "545400470-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/bf7e/189b/40004cbe9119/a033db3b72cf/49303043999-e1/49303043999-e1.jpg?ts=1781772716876&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/camping-pin-set--set-of-7--p49303043.html?v1=545400470",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CAMPING PIN SET (SET OF 7)",
+      "product_group_id": "49303043",
+      "brand": "ZARAHOME",
+      "description": "Pack of 7 pins. Each pin features a different design inspired by camping, adventure, and exploration-related activities.",
+      "material": "100% zinc",
+      "composition": "OUTER SHELL: 100% zinc",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CAMPING PIN SET (SET OF 7) - Multicolored - ONE SIZE ONLY",
+          "sku": "545400470-999-99",
+          "mpn": "545400470-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/camping-pin-set--set-of-7--p49303043.html?v1=545400470",
+          "images": [
+            "https://static.zara.net/assets/public/bf7e/189b/40004cbe9119/a033db3b72cf/49303043999-e1/49303043999-e1.jpg?ts=1781772716876&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bf7e/189b/40004cbe9119/a033db3b72cf/49303043999-e1/49303043999-e1.jpg?ts=1781772716876&w=1920",
+        "https://static.zara.net/assets/public/00ea/78af/14784255b885/2613f0cd6a3c/49303043999-e2/49303043999-e2.jpg?ts=1781772709202&w=1920",
+        "https://static.zara.net/assets/public/18eb/f2b9/fd1643a28b62/2e4441dd39e2/49303043999-e3/49303043999-e3.jpg?ts=1781772709106&w=1920",
+        "https://static.zara.net/assets/public/3dd3/a729/f44646ac846b/2d6a64d0c33b/49303043999-e4/49303043999-e4.jpg?ts=1781772717835&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nPack of 7 pins. Each pin features a different design inspired by camping, adventure, and exploration-related activities.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0fe9fe4e00f9b9b6cf6e01f5ab8238a8492ae8fd0ca2615027ead4b5aa27d5c4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

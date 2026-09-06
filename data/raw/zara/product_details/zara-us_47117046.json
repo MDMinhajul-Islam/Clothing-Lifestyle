@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:47117046",
+  "source_url": "https://www.zara.com/us/en/enamelled-ceramic-vase-p47117046.html",
+  "final_url": "https://www.zara.com/us/en/enamelled-ceramic-vase-p47117046.html",
+  "canonical_url": "https://www.zara.com/us/en/enamelled-ceramic-vase-p47117046.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ENAMELLED CERAMIC VASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ENAMELLED CERAMIC VASE",
+      "url": "https://www.zara.com/us/en/enamelled-ceramic-vase-p47117046.html",
+      "productGroupID": "47117046",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Ceramic vase with an enamelled finish. Features a voluminous rounded body, a slightly narrow base, and a short neck with a wide opening.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3af0/a346/a83d4cd38ad0/bfc2712a0d5a/47117046200-e1/47117046200-e1.jpg?ts=1786463867883&w=1920",
+        "https://static.zara.net/assets/public/4221/8549/1d0e4c188dbf/36d48cd43ec4/47117046200-e2/47117046200-e2.jpg?ts=1786463862336&w=1920",
+        "https://static.zara.net/assets/public/27b3/382a/290142168f80/cbda2df5f424/47117046200-e3/47117046200-e3.jpg?ts=1786463862651&w=1920",
+        "https://static.zara.net/assets/public/7a7b/d0cd/a8354624940a/3ea3c9bfa891/47117046200-e4/47117046200-e4.jpg?ts=1786463867920&w=1920",
+        "https://static.zara.net/assets/public/df51/b873/53b84c96a3d5/8f086f179afe/47117046200-a1/47117046200-a1.jpg?ts=1786519897144&w=1920"
+      ],
+      "material": "100% ceramic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% ceramic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ENAMELLED CERAMIC VASE - Blue / Indigo - ONE SIZE ONLY",
+          "sku": "545400841-200-99",
+          "mpn": "545400841-200-99",
+          "color": "Blue / Indigo",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3af0/a346/a83d4cd38ad0/bfc2712a0d5a/47117046200-e1/47117046200-e1.jpg?ts=1786463867883&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/enamelled-ceramic-vase-p47117046.html?v1=545400841",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ENAMELLED CERAMIC VASE",
+      "product_group_id": "47117046",
+      "brand": "ZARAHOME",
+      "description": "Ceramic vase with an enamelled finish. Features a voluminous rounded body, a slightly narrow base, and a short neck with a wide opening.",
+      "material": "100% ceramic",
+      "composition": "OUTER SHELL: 100% ceramic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ENAMELLED CERAMIC VASE - Blue / Indigo - ONE SIZE ONLY",
+          "sku": "545400841-200-99",
+          "mpn": "545400841-200-99",
+          "color_name": "Blue / Indigo",
+          "size_name": "ONE SIZE ONLY",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/enamelled-ceramic-vase-p47117046.html?v1=545400841",
+          "images": [
+            "https://static.zara.net/assets/public/3af0/a346/a83d4cd38ad0/bfc2712a0d5a/47117046200-e1/47117046200-e1.jpg?ts=1786463867883&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3af0/a346/a83d4cd38ad0/bfc2712a0d5a/47117046200-e1/47117046200-e1.jpg?ts=1786463867883&w=1920",
+        "https://static.zara.net/assets/public/4221/8549/1d0e4c188dbf/36d48cd43ec4/47117046200-e2/47117046200-e2.jpg?ts=1786463862336&w=1920",
+        "https://static.zara.net/assets/public/27b3/382a/290142168f80/cbda2df5f424/47117046200-e3/47117046200-e3.jpg?ts=1786463862651&w=1920",
+        "https://static.zara.net/assets/public/7a7b/d0cd/a8354624940a/3ea3c9bfa891/47117046200-e4/47117046200-e4.jpg?ts=1786463867920&w=1920",
+        "https://static.zara.net/assets/public/df51/b873/53b84c96a3d5/8f086f179afe/47117046200-a1/47117046200-a1.jpg?ts=1786519897144&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nCeramic vase with an enamelled finish. Features a voluminous rounded body, a slightly narrow base, and a short neck with a wide opening.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9d15292d5fa05dd2a25480c8f44a9acaed2312945f246f52c306369fd655e9f3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

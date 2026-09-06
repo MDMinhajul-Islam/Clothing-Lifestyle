@@ -1,0 +1,109 @@
+{
+  "product_id": "zara-us:20130163",
+  "source_url": "https://www.zara.com/us/en/nude-bouquet-intense-parfum-100-ml--3-4-fl--oz---p20130163.html",
+  "final_url": "https://www.zara.com/us/en/nude-bouquet-intense-parfum-100-ml--3-4-fl--oz---p20130163.html",
+  "canonical_url": "https://www.zara.com/us/en/nude-bouquet-intense-parfum-100-ml--3-4-fl--oz---p20130163.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "INTENSE | PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "NUDE BOUQUET INTENSE PARFUM 100 ML (3.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/nude-bouquet-intense-parfum-100-ml--3-4-fl--oz---p20130163.html",
+      "productGroupID": "20130163",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "NUDE BOUQUET INTENSE PARFUM 100 ML (3.4 FL. OZ.). A more intense and enveloping interpretation of Nude Bouquet. Peach provides a juicy, luminous sweetness that blends with the powdery elegance of iris. Vanilla introduces a warm, creamy base that wraps the fragrance in a soft and sophisticated sensuality.\n\nAmber floral | Intense, elegant and enveloping.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6d8c/80dd/1eaa4983a93f/ff9619866792/20130163999-e38/20130163999-e38.jpg?ts=1774521217367&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "NUDE BOUQUET INTENSE PARFUM 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545494366-999-99",
+          "mpn": "545494366-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6d8c/80dd/1eaa4983a93f/ff9619866792/20130163999-e38/20130163999-e38.jpg?ts=1774521217367&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/nude-bouquet-intense-parfum-100-ml--3-4-fl--oz---p20130163.html?v1=545494366",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "NUDE BOUQUET INTENSE PARFUM 100 ML (3.4 FL. OZ.)",
+      "product_group_id": "20130163",
+      "brand": "ZARA",
+      "description": "NUDE BOUQUET INTENSE PARFUM 100 ML (3.4 FL. OZ.). A more intense and enveloping interpretation of Nude Bouquet. Peach provides a juicy, luminous sweetness that blends with the powdery elegance of iris. Vanilla introduces a warm, creamy base that wraps the fragrance in a soft and sophisticated sensuality.\n\nAmber floral | Intense, elegant and enveloping.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "NUDE BOUQUET INTENSE PARFUM 100 ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545494366-999-99",
+          "mpn": "545494366-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/nude-bouquet-intense-parfum-100-ml--3-4-fl--oz---p20130163.html?v1=545494366",
+          "images": [
+            "https://static.zara.net/assets/public/6d8c/80dd/1eaa4983a93f/ff9619866792/20130163999-e38/20130163999-e38.jpg?ts=1774521217367&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6d8c/80dd/1eaa4983a93f/ff9619866792/20130163999-e38/20130163999-e38.jpg?ts=1774521217367&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nNUDE BOUQUET INTENSE PARFUM 100 ML (3.4 FL. OZ.). A more intense and enveloping interpretation of Nude Bouquet. Peach provides a juicy, luminous sweetness that blends with the powdery elegance of iris. Vanilla introduces a warm, creamy base that wraps the fragrance in a soft and sophisticated sensuality.\nAmber floral | Intense, elegant and enveloping.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 2,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fe469a38d7b821144adfa8c1c0f0107b5a912e409059d68d49df16556d68263a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

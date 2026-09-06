@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20110711",
+  "source_url": "https://www.zara.com/us/en/fashionably-london-edp-100ml--3-4-fl-oz---p20110711.html",
+  "final_url": "https://www.zara.com/us/en/fashionably-london-edp-100ml--3-4-fl-oz---p20110711.html",
+  "canonical_url": "https://www.zara.com/us/en/fashionably-london-edp-100ml--3-4-fl-oz---p20110711.html",
+  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FASHIONABLY LONDON",
+    "EAU DE PARFUM",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FASHIONABLY LONDON EDP 100ML (3.4 FL.OZ).",
+      "url": "https://www.zara.com/us/en/fashionably-london-edp-100ml--3-4-fl-oz---p20110711.html",
+      "productGroupID": "20110711",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "FASHIONABLY LONDON EDP 100ML (3.4 FL.OZ). Evokes the relaxed sophistication of London and that feeling of summer air sweeping through the city: a stroll through Knightsbridge, a coffee break, the open light in Hyde Park. Bergamot provides luminous freshness, rose introduces a modern femininity, and musk creates a clean, polished base that blends in naturally.\n\nA collection created by Ms. Jo Malone CBE, founder of Jo Loves.\n\nMusky Floral | Elegant, luminous, and contemporary",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/99d7/3baa/2f1f44758b18/210b746cfe2f/20110711999-e20/20110711999-e20.jpg?ts=1774519804794&w=1920",
+        "https://static.zara.net/assets/public/8bd7/ea39/9742444e9db1/9f511b27432b/20110711999-e22/20110711999-e22.jpg?ts=1774519805749&w=1920",
+        "https://static.zara.net/assets/public/c3d1/d340/d6874fac993c/5cbfae6ba91c/20110711999-e38/20110711999-e38.jpg?ts=1774541914781&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FASHIONABLY LONDON EDP 100ML (3.4 FL.OZ). - ONE SIZE ONLY",
+          "sku": "545475007-999-99",
+          "mpn": "545475007-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/99d7/3baa/2f1f44758b18/210b746cfe2f/20110711999-e20/20110711999-e20.jpg?ts=1774519804794&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fashionably-london-edp-100ml--3-4-fl-oz---p20110711.html?v1=545475007",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FASHIONABLY LONDON EDP 100ML (3.4 FL.OZ).",
+      "product_group_id": "20110711",
+      "brand": "ZARA",
+      "description": "FASHIONABLY LONDON EDP 100ML (3.4 FL.OZ). Evokes the relaxed sophistication of London and that feeling of summer air sweeping through the city: a stroll through Knightsbridge, a coffee break, the open light in Hyde Park. Bergamot provides luminous freshness, rose introduces a modern femininity, and musk creates a clean, polished base that blends in naturally.\n\nA collection created by Ms. Jo Malone CBE, founder of Jo Loves.\n\nMusky Floral | Elegant, luminous, and contemporary",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FASHIONABLY LONDON EDP 100ML (3.4 FL.OZ). - ONE SIZE ONLY",
+          "sku": "545475007-999-99",
+          "mpn": "545475007-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fashionably-london-edp-100ml--3-4-fl-oz---p20110711.html?v1=545475007",
+          "images": [
+            "https://static.zara.net/assets/public/99d7/3baa/2f1f44758b18/210b746cfe2f/20110711999-e20/20110711999-e20.jpg?ts=1774519804794&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/99d7/3baa/2f1f44758b18/210b746cfe2f/20110711999-e20/20110711999-e20.jpg?ts=1774519804794&w=1920",
+        "https://static.zara.net/assets/public/8bd7/ea39/9742444e9db1/9f511b27432b/20110711999-e22/20110711999-e22.jpg?ts=1774519805749&w=1920",
+        "https://static.zara.net/assets/public/c3d1/d340/d6874fac993c/5cbfae6ba91c/20110711999-e38/20110711999-e38.jpg?ts=1774541914781&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nFASHIONABLY LONDON EDP 100ML (3.4 FL.OZ). Evokes the relaxed sophistication of London and that feeling of summer air sweeping through the city: a stroll through Knightsbridge, a coffee break, the open light in Hyde Park. Bergamot provides luminous freshness, rose introduces a modern femininity, and musk creates a clean, polished base that blends in naturally.\nA collection created by Ms. Jo Malone CBE, founder of Jo Loves.\nMusky Floral | Elegant, luminous, and contemporary",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c61c42aed5445a0b8e89f5fdac4e168be91767d46c7dfa46f6156847e412b989",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
