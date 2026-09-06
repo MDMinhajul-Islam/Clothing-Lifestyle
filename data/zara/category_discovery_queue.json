@@ -2,71 +2,71 @@
   {
     "id": "category:52b69d58ca7f96f8",
     "url": "https://www.zara.com/us/en/woman-dresses-l1066.html",
-    "status": "QUEUED",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:27:16.070Z",
+    "status": "COMPLETE",
+    "attempt_count": 2,
+    "last_attempt_at": "2026-09-06T05:18:24.396116+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": "data\\raw\\zara\\woman-dresses-listing.json",
-      "legacy_visited": true,
+      "evidence": "data\\raw\\zara\\discovery\\1066.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
     "id": "category:464699df8a939649",
     "url": "https://www.zara.com/us/en/woman-dresses-party-l1581.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:18:32.941957+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1581.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
     "id": "category:0a70d2e37392985f",
     "url": "https://www.zara.com/us/en/woman-dresses-midi-l1081.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:18:40.397080+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1081.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
     "id": "category:e51c9cb6e9106f5d",
     "url": "https://www.zara.com/us/en/woman-dresses-mini-l1083.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:18:49.055967+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1083.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
     "id": "category:2296093622c90fd2",
     "url": "https://www.zara.com/us/en/woman-jumpsuits-l1150.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:18:58.348385+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1150.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
@@ -5166,6 +5166,62 @@
     }
   },
   {
+    "id": "category:6884ee20701f15b5",
+    "url": "https://www.zara.com/us/en/woman-mkt1000.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T04:46:29.761Z",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\repair\\woman.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:4f1a863445927eee",
+    "url": "https://www.zara.com/us/en/man-l534.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T04:46:43.425Z",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\repair\\man.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:04bd82dffbe7dad2",
+    "url": "https://www.zara.com/us/en/kids-mkt1.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T04:46:58.079Z",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\repair\\kids.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:04ff1d5a820a8cce",
+    "url": "https://www.zara.com/us/en/home-mkt2085.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T04:47:05.185Z",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\repair\\zara_home.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
     "id": "category:f4227d7cf53670ca",
     "url": "https://www.zara.com/us/en/woman-beauty-mkt1414.html",
     "status": "COMPLETE",
@@ -5180,6 +5236,384 @@
     }
   },
   {
+    "id": "category:c3940047a9b2d223",
+    "url": "https://www.zara.com/us/en/massimo-dutti-mkt5753.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T04:50:58.483Z",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\repair\\massimo_dutti.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:64a87687285d0655",
+    "url": "https://www.zara.com/us/en/preowned-mkt5794.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T04:51:00.447Z",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\repair\\pre-owned.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:fecc1b20b3108996",
+    "url": "https://www.zara.com/us/en/zara-travel-mkt15659.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T04:51:08.672Z",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\repair\\travel_mode.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:782dc649d80e7fc2",
+    "url": "https://www.zara.com/us/en/woman-new-in-l1180.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:9be78623888074ad",
+    "url": "https://www.zara.com/us/en/woman-collections-l2158.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:01f3c8e9cb75f7a5",
+    "url": "https://www.zara.com/us/en/woman-best-sellers-l5912.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:e139de82138f9f44",
+    "url": "https://www.zara.com/us/en/woman-jackets-l1114.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:0421dc420492c1d8",
+    "url": "https://www.zara.com/us/en/woman-outerwear-l1184.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:91695f626fcdd051",
+    "url": "https://www.zara.com/us/en/woman-blazers-l1055.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:0b10c43c8c2757dc",
+    "url": "https://www.zara.com/us/en/woman-knitwear-l1152.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:fb8c0296db90eeb4",
+    "url": "https://www.zara.com/us/en/woman-trousers-l1335.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:91eb7d59044af9c3",
+    "url": "https://www.zara.com/us/en/woman-jeans-l1119.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:a71cee0ce33aaa59",
+    "url": "https://www.zara.com/us/en/woman-shirts-l1217.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:1e5c4ccee0a2b987",
+    "url": "https://www.zara.com/us/en/woman-tops-l1322.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:cf514885e64d8768",
+    "url": "https://www.zara.com/us/en/woman-tshirts-l1362.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:6d369fce772295c9",
+    "url": "https://www.zara.com/us/en/woman-cardigans-sweaters-l8322.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:3587c390940c23bd",
+    "url": "https://www.zara.com/us/en/-c2732954.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:b2f455a3b9fa85e4",
+    "url": "https://www.zara.com/us/en/woman-co-ords-l1061.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:14254699144c9cc9",
+    "url": "https://www.zara.com/us/en/woman-sweatshirts-l1320.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:c6d9365f0b332a53",
+    "url": "https://www.zara.com/us/en/woman-leather-l1174.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:373a1f800203d48e",
+    "url": "https://www.zara.com/us/en/woman-lingerie-l4021.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:717218ce836ea334",
+    "url": "https://www.zara.com/us/en/woman-back-to-office-l19161.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:7f4f364fbb946907",
+    "url": "https://www.zara.com/us/en/woman-shoes-l1251.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:e6af1dbd999b57ac",
+    "url": "https://www.zara.com/us/en/woman-bags-l1024.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:847e683fc046f50a",
+    "url": "https://www.zara.com/us/en/woman-accessories-l1003.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:1d06358b2b90c030",
+    "url": "https://www.zara.com/us/en/woman-beauty-perfumes-l1415.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:d76a0be8f624be64",
+    "url": "https://www.zara.com/us/en/woman-hair-l7345.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
     "id": "category:50282081b0e1cada",
     "url": "https://www.zara.com/us/en/woman-beauty-makeup-l4414.html",
     "status": "COMPLETE",
@@ -5188,6 +5622,1476 @@
     "error": null,
     "checkpoint": {
       "evidence": "data\\raw\\zara\\repair\\beauty_makeup.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:1ecc6c26ceb3402b",
+    "url": "https://www.zara.com/us/en/preowned-woman-mkt7630.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:6b3df47c7d2d8fa9",
+    "url": "https://www.zara.com/us/en/woman-highlight-special-collections-l17362.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:a5cec677688ee863",
+    "url": "https://www.zara.com/us/en/woman-fold-mkt18099.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:6709e720e1e70615",
+    "url": "https://www.zara.com/us/en/woman-the-fold-view-all-mkt18355.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:f4a11b4b65c016bf",
+    "url": "https://www.zara.com/us/en/woman-the-folder-maureen-mkt19382.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:db14429b9e69751d",
+    "url": "https://www.zara.com/us/en/woman-the-fold-veronika-heilbrunner-mkt19412.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:4ae6a249dbe0d65f",
+    "url": "https://www.zara.com/us/en/woman-the-fold-marie-von-behrens-mkt19413.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:d561fd4eb8fe71ee",
+    "url": "https://www.zara.com/us/en/woman-the-fold-lilly-sisto-mkt19414.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:ea0793c67662bf0c",
+    "url": "https://www.zara.com/us/en/woman-the-fold-larissa-mills-mkt19415.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:199c414d594fdc90",
+    "url": "https://www.zara.com/us/en/home-new-collection-l15856.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:c78f172b8ed23732",
+    "url": "https://www.zara.com/us/en/mary-lennox-l18770.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:236c3fef535eda91",
+    "url": "https://www.zara.com/us/en/home-living-room-stationery-l2619.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:ada53d9ed3273582",
+    "url": "https://www.zara.com/us/en/back-to-university-l19182.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:8dec85dc8a2dbbd0",
+    "url": "https://www.zara.com/us/en/home-fragrances-l2091.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:61845b37ddde3940",
+    "url": "https://www.zara.com/us/en/z-giftcard-mkt1394.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:fc9602d11b623314",
+    "url": "https://www.zara.com/us/en/z-join-life-mkt1399.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:740a092707a34527",
+    "url": "https://www.zara.com/us/en/work-with-us-mkt8081.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:b645e199cccc9afe",
+    "url": "https://www.zara.com/us/en/woman-creativity-newin-l18378.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:46e25d4f198dbeb4",
+    "url": "https://www.zara.com/us/en/woman-creativity-20-l18571.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:1dcf066360fa46bf",
+    "url": "https://www.zara.com/us/en/woman-creativity-07-l17921.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:02ec67d453bbd3ed",
+    "url": "https://www.zara.com/us/en/woman-creativity-06-l17922.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:87411e5a9e24d754",
+    "url": "https://www.zara.com/us/en/woman-creativity-17-l18158.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:1dbeb86c82b928bc",
+    "url": "https://www.zara.com/us/en/benito-antonio-mkt18018.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:9c9a0bb9ba1bfc2b",
+    "url": "https://www.zara.com/us/en/man-new-in-l711.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:bda7d07a493c245e",
+    "url": "https://www.zara.com/us/en/man-ofr-collection-l19284.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:a2e75e05a674ec44",
+    "url": "https://www.zara.com/us/en/man-polos-l733.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:b547c2f0c580d495",
+    "url": "https://www.zara.com/us/en/man-trousers-l838.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:f25796d606bb880b",
+    "url": "https://www.zara.com/us/en/man-origins-l16501.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:cc91617f03b4dc64",
+    "url": "https://www.zara.com/us/en/man-athleticz-l16648.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:e5be391cbebbda36",
+    "url": "https://www.zara.com/us/en/home-new-in-l2086.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:c49ece4963ccfbbf",
+    "url": "https://www.zara.com/us/en/home-0fr-l19252.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:0a7fe44d7e12a435",
+    "url": "https://www.zara.com/us/en/romantic-collection-l19183.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:8bc2ab61f4e1ce69",
+    "url": "https://www.zara.com/us/en/pumpkin-spice-l19178.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:26d5c2489af47267",
+    "url": "https://www.zara.com/us/en/home-adventures-l18729.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:2b9c31507cc00363",
+    "url": "https://www.zara.com/us/en/home-kids-new-in-l3974.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T04:49:47.082Z",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\repair\\home_kids.json",
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:9c62f5f76cdec6d4",
+    "url": "https://www.zara.com/us/en/home-kids-view-all-l3049.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:5ea61145d5f95482",
+    "url": "https://www.zara.com/us/en/home-back-to-school-editorial-l19259.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:d2621b25361faf87",
+    "url": "https://www.zara.com/us/en/monsters-l18726.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:3da54269ca9618e9",
+    "url": "https://www.zara.com/us/en/home-kids-limoncella-l17534.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:11d55fc495342d0b",
+    "url": "https://www.zara.com/us/en/home-kiosco-l5293.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:392d46a3c4e9b240",
+    "url": "https://www.zara.com/us/en/home-games-sports-l15878.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:ac3cbcbf1c7e0065",
+    "url": "https://www.zara.com/us/en/music-photography-l17870.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:e03e33b85112bee3",
+    "url": "https://www.zara.com/us/en/home-travel-l17621.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:5e9905b72ecfe97b",
+    "url": "https://www.zara.com/us/en/home-katherine-l18730.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:3d75b14e670e3432",
+    "url": "https://www.zara.com/us/en/home-vvd-collection-l5438.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:4b9f0181cd3eb1fa",
+    "url": "https://www.zara.com/us/en/woman-accessories-perfumes-l1017.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:62d82008c12af522",
+    "url": "https://www.zara.com/us/en/massimo-dutti-woman-crochet-l7638.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:90b82e1e419997c0",
+    "url": "https://www.zara.com/us/en/massimo-dutti-man-miami-collection-l8182.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:5938644fa7d3f8a0",
+    "url": "https://www.zara.com/us/en/massimo-dutti-woman-studio-mkt5803.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:852b70e7018666d1",
+    "url": "https://www.zara.com/us/en/massimo-dutti-woman-exclusive-mkt8116.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:587ac96c9d6ee39d",
+    "url": "https://www.zara.com/us/en/preowned-l5794.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:a681ccfad2d5fffb",
+    "url": "https://www.zara.com/us/en/preowned-repair-l5796.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:edda2eb19703dce7",
+    "url": "https://www.zara.com/us/en/preowned-donate-l5798.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:0c56c71e54df6d86",
+    "url": "https://www.zara.com/us/en/zara-travel-l15659.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:d938611322a35224",
+    "url": "https://www.zara.com/us/en/-c2732946.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:36fb9a9dc17ab899",
+    "url": "https://www.zara.com/us/en/woman-shoes-moccasins-l2260.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:a9be43ff6da80742",
+    "url": "https://www.zara.com/us/en/woman-shoes-ankle-boots-l1259.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:502752a1acab7ef8",
+    "url": "https://www.zara.com/us/en/woman-shoes-sandals-l1280.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:984ade9ed69daa7a",
+    "url": "https://www.zara.com/us/en/woman-bags-leather-l1041.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:252f62829774f01a",
+    "url": "https://www.zara.com/us/en/woman-dresses-midi-l1081.html?page=2",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:7b52be466f40aa81",
+    "url": "https://www.zara.com/us/en/woman-summer-mini-dress-l18111.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:216b827ccd2aabef",
+    "url": "https://www.zara.com/us/en/woman-linen-mini-dress-l18129.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:f60e0f7f50502cbf",
+    "url": "https://www.zara.com/us/en/woman-pink-mini-dress-l17957.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:7911b3f40c90dc70",
+    "url": "https://www.zara.com/us/en/woman-black-lace-mini-dress-l18405.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:33e189a25f3eeed0",
+    "url": "https://www.zara.com/us/en/woman-lace-mini-skirt-l18257.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:a6fc7c4ba94ac15e",
+    "url": "https://www.zara.com/us/en/woman-cream-mini-dress-l18132.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:36962973c49d194e",
+    "url": "https://www.zara.com/us/en/woman-backless-mini-dress-l18117.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:f75ad427777522c8",
+    "url": "https://www.zara.com/us/en/woman-navy-mini-dress-l18123.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:74bd62717beeaa6d",
+    "url": "https://www.zara.com/us/en/woman-white-lace-mini-dress-l18876.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:54c6ec4114b1a12f",
+    "url": "https://www.zara.com/us/en/woman-brown-mini-dress-l18108.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:7870492160885f7e",
+    "url": "https://www.zara.com/us/en/woman-grey-mini-dress-l18110.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:a1de96c00c591e5d",
+    "url": "https://www.zara.com/us/en/woman-plaid-mini-dress-l18206.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:dfc47d0e7d20f532",
+    "url": "https://www.zara.com/us/en/woman-white-mini-dress-l18384.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:d07b261f19a2e9f5",
+    "url": "https://www.zara.com/us/en/woman-v-neck-mini-dress-l18128.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:c87482cbfb480900",
+    "url": "https://www.zara.com/us/en/woman-purple-mini-dress-l18124.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:c1412b0d314aba3a",
+    "url": "https://www.zara.com/us/en/woman-yellow-mini-dress-l18076.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:3e6f5caf19d12b31",
+    "url": "https://www.zara.com/us/en/woman-orange-mini-dress-l18135.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:016d4d9e3fa8b652",
+    "url": "https://www.zara.com/us/en/woman-blue-mini-dress-l18077.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:0e176e96a1756996",
+    "url": "https://www.zara.com/us/en/woman-red-mini-dress-l17959.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:94f0b241aadd69e6",
+    "url": "https://www.zara.com/us/en/woman-green-mini-dress-l18080.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:7b9532da3a601768",
+    "url": "https://www.zara.com/us/en/woman-mini-cocktail-dress-l18894.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:9c294530aea2e8e8",
+    "url": "https://www.zara.com/us/en/woman-mini-denim-skirt-l18593.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:1e1433fcbd77fb1b",
+    "url": "https://www.zara.com/us/en/woman-sparkly-mini-skirt-l18217.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:daea62f9373ee73e",
+    "url": "https://www.zara.com/us/en/woman-denim-mini-skirt-l18222.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:64c5c7ba2f2ebf7e",
+    "url": "https://www.zara.com/us/en/woman-pleated-mini-skirt-l18211.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:46be5587af404a43",
+    "url": "https://www.zara.com/us/en/woman-sequin-mini-dress-l17963.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:128678e04383fbe8",
+    "url": "https://www.zara.com/us/en/woman-pink-mini-skirt-l18245.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:e3550af106e7c2df",
+    "url": "https://www.zara.com/us/en/woman-leather-mini-skirt-l18216.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:859ce5c6e0b243df",
+    "url": "https://www.zara.com/us/en/woman-ruffle-mini-dress-l18136.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:ffdfbc68b8e7865f",
+    "url": "https://www.zara.com/us/en/woman-sequin-mini-skirt-l18214.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:5ceaddea4a18d7a0",
+    "url": "https://www.zara.com/us/en/woman-brown-mini-skirt-l18231.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:c63013a6567642db",
+    "url": "https://www.zara.com/us/en/woman-black-mini-skirt-l18223.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:2ff285d6b9e6b9ab",
+    "url": "https://www.zara.com/us/en/woman-mini-denim-shorts-l18616.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:27646e2a3c77331a",
+    "url": "https://www.zara.com/us/en/woman-blue-mini-skirt-l18647.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:4d2871503c98bd9c",
+    "url": "https://www.zara.com/us/en/woman-black-mini-shorts-l18615.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:84489c2d4d3f15e8",
+    "url": "https://www.zara.com/us/en/woman-graduation-mini-dress-l18137.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:b7f62464e78aff36",
+    "url": "https://www.zara.com/us/en/woman-white-mini-skirt-l18215.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:4baa8a4eccc8488f",
+    "url": "https://www.zara.com/us/en/woman-green-mini-skirt-l18261.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:179fbe890de41a93",
+    "url": "https://www.zara.com/us/en/woman-low-rise-mini-shorts-l18617.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:4bfae4846347249c",
+    "url": "https://www.zara.com/us/en/woman-mini-skort-l18590.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:d3d4a2107724c131",
+    "url": "https://www.zara.com/us/en/woman-ruffle-mini-skirt-l18436.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:514e2ffa011ee14c",
+    "url": "https://www.zara.com/us/en/woman-short-sleeve-midi-dress-l18915.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:7aba89c6bf65dd2c",
+    "url": "https://www.zara.com/us/en/woman-dresses-mini-l1083.html?page=2",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:a59e9a777d475f2a",
+    "url": "https://www.zara.com/us/en/woman-jumpsuits-l1150.html?page=2",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:5fb583e397978f17",
+    "url": "https://www.zara.com/us/en/woman-dresses-party-l1581.html?page=2",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
       "legacy_visited": false,
       "phase": "classification",
       "enumeration_complete": false
@@ -5264,36 +7168,8 @@
     }
   },
   {
-    "id": "category:2b9c31507cc00363",
-    "url": "https://www.zara.com/us/en/home-kids-new-in-l3974.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:49:47.082Z",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\repair\\home_kids.json",
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
     "id": "category:e8c97459ff07c6ce",
     "url": "https://www.zara.com/us/en/back-to-school-l7763.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
-    "error": null,
-    "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:9c62f5f76cdec6d4",
-    "url": "https://www.zara.com/us/en/home-kids-view-all-l3049.html",
     "status": "QUEUED",
     "attempt_count": 0,
     "last_attempt_at": null,
@@ -5342,20 +7218,6 @@
     "error": null,
     "checkpoint": {
       "evidence": null,
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:04bd82dffbe7dad2",
-    "url": "https://www.zara.com/us/en/kids-mkt1.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:46:58.079Z",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\repair\\kids.json",
       "legacy_visited": false,
       "phase": "classification",
       "enumeration_complete": false
@@ -5544,20 +7406,6 @@
     }
   },
   {
-    "id": "category:4f1a863445927eee",
-    "url": "https://www.zara.com/us/en/man-l534.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:46:43.425Z",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\repair\\man.json",
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
     "id": "category:afc08632d29a8996",
     "url": "https://www.zara.com/us/en/man-l534.html?page=2",
     "status": "QUEUED",
@@ -5566,76 +7414,6 @@
     "error": null,
     "checkpoint": {
       "evidence": null,
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:c3940047a9b2d223",
-    "url": "https://www.zara.com/us/en/massimo-dutti-mkt5753.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:50:58.483Z",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\repair\\massimo_dutti.json",
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:64a87687285d0655",
-    "url": "https://www.zara.com/us/en/preowned-mkt5794.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:51:00.447Z",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\repair\\pre-owned.json",
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:fecc1b20b3108996",
-    "url": "https://www.zara.com/us/en/zara-travel-mkt15659.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:51:08.672Z",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\repair\\travel_mode.json",
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:6884ee20701f15b5",
-    "url": "https://www.zara.com/us/en/woman-mkt1000.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:46:29.761Z",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\repair\\woman.json",
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:04ff1d5a820a8cce",
-    "url": "https://www.zara.com/us/en/home-mkt2085.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T04:47:05.185Z",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\repair\\zara_home.json",
       "legacy_visited": false,
       "phase": "classification",
       "enumeration_complete": false

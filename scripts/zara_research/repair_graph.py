@@ -116,14 +116,40 @@ def build():
     # Retain old graph links and queue entries, including ones not in the 369-row snapshot.
     for url in checkpoint.get('queue', []):
         node(url, source='legacy_discovery_queue')
-    for f in (RAW / 'discovery').glob('*.json'):
+    for f in sorted((RAW / 'discovery').glob('*.json')):
         obs = read(f)
-        if not category_route(obs['url']):
+        if not category_route(obs.get('url', '')):
             continue
         a = node(obs['url'], obs.get('title'), str(f.relative_to(ROOT)))
+        crumbs = []
         for link in obs.get('links', []):
+            if not category_route(link.get('url', '')):
+                continue
+            if not link.get('in_main', True) and link.get('context') != 'Breadcrumbs Trail':
+                continue
             b = node(link['url'], link.get('name'), obs['url'])
-            edge(a, b, 'RELATED_LINK', str(f.relative_to(ROOT)))
+            if link.get('context') == 'Breadcrumbs Trail':
+                crumbs.append(b)
+            else:
+                edge(a, b, 'RELATED_LINK', str(f.relative_to(ROOT)))
+        for parent_crumb, child_crumb in zip(crumbs, crumbs[1:]):
+            edge(parent_crumb, child_crumb, 'BREADCRUMB_PARENT', str(f.relative_to(ROOT)))
+
+        if obs.get('discovery_complete'):
+            product_bearing = obs.get('is_product_listing')
+            if product_bearing is None and obs.get('product_card_count') is not None:
+                product_bearing = obs['product_card_count'] > 0
+            route_type = obs.get('route_type') or ('PRODUCT_LISTING_CATEGORY' if product_bearing else 'NAVIGATION_PAGE')
+            a.update(route_type=route_type,
+                     is_product_listing=product_bearing,
+                     is_navigation_only=obs.get('is_navigation_only', not product_bearing if product_bearing is not None else None),
+                     is_collection_page=obs.get('is_collection_page'),
+                     is_campaign_page=obs.get('is_campaign_page'),
+                     last_verified_at=obs.get('captured_at'),
+                     crawl_status='PARTIAL',
+                     discovery_complete=True,
+                     product_card_count_observed=obs.get('product_card_count', 0),
+                     classification_evidence=str(f.relative_to(ROOT)))
     # Only pilot listing evidence proves a product grid for legacy nodes.
     for f in RAW.glob('*listing.json'):
         obs = read(f)

@@ -1,26 +1,26 @@
 {
   "phase": "GRAPH_REPAIR_REVIEW",
   "legacy_nodes": 369,
-  "revised_nodes": 403,
+  "revised_nodes": 530,
   "route_types": {
-    "PRODUCT_LISTING_CATEGORY": 11,
-    "UNKNOWN": 385,
+    "PRODUCT_LISTING_CATEGORY": 15,
+    "UNKNOWN": 508,
     "NAVIGATION_PAGE": 7
   },
   "department_coverage": {
     "WOMAN": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/woman-mkt1000.html",
-      "category_nodes": 183,
-      "product_bearing_nodes": 1,
-      "unresolved_nodes": 181
+      "category_nodes": 269,
+      "product_bearing_nodes": 5,
+      "unresolved_nodes": 263
     },
     "MAN": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/man-l534.html",
-      "category_nodes": 187,
+      "category_nodes": 193,
       "product_bearing_nodes": 2,
-      "unresolved_nodes": 185
+      "unresolved_nodes": 191
     },
     "KIDS": {
       "landing_verified": true,
@@ -32,49 +32,49 @@
     "ZARA HOME": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/home-mkt2085.html",
-      "category_nodes": 6,
+      "category_nodes": 19,
       "product_bearing_nodes": 1,
-      "unresolved_nodes": 4
+      "unresolved_nodes": 17
     },
     "BEAUTY": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/woman-beauty-mkt1414.html",
-      "category_nodes": 7,
+      "category_nodes": 8,
       "product_bearing_nodes": 1,
-      "unresolved_nodes": 5
+      "unresolved_nodes": 6
     },
     "MASSIMO DUTTI": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/massimo-dutti-mkt5753.html",
-      "category_nodes": 1,
+      "category_nodes": 5,
       "product_bearing_nodes": 0,
-      "unresolved_nodes": 0
+      "unresolved_nodes": 4
     },
     "PRE-OWNED": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/preowned-mkt5794.html",
-      "category_nodes": 1,
+      "category_nodes": 5,
       "product_bearing_nodes": 0,
-      "unresolved_nodes": 0
+      "unresolved_nodes": 4
     },
     "TRAVEL MODE": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/zara-travel-mkt15659.html",
-      "category_nodes": 1,
+      "category_nodes": 2,
       "product_bearing_nodes": 0,
-      "unresolved_nodes": 0
+      "unresolved_nodes": 1
     },
     "UNCLASSIFIED": {
       "landing_verified": false,
       "landing_url": null,
-      "category_nodes": 4,
+      "category_nodes": 16,
       "product_bearing_nodes": 0,
-      "unresolved_nodes": 4
+      "unresolved_nodes": 16
     }
   },
   "observed_alias_merges": 1,
-  "enumeration_queue_size": 11,
-  "discovery_queue_pending": 387,
+  "enumeration_queue_size": 15,
+  "discovery_queue_pending": 509,
   "product_queue_pending": 7,
   "product_queue_supplemental_review": 51,
   "protected_files_unchanged": {

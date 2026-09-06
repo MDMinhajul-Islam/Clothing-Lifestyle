@@ -4,17 +4,17 @@ Graph repair checkpoint; **not full-catalogue completion**. All five major landi
 
 | Department | Landing verified | Nodes | Product-bearing | Unresolved classification |
 |---|---|---:|---:|---:|
-| WOMAN | Yes | 183 | 1 | 181 |
-| MAN | Yes | 187 | 2 | 185 |
+| WOMAN | Yes | 269 | 5 | 263 |
+| MAN | Yes | 193 | 2 | 191 |
 | KIDS | Yes | 13 | 6 | 6 |
-| ZARA HOME | Yes | 6 | 1 | 4 |
-| BEAUTY | Yes | 7 | 1 | 5 |
-| MASSIMO DUTTI | Yes | 1 | 0 | 0 |
-| PRE-OWNED | Yes | 1 | 0 | 0 |
-| TRAVEL MODE | Yes | 1 | 0 | 0 |
-| UNCLASSIFIED | N/A | 4 | 0 | 4 |
+| ZARA HOME | Yes | 19 | 1 | 17 |
+| BEAUTY | Yes | 8 | 1 | 6 |
+| MASSIMO DUTTI | Yes | 5 | 0 | 4 |
+| PRE-OWNED | Yes | 5 | 0 | 4 |
+| TRAVEL MODE | Yes | 2 | 0 | 1 |
+| UNCLASSIFIED | N/A | 16 | 0 | 16 |
 
-**Enumeration queue: 11 verified product-bearing nodes.** Discovery/classification queue: 387 pending. 369 legacy nodes retained; 403 revised nodes. 1 observed canonical alias merge(s).
+**Enumeration queue: 15 verified product-bearing nodes.** Discovery/classification queue: 509 pending. 369 legacy nodes retained; 530 revised nodes. 1 observed canonical alias merge(s).
 
 ## Verified department landings
 - [WOMAN](https://www.zara.com/us/en/woman-mkt1000.html)
