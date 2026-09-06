@@ -1,5 +1,29 @@
 [
   {
+    "source_category_id": "category:91695f626fcdd051",
+    "target_category_id": "category:1ab5bb08e7d4eb1b",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\1055.json"
+  },
+  {
+    "source_category_id": "category:91695f626fcdd051",
+    "target_category_id": "category:7d0144646bee1f6d",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\1055.json"
+  },
+  {
+    "source_category_id": "category:6884ee20701f15b5",
+    "target_category_id": "category:9be78623888074ad",
+    "relation": "BREADCRUMB_PARENT",
+    "evidence": "data\\raw\\zara\\discovery\\5337.json"
+  },
+  {
+    "source_category_id": "category:9be78623888074ad",
+    "target_category_id": "category:91695f626fcdd051",
+    "relation": "BREADCRUMB_PARENT",
+    "evidence": "data\\raw\\zara\\discovery\\1055.json"
+  },
+  {
     "source_category_id": "category:52b69d58ca7f96f8",
     "target_category_id": "category:6884ee20701f15b5",
     "relation": "RELATED_LINK",
@@ -1624,12 +1648,6 @@
     "target_category_id": "category:28ed6ea20598397d",
     "relation": "RELATED_LINK",
     "evidence": "data\\raw\\zara\\discovery\\1066.json"
-  },
-  {
-    "source_category_id": "category:6884ee20701f15b5",
-    "target_category_id": "category:9be78623888074ad",
-    "relation": "BREADCRUMB_PARENT",
-    "evidence": "data\\raw\\zara\\discovery\\5337.json"
   },
   {
     "source_category_id": "category:9be78623888074ad",
@@ -7000,6 +7018,36 @@
     "target_category_id": "category:984ade9ed69daa7a",
     "relation": "SEO_RELATED_LINK",
     "evidence": "data\\raw\\zara\\discovery\\1160.json"
+  },
+  {
+    "source_category_id": "category:fb8c0296db90eeb4",
+    "target_category_id": "category:308511bb0633822d",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\1335.json"
+  },
+  {
+    "source_category_id": "category:fb8c0296db90eeb4",
+    "target_category_id": "category:4120cf0af0efb754",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\1335.json"
+  },
+  {
+    "source_category_id": "category:fb8c0296db90eeb4",
+    "target_category_id": "category:45a4ea43f3604106",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\1335.json"
+  },
+  {
+    "source_category_id": "category:fb8c0296db90eeb4",
+    "target_category_id": "category:2f99de5eeaa08caf",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\1335.json"
+  },
+  {
+    "source_category_id": "category:9be78623888074ad",
+    "target_category_id": "category:fb8c0296db90eeb4",
+    "relation": "BREADCRUMB_PARENT",
+    "evidence": "data\\raw\\zara\\discovery\\1335.json"
   },
   {
     "source_category_id": "category:1d06358b2b90c030",
@@ -17272,6 +17320,48 @@
     "target_category_id": "category:e781e3fc36bec631",
     "relation": "SEO_RELATED_LINK",
     "evidence": "data\\raw\\zara\\discovery\\19359.json"
+  },
+  {
+    "source_category_id": "category:8dec85dc8a2dbbd0",
+    "target_category_id": "category:341bb921fe6f1205",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\2091.json"
+  },
+  {
+    "source_category_id": "category:8dec85dc8a2dbbd0",
+    "target_category_id": "category:54c148a5e712c0e1",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\2091.json"
+  },
+  {
+    "source_category_id": "category:8dec85dc8a2dbbd0",
+    "target_category_id": "category:c3d3efa4f1507925",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\2091.json"
+  },
+  {
+    "source_category_id": "category:8dec85dc8a2dbbd0",
+    "target_category_id": "category:89cc7d4344743af4",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\2091.json"
+  },
+  {
+    "source_category_id": "category:8dec85dc8a2dbbd0",
+    "target_category_id": "category:5f2335ba5d0b130c",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\2091.json"
+  },
+  {
+    "source_category_id": "category:8dec85dc8a2dbbd0",
+    "target_category_id": "category:980ec994b8092d11",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\2091.json"
+  },
+  {
+    "source_category_id": "category:04ff1d5a820a8cce",
+    "target_category_id": "category:8dec85dc8a2dbbd0",
+    "relation": "BREADCRUMB_PARENT",
+    "evidence": "data\\raw\\zara\\discovery\\2091.json"
   },
   {
     "source_category_id": "category:d46328f1a84f9f10",
@@ -28182,6 +28272,60 @@
     "evidence": "data\\raw\\zara\\discovery\\766.json"
   },
   {
+    "source_category_id": "category:de8b8e048badf9de",
+    "target_category_id": "category:92d87157bfe4c137",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
+    "source_category_id": "category:de8b8e048badf9de",
+    "target_category_id": "category:d9d8e46557c98bec",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
+    "source_category_id": "category:de8b8e048badf9de",
+    "target_category_id": "category:792551b4c1e94e3f",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
+    "source_category_id": "category:de8b8e048badf9de",
+    "target_category_id": "category:f5a2eb6c30f555a8",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
+    "source_category_id": "category:de8b8e048badf9de",
+    "target_category_id": "category:5d492e64a36987f3",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
+    "source_category_id": "category:de8b8e048badf9de",
+    "target_category_id": "category:31d8ff83360da984",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
+    "source_category_id": "category:de8b8e048badf9de",
+    "target_category_id": "category:6488d0997b0b950c",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
+    "source_category_id": "category:4f1a863445927eee",
+    "target_category_id": "category:cebc24391672b786",
+    "relation": "BREADCRUMB_PARENT",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
+    "source_category_id": "category:cebc24391672b786",
+    "target_category_id": "category:de8b8e048badf9de",
+    "relation": "BREADCRUMB_PARENT",
+    "evidence": "data\\raw\\zara\\discovery\\769.json"
+  },
+  {
     "source_category_id": "category:5d492e64a36987f3",
     "target_category_id": "category:de8b8e048badf9de",
     "relation": "RELATED_LINK",
@@ -29006,242 +29150,92 @@
   {
     "source_category_id": "category:ef79297b7a465839",
     "target_category_id": "category:26e5803efbb78a60",
-    "relation": "RELATED_LINK",
+    "relation": "SUBCATEGORY_CAROUSEL",
     "evidence": "data\\raw\\zara\\discovery\\808.json"
   },
   {
     "source_category_id": "category:ef79297b7a465839",
     "target_category_id": "category:3ffcf9a0fc798632",
-    "relation": "RELATED_LINK",
+    "relation": "SUBCATEGORY_CAROUSEL",
     "evidence": "data\\raw\\zara\\discovery\\808.json"
   },
   {
     "source_category_id": "category:ef79297b7a465839",
     "target_category_id": "category:0ce323e6d8bbf27b",
-    "relation": "RELATED_LINK",
+    "relation": "SUBCATEGORY_CAROUSEL",
     "evidence": "data\\raw\\zara\\discovery\\808.json"
   },
   {
     "source_category_id": "category:ef79297b7a465839",
     "target_category_id": "category:b826522a3d042190",
-    "relation": "RELATED_LINK",
+    "relation": "SUBCATEGORY_CAROUSEL",
     "evidence": "data\\raw\\zara\\discovery\\808.json"
   },
   {
     "source_category_id": "category:ef79297b7a465839",
     "target_category_id": "category:b41685cd21f8d2fb",
-    "relation": "RELATED_LINK",
+    "relation": "SUBCATEGORY_CAROUSEL",
     "evidence": "data\\raw\\zara\\discovery\\808.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:2fadd230ae7cb527",
-    "relation": "RELATED_LINK",
+    "source_category_id": "category:4f1a863445927eee",
+    "target_category_id": "category:10c76ff231f57185",
+    "relation": "BREADCRUMB_PARENT",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
+  },
+  {
+    "source_category_id": "category:10c76ff231f57185",
+    "target_category_id": "category:ef79297b7a465839",
+    "relation": "BREADCRUMB_PARENT",
     "evidence": "data\\raw\\zara\\discovery\\808.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:e9a8b06a4e0d8fb5",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
+    "source_category_id": "category:b547c2f0c580d495",
+    "target_category_id": "category:d11dcf8cb47c7dd5",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:a41dde4b047e0ef1",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
+    "source_category_id": "category:b547c2f0c580d495",
+    "target_category_id": "category:94e97f37f3141855",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:feaea88124282770",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
+    "source_category_id": "category:b547c2f0c580d495",
+    "target_category_id": "category:80787ee5a58414b9",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:53e97f703414970d",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
+    "source_category_id": "category:b547c2f0c580d495",
+    "target_category_id": "category:5503553b45e25822",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:bca0fc7393527fc3",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
+    "source_category_id": "category:b547c2f0c580d495",
+    "target_category_id": "category:9839128c5d20802f",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:8f4f28e2a14c11bb",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
+    "source_category_id": "category:b547c2f0c580d495",
+    "target_category_id": "category:0c8e71dd358dad89",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:b454c42b2bea840c",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
+    "source_category_id": "category:b547c2f0c580d495",
+    "target_category_id": "category:b4447a076bb72029",
+    "relation": "SUBCATEGORY_CAROUSEL",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
   },
   {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:5b09f96e5e627a6a",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:445963bbe168a471",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:a715ab89f765087a",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:1efeceec3da4d6e1",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:fe3b348f229cad71",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:7dee4991ea9761f3",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:89b73721efacfea1",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:a5ee2ed5106e9b97",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:f9e2ed9b1733f551",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:e2e0c82873751a63",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:023c7d700e187fde",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:e05e94f64ad1dc35",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:c02c58555d24d51a",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:a5b3626926846f0b",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:97787d9f86820684",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:28187e18bcbcb457",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:a90746e9b12ca312",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:5069281f29a1ff75",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:7d11bbc8108fb596",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:51722dd38abdd1cb",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:b8f2003d5b630a6d",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:31967ffd8526d619",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:de8b8e048badf9de",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:92d87157bfe4c137",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:d9d8e46557c98bec",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:5d492e64a36987f3",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
-  },
-  {
-    "source_category_id": "category:ef79297b7a465839",
-    "target_category_id": "category:e571a2bc5f5180d9",
-    "relation": "RELATED_LINK",
-    "evidence": "data\\raw\\zara\\discovery\\808.json"
+    "source_category_id": "category:10c76ff231f57185",
+    "target_category_id": "category:b547c2f0c580d495",
+    "relation": "BREADCRUMB_PARENT",
+    "evidence": "data\\raw\\zara\\discovery\\838.json"
   },
   {
     "source_category_id": "category:25c9417fba67de39",
