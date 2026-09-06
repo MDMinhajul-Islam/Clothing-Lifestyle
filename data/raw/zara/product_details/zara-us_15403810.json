@@ -1,0 +1,379 @@
+{
+  "product_id": "zara-us:15403810",
+  "source_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html",
+  "final_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER SNEAKERS",
+      "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html",
+      "productGroupID": "15403810",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leather sneakers. Topstitching on the upper. Back heel detail. Lace-up closure. Round toe. Sole height: 0.4 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920",
+        "https://static.zara.net/assets/public/9aea/fc58/f86b444cb44e/4c02d0338434/15403810105-a1/15403810105-a1.jpg?ts=1786003567916&w=1920",
+        "https://static.zara.net/assets/public/4ec9/c245/448d43a0b980/9a3a1fa4765c/15403810105-e1/15403810105-e1.jpg?ts=1785482003453&w=1920",
+        "https://static.zara.net/assets/public/970b/2594/738346e38090/13ee20adae45/15403810105-e2/15403810105-e2.jpg?ts=1785482003277&w=1920",
+        "https://static.zara.net/assets/public/1b9c/fdf0/292d4c4d8b12/639f6246ca12/15403810105-e3/15403810105-e3.jpg?ts=1785482003122&w=1920",
+        "https://static.zara.net/assets/public/4b38/5e3b/25c84bb6a1c8/c0260a1cb6fc/15403810105-e4/15403810105-e4.jpg?ts=1785482003286&w=1920",
+        "https://static.zara.net/assets/public/f013/0fec/24e74a3b88b0/5686d1c712b1/15403810105-e5/15403810105-e5.jpg?ts=1785482003439&w=1920"
+      ],
+      "material": "100% pig leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% pig leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "74% polyester, 16% cotton, 10% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "85% polyamide, 15% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% pig leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 5",
+          "sku": "545422574-105-35",
+          "mpn": "545422574-105-35",
+          "color": "Brown",
+          "size": "5",
+          "image": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.54",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 6",
+          "sku": "545422574-105-36",
+          "mpn": "545422574-105-36",
+          "color": "Brown",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.54",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 6½",
+          "sku": "545422574-105-37",
+          "mpn": "545422574-105-37",
+          "color": "Brown",
+          "size": "6½",
+          "image": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.54",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 7½",
+          "sku": "545422574-105-38",
+          "mpn": "545422574-105-38",
+          "color": "Brown",
+          "size": "7½",
+          "image": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.54",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 8",
+          "sku": "545422574-105-39",
+          "mpn": "545422574-105-39",
+          "color": "Brown",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.54",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 9",
+          "sku": "545422574-105-40",
+          "mpn": "545422574-105-40",
+          "color": "Brown",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.54",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 10",
+          "sku": "545422574-105-41",
+          "mpn": "545422574-105-41",
+          "color": "Brown",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.54",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 11",
+          "sku": "545422574-105-42",
+          "mpn": "545422574-105-42",
+          "color": "Brown",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.54",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER SNEAKERS",
+      "product_group_id": "15403810",
+      "brand": "ZARA",
+      "description": "Leather sneakers. Topstitching on the upper. Back heel detail. Lace-up closure. Round toe. Sole height: 0.4 inches.",
+      "material": "100% pig leather",
+      "composition": "UPPER: 100% pig leather | LINING: 74% polyester, 16% cotton, 10% polyurethane | SOLE: 100% sbs | INSOLE: 85% polyamide, 15% elastane | TONGUE: 100% pig leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER SNEAKERS - Brown - 5",
+          "sku": "545422574-105-35",
+          "mpn": "545422574-105-35",
+          "color_name": "Brown",
+          "size_name": "5",
+          "price": "45.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+          "images": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 6",
+          "sku": "545422574-105-36",
+          "mpn": "545422574-105-36",
+          "color_name": "Brown",
+          "size_name": "6",
+          "price": "45.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+          "images": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 6½",
+          "sku": "545422574-105-37",
+          "mpn": "545422574-105-37",
+          "color_name": "Brown",
+          "size_name": "6½",
+          "price": "45.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+          "images": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 7½",
+          "sku": "545422574-105-38",
+          "mpn": "545422574-105-38",
+          "color_name": "Brown",
+          "size_name": "7½",
+          "price": "45.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+          "images": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 8",
+          "sku": "545422574-105-39",
+          "mpn": "545422574-105-39",
+          "color_name": "Brown",
+          "size_name": "8",
+          "price": "45.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+          "images": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 9",
+          "sku": "545422574-105-40",
+          "mpn": "545422574-105-40",
+          "color_name": "Brown",
+          "size_name": "9",
+          "price": "45.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+          "images": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 10",
+          "sku": "545422574-105-41",
+          "mpn": "545422574-105-41",
+          "color_name": "Brown",
+          "size_name": "10",
+          "price": "45.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+          "images": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 11",
+          "sku": "545422574-105-42",
+          "mpn": "545422574-105-42",
+          "color_name": "Brown",
+          "size_name": "11",
+          "price": "45.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p15403810.html?v1=545422574",
+          "images": [
+            "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/caa0/f123/1f134862b33e/36475f2ed73e/15403810105-p/15403810105-p.jpg?ts=1786003567513&w=1920",
+        "https://static.zara.net/assets/public/9aea/fc58/f86b444cb44e/4c02d0338434/15403810105-a1/15403810105-a1.jpg?ts=1786003567916&w=1920",
+        "https://static.zara.net/assets/public/4ec9/c245/448d43a0b980/9a3a1fa4765c/15403810105-e1/15403810105-e1.jpg?ts=1785482003453&w=1920",
+        "https://static.zara.net/assets/public/970b/2594/738346e38090/13ee20adae45/15403810105-e2/15403810105-e2.jpg?ts=1785482003277&w=1920",
+        "https://static.zara.net/assets/public/1b9c/fdf0/292d4c4d8b12/639f6246ca12/15403810105-e3/15403810105-e3.jpg?ts=1785482003122&w=1920",
+        "https://static.zara.net/assets/public/4b38/5e3b/25c84bb6a1c8/c0260a1cb6fc/15403810105-e4/15403810105-e4.jpg?ts=1785482003286&w=1920",
+        "https://static.zara.net/assets/public/f013/0fec/24e74a3b88b0/5686d1c712b1/15403810105-e5/15403810105-e5.jpg?ts=1785482003439&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "75.90",
+  "rendered_description": "Description\nLeather sneakers. Topstitching on the upper. Back heel detail. Lace-up closure. Round toe. Sole height: 0.4 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.54",
+    "original_price": "75.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "45.54",
+    "dom_price": "75.90",
+    "normalized_price": "45.54",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '45.54' != DOM price '75.90'"
+  },
+  "source_content_hash": "7b8dceae42fa38ccc430a87bb26100a3b9bfb40a1c159d7d047148a1d1b1484c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

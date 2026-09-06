@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:43462705",
+  "source_url": "https://www.zara.com/us/en/-220-g--floral-silk-scented-candle-p43462705.html",
+  "final_url": "https://www.zara.com/us/en/-220-g--floral-silk-scented-candle-p43462705.html",
+  "canonical_url": "https://www.zara.com/us/en/-220-g--floral-silk-scented-candle-p43462705.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "(220 G) FLORAL SILK SCENTED CANDLE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "(220 G) FLORAL SILK SCENTED CANDLE",
+      "url": "https://www.zara.com/us/en/-220-g--floral-silk-scented-candle-p43462705.html",
+      "productGroupID": "43462705",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Scented candle made with vegetable waxes.\n\nFloral Silk | A luminous and juicy opening that evokes the delicacy of traditional Polish gardens and fabrics. The coconut and jasmine heart provides a silky and enveloping softness. A vanilla and musk base envelops the fragrance with timeless elegance.\n\nOLFACTORY NOTES\nTop notes: passionfruit\nHeart notes: coconut, jasmine\nBase notes: vanilla, musk",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d9dc/a1ea/285b42f79b2d/fa685ed54808/43462705100-e1/43462705100-e1.jpg?ts=1773406948617&w=1920",
+        "https://static.zara.net/assets/public/7cad/d92b/d90c4b928273/88d3368e2efa/43462705100-e2/43462705100-e2.jpg?ts=1773406949146&w=1920",
+        "https://static.zara.net/assets/public/4193/5c97/156d454db7a7/a5bdcd551b60/43462705100-e3/43462705100-e3.jpg?ts=1773406948723&w=1920",
+        "https://static.zara.net/assets/public/a243/cada/c6a942468a2b/60c1ecaf53a1/43462705100-e4/43462705100-e4.jpg?ts=1773406948034&w=1920",
+        "https://static.zara.net/assets/public/245e/2f24/50804bb5b4aa/8adaec3a6df4/43462705100-a1/43462705100-a1.jpg?ts=1773762194598&w=1920"
+      ],
+      "material": "Soybean oil, hydrogenated/wax/perfume",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "ZARA HOME AROMATIC CANDLE FLORAL SILK",
+          "value": " Soybean oil, hydrogenated,  wax,  perfume,  1-(1,2,3,4,5,6,7,8-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one,  7-hydroxycitronellal,  BENZYL SALICYLATE,  Hexyl salicylate,  (Z)-3-hexenyl salicylate,  coumarin,  Linalol,  3-(p-methoxyphenyl)-2- methylpropionaldehyde"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "(220 G) FLORAL SILK SCENTED CANDLE - Ecru/Yellow - ONE SIZE ONLY",
+          "sku": "545456434-100-99",
+          "mpn": "545456434-100-99",
+          "color": "Ecru/Yellow",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d9dc/a1ea/285b42f79b2d/fa685ed54808/43462705100-e1/43462705100-e1.jpg?ts=1773406948617&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/-220-g--floral-silk-scented-candle-p43462705.html?v1=545456434",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "(220 G) FLORAL SILK SCENTED CANDLE",
+      "product_group_id": "43462705",
+      "brand": "ZARAHOME",
+      "description": "Scented candle made with vegetable waxes.\n\nFloral Silk | A luminous and juicy opening that evokes the delicacy of traditional Polish gardens and fabrics. The coconut and jasmine heart provides a silky and enveloping softness. A vanilla and musk base envelops the fragrance with timeless elegance.\n\nOLFACTORY NOTES\nTop notes: passionfruit\nHeart notes: coconut, jasmine\nBase notes: vanilla, musk",
+      "material": "Soybean oil, hydrogenated/wax/perfume",
+      "composition": "ZARA HOME AROMATIC CANDLE FLORAL SILK:  Soybean oil, hydrogenated,  wax,  perfume,  1-(1,2,3,4,5,6,7,8-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one,  7-hydroxycitronellal,  BENZYL SALICYLATE,  Hexyl salicylate,  (Z)-3-hexenyl salicylate,  coumarin,  Linalol,  3-(p-methoxyphenyl)-2- methylpropionaldehyde",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "(220 G) FLORAL SILK SCENTED CANDLE - Ecru/Yellow - ONE SIZE ONLY",
+          "sku": "545456434-100-99",
+          "mpn": "545456434-100-99",
+          "color_name": "Ecru/Yellow",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/-220-g--floral-silk-scented-candle-p43462705.html?v1=545456434",
+          "images": [
+            "https://static.zara.net/assets/public/d9dc/a1ea/285b42f79b2d/fa685ed54808/43462705100-e1/43462705100-e1.jpg?ts=1773406948617&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d9dc/a1ea/285b42f79b2d/fa685ed54808/43462705100-e1/43462705100-e1.jpg?ts=1773406948617&w=1920",
+        "https://static.zara.net/assets/public/7cad/d92b/d90c4b928273/88d3368e2efa/43462705100-e2/43462705100-e2.jpg?ts=1773406949146&w=1920",
+        "https://static.zara.net/assets/public/4193/5c97/156d454db7a7/a5bdcd551b60/43462705100-e3/43462705100-e3.jpg?ts=1773406948723&w=1920",
+        "https://static.zara.net/assets/public/a243/cada/c6a942468a2b/60c1ecaf53a1/43462705100-e4/43462705100-e4.jpg?ts=1773406948034&w=1920",
+        "https://static.zara.net/assets/public/245e/2f24/50804bb5b4aa/8adaec3a6df4/43462705100-a1/43462705100-a1.jpg?ts=1773762194598&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nScented candle made with vegetable waxes.\nFloral Silk | A luminous and juicy opening that evokes the delicacy of traditional Polish gardens and fabrics. The coconut and jasmine heart provides a silky and enveloping softness. A vanilla and musk base envelops the fragrance with timeless elegance.\nOLFACTORY NOTES\nTop notes: passionfruit\nHeart notes: coconut, jasmine\nBase notes: vanilla, musk\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6fd8a75a55a19085c17e80349992b299789c0f635d219260a14a1c5037b48748",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

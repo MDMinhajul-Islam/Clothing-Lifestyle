@@ -1,0 +1,488 @@
+{
+  "product_id": "zara-us:02621308",
+  "source_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html",
+  "final_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html",
+  "canonical_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HENLEY KNIT T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HENLEY KNIT T-SHIRT",
+      "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html",
+      "productGroupID": "02621308",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed-fit knit T-shirt crafted from cotton yarn (excluding elastics). Crew neck with a front button placket and long sleeves. Washed effect. Ribbed trims.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920",
+        "https://static.zara.net/assets/public/9427/ad27/dcec4dd69fef/23bf4a771591/02621308410-a1/02621308410-a1.jpg?ts=1787827282238&w=1920",
+        "https://static.zara.net/assets/public/e472/e954/d21b4f0f8971/a0625a7acff0/02621308410-a2/02621308410-a2.jpg?ts=1787827276512&w=1920",
+        "https://static.zara.net/assets/public/e1b7/67f3/fe3044678e67/12ae26f675ee/02621308410-a3/02621308410-a3.jpg?ts=1787827276571&w=1920",
+        "https://static.zara.net/assets/public/2f53/5943/a1cb4a27a49e/22aa96018fb0/02621308410-a4/02621308410-a4.jpg?ts=1787827282447&w=1920",
+        "https://static.zara.net/assets/public/b22d/114e/38124d86a42f/4f2320b023b1/02621308410-e1/02621308410-e1.jpg?ts=1787754350851&w=1920",
+        "https://static.zara.net/assets/public/9ef6/7cd6/ae6b4ca1a278/44579b65cf63/02621308410-e2/02621308410-e2.jpg?ts=1787754351196&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Faded navy - S",
+          "sku": "545470334-410-2",
+          "mpn": "545470334-410-2",
+          "color": "Faded navy",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Faded navy - M",
+          "sku": "545470334-410-3",
+          "mpn": "545470334-410-3",
+          "color": "Faded navy",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Faded navy - L",
+          "sku": "545470334-410-4",
+          "mpn": "545470334-410-4",
+          "color": "Faded navy",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Faded navy - XL",
+          "sku": "545470334-410-5",
+          "mpn": "545470334-410-5",
+          "color": "Faded navy",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Faded black - S",
+          "sku": "545470334-833-2",
+          "mpn": "545470334-833-2",
+          "color": "Faded black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/8c5f/c04d/41714ef4bd9f/56ccecd4a7ec/02621308833-p/02621308833-p.jpg?ts=1787827282852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Faded black - M",
+          "sku": "545470334-833-3",
+          "mpn": "545470334-833-3",
+          "color": "Faded black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/8c5f/c04d/41714ef4bd9f/56ccecd4a7ec/02621308833-p/02621308833-p.jpg?ts=1787827282852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Faded black - L",
+          "sku": "545470334-833-4",
+          "mpn": "545470334-833-4",
+          "color": "Faded black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/8c5f/c04d/41714ef4bd9f/56ccecd4a7ec/02621308833-p/02621308833-p.jpg?ts=1787827282852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Faded black - XL",
+          "sku": "545470334-833-5",
+          "mpn": "545470334-833-5",
+          "color": "Faded black",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/8c5f/c04d/41714ef4bd9f/56ccecd4a7ec/02621308833-p/02621308833-p.jpg?ts=1787827282852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Ice - S",
+          "sku": "545470334-805-2",
+          "mpn": "545470334-805-2",
+          "color": "Ice",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/5110/fce9/950f4b76af24/c10b513f1909/02621308805-p/02621308805-p.jpg?ts=1787827276657&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470336",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Ice - M",
+          "sku": "545470334-805-3",
+          "mpn": "545470334-805-3",
+          "color": "Ice",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/5110/fce9/950f4b76af24/c10b513f1909/02621308805-p/02621308805-p.jpg?ts=1787827276657&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470336",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Ice - L",
+          "sku": "545470334-805-4",
+          "mpn": "545470334-805-4",
+          "color": "Ice",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/5110/fce9/950f4b76af24/c10b513f1909/02621308805-p/02621308805-p.jpg?ts=1787827276657&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470336",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HENLEY KNIT T-SHIRT - Ice - XL",
+          "sku": "545470334-805-5",
+          "mpn": "545470334-805-5",
+          "color": "Ice",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/5110/fce9/950f4b76af24/c10b513f1909/02621308805-p/02621308805-p.jpg?ts=1787827276657&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470336",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HENLEY KNIT T-SHIRT",
+      "product_group_id": "02621308",
+      "brand": "ZARA",
+      "description": "Relaxed-fit knit T-shirt crafted from cotton yarn (excluding elastics). Crew neck with a front button placket and long sleeves. Washed effect. Ribbed trims.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HENLEY KNIT T-SHIRT - Faded navy - S",
+          "sku": "545470334-410-2",
+          "mpn": "545470334-410-2",
+          "color_name": "Faded navy",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470334",
+          "images": [
+            "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Faded navy - M",
+          "sku": "545470334-410-3",
+          "mpn": "545470334-410-3",
+          "color_name": "Faded navy",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470334",
+          "images": [
+            "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Faded navy - L",
+          "sku": "545470334-410-4",
+          "mpn": "545470334-410-4",
+          "color_name": "Faded navy",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470334",
+          "images": [
+            "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Faded navy - XL",
+          "sku": "545470334-410-5",
+          "mpn": "545470334-410-5",
+          "color_name": "Faded navy",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470334",
+          "images": [
+            "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Faded black - S",
+          "sku": "545470334-833-2",
+          "mpn": "545470334-833-2",
+          "color_name": "Faded black",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470335",
+          "images": [
+            "https://static.zara.net/assets/public/8c5f/c04d/41714ef4bd9f/56ccecd4a7ec/02621308833-p/02621308833-p.jpg?ts=1787827282852&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Faded black - M",
+          "sku": "545470334-833-3",
+          "mpn": "545470334-833-3",
+          "color_name": "Faded black",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470335",
+          "images": [
+            "https://static.zara.net/assets/public/8c5f/c04d/41714ef4bd9f/56ccecd4a7ec/02621308833-p/02621308833-p.jpg?ts=1787827282852&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Faded black - L",
+          "sku": "545470334-833-4",
+          "mpn": "545470334-833-4",
+          "color_name": "Faded black",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470335",
+          "images": [
+            "https://static.zara.net/assets/public/8c5f/c04d/41714ef4bd9f/56ccecd4a7ec/02621308833-p/02621308833-p.jpg?ts=1787827282852&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Faded black - XL",
+          "sku": "545470334-833-5",
+          "mpn": "545470334-833-5",
+          "color_name": "Faded black",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470335",
+          "images": [
+            "https://static.zara.net/assets/public/8c5f/c04d/41714ef4bd9f/56ccecd4a7ec/02621308833-p/02621308833-p.jpg?ts=1787827282852&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Ice - S",
+          "sku": "545470334-805-2",
+          "mpn": "545470334-805-2",
+          "color_name": "Ice",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470336",
+          "images": [
+            "https://static.zara.net/assets/public/5110/fce9/950f4b76af24/c10b513f1909/02621308805-p/02621308805-p.jpg?ts=1787827276657&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Ice - M",
+          "sku": "545470334-805-3",
+          "mpn": "545470334-805-3",
+          "color_name": "Ice",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470336",
+          "images": [
+            "https://static.zara.net/assets/public/5110/fce9/950f4b76af24/c10b513f1909/02621308805-p/02621308805-p.jpg?ts=1787827276657&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Ice - L",
+          "sku": "545470334-805-4",
+          "mpn": "545470334-805-4",
+          "color_name": "Ice",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470336",
+          "images": [
+            "https://static.zara.net/assets/public/5110/fce9/950f4b76af24/c10b513f1909/02621308805-p/02621308805-p.jpg?ts=1787827276657&w=1920"
+          ]
+        },
+        {
+          "name": "HENLEY KNIT T-SHIRT - Ice - XL",
+          "sku": "545470334-805-5",
+          "mpn": "545470334-805-5",
+          "color_name": "Ice",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/henley-knit-t-shirt-p02621308.html?v1=545470336",
+          "images": [
+            "https://static.zara.net/assets/public/5110/fce9/950f4b76af24/c10b513f1909/02621308805-p/02621308805-p.jpg?ts=1787827276657&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e3ae/e8c0/d1e9451fbfa8/5c9a03a6fdde/02621308410-p/02621308410-p.jpg?ts=1787827282196&w=1920",
+        "https://static.zara.net/assets/public/9427/ad27/dcec4dd69fef/23bf4a771591/02621308410-a1/02621308410-a1.jpg?ts=1787827282238&w=1920",
+        "https://static.zara.net/assets/public/e472/e954/d21b4f0f8971/a0625a7acff0/02621308410-a2/02621308410-a2.jpg?ts=1787827276512&w=1920",
+        "https://static.zara.net/assets/public/e1b7/67f3/fe3044678e67/12ae26f675ee/02621308410-a3/02621308410-a3.jpg?ts=1787827276571&w=1920",
+        "https://static.zara.net/assets/public/2f53/5943/a1cb4a27a49e/22aa96018fb0/02621308410-a4/02621308410-a4.jpg?ts=1787827282447&w=1920",
+        "https://static.zara.net/assets/public/b22d/114e/38124d86a42f/4f2320b023b1/02621308410-e1/02621308410-e1.jpg?ts=1787754350851&w=1920",
+        "https://static.zara.net/assets/public/9ef6/7cd6/ae6b4ca1a278/44579b65cf63/02621308410-e2/02621308410-e2.jpg?ts=1787754351196&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Faded navy",
+    "Faded black",
+    "Ice"
+  ],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nRelaxed-fit knit T-shirt crafted from cotton yarn (excluding elastics). Crew neck with a front button placket and long sleeves. Washed effect. Ribbed trims.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 9,
+  "variants_count": 12,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7491246ba706c96529774fbe3d0175c2352dc0fbd232defc807711c28e1b5918",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

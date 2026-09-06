@@ -1,0 +1,373 @@
+{
+  "product_id": "zara-us:15801610",
+  "source_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html",
+  "final_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html",
+  "canonical_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLATFORM SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLATFORM SNEAKERS",
+      "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html",
+      "productGroupID": "15801610",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers. Platform sole. Monochromatic. Lace-up fastening. Round toe. \n\nSole height: 2.7 inches (7 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920",
+        "https://static.zara.net/assets/public/a50f/4a49/366745c09901/706fb099e566/15801610001-e2/15801610001-e2.jpg?ts=1750338832273&w=1920",
+        "https://static.zara.net/assets/public/b7a8/1be8/f8984cf09f63/f9dbc83f3531/15801610001-e3/15801610001-e3.jpg?ts=1750252852758&w=1920",
+        "https://static.zara.net/assets/public/f8ae/2a13/5ed042168f82/7ee453a58ba6/15801610001-e4/15801610001-e4.jpg?ts=1750252853153&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "77% polyester, 13% elastane, 10% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "85% polyamide, 15% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLATFORM SNEAKERS - White - 5",
+          "sku": "545494592-001-35",
+          "mpn": "545494592-001-35",
+          "color": "White",
+          "size": "5",
+          "image": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLATFORM SNEAKERS - White - 6",
+          "sku": "545494592-001-36",
+          "mpn": "545494592-001-36",
+          "color": "White",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLATFORM SNEAKERS - White - 6½",
+          "sku": "545494592-001-37",
+          "mpn": "545494592-001-37",
+          "color": "White",
+          "size": "6½",
+          "image": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLATFORM SNEAKERS - White - 7½",
+          "sku": "545494592-001-38",
+          "mpn": "545494592-001-38",
+          "color": "White",
+          "size": "7½",
+          "image": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLATFORM SNEAKERS - White - 8",
+          "sku": "545494592-001-39",
+          "mpn": "545494592-001-39",
+          "color": "White",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLATFORM SNEAKERS - White - 9",
+          "sku": "545494592-001-40",
+          "mpn": "545494592-001-40",
+          "color": "White",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLATFORM SNEAKERS - White - 10",
+          "sku": "545494592-001-41",
+          "mpn": "545494592-001-41",
+          "color": "White",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLATFORM SNEAKERS - White - 11",
+          "sku": "545494592-001-42",
+          "mpn": "545494592-001-42",
+          "color": "White",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLATFORM SNEAKERS",
+      "product_group_id": "15801610",
+      "brand": "ZARA",
+      "description": "Sneakers. Platform sole. Monochromatic. Lace-up fastening. Round toe. \n\nSole height: 2.7 inches (7 cm)",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 77% polyester, 13% elastane, 10% polyurethane | SOLE: 100% polyurethane | INSOLE: 85% polyamide, 15% elastane | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLATFORM SNEAKERS - White - 5",
+          "sku": "545494592-001-35",
+          "mpn": "545494592-001-35",
+          "color_name": "White",
+          "size_name": "5",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+          "images": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ]
+        },
+        {
+          "name": "PLATFORM SNEAKERS - White - 6",
+          "sku": "545494592-001-36",
+          "mpn": "545494592-001-36",
+          "color_name": "White",
+          "size_name": "6",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+          "images": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ]
+        },
+        {
+          "name": "PLATFORM SNEAKERS - White - 6½",
+          "sku": "545494592-001-37",
+          "mpn": "545494592-001-37",
+          "color_name": "White",
+          "size_name": "6½",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+          "images": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ]
+        },
+        {
+          "name": "PLATFORM SNEAKERS - White - 7½",
+          "sku": "545494592-001-38",
+          "mpn": "545494592-001-38",
+          "color_name": "White",
+          "size_name": "7½",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+          "images": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ]
+        },
+        {
+          "name": "PLATFORM SNEAKERS - White - 8",
+          "sku": "545494592-001-39",
+          "mpn": "545494592-001-39",
+          "color_name": "White",
+          "size_name": "8",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+          "images": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ]
+        },
+        {
+          "name": "PLATFORM SNEAKERS - White - 9",
+          "sku": "545494592-001-40",
+          "mpn": "545494592-001-40",
+          "color_name": "White",
+          "size_name": "9",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+          "images": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ]
+        },
+        {
+          "name": "PLATFORM SNEAKERS - White - 10",
+          "sku": "545494592-001-41",
+          "mpn": "545494592-001-41",
+          "color_name": "White",
+          "size_name": "10",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+          "images": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ]
+        },
+        {
+          "name": "PLATFORM SNEAKERS - White - 11",
+          "sku": "545494592-001-42",
+          "mpn": "545494592-001-42",
+          "color_name": "White",
+          "size_name": "11",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/platform-sneakers-p15801610.html?v1=545494592",
+          "images": [
+            "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/85bf/234c/a44d4c7fb6af/3cd436cc858e/15801610001-e1/15801610001-e1.jpg?ts=1750338832254&w=1920",
+        "https://static.zara.net/assets/public/a50f/4a49/366745c09901/706fb099e566/15801610001-e2/15801610001-e2.jpg?ts=1750338832273&w=1920",
+        "https://static.zara.net/assets/public/b7a8/1be8/f8984cf09f63/f9dbc83f3531/15801610001-e3/15801610001-e3.jpg?ts=1750252852758&w=1920",
+        "https://static.zara.net/assets/public/f8ae/2a13/5ed042168f82/7ee453a58ba6/15801610001-e4/15801610001-e4.jpg?ts=1750252853153&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nSneakers. Platform sole. Monochromatic. Lace-up fastening. Round toe.\nSole height: 2.7 inches (7 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fe848c075680741e55d07175f8e09611bb8f8a53b47d2aa848e756de93391279",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

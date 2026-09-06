@@ -1,0 +1,371 @@
+{
+  "product_id": "zara-us:12006810",
+  "source_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html",
+  "final_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER WEDGE BOOTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER WEDGE BOOTS",
+      "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html",
+      "productGroupID": "12006810",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "High-leg leather boots. Side topstitching detail. Mid-height wedge heel. Easy pull-on style. Pointed toe.\n\nHeel height: 2.8 inches",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920",
+        "https://static.zara.net/assets/public/d41d/48ca/baf942ef82e4/fd2478510548/12006810800-a1/12006810800-a1.jpg?ts=1787038347317&w=1920",
+        "https://static.zara.net/assets/public/39d8/2029/9bea4e779b26/9577ab4d6229/12006810800-e1/12006810800-e1.jpg?ts=1786605470319&w=1920",
+        "https://static.zara.net/assets/public/31ab/0bba/390a4359819b/cc5f2c70f878/12006810800-e2/12006810800-e2.jpg?ts=1786605470671&w=1920",
+        "https://static.zara.net/assets/public/9072/a014/8f1448b78013/64ae45062b74/12006810800-e3/12006810800-e3.jpg?ts=1786605470752&w=1920",
+        "https://static.zara.net/assets/public/78be/6cd9/4062406d92b8/1a634ad8cedf/12006810800-e4/12006810800-e4.jpg?ts=1786605469693&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER WEDGE BOOTS - Black - 5",
+          "sku": "548445970-800-35",
+          "mpn": "548445970-800-35",
+          "color": "Black",
+          "size": "5",
+          "image": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "189",
+            "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER WEDGE BOOTS - Black - 6",
+          "sku": "548445970-800-36",
+          "mpn": "548445970-800-36",
+          "color": "Black",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "189",
+            "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER WEDGE BOOTS - Black - 6½",
+          "sku": "548445970-800-37",
+          "mpn": "548445970-800-37",
+          "color": "Black",
+          "size": "6½",
+          "image": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "189",
+            "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER WEDGE BOOTS - Black - 7½",
+          "sku": "548445970-800-38",
+          "mpn": "548445970-800-38",
+          "color": "Black",
+          "size": "7½",
+          "image": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "189",
+            "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER WEDGE BOOTS - Black - 8",
+          "sku": "548445970-800-39",
+          "mpn": "548445970-800-39",
+          "color": "Black",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "189",
+            "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER WEDGE BOOTS - Black - 9",
+          "sku": "548445970-800-40",
+          "mpn": "548445970-800-40",
+          "color": "Black",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "189",
+            "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER WEDGE BOOTS - Black - 10",
+          "sku": "548445970-800-41",
+          "mpn": "548445970-800-41",
+          "color": "Black",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "189",
+            "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER WEDGE BOOTS - Black - 11",
+          "sku": "548445970-800-42",
+          "mpn": "548445970-800-42",
+          "color": "Black",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "189",
+            "url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER WEDGE BOOTS",
+      "product_group_id": "12006810",
+      "brand": "ZARA",
+      "description": "High-leg leather boots. Side topstitching detail. Mid-height wedge heel. Easy pull-on style. Pointed toe.\n\nHeel height: 2.8 inches",
+      "material": "100% cow leather",
+      "composition": "UPPER: 100% cow leather | LINING: 100% polyester | SOLE: 100% polyurethane thermoplastic | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER WEDGE BOOTS - Black - 5",
+          "sku": "548445970-800-35",
+          "mpn": "548445970-800-35",
+          "color_name": "Black",
+          "size_name": "5",
+          "price": "189.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+          "images": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER WEDGE BOOTS - Black - 6",
+          "sku": "548445970-800-36",
+          "mpn": "548445970-800-36",
+          "color_name": "Black",
+          "size_name": "6",
+          "price": "189.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+          "images": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER WEDGE BOOTS - Black - 6½",
+          "sku": "548445970-800-37",
+          "mpn": "548445970-800-37",
+          "color_name": "Black",
+          "size_name": "6½",
+          "price": "189.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+          "images": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER WEDGE BOOTS - Black - 7½",
+          "sku": "548445970-800-38",
+          "mpn": "548445970-800-38",
+          "color_name": "Black",
+          "size_name": "7½",
+          "price": "189.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+          "images": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER WEDGE BOOTS - Black - 8",
+          "sku": "548445970-800-39",
+          "mpn": "548445970-800-39",
+          "color_name": "Black",
+          "size_name": "8",
+          "price": "189.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+          "images": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER WEDGE BOOTS - Black - 9",
+          "sku": "548445970-800-40",
+          "mpn": "548445970-800-40",
+          "color_name": "Black",
+          "size_name": "9",
+          "price": "189.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+          "images": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER WEDGE BOOTS - Black - 10",
+          "sku": "548445970-800-41",
+          "mpn": "548445970-800-41",
+          "color_name": "Black",
+          "size_name": "10",
+          "price": "189.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+          "images": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER WEDGE BOOTS - Black - 11",
+          "sku": "548445970-800-42",
+          "mpn": "548445970-800-42",
+          "color_name": "Black",
+          "size_name": "11",
+          "price": "189.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-wedge-boots-p12006810.html?v1=548445970",
+          "images": [
+            "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1abf/9b01/0e5a4a77aa15/e89a0ceb753a/12006810800-p/12006810800-p.jpg?ts=1787038347600&w=1920",
+        "https://static.zara.net/assets/public/d41d/48ca/baf942ef82e4/fd2478510548/12006810800-a1/12006810800-a1.jpg?ts=1787038347317&w=1920",
+        "https://static.zara.net/assets/public/39d8/2029/9bea4e779b26/9577ab4d6229/12006810800-e1/12006810800-e1.jpg?ts=1786605470319&w=1920",
+        "https://static.zara.net/assets/public/31ab/0bba/390a4359819b/cc5f2c70f878/12006810800-e2/12006810800-e2.jpg?ts=1786605470671&w=1920",
+        "https://static.zara.net/assets/public/9072/a014/8f1448b78013/64ae45062b74/12006810800-e3/12006810800-e3.jpg?ts=1786605470752&w=1920",
+        "https://static.zara.net/assets/public/78be/6cd9/4062406d92b8/1a634ad8cedf/12006810800-e4/12006810800-e4.jpg?ts=1786605469693&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "189.00",
+  "rendered_description": "Description\nHigh-leg leather boots. Side topstitching detail. Mid-height wedge heel. Easy pull-on style. Pointed toe.\nHeel height: 2.8 inches",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "189.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "189.00",
+    "dom_price": "189.00",
+    "normalized_price": "189.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b3b7f1d72b89b5ad2256219545359c0f159f5b817ff8a7389792d60341ddf5db",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

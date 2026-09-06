@@ -1,0 +1,574 @@
+{
+  "product_id": "zara-us:12254821",
+  "source_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html",
+  "final_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html",
+  "canonical_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FABRIC SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FABRIC SNEAKERS",
+      "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html",
+      "productGroupID": "12254821",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Lace-up sneakers made of cotton fabric. Chunky matching sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920",
+        "https://static.zara.net/assets/public/ae25/c878/596945d9b64b/9a768d90d013/12254821401-a1/12254821401-a1.jpg?ts=1785927116866&w=1920",
+        "https://static.zara.net/assets/public/cc34/bfe6/6ee742869826/175b38e39868/12254821401-a2/12254821401-a2.jpg?ts=1785927116633&w=1920",
+        "https://static.zara.net/assets/public/a798/b985/95bf4270b564/beb984b3ba0c/12254821401-e1/12254821401-e1.jpg?ts=1784202455061&w=1920",
+        "https://static.zara.net/assets/public/76b3/96cb/a680494d9703/b28a4dbc22d9/12254821401-e2/12254821401-e2.jpg?ts=1784202455511&w=1920",
+        "https://static.zara.net/assets/public/836d/2102/9f3545a38dd6/db4d2fe3bedd/12254821401-e3/12254821401-e3.jpg?ts=1784202456035&w=1920",
+        "https://static.zara.net/assets/public/5fe1/f97e/94774f59aae5/417d7848608d/12254821401-e4/12254821401-e4.jpg?ts=1784202454527&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Blue - 6",
+          "sku": "545479728-401-39",
+          "mpn": "545479728-401-39",
+          "color": "Blue",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Blue - 7",
+          "sku": "545479728-401-40",
+          "mpn": "545479728-401-40",
+          "color": "Blue",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Blue - 8",
+          "sku": "545479728-401-41",
+          "mpn": "545479728-401-41",
+          "color": "Blue",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Blue - 9",
+          "sku": "545479728-401-42",
+          "mpn": "545479728-401-42",
+          "color": "Blue",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Blue - 10",
+          "sku": "545479728-401-43",
+          "mpn": "545479728-401-43",
+          "color": "Blue",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Blue - 11",
+          "sku": "545479728-401-44",
+          "mpn": "545479728-401-44",
+          "color": "Blue",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Blue - 12",
+          "sku": "545479728-401-45",
+          "mpn": "545479728-401-45",
+          "color": "Blue",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Green - 6",
+          "sku": "545479728-500-39",
+          "mpn": "545479728-500-39",
+          "color": "Green",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Green - 7",
+          "sku": "545479728-500-40",
+          "mpn": "545479728-500-40",
+          "color": "Green",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Green - 8",
+          "sku": "545479728-500-41",
+          "mpn": "545479728-500-41",
+          "color": "Green",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Green - 9",
+          "sku": "545479728-500-42",
+          "mpn": "545479728-500-42",
+          "color": "Green",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Green - 10",
+          "sku": "545479728-500-43",
+          "mpn": "545479728-500-43",
+          "color": "Green",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Green - 11",
+          "sku": "545479728-500-44",
+          "mpn": "545479728-500-44",
+          "color": "Green",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FABRIC SNEAKERS - Green - 12",
+          "sku": "545479728-500-45",
+          "mpn": "545479728-500-45",
+          "color": "Green",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FABRIC SNEAKERS",
+      "product_group_id": "12254821",
+      "brand": "ZARA",
+      "description": "Lace-up sneakers made of cotton fabric. Chunky matching sole.",
+      "material": "100% cotton",
+      "composition": "UPPER: 100% cotton | LINING: 65% cotton, 35% polyester | SOLE: 100% rubber | INSOLE: 65% cotton, 35% polyester | TONGUE: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FABRIC SNEAKERS - Blue - 6",
+          "sku": "545479728-401-39",
+          "mpn": "545479728-401-39",
+          "color_name": "Blue",
+          "size_name": "6",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+          "images": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Blue - 7",
+          "sku": "545479728-401-40",
+          "mpn": "545479728-401-40",
+          "color_name": "Blue",
+          "size_name": "7",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+          "images": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Blue - 8",
+          "sku": "545479728-401-41",
+          "mpn": "545479728-401-41",
+          "color_name": "Blue",
+          "size_name": "8",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+          "images": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Blue - 9",
+          "sku": "545479728-401-42",
+          "mpn": "545479728-401-42",
+          "color_name": "Blue",
+          "size_name": "9",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+          "images": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Blue - 10",
+          "sku": "545479728-401-43",
+          "mpn": "545479728-401-43",
+          "color_name": "Blue",
+          "size_name": "10",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+          "images": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Blue - 11",
+          "sku": "545479728-401-44",
+          "mpn": "545479728-401-44",
+          "color_name": "Blue",
+          "size_name": "11",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+          "images": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Blue - 12",
+          "sku": "545479728-401-45",
+          "mpn": "545479728-401-45",
+          "color_name": "Blue",
+          "size_name": "12",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=545479728",
+          "images": [
+            "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Green - 6",
+          "sku": "545479728-500-39",
+          "mpn": "545479728-500-39",
+          "color_name": "Green",
+          "size_name": "6",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+          "images": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Green - 7",
+          "sku": "545479728-500-40",
+          "mpn": "545479728-500-40",
+          "color_name": "Green",
+          "size_name": "7",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+          "images": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Green - 8",
+          "sku": "545479728-500-41",
+          "mpn": "545479728-500-41",
+          "color_name": "Green",
+          "size_name": "8",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+          "images": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Green - 9",
+          "sku": "545479728-500-42",
+          "mpn": "545479728-500-42",
+          "color_name": "Green",
+          "size_name": "9",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+          "images": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Green - 10",
+          "sku": "545479728-500-43",
+          "mpn": "545479728-500-43",
+          "color_name": "Green",
+          "size_name": "10",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+          "images": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Green - 11",
+          "sku": "545479728-500-44",
+          "mpn": "545479728-500-44",
+          "color_name": "Green",
+          "size_name": "11",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+          "images": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ]
+        },
+        {
+          "name": "FABRIC SNEAKERS - Green - 12",
+          "sku": "545479728-500-45",
+          "mpn": "545479728-500-45",
+          "color_name": "Green",
+          "size_name": "12",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fabric-sneakers-p12254821.html?v1=571794994",
+          "images": [
+            "https://static.zara.net/assets/public/e237/0023/f7bd4274a8c4/a2b119bc92bc/12254720500-a2/12254720500-a2.jpg?ts=1785141419844&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9eba/1f5b/61774253a259/c274b9b5db4c/12254821401-a3/12254821401-a3.jpg?ts=1785927122638&w=1920",
+        "https://static.zara.net/assets/public/ae25/c878/596945d9b64b/9a768d90d013/12254821401-a1/12254821401-a1.jpg?ts=1785927116866&w=1920",
+        "https://static.zara.net/assets/public/cc34/bfe6/6ee742869826/175b38e39868/12254821401-a2/12254821401-a2.jpg?ts=1785927116633&w=1920",
+        "https://static.zara.net/assets/public/a798/b985/95bf4270b564/beb984b3ba0c/12254821401-e1/12254821401-e1.jpg?ts=1784202455061&w=1920",
+        "https://static.zara.net/assets/public/76b3/96cb/a680494d9703/b28a4dbc22d9/12254821401-e2/12254821401-e2.jpg?ts=1784202455511&w=1920",
+        "https://static.zara.net/assets/public/836d/2102/9f3545a38dd6/db4d2fe3bedd/12254821401-e3/12254821401-e3.jpg?ts=1784202456035&w=1920",
+        "https://static.zara.net/assets/public/5fe1/f97e/94774f59aae5/417d7848608d/12254821401-e4/12254821401-e4.jpg?ts=1784202454527&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Green"
+  ],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nLace-up sneakers made of cotton fabric. Chunky matching sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 14,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8fc7ff779ebc3a078b71d71b7edf3fbe1ca15021be197f26133eceb23f4a39bc",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

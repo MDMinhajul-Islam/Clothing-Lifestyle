@@ -1,0 +1,616 @@
+{
+  "product_id": "zara-us:09598441",
+  "source_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html",
+  "final_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html",
+  "canonical_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RELAXED FIT KNIT T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RELAXED FIT KNIT T-SHIRT",
+      "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html",
+      "productGroupID": "09598441",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit knit T-shirt made of cotton yarn. Round neck and short sleeves. Ribbed trim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920",
+        "https://static.zara.net/assets/public/8fb0/1549/2e0d44879342/86f40397b5ad/09598441251-a1/09598441251-a1.jpg?ts=1768569414786&w=1920",
+        "https://static.zara.net/assets/public/f260/34e8/2a384a47bda5/a65089037cb3/09598441251-a2/09598441251-a2.jpg?ts=1768569414842&w=1920",
+        "https://static.zara.net/assets/public/47e9/88b7/d8e1435dbd51/52c5846a92c5/09598441251-a3/09598441251-a3.jpg?ts=1768569415683&w=1920",
+        "https://static.zara.net/assets/public/2979/01ac/efb54202b6d4/4d102d9318f5/09598441251-a4/09598441251-a4.jpg?ts=1768569415329&w=1920",
+        "https://static.zara.net/assets/public/a0a6/cc9d/9d6446b984b4/194bc93d5e54/09598441251-e1/09598441251-e1.jpg?ts=1783954012563&w=1920",
+        "https://static.zara.net/assets/public/b76d/36d9/07864cf69b70/1f82df8053ef/09598441251-e2/09598441251-e2.jpg?ts=1783954007665&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Oyster-white - S",
+          "sku": "545479344-251-2",
+          "mpn": "545479344-251-2",
+          "color": "Oyster-white",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479344",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Oyster-white - M",
+          "sku": "545479344-251-3",
+          "mpn": "545479344-251-3",
+          "color": "Oyster-white",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479344",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Oyster-white - L",
+          "sku": "545479344-251-4",
+          "mpn": "545479344-251-4",
+          "color": "Oyster-white",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479344",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Oyster-white - XL",
+          "sku": "545479344-251-5",
+          "mpn": "545479344-251-5",
+          "color": "Oyster-white",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479344",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Blue / Gray - S",
+          "sku": "545479344-485-2",
+          "mpn": "545479344-485-2",
+          "color": "Blue / Gray",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/a542/94a7/0b51412fb153/b35fa2a9695e/09598441485-p/09598441485-p.jpg?ts=1774951908845&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479340",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Blue / Gray - M",
+          "sku": "545479344-485-3",
+          "mpn": "545479344-485-3",
+          "color": "Blue / Gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/a542/94a7/0b51412fb153/b35fa2a9695e/09598441485-p/09598441485-p.jpg?ts=1774951908845&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479340",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Blue / Gray - L",
+          "sku": "545479344-485-4",
+          "mpn": "545479344-485-4",
+          "color": "Blue / Gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/a542/94a7/0b51412fb153/b35fa2a9695e/09598441485-p/09598441485-p.jpg?ts=1774951908845&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479340",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Blue / Gray - XL",
+          "sku": "545479344-485-5",
+          "mpn": "545479344-485-5",
+          "color": "Blue / Gray",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/a542/94a7/0b51412fb153/b35fa2a9695e/09598441485-p/09598441485-p.jpg?ts=1774951908845&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479340",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Turquoise - S",
+          "sku": "545479344-402-2",
+          "mpn": "545479344-402-2",
+          "color": "Turquoise",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/ff95/bc23/204e43c18005/09bd304c97b0/09598441402-p/09598441402-p.jpg?ts=1785840640010&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545851090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Turquoise - M",
+          "sku": "545479344-402-3",
+          "mpn": "545479344-402-3",
+          "color": "Turquoise",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/ff95/bc23/204e43c18005/09bd304c97b0/09598441402-p/09598441402-p.jpg?ts=1785840640010&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545851090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Turquoise - L",
+          "sku": "545479344-402-4",
+          "mpn": "545479344-402-4",
+          "color": "Turquoise",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/ff95/bc23/204e43c18005/09bd304c97b0/09598441402-p/09598441402-p.jpg?ts=1785840640010&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545851090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - Turquoise - XL",
+          "sku": "545479344-402-5",
+          "mpn": "545479344-402-5",
+          "color": "Turquoise",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/ff95/bc23/204e43c18005/09bd304c97b0/09598441402-p/09598441402-p.jpg?ts=1785840640010&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545851090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - taupe brown - S",
+          "sku": "545479344-707-2",
+          "mpn": "545479344-707-2",
+          "color": "taupe brown",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/388f/bb7d/12e04dcf876e/0cd91195f9ab/09598441707-p/09598441707-p.jpg?ts=1785853957777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - taupe brown - M",
+          "sku": "545479344-707-3",
+          "mpn": "545479344-707-3",
+          "color": "taupe brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/388f/bb7d/12e04dcf876e/0cd91195f9ab/09598441707-p/09598441707-p.jpg?ts=1785853957777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - taupe brown - L",
+          "sku": "545479344-707-4",
+          "mpn": "545479344-707-4",
+          "color": "taupe brown",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/388f/bb7d/12e04dcf876e/0cd91195f9ab/09598441707-p/09598441707-p.jpg?ts=1785853957777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT KNIT T-SHIRT - taupe brown - XL",
+          "sku": "545479344-707-5",
+          "mpn": "545479344-707-5",
+          "color": "taupe brown",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/388f/bb7d/12e04dcf876e/0cd91195f9ab/09598441707-p/09598441707-p.jpg?ts=1785853957777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RELAXED FIT KNIT T-SHIRT",
+      "product_group_id": "09598441",
+      "brand": "ZARA",
+      "description": "Relaxed fit knit T-shirt made of cotton yarn. Round neck and short sleeves. Ribbed trim.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Oyster-white - S",
+          "sku": "545479344-251-2",
+          "mpn": "545479344-251-2",
+          "color_name": "Oyster-white",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479344",
+          "images": [
+            "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Oyster-white - M",
+          "sku": "545479344-251-3",
+          "mpn": "545479344-251-3",
+          "color_name": "Oyster-white",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479344",
+          "images": [
+            "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Oyster-white - L",
+          "sku": "545479344-251-4",
+          "mpn": "545479344-251-4",
+          "color_name": "Oyster-white",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479344",
+          "images": [
+            "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Oyster-white - XL",
+          "sku": "545479344-251-5",
+          "mpn": "545479344-251-5",
+          "color_name": "Oyster-white",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479344",
+          "images": [
+            "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Blue / Gray - S",
+          "sku": "545479344-485-2",
+          "mpn": "545479344-485-2",
+          "color_name": "Blue / Gray",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479340",
+          "images": [
+            "https://static.zara.net/assets/public/a542/94a7/0b51412fb153/b35fa2a9695e/09598441485-p/09598441485-p.jpg?ts=1774951908845&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Blue / Gray - M",
+          "sku": "545479344-485-3",
+          "mpn": "545479344-485-3",
+          "color_name": "Blue / Gray",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479340",
+          "images": [
+            "https://static.zara.net/assets/public/a542/94a7/0b51412fb153/b35fa2a9695e/09598441485-p/09598441485-p.jpg?ts=1774951908845&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Blue / Gray - L",
+          "sku": "545479344-485-4",
+          "mpn": "545479344-485-4",
+          "color_name": "Blue / Gray",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479340",
+          "images": [
+            "https://static.zara.net/assets/public/a542/94a7/0b51412fb153/b35fa2a9695e/09598441485-p/09598441485-p.jpg?ts=1774951908845&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Blue / Gray - XL",
+          "sku": "545479344-485-5",
+          "mpn": "545479344-485-5",
+          "color_name": "Blue / Gray",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479340",
+          "images": [
+            "https://static.zara.net/assets/public/a542/94a7/0b51412fb153/b35fa2a9695e/09598441485-p/09598441485-p.jpg?ts=1774951908845&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Turquoise - S",
+          "sku": "545479344-402-2",
+          "mpn": "545479344-402-2",
+          "color_name": "Turquoise",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545851090",
+          "images": [
+            "https://static.zara.net/assets/public/ff95/bc23/204e43c18005/09bd304c97b0/09598441402-p/09598441402-p.jpg?ts=1785840640010&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Turquoise - M",
+          "sku": "545479344-402-3",
+          "mpn": "545479344-402-3",
+          "color_name": "Turquoise",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545851090",
+          "images": [
+            "https://static.zara.net/assets/public/ff95/bc23/204e43c18005/09bd304c97b0/09598441402-p/09598441402-p.jpg?ts=1785840640010&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Turquoise - L",
+          "sku": "545479344-402-4",
+          "mpn": "545479344-402-4",
+          "color_name": "Turquoise",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545851090",
+          "images": [
+            "https://static.zara.net/assets/public/ff95/bc23/204e43c18005/09bd304c97b0/09598441402-p/09598441402-p.jpg?ts=1785840640010&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - Turquoise - XL",
+          "sku": "545479344-402-5",
+          "mpn": "545479344-402-5",
+          "color_name": "Turquoise",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545851090",
+          "images": [
+            "https://static.zara.net/assets/public/ff95/bc23/204e43c18005/09bd304c97b0/09598441402-p/09598441402-p.jpg?ts=1785840640010&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - taupe brown - S",
+          "sku": "545479344-707-2",
+          "mpn": "545479344-707-2",
+          "color_name": "taupe brown",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479345",
+          "images": [
+            "https://static.zara.net/assets/public/388f/bb7d/12e04dcf876e/0cd91195f9ab/09598441707-p/09598441707-p.jpg?ts=1785853957777&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - taupe brown - M",
+          "sku": "545479344-707-3",
+          "mpn": "545479344-707-3",
+          "color_name": "taupe brown",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479345",
+          "images": [
+            "https://static.zara.net/assets/public/388f/bb7d/12e04dcf876e/0cd91195f9ab/09598441707-p/09598441707-p.jpg?ts=1785853957777&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - taupe brown - L",
+          "sku": "545479344-707-4",
+          "mpn": "545479344-707-4",
+          "color_name": "taupe brown",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479345",
+          "images": [
+            "https://static.zara.net/assets/public/388f/bb7d/12e04dcf876e/0cd91195f9ab/09598441707-p/09598441707-p.jpg?ts=1785853957777&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT KNIT T-SHIRT - taupe brown - XL",
+          "sku": "545479344-707-5",
+          "mpn": "545479344-707-5",
+          "color_name": "taupe brown",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-knit-t-shirt-p09598441.html?v1=545479345",
+          "images": [
+            "https://static.zara.net/assets/public/388f/bb7d/12e04dcf876e/0cd91195f9ab/09598441707-p/09598441707-p.jpg?ts=1785853957777&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b59a/49c6/d00e43caa26f/684dc84a0959/09598441251-p/09598441251-p.jpg?ts=1768569417137&w=1920",
+        "https://static.zara.net/assets/public/8fb0/1549/2e0d44879342/86f40397b5ad/09598441251-a1/09598441251-a1.jpg?ts=1768569414786&w=1920",
+        "https://static.zara.net/assets/public/f260/34e8/2a384a47bda5/a65089037cb3/09598441251-a2/09598441251-a2.jpg?ts=1768569414842&w=1920",
+        "https://static.zara.net/assets/public/47e9/88b7/d8e1435dbd51/52c5846a92c5/09598441251-a3/09598441251-a3.jpg?ts=1768569415683&w=1920",
+        "https://static.zara.net/assets/public/2979/01ac/efb54202b6d4/4d102d9318f5/09598441251-a4/09598441251-a4.jpg?ts=1768569415329&w=1920",
+        "https://static.zara.net/assets/public/a0a6/cc9d/9d6446b984b4/194bc93d5e54/09598441251-e1/09598441251-e1.jpg?ts=1783954012563&w=1920",
+        "https://static.zara.net/assets/public/b76d/36d9/07864cf69b70/1f82df8053ef/09598441251-e2/09598441251-e2.jpg?ts=1783954007665&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Oyster-white",
+    "Blue / Gray",
+    "Turquoise",
+    "taupe brown"
+  ],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nRelaxed fit knit T-shirt made of cotton yarn. Round neck and short sleeves. Ribbed trim.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 10,
+  "variants_count": 16,
+  "colors_count": 4,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3cc64de8a6501d84c257f0636a27318e054f2dc6524f6dde441384280f8ad71a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

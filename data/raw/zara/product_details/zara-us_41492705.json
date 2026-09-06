@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:41492705",
+  "source_url": "https://www.zara.com/us/en/-350-g--palo-santo-scented-candle-p41492705.html",
+  "final_url": "https://www.zara.com/us/en/-350-g--palo-santo-scented-candle-p41492705.html",
+  "canonical_url": "https://www.zara.com/us/en/-350-g--palo-santo-scented-candle-p41492705.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "(350 G) PALO SANTO SCENTED CANDLE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "(350 G) PALO SANTO SCENTED CANDLE",
+      "url": "https://www.zara.com/us/en/-350-g--palo-santo-scented-candle-p41492705.html",
+      "productGroupID": "41492705",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Scented candle made of vegetable wax.\n\nPalo Santo | Inspired by a spiritual immersion, a powerful connection to ancestral roots and traditions. A fragrance created with the noblest essence of Palo Santo, enhanced by the spicy touch of black pepper and a delicate veil of violet leaves that complete this unique creation.\n\nAromatic notes:\nTop notes: black pepper and hemp.\nHeart notes: violet and clove.\nBase notes: vetiver and ambergris.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6084/7d82/3c9e4de9a7ca/637b5d52d5f6/41492705821-e1/41492705821-e1.jpg?ts=1747211724584&w=1920",
+        "https://static.zara.net/assets/public/23c2/2dc3/160b45e686b2/93258628e0c0/41492705821-e2/41492705821-e2.jpg?ts=1747211728509&w=1920",
+        "https://static.zara.net/assets/public/2c09/5a9e/69d342aba565/7d505f847fba/41492705821-e3/41492705821-e3.jpg?ts=1747211728875&w=1920",
+        "https://static.zara.net/assets/public/dd24/9387/c6354471b1e8/d9fa8bb0a6d0/41492705821-e4/41492705821-e4.jpg?ts=1747211729064&w=1920",
+        "https://static.zara.net/assets/public/5c42/bdf0/ff764c1382e9/a4225e781d2b/41492705821-e5/41492705821-e5.jpg?ts=1747211727353&w=1920",
+        "https://static.zara.net/assets/public/afcf/4241/cee440e58579/d678f0edf779/41492705821-a1/41492705821-a1.jpg?ts=1767956470884&w=1920"
+      ],
+      "material": "vegetable wax/PERFUME/WAX",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "ZARA HOME AROMATIC CANDLE PALO SANTO",
+          "value": " vegetable wax,  PERFUME,  WAX,  4-TERT-BUTYLCYCLOHEXYL ACETATE,  1-(1,2,3,4,5,6,7,8-OCTAHYDRO-2,3,8,8-TETRAMETHYL-2-NAPHTHYL)ETHAN-1-ONE,  (Z)-2-METHOXY-4-(PROP-1-ENYL)PHENOL"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "(350 G) PALO SANTO SCENTED CANDLE - Ash - ONE SIZE ONLY",
+          "sku": "545422987-821-99",
+          "mpn": "545422987-821-99",
+          "color": "Ash",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6084/7d82/3c9e4de9a7ca/637b5d52d5f6/41492705821-e1/41492705821-e1.jpg?ts=1747211724584&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/-350-g--palo-santo-scented-candle-p41492705.html?v1=545422987",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "(350 G) PALO SANTO SCENTED CANDLE",
+      "product_group_id": "41492705",
+      "brand": "ZARAHOME",
+      "description": "Scented candle made of vegetable wax.\n\nPalo Santo | Inspired by a spiritual immersion, a powerful connection to ancestral roots and traditions. A fragrance created with the noblest essence of Palo Santo, enhanced by the spicy touch of black pepper and a delicate veil of violet leaves that complete this unique creation.\n\nAromatic notes:\nTop notes: black pepper and hemp.\nHeart notes: violet and clove.\nBase notes: vetiver and ambergris.",
+      "material": "vegetable wax/PERFUME/WAX",
+      "composition": "ZARA HOME AROMATIC CANDLE PALO SANTO:  vegetable wax,  PERFUME,  WAX,  4-TERT-BUTYLCYCLOHEXYL ACETATE,  1-(1,2,3,4,5,6,7,8-OCTAHYDRO-2,3,8,8-TETRAMETHYL-2-NAPHTHYL)ETHAN-1-ONE,  (Z)-2-METHOXY-4-(PROP-1-ENYL)PHENOL",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "(350 G) PALO SANTO SCENTED CANDLE - Ash - ONE SIZE ONLY",
+          "sku": "545422987-821-99",
+          "mpn": "545422987-821-99",
+          "color_name": "Ash",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/-350-g--palo-santo-scented-candle-p41492705.html?v1=545422987",
+          "images": [
+            "https://static.zara.net/assets/public/6084/7d82/3c9e4de9a7ca/637b5d52d5f6/41492705821-e1/41492705821-e1.jpg?ts=1747211724584&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6084/7d82/3c9e4de9a7ca/637b5d52d5f6/41492705821-e1/41492705821-e1.jpg?ts=1747211724584&w=1920",
+        "https://static.zara.net/assets/public/23c2/2dc3/160b45e686b2/93258628e0c0/41492705821-e2/41492705821-e2.jpg?ts=1747211728509&w=1920",
+        "https://static.zara.net/assets/public/2c09/5a9e/69d342aba565/7d505f847fba/41492705821-e3/41492705821-e3.jpg?ts=1747211728875&w=1920",
+        "https://static.zara.net/assets/public/dd24/9387/c6354471b1e8/d9fa8bb0a6d0/41492705821-e4/41492705821-e4.jpg?ts=1747211729064&w=1920",
+        "https://static.zara.net/assets/public/5c42/bdf0/ff764c1382e9/a4225e781d2b/41492705821-e5/41492705821-e5.jpg?ts=1747211727353&w=1920",
+        "https://static.zara.net/assets/public/afcf/4241/cee440e58579/d678f0edf779/41492705821-a1/41492705821-a1.jpg?ts=1767956470884&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nScented candle made of vegetable wax.\nPalo Santo | Inspired by a spiritual immersion, a powerful connection to ancestral roots and traditions. A fragrance created with the noblest essence of Palo Santo, enhanced by the spicy touch of black pepper and a delicate veil of violet leaves that complete this unique creation.\nAromatic notes:\nTop notes: black pepper and hemp.\nHeart notes: violet and clove.\nBase notes: vetiver and ambergris.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fd58d8308be1fed7755f54a0a0c2dcadc3352a5df7b71efe7ae6d9ec2ecc6927",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

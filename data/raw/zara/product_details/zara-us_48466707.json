@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:48466707",
+  "source_url": "https://www.zara.com/us/en/light-cotton-car-air-freshener-p48466707.html",
+  "final_url": "https://www.zara.com/us/en/light-cotton-car-air-freshener-p48466707.html",
+  "canonical_url": "https://www.zara.com/us/en/light-cotton-car-air-freshener-p48466707.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LIGHT COTTON CAR AIR FRESHENER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIGHT COTTON CAR AIR FRESHENER",
+      "url": "https://www.zara.com/us/en/light-cotton-car-air-freshener-p48466707.html",
+      "productGroupID": "48466707",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Car air freshener with a clip.\n\nLight Cotton | A soft floral aroma with woody touches, combining the sophistication of linen with cotton flower and almond blossom, creating a soft and warm fragrance.\n\nNotes:\nTop: saffron, orange.\nHeart: cotton flower, almond blossom.\nBase: musk.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7247/765c/52a245c1b774/e4b4097ed4ea/48466707850-e1/48466707850-e1.jpg?ts=1754028319972&w=1920",
+        "https://static.zara.net/assets/public/2f56/5bd3/bfb54c0988f6/96494edaf1a1/48466707850-e2/48466707850-e2.jpg?ts=1754028321804&w=1920",
+        "https://static.zara.net/assets/public/86a8/77c4/125042b08acd/75adf7c2be93/48466707850-e3/48466707850-e3.jpg?ts=1754028320969&w=1920",
+        "https://static.zara.net/assets/public/b0e6/3459/4c9d463880a0/f63c958593e3/48466707850-e4/48466707850-e4.jpg?ts=1754028320472&w=1920",
+        "https://static.zara.net/assets/public/c944/14ea/4d1047f9a6d7/f19bd4690bf8/48466707850-e5/48466707850-e5.jpg?ts=1754028321168&w=1920",
+        "https://static.zara.net/assets/public/638d/5376/95af432a8847/d8f71f1db652/44431707850-a1/44431707850-a1.jpg?ts=1770726097185&w=1920",
+        "https://static.zara.net/assets/public/3dd2/e812/f0a74e238de7/8523c1337f4d/1680011758839/1680011758839.jpg?ts=1693964376614&w=1920"
+      ],
+      "material": "PERFUME/(E)-2-benzylideneoctanal/LINALYL ACETATE",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "ZARA HOME CAR FRAGRANCE LIGHT COTTON",
+          "value": " PERFUME,  (E)-2-benzylideneoctanal,  LINALYL ACETATE,  Linalol,  coumarin,  (R)-p-mentha-1,8-diene,  3-(4-tert-Butyl phenyl) propionaldehyde,  Hexyl salicylate,  2,4-DIMETILCICLOHEX-3-EN-1-CARBALDEHÍDO"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIGHT COTTON CAR AIR FRESHENER - white - ONE SIZE ONLY",
+          "sku": "562629271-850-99",
+          "mpn": "562629271-850-99",
+          "color": "white",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/7247/765c/52a245c1b774/e4b4097ed4ea/48466707850-e1/48466707850-e1.jpg?ts=1754028319972&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/light-cotton-car-air-freshener-p48466707.html?v1=562629271",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIGHT COTTON CAR AIR FRESHENER",
+      "product_group_id": "48466707",
+      "brand": "ZARAHOME",
+      "description": "Car air freshener with a clip.\n\nLight Cotton | A soft floral aroma with woody touches, combining the sophistication of linen with cotton flower and almond blossom, creating a soft and warm fragrance.\n\nNotes:\nTop: saffron, orange.\nHeart: cotton flower, almond blossom.\nBase: musk.",
+      "material": "PERFUME/(E)-2-benzylideneoctanal/LINALYL ACETATE",
+      "composition": "ZARA HOME CAR FRAGRANCE LIGHT COTTON:  PERFUME,  (E)-2-benzylideneoctanal,  LINALYL ACETATE,  Linalol,  coumarin,  (R)-p-mentha-1,8-diene,  3-(4-tert-Butyl phenyl) propionaldehyde,  Hexyl salicylate,  2,4-DIMETILCICLOHEX-3-EN-1-CARBALDEHÍDO",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIGHT COTTON CAR AIR FRESHENER - white - ONE SIZE ONLY",
+          "sku": "562629271-850-99",
+          "mpn": "562629271-850-99",
+          "color_name": "white",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/light-cotton-car-air-freshener-p48466707.html?v1=562629271",
+          "images": [
+            "https://static.zara.net/assets/public/7247/765c/52a245c1b774/e4b4097ed4ea/48466707850-e1/48466707850-e1.jpg?ts=1754028319972&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7247/765c/52a245c1b774/e4b4097ed4ea/48466707850-e1/48466707850-e1.jpg?ts=1754028319972&w=1920",
+        "https://static.zara.net/assets/public/2f56/5bd3/bfb54c0988f6/96494edaf1a1/48466707850-e2/48466707850-e2.jpg?ts=1754028321804&w=1920",
+        "https://static.zara.net/assets/public/86a8/77c4/125042b08acd/75adf7c2be93/48466707850-e3/48466707850-e3.jpg?ts=1754028320969&w=1920",
+        "https://static.zara.net/assets/public/b0e6/3459/4c9d463880a0/f63c958593e3/48466707850-e4/48466707850-e4.jpg?ts=1754028320472&w=1920",
+        "https://static.zara.net/assets/public/c944/14ea/4d1047f9a6d7/f19bd4690bf8/48466707850-e5/48466707850-e5.jpg?ts=1754028321168&w=1920",
+        "https://static.zara.net/assets/public/638d/5376/95af432a8847/d8f71f1db652/44431707850-a1/44431707850-a1.jpg?ts=1770726097185&w=1920",
+        "https://static.zara.net/assets/public/3dd2/e812/f0a74e238de7/8523c1337f4d/1680011758839/1680011758839.jpg?ts=1693964376614&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nCar air freshener with a clip.\nLight Cotton | A soft floral aroma with woody touches, combining the sophistication of linen with cotton flower and almond blossom, creating a soft and warm fragrance.\nNotes:\nTop: saffron, orange.\nHeart: cotton flower, almond blossom.\nBase: musk.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "877d063141aef86957171a71408c87dd33390eaccfd976861cc9c63ade20e96e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

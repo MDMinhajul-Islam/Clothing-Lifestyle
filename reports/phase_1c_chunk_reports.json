@@ -510,5 +510,40 @@
       "normalized_images": 36233,
       "price_coverage_percent": 99.98
     }
+  },
+  {
+    "chunk_number": 11,
+    "timestamp": "2026-09-06T19:53:20.871752+00:00",
+    "metrics": {
+      "chunk_number": 11,
+      "attempted": 500,
+      "completed": 500,
+      "failed_terminal": 0,
+      "failed_retryable": 0,
+      "total_wall_sec": 846.96,
+      "fetch_wall_sec": 511.47,
+      "pipeline_wall_sec": 335.44,
+      "fetch_throughput_pages_per_sec": 0.98,
+      "e2e_throughput_pages_per_sec": 0.59,
+      "cumulative_complete": 5919,
+      "remaining_queued": 98,
+      "cumulative_failed_terminal": 258,
+      "cumulative_failed_retryable": 1,
+      "price_coverage_percent": 99.98
+    },
+    "validation": {
+      "queue_total": 6276,
+      "status_distribution": {
+        "COMPLETE": 5919,
+        "FAILED_TERMINAL": 258,
+        "FAILED_RETRYABLE": 1,
+        "QUEUED": 98
+      },
+      "normalized_products": 5919,
+      "normalized_variants": 37454,
+      "normalized_colors": 7559,
+      "normalized_images": 39397,
+      "price_coverage_percent": 99.98
+    }
   }
 ]

@@ -1,0 +1,617 @@
+{
+  "product_id": "zara-us:05536340",
+  "source_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html",
+  "final_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html",
+  "canonical_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SOFT STRIPED KNIT POLO SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SOFT STRIPED KNIT POLO SHIRT",
+      "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html",
+      "productGroupID": "05536340",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Regular fit knit polo shirt made from a soft-touch viscose blend yarn. Lapel collar with front button placket. Long sleeves. Hem with side vents.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920",
+        "https://static.zara.net/assets/public/d6d7/d035/774742f48d87/e9028f031c08/05536340076-a1/05536340076-a1.jpg?ts=1785494937672&w=1920",
+        "https://static.zara.net/assets/public/553b/ed95/1d544c39bbfc/8a7dc3dc9193/05536340076-a2/05536340076-a2.jpg?ts=1785494937826&w=1920",
+        "https://static.zara.net/assets/public/9a4c/1995/5b9c40e48cd1/f2038ccb71a3/05536340076-a3/05536340076-a3.jpg?ts=1785494938849&w=1920",
+        "https://static.zara.net/assets/public/1724/f170/7370431298c7/7d50532247ff/05536340076-a4/05536340076-a4.jpg?ts=1785494939836&w=1920",
+        "https://static.zara.net/assets/public/410e/f0d5/c89940b49f88/a2d39f56ec10/05536340076-e1/05536340076-e1.jpg?ts=1784797588427&w=1920",
+        "https://static.zara.net/assets/public/8bf2/b563/8315488295d9/5215268d58bc/05536340076-e2/05536340076-e2.jpg?ts=1784797590466&w=1920"
+      ],
+      "material": "viscose/polyester/polyamide",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "50% viscose, 30% polyester, 20% polyamide"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Red / Navy - S",
+          "sku": "545426198-076-2",
+          "mpn": "545426198-076-2",
+          "color": "Red / Navy",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426198",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Red / Navy - M",
+          "sku": "545426198-076-3",
+          "mpn": "545426198-076-3",
+          "color": "Red / Navy",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426198",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Red / Navy - L",
+          "sku": "545426198-076-4",
+          "mpn": "545426198-076-4",
+          "color": "Red / Navy",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426198",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Red / Navy - XL",
+          "sku": "545426198-076-5",
+          "mpn": "545426198-076-5",
+          "color": "Red / Navy",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426198",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Brown - S",
+          "sku": "545426198-700-2",
+          "mpn": "545426198-700-2",
+          "color": "Brown",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/4cd4/53cc/a80f4e5fba14/c350fd6bf8cf/05536340700-p/05536340700-p.jpg?ts=1785494939646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426196",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Brown - M",
+          "sku": "545426198-700-3",
+          "mpn": "545426198-700-3",
+          "color": "Brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/4cd4/53cc/a80f4e5fba14/c350fd6bf8cf/05536340700-p/05536340700-p.jpg?ts=1785494939646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426196",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Brown - L",
+          "sku": "545426198-700-4",
+          "mpn": "545426198-700-4",
+          "color": "Brown",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/4cd4/53cc/a80f4e5fba14/c350fd6bf8cf/05536340700-p/05536340700-p.jpg?ts=1785494939646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426196",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Brown - XL",
+          "sku": "545426198-700-5",
+          "mpn": "545426198-700-5",
+          "color": "Brown",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/4cd4/53cc/a80f4e5fba14/c350fd6bf8cf/05536340700-p/05536340700-p.jpg?ts=1785494939646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426196",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Oyster-white - S",
+          "sku": "545426198-251-2",
+          "mpn": "545426198-251-2",
+          "color": "Oyster-white",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/4fae/bf82/de0446a8aa1b/cbd6f1305e56/05536340251-p/05536340251-p.jpg?ts=1785494939781&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426197",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Oyster-white - M",
+          "sku": "545426198-251-3",
+          "mpn": "545426198-251-3",
+          "color": "Oyster-white",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/4fae/bf82/de0446a8aa1b/cbd6f1305e56/05536340251-p/05536340251-p.jpg?ts=1785494939781&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426197",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Oyster-white - L",
+          "sku": "545426198-251-4",
+          "mpn": "545426198-251-4",
+          "color": "Oyster-white",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/4fae/bf82/de0446a8aa1b/cbd6f1305e56/05536340251-p/05536340251-p.jpg?ts=1785494939781&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426197",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Oyster-white - XL",
+          "sku": "545426198-251-5",
+          "mpn": "545426198-251-5",
+          "color": "Oyster-white",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/4fae/bf82/de0446a8aa1b/cbd6f1305e56/05536340251-p/05536340251-p.jpg?ts=1785494939781&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426197",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Anthracite grey - S",
+          "sku": "545426198-807-2",
+          "mpn": "545426198-807-2",
+          "color": "Anthracite grey",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/2a1e/0bc6/e43a4a3bad21/a7d91aa815e6/05536340807-p/05536340807-p.jpg?ts=1785494937518&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426199",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Anthracite grey - M",
+          "sku": "545426198-807-3",
+          "mpn": "545426198-807-3",
+          "color": "Anthracite grey",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/2a1e/0bc6/e43a4a3bad21/a7d91aa815e6/05536340807-p/05536340807-p.jpg?ts=1785494937518&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426199",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Anthracite grey - L",
+          "sku": "545426198-807-4",
+          "mpn": "545426198-807-4",
+          "color": "Anthracite grey",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/2a1e/0bc6/e43a4a3bad21/a7d91aa815e6/05536340807-p/05536340807-p.jpg?ts=1785494937518&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426199",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Anthracite grey - XL",
+          "sku": "545426198-807-5",
+          "mpn": "545426198-807-5",
+          "color": "Anthracite grey",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/2a1e/0bc6/e43a4a3bad21/a7d91aa815e6/05536340807-p/05536340807-p.jpg?ts=1785494937518&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426199",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SOFT STRIPED KNIT POLO SHIRT",
+      "product_group_id": "05536340",
+      "brand": "ZARA",
+      "description": "Regular fit knit polo shirt made from a soft-touch viscose blend yarn. Lapel collar with front button placket. Long sleeves. Hem with side vents.",
+      "material": "viscose/polyester/polyamide",
+      "composition": "OUTER SHELL: 50% viscose, 30% polyester, 20% polyamide",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Red / Navy - S",
+          "sku": "545426198-076-2",
+          "mpn": "545426198-076-2",
+          "color_name": "Red / Navy",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426198",
+          "images": [
+            "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Red / Navy - M",
+          "sku": "545426198-076-3",
+          "mpn": "545426198-076-3",
+          "color_name": "Red / Navy",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426198",
+          "images": [
+            "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Red / Navy - L",
+          "sku": "545426198-076-4",
+          "mpn": "545426198-076-4",
+          "color_name": "Red / Navy",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426198",
+          "images": [
+            "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Red / Navy - XL",
+          "sku": "545426198-076-5",
+          "mpn": "545426198-076-5",
+          "color_name": "Red / Navy",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426198",
+          "images": [
+            "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Brown - S",
+          "sku": "545426198-700-2",
+          "mpn": "545426198-700-2",
+          "color_name": "Brown",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426196",
+          "images": [
+            "https://static.zara.net/assets/public/4cd4/53cc/a80f4e5fba14/c350fd6bf8cf/05536340700-p/05536340700-p.jpg?ts=1785494939646&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Brown - M",
+          "sku": "545426198-700-3",
+          "mpn": "545426198-700-3",
+          "color_name": "Brown",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426196",
+          "images": [
+            "https://static.zara.net/assets/public/4cd4/53cc/a80f4e5fba14/c350fd6bf8cf/05536340700-p/05536340700-p.jpg?ts=1785494939646&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Brown - L",
+          "sku": "545426198-700-4",
+          "mpn": "545426198-700-4",
+          "color_name": "Brown",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426196",
+          "images": [
+            "https://static.zara.net/assets/public/4cd4/53cc/a80f4e5fba14/c350fd6bf8cf/05536340700-p/05536340700-p.jpg?ts=1785494939646&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Brown - XL",
+          "sku": "545426198-700-5",
+          "mpn": "545426198-700-5",
+          "color_name": "Brown",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426196",
+          "images": [
+            "https://static.zara.net/assets/public/4cd4/53cc/a80f4e5fba14/c350fd6bf8cf/05536340700-p/05536340700-p.jpg?ts=1785494939646&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Oyster-white - S",
+          "sku": "545426198-251-2",
+          "mpn": "545426198-251-2",
+          "color_name": "Oyster-white",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426197",
+          "images": [
+            "https://static.zara.net/assets/public/4fae/bf82/de0446a8aa1b/cbd6f1305e56/05536340251-p/05536340251-p.jpg?ts=1785494939781&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Oyster-white - M",
+          "sku": "545426198-251-3",
+          "mpn": "545426198-251-3",
+          "color_name": "Oyster-white",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426197",
+          "images": [
+            "https://static.zara.net/assets/public/4fae/bf82/de0446a8aa1b/cbd6f1305e56/05536340251-p/05536340251-p.jpg?ts=1785494939781&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Oyster-white - L",
+          "sku": "545426198-251-4",
+          "mpn": "545426198-251-4",
+          "color_name": "Oyster-white",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426197",
+          "images": [
+            "https://static.zara.net/assets/public/4fae/bf82/de0446a8aa1b/cbd6f1305e56/05536340251-p/05536340251-p.jpg?ts=1785494939781&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Oyster-white - XL",
+          "sku": "545426198-251-5",
+          "mpn": "545426198-251-5",
+          "color_name": "Oyster-white",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426197",
+          "images": [
+            "https://static.zara.net/assets/public/4fae/bf82/de0446a8aa1b/cbd6f1305e56/05536340251-p/05536340251-p.jpg?ts=1785494939781&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Anthracite grey - S",
+          "sku": "545426198-807-2",
+          "mpn": "545426198-807-2",
+          "color_name": "Anthracite grey",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426199",
+          "images": [
+            "https://static.zara.net/assets/public/2a1e/0bc6/e43a4a3bad21/a7d91aa815e6/05536340807-p/05536340807-p.jpg?ts=1785494937518&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Anthracite grey - M",
+          "sku": "545426198-807-3",
+          "mpn": "545426198-807-3",
+          "color_name": "Anthracite grey",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426199",
+          "images": [
+            "https://static.zara.net/assets/public/2a1e/0bc6/e43a4a3bad21/a7d91aa815e6/05536340807-p/05536340807-p.jpg?ts=1785494937518&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Anthracite grey - L",
+          "sku": "545426198-807-4",
+          "mpn": "545426198-807-4",
+          "color_name": "Anthracite grey",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426199",
+          "images": [
+            "https://static.zara.net/assets/public/2a1e/0bc6/e43a4a3bad21/a7d91aa815e6/05536340807-p/05536340807-p.jpg?ts=1785494937518&w=1920"
+          ]
+        },
+        {
+          "name": "SOFT STRIPED KNIT POLO SHIRT - Anthracite grey - XL",
+          "sku": "545426198-807-5",
+          "mpn": "545426198-807-5",
+          "color_name": "Anthracite grey",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/soft-striped-knit-polo-p05536340.html?v1=545426199",
+          "images": [
+            "https://static.zara.net/assets/public/2a1e/0bc6/e43a4a3bad21/a7d91aa815e6/05536340807-p/05536340807-p.jpg?ts=1785494937518&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9b96/cbee/3c3c4a01b02c/ec075a48d3b5/05536340076-p/05536340076-p.jpg?ts=1785494937910&w=1920",
+        "https://static.zara.net/assets/public/d6d7/d035/774742f48d87/e9028f031c08/05536340076-a1/05536340076-a1.jpg?ts=1785494937672&w=1920",
+        "https://static.zara.net/assets/public/553b/ed95/1d544c39bbfc/8a7dc3dc9193/05536340076-a2/05536340076-a2.jpg?ts=1785494937826&w=1920",
+        "https://static.zara.net/assets/public/9a4c/1995/5b9c40e48cd1/f2038ccb71a3/05536340076-a3/05536340076-a3.jpg?ts=1785494938849&w=1920",
+        "https://static.zara.net/assets/public/1724/f170/7370431298c7/7d50532247ff/05536340076-a4/05536340076-a4.jpg?ts=1785494939836&w=1920",
+        "https://static.zara.net/assets/public/410e/f0d5/c89940b49f88/a2d39f56ec10/05536340076-e1/05536340076-e1.jpg?ts=1784797588427&w=1920",
+        "https://static.zara.net/assets/public/8bf2/b563/8315488295d9/5215268d58bc/05536340076-e2/05536340076-e2.jpg?ts=1784797590466&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Red / Navy",
+    "Brown",
+    "Oyster-white",
+    "Anthracite grey"
+  ],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nRegular fit knit polo shirt made from a soft-touch viscose blend yarn. Lapel collar with front button placket. Long sleeves. Hem with side vents.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 10,
+  "variants_count": 16,
+  "colors_count": 4,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "654aac2cd96b32f8a6f8c2d56797d0cc98627792c8a022c478053e2d30799aaf",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

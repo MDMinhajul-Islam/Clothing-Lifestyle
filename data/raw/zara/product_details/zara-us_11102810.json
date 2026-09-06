@@ -1,0 +1,369 @@
+{
+  "product_id": "zara-us:11102810",
+  "source_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html",
+  "final_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html",
+  "canonical_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HEELED ANKLE BOOTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HEELED ANKLE BOOTS",
+      "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html",
+      "productGroupID": "11102810",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Ankle boot-style shoes. Stretchy fabric upper with a patent finish. Topstitching detail on the body. Side zip closure. High stiletto heel. Pointed toe. \n\nHeel height: 3.1 inches",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920",
+        "https://static.zara.net/assets/public/4163/07ec/71dd4d9093e3/8065e41789a9/11102810800-e1/11102810800-e1.jpg?ts=1787905666218&w=1920",
+        "https://static.zara.net/assets/public/4038/47ed/3d8243d596aa/16aab1bfb639/11102810800-e2/11102810800-e2.jpg?ts=1786545950502&w=1920",
+        "https://static.zara.net/assets/public/84a3/91e5/2f2a47f588c0/60f7d871ca81/11102810800-e3/11102810800-e3.jpg?ts=1786545951530&w=1920",
+        "https://static.zara.net/assets/public/1c29/750c/f6bf4f6bbda8/e6ad4192cec6/11102810800-e4/11102810800-e4.jpg?ts=1786545951955&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "86% polyamide, 14% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HEELED ANKLE BOOTS - Black - 5",
+          "sku": "545423055-800-35",
+          "mpn": "545423055-800-35",
+          "color": "Black",
+          "size": "5",
+          "image": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEELED ANKLE BOOTS - Black - 6",
+          "sku": "545423055-800-36",
+          "mpn": "545423055-800-36",
+          "color": "Black",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEELED ANKLE BOOTS - Black - 6½",
+          "sku": "545423055-800-37",
+          "mpn": "545423055-800-37",
+          "color": "Black",
+          "size": "6½",
+          "image": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEELED ANKLE BOOTS - Black - 7½",
+          "sku": "545423055-800-38",
+          "mpn": "545423055-800-38",
+          "color": "Black",
+          "size": "7½",
+          "image": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEELED ANKLE BOOTS - Black - 8",
+          "sku": "545423055-800-39",
+          "mpn": "545423055-800-39",
+          "color": "Black",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEELED ANKLE BOOTS - Black - 9",
+          "sku": "545423055-800-40",
+          "mpn": "545423055-800-40",
+          "color": "Black",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEELED ANKLE BOOTS - Black - 10",
+          "sku": "545423055-800-41",
+          "mpn": "545423055-800-41",
+          "color": "Black",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEELED ANKLE BOOTS - Black - 11",
+          "sku": "545423055-800-42",
+          "mpn": "545423055-800-42",
+          "color": "Black",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HEELED ANKLE BOOTS",
+      "product_group_id": "11102810",
+      "brand": "ZARA",
+      "description": "Ankle boot-style shoes. Stretchy fabric upper with a patent finish. Topstitching detail on the body. Side zip closure. High stiletto heel. Pointed toe. \n\nHeel height: 3.1 inches",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 86% polyamide, 14% elastane | SOLE: 100% polyurethane thermoplastic | INSOLE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HEELED ANKLE BOOTS - Black - 5",
+          "sku": "545423055-800-35",
+          "mpn": "545423055-800-35",
+          "color_name": "Black",
+          "size_name": "5",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+          "images": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ]
+        },
+        {
+          "name": "HEELED ANKLE BOOTS - Black - 6",
+          "sku": "545423055-800-36",
+          "mpn": "545423055-800-36",
+          "color_name": "Black",
+          "size_name": "6",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+          "images": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ]
+        },
+        {
+          "name": "HEELED ANKLE BOOTS - Black - 6½",
+          "sku": "545423055-800-37",
+          "mpn": "545423055-800-37",
+          "color_name": "Black",
+          "size_name": "6½",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+          "images": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ]
+        },
+        {
+          "name": "HEELED ANKLE BOOTS - Black - 7½",
+          "sku": "545423055-800-38",
+          "mpn": "545423055-800-38",
+          "color_name": "Black",
+          "size_name": "7½",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+          "images": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ]
+        },
+        {
+          "name": "HEELED ANKLE BOOTS - Black - 8",
+          "sku": "545423055-800-39",
+          "mpn": "545423055-800-39",
+          "color_name": "Black",
+          "size_name": "8",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+          "images": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ]
+        },
+        {
+          "name": "HEELED ANKLE BOOTS - Black - 9",
+          "sku": "545423055-800-40",
+          "mpn": "545423055-800-40",
+          "color_name": "Black",
+          "size_name": "9",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+          "images": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ]
+        },
+        {
+          "name": "HEELED ANKLE BOOTS - Black - 10",
+          "sku": "545423055-800-41",
+          "mpn": "545423055-800-41",
+          "color_name": "Black",
+          "size_name": "10",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+          "images": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ]
+        },
+        {
+          "name": "HEELED ANKLE BOOTS - Black - 11",
+          "sku": "545423055-800-42",
+          "mpn": "545423055-800-42",
+          "color_name": "Black",
+          "size_name": "11",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heeled-ankle-boots-p11102810.html?v1=545423055",
+          "images": [
+            "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0b34/9075/65f04190a1c8/ed5bb9877049/11102810800-p/11102810800-p.jpg?ts=1786971612771&w=1920",
+        "https://static.zara.net/assets/public/4163/07ec/71dd4d9093e3/8065e41789a9/11102810800-e1/11102810800-e1.jpg?ts=1787905666218&w=1920",
+        "https://static.zara.net/assets/public/4038/47ed/3d8243d596aa/16aab1bfb639/11102810800-e2/11102810800-e2.jpg?ts=1786545950502&w=1920",
+        "https://static.zara.net/assets/public/84a3/91e5/2f2a47f588c0/60f7d871ca81/11102810800-e3/11102810800-e3.jpg?ts=1786545951530&w=1920",
+        "https://static.zara.net/assets/public/1c29/750c/f6bf4f6bbda8/e6ad4192cec6/11102810800-e4/11102810800-e4.jpg?ts=1786545951955&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nAnkle boot-style shoes. Stretchy fabric upper with a patent finish. Topstitching detail on the body. Side zip closure. High stiletto heel. Pointed toe.\nHeel height: 3.1 inches",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b174341f75f32457a4ae67a2444c1f493bd64197685509c7dad0aa8608bb08b8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,305 @@
+{
+  "product_id": "zara-us:11520810",
+  "source_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html",
+  "final_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html",
+  "canonical_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LIMITED EDITION LEATHER HEELED LOAFERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIMITED EDITION LEATHER HEELED LOAFERS",
+      "url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html",
+      "productGroupID": "11520810",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leather loafers. Raised vamp. Mid block heel. Square toe.\n\nHeel height: 1.4 inches",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920",
+        "https://static.zara.net/assets/public/6297/1776/bf864fd19a59/d13f4dcc1529/11520810700-e1/11520810700-e1.jpg?ts=1786615301189&w=1920",
+        "https://static.zara.net/assets/public/cfce/e74d/8e7b40128768/0a9923254660/11520810700-e2/11520810700-e2.jpg?ts=1786615299532&w=1920",
+        "https://static.zara.net/assets/public/bbd2/c49d/4ae44856aa78/a810fa34bc86/11520810700-e3/11520810700-e3.jpg?ts=1786615299566&w=1920",
+        "https://static.zara.net/assets/public/fb05/b982/bb4b488a881f/61e769bf6fbc/11520810700-e4/11520810700-e4.jpg?ts=1786615300196&w=1920"
+      ],
+      "material": "100% sheep leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% sheep leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "85% goat leather, 15% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "60% rubber, 40% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "90% goat leather, 10% sheep leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 6",
+          "sku": "545485646-700-36",
+          "mpn": "545485646-700-36",
+          "color": "Brown",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 6½",
+          "sku": "545485646-700-37",
+          "mpn": "545485646-700-37",
+          "color": "Brown",
+          "size": "6½",
+          "image": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 7½",
+          "sku": "545485646-700-38",
+          "mpn": "545485646-700-38",
+          "color": "Brown",
+          "size": "7½",
+          "image": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 8",
+          "sku": "545485646-700-39",
+          "mpn": "545485646-700-39",
+          "color": "Brown",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 9",
+          "sku": "545485646-700-40",
+          "mpn": "545485646-700-40",
+          "color": "Brown",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 10",
+          "sku": "545485646-700-41",
+          "mpn": "545485646-700-41",
+          "color": "Brown",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIMITED EDITION LEATHER HEELED LOAFERS",
+      "product_group_id": "11520810",
+      "brand": "ZARA",
+      "description": "Leather loafers. Raised vamp. Mid block heel. Square toe.\n\nHeel height: 1.4 inches",
+      "material": "100% sheep leather",
+      "composition": "UPPER: 100% sheep leather | LINING: 85% goat leather, 15% polyester | SOLE: 60% rubber, 40% polyurethane thermoplastic | INSOLE: 90% goat leather, 10% sheep leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 6",
+          "sku": "545485646-700-36",
+          "mpn": "545485646-700-36",
+          "color_name": "Brown",
+          "size_name": "6",
+          "price": "149.00",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+          "images": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ]
+        },
+        {
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 6½",
+          "sku": "545485646-700-37",
+          "mpn": "545485646-700-37",
+          "color_name": "Brown",
+          "size_name": "6½",
+          "price": "149.00",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+          "images": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ]
+        },
+        {
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 7½",
+          "sku": "545485646-700-38",
+          "mpn": "545485646-700-38",
+          "color_name": "Brown",
+          "size_name": "7½",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+          "images": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ]
+        },
+        {
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 8",
+          "sku": "545485646-700-39",
+          "mpn": "545485646-700-39",
+          "color_name": "Brown",
+          "size_name": "8",
+          "price": "149.00",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+          "images": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ]
+        },
+        {
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 9",
+          "sku": "545485646-700-40",
+          "mpn": "545485646-700-40",
+          "color_name": "Brown",
+          "size_name": "9",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+          "images": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ]
+        },
+        {
+          "name": "LIMITED EDITION LEATHER HEELED LOAFERS - Brown - 10",
+          "sku": "545485646-700-41",
+          "mpn": "545485646-700-41",
+          "color_name": "Brown",
+          "size_name": "10",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-leather-heeled-loafers-p11520810.html?v1=545485646",
+          "images": [
+            "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8cb5/c53d/bf164422beec/eb0d00a44b57/11520810700-p/11520810700-p.jpg?ts=1787761265164&w=1920",
+        "https://static.zara.net/assets/public/6297/1776/bf864fd19a59/d13f4dcc1529/11520810700-e1/11520810700-e1.jpg?ts=1786615301189&w=1920",
+        "https://static.zara.net/assets/public/cfce/e74d/8e7b40128768/0a9923254660/11520810700-e2/11520810700-e2.jpg?ts=1786615299532&w=1920",
+        "https://static.zara.net/assets/public/bbd2/c49d/4ae44856aa78/a810fa34bc86/11520810700-e3/11520810700-e3.jpg?ts=1786615299566&w=1920",
+        "https://static.zara.net/assets/public/fb05/b982/bb4b488a881f/61e769bf6fbc/11520810700-e4/11520810700-e4.jpg?ts=1786615300196&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nLeather loafers. Raised vamp. Mid block heel. Square toe.\nHeel height: 1.4 inches",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "22dd3f9884dd399fe3c21882dce10a03a45fc26fb50b865e44d9b92d8470e089",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,347 @@
+{
+  "product_id": "zara-us:12348821",
+  "source_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html",
+  "final_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html",
+  "canonical_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RETRO STYLE SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RETRO STYLE SNEAKERS",
+      "url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html",
+      "productGroupID": "12348821",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Lace-up sneakers with a distressed finish. Upper made from a combination of pieces with leather details. Tonal sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920",
+        "https://static.zara.net/assets/public/5de9/5ec4/b3e14fdda36b/99354d090697/12348821001-a1/12348821001-a1.jpg?ts=1785334457353&w=1920",
+        "https://static.zara.net/assets/public/9505/a880/28b04ddeb32e/69715e9cd097/12348821001-a3/12348821001-a3.jpg?ts=1785334456888&w=1920",
+        "https://static.zara.net/assets/public/9b6a/120a/25ee4a6f9839/194770eeddad/12348821001-e1/12348821001-e1.jpg?ts=1783433890200&w=1920",
+        "https://static.zara.net/assets/public/b6e5/7a30/d9ef417f9186/3c0bde3560c1/12348821001-e2/12348821001-e2.jpg?ts=1783433893612&w=1920",
+        "https://static.zara.net/assets/public/ca4b/4cf7/36994da2abe1/8c1531e2cc80/12348821001-e3/12348821001-e3.jpg?ts=1783433893657&w=1920",
+        "https://static.zara.net/assets/public/bf54/608e/58124ab5aa03/bd7036773049/12348821001-e4/12348821001-e4.jpg?ts=1783433890175&w=1920"
+      ],
+      "material": "polyester/polyurethane/cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "57% polyester, 27% polyurethane, 16% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "56% cotton, 30% polyester, 14% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "86% polyamide, 14% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RETRO STYLE SNEAKERS - White - 6",
+          "sku": "545425858-001-39",
+          "mpn": "545425858-001-39",
+          "color": "White",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO STYLE SNEAKERS - White - 7",
+          "sku": "545425858-001-40",
+          "mpn": "545425858-001-40",
+          "color": "White",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO STYLE SNEAKERS - White - 8",
+          "sku": "545425858-001-41",
+          "mpn": "545425858-001-41",
+          "color": "White",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO STYLE SNEAKERS - White - 9",
+          "sku": "545425858-001-42",
+          "mpn": "545425858-001-42",
+          "color": "White",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO STYLE SNEAKERS - White - 10",
+          "sku": "545425858-001-43",
+          "mpn": "545425858-001-43",
+          "color": "White",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO STYLE SNEAKERS - White - 11",
+          "sku": "545425858-001-44",
+          "mpn": "545425858-001-44",
+          "color": "White",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO STYLE SNEAKERS - White - 12",
+          "sku": "545425858-001-45",
+          "mpn": "545425858-001-45",
+          "color": "White",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RETRO STYLE SNEAKERS",
+      "product_group_id": "12348821",
+      "brand": "ZARA",
+      "description": "Lace-up sneakers with a distressed finish. Upper made from a combination of pieces with leather details. Tonal sole.",
+      "material": "polyester/polyurethane/cow leather",
+      "composition": "UPPER: 57% polyester, 27% polyurethane, 16% cow leather | LINING: 56% cotton, 30% polyester, 14% polyurethane | SOLE: 100% sbs | INSOLE: 86% polyamide, 14% elastane | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RETRO STYLE SNEAKERS - White - 6",
+          "sku": "545425858-001-39",
+          "mpn": "545425858-001-39",
+          "color_name": "White",
+          "size_name": "6",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+          "images": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO STYLE SNEAKERS - White - 7",
+          "sku": "545425858-001-40",
+          "mpn": "545425858-001-40",
+          "color_name": "White",
+          "size_name": "7",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+          "images": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO STYLE SNEAKERS - White - 8",
+          "sku": "545425858-001-41",
+          "mpn": "545425858-001-41",
+          "color_name": "White",
+          "size_name": "8",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+          "images": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO STYLE SNEAKERS - White - 9",
+          "sku": "545425858-001-42",
+          "mpn": "545425858-001-42",
+          "color_name": "White",
+          "size_name": "9",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+          "images": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO STYLE SNEAKERS - White - 10",
+          "sku": "545425858-001-43",
+          "mpn": "545425858-001-43",
+          "color_name": "White",
+          "size_name": "10",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+          "images": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO STYLE SNEAKERS - White - 11",
+          "sku": "545425858-001-44",
+          "mpn": "545425858-001-44",
+          "color_name": "White",
+          "size_name": "11",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+          "images": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO STYLE SNEAKERS - White - 12",
+          "sku": "545425858-001-45",
+          "mpn": "545425858-001-45",
+          "color_name": "White",
+          "size_name": "12",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-style-sneakers-p12348821.html?v1=545425858",
+          "images": [
+            "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5980/b954/d40b43afa19f/ccc0e07a39c5/12348821001-a2/12348821001-a2.jpg?ts=1785334457544&w=1920",
+        "https://static.zara.net/assets/public/5de9/5ec4/b3e14fdda36b/99354d090697/12348821001-a1/12348821001-a1.jpg?ts=1785334457353&w=1920",
+        "https://static.zara.net/assets/public/9505/a880/28b04ddeb32e/69715e9cd097/12348821001-a3/12348821001-a3.jpg?ts=1785334456888&w=1920",
+        "https://static.zara.net/assets/public/9b6a/120a/25ee4a6f9839/194770eeddad/12348821001-e1/12348821001-e1.jpg?ts=1783433890200&w=1920",
+        "https://static.zara.net/assets/public/b6e5/7a30/d9ef417f9186/3c0bde3560c1/12348821001-e2/12348821001-e2.jpg?ts=1783433893612&w=1920",
+        "https://static.zara.net/assets/public/ca4b/4cf7/36994da2abe1/8c1531e2cc80/12348821001-e3/12348821001-e3.jpg?ts=1783433893657&w=1920",
+        "https://static.zara.net/assets/public/bf54/608e/58124ab5aa03/bd7036773049/12348821001-e4/12348821001-e4.jpg?ts=1783433890175&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nLace-up sneakers with a distressed finish. Upper made from a combination of pieces with leather details. Tonal sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 7,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4b6a0ea6c5593cf2edda9a36742a2d342010449f4ee8fbea2c667968bf67b07a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

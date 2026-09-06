@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:card-9943899871",
+  "source_url": "https://www.zara.com/us/en/-pT9439777491.html",
+  "final_url": "https://www.zara.com/us/en/-180-g--orchidee-lumiere-scented-candle-p45493705.html",
+  "canonical_url": "https://www.zara.com/us/en/-180-g--orchidee-lumiere-scented-candle-p45493705.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "(180 G) ORCHIDÉE LUMIÈRE SCENTED CANDLE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "(180 G) ORCHIDÉE LUMIÈRE SCENTED CANDLE",
+      "url": "https://www.zara.com/us/en/-180-g--orchidee-lumiere-scented-candle-p45493705.html",
+      "productGroupID": "45493705",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Scented candle made of vegetable wax.\n\nOrchidèe Lumière | Orchid flowers exude a sensual and mysterious fragrance with hints of black vanilla that envelope an elegant floral bouquet, adding a final touch of rich warmth. \n\nNotes:\nTop notes: citrus cocktail, Italian lemon oil, fruity.\nHeart: orchid, Egyptian jasmine, lily of the valley, freesia, gardenia.\nBase notes: cedar wood, cedar oil, musk, vanilla.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9fe4/7bdf/cbd64f219034/a4b5fbcafa7a/45493705603-e1/45493705603-e1.jpg?ts=1770912114590&w=1920",
+        "https://static.zara.net/assets/public/ff07/74af/6f6345618c0a/8435184a3ec5/45493705603-e2/45493705603-e2.jpg?ts=1770912114761&w=1920",
+        "https://static.zara.net/assets/public/a899/2d7a/855640ffb0b9/e1d1f19f0607/45493705603-e3/45493705603-e3.jpg?ts=1770912114736&w=1920",
+        "https://static.zara.net/assets/public/5df6/5732/1cef48c9a26b/b2d9ae601ee6/45493705603-e4/45493705603-e4.jpg?ts=1770912114671&w=1920",
+        "https://static.zara.net/assets/public/6418/25f5/eafe4a4bbb0d/9bf80fe1dd9e/45493705603-a1/45493705603-a1.jpg?ts=1771414709816&w=1920"
+      ],
+      "material": "Soybean oil, hydrogenated/WAX/PERFUME",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "ZARA HOME AROMATIC CANDLE ORCHIDÉE LUMIÈRE",
+          "value": " Soybean oil, hydrogenated,  WAX,  PERFUME,  BENZYL SALICYLATE,  1-(1,2,3,4,5,6,7,8-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one,  Linalol,  Citronellol,  coumarin"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "(180 G) ORCHIDÉE LUMIÈRE SCENTED CANDLE - Purple - ONE SIZE ONLY",
+          "sku": "545404651-603-99",
+          "mpn": "545404651-603-99",
+          "color": "Purple",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/9fe4/7bdf/cbd64f219034/a4b5fbcafa7a/45493705603-e1/45493705603-e1.jpg?ts=1770912114590&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/-180-g--orchidee-lumiere-scented-candle-p45493705.html?v1=545404651",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "(180 G) ORCHIDÉE LUMIÈRE SCENTED CANDLE",
+      "product_group_id": "45493705",
+      "brand": "ZARAHOME",
+      "description": "Scented candle made of vegetable wax.\n\nOrchidèe Lumière | Orchid flowers exude a sensual and mysterious fragrance with hints of black vanilla that envelope an elegant floral bouquet, adding a final touch of rich warmth. \n\nNotes:\nTop notes: citrus cocktail, Italian lemon oil, fruity.\nHeart: orchid, Egyptian jasmine, lily of the valley, freesia, gardenia.\nBase notes: cedar wood, cedar oil, musk, vanilla.",
+      "material": "Soybean oil, hydrogenated/WAX/PERFUME",
+      "composition": "ZARA HOME AROMATIC CANDLE ORCHIDÉE LUMIÈRE:  Soybean oil, hydrogenated,  WAX,  PERFUME,  BENZYL SALICYLATE,  1-(1,2,3,4,5,6,7,8-octahydro-2,3,8,8-tetramethyl-2-naphthyl)ethan-1-one,  Linalol,  Citronellol,  coumarin",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "(180 G) ORCHIDÉE LUMIÈRE SCENTED CANDLE - Purple - ONE SIZE ONLY",
+          "sku": "545404651-603-99",
+          "mpn": "545404651-603-99",
+          "color_name": "Purple",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/-180-g--orchidee-lumiere-scented-candle-p45493705.html?v1=545404651",
+          "images": [
+            "https://static.zara.net/assets/public/9fe4/7bdf/cbd64f219034/a4b5fbcafa7a/45493705603-e1/45493705603-e1.jpg?ts=1770912114590&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9fe4/7bdf/cbd64f219034/a4b5fbcafa7a/45493705603-e1/45493705603-e1.jpg?ts=1770912114590&w=1920",
+        "https://static.zara.net/assets/public/ff07/74af/6f6345618c0a/8435184a3ec5/45493705603-e2/45493705603-e2.jpg?ts=1770912114761&w=1920",
+        "https://static.zara.net/assets/public/a899/2d7a/855640ffb0b9/e1d1f19f0607/45493705603-e3/45493705603-e3.jpg?ts=1770912114736&w=1920",
+        "https://static.zara.net/assets/public/5df6/5732/1cef48c9a26b/b2d9ae601ee6/45493705603-e4/45493705603-e4.jpg?ts=1770912114671&w=1920",
+        "https://static.zara.net/assets/public/6418/25f5/eafe4a4bbb0d/9bf80fe1dd9e/45493705603-a1/45493705603-a1.jpg?ts=1771414709816&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nScented candle made of vegetable wax.\nOrchidèe Lumière | Orchid flowers exude a sensual and mysterious fragrance with hints of black vanilla that envelope an elegant floral bouquet, adding a final touch of rich warmth.\nNotes:\nTop notes: citrus cocktail, Italian lemon oil, fruity.\nHeart: orchid, Egyptian jasmine, lily of the valley, freesia, gardenia.\nBase notes: cedar wood, cedar oil, musk, vanilla.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fc7a5a7043d9db8f62846a6f59b854f4a53888a98192f53816abb016295f485d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

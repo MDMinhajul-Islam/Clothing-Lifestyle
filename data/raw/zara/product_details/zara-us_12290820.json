@@ -1,0 +1,405 @@
+{
+  "product_id": "zara-us:12290820",
+  "source_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html",
+  "final_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html",
+  "canonical_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RETRO SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RETRO SNEAKERS",
+      "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html",
+      "productGroupID": "12290820",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers with contrasting color detail on the heel. Round toe. Rubberized sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920",
+        "https://static.zara.net/assets/public/7d36/aa4e/68fc4712894e/a0818d43a06e/12290820107-e2/12290820107-e2.jpg?ts=1787239817815&w=1920",
+        "https://static.zara.net/assets/public/a28f/0577/86a8452681d2/cc41ccf002f6/12290820107-e3/12290820107-e3.jpg?ts=1787239818318&w=1920",
+        "https://static.zara.net/assets/public/d216/283e/3f43420c89f4/7481a0e06687/12290820107-e4/12290820107-e4.jpg?ts=1787239818541&w=1920"
+      ],
+      "material": "polyester/polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "95% polyester, 5% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "85% polyamide, 15% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "85% polyamide, 15% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "86% polyester, 14% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 6",
+          "sku": "558185354-107-39",
+          "mpn": "558185354-107-39",
+          "color": "Sandy Brown",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 7",
+          "sku": "558185354-107-40",
+          "mpn": "558185354-107-40",
+          "color": "Sandy Brown",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 8",
+          "sku": "558185354-107-41",
+          "mpn": "558185354-107-41",
+          "color": "Sandy Brown",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 9",
+          "sku": "558185354-107-42",
+          "mpn": "558185354-107-42",
+          "color": "Sandy Brown",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 10",
+          "sku": "558185354-107-43",
+          "mpn": "558185354-107-43",
+          "color": "Sandy Brown",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 11",
+          "sku": "558185354-107-44",
+          "mpn": "558185354-107-44",
+          "color": "Sandy Brown",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 12",
+          "sku": "558185354-107-45",
+          "mpn": "558185354-107-45",
+          "color": "Sandy Brown",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 13",
+          "sku": "558185354-107-46",
+          "mpn": "558185354-107-46",
+          "color": "Sandy Brown",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RETRO SNEAKERS - Sandy Brown - 14",
+          "sku": "558185354-107-47",
+          "mpn": "558185354-107-47",
+          "color": "Sandy Brown",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RETRO SNEAKERS",
+      "product_group_id": "12290820",
+      "brand": "ZARA",
+      "description": "Sneakers with contrasting color detail on the heel. Round toe. Rubberized sole.",
+      "material": "polyester/polyurethane",
+      "composition": "UPPER: 95% polyester, 5% polyurethane | LINING: 85% polyamide, 15% elastane | SOLE: 100% rubber | INSOLE: 85% polyamide, 15% elastane | TONGUE: 86% polyester, 14% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 6",
+          "sku": "558185354-107-39",
+          "mpn": "558185354-107-39",
+          "color_name": "Sandy Brown",
+          "size_name": "6",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 7",
+          "sku": "558185354-107-40",
+          "mpn": "558185354-107-40",
+          "color_name": "Sandy Brown",
+          "size_name": "7",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 8",
+          "sku": "558185354-107-41",
+          "mpn": "558185354-107-41",
+          "color_name": "Sandy Brown",
+          "size_name": "8",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 9",
+          "sku": "558185354-107-42",
+          "mpn": "558185354-107-42",
+          "color_name": "Sandy Brown",
+          "size_name": "9",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 10",
+          "sku": "558185354-107-43",
+          "mpn": "558185354-107-43",
+          "color_name": "Sandy Brown",
+          "size_name": "10",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 11",
+          "sku": "558185354-107-44",
+          "mpn": "558185354-107-44",
+          "color_name": "Sandy Brown",
+          "size_name": "11",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 12",
+          "sku": "558185354-107-45",
+          "mpn": "558185354-107-45",
+          "color_name": "Sandy Brown",
+          "size_name": "12",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 13",
+          "sku": "558185354-107-46",
+          "mpn": "558185354-107-46",
+          "color_name": "Sandy Brown",
+          "size_name": "13",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        },
+        {
+          "name": "RETRO SNEAKERS - Sandy Brown - 14",
+          "sku": "558185354-107-47",
+          "mpn": "558185354-107-47",
+          "color_name": "Sandy Brown",
+          "size_name": "14",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/retro-sneakers-p12290820.html?v1=558185354",
+          "images": [
+            "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ec03/bc09/756b48da8063/30ec3c0e7da7/12290820107-e1/12290820107-e1.jpg?ts=1787239818360&w=1920",
+        "https://static.zara.net/assets/public/7d36/aa4e/68fc4712894e/a0818d43a06e/12290820107-e2/12290820107-e2.jpg?ts=1787239817815&w=1920",
+        "https://static.zara.net/assets/public/a28f/0577/86a8452681d2/cc41ccf002f6/12290820107-e3/12290820107-e3.jpg?ts=1787239818318&w=1920",
+        "https://static.zara.net/assets/public/d216/283e/3f43420c89f4/7481a0e06687/12290820107-e4/12290820107-e4.jpg?ts=1787239818541&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nSneakers with contrasting color detail on the heel. Round toe. Rubberized sole.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 9,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2114e317c02100752a8ae7decd9e886db4044e241a448377e694b5e80a9b2d35",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

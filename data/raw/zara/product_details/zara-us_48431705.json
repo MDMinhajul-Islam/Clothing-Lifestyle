@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:48431705",
+  "source_url": "https://www.zara.com/us/en/-200-g--poetic-mind-scented-candle-p48431705.html",
+  "final_url": "https://www.zara.com/us/en/-200-g--poetic-mind-scented-candle-p48431705.html",
+  "canonical_url": "https://www.zara.com/us/en/-200-g--poetic-mind-scented-candle-p48431705.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "(200 G) POETIC MIND SCENTED CANDLE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "(200 G) POETIC MIND SCENTED CANDLE",
+      "url": "https://www.zara.com/us/en/-200-g--poetic-mind-scented-candle-p48431705.html",
+      "productGroupID": "48431705",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Scented candle. Contains vegetable wax.\n\nPoetic Mind | A harmonious combination of the woody notes, lemon zest and gentle magnolia.\n\nAromas: bergamot, almond flower and white woods.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8282/9a29/c10a4776a580/a82da56b0d49/45438705676-e1/45438705676-e1.jpg?ts=1781267199660&w=1920",
+        "https://static.zara.net/assets/public/f1e8/9796/437943168f54/1ea0b40e5f50/45438705676-e2/45438705676-e2.jpg?ts=1781267199703&w=1920",
+        "https://static.zara.net/assets/public/4dae/c8e3/37f04925b8e9/91c165fc9ce5/45438705676-e3/45438705676-e3.jpg?ts=1781267199639&w=1920",
+        "https://static.zara.net/assets/public/da72/85ee/359f439289a2/4a12fd41d758/45438705676-e4/45438705676-e4.jpg?ts=1781267199407&w=1920",
+        "https://static.zara.net/assets/public/a5b2/1fb2/ef944fb48e79/594eb027a5ae/1653042882723/1653042882723.jpg?ts=1702922422938&w=1920",
+        "https://static.zara.net/assets/public/ca6a/bdff/dc3544f5a231/134a964bd856/1679995155000/1679995155000.jpg?ts=1702303771045&w=1920",
+        "https://static.zara.net/assets/public/4ded/adab/ca0e4fef94df/d4a98105f559/1679995155601/1679995155601.jpg?ts=1701731530600&w=1920"
+      ],
+      "material": "vegetable wax/PERFUME/WAX",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "ZARA HOME AROMATIC CANDLE POETIC MIND",
+          "value": " vegetable wax,  PERFUME,  WAX,  1-(1,2,3,4,5,6,7,8-OCTAHYDRO-2,3,8,8-TETRAMETHYL-2-NAPHTHYL)ETHAN-1-ONE,  7-HYDROXYCITRONELLAL,  3,7-dimethylnona-1,6-dien-3-ol,  α-methyl-1,3-benzodioxole-5-propionaldehyde,  (ethoxymethoxy)cyclododecane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "(200 G) POETIC MIND SCENTED CANDLE - Dusty pink - ONE SIZE ONLY",
+          "sku": "545422441-676-99",
+          "mpn": "545422441-676-99",
+          "color": "Dusty pink",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/8282/9a29/c10a4776a580/a82da56b0d49/45438705676-e1/45438705676-e1.jpg?ts=1781267199660&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/-200-g--poetic-mind-scented-candle-p48431705.html?v1=545422441",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "(200 G) POETIC MIND SCENTED CANDLE",
+      "product_group_id": "48431705",
+      "brand": "ZARAHOME",
+      "description": "Scented candle. Contains vegetable wax.\n\nPoetic Mind | A harmonious combination of the woody notes, lemon zest and gentle magnolia.\n\nAromas: bergamot, almond flower and white woods.",
+      "material": "vegetable wax/PERFUME/WAX",
+      "composition": "ZARA HOME AROMATIC CANDLE POETIC MIND:  vegetable wax,  PERFUME,  WAX,  1-(1,2,3,4,5,6,7,8-OCTAHYDRO-2,3,8,8-TETRAMETHYL-2-NAPHTHYL)ETHAN-1-ONE,  7-HYDROXYCITRONELLAL,  3,7-dimethylnona-1,6-dien-3-ol,  α-methyl-1,3-benzodioxole-5-propionaldehyde,  (ethoxymethoxy)cyclododecane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "(200 G) POETIC MIND SCENTED CANDLE - Dusty pink - ONE SIZE ONLY",
+          "sku": "545422441-676-99",
+          "mpn": "545422441-676-99",
+          "color_name": "Dusty pink",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/-200-g--poetic-mind-scented-candle-p48431705.html?v1=545422441",
+          "images": [
+            "https://static.zara.net/assets/public/8282/9a29/c10a4776a580/a82da56b0d49/45438705676-e1/45438705676-e1.jpg?ts=1781267199660&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8282/9a29/c10a4776a580/a82da56b0d49/45438705676-e1/45438705676-e1.jpg?ts=1781267199660&w=1920",
+        "https://static.zara.net/assets/public/f1e8/9796/437943168f54/1ea0b40e5f50/45438705676-e2/45438705676-e2.jpg?ts=1781267199703&w=1920",
+        "https://static.zara.net/assets/public/4dae/c8e3/37f04925b8e9/91c165fc9ce5/45438705676-e3/45438705676-e3.jpg?ts=1781267199639&w=1920",
+        "https://static.zara.net/assets/public/da72/85ee/359f439289a2/4a12fd41d758/45438705676-e4/45438705676-e4.jpg?ts=1781267199407&w=1920",
+        "https://static.zara.net/assets/public/a5b2/1fb2/ef944fb48e79/594eb027a5ae/1653042882723/1653042882723.jpg?ts=1702922422938&w=1920",
+        "https://static.zara.net/assets/public/ca6a/bdff/dc3544f5a231/134a964bd856/1679995155000/1679995155000.jpg?ts=1702303771045&w=1920",
+        "https://static.zara.net/assets/public/4ded/adab/ca0e4fef94df/d4a98105f559/1679995155601/1679995155601.jpg?ts=1701731530600&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nScented candle. Contains vegetable wax.\nPoetic Mind | A harmonious combination of the woody notes, lemon zest and gentle magnolia.\nAromas: bergamot, almond flower and white woods.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "657c4935801115490167f036ce84b3c9f0ee8830ecad8534b638eed239b16994",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

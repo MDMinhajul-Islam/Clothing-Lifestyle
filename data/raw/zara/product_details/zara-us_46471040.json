@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:46471040",
+  "source_url": "https://www.zara.com/us/en/black-metal-tray-p46471040.html",
+  "final_url": "https://www.zara.com/us/en/black-metal-tray-p46471040.html",
+  "canonical_url": "https://www.zara.com/us/en/black-metal-tray-p46471040.html",
+  "enriched_at": "2026-09-06T19:47:44.441766+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BLACK METAL TRAY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BLACK METAL TRAY",
+      "url": "https://www.zara.com/us/en/black-metal-tray-p46471040.html",
+      "productGroupID": "46471040",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Decorative rectangular metal tray with raised rounded edges. \nThe surface of the tray is textured and has some relief from the manufactured material.\n\nAvailable in several sizes.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1f9a/e452/877d46298c22/094042fb884e/46471040823-e1/46471040823-e1.jpg?ts=1758284133737&w=1920",
+        "https://static.zara.net/assets/public/fa97/8c7f/d0e74b0490c8/c250b02843fc/46471040823-e2/46471040823-e2.jpg?ts=1758284134331&w=1920",
+        "https://static.zara.net/assets/public/d6cb/63fa/36ba43cea1a0/af306b55e5b4/46471040823-e3/46471040823-e3.jpg?ts=1758284139513&w=1920",
+        "https://static.zara.net/assets/public/83f5/e14e/333544e8bd08/1b6dcf127517/46471040823-e4/46471040823-e4.jpg?ts=1758284138456&w=1920",
+        "https://static.zara.net/assets/public/07d3/8eaa/f1024a769793/83e991757e27/46471040823-a1/46471040823-a1.jpg?ts=1770307708155&w=1920"
+      ],
+      "material": "100% aluminium",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% aluminium"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BLACK METAL TRAY - charcoal gray - ONE SIZE ONLY",
+          "sku": "545454172-823-99",
+          "mpn": "545454172-823-99",
+          "color": "charcoal gray",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/1f9a/e452/877d46298c22/094042fb884e/46471040823-e1/46471040823-e1.jpg?ts=1758284133737&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/black-metal-tray-p46471040.html?v1=545454172",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BLACK METAL TRAY",
+      "product_group_id": "46471040",
+      "brand": "ZARAHOME",
+      "description": "Decorative rectangular metal tray with raised rounded edges. \nThe surface of the tray is textured and has some relief from the manufactured material.\n\nAvailable in several sizes.",
+      "material": "100% aluminium",
+      "composition": "OUTER SHELL: 100% aluminium",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BLACK METAL TRAY - charcoal gray - ONE SIZE ONLY",
+          "sku": "545454172-823-99",
+          "mpn": "545454172-823-99",
+          "color_name": "charcoal gray",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/black-metal-tray-p46471040.html?v1=545454172",
+          "images": [
+            "https://static.zara.net/assets/public/1f9a/e452/877d46298c22/094042fb884e/46471040823-e1/46471040823-e1.jpg?ts=1758284133737&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1f9a/e452/877d46298c22/094042fb884e/46471040823-e1/46471040823-e1.jpg?ts=1758284133737&w=1920",
+        "https://static.zara.net/assets/public/fa97/8c7f/d0e74b0490c8/c250b02843fc/46471040823-e2/46471040823-e2.jpg?ts=1758284134331&w=1920",
+        "https://static.zara.net/assets/public/d6cb/63fa/36ba43cea1a0/af306b55e5b4/46471040823-e3/46471040823-e3.jpg?ts=1758284139513&w=1920",
+        "https://static.zara.net/assets/public/83f5/e14e/333544e8bd08/1b6dcf127517/46471040823-e4/46471040823-e4.jpg?ts=1758284138456&w=1920",
+        "https://static.zara.net/assets/public/07d3/8eaa/f1024a769793/83e991757e27/46471040823-a1/46471040823-a1.jpg?ts=1770307708155&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nDecorative rectangular metal tray with raised rounded edges.\nThe surface of the tray is textured and has some relief from the manufactured material.\nAvailable in several sizes.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "dae43f9e3de15e28c823b25a5d96d1b31c55685cd34d16089df7c6863f03fdbb",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
