@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-09-06T17:01:00+06:00",
+  "audit_type": "PHASE_1C_RESUME_READINESS",
+  "checkpoint_commit": "4459373 (base 38126af)",
+  "repository_clean": true,
+  "queue_accounting": {
+    "total_catalogue_queue": 6276,
+    "distribution": {
+      "COMPLETE": 169,
+      "FAILED_TERMINAL": 258,
+      "FAILED_RETRYABLE": 500,
+      "QUEUED": 5349,
+      "PARTIAL": 0
+    },
+    "invariant_verified": true
+  },
+  "failed_retryable_analysis": {
+    "total": 500,
+    "causes": {
+      "timeout": 0,
+      "navigation": 0,
+      "render_incomplete": 0,
+      "missing_structured_data": 0,
+      "other": 500
+    },
+    "other_detail": "ValueError: not enough values to unpack (expected 6, got 4)",
+    "systemic_mode": "Code regression in scripts/zara_research/enrich_product_details.py (premature return statement) during Chunk #1 execution. This bug has been completely resolved in commit 4459373. No network, proxy, bot-detection, or HTML structure failures occurred."
+  },
+  "complete_products_verification": {
+    "total_complete": 169,
+    "normalized_records_count": 169,
+    "missing_normalized_records": 0,
+    "price_snapshots_count": 169,
+    "missing_price_snapshots": 0,
+    "raw_evidence_files_count": 169,
+    "missing_raw_evidence": 0,
+    "content_hash_coverage": "100%",
+    "missing_content_hashes": 0,
+    "relational_integrity": {
+      "variants": 995,
+      "colors": 323,
+      "images": 2464,
+      "orphans": 0
+    }
+  },
+  "test_suite": {
+    "total_tests": 33,
+    "passed": 33,
+    "failed": 0,
+    "status": "PASS"
+  },
+  "resume_plan": {
+    "recommended_first_chunk_size": 250,
+    "recommended_order": "Reset the 500 FAILED_RETRYABLE back to QUEUED (since failure was 100% internal parser regression now resolved) or process QUEUED followed by retry sweep",
+    "parser_fixes_needed": "None. The 6-tuple return value is fixed and verified.",
+    "estimated_throughput": "4.0-5.0s per product"
+  }
+}
