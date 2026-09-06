@@ -1,5 +1,7 @@
 # Proposed normalized research product schema
 
+Update 2026-09-06: User authorization was confirmed and 51 public detail pages have now been captured. Public JSON-LD provides explicit group IDs, SKU, colors, sizes, prices, materials and image associations. The earlier lack-of-evidence comments below describe the initial design pass. Actual field mappings and remaining gaps are in `scripts/zara_research/README.md`. The generated PostgreSQL file is a JSONB research staging import, not an implementation of the final normalized transactional schema proposed here.
+
 **SYNTHETIC DESIGN throughout.** Proposal only; no migration, database or crawler has been implemented. This is retailer-neutral and does not describe Zara's internal architecture.
 
 The limited public observations justify product labels, listing associations, price observations and source links. All additional requested fields below are nullable capacity for future evidence, not claims that those fields were found on Zara. Missing does not mean unavailable or out of stock.

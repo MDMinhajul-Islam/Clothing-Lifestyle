@@ -1,5 +1,23 @@
 # Zara US public-site research
 
+## Current result — authorized browser collection
+
+Updated 2026-09-06 after the user confirmed authorization. This section supersedes the earlier zero-record findings retained below as research history.
+
+**PUBLICLY OBSERVED:** 51 product detail pages were captured from the US men's shirts and women's dresses listings in the connected Edge browser. Normalized outputs contain 425 explicitly exposed variants and 444 unique image URLs (825 product/variant image associations). See `data/normalized/zara/products.csv`, `product_variants.csv`, `product_images.csv` and `categories.csv`.
+
+**PUBLICLY OBSERVED:** Product detail JSON-LD uses `ProductGroup`, `productGroupID`, `name`, `description`, `material`, `additionalProperty`, `image` and `hasVariant`. Variant properties observed include `sku`, `mpn`, `color`, `size`, `image` and `offers` with `price`, `priceCurrency`, `url`, `availability` and `itemCondition`. These are public metadata fields, not evidence of internal database design.
+
+**PUBLICLY OBSERVED:** The first inspected [denim shirt](https://www.zara.com/us/en/regular-fit-denim-western-shirt-p06987370.html) exposes group ID `06987370`, the visible reference `6987/370/105`, four colors and S/M/L/XL options in structured variants. Its composition/care panel was inspected and saved. The record's JSON-LD gallery belongs to the selected color; alternate-color variant images are separately associated. Listing IDs, group IDs and SKU strings differ and must not be conflated.
+
+**PUBLICLY OBSERVED:** Listing cards contain `data-productid`, `data-productkey`, `data[data-currency]` and color accessibility labels. Some unloaded images use transparent placeholder URLs. Listing JSON-LD includes unnamed, zero-price editorial entries; these are not sellable products and are excluded. The listing and detail names can differ, so detail data takes precedence while raw evidence is retained.
+
+**INFERRED / computed:** Department comes from listing context; normalized base price is the minimum observed variant price in one currency. No source variant combinations are generated. Exact field acquisition and runnable commands are documented in `scripts/zara_research/README.md`.
+
+**NOT VERIFIED:** Entire-site completeness, all category branches, independent HTTP image validity, reusable hotlink reliability, exact stock quantities, store stock, and complete sale/care coverage. Care was inspected for only one product. Public availability metadata is a timestamped observation, not operational truth. No images were downloaded. No production commerce database was deployed.
+
+## Historical initial pass (superseded where contradicted above)
+
 Research date: 2026-09-06. Status: partial; product sampling stopped at the terms review gate.
 
 ## Scope and evidence

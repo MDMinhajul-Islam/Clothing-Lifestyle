@@ -1,0 +1,15 @@
+[
+  {
+    "scope": "BROWSER_INSPECTION",
+    "error": "Repeated CDP Runtime.evaluate / Page.createIsolatedWorld timeouts",
+    "recovery": "Fresh tab on same Edge browser; errors recurred",
+    "timestamp": "2026-09-06T04:42:50.522Z",
+    "site_access_restriction_proven": false
+  },
+  {
+    "scope": "GLOBAL_NAVIGATION",
+    "url": "https://www.zara.com/us/",
+    "error": "Category Menu navigation is empty; screenshot confirms blank panel",
+    "timestamp": "2026-09-06T04:34:28.754Z"
+  }
+]

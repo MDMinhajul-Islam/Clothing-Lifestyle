@@ -1,0 +1,31 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
+.venv/
+venv/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Browser authentication and profile state
+.browser-profile/
+browser-profile/
+playwright/.auth/
+session-storage/
+cookies.json
+cookies-*.json
+
+# Temporary output
+*.tmp
+*.log
+tmp/
+temp/

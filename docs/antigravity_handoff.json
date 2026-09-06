@@ -1,0 +1,79 @@
+{
+  "phase": "PHASE_1_CATALOGUE_RESEARCH",
+  "status": "INCOMPLETE",
+  "current_branch": "main",
+  "counts": {
+    "products": 51,
+    "variants": 425,
+    "image_urls": 444,
+    "image_associations": 825,
+    "category_nodes": 403,
+    "confirmed_product_bearing": 11,
+    "pending_classification": 387,
+    "product_detail_queue_total": 58,
+    "product_detail_partial": 51,
+    "product_detail_queued": 7
+  },
+  "departments": {
+    "WOMAN": {"nodes": 183, "confirmed_product_bearing": 1, "unresolved": 181, "landing_verified": true},
+    "MAN": {"nodes": 187, "confirmed_product_bearing": 2, "unresolved": 185, "landing_verified": true},
+    "KIDS": {"nodes": 13, "confirmed_product_bearing": 6, "unresolved": 6, "landing_verified": true},
+    "ZARA_HOME": {"nodes": 6, "confirmed_product_bearing": 1, "unresolved": 4, "landing_verified": true},
+    "BEAUTY": {"nodes": 7, "confirmed_product_bearing": 1, "unresolved": 5, "landing_verified": true},
+    "OTHER_UNCLASSIFIED": {"nodes": 7, "confirmed_product_bearing": 0, "unresolved": 4}
+  },
+  "queues": {
+    "category_discovery_queue": {"path": "data/zara/category_discovery_queue.json", "total": 403, "queued": 387, "complete": 16},
+    "category_enumeration_queue": {"path": "data/zara/category_enumeration_queue.json", "total": 11, "queued": 11},
+    "product_detail_queue": {"path": "data/zara/product_detail_queue.json", "total": 58, "partial": 51, "queued": 7}
+  },
+  "next_task": "PHASE 1A: resume and finish category graph classification in normal-browser batches of 5-10 routes using the existing graph, queues, and checkpoints.",
+  "important_files": [
+    "docs/ANTIGRAVITY_HANDOFF.md",
+    "reports/zara_department_coverage.md",
+    "reports/zara_department_coverage.json",
+    "data/zara/category_graph.json",
+    "data/zara/category_discovery_queue.json",
+    "data/zara/category_enumeration_queue.json",
+    "data/zara/product_detail_queue.json",
+    "data/zara/unique_products.json",
+    "data/zara/checkpoints/discovery.json",
+    "scripts/zara_research/README.md",
+    "scripts/zara_research/repair_graph.py",
+    "scripts/zara_research/category_end.py",
+    "scripts/zara_research/normalize.py",
+    "scripts/zara_research/build_import.py",
+    "reports/zara_research_validation.json"
+  ],
+  "test_command": "python -m unittest discover -s tests",
+  "test_result": {"passed": 13, "failed": 0, "skipped": 0, "python": "3.14.7"},
+  "resume_commands": [
+    "python -m unittest discover -s tests",
+    "python scripts/zara_research/repair_graph.py",
+    "python scripts/zara_research/normalize.py",
+    "python scripts/zara_research/build_import.py"
+  ],
+  "live_resume_command": null,
+  "live_resume_note": "No unattended browser resume CLI exists. Implement or operate a normal-browser small-batch worker around data/zara/category_discovery_queue.json without replacing existing state or using the blocked direct HTTP path.",
+  "known_issues": [
+    "Browser inspection timed out during the earlier long run.",
+    "The global menu rendered as a blank panel.",
+    "385 graph nodes remain UNKNOWN and 387 discovery/classification queue items remain pending.",
+    "Only 11 routes are currently confirmed product-bearing.",
+    "No category is certified fully enumerated.",
+    "Direct Python HTTP requests encountered an Akamai verification interstitial.",
+    "The 51 product records still need targeted supplemental coverage for care/composition and all-color galleries.",
+    "Public image URLs have not received network/hotlink validation."
+  ],
+  "do_not_do": [
+    "Do not restart the project or discard the existing graph, queues, registry, or checkpoints.",
+    "Do not continue to Phase 2 before Phase 1 catalogue completion.",
+    "Do not start website, Supabase, or AI-agent implementation yet.",
+    "Do not bypass CAPTCHA, authentication, verification challenges, or access controls.",
+    "Do not use private APIs, customer data, browser cookies, session storage, or profiles.",
+    "Do not use the blocked direct HTTP method as a browser-restriction bypass.",
+    "Do not mark a category complete from its initial viewport.",
+    "Do not treat duplicate category appearances as distinct products.",
+    "Do not run scripts/zara_research/catalogue_progress.py over the repaired graph."
+  ]
+}

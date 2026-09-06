@@ -1,0 +1,60 @@
+{
+  "updated_at": "2026-09-06T04:43:04.545622+00:00",
+  "status": "INCOMPLETE",
+  "tree_complete": false,
+  "departments": {
+    "MAN": {
+      "categories_discovered": 185,
+      "categories_completed": 0,
+      "unique_products_discovered": 26,
+      "products_core_extracted": 26,
+      "variants": 267,
+      "unique_image_urls": 247
+    },
+    "UNCLASSIFIED": {
+      "categories_discovered": 2,
+      "categories_completed": 0,
+      "unique_products_discovered": 0,
+      "products_core_extracted": 0,
+      "variants": 0,
+      "unique_image_urls": 0
+    },
+    "WOMAN": {
+      "categories_discovered": 182,
+      "categories_completed": 0,
+      "unique_products_discovered": 32,
+      "products_core_extracted": 25,
+      "variants": 158,
+      "unique_image_urls": 197
+    }
+  },
+  "unverified_departments": [
+    "KIDS and its branches",
+    "ZARA HOME",
+    "BEAUTY",
+    "other global navigation branches"
+  ],
+  "total_unique_products_discovered": 58,
+  "total_products_core_extracted": 51,
+  "total_variants": 425,
+  "total_product_category_relationships": 51,
+  "total_unique_image_urls": 444,
+  "products_without_full_detail_extraction": 58,
+  "products_pending_core_extraction": 7,
+  "products_blocked_by_technical_restriction": 0,
+  "discovery_errors": [
+    {
+      "scope": "BROWSER_INSPECTION",
+      "error": "Repeated CDP Runtime.evaluate / Page.createIsolatedWorld timeouts",
+      "recovery": "Fresh tab on same Edge browser; errors recurred",
+      "timestamp": "2026-09-06T04:42:50.522Z",
+      "site_access_restriction_proven": false
+    },
+    {
+      "scope": "GLOBAL_NAVIGATION",
+      "url": "https://www.zara.com/us/",
+      "error": "Category Menu navigation is empty; screenshot confirms blank panel",
+      "timestamp": "2026-09-06T04:34:28.754Z"
+    }
+  ]
+}

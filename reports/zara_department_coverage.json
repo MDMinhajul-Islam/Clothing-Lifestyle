@@ -1,0 +1,97 @@
+{
+  "phase": "GRAPH_REPAIR_REVIEW",
+  "legacy_nodes": 369,
+  "revised_nodes": 403,
+  "route_types": {
+    "PRODUCT_LISTING_CATEGORY": 11,
+    "UNKNOWN": 385,
+    "NAVIGATION_PAGE": 7
+  },
+  "department_coverage": {
+    "WOMAN": {
+      "landing_verified": true,
+      "landing_url": "https://www.zara.com/us/en/woman-mkt1000.html",
+      "category_nodes": 183,
+      "product_bearing_nodes": 1,
+      "unresolved_nodes": 181
+    },
+    "MAN": {
+      "landing_verified": true,
+      "landing_url": "https://www.zara.com/us/en/man-l534.html",
+      "category_nodes": 187,
+      "product_bearing_nodes": 2,
+      "unresolved_nodes": 185
+    },
+    "KIDS": {
+      "landing_verified": true,
+      "landing_url": "https://www.zara.com/us/en/kids-mkt1.html",
+      "category_nodes": 13,
+      "product_bearing_nodes": 6,
+      "unresolved_nodes": 6
+    },
+    "ZARA HOME": {
+      "landing_verified": true,
+      "landing_url": "https://www.zara.com/us/en/home-mkt2085.html",
+      "category_nodes": 6,
+      "product_bearing_nodes": 1,
+      "unresolved_nodes": 4
+    },
+    "BEAUTY": {
+      "landing_verified": true,
+      "landing_url": "https://www.zara.com/us/en/woman-beauty-mkt1414.html",
+      "category_nodes": 7,
+      "product_bearing_nodes": 1,
+      "unresolved_nodes": 5
+    },
+    "MASSIMO DUTTI": {
+      "landing_verified": true,
+      "landing_url": "https://www.zara.com/us/en/massimo-dutti-mkt5753.html",
+      "category_nodes": 1,
+      "product_bearing_nodes": 0,
+      "unresolved_nodes": 0
+    },
+    "PRE-OWNED": {
+      "landing_verified": true,
+      "landing_url": "https://www.zara.com/us/en/preowned-mkt5794.html",
+      "category_nodes": 1,
+      "product_bearing_nodes": 0,
+      "unresolved_nodes": 0
+    },
+    "TRAVEL MODE": {
+      "landing_verified": true,
+      "landing_url": "https://www.zara.com/us/en/zara-travel-mkt15659.html",
+      "category_nodes": 1,
+      "product_bearing_nodes": 0,
+      "unresolved_nodes": 0
+    },
+    "UNCLASSIFIED": {
+      "landing_verified": false,
+      "landing_url": null,
+      "category_nodes": 4,
+      "product_bearing_nodes": 0,
+      "unresolved_nodes": 4
+    }
+  },
+  "observed_alias_merges": 1,
+  "enumeration_queue_size": 11,
+  "discovery_queue_pending": 387,
+  "product_queue_pending": 7,
+  "product_queue_supplemental_review": 51,
+  "protected_files_unchanged": {
+    "data\\zara\\unique_products.json": true,
+    "data\\zara\\checkpoints\\discovery.json": true,
+    "data\\normalized\\zara\\products.json": true,
+    "data\\normalized\\zara\\product_categories.json": true,
+    "data\\normalized\\zara\\product_images.json": true,
+    "data\\normalized\\zara\\product_materials.json": true,
+    "data\\normalized\\zara\\product_variants.json": true,
+    "data\\normalized\\zara\\products.csv": true,
+    "data\\normalized\\zara\\product_categories.csv": true,
+    "data\\normalized\\zara\\product_images.csv": true,
+    "data\\normalized\\zara\\product_materials.csv": true,
+    "data\\normalized\\zara\\product_variants.csv": true
+  },
+  "all_major_landings_verified": true,
+  "full_category_graph_complete": false,
+  "stopped_before_product_crawl": true
+}

@@ -1,5 +1,21 @@
 # Zara data-access research
 
+## Current access findings — supersedes initial limitations below
+
+2026-09-06: The user confirmed authorization for the product/image prototype. The terms-related collection pause is resolved for the stated scope; technical access controls remain respected.
+
+**PUBLICLY OBSERVED:** Connected Edge browser navigation succeeds on the sampled public listings and 51 detail pages without login. A normal direct HTTP probe returned a verification interstitial instead of product HTML. The challenge was not followed or solved. No unattended HTTP collector is implemented.
+
+**PUBLICLY OBSERVED:** Read-only DOM inspection found `script[type="application/ld+json"]`. Detail metadata exposes `ProductGroup.hasVariant`, including explicit color-size SKU records, material, price/currency, offer availability and original image URLs. This is the safest verified extraction surface in the currently working browser. No private API, GraphQL or REST contract was discovered or replayed. Browser network traffic was not captured.
+
+**PUBLICLY OBSERVED:** Category metadata is an `ItemList`; the shirts instance had only ten entries including editorial placeholders, while the DOM had 77 repeated cards. Therefore category JSON-LD is not an exhaustive discovery source. Product discovery used actual card links, deduplicated by URL, and product normalization used detail JSON-LD. No pagination endpoint or guaranteed whole-category count is established.
+
+**NOT VERIFIED:** Origin request headers/statuses for browser navigation, API rate limits, image HEAD status, reusable hotlink behavior and whole-site completeness. Captured image URL `ts` and `w` parameters are preserved without inferring expiry or rewriting resolution. Normalized images come from product-specific metadata; recommendation images from the broader DOM are excluded.
+
+Raw evidence: `data/raw/zara`. Reproducible offline normalizer: `scripts/zara_research/normalize.py`. Validation: `reports/zara_research_validation.json`. PostgreSQL staging SQL generator: `scripts/zara_research/build_import.py`; it generates a file without connecting to a database. Future scheduled whole-catalogue ingestion needs an approved working transport/feed rather than circumventing the direct-client verification.
+
+## Historical initial pass (superseded where contradicted above)
+
 Research date: 2026-09-06. Phase 2 is partial: public text access verified; browser network architecture NOT VERIFIED.
 
 ## Observed sources and decisions

@@ -1,0 +1,409 @@
+# Repaired category graph
+
+See zara_department_coverage.md for verification and limitations. Parent is supplied only when supported by breadcrumbs.
+
+| Department | Name | Parent category ID | Route type | URL |
+|---|---|---|---|---|
+| WOMAN | Dresses for Women / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-l1066.html |
+| WOMAN | going out | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-party-l1581.html |
+| WOMAN | midi / maxi | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-midi-l1081.html |
+| WOMAN | mini | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-mini-l1083.html |
+| WOMAN | jumpsuits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jumpsuits-l1150.html |
+| WOMAN | satin effect | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-camisole-l2184.html |
+| WOMAN | VIEW ALL | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-view-all-newsletter-l19359.html |
+| WOMAN | Women's Wedding Guest Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-wedding-guest-l2178.html |
+| WOMAN | Women's White Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-white-l1676.html |
+| WOMAN | Women´s Dress Beach | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-beach-l5337.html |
+| WOMAN | Women's Sweater Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-knitwear-dresses-l1160.html |
+| WOMAN | Women's Black Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-black-l1595.html |
+| WOMAN | LINGERIE STYLE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-lace-l1774.html |
+| WOMAN | Women's Linen Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-linen-l1686.html |
+| WOMAN | BELTED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-belted-l17324.html |
+| WOMAN | Women´s Printed Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-printed-l1089.html |
+| WOMAN | Women's Maxi Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-maxi-l1079.html |
+| WOMAN | Women's Long Sleeve Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-long-sleeve-l1776.html |
+| WOMAN | Women´s Satin Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-satin-l3082.html |
+| WOMAN | Women's Denim Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-denim-l1704.html |
+| WOMAN | Tulle Dresses for Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-tulle-l5472.html |
+| UNCLASSIFIED | Dresses for Women | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/s-woman-dresses-l8887.html |
+| WOMAN | Women’s Elegant Evening Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-elegant-l5736.html |
+| WOMAN | Women's Cut Out Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-cut-out-l4746.html |
+| WOMAN | Women's Winter Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-winter-l2348.html |
+| WOMAN | Women's Bodycon Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-bodycon-l2179.html |
+| WOMAN | Prom and Formal Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-prom-l7713.html |
+| WOMAN | Women's Rhinestone Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-rhinestone-l7702.html |
+| WOMAN | Women's Backless Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-backless-l4889.html |
+| WOMAN | Sleeveless Dress for Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-sleeveless-l4203.html |
+| WOMAN | Women's Off The Shoulder Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-off-the-shoulder-l1084.html |
+| WOMAN | Work Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-work-l4481.html |
+| WOMAN | Casual Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-casual-l4480.html |
+| WOMAN | Women's Green Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-green-l1741.html |
+| WOMAN | Women's Shift Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-baby-doll-l1067.html |
+| WOMAN | Tunic Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-tunic-l1096.html |
+| WOMAN | Women's Asymmetric Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-asymmetric-l4888.html |
+| WOMAN | Women's Blue Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-blue-l1677.html |
+| WOMAN | Women's Pink Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-pink-l1843.html |
+| WOMAN | Women's Polka Dot Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-polka-dot-l1775.html |
+| WOMAN | Women's Cotton Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-poplin-l2350.html |
+| WOMAN | Women's Ruffle Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-ruffles-l2349.html |
+| WOMAN | Women's Grey Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-grey-l2189.html |
+| WOMAN | Women's Red Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-red-l1687.html |
+| WOMAN | Women's Crochet Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-crochet-l1071.html |
+| WOMAN | FRINGED DRESSES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-fringe-l6302.html |
+| WOMAN | MESH DRESSES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-mesh-l6301.html |
+| WOMAN | Women's Sequin Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-sequin-l2340.html |
+| WOMAN | Women's Pleated Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-pleated-l4060.html |
+| WOMAN | Animal Print Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-animal-print-l4059.html |
+| WOMAN | Women's Wrap Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-wrap-l2180.html |
+| WOMAN | Women's Embroidered Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-embroidered-l2185.html |
+| WOMAN | Women's Purple Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-purple-l2188.html |
+| WOMAN | Women's Christmas Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-christmas-l7116.html |
+| WOMAN | Women's Leather Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-leather-l4061.html |
+| WOMAN | Smock Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-smock-l4483.html |
+| WOMAN | Women's Striped Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-striped-l4748.html |
+| WOMAN | Puff Sleeve Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-puff-sleeve-l4747.html |
+| WOMAN | Women's Halter Neck Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-halter-neck-l4884.html |
+| WOMAN | Women's V-Neck Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-vneck-l4887.html |
+| WOMAN | Women's Yellow Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-yellow-l2186.html |
+| WOMAN | Women's Beige Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-beige-l4885.html |
+| WOMAN | Women's Brown Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-brown-l4886.html |
+| WOMAN | Women's Tie-Dye Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-tie-dye-l4976.html |
+| WOMAN | Women's Orange Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-orange-l4977.html |
+| WOMAN | Cotton Dresses for Women | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-cotton-l4625.html |
+| WOMAN | Women Corset Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-corset-l5299.html |
+| WOMAN | Little Black Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-mini-black-l5300.html |
+| WOMAN | Woman´s Silk Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-silk-l5288.html |
+| WOMAN | Formal Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-formal-l1582.html |
+| WOMAN | A-Line Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-a-line-l5473.html |
+| WOMAN | Women’s Draped Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-draped-l5471.html |
+| WOMAN | Women's Blazer Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-blazer-l2181.html |
+| WOMAN | LONG BLACK DRESSES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-black-long-l5734.html |
+| WOMAN | Women's Velvet Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-velvet-l2183.html |
+| WOMAN | Women's Summer Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-summer-l1662.html |
+| WOMAN | Women’s Flowy Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-flowy-l6561.html |
+| WOMAN | Women's Gold Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-gold-l7016.html |
+| WOMAN | Women's Silver Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-silver-l7017.html |
+| WOMAN | Women's Metallic Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-metallic-l7018.html |
+| WOMAN | Women's Autumn Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-fall-l6563.html |
+| WOMAN | Women's Pinafore & Overall Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-pinafore-l2182.html |
+| WOMAN | Women´s Plus Size Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-plus-l7799.html |
+| WOMAN | Women's Shirt Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-shirt-l1091.html |
+| WOMAN | Women's Floral Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-floral-l1077.html |
+| WOMAN | Women's Kaftan Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-kaftan-l5733.html |
+| WOMAN | Women's Spring Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-spring-l6562.html |
+| WOMAN | Women's Trench Coats | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-outerwear-trench-l1202.html |
+| WOMAN | Women's Gilets & Vests | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-outerwear-vests-l1204.html |
+| WOMAN | Women's High Waisted Pants | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-trousers-high-waist-l1779.html |
+| WOMAN | Wide Leg Pants | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-trousers-wide-l1360.html |
+| WOMAN | Women's Pleated Pants | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-trousers-tailored-l15853.html |
+| WOMAN | Women's Joggers | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-trousers-joggers-l1346.html |
+| WOMAN | Women's High Waisted Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jeans-high-waist-l1134.html |
+| WOMAN | Women's Wide Leg Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jeans-wide-leg-l2241.html |
+| WOMAN | Women's Straight Leg Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jeans-regular-l1140.html |
+| WOMAN | Women's Flared Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jeans-flare-l1132.html |
+| WOMAN | Women's Blouses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shirts-blouses-l1221.html |
+| WOMAN | Women´s Satin Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shirts-satin-l4089.html |
+| WOMAN | Women's Long Sleeve T-shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-tshirts-long-sleeved-l1373.html |
+| WOMAN | Women´s Short Sleeve T-Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-tshirts-short-sleeved-l1380.html |
+| WOMAN | Women's Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-knitwear-sweaters-l1165.html |
+| WOMAN | BEACHWEAR | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-total-look-beachwear-l18125.html |
+| WOMAN | Women's Knitwear | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-co-ords-knit-l6875.html |
+| WOMAN | Women's Skirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-skirts-l1299.html |
+| WOMAN | Women's Midi Skirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-skirts-midi-l1305.html |
+| WOMAN | Women's Mini Skirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-skirts-mini-l1307.html |
+| WOMAN | Women's Denim Skirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-skirts-denim-l1703.html |
+| WOMAN | Women's Shorts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-trousers-shorts-l1355.html |
+| WOMAN | Women's Skorts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shorts-skorts-l1297.html |
+| WOMAN | Women's Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-suits-l1437.html |
+| WOMAN | Women's Heeled Shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-heeled-l1271.html |
+| WOMAN | Women's Evening Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-evening-l1073.html |
+| WOMAN | Fitted Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-fitted-dresses-l19135.html |
+| WOMAN | New Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-new-dresses-l19139.html |
+| WOMAN | Strappy Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-strappy-dresses-l19134.html |
+| WOMAN | Black Formal Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-formal-dresses-l18464.html |
+| WOMAN | Black Dresses For Wedding Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-dresses-for-wedding-l18171.html |
+| WOMAN | Holiday Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-holiday-dresses-l18899.html |
+| WOMAN | White Formal Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-formal-dresses-l18481.html |
+| WOMAN | Long Formal Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-formal-dresses-l18913.html |
+| WOMAN | Casual Summer Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-casual-summer-dresses-l18902.html |
+| WOMAN | Khaki Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-khaki-dresses-l18774.html |
+| WOMAN | Linen Shirt Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-linen-shirt-dresses-l18630.html |
+| WOMAN | Black Dress With Sleeves Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-dress-with-sleeves-l18486.html |
+| WOMAN | Cocktail Dresses For Wedding Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cocktail-dresses-for-wedding-l18777.html |
+| WOMAN | White Dress With Sleeves Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-dress-with-sleeves-l18484.html |
+| WOMAN | Cocktail Formal Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cocktail-formal-dresses-l18889.html |
+| WOMAN | Black And White Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-and-white-dress-l18415.html |
+| WOMAN | Formal Wedding Guest Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-formal-wedding-guest-dresses-l18182.html |
+| WOMAN | Winter Wedding Guest Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-winter-wedding-guest-dresses-l18168.html |
+| WOMAN | Black And White Polka Dot Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-and-white-polka-dot-dress-l18437.html |
+| WOMAN | Midi Dress With Sleeves Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-dress-with-sleeves-l18919.html |
+| WOMAN | Long Sleeve Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-sleeve-mini-dress-l17962.html |
+| WOMAN | Elegant White Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-elegant-white-dresses-l18782.html |
+| WOMAN | Floral Embroidered Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-floral-embroidered-dress-l18398.html |
+| WOMAN | Black Formal Dresses Long Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-formal-dresses-long-l18948.html |
+| WOMAN | Summer Office Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-summer-office-dresses-l18903.html |
+| WOMAN | A-line Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-a-line-mini-dress-l18079.html |
+| WOMAN | Pink Formal Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pink-formal-dress-l18468.html |
+| WOMAN | Wrap Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-wrap-mini-dress-l18112.html |
+| WOMAN | Leopard Print Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-leopard-print-dress-l18880.html |
+| WOMAN | Magenta Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-magenta-dress-l18907.html |
+| WOMAN | Midi Evening Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-evening-dresses-l18920.html |
+| WOMAN | Work Skirts Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-work-skirts-l18500.html |
+| WOMAN | Fall Wedding Guest Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-fall-wedding-guest-dresses-l18166.html |
+| WOMAN | Puff Sleeve Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-puff-sleeve-mini-dress-l18130.html |
+| WOMAN | Long Sleeve Floral Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-sleeve-floral-dress-l18392.html |
+| WOMAN | Sparkly Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-sparkly-mini-dress-l18875.html |
+| WOMAN | Satin Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-satin-mini-dress-l18113.html |
+| WOMAN | Pink Satin Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pink-satin-dress-l18411.html |
+| WOMAN | Floral Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-floral-mini-dress-l17960.html |
+| WOMAN | Strapless Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-strapless-mini-dress-l18121.html |
+| WOMAN | Cotton Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cotton-mini-dress-l18122.html |
+| WOMAN | Pink Floral Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pink-floral-dress-l18395.html |
+| WOMAN | Knit Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-knit-mini-dress-l18118.html |
+| WOMAN | Wool Skirt Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-wool-skirt-l18220.html |
+| WOMAN | Halter Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-halter-mini-dress-l18109.html |
+| WOMAN | White A-line Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-a-line-dress-l18491.html |
+| WOMAN | Dresses Long Black Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-long-black-l16975.html |
+| WOMAN | Womens Tailored Blazer Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-womens-tailored-blazer-l18190.html |
+| WOMAN | Off The Shoulder Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-off-the-shoulder-mini-dress-l18114.html |
+| WOMAN | Long Sleeve Wedding Guest Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-sleeve-wedding-guest-dresses-l18170.html |
+| WOMAN | Polka Dot Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-polka-dot-mini-dress-l18439.html |
+| WOMAN | Dark Blue Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dark-blue-dress-l18900.html |
+| WOMAN | Floral Wedding Guest Dresses Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-floral-wedding-guest-dresses-l18183.html |
+| WOMAN | Long Sleeve Knit Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-sleeve-knit-dress-l18906.html |
+| WOMAN | Fall Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-fall-mini-dress-l18134.html |
+| WOMAN | Black Satin Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-satin-dress-l18410.html |
+| WOMAN | Brown Polka Dot Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-polka-dot-dress-l18438.html |
+| WOMAN | Pink Lace Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pink-lace-dress-l18407.html |
+| WOMAN | Party Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-party-mini-dress-l18115.html |
+| WOMAN | Beige Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beige-mini-dress-l18133.html |
+| WOMAN | Pink Ruffle Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pink-ruffle-dress-l18434.html |
+| WOMAN | Denim Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-denim-mini-dress-l17961.html |
+| WOMAN | Puff Sleeve Midi Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-puff-sleeve-midi-dress-l18922.html |
+| WOMAN | Lace Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-lace-mini-dress-l18116.html |
+| WOMAN | Knee Length Skirts Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-knee-length-skirts-l18230.html |
+| WOMAN | Cheetah Print Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cheetah-print-dress-l18881.html |
+| WOMAN | Striped Mini Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-striped-mini-dress-l18127.html |
+| WOMAN | Blue And White Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-blue-and-white-dress-l18485.html |
+| WOMAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-l1066.html?page=2 |
+| MAN | Men's Rain Jackets / ZARA United States | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-wind-breaker-l1651.html |
+| MAN | view all | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-l640.html |
+| MAN | puffers | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-padded-l722.html |
+| MAN | real leather | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-leather-l4550.html |
+| MAN | leather effect | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-faux-leather-l650.html |
+| MAN | vests | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-vests-l730.html |
+| MAN | denim | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-denim-l648.html |
+| MAN | water resistant | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-rain-l4547.html |
+| MAN | bomber | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-bombers-l645.html |
+| MAN | overshirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-overshirts-l3174.html |
+| MAN | hooded jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-with-hood-l1652.html |
+| MAN | Men's Must Haves | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-must-have-l5015.html |
+| MAN | BLAZERS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outgarments-blazers-l17415.html |
+| MAN | TRENCH COATS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-trench-l728.html |
+| MAN | BENITO ANTONIO | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-event-5-l6055.html |
+| MAN | Men's Shearling Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-shearling-l4543.html |
+| MAN | ACTIVEWEAR | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-event-9-l6657.html |
+| MAN | Men´s Red Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-red-l2499.html |
+| MAN | Men's Winter Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-winter-l4541.html |
+| MAN | Men´s Navy and Blue Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-navy-l2494.html |
+| MAN | Men´s White Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-white-l2495.html |
+| MAN | Men´s Beige Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-beige-l2497.html |
+| WOMAN | Men´s Brown Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jackets-brown-l16768.html |
+| MAN | Men´s Grey Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-grey-l2498.html |
+| MAN | Men's Biker Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-biker-l1653.html |
+| MAN | Men´s Quilted Jackets and Coats | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-quilted-l2491.html |
+| MAN | Men's Suede Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-faux-suede-l1447.html |
+| MAN | Men's Green Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-green-l4542.html |
+| MAN | Men's Casual Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-casual-l646.html |
+| MAN | Men's Leather Jackets and Coats | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-leather-l652.html |
+| MAN | SPECIAL PRICES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-special-prices-l658.html |
+| MAN | Men's Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jeans-l659.html |
+| MAN | Men's Coats | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-l715.html |
+| MAN | Men's Knitwear | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-l681.html |
+| MAN | Men´s Sweatshirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-sweatshirts-l821.html |
+| MAN | Men's Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-l808.html |
+| MAN | Men´s Shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-l769.html |
+| MAN | Men´s Loafers | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-moccasins-l789.html |
+| MAN | Men´s Sneakers | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-sneakers-l797.html |
+| MAN | Men´s Boots | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-boots-l781.html |
+| MAN | Men´s Bags | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-l563.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-wind-breaker-l1651.html?page=2 |
+| MAN | Men's Floral Shirts / ZARA United States | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-floral-l1657.html |
+| MAN | view all | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/man-shirts-l737.html |
+| MAN | dress shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-formal-l751.html |
+| MAN | linen | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-linen-l754.html |
+| MAN | denim | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-denim-l748.html |
+| MAN | graphic / printed | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-printed-l759.html |
+| MAN | short sleeve | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-short-sleeved-l762.html |
+| MAN | casual | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-casual-l743.html |
+| MAN | long-sleeved | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-long-sleeved-l1784.html |
+| MAN | SOLID | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-plain-l757.html |
+| MAN | Men's Checked Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-check-l745.html |
+| MAN | White Shirts Men | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-white-l1753.html |
+| MAN | BASICS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-basics-l741.html |
+| MAN | Men's Striped Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-striped-l766.html |
+| MAN | Men's Corduroy Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-corduroy-l2517.html |
+| MAN | Men's Mandarin Collar Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-mao-l755.html |
+| MAN | Men's Black Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-black-l2515.html |
+| MAN | Men's Blue Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-blue-l2516.html |
+| MAN | Men's Slim Fit Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-slim-l763.html |
+| MAN | Men's Flannel Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-flannel-l4055.html |
+| MAN | Men´s Summer Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-summer-l4172.html |
+| MAN | Men's Dress Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-dress-l4571.html |
+| MAN | Men's Oversized Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-oversize-l5523.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-white-l1753.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-long-sleeved-l1784.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-black-l2515.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-blue-l2516.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-overshirts-l3174.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-summer-l4172.html?page=2 |
+| MAN | leather | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-leather-l579.html |
+| MAN | travel | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-travel-l584.html |
+| MAN | wallets / accesories | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-wallets-l586.html |
+| MAN | backpacks | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-backpacks-l565.html |
+| MAN | bags | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-garment-bag-l5060.html |
+| MAN | crossbody bags | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-crossbody-l573.html |
+| MAN | large bags | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-large-l578.html |
+| MAN | business bags | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-business-l571.html |
+| MAN | Men's Bags | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-handbags-l5378.html |
+| MAN | SUITCASES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-suitcases-l5061.html |
+| MAN | GYM BAGS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-training-bags-l19349.html |
+| MAN | BRIEFCASES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-portfolio-l5056.html |
+| MAN | LEATHER WALLETS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-leather-wallet-l5059.html |
+| MAN | TOILETRY BAGS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-toiletry-bag-l5036.html |
+| MAN | CLUTCHES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-clutch-bag-l19319.html |
+| MAN | BAG | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-handbag-l5033.html |
+| MAN | CARD HOLDERS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-cardholder-l5058.html |
+| MAN | TOTE BAGS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-tote-l5032.html |
+| MAN | Men's Summer Bags | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-summer-l4497.html |
+| MAN | BELT BAGS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-fanny-pack-l5035.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-bags-l563.html?page=2 |
+| MAN | black jacket | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-black-l2570.html |
+| MAN | casual wear | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-sport-l4078.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-denim-l648.html?page=2 |
+| MAN | brown | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-brown-l2496.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-faux-leather-l650.html?page=2 |
+| MAN | Men's Knitwear / ZARA United States | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-l681.html?v1=2432265 |
+| MAN | basics | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-basics-l683.html |
+| MAN | long sleeve | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-long-sleeve-l15978.html |
+| MAN | short sleeve | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-short-sleeved-l698.html |
+| MAN | linen / hemp | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-linen-sweaters-l17547.html |
+| MAN | polos | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-polos-knitwear-l1701.html |
+| MAN | cardigans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-cardigans-l685.html |
+| MAN | plain | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-plain-l694.html |
+| MAN | stripes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-sweaters-stripes-l18764.html |
+| MAN | henley | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-sweaters-henley-l17765.html |
+| MAN | quarter zip | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-quarter-zip-l7129.html |
+| MAN | casual | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-casual-l689.html |
+| MAN | v-neck | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-vneck-l2523.html |
+| MAN | crew-neck | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-crewneck-l2522.html |
+| MAN | sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-sweaters-l701.html |
+| MAN | Men´s Vest | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-vest-l4384.html |
+| MAN | Men's Turtlenecks Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-turtleneck-l2518.html |
+| MAN | Men's Cashmere Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-cashmere-l687.html |
+| MAN | Men's Blue Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-blue-l4570.html |
+| MAN | Men's Beige Sweater | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-beige-l4552.html |
+| MAN | Men's Gray Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-grey-l4554.html |
+| MAN | Men's Chunky Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-chunky-l4555.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-l681.html?page=2 |
+| MAN | lightweight | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-lightweight-l2492.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-casual-l743.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-check-l745.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-denim-l748.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-linen-l754.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-plain-l757.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-printed-l759.html?page=2 |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-short-sleeved-l762.html?page=2 |
+| MAN | shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-laceup-l4378.html |
+| MAN | barefoot | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-barefoot-l17530.html |
+| MAN | clogs / sandals | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-sandals-l794.html |
+| MAN | leather | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-leather-l788.html |
+| MAN | DRESS SHOES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-formal-l17531.html |
+| MAN | RUCHED LOAFERS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-penny-loafers-l19172.html |
+| MAN | LEATHER LOAFERS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-leather-loafers-l5018.html |
+| MAN | Men´s Black Shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-black-l2566.html |
+| MAN | CLOGS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-clogs-l4674.html |
+| MAN | BASIC SNEAKERS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-basic-sneakers-l19332.html |
+| MAN | RUNNING SHOES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-running-sneakers-l19311.html |
+| MAN | WHITE SNEAKERS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-white-sneakers-l19333.html |
+| MAN | Men´s Black Sneakers | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-sneakers-black-l2560.html |
+| MAN | Men´s Dress Shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-evening-l2569.html |
+| MAN | CHELSEA BOOTS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-chelsea-boots-l4639.html |
+| UNCLASSIFIED | ATHLETICZ | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/zara-athleticz-shoes-l4658.html |
+| MAN | CHUNKY SNEAKERS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-chunky-trainers-l4492.html |
+| MAN | CHUNKY SHOES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-chunky-shoes-l19342.html |
+| MAN | Men´s Black Boots | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-boots-black-l2555.html |
+| MAN | LEATHER BOOTS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-leather-boots-l5019.html |
+| MAN | TRAINING SHOES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-sneakers-training-l19306.html |
+| MAN | COWBOY BOOTS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-boots-cowboy-l19309.html |
+| MAN | Men's Oxford Shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-oxfords-l4496.html |
+| MAN | Men´s Boat Shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-boat-l2562.html |
+| MAN | Men´s Summer Shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-summer-l4377.html |
+| MAN | LEATHER SANDALS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-leather-sandals-l5029.html |
+| MAN | Men´s Brown Shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-brown-l2565.html |
+| MAN | casual shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-casual-l2567.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-moccasins-l789.html?page=2 |
+| MAN | Ruched LoafersDiscover our collection of ruched loafers | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-penny-loafers-l19172.html?v1=2727949 |
+| MAN | white | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-sneakers-white-l2559.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-sneakers-l797.html?page=2 |
+| MAN | BAREFOOTDiscover our new Barefoot collection | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shoes-barefoot-l17530.html?v1=2436343 |
+| MAN | formal suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-formal-l813.html |
+| MAN | sartorial suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-sartorial-l19091.html |
+| MAN | basic suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-basics-l811.html |
+| MAN | shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-shirts-l814.html |
+| MAN | shoes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-accessories-l810.html |
+| MAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-trend-l5265.html |
+| MAN | LINEN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-linen-l7285.html |
+| MAN | Men's Blazers | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-blazers-l608.html |
+| MAN | Men´s Ties & Bow Ties | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-accessories-ties-bows-l560.html |
+| MAN | Men's Pants | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-trousers-l18095.html |
+| MAN | EDITORIAL | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-editorial-l17390.html |
+| MAN | Men's Black Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-black-l2509.html |
+| MAN | Men's Blue and Navy Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-blue-l2508.html |
+| MAN | Men's Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-double-breasted-l15721.html |
+| MAN | ACCESSORIES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-accessories-mkt-l6029.html |
+| MAN | VIEW ALL | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-trend-89-l6153.html |
+| MAN | EVENTS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-events-l6275.html |
+| MAN | Men's Slim Fit Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-slim-l816.html |
+| MAN | REGULAR FIT | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-relaxed-l5570.html |
+| MAN | Men's Casual Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-casual-l812.html |
+| MAN | Men's Wedding & Special Occasions Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-tailored-l819.html |
+| MAN | Men's Summer and Linen Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-summer-l2513.html |
+| MAN | Men's Grey Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-grey-l2510.html |
+| MAN | Men's Checked Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-checked-l2512.html |
+| MAN | Men's Wool Suits | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-suits-wool-l2514.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-l737.html?page=2 |
+| BEAUTY | Women's Beauty / ZARA United States | NOT VERIFIED | NAVIGATION_PAGE | https://www.zara.com/us/en/woman-beauty-mkt1414.html |
+| BEAUTY | Women's Makeup / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-beauty-makeup-l4414.html |
+| BEAUTY | 02the new | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-new-l7931.html |
+| BEAUTY | 03lips | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-lips-l4238.html |
+| BEAUTY | 04eyes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-eyes-l4239.html |
+| BEAUTY | 05face | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-face-l4240.html |
+| BEAUTY | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-makeup-l4414.html?page=2 |
+| ZARA HOME | Children’s Home Collection / ZARA United States | category:e8c57bd685bf505a | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/home-kids-new-in-l3974.html |
+| UNCLASSIFIED | 04back to school | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/back-to-school-l7763.html |
+| ZARA HOME | 05view all | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-kids-view-all-l3049.html |
+| ZARA HOME | 06newborn | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-kids-baby-l15846.html |
+| ZARA HOME | home-back-to-school | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-back-to-school-c2577246.html |
+| ZARA HOME | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-kids-new-in-l3974.html?page=2 |
+| KIDS | KIDS | NOT VERIFIED | NAVIGATION_PAGE | https://www.zara.com/us/en/kids-mkt1.html |
+| UNCLASSIFIED | ZARA HOME KIDS | category:04bd82dffbe7dad2 | UNKNOWN | https://www.zara.com/us/en/-c2605625.html |
+| KIDS | Accessories / Shoes Kid´s Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-accessories-l3.html |
+| KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-accessories-l3.html?page=2 |
+| KIDS | Baby Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-baby-l7244.html |
+| KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-baby-l7244.html?page=2 |
+| KIDS | Boy Kid´s Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-boy-l173.html |
+| KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-boy-l173.html?page=2 |
+| KIDS | Girl Kid´s Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-girl-l323.html |
+| KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-girl-l323.html?page=2 |
+| KIDS | Toddler Boy Kid´s Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-babyboy-l5.html |
+| KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-babyboy-l5.html?page=2 |
+| KIDS | Toddler Girl Kid´s Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-babygirl-l87.html |
+| KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-babygirl-l87.html?page=2 |
+| MAN | Men's Fashion / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/man-l534.html |
+| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-l534.html?page=2 |
+| MASSIMO DUTTI | Massimo Dutti in Zara / ZARA United States | NOT VERIFIED | NAVIGATION_PAGE | https://www.zara.com/us/en/massimo-dutti-mkt5753.html |
+| PRE-OWNED | Pre-owned / ZARA United States | NOT VERIFIED | NAVIGATION_PAGE | https://www.zara.com/us/en/preowned-mkt5794.html |
+| TRAVEL MODE | ZARA TRAVEL / ZARA United States | NOT VERIFIED | NAVIGATION_PAGE | https://www.zara.com/us/en/zara-travel-mkt15659.html |
+| WOMAN | Women's Clothes / ZARA United States | NOT VERIFIED | NAVIGATION_PAGE | https://www.zara.com/us/en/woman-mkt1000.html |
+| ZARA HOME | Zara Home / ZARA United States | NOT VERIFIED | NAVIGATION_PAGE | https://www.zara.com/us/en/home-mkt2085.html |
