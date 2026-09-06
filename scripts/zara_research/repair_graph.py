@@ -210,12 +210,15 @@ def build():
     # Persist new queues without modifying the legacy checkpoint or product registry.
     def queue_item(n, status='QUEUED', prior=None):
         old = prior or {}
-        return dict(id=n['category_id'], url=n['url'], status=old.get('status', status),
+        item = dict(old)
+        item.update(id=n['category_id'], category_id=n['category_id'], url=n['url'], category_url=n['url'],
+                    status=old.get('status', status),
                     attempt_count=old.get('attempt_count', 1 if n['last_verified_at'] else 0),
                     last_attempt_at=old.get('last_attempt_at', n['last_verified_at']), error=old.get('error'),
                     checkpoint=old.get('checkpoint', dict(evidence=n['classification_evidence'],
                          legacy_visited=n['url'] in checkpoint.get('done', []), phase='classification',
                          enumeration_complete=False)))
+        return item
 
     prior_d = {q['id']:q for q in read(STATE / 'category_discovery_queue.json', [])}
     prior_e = {q['id']:q for q in read(STATE / 'category_enumeration_queue.json', [])}
