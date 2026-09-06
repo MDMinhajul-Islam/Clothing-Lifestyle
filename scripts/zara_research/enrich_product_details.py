@@ -684,12 +684,10 @@ def build_normalized_records(evidence, global_product, now_iso):
         "enrichment_status": "COMPLETE" if price and exact_name else "PARTIAL"
     }
 
-    # Compute deterministic content hash
     # Content hash
     content_hash = compute_content_hash(product_record, color_records, variant_records, image_records)
     product_record["source_content_hash"] = content_hash
 
-    return product_record, variant_records, color_records, image_records
     image_stats = {
         "raw_observed": raw_obs,
         "duplicates_removed": dups_removed,
@@ -710,7 +708,6 @@ def build_normalized_records(evidence, global_product, now_iso):
         "price_conflict_details": price_conflict_details
     }
 
-def run_enrichment_batch(product_ids=None, batch_size=20):
     return product_record, variant_records, color_records, image_records, image_stats, pricing_stats
 
 
