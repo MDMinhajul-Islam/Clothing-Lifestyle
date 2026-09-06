@@ -1,0 +1,347 @@
+{
+  "product_id": "zara-us:12473720",
+  "source_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html",
+  "final_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER SHOES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER SHOES",
+      "url": "https://www.zara.com/us/en/leather-shoes-p12473720.html",
+      "productGroupID": "12473720",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Derby lace-up shoes. Split leather upper. Leather insole. Round toe. Contrasting sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920",
+        "https://static.zara.net/assets/public/8ef0/267d/463e4a2ea969/1033db0b9b72/12473720131-a1/12473720131-a1.jpg?ts=1785768661841&w=1920",
+        "https://static.zara.net/assets/public/ec6b/5cc6/63cc4851838c/20364051e053/12473720131-a3/12473720131-a3.jpg?ts=1785768660312&w=1920",
+        "https://static.zara.net/assets/public/dc6c/226e/759a450a9eb6/857e9f3e3815/12473720131-e1/12473720131-e1.jpg?ts=1783434902546&w=1920",
+        "https://static.zara.net/assets/public/12dc/8eff/5ed1490dbfce/54eb5c07b7d5/12473720131-e2/12473720131-e2.jpg?ts=1783434903903&w=1920",
+        "https://static.zara.net/assets/public/e192/16bd/3e754800a2c1/26cefbecaa7f/12473720131-e3/12473720131-e3.jpg?ts=1783434902879&w=1920",
+        "https://static.zara.net/assets/public/c22a/f743/95834f62a192/102457c97001/12473720131-e4/12473720131-e4.jpg?ts=1783434903436&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Taupe Gray - 6",
+          "sku": "547541650-131-39",
+          "mpn": "547541650-131-39",
+          "color": "Taupe Gray",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "109",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Taupe Gray - 7",
+          "sku": "547541650-131-40",
+          "mpn": "547541650-131-40",
+          "color": "Taupe Gray",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "109",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Taupe Gray - 8",
+          "sku": "547541650-131-41",
+          "mpn": "547541650-131-41",
+          "color": "Taupe Gray",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "109",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Taupe Gray - 9",
+          "sku": "547541650-131-42",
+          "mpn": "547541650-131-42",
+          "color": "Taupe Gray",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "109",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Taupe Gray - 10",
+          "sku": "547541650-131-43",
+          "mpn": "547541650-131-43",
+          "color": "Taupe Gray",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "109",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Taupe Gray - 11",
+          "sku": "547541650-131-44",
+          "mpn": "547541650-131-44",
+          "color": "Taupe Gray",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "109",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Taupe Gray - 12",
+          "sku": "547541650-131-45",
+          "mpn": "547541650-131-45",
+          "color": "Taupe Gray",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "109",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER SHOES",
+      "product_group_id": "12473720",
+      "brand": "ZARA",
+      "description": "Derby lace-up shoes. Split leather upper. Leather insole. Round toe. Contrasting sole.",
+      "material": "100% cow leather",
+      "composition": "UPPER: 100% cow leather | LINING: 100% polyester | SOLE: 100% polyurethane thermoplastic | INSOLE: 100% cow leather | TONGUE: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER SHOES - Taupe Gray - 6",
+          "sku": "547541650-131-39",
+          "mpn": "547541650-131-39",
+          "color_name": "Taupe Gray",
+          "size_name": "6",
+          "price": "109.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+          "images": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Taupe Gray - 7",
+          "sku": "547541650-131-40",
+          "mpn": "547541650-131-40",
+          "color_name": "Taupe Gray",
+          "size_name": "7",
+          "price": "109.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+          "images": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Taupe Gray - 8",
+          "sku": "547541650-131-41",
+          "mpn": "547541650-131-41",
+          "color_name": "Taupe Gray",
+          "size_name": "8",
+          "price": "109.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+          "images": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Taupe Gray - 9",
+          "sku": "547541650-131-42",
+          "mpn": "547541650-131-42",
+          "color_name": "Taupe Gray",
+          "size_name": "9",
+          "price": "109.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+          "images": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Taupe Gray - 10",
+          "sku": "547541650-131-43",
+          "mpn": "547541650-131-43",
+          "color_name": "Taupe Gray",
+          "size_name": "10",
+          "price": "109.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+          "images": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Taupe Gray - 11",
+          "sku": "547541650-131-44",
+          "mpn": "547541650-131-44",
+          "color_name": "Taupe Gray",
+          "size_name": "11",
+          "price": "109.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+          "images": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Taupe Gray - 12",
+          "sku": "547541650-131-45",
+          "mpn": "547541650-131-45",
+          "color_name": "Taupe Gray",
+          "size_name": "12",
+          "price": "109.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12473720.html?v1=547541650",
+          "images": [
+            "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/adbf/3ac9/0be3420c824b/77746249cbd6/12473720131-a2/12473720131-a2.jpg?ts=1785768660726&w=1920",
+        "https://static.zara.net/assets/public/8ef0/267d/463e4a2ea969/1033db0b9b72/12473720131-a1/12473720131-a1.jpg?ts=1785768661841&w=1920",
+        "https://static.zara.net/assets/public/ec6b/5cc6/63cc4851838c/20364051e053/12473720131-a3/12473720131-a3.jpg?ts=1785768660312&w=1920",
+        "https://static.zara.net/assets/public/dc6c/226e/759a450a9eb6/857e9f3e3815/12473720131-e1/12473720131-e1.jpg?ts=1783434902546&w=1920",
+        "https://static.zara.net/assets/public/12dc/8eff/5ed1490dbfce/54eb5c07b7d5/12473720131-e2/12473720131-e2.jpg?ts=1783434903903&w=1920",
+        "https://static.zara.net/assets/public/e192/16bd/3e754800a2c1/26cefbecaa7f/12473720131-e3/12473720131-e3.jpg?ts=1783434902879&w=1920",
+        "https://static.zara.net/assets/public/c22a/f743/95834f62a192/102457c97001/12473720131-e4/12473720131-e4.jpg?ts=1783434903436&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "109.00",
+  "rendered_description": "Description\nDerby lace-up shoes. Split leather upper. Leather insole. Round toe. Contrasting sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 7,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "109.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "109.00",
+    "dom_price": "109.00",
+    "normalized_price": "109.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ab5a77da0ac58343104daa62c64eb830bcdf045cfe11aa8d68e88a8c7b4a7ad9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,703 @@
+{
+  "product_id": "zara-us:12346820",
+  "source_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html",
+  "final_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html",
+  "canonical_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CASUAL SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CASUAL SNEAKERS",
+      "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html",
+      "productGroupID": "12346820",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Athletic sneakers. Upper made from a combination of split leather pieces. Round toe. Treaded sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920",
+        "https://static.zara.net/assets/public/ff9a/90d8/3b1749c8aa22/324b183b5cc2/12346820400-a1/12346820400-a1.jpg?ts=1779705436169&w=1920",
+        "https://static.zara.net/assets/public/1b0a/a5d5/d2214fb6a924/349f7543ae7b/12346820400-a3/12346820400-a3.jpg?ts=1779705436329&w=1920",
+        "https://static.zara.net/assets/public/d6cd/fda7/fa0640d4a05b/e9b6da43c571/12346820400-e1/12346820400-e1.jpg?ts=1784211301276&w=1920",
+        "https://static.zara.net/assets/public/6d46/e475/b86b49fc9895/fd2e0ff5228c/12346820400-e2/12346820400-e2.jpg?ts=1784211301763&w=1920",
+        "https://static.zara.net/assets/public/a5ba/b29c/55584ca3932e/97c7d699b418/12346820400-e3/12346820400-e3.jpg?ts=1784211302047&w=1920",
+        "https://static.zara.net/assets/public/7dfb/960f/7448407eab69/59cfcf65fe23/12346820400-e4/12346820400-e4.jpg?ts=1784211301738&w=1920"
+      ],
+      "material": "cow leather/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "65% cow leather, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "70% polyester, 30% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 6",
+          "sku": "545423068-400-39",
+          "mpn": "545423068-400-39",
+          "color": "Blue",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 7",
+          "sku": "545423068-400-40",
+          "mpn": "545423068-400-40",
+          "color": "Blue",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 8",
+          "sku": "545423068-400-41",
+          "mpn": "545423068-400-41",
+          "color": "Blue",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 9",
+          "sku": "545423068-400-42",
+          "mpn": "545423068-400-42",
+          "color": "Blue",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 10",
+          "sku": "545423068-400-43",
+          "mpn": "545423068-400-43",
+          "color": "Blue",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 11",
+          "sku": "545423068-400-44",
+          "mpn": "545423068-400-44",
+          "color": "Blue",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 12",
+          "sku": "545423068-400-45",
+          "mpn": "545423068-400-45",
+          "color": "Blue",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 13",
+          "sku": "545423068-400-46",
+          "mpn": "545423068-400-46",
+          "color": "Blue",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Blue - 14",
+          "sku": "545423068-400-47",
+          "mpn": "545423068-400-47",
+          "color": "Blue",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 6",
+          "sku": "545423068-500-39",
+          "mpn": "545423068-500-39",
+          "color": "Green",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 7",
+          "sku": "545423068-500-40",
+          "mpn": "545423068-500-40",
+          "color": "Green",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 8",
+          "sku": "545423068-500-41",
+          "mpn": "545423068-500-41",
+          "color": "Green",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 9",
+          "sku": "545423068-500-42",
+          "mpn": "545423068-500-42",
+          "color": "Green",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 10",
+          "sku": "545423068-500-43",
+          "mpn": "545423068-500-43",
+          "color": "Green",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 11",
+          "sku": "545423068-500-44",
+          "mpn": "545423068-500-44",
+          "color": "Green",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 12",
+          "sku": "545423068-500-45",
+          "mpn": "545423068-500-45",
+          "color": "Green",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 13",
+          "sku": "545423068-500-46",
+          "mpn": "545423068-500-46",
+          "color": "Green",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL SNEAKERS - Green - 14",
+          "sku": "545423068-500-47",
+          "mpn": "545423068-500-47",
+          "color": "Green",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CASUAL SNEAKERS",
+      "product_group_id": "12346820",
+      "brand": "ZARA",
+      "description": "Athletic sneakers. Upper made from a combination of split leather pieces. Round toe. Treaded sole.",
+      "material": "cow leather/polyester",
+      "composition": "UPPER: 65% cow leather, 35% polyester | LINING: 70% polyester, 30% polyurethane | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CASUAL SNEAKERS - Blue - 6",
+          "sku": "545423068-400-39",
+          "mpn": "545423068-400-39",
+          "color_name": "Blue",
+          "size_name": "6",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Blue - 7",
+          "sku": "545423068-400-40",
+          "mpn": "545423068-400-40",
+          "color_name": "Blue",
+          "size_name": "7",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Blue - 8",
+          "sku": "545423068-400-41",
+          "mpn": "545423068-400-41",
+          "color_name": "Blue",
+          "size_name": "8",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Blue - 9",
+          "sku": "545423068-400-42",
+          "mpn": "545423068-400-42",
+          "color_name": "Blue",
+          "size_name": "9",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Blue - 10",
+          "sku": "545423068-400-43",
+          "mpn": "545423068-400-43",
+          "color_name": "Blue",
+          "size_name": "10",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Blue - 11",
+          "sku": "545423068-400-44",
+          "mpn": "545423068-400-44",
+          "color_name": "Blue",
+          "size_name": "11",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Blue - 12",
+          "sku": "545423068-400-45",
+          "mpn": "545423068-400-45",
+          "color_name": "Blue",
+          "size_name": "12",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Blue - 13",
+          "sku": "545423068-400-46",
+          "mpn": "545423068-400-46",
+          "color_name": "Blue",
+          "size_name": "13",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Blue - 14",
+          "sku": "545423068-400-47",
+          "mpn": "545423068-400-47",
+          "color_name": "Blue",
+          "size_name": "14",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423068",
+          "images": [
+            "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 6",
+          "sku": "545423068-500-39",
+          "mpn": "545423068-500-39",
+          "color_name": "Green",
+          "size_name": "6",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 7",
+          "sku": "545423068-500-40",
+          "mpn": "545423068-500-40",
+          "color_name": "Green",
+          "size_name": "7",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 8",
+          "sku": "545423068-500-41",
+          "mpn": "545423068-500-41",
+          "color_name": "Green",
+          "size_name": "8",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 9",
+          "sku": "545423068-500-42",
+          "mpn": "545423068-500-42",
+          "color_name": "Green",
+          "size_name": "9",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 10",
+          "sku": "545423068-500-43",
+          "mpn": "545423068-500-43",
+          "color_name": "Green",
+          "size_name": "10",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 11",
+          "sku": "545423068-500-44",
+          "mpn": "545423068-500-44",
+          "color_name": "Green",
+          "size_name": "11",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 12",
+          "sku": "545423068-500-45",
+          "mpn": "545423068-500-45",
+          "color_name": "Green",
+          "size_name": "12",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 13",
+          "sku": "545423068-500-46",
+          "mpn": "545423068-500-46",
+          "color_name": "Green",
+          "size_name": "13",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL SNEAKERS - Green - 14",
+          "sku": "545423068-500-47",
+          "mpn": "545423068-500-47",
+          "color_name": "Green",
+          "size_name": "14",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-sneakers-p12346820.html?v1=545423069",
+          "images": [
+            "https://static.zara.net/assets/public/d632/bea9/b9624b4e8c25/1afad706c07e/12346820500-a2/12346820500-a2.jpg?ts=1779705436908&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2fc8/a11e/33b14292ba3a/85ab129d5be5/12346820400-a2/12346820400-a2.jpg?ts=1779705436180&w=1920",
+        "https://static.zara.net/assets/public/ff9a/90d8/3b1749c8aa22/324b183b5cc2/12346820400-a1/12346820400-a1.jpg?ts=1779705436169&w=1920",
+        "https://static.zara.net/assets/public/1b0a/a5d5/d2214fb6a924/349f7543ae7b/12346820400-a3/12346820400-a3.jpg?ts=1779705436329&w=1920",
+        "https://static.zara.net/assets/public/d6cd/fda7/fa0640d4a05b/e9b6da43c571/12346820400-e1/12346820400-e1.jpg?ts=1784211301276&w=1920",
+        "https://static.zara.net/assets/public/6d46/e475/b86b49fc9895/fd2e0ff5228c/12346820400-e2/12346820400-e2.jpg?ts=1784211301763&w=1920",
+        "https://static.zara.net/assets/public/a5ba/b29c/55584ca3932e/97c7d699b418/12346820400-e3/12346820400-e3.jpg?ts=1784211302047&w=1920",
+        "https://static.zara.net/assets/public/7dfb/960f/7448407eab69/59cfcf65fe23/12346820400-e4/12346820400-e4.jpg?ts=1784211301738&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Green"
+  ],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nAthletic sneakers. Upper made from a combination of split leather pieces. Round toe. Treaded sole.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 8,
+  "variants_count": 18,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "41.94",
+    "original_price": "69.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "41.94",
+    "dom_price": "69.90",
+    "normalized_price": "41.94",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '41.94' != DOM price '69.90'"
+  },
+  "source_content_hash": "ce0b9b6a47c619d311eca4ccd8154452c5c9dfc92da504413bd32c9203bcdec6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

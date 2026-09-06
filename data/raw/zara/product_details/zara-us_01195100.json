@@ -1,0 +1,364 @@
+{
+  "product_id": "zara-us:01195100",
+  "source_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html",
+  "final_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html",
+  "canonical_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SIDE-PLEAT WIDE-FIT PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SIDE-PLEAT WIDE-FIT PANTS",
+      "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html",
+      "productGroupID": "01195100",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Wide-fit pants. Waist with side pleat detail. Side pockets and back double-welt pocket details. Front closure with zipper and hidden metal hook.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920",
+        "https://static.zara.net/assets/public/40cc/39c0/aa1f4fa89bc1/1be8e328a0fa/01195100717-a1/01195100717-a1.jpg?ts=1787239363885&w=1920",
+        "https://static.zara.net/assets/public/6da3/1678/eaf444399449/f868afd33778/01195100717-a2/01195100717-a2.jpg?ts=1787239363699&w=1920",
+        "https://static.zara.net/assets/public/f9a2/c646/b2944479bc1d/52434bb119c6/01195100717-a3/01195100717-a3.jpg?ts=1787239364852&w=1920",
+        "https://static.zara.net/assets/public/b817/6599/001540a0b9fe/9b8c71985f2f/01195100717-a4/01195100717-a4.jpg?ts=1787239364033&w=1920",
+        "https://static.zara.net/assets/public/4ed5/bf20/d2e845709b48/afcfcd1f48f4/01195100717-a5/01195100717-a5.jpg?ts=1787239364753&w=1920",
+        "https://static.zara.net/assets/public/cc58/508e/02004a2191ed/e31a9cbb6e64/01195100717-e1/01195100717-e1.jpg?ts=1787223911684&w=1920",
+        "https://static.zara.net/assets/public/3424/395e/b5aa4e25875a/319757e077ef/01195100717-e2/01195100717-e2.jpg?ts=1787223912621&w=1920",
+        "https://static.zara.net/assets/public/6b38/bf2e/36374587b4a1/9382fcda3a05/01195100717-e3/01195100717-e3.jpg?ts=1787223906017&w=1920",
+        "https://static.zara.net/assets/public/b87f/3f70/9d3c4f8399f4/4a9e34fa2738/01195100717-e4/01195100717-e4.jpg?ts=1787223906244&w=1920"
+      ],
+      "material": "polyester/viscose/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "72% polyester, 21% viscose, 7% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Chocolate - 30 (US 30)",
+          "sku": "552962712-717-38",
+          "mpn": "552962712-717-38",
+          "color": "Chocolate",
+          "size": "30 (US 30)",
+          "image": [
+            "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962712",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Chocolate - 31 (US 31)",
+          "sku": "552962712-717-40",
+          "mpn": "552962712-717-40",
+          "color": "Chocolate",
+          "size": "31 (US 31)",
+          "image": [
+            "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962712",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Chocolate - 32 (US 32)",
+          "sku": "552962712-717-42",
+          "mpn": "552962712-717-42",
+          "color": "Chocolate",
+          "size": "32 (US 32)",
+          "image": [
+            "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962712",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Chocolate - 34 (US 34)",
+          "sku": "552962712-717-44",
+          "mpn": "552962712-717-44",
+          "color": "Chocolate",
+          "size": "34 (US 34)",
+          "image": [
+            "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962712",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Black - 30 (US 30)",
+          "sku": "552962712-800-38",
+          "mpn": "552962712-800-38",
+          "color": "Black",
+          "size": "30 (US 30)",
+          "image": [
+            "https://static.zara.net/assets/public/a921/a831/1e6c493a82fb/55e394d9d0ae/01195100800-p/01195100800-p.jpg?ts=1787239363302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Black - 31 (US 31)",
+          "sku": "552962712-800-40",
+          "mpn": "552962712-800-40",
+          "color": "Black",
+          "size": "31 (US 31)",
+          "image": [
+            "https://static.zara.net/assets/public/a921/a831/1e6c493a82fb/55e394d9d0ae/01195100800-p/01195100800-p.jpg?ts=1787239363302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Black - 32 (US 32)",
+          "sku": "552962712-800-42",
+          "mpn": "552962712-800-42",
+          "color": "Black",
+          "size": "32 (US 32)",
+          "image": [
+            "https://static.zara.net/assets/public/a921/a831/1e6c493a82fb/55e394d9d0ae/01195100800-p/01195100800-p.jpg?ts=1787239363302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Black - 34 (US 34)",
+          "sku": "552962712-800-44",
+          "mpn": "552962712-800-44",
+          "color": "Black",
+          "size": "34 (US 34)",
+          "image": [
+            "https://static.zara.net/assets/public/a921/a831/1e6c493a82fb/55e394d9d0ae/01195100800-p/01195100800-p.jpg?ts=1787239363302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SIDE-PLEAT WIDE-FIT PANTS",
+      "product_group_id": "01195100",
+      "brand": "ZARA",
+      "description": "Wide-fit pants. Waist with side pleat detail. Side pockets and back double-welt pocket details. Front closure with zipper and hidden metal hook.",
+      "material": "polyester/viscose/elastane",
+      "composition": "OUTER SHELL: 72% polyester, 21% viscose, 7% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Chocolate - 30 (US 30)",
+          "sku": "552962712-717-38",
+          "mpn": "552962712-717-38",
+          "color_name": "Chocolate",
+          "size_name": "30 (US 30)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962712",
+          "images": [
+            "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920"
+          ]
+        },
+        {
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Chocolate - 31 (US 31)",
+          "sku": "552962712-717-40",
+          "mpn": "552962712-717-40",
+          "color_name": "Chocolate",
+          "size_name": "31 (US 31)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962712",
+          "images": [
+            "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920"
+          ]
+        },
+        {
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Chocolate - 32 (US 32)",
+          "sku": "552962712-717-42",
+          "mpn": "552962712-717-42",
+          "color_name": "Chocolate",
+          "size_name": "32 (US 32)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962712",
+          "images": [
+            "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920"
+          ]
+        },
+        {
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Chocolate - 34 (US 34)",
+          "sku": "552962712-717-44",
+          "mpn": "552962712-717-44",
+          "color_name": "Chocolate",
+          "size_name": "34 (US 34)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962712",
+          "images": [
+            "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920"
+          ]
+        },
+        {
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Black - 30 (US 30)",
+          "sku": "552962712-800-38",
+          "mpn": "552962712-800-38",
+          "color_name": "Black",
+          "size_name": "30 (US 30)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962711",
+          "images": [
+            "https://static.zara.net/assets/public/a921/a831/1e6c493a82fb/55e394d9d0ae/01195100800-p/01195100800-p.jpg?ts=1787239363302&w=1920"
+          ]
+        },
+        {
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Black - 31 (US 31)",
+          "sku": "552962712-800-40",
+          "mpn": "552962712-800-40",
+          "color_name": "Black",
+          "size_name": "31 (US 31)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962711",
+          "images": [
+            "https://static.zara.net/assets/public/a921/a831/1e6c493a82fb/55e394d9d0ae/01195100800-p/01195100800-p.jpg?ts=1787239363302&w=1920"
+          ]
+        },
+        {
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Black - 32 (US 32)",
+          "sku": "552962712-800-42",
+          "mpn": "552962712-800-42",
+          "color_name": "Black",
+          "size_name": "32 (US 32)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962711",
+          "images": [
+            "https://static.zara.net/assets/public/a921/a831/1e6c493a82fb/55e394d9d0ae/01195100800-p/01195100800-p.jpg?ts=1787239363302&w=1920"
+          ]
+        },
+        {
+          "name": "SIDE-PLEAT WIDE-FIT PANTS - Black - 34 (US 34)",
+          "sku": "552962712-800-44",
+          "mpn": "552962712-800-44",
+          "color_name": "Black",
+          "size_name": "34 (US 34)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/side-pleat-wide-fit-pants-p01195100.html?v1=552962711",
+          "images": [
+            "https://static.zara.net/assets/public/a921/a831/1e6c493a82fb/55e394d9d0ae/01195100800-p/01195100800-p.jpg?ts=1787239363302&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3292/11fe/8f564aab9b5a/39dbe0941d15/01195100717-p/01195100717-p.jpg?ts=1787239364942&w=1920",
+        "https://static.zara.net/assets/public/40cc/39c0/aa1f4fa89bc1/1be8e328a0fa/01195100717-a1/01195100717-a1.jpg?ts=1787239363885&w=1920",
+        "https://static.zara.net/assets/public/6da3/1678/eaf444399449/f868afd33778/01195100717-a2/01195100717-a2.jpg?ts=1787239363699&w=1920",
+        "https://static.zara.net/assets/public/f9a2/c646/b2944479bc1d/52434bb119c6/01195100717-a3/01195100717-a3.jpg?ts=1787239364852&w=1920",
+        "https://static.zara.net/assets/public/b817/6599/001540a0b9fe/9b8c71985f2f/01195100717-a4/01195100717-a4.jpg?ts=1787239364033&w=1920",
+        "https://static.zara.net/assets/public/4ed5/bf20/d2e845709b48/afcfcd1f48f4/01195100717-a5/01195100717-a5.jpg?ts=1787239364753&w=1920",
+        "https://static.zara.net/assets/public/cc58/508e/02004a2191ed/e31a9cbb6e64/01195100717-e1/01195100717-e1.jpg?ts=1787223911684&w=1920",
+        "https://static.zara.net/assets/public/3424/395e/b5aa4e25875a/319757e077ef/01195100717-e2/01195100717-e2.jpg?ts=1787223912621&w=1920",
+        "https://static.zara.net/assets/public/6b38/bf2e/36374587b4a1/9382fcda3a05/01195100717-e3/01195100717-e3.jpg?ts=1787223906017&w=1920",
+        "https://static.zara.net/assets/public/b87f/3f70/9d3c4f8399f4/4a9e34fa2738/01195100717-e4/01195100717-e4.jpg?ts=1787223906244&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Chocolate",
+    "Black"
+  ],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nWide-fit pants. Waist with side pleat detail. Side pockets and back double-welt pocket details. Front closure with zipper and hidden metal hook.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 11,
+  "variants_count": 8,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "90f9b3371f69a244eca2135cf042eef2d552df5400a7c7d153f3e55007473115",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,411 @@
+{
+  "product_id": "zara-us:12452820",
+  "source_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html",
+  "final_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html",
+  "canonical_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DRESS SHOES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DRESS SHOES",
+      "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html",
+      "productGroupID": "12452820",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Oxford dress shoes. Round toe. Sole with a slight heel.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920",
+        "https://static.zara.net/assets/public/9d19/1cbf/b97845bfb7c0/fe430dd4fc75/12452820800-a1/12452820800-a1.jpg?ts=1785498423512&w=1920",
+        "https://static.zara.net/assets/public/3d83/5753/31cd438d8de9/c6e5011b38a5/12452820800-a3/12452820800-a3.jpg?ts=1785498423952&w=1920",
+        "https://static.zara.net/assets/public/4b2a/73a8/fccc4704bc1f/64df8d7a688e/12452820800-e1/12452820800-e1.jpg?ts=1784273971197&w=1920",
+        "https://static.zara.net/assets/public/b25b/72d3/b4634482af4f/c8705ec51005/12452820800-e2/12452820800-e2.jpg?ts=1784273971517&w=1920",
+        "https://static.zara.net/assets/public/99f8/3545/9ed9476ebcf8/83fc00778383/12452820800-e3/12452820800-e3.jpg?ts=1784273970885&w=1920",
+        "https://static.zara.net/assets/public/4429/b839/f467454ead10/a38afc943b96/12452820800-e4/12452820800-e4.jpg?ts=1784273971031&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 6",
+          "sku": "545401511-800-39",
+          "mpn": "545401511-800-39",
+          "color": "Black",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 7",
+          "sku": "545401511-800-40",
+          "mpn": "545401511-800-40",
+          "color": "Black",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 8",
+          "sku": "545401511-800-41",
+          "mpn": "545401511-800-41",
+          "color": "Black",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 9",
+          "sku": "545401511-800-42",
+          "mpn": "545401511-800-42",
+          "color": "Black",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 10",
+          "sku": "545401511-800-43",
+          "mpn": "545401511-800-43",
+          "color": "Black",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 11",
+          "sku": "545401511-800-44",
+          "mpn": "545401511-800-44",
+          "color": "Black",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 12",
+          "sku": "545401511-800-45",
+          "mpn": "545401511-800-45",
+          "color": "Black",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 13",
+          "sku": "545401511-800-46",
+          "mpn": "545401511-800-46",
+          "color": "Black",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DRESS SHOES - Black - 14",
+          "sku": "545401511-800-47",
+          "mpn": "545401511-800-47",
+          "color": "Black",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DRESS SHOES",
+      "product_group_id": "12452820",
+      "brand": "ZARA",
+      "description": "Oxford dress shoes. Round toe. Sole with a slight heel.",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 100% polyester | SOLE: 100% polyurethane thermoplastic | INSOLE: 100% polyurethane | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DRESS SHOES - Black - 6",
+          "sku": "545401511-800-39",
+          "mpn": "545401511-800-39",
+          "color_name": "Black",
+          "size_name": "6",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        },
+        {
+          "name": "DRESS SHOES - Black - 7",
+          "sku": "545401511-800-40",
+          "mpn": "545401511-800-40",
+          "color_name": "Black",
+          "size_name": "7",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        },
+        {
+          "name": "DRESS SHOES - Black - 8",
+          "sku": "545401511-800-41",
+          "mpn": "545401511-800-41",
+          "color_name": "Black",
+          "size_name": "8",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        },
+        {
+          "name": "DRESS SHOES - Black - 9",
+          "sku": "545401511-800-42",
+          "mpn": "545401511-800-42",
+          "color_name": "Black",
+          "size_name": "9",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        },
+        {
+          "name": "DRESS SHOES - Black - 10",
+          "sku": "545401511-800-43",
+          "mpn": "545401511-800-43",
+          "color_name": "Black",
+          "size_name": "10",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        },
+        {
+          "name": "DRESS SHOES - Black - 11",
+          "sku": "545401511-800-44",
+          "mpn": "545401511-800-44",
+          "color_name": "Black",
+          "size_name": "11",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        },
+        {
+          "name": "DRESS SHOES - Black - 12",
+          "sku": "545401511-800-45",
+          "mpn": "545401511-800-45",
+          "color_name": "Black",
+          "size_name": "12",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        },
+        {
+          "name": "DRESS SHOES - Black - 13",
+          "sku": "545401511-800-46",
+          "mpn": "545401511-800-46",
+          "color_name": "Black",
+          "size_name": "13",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        },
+        {
+          "name": "DRESS SHOES - Black - 14",
+          "sku": "545401511-800-47",
+          "mpn": "545401511-800-47",
+          "color_name": "Black",
+          "size_name": "14",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dress-shoes-p12452820.html?v1=545401511",
+          "images": [
+            "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e74a/3fe4/7c0e477f840f/647bfd4b1207/12452820800-a2/12452820800-a2.jpg?ts=1785498424627&w=1920",
+        "https://static.zara.net/assets/public/9d19/1cbf/b97845bfb7c0/fe430dd4fc75/12452820800-a1/12452820800-a1.jpg?ts=1785498423512&w=1920",
+        "https://static.zara.net/assets/public/3d83/5753/31cd438d8de9/c6e5011b38a5/12452820800-a3/12452820800-a3.jpg?ts=1785498423952&w=1920",
+        "https://static.zara.net/assets/public/4b2a/73a8/fccc4704bc1f/64df8d7a688e/12452820800-e1/12452820800-e1.jpg?ts=1784273971197&w=1920",
+        "https://static.zara.net/assets/public/b25b/72d3/b4634482af4f/c8705ec51005/12452820800-e2/12452820800-e2.jpg?ts=1784273971517&w=1920",
+        "https://static.zara.net/assets/public/99f8/3545/9ed9476ebcf8/83fc00778383/12452820800-e3/12452820800-e3.jpg?ts=1784273970885&w=1920",
+        "https://static.zara.net/assets/public/4429/b839/f467454ead10/a38afc943b96/12452820800-e4/12452820800-e4.jpg?ts=1784273971031&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nOxford dress shoes. Round toe. Sole with a slight heel.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 9,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9b14f2307006c68eb27841177bdc3e479bc5349c9b1202b1d07ce8aa199b904d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,234 @@
+{
+  "product_id": "zara-us:07220222",
+  "source_url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html",
+  "final_url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html",
+  "canonical_url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EMBROIDERED BLOOMER PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "EMBROIDERED BLOOMER PANTS",
+      "url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html",
+      "productGroupID": "07220222",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mid-rise pants with an elasticized waistband at the back. Front pockets. Tonal lace trim detailing and contrasting embroidery. Short interior lining. Cuffed hems.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920",
+        "https://static.zara.net/assets/public/39c3/3002/7cfe4eafa16d/1904282db083/07220222250-a1/07220222250-a1.jpg?ts=1783671228383&w=1920",
+        "https://static.zara.net/assets/public/21a7/3bc4/7ef24fd1adb5/46d3324f944d/07220222250-a2/07220222250-a2.jpg?ts=1783671229963&w=1920",
+        "https://static.zara.net/assets/public/dc8d/a9e8/17374e15aa19/9b6044c54829/07220222250-a3/07220222250-a3.jpg?ts=1783671229443&w=1920",
+        "https://static.zara.net/assets/public/8565/5586/013e495584ad/6807a7905b2f/07220222250-a4/07220222250-a4.jpg?ts=1783671229069&w=1920",
+        "https://static.zara.net/assets/public/149d/8de3/3638430f928f/bd76aba09af5/07220222250-e1/07220222250-e1.jpg?ts=1783594205195&w=1920",
+        "https://static.zara.net/assets/public/fc9f/6056/05bc4e6781cc/2fc2664fee3b/07220222250-e2/07220222250-e2.jpg?ts=1783594205469&w=1920",
+        "https://static.zara.net/assets/public/e521/0860/96c147acbd33/c09b3ea3368f/07220222250-e3/07220222250-e3.jpg?ts=1783594205558&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED BLOOMER PANTS - White - XS",
+          "sku": "545400889-250-1",
+          "mpn": "545400889-250-1",
+          "color": "White",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html?v1=545400889",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED BLOOMER PANTS - White - S",
+          "sku": "545400889-250-2",
+          "mpn": "545400889-250-2",
+          "color": "White",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html?v1=545400889",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED BLOOMER PANTS - White - M",
+          "sku": "545400889-250-3",
+          "mpn": "545400889-250-3",
+          "color": "White",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html?v1=545400889",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED BLOOMER PANTS - White - L",
+          "sku": "545400889-250-4",
+          "mpn": "545400889-250-4",
+          "color": "White",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html?v1=545400889",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "EMBROIDERED BLOOMER PANTS",
+      "product_group_id": "07220222",
+      "brand": "ZARA",
+      "description": "Mid-rise pants with an elasticized waistband at the back. Front pockets. Tonal lace trim detailing and contrasting embroidery. Short interior lining. Cuffed hems.",
+      "material": null,
+      "composition": "LINING: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "EMBROIDERED BLOOMER PANTS - White - XS",
+          "sku": "545400889-250-1",
+          "mpn": "545400889-250-1",
+          "color_name": "White",
+          "size_name": "XS",
+          "price": "79.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html?v1=545400889",
+          "images": [
+            "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED BLOOMER PANTS - White - S",
+          "sku": "545400889-250-2",
+          "mpn": "545400889-250-2",
+          "color_name": "White",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html?v1=545400889",
+          "images": [
+            "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED BLOOMER PANTS - White - M",
+          "sku": "545400889-250-3",
+          "mpn": "545400889-250-3",
+          "color_name": "White",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html?v1=545400889",
+          "images": [
+            "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED BLOOMER PANTS - White - L",
+          "sku": "545400889-250-4",
+          "mpn": "545400889-250-4",
+          "color_name": "White",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-bloomer-pants-p07220222.html?v1=545400889",
+          "images": [
+            "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/aedf/54fa/f1b747f78aa1/b20c01a23cae/07220222250-p/07220222250-p.jpg?ts=1783671230262&w=1920",
+        "https://static.zara.net/assets/public/39c3/3002/7cfe4eafa16d/1904282db083/07220222250-a1/07220222250-a1.jpg?ts=1783671228383&w=1920",
+        "https://static.zara.net/assets/public/21a7/3bc4/7ef24fd1adb5/46d3324f944d/07220222250-a2/07220222250-a2.jpg?ts=1783671229963&w=1920",
+        "https://static.zara.net/assets/public/dc8d/a9e8/17374e15aa19/9b6044c54829/07220222250-a3/07220222250-a3.jpg?ts=1783671229443&w=1920",
+        "https://static.zara.net/assets/public/8565/5586/013e495584ad/6807a7905b2f/07220222250-a4/07220222250-a4.jpg?ts=1783671229069&w=1920",
+        "https://static.zara.net/assets/public/149d/8de3/3638430f928f/bd76aba09af5/07220222250-e1/07220222250-e1.jpg?ts=1783594205195&w=1920",
+        "https://static.zara.net/assets/public/fc9f/6056/05bc4e6781cc/2fc2664fee3b/07220222250-e2/07220222250-e2.jpg?ts=1783594205469&w=1920",
+        "https://static.zara.net/assets/public/e521/0860/96c147acbd33/c09b3ea3368f/07220222250-e3/07220222250-e3.jpg?ts=1783594205558&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nMid-rise pants with an elasticized waistband at the back. Front pockets. Tonal lace trim detailing and contrasting embroidery. Short interior lining. Cuffed hems.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "059a03c5f38673999a686d8a125dc1bc868aef6dbee2be62dadcbf89664e4b0d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

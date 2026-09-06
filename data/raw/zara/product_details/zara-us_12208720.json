@@ -1,0 +1,702 @@
+{
+  "product_id": "zara-us:12208720",
+  "source_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html",
+  "final_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html",
+  "canonical_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHUNKY SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHUNKY SNEAKERS",
+      "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html",
+      "productGroupID": "12208720",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Lace-up sneakers. Smooth upper. Hidden lacing detail. Tone-on-tone chunky sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920",
+        "https://static.zara.net/assets/public/2bca/debe/e9fa4400b141/df0e67be2a38/12208720001-a1/12208720001-a1.jpg?ts=1769173962766&w=1920",
+        "https://static.zara.net/assets/public/1b5c/0aeb/009741498354/388fee18520e/12208720001-a3/12208720001-a3.jpg?ts=1769173962486&w=1920",
+        "https://static.zara.net/assets/public/2928/7c9e/9a4443329e73/365870699222/12208720001-e1/12208720001-e1.jpg?ts=1784126571376&w=1920",
+        "https://static.zara.net/assets/public/b187/ade8/f74f4a728ca5/de347f96972b/12208720001-e2/12208720001-e2.jpg?ts=1784126569328&w=1920",
+        "https://static.zara.net/assets/public/b65a/2104/200149e2b40d/21249212fba7/12208720001-e3/12208720001-e3.jpg?ts=1784126569810&w=1920",
+        "https://static.zara.net/assets/public/7e1f/e171/5f904f0588a7/0df8e12a8628/12208720001-e4/12208720001-e4.jpg?ts=1784126571351&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "49% cotton, 26% polyester, 25% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 6",
+          "sku": "545490844-001-39",
+          "mpn": "545490844-001-39",
+          "color": "White",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 7",
+          "sku": "545490844-001-40",
+          "mpn": "545490844-001-40",
+          "color": "White",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 8",
+          "sku": "545490844-001-41",
+          "mpn": "545490844-001-41",
+          "color": "White",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 9",
+          "sku": "545490844-001-42",
+          "mpn": "545490844-001-42",
+          "color": "White",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 10",
+          "sku": "545490844-001-43",
+          "mpn": "545490844-001-43",
+          "color": "White",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 11",
+          "sku": "545490844-001-44",
+          "mpn": "545490844-001-44",
+          "color": "White",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 12",
+          "sku": "545490844-001-45",
+          "mpn": "545490844-001-45",
+          "color": "White",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 13",
+          "sku": "545490844-001-46",
+          "mpn": "545490844-001-46",
+          "color": "White",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - White - 14",
+          "sku": "545490844-001-47",
+          "mpn": "545490844-001-47",
+          "color": "White",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 6",
+          "sku": "545490844-800-39",
+          "mpn": "545490844-800-39",
+          "color": "Black",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 7",
+          "sku": "545490844-800-40",
+          "mpn": "545490844-800-40",
+          "color": "Black",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 8",
+          "sku": "545490844-800-41",
+          "mpn": "545490844-800-41",
+          "color": "Black",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 9",
+          "sku": "545490844-800-42",
+          "mpn": "545490844-800-42",
+          "color": "Black",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 10",
+          "sku": "545490844-800-43",
+          "mpn": "545490844-800-43",
+          "color": "Black",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 11",
+          "sku": "545490844-800-44",
+          "mpn": "545490844-800-44",
+          "color": "Black",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 12",
+          "sku": "545490844-800-45",
+          "mpn": "545490844-800-45",
+          "color": "Black",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 13",
+          "sku": "545490844-800-46",
+          "mpn": "545490844-800-46",
+          "color": "Black",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SNEAKERS - Black - 14",
+          "sku": "545490844-800-47",
+          "mpn": "545490844-800-47",
+          "color": "Black",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHUNKY SNEAKERS",
+      "product_group_id": "12208720",
+      "brand": "ZARA",
+      "description": "Lace-up sneakers. Smooth upper. Hidden lacing detail. Tone-on-tone chunky sole.",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 49% cotton, 26% polyester, 25% polyurethane | SOLE: 100% polyurethane | INSOLE: 65% cotton, 35% polyester | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHUNKY SNEAKERS - White - 6",
+          "sku": "545490844-001-39",
+          "mpn": "545490844-001-39",
+          "color_name": "White",
+          "size_name": "6",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - White - 7",
+          "sku": "545490844-001-40",
+          "mpn": "545490844-001-40",
+          "color_name": "White",
+          "size_name": "7",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - White - 8",
+          "sku": "545490844-001-41",
+          "mpn": "545490844-001-41",
+          "color_name": "White",
+          "size_name": "8",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - White - 9",
+          "sku": "545490844-001-42",
+          "mpn": "545490844-001-42",
+          "color_name": "White",
+          "size_name": "9",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - White - 10",
+          "sku": "545490844-001-43",
+          "mpn": "545490844-001-43",
+          "color_name": "White",
+          "size_name": "10",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - White - 11",
+          "sku": "545490844-001-44",
+          "mpn": "545490844-001-44",
+          "color_name": "White",
+          "size_name": "11",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - White - 12",
+          "sku": "545490844-001-45",
+          "mpn": "545490844-001-45",
+          "color_name": "White",
+          "size_name": "12",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - White - 13",
+          "sku": "545490844-001-46",
+          "mpn": "545490844-001-46",
+          "color_name": "White",
+          "size_name": "13",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - White - 14",
+          "sku": "545490844-001-47",
+          "mpn": "545490844-001-47",
+          "color_name": "White",
+          "size_name": "14",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490844",
+          "images": [
+            "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 6",
+          "sku": "545490844-800-39",
+          "mpn": "545490844-800-39",
+          "color_name": "Black",
+          "size_name": "6",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 7",
+          "sku": "545490844-800-40",
+          "mpn": "545490844-800-40",
+          "color_name": "Black",
+          "size_name": "7",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 8",
+          "sku": "545490844-800-41",
+          "mpn": "545490844-800-41",
+          "color_name": "Black",
+          "size_name": "8",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 9",
+          "sku": "545490844-800-42",
+          "mpn": "545490844-800-42",
+          "color_name": "Black",
+          "size_name": "9",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 10",
+          "sku": "545490844-800-43",
+          "mpn": "545490844-800-43",
+          "color_name": "Black",
+          "size_name": "10",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 11",
+          "sku": "545490844-800-44",
+          "mpn": "545490844-800-44",
+          "color_name": "Black",
+          "size_name": "11",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 12",
+          "sku": "545490844-800-45",
+          "mpn": "545490844-800-45",
+          "color_name": "Black",
+          "size_name": "12",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 13",
+          "sku": "545490844-800-46",
+          "mpn": "545490844-800-46",
+          "color_name": "Black",
+          "size_name": "13",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SNEAKERS - Black - 14",
+          "sku": "545490844-800-47",
+          "mpn": "545490844-800-47",
+          "color_name": "Black",
+          "size_name": "14",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sneakers-p12208720.html?v1=545490845",
+          "images": [
+            "https://static.zara.net/assets/public/7e41/4e80/1f1345f1b761/f4d6c095904b/12208720800-a2/12208720800-a2.jpg?ts=1769436032248&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/668e/85b5/59e34d53b425/f2a2ba85826b/12208720001-a2/12208720001-a2.jpg?ts=1769173959924&w=1920",
+        "https://static.zara.net/assets/public/2bca/debe/e9fa4400b141/df0e67be2a38/12208720001-a1/12208720001-a1.jpg?ts=1769173962766&w=1920",
+        "https://static.zara.net/assets/public/1b5c/0aeb/009741498354/388fee18520e/12208720001-a3/12208720001-a3.jpg?ts=1769173962486&w=1920",
+        "https://static.zara.net/assets/public/2928/7c9e/9a4443329e73/365870699222/12208720001-e1/12208720001-e1.jpg?ts=1784126571376&w=1920",
+        "https://static.zara.net/assets/public/b187/ade8/f74f4a728ca5/de347f96972b/12208720001-e2/12208720001-e2.jpg?ts=1784126569328&w=1920",
+        "https://static.zara.net/assets/public/b65a/2104/200149e2b40d/21249212fba7/12208720001-e3/12208720001-e3.jpg?ts=1784126569810&w=1920",
+        "https://static.zara.net/assets/public/7e1f/e171/5f904f0588a7/0df8e12a8628/12208720001-e4/12208720001-e4.jpg?ts=1784126571351&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Black"
+  ],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nLace-up sneakers. Smooth upper. Hidden lacing detail. Tone-on-tone chunky sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 18,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f89133994d8a604e261e41d8467430fa6b58edcc60217d43132fedb1f7c3f491",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

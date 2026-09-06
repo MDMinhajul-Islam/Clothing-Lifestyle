@@ -1,0 +1,491 @@
+{
+  "product_id": "zara-us:00761440",
+  "source_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html",
+  "final_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC RELAXED FIT SWEATPANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC RELAXED FIT SWEATPANTS",
+      "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html",
+      "productGroupID": "00761440",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit joggers crafted in cotton fabric with a brushed interior. Wide leg. Adjustable elastic waistband with interior drawstring. Side pockets and back patch pocket detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920",
+        "https://static.zara.net/assets/public/d2c7/b78f/02504a1181ed/df5c806df78e/00761440800-000-a1/00761440800-000-a1.jpg?ts=1771934853313&w=1920",
+        "https://static.zara.net/assets/public/e973/9553/76d94e50bcd4/cf44f1c617be/00761440800-000-a2/00761440800-000-a2.jpg?ts=1771934853257&w=1920",
+        "https://static.zara.net/assets/public/8d49/4f21/84054c4eac46/1c4be2113fb2/00761440800-a3/00761440800-a3.jpg?ts=1766487002269&w=1920",
+        "https://static.zara.net/assets/public/8995/8e1a/f4084980a98d/16f1ef152aaa/00761440800-a4/00761440800-a4.jpg?ts=1766487002179&w=1920",
+        "https://static.zara.net/assets/public/4842/fdd4/35a149c4a286/68453b50dce7/00761411800-e1/00761411800-e1.jpg?ts=1783939005812&w=1920",
+        "https://static.zara.net/assets/public/a172/67c8/d6a74f07bac6/59535a700899/00761411800-e2/00761411800-e2.jpg?ts=1783939000184&w=1920",
+        "https://static.zara.net/assets/public/dc3e/7eeb/deb941a1bfe0/9564a11ce164/00761411800-e3/00761411800-e3.jpg?ts=1783939000472&w=1920",
+        "https://static.zara.net/assets/public/612b/e222/c96a46f3accd/cb1f588ce56d/00761411800-e4/00761411800-e4.jpg?ts=1783939006545&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "64% cotton, 36% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Black - S",
+          "sku": "545490611-800-2",
+          "mpn": "545490611-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490611",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Black - M",
+          "sku": "545490611-800-3",
+          "mpn": "545490611-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490611",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Black - L",
+          "sku": "545490611-800-4",
+          "mpn": "545490611-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490611",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Black - XL",
+          "sku": "545490611-800-5",
+          "mpn": "545490611-800-5",
+          "color": "Black",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490611",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Dark anthracite - S",
+          "sku": "545490611-898-2",
+          "mpn": "545490611-898-2",
+          "color": "Dark anthracite",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/914b/d260/88844b32874d/85988506f10a/0761411898-p/0761411898-p.jpg?ts=1763992074098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490610",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Dark anthracite - M",
+          "sku": "545490611-898-3",
+          "mpn": "545490611-898-3",
+          "color": "Dark anthracite",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/914b/d260/88844b32874d/85988506f10a/0761411898-p/0761411898-p.jpg?ts=1763992074098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490610",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Dark anthracite - L",
+          "sku": "545490611-898-4",
+          "mpn": "545490611-898-4",
+          "color": "Dark anthracite",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/914b/d260/88844b32874d/85988506f10a/0761411898-p/0761411898-p.jpg?ts=1763992074098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490610",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Dark anthracite - XL",
+          "sku": "545490611-898-5",
+          "mpn": "545490611-898-5",
+          "color": "Dark anthracite",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/914b/d260/88844b32874d/85988506f10a/0761411898-p/0761411898-p.jpg?ts=1763992074098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490610",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Gray marl - S",
+          "sku": "545490611-803-2",
+          "mpn": "545490611-803-2",
+          "color": "Gray marl",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/a5f4/7e09/91a94f628089/27266853709c/00761411803-p/00761411803-p.jpg?ts=1785920319753&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490612",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Gray marl - M",
+          "sku": "545490611-803-3",
+          "mpn": "545490611-803-3",
+          "color": "Gray marl",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/a5f4/7e09/91a94f628089/27266853709c/00761411803-p/00761411803-p.jpg?ts=1785920319753&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490612",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Gray marl - L",
+          "sku": "545490611-803-4",
+          "mpn": "545490611-803-4",
+          "color": "Gray marl",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/a5f4/7e09/91a94f628089/27266853709c/00761411803-p/00761411803-p.jpg?ts=1785920319753&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490612",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC RELAXED FIT SWEATPANTS - Gray marl - XL",
+          "sku": "545490611-803-5",
+          "mpn": "545490611-803-5",
+          "color": "Gray marl",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/a5f4/7e09/91a94f628089/27266853709c/00761411803-p/00761411803-p.jpg?ts=1785920319753&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490612",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC RELAXED FIT SWEATPANTS",
+      "product_group_id": "00761440",
+      "brand": "ZARA",
+      "description": "Relaxed fit joggers crafted in cotton fabric with a brushed interior. Wide leg. Adjustable elastic waistband with interior drawstring. Side pockets and back patch pocket detail.",
+      "material": "cotton/polyester",
+      "composition": "OUTER SHELL: 64% cotton, 36% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Black - S",
+          "sku": "545490611-800-2",
+          "mpn": "545490611-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490611",
+          "images": [
+            "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Black - M",
+          "sku": "545490611-800-3",
+          "mpn": "545490611-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490611",
+          "images": [
+            "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Black - L",
+          "sku": "545490611-800-4",
+          "mpn": "545490611-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490611",
+          "images": [
+            "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Black - XL",
+          "sku": "545490611-800-5",
+          "mpn": "545490611-800-5",
+          "color_name": "Black",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490611",
+          "images": [
+            "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Dark anthracite - S",
+          "sku": "545490611-898-2",
+          "mpn": "545490611-898-2",
+          "color_name": "Dark anthracite",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490610",
+          "images": [
+            "https://static.zara.net/assets/public/914b/d260/88844b32874d/85988506f10a/0761411898-p/0761411898-p.jpg?ts=1763992074098&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Dark anthracite - M",
+          "sku": "545490611-898-3",
+          "mpn": "545490611-898-3",
+          "color_name": "Dark anthracite",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490610",
+          "images": [
+            "https://static.zara.net/assets/public/914b/d260/88844b32874d/85988506f10a/0761411898-p/0761411898-p.jpg?ts=1763992074098&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Dark anthracite - L",
+          "sku": "545490611-898-4",
+          "mpn": "545490611-898-4",
+          "color_name": "Dark anthracite",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490610",
+          "images": [
+            "https://static.zara.net/assets/public/914b/d260/88844b32874d/85988506f10a/0761411898-p/0761411898-p.jpg?ts=1763992074098&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Dark anthracite - XL",
+          "sku": "545490611-898-5",
+          "mpn": "545490611-898-5",
+          "color_name": "Dark anthracite",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490610",
+          "images": [
+            "https://static.zara.net/assets/public/914b/d260/88844b32874d/85988506f10a/0761411898-p/0761411898-p.jpg?ts=1763992074098&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Gray marl - S",
+          "sku": "545490611-803-2",
+          "mpn": "545490611-803-2",
+          "color_name": "Gray marl",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490612",
+          "images": [
+            "https://static.zara.net/assets/public/a5f4/7e09/91a94f628089/27266853709c/00761411803-p/00761411803-p.jpg?ts=1785920319753&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Gray marl - M",
+          "sku": "545490611-803-3",
+          "mpn": "545490611-803-3",
+          "color_name": "Gray marl",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490612",
+          "images": [
+            "https://static.zara.net/assets/public/a5f4/7e09/91a94f628089/27266853709c/00761411803-p/00761411803-p.jpg?ts=1785920319753&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Gray marl - L",
+          "sku": "545490611-803-4",
+          "mpn": "545490611-803-4",
+          "color_name": "Gray marl",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490612",
+          "images": [
+            "https://static.zara.net/assets/public/a5f4/7e09/91a94f628089/27266853709c/00761411803-p/00761411803-p.jpg?ts=1785920319753&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC RELAXED FIT SWEATPANTS - Gray marl - XL",
+          "sku": "545490611-803-5",
+          "mpn": "545490611-803-5",
+          "color_name": "Gray marl",
+          "size_name": "XL",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-relaxed-fit-sweatpants-p00761440.html?v1=545490612",
+          "images": [
+            "https://static.zara.net/assets/public/a5f4/7e09/91a94f628089/27266853709c/00761411803-p/00761411803-p.jpg?ts=1785920319753&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f49a/a9e9/5db349b6937e/a89342a0f363/00761440800-p/00761440800-p.jpg?ts=1766487002282&w=1920",
+        "https://static.zara.net/assets/public/d2c7/b78f/02504a1181ed/df5c806df78e/00761440800-000-a1/00761440800-000-a1.jpg?ts=1771934853313&w=1920",
+        "https://static.zara.net/assets/public/e973/9553/76d94e50bcd4/cf44f1c617be/00761440800-000-a2/00761440800-000-a2.jpg?ts=1771934853257&w=1920",
+        "https://static.zara.net/assets/public/8d49/4f21/84054c4eac46/1c4be2113fb2/00761440800-a3/00761440800-a3.jpg?ts=1766487002269&w=1920",
+        "https://static.zara.net/assets/public/8995/8e1a/f4084980a98d/16f1ef152aaa/00761440800-a4/00761440800-a4.jpg?ts=1766487002179&w=1920",
+        "https://static.zara.net/assets/public/4842/fdd4/35a149c4a286/68453b50dce7/00761411800-e1/00761411800-e1.jpg?ts=1783939005812&w=1920",
+        "https://static.zara.net/assets/public/a172/67c8/d6a74f07bac6/59535a700899/00761411800-e2/00761411800-e2.jpg?ts=1783939000184&w=1920",
+        "https://static.zara.net/assets/public/dc3e/7eeb/deb941a1bfe0/9564a11ce164/00761411800-e3/00761411800-e3.jpg?ts=1783939000472&w=1920",
+        "https://static.zara.net/assets/public/612b/e222/c96a46f3accd/cb1f588ce56d/00761411800-e4/00761411800-e4.jpg?ts=1783939006545&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Black",
+    "Dark anthracite",
+    "Gray marl"
+  ],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nRelaxed fit joggers crafted in cotton fabric with a brushed interior. Wide leg. Adjustable elastic waistband with interior drawstring. Side pockets and back patch pocket detail.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 11,
+  "variants_count": 12,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6e578f17f7a979299d54a2ecac69c8afed5b79ef940279029aa19bcec55525ef",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,574 @@
+{
+  "product_id": "zara-us:12408820",
+  "source_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html",
+  "final_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER SHOES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER SHOES",
+      "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html",
+      "productGroupID": "12408820",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Blucher-style lace-up shoes. Leather upper. Leather insole. Round toe. Sole with a slight heel.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920",
+        "https://static.zara.net/assets/public/763a/3135/e9d245b9aa97/156f4b08948c/12408820721-a1/12408820721-a1.jpg?ts=1786373361093&w=1920",
+        "https://static.zara.net/assets/public/8b92/c3b6/ac644e30aa61/bdbea021626e/12408820721-a3/12408820721-a3.jpg?ts=1786373360676&w=1920",
+        "https://static.zara.net/assets/public/6379/e7b9/2125416aa102/381d384a3e7e/12408820721-e1/12408820721-e1.jpg?ts=1784648658072&w=1920",
+        "https://static.zara.net/assets/public/9234/ca73/29674be6b6de/05f0ea93bcf0/12408820721-e2/12408820721-e2.jpg?ts=1784648658858&w=1920",
+        "https://static.zara.net/assets/public/83d9/df39/379d4f53b71e/9c44ed6b74a2/12408820721-e3/12408820721-e3.jpg?ts=1784648658916&w=1920",
+        "https://static.zara.net/assets/public/8692/d14c/e0ef4e17b794/06bc10b1b148/12408820721-e4/12408820721-e4.jpg?ts=1784648657984&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Chocolate - 6",
+          "sku": "549823870-721-39",
+          "mpn": "549823870-721-39",
+          "color": "Chocolate",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Chocolate - 7",
+          "sku": "549823870-721-40",
+          "mpn": "549823870-721-40",
+          "color": "Chocolate",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Chocolate - 8",
+          "sku": "549823870-721-41",
+          "mpn": "549823870-721-41",
+          "color": "Chocolate",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Chocolate - 9",
+          "sku": "549823870-721-42",
+          "mpn": "549823870-721-42",
+          "color": "Chocolate",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Chocolate - 10",
+          "sku": "549823870-721-43",
+          "mpn": "549823870-721-43",
+          "color": "Chocolate",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Chocolate - 11",
+          "sku": "549823870-721-44",
+          "mpn": "549823870-721-44",
+          "color": "Chocolate",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Chocolate - 12",
+          "sku": "549823870-721-45",
+          "mpn": "549823870-721-45",
+          "color": "Chocolate",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Black - 6",
+          "sku": "549823870-800-39",
+          "mpn": "549823870-800-39",
+          "color": "Black",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Black - 7",
+          "sku": "549823870-800-40",
+          "mpn": "549823870-800-40",
+          "color": "Black",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Black - 8",
+          "sku": "549823870-800-41",
+          "mpn": "549823870-800-41",
+          "color": "Black",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Black - 9",
+          "sku": "549823870-800-42",
+          "mpn": "549823870-800-42",
+          "color": "Black",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Black - 10",
+          "sku": "549823870-800-43",
+          "mpn": "549823870-800-43",
+          "color": "Black",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Black - 11",
+          "sku": "549823870-800-44",
+          "mpn": "549823870-800-44",
+          "color": "Black",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SHOES - Black - 12",
+          "sku": "549823870-800-45",
+          "mpn": "549823870-800-45",
+          "color": "Black",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER SHOES",
+      "product_group_id": "12408820",
+      "brand": "ZARA",
+      "description": "Blucher-style lace-up shoes. Leather upper. Leather insole. Round toe. Sole with a slight heel.",
+      "material": "100% cow leather",
+      "composition": "UPPER: 100% cow leather | LINING: 100% polyester | SOLE: 100% polyurethane thermoplastic | INSOLE: 100% cow leather | TONGUE: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER SHOES - Chocolate - 6",
+          "sku": "549823870-721-39",
+          "mpn": "549823870-721-39",
+          "color_name": "Chocolate",
+          "size_name": "6",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+          "images": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Chocolate - 7",
+          "sku": "549823870-721-40",
+          "mpn": "549823870-721-40",
+          "color_name": "Chocolate",
+          "size_name": "7",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+          "images": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Chocolate - 8",
+          "sku": "549823870-721-41",
+          "mpn": "549823870-721-41",
+          "color_name": "Chocolate",
+          "size_name": "8",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+          "images": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Chocolate - 9",
+          "sku": "549823870-721-42",
+          "mpn": "549823870-721-42",
+          "color_name": "Chocolate",
+          "size_name": "9",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+          "images": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Chocolate - 10",
+          "sku": "549823870-721-43",
+          "mpn": "549823870-721-43",
+          "color_name": "Chocolate",
+          "size_name": "10",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+          "images": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Chocolate - 11",
+          "sku": "549823870-721-44",
+          "mpn": "549823870-721-44",
+          "color_name": "Chocolate",
+          "size_name": "11",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+          "images": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Chocolate - 12",
+          "sku": "549823870-721-45",
+          "mpn": "549823870-721-45",
+          "color_name": "Chocolate",
+          "size_name": "12",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823870",
+          "images": [
+            "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Black - 6",
+          "sku": "549823870-800-39",
+          "mpn": "549823870-800-39",
+          "color_name": "Black",
+          "size_name": "6",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+          "images": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Black - 7",
+          "sku": "549823870-800-40",
+          "mpn": "549823870-800-40",
+          "color_name": "Black",
+          "size_name": "7",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+          "images": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Black - 8",
+          "sku": "549823870-800-41",
+          "mpn": "549823870-800-41",
+          "color_name": "Black",
+          "size_name": "8",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+          "images": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Black - 9",
+          "sku": "549823870-800-42",
+          "mpn": "549823870-800-42",
+          "color_name": "Black",
+          "size_name": "9",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+          "images": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Black - 10",
+          "sku": "549823870-800-43",
+          "mpn": "549823870-800-43",
+          "color_name": "Black",
+          "size_name": "10",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+          "images": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Black - 11",
+          "sku": "549823870-800-44",
+          "mpn": "549823870-800-44",
+          "color_name": "Black",
+          "size_name": "11",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+          "images": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SHOES - Black - 12",
+          "sku": "549823870-800-45",
+          "mpn": "549823870-800-45",
+          "color_name": "Black",
+          "size_name": "12",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-shoes-p12408820.html?v1=549823871",
+          "images": [
+            "https://static.zara.net/assets/public/c964/02d6/2c6a45c9b254/7107c91e7009/12408820800-a2/12408820800-a2.jpg?ts=1786373356347&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b7f2/17a7/2e1e4d87a9ab/06ac52a67935/12408820721-a2/12408820721-a2.jpg?ts=1786373361207&w=1920",
+        "https://static.zara.net/assets/public/763a/3135/e9d245b9aa97/156f4b08948c/12408820721-a1/12408820721-a1.jpg?ts=1786373361093&w=1920",
+        "https://static.zara.net/assets/public/8b92/c3b6/ac644e30aa61/bdbea021626e/12408820721-a3/12408820721-a3.jpg?ts=1786373360676&w=1920",
+        "https://static.zara.net/assets/public/6379/e7b9/2125416aa102/381d384a3e7e/12408820721-e1/12408820721-e1.jpg?ts=1784648658072&w=1920",
+        "https://static.zara.net/assets/public/9234/ca73/29674be6b6de/05f0ea93bcf0/12408820721-e2/12408820721-e2.jpg?ts=1784648658858&w=1920",
+        "https://static.zara.net/assets/public/83d9/df39/379d4f53b71e/9c44ed6b74a2/12408820721-e3/12408820721-e3.jpg?ts=1784648658916&w=1920",
+        "https://static.zara.net/assets/public/8692/d14c/e0ef4e17b794/06bc10b1b148/12408820721-e4/12408820721-e4.jpg?ts=1784648657984&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Chocolate",
+    "Black"
+  ],
+  "rendered_price": "129.00",
+  "rendered_description": "Description\nBlucher-style lace-up shoes. Leather upper. Leather insole. Round toe. Sole with a slight heel.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 14,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "129.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "129.00",
+    "dom_price": "129.00",
+    "normalized_price": "129.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "18421635a788c425878b7b9a7fff7367e2995539a7b14ecd74b23b825ec88afe",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

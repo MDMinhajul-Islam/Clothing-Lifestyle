@@ -1,0 +1,342 @@
+{
+  "product_id": "zara-us:12487820",
+  "source_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html",
+  "final_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER CLOGS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER CLOGS",
+      "url": "https://www.zara.com/us/en/leather-clogs-p12487820.html",
+      "productGroupID": "12487820",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leather clogs. Smooth upper. Padded leather insole. Square toe. Contrasting sole with a slight heel.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920",
+        "https://static.zara.net/assets/public/155e/1ea9/61a64112bff3/67bbd448762e/12487820624-a1/12487820624-a1.jpg?ts=1780988424179&w=1920",
+        "https://static.zara.net/assets/public/b6ed/cb96/dc30415f97fc/82278e0eee49/12487820624-a3/12487820624-a3.jpg?ts=1780988425226&w=1920",
+        "https://static.zara.net/assets/public/231a/c437/15804d368fc5/47f782c4214e/12487820624-e1/12487820624-e1.jpg?ts=1784215468067&w=1920",
+        "https://static.zara.net/assets/public/1beb/8869/3c1648c9a809/db557842e659/12487820624-e2/12487820624-e2.jpg?ts=1784215468164&w=1920",
+        "https://static.zara.net/assets/public/10fb/0b21/a9b44ad8b01b/975ae5275fda/12487820624-e3/12487820624-e3.jpg?ts=1784215467218&w=1920",
+        "https://static.zara.net/assets/public/a72c/0976/124945668d86/58017478094d/12487820624-e4/12487820624-e4.jpg?ts=1784215469013&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "88% sbs, 12% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Burgundy Red - 6",
+          "sku": "545485986-624-39",
+          "mpn": "545485986-624-39",
+          "color": "Burgundy Red",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Burgundy Red - 7",
+          "sku": "545485986-624-40",
+          "mpn": "545485986-624-40",
+          "color": "Burgundy Red",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Burgundy Red - 8",
+          "sku": "545485986-624-41",
+          "mpn": "545485986-624-41",
+          "color": "Burgundy Red",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Burgundy Red - 9",
+          "sku": "545485986-624-42",
+          "mpn": "545485986-624-42",
+          "color": "Burgundy Red",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Burgundy Red - 10",
+          "sku": "545485986-624-43",
+          "mpn": "545485986-624-43",
+          "color": "Burgundy Red",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Burgundy Red - 11",
+          "sku": "545485986-624-44",
+          "mpn": "545485986-624-44",
+          "color": "Burgundy Red",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Burgundy Red - 12",
+          "sku": "545485986-624-45",
+          "mpn": "545485986-624-45",
+          "color": "Burgundy Red",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER CLOGS",
+      "product_group_id": "12487820",
+      "brand": "ZARA",
+      "description": "Leather clogs. Smooth upper. Padded leather insole. Square toe. Contrasting sole with a slight heel.",
+      "material": "100% cow leather",
+      "composition": "UPPER: 100% cow leather | LINING: 100% cow leather | SOLE: 88% sbs, 12% polyurethane thermoplastic | INSOLE: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER CLOGS - Burgundy Red - 6",
+          "sku": "545485986-624-39",
+          "mpn": "545485986-624-39",
+          "color_name": "Burgundy Red",
+          "size_name": "6",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+          "images": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Burgundy Red - 7",
+          "sku": "545485986-624-40",
+          "mpn": "545485986-624-40",
+          "color_name": "Burgundy Red",
+          "size_name": "7",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+          "images": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Burgundy Red - 8",
+          "sku": "545485986-624-41",
+          "mpn": "545485986-624-41",
+          "color_name": "Burgundy Red",
+          "size_name": "8",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+          "images": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Burgundy Red - 9",
+          "sku": "545485986-624-42",
+          "mpn": "545485986-624-42",
+          "color_name": "Burgundy Red",
+          "size_name": "9",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+          "images": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Burgundy Red - 10",
+          "sku": "545485986-624-43",
+          "mpn": "545485986-624-43",
+          "color_name": "Burgundy Red",
+          "size_name": "10",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+          "images": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Burgundy Red - 11",
+          "sku": "545485986-624-44",
+          "mpn": "545485986-624-44",
+          "color_name": "Burgundy Red",
+          "size_name": "11",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+          "images": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Burgundy Red - 12",
+          "sku": "545485986-624-45",
+          "mpn": "545485986-624-45",
+          "color_name": "Burgundy Red",
+          "size_name": "12",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p12487820.html?v1=545485986",
+          "images": [
+            "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e607/3252/dae34fe99310/a461f385488d/12487820624-a2/12487820624-a2.jpg?ts=1780988424309&w=1920",
+        "https://static.zara.net/assets/public/155e/1ea9/61a64112bff3/67bbd448762e/12487820624-a1/12487820624-a1.jpg?ts=1780988424179&w=1920",
+        "https://static.zara.net/assets/public/b6ed/cb96/dc30415f97fc/82278e0eee49/12487820624-a3/12487820624-a3.jpg?ts=1780988425226&w=1920",
+        "https://static.zara.net/assets/public/231a/c437/15804d368fc5/47f782c4214e/12487820624-e1/12487820624-e1.jpg?ts=1784215468067&w=1920",
+        "https://static.zara.net/assets/public/1beb/8869/3c1648c9a809/db557842e659/12487820624-e2/12487820624-e2.jpg?ts=1784215468164&w=1920",
+        "https://static.zara.net/assets/public/10fb/0b21/a9b44ad8b01b/975ae5275fda/12487820624-e3/12487820624-e3.jpg?ts=1784215467218&w=1920",
+        "https://static.zara.net/assets/public/a72c/0976/124945668d86/58017478094d/12487820624-e4/12487820624-e4.jpg?ts=1784215469013&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nLeather clogs. Smooth upper. Padded leather insole. Square toe. Contrasting sole with a slight heel.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 7,
+  "variants_count": 7,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "76d2f79455d77d7b6047793c3a835f1eda447afbdd81518b25150a12ffa5d30c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

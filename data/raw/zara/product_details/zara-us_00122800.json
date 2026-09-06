@@ -1,0 +1,493 @@
+{
+  "product_id": "zara-us:00122800",
+  "source_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html",
+  "final_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html",
+  "canonical_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RELAXED FIT BELTED PLEATED PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RELAXED FIT BELTED PLEATED PANTS",
+      "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html",
+      "productGroupID": "00122800",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit pants made of a fluid lyocell and cotton blend fabric. Elastic waist with an adjustable matching fabric belt. Front pleats. Front pockets and patch back pockets. Front zip and button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920",
+        "https://static.zara.net/assets/public/5a7f/a764/1f9a408ca6ac/cfdf58c77e41/00122800306-a1/00122800306-a1.jpg?ts=1785318342857&w=1920",
+        "https://static.zara.net/assets/public/9b5d/b501/cc0e47c4a1da/c67aeb0a6daf/00122800306-a2/00122800306-a2.jpg?ts=1785318345865&w=1920",
+        "https://static.zara.net/assets/public/b0b2/ac2f/1ab64f02bed7/28d63081a246/00122800306-a3/00122800306-a3.jpg?ts=1785318344751&w=1920",
+        "https://static.zara.net/assets/public/cf9e/29a5/5fbd4ebaa2aa/5e2eb108eed8/00122800306-a4/00122800306-a4.jpg?ts=1785318345880&w=1920",
+        "https://static.zara.net/assets/public/f92e/c7ad/6fe140a38372/4b80ab54c8e3/00122800306-a5/00122800306-a5.jpg?ts=1785318346131&w=1920",
+        "https://static.zara.net/assets/public/e2ac/656d/bf5e45b4a45d/e7a9327b749a/00122800306-e1/00122800306-e1.jpg?ts=1785320099119&w=1920",
+        "https://static.zara.net/assets/public/737d/c4ea/d4f54cb59a4a/5bb1b6e65b5e/00122800306-e2/00122800306-e2.jpg?ts=1785320100764&w=1920",
+        "https://static.zara.net/assets/public/8a3e/efda/0314470ba8fd/c854031ac68c/00122800306-e3/00122800306-e3.jpg?ts=1785320100239&w=1920",
+        "https://static.zara.net/assets/public/13d2/4a5b/ffb044a8b574/1a9e93ad2ddd/00122800306-e4/00122800306-e4.jpg?ts=1785320100161&w=1920"
+      ],
+      "material": "lyocell/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "51% lyocell, 49% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light yellow - S",
+          "sku": "548984792-306-2",
+          "mpn": "548984792-306-2",
+          "color": "Light yellow",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light yellow - M",
+          "sku": "548984792-306-3",
+          "mpn": "548984792-306-3",
+          "color": "Light yellow",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light yellow - L",
+          "sku": "548984792-306-4",
+          "mpn": "548984792-306-4",
+          "color": "Light yellow",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light yellow - XL",
+          "sku": "548984792-306-5",
+          "mpn": "548984792-306-5",
+          "color": "Light yellow",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light gray - S",
+          "sku": "548984792-811-2",
+          "mpn": "548984792-811-2",
+          "color": "Light gray",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/25b4/e067/13ba4fcaa5f5/4ae3059bf417/00122800811-p/00122800811-p.jpg?ts=1785318345041&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984790",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light gray - M",
+          "sku": "548984792-811-3",
+          "mpn": "548984792-811-3",
+          "color": "Light gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/25b4/e067/13ba4fcaa5f5/4ae3059bf417/00122800811-p/00122800811-p.jpg?ts=1785318345041&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984790",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light gray - L",
+          "sku": "548984792-811-4",
+          "mpn": "548984792-811-4",
+          "color": "Light gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/25b4/e067/13ba4fcaa5f5/4ae3059bf417/00122800811-p/00122800811-p.jpg?ts=1785318345041&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984790",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light gray - XL",
+          "sku": "548984792-811-5",
+          "mpn": "548984792-811-5",
+          "color": "Light gray",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/25b4/e067/13ba4fcaa5f5/4ae3059bf417/00122800811-p/00122800811-p.jpg?ts=1785318345041&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984790",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Brown / Taupe - S",
+          "sku": "548984792-737-2",
+          "mpn": "548984792-737-2",
+          "color": "Brown / Taupe",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/166d/5a49/74524121836c/938f5dc6cf2d/00122800737-p/00122800737-p.jpg?ts=1785318340673&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Brown / Taupe - M",
+          "sku": "548984792-737-3",
+          "mpn": "548984792-737-3",
+          "color": "Brown / Taupe",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/166d/5a49/74524121836c/938f5dc6cf2d/00122800737-p/00122800737-p.jpg?ts=1785318340673&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Brown / Taupe - L",
+          "sku": "548984792-737-4",
+          "mpn": "548984792-737-4",
+          "color": "Brown / Taupe",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/166d/5a49/74524121836c/938f5dc6cf2d/00122800737-p/00122800737-p.jpg?ts=1785318340673&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Brown / Taupe - XL",
+          "sku": "548984792-737-5",
+          "mpn": "548984792-737-5",
+          "color": "Brown / Taupe",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/166d/5a49/74524121836c/938f5dc6cf2d/00122800737-p/00122800737-p.jpg?ts=1785318340673&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RELAXED FIT BELTED PLEATED PANTS",
+      "product_group_id": "00122800",
+      "brand": "ZARA",
+      "description": "Relaxed fit pants made of a fluid lyocell and cotton blend fabric. Elastic waist with an adjustable matching fabric belt. Front pleats. Front pockets and patch back pockets. Front zip and button closure.",
+      "material": "lyocell/cotton",
+      "composition": "OUTER SHELL: 51% lyocell, 49% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light yellow - S",
+          "sku": "548984792-306-2",
+          "mpn": "548984792-306-2",
+          "color_name": "Light yellow",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984792",
+          "images": [
+            "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light yellow - M",
+          "sku": "548984792-306-3",
+          "mpn": "548984792-306-3",
+          "color_name": "Light yellow",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984792",
+          "images": [
+            "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light yellow - L",
+          "sku": "548984792-306-4",
+          "mpn": "548984792-306-4",
+          "color_name": "Light yellow",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984792",
+          "images": [
+            "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light yellow - XL",
+          "sku": "548984792-306-5",
+          "mpn": "548984792-306-5",
+          "color_name": "Light yellow",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984792",
+          "images": [
+            "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light gray - S",
+          "sku": "548984792-811-2",
+          "mpn": "548984792-811-2",
+          "color_name": "Light gray",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984790",
+          "images": [
+            "https://static.zara.net/assets/public/25b4/e067/13ba4fcaa5f5/4ae3059bf417/00122800811-p/00122800811-p.jpg?ts=1785318345041&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light gray - M",
+          "sku": "548984792-811-3",
+          "mpn": "548984792-811-3",
+          "color_name": "Light gray",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984790",
+          "images": [
+            "https://static.zara.net/assets/public/25b4/e067/13ba4fcaa5f5/4ae3059bf417/00122800811-p/00122800811-p.jpg?ts=1785318345041&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light gray - L",
+          "sku": "548984792-811-4",
+          "mpn": "548984792-811-4",
+          "color_name": "Light gray",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984790",
+          "images": [
+            "https://static.zara.net/assets/public/25b4/e067/13ba4fcaa5f5/4ae3059bf417/00122800811-p/00122800811-p.jpg?ts=1785318345041&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Light gray - XL",
+          "sku": "548984792-811-5",
+          "mpn": "548984792-811-5",
+          "color_name": "Light gray",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984790",
+          "images": [
+            "https://static.zara.net/assets/public/25b4/e067/13ba4fcaa5f5/4ae3059bf417/00122800811-p/00122800811-p.jpg?ts=1785318345041&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Brown / Taupe - S",
+          "sku": "548984792-737-2",
+          "mpn": "548984792-737-2",
+          "color_name": "Brown / Taupe",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984793",
+          "images": [
+            "https://static.zara.net/assets/public/166d/5a49/74524121836c/938f5dc6cf2d/00122800737-p/00122800737-p.jpg?ts=1785318340673&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Brown / Taupe - M",
+          "sku": "548984792-737-3",
+          "mpn": "548984792-737-3",
+          "color_name": "Brown / Taupe",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984793",
+          "images": [
+            "https://static.zara.net/assets/public/166d/5a49/74524121836c/938f5dc6cf2d/00122800737-p/00122800737-p.jpg?ts=1785318340673&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Brown / Taupe - L",
+          "sku": "548984792-737-4",
+          "mpn": "548984792-737-4",
+          "color_name": "Brown / Taupe",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984793",
+          "images": [
+            "https://static.zara.net/assets/public/166d/5a49/74524121836c/938f5dc6cf2d/00122800737-p/00122800737-p.jpg?ts=1785318340673&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT BELTED PLEATED PANTS - Brown / Taupe - XL",
+          "sku": "548984792-737-5",
+          "mpn": "548984792-737-5",
+          "color_name": "Brown / Taupe",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-pleated-belted-pants-p00122800.html?v1=548984793",
+          "images": [
+            "https://static.zara.net/assets/public/166d/5a49/74524121836c/938f5dc6cf2d/00122800737-p/00122800737-p.jpg?ts=1785318340673&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9f79/306c/46294ad696c6/4a4dd05795aa/00122800306-p/00122800306-p.jpg?ts=1785318345537&w=1920",
+        "https://static.zara.net/assets/public/5a7f/a764/1f9a408ca6ac/cfdf58c77e41/00122800306-a1/00122800306-a1.jpg?ts=1785318342857&w=1920",
+        "https://static.zara.net/assets/public/9b5d/b501/cc0e47c4a1da/c67aeb0a6daf/00122800306-a2/00122800306-a2.jpg?ts=1785318345865&w=1920",
+        "https://static.zara.net/assets/public/b0b2/ac2f/1ab64f02bed7/28d63081a246/00122800306-a3/00122800306-a3.jpg?ts=1785318344751&w=1920",
+        "https://static.zara.net/assets/public/cf9e/29a5/5fbd4ebaa2aa/5e2eb108eed8/00122800306-a4/00122800306-a4.jpg?ts=1785318345880&w=1920",
+        "https://static.zara.net/assets/public/f92e/c7ad/6fe140a38372/4b80ab54c8e3/00122800306-a5/00122800306-a5.jpg?ts=1785318346131&w=1920",
+        "https://static.zara.net/assets/public/e2ac/656d/bf5e45b4a45d/e7a9327b749a/00122800306-e1/00122800306-e1.jpg?ts=1785320099119&w=1920",
+        "https://static.zara.net/assets/public/737d/c4ea/d4f54cb59a4a/5bb1b6e65b5e/00122800306-e2/00122800306-e2.jpg?ts=1785320100764&w=1920",
+        "https://static.zara.net/assets/public/8a3e/efda/0314470ba8fd/c854031ac68c/00122800306-e3/00122800306-e3.jpg?ts=1785320100239&w=1920",
+        "https://static.zara.net/assets/public/13d2/4a5b/ffb044a8b574/1a9e93ad2ddd/00122800306-e4/00122800306-e4.jpg?ts=1785320100161&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Light yellow",
+    "Light gray",
+    "Brown / Taupe"
+  ],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed fit pants made of a fluid lyocell and cotton blend fabric. Elastic waist with an adjustable matching fabric belt. Front pleats. Front pockets and patch back pockets. Front zip and button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 12,
+  "variants_count": 12,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8db927494a86f55490d70012eda291e783deaecf955e7466f8a62c863d5e86a7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

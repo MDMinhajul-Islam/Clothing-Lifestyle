@@ -1,0 +1,365 @@
+{
+  "product_id": "zara-us:00706777",
+  "source_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html",
+  "final_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html",
+  "canonical_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COTTON-LINEN PLEATED CHINO PANTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COTTON-LINEN PLEATED CHINO PANTS",
+      "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html",
+      "productGroupID": "00706777",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed-fit pants crafted from a cotton and linen blend fabric. Features a waist with double front pleats. Front pockets and back welt pocket detailing. Slightly washed effect. Front zip fly and button fastening.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920",
+        "https://static.zara.net/assets/public/2636/2366/004a42eba771/d973a1e7700b/00706777505-a1/00706777505-a1.jpg?ts=1786537993876&w=1920",
+        "https://static.zara.net/assets/public/7137/92a7/1ca8458aa035/e6d13198010c/00706777505-a2/00706777505-a2.jpg?ts=1786537994647&w=1920",
+        "https://static.zara.net/assets/public/a77a/9a00/e7df4ae6b2a2/f7056551903a/00706777505-a3/00706777505-a3.jpg?ts=1786537989098&w=1920",
+        "https://static.zara.net/assets/public/172c/0c6f/b99e493ca71e/a18a93f5506b/00706777505-a4/00706777505-a4.jpg?ts=1786537989857&w=1920",
+        "https://static.zara.net/assets/public/77e6/53ee/502d47e3a2cf/0a460ccad8be/00706777505-a5/00706777505-a5.jpg?ts=1786537994353&w=1920",
+        "https://static.zara.net/assets/public/d09c/73c8/14c344479648/abcd82d74974/00706777505-e1/00706777505-e1.jpg?ts=1786359835503&w=1920",
+        "https://static.zara.net/assets/public/87f7/30ca/58fa4399ad22/832a4aef184c/00706777505-e2/00706777505-e2.jpg?ts=1786359834897&w=1920",
+        "https://static.zara.net/assets/public/72aa/1ccc/689b4a3c99cc/9001b24834da/00706777505-e3/00706777505-e3.jpg?ts=1786359835595&w=1920",
+        "https://static.zara.net/assets/public/1057/4a09/225142e1beb5/d15875c77876/00706777505-e4/00706777505-e4.jpg?ts=1786351591341&w=1920"
+      ],
+      "material": "cotton/linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "73% cotton, 27% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Khaki - 30 (US 30)",
+          "sku": "560807112-505-38",
+          "mpn": "560807112-505-38",
+          "color": "Khaki",
+          "size": "30 (US 30)",
+          "image": [
+            "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807112",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Khaki - 31 (US 31)",
+          "sku": "560807112-505-40",
+          "mpn": "560807112-505-40",
+          "color": "Khaki",
+          "size": "31 (US 31)",
+          "image": [
+            "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807112",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Khaki - 32 (US 32)",
+          "sku": "560807112-505-42",
+          "mpn": "560807112-505-42",
+          "color": "Khaki",
+          "size": "32 (US 32)",
+          "image": [
+            "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807112",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Khaki - 34 (US 34)",
+          "sku": "560807112-505-44",
+          "mpn": "560807112-505-44",
+          "color": "Khaki",
+          "size": "34 (US 34)",
+          "image": [
+            "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807112",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Sea green - 30 (US 30)",
+          "sku": "560807112-982-38",
+          "mpn": "560807112-982-38",
+          "color": "Sea green",
+          "size": "30 (US 30)",
+          "image": [
+            "https://static.zara.net/assets/public/3e1b/608a/fc3f4b55b425/fa8e0b4da703/00706777982-p/00706777982-p.jpg?ts=1786538001835&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807111",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Sea green - 31 (US 31)",
+          "sku": "560807112-982-40",
+          "mpn": "560807112-982-40",
+          "color": "Sea green",
+          "size": "31 (US 31)",
+          "image": [
+            "https://static.zara.net/assets/public/3e1b/608a/fc3f4b55b425/fa8e0b4da703/00706777982-p/00706777982-p.jpg?ts=1786538001835&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807111",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Sea green - 32 (US 32)",
+          "sku": "560807112-982-42",
+          "mpn": "560807112-982-42",
+          "color": "Sea green",
+          "size": "32 (US 32)",
+          "image": [
+            "https://static.zara.net/assets/public/3e1b/608a/fc3f4b55b425/fa8e0b4da703/00706777982-p/00706777982-p.jpg?ts=1786538001835&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807111",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Sea green - 34 (US 34)",
+          "sku": "560807112-982-44",
+          "mpn": "560807112-982-44",
+          "color": "Sea green",
+          "size": "34 (US 34)",
+          "image": [
+            "https://static.zara.net/assets/public/3e1b/608a/fc3f4b55b425/fa8e0b4da703/00706777982-p/00706777982-p.jpg?ts=1786538001835&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807111",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COTTON-LINEN PLEATED CHINO PANTS",
+      "product_group_id": "00706777",
+      "brand": "ZARA",
+      "description": "Relaxed-fit pants crafted from a cotton and linen blend fabric. Features a waist with double front pleats. Front pockets and back welt pocket detailing. Slightly washed effect. Front zip fly and button fastening.",
+      "material": "cotton/linen",
+      "composition": "OUTER SHELL: 73% cotton, 27% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Khaki - 30 (US 30)",
+          "sku": "560807112-505-38",
+          "mpn": "560807112-505-38",
+          "color_name": "Khaki",
+          "size_name": "30 (US 30)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807112",
+          "images": [
+            "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Khaki - 31 (US 31)",
+          "sku": "560807112-505-40",
+          "mpn": "560807112-505-40",
+          "color_name": "Khaki",
+          "size_name": "31 (US 31)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807112",
+          "images": [
+            "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Khaki - 32 (US 32)",
+          "sku": "560807112-505-42",
+          "mpn": "560807112-505-42",
+          "color_name": "Khaki",
+          "size_name": "32 (US 32)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807112",
+          "images": [
+            "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Khaki - 34 (US 34)",
+          "sku": "560807112-505-44",
+          "mpn": "560807112-505-44",
+          "color_name": "Khaki",
+          "size_name": "34 (US 34)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807112",
+          "images": [
+            "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Sea green - 30 (US 30)",
+          "sku": "560807112-982-38",
+          "mpn": "560807112-982-38",
+          "color_name": "Sea green",
+          "size_name": "30 (US 30)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807111",
+          "images": [
+            "https://static.zara.net/assets/public/3e1b/608a/fc3f4b55b425/fa8e0b4da703/00706777982-p/00706777982-p.jpg?ts=1786538001835&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Sea green - 31 (US 31)",
+          "sku": "560807112-982-40",
+          "mpn": "560807112-982-40",
+          "color_name": "Sea green",
+          "size_name": "31 (US 31)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807111",
+          "images": [
+            "https://static.zara.net/assets/public/3e1b/608a/fc3f4b55b425/fa8e0b4da703/00706777982-p/00706777982-p.jpg?ts=1786538001835&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Sea green - 32 (US 32)",
+          "sku": "560807112-982-42",
+          "mpn": "560807112-982-42",
+          "color_name": "Sea green",
+          "size_name": "32 (US 32)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807111",
+          "images": [
+            "https://static.zara.net/assets/public/3e1b/608a/fc3f4b55b425/fa8e0b4da703/00706777982-p/00706777982-p.jpg?ts=1786538001835&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN PLEATED CHINO PANTS - Sea green - 34 (US 34)",
+          "sku": "560807112-982-44",
+          "mpn": "560807112-982-44",
+          "color_name": "Sea green",
+          "size_name": "34 (US 34)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-pleated-chino-pants-p00706777.html?v1=560807111",
+          "images": [
+            "https://static.zara.net/assets/public/3e1b/608a/fc3f4b55b425/fa8e0b4da703/00706777982-p/00706777982-p.jpg?ts=1786538001835&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/da76/a1b7/a2df473fbede/4378d6fa47b4/00706777505-p/00706777505-p.jpg?ts=1786537996835&w=1920",
+        "https://static.zara.net/assets/public/2636/2366/004a42eba771/d973a1e7700b/00706777505-a1/00706777505-a1.jpg?ts=1786537993876&w=1920",
+        "https://static.zara.net/assets/public/7137/92a7/1ca8458aa035/e6d13198010c/00706777505-a2/00706777505-a2.jpg?ts=1786537994647&w=1920",
+        "https://static.zara.net/assets/public/a77a/9a00/e7df4ae6b2a2/f7056551903a/00706777505-a3/00706777505-a3.jpg?ts=1786537989098&w=1920",
+        "https://static.zara.net/assets/public/172c/0c6f/b99e493ca71e/a18a93f5506b/00706777505-a4/00706777505-a4.jpg?ts=1786537989857&w=1920",
+        "https://static.zara.net/assets/public/77e6/53ee/502d47e3a2cf/0a460ccad8be/00706777505-a5/00706777505-a5.jpg?ts=1786537994353&w=1920",
+        "https://static.zara.net/assets/public/d09c/73c8/14c344479648/abcd82d74974/00706777505-e1/00706777505-e1.jpg?ts=1786359835503&w=1920",
+        "https://static.zara.net/assets/public/87f7/30ca/58fa4399ad22/832a4aef184c/00706777505-e2/00706777505-e2.jpg?ts=1786359834897&w=1920",
+        "https://static.zara.net/assets/public/72aa/1ccc/689b4a3c99cc/9001b24834da/00706777505-e3/00706777505-e3.jpg?ts=1786359835595&w=1920",
+        "https://static.zara.net/assets/public/1057/4a09/225142e1beb5/d15875c77876/00706777505-e4/00706777505-e4.jpg?ts=1786351591341&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Khaki",
+    "Sea green"
+  ],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed-fit pants crafted from a cotton and linen blend fabric. Features a waist with double front pleats. Front pockets and back welt pocket detailing. Slightly washed effect. Front zip fly and button fastening.",
+  "comp_care_text": null,
+  "raw_images_count": 14,
+  "valid_images_count": 11,
+  "variants_count": 8,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "da91a4104bab8076f9f688eb9850f96bb9c0c4f5e0388d0a73b3ce92e1820a52",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

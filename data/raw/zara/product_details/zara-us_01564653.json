@@ -1,0 +1,235 @@
+{
+  "product_id": "zara-us:01564653",
+  "source_url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html",
+  "final_url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED PLEATED RELAXED FIT PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED PLEATED RELAXED FIT PANTS",
+      "url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html",
+      "productGroupID": "01564653",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit pants made of wool blend fabric. Front pockets and back double welt pockets. Front crossover zip and hidden metal hook closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920",
+        "https://static.zara.net/assets/public/f46f/165e/163848fb9ad6/312c38fc2988/01564653802-a1/01564653802-a1.jpg?ts=1785338785920&w=1920",
+        "https://static.zara.net/assets/public/3a01/cef0/60bd4305924a/1192bc7e4bca/01564653802-a2/01564653802-a2.jpg?ts=1785338786714&w=1920",
+        "https://static.zara.net/assets/public/4721/c143/e5a84448aa49/0b11a989fd50/01564653802-a3/01564653802-a3.jpg?ts=1785338786704&w=1920",
+        "https://static.zara.net/assets/public/22de/7420/b8504246b517/7639fd57001d/01564653802-a4/01564653802-a4.jpg?ts=1785338784995&w=1920",
+        "https://static.zara.net/assets/public/6d61/c734/6ecb48808799/e114cb0dfd4b/01564653802-a5/01564653802-a5.jpg?ts=1785338784925&w=1920",
+        "https://static.zara.net/assets/public/6b12/feb1/77274475b544/d2f4b4e1650e/01564653802-a6/01564653802-a6.jpg?ts=1785338785466&w=1920",
+        "https://static.zara.net/assets/public/5f18/444e/a81841abb0a9/24aaa4db96b4/01564653802-e1/01564653802-e1.jpg?ts=1783958555214&w=1920",
+        "https://static.zara.net/assets/public/6300/1343/1b4945718e69/388144f06f40/01564653802-e2/01564653802-e2.jpg?ts=1783958555266&w=1920",
+        "https://static.zara.net/assets/public/469f/4476/d63f4da89368/5846b395be26/01564653802-e3/01564653802-e3.jpg?ts=1783958554970&w=1920",
+        "https://static.zara.net/assets/public/1392/75dc/9e8941a7b270/0f7fb635a23f/01564653802-e4/01564653802-e4.jpg?ts=1783958555651&w=1920"
+      ],
+      "material": "polyester/wool",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "59% polyester, 41% wool"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED RELAXED FIT PANTS - Gray - 30 (US 30)",
+          "sku": "555844597-802-38",
+          "mpn": "555844597-802-38",
+          "color": "Gray",
+          "size": "30 (US 30)",
+          "image": [
+            "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html?v1=555844597",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED RELAXED FIT PANTS - Gray - 31 (US 31)",
+          "sku": "555844597-802-40",
+          "mpn": "555844597-802-40",
+          "color": "Gray",
+          "size": "31 (US 31)",
+          "image": [
+            "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html?v1=555844597",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED RELAXED FIT PANTS - Gray - 32 (US 32)",
+          "sku": "555844597-802-42",
+          "mpn": "555844597-802-42",
+          "color": "Gray",
+          "size": "32 (US 32)",
+          "image": [
+            "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html?v1=555844597",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED RELAXED FIT PANTS - Gray - 34 (US 34)",
+          "sku": "555844597-802-44",
+          "mpn": "555844597-802-44",
+          "color": "Gray",
+          "size": "34 (US 34)",
+          "image": [
+            "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html?v1=555844597",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED PLEATED RELAXED FIT PANTS",
+      "product_group_id": "01564653",
+      "brand": "ZARA",
+      "description": "Relaxed fit pants made of wool blend fabric. Front pockets and back double welt pockets. Front crossover zip and hidden metal hook closure.",
+      "material": "polyester/wool",
+      "composition": "OUTER SHELL: 59% polyester, 41% wool",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED PLEATED RELAXED FIT PANTS - Gray - 30 (US 30)",
+          "sku": "555844597-802-38",
+          "mpn": "555844597-802-38",
+          "color_name": "Gray",
+          "size_name": "30 (US 30)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html?v1=555844597",
+          "images": [
+            "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED RELAXED FIT PANTS - Gray - 31 (US 31)",
+          "sku": "555844597-802-40",
+          "mpn": "555844597-802-40",
+          "color_name": "Gray",
+          "size_name": "31 (US 31)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html?v1=555844597",
+          "images": [
+            "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED RELAXED FIT PANTS - Gray - 32 (US 32)",
+          "sku": "555844597-802-42",
+          "mpn": "555844597-802-42",
+          "color_name": "Gray",
+          "size_name": "32 (US 32)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html?v1=555844597",
+          "images": [
+            "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED RELAXED FIT PANTS - Gray - 34 (US 34)",
+          "sku": "555844597-802-44",
+          "mpn": "555844597-802-44",
+          "color_name": "Gray",
+          "size_name": "34 (US 34)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-relaxed-fit-pleated-pants-p01564653.html?v1=555844597",
+          "images": [
+            "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3067/dcbd/73854f3b8130/188596a95038/01564653802-p/01564653802-p.jpg?ts=1785338786042&w=1920",
+        "https://static.zara.net/assets/public/f46f/165e/163848fb9ad6/312c38fc2988/01564653802-a1/01564653802-a1.jpg?ts=1785338785920&w=1920",
+        "https://static.zara.net/assets/public/3a01/cef0/60bd4305924a/1192bc7e4bca/01564653802-a2/01564653802-a2.jpg?ts=1785338786714&w=1920",
+        "https://static.zara.net/assets/public/4721/c143/e5a84448aa49/0b11a989fd50/01564653802-a3/01564653802-a3.jpg?ts=1785338786704&w=1920",
+        "https://static.zara.net/assets/public/22de/7420/b8504246b517/7639fd57001d/01564653802-a4/01564653802-a4.jpg?ts=1785338784995&w=1920",
+        "https://static.zara.net/assets/public/6d61/c734/6ecb48808799/e114cb0dfd4b/01564653802-a5/01564653802-a5.jpg?ts=1785338784925&w=1920",
+        "https://static.zara.net/assets/public/6b12/feb1/77274475b544/d2f4b4e1650e/01564653802-a6/01564653802-a6.jpg?ts=1785338785466&w=1920",
+        "https://static.zara.net/assets/public/5f18/444e/a81841abb0a9/24aaa4db96b4/01564653802-e1/01564653802-e1.jpg?ts=1783958555214&w=1920",
+        "https://static.zara.net/assets/public/6300/1343/1b4945718e69/388144f06f40/01564653802-e2/01564653802-e2.jpg?ts=1783958555266&w=1920",
+        "https://static.zara.net/assets/public/469f/4476/d63f4da89368/5846b395be26/01564653802-e3/01564653802-e3.jpg?ts=1783958554970&w=1920",
+        "https://static.zara.net/assets/public/1392/75dc/9e8941a7b270/0f7fb635a23f/01564653802-e4/01564653802-e4.jpg?ts=1783958555651&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nRelaxed fit pants made of wool blend fabric. Front pockets and back double welt pockets. Front crossover zip and hidden metal hook closure.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 11,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "dd423d31f7401c6a71a2666b3b265ffcf0eaff843e25247b8c34ef72b4b8ab88",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

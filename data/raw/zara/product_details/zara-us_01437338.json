@@ -1,0 +1,362 @@
+{
+  "product_id": "zara-us:01437338",
+  "source_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html",
+  "final_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html",
+  "canonical_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RELAXED FIT FLOWY PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RELAXED FIT FLOWY PANTS",
+      "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html",
+      "productGroupID": "01437338",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit pants made of fluid lyocell-blend fabric. Adjustable elastic waist with drawstring. Front pockets and back patch pockets. Front zip and button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920",
+        "https://static.zara.net/assets/public/46cc/bcd2/6e494d5c9740/1d4e4b04d76a/01437338700-a1/01437338700-a1.jpg?ts=1787302635558&w=1920",
+        "https://static.zara.net/assets/public/28ed/680c/44834d7da5f2/ec897da5ea1c/01437338700-a2/01437338700-a2.jpg?ts=1787302633211&w=1920",
+        "https://static.zara.net/assets/public/73ad/5571/ebaa44938393/cf334df05e96/01437338700-a3/01437338700-a3.jpg?ts=1787302635035&w=1920",
+        "https://static.zara.net/assets/public/413b/691f/21864b12aad5/3acda6ed6cc2/01437338700-a4/01437338700-a4.jpg?ts=1787302634907&w=1920",
+        "https://static.zara.net/assets/public/f3f8/3c94/63aa4e9ca28a/39d1fa667bd3/01437338700-e1/01437338700-e1.jpg?ts=1783426181237&w=1920",
+        "https://static.zara.net/assets/public/7c16/492b/770c4c248e3e/328139113377/01437338700-e2/01437338700-e2.jpg?ts=1783426179519&w=1920",
+        "https://static.zara.net/assets/public/9262/12af/63114b0e8748/f81ab0d3f276/01437338700-e3/01437338700-e3.jpg?ts=1783426181159&w=1920",
+        "https://static.zara.net/assets/public/6fbe/5211/75614dea948e/103b77593f66/01437338700-e4/01437338700-e4.jpg?ts=1783426182051&w=1920"
+      ],
+      "material": "lyocell/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "70% lyocell, 30% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT FLOWY PANTS - Brown - S",
+          "sku": "545479707-700-2",
+          "mpn": "545479707-700-2",
+          "color": "Brown",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479707",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT FLOWY PANTS - Brown - M",
+          "sku": "545479707-700-3",
+          "mpn": "545479707-700-3",
+          "color": "Brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479707",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT FLOWY PANTS - Brown - L",
+          "sku": "545479707-700-4",
+          "mpn": "545479707-700-4",
+          "color": "Brown",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479707",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT FLOWY PANTS - Brown - XL",
+          "sku": "545479707-700-5",
+          "mpn": "545479707-700-5",
+          "color": "Brown",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479707",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT FLOWY PANTS - Dark gray - S",
+          "sku": "545479707-922-2",
+          "mpn": "545479707-922-2",
+          "color": "Dark gray",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/27dc/a9cf/fedf404ab7dc/0111449d5902/01437338922-p/01437338922-p.jpg?ts=1785768609172&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479708",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT FLOWY PANTS - Dark gray - M",
+          "sku": "545479707-922-3",
+          "mpn": "545479707-922-3",
+          "color": "Dark gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/27dc/a9cf/fedf404ab7dc/0111449d5902/01437338922-p/01437338922-p.jpg?ts=1785768609172&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479708",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT FLOWY PANTS - Dark gray - L",
+          "sku": "545479707-922-4",
+          "mpn": "545479707-922-4",
+          "color": "Dark gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/27dc/a9cf/fedf404ab7dc/0111449d5902/01437338922-p/01437338922-p.jpg?ts=1785768609172&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479708",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT FLOWY PANTS - Dark gray - XL",
+          "sku": "545479707-922-5",
+          "mpn": "545479707-922-5",
+          "color": "Dark gray",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/27dc/a9cf/fedf404ab7dc/0111449d5902/01437338922-p/01437338922-p.jpg?ts=1785768609172&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479708",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RELAXED FIT FLOWY PANTS",
+      "product_group_id": "01437338",
+      "brand": "ZARA",
+      "description": "Relaxed fit pants made of fluid lyocell-blend fabric. Adjustable elastic waist with drawstring. Front pockets and back patch pockets. Front zip and button closure.",
+      "material": "lyocell/polyester",
+      "composition": "OUTER SHELL: 70% lyocell, 30% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RELAXED FIT FLOWY PANTS - Brown - S",
+          "sku": "545479707-700-2",
+          "mpn": "545479707-700-2",
+          "color_name": "Brown",
+          "size_name": "S",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479707",
+          "images": [
+            "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT FLOWY PANTS - Brown - M",
+          "sku": "545479707-700-3",
+          "mpn": "545479707-700-3",
+          "color_name": "Brown",
+          "size_name": "M",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479707",
+          "images": [
+            "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT FLOWY PANTS - Brown - L",
+          "sku": "545479707-700-4",
+          "mpn": "545479707-700-4",
+          "color_name": "Brown",
+          "size_name": "L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479707",
+          "images": [
+            "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT FLOWY PANTS - Brown - XL",
+          "sku": "545479707-700-5",
+          "mpn": "545479707-700-5",
+          "color_name": "Brown",
+          "size_name": "XL",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479707",
+          "images": [
+            "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT FLOWY PANTS - Dark gray - S",
+          "sku": "545479707-922-2",
+          "mpn": "545479707-922-2",
+          "color_name": "Dark gray",
+          "size_name": "S",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479708",
+          "images": [
+            "https://static.zara.net/assets/public/27dc/a9cf/fedf404ab7dc/0111449d5902/01437338922-p/01437338922-p.jpg?ts=1785768609172&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT FLOWY PANTS - Dark gray - M",
+          "sku": "545479707-922-3",
+          "mpn": "545479707-922-3",
+          "color_name": "Dark gray",
+          "size_name": "M",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479708",
+          "images": [
+            "https://static.zara.net/assets/public/27dc/a9cf/fedf404ab7dc/0111449d5902/01437338922-p/01437338922-p.jpg?ts=1785768609172&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT FLOWY PANTS - Dark gray - L",
+          "sku": "545479707-922-4",
+          "mpn": "545479707-922-4",
+          "color_name": "Dark gray",
+          "size_name": "L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479708",
+          "images": [
+            "https://static.zara.net/assets/public/27dc/a9cf/fedf404ab7dc/0111449d5902/01437338922-p/01437338922-p.jpg?ts=1785768609172&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT FLOWY PANTS - Dark gray - XL",
+          "sku": "545479707-922-5",
+          "mpn": "545479707-922-5",
+          "color_name": "Dark gray",
+          "size_name": "XL",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-flowy-pants-p01437338.html?v1=545479708",
+          "images": [
+            "https://static.zara.net/assets/public/27dc/a9cf/fedf404ab7dc/0111449d5902/01437338922-p/01437338922-p.jpg?ts=1785768609172&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e811/9f52/62c247aaaff4/68db32980f21/01437338700-p/01437338700-p.jpg?ts=1787302633549&w=1920",
+        "https://static.zara.net/assets/public/46cc/bcd2/6e494d5c9740/1d4e4b04d76a/01437338700-a1/01437338700-a1.jpg?ts=1787302635558&w=1920",
+        "https://static.zara.net/assets/public/28ed/680c/44834d7da5f2/ec897da5ea1c/01437338700-a2/01437338700-a2.jpg?ts=1787302633211&w=1920",
+        "https://static.zara.net/assets/public/73ad/5571/ebaa44938393/cf334df05e96/01437338700-a3/01437338700-a3.jpg?ts=1787302635035&w=1920",
+        "https://static.zara.net/assets/public/413b/691f/21864b12aad5/3acda6ed6cc2/01437338700-a4/01437338700-a4.jpg?ts=1787302634907&w=1920",
+        "https://static.zara.net/assets/public/f3f8/3c94/63aa4e9ca28a/39d1fa667bd3/01437338700-e1/01437338700-e1.jpg?ts=1783426181237&w=1920",
+        "https://static.zara.net/assets/public/7c16/492b/770c4c248e3e/328139113377/01437338700-e2/01437338700-e2.jpg?ts=1783426179519&w=1920",
+        "https://static.zara.net/assets/public/9262/12af/63114b0e8748/f81ab0d3f276/01437338700-e3/01437338700-e3.jpg?ts=1783426181159&w=1920",
+        "https://static.zara.net/assets/public/6fbe/5211/75614dea948e/103b77593f66/01437338700-e4/01437338700-e4.jpg?ts=1783426182051&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Brown",
+    "Dark gray"
+  ],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nRelaxed fit pants made of fluid lyocell-blend fabric. Adjustable elastic waist with drawstring. Front pockets and back patch pockets. Front zip and button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 10,
+  "variants_count": 8,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7fe902f06aaf5b539800db27b42112f8835bfd13facb103e8e233a3802be232d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,230 @@
+{
+  "product_id": "zara-us:07839221",
+  "source_url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html",
+  "final_url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html",
+  "canonical_url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BLZR FLWRS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BLZR FLWRS",
+      "url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html",
+      "productGroupID": "07839221",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Oversized cropped printed blazer made from 100% cotton. Lapel collar and long sleeves with dropped shoulders. Front false flap pockets.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920",
+        "https://static.zara.net/assets/public/8832/2312/2b2a4fa7b668/7a480ca6762a/07839221023-a1/07839221023-a1.jpg?ts=1784796060261&w=1920",
+        "https://static.zara.net/assets/public/cc11/28ee/85154050abbe/2ce4d56a3508/07839221023-a2/07839221023-a2.jpg?ts=1784796060069&w=1920",
+        "https://static.zara.net/assets/public/3c43/559d/c07341c6b830/d94c02849dbb/07839221023-e1/07839221023-e1.jpg?ts=1784794248832&w=1920",
+        "https://static.zara.net/assets/public/9dd7/3ea8/ac82472f891b/281ead2ca8d2/07839221023-e2/07839221023-e2.jpg?ts=1784794251099&w=1920",
+        "https://static.zara.net/assets/public/df5a/0bc8/b66c49c0bc82/53f6b50990ef/07839221023-e3/07839221023-e3.jpg?ts=1784794254379&w=1920",
+        "https://static.zara.net/assets/public/95ca/9840/c4e24aff9766/87da930a88b1/07839221023-e4/07839221023-e4.jpg?ts=1784794254346&w=1920",
+        "https://static.zara.net/assets/public/46b3/e21f/ca35430b84af/1956a220520f/07839221023-e5/07839221023-e5.jpg?ts=1784794254408&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BLZR FLWRS - Printed - XS",
+          "sku": "553306769-023-1",
+          "mpn": "553306769-023-1",
+          "color": "Printed",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html?v1=553306769",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BLZR FLWRS - Printed - S",
+          "sku": "553306769-023-2",
+          "mpn": "553306769-023-2",
+          "color": "Printed",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html?v1=553306769",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BLZR FLWRS - Printed - M",
+          "sku": "553306769-023-3",
+          "mpn": "553306769-023-3",
+          "color": "Printed",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html?v1=553306769",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BLZR FLWRS - Printed - L",
+          "sku": "553306769-023-4",
+          "mpn": "553306769-023-4",
+          "color": "Printed",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html?v1=553306769",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BLZR FLWRS",
+      "product_group_id": "07839221",
+      "brand": "ZARA",
+      "description": "Oversized cropped printed blazer made from 100% cotton. Lapel collar and long sleeves with dropped shoulders. Front false flap pockets.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BLZR FLWRS - Printed - XS",
+          "sku": "553306769-023-1",
+          "mpn": "553306769-023-1",
+          "color_name": "Printed",
+          "size_name": "XS",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html?v1=553306769",
+          "images": [
+            "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920"
+          ]
+        },
+        {
+          "name": "BLZR FLWRS - Printed - S",
+          "sku": "553306769-023-2",
+          "mpn": "553306769-023-2",
+          "color_name": "Printed",
+          "size_name": "S",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html?v1=553306769",
+          "images": [
+            "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920"
+          ]
+        },
+        {
+          "name": "BLZR FLWRS - Printed - M",
+          "sku": "553306769-023-3",
+          "mpn": "553306769-023-3",
+          "color_name": "Printed",
+          "size_name": "M",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html?v1=553306769",
+          "images": [
+            "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920"
+          ]
+        },
+        {
+          "name": "BLZR FLWRS - Printed - L",
+          "sku": "553306769-023-4",
+          "mpn": "553306769-023-4",
+          "color_name": "Printed",
+          "size_name": "L",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/blzr-flwrs-p07839221.html?v1=553306769",
+          "images": [
+            "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f3d1/9028/2c7249d3a3ec/0f9b736a1004/07839221023-p/07839221023-p.jpg?ts=1784796060662&w=1920",
+        "https://static.zara.net/assets/public/8832/2312/2b2a4fa7b668/7a480ca6762a/07839221023-a1/07839221023-a1.jpg?ts=1784796060261&w=1920",
+        "https://static.zara.net/assets/public/cc11/28ee/85154050abbe/2ce4d56a3508/07839221023-a2/07839221023-a2.jpg?ts=1784796060069&w=1920",
+        "https://static.zara.net/assets/public/3c43/559d/c07341c6b830/d94c02849dbb/07839221023-e1/07839221023-e1.jpg?ts=1784794248832&w=1920",
+        "https://static.zara.net/assets/public/9dd7/3ea8/ac82472f891b/281ead2ca8d2/07839221023-e2/07839221023-e2.jpg?ts=1784794251099&w=1920",
+        "https://static.zara.net/assets/public/df5a/0bc8/b66c49c0bc82/53f6b50990ef/07839221023-e3/07839221023-e3.jpg?ts=1784794254379&w=1920",
+        "https://static.zara.net/assets/public/95ca/9840/c4e24aff9766/87da930a88b1/07839221023-e4/07839221023-e4.jpg?ts=1784794254346&w=1920",
+        "https://static.zara.net/assets/public/46b3/e21f/ca35430b84af/1956a220520f/07839221023-e5/07839221023-e5.jpg?ts=1784794254408&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nOversized cropped printed blazer made from 100% cotton. Lapel collar and long sleeves with dropped shoulders. Front false flap pockets.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 8,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3de110df8442fa3d7437138fbcda882d6c32d7f0483c508af7fc91b64018ea0d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

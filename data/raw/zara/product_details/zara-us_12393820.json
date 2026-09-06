@@ -1,0 +1,348 @@
+{
+  "product_id": "zara-us:12393820",
+  "source_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html",
+  "final_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html",
+  "canonical_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHUNKY SOLE SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHUNKY SOLE SNEAKERS",
+      "url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html",
+      "productGroupID": "12393820",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Running-style athletic sneakers. Upper made from a combination of pieces and materials. Curved lacing. Chunky sole with an irregular design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920",
+        "https://static.zara.net/assets/public/ddf5/3b62/6abe4adb975e/4fde95191e38/12393820800-a1/12393820800-a1.jpg?ts=1787902229927&w=1920",
+        "https://static.zara.net/assets/public/0f54/2067/98834ea4b7e4/24d2899ad1ed/12393820800-a3/12393820800-a3.jpg?ts=1787902230167&w=1920",
+        "https://static.zara.net/assets/public/431d/d6a2/f6fe41bfbc94/8ee8a5ab2cad/12393820800-e1/12393820800-e1.jpg?ts=1784214326137&w=1920",
+        "https://static.zara.net/assets/public/d038/39be/03294638bd88/5e6b59955bff/12393820800-e2/12393820800-e2.jpg?ts=1784214324048&w=1920",
+        "https://static.zara.net/assets/public/91fc/a8bc/13b94fc8aa69/c43e1a072197/12393820800-e3/12393820800-e3.jpg?ts=1784214323443&w=1920",
+        "https://static.zara.net/assets/public/7cb9/39ac/e8b74d24b32f/2ff34fabb727/12393820800-e4/12393820800-e4.jpg?ts=1784214323931&w=1920"
+      ],
+      "material": "polyurethane/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "52% polyurethane, 48% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "67% polyester, 33% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHUNKY SOLE SNEAKERS - Black - 6",
+          "sku": "545465742-800-39",
+          "mpn": "545465742-800-39",
+          "color": "Black",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SOLE SNEAKERS - Black - 7",
+          "sku": "545465742-800-40",
+          "mpn": "545465742-800-40",
+          "color": "Black",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SOLE SNEAKERS - Black - 8",
+          "sku": "545465742-800-41",
+          "mpn": "545465742-800-41",
+          "color": "Black",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SOLE SNEAKERS - Black - 9",
+          "sku": "545465742-800-42",
+          "mpn": "545465742-800-42",
+          "color": "Black",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SOLE SNEAKERS - Black - 10",
+          "sku": "545465742-800-43",
+          "mpn": "545465742-800-43",
+          "color": "Black",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SOLE SNEAKERS - Black - 11",
+          "sku": "545465742-800-44",
+          "mpn": "545465742-800-44",
+          "color": "Black",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHUNKY SOLE SNEAKERS - Black - 12",
+          "sku": "545465742-800-45",
+          "mpn": "545465742-800-45",
+          "color": "Black",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHUNKY SOLE SNEAKERS",
+      "product_group_id": "12393820",
+      "brand": "ZARA",
+      "description": "Running-style athletic sneakers. Upper made from a combination of pieces and materials. Curved lacing. Chunky sole with an irregular design.",
+      "material": "polyurethane/polyester",
+      "composition": "UPPER: 52% polyurethane, 48% polyester | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 67% polyester, 33% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHUNKY SOLE SNEAKERS - Black - 6",
+          "sku": "545465742-800-39",
+          "mpn": "545465742-800-39",
+          "color_name": "Black",
+          "size_name": "6",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+          "images": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SOLE SNEAKERS - Black - 7",
+          "sku": "545465742-800-40",
+          "mpn": "545465742-800-40",
+          "color_name": "Black",
+          "size_name": "7",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+          "images": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SOLE SNEAKERS - Black - 8",
+          "sku": "545465742-800-41",
+          "mpn": "545465742-800-41",
+          "color_name": "Black",
+          "size_name": "8",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+          "images": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SOLE SNEAKERS - Black - 9",
+          "sku": "545465742-800-42",
+          "mpn": "545465742-800-42",
+          "color_name": "Black",
+          "size_name": "9",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+          "images": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SOLE SNEAKERS - Black - 10",
+          "sku": "545465742-800-43",
+          "mpn": "545465742-800-43",
+          "color_name": "Black",
+          "size_name": "10",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+          "images": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SOLE SNEAKERS - Black - 11",
+          "sku": "545465742-800-44",
+          "mpn": "545465742-800-44",
+          "color_name": "Black",
+          "size_name": "11",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+          "images": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ]
+        },
+        {
+          "name": "CHUNKY SOLE SNEAKERS - Black - 12",
+          "sku": "545465742-800-45",
+          "mpn": "545465742-800-45",
+          "color_name": "Black",
+          "size_name": "12",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chunky-sole-sneakers-p12393820.html?v1=545465742",
+          "images": [
+            "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/58f6/9fb9/e2d34b7c9914/c8c81180563d/12393820800-a2/12393820800-a2.jpg?ts=1779272189693&w=1920",
+        "https://static.zara.net/assets/public/ddf5/3b62/6abe4adb975e/4fde95191e38/12393820800-a1/12393820800-a1.jpg?ts=1787902229927&w=1920",
+        "https://static.zara.net/assets/public/0f54/2067/98834ea4b7e4/24d2899ad1ed/12393820800-a3/12393820800-a3.jpg?ts=1787902230167&w=1920",
+        "https://static.zara.net/assets/public/431d/d6a2/f6fe41bfbc94/8ee8a5ab2cad/12393820800-e1/12393820800-e1.jpg?ts=1784214326137&w=1920",
+        "https://static.zara.net/assets/public/d038/39be/03294638bd88/5e6b59955bff/12393820800-e2/12393820800-e2.jpg?ts=1784214324048&w=1920",
+        "https://static.zara.net/assets/public/91fc/a8bc/13b94fc8aa69/c43e1a072197/12393820800-e3/12393820800-e3.jpg?ts=1784214323443&w=1920",
+        "https://static.zara.net/assets/public/7cb9/39ac/e8b74d24b32f/2ff34fabb727/12393820800-e4/12393820800-e4.jpg?ts=1784214323931&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nRunning-style athletic sneakers. Upper made from a combination of pieces and materials. Curved lacing. Chunky sole with an irregular design.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 7,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c740b75c56534a3af720bd96db40bdad7293eca6b705375625d4041cc3aef1c9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

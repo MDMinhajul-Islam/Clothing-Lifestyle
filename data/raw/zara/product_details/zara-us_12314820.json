@@ -1,0 +1,767 @@
+{
+  "product_id": "zara-us:12314820",
+  "source_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html",
+  "final_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html",
+  "canonical_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RUNNING SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RUNNING SNEAKERS",
+      "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html",
+      "productGroupID": "12314820",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Running sneakers designed for daily use and light jogs. Upper made of breathable knit fabric. Toe and heel areas reinforced with Shield Protect Max material for abrasion resistance. Lace-up closure. Back pull tab for easy entry. Removable OrthoLite® insole. Midsole with Spume Foam V2 technology for lightweight comfort and energy return. Rubber sole. ZARA ATHLETICZ. 26 1 18 1",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920",
+        "https://static.zara.net/assets/public/f5dc/100c/f86943419bf7/a06eb01e47da/12314820001-a2/12314820001-a2.jpg?ts=1786100871821&w=1920",
+        "https://static.zara.net/assets/public/21cc/bfea/48334dedb54d/4449b8ba62c9/12314820001-a3/12314820001-a3.jpg?ts=1786100870403&w=1920",
+        "https://static.zara.net/assets/public/0eee/28dd/ab0e4bf6b6ad/1c5e20ca5dce/12314820001-e1/12314820001-e1.jpg?ts=1786030633383&w=1920",
+        "https://static.zara.net/assets/public/22e6/382b/3fea48aca8fa/fbdf3f6989b7/12314820001-e2/12314820001-e2.jpg?ts=1786030633256&w=1920",
+        "https://static.zara.net/assets/public/1878/f8f6/7eac44d09a88/981435a326d4/12314820001-e3/12314820001-e3.jpg?ts=1786030633493&w=1920",
+        "https://static.zara.net/assets/public/5a96/2124/759347019666/9fe0c30c7196/12314820001-e4/12314820001-e4.jpg?ts=1786030633579&w=1920"
+      ],
+      "material": "polyurethane thermoplastic/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "53% polyurethane thermoplastic, 47% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "52% polyester, 48% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 5",
+          "sku": "545426089-001-38",
+          "mpn": "545426089-001-38",
+          "color": "White",
+          "size": "5",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 6",
+          "sku": "545426089-001-39",
+          "mpn": "545426089-001-39",
+          "color": "White",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 7",
+          "sku": "545426089-001-40",
+          "mpn": "545426089-001-40",
+          "color": "White",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 8",
+          "sku": "545426089-001-41",
+          "mpn": "545426089-001-41",
+          "color": "White",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 9",
+          "sku": "545426089-001-42",
+          "mpn": "545426089-001-42",
+          "color": "White",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 10",
+          "sku": "545426089-001-43",
+          "mpn": "545426089-001-43",
+          "color": "White",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 11",
+          "sku": "545426089-001-44",
+          "mpn": "545426089-001-44",
+          "color": "White",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 12",
+          "sku": "545426089-001-45",
+          "mpn": "545426089-001-45",
+          "color": "White",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 13",
+          "sku": "545426089-001-46",
+          "mpn": "545426089-001-46",
+          "color": "White",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - White - 14",
+          "sku": "545426089-001-47",
+          "mpn": "545426089-001-47",
+          "color": "White",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 5",
+          "sku": "545426089-800-38",
+          "mpn": "545426089-800-38",
+          "color": "Black",
+          "size": "5",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 6",
+          "sku": "545426089-800-39",
+          "mpn": "545426089-800-39",
+          "color": "Black",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 7",
+          "sku": "545426089-800-40",
+          "mpn": "545426089-800-40",
+          "color": "Black",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 8",
+          "sku": "545426089-800-41",
+          "mpn": "545426089-800-41",
+          "color": "Black",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 9",
+          "sku": "545426089-800-42",
+          "mpn": "545426089-800-42",
+          "color": "Black",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 10",
+          "sku": "545426089-800-43",
+          "mpn": "545426089-800-43",
+          "color": "Black",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 11",
+          "sku": "545426089-800-44",
+          "mpn": "545426089-800-44",
+          "color": "Black",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 12",
+          "sku": "545426089-800-45",
+          "mpn": "545426089-800-45",
+          "color": "Black",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 13",
+          "sku": "545426089-800-46",
+          "mpn": "545426089-800-46",
+          "color": "Black",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUNNING SNEAKERS - Black - 14",
+          "sku": "545426089-800-47",
+          "mpn": "545426089-800-47",
+          "color": "Black",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RUNNING SNEAKERS",
+      "product_group_id": "12314820",
+      "brand": "ZARA",
+      "description": "Running sneakers designed for daily use and light jogs. Upper made of breathable knit fabric. Toe and heel areas reinforced with Shield Protect Max material for abrasion resistance. Lace-up closure. Back pull tab for easy entry. Removable OrthoLite® insole. Midsole with Spume Foam V2 technology for lightweight comfort and energy return. Rubber sole. ZARA ATHLETICZ. 26 1 18 1",
+      "material": "polyurethane thermoplastic/polyester",
+      "composition": "UPPER: 53% polyurethane thermoplastic, 47% polyester | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 52% polyester, 48% sbs | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RUNNING SNEAKERS - White - 5",
+          "sku": "545426089-001-38",
+          "mpn": "545426089-001-38",
+          "color_name": "White",
+          "size_name": "5",
+          "price": "69.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 6",
+          "sku": "545426089-001-39",
+          "mpn": "545426089-001-39",
+          "color_name": "White",
+          "size_name": "6",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 7",
+          "sku": "545426089-001-40",
+          "mpn": "545426089-001-40",
+          "color_name": "White",
+          "size_name": "7",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 8",
+          "sku": "545426089-001-41",
+          "mpn": "545426089-001-41",
+          "color_name": "White",
+          "size_name": "8",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 9",
+          "sku": "545426089-001-42",
+          "mpn": "545426089-001-42",
+          "color_name": "White",
+          "size_name": "9",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 10",
+          "sku": "545426089-001-43",
+          "mpn": "545426089-001-43",
+          "color_name": "White",
+          "size_name": "10",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 11",
+          "sku": "545426089-001-44",
+          "mpn": "545426089-001-44",
+          "color_name": "White",
+          "size_name": "11",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 12",
+          "sku": "545426089-001-45",
+          "mpn": "545426089-001-45",
+          "color_name": "White",
+          "size_name": "12",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 13",
+          "sku": "545426089-001-46",
+          "mpn": "545426089-001-46",
+          "color_name": "White",
+          "size_name": "13",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - White - 14",
+          "sku": "545426089-001-47",
+          "mpn": "545426089-001-47",
+          "color_name": "White",
+          "size_name": "14",
+          "price": "69.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426089",
+          "images": [
+            "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 5",
+          "sku": "545426089-800-38",
+          "mpn": "545426089-800-38",
+          "color_name": "Black",
+          "size_name": "5",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 6",
+          "sku": "545426089-800-39",
+          "mpn": "545426089-800-39",
+          "color_name": "Black",
+          "size_name": "6",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 7",
+          "sku": "545426089-800-40",
+          "mpn": "545426089-800-40",
+          "color_name": "Black",
+          "size_name": "7",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 8",
+          "sku": "545426089-800-41",
+          "mpn": "545426089-800-41",
+          "color_name": "Black",
+          "size_name": "8",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 9",
+          "sku": "545426089-800-42",
+          "mpn": "545426089-800-42",
+          "color_name": "Black",
+          "size_name": "9",
+          "price": "69.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 10",
+          "sku": "545426089-800-43",
+          "mpn": "545426089-800-43",
+          "color_name": "Black",
+          "size_name": "10",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 11",
+          "sku": "545426089-800-44",
+          "mpn": "545426089-800-44",
+          "color_name": "Black",
+          "size_name": "11",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 12",
+          "sku": "545426089-800-45",
+          "mpn": "545426089-800-45",
+          "color_name": "Black",
+          "size_name": "12",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 13",
+          "sku": "545426089-800-46",
+          "mpn": "545426089-800-46",
+          "color_name": "Black",
+          "size_name": "13",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        },
+        {
+          "name": "RUNNING SNEAKERS - Black - 14",
+          "sku": "545426089-800-47",
+          "mpn": "545426089-800-47",
+          "color_name": "Black",
+          "size_name": "14",
+          "price": "69.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/running-sneakers-p12314820.html?v1=545426090",
+          "images": [
+            "https://static.zara.net/assets/public/5f10/0b93/c1ce4d868a75/d02654830d86/12314820800-a1/12314820800-a1.jpg?ts=1786371323955&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f1c4/6482/604949f1853d/e7bab31ce742/12314820001-a1/12314820001-a1.jpg?ts=1786100872020&w=1920",
+        "https://static.zara.net/assets/public/f5dc/100c/f86943419bf7/a06eb01e47da/12314820001-a2/12314820001-a2.jpg?ts=1786100871821&w=1920",
+        "https://static.zara.net/assets/public/21cc/bfea/48334dedb54d/4449b8ba62c9/12314820001-a3/12314820001-a3.jpg?ts=1786100870403&w=1920",
+        "https://static.zara.net/assets/public/0eee/28dd/ab0e4bf6b6ad/1c5e20ca5dce/12314820001-e1/12314820001-e1.jpg?ts=1786030633383&w=1920",
+        "https://static.zara.net/assets/public/22e6/382b/3fea48aca8fa/fbdf3f6989b7/12314820001-e2/12314820001-e2.jpg?ts=1786030633256&w=1920",
+        "https://static.zara.net/assets/public/1878/f8f6/7eac44d09a88/981435a326d4/12314820001-e3/12314820001-e3.jpg?ts=1786030633493&w=1920",
+        "https://static.zara.net/assets/public/5a96/2124/759347019666/9fe0c30c7196/12314820001-e4/12314820001-e4.jpg?ts=1786030633579&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Black"
+  ],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nRunning sneakers designed for daily use and light jogs. Upper made of breathable knit fabric. Toe and heel areas reinforced with Shield Protect Max material for abrasion resistance. Lace-up closure. Back pull tab for easy entry. Removable OrthoLite® insole. Midsole with Spume Foam V2 technology for lightweight comfort and energy return. Rubber sole. ZARA ATHLETICZ. 26 1 18 1\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 8,
+  "variants_count": 20,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8d802ed45aa544321a44cb1fa559b768679c6c6a645352489085461066d3814d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

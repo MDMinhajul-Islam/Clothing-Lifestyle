@@ -1,0 +1,167 @@
+{
+  "product_id": "zara-us:05584339",
+  "source_url": "https://www.zara.com/us/en/contrast-relaxed-fit-pants-p05584339.html",
+  "final_url": "https://www.zara.com/us/en/contrast-relaxed-fit-pants-p05584339.html",
+  "canonical_url": "https://www.zara.com/us/en/contrast-relaxed-fit-pants-p05584339.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COLORBLOCK RELAXED FIT PANTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COLORBLOCK RELAXED FIT PANTS",
+      "url": "https://www.zara.com/us/en/contrast-relaxed-fit-pants-p05584339.html",
+      "productGroupID": "05584339",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed-fit pants crafted from cotton fabric with a loopback interior. Contrast elastic waistband in a matching tone. Features front pockets and a back pocket detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d7f1/e130/43054779aa12/1028c906e3f8/05584339716-p/05584339716-p.jpg?ts=1788258175984&w=1920",
+        "https://static.zara.net/assets/public/e1fe/7b37/744c445d955f/571893101947/05584339716-a1/05584339716-a1.jpg?ts=1788258176090&w=1920",
+        "https://static.zara.net/assets/public/6d0a/1902/ae42443aa09e/cc44db51fb00/05584339716-a2/05584339716-a2.jpg?ts=1788258176290&w=1920",
+        "https://static.zara.net/assets/public/8045/48c4/3a6b41fc8e6c/b372f9cd0d19/05584339716-a3/05584339716-a3.jpg?ts=1788258175531&w=1920",
+        "https://static.zara.net/assets/public/832a/33d8/f6904061af89/b7541ca7a7ae/05584339716-a4/05584339716-a4.jpg?ts=1788258176204&w=1920",
+        "https://static.zara.net/assets/public/0c71/0119/ab1c4e4781de/fd1e8d5ed0cf/05584339716-e1/05584339716-e1.jpg?ts=1788172798949&w=1920",
+        "https://static.zara.net/assets/public/15e7/a13e/f2914b9fab38/20bd146b0285/05584339716-e2/05584339716-e2.jpg?ts=1788172799278&w=1920",
+        "https://static.zara.net/assets/public/24d2/8ec3/85764e5b98ad/569730e1bc8c/05584339716-e3/05584339716-e3.jpg?ts=1788172800083&w=1920",
+        "https://static.zara.net/assets/public/8d3a/1f74/acdf4a7ea301/33f6278b12a2/05584339716-e4/05584339716-e4.jpg?ts=1788172800376&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COLORBLOCK RELAXED FIT PANTS - Dark brown - S-M",
+          "sku": "566269122-716-97",
+          "mpn": "566269122-716-97",
+          "color": "Dark brown",
+          "size": "S-M",
+          "image": [
+            "https://static.zara.net/assets/public/d7f1/e130/43054779aa12/1028c906e3f8/05584339716-p/05584339716-p.jpg?ts=1788258175984&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/contrast-relaxed-fit-pants-p05584339.html?v1=566269122",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORBLOCK RELAXED FIT PANTS - Dark brown - L-XL",
+          "sku": "566269122-716-96",
+          "mpn": "566269122-716-96",
+          "color": "Dark brown",
+          "size": "L-XL",
+          "image": [
+            "https://static.zara.net/assets/public/d7f1/e130/43054779aa12/1028c906e3f8/05584339716-p/05584339716-p.jpg?ts=1788258175984&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/contrast-relaxed-fit-pants-p05584339.html?v1=566269122",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COLORBLOCK RELAXED FIT PANTS",
+      "product_group_id": "05584339",
+      "brand": "ZARA",
+      "description": "Relaxed-fit pants crafted from cotton fabric with a loopback interior. Contrast elastic waistband in a matching tone. Features front pockets and a back pocket detail.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COLORBLOCK RELAXED FIT PANTS - Dark brown - S-M",
+          "sku": "566269122-716-97",
+          "mpn": "566269122-716-97",
+          "color_name": "Dark brown",
+          "size_name": "S-M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-relaxed-fit-pants-p05584339.html?v1=566269122",
+          "images": [
+            "https://static.zara.net/assets/public/d7f1/e130/43054779aa12/1028c906e3f8/05584339716-p/05584339716-p.jpg?ts=1788258175984&w=1920"
+          ]
+        },
+        {
+          "name": "COLORBLOCK RELAXED FIT PANTS - Dark brown - L-XL",
+          "sku": "566269122-716-96",
+          "mpn": "566269122-716-96",
+          "color_name": "Dark brown",
+          "size_name": "L-XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-relaxed-fit-pants-p05584339.html?v1=566269122",
+          "images": [
+            "https://static.zara.net/assets/public/d7f1/e130/43054779aa12/1028c906e3f8/05584339716-p/05584339716-p.jpg?ts=1788258175984&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d7f1/e130/43054779aa12/1028c906e3f8/05584339716-p/05584339716-p.jpg?ts=1788258175984&w=1920",
+        "https://static.zara.net/assets/public/e1fe/7b37/744c445d955f/571893101947/05584339716-a1/05584339716-a1.jpg?ts=1788258176090&w=1920",
+        "https://static.zara.net/assets/public/6d0a/1902/ae42443aa09e/cc44db51fb00/05584339716-a2/05584339716-a2.jpg?ts=1788258176290&w=1920",
+        "https://static.zara.net/assets/public/8045/48c4/3a6b41fc8e6c/b372f9cd0d19/05584339716-a3/05584339716-a3.jpg?ts=1788258175531&w=1920",
+        "https://static.zara.net/assets/public/832a/33d8/f6904061af89/b7541ca7a7ae/05584339716-a4/05584339716-a4.jpg?ts=1788258176204&w=1920",
+        "https://static.zara.net/assets/public/0c71/0119/ab1c4e4781de/fd1e8d5ed0cf/05584339716-e1/05584339716-e1.jpg?ts=1788172798949&w=1920",
+        "https://static.zara.net/assets/public/15e7/a13e/f2914b9fab38/20bd146b0285/05584339716-e2/05584339716-e2.jpg?ts=1788172799278&w=1920",
+        "https://static.zara.net/assets/public/24d2/8ec3/85764e5b98ad/569730e1bc8c/05584339716-e3/05584339716-e3.jpg?ts=1788172800083&w=1920",
+        "https://static.zara.net/assets/public/8d3a/1f74/acdf4a7ea301/33f6278b12a2/05584339716-e4/05584339716-e4.jpg?ts=1788172800376&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed-fit pants crafted from cotton fabric with a loopback interior. Contrast elastic waistband in a matching tone. Features front pockets and a back pocket detail.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 9,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9b98e492797526cce3c4e17d1c465c500e098461b6027933e8feed2d29b0caa9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

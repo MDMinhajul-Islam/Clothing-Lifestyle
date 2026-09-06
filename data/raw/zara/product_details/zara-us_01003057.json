@@ -1,0 +1,325 @@
+{
+  "product_id": "zara-us:01003057",
+  "source_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html",
+  "final_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED CHINO PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED CHINO PANTS",
+      "url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html",
+      "productGroupID": "01003057",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Low-rise pants with front pockets and back false flap pockets. Turn-up hems. Front zip and button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920",
+        "https://static.zara.net/assets/public/7ce4/6e14/001f49b8911e/8af1d957e544/01003057066-a1/01003057066-a1.jpg?ts=1779447433699&w=1920",
+        "https://static.zara.net/assets/public/61cc/f84a/b49b444ca160/da669dc14388/01003057066-a2/01003057066-a2.jpg?ts=1779447433783&w=1920",
+        "https://static.zara.net/assets/public/a25f/15da/c2854ed59595/1b0a4ca466e3/01003057066-a3/01003057066-a3.jpg?ts=1779447433689&w=1920",
+        "https://static.zara.net/assets/public/266b/b7f6/417c4111a522/cb2ee003599a/01003057066-a4/01003057066-a4.jpg?ts=1779447433833&w=1920",
+        "https://static.zara.net/assets/public/8a45/73ef/d8a3439681ff/aee91b6a1ef1/01003057066-e1/01003057066-e1.jpg?ts=1779375500249&w=1920",
+        "https://static.zara.net/assets/public/9ce5/bca8/49e24001a924/bfbef382b7ea/01003057066-e2/01003057066-e2.jpg?ts=1779375502921&w=1920",
+        "https://static.zara.net/assets/public/3c02/547a/cb164ecab81a/a24eb52108e0/01003057066-e3/01003057066-e3.jpg?ts=1779375500708&w=1920"
+      ],
+      "material": "cotton/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "97% cotton, 3% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 26 (US 2)",
+          "sku": "545453639-066-34",
+          "mpn": "545453639-066-34",
+          "color": "Ecru / Navy",
+          "size": "26 (US 2)",
+          "image": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 27 (US 4)",
+          "sku": "545453639-066-36",
+          "mpn": "545453639-066-36",
+          "color": "Ecru / Navy",
+          "size": "27 (US 4)",
+          "image": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 28 (US 6)",
+          "sku": "545453639-066-38",
+          "mpn": "545453639-066-38",
+          "color": "Ecru / Navy",
+          "size": "28 (US 6)",
+          "image": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 29 (US 8)",
+          "sku": "545453639-066-40",
+          "mpn": "545453639-066-40",
+          "color": "Ecru / Navy",
+          "size": "29 (US 8)",
+          "image": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 30 (US 10)",
+          "sku": "545453639-066-42",
+          "mpn": "545453639-066-42",
+          "color": "Ecru / Navy",
+          "size": "30 (US 10)",
+          "image": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 31 (US 12)",
+          "sku": "545453639-066-44",
+          "mpn": "545453639-066-44",
+          "color": "Ecru / Navy",
+          "size": "31 (US 12)",
+          "image": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 32 (US 14)",
+          "sku": "545453639-066-46",
+          "mpn": "545453639-066-46",
+          "color": "Ecru / Navy",
+          "size": "32 (US 14)",
+          "image": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED CHINO PANTS",
+      "product_group_id": "01003057",
+      "brand": "ZARA",
+      "description": "Low-rise pants with front pockets and back false flap pockets. Turn-up hems. Front zip and button closure.",
+      "material": "cotton/elastane",
+      "composition": "OUTER SHELL: 97% cotton, 3% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 26 (US 2)",
+          "sku": "545453639-066-34",
+          "mpn": "545453639-066-34",
+          "color_name": "Ecru / Navy",
+          "size_name": "26 (US 2)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+          "images": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 27 (US 4)",
+          "sku": "545453639-066-36",
+          "mpn": "545453639-066-36",
+          "color_name": "Ecru / Navy",
+          "size_name": "27 (US 4)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+          "images": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 28 (US 6)",
+          "sku": "545453639-066-38",
+          "mpn": "545453639-066-38",
+          "color_name": "Ecru / Navy",
+          "size_name": "28 (US 6)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+          "images": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 29 (US 8)",
+          "sku": "545453639-066-40",
+          "mpn": "545453639-066-40",
+          "color_name": "Ecru / Navy",
+          "size_name": "29 (US 8)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+          "images": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 30 (US 10)",
+          "sku": "545453639-066-42",
+          "mpn": "545453639-066-42",
+          "color_name": "Ecru / Navy",
+          "size_name": "30 (US 10)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+          "images": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 31 (US 12)",
+          "sku": "545453639-066-44",
+          "mpn": "545453639-066-44",
+          "color_name": "Ecru / Navy",
+          "size_name": "31 (US 12)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+          "images": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED CHINO PANTS - Ecru / Navy - 32 (US 14)",
+          "sku": "545453639-066-46",
+          "mpn": "545453639-066-46",
+          "color_name": "Ecru / Navy",
+          "size_name": "32 (US 14)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-chino-pants-p01003057.html?v1=545453639",
+          "images": [
+            "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/96f1/318f/491d47e1a4f6/3bffa3ba38de/01003057066-p/01003057066-p.jpg?ts=1779447435911&w=1920",
+        "https://static.zara.net/assets/public/7ce4/6e14/001f49b8911e/8af1d957e544/01003057066-a1/01003057066-a1.jpg?ts=1779447433699&w=1920",
+        "https://static.zara.net/assets/public/61cc/f84a/b49b444ca160/da669dc14388/01003057066-a2/01003057066-a2.jpg?ts=1779447433783&w=1920",
+        "https://static.zara.net/assets/public/a25f/15da/c2854ed59595/1b0a4ca466e3/01003057066-a3/01003057066-a3.jpg?ts=1779447433689&w=1920",
+        "https://static.zara.net/assets/public/266b/b7f6/417c4111a522/cb2ee003599a/01003057066-a4/01003057066-a4.jpg?ts=1779447433833&w=1920",
+        "https://static.zara.net/assets/public/8a45/73ef/d8a3439681ff/aee91b6a1ef1/01003057066-e1/01003057066-e1.jpg?ts=1779375500249&w=1920",
+        "https://static.zara.net/assets/public/9ce5/bca8/49e24001a924/bfbef382b7ea/01003057066-e2/01003057066-e2.jpg?ts=1779375502921&w=1920",
+        "https://static.zara.net/assets/public/3c02/547a/cb164ecab81a/a24eb52108e0/01003057066-e3/01003057066-e3.jpg?ts=1779375500708&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nLow-rise pants with front pockets and back false flap pockets. Turn-up hems. Front zip and button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 7,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2ad4a245a63001ee8c12f0f50b8becbec1a24b6b877f5757ca9013b3b304cc0a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

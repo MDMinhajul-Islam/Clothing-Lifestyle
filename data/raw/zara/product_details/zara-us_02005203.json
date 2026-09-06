@@ -1,0 +1,234 @@
+{
+  "product_id": "zara-us:02005203",
+  "source_url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html",
+  "final_url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html",
+  "canonical_url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WASHED RELAXED FIT CHINO PANTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WASHED RELAXED FIT CHINO PANTS",
+      "url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html",
+      "productGroupID": "02005203",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit pants made of cotton fabric. Front pockets and back buttoned welt pockets. Washed effect. Front zip and button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920",
+        "https://static.zara.net/assets/public/deab/e247/bc1a403f9af7/21eafc252c29/02005203411-a1/02005203411-a1.jpg?ts=1785338675316&w=1920",
+        "https://static.zara.net/assets/public/828b/4a05/8564474bbd33/cc69e99922e5/02005203411-a2/02005203411-a2.jpg?ts=1785338675674&w=1920",
+        "https://static.zara.net/assets/public/4eac/3502/15094cdf8b29/ad8c618318e5/02005203411-a3/02005203411-a3.jpg?ts=1785338675208&w=1920",
+        "https://static.zara.net/assets/public/6ebf/1f9c/8be649cab456/d81e136d1640/02005203411-a4/02005203411-a4.jpg?ts=1785338675529&w=1920",
+        "https://static.zara.net/assets/public/6a11/0430/50df4d87996b/5770e7379d25/02005203411-a5/02005203411-a5.jpg?ts=1785338675149&w=1920",
+        "https://static.zara.net/assets/public/9769/92b6/0857408187fc/ba59f99bcd71/02005203411-e1/02005203411-e1.jpg?ts=1782393758125&w=1920",
+        "https://static.zara.net/assets/public/5e42/629f/3b5643e49dc4/181195629d6a/02005203411-e2/02005203411-e2.jpg?ts=1782393756601&w=1920",
+        "https://static.zara.net/assets/public/61ec/d3f1/e43c474bb5a5/67d8b5782d25/02005203411-e3/02005203411-e3.jpg?ts=1782393757425&w=1920",
+        "https://static.zara.net/assets/public/ff8e/9a2f/743f4c7b9f68/3fe7dc39a708/02005203411-e4/02005203411-e4.jpg?ts=1782393758254&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WASHED RELAXED FIT CHINO PANTS - Faded sky blue - 30 (US 30)",
+          "sku": "553888946-411-38",
+          "mpn": "553888946-411-38",
+          "color": "Faded sky blue",
+          "size": "30 (US 30)",
+          "image": [
+            "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html?v1=553888946",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED RELAXED FIT CHINO PANTS - Faded sky blue - 31 (US 31)",
+          "sku": "553888946-411-40",
+          "mpn": "553888946-411-40",
+          "color": "Faded sky blue",
+          "size": "31 (US 31)",
+          "image": [
+            "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html?v1=553888946",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED RELAXED FIT CHINO PANTS - Faded sky blue - 32 (US 32)",
+          "sku": "553888946-411-42",
+          "mpn": "553888946-411-42",
+          "color": "Faded sky blue",
+          "size": "32 (US 32)",
+          "image": [
+            "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html?v1=553888946",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED RELAXED FIT CHINO PANTS - Faded sky blue - 34 (US 34)",
+          "sku": "553888946-411-44",
+          "mpn": "553888946-411-44",
+          "color": "Faded sky blue",
+          "size": "34 (US 34)",
+          "image": [
+            "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html?v1=553888946",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WASHED RELAXED FIT CHINO PANTS",
+      "product_group_id": "02005203",
+      "brand": "ZARA",
+      "description": "Relaxed fit pants made of cotton fabric. Front pockets and back buttoned welt pockets. Washed effect. Front zip and button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WASHED RELAXED FIT CHINO PANTS - Faded sky blue - 30 (US 30)",
+          "sku": "553888946-411-38",
+          "mpn": "553888946-411-38",
+          "color_name": "Faded sky blue",
+          "size_name": "30 (US 30)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html?v1=553888946",
+          "images": [
+            "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED RELAXED FIT CHINO PANTS - Faded sky blue - 31 (US 31)",
+          "sku": "553888946-411-40",
+          "mpn": "553888946-411-40",
+          "color_name": "Faded sky blue",
+          "size_name": "31 (US 31)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html?v1=553888946",
+          "images": [
+            "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED RELAXED FIT CHINO PANTS - Faded sky blue - 32 (US 32)",
+          "sku": "553888946-411-42",
+          "mpn": "553888946-411-42",
+          "color_name": "Faded sky blue",
+          "size_name": "32 (US 32)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html?v1=553888946",
+          "images": [
+            "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED RELAXED FIT CHINO PANTS - Faded sky blue - 34 (US 34)",
+          "sku": "553888946-411-44",
+          "mpn": "553888946-411-44",
+          "color_name": "Faded sky blue",
+          "size_name": "34 (US 34)",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-washed-chino-pants-p02005203.html?v1=553888946",
+          "images": [
+            "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e610/002e/7a384c1eb964/8e813e88eef4/02005203411-p/02005203411-p.jpg?ts=1785338675560&w=1920",
+        "https://static.zara.net/assets/public/deab/e247/bc1a403f9af7/21eafc252c29/02005203411-a1/02005203411-a1.jpg?ts=1785338675316&w=1920",
+        "https://static.zara.net/assets/public/828b/4a05/8564474bbd33/cc69e99922e5/02005203411-a2/02005203411-a2.jpg?ts=1785338675674&w=1920",
+        "https://static.zara.net/assets/public/4eac/3502/15094cdf8b29/ad8c618318e5/02005203411-a3/02005203411-a3.jpg?ts=1785338675208&w=1920",
+        "https://static.zara.net/assets/public/6ebf/1f9c/8be649cab456/d81e136d1640/02005203411-a4/02005203411-a4.jpg?ts=1785338675529&w=1920",
+        "https://static.zara.net/assets/public/6a11/0430/50df4d87996b/5770e7379d25/02005203411-a5/02005203411-a5.jpg?ts=1785338675149&w=1920",
+        "https://static.zara.net/assets/public/9769/92b6/0857408187fc/ba59f99bcd71/02005203411-e1/02005203411-e1.jpg?ts=1782393758125&w=1920",
+        "https://static.zara.net/assets/public/5e42/629f/3b5643e49dc4/181195629d6a/02005203411-e2/02005203411-e2.jpg?ts=1782393756601&w=1920",
+        "https://static.zara.net/assets/public/61ec/d3f1/e43c474bb5a5/67d8b5782d25/02005203411-e3/02005203411-e3.jpg?ts=1782393757425&w=1920",
+        "https://static.zara.net/assets/public/ff8e/9a2f/743f4c7b9f68/3fe7dc39a708/02005203411-e4/02005203411-e4.jpg?ts=1782393758254&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed fit pants made of cotton fabric. Front pockets and back buttoned welt pockets. Washed effect. Front zip and button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 17,
+  "valid_images_count": 10,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "94a39900b0e93be2e40d26a326e6e03dcfb2f450c77596c24c4536bc15da9346",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

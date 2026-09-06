@@ -1,0 +1,702 @@
+{
+  "product_id": "zara-us:12200720",
+  "source_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html",
+  "final_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html",
+  "canonical_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html",
+  "enriched_at": "2026-09-06T19:34:14.820310+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MINIMAL SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MINIMAL SNEAKERS",
+      "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html",
+      "productGroupID": "12200720",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Basic lace-up sneakers. Smooth upper. Round toe. Contrasting inner lining. Sole with a subtle texture.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920",
+        "https://static.zara.net/assets/public/5e9d/67b5/faee46869816/91ee050e6023/12200720001-a1/12200720001-a1.jpg?ts=1776173952916&w=1920",
+        "https://static.zara.net/assets/public/5914/270a/e76c496e87ac/5d9adf2a7930/12200720001-a3/12200720001-a3.jpg?ts=1776173952453&w=1920",
+        "https://static.zara.net/assets/public/d78a/f9f1/b25e47a397d5/10385da98bf1/12200720001-e1/12200720001-e1.jpg?ts=1784114544919&w=1920",
+        "https://static.zara.net/assets/public/e0f0/55ad/b9624e23bfb3/0cca3a1d81b0/12200720001-e2/12200720001-e2.jpg?ts=1784114545276&w=1920",
+        "https://static.zara.net/assets/public/a7fd/615c/8d6745f8bed1/078f069f3898/12200720001-e3/12200720001-e3.jpg?ts=1784114545837&w=1920",
+        "https://static.zara.net/assets/public/73e1/7cb5/70654b0c9578/0eea85c9ce18/12200720001-e4/12200720001-e4.jpg?ts=1784114545601&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "73% polyester, 17% polyurethane, 10% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 6",
+          "sku": "549572430-001-39",
+          "mpn": "549572430-001-39",
+          "color": "White",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 7",
+          "sku": "549572430-001-40",
+          "mpn": "549572430-001-40",
+          "color": "White",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 8",
+          "sku": "549572430-001-41",
+          "mpn": "549572430-001-41",
+          "color": "White",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 9",
+          "sku": "549572430-001-42",
+          "mpn": "549572430-001-42",
+          "color": "White",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 10",
+          "sku": "549572430-001-43",
+          "mpn": "549572430-001-43",
+          "color": "White",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 11",
+          "sku": "549572430-001-44",
+          "mpn": "549572430-001-44",
+          "color": "White",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 12",
+          "sku": "549572430-001-45",
+          "mpn": "549572430-001-45",
+          "color": "White",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 13",
+          "sku": "549572430-001-46",
+          "mpn": "549572430-001-46",
+          "color": "White",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - White - 14",
+          "sku": "549572430-001-47",
+          "mpn": "549572430-001-47",
+          "color": "White",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 6",
+          "sku": "549572430-800-39",
+          "mpn": "549572430-800-39",
+          "color": "Black",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 7",
+          "sku": "549572430-800-40",
+          "mpn": "549572430-800-40",
+          "color": "Black",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 8",
+          "sku": "549572430-800-41",
+          "mpn": "549572430-800-41",
+          "color": "Black",
+          "size": "8",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 9",
+          "sku": "549572430-800-42",
+          "mpn": "549572430-800-42",
+          "color": "Black",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 10",
+          "sku": "549572430-800-43",
+          "mpn": "549572430-800-43",
+          "color": "Black",
+          "size": "10",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 11",
+          "sku": "549572430-800-44",
+          "mpn": "549572430-800-44",
+          "color": "Black",
+          "size": "11",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 12",
+          "sku": "549572430-800-45",
+          "mpn": "549572430-800-45",
+          "color": "Black",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 13",
+          "sku": "549572430-800-46",
+          "mpn": "549572430-800-46",
+          "color": "Black",
+          "size": "13",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINIMAL SNEAKERS - Black - 14",
+          "sku": "549572430-800-47",
+          "mpn": "549572430-800-47",
+          "color": "Black",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MINIMAL SNEAKERS",
+      "product_group_id": "12200720",
+      "brand": "ZARA",
+      "description": "Basic lace-up sneakers. Smooth upper. Round toe. Contrasting inner lining. Sole with a subtle texture.",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 73% polyester, 17% polyurethane, 10% cotton | SOLE: 100% rubber | INSOLE: 65% cotton, 35% polyester | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MINIMAL SNEAKERS - White - 6",
+          "sku": "549572430-001-39",
+          "mpn": "549572430-001-39",
+          "color_name": "White",
+          "size_name": "6",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - White - 7",
+          "sku": "549572430-001-40",
+          "mpn": "549572430-001-40",
+          "color_name": "White",
+          "size_name": "7",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - White - 8",
+          "sku": "549572430-001-41",
+          "mpn": "549572430-001-41",
+          "color_name": "White",
+          "size_name": "8",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - White - 9",
+          "sku": "549572430-001-42",
+          "mpn": "549572430-001-42",
+          "color_name": "White",
+          "size_name": "9",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - White - 10",
+          "sku": "549572430-001-43",
+          "mpn": "549572430-001-43",
+          "color_name": "White",
+          "size_name": "10",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - White - 11",
+          "sku": "549572430-001-44",
+          "mpn": "549572430-001-44",
+          "color_name": "White",
+          "size_name": "11",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - White - 12",
+          "sku": "549572430-001-45",
+          "mpn": "549572430-001-45",
+          "color_name": "White",
+          "size_name": "12",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - White - 13",
+          "sku": "549572430-001-46",
+          "mpn": "549572430-001-46",
+          "color_name": "White",
+          "size_name": "13",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - White - 14",
+          "sku": "549572430-001-47",
+          "mpn": "549572430-001-47",
+          "color_name": "White",
+          "size_name": "14",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572430",
+          "images": [
+            "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 6",
+          "sku": "549572430-800-39",
+          "mpn": "549572430-800-39",
+          "color_name": "Black",
+          "size_name": "6",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 7",
+          "sku": "549572430-800-40",
+          "mpn": "549572430-800-40",
+          "color_name": "Black",
+          "size_name": "7",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 8",
+          "sku": "549572430-800-41",
+          "mpn": "549572430-800-41",
+          "color_name": "Black",
+          "size_name": "8",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 9",
+          "sku": "549572430-800-42",
+          "mpn": "549572430-800-42",
+          "color_name": "Black",
+          "size_name": "9",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 10",
+          "sku": "549572430-800-43",
+          "mpn": "549572430-800-43",
+          "color_name": "Black",
+          "size_name": "10",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 11",
+          "sku": "549572430-800-44",
+          "mpn": "549572430-800-44",
+          "color_name": "Black",
+          "size_name": "11",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 12",
+          "sku": "549572430-800-45",
+          "mpn": "549572430-800-45",
+          "color_name": "Black",
+          "size_name": "12",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 13",
+          "sku": "549572430-800-46",
+          "mpn": "549572430-800-46",
+          "color_name": "Black",
+          "size_name": "13",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        },
+        {
+          "name": "MINIMAL SNEAKERS - Black - 14",
+          "sku": "549572430-800-47",
+          "mpn": "549572430-800-47",
+          "color_name": "Black",
+          "size_name": "14",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/minimal-sneakers-p12200720.html?v1=549572433",
+          "images": [
+            "https://static.zara.net/assets/public/9632/b745/1e3247e3b9a9/85a77c8e2a30/12200720800-a2/12200720800-a2.jpg?ts=1770882512996&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8b3b/56d6/d2124e53a5ee/a395c1c78bb2/12200720001-a2/12200720001-a2.jpg?ts=1776173953393&w=1920",
+        "https://static.zara.net/assets/public/5e9d/67b5/faee46869816/91ee050e6023/12200720001-a1/12200720001-a1.jpg?ts=1776173952916&w=1920",
+        "https://static.zara.net/assets/public/5914/270a/e76c496e87ac/5d9adf2a7930/12200720001-a3/12200720001-a3.jpg?ts=1776173952453&w=1920",
+        "https://static.zara.net/assets/public/d78a/f9f1/b25e47a397d5/10385da98bf1/12200720001-e1/12200720001-e1.jpg?ts=1784114544919&w=1920",
+        "https://static.zara.net/assets/public/e0f0/55ad/b9624e23bfb3/0cca3a1d81b0/12200720001-e2/12200720001-e2.jpg?ts=1784114545276&w=1920",
+        "https://static.zara.net/assets/public/a7fd/615c/8d6745f8bed1/078f069f3898/12200720001-e3/12200720001-e3.jpg?ts=1784114545837&w=1920",
+        "https://static.zara.net/assets/public/73e1/7cb5/70654b0c9578/0eea85c9ce18/12200720001-e4/12200720001-e4.jpg?ts=1784114545601&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Black"
+  ],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nBasic lace-up sneakers. Smooth upper. Round toe. Contrasting inner lining. Sole with a subtle texture.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 18,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1840421659763921cb06b50dc40d567c2a77709816c4a7a0df0a79346917ca32",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
