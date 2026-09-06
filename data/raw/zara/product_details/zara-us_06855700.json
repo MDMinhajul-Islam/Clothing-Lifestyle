@@ -3,34 +3,673 @@
   "source_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html",
   "final_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html",
   "canonical_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html",
-  "enriched_at": "2026-09-06T17:49:46.272063+00:00",
+  "enriched_at": "2026-09-06T20:00:41.352636+00:00",
   "http_status": 200,
-  "page_title": "",
+  "page_title": "BALLOON JEANS - Indigo | ZARA United States",
   "headings": [
-    "Privacy Preference Center"
+    "BALLOON JEANS",
+    "Add to cart",
+    "Description",
+    "Footer"
   ],
-  "jsonld_raw": [],
-  "parsed_product_groups": [],
-  "dom_colors": [],
-  "rendered_price": null,
-  "rendered_description": null,
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BALLOON JEANS",
+      "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html",
+      "productGroupID": "06855700",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Balloon style jeans with elastic waistband and front button closure. Front pockets and back patch pockets.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920",
+        "https://static.zara.net/assets/public/6401/ae7a/55124b35a847/3c31caf2dcc1/04110706405-e2/04110706405-e2.jpg?ts=1780653883466&w=1920",
+        "https://static.zara.net/assets/public/8181/f086/1c6f489d8aec/ab9b236d4024/04110706405-e3/04110706405-e3.jpg?ts=1780653883245&w=1920",
+        "https://static.zara.net/assets/public/8c8c/0534/ab624528ae54/ae4b34efa185/04110706405-e4/04110706405-e4.jpg?ts=1780653883865&w=1920",
+        "https://static.zara.net/assets/public/7523/687d/05d140e9bead/6f99591d4b21/04110706405-p/04110706405-p.jpg?ts=1784013953368&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Indigo - 6-7 years (48,0 INCHES)",
+          "sku": "579615345-405-7",
+          "mpn": "579615345-405-7",
+          "color": "Indigo",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Indigo - 7-8 years (50,4 INCHES)",
+          "sku": "579615345-405-8",
+          "mpn": "579615345-405-8",
+          "color": "Indigo",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Indigo - 8-9 years (52,7 INCHES)",
+          "sku": "579615345-405-9",
+          "mpn": "579615345-405-9",
+          "color": "Indigo",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Indigo - 9-10 years (55,1 INCHES)",
+          "sku": "579615345-405-10",
+          "mpn": "579615345-405-10",
+          "color": "Indigo",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Indigo - 11-12 years (59,8 INCHES)",
+          "sku": "579615345-405-12",
+          "mpn": "579615345-405-12",
+          "color": "Indigo",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Indigo - 13-14 years (64,6 INCHES)",
+          "sku": "579615345-405-14",
+          "mpn": "579615345-405-14",
+          "color": "Indigo",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Light blue - 6-7 years (48,0 INCHES)",
+          "sku": "579615345-406-7",
+          "mpn": "579615345-406-7",
+          "color": "Light blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Light blue - 7-8 years (50,4 INCHES)",
+          "sku": "579615345-406-8",
+          "mpn": "579615345-406-8",
+          "color": "Light blue",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Light blue - 8-9 years (52,7 INCHES)",
+          "sku": "579615345-406-9",
+          "mpn": "579615345-406-9",
+          "color": "Light blue",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Light blue - 9-10 years (55,1 INCHES)",
+          "sku": "579615345-406-10",
+          "mpn": "579615345-406-10",
+          "color": "Light blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Light blue - 11-12 years (59,8 INCHES)",
+          "sku": "579615345-406-12",
+          "mpn": "579615345-406-12",
+          "color": "Light blue",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Light blue - 13-14 years (64,6 INCHES)",
+          "sku": "579615345-406-14",
+          "mpn": "579615345-406-14",
+          "color": "Light blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Gray - 6-7 years (48,0 INCHES)",
+          "sku": "579615345-802-7",
+          "mpn": "579615345-802-7",
+          "color": "Gray",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Gray - 7-8 years (50,4 INCHES)",
+          "sku": "579615345-802-8",
+          "mpn": "579615345-802-8",
+          "color": "Gray",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Gray - 8-9 years (52,7 INCHES)",
+          "sku": "579615345-802-9",
+          "mpn": "579615345-802-9",
+          "color": "Gray",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Gray - 9-10 years (55,1 INCHES)",
+          "sku": "579615345-802-10",
+          "mpn": "579615345-802-10",
+          "color": "Gray",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Gray - 11-12 years (59,8 INCHES)",
+          "sku": "579615345-802-12",
+          "mpn": "579615345-802-12",
+          "color": "Gray",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BALLOON JEANS - Gray - 13-14 years (64,6 INCHES)",
+          "sku": "579615345-802-14",
+          "mpn": "579615345-802-14",
+          "color": "Gray",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BALLOON JEANS",
+      "product_group_id": "06855700",
+      "brand": "ZARA",
+      "description": "Balloon style jeans with elastic waistband and front button closure. Front pockets and back patch pockets.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BALLOON JEANS - Indigo - 6-7 years (48,0 INCHES)",
+          "sku": "579615345-405-7",
+          "mpn": "579615345-405-7",
+          "color_name": "Indigo",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+          "images": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Indigo - 7-8 years (50,4 INCHES)",
+          "sku": "579615345-405-8",
+          "mpn": "579615345-405-8",
+          "color_name": "Indigo",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+          "images": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Indigo - 8-9 years (52,7 INCHES)",
+          "sku": "579615345-405-9",
+          "mpn": "579615345-405-9",
+          "color_name": "Indigo",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+          "images": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Indigo - 9-10 years (55,1 INCHES)",
+          "sku": "579615345-405-10",
+          "mpn": "579615345-405-10",
+          "color_name": "Indigo",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+          "images": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Indigo - 11-12 years (59,8 INCHES)",
+          "sku": "579615345-405-12",
+          "mpn": "579615345-405-12",
+          "color_name": "Indigo",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+          "images": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Indigo - 13-14 years (64,6 INCHES)",
+          "sku": "579615345-405-14",
+          "mpn": "579615345-405-14",
+          "color_name": "Indigo",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=579615345",
+          "images": [
+            "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Light blue - 6-7 years (48,0 INCHES)",
+          "sku": "579615345-406-7",
+          "mpn": "579615345-406-7",
+          "color_name": "Light blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+          "images": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Light blue - 7-8 years (50,4 INCHES)",
+          "sku": "579615345-406-8",
+          "mpn": "579615345-406-8",
+          "color_name": "Light blue",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+          "images": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Light blue - 8-9 years (52,7 INCHES)",
+          "sku": "579615345-406-9",
+          "mpn": "579615345-406-9",
+          "color_name": "Light blue",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+          "images": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Light blue - 9-10 years (55,1 INCHES)",
+          "sku": "579615345-406-10",
+          "mpn": "579615345-406-10",
+          "color_name": "Light blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+          "images": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Light blue - 11-12 years (59,8 INCHES)",
+          "sku": "579615345-406-12",
+          "mpn": "579615345-406-12",
+          "color_name": "Light blue",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+          "images": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Light blue - 13-14 years (64,6 INCHES)",
+          "sku": "579615345-406-14",
+          "mpn": "579615345-406-14",
+          "color_name": "Light blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=561261129",
+          "images": [
+            "https://static.zara.net/assets/public/892e/b5f6/affb410f87c3/f27f93d43a5b/06855700406-e1/06855700406-e1.jpg?ts=1782979979168&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Gray - 6-7 years (48,0 INCHES)",
+          "sku": "579615345-802-7",
+          "mpn": "579615345-802-7",
+          "color_name": "Gray",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+          "images": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Gray - 7-8 years (50,4 INCHES)",
+          "sku": "579615345-802-8",
+          "mpn": "579615345-802-8",
+          "color_name": "Gray",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+          "images": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Gray - 8-9 years (52,7 INCHES)",
+          "sku": "579615345-802-9",
+          "mpn": "579615345-802-9",
+          "color_name": "Gray",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+          "images": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Gray - 9-10 years (55,1 INCHES)",
+          "sku": "579615345-802-10",
+          "mpn": "579615345-802-10",
+          "color_name": "Gray",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+          "images": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Gray - 11-12 years (59,8 INCHES)",
+          "sku": "579615345-802-12",
+          "mpn": "579615345-802-12",
+          "color_name": "Gray",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+          "images": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ]
+        },
+        {
+          "name": "BALLOON JEANS - Gray - 13-14 years (64,6 INCHES)",
+          "sku": "579615345-802-14",
+          "mpn": "579615345-802-14",
+          "color_name": "Gray",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html?v1=565561415",
+          "images": [
+            "https://static.zara.net/assets/public/b905/3a25/5fcf4aca84ce/8511d6018928/04110706802-e1/04110706802-e1.jpg?ts=1780388532561&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3242/1be1/45c8427892ec/7d5ed3897344/04110706405-e1/04110706405-e1.jpg?ts=1780653883505&w=1920",
+        "https://static.zara.net/assets/public/6401/ae7a/55124b35a847/3c31caf2dcc1/04110706405-e2/04110706405-e2.jpg?ts=1780653883466&w=1920",
+        "https://static.zara.net/assets/public/8181/f086/1c6f489d8aec/ab9b236d4024/04110706405-e3/04110706405-e3.jpg?ts=1780653883245&w=1920",
+        "https://static.zara.net/assets/public/8c8c/0534/ab624528ae54/ae4b34efa185/04110706405-e4/04110706405-e4.jpg?ts=1780653883865&w=1920",
+        "https://static.zara.net/assets/public/7523/687d/05d140e9bead/6f99591d4b21/04110706405-p/04110706405-p.jpg?ts=1784013953368&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Indigo",
+    "Light blue",
+    "Gray"
+  ],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nBalloon style jeans with elastic waistband and front button closure. Front pockets and back patch pockets.",
   "comp_care_text": null,
-  "raw_images_count": 0,
-  "valid_images_count": 0,
-  "variants_count": 1,
-  "colors_count": 0,
+  "raw_images_count": 5,
+  "valid_images_count": 7,
+  "variants_count": 18,
+  "colors_count": 3,
   "pricing_stats": {
-    "current_price": null,
+    "current_price": "35.90",
     "original_price": null,
     "sale_price": null,
     "is_on_sale": false,
-    "jsonld_price": null,
-    "dom_price": null,
-    "normalized_price": null,
-    "normalization_reason": "MISSING",
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
     "price_conflict": false,
     "price_conflict_details": null
   },
-  "source_content_hash": "3defe4a8ff53bd15ead3c077c8f954f21e445f778e832e81eb47cd4786c3da8f",
+  "source_content_hash": "84c4a1824de15d768d33cb164740b610cd53ce4391e4044442dbfc476a64ebf3",
   "parser_version": "phase_1c_v2.0_3layer"
 }

@@ -1,0 +1,316 @@
+{
+  "timestamp": "2026-09-06T20:01:41.592582+00:00",
+  "final_decision": "READY_FOR_SUPABASE_IMPORT",
+  "accounting": {
+    "total_identities": 6276,
+    "complete": 6018,
+    "failed_terminal": 258,
+    "failed_retryable": 0,
+    "queued": 0,
+    "partial": 0,
+    "reconciliation_exact": true
+  },
+  "identity_audit": {
+    "total_products": 6018,
+    "unique_product_ids": 6018,
+    "duplicate_product_ids_count": 0,
+    "duplicate_product_ids": [],
+    "missing_from_unique_products_count": 0,
+    "total_canonical_urls": 6018,
+    "unique_canonical_urls": 6006,
+    "duplicate_canonical_urls_count": 12,
+    "commercial_references_count": 5957,
+    "valid_commercial_reference_format_count": 5957,
+    "commercial_reference_format_compliance_percent": 100.0
+  },
+  "completeness": {
+    "product_id": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "source_product_id": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "exact_product_name": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "department": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "canonical_url": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "commercial_reference": {
+      "populated_count": 5957,
+      "coverage_percent": 98.99
+    },
+    "current_price": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "currency": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "description": {
+      "populated_count": 0,
+      "coverage_percent": 0.0
+    },
+    "composition_text": {
+      "populated_count": 5182,
+      "coverage_percent": 86.11
+    },
+    "care_text": {
+      "populated_count": 0,
+      "coverage_percent": 0.0
+    },
+    "lifecycle_status": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "first_seen_at": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "last_seen_at": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "last_synced_at": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    },
+    "source_content_hash": {
+      "populated_count": 6018,
+      "coverage_percent": 100.0
+    }
+  },
+  "pricing_audit": {
+    "products_with_price": 6018,
+    "price_coverage_percent": 100.0,
+    "currency_distribution": {
+      "USD": 6018
+    },
+    "on_sale_count": 231,
+    "on_sale_percent": 3.84,
+    "min_price": 5.9,
+    "max_price": 4900.0,
+    "avg_price": 59.5,
+    "median_price": 39.9,
+    "impossible_negative_or_zero_count": 0,
+    "price_history_snapshots_count": 6018,
+    "price_history_1_to_1_coverage_percent": 100.0
+  },
+  "variant_audit": {
+    "total_variants": 38002,
+    "orphan_variants_count": 0,
+    "products_with_variants": 6018,
+    "products_without_variants": 0,
+    "availability_distribution": {
+      "OUT_OF_STOCK": 3990,
+      "IN_STOCK": 32925,
+      "UNKNOWN": 1087
+    },
+    "avg_variants_per_product": 6.31,
+    "median_variants_per_product": 6.0,
+    "max_variants_per_product": 90
+  },
+  "color_audit": {
+    "total_colors": 7717,
+    "orphan_colors_count": 0,
+    "products_with_colors": 5742,
+    "products_without_colors": 276,
+    "commercial_reference_stored_as_color_count": 67,
+    "avg_colors_per_product": 1.28,
+    "median_colors_per_product": 1.0,
+    "max_colors_per_product": 15
+  },
+  "image_audit": {
+    "total_images": 40228,
+    "orphan_images_count": 0,
+    "products_with_images": 5956,
+    "products_without_images": 62,
+    "color_linked_images_count": 32484,
+    "gallery_unmapped_images_count": 7744,
+    "avg_images_per_product": 6.68,
+    "median_images_per_product": 6.0,
+    "max_images_per_product": 78,
+    "suspiciously_high_image_products_count": 20
+  },
+  "category_audit": {
+    "total_categories": 745,
+    "total_product_category_edges": 8473,
+    "orphan_product_category_edges_count": 273,
+    "department_distribution": {
+      "WOMAN": 1030,
+      "MAN": 994,
+      "KIDS": 3004,
+      "ZARA HOME": 797,
+      "BEAUTY": 193
+    }
+  },
+  "provenance_audit": {
+    "total_complete_products": 6018,
+    "raw_evidence_files_count": 6018,
+    "products_missing_raw_evidence_count": 0,
+    "raw_evidence_coverage_percent": 100.0
+  },
+  "hash_audit": {
+    "total_products": 6018,
+    "valid_sha256_hashes_count": 6018,
+    "hash_compliance_percent": 100.0,
+    "populated_last_synced_at_count": 6018,
+    "sync_readiness_percent": 100.0
+  },
+  "failed_audit": {
+    "failed_terminal_count": 258,
+    "failed_terminal_reasons": {
+      "UNRESOLVED_LISTING_CARD_IDENTITY": 258
+    },
+    "failed_retryable_count": 0,
+    "failed_retryable_items": []
+  },
+  "schema_mapping": [
+    {
+      "table_name": "products",
+      "source_file": "data/zara/product_details.json",
+      "primary_key": "product_id (TEXT)",
+      "foreign_keys": [],
+      "important_unique_constraints": [
+        "canonical_url (TEXT UNIQUE)"
+      ],
+      "important_indexes": [
+        "source_product_id",
+        "department",
+        "current_price",
+        "lifecycle_status"
+      ],
+      "expected_row_count": 6018
+    },
+    {
+      "table_name": "product_variants",
+      "source_file": "data/zara/product_variants.json",
+      "primary_key": "variant_id (TEXT)",
+      "foreign_keys": [
+        "product_id -> products.product_id ON DELETE CASCADE"
+      ],
+      "important_unique_constraints": [
+        "sku (TEXT UNIQUE)"
+      ],
+      "important_indexes": [
+        "product_id",
+        "size_name",
+        "public_availability_state"
+      ],
+      "expected_row_count": 38002
+    },
+    {
+      "table_name": "product_colors",
+      "source_file": "data/zara/product_colors.json",
+      "primary_key": "color_id (TEXT)",
+      "foreign_keys": [
+        "product_id -> products.product_id ON DELETE CASCADE"
+      ],
+      "important_unique_constraints": [
+        "(product_id, color_name) UNIQUE"
+      ],
+      "important_indexes": [
+        "product_id"
+      ],
+      "expected_row_count": 7717
+    },
+    {
+      "table_name": "product_images",
+      "source_file": "data/zara/product_images.json",
+      "primary_key": "image_id (TEXT)",
+      "foreign_keys": [
+        "product_id -> products.product_id ON DELETE CASCADE"
+      ],
+      "important_unique_constraints": [
+        "(product_id, delivery_url) UNIQUE"
+      ],
+      "important_indexes": [
+        "product_id",
+        "color_id",
+        "display_order"
+      ],
+      "expected_row_count": 40228
+    },
+    {
+      "table_name": "categories",
+      "source_file": "data/zara/categories.json",
+      "primary_key": "category_id (TEXT)",
+      "foreign_keys": [
+        "parent_category_id -> categories.category_id"
+      ],
+      "important_unique_constraints": [
+        "category_url (TEXT UNIQUE)"
+      ],
+      "important_indexes": [
+        "department",
+        "discovery_status"
+      ],
+      "expected_row_count": 745
+    },
+    {
+      "table_name": "product_categories",
+      "source_file": "data/zara/product_categories.json",
+      "primary_key": "id (BIGSERIAL or UUID)",
+      "foreign_keys": [
+        "product_id -> products.product_id ON DELETE CASCADE",
+        "category_id -> categories.category_id ON DELETE CASCADE"
+      ],
+      "important_unique_constraints": [
+        "(product_id, category_id) UNIQUE"
+      ],
+      "important_indexes": [
+        "product_id",
+        "category_id"
+      ],
+      "expected_row_count": 8473
+    },
+    {
+      "table_name": "product_price_history",
+      "source_file": "data/zara/product_price_history.json",
+      "primary_key": "history_id (TEXT)",
+      "foreign_keys": [
+        "product_id -> products.product_id ON DELETE CASCADE"
+      ],
+      "important_unique_constraints": [
+        "(product_id, observed_at) UNIQUE"
+      ],
+      "important_indexes": [
+        "product_id",
+        "observed_at",
+        "current_price"
+      ],
+      "expected_row_count": 6018
+    },
+    {
+      "table_name": "catalogue_sync_state",
+      "source_file": "data/zara/product_detail_queue.json",
+      "primary_key": "id (TEXT)",
+      "foreign_keys": [],
+      "important_unique_constraints": [],
+      "important_indexes": [
+        "status",
+        "last_attempt_at"
+      ],
+      "expected_row_count": 6276
+    }
+  ],
+  "blockers": [
+    {
+      "severity": "INFORMATIONAL",
+      "issue": "258 FAILED_TERMINAL unresolved card identities are preserved in catalogue_sync_state; they have no product URLs and should not be inserted into products table."
+    },
+    {
+      "severity": "INFORMATIONAL",
+      "issue": "Price history currently has 1:1 initial observations from Phase 1C enrichment; ready for ongoing auto-sync appending."
+    }
+  ]
+}

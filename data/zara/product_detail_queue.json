@@ -19935,16 +19935,16 @@
     "id": "zara-us:06855700",
     "url": "https://www.zara.com/us/en/balloon-jeans-p06855700.html",
     "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T17:49:46.272063+00:00",
+    "attempt_count": 2,
+    "last_attempt_at": "2026-09-06T20:00:41.352636+00:00",
     "error": null,
     "checkpoint": {
-      "enriched_at": "2026-09-06T17:49:46.272063+00:00",
-      "content_hash": "3defe4a8ff53bd15ead3c077c8f954f21e445f778e832e81eb47cd4786c3da8f",
-      "variants_count": 1,
-      "colors_count": 0,
-      "images_count": 0,
-      "price": null
+      "enriched_at": "2026-09-06T20:00:41.352636+00:00",
+      "content_hash": "84c4a1824de15d768d33cb164740b610cd53ce4391e4044442dbfc476a64ebf3",
+      "variants_count": 18,
+      "colors_count": 3,
+      "images_count": 7,
+      "price": "35.90"
     }
   },
   {
@@ -84880,15 +84880,17 @@
   {
     "id": "zara-us:01732302",
     "url": "https://www.zara.com/us/en/tapered-fit-climbing-pants-p01732302.html",
-    "status": "FAILED_RETRYABLE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T19:34:14.820310+00:00",
-    "error": "Page.goto: net::ERR_FAILED at https://www.zara.com/us/en/tapered-fit-climbing-pants-p01732302.html\nCall log:\n  - navigating to \"https://www.zara.com/us/en/tapered-fit-climbing-pants-p01732302.html\", waiting until \"domcontentloaded\"\n",
+    "status": "COMPLETE",
+    "attempt_count": 2,
+    "last_attempt_at": "2026-09-06T19:59:57.362915+00:00",
+    "error": null,
     "checkpoint": {
-      "core_preserved": false,
-      "supplemental_only": false,
-      "requires_validation_before_reopen": false,
-      "source_category_id": "category:b547c2f0c580d495"
+      "enriched_at": "2026-09-06T19:59:57.362915+00:00",
+      "content_hash": "91ecf3715481dd554cc90bb2c4d2624372b2aa5fca2cfef6871eb7a522b3e9a9",
+      "variants_count": 4,
+      "colors_count": 1,
+      "images_count": 11,
+      "price": "89.90"
     }
   },
   {
