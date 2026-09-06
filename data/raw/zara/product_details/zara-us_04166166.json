@@ -1,0 +1,362 @@
+{
+  "product_id": "zara-us:04166166",
+  "source_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html",
+  "final_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html",
+  "canonical_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "REGULAR FIT SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "REGULAR FIT SHIRT",
+      "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html",
+      "productGroupID": "04166166",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "REGULAR FIT - 100% COTTON - REGULAR COLLAR. Regular fit shirt made of a cotton blend fabric with stretch. Italian collar and long sleeves with buttoned cuffs. Front button-up closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920",
+        "https://static.zara.net/assets/public/6a24/3a7a/20a24536a1f0/5df5967ca449/05588370250-a1/05588370250-a1.jpg?ts=1785328903543&w=1920",
+        "https://static.zara.net/assets/public/06bd/0681/f18a4ea59389/54c76bc2a749/05588370250-a2/05588370250-a2.jpg?ts=1785328902312&w=1920",
+        "https://static.zara.net/assets/public/f754/fda3/49484b28b5e8/be494177e53c/05588370250-a3/05588370250-a3.jpg?ts=1785328902519&w=1920",
+        "https://static.zara.net/assets/public/cd66/ae88/336f490f9e3e/cba48a2c6283/05588370250-a4/05588370250-a4.jpg?ts=1785328904620&w=1920",
+        "https://static.zara.net/assets/public/b8a8/6311/ca8c45628a7c/f166f4871530/05588370250-a5/05588370250-a5.jpg?ts=1785328903961&w=1920",
+        "https://static.zara.net/assets/public/4b37/2f03/235347669050/a3c718a52bbe/05588370250-a6/05588370250-a6.jpg?ts=1785328902842&w=1920",
+        "https://static.zara.net/assets/public/aadc/ebf6/8af64a01a0c4/5c2b15eef808/05588370250-e1/05588370250-e1.jpg?ts=1783949193080&w=1920",
+        "https://static.zara.net/assets/public/dc57/10c5/ecc54c8abc40/e2cf8bd8800c/05588370250-e2/05588370250-e2.jpg?ts=1783949193345&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT SHIRT - White - S",
+          "sku": "545490346-250-2",
+          "mpn": "545490346-250-2",
+          "color": "White",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490346",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT SHIRT - White - M",
+          "sku": "545490346-250-3",
+          "mpn": "545490346-250-3",
+          "color": "White",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490346",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT SHIRT - White - L",
+          "sku": "545490346-250-4",
+          "mpn": "545490346-250-4",
+          "color": "White",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490346",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT SHIRT - White - XL",
+          "sku": "545490346-250-5",
+          "mpn": "545490346-250-5",
+          "color": "White",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490346",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT SHIRT - Sky blue - S",
+          "sku": "545490346-403-2",
+          "mpn": "545490346-403-2",
+          "color": "Sky blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/0adc/6185/755a4a53a3ae/5385a49c419a/04166166403-p/04166166403-p.jpg?ts=1785328891253&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT SHIRT - Sky blue - M",
+          "sku": "545490346-403-3",
+          "mpn": "545490346-403-3",
+          "color": "Sky blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/0adc/6185/755a4a53a3ae/5385a49c419a/04166166403-p/04166166403-p.jpg?ts=1785328891253&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT SHIRT - Sky blue - L",
+          "sku": "545490346-403-4",
+          "mpn": "545490346-403-4",
+          "color": "Sky blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/0adc/6185/755a4a53a3ae/5385a49c419a/04166166403-p/04166166403-p.jpg?ts=1785328891253&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT SHIRT - Sky blue - XL",
+          "sku": "545490346-403-5",
+          "mpn": "545490346-403-5",
+          "color": "Sky blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/0adc/6185/755a4a53a3ae/5385a49c419a/04166166403-p/04166166403-p.jpg?ts=1785328891253&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490345",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "REGULAR FIT SHIRT",
+      "product_group_id": "04166166",
+      "brand": "ZARA",
+      "description": "REGULAR FIT - 100% COTTON - REGULAR COLLAR. Regular fit shirt made of a cotton blend fabric with stretch. Italian collar and long sleeves with buttoned cuffs. Front button-up closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "REGULAR FIT SHIRT - White - S",
+          "sku": "545490346-250-2",
+          "mpn": "545490346-250-2",
+          "color_name": "White",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490346",
+          "images": [
+            "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT SHIRT - White - M",
+          "sku": "545490346-250-3",
+          "mpn": "545490346-250-3",
+          "color_name": "White",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490346",
+          "images": [
+            "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT SHIRT - White - L",
+          "sku": "545490346-250-4",
+          "mpn": "545490346-250-4",
+          "color_name": "White",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490346",
+          "images": [
+            "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT SHIRT - White - XL",
+          "sku": "545490346-250-5",
+          "mpn": "545490346-250-5",
+          "color_name": "White",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490346",
+          "images": [
+            "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT SHIRT - Sky blue - S",
+          "sku": "545490346-403-2",
+          "mpn": "545490346-403-2",
+          "color_name": "Sky blue",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490345",
+          "images": [
+            "https://static.zara.net/assets/public/0adc/6185/755a4a53a3ae/5385a49c419a/04166166403-p/04166166403-p.jpg?ts=1785328891253&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT SHIRT - Sky blue - M",
+          "sku": "545490346-403-3",
+          "mpn": "545490346-403-3",
+          "color_name": "Sky blue",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490345",
+          "images": [
+            "https://static.zara.net/assets/public/0adc/6185/755a4a53a3ae/5385a49c419a/04166166403-p/04166166403-p.jpg?ts=1785328891253&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT SHIRT - Sky blue - L",
+          "sku": "545490346-403-4",
+          "mpn": "545490346-403-4",
+          "color_name": "Sky blue",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490345",
+          "images": [
+            "https://static.zara.net/assets/public/0adc/6185/755a4a53a3ae/5385a49c419a/04166166403-p/04166166403-p.jpg?ts=1785328891253&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT SHIRT - Sky blue - XL",
+          "sku": "545490346-403-5",
+          "mpn": "545490346-403-5",
+          "color_name": "Sky blue",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/regular-fit-shirt-p04166166.html?v1=545490345",
+          "images": [
+            "https://static.zara.net/assets/public/0adc/6185/755a4a53a3ae/5385a49c419a/04166166403-p/04166166403-p.jpg?ts=1785328891253&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0f82/8347/cd16423391ae/3433e99e8c0e/05588370250-p/05588370250-p.jpg?ts=1785328902225&w=1920",
+        "https://static.zara.net/assets/public/6a24/3a7a/20a24536a1f0/5df5967ca449/05588370250-a1/05588370250-a1.jpg?ts=1785328903543&w=1920",
+        "https://static.zara.net/assets/public/06bd/0681/f18a4ea59389/54c76bc2a749/05588370250-a2/05588370250-a2.jpg?ts=1785328902312&w=1920",
+        "https://static.zara.net/assets/public/f754/fda3/49484b28b5e8/be494177e53c/05588370250-a3/05588370250-a3.jpg?ts=1785328902519&w=1920",
+        "https://static.zara.net/assets/public/cd66/ae88/336f490f9e3e/cba48a2c6283/05588370250-a4/05588370250-a4.jpg?ts=1785328904620&w=1920",
+        "https://static.zara.net/assets/public/b8a8/6311/ca8c45628a7c/f166f4871530/05588370250-a5/05588370250-a5.jpg?ts=1785328903961&w=1920",
+        "https://static.zara.net/assets/public/4b37/2f03/235347669050/a3c718a52bbe/05588370250-a6/05588370250-a6.jpg?ts=1785328902842&w=1920",
+        "https://static.zara.net/assets/public/aadc/ebf6/8af64a01a0c4/5c2b15eef808/05588370250-e1/05588370250-e1.jpg?ts=1783949193080&w=1920",
+        "https://static.zara.net/assets/public/dc57/10c5/ecc54c8abc40/e2cf8bd8800c/05588370250-e2/05588370250-e2.jpg?ts=1783949193345&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Sky blue"
+  ],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nREGULAR FIT - 100% COTTON - REGULAR COLLAR. Regular fit shirt made of a cotton blend fabric with stretch. Italian collar and long sleeves with buttoned cuffs. Front button-up closure.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 10,
+  "variants_count": 8,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "12093845a6bdddffedeb5cd8ca258cc2fc98b1312e37a71ee8e461830b962399",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

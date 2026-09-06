@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44304043",
+  "source_url": "https://www.zara.com/us/en/blue-leather-mini-case-p44304043.html",
+  "final_url": "https://www.zara.com/us/en/blue-leather-mini-case-p44304043.html",
+  "canonical_url": "https://www.zara.com/us/en/blue-leather-mini-case-p44304043.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BLUE LEATHER MINI CASE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BLUE LEATHER MINI CASE",
+      "url": "https://www.zara.com/us/en/blue-leather-mini-case-p44304043.html",
+      "productGroupID": "44304043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Mini case crafted in leather. Elongated design with zip closure and leather pull tab.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4112/d6a0/a9b9438cbb09/fb1bd0178b8d/44304043407-e1/44304043407-e1.jpg?ts=1784125614182&w=1920",
+        "https://static.zara.net/assets/public/865b/ba1b/19d34df3b9b8/26fb6b0b31a1/44304043407-e2/44304043407-e2.jpg?ts=1784125614234&w=1920",
+        "https://static.zara.net/assets/public/8632/3790/cece4eb69192/2bc38268e8da/44304043407-e3/44304043407-e3.jpg?ts=1784125613804&w=1920",
+        "https://static.zara.net/assets/public/9142/84c9/296044e5a900/eb87b8fd7340/44304043407-e4/44304043407-e4.jpg?ts=1784125614250&w=1920",
+        "https://static.zara.net/assets/public/fc75/7b46/3e49475ab3e1/e41dea0dcf32/44304043407-a1/44304043407-a1.jpg?ts=1785854590535&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BLUE LEATHER MINI CASE - Blue - ONE SIZE ONLY",
+          "sku": "545401382-407-99",
+          "mpn": "545401382-407-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/4112/d6a0/a9b9438cbb09/fb1bd0178b8d/44304043407-e1/44304043407-e1.jpg?ts=1784125614182&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/blue-leather-mini-case-p44304043.html?v1=545401382",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BLUE LEATHER MINI CASE",
+      "product_group_id": "44304043",
+      "brand": "ZARAHOME",
+      "description": "Mini case crafted in leather. Elongated design with zip closure and leather pull tab.",
+      "material": "100% cow leather",
+      "composition": "OUTER SHELL: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BLUE LEATHER MINI CASE - Blue - ONE SIZE ONLY",
+          "sku": "545401382-407-99",
+          "mpn": "545401382-407-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/blue-leather-mini-case-p44304043.html?v1=545401382",
+          "images": [
+            "https://static.zara.net/assets/public/4112/d6a0/a9b9438cbb09/fb1bd0178b8d/44304043407-e1/44304043407-e1.jpg?ts=1784125614182&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4112/d6a0/a9b9438cbb09/fb1bd0178b8d/44304043407-e1/44304043407-e1.jpg?ts=1784125614182&w=1920",
+        "https://static.zara.net/assets/public/865b/ba1b/19d34df3b9b8/26fb6b0b31a1/44304043407-e2/44304043407-e2.jpg?ts=1784125614234&w=1920",
+        "https://static.zara.net/assets/public/8632/3790/cece4eb69192/2bc38268e8da/44304043407-e3/44304043407-e3.jpg?ts=1784125613804&w=1920",
+        "https://static.zara.net/assets/public/9142/84c9/296044e5a900/eb87b8fd7340/44304043407-e4/44304043407-e4.jpg?ts=1784125614250&w=1920",
+        "https://static.zara.net/assets/public/fc75/7b46/3e49475ab3e1/e41dea0dcf32/44304043407-a1/44304043407-a1.jpg?ts=1785854590535&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nMini case crafted in leather. Elongated design with zip closure and leather pull tab.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e4200d7f8ae14a5dc332f76e29d556ecec985e81f534fba516753166cc0ae4ad",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

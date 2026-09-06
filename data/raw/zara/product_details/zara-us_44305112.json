@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44305112",
+  "source_url": "https://www.zara.com/us/en/pocket-weekly-planner-p44305112.html",
+  "final_url": "https://www.zara.com/us/en/pocket-weekly-planner-p44305112.html",
+  "canonical_url": "https://www.zara.com/us/en/pocket-weekly-planner-p44305112.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "POCKET WEEKLY PLANNER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "POCKET WEEKLY PLANNER",
+      "url": "https://www.zara.com/us/en/pocket-weekly-planner-p44305112.html",
+      "productGroupID": "44305112",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pocket weekly planner with a hard cover. Design features a weekly view, ribbon bookmark, and integrated pencil.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3e10/c30b/a9c6433d8cad/44b1ad17a456/44305112800-e1/44305112800-e1.jpg?ts=1786961844223&w=1920",
+        "https://static.zara.net/assets/public/0160/5007/ea534c0c988c/ac72887c482d/44305112800-e2/44305112800-e2.jpg?ts=1786961845343&w=1920",
+        "https://static.zara.net/assets/public/c53a/7ef1/77d34aa8afa4/78b083a6239b/44305112800-e3/44305112800-e3.jpg?ts=1786961844930&w=1920",
+        "https://static.zara.net/assets/public/0b1b/28fa/9d394004bcf8/b210e58ff282/44305112800-e4/44305112800-e4.jpg?ts=1786961847553&w=1920",
+        "https://static.zara.net/assets/public/c2c1/d0c4/41814fcb9cdc/2264b90f2e74/44305112800-a1/44305112800-a1.jpg?ts=1785851223357&w=1920"
+      ],
+      "material": "paper/others",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "98% paper, 2% others"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "POCKET WEEKLY PLANNER - Black - ONE SIZE ONLY",
+          "sku": "545404842-800-99",
+          "mpn": "545404842-800-99",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3e10/c30b/a9c6433d8cad/44b1ad17a456/44305112800-e1/44305112800-e1.jpg?ts=1786961844223&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/pocket-weekly-planner-p44305112.html?v1=545404842",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "POCKET WEEKLY PLANNER",
+      "product_group_id": "44305112",
+      "brand": "ZARAHOME",
+      "description": "Pocket weekly planner with a hard cover. Design features a weekly view, ribbon bookmark, and integrated pencil.",
+      "material": "paper/others",
+      "composition": "OUTER SHELL: 98% paper, 2% others",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "POCKET WEEKLY PLANNER - Black - ONE SIZE ONLY",
+          "sku": "545404842-800-99",
+          "mpn": "545404842-800-99",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-weekly-planner-p44305112.html?v1=545404842",
+          "images": [
+            "https://static.zara.net/assets/public/3e10/c30b/a9c6433d8cad/44b1ad17a456/44305112800-e1/44305112800-e1.jpg?ts=1786961844223&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3e10/c30b/a9c6433d8cad/44b1ad17a456/44305112800-e1/44305112800-e1.jpg?ts=1786961844223&w=1920",
+        "https://static.zara.net/assets/public/0160/5007/ea534c0c988c/ac72887c482d/44305112800-e2/44305112800-e2.jpg?ts=1786961845343&w=1920",
+        "https://static.zara.net/assets/public/c53a/7ef1/77d34aa8afa4/78b083a6239b/44305112800-e3/44305112800-e3.jpg?ts=1786961844930&w=1920",
+        "https://static.zara.net/assets/public/0b1b/28fa/9d394004bcf8/b210e58ff282/44305112800-e4/44305112800-e4.jpg?ts=1786961847553&w=1920",
+        "https://static.zara.net/assets/public/c2c1/d0c4/41814fcb9cdc/2264b90f2e74/44305112800-a1/44305112800-a1.jpg?ts=1785851223357&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nPocket weekly planner with a hard cover. Design features a weekly view, ribbon bookmark, and integrated pencil.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1565c2a647345e3fa18ef15ad6ff6e14c35d06e46b4509b3d960a85053162084",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

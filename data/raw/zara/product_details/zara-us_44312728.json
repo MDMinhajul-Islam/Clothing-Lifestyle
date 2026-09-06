@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44312728",
+  "source_url": "https://www.zara.com/us/en/name-sticker-pad-p44312728.html",
+  "final_url": "https://www.zara.com/us/en/name-sticker-pad-p44312728.html",
+  "canonical_url": "https://www.zara.com/us/en/name-sticker-pad-p44312728.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "NAME STICKER PAD",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "NAME STICKER PAD",
+      "url": "https://www.zara.com/us/en/name-sticker-pad-p44312728.html",
+      "productGroupID": "44312728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pad of stickers in various sizes and formats. Includes plain and lined labels to identify and organize documents and items.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ecff/9abd/a62646d5989e/6047ae760e8b/44312728600-e1/44312728600-e1.jpg?ts=1786602578756&w=1920",
+        "https://static.zara.net/assets/public/bc5a/cd4e/222444109bc0/d4fd5a3f9d9b/44312728600-e2/44312728600-e2.jpg?ts=1786602578738&w=1920",
+        "https://static.zara.net/assets/public/396e/e8c6/3aa64031ae4a/c7c9825c3525/44312728600-e3/44312728600-e3.jpg?ts=1786954088858&w=1920",
+        "https://static.zara.net/assets/public/9754/e81f/1ddc49d58da5/313a2ae047fe/44312728600-e4/44312728600-e4.jpg?ts=1786954207805&w=1920",
+        "https://static.zara.net/assets/public/1452/4444/b3af4f308d48/1724aa6e7741/44312728600-a1/44312728600-a1.jpg?ts=1785851228234&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "NAME STICKER PAD - Red - ONE SIZE ONLY",
+          "sku": "545422814-600-99",
+          "mpn": "545422814-600-99",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ecff/9abd/a62646d5989e/6047ae760e8b/44312728600-e1/44312728600-e1.jpg?ts=1786602578756&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/name-sticker-pad-p44312728.html?v1=545422814",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "NAME STICKER PAD",
+      "product_group_id": "44312728",
+      "brand": "ZARAHOME",
+      "description": "Pad of stickers in various sizes and formats. Includes plain and lined labels to identify and organize documents and items.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "NAME STICKER PAD - Red - ONE SIZE ONLY",
+          "sku": "545422814-600-99",
+          "mpn": "545422814-600-99",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/name-sticker-pad-p44312728.html?v1=545422814",
+          "images": [
+            "https://static.zara.net/assets/public/ecff/9abd/a62646d5989e/6047ae760e8b/44312728600-e1/44312728600-e1.jpg?ts=1786602578756&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ecff/9abd/a62646d5989e/6047ae760e8b/44312728600-e1/44312728600-e1.jpg?ts=1786602578756&w=1920",
+        "https://static.zara.net/assets/public/bc5a/cd4e/222444109bc0/d4fd5a3f9d9b/44312728600-e2/44312728600-e2.jpg?ts=1786602578738&w=1920",
+        "https://static.zara.net/assets/public/396e/e8c6/3aa64031ae4a/c7c9825c3525/44312728600-e3/44312728600-e3.jpg?ts=1786954088858&w=1920",
+        "https://static.zara.net/assets/public/9754/e81f/1ddc49d58da5/313a2ae047fe/44312728600-e4/44312728600-e4.jpg?ts=1786954207805&w=1920",
+        "https://static.zara.net/assets/public/1452/4444/b3af4f308d48/1724aa6e7741/44312728600-a1/44312728600-a1.jpg?ts=1785851228234&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nPad of stickers in various sizes and formats. Includes plain and lined labels to identify and organize documents and items.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8be340d385035cbcc6b68679d85599b61ed576fb84330fe6315975230fa3da41",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

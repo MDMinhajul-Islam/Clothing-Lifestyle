@@ -1,0 +1,196 @@
+{
+  "product_id": "zara-us:44310112",
+  "source_url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html",
+  "final_url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html",
+  "canonical_url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DESKTOP WEEKLY PLANNER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DESKTOP WEEKLY PLANNER",
+      "url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html",
+      "productGroupID": "44310112",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Desktop weekly planner with metal spiral binding and hard cover. Features a weekly view layout, space to indicate the year and month, and a grid-lined area at the bottom for notes.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d240/4bfb/f77442338a1d/5c02b3537c28/44310112400-e1/44310112400-e1.jpg?ts=1784206616207&w=1920",
+        "https://static.zara.net/assets/public/9bdf/d3cc/1bd54f549a4b/e2df640ec0ab/44310112400-e2/44310112400-e2.jpg?ts=1786692788049&w=1920",
+        "https://static.zara.net/assets/public/3d8a/35e8/ad504c0f8308/4ef149e7fcc0/44310112400-e3/44310112400-e3.jpg?ts=1786692788420&w=1920",
+        "https://static.zara.net/assets/public/8078/5396/7a9245e7af7b/7a0eaf73271b/44310112400-e4/44310112400-e4.jpg?ts=1786707948064&w=1920",
+        "https://static.zara.net/assets/public/e299/20fa/7c9b4b99b640/75844ba3145a/44310112400-a1/44310112400-a1.jpg?ts=1785851223528&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DESKTOP WEEKLY PLANNER - Blue - ONE SIZE ONLY",
+          "sku": "545422753-400-99",
+          "mpn": "545422753-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d240/4bfb/f77442338a1d/5c02b3537c28/44310112400-e1/44310112400-e1.jpg?ts=1784206616207&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html?v1=545422753",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DESKTOP WEEKLY PLANNER - Ecru - ONE SIZE ONLY",
+          "sku": "545422753-712-99",
+          "mpn": "545422753-712-99",
+          "color": "Ecru",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/230c/2f72/fb10461aa9a4/12a03c85474c/44310112712-e1/44310112712-e1.jpg?ts=1786602610762&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html?v1=545422755",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DESKTOP WEEKLY PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545422753-500-99",
+          "mpn": "545422753-500-99",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/5855/2103/b8444104b6b1/7f50e71ed2d3/44310112500-e1/44310112500-e1.jpg?ts=1786961878407&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html?v1=545422754",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DESKTOP WEEKLY PLANNER",
+      "product_group_id": "44310112",
+      "brand": "ZARAHOME",
+      "description": "Desktop weekly planner with metal spiral binding and hard cover. Features a weekly view layout, space to indicate the year and month, and a grid-lined area at the bottom for notes.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DESKTOP WEEKLY PLANNER - Blue - ONE SIZE ONLY",
+          "sku": "545422753-400-99",
+          "mpn": "545422753-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html?v1=545422753",
+          "images": [
+            "https://static.zara.net/assets/public/d240/4bfb/f77442338a1d/5c02b3537c28/44310112400-e1/44310112400-e1.jpg?ts=1784206616207&w=1920"
+          ]
+        },
+        {
+          "name": "DESKTOP WEEKLY PLANNER - Ecru - ONE SIZE ONLY",
+          "sku": "545422753-712-99",
+          "mpn": "545422753-712-99",
+          "color_name": "Ecru",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html?v1=545422755",
+          "images": [
+            "https://static.zara.net/assets/public/230c/2f72/fb10461aa9a4/12a03c85474c/44310112712-e1/44310112712-e1.jpg?ts=1786602610762&w=1920"
+          ]
+        },
+        {
+          "name": "DESKTOP WEEKLY PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545422753-500-99",
+          "mpn": "545422753-500-99",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/desktop-weekly-planner-p44310112.html?v1=545422754",
+          "images": [
+            "https://static.zara.net/assets/public/5855/2103/b8444104b6b1/7f50e71ed2d3/44310112500-e1/44310112500-e1.jpg?ts=1786961878407&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d240/4bfb/f77442338a1d/5c02b3537c28/44310112400-e1/44310112400-e1.jpg?ts=1784206616207&w=1920",
+        "https://static.zara.net/assets/public/9bdf/d3cc/1bd54f549a4b/e2df640ec0ab/44310112400-e2/44310112400-e2.jpg?ts=1786692788049&w=1920",
+        "https://static.zara.net/assets/public/3d8a/35e8/ad504c0f8308/4ef149e7fcc0/44310112400-e3/44310112400-e3.jpg?ts=1786692788420&w=1920",
+        "https://static.zara.net/assets/public/8078/5396/7a9245e7af7b/7a0eaf73271b/44310112400-e4/44310112400-e4.jpg?ts=1786707948064&w=1920",
+        "https://static.zara.net/assets/public/e299/20fa/7c9b4b99b640/75844ba3145a/44310112400-a1/44310112400-a1.jpg?ts=1785851223528&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Ecru",
+    "Green"
+  ],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nDesktop weekly planner with metal spiral binding and hard cover. Features a weekly view layout, space to indicate the year and month, and a grid-lined area at the bottom for notes.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 3,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "57d0d64896ad63e5ccf32c70ceb8578c15bf86418aed6cec6e5462dd234a293c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

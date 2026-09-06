@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44300111",
+  "source_url": "https://www.zara.com/us/en/spiral-weekly-planner-p44300111.html",
+  "final_url": "https://www.zara.com/us/en/spiral-weekly-planner-p44300111.html",
+  "canonical_url": "https://www.zara.com/us/en/spiral-weekly-planner-p44300111.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SPIRAL WEEKLY PLANNER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SPIRAL WEEKLY PLANNER",
+      "url": "https://www.zara.com/us/en/spiral-weekly-planner-p44300111.html",
+      "productGroupID": "44300111",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Desk planner with metallic spiral binding. Featuring a weekly view design, month and day marker at the top, grid pages for notes, and a hard cover that allows it to stand upright on the desk.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3f9a/5b24/4b9746b0b47f/348d52d4f08e/44300111500-e1/44300111500-e1.jpg?ts=1786961872528&w=1920",
+        "https://static.zara.net/assets/public/79f4/9b78/52ed4f3db2f0/b9643ae53525/44300111500-e2/44300111500-e2.jpg?ts=1786961872487&w=1920",
+        "https://static.zara.net/assets/public/f47f/887d/3fb1491b94b5/ca4d8c7c9505/44300111500-e3/44300111500-e3.jpg?ts=1786961872598&w=1920",
+        "https://static.zara.net/assets/public/4250/7b8e/83e94633ab7d/352e8c50aa82/44300111500-e4/44300111500-e4.jpg?ts=1786961873211&w=1920",
+        "https://static.zara.net/assets/public/2839/d686/95ba49a780bc/84878e5245f8/44300111500-a1/44300111500-a1.jpg?ts=1786543967025&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SPIRAL WEEKLY PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545404827-500-99",
+          "mpn": "545404827-500-99",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3f9a/5b24/4b9746b0b47f/348d52d4f08e/44300111500-e1/44300111500-e1.jpg?ts=1786961872528&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/spiral-weekly-planner-p44300111.html?v1=545404827",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SPIRAL WEEKLY PLANNER",
+      "product_group_id": "44300111",
+      "brand": "ZARAHOME",
+      "description": "Desk planner with metallic spiral binding. Featuring a weekly view design, month and day marker at the top, grid pages for notes, and a hard cover that allows it to stand upright on the desk.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SPIRAL WEEKLY PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545404827-500-99",
+          "mpn": "545404827-500-99",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/spiral-weekly-planner-p44300111.html?v1=545404827",
+          "images": [
+            "https://static.zara.net/assets/public/3f9a/5b24/4b9746b0b47f/348d52d4f08e/44300111500-e1/44300111500-e1.jpg?ts=1786961872528&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3f9a/5b24/4b9746b0b47f/348d52d4f08e/44300111500-e1/44300111500-e1.jpg?ts=1786961872528&w=1920",
+        "https://static.zara.net/assets/public/79f4/9b78/52ed4f3db2f0/b9643ae53525/44300111500-e2/44300111500-e2.jpg?ts=1786961872487&w=1920",
+        "https://static.zara.net/assets/public/f47f/887d/3fb1491b94b5/ca4d8c7c9505/44300111500-e3/44300111500-e3.jpg?ts=1786961872598&w=1920",
+        "https://static.zara.net/assets/public/4250/7b8e/83e94633ab7d/352e8c50aa82/44300111500-e4/44300111500-e4.jpg?ts=1786961873211&w=1920",
+        "https://static.zara.net/assets/public/2839/d686/95ba49a780bc/84878e5245f8/44300111500-a1/44300111500-a1.jpg?ts=1786543967025&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "15.90",
+  "rendered_description": "Description\nDesk planner with metallic spiral binding. Featuring a weekly view design, month and day marker at the top, grid pages for notes, and a hard cover that allows it to stand upright on the desk.",
+  "comp_care_text": null,
+  "raw_images_count": 15,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "15.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "15.90",
+    "dom_price": "15.90",
+    "normalized_price": "15.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c3cc33ed6fd54720980ba16c08055e7afb5acdc1eced24b9edb02531658a8ccc",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

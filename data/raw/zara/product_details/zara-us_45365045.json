@@ -1,0 +1,191 @@
+{
+  "product_id": "zara-us:45365045",
+  "source_url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html",
+  "final_url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html",
+  "canonical_url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "THIN METAL PICTURE FRAME",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "THIN METAL PICTURE FRAME",
+      "url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html",
+      "productGroupID": "45365045",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Picture frame crafted in metal. Slim design in a solid color with a wide mat.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c456/b0d3/81b0410885b6/1d285ad5a667/45365045600-e1/45365045600-e1.jpg?ts=1787068694204&w=1920",
+        "https://static.zara.net/assets/public/de64/e642/a8b5476eb141/b22a986925f6/45365045600-e2/45365045600-e2.jpg?ts=1787068700551&w=1920",
+        "https://static.zara.net/assets/public/528f/a900/9c1a4305ae4c/086f4342cd47/45365045600-e3/45365045600-e3.jpg?ts=1787068700705&w=1920",
+        "https://static.zara.net/assets/public/746d/34de/1d1f44d492f8/7b4cc6d6a2b1/45365045600-e4/45365045600-e4.jpg?ts=1787068695405&w=1920",
+        "https://static.zara.net/assets/public/c311/efc3/88e44e3c99fb/0933e527abc0/45365045600-a1/45365045600-a1.jpg?ts=1784025051970&w=1920"
+      ],
+      "material": "aluminium/glass/thin mdf",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "40% aluminium, 30% glass, 20% thin mdf, 10% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "THIN METAL PICTURE FRAME - Red - 9.4 x 6.7 x 0.8 \"",
+          "sku": "545426677-600-2",
+          "mpn": "545426677-600-2",
+          "color": "Red",
+          "size": "9.4 x 6.7 x 0.8 \"",
+          "image": [
+            "https://static.zara.net/assets/public/c456/b0d3/81b0410885b6/1d285ad5a667/45365045600-e1/45365045600-e1.jpg?ts=1787068694204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html?v1=545426677",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "THIN METAL PICTURE FRAME - Red - 9.4 x 6.7 x 0.8 \"",
+          "sku": "545426677-600-99",
+          "mpn": "545426677-600-99",
+          "color": "Red",
+          "size": "9.4 x 6.7 x 0.8 \"",
+          "image": [
+            "https://static.zara.net/assets/public/c456/b0d3/81b0410885b6/1d285ad5a667/45365045600-e1/45365045600-e1.jpg?ts=1787068694204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html?v1=545426677",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "THIN METAL PICTURE FRAME - Red - 11.8 x 9.1 x 0.8 \"",
+          "sku": "545426677-600-3",
+          "mpn": "545426677-600-3",
+          "color": "Red",
+          "size": "11.8 x 9.1 x 0.8 \"",
+          "image": [
+            "https://static.zara.net/assets/public/c456/b0d3/81b0410885b6/1d285ad5a667/45365045600-e1/45365045600-e1.jpg?ts=1787068694204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html?v1=545426677",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "THIN METAL PICTURE FRAME",
+      "product_group_id": "45365045",
+      "brand": "ZARAHOME",
+      "description": "Picture frame crafted in metal. Slim design in a solid color with a wide mat.",
+      "material": "aluminium/glass/thin mdf",
+      "composition": "OUTER SHELL: 40% aluminium, 30% glass, 20% thin mdf, 10% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "THIN METAL PICTURE FRAME - Red - 9.4 x 6.7 x 0.8 \"",
+          "sku": "545426677-600-2",
+          "mpn": "545426677-600-2",
+          "color_name": "Red",
+          "size_name": "9.4 x 6.7 x 0.8 \"",
+          "price": "35.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html?v1=545426677",
+          "images": [
+            "https://static.zara.net/assets/public/c456/b0d3/81b0410885b6/1d285ad5a667/45365045600-e1/45365045600-e1.jpg?ts=1787068694204&w=1920"
+          ]
+        },
+        {
+          "name": "THIN METAL PICTURE FRAME - Red - 9.4 x 6.7 x 0.8 \"",
+          "sku": "545426677-600-99",
+          "mpn": "545426677-600-99",
+          "color_name": "Red",
+          "size_name": "9.4 x 6.7 x 0.8 \"",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html?v1=545426677",
+          "images": [
+            "https://static.zara.net/assets/public/c456/b0d3/81b0410885b6/1d285ad5a667/45365045600-e1/45365045600-e1.jpg?ts=1787068694204&w=1920"
+          ]
+        },
+        {
+          "name": "THIN METAL PICTURE FRAME - Red - 11.8 x 9.1 x 0.8 \"",
+          "sku": "545426677-600-3",
+          "mpn": "545426677-600-3",
+          "color_name": "Red",
+          "size_name": "11.8 x 9.1 x 0.8 \"",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/thin-metal-picture-frame-p45365045.html?v1=545426677",
+          "images": [
+            "https://static.zara.net/assets/public/c456/b0d3/81b0410885b6/1d285ad5a667/45365045600-e1/45365045600-e1.jpg?ts=1787068694204&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c456/b0d3/81b0410885b6/1d285ad5a667/45365045600-e1/45365045600-e1.jpg?ts=1787068694204&w=1920",
+        "https://static.zara.net/assets/public/de64/e642/a8b5476eb141/b22a986925f6/45365045600-e2/45365045600-e2.jpg?ts=1787068700551&w=1920",
+        "https://static.zara.net/assets/public/528f/a900/9c1a4305ae4c/086f4342cd47/45365045600-e3/45365045600-e3.jpg?ts=1787068700705&w=1920",
+        "https://static.zara.net/assets/public/746d/34de/1d1f44d492f8/7b4cc6d6a2b1/45365045600-e4/45365045600-e4.jpg?ts=1787068695405&w=1920",
+        "https://static.zara.net/assets/public/c311/efc3/88e44e3c99fb/0933e527abc0/45365045600-a1/45365045600-a1.jpg?ts=1784025051970&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nPicture frame crafted in metal. Slim design in a solid color with a wide mat.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d86d0e973bba5267f732cfa17d6d67b16d72d88575facfa8a7de3d13fb5a6336",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

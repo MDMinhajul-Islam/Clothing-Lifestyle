@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44306043",
+  "source_url": "https://www.zara.com/us/en/decorative-brass-tray-p44306043.html",
+  "final_url": "https://www.zara.com/us/en/decorative-brass-tray-p44306043.html",
+  "canonical_url": "https://www.zara.com/us/en/decorative-brass-tray-p44306043.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DECORATIVE BRASS TRAY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DECORATIVE BRASS TRAY",
+      "url": "https://www.zara.com/us/en/decorative-brass-tray-p44306043.html",
+      "productGroupID": "44306043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Decorative tray crafted from brass. Rectangular design with a raised edge and brushed finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9374/ba82/e4fc4a1b8205/b2a4cc2f57db/44306043303-e1/44306043303-e1.jpg?ts=1785768064432&w=1920",
+        "https://static.zara.net/assets/public/bf16/a262/d48b485294b9/e63f76bf4d9a/44306043303-e2/44306043303-e2.jpg?ts=1785768064157&w=1920",
+        "https://static.zara.net/assets/public/4ea9/e3f0/e286466990ef/cd2583ddb53f/44306043303-e3/44306043303-e3.jpg?ts=1785768064653&w=1920",
+        "https://static.zara.net/assets/public/bdac/f8e3/34b34445b2a0/0462426e006c/44306043303-e4/44306043303-e4.jpg?ts=1785768072954&w=1920",
+        "https://static.zara.net/assets/public/2a92/a595/1de04a309651/57d3da2e58ae/44306043303-a1/44306043303-a1.jpg?ts=1785851222746&w=1920"
+      ],
+      "material": "100% brass",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% brass"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DECORATIVE BRASS TRAY - Golden - ONE SIZE ONLY",
+          "sku": "545404796-303-99",
+          "mpn": "545404796-303-99",
+          "color": "Golden",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/9374/ba82/e4fc4a1b8205/b2a4cc2f57db/44306043303-e1/44306043303-e1.jpg?ts=1785768064432&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/decorative-brass-tray-p44306043.html?v1=545404796",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DECORATIVE BRASS TRAY",
+      "product_group_id": "44306043",
+      "brand": "ZARAHOME",
+      "description": "Decorative tray crafted from brass. Rectangular design with a raised edge and brushed finish.",
+      "material": "100% brass",
+      "composition": "OUTER SHELL: 100% brass",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DECORATIVE BRASS TRAY - Golden - ONE SIZE ONLY",
+          "sku": "545404796-303-99",
+          "mpn": "545404796-303-99",
+          "color_name": "Golden",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/decorative-brass-tray-p44306043.html?v1=545404796",
+          "images": [
+            "https://static.zara.net/assets/public/9374/ba82/e4fc4a1b8205/b2a4cc2f57db/44306043303-e1/44306043303-e1.jpg?ts=1785768064432&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9374/ba82/e4fc4a1b8205/b2a4cc2f57db/44306043303-e1/44306043303-e1.jpg?ts=1785768064432&w=1920",
+        "https://static.zara.net/assets/public/bf16/a262/d48b485294b9/e63f76bf4d9a/44306043303-e2/44306043303-e2.jpg?ts=1785768064157&w=1920",
+        "https://static.zara.net/assets/public/4ea9/e3f0/e286466990ef/cd2583ddb53f/44306043303-e3/44306043303-e3.jpg?ts=1785768064653&w=1920",
+        "https://static.zara.net/assets/public/bdac/f8e3/34b34445b2a0/0462426e006c/44306043303-e4/44306043303-e4.jpg?ts=1785768072954&w=1920",
+        "https://static.zara.net/assets/public/2a92/a595/1de04a309651/57d3da2e58ae/44306043303-a1/44306043303-a1.jpg?ts=1785851222746&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nDecorative tray crafted from brass. Rectangular design with a raised edge and brushed finish.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b773c15a9a73c178a956759ef736a1e654f6cc6936077c9733cb59e67152e6d3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

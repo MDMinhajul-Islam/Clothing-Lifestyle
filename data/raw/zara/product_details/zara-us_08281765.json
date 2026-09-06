@@ -1,0 +1,499 @@
+{
+  "product_id": "zara-us:08281765",
+  "source_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html",
+  "final_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html",
+  "canonical_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WOOL-BLEND REGULAR FIT JACKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WOOL-BLEND REGULAR FIT JACKET",
+      "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html",
+      "productGroupID": "08281765",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Regular-fit jacket crafted from a wool-blend fabric. Features a lapel collar and long sleeves. Welt pockets at the hip and an interior pocket. Front zip closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920",
+        "https://static.zara.net/assets/public/9d31/5630/dc7f451a9dc4/f5cb8bbae9b0/08281765700-a1/08281765700-a1.jpg?ts=1788185070723&w=1920",
+        "https://static.zara.net/assets/public/2c37/f766/ee604ec9ab48/f9b1d7e8f34c/08281765700-a2/08281765700-a2.jpg?ts=1788185069366&w=1920",
+        "https://static.zara.net/assets/public/37e4/2fea/e32441749483/ae56a1d5f4bc/08281765700-a3/08281765700-a3.jpg?ts=1788185070076&w=1920",
+        "https://static.zara.net/assets/public/2355/c501/d2ae4eff9ead/9a4a3de98a11/08281765700-a4/08281765700-a4.jpg?ts=1788185075097&w=1920",
+        "https://static.zara.net/assets/public/e9c9/49a5/06d94273af55/dff98f9da3b8/08281765700-a5/08281765700-a5.jpg?ts=1788185074950&w=1920",
+        "https://static.zara.net/assets/public/1f8e/779f/faad4bd98461/15ce68b719cb/08281765700-a6/08281765700-a6.jpg?ts=1788185070186&w=1920",
+        "https://static.zara.net/assets/public/4f32/e725/1aeb4d799358/592eac9082bf/08281765700-000-a7/08281765700-000-a7.jpg?ts=1788337069421&w=1920",
+        "https://static.zara.net/assets/public/7c84/ef7a/8e87400f9340/5615cd32d207/08281765700-e1/08281765700-e1.jpg?ts=1788161436513&w=1920",
+        "https://static.zara.net/assets/public/6197/55c9/09014f50aacc/4c43d86c1037/08281765700-e2/08281765700-e2.jpg?ts=1788161435899&w=1920"
+      ],
+      "material": "wool/polyester/polyamide",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "50% wool, 44% polyester, 3% polyamide, 1% acrylic, 1% cotton, 1% viscose"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Brown - S",
+          "sku": "557405763-700-2",
+          "mpn": "557405763-700-2",
+          "color": "Brown",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405763",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Brown - M",
+          "sku": "557405763-700-3",
+          "mpn": "557405763-700-3",
+          "color": "Brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405763",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Brown - L",
+          "sku": "557405763-700-4",
+          "mpn": "557405763-700-4",
+          "color": "Brown",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405763",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Brown - XL",
+          "sku": "557405763-700-5",
+          "mpn": "557405763-700-5",
+          "color": "Brown",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405763",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Black - S",
+          "sku": "557405763-800-2",
+          "mpn": "557405763-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/0eae/b94c/5153407b84ec/dbd6759dedd6/08281765800-p/08281765800-p.jpg?ts=1788185069829&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405764",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Black - M",
+          "sku": "557405763-800-3",
+          "mpn": "557405763-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/0eae/b94c/5153407b84ec/dbd6759dedd6/08281765800-p/08281765800-p.jpg?ts=1788185069829&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405764",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Black - L",
+          "sku": "557405763-800-4",
+          "mpn": "557405763-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/0eae/b94c/5153407b84ec/dbd6759dedd6/08281765800-p/08281765800-p.jpg?ts=1788185069829&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405764",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Black - XL",
+          "sku": "557405763-800-5",
+          "mpn": "557405763-800-5",
+          "color": "Black",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/0eae/b94c/5153407b84ec/dbd6759dedd6/08281765800-p/08281765800-p.jpg?ts=1788185069829&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405764",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - taupe brown - S",
+          "sku": "557405763-707-2",
+          "mpn": "557405763-707-2",
+          "color": "taupe brown",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/facd/980f/d254460b9b1d/f863171df834/08281765707-p/08281765707-p.jpg?ts=1788177718424&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405765",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - taupe brown - M",
+          "sku": "557405763-707-3",
+          "mpn": "557405763-707-3",
+          "color": "taupe brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/facd/980f/d254460b9b1d/f863171df834/08281765707-p/08281765707-p.jpg?ts=1788177718424&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405765",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - taupe brown - L",
+          "sku": "557405763-707-4",
+          "mpn": "557405763-707-4",
+          "color": "taupe brown",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/facd/980f/d254460b9b1d/f863171df834/08281765707-p/08281765707-p.jpg?ts=1788177718424&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405765",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL-BLEND REGULAR FIT JACKET - taupe brown - XL",
+          "sku": "557405763-707-5",
+          "mpn": "557405763-707-5",
+          "color": "taupe brown",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/facd/980f/d254460b9b1d/f863171df834/08281765707-p/08281765707-p.jpg?ts=1788177718424&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405765",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WOOL-BLEND REGULAR FIT JACKET",
+      "product_group_id": "08281765",
+      "brand": "ZARA",
+      "description": "Regular-fit jacket crafted from a wool-blend fabric. Features a lapel collar and long sleeves. Welt pockets at the hip and an interior pocket. Front zip closure.",
+      "material": "wool/polyester/polyamide",
+      "composition": "OUTER SHELL: 50% wool, 44% polyester, 3% polyamide, 1% acrylic, 1% cotton, 1% viscose | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Brown - S",
+          "sku": "557405763-700-2",
+          "mpn": "557405763-700-2",
+          "color_name": "Brown",
+          "size_name": "S",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405763",
+          "images": [
+            "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Brown - M",
+          "sku": "557405763-700-3",
+          "mpn": "557405763-700-3",
+          "color_name": "Brown",
+          "size_name": "M",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405763",
+          "images": [
+            "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Brown - L",
+          "sku": "557405763-700-4",
+          "mpn": "557405763-700-4",
+          "color_name": "Brown",
+          "size_name": "L",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405763",
+          "images": [
+            "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Brown - XL",
+          "sku": "557405763-700-5",
+          "mpn": "557405763-700-5",
+          "color_name": "Brown",
+          "size_name": "XL",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405763",
+          "images": [
+            "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Black - S",
+          "sku": "557405763-800-2",
+          "mpn": "557405763-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405764",
+          "images": [
+            "https://static.zara.net/assets/public/0eae/b94c/5153407b84ec/dbd6759dedd6/08281765800-p/08281765800-p.jpg?ts=1788185069829&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Black - M",
+          "sku": "557405763-800-3",
+          "mpn": "557405763-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405764",
+          "images": [
+            "https://static.zara.net/assets/public/0eae/b94c/5153407b84ec/dbd6759dedd6/08281765800-p/08281765800-p.jpg?ts=1788185069829&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Black - L",
+          "sku": "557405763-800-4",
+          "mpn": "557405763-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405764",
+          "images": [
+            "https://static.zara.net/assets/public/0eae/b94c/5153407b84ec/dbd6759dedd6/08281765800-p/08281765800-p.jpg?ts=1788185069829&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - Black - XL",
+          "sku": "557405763-800-5",
+          "mpn": "557405763-800-5",
+          "color_name": "Black",
+          "size_name": "XL",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405764",
+          "images": [
+            "https://static.zara.net/assets/public/0eae/b94c/5153407b84ec/dbd6759dedd6/08281765800-p/08281765800-p.jpg?ts=1788185069829&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - taupe brown - S",
+          "sku": "557405763-707-2",
+          "mpn": "557405763-707-2",
+          "color_name": "taupe brown",
+          "size_name": "S",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405765",
+          "images": [
+            "https://static.zara.net/assets/public/facd/980f/d254460b9b1d/f863171df834/08281765707-p/08281765707-p.jpg?ts=1788177718424&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - taupe brown - M",
+          "sku": "557405763-707-3",
+          "mpn": "557405763-707-3",
+          "color_name": "taupe brown",
+          "size_name": "M",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405765",
+          "images": [
+            "https://static.zara.net/assets/public/facd/980f/d254460b9b1d/f863171df834/08281765707-p/08281765707-p.jpg?ts=1788177718424&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - taupe brown - L",
+          "sku": "557405763-707-4",
+          "mpn": "557405763-707-4",
+          "color_name": "taupe brown",
+          "size_name": "L",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405765",
+          "images": [
+            "https://static.zara.net/assets/public/facd/980f/d254460b9b1d/f863171df834/08281765707-p/08281765707-p.jpg?ts=1788177718424&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL-BLEND REGULAR FIT JACKET - taupe brown - XL",
+          "sku": "557405763-707-5",
+          "mpn": "557405763-707-5",
+          "color_name": "taupe brown",
+          "size_name": "XL",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-blend-regular-fit-jacket-p08281765.html?v1=557405765",
+          "images": [
+            "https://static.zara.net/assets/public/facd/980f/d254460b9b1d/f863171df834/08281765707-p/08281765707-p.jpg?ts=1788177718424&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/daf0/bc18/ee324550ab1d/a39ccc99edbf/08281765700-p/08281765700-p.jpg?ts=1788185074881&w=1920",
+        "https://static.zara.net/assets/public/9d31/5630/dc7f451a9dc4/f5cb8bbae9b0/08281765700-a1/08281765700-a1.jpg?ts=1788185070723&w=1920",
+        "https://static.zara.net/assets/public/2c37/f766/ee604ec9ab48/f9b1d7e8f34c/08281765700-a2/08281765700-a2.jpg?ts=1788185069366&w=1920",
+        "https://static.zara.net/assets/public/37e4/2fea/e32441749483/ae56a1d5f4bc/08281765700-a3/08281765700-a3.jpg?ts=1788185070076&w=1920",
+        "https://static.zara.net/assets/public/2355/c501/d2ae4eff9ead/9a4a3de98a11/08281765700-a4/08281765700-a4.jpg?ts=1788185075097&w=1920",
+        "https://static.zara.net/assets/public/e9c9/49a5/06d94273af55/dff98f9da3b8/08281765700-a5/08281765700-a5.jpg?ts=1788185074950&w=1920",
+        "https://static.zara.net/assets/public/1f8e/779f/faad4bd98461/15ce68b719cb/08281765700-a6/08281765700-a6.jpg?ts=1788185070186&w=1920",
+        "https://static.zara.net/assets/public/4f32/e725/1aeb4d799358/592eac9082bf/08281765700-000-a7/08281765700-000-a7.jpg?ts=1788337069421&w=1920",
+        "https://static.zara.net/assets/public/7c84/ef7a/8e87400f9340/5615cd32d207/08281765700-e1/08281765700-e1.jpg?ts=1788161436513&w=1920",
+        "https://static.zara.net/assets/public/6197/55c9/09014f50aacc/4c43d86c1037/08281765700-e2/08281765700-e2.jpg?ts=1788161435899&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Brown",
+    "Black",
+    "taupe brown"
+  ],
+  "rendered_price": "119.00",
+  "rendered_description": "Description\nRegular-fit jacket crafted from a wool-blend fabric. Features a lapel collar and long sleeves. Welt pockets at the hip and an interior pocket. Front zip closure.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 12,
+  "variants_count": 12,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "119.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "119.00",
+    "dom_price": "119.00",
+    "normalized_price": "119.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "187f402c9538f94a1f7eadc1595a116d13425f0e64bf3a5b1a14846885ac2204",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

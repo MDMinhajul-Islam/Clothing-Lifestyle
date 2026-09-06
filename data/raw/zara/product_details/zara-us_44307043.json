@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44307043",
+  "source_url": "https://www.zara.com/us/en/brass-metal-case-p44307043.html",
+  "final_url": "https://www.zara.com/us/en/brass-metal-case-p44307043.html",
+  "canonical_url": "https://www.zara.com/us/en/brass-metal-case-p44307043.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BRASS METAL CASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BRASS METAL CASE",
+      "url": "https://www.zara.com/us/en/brass-metal-case-p44307043.html",
+      "productGroupID": "44307043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Metal case made of brass. Rectangular design with a brushed finish and a hinged lid.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1a78/3b36/b888484c8991/30f9dde25330/44307043303-e1/44307043303-e1.jpg?ts=1785846783546&w=1920",
+        "https://static.zara.net/assets/public/7ef3/ce53/55c14067a061/92b9dcb10a93/44307043303-e2/44307043303-e2.jpg?ts=1785846783154&w=1920",
+        "https://static.zara.net/assets/public/dab5/ff68/ed0e4d3eaedf/f7bc14f026af/44307043303-e4/44307043303-e4.jpg?ts=1785846783422&w=1920",
+        "https://static.zara.net/assets/public/ba40/5bab/eb6f4b6db619/e61b3a620d8e/44307043303-e5/44307043303-e5.jpg?ts=1785846783225&w=1920",
+        "https://static.zara.net/assets/public/757b/e1e8/40814369831e/5ad23cc143bb/44307043303-a1/44307043303-a1.jpg?ts=1785926582022&w=1920"
+      ],
+      "material": "100% brass",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% brass"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BRASS METAL CASE - Golden - ONE SIZE ONLY",
+          "sku": "545404800-303-99",
+          "mpn": "545404800-303-99",
+          "color": "Golden",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/1a78/3b36/b888484c8991/30f9dde25330/44307043303-e1/44307043303-e1.jpg?ts=1785846783546&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/brass-metal-case-p44307043.html?v1=545404800",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BRASS METAL CASE",
+      "product_group_id": "44307043",
+      "brand": "ZARAHOME",
+      "description": "Metal case made of brass. Rectangular design with a brushed finish and a hinged lid.",
+      "material": "100% brass",
+      "composition": "OUTER SHELL: 100% brass",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BRASS METAL CASE - Golden - ONE SIZE ONLY",
+          "sku": "545404800-303-99",
+          "mpn": "545404800-303-99",
+          "color_name": "Golden",
+          "size_name": "ONE SIZE ONLY",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/brass-metal-case-p44307043.html?v1=545404800",
+          "images": [
+            "https://static.zara.net/assets/public/1a78/3b36/b888484c8991/30f9dde25330/44307043303-e1/44307043303-e1.jpg?ts=1785846783546&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1a78/3b36/b888484c8991/30f9dde25330/44307043303-e1/44307043303-e1.jpg?ts=1785846783546&w=1920",
+        "https://static.zara.net/assets/public/7ef3/ce53/55c14067a061/92b9dcb10a93/44307043303-e2/44307043303-e2.jpg?ts=1785846783154&w=1920",
+        "https://static.zara.net/assets/public/dab5/ff68/ed0e4d3eaedf/f7bc14f026af/44307043303-e4/44307043303-e4.jpg?ts=1785846783422&w=1920",
+        "https://static.zara.net/assets/public/ba40/5bab/eb6f4b6db619/e61b3a620d8e/44307043303-e5/44307043303-e5.jpg?ts=1785846783225&w=1920",
+        "https://static.zara.net/assets/public/757b/e1e8/40814369831e/5ad23cc143bb/44307043303-a1/44307043303-a1.jpg?ts=1785926582022&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nMetal case made of brass. Rectangular design with a brushed finish and a hinged lid.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "537fb8d5ecbb74bac3e52198f3876eb7a0545d0b99ba53c0238c9b6872764a75",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

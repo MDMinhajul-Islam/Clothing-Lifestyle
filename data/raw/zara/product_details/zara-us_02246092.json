@@ -1,0 +1,164 @@
+{
+  "product_id": "zara-us:02246092",
+  "source_url": "https://www.zara.com/us/en/striped-linen-tunic-zw-collection-p02246092.html",
+  "final_url": "https://www.zara.com/us/en/striped-linen-tunic-zw-collection-p02246092.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-linen-tunic-zw-collection-p02246092.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ZW COLLECTION STRIPED LINEN TUNIC",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ZW COLLECTION STRIPED LINEN TUNIC",
+      "url": "https://www.zara.com/us/en/striped-linen-tunic-zw-collection-p02246092.html",
+      "productGroupID": "02246092",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "ZARA WOMAN COLLECTION\n\nMidi tunic made from a linen blend yarn. V-neck and below-the-elbow length sleeves. Gathered detail at the front. Asymmetric hem.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/79e5/a94e/5f4c46fabbde/08c7e3e60627/02246092104-p/02246092104-p.jpg?ts=1783430543952&w=1920",
+        "https://static.zara.net/assets/public/a61a/3f35/c9ce4379875a/6e03aaed6f8d/02246092104-a1/02246092104-a1.jpg?ts=1783430544678&w=1920",
+        "https://static.zara.net/assets/public/6f42/5884/52e54aba95d7/cbab183a5b54/02246092104-a2/02246092104-a2.jpg?ts=1783430544401&w=1920",
+        "https://static.zara.net/assets/public/ca52/7274/e5754a37a965/0f58ec229b69/02246092104-a3/02246092104-a3.jpg?ts=1783430543918&w=1920",
+        "https://static.zara.net/assets/public/bd38/978b/8ce24c8dbc38/c4e38741db83/02246092104-e1/02246092104-e1.jpg?ts=1784191265437&w=1920",
+        "https://static.zara.net/assets/public/06c9/efa7/92f845c58cc9/41b5f6f7dc20/02246092104-e2/02246092104-e2.jpg?ts=1784191265413&w=1920",
+        "https://static.zara.net/assets/public/5b39/7077/b09b4735811c/3c26065eeec3/02246092104-e3/02246092104-e3.jpg?ts=1784191266303&w=1920"
+      ],
+      "material": "linen/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "63% linen, 37% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION STRIPED LINEN TUNIC - striped - XS-S",
+          "sku": "552367934-104-10",
+          "mpn": "552367934-104-10",
+          "color": "striped",
+          "size": "XS-S",
+          "image": [
+            "https://static.zara.net/assets/public/79e5/a94e/5f4c46fabbde/08c7e3e60627/02246092104-p/02246092104-p.jpg?ts=1783430543952&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/striped-linen-tunic-zw-collection-p02246092.html?v1=552367934",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION STRIPED LINEN TUNIC - striped - M-L",
+          "sku": "552367934-104-98",
+          "mpn": "552367934-104-98",
+          "color": "striped",
+          "size": "M-L",
+          "image": [
+            "https://static.zara.net/assets/public/79e5/a94e/5f4c46fabbde/08c7e3e60627/02246092104-p/02246092104-p.jpg?ts=1783430543952&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/striped-linen-tunic-zw-collection-p02246092.html?v1=552367934",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ZW COLLECTION STRIPED LINEN TUNIC",
+      "product_group_id": "02246092",
+      "brand": "ZARA",
+      "description": "ZARA WOMAN COLLECTION\n\nMidi tunic made from a linen blend yarn. V-neck and below-the-elbow length sleeves. Gathered detail at the front. Asymmetric hem.",
+      "material": "linen/cotton",
+      "composition": "OUTER SHELL: 63% linen, 37% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ZW COLLECTION STRIPED LINEN TUNIC - striped - XS-S",
+          "sku": "552367934-104-10",
+          "mpn": "552367934-104-10",
+          "color_name": "striped",
+          "size_name": "XS-S",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-linen-tunic-zw-collection-p02246092.html?v1=552367934",
+          "images": [
+            "https://static.zara.net/assets/public/79e5/a94e/5f4c46fabbde/08c7e3e60627/02246092104-p/02246092104-p.jpg?ts=1783430543952&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION STRIPED LINEN TUNIC - striped - M-L",
+          "sku": "552367934-104-98",
+          "mpn": "552367934-104-98",
+          "color_name": "striped",
+          "size_name": "M-L",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-linen-tunic-zw-collection-p02246092.html?v1=552367934",
+          "images": [
+            "https://static.zara.net/assets/public/79e5/a94e/5f4c46fabbde/08c7e3e60627/02246092104-p/02246092104-p.jpg?ts=1783430543952&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/79e5/a94e/5f4c46fabbde/08c7e3e60627/02246092104-p/02246092104-p.jpg?ts=1783430543952&w=1920",
+        "https://static.zara.net/assets/public/a61a/3f35/c9ce4379875a/6e03aaed6f8d/02246092104-a1/02246092104-a1.jpg?ts=1783430544678&w=1920",
+        "https://static.zara.net/assets/public/6f42/5884/52e54aba95d7/cbab183a5b54/02246092104-a2/02246092104-a2.jpg?ts=1783430544401&w=1920",
+        "https://static.zara.net/assets/public/ca52/7274/e5754a37a965/0f58ec229b69/02246092104-a3/02246092104-a3.jpg?ts=1783430543918&w=1920",
+        "https://static.zara.net/assets/public/bd38/978b/8ce24c8dbc38/c4e38741db83/02246092104-e1/02246092104-e1.jpg?ts=1784191265437&w=1920",
+        "https://static.zara.net/assets/public/06c9/efa7/92f845c58cc9/41b5f6f7dc20/02246092104-e2/02246092104-e2.jpg?ts=1784191265413&w=1920",
+        "https://static.zara.net/assets/public/5b39/7077/b09b4735811c/3c26065eeec3/02246092104-e3/02246092104-e3.jpg?ts=1784191266303&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "129.00",
+  "rendered_description": "Description\nZARA WOMAN COLLECTION\nMidi tunic made from a linen blend yarn. V-neck and below-the-elbow length sleeves. Gathered detail at the front. Asymmetric hem.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "129.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "129.00",
+    "dom_price": "129.00",
+    "normalized_price": "129.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2110ae7e867d857f1682bb30a6f54fbd8f600f9544e106600fdc7d9a30f5d19b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,488 @@
+{
+  "product_id": "zara-us:02906306",
+  "source_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html",
+  "final_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html",
+  "canonical_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHECKED RELAXED FIT SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHECKED RELAXED FIT SHIRT",
+      "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html",
+      "productGroupID": "02906306",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit shirt made of cotton fabric. Lapel collar and long sleeves with buttoned cuffs. Patch pocket on the chest. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920",
+        "https://static.zara.net/assets/public/35d1/e97e/37d74063bb11/bfb7407f79b7/02906306401-a1/02906306401-a1.jpg?ts=1785853914934&w=1920",
+        "https://static.zara.net/assets/public/0997/a729/61ae4ed29624/a38a3c5e5eb9/02906306401-a2/02906306401-a2.jpg?ts=1785853916121&w=1920",
+        "https://static.zara.net/assets/public/2b5a/280c/0cf84237bc60/7aba5ce7b054/02906306401-a3/02906306401-a3.jpg?ts=1785853914922&w=1920",
+        "https://static.zara.net/assets/public/6188/b8ec/242b41e394d2/eee1b9227395/02906306401-a4/02906306401-a4.jpg?ts=1785853914819&w=1920",
+        "https://static.zara.net/assets/public/5c8c/de59/9e28470497b4/7f19faa397e5/02906306401-e1/02906306401-e1.jpg?ts=1785755597267&w=1920",
+        "https://static.zara.net/assets/public/fb02/4d17/2e1a45f7885a/7b126ff82649/02906306401-e2/02906306401-e2.jpg?ts=1785755597450&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Navy blue - S",
+          "sku": "561256959-401-2",
+          "mpn": "561256959-401-2",
+          "color": "Navy blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256959",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Navy blue - M",
+          "sku": "561256959-401-3",
+          "mpn": "561256959-401-3",
+          "color": "Navy blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256959",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Navy blue - L",
+          "sku": "561256959-401-4",
+          "mpn": "561256959-401-4",
+          "color": "Navy blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256959",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Navy blue - XL",
+          "sku": "561256959-401-5",
+          "mpn": "561256959-401-5",
+          "color": "Navy blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256959",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Sky blue - S",
+          "sku": "561256959-403-2",
+          "mpn": "561256959-403-2",
+          "color": "Sky blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/8838/4091/f7dd4575a2fa/1330ed542d9e/02906306403-p/02906306403-p.jpg?ts=1785853915735&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256960",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Sky blue - M",
+          "sku": "561256959-403-3",
+          "mpn": "561256959-403-3",
+          "color": "Sky blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/8838/4091/f7dd4575a2fa/1330ed542d9e/02906306403-p/02906306403-p.jpg?ts=1785853915735&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256960",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Sky blue - L",
+          "sku": "561256959-403-4",
+          "mpn": "561256959-403-4",
+          "color": "Sky blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/8838/4091/f7dd4575a2fa/1330ed542d9e/02906306403-p/02906306403-p.jpg?ts=1785853915735&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256960",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Sky blue - XL",
+          "sku": "561256959-403-5",
+          "mpn": "561256959-403-5",
+          "color": "Sky blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/8838/4091/f7dd4575a2fa/1330ed542d9e/02906306403-p/02906306403-p.jpg?ts=1785853915735&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256960",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Washed green - S",
+          "sku": "561256959-519-2",
+          "mpn": "561256959-519-2",
+          "color": "Washed green",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/a615/fa0e/daae4d368973/ef11a38d52f5/02906306519-p/02906306519-p.jpg?ts=1785918667140&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256961",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Washed green - M",
+          "sku": "561256959-519-3",
+          "mpn": "561256959-519-3",
+          "color": "Washed green",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/a615/fa0e/daae4d368973/ef11a38d52f5/02906306519-p/02906306519-p.jpg?ts=1785918667140&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256961",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Washed green - L",
+          "sku": "561256959-519-4",
+          "mpn": "561256959-519-4",
+          "color": "Washed green",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/a615/fa0e/daae4d368973/ef11a38d52f5/02906306519-p/02906306519-p.jpg?ts=1785918667140&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256961",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHECKED RELAXED FIT SHIRT - Washed green - XL",
+          "sku": "561256959-519-5",
+          "mpn": "561256959-519-5",
+          "color": "Washed green",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/a615/fa0e/daae4d368973/ef11a38d52f5/02906306519-p/02906306519-p.jpg?ts=1785918667140&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256961",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHECKED RELAXED FIT SHIRT",
+      "product_group_id": "02906306",
+      "brand": "ZARA",
+      "description": "Relaxed fit shirt made of cotton fabric. Lapel collar and long sleeves with buttoned cuffs. Patch pocket on the chest. Front button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Navy blue - S",
+          "sku": "561256959-401-2",
+          "mpn": "561256959-401-2",
+          "color_name": "Navy blue",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256959",
+          "images": [
+            "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Navy blue - M",
+          "sku": "561256959-401-3",
+          "mpn": "561256959-401-3",
+          "color_name": "Navy blue",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256959",
+          "images": [
+            "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Navy blue - L",
+          "sku": "561256959-401-4",
+          "mpn": "561256959-401-4",
+          "color_name": "Navy blue",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256959",
+          "images": [
+            "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Navy blue - XL",
+          "sku": "561256959-401-5",
+          "mpn": "561256959-401-5",
+          "color_name": "Navy blue",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256959",
+          "images": [
+            "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Sky blue - S",
+          "sku": "561256959-403-2",
+          "mpn": "561256959-403-2",
+          "color_name": "Sky blue",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256960",
+          "images": [
+            "https://static.zara.net/assets/public/8838/4091/f7dd4575a2fa/1330ed542d9e/02906306403-p/02906306403-p.jpg?ts=1785853915735&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Sky blue - M",
+          "sku": "561256959-403-3",
+          "mpn": "561256959-403-3",
+          "color_name": "Sky blue",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256960",
+          "images": [
+            "https://static.zara.net/assets/public/8838/4091/f7dd4575a2fa/1330ed542d9e/02906306403-p/02906306403-p.jpg?ts=1785853915735&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Sky blue - L",
+          "sku": "561256959-403-4",
+          "mpn": "561256959-403-4",
+          "color_name": "Sky blue",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256960",
+          "images": [
+            "https://static.zara.net/assets/public/8838/4091/f7dd4575a2fa/1330ed542d9e/02906306403-p/02906306403-p.jpg?ts=1785853915735&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Sky blue - XL",
+          "sku": "561256959-403-5",
+          "mpn": "561256959-403-5",
+          "color_name": "Sky blue",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256960",
+          "images": [
+            "https://static.zara.net/assets/public/8838/4091/f7dd4575a2fa/1330ed542d9e/02906306403-p/02906306403-p.jpg?ts=1785853915735&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Washed green - S",
+          "sku": "561256959-519-2",
+          "mpn": "561256959-519-2",
+          "color_name": "Washed green",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256961",
+          "images": [
+            "https://static.zara.net/assets/public/a615/fa0e/daae4d368973/ef11a38d52f5/02906306519-p/02906306519-p.jpg?ts=1785918667140&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Washed green - M",
+          "sku": "561256959-519-3",
+          "mpn": "561256959-519-3",
+          "color_name": "Washed green",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256961",
+          "images": [
+            "https://static.zara.net/assets/public/a615/fa0e/daae4d368973/ef11a38d52f5/02906306519-p/02906306519-p.jpg?ts=1785918667140&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Washed green - L",
+          "sku": "561256959-519-4",
+          "mpn": "561256959-519-4",
+          "color_name": "Washed green",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256961",
+          "images": [
+            "https://static.zara.net/assets/public/a615/fa0e/daae4d368973/ef11a38d52f5/02906306519-p/02906306519-p.jpg?ts=1785918667140&w=1920"
+          ]
+        },
+        {
+          "name": "CHECKED RELAXED FIT SHIRT - Washed green - XL",
+          "sku": "561256959-519-5",
+          "mpn": "561256959-519-5",
+          "color_name": "Washed green",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-shirt-p02906306.html?v1=561256961",
+          "images": [
+            "https://static.zara.net/assets/public/a615/fa0e/daae4d368973/ef11a38d52f5/02906306519-p/02906306519-p.jpg?ts=1785918667140&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9428/6e93/a6d54a87b09a/c453f00ab99a/02906306401-p/02906306401-p.jpg?ts=1785853916303&w=1920",
+        "https://static.zara.net/assets/public/35d1/e97e/37d74063bb11/bfb7407f79b7/02906306401-a1/02906306401-a1.jpg?ts=1785853914934&w=1920",
+        "https://static.zara.net/assets/public/0997/a729/61ae4ed29624/a38a3c5e5eb9/02906306401-a2/02906306401-a2.jpg?ts=1785853916121&w=1920",
+        "https://static.zara.net/assets/public/2b5a/280c/0cf84237bc60/7aba5ce7b054/02906306401-a3/02906306401-a3.jpg?ts=1785853914922&w=1920",
+        "https://static.zara.net/assets/public/6188/b8ec/242b41e394d2/eee1b9227395/02906306401-a4/02906306401-a4.jpg?ts=1785853914819&w=1920",
+        "https://static.zara.net/assets/public/5c8c/de59/9e28470497b4/7f19faa397e5/02906306401-e1/02906306401-e1.jpg?ts=1785755597267&w=1920",
+        "https://static.zara.net/assets/public/fb02/4d17/2e1a45f7885a/7b126ff82649/02906306401-e2/02906306401-e2.jpg?ts=1785755597450&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Navy blue",
+    "Sky blue",
+    "Washed green"
+  ],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nRelaxed fit shirt made of cotton fabric. Lapel collar and long sleeves with buttoned cuffs. Patch pocket on the chest. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 9,
+  "variants_count": 12,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3f9cfafad53788becbc2eff6f1eab1ee94ecb03f57afb1af94dd0b92c23bc4ad",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

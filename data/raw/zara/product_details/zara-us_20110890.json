@@ -1,0 +1,115 @@
+{
+  "product_id": "zara-us:20110890",
+  "source_url": "https://www.zara.com/us/en/amalfi-sunray-edp-100ml--3-4-fl-oz---p20110890.html",
+  "final_url": "https://www.zara.com/us/en/amalfi-sunray-edp-100ml--3-4-fl-oz---p20110890.html",
+  "canonical_url": "https://www.zara.com/us/en/amalfi-sunray-edp-100ml--3-4-fl-oz---p20110890.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "AMALFI SUNRAY",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "AMALFI SUNRAY EDP 100ML (3.4 FL.OZ)",
+      "url": "https://www.zara.com/us/en/amalfi-sunray-edp-100ml--3-4-fl-oz---p20110890.html",
+      "productGroupID": "20110890",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "AMALFI SUNRAY EDP 100ML (3.4 FL.OZ). Inspired by the luminosity of the Italian coast, this fragrance combines the vibrant freshness of bergamot with the floral softness of orange blossom petals. White musk provides a clean, radiant base that evokes the sensation of sun on the skin. A collection created by Ms. Jo Malone CBE, founder of Jo Loves. Floral musky | Luminous, fresh and radiant",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7ff9/da89/19bd4e8e985f/df4bb2611181/20110890999-e20/20110890999-e20.jpg?ts=1777904923916&w=1920",
+        "https://static.zara.net/assets/public/f7ab/75d9/59954d4e9a75/ce833e1099a2/20110890999-e21/20110890999-e21.jpg?ts=1777904923266&w=1920",
+        "https://static.zara.net/assets/public/f9fe/5674/3a6e4e1d9a6e/e5b52c24c80c/20110890999-e22/20110890999-e22.jpg?ts=1777904921700&w=1920",
+        "https://static.zara.net/assets/public/9d1a/2569/97944252bc54/5527329177f9/20110668999-e38/20110668999-e38.jpg?ts=1778142545696&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "AMALFI SUNRAY EDP 100ML (3.4 FL.OZ) - ONE SIZE ONLY",
+          "sku": "545479767-999-99",
+          "mpn": "545479767-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/7ff9/da89/19bd4e8e985f/df4bb2611181/20110890999-e20/20110890999-e20.jpg?ts=1777904923916&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/amalfi-sunray-edp-100ml--3-4-fl-oz---p20110890.html?v1=545479767",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "AMALFI SUNRAY EDP 100ML (3.4 FL.OZ)",
+      "product_group_id": "20110890",
+      "brand": "ZARA",
+      "description": "AMALFI SUNRAY EDP 100ML (3.4 FL.OZ). Inspired by the luminosity of the Italian coast, this fragrance combines the vibrant freshness of bergamot with the floral softness of orange blossom petals. White musk provides a clean, radiant base that evokes the sensation of sun on the skin. A collection created by Ms. Jo Malone CBE, founder of Jo Loves. Floral musky | Luminous, fresh and radiant",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "AMALFI SUNRAY EDP 100ML (3.4 FL.OZ) - ONE SIZE ONLY",
+          "sku": "545479767-999-99",
+          "mpn": "545479767-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "59.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/amalfi-sunray-edp-100ml--3-4-fl-oz---p20110890.html?v1=545479767",
+          "images": [
+            "https://static.zara.net/assets/public/7ff9/da89/19bd4e8e985f/df4bb2611181/20110890999-e20/20110890999-e20.jpg?ts=1777904923916&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7ff9/da89/19bd4e8e985f/df4bb2611181/20110890999-e20/20110890999-e20.jpg?ts=1777904923916&w=1920",
+        "https://static.zara.net/assets/public/f7ab/75d9/59954d4e9a75/ce833e1099a2/20110890999-e21/20110890999-e21.jpg?ts=1777904923266&w=1920",
+        "https://static.zara.net/assets/public/f9fe/5674/3a6e4e1d9a6e/e5b52c24c80c/20110890999-e22/20110890999-e22.jpg?ts=1777904921700&w=1920",
+        "https://static.zara.net/assets/public/9d1a/2569/97944252bc54/5527329177f9/20110668999-e38/20110668999-e38.jpg?ts=1778142545696&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nAMALFI SUNRAY EDP 100ML (3.4 FL.OZ). Inspired by the luminosity of the Italian coast, this fragrance combines the vibrant freshness of bergamot with the floral softness of orange blossom petals. White musk provides a clean, radiant base that evokes the sensation of sun on the skin. A collection created by Ms. Jo Malone CBE, founder of Jo Loves. Floral musky | Luminous, fresh and radiant",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fc97c661a8908ddb6cf8a7072661d7cf6f94b7d63e747dcb3bd23c438371695e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,162 @@
+{
+  "product_id": "zara-us:48391073",
+  "source_url": "https://www.zara.com/us/en/wood-and-leather-frame-chair-p48391073.html",
+  "final_url": "https://www.zara.com/us/en/wood-and-leather-frame-chair-p48391073.html",
+  "canonical_url": "https://www.zara.com/us/en/wood-and-leather-frame-chair-p48391073.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WOOD AND LEATHER FRAME CHAIR",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WOOD AND LEATHER FRAME CHAIR",
+      "url": "https://www.zara.com/us/en/wood-and-leather-frame-chair-p48391073.html",
+      "productGroupID": "48391073",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Dark chair with a wooden frame and a leather seat and backrest.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e77a/48b5/37854e0ea9bf/11a39a71ffb7/48391073684-e1/48391073684-e1.jpg?ts=1776345546965&w=1920",
+        "https://static.zara.net/assets/public/a28c/4f36/822942ab9acc/48f5abfb5cab/48391073684-e2/48391073684-e2.jpg?ts=1776345547056&w=1920",
+        "https://static.zara.net/assets/public/4c6e/c3d1/ec7a47639e92/e21ab6699176/48391073684-e3/48391073684-e3.jpg?ts=1776345547045&w=1920",
+        "https://static.zara.net/assets/public/3a44/c6b2/cd59466da79c/84846c3aa060/48391073684-e4/48391073684-e4.jpg?ts=1776345548371&w=1920",
+        "https://static.zara.net/assets/public/070a/1940/17d5434ea70e/2d73a6c2e1a3/48391073684-a1/48391073684-a1.jpg?ts=1787560762046&w=1920"
+      ],
+      "material": "pine wood/buffalo leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "75% pine wood, 25% buffalo leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WOOD AND LEATHER FRAME CHAIR - Dark burgundy - ONE SIZE ONLY",
+          "sku": "551042190-684-99",
+          "mpn": "551042190-684-99",
+          "color": "Dark burgundy",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e77a/48b5/37854e0ea9bf/11a39a71ffb7/48391073684-e1/48391073684-e1.jpg?ts=1776345546965&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "459",
+            "url": "https://www.zara.com/us/en/wood-and-leather-frame-chair-p48391073.html?v1=551042190",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOD AND LEATHER FRAME CHAIR - Dark brown - ONE SIZE ONLY",
+          "sku": "551042190-716-99",
+          "mpn": "551042190-716-99",
+          "color": "Dark brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0da0/bbba/5f784f948286/1d96a506300c/48391073716-e1/48391073716-e1.jpg?ts=1730362329487&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "459",
+            "url": "https://www.zara.com/us/en/wood-and-leather-frame-chair-p48391073.html?v1=551042191",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WOOD AND LEATHER FRAME CHAIR",
+      "product_group_id": "48391073",
+      "brand": "ZARAHOME",
+      "description": "Dark chair with a wooden frame and a leather seat and backrest.",
+      "material": "pine wood/buffalo leather",
+      "composition": "OUTER SHELL: 75% pine wood, 25% buffalo leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WOOD AND LEATHER FRAME CHAIR - Dark burgundy - ONE SIZE ONLY",
+          "sku": "551042190-684-99",
+          "mpn": "551042190-684-99",
+          "color_name": "Dark burgundy",
+          "size_name": "ONE SIZE ONLY",
+          "price": "459.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wood-and-leather-frame-chair-p48391073.html?v1=551042190",
+          "images": [
+            "https://static.zara.net/assets/public/e77a/48b5/37854e0ea9bf/11a39a71ffb7/48391073684-e1/48391073684-e1.jpg?ts=1776345546965&w=1920"
+          ]
+        },
+        {
+          "name": "WOOD AND LEATHER FRAME CHAIR - Dark brown - ONE SIZE ONLY",
+          "sku": "551042190-716-99",
+          "mpn": "551042190-716-99",
+          "color_name": "Dark brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "459.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wood-and-leather-frame-chair-p48391073.html?v1=551042191",
+          "images": [
+            "https://static.zara.net/assets/public/0da0/bbba/5f784f948286/1d96a506300c/48391073716-e1/48391073716-e1.jpg?ts=1730362329487&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e77a/48b5/37854e0ea9bf/11a39a71ffb7/48391073684-e1/48391073684-e1.jpg?ts=1776345546965&w=1920",
+        "https://static.zara.net/assets/public/a28c/4f36/822942ab9acc/48f5abfb5cab/48391073684-e2/48391073684-e2.jpg?ts=1776345547056&w=1920",
+        "https://static.zara.net/assets/public/4c6e/c3d1/ec7a47639e92/e21ab6699176/48391073684-e3/48391073684-e3.jpg?ts=1776345547045&w=1920",
+        "https://static.zara.net/assets/public/3a44/c6b2/cd59466da79c/84846c3aa060/48391073684-e4/48391073684-e4.jpg?ts=1776345548371&w=1920",
+        "https://static.zara.net/assets/public/070a/1940/17d5434ea70e/2d73a6c2e1a3/48391073684-a1/48391073684-a1.jpg?ts=1787560762046&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Dark burgundy",
+    "Dark brown"
+  ],
+  "rendered_price": "459.00",
+  "rendered_description": "Description\nDark chair with a wooden frame and a leather seat and backrest.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "459.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "459.00",
+    "dom_price": "459.00",
+    "normalized_price": "459.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "129302212075b9c37c73a0b5f145149de8bfe1fd7652b321e2146ff2b803d426",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

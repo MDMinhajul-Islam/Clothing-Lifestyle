@@ -1,0 +1,165 @@
+{
+  "product_id": "zara-us:05344138",
+  "source_url": "https://www.zara.com/us/en/fringed-mini-dress-p05344138.html",
+  "final_url": "https://www.zara.com/us/en/fringed-mini-dress-p05344138.html",
+  "canonical_url": "https://www.zara.com/us/en/fringed-mini-dress-p05344138.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FRINGED MINI DRESS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FRINGED MINI DRESS",
+      "url": "https://www.zara.com/us/en/fringed-mini-dress-p05344138.html",
+      "productGroupID": "05344138",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Semi-sheer mini dress with a straight neckline and adjustable thin straps. Features fringed fabric. Asymmetrical hem.\n\nThis item is unlined.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/15a5/7b16/611f44b4a1e4/5ce3fc65728a/05344138800-p/05344138800-p.jpg?ts=1780474156515&w=1920",
+        "https://static.zara.net/assets/public/ab42/3c7c/b5374462aaad/ee0348a7a457/05344138800-a1/05344138800-a1.jpg?ts=1780474155273&w=1920",
+        "https://static.zara.net/assets/public/1781/62c2/df7841d589b0/725cd69227a4/05344138800-a2/05344138800-a2.jpg?ts=1780474156589&w=1920",
+        "https://static.zara.net/assets/public/f407/a017/9806462a8997/16eb9c0acd59/05344138800-a3/05344138800-a3.jpg?ts=1780474156129&w=1920",
+        "https://static.zara.net/assets/public/c4a0/df82/9ab24d77955f/ebbdbf99ac58/05344138800-a4/05344138800-a4.jpg?ts=1780474155608&w=1920",
+        "https://static.zara.net/assets/public/bde1/bd8e/e7ee4e73a052/e94e6b9b7d26/05344138800-e1/05344138800-e1.jpg?ts=1780398813416&w=1920",
+        "https://static.zara.net/assets/public/7bab/0369/ac9f479faa03/87e1b72c1e5c/05344138800-e2/05344138800-e2.jpg?ts=1780398812850&w=1920",
+        "https://static.zara.net/assets/public/760b/7c0f/62614de78538/bc1a13e0e245/05344138800-e3/05344138800-e3.jpg?ts=1780398813096&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FRINGED MINI DRESS - Black - XS-S",
+          "sku": "545400361-800-10",
+          "mpn": "545400361-800-10",
+          "color": "Black",
+          "size": "XS-S",
+          "image": [
+            "https://static.zara.net/assets/public/15a5/7b16/611f44b4a1e4/5ce3fc65728a/05344138800-p/05344138800-p.jpg?ts=1780474156515&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/fringed-mini-dress-p05344138.html?v1=545400361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FRINGED MINI DRESS - Black - M-L",
+          "sku": "545400361-800-98",
+          "mpn": "545400361-800-98",
+          "color": "Black",
+          "size": "M-L",
+          "image": [
+            "https://static.zara.net/assets/public/15a5/7b16/611f44b4a1e4/5ce3fc65728a/05344138800-p/05344138800-p.jpg?ts=1780474156515&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/fringed-mini-dress-p05344138.html?v1=545400361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FRINGED MINI DRESS",
+      "product_group_id": "05344138",
+      "brand": "ZARA",
+      "description": "Semi-sheer mini dress with a straight neckline and adjustable thin straps. Features fringed fabric. Asymmetrical hem.\n\nThis item is unlined.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FRINGED MINI DRESS - Black - XS-S",
+          "sku": "545400361-800-10",
+          "mpn": "545400361-800-10",
+          "color_name": "Black",
+          "size_name": "XS-S",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fringed-mini-dress-p05344138.html?v1=545400361",
+          "images": [
+            "https://static.zara.net/assets/public/15a5/7b16/611f44b4a1e4/5ce3fc65728a/05344138800-p/05344138800-p.jpg?ts=1780474156515&w=1920"
+          ]
+        },
+        {
+          "name": "FRINGED MINI DRESS - Black - M-L",
+          "sku": "545400361-800-98",
+          "mpn": "545400361-800-98",
+          "color_name": "Black",
+          "size_name": "M-L",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fringed-mini-dress-p05344138.html?v1=545400361",
+          "images": [
+            "https://static.zara.net/assets/public/15a5/7b16/611f44b4a1e4/5ce3fc65728a/05344138800-p/05344138800-p.jpg?ts=1780474156515&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/15a5/7b16/611f44b4a1e4/5ce3fc65728a/05344138800-p/05344138800-p.jpg?ts=1780474156515&w=1920",
+        "https://static.zara.net/assets/public/ab42/3c7c/b5374462aaad/ee0348a7a457/05344138800-a1/05344138800-a1.jpg?ts=1780474155273&w=1920",
+        "https://static.zara.net/assets/public/1781/62c2/df7841d589b0/725cd69227a4/05344138800-a2/05344138800-a2.jpg?ts=1780474156589&w=1920",
+        "https://static.zara.net/assets/public/f407/a017/9806462a8997/16eb9c0acd59/05344138800-a3/05344138800-a3.jpg?ts=1780474156129&w=1920",
+        "https://static.zara.net/assets/public/c4a0/df82/9ab24d77955f/ebbdbf99ac58/05344138800-a4/05344138800-a4.jpg?ts=1780474155608&w=1920",
+        "https://static.zara.net/assets/public/bde1/bd8e/e7ee4e73a052/e94e6b9b7d26/05344138800-e1/05344138800-e1.jpg?ts=1780398813416&w=1920",
+        "https://static.zara.net/assets/public/7bab/0369/ac9f479faa03/87e1b72c1e5c/05344138800-e2/05344138800-e2.jpg?ts=1780398812850&w=1920",
+        "https://static.zara.net/assets/public/760b/7c0f/62614de78538/bc1a13e0e245/05344138800-e3/05344138800-e3.jpg?ts=1780398813096&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nSemi-sheer mini dress with a straight neckline and adjustable thin straps. Features fringed fabric. Asymmetrical hem.\nThis item is unlined.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ccf911ae4a0ff2eaa2c3961ca1e9d165aa56e1fd701659133b9e23beed78f94f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

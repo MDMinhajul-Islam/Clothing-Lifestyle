@@ -1,0 +1,258 @@
+{
+  "product_id": "zara-us:00251103",
+  "source_url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html",
+  "final_url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html",
+  "canonical_url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA",
+      "url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html",
+      "productGroupID": "00251103",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "ZARA WOMAN COLLECTION\n\nMidi dress with main fabric made of silk yarn. Round neckline and thin straps. Floral print detail. Straight hem.\n\nSpecial collection Created by Caramel London x Zara.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920",
+        "https://static.zara.net/assets/public/d79b/2f27/f88040db9a6b/c8696c72615a/00251103020-a1/00251103020-a1.jpg?ts=1779966936865&w=1920",
+        "https://static.zara.net/assets/public/4ecb/24ae/b2f540e1a992/374701285cb7/00251103020-a2/00251103020-a2.jpg?ts=1779966935832&w=1920",
+        "https://static.zara.net/assets/public/3d7e/a639/8b8b4f5abce0/3733c3960ee2/00251103020-e1/00251103020-e1.jpg?ts=1779983463390&w=1920",
+        "https://static.zara.net/assets/public/49f5/60af/1fd34d258476/e170d7fcb245/00251103020-e2/00251103020-e2.jpg?ts=1779983463156&w=1920",
+        "https://static.zara.net/assets/public/6186/6066/c3bc45e2bf2f/0f74aa0ae65d/00251103020-e3/00251103020-e3.jpg?ts=1779983463890&w=1920"
+      ],
+      "material": "100% silk (mulberry)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% silk (mulberry)"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - XS",
+          "sku": "548714048-020-1",
+          "mpn": "548714048-020-1",
+          "color": "Printed",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - S",
+          "sku": "548714048-020-2",
+          "mpn": "548714048-020-2",
+          "color": "Printed",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - M",
+          "sku": "548714048-020-3",
+          "mpn": "548714048-020-3",
+          "color": "Printed",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - L",
+          "sku": "548714048-020-4",
+          "mpn": "548714048-020-4",
+          "color": "Printed",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - XL",
+          "sku": "548714048-020-5",
+          "mpn": "548714048-020-5",
+          "color": "Printed",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA",
+      "product_group_id": "00251103",
+      "brand": "ZARA",
+      "description": "ZARA WOMAN COLLECTION\n\nMidi dress with main fabric made of silk yarn. Round neckline and thin straps. Floral print detail. Straight hem.\n\nSpecial collection Created by Caramel London x Zara.",
+      "material": "100% silk (mulberry)",
+      "composition": "OUTER SHELL: 100% silk (mulberry)",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - XS",
+          "sku": "548714048-020-1",
+          "mpn": "548714048-020-1",
+          "color_name": "Printed",
+          "size_name": "XS",
+          "price": "169.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+          "images": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ]
+        },
+        {
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - S",
+          "sku": "548714048-020-2",
+          "mpn": "548714048-020-2",
+          "color_name": "Printed",
+          "size_name": "S",
+          "price": "169.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+          "images": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ]
+        },
+        {
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - M",
+          "sku": "548714048-020-3",
+          "mpn": "548714048-020-3",
+          "color_name": "Printed",
+          "size_name": "M",
+          "price": "169.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+          "images": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ]
+        },
+        {
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - L",
+          "sku": "548714048-020-4",
+          "mpn": "548714048-020-4",
+          "color_name": "Printed",
+          "size_name": "L",
+          "price": "169.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+          "images": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ]
+        },
+        {
+          "name": "100% SILK DRESS CREATED BY CARAMEL LONDON X ZARA - Printed - XL",
+          "sku": "548714048-020-5",
+          "mpn": "548714048-020-5",
+          "color_name": "Printed",
+          "size_name": "XL",
+          "price": "169.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-silk-dress-created-by-caramel-london-x-zara-p00251103.html?v1=548714048",
+          "images": [
+            "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7e09/a277/5dfe4f708317/aee8b993b483/00251103020-p/00251103020-p.jpg?ts=1779966936964&w=1920",
+        "https://static.zara.net/assets/public/d79b/2f27/f88040db9a6b/c8696c72615a/00251103020-a1/00251103020-a1.jpg?ts=1779966936865&w=1920",
+        "https://static.zara.net/assets/public/4ecb/24ae/b2f540e1a992/374701285cb7/00251103020-a2/00251103020-a2.jpg?ts=1779966935832&w=1920",
+        "https://static.zara.net/assets/public/3d7e/a639/8b8b4f5abce0/3733c3960ee2/00251103020-e1/00251103020-e1.jpg?ts=1779983463390&w=1920",
+        "https://static.zara.net/assets/public/49f5/60af/1fd34d258476/e170d7fcb245/00251103020-e2/00251103020-e2.jpg?ts=1779983463156&w=1920",
+        "https://static.zara.net/assets/public/6186/6066/c3bc45e2bf2f/0f74aa0ae65d/00251103020-e3/00251103020-e3.jpg?ts=1779983463890&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "169.00",
+  "rendered_description": "Description\nZARA WOMAN COLLECTION\nMidi dress with main fabric made of silk yarn. Round neckline and thin straps. Floral print detail. Straight hem.\nSpecial collection Created by Caramel London x Zara.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 6,
+  "variants_count": 5,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "169.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "169.00",
+    "dom_price": "169.00",
+    "normalized_price": "169.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b9f8c59bb59f866c39410cc3750cb2aeb7eb629b5f5666f329fefb0f5848d918",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

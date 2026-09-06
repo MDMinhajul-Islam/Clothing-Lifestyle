@@ -1,0 +1,229 @@
+{
+  "product_id": "zara-us:02001304",
+  "source_url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html",
+  "final_url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html",
+  "canonical_url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RELAXED FIT PLAID SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RELAXED FIT PLAID SHIRT",
+      "url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html",
+      "productGroupID": "02001304",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit shirt made of cotton fabric. Button-down lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920",
+        "https://static.zara.net/assets/public/47bb/8eb2/62a445d9a476/4a96a8bedd17/02001304400-a1/02001304400-a1.jpg?ts=1785829536144&w=1920",
+        "https://static.zara.net/assets/public/18e2/a6cd/48b64bb8bd1e/214190e37000/02001304400-a2/02001304400-a2.jpg?ts=1785829536435&w=1920",
+        "https://static.zara.net/assets/public/feb6/b576/2e814f6181cb/f15f99f21ffd/02001304400-a3/02001304400-a3.jpg?ts=1785829536440&w=1920",
+        "https://static.zara.net/assets/public/b92f/0f7c/22b64371ad5a/1ccbf7e56e32/02001304400-a4/02001304400-a4.jpg?ts=1785829536388&w=1920",
+        "https://static.zara.net/assets/public/db8d/8855/77a244edbf07/dcbf43d4c29d/02001304400-a5/02001304400-a5.jpg?ts=1785829537832&w=1920",
+        "https://static.zara.net/assets/public/c8de/ead5/a0c94581831e/c8ef1092b38a/02001304400-e1/02001304400-e1.jpg?ts=1785829557569&w=1920",
+        "https://static.zara.net/assets/public/b635/03d8/56024ca09e02/2c3103498c38/02001304400-e2/02001304400-e2.jpg?ts=1785829556694&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT PLAID SHIRT - Blue - S",
+          "sku": "553820261-400-2",
+          "mpn": "553820261-400-2",
+          "color": "Blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html?v1=553820261",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT PLAID SHIRT - Blue - M",
+          "sku": "553820261-400-3",
+          "mpn": "553820261-400-3",
+          "color": "Blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html?v1=553820261",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT PLAID SHIRT - Blue - L",
+          "sku": "553820261-400-4",
+          "mpn": "553820261-400-4",
+          "color": "Blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html?v1=553820261",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT PLAID SHIRT - Blue - XL",
+          "sku": "553820261-400-5",
+          "mpn": "553820261-400-5",
+          "color": "Blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html?v1=553820261",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RELAXED FIT PLAID SHIRT",
+      "product_group_id": "02001304",
+      "brand": "ZARA",
+      "description": "Relaxed fit shirt made of cotton fabric. Button-down lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RELAXED FIT PLAID SHIRT - Blue - S",
+          "sku": "553820261-400-2",
+          "mpn": "553820261-400-2",
+          "color_name": "Blue",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html?v1=553820261",
+          "images": [
+            "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT PLAID SHIRT - Blue - M",
+          "sku": "553820261-400-3",
+          "mpn": "553820261-400-3",
+          "color_name": "Blue",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html?v1=553820261",
+          "images": [
+            "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT PLAID SHIRT - Blue - L",
+          "sku": "553820261-400-4",
+          "mpn": "553820261-400-4",
+          "color_name": "Blue",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html?v1=553820261",
+          "images": [
+            "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT PLAID SHIRT - Blue - XL",
+          "sku": "553820261-400-5",
+          "mpn": "553820261-400-5",
+          "color_name": "Blue",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-plaid-shirt-p02001304.html?v1=553820261",
+          "images": [
+            "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4245/078f/a82743b8955b/2e6f679eab27/02001304400-p/02001304400-p.jpg?ts=1785829537192&w=1920",
+        "https://static.zara.net/assets/public/47bb/8eb2/62a445d9a476/4a96a8bedd17/02001304400-a1/02001304400-a1.jpg?ts=1785829536144&w=1920",
+        "https://static.zara.net/assets/public/18e2/a6cd/48b64bb8bd1e/214190e37000/02001304400-a2/02001304400-a2.jpg?ts=1785829536435&w=1920",
+        "https://static.zara.net/assets/public/feb6/b576/2e814f6181cb/f15f99f21ffd/02001304400-a3/02001304400-a3.jpg?ts=1785829536440&w=1920",
+        "https://static.zara.net/assets/public/b92f/0f7c/22b64371ad5a/1ccbf7e56e32/02001304400-a4/02001304400-a4.jpg?ts=1785829536388&w=1920",
+        "https://static.zara.net/assets/public/db8d/8855/77a244edbf07/dcbf43d4c29d/02001304400-a5/02001304400-a5.jpg?ts=1785829537832&w=1920",
+        "https://static.zara.net/assets/public/c8de/ead5/a0c94581831e/c8ef1092b38a/02001304400-e1/02001304400-e1.jpg?ts=1785829557569&w=1920",
+        "https://static.zara.net/assets/public/b635/03d8/56024ca09e02/2c3103498c38/02001304400-e2/02001304400-e2.jpg?ts=1785829556694&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed fit shirt made of cotton fabric. Button-down lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bee54b9a159e04e72433e00be29a5e61deafaa5cc45fbd600eac7924d0055e01",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,228 @@
+{
+  "product_id": "zara-us:00706150",
+  "source_url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html",
+  "final_url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html",
+  "canonical_url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WASHED COTTON-LINEN SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WASHED COTTON-LINEN SHIRT",
+      "url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html",
+      "productGroupID": "00706150",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit shirt made of an overdyed cotton and linen blend fabric. Featuring a lapel collar and short sleeves. Patch pocket on the chest. Washed effect. Front button-up closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920",
+        "https://static.zara.net/assets/public/b047/5fb9/491b4fb68250/93021393b3fe/00706150958-a1/00706150958-a1.jpg?ts=1786537999495&w=1920",
+        "https://static.zara.net/assets/public/20cb/5f23/3174461cb110/339ac3a0da50/00706150958-a2/00706150958-a2.jpg?ts=1786537997807&w=1920",
+        "https://static.zara.net/assets/public/e9e0/332c/46924bbc8d96/e3daa378021f/00706150958-a3/00706150958-a3.jpg?ts=1786537998298&w=1920",
+        "https://static.zara.net/assets/public/474d/ce2b/530f4e94a2d7/29f497629a13/00706150958-a4/00706150958-a4.jpg?ts=1786538001109&w=1920",
+        "https://static.zara.net/assets/public/d3b2/7a92/bc4840ed8be2/86c4e5d1320d/00706150958-e1/00706150958-e1.jpg?ts=1786351598740&w=1920",
+        "https://static.zara.net/assets/public/b7b1/9044/0990409698c9/8c41d1c90de2/00706150958-e2/00706150958-e2.jpg?ts=1786351596051&w=1920"
+      ],
+      "material": "cotton/linen/lyocell",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "53% cotton, 31% linen, 16% lyocell"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WASHED COTTON-LINEN SHIRT - DARK KHAKI - S",
+          "sku": "561100917-958-2",
+          "mpn": "561100917-958-2",
+          "color": "DARK KHAKI",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html?v1=561100917",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED COTTON-LINEN SHIRT - DARK KHAKI - M",
+          "sku": "561100917-958-3",
+          "mpn": "561100917-958-3",
+          "color": "DARK KHAKI",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html?v1=561100917",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED COTTON-LINEN SHIRT - DARK KHAKI - L",
+          "sku": "561100917-958-4",
+          "mpn": "561100917-958-4",
+          "color": "DARK KHAKI",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html?v1=561100917",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WASHED COTTON-LINEN SHIRT - DARK KHAKI - XL",
+          "sku": "561100917-958-5",
+          "mpn": "561100917-958-5",
+          "color": "DARK KHAKI",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html?v1=561100917",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WASHED COTTON-LINEN SHIRT",
+      "product_group_id": "00706150",
+      "brand": "ZARA",
+      "description": "Relaxed fit shirt made of an overdyed cotton and linen blend fabric. Featuring a lapel collar and short sleeves. Patch pocket on the chest. Washed effect. Front button-up closure.",
+      "material": "cotton/linen/lyocell",
+      "composition": "OUTER SHELL: 53% cotton, 31% linen, 16% lyocell",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WASHED COTTON-LINEN SHIRT - DARK KHAKI - S",
+          "sku": "561100917-958-2",
+          "mpn": "561100917-958-2",
+          "color_name": "DARK KHAKI",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html?v1=561100917",
+          "images": [
+            "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED COTTON-LINEN SHIRT - DARK KHAKI - M",
+          "sku": "561100917-958-3",
+          "mpn": "561100917-958-3",
+          "color_name": "DARK KHAKI",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html?v1=561100917",
+          "images": [
+            "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED COTTON-LINEN SHIRT - DARK KHAKI - L",
+          "sku": "561100917-958-4",
+          "mpn": "561100917-958-4",
+          "color_name": "DARK KHAKI",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html?v1=561100917",
+          "images": [
+            "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920"
+          ]
+        },
+        {
+          "name": "WASHED COTTON-LINEN SHIRT - DARK KHAKI - XL",
+          "sku": "561100917-958-5",
+          "mpn": "561100917-958-5",
+          "color_name": "DARK KHAKI",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-washed-shirt-p00706150.html?v1=561100917",
+          "images": [
+            "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cd60/9ad5/2edf497cb233/dc680bcb40e8/00706150958-p/00706150958-p.jpg?ts=1786538000850&w=1920",
+        "https://static.zara.net/assets/public/b047/5fb9/491b4fb68250/93021393b3fe/00706150958-a1/00706150958-a1.jpg?ts=1786537999495&w=1920",
+        "https://static.zara.net/assets/public/20cb/5f23/3174461cb110/339ac3a0da50/00706150958-a2/00706150958-a2.jpg?ts=1786537997807&w=1920",
+        "https://static.zara.net/assets/public/e9e0/332c/46924bbc8d96/e3daa378021f/00706150958-a3/00706150958-a3.jpg?ts=1786537998298&w=1920",
+        "https://static.zara.net/assets/public/474d/ce2b/530f4e94a2d7/29f497629a13/00706150958-a4/00706150958-a4.jpg?ts=1786538001109&w=1920",
+        "https://static.zara.net/assets/public/d3b2/7a92/bc4840ed8be2/86c4e5d1320d/00706150958-e1/00706150958-e1.jpg?ts=1786351598740&w=1920",
+        "https://static.zara.net/assets/public/b7b1/9044/0990409698c9/8c41d1c90de2/00706150958-e2/00706150958-e2.jpg?ts=1786351596051&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed fit shirt made of an overdyed cotton and linen blend fabric. Featuring a lapel collar and short sleeves. Patch pocket on the chest. Washed effect. Front button-up closure.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 7,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "dfeceda7d4867e9bdfc382f72b30709ba2c946a195b87de634ac07e56f90fc7f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

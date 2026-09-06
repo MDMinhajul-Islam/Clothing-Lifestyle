@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:14201800",
+  "source_url": "https://www.zara.com/us/en/leather-jewellery-box-p14201800.html",
+  "final_url": "https://www.zara.com/us/en/leather-jewellery-box-p14201800.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-jewellery-box-p14201800.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER JEWELLERY BOX",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER JEWELLERY BOX",
+      "url": "https://www.zara.com/us/en/leather-jewellery-box-p14201800.html",
+      "productGroupID": "14201800",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Small jewellery box with zip closure. Features interior space designed for earrings and a small organizer for jewellery and accessories.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c03a/5cc4/49054203ad11/1ee5ecbbd831/14201800040-e1/14201800040-e1.jpg?ts=1782381504229&w=1920",
+        "https://static.zara.net/assets/public/0640/c26a/4c40406bb0fb/e126d83b6865/14201800040-e2/14201800040-e2.jpg?ts=1782381503317&w=1920",
+        "https://static.zara.net/assets/public/ae3a/109d/fb934044a0e0/8363786a7d7b/14201800040-e3/14201800040-e3.jpg?ts=1782381508493&w=1920",
+        "https://static.zara.net/assets/public/0e97/4c18/feab4c56b9c6/8e8a76600f34/14201800040-e4/14201800040-e4.jpg?ts=1782381503699&w=1920",
+        "https://static.zara.net/assets/public/dd48/814a/d6ab491a88f7/5d0d2b0db29a/14201800040-e5/14201800040-e5.jpg?ts=1782381508636&w=1920",
+        "https://static.zara.net/assets/public/5a7d/8ce1/b0644b21b539/80957b96d388/14201800040-a1/14201800040-a1.jpg?ts=1786363534842&w=1920"
+      ],
+      "material": "100% sheep leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% sheep leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% goat leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER JEWELLERY BOX - Black - ONE SIZE ONLY",
+          "sku": "545431319-040-3",
+          "mpn": "545431319-040-3",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/c03a/5cc4/49054203ad11/1ee5ecbbd831/14201800040-e1/14201800040-e1.jpg?ts=1782381504229&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-jewellery-box-p14201800.html?v1=545431319",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER JEWELLERY BOX",
+      "product_group_id": "14201800",
+      "brand": "ZARAHOME",
+      "description": "Small jewellery box with zip closure. Features interior space designed for earrings and a small organizer for jewellery and accessories.",
+      "material": "100% sheep leather",
+      "composition": "OUTER SHELL: 100% sheep leather | LINING: 100% goat leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER JEWELLERY BOX - Black - ONE SIZE ONLY",
+          "sku": "545431319-040-3",
+          "mpn": "545431319-040-3",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-jewellery-box-p14201800.html?v1=545431319",
+          "images": [
+            "https://static.zara.net/assets/public/c03a/5cc4/49054203ad11/1ee5ecbbd831/14201800040-e1/14201800040-e1.jpg?ts=1782381504229&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c03a/5cc4/49054203ad11/1ee5ecbbd831/14201800040-e1/14201800040-e1.jpg?ts=1782381504229&w=1920",
+        "https://static.zara.net/assets/public/0640/c26a/4c40406bb0fb/e126d83b6865/14201800040-e2/14201800040-e2.jpg?ts=1782381503317&w=1920",
+        "https://static.zara.net/assets/public/ae3a/109d/fb934044a0e0/8363786a7d7b/14201800040-e3/14201800040-e3.jpg?ts=1782381508493&w=1920",
+        "https://static.zara.net/assets/public/0e97/4c18/feab4c56b9c6/8e8a76600f34/14201800040-e4/14201800040-e4.jpg?ts=1782381503699&w=1920",
+        "https://static.zara.net/assets/public/dd48/814a/d6ab491a88f7/5d0d2b0db29a/14201800040-e5/14201800040-e5.jpg?ts=1782381508636&w=1920",
+        "https://static.zara.net/assets/public/5a7d/8ce1/b0644b21b539/80957b96d388/14201800040-a1/14201800040-a1.jpg?ts=1786363534842&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nSmall jewellery box with zip closure. Features interior space designed for earrings and a small organizer for jewellery and accessories.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b1bfc5344bad0686e2ba732380f3156655f5ec86731bbc1e328e56362fb8971f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

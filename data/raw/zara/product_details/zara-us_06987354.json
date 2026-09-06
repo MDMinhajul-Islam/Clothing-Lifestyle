@@ -1,0 +1,227 @@
+{
+  "product_id": "zara-us:06987354",
+  "source_url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html",
+  "final_url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC DENIM JACKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC DENIM JACKET",
+      "url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html",
+      "productGroupID": "06987354",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Regular-fit jacket made of cotton denim. Lapel collar and long sleeves with buttoned cuffs. Features flap patch pockets on the chest and hidden seam pockets at the hips. Washed effect. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920",
+        "https://static.zara.net/assets/public/bd3e/8331/510b4fd993e6/f441f35f0bc9/06987354700-a1/06987354700-a1.jpg?ts=1786454931529&w=1920",
+        "https://static.zara.net/assets/public/09c4/073a/879143e8a418/d9d04b9605ef/06987354700-a2/06987354700-a2.jpg?ts=1786454932852&w=1920",
+        "https://static.zara.net/assets/public/90ed/c9a8/f1494a9bb0c1/05eccc90fbb3/06987354700-a3/06987354700-a3.jpg?ts=1786454931250&w=1920",
+        "https://static.zara.net/assets/public/0da1/1a4f/a7974df88f01/84e9d0a86154/06987354700-a4/06987354700-a4.jpg?ts=1786454931901&w=1920",
+        "https://static.zara.net/assets/public/2abe/adbb/10ff4a21b5b1/2a360cf43bb4/06987354700-e1/06987354700-e1.jpg?ts=1786359849495&w=1920",
+        "https://static.zara.net/assets/public/f631/0529/0a114b08a026/5a8a1f444c57/06987354700-e2/06987354700-e2.jpg?ts=1786359849760&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Brown - S",
+          "sku": "564526067-700-2",
+          "mpn": "564526067-700-2",
+          "color": "Brown",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html?v1=564526067",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Brown - M",
+          "sku": "564526067-700-3",
+          "mpn": "564526067-700-3",
+          "color": "Brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html?v1=564526067",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Brown - L",
+          "sku": "564526067-700-4",
+          "mpn": "564526067-700-4",
+          "color": "Brown",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html?v1=564526067",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Brown - XL",
+          "sku": "564526067-700-5",
+          "mpn": "564526067-700-5",
+          "color": "Brown",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html?v1=564526067",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC DENIM JACKET",
+      "product_group_id": "06987354",
+      "brand": "ZARA",
+      "description": "Regular-fit jacket made of cotton denim. Lapel collar and long sleeves with buttoned cuffs. Features flap patch pockets on the chest and hidden seam pockets at the hips. Washed effect. Front button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC DENIM JACKET - Brown - S",
+          "sku": "564526067-700-2",
+          "mpn": "564526067-700-2",
+          "color_name": "Brown",
+          "size_name": "S",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html?v1=564526067",
+          "images": [
+            "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Brown - M",
+          "sku": "564526067-700-3",
+          "mpn": "564526067-700-3",
+          "color_name": "Brown",
+          "size_name": "M",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html?v1=564526067",
+          "images": [
+            "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Brown - L",
+          "sku": "564526067-700-4",
+          "mpn": "564526067-700-4",
+          "color_name": "Brown",
+          "size_name": "L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html?v1=564526067",
+          "images": [
+            "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Brown - XL",
+          "sku": "564526067-700-5",
+          "mpn": "564526067-700-5",
+          "color_name": "Brown",
+          "size_name": "XL",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p06987354.html?v1=564526067",
+          "images": [
+            "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0b1b/a40f/77c048eb9fdc/c1485c40e395/06987354700-p/06987354700-p.jpg?ts=1786454931226&w=1920",
+        "https://static.zara.net/assets/public/bd3e/8331/510b4fd993e6/f441f35f0bc9/06987354700-a1/06987354700-a1.jpg?ts=1786454931529&w=1920",
+        "https://static.zara.net/assets/public/09c4/073a/879143e8a418/d9d04b9605ef/06987354700-a2/06987354700-a2.jpg?ts=1786454932852&w=1920",
+        "https://static.zara.net/assets/public/90ed/c9a8/f1494a9bb0c1/05eccc90fbb3/06987354700-a3/06987354700-a3.jpg?ts=1786454931250&w=1920",
+        "https://static.zara.net/assets/public/0da1/1a4f/a7974df88f01/84e9d0a86154/06987354700-a4/06987354700-a4.jpg?ts=1786454931901&w=1920",
+        "https://static.zara.net/assets/public/2abe/adbb/10ff4a21b5b1/2a360cf43bb4/06987354700-e1/06987354700-e1.jpg?ts=1786359849495&w=1920",
+        "https://static.zara.net/assets/public/f631/0529/0a114b08a026/5a8a1f444c57/06987354700-e2/06987354700-e2.jpg?ts=1786359849760&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nRegular-fit jacket made of cotton denim. Lapel collar and long sleeves with buttoned cuffs. Features flap patch pockets on the chest and hidden seam pockets at the hips. Washed effect. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "866d2b6ecae7ca26dc458298003db69273539494aed4b3fe0dacdc5e33437615",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

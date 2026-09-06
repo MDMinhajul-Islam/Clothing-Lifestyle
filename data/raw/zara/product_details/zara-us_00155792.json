@@ -1,0 +1,368 @@
+{
+  "product_id": "zara-us:00155792",
+  "source_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html",
+  "final_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html",
+  "canonical_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CROPPED TECHNICAL HOODIE JACKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CROPPED TECHNICAL HOODIE JACKET",
+      "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html",
+      "productGroupID": "00155792",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Cropped fit jacket crafted from lightweight technical fabric. Stand-up collar with detachable hoodie. Long sleeves with interior elastic adjustable cuffs. Welt hip pockets. Adjustable hem with interior elastic. Front zip closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920",
+        "https://static.zara.net/assets/public/5b00/e8c0/eeea4890992e/4ab04541de83/00155792700-a1/00155792700-a1.jpg?ts=1788191282701&w=1920",
+        "https://static.zara.net/assets/public/8b20/fb57/d5244c358fd7/887b8a6b6a42/00155792700-a2/00155792700-a2.jpg?ts=1788191284220&w=1920",
+        "https://static.zara.net/assets/public/1191/036d/efcb4811b344/410d7e84a5e3/00155792700-a3/00155792700-a3.jpg?ts=1788191281757&w=1920",
+        "https://static.zara.net/assets/public/fef9/ff95/7a334acfbc08/6f82c60be4e0/00155792700-a4/00155792700-a4.jpg?ts=1788191282467&w=1920",
+        "https://static.zara.net/assets/public/8a45/b54f/bb794835b65c/daa45b3e66f7/00155792700-a5/00155792700-a5.jpg?ts=1788191283814&w=1920",
+        "https://static.zara.net/assets/public/988a/8927/ef864f99afba/c9580c5215f6/00155792700-a6/00155792700-a6.jpg?ts=1788191282879&w=1920",
+        "https://static.zara.net/assets/public/e2ee/aa31/a72345cf9557/8f67ac9eea5b/00155792700-e1/00155792700-e1.jpg?ts=1788159795627&w=1920",
+        "https://static.zara.net/assets/public/9771/8c00/d2da4a85b94e/5d95f7718cfc/00155792700-e2/00155792700-e2.jpg?ts=1788159792857&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "55% polyester, 45% polyamide"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Brown - S",
+          "sku": "557347179-700-2",
+          "mpn": "557347179-700-2",
+          "color": "Brown",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347179",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Brown - M",
+          "sku": "557347179-700-3",
+          "mpn": "557347179-700-3",
+          "color": "Brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347179",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Brown - L",
+          "sku": "557347179-700-4",
+          "mpn": "557347179-700-4",
+          "color": "Brown",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347179",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Brown - XL",
+          "sku": "557347179-700-5",
+          "mpn": "557347179-700-5",
+          "color": "Brown",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347179",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Black - S",
+          "sku": "557347179-800-2",
+          "mpn": "557347179-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/133b/dbf6/15c547f1ac10/3ac9dd41eb53/00155792800-p/00155792800-p.jpg?ts=1788190409594&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347180",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Black - M",
+          "sku": "557347179-800-3",
+          "mpn": "557347179-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/133b/dbf6/15c547f1ac10/3ac9dd41eb53/00155792800-p/00155792800-p.jpg?ts=1788190409594&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347180",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Black - L",
+          "sku": "557347179-800-4",
+          "mpn": "557347179-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/133b/dbf6/15c547f1ac10/3ac9dd41eb53/00155792800-p/00155792800-p.jpg?ts=1788190409594&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347180",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Black - XL",
+          "sku": "557347179-800-5",
+          "mpn": "557347179-800-5",
+          "color": "Black",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/133b/dbf6/15c547f1ac10/3ac9dd41eb53/00155792800-p/00155792800-p.jpg?ts=1788190409594&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347180",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CROPPED TECHNICAL HOODIE JACKET",
+      "product_group_id": "00155792",
+      "brand": "ZARA",
+      "description": "Cropped fit jacket crafted from lightweight technical fabric. Stand-up collar with detachable hoodie. Long sleeves with interior elastic adjustable cuffs. Welt hip pockets. Adjustable hem with interior elastic. Front zip closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | LINING: 55% polyester, 45% polyamide",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Brown - S",
+          "sku": "557347179-700-2",
+          "mpn": "557347179-700-2",
+          "color_name": "Brown",
+          "size_name": "S",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347179",
+          "images": [
+            "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920"
+          ]
+        },
+        {
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Brown - M",
+          "sku": "557347179-700-3",
+          "mpn": "557347179-700-3",
+          "color_name": "Brown",
+          "size_name": "M",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347179",
+          "images": [
+            "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920"
+          ]
+        },
+        {
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Brown - L",
+          "sku": "557347179-700-4",
+          "mpn": "557347179-700-4",
+          "color_name": "Brown",
+          "size_name": "L",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347179",
+          "images": [
+            "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920"
+          ]
+        },
+        {
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Brown - XL",
+          "sku": "557347179-700-5",
+          "mpn": "557347179-700-5",
+          "color_name": "Brown",
+          "size_name": "XL",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347179",
+          "images": [
+            "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920"
+          ]
+        },
+        {
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Black - S",
+          "sku": "557347179-800-2",
+          "mpn": "557347179-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347180",
+          "images": [
+            "https://static.zara.net/assets/public/133b/dbf6/15c547f1ac10/3ac9dd41eb53/00155792800-p/00155792800-p.jpg?ts=1788190409594&w=1920"
+          ]
+        },
+        {
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Black - M",
+          "sku": "557347179-800-3",
+          "mpn": "557347179-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347180",
+          "images": [
+            "https://static.zara.net/assets/public/133b/dbf6/15c547f1ac10/3ac9dd41eb53/00155792800-p/00155792800-p.jpg?ts=1788190409594&w=1920"
+          ]
+        },
+        {
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Black - L",
+          "sku": "557347179-800-4",
+          "mpn": "557347179-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347180",
+          "images": [
+            "https://static.zara.net/assets/public/133b/dbf6/15c547f1ac10/3ac9dd41eb53/00155792800-p/00155792800-p.jpg?ts=1788190409594&w=1920"
+          ]
+        },
+        {
+          "name": "CROPPED TECHNICAL HOODIE JACKET - Black - XL",
+          "sku": "557347179-800-5",
+          "mpn": "557347179-800-5",
+          "color_name": "Black",
+          "size_name": "XL",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-cropped-fit-hoodie-jacket-p00155792.html?v1=557347180",
+          "images": [
+            "https://static.zara.net/assets/public/133b/dbf6/15c547f1ac10/3ac9dd41eb53/00155792800-p/00155792800-p.jpg?ts=1788190409594&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b11a/ffc4/763842b3a60b/9368df412ee8/00155792700-p/00155792700-p.jpg?ts=1788191281768&w=1920",
+        "https://static.zara.net/assets/public/5b00/e8c0/eeea4890992e/4ab04541de83/00155792700-a1/00155792700-a1.jpg?ts=1788191282701&w=1920",
+        "https://static.zara.net/assets/public/8b20/fb57/d5244c358fd7/887b8a6b6a42/00155792700-a2/00155792700-a2.jpg?ts=1788191284220&w=1920",
+        "https://static.zara.net/assets/public/1191/036d/efcb4811b344/410d7e84a5e3/00155792700-a3/00155792700-a3.jpg?ts=1788191281757&w=1920",
+        "https://static.zara.net/assets/public/fef9/ff95/7a334acfbc08/6f82c60be4e0/00155792700-a4/00155792700-a4.jpg?ts=1788191282467&w=1920",
+        "https://static.zara.net/assets/public/8a45/b54f/bb794835b65c/daa45b3e66f7/00155792700-a5/00155792700-a5.jpg?ts=1788191283814&w=1920",
+        "https://static.zara.net/assets/public/988a/8927/ef864f99afba/c9580c5215f6/00155792700-a6/00155792700-a6.jpg?ts=1788191282879&w=1920",
+        "https://static.zara.net/assets/public/e2ee/aa31/a72345cf9557/8f67ac9eea5b/00155792700-e1/00155792700-e1.jpg?ts=1788159795627&w=1920",
+        "https://static.zara.net/assets/public/9771/8c00/d2da4a85b94e/5d95f7718cfc/00155792700-e2/00155792700-e2.jpg?ts=1788159792857&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Brown",
+    "Black"
+  ],
+  "rendered_price": "119.00",
+  "rendered_description": "Description\nCropped fit jacket crafted from lightweight technical fabric. Stand-up collar with detachable hoodie. Long sleeves with interior elastic adjustable cuffs. Welt hip pockets. Adjustable hem with interior elastic. Front zip closure.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 10,
+  "variants_count": 8,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "119.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "119.00",
+    "dom_price": "119.00",
+    "normalized_price": "119.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d27aefbb987d8acdb8b01c9f953974c9a01b1cf8bf9911bb6b8be7dc8be77f11",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

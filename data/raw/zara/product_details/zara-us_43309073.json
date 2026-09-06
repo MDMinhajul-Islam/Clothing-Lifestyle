@@ -1,0 +1,132 @@
+{
+  "product_id": "zara-us:43309073",
+  "source_url": "https://www.zara.com/us/en/leather-and-stainless-steel-chair-p43309073.html",
+  "final_url": "https://www.zara.com/us/en/leather-and-stainless-steel-chair-p43309073.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-and-stainless-steel-chair-p43309073.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER AND STAINLESS STEEL CHAIR",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER AND STAINLESS STEEL CHAIR",
+      "url": "https://www.zara.com/us/en/leather-and-stainless-steel-chair-p43309073.html",
+      "productGroupID": "43309073",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Chair with a stainless steel frame, featuring a seat and backrest upholstered in bovine leather with a dark finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3195/ff3f/94b146df91a6/fd4b2906538b/43309073753-e1/43309073753-e1.jpg?ts=1783944920424&w=1920",
+        "https://static.zara.net/assets/public/540a/3370/1cb84b58a9a6/1887597d86a8/43309073753-e2/43309073753-e2.jpg?ts=1783944920069&w=1920",
+        "https://static.zara.net/assets/public/d568/8b02/af9c4c1b95bb/2be0cdddb9ee/43309073753-e3/43309073753-e3.jpg?ts=1783944919374&w=1920",
+        "https://static.zara.net/assets/public/2b07/2dad/99c244e9a5db/b07f1971526d/43309073753-e4/43309073753-e4.jpg?ts=1783944920166&w=1920",
+        "https://static.zara.net/assets/public/f73f/1d34/d48a443fa0ba/0b4990bd7273/43309073753-a1/43309073753-a1.jpg?ts=1782805363039&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER AND STAINLESS STEEL CHAIR - Chocolate brown - ONE SIZE ONLY",
+          "sku": "545426271-753-99",
+          "mpn": "545426271-753-99",
+          "color": "Chocolate brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3195/ff3f/94b146df91a6/fd4b2906538b/43309073753-e1/43309073753-e1.jpg?ts=1783944920424&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "629",
+            "url": "https://www.zara.com/us/en/leather-and-stainless-steel-chair-p43309073.html?v1=545426271",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER AND STAINLESS STEEL CHAIR",
+      "product_group_id": "43309073",
+      "brand": "ZARAHOME",
+      "description": "Chair with a stainless steel frame, featuring a seat and backrest upholstered in bovine leather with a dark finish.",
+      "material": null,
+      "composition": "FILLING: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER AND STAINLESS STEEL CHAIR - Chocolate brown - ONE SIZE ONLY",
+          "sku": "545426271-753-99",
+          "mpn": "545426271-753-99",
+          "color_name": "Chocolate brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "629.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-and-stainless-steel-chair-p43309073.html?v1=545426271",
+          "images": [
+            "https://static.zara.net/assets/public/3195/ff3f/94b146df91a6/fd4b2906538b/43309073753-e1/43309073753-e1.jpg?ts=1783944920424&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3195/ff3f/94b146df91a6/fd4b2906538b/43309073753-e1/43309073753-e1.jpg?ts=1783944920424&w=1920",
+        "https://static.zara.net/assets/public/540a/3370/1cb84b58a9a6/1887597d86a8/43309073753-e2/43309073753-e2.jpg?ts=1783944920069&w=1920",
+        "https://static.zara.net/assets/public/d568/8b02/af9c4c1b95bb/2be0cdddb9ee/43309073753-e3/43309073753-e3.jpg?ts=1783944919374&w=1920",
+        "https://static.zara.net/assets/public/2b07/2dad/99c244e9a5db/b07f1971526d/43309073753-e4/43309073753-e4.jpg?ts=1783944920166&w=1920",
+        "https://static.zara.net/assets/public/f73f/1d34/d48a443fa0ba/0b4990bd7273/43309073753-a1/43309073753-a1.jpg?ts=1782805363039&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "629.00",
+  "rendered_description": "Description\nChair with a stainless steel frame, featuring a seat and backrest upholstered in bovine leather with a dark finish.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "629.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "629.00",
+    "dom_price": "629.00",
+    "normalized_price": "629.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2ad9c568fb5e81f80098ce6f599457ff1e17906bf9ef7d684324322c8e093a76",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

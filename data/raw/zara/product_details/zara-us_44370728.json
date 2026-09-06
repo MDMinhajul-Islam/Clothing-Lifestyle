@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44370728",
+  "source_url": "https://www.zara.com/us/en/slim-linen-filing-briefcase-p44370728.html",
+  "final_url": "https://www.zara.com/us/en/slim-linen-filing-briefcase-p44370728.html",
+  "canonical_url": "https://www.zara.com/us/en/slim-linen-filing-briefcase-p44370728.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SLIM LINEN FILING BRIEFCASE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SLIM LINEN FILING BRIEFCASE",
+      "url": "https://www.zara.com/us/en/slim-linen-filing-briefcase-p44370728.html",
+      "productGroupID": "44370728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Slim briefcase filing folder with an internal gusset and metal twist-lock closure. Rectangular design with internal compartments for organizing and sorting documents.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e87d/a951/be3b42e3a831/707af3ca08b7/44370728600-e1/44370728600-e1.jpg?ts=1784215862044&w=1920",
+        "https://static.zara.net/assets/public/2491/c81b/502b42f69373/88e8f8955d32/44370728600-e2/44370728600-e2.jpg?ts=1784215861910&w=1920",
+        "https://static.zara.net/assets/public/b045/39be/a35246649509/88a70b755c79/44370728600-e3/44370728600-e3.jpg?ts=1784215861521&w=1920",
+        "https://static.zara.net/assets/public/5918/ffc5/40894191a9f7/1c0fade0b6dd/44370728600-e4/44370728600-e4.jpg?ts=1784215857279&w=1920",
+        "https://static.zara.net/assets/public/5c6a/7fb8/4db943838b09/b823c7d82d06/44370728600-a1/44370728600-a1.jpg?ts=1785851238544&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SLIM LINEN FILING BRIEFCASE - Red - ONE SIZE ONLY",
+          "sku": "545426550-600-99",
+          "mpn": "545426550-600-99",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e87d/a951/be3b42e3a831/707af3ca08b7/44370728600-e1/44370728600-e1.jpg?ts=1784215862044&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/slim-linen-filing-briefcase-p44370728.html?v1=545426550",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SLIM LINEN FILING BRIEFCASE",
+      "product_group_id": "44370728",
+      "brand": "ZARAHOME",
+      "description": "Slim briefcase filing folder with an internal gusset and metal twist-lock closure. Rectangular design with internal compartments for organizing and sorting documents.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SLIM LINEN FILING BRIEFCASE - Red - ONE SIZE ONLY",
+          "sku": "545426550-600-99",
+          "mpn": "545426550-600-99",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/slim-linen-filing-briefcase-p44370728.html?v1=545426550",
+          "images": [
+            "https://static.zara.net/assets/public/e87d/a951/be3b42e3a831/707af3ca08b7/44370728600-e1/44370728600-e1.jpg?ts=1784215862044&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e87d/a951/be3b42e3a831/707af3ca08b7/44370728600-e1/44370728600-e1.jpg?ts=1784215862044&w=1920",
+        "https://static.zara.net/assets/public/2491/c81b/502b42f69373/88e8f8955d32/44370728600-e2/44370728600-e2.jpg?ts=1784215861910&w=1920",
+        "https://static.zara.net/assets/public/b045/39be/a35246649509/88a70b755c79/44370728600-e3/44370728600-e3.jpg?ts=1784215861521&w=1920",
+        "https://static.zara.net/assets/public/5918/ffc5/40894191a9f7/1c0fade0b6dd/44370728600-e4/44370728600-e4.jpg?ts=1784215857279&w=1920",
+        "https://static.zara.net/assets/public/5c6a/7fb8/4db943838b09/b823c7d82d06/44370728600-a1/44370728600-a1.jpg?ts=1785851238544&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nSlim briefcase filing folder with an internal gusset and metal twist-lock closure. Rectangular design with internal compartments for organizing and sorting documents.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6fc033cb77bc0499904fb17bb4a202ee674890222d758f6575f6afc3996b51e7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

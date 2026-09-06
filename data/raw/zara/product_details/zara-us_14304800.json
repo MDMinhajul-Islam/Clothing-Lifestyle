@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:14304800",
+  "source_url": "https://www.zara.com/us/en/large-leather-case-p14304800.html",
+  "final_url": "https://www.zara.com/us/en/large-leather-case-p14304800.html",
+  "canonical_url": "https://www.zara.com/us/en/large-leather-case-p14304800.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LARGE LEATHER CASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LARGE LEATHER CASE",
+      "url": "https://www.zara.com/us/en/large-leather-case-p14304800.html",
+      "productGroupID": "14304800",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Large leather case. Zip closure. Perfect for storing and carrying your .",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a1fe/4d54/cccb4c75a178/74ae58c309d1/14304800010-e1/14304800010-e1.jpg?ts=1785315812569&w=1920",
+        "https://static.zara.net/assets/public/4d9e/7a39/8a6f4c37820c/581a12affc50/14304800010-e2/14304800010-e2.jpg?ts=1785315812732&w=1920",
+        "https://static.zara.net/assets/public/e04a/95c4/915447479428/a7cf291d3364/14304800010-e3/14304800010-e3.jpg?ts=1785315811516&w=1920",
+        "https://static.zara.net/assets/public/2e31/2446/f7e84a288949/860dd0758ff3/14304800010-e4/14304800010-e4.jpg?ts=1785315813101&w=1920",
+        "https://static.zara.net/assets/public/ef4f/f76c/e23c4b0691c5/739b4a377f29/14304800010-e5/14304800010-e5.jpg?ts=1785315814757&w=1920",
+        "https://static.zara.net/assets/public/dff5/0ca1/48184c8398e7/a9901a3bd555/14304800010-a1/14304800010-a1.jpg?ts=1786709156954&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LARGE LEATHER CASE - Navy Blue - ONE SIZE ONLY",
+          "sku": "555632619-010-3",
+          "mpn": "555632619-010-3",
+          "color": "Navy Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a1fe/4d54/cccb4c75a178/74ae58c309d1/14304800010-e1/14304800010-e1.jpg?ts=1785315812569&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/large-leather-case-p14304800.html?v1=555632619",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LARGE LEATHER CASE",
+      "product_group_id": "14304800",
+      "brand": "ZARAHOME",
+      "description": "Large leather case. Zip closure. Perfect for storing and carrying your .",
+      "material": "100% cow leather",
+      "composition": "OUTER SHELL: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LARGE LEATHER CASE - Navy Blue - ONE SIZE ONLY",
+          "sku": "555632619-010-3",
+          "mpn": "555632619-010-3",
+          "color_name": "Navy Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "69.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/large-leather-case-p14304800.html?v1=555632619",
+          "images": [
+            "https://static.zara.net/assets/public/a1fe/4d54/cccb4c75a178/74ae58c309d1/14304800010-e1/14304800010-e1.jpg?ts=1785315812569&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a1fe/4d54/cccb4c75a178/74ae58c309d1/14304800010-e1/14304800010-e1.jpg?ts=1785315812569&w=1920",
+        "https://static.zara.net/assets/public/4d9e/7a39/8a6f4c37820c/581a12affc50/14304800010-e2/14304800010-e2.jpg?ts=1785315812732&w=1920",
+        "https://static.zara.net/assets/public/e04a/95c4/915447479428/a7cf291d3364/14304800010-e3/14304800010-e3.jpg?ts=1785315811516&w=1920",
+        "https://static.zara.net/assets/public/2e31/2446/f7e84a288949/860dd0758ff3/14304800010-e4/14304800010-e4.jpg?ts=1785315813101&w=1920",
+        "https://static.zara.net/assets/public/ef4f/f76c/e23c4b0691c5/739b4a377f29/14304800010-e5/14304800010-e5.jpg?ts=1785315814757&w=1920",
+        "https://static.zara.net/assets/public/dff5/0ca1/48184c8398e7/a9901a3bd555/14304800010-a1/14304800010-a1.jpg?ts=1786709156954&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nLarge leather case. Zip closure. Perfect for storing and carrying your .",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "69695b028d23b84002691afec6f095cabb36539d3ad9a67d80cda0cc9e926b18",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

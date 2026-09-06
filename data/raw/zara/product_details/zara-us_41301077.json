@@ -1,0 +1,133 @@
+{
+  "product_id": "zara-us:41301077",
+  "source_url": "https://www.zara.com/us/en/library-system-01-p41301077.html",
+  "final_url": "https://www.zara.com/us/en/library-system-01-p41301077.html",
+  "canonical_url": "https://www.zara.com/us/en/library-system-01-p41301077.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LIBRARY SYSTEM 01",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIBRARY SYSTEM 01",
+      "url": "https://www.zara.com/us/en/library-system-01-p41301077.html",
+      "productGroupID": "41301077",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "The design of LIBRARY SYSTEM 01 is sophisticated and versatile, with polished finishes made of solid wood. This new accessory was born as a side table, designed to accompany SOFA 01.\n\nA modular piece that adapts to any space and also stands out for its functionality, as it has three visible compartments, in different sizes that allow it to be placed in different positions. It is designed to combine with the ACCESSORIES 01 from the collection.\n\nThe shelves are not designed to be stacked together.\n\nThe thermo-treated ash wood is subject to high temperatures to achieve robustness, and a singular tone and aesthetic. Pieces made from this wood may initially have a slight scent, characteristic of the noble wood.\n\nThe wood changes over time becoming a unique piece. Subtle features such as open streaks or color variations that confirm its authenticity and beauty will appear over time.\n\nMade in Portugal.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b7a3/486e/8da94e6a8c96/50ef7127ef05/41301077700-e1/41301077700-e1.jpg?ts=1727001103596&w=1920",
+        "https://static.zara.net/assets/public/4778/843e/04fe4639be39/d7684ab6258f/41301077700-e2/41301077700-e2.jpg?ts=1718018128612&w=1920",
+        "https://static.zara.net/assets/public/58ba/6dfd/f17e4a349cde/0f26bc9b16e6/41301077700-e3/41301077700-e3.jpg?ts=1718018129317&w=1920",
+        "https://static.zara.net/assets/public/ba90/dff2/c2c545e3b3a3/e55420b45760/41301077700-e4/41301077700-e4.jpg?ts=1718018129474&w=1920",
+        "https://static.zara.net/assets/public/697d/8d7d/016e4979841b/050cd1fa40db/41301077700-e5/41301077700-e5.jpg?ts=1718018131599&w=1920",
+        "https://static.zara.net/assets/public/48e8/c73e/4fb3411f82d5/fdefe037ad6b/41301077700-e6/41301077700-e6.jpg?ts=1718018129666&w=1920",
+        "https://static.zara.net/assets/public/b990/e0af/72f04a06a343/3aa43a10d2e0/41301077700-e10/41301077700-e10.jpg?ts=1718190623119&w=1920",
+        "https://static.zara.net/assets/public/1c1d/95c8/94e943428289/8533ed5285f5/41301077700-a1/41301077700-a1.jpg?ts=1754984008855&w=1920"
+      ],
+      "material": "100% ASH WOOD",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% ASH WOOD"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIBRARY SYSTEM 01 - Brown - ONE SIZE ONLY",
+          "sku": "548926806-700-99",
+          "mpn": "548926806-700-99",
+          "color": "Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/b7a3/486e/8da94e6a8c96/50ef7127ef05/41301077700-e1/41301077700-e1.jpg?ts=1727001103596&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "1500",
+            "url": "https://www.zara.com/us/en/library-system-01-p41301077.html?v1=548926806",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIBRARY SYSTEM 01",
+      "product_group_id": "41301077",
+      "brand": "ZARAHOME",
+      "description": "The design of LIBRARY SYSTEM 01 is sophisticated and versatile, with polished finishes made of solid wood. This new accessory was born as a side table, designed to accompany SOFA 01.\n\nA modular piece that adapts to any space and also stands out for its functionality, as it has three visible compartments, in different sizes that allow it to be placed in different positions. It is designed to combine with the ACCESSORIES 01 from the collection.\n\nThe shelves are not designed to be stacked together.\n\nThe thermo-treated ash wood is subject to high temperatures to achieve robustness, and a singular tone and aesthetic. Pieces made from this wood may initially have a slight scent, characteristic of the noble wood.\n\nThe wood changes over time becoming a unique piece. Subtle features such as open streaks or color variations that confirm its authenticity and beauty will appear over time.\n\nMade in Portugal.",
+      "material": "100% ASH WOOD",
+      "composition": "OUTER SHELL: 100% ASH WOOD",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIBRARY SYSTEM 01 - Brown - ONE SIZE ONLY",
+          "sku": "548926806-700-99",
+          "mpn": "548926806-700-99",
+          "color_name": "Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "1500.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/library-system-01-p41301077.html?v1=548926806",
+          "images": [
+            "https://static.zara.net/assets/public/b7a3/486e/8da94e6a8c96/50ef7127ef05/41301077700-e1/41301077700-e1.jpg?ts=1727001103596&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b7a3/486e/8da94e6a8c96/50ef7127ef05/41301077700-e1/41301077700-e1.jpg?ts=1727001103596&w=1920",
+        "https://static.zara.net/assets/public/4778/843e/04fe4639be39/d7684ab6258f/41301077700-e2/41301077700-e2.jpg?ts=1718018128612&w=1920",
+        "https://static.zara.net/assets/public/58ba/6dfd/f17e4a349cde/0f26bc9b16e6/41301077700-e3/41301077700-e3.jpg?ts=1718018129317&w=1920",
+        "https://static.zara.net/assets/public/ba90/dff2/c2c545e3b3a3/e55420b45760/41301077700-e4/41301077700-e4.jpg?ts=1718018129474&w=1920",
+        "https://static.zara.net/assets/public/697d/8d7d/016e4979841b/050cd1fa40db/41301077700-e5/41301077700-e5.jpg?ts=1718018131599&w=1920",
+        "https://static.zara.net/assets/public/48e8/c73e/4fb3411f82d5/fdefe037ad6b/41301077700-e6/41301077700-e6.jpg?ts=1718018129666&w=1920",
+        "https://static.zara.net/assets/public/b990/e0af/72f04a06a343/3aa43a10d2e0/41301077700-e10/41301077700-e10.jpg?ts=1718190623119&w=1920",
+        "https://static.zara.net/assets/public/1c1d/95c8/94e943428289/8533ed5285f5/41301077700-a1/41301077700-a1.jpg?ts=1754984008855&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "1500.00",
+  "rendered_description": "Description\nThe design of LIBRARY SYSTEM 01 is sophisticated and versatile, with polished finishes made of solid wood. This new accessory was born as a side table, designed to accompany SOFA 01.\nA modular piece that adapts to any space and also stands out for its functionality, as it has three visible compartments, in different sizes that allow it to be placed in different positions. It is designed to combine with the ACCESSORIES 01 from the collection.\nThe shelves are not designed to be stacked together.\nThe thermo-treated ash wood is subject to high temperatures to achieve robustness, and a singular tone and aesthetic. Pieces made from this wood may initially have a slight scent, characteristic of the noble wood.\nThe wood changes over time becoming a unique piece. Subtle features such as open streaks or color variations that confirm its authenticity and beauty will appear over time.\nMade in Portugal.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "1500.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "1500.00",
+    "dom_price": "1500.00",
+    "normalized_price": "1500.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "08318b35106203d554f343465e167be8a65f529198b4c2a29eb5f12c89c3b5fd",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

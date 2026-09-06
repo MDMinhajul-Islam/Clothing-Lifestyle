@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:44300047",
+  "source_url": "https://www.zara.com/us/en/metal-desk-lamp-p44300047.html",
+  "final_url": "https://www.zara.com/us/en/metal-desk-lamp-p44300047.html",
+  "canonical_url": "https://www.zara.com/us/en/metal-desk-lamp-p44300047.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "METAL DESK LAMP",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "METAL DESK LAMP",
+      "url": "https://www.zara.com/us/en/metal-desk-lamp-p44300047.html",
+      "productGroupID": "44300047",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Desk lamp made of metal. Design features a circular base, vertical arm, horizontal rod, and an adjustable head.\n\nIncludes one G9 bulb.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c232/d3a7/1965488ba54b/c3d4e6a8ddee/44300047581-e1/44300047581-e1.jpg?ts=1785420911127&w=1920",
+        "https://static.zara.net/assets/public/270b/49d9/4d2f4bd98884/74f6c80327ad/44300047581-e2/44300047581-e2.jpg?ts=1785420911543&w=1920",
+        "https://static.zara.net/assets/public/2117/3ff0/6c5e46828ecc/96879dca6abd/44300047581-e3/44300047581-e3.jpg?ts=1785420911524&w=1920",
+        "https://static.zara.net/assets/public/cc5a/9e8c/b2dc4896b933/12bc3157d41e/44300047581-e4/44300047581-e4.jpg?ts=1785420910827&w=1920",
+        "https://static.zara.net/assets/public/d122/441c/5d154f5e8ff8/6997e0c211d0/44300047581-a1/44300047581-a1.jpg?ts=1786541402168&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "METAL DESK LAMP - P - 25.6 x 29.5 x 7.9 \"",
+          "sku": "545404801-581-4",
+          "mpn": "545404801-581-4",
+          "color": "P",
+          "size": "25.6 x 29.5 x 7.9 \"",
+          "image": [
+            "https://static.zara.net/assets/public/c232/d3a7/1965488ba54b/c3d4e6a8ddee/44300047581-e1/44300047581-e1.jpg?ts=1785420911127&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/metal-desk-lamp-p44300047.html?v1=545404801",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "METAL DESK LAMP",
+      "product_group_id": "44300047",
+      "brand": "ZARAHOME",
+      "description": "Desk lamp made of metal. Design features a circular base, vertical arm, horizontal rod, and an adjustable head.\n\nIncludes one G9 bulb.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "METAL DESK LAMP - P - 25.6 x 29.5 x 7.9 \"",
+          "sku": "545404801-581-4",
+          "mpn": "545404801-581-4",
+          "color_name": "P",
+          "size_name": "25.6 x 29.5 x 7.9 \"",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metal-desk-lamp-p44300047.html?v1=545404801",
+          "images": [
+            "https://static.zara.net/assets/public/c232/d3a7/1965488ba54b/c3d4e6a8ddee/44300047581-e1/44300047581-e1.jpg?ts=1785420911127&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c232/d3a7/1965488ba54b/c3d4e6a8ddee/44300047581-e1/44300047581-e1.jpg?ts=1785420911127&w=1920",
+        "https://static.zara.net/assets/public/270b/49d9/4d2f4bd98884/74f6c80327ad/44300047581-e2/44300047581-e2.jpg?ts=1785420911543&w=1920",
+        "https://static.zara.net/assets/public/2117/3ff0/6c5e46828ecc/96879dca6abd/44300047581-e3/44300047581-e3.jpg?ts=1785420911524&w=1920",
+        "https://static.zara.net/assets/public/cc5a/9e8c/b2dc4896b933/12bc3157d41e/44300047581-e4/44300047581-e4.jpg?ts=1785420910827&w=1920",
+        "https://static.zara.net/assets/public/d122/441c/5d154f5e8ff8/6997e0c211d0/44300047581-a1/44300047581-a1.jpg?ts=1786541402168&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nDesk lamp made of metal. Design features a circular base, vertical arm, horizontal rod, and an adjustable head.\nIncludes one G9 bulb.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "085c06ad0f0a66516ee357ea126577c3f37164e45712ecc2f8f24054dd0adfd4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

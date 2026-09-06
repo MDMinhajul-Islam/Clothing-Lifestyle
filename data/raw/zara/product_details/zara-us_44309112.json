@@ -1,0 +1,162 @@
+{
+  "product_id": "zara-us:44309112",
+  "source_url": "https://www.zara.com/us/en/a3-monthly-planner-p44309112.html",
+  "final_url": "https://www.zara.com/us/en/a3-monthly-planner-p44309112.html",
+  "canonical_url": "https://www.zara.com/us/en/a3-monthly-planner-p44309112.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "A3 MONTHLY PLANNER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "A3 MONTHLY PLANNER",
+      "url": "https://www.zara.com/us/en/a3-monthly-planner-p44309112.html",
+      "productGroupID": "44309112",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "A3 size monthly planner with a hard cover. Features a monthly view design, a checklist, and space for notes.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d82b/3487/9bcc406c83b7/2aa92c1ef676/44309112400-e1/44309112400-e1.jpg?ts=1784183947420&w=1920",
+        "https://static.zara.net/assets/public/beda/adaf/0db6410194be/2ae8f73aa573/44309112400-e2/44309112400-e2.jpg?ts=1786954088135&w=1920",
+        "https://static.zara.net/assets/public/5c43/9e15/76c74b13abcc/322ad5880c64/44309112400-e3/44309112400-e3.jpg?ts=1786954088161&w=1920",
+        "https://static.zara.net/assets/public/6c4c/dda4/cda642afbdaf/c024d18c173a/44309112400-e4/44309112400-e4.jpg?ts=1786954088504&w=1920",
+        "https://static.zara.net/assets/public/5f05/c577/a7c343a79d4e/b75279626704/44309112400-a1/44309112400-a1.jpg?ts=1785921717246&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "A3 MONTHLY PLANNER - Blue - ONE SIZE ONLY",
+          "sku": "545422749-400-99",
+          "mpn": "545422749-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d82b/3487/9bcc406c83b7/2aa92c1ef676/44309112400-e1/44309112400-e1.jpg?ts=1784183947420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/a3-monthly-planner-p44309112.html?v1=545422749",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "A3 MONTHLY PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545422749-500-99",
+          "mpn": "545422749-500-99",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/33b7/bafc/4caf4c948d9f/dd9f419b86b1/44309112500-e1/44309112500-e1.jpg?ts=1786961849760&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/a3-monthly-planner-p44309112.html?v1=545422750",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "A3 MONTHLY PLANNER",
+      "product_group_id": "44309112",
+      "brand": "ZARAHOME",
+      "description": "A3 size monthly planner with a hard cover. Features a monthly view design, a checklist, and space for notes.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "A3 MONTHLY PLANNER - Blue - ONE SIZE ONLY",
+          "sku": "545422749-400-99",
+          "mpn": "545422749-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/a3-monthly-planner-p44309112.html?v1=545422749",
+          "images": [
+            "https://static.zara.net/assets/public/d82b/3487/9bcc406c83b7/2aa92c1ef676/44309112400-e1/44309112400-e1.jpg?ts=1784183947420&w=1920"
+          ]
+        },
+        {
+          "name": "A3 MONTHLY PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545422749-500-99",
+          "mpn": "545422749-500-99",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/a3-monthly-planner-p44309112.html?v1=545422750",
+          "images": [
+            "https://static.zara.net/assets/public/33b7/bafc/4caf4c948d9f/dd9f419b86b1/44309112500-e1/44309112500-e1.jpg?ts=1786961849760&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d82b/3487/9bcc406c83b7/2aa92c1ef676/44309112400-e1/44309112400-e1.jpg?ts=1784183947420&w=1920",
+        "https://static.zara.net/assets/public/beda/adaf/0db6410194be/2ae8f73aa573/44309112400-e2/44309112400-e2.jpg?ts=1786954088135&w=1920",
+        "https://static.zara.net/assets/public/5c43/9e15/76c74b13abcc/322ad5880c64/44309112400-e3/44309112400-e3.jpg?ts=1786954088161&w=1920",
+        "https://static.zara.net/assets/public/6c4c/dda4/cda642afbdaf/c024d18c173a/44309112400-e4/44309112400-e4.jpg?ts=1786954088504&w=1920",
+        "https://static.zara.net/assets/public/5f05/c577/a7c343a79d4e/b75279626704/44309112400-a1/44309112400-a1.jpg?ts=1785921717246&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Green"
+  ],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nA3 size monthly planner with a hard cover. Features a monthly view design, a checklist, and space for notes.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9ee737d0a4adc1d11e699ecc63b6e080fa586264eb0d51d2dc8b23c2eb10ef29",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

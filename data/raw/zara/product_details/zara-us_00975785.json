@@ -1,0 +1,227 @@
+{
+  "product_id": "zara-us:00975785",
+  "source_url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html",
+  "final_url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html",
+  "canonical_url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COTTON-LINEN REGULAR FIT SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COTTON-LINEN REGULAR FIT SHIRT",
+      "url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html",
+      "productGroupID": "00975785",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Regular fit shirt crafted from a cotton and linen blend fabric. Features a button-down collar, long sleeves with buttoned cuffs, and a button-up front closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920",
+        "https://static.zara.net/assets/public/abbd/9662/b57e42c896fb/8a38d1671a6c/00975785250-a1/00975785250-a1.jpg?ts=1785494961898&w=1920",
+        "https://static.zara.net/assets/public/78ea/a4b3/713e462bb76e/fde545ea2ad7/00975785250-a2/00975785250-a2.jpg?ts=1785494962589&w=1920",
+        "https://static.zara.net/assets/public/7006/7f20/b23f46c49f51/7398ab418965/00975785250-a3/00975785250-a3.jpg?ts=1785494962535&w=1920",
+        "https://static.zara.net/assets/public/c485/18ff/cfd04889a39b/dcb7fc44a568/00975785250-a4/00975785250-a4.jpg?ts=1785494961757&w=1920",
+        "https://static.zara.net/assets/public/84cf/2840/e4df4fa0bb75/64c6c57ee135/00975785250-e1/00975785250-e1.jpg?ts=1784792504026&w=1920",
+        "https://static.zara.net/assets/public/f0de/1d13/e2804a1c80f5/52f3711f2c3d/00975785250-e2/00975785250-e2.jpg?ts=1784792503526&w=1920"
+      ],
+      "material": "cotton/linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "55% cotton, 45% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN REGULAR FIT SHIRT - White - S",
+          "sku": "551727515-250-2",
+          "mpn": "551727515-250-2",
+          "color": "White",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html?v1=551727515",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN REGULAR FIT SHIRT - White - M",
+          "sku": "551727515-250-3",
+          "mpn": "551727515-250-3",
+          "color": "White",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html?v1=551727515",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN REGULAR FIT SHIRT - White - L",
+          "sku": "551727515-250-4",
+          "mpn": "551727515-250-4",
+          "color": "White",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html?v1=551727515",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COTTON-LINEN REGULAR FIT SHIRT - White - XL",
+          "sku": "551727515-250-5",
+          "mpn": "551727515-250-5",
+          "color": "White",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html?v1=551727515",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COTTON-LINEN REGULAR FIT SHIRT",
+      "product_group_id": "00975785",
+      "brand": "ZARA",
+      "description": "Regular fit shirt crafted from a cotton and linen blend fabric. Features a button-down collar, long sleeves with buttoned cuffs, and a button-up front closure.",
+      "material": "cotton/linen",
+      "composition": "OUTER SHELL: 55% cotton, 45% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COTTON-LINEN REGULAR FIT SHIRT - White - S",
+          "sku": "551727515-250-2",
+          "mpn": "551727515-250-2",
+          "color_name": "White",
+          "size_name": "S",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html?v1=551727515",
+          "images": [
+            "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN REGULAR FIT SHIRT - White - M",
+          "sku": "551727515-250-3",
+          "mpn": "551727515-250-3",
+          "color_name": "White",
+          "size_name": "M",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html?v1=551727515",
+          "images": [
+            "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN REGULAR FIT SHIRT - White - L",
+          "sku": "551727515-250-4",
+          "mpn": "551727515-250-4",
+          "color_name": "White",
+          "size_name": "L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html?v1=551727515",
+          "images": [
+            "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920"
+          ]
+        },
+        {
+          "name": "COTTON-LINEN REGULAR FIT SHIRT - White - XL",
+          "sku": "551727515-250-5",
+          "mpn": "551727515-250-5",
+          "color_name": "White",
+          "size_name": "XL",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-regular-fit-shirt-p00975785.html?v1=551727515",
+          "images": [
+            "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/83ce/de9b/e7344a3eaa22/90cacc0a8a38/00975785250-p/00975785250-p.jpg?ts=1785494961852&w=1920",
+        "https://static.zara.net/assets/public/abbd/9662/b57e42c896fb/8a38d1671a6c/00975785250-a1/00975785250-a1.jpg?ts=1785494961898&w=1920",
+        "https://static.zara.net/assets/public/78ea/a4b3/713e462bb76e/fde545ea2ad7/00975785250-a2/00975785250-a2.jpg?ts=1785494962589&w=1920",
+        "https://static.zara.net/assets/public/7006/7f20/b23f46c49f51/7398ab418965/00975785250-a3/00975785250-a3.jpg?ts=1785494962535&w=1920",
+        "https://static.zara.net/assets/public/c485/18ff/cfd04889a39b/dcb7fc44a568/00975785250-a4/00975785250-a4.jpg?ts=1785494961757&w=1920",
+        "https://static.zara.net/assets/public/84cf/2840/e4df4fa0bb75/64c6c57ee135/00975785250-e1/00975785250-e1.jpg?ts=1784792504026&w=1920",
+        "https://static.zara.net/assets/public/f0de/1d13/e2804a1c80f5/52f3711f2c3d/00975785250-e2/00975785250-e2.jpg?ts=1784792503526&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nRegular fit shirt crafted from a cotton and linen blend fabric. Features a button-down collar, long sleeves with buttoned cuffs, and a button-up front closure.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "51b4deb80f17e80fad66dda49f9889d2737f58447dd5e1f1a37d8ced958a2c81",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

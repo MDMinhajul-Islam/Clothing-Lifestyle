@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44320043",
+  "source_url": "https://www.zara.com/us/en/cylindrical-metal-wastepaper-basket-p44320043.html",
+  "final_url": "https://www.zara.com/us/en/cylindrical-metal-wastepaper-basket-p44320043.html",
+  "canonical_url": "https://www.zara.com/us/en/cylindrical-metal-wastepaper-basket-p44320043.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CYLINDRICAL METAL WASTEPAPER BASKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CYLINDRICAL METAL WASTEPAPER BASKET",
+      "url": "https://www.zara.com/us/en/cylindrical-metal-wastepaper-basket-p44320043.html",
+      "productGroupID": "44320043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Wastepaper basket made of metal. Elongated cylindrical design in a solid color with a glossy finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/457d/68c4/459e43a7906c/26f701985b92/44320043808-e1/44320043808-e1.jpg?ts=1785252978540&w=1920",
+        "https://static.zara.net/assets/public/d30e/3fec/e37b4090a2ae/c6987d653b37/44320043808-e2/44320043808-e2.jpg?ts=1785252978589&w=1920",
+        "https://static.zara.net/assets/public/47f2/b477/dd2f42b7a074/a3c0220336d0/44320043808-e3/44320043808-e3.jpg?ts=1785252978922&w=1920",
+        "https://static.zara.net/assets/public/3dda/d839/35f545438846/813b3f4d56a4/44320043808-e4/44320043808-e4.jpg?ts=1785252978873&w=1920",
+        "https://static.zara.net/assets/public/fbbe/9f0a/fdce4c0096f5/a9b8b171370b/44320043808-a1/44320043808-a1.jpg?ts=1786091876972&w=1920"
+      ],
+      "material": "100% stainless steel",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% stainless steel"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CYLINDRICAL METAL WASTEPAPER BASKET - Silver - ONE SIZE ONLY",
+          "sku": "545422240-808-99",
+          "mpn": "545422240-808-99",
+          "color": "Silver",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/457d/68c4/459e43a7906c/26f701985b92/44320043808-e1/44320043808-e1.jpg?ts=1785252978540&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/cylindrical-metal-wastepaper-basket-p44320043.html?v1=545422240",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CYLINDRICAL METAL WASTEPAPER BASKET",
+      "product_group_id": "44320043",
+      "brand": "ZARAHOME",
+      "description": "Wastepaper basket made of metal. Elongated cylindrical design in a solid color with a glossy finish.",
+      "material": "100% stainless steel",
+      "composition": "OUTER SHELL: 100% stainless steel",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CYLINDRICAL METAL WASTEPAPER BASKET - Silver - ONE SIZE ONLY",
+          "sku": "545422240-808-99",
+          "mpn": "545422240-808-99",
+          "color_name": "Silver",
+          "size_name": "ONE SIZE ONLY",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cylindrical-metal-wastepaper-basket-p44320043.html?v1=545422240",
+          "images": [
+            "https://static.zara.net/assets/public/457d/68c4/459e43a7906c/26f701985b92/44320043808-e1/44320043808-e1.jpg?ts=1785252978540&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/457d/68c4/459e43a7906c/26f701985b92/44320043808-e1/44320043808-e1.jpg?ts=1785252978540&w=1920",
+        "https://static.zara.net/assets/public/d30e/3fec/e37b4090a2ae/c6987d653b37/44320043808-e2/44320043808-e2.jpg?ts=1785252978589&w=1920",
+        "https://static.zara.net/assets/public/47f2/b477/dd2f42b7a074/a3c0220336d0/44320043808-e3/44320043808-e3.jpg?ts=1785252978922&w=1920",
+        "https://static.zara.net/assets/public/3dda/d839/35f545438846/813b3f4d56a4/44320043808-e4/44320043808-e4.jpg?ts=1785252978873&w=1920",
+        "https://static.zara.net/assets/public/fbbe/9f0a/fdce4c0096f5/a9b8b171370b/44320043808-a1/44320043808-a1.jpg?ts=1786091876972&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nWastepaper basket made of metal. Elongated cylindrical design in a solid color with a glossy finish.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3c9d66f8dc56898deded0a5af1218bea1814b3e7973cb99f1e1425e3a02ffc75",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

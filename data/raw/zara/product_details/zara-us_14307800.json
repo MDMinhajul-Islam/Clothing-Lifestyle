@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:14307800",
+  "source_url": "https://www.zara.com/us/en/leather-coasters-p14307800.html",
+  "final_url": "https://www.zara.com/us/en/leather-coasters-p14307800.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-coasters-p14307800.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER COASTERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER COASTERS",
+      "url": "https://www.zara.com/us/en/leather-coasters-p14307800.html",
+      "productGroupID": "14307800",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Round leather coasters. Pack of 5.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ae26/6b6c/f0ec47b88226/1eab9b4b208d/14307800040-e1/14307800040-e1.jpg?ts=1785414803500&w=1920",
+        "https://static.zara.net/assets/public/fffa/3c79/cd4a41c5ba8d/5a401f9ad584/14307800040-e2/14307800040-e2.jpg?ts=1785414803092&w=1920",
+        "https://static.zara.net/assets/public/cb62/d691/d22c455f8e2f/1c8136c176b1/14307800040-e3/14307800040-e3.jpg?ts=1785414803261&w=1920",
+        "https://static.zara.net/assets/public/ce4f/08bd/482748038ab5/f4f095075944/14307800040-e4/14307800040-e4.jpg?ts=1785414802939&w=1920",
+        "https://static.zara.net/assets/public/965d/0bb3/dfaf446c93a2/1ead19b8a4cd/14307800040-e5/14307800040-e5.jpg?ts=1785414802857&w=1920",
+        "https://static.zara.net/assets/public/af88/aa89/a2354f10b828/4b1c8fcd355b/14307800040-a1/14307800040-a1.jpg?ts=1783924936678&w=1920"
+      ],
+      "material": "goat leather/sheep leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "50% goat leather, 50% sheep leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER COASTERS - Black - ONE SIZE ONLY",
+          "sku": "545454110-040-3",
+          "mpn": "545454110-040-3",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ae26/6b6c/f0ec47b88226/1eab9b4b208d/14307800040-e1/14307800040-e1.jpg?ts=1785414803500&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/leather-coasters-p14307800.html?v1=545454110",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER COASTERS",
+      "product_group_id": "14307800",
+      "brand": "ZARAHOME",
+      "description": "Round leather coasters. Pack of 5.",
+      "material": "goat leather/sheep leather",
+      "composition": "OUTER SHELL: 50% goat leather, 50% sheep leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER COASTERS - Black - ONE SIZE ONLY",
+          "sku": "545454110-040-3",
+          "mpn": "545454110-040-3",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-coasters-p14307800.html?v1=545454110",
+          "images": [
+            "https://static.zara.net/assets/public/ae26/6b6c/f0ec47b88226/1eab9b4b208d/14307800040-e1/14307800040-e1.jpg?ts=1785414803500&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ae26/6b6c/f0ec47b88226/1eab9b4b208d/14307800040-e1/14307800040-e1.jpg?ts=1785414803500&w=1920",
+        "https://static.zara.net/assets/public/fffa/3c79/cd4a41c5ba8d/5a401f9ad584/14307800040-e2/14307800040-e2.jpg?ts=1785414803092&w=1920",
+        "https://static.zara.net/assets/public/cb62/d691/d22c455f8e2f/1c8136c176b1/14307800040-e3/14307800040-e3.jpg?ts=1785414803261&w=1920",
+        "https://static.zara.net/assets/public/ce4f/08bd/482748038ab5/f4f095075944/14307800040-e4/14307800040-e4.jpg?ts=1785414802939&w=1920",
+        "https://static.zara.net/assets/public/965d/0bb3/dfaf446c93a2/1ead19b8a4cd/14307800040-e5/14307800040-e5.jpg?ts=1785414802857&w=1920",
+        "https://static.zara.net/assets/public/af88/aa89/a2354f10b828/4b1c8fcd355b/14307800040-a1/14307800040-a1.jpg?ts=1783924936678&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nRound leather coasters. Pack of 5.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "37dcc828f245b84e6c23e2f5c77a62e588a994cdff6af7cad5740b4d17c9632f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

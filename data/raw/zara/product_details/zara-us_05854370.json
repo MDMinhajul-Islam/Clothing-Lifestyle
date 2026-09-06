@@ -1,0 +1,227 @@
+{
+  "product_id": "zara-us:05854370",
+  "source_url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html",
+  "final_url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html",
+  "canonical_url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FLOWY POLO SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FLOWY POLO SHIRT",
+      "url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html",
+      "productGroupID": "05854370",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit polo shirt crafted in a flowy lyocell blend fabric. Band collar with a front button placket hidden by a flap. Chest patch pocket. Short sleeves.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920",
+        "https://static.zara.net/assets/public/d14a/ce87/ecbb48a996c6/9480503ddbb7/05854370710-a1/05854370710-a1.jpg?ts=1786092864098&w=1920",
+        "https://static.zara.net/assets/public/2913/641a/4e9b494ea22c/51aaba0fc0af/05854370710-a2/05854370710-a2.jpg?ts=1786092863379&w=1920",
+        "https://static.zara.net/assets/public/0142/8eef/b7c6427eb94e/370ef12e4fe7/05854370710-a3/05854370710-a3.jpg?ts=1786092863750&w=1920",
+        "https://static.zara.net/assets/public/aeb6/4790/25c848f28840/e210e44e1665/05854370710-a4/05854370710-a4.jpg?ts=1786092864166&w=1920",
+        "https://static.zara.net/assets/public/bdc1/ed75/e90a4df9bcaa/06d457adaaab/05854370710-e1/05854370710-e1.jpg?ts=1783436341152&w=1920",
+        "https://static.zara.net/assets/public/f988/5303/f26b4f8b8417/acabe40efd47/05854370710-e2/05854370710-e2.jpg?ts=1783436340712&w=1920"
+      ],
+      "material": "lyocell/polyamide",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "91% lyocell, 9% polyamide"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FLOWY POLO SHIRT - Beige - S",
+          "sku": "548571531-710-2",
+          "mpn": "548571531-710-2",
+          "color": "Beige",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html?v1=548571531",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FLOWY POLO SHIRT - Beige - M",
+          "sku": "548571531-710-3",
+          "mpn": "548571531-710-3",
+          "color": "Beige",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html?v1=548571531",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FLOWY POLO SHIRT - Beige - L",
+          "sku": "548571531-710-4",
+          "mpn": "548571531-710-4",
+          "color": "Beige",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html?v1=548571531",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FLOWY POLO SHIRT - Beige - XL",
+          "sku": "548571531-710-5",
+          "mpn": "548571531-710-5",
+          "color": "Beige",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html?v1=548571531",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FLOWY POLO SHIRT",
+      "product_group_id": "05854370",
+      "brand": "ZARA",
+      "description": "Relaxed fit polo shirt crafted in a flowy lyocell blend fabric. Band collar with a front button placket hidden by a flap. Chest patch pocket. Short sleeves.",
+      "material": "lyocell/polyamide",
+      "composition": "OUTER SHELL: 91% lyocell, 9% polyamide",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FLOWY POLO SHIRT - Beige - S",
+          "sku": "548571531-710-2",
+          "mpn": "548571531-710-2",
+          "color_name": "Beige",
+          "size_name": "S",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html?v1=548571531",
+          "images": [
+            "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920"
+          ]
+        },
+        {
+          "name": "FLOWY POLO SHIRT - Beige - M",
+          "sku": "548571531-710-3",
+          "mpn": "548571531-710-3",
+          "color_name": "Beige",
+          "size_name": "M",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html?v1=548571531",
+          "images": [
+            "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920"
+          ]
+        },
+        {
+          "name": "FLOWY POLO SHIRT - Beige - L",
+          "sku": "548571531-710-4",
+          "mpn": "548571531-710-4",
+          "color_name": "Beige",
+          "size_name": "L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html?v1=548571531",
+          "images": [
+            "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920"
+          ]
+        },
+        {
+          "name": "FLOWY POLO SHIRT - Beige - XL",
+          "sku": "548571531-710-5",
+          "mpn": "548571531-710-5",
+          "color_name": "Beige",
+          "size_name": "XL",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/flowy-polo-shirt-p05854370.html?v1=548571531",
+          "images": [
+            "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3b07/7bf7/1dc14482b417/e66cf6c4c965/05854370710-p/05854370710-p.jpg?ts=1786092864302&w=1920",
+        "https://static.zara.net/assets/public/d14a/ce87/ecbb48a996c6/9480503ddbb7/05854370710-a1/05854370710-a1.jpg?ts=1786092864098&w=1920",
+        "https://static.zara.net/assets/public/2913/641a/4e9b494ea22c/51aaba0fc0af/05854370710-a2/05854370710-a2.jpg?ts=1786092863379&w=1920",
+        "https://static.zara.net/assets/public/0142/8eef/b7c6427eb94e/370ef12e4fe7/05854370710-a3/05854370710-a3.jpg?ts=1786092863750&w=1920",
+        "https://static.zara.net/assets/public/aeb6/4790/25c848f28840/e210e44e1665/05854370710-a4/05854370710-a4.jpg?ts=1786092864166&w=1920",
+        "https://static.zara.net/assets/public/bdc1/ed75/e90a4df9bcaa/06d457adaaab/05854370710-e1/05854370710-e1.jpg?ts=1783436341152&w=1920",
+        "https://static.zara.net/assets/public/f988/5303/f26b4f8b8417/acabe40efd47/05854370710-e2/05854370710-e2.jpg?ts=1783436340712&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nRelaxed fit polo shirt crafted in a flowy lyocell blend fabric. Band collar with a front button placket hidden by a flap. Chest patch pocket. Short sleeves.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "de398e4a30e9cf1d41b8e88862f961a3d07da8f0863d5efe8053ff86f288b69c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,165 @@
+{
+  "product_id": "zara-us:44304112",
+  "source_url": "https://www.zara.com/us/en/daily-view-planner-p44304112.html",
+  "final_url": "https://www.zara.com/us/en/daily-view-planner-p44304112.html",
+  "canonical_url": "https://www.zara.com/us/en/daily-view-planner-p44304112.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DAILY VIEW PLANNER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DAILY VIEW PLANNER",
+      "url": "https://www.zara.com/us/en/daily-view-planner-p44304112.html",
+      "productGroupID": "44304112",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Annual hardcover daily planner with a day-per-page view. Includes space for notes and a priorities section.\n\n248 pages.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/abf6/ace9/a6ea4a4c93f2/32e21121edd0/44304112500-e1/44304112500-e1.jpg?ts=1786961865328&w=1920",
+        "https://static.zara.net/assets/public/436d/8d5c/55cd4e559b93/d8bb3ded3f38/44304112500-e2/44304112500-e2.jpg?ts=1786961867066&w=1920",
+        "https://static.zara.net/assets/public/58b9/4ddd/f6cb42109f38/fc140c7e009d/44304112500-e3/44304112500-e3.jpg?ts=1786961868738&w=1920",
+        "https://static.zara.net/assets/public/60cd/22b9/2f7746a3b5b2/99b46d51fd60/44304112500-e4/44304112500-e4.jpg?ts=1786961867469&w=1920",
+        "https://static.zara.net/assets/public/3c14/104b/ba744b6a90cc/3c6216fabc47/44304112500-e5/44304112500-e5.jpg?ts=1786961867014&w=1920",
+        "https://static.zara.net/assets/public/80d9/164b/715a43d98fa3/0925bd2f69e5/44304112500-a1/44304112500-a1.jpg?ts=1785918242811&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DAILY VIEW PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545404811-500-99",
+          "mpn": "545404811-500-99",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/abf6/ace9/a6ea4a4c93f2/32e21121edd0/44304112500-e1/44304112500-e1.jpg?ts=1786961865328&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/daily-view-planner-p44304112.html?v1=545404811",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DAILY VIEW PLANNER - Ecru - ONE SIZE ONLY",
+          "sku": "545404811-712-99",
+          "mpn": "545404811-712-99",
+          "color": "Ecru",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/5898/ec46/03f2436a8207/84c9261c2601/44304112712-e1/44304112712-e1.jpg?ts=1784125477881&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/daily-view-planner-p44304112.html?v1=545404812",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DAILY VIEW PLANNER",
+      "product_group_id": "44304112",
+      "brand": "ZARAHOME",
+      "description": "Annual hardcover daily planner with a day-per-page view. Includes space for notes and a priorities section.\n\n248 pages.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DAILY VIEW PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545404811-500-99",
+          "mpn": "545404811-500-99",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/daily-view-planner-p44304112.html?v1=545404811",
+          "images": [
+            "https://static.zara.net/assets/public/abf6/ace9/a6ea4a4c93f2/32e21121edd0/44304112500-e1/44304112500-e1.jpg?ts=1786961865328&w=1920"
+          ]
+        },
+        {
+          "name": "DAILY VIEW PLANNER - Ecru - ONE SIZE ONLY",
+          "sku": "545404811-712-99",
+          "mpn": "545404811-712-99",
+          "color_name": "Ecru",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/daily-view-planner-p44304112.html?v1=545404812",
+          "images": [
+            "https://static.zara.net/assets/public/5898/ec46/03f2436a8207/84c9261c2601/44304112712-e1/44304112712-e1.jpg?ts=1784125477881&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/abf6/ace9/a6ea4a4c93f2/32e21121edd0/44304112500-e1/44304112500-e1.jpg?ts=1786961865328&w=1920",
+        "https://static.zara.net/assets/public/436d/8d5c/55cd4e559b93/d8bb3ded3f38/44304112500-e2/44304112500-e2.jpg?ts=1786961867066&w=1920",
+        "https://static.zara.net/assets/public/58b9/4ddd/f6cb42109f38/fc140c7e009d/44304112500-e3/44304112500-e3.jpg?ts=1786961868738&w=1920",
+        "https://static.zara.net/assets/public/60cd/22b9/2f7746a3b5b2/99b46d51fd60/44304112500-e4/44304112500-e4.jpg?ts=1786961867469&w=1920",
+        "https://static.zara.net/assets/public/3c14/104b/ba744b6a90cc/3c6216fabc47/44304112500-e5/44304112500-e5.jpg?ts=1786961867014&w=1920",
+        "https://static.zara.net/assets/public/80d9/164b/715a43d98fa3/0925bd2f69e5/44304112500-a1/44304112500-a1.jpg?ts=1785918242811&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Green",
+    "Ecru"
+  ],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nAnnual hardcover daily planner with a day-per-page view. Includes space for notes and a priorities section.\n248 pages.",
+  "comp_care_text": null,
+  "raw_images_count": 16,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fdf21d4c81ac1010ca7aa4374674c2076933903f8910cad37222ac05dd87baaa",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

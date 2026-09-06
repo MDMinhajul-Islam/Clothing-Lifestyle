@@ -1,0 +1,130 @@
+{
+  "product_id": "zara-us:44311728",
+  "source_url": "https://www.zara.com/us/en/desktop-notepad-p44311728.html",
+  "final_url": "https://www.zara.com/us/en/desktop-notepad-p44311728.html",
+  "canonical_url": "https://www.zara.com/us/en/desktop-notepad-p44311728.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DESKTOP NOTEPAD",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DESKTOP NOTEPAD",
+      "url": "https://www.zara.com/us/en/desktop-notepad-p44311728.html",
+      "productGroupID": "44311728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Desktop notepad with tear-off sheets. Features a covered rigid base and marbled-effect detailing on the edges.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0753/88a7/f9f945c89640/fc01f6b53990/44311728999-e1/44311728999-e1.jpg?ts=1784217460275&w=1920",
+        "https://static.zara.net/assets/public/54b7/0c70/461d4fdc810d/a7702da1b9bf/44311728999-e2/44311728999-e2.jpg?ts=1784217460812&w=1920",
+        "https://static.zara.net/assets/public/9dac/d59f/94be4fe0a8ae/130dc0988779/44311728999-e3/44311728999-e3.jpg?ts=1784217460725&w=1920",
+        "https://static.zara.net/assets/public/ebbb/9e1e/3148409ab7a1/9966223c4466/44311728999-e4/44311728999-e4.jpg?ts=1784217460719&w=1920",
+        "https://static.zara.net/assets/public/d7cf/071e/27ba46a08141/c95db5c4f418/44311728999-e5/44311728999-e5.jpg?ts=1784217460720&w=1920",
+        "https://static.zara.net/assets/public/a5b1/fecf/2584478eaea8/8eb0b5c5651e/44311728999-a1/44311728999-a1.jpg?ts=1786091767275&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DESKTOP NOTEPAD - Multicolored - ONE SIZE ONLY",
+          "sku": "545422809-999-99",
+          "mpn": "545422809-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0753/88a7/f9f945c89640/fc01f6b53990/44311728999-e1/44311728999-e1.jpg?ts=1784217460275&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/desktop-notepad-p44311728.html?v1=545422809",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DESKTOP NOTEPAD",
+      "product_group_id": "44311728",
+      "brand": "ZARAHOME",
+      "description": "Desktop notepad with tear-off sheets. Features a covered rigid base and marbled-effect detailing on the edges.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DESKTOP NOTEPAD - Multicolored - ONE SIZE ONLY",
+          "sku": "545422809-999-99",
+          "mpn": "545422809-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/desktop-notepad-p44311728.html?v1=545422809",
+          "images": [
+            "https://static.zara.net/assets/public/0753/88a7/f9f945c89640/fc01f6b53990/44311728999-e1/44311728999-e1.jpg?ts=1784217460275&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0753/88a7/f9f945c89640/fc01f6b53990/44311728999-e1/44311728999-e1.jpg?ts=1784217460275&w=1920",
+        "https://static.zara.net/assets/public/54b7/0c70/461d4fdc810d/a7702da1b9bf/44311728999-e2/44311728999-e2.jpg?ts=1784217460812&w=1920",
+        "https://static.zara.net/assets/public/9dac/d59f/94be4fe0a8ae/130dc0988779/44311728999-e3/44311728999-e3.jpg?ts=1784217460725&w=1920",
+        "https://static.zara.net/assets/public/ebbb/9e1e/3148409ab7a1/9966223c4466/44311728999-e4/44311728999-e4.jpg?ts=1784217460719&w=1920",
+        "https://static.zara.net/assets/public/d7cf/071e/27ba46a08141/c95db5c4f418/44311728999-e5/44311728999-e5.jpg?ts=1784217460720&w=1920",
+        "https://static.zara.net/assets/public/a5b1/fecf/2584478eaea8/8eb0b5c5651e/44311728999-a1/44311728999-a1.jpg?ts=1786091767275&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nDesktop notepad with tear-off sheets. Features a covered rigid base and marbled-effect detailing on the edges.",
+  "comp_care_text": null,
+  "raw_images_count": 16,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1c0c4ee0c1c1d627fa6254184170f61bcda08bcc927efd96c575b24df22f7b21",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

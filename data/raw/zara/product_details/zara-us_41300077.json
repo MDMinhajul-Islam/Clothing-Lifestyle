@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:41300077",
+  "source_url": "https://www.zara.com/us/en/library-system-01-p41300077.html",
+  "final_url": "https://www.zara.com/us/en/library-system-01-p41300077.html",
+  "canonical_url": "https://www.zara.com/us/en/library-system-01-p41300077.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LIBRARY SYSTEM 01",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIBRARY SYSTEM 01",
+      "url": "https://www.zara.com/us/en/library-system-01-p41300077.html",
+      "productGroupID": "41300077",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "The design of LIBRARY SYSTEM 01 is sophisticated and versatile, with polished finishes made of solid wood. This new accessory was born as a side table designed to accompany SOFA 01.\n\nA modular piece that adapts to any space and also stands out for its functionality, as it has three visible compartments, in different sizes that allow it to be placed in different positions. It is designed to combine with the ACCESSORIES 01 from the collection.\nThe shelves are not designed to be stacked together.\n\nThe oak wood is treated with a wax coat that ensures the look and texture are as respectful of the materials as possible.\n\nThe wood changes over time becoming a unique piece. Subtle features such as open streaks or color variations that confirm its authenticity and beauty will appear over time.\n\nMade in Portugal.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e164/06e6/06d048858d71/4dc2acb5a79c/41300077052-e1/41300077052-e1.jpg?ts=1726999807397&w=1920",
+        "https://static.zara.net/assets/public/0690/7b65/0b2243219c66/d084b79140fa/41300077052-e2/41300077052-e2.jpg?ts=1718098178393&w=1920",
+        "https://static.zara.net/assets/public/0287/8968/fad640489106/ff8452a4fce6/41300077052-e3/41300077052-e3.jpg?ts=1718098177959&w=1920",
+        "https://static.zara.net/assets/public/ffd5/7a62/8614429b9c6e/3752138b74a9/41300077052-e4/41300077052-e4.jpg?ts=1718098176761&w=1920",
+        "https://static.zara.net/assets/public/c904/c410/1a824f01a7b9/fa84ffd5a609/41300077052-e5/41300077052-e5.jpg?ts=1718098178817&w=1920",
+        "https://static.zara.net/assets/public/2146/c9ef/fe8743fd8f42/f95360750f7c/41300077052-e6/41300077052-e6.jpg?ts=1718098177822&w=1920",
+        "https://static.zara.net/assets/public/30cb/6309/7c2045f39792/7c9a98e2aeef/41300077052-e10/41300077052-e10.jpg?ts=1718190617237&w=1920"
+      ],
+      "material": "100% oak wood",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% oak wood"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIBRARY SYSTEM 01 - Light beige - ONE SIZE ONLY",
+          "sku": "551060229-052-99",
+          "mpn": "551060229-052-99",
+          "color": "Light beige",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e164/06e6/06d048858d71/4dc2acb5a79c/41300077052-e1/41300077052-e1.jpg?ts=1726999807397&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "1200",
+            "url": "https://www.zara.com/us/en/library-system-01-p41300077.html?v1=551060229",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIBRARY SYSTEM 01",
+      "product_group_id": "41300077",
+      "brand": "ZARAHOME",
+      "description": "The design of LIBRARY SYSTEM 01 is sophisticated and versatile, with polished finishes made of solid wood. This new accessory was born as a side table designed to accompany SOFA 01.\n\nA modular piece that adapts to any space and also stands out for its functionality, as it has three visible compartments, in different sizes that allow it to be placed in different positions. It is designed to combine with the ACCESSORIES 01 from the collection.\nThe shelves are not designed to be stacked together.\n\nThe oak wood is treated with a wax coat that ensures the look and texture are as respectful of the materials as possible.\n\nThe wood changes over time becoming a unique piece. Subtle features such as open streaks or color variations that confirm its authenticity and beauty will appear over time.\n\nMade in Portugal.",
+      "material": "100% oak wood",
+      "composition": "OUTER SHELL: 100% oak wood",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIBRARY SYSTEM 01 - Light beige - ONE SIZE ONLY",
+          "sku": "551060229-052-99",
+          "mpn": "551060229-052-99",
+          "color_name": "Light beige",
+          "size_name": "ONE SIZE ONLY",
+          "price": "1200.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/library-system-01-p41300077.html?v1=551060229",
+          "images": [
+            "https://static.zara.net/assets/public/e164/06e6/06d048858d71/4dc2acb5a79c/41300077052-e1/41300077052-e1.jpg?ts=1726999807397&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e164/06e6/06d048858d71/4dc2acb5a79c/41300077052-e1/41300077052-e1.jpg?ts=1726999807397&w=1920",
+        "https://static.zara.net/assets/public/0690/7b65/0b2243219c66/d084b79140fa/41300077052-e2/41300077052-e2.jpg?ts=1718098178393&w=1920",
+        "https://static.zara.net/assets/public/0287/8968/fad640489106/ff8452a4fce6/41300077052-e3/41300077052-e3.jpg?ts=1718098177959&w=1920",
+        "https://static.zara.net/assets/public/ffd5/7a62/8614429b9c6e/3752138b74a9/41300077052-e4/41300077052-e4.jpg?ts=1718098176761&w=1920",
+        "https://static.zara.net/assets/public/c904/c410/1a824f01a7b9/fa84ffd5a609/41300077052-e5/41300077052-e5.jpg?ts=1718098178817&w=1920",
+        "https://static.zara.net/assets/public/2146/c9ef/fe8743fd8f42/f95360750f7c/41300077052-e6/41300077052-e6.jpg?ts=1718098177822&w=1920",
+        "https://static.zara.net/assets/public/30cb/6309/7c2045f39792/7c9a98e2aeef/41300077052-e10/41300077052-e10.jpg?ts=1718190617237&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "1200.00",
+  "rendered_description": "Description\nThe design of LIBRARY SYSTEM 01 is sophisticated and versatile, with polished finishes made of solid wood. This new accessory was born as a side table designed to accompany SOFA 01.\nA modular piece that adapts to any space and also stands out for its functionality, as it has three visible compartments, in different sizes that allow it to be placed in different positions. It is designed to combine with the ACCESSORIES 01 from the collection.\nThe shelves are not designed to be stacked together.\nThe oak wood is treated with a wax coat that ensures the look and texture are as respectful of the materials as possible.\nThe wood changes over time becoming a unique piece. Subtle features such as open streaks or color variations that confirm its authenticity and beauty will appear over time.\nMade in Portugal.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "1200.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "1200.00",
+    "dom_price": "1200.00",
+    "normalized_price": "1200.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "32fa0b6bf9b460eac772c96ab51feb57bbc830ad064e5ece95f4a4198b09fe0c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

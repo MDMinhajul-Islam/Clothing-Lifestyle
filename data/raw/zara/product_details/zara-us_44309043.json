@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44309043",
+  "source_url": "https://www.zara.com/us/en/metal-bookend-p44309043.html",
+  "final_url": "https://www.zara.com/us/en/metal-bookend-p44309043.html",
+  "canonical_url": "https://www.zara.com/us/en/metal-bookend-p44309043.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "METAL BOOKEND",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "METAL BOOKEND",
+      "url": "https://www.zara.com/us/en/metal-bookend-p44309043.html",
+      "productGroupID": "44309043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "L-shaped metal bookend. Features a brushed finish and rounded corners.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c195/c483/91d64111a6c3/b0ee87c6478b/44309043808-e1/44309043808-e1.jpg?ts=1785768073222&w=1920",
+        "https://static.zara.net/assets/public/f8a5/2838/8d644db39617/f5f2ad8a384d/44309043808-e2/44309043808-e2.jpg?ts=1785768072358&w=1920",
+        "https://static.zara.net/assets/public/ca88/d873/3e434e2a9f17/25a89478fc77/44309043808-e3/44309043808-e3.jpg?ts=1785768072932&w=1920",
+        "https://static.zara.net/assets/public/e51d/af16/055242dd9e9c/e7ab8e44c468/44309043808-e4/44309043808-e4.jpg?ts=1785768076050&w=1920",
+        "https://static.zara.net/assets/public/19c5/ce35/a0374708af67/7bb6721e823b/44309043808-a1/44309043808-a1.jpg?ts=1785921646965&w=1920"
+      ],
+      "material": "100% stainless steel",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% stainless steel"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "METAL BOOKEND - Silver - ONE SIZE ONLY",
+          "sku": "545422864-808-99",
+          "mpn": "545422864-808-99",
+          "color": "Silver",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/c195/c483/91d64111a6c3/b0ee87c6478b/44309043808-e1/44309043808-e1.jpg?ts=1785768073222&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/metal-bookend-p44309043.html?v1=545422864",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "METAL BOOKEND",
+      "product_group_id": "44309043",
+      "brand": "ZARAHOME",
+      "description": "L-shaped metal bookend. Features a brushed finish and rounded corners.",
+      "material": "100% stainless steel",
+      "composition": "OUTER SHELL: 100% stainless steel",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "METAL BOOKEND - Silver - ONE SIZE ONLY",
+          "sku": "545422864-808-99",
+          "mpn": "545422864-808-99",
+          "color_name": "Silver",
+          "size_name": "ONE SIZE ONLY",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metal-bookend-p44309043.html?v1=545422864",
+          "images": [
+            "https://static.zara.net/assets/public/c195/c483/91d64111a6c3/b0ee87c6478b/44309043808-e1/44309043808-e1.jpg?ts=1785768073222&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c195/c483/91d64111a6c3/b0ee87c6478b/44309043808-e1/44309043808-e1.jpg?ts=1785768073222&w=1920",
+        "https://static.zara.net/assets/public/f8a5/2838/8d644db39617/f5f2ad8a384d/44309043808-e2/44309043808-e2.jpg?ts=1785768072358&w=1920",
+        "https://static.zara.net/assets/public/ca88/d873/3e434e2a9f17/25a89478fc77/44309043808-e3/44309043808-e3.jpg?ts=1785768072932&w=1920",
+        "https://static.zara.net/assets/public/e51d/af16/055242dd9e9c/e7ab8e44c468/44309043808-e4/44309043808-e4.jpg?ts=1785768076050&w=1920",
+        "https://static.zara.net/assets/public/19c5/ce35/a0374708af67/7bb6721e823b/44309043808-a1/44309043808-a1.jpg?ts=1785921646965&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nL-shaped metal bookend. Features a brushed finish and rounded corners.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "61798021191cb1bf582879119609434d9decdc0a074bf6007470be32ec76a73f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

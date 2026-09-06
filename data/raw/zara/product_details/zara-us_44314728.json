@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44314728",
+  "source_url": "https://www.zara.com/us/en/a3-stationery-folder-p44314728.html",
+  "final_url": "https://www.zara.com/us/en/a3-stationery-folder-p44314728.html",
+  "canonical_url": "https://www.zara.com/us/en/a3-stationery-folder-p44314728.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "A3 STATIONERY FOLDER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "A3 STATIONERY FOLDER",
+      "url": "https://www.zara.com/us/en/a3-stationery-folder-p44314728.html",
+      "productGroupID": "44314728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "A3 size folder with a rigid, paper-wrapped cover featuring a marbled effect. Designed with interior flaps to protect contents and a ribbon closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d9ea/7886/ce4242de8331/44d0c213d7c2/44314728500-e1/44314728500-e1.jpg?ts=1784273197713&w=1920",
+        "https://static.zara.net/assets/public/eff4/0b50/79514627ab9d/1ac3c0cafbd5/44314728500-e2/44314728500-e2.jpg?ts=1784273198394&w=1920",
+        "https://static.zara.net/assets/public/210d/cbdc/2b0845f0b776/2f2312e03afa/44314728500-e3/44314728500-e3.jpg?ts=1784273198714&w=1920",
+        "https://static.zara.net/assets/public/e622/fbfc/565049e681e5/a88bb90c6703/44314728500-e4/44314728500-e4.jpg?ts=1784273198397&w=1920",
+        "https://static.zara.net/assets/public/a42c/6ddc/708f46fdb5a7/0d2d3ad358ba/44314728500-a1/44314728500-a1.jpg?ts=1786544647350&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "A3 STATIONERY FOLDER - Green - ONE SIZE ONLY",
+          "sku": "545422785-500-99",
+          "mpn": "545422785-500-99",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d9ea/7886/ce4242de8331/44d0c213d7c2/44314728500-e1/44314728500-e1.jpg?ts=1784273197713&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/a3-stationery-folder-p44314728.html?v1=545422785",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "A3 STATIONERY FOLDER",
+      "product_group_id": "44314728",
+      "brand": "ZARAHOME",
+      "description": "A3 size folder with a rigid, paper-wrapped cover featuring a marbled effect. Designed with interior flaps to protect contents and a ribbon closure.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "A3 STATIONERY FOLDER - Green - ONE SIZE ONLY",
+          "sku": "545422785-500-99",
+          "mpn": "545422785-500-99",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/a3-stationery-folder-p44314728.html?v1=545422785",
+          "images": [
+            "https://static.zara.net/assets/public/d9ea/7886/ce4242de8331/44d0c213d7c2/44314728500-e1/44314728500-e1.jpg?ts=1784273197713&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d9ea/7886/ce4242de8331/44d0c213d7c2/44314728500-e1/44314728500-e1.jpg?ts=1784273197713&w=1920",
+        "https://static.zara.net/assets/public/eff4/0b50/79514627ab9d/1ac3c0cafbd5/44314728500-e2/44314728500-e2.jpg?ts=1784273198394&w=1920",
+        "https://static.zara.net/assets/public/210d/cbdc/2b0845f0b776/2f2312e03afa/44314728500-e3/44314728500-e3.jpg?ts=1784273198714&w=1920",
+        "https://static.zara.net/assets/public/e622/fbfc/565049e681e5/a88bb90c6703/44314728500-e4/44314728500-e4.jpg?ts=1784273198397&w=1920",
+        "https://static.zara.net/assets/public/a42c/6ddc/708f46fdb5a7/0d2d3ad358ba/44314728500-a1/44314728500-a1.jpg?ts=1786544647350&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nA3 size folder with a rigid, paper-wrapped cover featuring a marbled effect. Designed with interior flaps to protect contents and a ribbon closure.",
+  "comp_care_text": null,
+  "raw_images_count": 15,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "30a50f3198bf951461ae8bad129c82958f5c34c0cb5143e076ed65b898e30a41",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

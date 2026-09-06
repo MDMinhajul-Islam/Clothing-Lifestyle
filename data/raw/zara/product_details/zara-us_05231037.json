@@ -1,0 +1,165 @@
+{
+  "product_id": "zara-us:05231037",
+  "source_url": "https://www.zara.com/us/en/limited-edition-mixed-print-tunic-shirt-p05231037.html",
+  "final_url": "https://www.zara.com/us/en/limited-edition-mixed-print-tunic-shirt-p05231037.html",
+  "canonical_url": "https://www.zara.com/us/en/limited-edition-mixed-print-tunic-shirt-p05231037.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LIMITED EDITION PRINTED TUNIC SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIMITED EDITION PRINTED TUNIC SHIRT",
+      "url": "https://www.zara.com/us/en/limited-edition-mixed-print-tunic-shirt-p05231037.html",
+      "productGroupID": "05231037",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Oversized tunic shirt made of cotton fabric with contrasting prints. Lapel collar and sleeveless design. Patch pockets on the chest. Adjustable sides with buttons. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bc5e/a230/4a3248f189b2/4e4cf95ab4a8/05231037020-060-p/05231037020-060-p.jpg?ts=1785850933319&w=1920",
+        "https://static.zara.net/assets/public/641d/63f4/208f40eeb961/09e24621af95/05231037020-060-a1/05231037020-060-a1.jpg?ts=1785850933121&w=1920",
+        "https://static.zara.net/assets/public/23a4/8008/67c14ec78944/c31891354eb3/05231037020-060-a2/05231037020-060-a2.jpg?ts=1785850933830&w=1920",
+        "https://static.zara.net/assets/public/13ac/74c7/e22249cfb090/1bdaf2da087a/05231037020-060-a3/05231037020-060-a3.jpg?ts=1785850933861&w=1920",
+        "https://static.zara.net/assets/public/532e/95b8/bbd941a19c30/95f15a2fe53f/05231037020-e1/05231037020-e1.jpg?ts=1785926421682&w=1920",
+        "https://static.zara.net/assets/public/75b5/b9f5/75224d2eae14/ce5d344e0d2b/05231037020-e2/05231037020-e2.jpg?ts=1785170036762&w=1920",
+        "https://static.zara.net/assets/public/2e15/85d1/f4ba43e4a406/256d1d66a245/05231037020-e3/05231037020-e3.jpg?ts=1785926423354&w=1920",
+        "https://static.zara.net/assets/public/936d/43b0/c9574e6898af/8f9386f8d95f/05231037020-e4/05231037020-e4.jpg?ts=1785926424894&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION PRINTED TUNIC SHIRT - Printed - S-M",
+          "sku": "555344185-020-97",
+          "mpn": "555344185-020-97",
+          "color": "Printed",
+          "size": "S-M",
+          "image": [
+            "https://static.zara.net/assets/public/bc5e/a230/4a3248f189b2/4e4cf95ab4a8/05231037020-060-p/05231037020-060-p.jpg?ts=1785850933319&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/limited-edition-mixed-print-tunic-shirt-p05231037.html?v1=555344185",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION PRINTED TUNIC SHIRT - Printed - L-XL",
+          "sku": "555344185-020-96",
+          "mpn": "555344185-020-96",
+          "color": "Printed",
+          "size": "L-XL",
+          "image": [
+            "https://static.zara.net/assets/public/bc5e/a230/4a3248f189b2/4e4cf95ab4a8/05231037020-060-p/05231037020-060-p.jpg?ts=1785850933319&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/limited-edition-mixed-print-tunic-shirt-p05231037.html?v1=555344185",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIMITED EDITION PRINTED TUNIC SHIRT",
+      "product_group_id": "05231037",
+      "brand": "ZARA",
+      "description": "Oversized tunic shirt made of cotton fabric with contrasting prints. Lapel collar and sleeveless design. Patch pockets on the chest. Adjustable sides with buttons. Front button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIMITED EDITION PRINTED TUNIC SHIRT - Printed - S-M",
+          "sku": "555344185-020-97",
+          "mpn": "555344185-020-97",
+          "color_name": "Printed",
+          "size_name": "S-M",
+          "price": "99.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-mixed-print-tunic-shirt-p05231037.html?v1=555344185",
+          "images": [
+            "https://static.zara.net/assets/public/bc5e/a230/4a3248f189b2/4e4cf95ab4a8/05231037020-060-p/05231037020-060-p.jpg?ts=1785850933319&w=1920"
+          ]
+        },
+        {
+          "name": "LIMITED EDITION PRINTED TUNIC SHIRT - Printed - L-XL",
+          "sku": "555344185-020-96",
+          "mpn": "555344185-020-96",
+          "color_name": "Printed",
+          "size_name": "L-XL",
+          "price": "99.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-mixed-print-tunic-shirt-p05231037.html?v1=555344185",
+          "images": [
+            "https://static.zara.net/assets/public/bc5e/a230/4a3248f189b2/4e4cf95ab4a8/05231037020-060-p/05231037020-060-p.jpg?ts=1785850933319&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bc5e/a230/4a3248f189b2/4e4cf95ab4a8/05231037020-060-p/05231037020-060-p.jpg?ts=1785850933319&w=1920",
+        "https://static.zara.net/assets/public/641d/63f4/208f40eeb961/09e24621af95/05231037020-060-a1/05231037020-060-a1.jpg?ts=1785850933121&w=1920",
+        "https://static.zara.net/assets/public/23a4/8008/67c14ec78944/c31891354eb3/05231037020-060-a2/05231037020-060-a2.jpg?ts=1785850933830&w=1920",
+        "https://static.zara.net/assets/public/13ac/74c7/e22249cfb090/1bdaf2da087a/05231037020-060-a3/05231037020-060-a3.jpg?ts=1785850933861&w=1920",
+        "https://static.zara.net/assets/public/532e/95b8/bbd941a19c30/95f15a2fe53f/05231037020-e1/05231037020-e1.jpg?ts=1785926421682&w=1920",
+        "https://static.zara.net/assets/public/75b5/b9f5/75224d2eae14/ce5d344e0d2b/05231037020-e2/05231037020-e2.jpg?ts=1785170036762&w=1920",
+        "https://static.zara.net/assets/public/2e15/85d1/f4ba43e4a406/256d1d66a245/05231037020-e3/05231037020-e3.jpg?ts=1785926423354&w=1920",
+        "https://static.zara.net/assets/public/936d/43b0/c9574e6898af/8f9386f8d95f/05231037020-e4/05231037020-e4.jpg?ts=1785926424894&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nOversized tunic shirt made of cotton fabric with contrasting prints. Lapel collar and sleeveless design. Patch pockets on the chest. Adjustable sides with buttons. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b6922ad4ab274dd4e417dd89bc2a1178b0e9635255628ab428af48d06ee6003f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44304111",
+  "source_url": "https://www.zara.com/us/en/a5-notebook-with-case-p44304111.html",
+  "final_url": "https://www.zara.com/us/en/a5-notebook-with-case-p44304111.html",
+  "canonical_url": "https://www.zara.com/us/en/a5-notebook-with-case-p44304111.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "A5 NOTEBOOK WITH CASE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "A5 NOTEBOOK WITH CASE",
+      "url": "https://www.zara.com/us/en/a5-notebook-with-case-p44304111.html",
+      "productGroupID": "44304111",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Notebook with a smooth hard paper cover and rings. Features A5 size pages with lined guides. Includes a flat rectangular leather pencil case with a zip fastening, which can be detached using an elastic band.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0356/1044/bde547749038/0c05e0a16ded/44304111800-e1/44304111800-e1.jpg?ts=1786602589915&w=1920",
+        "https://static.zara.net/assets/public/3acd/cf1d/38d743e7b17c/09cf33a6421a/44304111800-e2/44304111800-e2.jpg?ts=1786602580779&w=1920",
+        "https://static.zara.net/assets/public/60b1/21b8/f7134dd08748/f33821b3e1c7/44304111800-e3/44304111800-e3.jpg?ts=1786954088307&w=1920",
+        "https://static.zara.net/assets/public/aabe/b6db/60c44523af81/0d46a216cb86/44304111800-e4/44304111800-e4.jpg?ts=1786602607465&w=1920",
+        "https://static.zara.net/assets/public/e5ff/d99d/fe7145fc8e5f/a1c40c701018/44304111800-a1/44304111800-a1.jpg?ts=1785851217730&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "A5 NOTEBOOK WITH CASE - Black - ONE SIZE ONLY",
+          "sku": "545404848-800-99",
+          "mpn": "545404848-800-99",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0356/1044/bde547749038/0c05e0a16ded/44304111800-e1/44304111800-e1.jpg?ts=1786602589915&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/a5-notebook-with-case-p44304111.html?v1=545404848",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "A5 NOTEBOOK WITH CASE",
+      "product_group_id": "44304111",
+      "brand": "ZARAHOME",
+      "description": "Notebook with a smooth hard paper cover and rings. Features A5 size pages with lined guides. Includes a flat rectangular leather pencil case with a zip fastening, which can be detached using an elastic band.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "A5 NOTEBOOK WITH CASE - Black - ONE SIZE ONLY",
+          "sku": "545404848-800-99",
+          "mpn": "545404848-800-99",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/a5-notebook-with-case-p44304111.html?v1=545404848",
+          "images": [
+            "https://static.zara.net/assets/public/0356/1044/bde547749038/0c05e0a16ded/44304111800-e1/44304111800-e1.jpg?ts=1786602589915&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0356/1044/bde547749038/0c05e0a16ded/44304111800-e1/44304111800-e1.jpg?ts=1786602589915&w=1920",
+        "https://static.zara.net/assets/public/3acd/cf1d/38d743e7b17c/09cf33a6421a/44304111800-e2/44304111800-e2.jpg?ts=1786602580779&w=1920",
+        "https://static.zara.net/assets/public/60b1/21b8/f7134dd08748/f33821b3e1c7/44304111800-e3/44304111800-e3.jpg?ts=1786954088307&w=1920",
+        "https://static.zara.net/assets/public/aabe/b6db/60c44523af81/0d46a216cb86/44304111800-e4/44304111800-e4.jpg?ts=1786602607465&w=1920",
+        "https://static.zara.net/assets/public/e5ff/d99d/fe7145fc8e5f/a1c40c701018/44304111800-a1/44304111800-a1.jpg?ts=1785851217730&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nNotebook with a smooth hard paper cover and rings. Features A5 size pages with lined guides. Includes a flat rectangular leather pencil case with a zip fastening, which can be detached using an elastic band.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "169fe34453a20469999ec031ca2c7ed0eb3ff511e50d2a28ce54ca3576d4faea",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,228 @@
+{
+  "product_id": "zara-us:02015330",
+  "source_url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html",
+  "final_url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html",
+  "canonical_url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TEXTURED PLAID RELAXED FIT SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TEXTURED PLAID RELAXED FIT SHIRT",
+      "url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html",
+      "productGroupID": "02015330",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit shirt made of a fluid viscose and cotton blend fabric. Lapel collar and long sleeves with buttoned cuffs. Chest patch pocket. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920",
+        "https://static.zara.net/assets/public/42da/b73c/c2df4310bfe2/c9112f569e73/02015330620-a1/02015330620-a1.jpg?ts=1785749671334&w=1920",
+        "https://static.zara.net/assets/public/c73a/9849/495049e3aa19/e0ef15df8c03/02015330620-a2/02015330620-a2.jpg?ts=1785749667515&w=1920",
+        "https://static.zara.net/assets/public/4b64/9653/b34f43f59bc1/fe4738fbe6f5/02015330620-a3/02015330620-a3.jpg?ts=1785749668955&w=1920",
+        "https://static.zara.net/assets/public/bf72/3f46/ae2646c99cd1/0ac328fe2e30/02015330620-a4/02015330620-a4.jpg?ts=1785749667892&w=1920",
+        "https://static.zara.net/assets/public/89bf/8188/3df54b70b2fe/4f227a7ba69c/02015330620-e1/02015330620-e1.jpg?ts=1784546381902&w=1920",
+        "https://static.zara.net/assets/public/da75/74e8/0dd14ac0ac11/a491f1a76761/02015330620-e2/02015330620-e2.jpg?ts=1784546381332&w=1920"
+      ],
+      "material": "viscose/cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "60% viscose, 20% cotton, 20% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TEXTURED PLAID RELAXED FIT SHIRT - Pink - S",
+          "sku": "557436703-620-2",
+          "mpn": "557436703-620-2",
+          "color": "Pink",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html?v1=557436703",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED PLAID RELAXED FIT SHIRT - Pink - M",
+          "sku": "557436703-620-3",
+          "mpn": "557436703-620-3",
+          "color": "Pink",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html?v1=557436703",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED PLAID RELAXED FIT SHIRT - Pink - L",
+          "sku": "557436703-620-4",
+          "mpn": "557436703-620-4",
+          "color": "Pink",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html?v1=557436703",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED PLAID RELAXED FIT SHIRT - Pink - XL",
+          "sku": "557436703-620-5",
+          "mpn": "557436703-620-5",
+          "color": "Pink",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html?v1=557436703",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TEXTURED PLAID RELAXED FIT SHIRT",
+      "product_group_id": "02015330",
+      "brand": "ZARA",
+      "description": "Relaxed fit shirt made of a fluid viscose and cotton blend fabric. Lapel collar and long sleeves with buttoned cuffs. Chest patch pocket. Front button closure.",
+      "material": "viscose/cotton/polyester",
+      "composition": "OUTER SHELL: 60% viscose, 20% cotton, 20% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TEXTURED PLAID RELAXED FIT SHIRT - Pink - S",
+          "sku": "557436703-620-2",
+          "mpn": "557436703-620-2",
+          "color_name": "Pink",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html?v1=557436703",
+          "images": [
+            "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED PLAID RELAXED FIT SHIRT - Pink - M",
+          "sku": "557436703-620-3",
+          "mpn": "557436703-620-3",
+          "color_name": "Pink",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html?v1=557436703",
+          "images": [
+            "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED PLAID RELAXED FIT SHIRT - Pink - L",
+          "sku": "557436703-620-4",
+          "mpn": "557436703-620-4",
+          "color_name": "Pink",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html?v1=557436703",
+          "images": [
+            "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED PLAID RELAXED FIT SHIRT - Pink - XL",
+          "sku": "557436703-620-5",
+          "mpn": "557436703-620-5",
+          "color_name": "Pink",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-plaid-relaxed-fit-shirt-p02015330.html?v1=557436703",
+          "images": [
+            "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/44a4/4753/51cf42329e90/ea6b16d84a5e/02015330620-p/02015330620-p.jpg?ts=1785749673880&w=1920",
+        "https://static.zara.net/assets/public/42da/b73c/c2df4310bfe2/c9112f569e73/02015330620-a1/02015330620-a1.jpg?ts=1785749671334&w=1920",
+        "https://static.zara.net/assets/public/c73a/9849/495049e3aa19/e0ef15df8c03/02015330620-a2/02015330620-a2.jpg?ts=1785749667515&w=1920",
+        "https://static.zara.net/assets/public/4b64/9653/b34f43f59bc1/fe4738fbe6f5/02015330620-a3/02015330620-a3.jpg?ts=1785749668955&w=1920",
+        "https://static.zara.net/assets/public/bf72/3f46/ae2646c99cd1/0ac328fe2e30/02015330620-a4/02015330620-a4.jpg?ts=1785749667892&w=1920",
+        "https://static.zara.net/assets/public/89bf/8188/3df54b70b2fe/4f227a7ba69c/02015330620-e1/02015330620-e1.jpg?ts=1784546381902&w=1920",
+        "https://static.zara.net/assets/public/da75/74e8/0dd14ac0ac11/a491f1a76761/02015330620-e2/02015330620-e2.jpg?ts=1784546381332&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed fit shirt made of a fluid viscose and cotton blend fabric. Lapel collar and long sleeves with buttoned cuffs. Chest patch pocket. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9c21437521de32a51640f3aca51e3df80149f46d633a4e5358c1caee0fcdd5cb",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

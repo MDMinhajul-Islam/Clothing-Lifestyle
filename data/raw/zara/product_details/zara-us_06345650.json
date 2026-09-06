@@ -1,0 +1,360 @@
+{
+  "product_id": "zara-us:06345650",
+  "source_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html",
+  "final_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html",
+  "canonical_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED RELAXED FIT SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED RELAXED FIT SHIRT",
+      "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html",
+      "productGroupID": "06345650",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit shirt made of cotton fabric. Button-down lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920",
+        "https://static.zara.net/assets/public/b4a3/d9dd/f1dd4246975f/0a039d6ccb49/06345650080-a1/06345650080-a1.jpg?ts=1785338791521&w=1920",
+        "https://static.zara.net/assets/public/6ad6/7ff3/26b84d61a80d/c29074fadd64/06345650080-a2/06345650080-a2.jpg?ts=1785338791599&w=1920",
+        "https://static.zara.net/assets/public/fef0/0440/4eda4ec19164/681148d07b78/06345650080-a3/06345650080-a3.jpg?ts=1785338791026&w=1920",
+        "https://static.zara.net/assets/public/6907/e99b/86fe4448a039/019852378981/06345650080-a4/06345650080-a4.jpg?ts=1785338792172&w=1920",
+        "https://static.zara.net/assets/public/15b6/7556/cfa44ebda6d3/327ecb35f445/06345650080-a5/06345650080-a5.jpg?ts=1785338791539&w=1920",
+        "https://static.zara.net/assets/public/0117/0a6b/33684de4b06d/963c0e145a8a/06345650080-e1/06345650080-e1.jpg?ts=1784101448549&w=1920",
+        "https://static.zara.net/assets/public/0b48/d64d/560b4d458fb3/469e6775c491/06345650080-e2/06345650080-e2.jpg?ts=1784101449480&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED RELAXED FIT SHIRT - Ecru / Blue - S",
+          "sku": "555508854-080-2",
+          "mpn": "555508854-080-2",
+          "color": "Ecru / Blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED RELAXED FIT SHIRT - Ecru / Blue - M",
+          "sku": "555508854-080-3",
+          "mpn": "555508854-080-3",
+          "color": "Ecru / Blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED RELAXED FIT SHIRT - Ecru / Blue - L",
+          "sku": "555508854-080-4",
+          "mpn": "555508854-080-4",
+          "color": "Ecru / Blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED RELAXED FIT SHIRT - Ecru / Blue - XL",
+          "sku": "555508854-080-5",
+          "mpn": "555508854-080-5",
+          "color": "Ecru / Blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED RELAXED FIT SHIRT - Green / Ecru - S",
+          "sku": "555508854-098-2",
+          "mpn": "555508854-098-2",
+          "color": "Green / Ecru",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/813a/9fd6/6aaa405d8eff/d1a00d5be19a/06345650098-p/06345650098-p.jpg?ts=1785338776854&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED RELAXED FIT SHIRT - Green / Ecru - M",
+          "sku": "555508854-098-3",
+          "mpn": "555508854-098-3",
+          "color": "Green / Ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/813a/9fd6/6aaa405d8eff/d1a00d5be19a/06345650098-p/06345650098-p.jpg?ts=1785338776854&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED RELAXED FIT SHIRT - Green / Ecru - L",
+          "sku": "555508854-098-4",
+          "mpn": "555508854-098-4",
+          "color": "Green / Ecru",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/813a/9fd6/6aaa405d8eff/d1a00d5be19a/06345650098-p/06345650098-p.jpg?ts=1785338776854&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED RELAXED FIT SHIRT - Green / Ecru - XL",
+          "sku": "555508854-098-5",
+          "mpn": "555508854-098-5",
+          "color": "Green / Ecru",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/813a/9fd6/6aaa405d8eff/d1a00d5be19a/06345650098-p/06345650098-p.jpg?ts=1785338776854&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED RELAXED FIT SHIRT",
+      "product_group_id": "06345650",
+      "brand": "ZARA",
+      "description": "Relaxed fit shirt made of cotton fabric. Button-down lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED RELAXED FIT SHIRT - Ecru / Blue - S",
+          "sku": "555508854-080-2",
+          "mpn": "555508854-080-2",
+          "color_name": "Ecru / Blue",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508854",
+          "images": [
+            "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED RELAXED FIT SHIRT - Ecru / Blue - M",
+          "sku": "555508854-080-3",
+          "mpn": "555508854-080-3",
+          "color_name": "Ecru / Blue",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508854",
+          "images": [
+            "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED RELAXED FIT SHIRT - Ecru / Blue - L",
+          "sku": "555508854-080-4",
+          "mpn": "555508854-080-4",
+          "color_name": "Ecru / Blue",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508854",
+          "images": [
+            "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED RELAXED FIT SHIRT - Ecru / Blue - XL",
+          "sku": "555508854-080-5",
+          "mpn": "555508854-080-5",
+          "color_name": "Ecru / Blue",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508854",
+          "images": [
+            "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED RELAXED FIT SHIRT - Green / Ecru - S",
+          "sku": "555508854-098-2",
+          "mpn": "555508854-098-2",
+          "color_name": "Green / Ecru",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508855",
+          "images": [
+            "https://static.zara.net/assets/public/813a/9fd6/6aaa405d8eff/d1a00d5be19a/06345650098-p/06345650098-p.jpg?ts=1785338776854&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED RELAXED FIT SHIRT - Green / Ecru - M",
+          "sku": "555508854-098-3",
+          "mpn": "555508854-098-3",
+          "color_name": "Green / Ecru",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508855",
+          "images": [
+            "https://static.zara.net/assets/public/813a/9fd6/6aaa405d8eff/d1a00d5be19a/06345650098-p/06345650098-p.jpg?ts=1785338776854&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED RELAXED FIT SHIRT - Green / Ecru - L",
+          "sku": "555508854-098-4",
+          "mpn": "555508854-098-4",
+          "color_name": "Green / Ecru",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508855",
+          "images": [
+            "https://static.zara.net/assets/public/813a/9fd6/6aaa405d8eff/d1a00d5be19a/06345650098-p/06345650098-p.jpg?ts=1785338776854&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED RELAXED FIT SHIRT - Green / Ecru - XL",
+          "sku": "555508854-098-5",
+          "mpn": "555508854-098-5",
+          "color_name": "Green / Ecru",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-striped-shirt-p06345650.html?v1=555508855",
+          "images": [
+            "https://static.zara.net/assets/public/813a/9fd6/6aaa405d8eff/d1a00d5be19a/06345650098-p/06345650098-p.jpg?ts=1785338776854&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d75f/0710/0e4e4b0d9b8d/283b86cce0d0/06345650080-p/06345650080-p.jpg?ts=1785338791537&w=1920",
+        "https://static.zara.net/assets/public/b4a3/d9dd/f1dd4246975f/0a039d6ccb49/06345650080-a1/06345650080-a1.jpg?ts=1785338791521&w=1920",
+        "https://static.zara.net/assets/public/6ad6/7ff3/26b84d61a80d/c29074fadd64/06345650080-a2/06345650080-a2.jpg?ts=1785338791599&w=1920",
+        "https://static.zara.net/assets/public/fef0/0440/4eda4ec19164/681148d07b78/06345650080-a3/06345650080-a3.jpg?ts=1785338791026&w=1920",
+        "https://static.zara.net/assets/public/6907/e99b/86fe4448a039/019852378981/06345650080-a4/06345650080-a4.jpg?ts=1785338792172&w=1920",
+        "https://static.zara.net/assets/public/15b6/7556/cfa44ebda6d3/327ecb35f445/06345650080-a5/06345650080-a5.jpg?ts=1785338791539&w=1920",
+        "https://static.zara.net/assets/public/0117/0a6b/33684de4b06d/963c0e145a8a/06345650080-e1/06345650080-e1.jpg?ts=1784101448549&w=1920",
+        "https://static.zara.net/assets/public/0b48/d64d/560b4d458fb3/469e6775c491/06345650080-e2/06345650080-e2.jpg?ts=1784101449480&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Ecru / Blue",
+    "Green / Ecru"
+  ],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRelaxed fit shirt made of cotton fabric. Button-down lapel collar and long sleeves with buttoned cuffs. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 9,
+  "variants_count": 8,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "91f145113e37ba42dc23a582d7532198fe77230fd78208b82996b0b9fa2b18a7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

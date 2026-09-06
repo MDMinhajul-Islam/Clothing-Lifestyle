@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:44301043",
+  "source_url": "https://www.zara.com/us/en/blue-leather-button-case-p44301043.html",
+  "final_url": "https://www.zara.com/us/en/blue-leather-button-case-p44301043.html",
+  "canonical_url": "https://www.zara.com/us/en/blue-leather-button-case-p44301043.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BLUE LEATHER BUTTON CASE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BLUE LEATHER BUTTON CASE",
+      "url": "https://www.zara.com/us/en/blue-leather-button-case-p44301043.html",
+      "productGroupID": "44301043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Envelope-style leather case for organizing documents and stationery with a smooth finish. Features a metal button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/64c5/5a8c/584746a3bf9c/ad56b763cd37/44301043407-e1/44301043407-e1.jpg?ts=1786545234291&w=1920",
+        "https://static.zara.net/assets/public/d6f7/40e4/c2454fe296f7/64f185fe8e2b/44301043407-e2/44301043407-e2.jpg?ts=1786545234248&w=1920",
+        "https://static.zara.net/assets/public/9127/fbad/95be481887f5/3d565e47377b/44301043407-e3/44301043407-e3.jpg?ts=1786545234121&w=1920",
+        "https://static.zara.net/assets/public/c04b/6ac1/24d74024b89c/aa2a64abf206/44301043407-e4/44301043407-e4.jpg?ts=1786545234172&w=1920",
+        "https://static.zara.net/assets/public/1241/3b88/b795425aaaf8/3cef765014e4/44301043407-a1/44301043407-a1.jpg?ts=1785856451991&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BLUE LEATHER BUTTON CASE - Blue - ONE SIZE ONLY",
+          "sku": "545401257-407-99",
+          "mpn": "545401257-407-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/64c5/5a8c/584746a3bf9c/ad56b763cd37/44301043407-e1/44301043407-e1.jpg?ts=1786545234291&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/blue-leather-button-case-p44301043.html?v1=545401257",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BLUE LEATHER BUTTON CASE",
+      "product_group_id": "44301043",
+      "brand": "ZARAHOME",
+      "description": "Envelope-style leather case for organizing documents and stationery with a smooth finish. Features a metal button closure.",
+      "material": "100% cow leather",
+      "composition": "OUTER SHELL: 100% cow leather | LINING: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BLUE LEATHER BUTTON CASE - Blue - ONE SIZE ONLY",
+          "sku": "545401257-407-99",
+          "mpn": "545401257-407-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/blue-leather-button-case-p44301043.html?v1=545401257",
+          "images": [
+            "https://static.zara.net/assets/public/64c5/5a8c/584746a3bf9c/ad56b763cd37/44301043407-e1/44301043407-e1.jpg?ts=1786545234291&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/64c5/5a8c/584746a3bf9c/ad56b763cd37/44301043407-e1/44301043407-e1.jpg?ts=1786545234291&w=1920",
+        "https://static.zara.net/assets/public/d6f7/40e4/c2454fe296f7/64f185fe8e2b/44301043407-e2/44301043407-e2.jpg?ts=1786545234248&w=1920",
+        "https://static.zara.net/assets/public/9127/fbad/95be481887f5/3d565e47377b/44301043407-e3/44301043407-e3.jpg?ts=1786545234121&w=1920",
+        "https://static.zara.net/assets/public/c04b/6ac1/24d74024b89c/aa2a64abf206/44301043407-e4/44301043407-e4.jpg?ts=1786545234172&w=1920",
+        "https://static.zara.net/assets/public/1241/3b88/b795425aaaf8/3cef765014e4/44301043407-a1/44301043407-a1.jpg?ts=1785856451991&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nEnvelope-style leather case for organizing documents and stationery with a smooth finish. Features a metal button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "be5923988d500e329efd7dfc5bbae8af504608af492e82f8f6df6c99a77529cc",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

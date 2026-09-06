@@ -1,0 +1,162 @@
+{
+  "product_id": "zara-us:09061830",
+  "source_url": "https://www.zara.com/us/en/checked-midi-dress-p09061830.html",
+  "final_url": "https://www.zara.com/us/en/checked-midi-dress-p09061830.html",
+  "canonical_url": "https://www.zara.com/us/en/checked-midi-dress-p09061830.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLAID MIDI DRESS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLAID MIDI DRESS",
+      "url": "https://www.zara.com/us/en/checked-midi-dress-p09061830.html",
+      "productGroupID": "09061830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Midi dress crafted from a viscose blend fabric. Features a V-neckline and wide three-quarter length sleeves. Designed with front pleat detailing and a hem with side vents.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3926/432c/335f48fcb253/d9b55317d170/09061830727-p/09061830727-p.jpg?ts=1786028040311&w=1920",
+        "https://static.zara.net/assets/public/80b0/deae/6d164ec8ab35/319af59c61cb/09061830727-a1/09061830727-a1.jpg?ts=1786028034389&w=1920",
+        "https://static.zara.net/assets/public/9028/41a1/396f4f919f7d/b8f33f03f151/09061830727-a2/09061830727-a2.jpg?ts=1786028035744&w=1920",
+        "https://static.zara.net/assets/public/7826/75a6/c4f04b5bb172/9a60d2cf8234/09061830727-e1/09061830727-e1.jpg?ts=1786107557480&w=1920",
+        "https://static.zara.net/assets/public/138f/7db2/af8340a18b23/6004adf3c142/09061830727-e2/09061830727-e2.jpg?ts=1786107556888&w=1920",
+        "https://static.zara.net/assets/public/ddbc/37f3/0e984e68975c/ddbea38a8de6/09061830727-e3/09061830727-e3.jpg?ts=1786107556839&w=1920"
+      ],
+      "material": "viscose/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "87% viscose, 13% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLAID MIDI DRESS - Vanilla - XS-S",
+          "sku": "560284760-727-10",
+          "mpn": "560284760-727-10",
+          "color": "Vanilla",
+          "size": "XS-S",
+          "image": [
+            "https://static.zara.net/assets/public/3926/432c/335f48fcb253/d9b55317d170/09061830727-p/09061830727-p.jpg?ts=1786028040311&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/checked-midi-dress-p09061830.html?v1=560284760",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAID MIDI DRESS - Vanilla - M-L",
+          "sku": "560284760-727-98",
+          "mpn": "560284760-727-98",
+          "color": "Vanilla",
+          "size": "M-L",
+          "image": [
+            "https://static.zara.net/assets/public/3926/432c/335f48fcb253/d9b55317d170/09061830727-p/09061830727-p.jpg?ts=1786028040311&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/checked-midi-dress-p09061830.html?v1=560284760",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLAID MIDI DRESS",
+      "product_group_id": "09061830",
+      "brand": "ZARA",
+      "description": "Midi dress crafted from a viscose blend fabric. Features a V-neckline and wide three-quarter length sleeves. Designed with front pleat detailing and a hem with side vents.",
+      "material": "viscose/cotton",
+      "composition": "OUTER SHELL: 87% viscose, 13% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLAID MIDI DRESS - Vanilla - XS-S",
+          "sku": "560284760-727-10",
+          "mpn": "560284760-727-10",
+          "color_name": "Vanilla",
+          "size_name": "XS-S",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/checked-midi-dress-p09061830.html?v1=560284760",
+          "images": [
+            "https://static.zara.net/assets/public/3926/432c/335f48fcb253/d9b55317d170/09061830727-p/09061830727-p.jpg?ts=1786028040311&w=1920"
+          ]
+        },
+        {
+          "name": "PLAID MIDI DRESS - Vanilla - M-L",
+          "sku": "560284760-727-98",
+          "mpn": "560284760-727-98",
+          "color_name": "Vanilla",
+          "size_name": "M-L",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/checked-midi-dress-p09061830.html?v1=560284760",
+          "images": [
+            "https://static.zara.net/assets/public/3926/432c/335f48fcb253/d9b55317d170/09061830727-p/09061830727-p.jpg?ts=1786028040311&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3926/432c/335f48fcb253/d9b55317d170/09061830727-p/09061830727-p.jpg?ts=1786028040311&w=1920",
+        "https://static.zara.net/assets/public/80b0/deae/6d164ec8ab35/319af59c61cb/09061830727-a1/09061830727-a1.jpg?ts=1786028034389&w=1920",
+        "https://static.zara.net/assets/public/9028/41a1/396f4f919f7d/b8f33f03f151/09061830727-a2/09061830727-a2.jpg?ts=1786028035744&w=1920",
+        "https://static.zara.net/assets/public/7826/75a6/c4f04b5bb172/9a60d2cf8234/09061830727-e1/09061830727-e1.jpg?ts=1786107557480&w=1920",
+        "https://static.zara.net/assets/public/138f/7db2/af8340a18b23/6004adf3c142/09061830727-e2/09061830727-e2.jpg?ts=1786107556888&w=1920",
+        "https://static.zara.net/assets/public/ddbc/37f3/0e984e68975c/ddbea38a8de6/09061830727-e3/09061830727-e3.jpg?ts=1786107556839&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "129.00",
+  "rendered_description": "Description\nMidi dress crafted from a viscose blend fabric. Features a V-neckline and wide three-quarter length sleeves. Designed with front pleat detailing and a hem with side vents.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "129.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "129.00",
+    "dom_price": "129.00",
+    "normalized_price": "129.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b420263830b0105fa9aed1f6801987728b51ce3e8d39619e971666c2e8719459",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

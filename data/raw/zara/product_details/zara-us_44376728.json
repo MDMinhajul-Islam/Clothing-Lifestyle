@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44376728",
+  "source_url": "https://www.zara.com/us/en/linen-archive-folder-p44376728.html",
+  "final_url": "https://www.zara.com/us/en/linen-archive-folder-p44376728.html",
+  "canonical_url": "https://www.zara.com/us/en/linen-archive-folder-p44376728.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LINEN ARCHIVE FOLDER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LINEN ARCHIVE FOLDER",
+      "url": "https://www.zara.com/us/en/linen-archive-folder-p44376728.html",
+      "productGroupID": "44376728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "A4 size folder covered in linen. Rectangular design with an elastic band closure and interior compartments to organize and sort documents.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8c35/8299/51ae40588a19/6116437bcc3d/44376728712-e1/44376728712-e1.jpg?ts=1784217611973&w=1920",
+        "https://static.zara.net/assets/public/17db/efaf/7be949a1aa84/839b143123a2/44376728712-e2/44376728712-e2.jpg?ts=1786632876943&w=1920",
+        "https://static.zara.net/assets/public/8a4c/52b4/690744b99b49/7456c7d29294/44376728712-e3/44376728712-e3.jpg?ts=1784217612137&w=1920",
+        "https://static.zara.net/assets/public/47eb/4aca/cc0a49308445/0b695822fff1/44376728712-e4/44376728712-e4.jpg?ts=1786632881276&w=1920",
+        "https://static.zara.net/assets/public/4bb0/9765/23d64ba6ae01/b2bbf4ac4691/44376728712-a1/44376728712-a1.jpg?ts=1785854589809&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LINEN ARCHIVE FOLDER - Ecru - ONE SIZE ONLY",
+          "sku": "545454557-712-99",
+          "mpn": "545454557-712-99",
+          "color": "Ecru",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/8c35/8299/51ae40588a19/6116437bcc3d/44376728712-e1/44376728712-e1.jpg?ts=1784217611973&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/linen-archive-folder-p44376728.html?v1=545454557",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LINEN ARCHIVE FOLDER",
+      "product_group_id": "44376728",
+      "brand": "ZARAHOME",
+      "description": "A4 size folder covered in linen. Rectangular design with an elastic band closure and interior compartments to organize and sort documents.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LINEN ARCHIVE FOLDER - Ecru - ONE SIZE ONLY",
+          "sku": "545454557-712-99",
+          "mpn": "545454557-712-99",
+          "color_name": "Ecru",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/linen-archive-folder-p44376728.html?v1=545454557",
+          "images": [
+            "https://static.zara.net/assets/public/8c35/8299/51ae40588a19/6116437bcc3d/44376728712-e1/44376728712-e1.jpg?ts=1784217611973&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8c35/8299/51ae40588a19/6116437bcc3d/44376728712-e1/44376728712-e1.jpg?ts=1784217611973&w=1920",
+        "https://static.zara.net/assets/public/17db/efaf/7be949a1aa84/839b143123a2/44376728712-e2/44376728712-e2.jpg?ts=1786632876943&w=1920",
+        "https://static.zara.net/assets/public/8a4c/52b4/690744b99b49/7456c7d29294/44376728712-e3/44376728712-e3.jpg?ts=1784217612137&w=1920",
+        "https://static.zara.net/assets/public/47eb/4aca/cc0a49308445/0b695822fff1/44376728712-e4/44376728712-e4.jpg?ts=1786632881276&w=1920",
+        "https://static.zara.net/assets/public/4bb0/9765/23d64ba6ae01/b2bbf4ac4691/44376728712-a1/44376728712-a1.jpg?ts=1785854589809&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nA4 size folder covered in linen. Rectangular design with an elastic band closure and interior compartments to organize and sort documents.",
+  "comp_care_text": null,
+  "raw_images_count": 13,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "59b835d6c79c42de9e6f92016b73174513271ccb7daa376c60bd14b84e44a27b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

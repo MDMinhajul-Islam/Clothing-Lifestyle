@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44372728",
+  "source_url": "https://www.zara.com/us/en/linen-desk-file-holder-p44372728.html",
+  "final_url": "https://www.zara.com/us/en/linen-desk-file-holder-p44372728.html",
+  "canonical_url": "https://www.zara.com/us/en/linen-desk-file-holder-p44372728.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LINEN DESK FILE HOLDER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LINEN DESK FILE HOLDER",
+      "url": "https://www.zara.com/us/en/linen-desk-file-holder-p44372728.html",
+      "productGroupID": "44372728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "A4 size desk file holder covered in linen fabric. Features a slanted opening for easy access to contents and a front hole for easy retrieval.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3e0b/eff8/b61142d4a4a4/9a28968779b6/44372728712-e1/44372728712-e1.jpg?ts=1786632869792&w=1920",
+        "https://static.zara.net/assets/public/286e/2f6c/504345f8a1d1/ef62e33750f2/44372728712-e2/44372728712-e2.jpg?ts=1786632869734&w=1920",
+        "https://static.zara.net/assets/public/79b5/d36b/bbf84f37a7d5/d0767a66a59c/44372728712-e3/44372728712-e3.jpg?ts=1786632874708&w=1920",
+        "https://static.zara.net/assets/public/90a4/1d41/ba254a01855b/ba2fc2b79881/44372728712-e4/44372728712-e4.jpg?ts=1786632875609&w=1920",
+        "https://static.zara.net/assets/public/22a9/b3f9/ddf84e428f49/c378e29819ca/44372728712-a1/44372728712-a1.jpg?ts=1785851238542&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LINEN DESK FILE HOLDER - Ecru - ONE SIZE ONLY",
+          "sku": "545422711-712-99",
+          "mpn": "545422711-712-99",
+          "color": "Ecru",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3e0b/eff8/b61142d4a4a4/9a28968779b6/44372728712-e1/44372728712-e1.jpg?ts=1786632869792&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/linen-desk-file-holder-p44372728.html?v1=545422711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LINEN DESK FILE HOLDER",
+      "product_group_id": "44372728",
+      "brand": "ZARAHOME",
+      "description": "A4 size desk file holder covered in linen fabric. Features a slanted opening for easy access to contents and a front hole for easy retrieval.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LINEN DESK FILE HOLDER - Ecru - ONE SIZE ONLY",
+          "sku": "545422711-712-99",
+          "mpn": "545422711-712-99",
+          "color_name": "Ecru",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/linen-desk-file-holder-p44372728.html?v1=545422711",
+          "images": [
+            "https://static.zara.net/assets/public/3e0b/eff8/b61142d4a4a4/9a28968779b6/44372728712-e1/44372728712-e1.jpg?ts=1786632869792&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3e0b/eff8/b61142d4a4a4/9a28968779b6/44372728712-e1/44372728712-e1.jpg?ts=1786632869792&w=1920",
+        "https://static.zara.net/assets/public/286e/2f6c/504345f8a1d1/ef62e33750f2/44372728712-e2/44372728712-e2.jpg?ts=1786632869734&w=1920",
+        "https://static.zara.net/assets/public/79b5/d36b/bbf84f37a7d5/d0767a66a59c/44372728712-e3/44372728712-e3.jpg?ts=1786632874708&w=1920",
+        "https://static.zara.net/assets/public/90a4/1d41/ba254a01855b/ba2fc2b79881/44372728712-e4/44372728712-e4.jpg?ts=1786632875609&w=1920",
+        "https://static.zara.net/assets/public/22a9/b3f9/ddf84e428f49/c378e29819ca/44372728712-a1/44372728712-a1.jpg?ts=1785851238542&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nA4 size desk file holder covered in linen fabric. Features a slanted opening for easy access to contents and a front hole for easy retrieval.",
+  "comp_care_text": null,
+  "raw_images_count": 13,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "df0a5809564cc56ea56abbf20f4f0a0fc5a375350da8ef269867f001763ac529",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

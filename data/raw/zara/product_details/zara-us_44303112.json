@@ -1,0 +1,198 @@
+{
+  "product_id": "zara-us:44303112",
+  "source_url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html",
+  "final_url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html",
+  "canonical_url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WEEKLY VIEW DAILY PLANNER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WEEKLY VIEW DAILY PLANNER",
+      "url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html",
+      "productGroupID": "44303112",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Weekly planner with a covered hard cover. Design includes a weekly view, monthly tabs, and space for notes.\n\n144 pages.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/98d8/3157/39034ab4a0c1/a0debff80484/44303112400-e1/44303112400-e1.jpg?ts=1785846759334&w=1920",
+        "https://static.zara.net/assets/public/8af4/6084/3fa44a3da7d7/10b1b6e511da/44303112400-e2/44303112400-e2.jpg?ts=1785846764730&w=1920",
+        "https://static.zara.net/assets/public/fb7d/45c4/d8b84e03ba43/8054e22fe9da/44303112400-e3/44303112400-e3.jpg?ts=1785846764621&w=1920",
+        "https://static.zara.net/assets/public/5777/e50a/76344977a6ee/bf1f090b5232/44303112400-e4/44303112400-e4.jpg?ts=1785846759570&w=1920",
+        "https://static.zara.net/assets/public/0d16/63cc/18304af38ab8/d04416823b7d/44303112400-e5/44303112400-e5.jpg?ts=1785846759249&w=1920",
+        "https://static.zara.net/assets/public/3042/df5f/5e6e47c4a45d/838fd2fb8fcb/44303112400-a1/44303112400-a1.jpg?ts=1786546342632&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WEEKLY VIEW DAILY PLANNER - Blue - ONE SIZE ONLY",
+          "sku": "545404805-400-99",
+          "mpn": "545404805-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/98d8/3157/39034ab4a0c1/a0debff80484/44303112400-e1/44303112400-e1.jpg?ts=1785846759334&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html?v1=545404805",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WEEKLY VIEW DAILY PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545404805-500-99",
+          "mpn": "545404805-500-99",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/20d7/91e1/06b64a5da54e/5482809b1b0c/44303112500-e1/44303112500-e1.jpg?ts=1784117634122&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html?v1=545404806",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WEEKLY VIEW DAILY PLANNER - Red - ONE SIZE ONLY",
+          "sku": "545404805-600-99",
+          "mpn": "545404805-600-99",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/9a1f/b438/124a4c22ad3d/107da90c9748/44303112600-e1/44303112600-e1.jpg?ts=1784117634508&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html?v1=545404807",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WEEKLY VIEW DAILY PLANNER",
+      "product_group_id": "44303112",
+      "brand": "ZARAHOME",
+      "description": "Weekly planner with a covered hard cover. Design includes a weekly view, monthly tabs, and space for notes.\n\n144 pages.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WEEKLY VIEW DAILY PLANNER - Blue - ONE SIZE ONLY",
+          "sku": "545404805-400-99",
+          "mpn": "545404805-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html?v1=545404805",
+          "images": [
+            "https://static.zara.net/assets/public/98d8/3157/39034ab4a0c1/a0debff80484/44303112400-e1/44303112400-e1.jpg?ts=1785846759334&w=1920"
+          ]
+        },
+        {
+          "name": "WEEKLY VIEW DAILY PLANNER - Green - ONE SIZE ONLY",
+          "sku": "545404805-500-99",
+          "mpn": "545404805-500-99",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html?v1=545404806",
+          "images": [
+            "https://static.zara.net/assets/public/20d7/91e1/06b64a5da54e/5482809b1b0c/44303112500-e1/44303112500-e1.jpg?ts=1784117634122&w=1920"
+          ]
+        },
+        {
+          "name": "WEEKLY VIEW DAILY PLANNER - Red - ONE SIZE ONLY",
+          "sku": "545404805-600-99",
+          "mpn": "545404805-600-99",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/weekly-view-daily-planner-p44303112.html?v1=545404807",
+          "images": [
+            "https://static.zara.net/assets/public/9a1f/b438/124a4c22ad3d/107da90c9748/44303112600-e1/44303112600-e1.jpg?ts=1784117634508&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/98d8/3157/39034ab4a0c1/a0debff80484/44303112400-e1/44303112400-e1.jpg?ts=1785846759334&w=1920",
+        "https://static.zara.net/assets/public/8af4/6084/3fa44a3da7d7/10b1b6e511da/44303112400-e2/44303112400-e2.jpg?ts=1785846764730&w=1920",
+        "https://static.zara.net/assets/public/fb7d/45c4/d8b84e03ba43/8054e22fe9da/44303112400-e3/44303112400-e3.jpg?ts=1785846764621&w=1920",
+        "https://static.zara.net/assets/public/5777/e50a/76344977a6ee/bf1f090b5232/44303112400-e4/44303112400-e4.jpg?ts=1785846759570&w=1920",
+        "https://static.zara.net/assets/public/0d16/63cc/18304af38ab8/d04416823b7d/44303112400-e5/44303112400-e5.jpg?ts=1785846759249&w=1920",
+        "https://static.zara.net/assets/public/3042/df5f/5e6e47c4a45d/838fd2fb8fcb/44303112400-a1/44303112400-a1.jpg?ts=1786546342632&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Green",
+    "Red"
+  ],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nWeekly planner with a covered hard cover. Design includes a weekly view, monthly tabs, and space for notes.\n144 pages.",
+  "comp_care_text": null,
+  "raw_images_count": 13,
+  "valid_images_count": 8,
+  "variants_count": 3,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5a743e3f90b294a451af81d008f3ae4f326d96ac0f743da0f56524c0d6830e6a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:14200800",
+  "source_url": "https://www.zara.com/us/en/leather-watch-case-p14200800.html",
+  "final_url": "https://www.zara.com/us/en/leather-watch-case-p14200800.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-watch-case-p14200800.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER WATCH CASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER WATCH CASE",
+      "url": "https://www.zara.com/us/en/leather-watch-case-p14200800.html",
+      "productGroupID": "14200800",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Leather watch case with capacity for two watches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7e51/c3af/21da459cb868/0eacc5ed321e/14200800040-e1/14200800040-e1.jpg?ts=1785841962622&w=1920",
+        "https://static.zara.net/assets/public/408d/cdb0/621c4a0cb732/36635275c8bc/14200800040-e2/14200800040-e2.jpg?ts=1785841962597&w=1920",
+        "https://static.zara.net/assets/public/8e91/24fc/ac3a4d8eb323/38e5c7723044/14200800040-e3/14200800040-e3.jpg?ts=1785841957720&w=1920",
+        "https://static.zara.net/assets/public/70d7/236e/60d647d898d8/c88d121717c7/14200800040-e4/14200800040-e4.jpg?ts=1785841962105&w=1920",
+        "https://static.zara.net/assets/public/7c38/bb50/f1454a418654/6de3870d26b1/14200800040-e5/14200800040-e5.jpg?ts=1785841962542&w=1920",
+        "https://static.zara.net/assets/public/8fe9/088a/f4664078b56b/01c1999cef48/14200800040-a1/14200800040-a1.jpg?ts=1783607632950&w=1920"
+      ],
+      "material": "100% sheep leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% sheep leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% goat leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER WATCH CASE - Black - ONE SIZE ONLY",
+          "sku": "545431314-040-3",
+          "mpn": "545431314-040-3",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/7e51/c3af/21da459cb868/0eacc5ed321e/14200800040-e1/14200800040-e1.jpg?ts=1785841962622&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-watch-case-p14200800.html?v1=545431314",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER WATCH CASE",
+      "product_group_id": "14200800",
+      "brand": "ZARAHOME",
+      "description": "Leather watch case with capacity for two watches.",
+      "material": "100% sheep leather",
+      "composition": "OUTER SHELL: 100% sheep leather | LINING: 100% goat leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER WATCH CASE - Black - ONE SIZE ONLY",
+          "sku": "545431314-040-3",
+          "mpn": "545431314-040-3",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-watch-case-p14200800.html?v1=545431314",
+          "images": [
+            "https://static.zara.net/assets/public/7e51/c3af/21da459cb868/0eacc5ed321e/14200800040-e1/14200800040-e1.jpg?ts=1785841962622&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7e51/c3af/21da459cb868/0eacc5ed321e/14200800040-e1/14200800040-e1.jpg?ts=1785841962622&w=1920",
+        "https://static.zara.net/assets/public/408d/cdb0/621c4a0cb732/36635275c8bc/14200800040-e2/14200800040-e2.jpg?ts=1785841962597&w=1920",
+        "https://static.zara.net/assets/public/8e91/24fc/ac3a4d8eb323/38e5c7723044/14200800040-e3/14200800040-e3.jpg?ts=1785841957720&w=1920",
+        "https://static.zara.net/assets/public/70d7/236e/60d647d898d8/c88d121717c7/14200800040-e4/14200800040-e4.jpg?ts=1785841962105&w=1920",
+        "https://static.zara.net/assets/public/7c38/bb50/f1454a418654/6de3870d26b1/14200800040-e5/14200800040-e5.jpg?ts=1785841962542&w=1920",
+        "https://static.zara.net/assets/public/8fe9/088a/f4664078b56b/01c1999cef48/14200800040-a1/14200800040-a1.jpg?ts=1783607632950&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "89.90",
+  "rendered_description": "Description\nLeather watch case with capacity for two watches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "89.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "89.90",
+    "dom_price": "89.90",
+    "normalized_price": "89.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ce9c701e1417c0589e4c33e2d72d9c5687f685f46583e5034687973ce91d3d5b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

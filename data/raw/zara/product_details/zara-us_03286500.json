@@ -1,0 +1,492 @@
+{
+  "product_id": "zara-us:03286500",
+  "source_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html",
+  "final_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html",
+  "canonical_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TEXTURED REGULAR FIT JACKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TEXTURED REGULAR FIT JACKET",
+      "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html",
+      "productGroupID": "03286500",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Regular fit jacket made of textured fabric. Features a lapel collar and long sleeves with button cuffs. Hip welt pockets. Interior pocket detail. Front zip closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920",
+        "https://static.zara.net/assets/public/a2c5/c06e/f8c54218993c/bb1e9800d93c/03286500401-a1/03286500401-a1.jpg?ts=1785836568630&w=1920",
+        "https://static.zara.net/assets/public/e8fe/dc4e/3fe14cdb8d6b/d2ce343c5f6e/03286500401-a2/03286500401-a2.jpg?ts=1785836569635&w=1920",
+        "https://static.zara.net/assets/public/7814/1b7a/1a164f8a9d8d/a89403d2bb8c/03286500401-a3/03286500401-a3.jpg?ts=1785836569830&w=1920",
+        "https://static.zara.net/assets/public/8e8a/0271/1abf45d59c62/df18c4d529e1/03286500401-e1/03286500401-e1.jpg?ts=1785755579449&w=1920",
+        "https://static.zara.net/assets/public/5c57/af20/3a6f48109936/dbd74186c3de/03286500401-e2/03286500401-e2.jpg?ts=1785755583922&w=1920"
+      ],
+      "material": "polyester/acrylic/viscose",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "70% polyester, 18% acrylic, 12% viscose"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Navy blue - S",
+          "sku": "547261285-401-2",
+          "mpn": "547261285-401-2",
+          "color": "Navy blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261285",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Navy blue - M",
+          "sku": "547261285-401-3",
+          "mpn": "547261285-401-3",
+          "color": "Navy blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261285",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Navy blue - L",
+          "sku": "547261285-401-4",
+          "mpn": "547261285-401-4",
+          "color": "Navy blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261285",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Navy blue - XL",
+          "sku": "547261285-401-5",
+          "mpn": "547261285-401-5",
+          "color": "Navy blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261285",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Light green - S",
+          "sku": "547261285-526-2",
+          "mpn": "547261285-526-2",
+          "color": "Light green",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/3727/1945/5b514f639702/6d681defec4c/03286500526-p/03286500526-p.jpg?ts=1785841055164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261288",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Light green - M",
+          "sku": "547261285-526-3",
+          "mpn": "547261285-526-3",
+          "color": "Light green",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/3727/1945/5b514f639702/6d681defec4c/03286500526-p/03286500526-p.jpg?ts=1785841055164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261288",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Light green - L",
+          "sku": "547261285-526-4",
+          "mpn": "547261285-526-4",
+          "color": "Light green",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/3727/1945/5b514f639702/6d681defec4c/03286500526-p/03286500526-p.jpg?ts=1785841055164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261288",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Light green - XL",
+          "sku": "547261285-526-5",
+          "mpn": "547261285-526-5",
+          "color": "Light green",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/3727/1945/5b514f639702/6d681defec4c/03286500526-p/03286500526-p.jpg?ts=1785841055164&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261288",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Dark olive - S",
+          "sku": "547261285-528-2",
+          "mpn": "547261285-528-2",
+          "color": "Dark olive",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/9db0/fea0/52754f5cb658/aa9fd37de825/03286502528-p/03286502528-p.jpg?ts=1785836569058&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=549214674",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Dark olive - M",
+          "sku": "547261285-528-3",
+          "mpn": "547261285-528-3",
+          "color": "Dark olive",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/9db0/fea0/52754f5cb658/aa9fd37de825/03286502528-p/03286502528-p.jpg?ts=1785836569058&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=549214674",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Dark olive - L",
+          "sku": "547261285-528-4",
+          "mpn": "547261285-528-4",
+          "color": "Dark olive",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/9db0/fea0/52754f5cb658/aa9fd37de825/03286502528-p/03286502528-p.jpg?ts=1785836569058&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=549214674",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT JACKET - Dark olive - XL",
+          "sku": "547261285-528-5",
+          "mpn": "547261285-528-5",
+          "color": "Dark olive",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/9db0/fea0/52754f5cb658/aa9fd37de825/03286502528-p/03286502528-p.jpg?ts=1785836569058&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=549214674",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TEXTURED REGULAR FIT JACKET",
+      "product_group_id": "03286500",
+      "brand": "ZARA",
+      "description": "Regular fit jacket made of textured fabric. Features a lapel collar and long sleeves with button cuffs. Hip welt pockets. Interior pocket detail. Front zip closure.",
+      "material": "polyester/acrylic/viscose",
+      "composition": "OUTER SHELL: 70% polyester, 18% acrylic, 12% viscose | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Navy blue - S",
+          "sku": "547261285-401-2",
+          "mpn": "547261285-401-2",
+          "color_name": "Navy blue",
+          "size_name": "S",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261285",
+          "images": [
+            "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Navy blue - M",
+          "sku": "547261285-401-3",
+          "mpn": "547261285-401-3",
+          "color_name": "Navy blue",
+          "size_name": "M",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261285",
+          "images": [
+            "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Navy blue - L",
+          "sku": "547261285-401-4",
+          "mpn": "547261285-401-4",
+          "color_name": "Navy blue",
+          "size_name": "L",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261285",
+          "images": [
+            "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Navy blue - XL",
+          "sku": "547261285-401-5",
+          "mpn": "547261285-401-5",
+          "color_name": "Navy blue",
+          "size_name": "XL",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261285",
+          "images": [
+            "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Light green - S",
+          "sku": "547261285-526-2",
+          "mpn": "547261285-526-2",
+          "color_name": "Light green",
+          "size_name": "S",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261288",
+          "images": [
+            "https://static.zara.net/assets/public/3727/1945/5b514f639702/6d681defec4c/03286500526-p/03286500526-p.jpg?ts=1785841055164&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Light green - M",
+          "sku": "547261285-526-3",
+          "mpn": "547261285-526-3",
+          "color_name": "Light green",
+          "size_name": "M",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261288",
+          "images": [
+            "https://static.zara.net/assets/public/3727/1945/5b514f639702/6d681defec4c/03286500526-p/03286500526-p.jpg?ts=1785841055164&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Light green - L",
+          "sku": "547261285-526-4",
+          "mpn": "547261285-526-4",
+          "color_name": "Light green",
+          "size_name": "L",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261288",
+          "images": [
+            "https://static.zara.net/assets/public/3727/1945/5b514f639702/6d681defec4c/03286500526-p/03286500526-p.jpg?ts=1785841055164&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Light green - XL",
+          "sku": "547261285-526-5",
+          "mpn": "547261285-526-5",
+          "color_name": "Light green",
+          "size_name": "XL",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=547261288",
+          "images": [
+            "https://static.zara.net/assets/public/3727/1945/5b514f639702/6d681defec4c/03286500526-p/03286500526-p.jpg?ts=1785841055164&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Dark olive - S",
+          "sku": "547261285-528-2",
+          "mpn": "547261285-528-2",
+          "color_name": "Dark olive",
+          "size_name": "S",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=549214674",
+          "images": [
+            "https://static.zara.net/assets/public/9db0/fea0/52754f5cb658/aa9fd37de825/03286502528-p/03286502528-p.jpg?ts=1785836569058&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Dark olive - M",
+          "sku": "547261285-528-3",
+          "mpn": "547261285-528-3",
+          "color_name": "Dark olive",
+          "size_name": "M",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=549214674",
+          "images": [
+            "https://static.zara.net/assets/public/9db0/fea0/52754f5cb658/aa9fd37de825/03286502528-p/03286502528-p.jpg?ts=1785836569058&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Dark olive - L",
+          "sku": "547261285-528-4",
+          "mpn": "547261285-528-4",
+          "color_name": "Dark olive",
+          "size_name": "L",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=549214674",
+          "images": [
+            "https://static.zara.net/assets/public/9db0/fea0/52754f5cb658/aa9fd37de825/03286502528-p/03286502528-p.jpg?ts=1785836569058&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT JACKET - Dark olive - XL",
+          "sku": "547261285-528-5",
+          "mpn": "547261285-528-5",
+          "color_name": "Dark olive",
+          "size_name": "XL",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/textured-regular-fit-jacket-p03286500.html?v1=549214674",
+          "images": [
+            "https://static.zara.net/assets/public/9db0/fea0/52754f5cb658/aa9fd37de825/03286502528-p/03286502528-p.jpg?ts=1785836569058&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e5ed/e4eb/925b41a6a7b7/00aad05509f7/03286500401-p/03286500401-p.jpg?ts=1785836568941&w=1920",
+        "https://static.zara.net/assets/public/a2c5/c06e/f8c54218993c/bb1e9800d93c/03286500401-a1/03286500401-a1.jpg?ts=1785836568630&w=1920",
+        "https://static.zara.net/assets/public/e8fe/dc4e/3fe14cdb8d6b/d2ce343c5f6e/03286500401-a2/03286500401-a2.jpg?ts=1785836569635&w=1920",
+        "https://static.zara.net/assets/public/7814/1b7a/1a164f8a9d8d/a89403d2bb8c/03286500401-a3/03286500401-a3.jpg?ts=1785836569830&w=1920",
+        "https://static.zara.net/assets/public/8e8a/0271/1abf45d59c62/df18c4d529e1/03286500401-e1/03286500401-e1.jpg?ts=1785755579449&w=1920",
+        "https://static.zara.net/assets/public/5c57/af20/3a6f48109936/dbd74186c3de/03286500401-e2/03286500401-e2.jpg?ts=1785755583922&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Navy blue",
+    "Light green",
+    "Dark olive"
+  ],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nRegular fit jacket made of textured fabric. Features a lapel collar and long sleeves with button cuffs. Hip welt pockets. Interior pocket detail. Front zip closure.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 8,
+  "variants_count": 12,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d0ddf9c8ed59cca92630eee5db985ea612e5fdadde289e480bcdd8fe152d2b50",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

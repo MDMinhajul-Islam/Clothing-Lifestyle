@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44317728",
+  "source_url": "https://www.zara.com/us/en/monthly-clip-pack--pack-of-12--p44317728.html",
+  "final_url": "https://www.zara.com/us/en/monthly-clip-pack--pack-of-12--p44317728.html",
+  "canonical_url": "https://www.zara.com/us/en/monthly-clip-pack--pack-of-12--p44317728.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MONTHLY CLIP PACK (PACK OF 12)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MONTHLY CLIP PACK (PACK OF 12)",
+      "url": "https://www.zara.com/us/en/monthly-clip-pack--pack-of-12--p44317728.html",
+      "productGroupID": "44317728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pack of 12 metal clips. Each clip features the name of a month to help organize and sort documents.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/81ff/85e8/e2b14a4e98cc/ed2e16bb0f83/44317728302-e1/44317728302-e1.jpg?ts=1784208838093&w=1920",
+        "https://static.zara.net/assets/public/63c1/e41e/47bd4bc1a2c9/bc111f635274/44317728302-e2/44317728302-e2.jpg?ts=1784208836716&w=1920",
+        "https://static.zara.net/assets/public/ac30/b8d1/333f4c79a19f/a52c2dfc66f0/44317728302-e3/44317728302-e3.jpg?ts=1784208836129&w=1920",
+        "https://static.zara.net/assets/public/bf62/7d19/4f1d4fa1a4cd/fb8347975122/44317728302-e4/44317728302-e4.jpg?ts=1784208835297&w=1920",
+        "https://static.zara.net/assets/public/e4dc/e6f9/dbc54ecf8383/c99a1f3fb0ff/44317728302-a1/44317728302-a1.jpg?ts=1785854590702&w=1920"
+      ],
+      "material": "100% brass",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% brass"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MONTHLY CLIP PACK (PACK OF 12) - Gold - ONE SIZE ONLY",
+          "sku": "545412998-302-99",
+          "mpn": "545412998-302-99",
+          "color": "Gold",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/81ff/85e8/e2b14a4e98cc/ed2e16bb0f83/44317728302-e1/44317728302-e1.jpg?ts=1784208838093&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/monthly-clip-pack--pack-of-12--p44317728.html?v1=545412998",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MONTHLY CLIP PACK (PACK OF 12)",
+      "product_group_id": "44317728",
+      "brand": "ZARAHOME",
+      "description": "Pack of 12 metal clips. Each clip features the name of a month to help organize and sort documents.",
+      "material": "100% brass",
+      "composition": "OUTER SHELL: 100% brass",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MONTHLY CLIP PACK (PACK OF 12) - Gold - ONE SIZE ONLY",
+          "sku": "545412998-302-99",
+          "mpn": "545412998-302-99",
+          "color_name": "Gold",
+          "size_name": "ONE SIZE ONLY",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/monthly-clip-pack--pack-of-12--p44317728.html?v1=545412998",
+          "images": [
+            "https://static.zara.net/assets/public/81ff/85e8/e2b14a4e98cc/ed2e16bb0f83/44317728302-e1/44317728302-e1.jpg?ts=1784208838093&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/81ff/85e8/e2b14a4e98cc/ed2e16bb0f83/44317728302-e1/44317728302-e1.jpg?ts=1784208838093&w=1920",
+        "https://static.zara.net/assets/public/63c1/e41e/47bd4bc1a2c9/bc111f635274/44317728302-e2/44317728302-e2.jpg?ts=1784208836716&w=1920",
+        "https://static.zara.net/assets/public/ac30/b8d1/333f4c79a19f/a52c2dfc66f0/44317728302-e3/44317728302-e3.jpg?ts=1784208836129&w=1920",
+        "https://static.zara.net/assets/public/bf62/7d19/4f1d4fa1a4cd/fb8347975122/44317728302-e4/44317728302-e4.jpg?ts=1784208835297&w=1920",
+        "https://static.zara.net/assets/public/e4dc/e6f9/dbc54ecf8383/c99a1f3fb0ff/44317728302-a1/44317728302-a1.jpg?ts=1785854590702&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nPack of 12 metal clips. Each clip features the name of a month to help organize and sort documents.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "149c21c88ecc6abd4d209f9a4e6fc47b9aa14572b3b6fd98ef003986a4be1213",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44318043",
+  "source_url": "https://www.zara.com/us/en/rectangular-metal-bin-p44318043.html",
+  "final_url": "https://www.zara.com/us/en/rectangular-metal-bin-p44318043.html",
+  "canonical_url": "https://www.zara.com/us/en/rectangular-metal-bin-p44318043.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RECTANGULAR METAL BIN",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RECTANGULAR METAL BIN",
+      "url": "https://www.zara.com/us/en/rectangular-metal-bin-p44318043.html",
+      "productGroupID": "44318043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Metal wastepaper basket. Elongated rectangular design in a solid color with a glossy finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bfa6/41c8/d6874a2cb097/516ca9356a77/44318043700-e1/44318043700-e1.jpg?ts=1785846783411&w=1920",
+        "https://static.zara.net/assets/public/247e/2110/803f4b1cb38e/15d016997a8f/44318043700-e2/44318043700-e2.jpg?ts=1785846784505&w=1920",
+        "https://static.zara.net/assets/public/67d6/d4d2/24f24d89905a/0c03dde77050/44318043700-e3/44318043700-e3.jpg?ts=1785846784237&w=1920",
+        "https://static.zara.net/assets/public/3976/6505/82e640d7a08c/d6b4219ae543/44318043700-e4/44318043700-e4.jpg?ts=1785846783655&w=1920",
+        "https://static.zara.net/assets/public/bcc2/cf74/a8264410b4ea/ec87b4686931/44318043700-a1/44318043700-a1.jpg?ts=1786546391857&w=1920"
+      ],
+      "material": "mango tree wood/stainless steel",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "97% mango tree wood, 3% stainless steel"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RECTANGULAR METAL BIN - Brown - ONE SIZE ONLY",
+          "sku": "545412994-700-99",
+          "mpn": "545412994-700-99",
+          "color": "Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/bfa6/41c8/d6874a2cb097/516ca9356a77/44318043700-e1/44318043700-e1.jpg?ts=1785846783411&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/rectangular-metal-bin-p44318043.html?v1=545412994",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RECTANGULAR METAL BIN",
+      "product_group_id": "44318043",
+      "brand": "ZARAHOME",
+      "description": "Metal wastepaper basket. Elongated rectangular design in a solid color with a glossy finish.",
+      "material": "mango tree wood/stainless steel",
+      "composition": "OUTER SHELL: 97% mango tree wood, 3% stainless steel",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RECTANGULAR METAL BIN - Brown - ONE SIZE ONLY",
+          "sku": "545412994-700-99",
+          "mpn": "545412994-700-99",
+          "color_name": "Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rectangular-metal-bin-p44318043.html?v1=545412994",
+          "images": [
+            "https://static.zara.net/assets/public/bfa6/41c8/d6874a2cb097/516ca9356a77/44318043700-e1/44318043700-e1.jpg?ts=1785846783411&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bfa6/41c8/d6874a2cb097/516ca9356a77/44318043700-e1/44318043700-e1.jpg?ts=1785846783411&w=1920",
+        "https://static.zara.net/assets/public/247e/2110/803f4b1cb38e/15d016997a8f/44318043700-e2/44318043700-e2.jpg?ts=1785846784505&w=1920",
+        "https://static.zara.net/assets/public/67d6/d4d2/24f24d89905a/0c03dde77050/44318043700-e3/44318043700-e3.jpg?ts=1785846784237&w=1920",
+        "https://static.zara.net/assets/public/3976/6505/82e640d7a08c/d6b4219ae543/44318043700-e4/44318043700-e4.jpg?ts=1785846783655&w=1920",
+        "https://static.zara.net/assets/public/bcc2/cf74/a8264410b4ea/ec87b4686931/44318043700-a1/44318043700-a1.jpg?ts=1786546391857&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nMetal wastepaper basket. Elongated rectangular design in a solid color with a glossy finish.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c085423c0131ad66b4433e6b9b1ed858494d49e84e63f417a9cb12d24fcea238",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

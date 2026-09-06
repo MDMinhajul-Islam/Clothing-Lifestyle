@@ -1,0 +1,136 @@
+{
+  "product_id": "zara-us:14301800",
+  "source_url": "https://www.zara.com/us/en/leather-computer-case-p14301800.html",
+  "final_url": "https://www.zara.com/us/en/leather-computer-case-p14301800.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-computer-case-p14301800.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER COMPUTER CASE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER COMPUTER CASE",
+      "url": "https://www.zara.com/us/en/leather-computer-case-p14301800.html",
+      "productGroupID": "14301800",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Computer case made of leather. Interior with contrasting compartments. Magnetic flap closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a1b3/ea5d/88c846f39ad1/6ec97675cd43/14301800010-e1/14301800010-e1.jpg?ts=1784716553374&w=1920",
+        "https://static.zara.net/assets/public/14a3/e677/33d446219051/7d472da1c8f7/14301800010-e2/14301800010-e2.jpg?ts=1784716552911&w=1920",
+        "https://static.zara.net/assets/public/606a/70eb/53744f41a0d2/a14d458b291c/14301800010-e3/14301800010-e3.jpg?ts=1784716552997&w=1920",
+        "https://static.zara.net/assets/public/adc8/b433/ef4b4f2bb0dd/91f4c60af7d6/14301800010-e4/14301800010-e4.jpg?ts=1784716552845&w=1920",
+        "https://static.zara.net/assets/public/28b1/48a8/1def4538b0a2/e1343b695630/14301800010-e5/14301800010-e5.jpg?ts=1784716553242&w=1920",
+        "https://static.zara.net/assets/public/51e6/3ba9/caca463ab8fd/ac94e87d9063/14301800010-a1/14301800010-a1.jpg?ts=1784802671942&w=1920"
+      ],
+      "material": "100% sheep leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% sheep leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% sheep leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER COMPUTER CASE - Navy Blue - ONE SIZE ONLY",
+          "sku": "547304894-010-3",
+          "mpn": "547304894-010-3",
+          "color": "Navy Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a1b3/ea5d/88c846f39ad1/6ec97675cd43/14301800010-e1/14301800010-e1.jpg?ts=1784716553374&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/leather-computer-case-p14301800.html?v1=547304894",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER COMPUTER CASE",
+      "product_group_id": "14301800",
+      "brand": "ZARAHOME",
+      "description": "Computer case made of leather. Interior with contrasting compartments. Magnetic flap closure.",
+      "material": "100% sheep leather",
+      "composition": "OUTER SHELL: 100% sheep leather | LINING: 100% sheep leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER COMPUTER CASE - Navy Blue - ONE SIZE ONLY",
+          "sku": "547304894-010-3",
+          "mpn": "547304894-010-3",
+          "color_name": "Navy Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "169.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-computer-case-p14301800.html?v1=547304894",
+          "images": [
+            "https://static.zara.net/assets/public/a1b3/ea5d/88c846f39ad1/6ec97675cd43/14301800010-e1/14301800010-e1.jpg?ts=1784716553374&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a1b3/ea5d/88c846f39ad1/6ec97675cd43/14301800010-e1/14301800010-e1.jpg?ts=1784716553374&w=1920",
+        "https://static.zara.net/assets/public/14a3/e677/33d446219051/7d472da1c8f7/14301800010-e2/14301800010-e2.jpg?ts=1784716552911&w=1920",
+        "https://static.zara.net/assets/public/606a/70eb/53744f41a0d2/a14d458b291c/14301800010-e3/14301800010-e3.jpg?ts=1784716552997&w=1920",
+        "https://static.zara.net/assets/public/adc8/b433/ef4b4f2bb0dd/91f4c60af7d6/14301800010-e4/14301800010-e4.jpg?ts=1784716552845&w=1920",
+        "https://static.zara.net/assets/public/28b1/48a8/1def4538b0a2/e1343b695630/14301800010-e5/14301800010-e5.jpg?ts=1784716553242&w=1920",
+        "https://static.zara.net/assets/public/51e6/3ba9/caca463ab8fd/ac94e87d9063/14301800010-a1/14301800010-a1.jpg?ts=1784802671942&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "169.00",
+  "rendered_description": "Description\nComputer case made of leather. Interior with contrasting compartments. Magnetic flap closure.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "169.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "169.00",
+    "dom_price": "169.00",
+    "normalized_price": "169.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "65c1b39cf7c781fb4c16676d6365d1a3f3755080c6f5dc2e11af3501940318d0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

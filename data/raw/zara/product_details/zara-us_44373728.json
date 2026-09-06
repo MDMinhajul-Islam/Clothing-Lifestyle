@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44373728",
+  "source_url": "https://www.zara.com/us/en/linen-briefcase-file-folder-p44373728.html",
+  "final_url": "https://www.zara.com/us/en/linen-briefcase-file-folder-p44373728.html",
+  "canonical_url": "https://www.zara.com/us/en/linen-briefcase-file-folder-p44373728.html",
+  "enriched_at": "2026-09-06T17:35:53.054383+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LINEN BRIEFCASE FILE FOLDER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LINEN BRIEFCASE FILE FOLDER",
+      "url": "https://www.zara.com/us/en/linen-briefcase-file-folder-p44373728.html",
+      "productGroupID": "44373728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Briefcase file folder with interior gusset, metallic turn-lock closure, and lined with linen fabric. Rectangular design with interior compartments for organizing and classifying documents.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3d32/265c/4ef14cd9bd09/ccb2c08f705e/44373728712-e1/44373728712-e1.jpg?ts=1786632875501&w=1920",
+        "https://static.zara.net/assets/public/6a38/0bf4/dbee4478965a/cf252f74fe6f/44373728712-e2/44373728712-e2.jpg?ts=1786632877052&w=1920",
+        "https://static.zara.net/assets/public/7e59/50aa/74cb42eea845/c501c28bf994/44373728712-e3/44373728712-e3.jpg?ts=1786632877014&w=1920",
+        "https://static.zara.net/assets/public/82fb/4743/9de2471db819/d7daafe7dae8/44373728712-e4/44373728712-e4.jpg?ts=1786632876828&w=1920",
+        "https://static.zara.net/assets/public/1b56/a657/9b9a400fa8bd/3cddf0e25b51/44373728712-a1/44373728712-a1.jpg?ts=1785851238248&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LINEN BRIEFCASE FILE FOLDER - Ecru - ONE SIZE ONLY",
+          "sku": "545422680-712-99",
+          "mpn": "545422680-712-99",
+          "color": "Ecru",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3d32/265c/4ef14cd9bd09/ccb2c08f705e/44373728712-e1/44373728712-e1.jpg?ts=1786632875501&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/linen-briefcase-file-folder-p44373728.html?v1=545422680",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LINEN BRIEFCASE FILE FOLDER",
+      "product_group_id": "44373728",
+      "brand": "ZARAHOME",
+      "description": "Briefcase file folder with interior gusset, metallic turn-lock closure, and lined with linen fabric. Rectangular design with interior compartments for organizing and classifying documents.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LINEN BRIEFCASE FILE FOLDER - Ecru - ONE SIZE ONLY",
+          "sku": "545422680-712-99",
+          "mpn": "545422680-712-99",
+          "color_name": "Ecru",
+          "size_name": "ONE SIZE ONLY",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/linen-briefcase-file-folder-p44373728.html?v1=545422680",
+          "images": [
+            "https://static.zara.net/assets/public/3d32/265c/4ef14cd9bd09/ccb2c08f705e/44373728712-e1/44373728712-e1.jpg?ts=1786632875501&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3d32/265c/4ef14cd9bd09/ccb2c08f705e/44373728712-e1/44373728712-e1.jpg?ts=1786632875501&w=1920",
+        "https://static.zara.net/assets/public/6a38/0bf4/dbee4478965a/cf252f74fe6f/44373728712-e2/44373728712-e2.jpg?ts=1786632877052&w=1920",
+        "https://static.zara.net/assets/public/7e59/50aa/74cb42eea845/c501c28bf994/44373728712-e3/44373728712-e3.jpg?ts=1786632877014&w=1920",
+        "https://static.zara.net/assets/public/82fb/4743/9de2471db819/d7daafe7dae8/44373728712-e4/44373728712-e4.jpg?ts=1786632876828&w=1920",
+        "https://static.zara.net/assets/public/1b56/a657/9b9a400fa8bd/3cddf0e25b51/44373728712-a1/44373728712-a1.jpg?ts=1785851238248&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nBriefcase file folder with interior gusset, metallic turn-lock closure, and lined with linen fabric. Rectangular design with interior compartments for organizing and classifying documents.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "80e9d2252e064305545ee7c47c1982df0b378fa3e5c62a58a2324f58b4f6d78c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
