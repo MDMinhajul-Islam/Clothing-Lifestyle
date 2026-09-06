@@ -275,7 +275,11 @@ def compute_content_hash(product_record, colors, variants, images):
 
 def extract_page_evidence(page, url):
     response = page.goto(url, timeout=45000, wait_until="domcontentloaded")
-    page.wait_for_timeout(3500)
+    try:
+        page.wait_for_selector('script[type="application/ld+json"], h1, .product-detail-view', timeout=3000)
+        page.wait_for_timeout(1000)
+    except Exception:
+        page.wait_for_timeout(2000)
 
     # Dismiss cookie banner
     try:
@@ -679,12 +683,10 @@ def build_normalized_records(evidence, global_product, now_iso):
         "enrichment_status": "COMPLETE" if price and exact_name else "PARTIAL"
     }
 
-    # Compute deterministic content hash
     # Content hash
     content_hash = compute_content_hash(product_record, color_records, variant_records, image_records)
     product_record["source_content_hash"] = content_hash
 
-    return product_record, variant_records, color_records, image_records
     image_stats = {
         "raw_observed": raw_obs,
         "duplicates_removed": dups_removed,
@@ -697,11 +699,14 @@ def build_normalized_records(evidence, global_product, now_iso):
         "original_price": original_price,
         "sale_price": sale_price,
         "is_on_sale": is_on_sale,
+        "jsonld_price": jsonld_price,
+        "dom_price": dom_price,
+        "normalized_price": price,
+        "normalization_reason": "JSON-LD price preferred" if jsonld_price else ("Rendered DOM fallback" if dom_price else "MISSING"),
         "price_conflict": price_conflict,
         "price_conflict_details": price_conflict_details
     }
 
-def run_enrichment_batch(product_ids=None, batch_size=20):
     return product_record, variant_records, color_records, image_records, image_stats, pricing_stats
 
 
@@ -718,11 +723,13 @@ def run_enrichment_batch(product_ids=None, batch_size=100, preserve_completed=Tr
     normalized_variants = read(STATE / 'product_variants.json', [])
     normalized_colors = read(STATE / 'product_colors.json', [])
     normalized_images = read(STATE / 'product_images.json', [])
+    normalized_price_hist = read(STATE / 'product_price_history.json', [])
 
     existing_prod_map = {p["product_id"]: p for p in normalized_products}
     existing_var_map = {v["variant_id"]: v for v in normalized_variants}
     existing_col_map = {c["color_id"]: c for c in normalized_colors}
     existing_img_map = {img["image_id"]: img for img in normalized_images}
+    existing_price_hist_map = {f"{h['product_id']}:{h['observed_at']}": h for h in normalized_price_hist}
 
     # Determine batch items
     queue_by_id = {q["id"]: q for q in product_queue}
@@ -798,7 +805,6 @@ def run_enrichment_batch(product_ids=None, batch_size=100, preserve_completed=Tr
                     print(f"   NOT FOUND: 404")
                 else:
                     # Successfully extracted
-                    prod_rec, vars_rec, cols_rec, imgs_rec = build_normalized_records(evidence, global_p, now_iso)
                     prod_rec, vars_rec, cols_rec, imgs_rec, img_stats, price_stats = build_normalized_records(
                         evidence, global_p, now_iso
                     )
@@ -816,6 +822,17 @@ def run_enrichment_batch(product_ids=None, batch_size=100, preserve_completed=Tr
                         existing_col_map[c["color_id"]] = c
                     for img in imgs_rec:
                         existing_img_map[img["image_id"]] = img
+
+                    price_hist_rec = {
+                        "product_id": pid,
+                        "observed_at": now_iso,
+                        "currency": prod_rec["currency"],
+                        "original_price": prod_rec["original_price"],
+                        "current_price": prod_rec["current_price"],
+                        "sale_price": prod_rec["sale_price"],
+                        "is_on_sale": prod_rec["is_on_sale"]
+                    }
+                    existing_price_hist_map[f"{pid}:{now_iso}"] = price_hist_rec
 
                     # Save raw evidence
                     raw_file = PRODUCT_DETAILS_RAW / f"{source_pid}.json"
@@ -903,6 +920,7 @@ def run_enrichment_batch(product_ids=None, batch_size=100, preserve_completed=Tr
             write(STATE / 'product_variants.json', list(existing_var_map.values()))
             write(STATE / 'product_colors.json', list(existing_col_map.values()))
             write(STATE / 'product_images.json', list(existing_img_map.values()))
+            write(STATE / 'product_price_history.json', list(existing_price_hist_map.values()))
 
         browser.close()
 
