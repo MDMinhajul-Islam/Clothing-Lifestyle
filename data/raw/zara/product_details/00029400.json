@@ -1,0 +1,381 @@
+{
+  "product_id": "zara-us:00029400",
+  "source_product_id": "00029400",
+  "source_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html",
+  "final_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html",
+  "canonical_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html",
+  "retrieved_at": "2026-09-06T08:47:12.387115+00:00",
+  "http_status": 200,
+  "page_title": "REGULAR FIT QUILTED VEST - Black | ZARA United States",
+  "headings": [
+    "REGULAR FIT QUILTED VEST",
+    "Add to cart",
+    "Description",
+    "COMPLETE YOUR LOOK",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "REGULAR FIT QUILTED VEST",
+      "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html",
+      "productGroupID": "00029400",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Regular fit quilted vest. High neck and sleeveless. Hip welt pockets. Front closure with zipper hidden by a snap-button placket.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920",
+        "https://static.zara.net/assets/public/12aa/e896/29d04170b03d/022d07a6eaf5/00029400800-a1/00029400800-a1.jpg?ts=1787065839529&w=1920",
+        "https://static.zara.net/assets/public/bcbf/a9bf/347e4f948e97/434027891095/00029400800-a2/00029400800-a2.jpg?ts=1787065840794&w=1920",
+        "https://static.zara.net/assets/public/f104/0df0/8d5a424c94a0/e4f7279058ce/00029400800-a3/00029400800-a3.jpg?ts=1787065839623&w=1920",
+        "https://static.zara.net/assets/public/0142/0162/eb3e47ec9ef9/bbafb7680a27/00029400800-a4/00029400800-a4.jpg?ts=1787065840926&w=1920",
+        "https://static.zara.net/assets/public/680d/e4ad/afc448d4af71/5b1366daad7c/00029400800-a5/00029400800-a5.jpg?ts=1787065840064&w=1920",
+        "https://static.zara.net/assets/public/54bb/4339/5cc84b39816e/d2fc7a09496b/00029400800-e1/00029400800-e1.jpg?ts=1786981033836&w=1920",
+        "https://static.zara.net/assets/public/0c9b/b675/6512470f88f8/4ea9b10a826c/00029400800-e2/00029400800-e2.jpg?ts=1786981033913&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT QUILTED VEST - Black - S",
+          "sku": "547312214-800-2",
+          "mpn": "547312214-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312214",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT QUILTED VEST - Black - M",
+          "sku": "547312214-800-3",
+          "mpn": "547312214-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312214",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT QUILTED VEST - Black - L",
+          "sku": "547312214-800-4",
+          "mpn": "547312214-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312214",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT QUILTED VEST - Black - XL",
+          "sku": "547312214-800-5",
+          "mpn": "547312214-800-5",
+          "color": "Black",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312214",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT QUILTED VEST - Gray - S",
+          "sku": "547312214-802-2",
+          "mpn": "547312214-802-2",
+          "color": "Gray",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/c836/7568/76d540759d0a/2261bc95b0eb/00029400802-p/00029400802-p.jpg?ts=1787065841663&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312215",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT QUILTED VEST - Gray - M",
+          "sku": "547312214-802-3",
+          "mpn": "547312214-802-3",
+          "color": "Gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/c836/7568/76d540759d0a/2261bc95b0eb/00029400802-p/00029400802-p.jpg?ts=1787065841663&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312215",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT QUILTED VEST - Gray - L",
+          "sku": "547312214-802-4",
+          "mpn": "547312214-802-4",
+          "color": "Gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/c836/7568/76d540759d0a/2261bc95b0eb/00029400802-p/00029400802-p.jpg?ts=1787065841663&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312215",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REGULAR FIT QUILTED VEST - Gray - XL",
+          "sku": "547312214-802-5",
+          "mpn": "547312214-802-5",
+          "color": "Gray",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/c836/7568/76d540759d0a/2261bc95b0eb/00029400802-p/00029400802-p.jpg?ts=1787065841663&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312215",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "REGULAR FIT QUILTED VEST",
+      "product_group_id": "00029400",
+      "brand": "ZARA",
+      "description": "Regular fit quilted vest. High neck and sleeveless. Hip welt pockets. Front closure with zipper hidden by a snap-button placket.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester; LINING: 100% polyester; FILLING: 100% polyester",
+      "images": [
+        "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920",
+        "https://static.zara.net/assets/public/12aa/e896/29d04170b03d/022d07a6eaf5/00029400800-a1/00029400800-a1.jpg?ts=1787065839529&w=1920",
+        "https://static.zara.net/assets/public/bcbf/a9bf/347e4f948e97/434027891095/00029400800-a2/00029400800-a2.jpg?ts=1787065840794&w=1920",
+        "https://static.zara.net/assets/public/f104/0df0/8d5a424c94a0/e4f7279058ce/00029400800-a3/00029400800-a3.jpg?ts=1787065839623&w=1920",
+        "https://static.zara.net/assets/public/0142/0162/eb3e47ec9ef9/bbafb7680a27/00029400800-a4/00029400800-a4.jpg?ts=1787065840926&w=1920",
+        "https://static.zara.net/assets/public/680d/e4ad/afc448d4af71/5b1366daad7c/00029400800-a5/00029400800-a5.jpg?ts=1787065840064&w=1920",
+        "https://static.zara.net/assets/public/54bb/4339/5cc84b39816e/d2fc7a09496b/00029400800-e1/00029400800-e1.jpg?ts=1786981033836&w=1920",
+        "https://static.zara.net/assets/public/0c9b/b675/6512470f88f8/4ea9b10a826c/00029400800-e2/00029400800-e2.jpg?ts=1786981033913&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "REGULAR FIT QUILTED VEST - Black - S",
+          "sku": "547312214-800-2",
+          "mpn": "547312214-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "69.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312214",
+          "images": [
+            "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT QUILTED VEST - Black - M",
+          "sku": "547312214-800-3",
+          "mpn": "547312214-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "69.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312214",
+          "images": [
+            "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT QUILTED VEST - Black - L",
+          "sku": "547312214-800-4",
+          "mpn": "547312214-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "69.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312214",
+          "images": [
+            "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT QUILTED VEST - Black - XL",
+          "sku": "547312214-800-5",
+          "mpn": "547312214-800-5",
+          "color_name": "Black",
+          "size_name": "XL",
+          "price": "69.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312214",
+          "images": [
+            "https://static.zara.net/assets/public/bfe8/63d1/ebd9419c8b7c/6806a589b04c/00029400800-p/00029400800-p.jpg?ts=1787065836599&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT QUILTED VEST - Gray - S",
+          "sku": "547312214-802-2",
+          "mpn": "547312214-802-2",
+          "color_name": "Gray",
+          "size_name": "S",
+          "price": "69.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312215",
+          "images": [
+            "https://static.zara.net/assets/public/c836/7568/76d540759d0a/2261bc95b0eb/00029400802-p/00029400802-p.jpg?ts=1787065841663&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT QUILTED VEST - Gray - M",
+          "sku": "547312214-802-3",
+          "mpn": "547312214-802-3",
+          "color_name": "Gray",
+          "size_name": "M",
+          "price": "69.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312215",
+          "images": [
+            "https://static.zara.net/assets/public/c836/7568/76d540759d0a/2261bc95b0eb/00029400802-p/00029400802-p.jpg?ts=1787065841663&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT QUILTED VEST - Gray - L",
+          "sku": "547312214-802-4",
+          "mpn": "547312214-802-4",
+          "color_name": "Gray",
+          "size_name": "L",
+          "price": "69.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312215",
+          "images": [
+            "https://static.zara.net/assets/public/c836/7568/76d540759d0a/2261bc95b0eb/00029400802-p/00029400802-p.jpg?ts=1787065841663&w=1920"
+          ]
+        },
+        {
+          "name": "REGULAR FIT QUILTED VEST - Gray - XL",
+          "sku": "547312214-802-5",
+          "mpn": "547312214-802-5",
+          "color_name": "Gray",
+          "size_name": "XL",
+          "price": "69.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/regular-fit-padded-vest-p00029400.html?v1=547312215",
+          "images": [
+            "https://static.zara.net/assets/public/c836/7568/76d540759d0a/2261bc95b0eb/00029400802-p/00029400802-p.jpg?ts=1787065841663&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Black",
+    "Gray",
+    "BLACK0029/400/800",
+    "0029/400/800"
+  ],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\n\nRegular fit quilted vest. High neck and sleeveless. Hip welt pockets. Front closure with zipper hidden by a snap-button placket.",
+  "comp_care_text": null,
+  "raw_images_observed": 30,
+  "delivery_duplicates_removed": 8,
+  "valid_images_retained": 9,
+  "color_mapped_images": 2,
+  "variants_count": 8,
+  "colors_count": 4,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "183aafb8d0ae8813e2aa26520176404dc0c9fcf78f9bd9dce9728ddbd1483598",
+  "parser_version": "phase_1c_v1.1"
+}

@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20110604",
+  "source_product_id": "20110604",
+  "source_url": "https://www.zara.com/us/en/red-zara-temptation-tobacco-extrait-de-parfum-50ml--1-7-fl--oz---p20110604.html",
+  "final_url": "https://www.zara.com/us/en/red-zara-temptation-tobacco-extrait-de-parfum-50ml--1-7-fl--oz---p20110604.html",
+  "canonical_url": "https://www.zara.com/us/en/red-zara-temptation-tobacco-extrait-de-parfum-50ml--1-7-fl--oz---p20110604.html",
+  "retrieved_at": "2026-09-06T08:52:02.848151+00:00",
+  "http_status": 200,
+  "page_title": "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ). | ZARA United States",
+  "headings": [
+    "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM",
+    "EXTRAIT DE PARFUM",
+    "Description",
+    "YOU MIGHT LIKE",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ).",
+      "url": "https://www.zara.com/us/en/red-zara-temptation-tobacco-extrait-de-parfum-50ml--1-7-fl--oz---p20110604.html",
+      "productGroupID": "20110604",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ). A highly concentrated extrait de parfum where the Red Zara Temptation accord is transformed by the intensity of tobacco. A dark and spicy tobacco accord provides depth, enhanced by the vibrant freshness of pink pepper and saffron. Sambac jasmine introduces floral luminosity while cistus adds a resinous nuance, reinforcing the warm and enveloping trail.\n\nWoody Gourmand | Dark, warm, and seductive",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b9c8/76c0/f4d24c82818a/9ab5aa73b7ff/20110604999-e20/20110604999-e20.jpg?ts=1774517686515&w=1920",
+        "https://static.zara.net/assets/public/cc8d/149e/94ce4057b728/321fb48d9eab/20110604999-e21/20110604999-e21.jpg?ts=1774517686156&w=1920",
+        "https://static.zara.net/assets/public/ef67/ebe6/489c4969891b/b1da9ed43980/20110604999-e38/20110604999-e38.jpg?ts=1774521178325&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545485765-999-99",
+          "mpn": "545485765-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/b9c8/76c0/f4d24c82818a/9ab5aa73b7ff/20110604999-e20/20110604999-e20.jpg?ts=1774517686515&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/red-zara-temptation-tobacco-extrait-de-parfum-50ml--1-7-fl--oz---p20110604.html?v1=545485765",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ).",
+      "product_group_id": "20110604",
+      "brand": "ZARA",
+      "description": "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ). A highly concentrated extrait de parfum where the Red Zara Temptation accord is transformed by the intensity of tobacco. A dark and spicy tobacco accord provides depth, enhanced by the vibrant freshness of pink pepper and saffron. Sambac jasmine introduces floral luminosity while cistus adds a resinous nuance, reinforcing the warm and enveloping trail.\n\nWoody Gourmand | Dark, warm, and seductive",
+      "material": null,
+      "composition": null,
+      "images": [
+        "https://static.zara.net/assets/public/b9c8/76c0/f4d24c82818a/9ab5aa73b7ff/20110604999-e20/20110604999-e20.jpg?ts=1774517686515&w=1920",
+        "https://static.zara.net/assets/public/cc8d/149e/94ce4057b728/321fb48d9eab/20110604999-e21/20110604999-e21.jpg?ts=1774517686156&w=1920",
+        "https://static.zara.net/assets/public/ef67/ebe6/489c4969891b/b1da9ed43980/20110604999-e38/20110604999-e38.jpg?ts=1774521178325&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545485765-999-99",
+          "mpn": "545485765-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "49.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/red-zara-temptation-tobacco-extrait-de-parfum-50ml--1-7-fl--oz---p20110604.html?v1=545485765",
+          "images": [
+            "https://static.zara.net/assets/public/b9c8/76c0/f4d24c82818a/9ab5aa73b7ff/20110604999-e20/20110604999-e20.jpg?ts=1774517686515&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\n\nRED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ). A highly concentrated extrait de parfum where the Red Zara Temptation accord is transformed by the intensity of tobacco. A dark and spicy tobacco accord provides depth, enhanced by the vibrant freshness of pink pepper and saffron. Sambac jasmine introduces floral luminosity while cistus adds a resinous nuance, reinforcing the warm and enveloping trail.\n\nWoody Gourmand | Dark, warm, and seductive",
+  "comp_care_text": null,
+  "raw_images_observed": 88,
+  "delivery_duplicates_removed": 2,
+  "valid_images_retained": 4,
+  "color_mapped_images": 0,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": "29.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a6c8e64a8d9533adf810f1762b204c3b28d5b55492f5065cbe6c39ba7daf52a5",
+  "parser_version": "phase_1c_v1.1"
+}

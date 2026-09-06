@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:49301111",
+  "source_product_id": "49301111",
+  "source_url": "https://www.zara.com/us/en/constellation-notebook-pack--set-of-2--p49301111.html",
+  "final_url": "https://www.zara.com/us/en/constellation-notebook-pack--set-of-2--p49301111.html",
+  "canonical_url": "https://www.zara.com/us/en/constellation-notebook-pack--set-of-2--p49301111.html",
+  "retrieved_at": "2026-09-06T08:51:21.417004+00:00",
+  "http_status": 200,
+  "page_title": "CONSTELLATION NOTEBOOK PACK (SET OF 2) - Multicolored | ZARA United States",
+  "headings": [
+    "CONSTELLATION NOTEBOOK PACK (SET OF 2)",
+    "Add to cart",
+    "Description",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CONSTELLATION NOTEBOOK PACK (SET OF 2)",
+      "url": "https://www.zara.com/us/en/constellation-notebook-pack--set-of-2--p49301111.html",
+      "productGroupID": "49301111",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Hardcover notebooks featuring the word ADVENTURES on the cover. Each notebook comes in a different cover color.\n\nThe interior includes a constellation guide with information on each, along with sections to record the date, time, and observations, plus blank pages at the end.\n\nEach notebook contains 56 pages.\nThe pack includes 2 notebooks.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cb0f/95ff/3e444c5693a4/9ab5038393a8/49301111999-e1/49301111999-e1.jpg?ts=1781710681909&w=1920",
+        "https://static.zara.net/assets/public/813f/6e21/15834a2ba097/e2d47966fe47/49301111999-e2/49301111999-e2.jpg?ts=1781710682389&w=1920",
+        "https://static.zara.net/assets/public/1a42/a113/ef6c44b0861f/a42f42be9be8/49301111999-e3/49301111999-e3.jpg?ts=1781710682204&w=1920",
+        "https://static.zara.net/assets/public/dbb4/a97f/e77b4701975f/0fe47ce1e7dd/49301111999-e4/49301111999-e4.jpg?ts=1781710682208&w=1920",
+        "https://static.zara.net/assets/public/abf6/7b73/7d5c4e67b08f/c2e5a9821479/49301111999-a1/49301111999-a1.jpg?ts=1783345057155&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CONSTELLATION NOTEBOOK PACK (SET OF 2) - Multicolored - ONE SIZE ONLY",
+          "sku": "545400472-999-99",
+          "mpn": "545400472-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/cb0f/95ff/3e444c5693a4/9ab5038393a8/49301111999-e1/49301111999-e1.jpg?ts=1781710681909&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/constellation-notebook-pack--set-of-2--p49301111.html?v1=545400472",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CONSTELLATION NOTEBOOK PACK (SET OF 2)",
+      "product_group_id": "49301111",
+      "brand": "ZARAHOME",
+      "description": "Hardcover notebooks featuring the word ADVENTURES on the cover. Each notebook comes in a different cover color.\n\nThe interior includes a constellation guide with information on each, along with sections to record the date, time, and observations, plus blank pages at the end.\n\nEach notebook contains 56 pages.\nThe pack includes 2 notebooks.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "images": [
+        "https://static.zara.net/assets/public/cb0f/95ff/3e444c5693a4/9ab5038393a8/49301111999-e1/49301111999-e1.jpg?ts=1781710681909&w=1920",
+        "https://static.zara.net/assets/public/813f/6e21/15834a2ba097/e2d47966fe47/49301111999-e2/49301111999-e2.jpg?ts=1781710682389&w=1920",
+        "https://static.zara.net/assets/public/1a42/a113/ef6c44b0861f/a42f42be9be8/49301111999-e3/49301111999-e3.jpg?ts=1781710682204&w=1920",
+        "https://static.zara.net/assets/public/dbb4/a97f/e77b4701975f/0fe47ce1e7dd/49301111999-e4/49301111999-e4.jpg?ts=1781710682208&w=1920",
+        "https://static.zara.net/assets/public/abf6/7b73/7d5c4e67b08f/c2e5a9821479/49301111999-a1/49301111999-a1.jpg?ts=1783345057155&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "CONSTELLATION NOTEBOOK PACK (SET OF 2) - Multicolored - ONE SIZE ONLY",
+          "sku": "545400472-999-99",
+          "mpn": "545400472-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/constellation-notebook-pack--set-of-2--p49301111.html?v1=545400472",
+          "images": [
+            "https://static.zara.net/assets/public/cb0f/95ff/3e444c5693a4/9ab5038393a8/49301111999-e1/49301111999-e1.jpg?ts=1781710681909&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\n\nHardcover notebooks featuring the word ADVENTURES on the cover. Each notebook comes in a different cover color.\n\nThe interior includes a constellation guide with information on each, along with sections to record the date, time, and observations, plus blank pages at the end.\n\nEach notebook contains 56 pages.\nThe pack includes 2 notebooks.\n\nSee more",
+  "comp_care_text": null,
+  "raw_images_observed": 11,
+  "delivery_duplicates_removed": 2,
+  "valid_images_retained": 5,
+  "color_mapped_images": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "463735309242f8099b5b9a132c3fd1af4def9a5025f881c467b8c607bcba8c9f",
+  "parser_version": "phase_1c_v1.1"
+}

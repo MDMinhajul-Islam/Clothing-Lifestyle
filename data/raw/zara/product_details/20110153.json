@@ -1,0 +1,116 @@
+{
+  "product_id": "zara-us:20110153",
+  "source_product_id": "20110153",
+  "source_url": "https://www.zara.com/us/en/woman-in-white-parfum-80-ml--2-72-fl--oz---p20110153.html",
+  "final_url": "https://www.zara.com/us/en/woman-in-white-parfum-80-ml--2-72-fl--oz---p20110153.html",
+  "canonical_url": "https://www.zara.com/us/en/woman-in-white-parfum-80-ml--2-72-fl--oz---p20110153.html",
+  "retrieved_at": "2026-09-06T08:51:51.121494+00:00",
+  "http_status": 200,
+  "page_title": "WOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ). | ZARA United States",
+  "headings": [
+    "WOMAN IN WHITE",
+    "WHITE LUMINOSITY",
+    "Description",
+    "YOU MIGHT LIKE",
+    "Footer",
+    "Privacy Preference Center",
+    "HELLO,"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ).",
+      "url": "https://www.zara.com/us/en/woman-in-white-parfum-80-ml--2-72-fl--oz---p20110153.html",
+      "productGroupID": "20110153",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "WOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ). A luminous and elegant composition inspired by the beauty of white fabrics, natural light, and clean skin. Olibanum provides a delicately resinous depth that contrasts with the floral purity of lily of the valley. Bourbon vanilla and white musks create a warm and silky base that envelops the fragrance in a refined, soft, and timeless sensation.\n\nGourmand Floral Amber | Luminous, serene, and refined.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3947/3741/3c734fed818d/6529eb07bc18/20110153999-e20/20110153999-e20.jpg?ts=1779433790515&w=1920",
+        "https://static.zara.net/assets/public/ef07/9a06/813f40b4b68e/303bb33be107/20110153999-e21/20110153999-e21.jpg?ts=1779433790236&w=1920",
+        "https://static.zara.net/assets/public/2463/e7d0/62c849e9a0ca/da9bb8e54357/20110153999-e22/20110153999-e22.jpg?ts=1779433790743&w=1920",
+        "https://static.zara.net/assets/public/a54f/5a15/724042229455/fde997770c10/20110153999-e38/20110153999-e38.jpg?ts=1779782803531&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545485581-999-99",
+          "mpn": "545485581-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3947/3741/3c734fed818d/6529eb07bc18/20110153999-e20/20110153999-e20.jpg?ts=1779433790515&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/woman-in-white-parfum-80-ml--2-72-fl--oz---p20110153.html?v1=545485581",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ).",
+      "product_group_id": "20110153",
+      "brand": "ZARA",
+      "description": "WOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ). A luminous and elegant composition inspired by the beauty of white fabrics, natural light, and clean skin. Olibanum provides a delicately resinous depth that contrasts with the floral purity of lily of the valley. Bourbon vanilla and white musks create a warm and silky base that envelops the fragrance in a refined, soft, and timeless sensation.\n\nGourmand Floral Amber | Luminous, serene, and refined.",
+      "material": null,
+      "composition": null,
+      "images": [
+        "https://static.zara.net/assets/public/3947/3741/3c734fed818d/6529eb07bc18/20110153999-e20/20110153999-e20.jpg?ts=1779433790515&w=1920",
+        "https://static.zara.net/assets/public/ef07/9a06/813f40b4b68e/303bb33be107/20110153999-e21/20110153999-e21.jpg?ts=1779433790236&w=1920",
+        "https://static.zara.net/assets/public/2463/e7d0/62c849e9a0ca/da9bb8e54357/20110153999-e22/20110153999-e22.jpg?ts=1779433790743&w=1920",
+        "https://static.zara.net/assets/public/a54f/5a15/724042229455/fde997770c10/20110153999-e38/20110153999-e38.jpg?ts=1779782803531&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "WOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545485581-999-99",
+          "mpn": "545485581-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/woman-in-white-parfum-80-ml--2-72-fl--oz---p20110153.html?v1=545485581",
+          "images": [
+            "https://static.zara.net/assets/public/3947/3741/3c734fed818d/6529eb07bc18/20110153999-e20/20110153999-e20.jpg?ts=1779433790515&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\n\nWOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ). A luminous and elegant composition inspired by the beauty of white fabrics, natural light, and clean skin. Olibanum provides a delicately resinous depth that contrasts with the floral purity of lily of the valley. Bourbon vanilla and white musks create a warm and silky base that envelops the fragrance in a refined, soft, and timeless sensation.\n\nGourmand Floral Amber | Luminous, serene, and refined.",
+  "comp_care_text": null,
+  "raw_images_observed": 90,
+  "delivery_duplicates_removed": 2,
+  "valid_images_retained": 5,
+  "color_mapped_images": 0,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": "55.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4c11c47b09e5ed5f745f40b06cab575eae50554fc0e34e29dc218a80e2c8d349",
+  "parser_version": "phase_1c_v1.1"
+}

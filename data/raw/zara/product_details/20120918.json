@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20120918",
+  "source_product_id": "20120918",
+  "source_url": "https://www.zara.com/us/en/cocoa-sunset-edp-100ml--3-4-fl--oz---p20120918.html",
+  "final_url": "https://www.zara.com/us/en/cocoa-sunset-edp-100ml--3-4-fl--oz---p20120918.html",
+  "canonical_url": "https://www.zara.com/us/en/cocoa-sunset-edp-100ml--3-4-fl--oz---p20120918.html",
+  "retrieved_at": "2026-09-06T08:52:37.165049+00:00",
+  "http_status": 200,
+  "page_title": "COCOA SUNSET EDP 100ML (3.4 FL. OZ). | ZARA United States",
+  "headings": [
+    "COCOA SUNSET",
+    "EAU DE PARFUM",
+    "Description",
+    "YOU MIGHT LIKE",
+    "Footer",
+    "Privacy Preference Center",
+    "HELLO,"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COCOA SUNSET EDP 100ML (3.4 FL. OZ).",
+      "url": "https://www.zara.com/us/en/cocoa-sunset-edp-100ml--3-4-fl--oz---p20120918.html",
+      "productGroupID": "20120918",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "COCOA SUNSET EDP 100ML (3.4 FL. OZ). Melted milk chocolate over whipped cream, with a golden touch of vanilla. This fragrance has the smoothness of a creamy and comforting dessert, wrapped in fruity notes of passion fruit and peach. Delicate, sweet, and enveloping, it's like a warm caress that leaves an irresistible trail on the skin.\n\nAmber gourmand | Sweet, creamy, comforting.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2e66/6be4/0db5458d8722/3a8dc386c32c/20120918999-e20/20120918999-e20.jpg?ts=1777019370149&w=1920",
+        "https://static.zara.net/assets/public/3e19/0880/a90043919b82/a0cd3d1e05ce/20120918999-e21/20120918999-e21.jpg?ts=1777019371662&w=1920",
+        "https://static.zara.net/assets/public/2c56/11f5/c99a40e68727/ae8fc92a85ab/20120918999-e38/20120918999-e38.jpg?ts=1774524463853&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COCOA SUNSET EDP 100ML (3.4 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545466143-999-99",
+          "mpn": "545466143-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2e66/6be4/0db5458d8722/3a8dc386c32c/20120918999-e20/20120918999-e20.jpg?ts=1777019370149&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cocoa-sunset-edp-100ml--3-4-fl--oz---p20120918.html?v1=545466143",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COCOA SUNSET EDP 100ML (3.4 FL. OZ).",
+      "product_group_id": "20120918",
+      "brand": "ZARA",
+      "description": "COCOA SUNSET EDP 100ML (3.4 FL. OZ). Melted milk chocolate over whipped cream, with a golden touch of vanilla. This fragrance has the smoothness of a creamy and comforting dessert, wrapped in fruity notes of passion fruit and peach. Delicate, sweet, and enveloping, it's like a warm caress that leaves an irresistible trail on the skin.\n\nAmber gourmand | Sweet, creamy, comforting.",
+      "material": null,
+      "composition": null,
+      "images": [
+        "https://static.zara.net/assets/public/2e66/6be4/0db5458d8722/3a8dc386c32c/20120918999-e20/20120918999-e20.jpg?ts=1777019370149&w=1920",
+        "https://static.zara.net/assets/public/3e19/0880/a90043919b82/a0cd3d1e05ce/20120918999-e21/20120918999-e21.jpg?ts=1777019371662&w=1920",
+        "https://static.zara.net/assets/public/2c56/11f5/c99a40e68727/ae8fc92a85ab/20120918999-e38/20120918999-e38.jpg?ts=1774524463853&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "COCOA SUNSET EDP 100ML (3.4 FL. OZ). - ONE SIZE ONLY",
+          "sku": "545466143-999-99",
+          "mpn": "545466143-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/cocoa-sunset-edp-100ml--3-4-fl--oz---p20120918.html?v1=545466143",
+          "images": [
+            "https://static.zara.net/assets/public/2e66/6be4/0db5458d8722/3a8dc386c32c/20120918999-e20/20120918999-e20.jpg?ts=1777019370149&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\n\nCOCOA SUNSET EDP 100ML (3.4 FL. OZ). Melted milk chocolate over whipped cream, with a golden touch of vanilla. This fragrance has the smoothness of a creamy and comforting dessert, wrapped in fruity notes of passion fruit and peach. Delicate, sweet, and enveloping, it's like a warm caress that leaves an irresistible trail on the skin.\n\nAmber gourmand | Sweet, creamy, comforting.",
+  "comp_care_text": null,
+  "raw_images_observed": 88,
+  "delivery_duplicates_removed": 2,
+  "valid_images_retained": 4,
+  "color_mapped_images": 0,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": "35.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "db83ac07aec06a6549c91691f79a4fd6ecc2e6146dd5fc887326b4281c07a143",
+  "parser_version": "phase_1c_v1.1"
+}

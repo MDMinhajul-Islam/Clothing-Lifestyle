@@ -1,0 +1,109 @@
+{
+  "product_id": "zara-us:20110966",
+  "source_product_id": "20110966",
+  "source_url": "https://www.zara.com/us/en/leather-jardin-edp-100ml--3-4-fl-oz---p20110966.html",
+  "final_url": "https://www.zara.com/us/en/leather-jardin-edp-100ml--3-4-fl-oz---p20110966.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-jardin-edp-100ml--3-4-fl-oz---p20110966.html",
+  "retrieved_at": "2026-09-06T08:52:20.987916+00:00",
+  "http_status": 200,
+  "page_title": "LEATHER JARDIN EDP 100ML (3.4 FL. OZ.) | ZARA United States",
+  "headings": [
+    "EAU DE PARFUM",
+    "Description",
+    "YOU MIGHT LIKE",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER JARDIN EDP 100ML (3.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/leather-jardin-edp-100ml--3-4-fl-oz---p20110966.html",
+      "productGroupID": "20110966",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "LEATHER JARDIN EDP 100ML (3.4 FL. OZ.). An elegant fragrance playing with the contrast between florals and leather. Orange provides a fresh, luminous opening that blends with the floral delicacy of rose. Leather introduces a deep, sophisticated texture that adds character and a refined trail. A collection created by Ms. Jo Malone CBE, founder of Jo Loves. Green leather chypre | Refined, intense, and sophisticated.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0e07/5728/b0a44479b0a1/9ee26f5fe3b5/20110757999-073-e1/20110757999-073-e1.jpg?ts=1782403477821&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER JARDIN EDP 100ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545456584-999-99",
+          "mpn": "545456584-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0e07/5728/b0a44479b0a1/9ee26f5fe3b5/20110757999-073-e1/20110757999-073-e1.jpg?ts=1782403477821&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-jardin-edp-100ml--3-4-fl-oz---p20110966.html?v1=545456584",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER JARDIN EDP 100ML (3.4 FL. OZ.)",
+      "product_group_id": "20110966",
+      "brand": "ZARA",
+      "description": "LEATHER JARDIN EDP 100ML (3.4 FL. OZ.). An elegant fragrance playing with the contrast between florals and leather. Orange provides a fresh, luminous opening that blends with the floral delicacy of rose. Leather introduces a deep, sophisticated texture that adds character and a refined trail. A collection created by Ms. Jo Malone CBE, founder of Jo Loves. Green leather chypre | Refined, intense, and sophisticated.",
+      "material": null,
+      "composition": null,
+      "images": [
+        "https://static.zara.net/assets/public/0e07/5728/b0a44479b0a1/9ee26f5fe3b5/20110757999-073-e1/20110757999-073-e1.jpg?ts=1782403477821&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "LEATHER JARDIN EDP 100ML (3.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545456584-999-99",
+          "mpn": "545456584-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/leather-jardin-edp-100ml--3-4-fl-oz---p20110966.html?v1=545456584",
+          "images": [
+            "https://static.zara.net/assets/public/0e07/5728/b0a44479b0a1/9ee26f5fe3b5/20110757999-073-e1/20110757999-073-e1.jpg?ts=1782403477821&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\n\nLEATHER JARDIN EDP 100ML (3.4 FL. OZ.). An elegant fragrance playing with the contrast between florals and leather. Orange provides a fresh, luminous opening that blends with the floral delicacy of rose. Leather introduces a deep, sophisticated texture that adds character and a refined trail. A collection created by Ms. Jo Malone CBE, founder of Jo Loves. Green leather chypre | Refined, intense, and sophisticated.",
+  "comp_care_text": null,
+  "raw_images_observed": 81,
+  "delivery_duplicates_removed": 1,
+  "valid_images_retained": 1,
+  "color_mapped_images": 0,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": "29.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d54f96601ce43b7ad3a04a208486e5741b3a9a380e75798749f6d056e5829e89",
+  "parser_version": "phase_1c_v1.1"
+}

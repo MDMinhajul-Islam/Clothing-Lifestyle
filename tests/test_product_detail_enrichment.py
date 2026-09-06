@@ -11,7 +11,8 @@ from enrich_product_details import (
     parse_product_group_jsonld,
     filter_valid_product_images,
     compute_content_hash,
-    build_normalized_records
+    build_normalized_records,
+    canonicalize_image_asset_key
 )
 
 
@@ -99,10 +100,34 @@ class TestProductDetailEnrichment(unittest.TestCase):
             {"url": "https://example.com/pixel.gif", "alt": "Tracking"}
         ]
         valid = filter_valid_product_images(raw_images, product_group_id="00122342")
+        valid, dups_removed, raw_obs = filter_valid_product_images(raw_images, product_group_id="00122342")
         self.assertEqual(len(valid), 2)
         self.assertTrue(all("transparent-background" not in img["url"] for img in valid))
         self.assertTrue(all("logo.svg" not in img["url"] for img in valid))
         self.assertTrue(all("pixel.gif" not in img["url"] for img in valid))
+
+    def test_image_delivery_parameter_deduplication(self):
+        # Two URLs pointing to the exact same image asset with different delivery parameters (e.g. w=1024 vs w=1920 vs ts=999)
+        raw_images = [
+            {"url": "https://static.zara.net/assets/public/daa1/00122342412-p.jpg?ts=123&w=1024", "alt": "Image 1"},
+            {"url": "https://static.zara.net/assets/public/daa1/00122342412-p.jpg?ts=999&w=1920", "alt": "Image 1 dup"},
+            {"url": "https://static.zara.net/assets/public/088d/00122342412-a1.jpg?ts=123&w=1920", "alt": "Image 2"}
+        ]
+        valid, dups_removed, raw_obs = filter_valid_product_images(raw_images, product_group_id="00122342")
+        self.assertEqual(len(valid), 2)
+        self.assertEqual(dups_removed, 1)
+        self.assertEqual(raw_obs, 3)
+        self.assertEqual(valid[0]["asset_key"], "static.zara.net/assets/public/daa1/00122342412-p.jpg")
+
+    def test_reject_foreign_product_images(self):
+        # Image from recommendation carousel belonging to another product
+        raw_images = [
+            {"url": "https://static.zara.net/assets/public/daa1/00122342412-p.jpg?w=1920", "is_structured": False},
+            {"url": "https://static.zara.net/assets/public/9999/03046283711-a2.jpg?w=1920", "is_structured": False}  # Other product!
+        ]
+        valid, dups_removed, _ = filter_valid_product_images(raw_images, product_group_id="00122342")
+        self.assertEqual(len(valid), 1)
+        self.assertEqual(valid[0]["url"], "https://static.zara.net/assets/public/daa1/00122342412-p.jpg?w=1920")
 
     def test_non_cartesian_variants(self):
         parsed = parse_product_group_jsonld(self.sample_jsonld)
@@ -129,8 +154,8 @@ class TestProductDetailEnrichment(unittest.TestCase):
             {"color_name": "Blue marl", "size_name": "M", "sku": "551789038-412-3", "public_availability_state": "OUT_OF_STOCK"}
         ]
         images = [
-            {"source_image_url": "https://static.zara.net/assets/img1.jpg", "display_order": 0},
-            {"source_image_url": "https://static.zara.net/assets/img2.jpg", "display_order": 1}
+            {"source_image_url": "https://static.zara.net/assets/img1.jpg?w=1920", "display_order": 0},
+            {"source_image_url": "https://static.zara.net/assets/img2.jpg?w=1920", "display_order": 1}
         ]
 
         hash1 = compute_content_hash(product_record, colors, variants, images)

@@ -1,0 +1,118 @@
+{
+  "product_id": "zara-us:24890213",
+  "source_product_id": "24890213",
+  "source_url": "https://www.zara.com/us/en/eyebrow-pencil-p24890213.html",
+  "final_url": "https://www.zara.com/us/en/eyebrow-pencil-p24890213.html",
+  "canonical_url": "https://www.zara.com/us/en/eyebrow-pencil-p24890213.html",
+  "retrieved_at": "2026-09-06T08:53:17.018233+00:00",
+  "http_status": 200,
+  "page_title": "EYEBROW PENCIL - BROWN | ZARA United States",
+  "headings": [
+    "EYEBROW PENCIL",
+    "Add to cart",
+    "Description",
+    "COMPLETE YOUR LOOK",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "EYEBROW PENCIL",
+      "url": "https://www.zara.com/us/en/eyebrow-pencil-p24890213.html",
+      "productGroupID": "24890213",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "For perfectly defined eyebrows, this formula offers a natural microblading effect. Its smooth application, along with a unique precision applicator, guarantees a professional result with every use. Say goodbye to constant touch-ups and flaunt flawless eyebrows all day long.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a410/029a/1c2245f09d15/d45393eac92a/24890213592-e1/24890213592-e1.jpg?ts=1751354702422&w=1920",
+        "https://static.zara.net/assets/public/cac1/e3e5/68aa450db16c/0a08d7476fd0/24890213592-e2/24890213592-e2.jpg?ts=1742375779220&w=1920",
+        "https://static.zara.net/assets/public/49e0/6ee5/e7c943ff85b3/12c722d81cf6/24890213592-a2/24890213592-a2.jpg?ts=1742223055378&w=1920",
+        "https://static.zara.net/assets/public/824f/4ba6/f016423e8b7e/fadc0b3f82df/24890213592-a4/24890213592-a4.jpg?ts=1742223055115&w=1920",
+        "https://static.zara.net/assets/public/78bb/3ad9/b15945dbbe71/5a6d13f9bbb1/24890213592-e1/24890213592-e1.jpg?ts=1751354679264&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "EYEBROW PENCIL - BROWN - ONE SIZE ONLY",
+          "sku": "554907011-592-99",
+          "mpn": "554907011-592-99",
+          "color": "BROWN",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a410/029a/1c2245f09d15/d45393eac92a/24890213592-e1/24890213592-e1.jpg?ts=1751354702422&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/eyebrow-pencil-p24890213.html?v1=554907011",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "EYEBROW PENCIL",
+      "product_group_id": "24890213",
+      "brand": "ZARA",
+      "description": "For perfectly defined eyebrows, this formula offers a natural microblading effect. Its smooth application, along with a unique precision applicator, guarantees a professional result with every use. Say goodbye to constant touch-ups and flaunt flawless eyebrows all day long.",
+      "material": null,
+      "composition": null,
+      "images": [
+        "https://static.zara.net/assets/public/a410/029a/1c2245f09d15/d45393eac92a/24890213592-e1/24890213592-e1.jpg?ts=1751354702422&w=1920",
+        "https://static.zara.net/assets/public/cac1/e3e5/68aa450db16c/0a08d7476fd0/24890213592-e2/24890213592-e2.jpg?ts=1742375779220&w=1920",
+        "https://static.zara.net/assets/public/49e0/6ee5/e7c943ff85b3/12c722d81cf6/24890213592-a2/24890213592-a2.jpg?ts=1742223055378&w=1920",
+        "https://static.zara.net/assets/public/824f/4ba6/f016423e8b7e/fadc0b3f82df/24890213592-a4/24890213592-a4.jpg?ts=1742223055115&w=1920",
+        "https://static.zara.net/assets/public/78bb/3ad9/b15945dbbe71/5a6d13f9bbb1/24890213592-e1/24890213592-e1.jpg?ts=1751354679264&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "EYEBROW PENCIL - BROWN - ONE SIZE ONLY",
+          "sku": "554907011-592-99",
+          "mpn": "554907011-592-99",
+          "color_name": "BROWN",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/eyebrow-pencil-p24890213.html?v1=554907011",
+          "images": [
+            "https://static.zara.net/assets/public/a410/029a/1c2245f09d15/d45393eac92a/24890213592-e1/24890213592-e1.jpg?ts=1751354702422&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\n\nFor perfectly defined eyebrows, this formula offers a natural microblading effect. Its smooth application, along with a unique precision applicator, guarantees a professional result with every use. Say goodbye to constant touch-ups and flaunt flawless eyebrows all day long.",
+  "comp_care_text": null,
+  "raw_images_observed": 11,
+  "delivery_duplicates_removed": 2,
+  "valid_images_retained": 5,
+  "color_mapped_images": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "58f1345f866e3a38cdcd2ec9aa5093228d1f06e1f7486b9c97d63968762f7443",
+  "parser_version": "phase_1c_v1.1"
+}

@@ -1,0 +1,123 @@
+{
+  "product_id": "zara-us:00009548",
+  "source_product_id": "00009548",
+  "source_url": "https://www.zara.com/us/en/dolphin-swim-goggles-p00009548.html",
+  "final_url": "https://www.zara.com/us/en/dolphin-swim-goggles-p00009548.html",
+  "canonical_url": "https://www.zara.com/us/en/dolphin-swim-goggles-p00009548.html",
+  "retrieved_at": "2026-09-06T08:48:56.469559+00:00",
+  "http_status": 200,
+  "page_title": "DOLPHIN SWIM GOGGLES - Light blue | ZARA United States",
+  "headings": [
+    "DOLPHIN SWIM GOGGLES",
+    "Add to cart",
+    "Description",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DOLPHIN SWIM GOGGLES",
+      "url": "https://www.zara.com/us/en/dolphin-swim-goggles-p00009548.html",
+      "productGroupID": "00009548",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Swim goggles with polycarbonate lenses for clear underwater vision. Dolphin shape and adjustable elastic silicone strap.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b480/2a13/c68548398096/2ee2c488ca5c/00009548406-e1/00009548406-e1.jpg?ts=1777558932887&w=1920",
+        "https://static.zara.net/assets/public/50ef/7cba/1d3f4caebb3e/c8374b8ffeb7/00009548406-e2/00009548406-e2.jpg?ts=1777558934129&w=1920",
+        "https://static.zara.net/assets/public/dfaa/db44/4a874b5e9c21/6e1786b64a83/00009548406-e3/00009548406-e3.jpg?ts=1777558932026&w=1920",
+        "https://static.zara.net/assets/public/63bf/53c2/0c5144a9a0c9/a00f1913501c/00009548406-e4/00009548406-e4.jpg?ts=1777558934399&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DOLPHIN SWIM GOGGLES - Light blue - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545461777-406-14",
+          "mpn": "545461777-406-14",
+          "color": "Light blue",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b480/2a13/c68548398096/2ee2c488ca5c/00009548406-e1/00009548406-e1.jpg?ts=1777558932887&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/dolphin-swim-goggles-p00009548.html?v1=545461777",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DOLPHIN SWIM GOGGLES",
+      "product_group_id": "00009548",
+      "brand": "ZARA",
+      "description": "Swim goggles with polycarbonate lenses for clear underwater vision. Dolphin shape and adjustable elastic silicone strap.",
+      "material": null,
+      "composition": null,
+      "images": [
+        "https://static.zara.net/assets/public/b480/2a13/c68548398096/2ee2c488ca5c/00009548406-e1/00009548406-e1.jpg?ts=1777558932887&w=1920",
+        "https://static.zara.net/assets/public/50ef/7cba/1d3f4caebb3e/c8374b8ffeb7/00009548406-e2/00009548406-e2.jpg?ts=1777558934129&w=1920",
+        "https://static.zara.net/assets/public/dfaa/db44/4a874b5e9c21/6e1786b64a83/00009548406-e3/00009548406-e3.jpg?ts=1777558932026&w=1920",
+        "https://static.zara.net/assets/public/63bf/53c2/0c5144a9a0c9/a00f1913501c/00009548406-e4/00009548406-e4.jpg?ts=1777558934399&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "DOLPHIN SWIM GOGGLES - Light blue - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545461777-406-14",
+          "mpn": "545461777-406-14",
+          "color_name": "Light blue",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "22.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/dolphin-swim-goggles-p00009548.html?v1=545461777",
+          "images": [
+            "https://static.zara.net/assets/public/b480/2a13/c68548398096/2ee2c488ca5c/00009548406-e1/00009548406-e1.jpg?ts=1777558932887&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\n\nSwim goggles with polycarbonate lenses for clear underwater vision. Dolphin shape and adjustable elastic silicone strap.",
+  "comp_care_text": null,
+  "raw_images_observed": 9,
+  "delivery_duplicates_removed": 2,
+  "valid_images_retained": 4,
+  "color_mapped_images": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "03a3b16fa346153a15183c6b66824fa60c74d933bb4fcbce8cec457d4198b087",
+  "parser_version": "phase_1c_v1.1"
+}

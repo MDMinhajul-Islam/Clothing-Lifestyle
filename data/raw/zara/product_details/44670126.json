@@ -1,0 +1,139 @@
+{
+  "product_id": "zara-us:44670126",
+  "source_product_id": "44670126",
+  "source_url": "https://www.zara.com/us/en/gingham-cotton-baby-makeup-bag-p44670126.html",
+  "final_url": "https://www.zara.com/us/en/gingham-cotton-baby-makeup-bag-p44670126.html",
+  "canonical_url": "https://www.zara.com/us/en/gingham-cotton-baby-makeup-bag-p44670126.html",
+  "retrieved_at": "2026-09-06T08:51:35.756090+00:00",
+  "http_status": 200,
+  "page_title": "GINGHAM COTTON BABY MAKEUP BAG - Dark orange | ZARA United States",
+  "headings": [
+    "GINGHAM COTTON BABY MAKEUP BAG",
+    "Add to cart",
+    "Description",
+    "COMPLETE YOUR LOOK",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GINGHAM COTTON BABY MAKEUP BAG",
+      "url": "https://www.zara.com/us/en/gingham-cotton-baby-makeup-bag-p44670126.html",
+      "productGroupID": "44670126",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby makeup bag made of cotton with a gingham check print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8ffb/864c/ce8a4d4f9394/990e0fb6245a/44670126642-e1/44670126642-e1.jpg?ts=1787579345876&w=1920",
+        "https://static.zara.net/assets/public/38b2/2203/f9464c35852b/7284e704bedc/44670126642-e2/44670126642-e2.jpg?ts=1787579355084&w=1920",
+        "https://static.zara.net/assets/public/4648/203c/27624e19beb0/bcdb8a28d5b0/44670126642-e3/44670126642-e3.jpg?ts=1787579345278&w=1920",
+        "https://static.zara.net/assets/public/218d/3e6a/fa504506a3c1/6edcb305ffee/44670126642-e4/44670126642-e4.jpg?ts=1787579345703&w=1920",
+        "https://static.zara.net/assets/public/2999/5e32/15cd4e65b265/247782d18980/44670126642-a1/44670126642-a1.jpg?ts=1787735071911&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GINGHAM COTTON BABY MAKEUP BAG - Dark orange - ONE SIZE ONLY",
+          "sku": "549003364-642-99",
+          "mpn": "549003364-642-99",
+          "color": "Dark orange",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/8ffb/864c/ce8a4d4f9394/990e0fb6245a/44670126642-e1/44670126642-e1.jpg?ts=1787579345876&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/gingham-cotton-baby-makeup-bag-p44670126.html?v1=549003364",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GINGHAM COTTON BABY MAKEUP BAG",
+      "product_group_id": "44670126",
+      "brand": "ZARAHOME",
+      "description": "Baby makeup bag made of cotton with a gingham check print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton; LINING: 100% cotton; FILLING: 100% polyester",
+      "images": [
+        "https://static.zara.net/assets/public/8ffb/864c/ce8a4d4f9394/990e0fb6245a/44670126642-e1/44670126642-e1.jpg?ts=1787579345876&w=1920",
+        "https://static.zara.net/assets/public/38b2/2203/f9464c35852b/7284e704bedc/44670126642-e2/44670126642-e2.jpg?ts=1787579355084&w=1920",
+        "https://static.zara.net/assets/public/4648/203c/27624e19beb0/bcdb8a28d5b0/44670126642-e3/44670126642-e3.jpg?ts=1787579345278&w=1920",
+        "https://static.zara.net/assets/public/218d/3e6a/fa504506a3c1/6edcb305ffee/44670126642-e4/44670126642-e4.jpg?ts=1787579345703&w=1920",
+        "https://static.zara.net/assets/public/2999/5e32/15cd4e65b265/247782d18980/44670126642-a1/44670126642-a1.jpg?ts=1787735071911&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "GINGHAM COTTON BABY MAKEUP BAG - Dark orange - ONE SIZE ONLY",
+          "sku": "549003364-642-99",
+          "mpn": "549003364-642-99",
+          "color_name": "Dark orange",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/gingham-cotton-baby-makeup-bag-p44670126.html?v1=549003364",
+          "images": [
+            "https://static.zara.net/assets/public/8ffb/864c/ce8a4d4f9394/990e0fb6245a/44670126642-e1/44670126642-e1.jpg?ts=1787579345876&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\n\nBaby makeup bag made of cotton with a gingham check print.",
+  "comp_care_text": null,
+  "raw_images_observed": 21,
+  "delivery_duplicates_removed": 2,
+  "valid_images_retained": 5,
+  "color_mapped_images": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7dc96d613e66ebca19a6c833d053cdc3e245a5be812840c6c9a65d6f446ea397",
+  "parser_version": "phase_1c_v1.1"
+}

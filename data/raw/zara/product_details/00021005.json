@@ -1,0 +1,192 @@
+{
+  "product_id": "zara-us:00021005",
+  "source_product_id": "00021005",
+  "source_url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html",
+  "final_url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html",
+  "canonical_url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html",
+  "retrieved_at": "2026-09-06T08:45:46.222864+00:00",
+  "http_status": 200,
+  "page_title": "SEQUIN KNIT MAXI DRESS - Brown | ZARA United States",
+  "headings": [
+    "SEQUIN KNIT MAXI DRESS",
+    "Add to cart",
+    "Description",
+    "Footer",
+    "Privacy Preference Center",
+    "HELLO,"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SEQUIN KNIT MAXI DRESS",
+      "url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html",
+      "productGroupID": "00021005",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Open-knit sequin dress. Round neck and sleeveless. Back tie closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/95a5/f9f5/ae6d494ab8e6/eb27efecc056/00021005700-p/00021005700-p.jpg?ts=1784639608104&w=1920",
+        "https://static.zara.net/assets/public/13c2/03d1/260841db9a98/482a222355c8/00021005700-a1/00021005700-a1.jpg?ts=1784639607411&w=1920",
+        "https://static.zara.net/assets/public/c2a8/5a44/bf3245c28212/d6e7af55a508/00021005700-e1/00021005700-e1.jpg?ts=1784284373510&w=1920",
+        "https://static.zara.net/assets/public/d3e9/e844/d26c4d45bbc1/b88729b8fec8/00021005700-e2/00021005700-e2.jpg?ts=1784284373680&w=1920",
+        "https://static.zara.net/assets/public/4440/69ec/fe1b40868b37/e894c6cbfccc/00021005700-e3/00021005700-e3.jpg?ts=1784284373533&w=1920"
+      ],
+      "material": "acrylic/polyamide",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "59% acrylic, 41% polyamide"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SEQUIN KNIT MAXI DRESS - Brown - S",
+          "sku": "545442518-700-2",
+          "mpn": "545442518-700-2",
+          "color": "Brown",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/95a5/f9f5/ae6d494ab8e6/eb27efecc056/00021005700-p/00021005700-p.jpg?ts=1784639608104&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html?v1=545442518",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SEQUIN KNIT MAXI DRESS - Brown - M",
+          "sku": "545442518-700-3",
+          "mpn": "545442518-700-3",
+          "color": "Brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/95a5/f9f5/ae6d494ab8e6/eb27efecc056/00021005700-p/00021005700-p.jpg?ts=1784639608104&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html?v1=545442518",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SEQUIN KNIT MAXI DRESS - Brown - L",
+          "sku": "545442518-700-4",
+          "mpn": "545442518-700-4",
+          "color": "Brown",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/95a5/f9f5/ae6d494ab8e6/eb27efecc056/00021005700-p/00021005700-p.jpg?ts=1784639608104&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html?v1=545442518",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SEQUIN KNIT MAXI DRESS",
+      "product_group_id": "00021005",
+      "brand": "ZARA",
+      "description": "Open-knit sequin dress. Round neck and sleeveless. Back tie closure.",
+      "material": "acrylic/polyamide",
+      "composition": "OUTER SHELL: 59% acrylic, 41% polyamide",
+      "images": [
+        "https://static.zara.net/assets/public/95a5/f9f5/ae6d494ab8e6/eb27efecc056/00021005700-p/00021005700-p.jpg?ts=1784639608104&w=1920",
+        "https://static.zara.net/assets/public/13c2/03d1/260841db9a98/482a222355c8/00021005700-a1/00021005700-a1.jpg?ts=1784639607411&w=1920",
+        "https://static.zara.net/assets/public/c2a8/5a44/bf3245c28212/d6e7af55a508/00021005700-e1/00021005700-e1.jpg?ts=1784284373510&w=1920",
+        "https://static.zara.net/assets/public/d3e9/e844/d26c4d45bbc1/b88729b8fec8/00021005700-e2/00021005700-e2.jpg?ts=1784284373680&w=1920",
+        "https://static.zara.net/assets/public/4440/69ec/fe1b40868b37/e894c6cbfccc/00021005700-e3/00021005700-e3.jpg?ts=1784284373533&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "SEQUIN KNIT MAXI DRESS - Brown - S",
+          "sku": "545442518-700-2",
+          "mpn": "545442518-700-2",
+          "color_name": "Brown",
+          "size_name": "S",
+          "price": "149.00",
+          "currency": "USD",
+          "public_availability_state": "OUT_OF_STOCK",
+          "variant_url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html?v1=545442518",
+          "images": [
+            "https://static.zara.net/assets/public/95a5/f9f5/ae6d494ab8e6/eb27efecc056/00021005700-p/00021005700-p.jpg?ts=1784639608104&w=1920"
+          ]
+        },
+        {
+          "name": "SEQUIN KNIT MAXI DRESS - Brown - M",
+          "sku": "545442518-700-3",
+          "mpn": "545442518-700-3",
+          "color_name": "Brown",
+          "size_name": "M",
+          "price": "149.00",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html?v1=545442518",
+          "images": [
+            "https://static.zara.net/assets/public/95a5/f9f5/ae6d494ab8e6/eb27efecc056/00021005700-p/00021005700-p.jpg?ts=1784639608104&w=1920"
+          ]
+        },
+        {
+          "name": "SEQUIN KNIT MAXI DRESS - Brown - L",
+          "sku": "545442518-700-4",
+          "mpn": "545442518-700-4",
+          "color_name": "Brown",
+          "size_name": "L",
+          "price": "149.00",
+          "currency": "USD",
+          "public_availability_state": "OUT_OF_STOCK",
+          "variant_url": "https://www.zara.com/us/en/sequin-knit-maxi-dress-p00021005.html?v1=545442518",
+          "images": [
+            "https://static.zara.net/assets/public/95a5/f9f5/ae6d494ab8e6/eb27efecc056/00021005700-p/00021005700-p.jpg?ts=1784639608104&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\n\nOpen-knit sequin dress. Round neck and sleeveless. Back tie closure.",
+  "comp_care_text": null,
+  "raw_images_observed": 13,
+  "delivery_duplicates_removed": 4,
+  "valid_images_retained": 5,
+  "color_mapped_images": 5,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b9a5091fe4824ca5a1bbe9c1dfb407166b0297922bf3788fff36b62fbc9c8a79",
+  "parser_version": "phase_1c_v1.1"
+}
