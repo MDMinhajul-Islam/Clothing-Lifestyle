@@ -738,14 +738,14 @@ def run_enrichment_batch(product_ids=None, batch_size=100, preserve_completed=Tr
 
     if product_ids:
         for pid in product_ids:
-            if pid in queue_by_id:
-                batch_items.append(queue_by_id[pid])
             qid = pid if pid.startswith("zara-us:") else f"zara-us:{pid}"
             if qid in queue_by_id:
-                if preserve_completed and queue_by_id[qid].get("status") == "COMPLETE":
+                item = queue_by_id[qid]
+                if preserve_completed and item.get("status") == "COMPLETE":
                     print(f"Skipping already COMPLETE product {qid}.")
                     continue
-                batch_items.append(queue_by_id[qid])
+                if item not in batch_items:
+                    batch_items.append(item)
             else:
                 print(f"Warning: requested product ID {pid} not found in detail queue.")
     else:
@@ -806,7 +806,6 @@ def run_enrichment_batch(product_ids=None, batch_size=100, preserve_completed=Tr
                     print(f"   NOT FOUND: 404")
                 else:
                     # Successfully extracted
-                    prod_rec, vars_rec, cols_rec, imgs_rec = build_normalized_records(evidence, global_p, now_iso)
                     prod_rec, vars_rec, cols_rec, imgs_rec, img_stats, price_stats = build_normalized_records(
                         evidence, global_p, now_iso
                     )
