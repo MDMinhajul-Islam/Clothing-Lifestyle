@@ -275,6 +275,7 @@ def compute_content_hash(product_record, colors, variants, images):
 
 def extract_page_evidence(page, url):
     response = page.goto(url, timeout=45000, wait_until="domcontentloaded")
+    page.wait_for_timeout(3500)
     try:
         page.wait_for_selector('script[type="application/ld+json"], h1, .product-detail-view', timeout=3000)
         page.wait_for_timeout(1000)
@@ -683,10 +684,12 @@ def build_normalized_records(evidence, global_product, now_iso):
         "enrichment_status": "COMPLETE" if price and exact_name else "PARTIAL"
     }
 
+    # Compute deterministic content hash
     # Content hash
     content_hash = compute_content_hash(product_record, color_records, variant_records, image_records)
     product_record["source_content_hash"] = content_hash
 
+    return product_record, variant_records, color_records, image_records
     image_stats = {
         "raw_observed": raw_obs,
         "duplicates_removed": dups_removed,
@@ -707,6 +710,7 @@ def build_normalized_records(evidence, global_product, now_iso):
         "price_conflict_details": price_conflict_details
     }
 
+def run_enrichment_batch(product_ids=None, batch_size=20):
     return product_record, variant_records, color_records, image_records, image_stats, pricing_stats
 
 
@@ -805,6 +809,7 @@ def run_enrichment_batch(product_ids=None, batch_size=100, preserve_completed=Tr
                     print(f"   NOT FOUND: 404")
                 else:
                     # Successfully extracted
+                    prod_rec, vars_rec, cols_rec, imgs_rec = build_normalized_records(evidence, global_p, now_iso)
                     prod_rec, vars_rec, cols_rec, imgs_rec, img_stats, price_stats = build_normalized_records(
                         evidence, global_p, now_iso
                     )

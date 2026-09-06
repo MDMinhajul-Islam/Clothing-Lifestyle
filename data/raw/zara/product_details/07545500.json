@@ -1,0 +1,377 @@
+{
+  "product_id": "zara-us:07545500",
+  "source_product_id": "07545500",
+  "source_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html",
+  "final_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html",
+  "canonical_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html",
+  "retrieved_at": "2026-09-06T09:12:23.902046+00:00",
+  "http_status": 200,
+  "page_title": "TEXTURED REGULAR FIT SHIRT - White | ZARA United States",
+  "headings": [
+    "TEXTURED REGULAR FIT SHIRT",
+    "Add to cart",
+    "Description",
+    "COMPLETE YOUR LOOK",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TEXTURED REGULAR FIT SHIRT",
+      "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html",
+      "productGroupID": "07545500",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "REGULAR FIT - STRETCH - SPREAD COLLAR. Regular-fit shirt crafted in an easy-iron fabric that minimizes wrinkles after washing. Features a spread collar, long sleeves with buttoned cuffs, and a front button fastening.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920",
+        "https://static.zara.net/assets/public/a41f/01e5/92e446b488ca/9a1e2031ba1f/07545500250-a1/07545500250-a1.jpg?ts=1785328890835&w=1920",
+        "https://static.zara.net/assets/public/d81c/b9e3/b3634138b6c7/5ab207d92e94/07545500250-a2/07545500250-a2.jpg?ts=1785328891304&w=1920",
+        "https://static.zara.net/assets/public/4e02/77e5/5ea94ab7ab9b/453b1c1823c3/07545500250-a3/07545500250-a3.jpg?ts=1785328891116&w=1920",
+        "https://static.zara.net/assets/public/38e7/14c7/c27e4d7a90b7/3c5f13f52fec/07545500250-a4/07545500250-a4.jpg?ts=1785328890949&w=1920",
+        "https://static.zara.net/assets/public/2e6c/9dcb/b71145aeb7f8/dedcd7c89038/07545500250-a5/07545500250-a5.jpg?ts=1785328890488&w=1920",
+        "https://static.zara.net/assets/public/efe8/caf8/2afd4999a332/9843ce3b9306/07545500250-a6/07545500250-a6.jpg?ts=1785328890658&w=1920",
+        "https://static.zara.net/assets/public/297b/9897/7756427fa225/7c1f91d2b621/07545500250-e1/07545500250-e1.jpg?ts=1784737880773&w=1920",
+        "https://static.zara.net/assets/public/2ef8/47c7/35dd49b2a3fd/eb9f31b50cdb/07545500250-e2/07545500250-e2.jpg?ts=1784737879677&w=1920"
+      ],
+      "material": "polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "88% polyamide, 12% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT SHIRT - White - S",
+          "sku": "557850354-250-2",
+          "mpn": "557850354-250-2",
+          "color": "White",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT SHIRT - White - M",
+          "sku": "557850354-250-3",
+          "mpn": "557850354-250-3",
+          "color": "White",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT SHIRT - White - L",
+          "sku": "557850354-250-4",
+          "mpn": "557850354-250-4",
+          "color": "White",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT SHIRT - White - XL",
+          "sku": "557850354-250-5",
+          "mpn": "557850354-250-5",
+          "color": "White",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT SHIRT - Black - S",
+          "sku": "557850354-800-2",
+          "mpn": "557850354-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/ad56/3b3a/e53847f79339/16ca3701124e/07545500800-p/07545500800-p.jpg?ts=1785328884064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850353",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT SHIRT - Black - M",
+          "sku": "557850354-800-3",
+          "mpn": "557850354-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/ad56/3b3a/e53847f79339/16ca3701124e/07545500800-p/07545500800-p.jpg?ts=1785328884064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850353",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT SHIRT - Black - L",
+          "sku": "557850354-800-4",
+          "mpn": "557850354-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/ad56/3b3a/e53847f79339/16ca3701124e/07545500800-p/07545500800-p.jpg?ts=1785328884064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850353",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXTURED REGULAR FIT SHIRT - Black - XL",
+          "sku": "557850354-800-5",
+          "mpn": "557850354-800-5",
+          "color": "Black",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/ad56/3b3a/e53847f79339/16ca3701124e/07545500800-p/07545500800-p.jpg?ts=1785328884064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850353",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TEXTURED REGULAR FIT SHIRT",
+      "product_group_id": "07545500",
+      "brand": "ZARA",
+      "description": "REGULAR FIT - STRETCH - SPREAD COLLAR. Regular-fit shirt crafted in an easy-iron fabric that minimizes wrinkles after washing. Features a spread collar, long sleeves with buttoned cuffs, and a front button fastening.",
+      "material": "polyamide/elastane",
+      "composition": "OUTER SHELL: 88% polyamide, 12% elastane",
+      "images": [
+        "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920",
+        "https://static.zara.net/assets/public/a41f/01e5/92e446b488ca/9a1e2031ba1f/07545500250-a1/07545500250-a1.jpg?ts=1785328890835&w=1920",
+        "https://static.zara.net/assets/public/d81c/b9e3/b3634138b6c7/5ab207d92e94/07545500250-a2/07545500250-a2.jpg?ts=1785328891304&w=1920",
+        "https://static.zara.net/assets/public/4e02/77e5/5ea94ab7ab9b/453b1c1823c3/07545500250-a3/07545500250-a3.jpg?ts=1785328891116&w=1920",
+        "https://static.zara.net/assets/public/38e7/14c7/c27e4d7a90b7/3c5f13f52fec/07545500250-a4/07545500250-a4.jpg?ts=1785328890949&w=1920",
+        "https://static.zara.net/assets/public/2e6c/9dcb/b71145aeb7f8/dedcd7c89038/07545500250-a5/07545500250-a5.jpg?ts=1785328890488&w=1920",
+        "https://static.zara.net/assets/public/efe8/caf8/2afd4999a332/9843ce3b9306/07545500250-a6/07545500250-a6.jpg?ts=1785328890658&w=1920",
+        "https://static.zara.net/assets/public/297b/9897/7756427fa225/7c1f91d2b621/07545500250-e1/07545500250-e1.jpg?ts=1784737880773&w=1920",
+        "https://static.zara.net/assets/public/2ef8/47c7/35dd49b2a3fd/eb9f31b50cdb/07545500250-e2/07545500250-e2.jpg?ts=1784737879677&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "TEXTURED REGULAR FIT SHIRT - White - S",
+          "sku": "557850354-250-2",
+          "mpn": "557850354-250-2",
+          "color_name": "White",
+          "size_name": "S",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850354",
+          "images": [
+            "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT SHIRT - White - M",
+          "sku": "557850354-250-3",
+          "mpn": "557850354-250-3",
+          "color_name": "White",
+          "size_name": "M",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850354",
+          "images": [
+            "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT SHIRT - White - L",
+          "sku": "557850354-250-4",
+          "mpn": "557850354-250-4",
+          "color_name": "White",
+          "size_name": "L",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850354",
+          "images": [
+            "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT SHIRT - White - XL",
+          "sku": "557850354-250-5",
+          "mpn": "557850354-250-5",
+          "color_name": "White",
+          "size_name": "XL",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850354",
+          "images": [
+            "https://static.zara.net/assets/public/d208/c19c/6d294daf98d9/a3729bf0eedc/07545500250-p/07545500250-p.jpg?ts=1785328890080&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT SHIRT - Black - S",
+          "sku": "557850354-800-2",
+          "mpn": "557850354-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850353",
+          "images": [
+            "https://static.zara.net/assets/public/ad56/3b3a/e53847f79339/16ca3701124e/07545500800-p/07545500800-p.jpg?ts=1785328884064&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT SHIRT - Black - M",
+          "sku": "557850354-800-3",
+          "mpn": "557850354-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850353",
+          "images": [
+            "https://static.zara.net/assets/public/ad56/3b3a/e53847f79339/16ca3701124e/07545500800-p/07545500800-p.jpg?ts=1785328884064&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT SHIRT - Black - L",
+          "sku": "557850354-800-4",
+          "mpn": "557850354-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850353",
+          "images": [
+            "https://static.zara.net/assets/public/ad56/3b3a/e53847f79339/16ca3701124e/07545500800-p/07545500800-p.jpg?ts=1785328884064&w=1920"
+          ]
+        },
+        {
+          "name": "TEXTURED REGULAR FIT SHIRT - Black - XL",
+          "sku": "557850354-800-5",
+          "mpn": "557850354-800-5",
+          "color_name": "Black",
+          "size_name": "XL",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/structured-regular-fit-shirt-p07545500.html?v1=557850353",
+          "images": [
+            "https://static.zara.net/assets/public/ad56/3b3a/e53847f79339/16ca3701124e/07545500800-p/07545500800-p.jpg?ts=1785328884064&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Black",
+    "WHITE7545/500/250",
+    "7545/500/250"
+  ],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\n\nREGULAR FIT - STRETCH - SPREAD COLLAR. Regular-fit shirt crafted in an easy-iron fabric that minimizes wrinkles after washing. Features a spread collar, long sleeves with buttoned cuffs, and a front button fastening.",
+  "comp_care_text": null,
+  "raw_images_count": 13,
+  "valid_images_count": 10,
+  "raw_images_observed": 39,
+  "delivery_duplicates_removed": 17,
+  "valid_images_retained": 10,
+  "color_mapped_images": 2,
+  "variants_count": 8,
+  "colors_count": 4,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6e3e423ee34365530eb345abadbbbe3cea65a87f8f23443e91b67154650a5cfb",
+  "parser_version": "phase_1c_v1.1"
+}

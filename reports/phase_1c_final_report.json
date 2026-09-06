@@ -1,0 +1,68 @@
+{
+  "timestamp": "2026-09-06T09:15:47.034431+00:00",
+  "products": {
+    "total_catalogue_queue": 6276,
+    "complete": 169,
+    "partial": 0,
+    "failed_retryable": 0,
+    "failed_terminal": 258,
+    "queued_remaining": 5849,
+    "completion_percentage": 2.69
+  },
+  "pricing": {
+    "products_with_price": 169,
+    "products_with_sale_price": 12,
+    "products_missing_price": 0,
+    "price_conflicts": 2,
+    "currency_distribution": {
+      "USD": 169
+    },
+    "price_history_records": 169
+  },
+  "variants": {
+    "total_variants": 995,
+    "products_with_variants": 169,
+    "availability_distribution": {
+      "OUT_OF_STOCK": 128,
+      "IN_STOCK": 856,
+      "UNKNOWN": 11
+    },
+    "avg_variants_per_product": 5.89,
+    "max_variants_per_product": 30
+  },
+  "colors": {
+    "total_colors": 323,
+    "products_with_colors": 154,
+    "avg_colors_per_product": 1.91,
+    "max_colors_per_product": 9
+  },
+  "images": {
+    "total_normalized_images": 2464,
+    "products_with_images": 165,
+    "products_without_images": 4,
+    "color_linked_images": 840,
+    "gallery_unmapped_images": 1624,
+    "avg_images_per_product": 14.58,
+    "median_images_per_product": 7,
+    "max_images_per_product": 78
+  },
+  "content_coverage": {
+    "description": "168/169 (99.4%)",
+    "composition": "133/169 (78.7%)",
+    "material": "126/169 (74.6%)",
+    "care": "0/169 (0.0%)",
+    "fit": "0/169 (0.0%)"
+  },
+  "provenance": {
+    "raw_evidence_coverage": "169/169 (100.0%)",
+    "content_hash_coverage": "169/169 (100.0%)",
+    "canonical_url_coverage": "169/169 (100.0%)"
+  },
+  "sync_readiness": {
+    "first_seen_at_coverage": "169/169 (100.0%)",
+    "last_seen_at_coverage": "169/169 (100.0%)",
+    "last_synced_at_coverage": "169/169 (100.0%)",
+    "content_hash_coverage": "169/169 (100.0%)",
+    "lifecycle_status_coverage": "169/169 (100.0%)"
+  }
+}
