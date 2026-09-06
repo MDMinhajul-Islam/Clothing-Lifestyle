@@ -8,6 +8,7 @@ Zero browser IPC / DOM round-trips occur in this layer.
 import json
 import re
 from bs4 import BeautifulSoup
+from pathlib import Path
 from typing import Dict, Any, Tuple, List, Optional
 
 
@@ -314,3 +315,45 @@ def parse_page_evidence_locally(source_bundle: Dict[str, Any]) -> Dict[str, Any]
         "restriction": restriction,
         "restriction_reason": restriction_reason
     }
+
+
+def parse_page_source_from_disk(html_path: Path, meta_path: Optional[Path] = None) -> Dict[str, Any]:
+    """Parse HTML and metadata directly from disk without any browser connection.
+    
+    Args:
+        html_path: Path to captured .html file
+        meta_path: Optional path to captured .meta.json file
+        
+    Returns:
+        evidence: Standardized evidence dictionary compatible with build_normalized_records
+    """
+    html_content = html_path.read_text(encoding="utf-8")
+    meta = {}
+    if meta_path and meta_path.exists():
+        meta = json.loads(meta_path.read_text(encoding="utf-8"))
+
+    source_bundle = {
+        "html": html_content,
+        "final_url": meta.get("final_url"),
+        "http_status": meta.get("http_status", 200),
+        "page_title": meta.get("page_title", "")
+    }
+    return parse_page_evidence_locally(source_bundle)
+
+
+def batch_parse_sources_from_dir(source_dir: Path) -> List[Tuple[str, Dict[str, Any], Dict[str, Any]]]:
+    """Offline batch parse all captured source files in a directory.
+    
+    Returns list of (product_id, evidence, meta) tuples.
+    """
+    results = []
+    for html_file in sorted(source_dir.glob("*.html")):
+        clean_id = html_file.stem
+        meta_file = source_dir / f"{clean_id}.meta.json"
+        meta = {}
+        if meta_file.exists():
+            meta = json.loads(meta_file.read_text(encoding="utf-8"))
+        product_id = meta.get("product_id") or clean_id.replace("_", ":", 1)
+        evidence = parse_page_source_from_disk(html_file, meta_file)
+        results.append((product_id, evidence, meta))
+    return results
