@@ -1,0 +1,140 @@
+{
+  "product_id": "zara-us:11505830",
+  "source_url": "https://www.zara.com/us/en/cars--disney-pixar-backpack-p11505830.html",
+  "final_url": "https://www.zara.com/us/en/cars--disney-pixar-backpack-p11505830.html",
+  "canonical_url": "https://www.zara.com/us/en/cars--disney-pixar-backpack-p11505830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CARS© DISNEY PIXAR BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CARS© DISNEY PIXAR BACKPACK",
+      "url": "https://www.zara.com/us/en/cars--disney-pixar-backpack-p11505830.html",
+      "productGroupID": "11505830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "CARS© DISNEY PIXAR backpack. Features a main compartment and front pocket with zip closure, side pockets, and double adjustable shoulder straps.\n\nHeight x Length x Width: 11 x 10.6 x 3.9 inches (28 x 27 x 10 cm).",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fdda/99d3/6d9d448181b9/1f699d9c0d58/11505830202-e1/11505830202-e1.jpg?ts=1779965419367&w=1920",
+        "https://static.zara.net/assets/public/2c78/dd9d/478a41ada7b8/3223bcc5d594/11505830202-e2/11505830202-e2.jpg?ts=1779965418294&w=1920",
+        "https://static.zara.net/assets/public/5071/3e18/67c04482aa1c/fe88f058bc28/11505830202-e3/11505830202-e3.jpg?ts=1779965419843&w=1920",
+        "https://static.zara.net/assets/public/402f/1a8e/8ac648ba8a47/d3acd2d88870/11505830202-e4/11505830202-e4.jpg?ts=1779965418123&w=1920",
+        "https://static.zara.net/assets/public/7f5e/7ff5/b828460885dd/46efaab8499e/11505830202-e5/11505830202-e5.jpg?ts=1779965421624&w=1920",
+        "https://static.zara.net/assets/public/5bc6/f558/58104ea295c5/21caf9839445/11505830202-e6/11505830202-e6.jpg?ts=1779965417413&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CARS© DISNEY PIXAR BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545412500-202-53",
+          "mpn": "545412500-202-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/fdda/99d3/6d9d448181b9/1f699d9c0d58/11505830202-e1/11505830202-e1.jpg?ts=1779965419367&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/cars--disney-pixar-backpack-p11505830.html?v1=545412500",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CARS© DISNEY PIXAR BACKPACK",
+      "product_group_id": "11505830",
+      "brand": "ZARA",
+      "description": "CARS© DISNEY PIXAR backpack. Features a main compartment and front pocket with zip closure, side pockets, and double adjustable shoulder straps.\n\nHeight x Length x Width: 11 x 10.6 x 3.9 inches (28 x 27 x 10 cm).",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CARS© DISNEY PIXAR BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545412500-202-53",
+          "mpn": "545412500-202-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cars--disney-pixar-backpack-p11505830.html?v1=545412500",
+          "images": [
+            "https://static.zara.net/assets/public/fdda/99d3/6d9d448181b9/1f699d9c0d58/11505830202-e1/11505830202-e1.jpg?ts=1779965419367&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fdda/99d3/6d9d448181b9/1f699d9c0d58/11505830202-e1/11505830202-e1.jpg?ts=1779965419367&w=1920",
+        "https://static.zara.net/assets/public/2c78/dd9d/478a41ada7b8/3223bcc5d594/11505830202-e2/11505830202-e2.jpg?ts=1779965418294&w=1920",
+        "https://static.zara.net/assets/public/5071/3e18/67c04482aa1c/fe88f058bc28/11505830202-e3/11505830202-e3.jpg?ts=1779965419843&w=1920",
+        "https://static.zara.net/assets/public/402f/1a8e/8ac648ba8a47/d3acd2d88870/11505830202-e4/11505830202-e4.jpg?ts=1779965418123&w=1920",
+        "https://static.zara.net/assets/public/7f5e/7ff5/b828460885dd/46efaab8499e/11505830202-e5/11505830202-e5.jpg?ts=1779965421624&w=1920",
+        "https://static.zara.net/assets/public/5bc6/f558/58104ea295c5/21caf9839445/11505830202-e6/11505830202-e6.jpg?ts=1779965417413&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nCARS© DISNEY PIXAR backpack. Features a main compartment and front pocket with zip closure, side pockets, and double adjustable shoulder straps.\nHeight x Length x Width: 11 x 10.6 x 3.9 inches (28 x 27 x 10 cm).",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "311490049f16c1633ea197b035623a741a67e8967839495b885e25320d9dbe3f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

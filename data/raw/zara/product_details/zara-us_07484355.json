@@ -1,0 +1,166 @@
+{
+  "product_id": "zara-us:07484355",
+  "source_url": "https://www.zara.com/us/en/cotton-linen-striped-hoodie-overshirt-p07484355.html",
+  "final_url": "https://www.zara.com/us/en/cotton-linen-striped-hoodie-overshirt-p07484355.html",
+  "canonical_url": "https://www.zara.com/us/en/cotton-linen-striped-hoodie-overshirt-p07484355.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED COTTON-LINEN HOODIE OVERSHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED COTTON-LINEN HOODIE OVERSHIRT",
+      "url": "https://www.zara.com/us/en/cotton-linen-striped-hoodie-overshirt-p07484355.html",
+      "productGroupID": "07484355",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Cropped fit overshirt made of a cotton and linen blend fabric. Features an adjustable hoodie collar and front opening. Long sleeves with buttoned cuffs. Front flap patch pockets.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/eba4/356f/9a374322896a/66f282486dc1/07484355407-p/07484355407-p.jpg?ts=1785394137875&w=1920",
+        "https://static.zara.net/assets/public/cd5b/d80c/07d84b089646/b204b3614fa1/07484355407-a1/07484355407-a1.jpg?ts=1785394137073&w=1920",
+        "https://static.zara.net/assets/public/6a2b/4da0/c20e4b0a995c/8995267541c4/07484355407-a2/07484355407-a2.jpg?ts=1785394137402&w=1920",
+        "https://static.zara.net/assets/public/2185/ef83/601f44c287d1/55d0792a4004/07484355407-a3/07484355407-a3.jpg?ts=1785394137647&w=1920",
+        "https://static.zara.net/assets/public/19cd/fac3/4c934898a986/44677fdf1184/07484355407-a4/07484355407-a4.jpg?ts=1785394137923&w=1920",
+        "https://static.zara.net/assets/public/4728/cab3/5a954dfd8c80/d2fe455f183c/07484355407-a5/07484355407-a5.jpg?ts=1785394137983&w=1920",
+        "https://static.zara.net/assets/public/4d85/3ef9/2fab4059a754/48d0112839cd/07484355407-e1/07484355407-e1.jpg?ts=1783955062716&w=1920",
+        "https://static.zara.net/assets/public/645d/cdf9/d4664567adbd/7ca529d61e94/07484355407-e2/07484355407-e2.jpg?ts=1783955063458&w=1920"
+      ],
+      "material": "cotton/linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "69% cotton, 31% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED COTTON-LINEN HOODIE OVERSHIRT - Blue - S-M",
+          "sku": "549713376-407-97",
+          "mpn": "549713376-407-97",
+          "color": "Blue",
+          "size": "S-M",
+          "image": [
+            "https://static.zara.net/assets/public/eba4/356f/9a374322896a/66f282486dc1/07484355407-p/07484355407-p.jpg?ts=1785394137875&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-striped-hoodie-overshirt-p07484355.html?v1=549713376",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED COTTON-LINEN HOODIE OVERSHIRT - Blue - L-XL",
+          "sku": "549713376-407-96",
+          "mpn": "549713376-407-96",
+          "color": "Blue",
+          "size": "L-XL",
+          "image": [
+            "https://static.zara.net/assets/public/eba4/356f/9a374322896a/66f282486dc1/07484355407-p/07484355407-p.jpg?ts=1785394137875&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/cotton-linen-striped-hoodie-overshirt-p07484355.html?v1=549713376",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED COTTON-LINEN HOODIE OVERSHIRT",
+      "product_group_id": "07484355",
+      "brand": "ZARA",
+      "description": "Cropped fit overshirt made of a cotton and linen blend fabric. Features an adjustable hoodie collar and front opening. Long sleeves with buttoned cuffs. Front flap patch pockets.",
+      "material": "cotton/linen",
+      "composition": "OUTER SHELL: 69% cotton, 31% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED COTTON-LINEN HOODIE OVERSHIRT - Blue - S-M",
+          "sku": "549713376-407-97",
+          "mpn": "549713376-407-97",
+          "color_name": "Blue",
+          "size_name": "S-M",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-striped-hoodie-overshirt-p07484355.html?v1=549713376",
+          "images": [
+            "https://static.zara.net/assets/public/eba4/356f/9a374322896a/66f282486dc1/07484355407-p/07484355407-p.jpg?ts=1785394137875&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED COTTON-LINEN HOODIE OVERSHIRT - Blue - L-XL",
+          "sku": "549713376-407-96",
+          "mpn": "549713376-407-96",
+          "color_name": "Blue",
+          "size_name": "L-XL",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-linen-striped-hoodie-overshirt-p07484355.html?v1=549713376",
+          "images": [
+            "https://static.zara.net/assets/public/eba4/356f/9a374322896a/66f282486dc1/07484355407-p/07484355407-p.jpg?ts=1785394137875&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/eba4/356f/9a374322896a/66f282486dc1/07484355407-p/07484355407-p.jpg?ts=1785394137875&w=1920",
+        "https://static.zara.net/assets/public/cd5b/d80c/07d84b089646/b204b3614fa1/07484355407-a1/07484355407-a1.jpg?ts=1785394137073&w=1920",
+        "https://static.zara.net/assets/public/6a2b/4da0/c20e4b0a995c/8995267541c4/07484355407-a2/07484355407-a2.jpg?ts=1785394137402&w=1920",
+        "https://static.zara.net/assets/public/2185/ef83/601f44c287d1/55d0792a4004/07484355407-a3/07484355407-a3.jpg?ts=1785394137647&w=1920",
+        "https://static.zara.net/assets/public/19cd/fac3/4c934898a986/44677fdf1184/07484355407-a4/07484355407-a4.jpg?ts=1785394137923&w=1920",
+        "https://static.zara.net/assets/public/4728/cab3/5a954dfd8c80/d2fe455f183c/07484355407-a5/07484355407-a5.jpg?ts=1785394137983&w=1920",
+        "https://static.zara.net/assets/public/4d85/3ef9/2fab4059a754/48d0112839cd/07484355407-e1/07484355407-e1.jpg?ts=1783955062716&w=1920",
+        "https://static.zara.net/assets/public/645d/cdf9/d4664567adbd/7ca529d61e94/07484355407-e2/07484355407-e2.jpg?ts=1783955063458&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "89.90",
+  "rendered_description": "Description\nCropped fit overshirt made of a cotton and linen blend fabric. Features an adjustable hoodie collar and front opening. Long sleeves with buttoned cuffs. Front flap patch pockets.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 8,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "89.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "89.90",
+    "dom_price": "89.90",
+    "normalized_price": "89.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5c0cb698fe7af4b7711a6e7b48b4d5e4c0742a784308ce23fd7bc9f558edb21a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

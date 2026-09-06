@@ -1,0 +1,484 @@
+{
+  "product_id": "zara-us:00722579",
+  "source_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html",
+  "final_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html",
+  "canonical_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HIGH-NECK SWEATSHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HIGH-NECK SWEATSHIRT",
+      "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html",
+      "productGroupID": "00722579",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "High-neck sweatshirt with long sleeves. Ribbed trim. Zipper closure at the yoke. Brushed interior for a soft, warm feel.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920",
+        "https://static.zara.net/assets/public/09e4/db7d/aa4041aea079/06abd1c7b211/00722579442-e2/00722579442-e2.jpg?ts=1784563017909&w=1920",
+        "https://static.zara.net/assets/public/6f52/7cbd/dce74ed890fd/90c1dbcd47ca/00722579442-e3/00722579442-e3.jpg?ts=1784563020411&w=1920",
+        "https://static.zara.net/assets/public/8e2b/24c5/0b6d4986bb12/22e6d6830d06/00722579442-e4/00722579442-e4.jpg?ts=1784563019916&w=1920",
+        "https://static.zara.net/assets/public/96a4/0f56/67e6418ca1e0/48cc7289be95/00722579442000-p/00722579442000-p.jpg?ts=1785920468599&w=1920",
+        "https://static.zara.net/assets/public/d09b/8143/9d17482c8887/4e41232571e6/00722579442000-a1/00722579442000-a1.jpg?ts=1785920468527&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 1½ years (33,9 INCHES)",
+          "sku": "545544525-442-18",
+          "mpn": "545544525-442-18",
+          "color": "Duck blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 2 years (36,2 INCHES)",
+          "sku": "545544525-442-24",
+          "mpn": "545544525-442-24",
+          "color": "Duck blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 3 years (38,6 INCHES)",
+          "sku": "545544525-442-36",
+          "mpn": "545544525-442-36",
+          "color": "Duck blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 4 years (40,9 INCHES)",
+          "sku": "545544525-442-48",
+          "mpn": "545544525-442-48",
+          "color": "Duck blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 5 years (43,3 INCHES)",
+          "sku": "545544525-442-60",
+          "mpn": "545544525-442-60",
+          "color": "Duck blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 6 years (45,2 INCHES)",
+          "sku": "545544525-442-72",
+          "mpn": "545544525-442-72",
+          "color": "Duck blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 1½ years (33,9 INCHES)",
+          "sku": "545544525-712-18",
+          "mpn": "545544525-712-18",
+          "color": "Ecru",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 2 years (36,2 INCHES)",
+          "sku": "545544525-712-24",
+          "mpn": "545544525-712-24",
+          "color": "Ecru",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 3 years (38,6 INCHES)",
+          "sku": "545544525-712-36",
+          "mpn": "545544525-712-36",
+          "color": "Ecru",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 4 years (40,9 INCHES)",
+          "sku": "545544525-712-48",
+          "mpn": "545544525-712-48",
+          "color": "Ecru",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 5 years (43,3 INCHES)",
+          "sku": "545544525-712-60",
+          "mpn": "545544525-712-60",
+          "color": "Ecru",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 6 years (45,2 INCHES)",
+          "sku": "545544525-712-72",
+          "mpn": "545544525-712-72",
+          "color": "Ecru",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HIGH-NECK SWEATSHIRT",
+      "product_group_id": "00722579",
+      "brand": "ZARA",
+      "description": "High-neck sweatshirt with long sleeves. Ribbed trim. Zipper closure at the yoke. Brushed interior for a soft, warm feel.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 1½ years (33,9 INCHES)",
+          "sku": "545544525-442-18",
+          "mpn": "545544525-442-18",
+          "color_name": "Duck blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+          "images": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 2 years (36,2 INCHES)",
+          "sku": "545544525-442-24",
+          "mpn": "545544525-442-24",
+          "color_name": "Duck blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+          "images": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 3 years (38,6 INCHES)",
+          "sku": "545544525-442-36",
+          "mpn": "545544525-442-36",
+          "color_name": "Duck blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+          "images": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 4 years (40,9 INCHES)",
+          "sku": "545544525-442-48",
+          "mpn": "545544525-442-48",
+          "color_name": "Duck blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+          "images": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 5 years (43,3 INCHES)",
+          "sku": "545544525-442-60",
+          "mpn": "545544525-442-60",
+          "color_name": "Duck blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+          "images": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Duck blue - 6 years (45,2 INCHES)",
+          "sku": "545544525-442-72",
+          "mpn": "545544525-442-72",
+          "color_name": "Duck blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544525",
+          "images": [
+            "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 1½ years (33,9 INCHES)",
+          "sku": "545544525-712-18",
+          "mpn": "545544525-712-18",
+          "color_name": "Ecru",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+          "images": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 2 years (36,2 INCHES)",
+          "sku": "545544525-712-24",
+          "mpn": "545544525-712-24",
+          "color_name": "Ecru",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+          "images": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 3 years (38,6 INCHES)",
+          "sku": "545544525-712-36",
+          "mpn": "545544525-712-36",
+          "color_name": "Ecru",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+          "images": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 4 years (40,9 INCHES)",
+          "sku": "545544525-712-48",
+          "mpn": "545544525-712-48",
+          "color_name": "Ecru",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+          "images": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 5 years (43,3 INCHES)",
+          "sku": "545544525-712-60",
+          "mpn": "545544525-712-60",
+          "color_name": "Ecru",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+          "images": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ]
+        },
+        {
+          "name": "HIGH-NECK SWEATSHIRT - Ecru - 6 years (45,2 INCHES)",
+          "sku": "545544525-712-72",
+          "mpn": "545544525-712-72",
+          "color_name": "Ecru",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/high-neck-sweatshirt-p00722579.html?v1=545544526",
+          "images": [
+            "https://static.zara.net/assets/public/8c31/1e1a/23104b2c9ff6/37d7c0c1591b/00722579712-e1/00722579712-e1.jpg?ts=1784616120827&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9961/e8db/3fd24350bd2f/c44320831a4b/00722579442-e1/00722579442-e1.jpg?ts=1784563019184&w=1920",
+        "https://static.zara.net/assets/public/09e4/db7d/aa4041aea079/06abd1c7b211/00722579442-e2/00722579442-e2.jpg?ts=1784563017909&w=1920",
+        "https://static.zara.net/assets/public/6f52/7cbd/dce74ed890fd/90c1dbcd47ca/00722579442-e3/00722579442-e3.jpg?ts=1784563020411&w=1920",
+        "https://static.zara.net/assets/public/8e2b/24c5/0b6d4986bb12/22e6d6830d06/00722579442-e4/00722579442-e4.jpg?ts=1784563019916&w=1920",
+        "https://static.zara.net/assets/public/96a4/0f56/67e6418ca1e0/48cc7289be95/00722579442000-p/00722579442000-p.jpg?ts=1785920468599&w=1920",
+        "https://static.zara.net/assets/public/d09b/8143/9d17482c8887/4e41232571e6/00722579442000-a1/00722579442000-a1.jpg?ts=1785920468527&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Duck blue",
+    "Ecru"
+  ],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nHigh-neck sweatshirt with long sleeves. Ribbed trim. Zipper closure at the yoke. Brushed interior for a soft, warm feel.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6b93be3d45fbb49241131b1cbe829cca12ce1ab69b88e4396660992859c3d5f6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

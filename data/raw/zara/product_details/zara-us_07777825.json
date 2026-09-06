@@ -1,0 +1,170 @@
+{
+  "product_id": "zara-us:07777825",
+  "source_url": "https://www.zara.com/us/en/striped-bow-dress-p07777825.html",
+  "final_url": "https://www.zara.com/us/en/striped-bow-dress-p07777825.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-bow-dress-p07777825.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED BOW DRESS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED BOW DRESS",
+      "url": "https://www.zara.com/us/en/striped-bow-dress-p07777825.html",
+      "productGroupID": "07777825",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Straight neck dress with smocked elastic detail. Adjustable shoulder straps with ties.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4ce7/fbb1/08b542cfa382/636180f3e1cb/07777825620-p/07777825620-p.jpg?ts=1783067761717&w=1920",
+        "https://static.zara.net/assets/public/c1c2/98c9/7c014f9084e7/8bedc4c7b354/07777825620-a1/07777825620-a1.jpg?ts=1783067755977&w=1920",
+        "https://static.zara.net/assets/public/f516/357b/b03c464094d8/a7cf2928a725/07777825620-a2/07777825620-a2.jpg?ts=1783067756595&w=1920",
+        "https://static.zara.net/assets/public/70f4/26fc/cd294eee84dc/7e208a49b96f/07777825620-a3/07777825620-a3.jpg?ts=1783067758189&w=1920",
+        "https://static.zara.net/assets/public/fdde/5e91/70384181a1d9/08f77f96debd/07777825620-a4/07777825620-a4.jpg?ts=1783067757973&w=1920",
+        "https://static.zara.net/assets/public/2496/17f9/703c4b84afa1/1b7203bbd8be/07777825620-a5/07777825620-a5.jpg?ts=1783067760610&w=1920",
+        "https://static.zara.net/assets/public/23d7/4049/87fd4c1fb253/8f67d8e8011a/07777825620-a6/07777825620-a6.jpg?ts=1783067761167&w=1920",
+        "https://static.zara.net/assets/public/6a37/d410/be02474e8d9d/f2be063c7b38/07777825620-e1/07777825620-e1.jpg?ts=1783059839880&w=1920",
+        "https://static.zara.net/assets/public/c6cd/92f5/70d241ce910c/7e39c4a630b9/07777825620-e2/07777825620-e2.jpg?ts=1783059842852&w=1920",
+        "https://static.zara.net/assets/public/06c3/30db/45a84bf4a222/fc555fe8b263/07777825620-e3/07777825620-e3.jpg?ts=1783059845838&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED BOW DRESS - Pink - XS-S",
+          "sku": "551149561-620-10",
+          "mpn": "551149561-620-10",
+          "color": "Pink",
+          "size": "XS-S",
+          "image": [
+            "https://static.zara.net/assets/public/4ce7/fbb1/08b542cfa382/636180f3e1cb/07777825620-p/07777825620-p.jpg?ts=1783067761717&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/striped-bow-dress-p07777825.html?v1=551149561",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BOW DRESS - Pink - M-L",
+          "sku": "551149561-620-98",
+          "mpn": "551149561-620-98",
+          "color": "Pink",
+          "size": "M-L",
+          "image": [
+            "https://static.zara.net/assets/public/4ce7/fbb1/08b542cfa382/636180f3e1cb/07777825620-p/07777825620-p.jpg?ts=1783067761717&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/striped-bow-dress-p07777825.html?v1=551149561",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED BOW DRESS",
+      "product_group_id": "07777825",
+      "brand": "ZARA",
+      "description": "Straight neck dress with smocked elastic detail. Adjustable shoulder straps with ties.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED BOW DRESS - Pink - XS-S",
+          "sku": "551149561-620-10",
+          "mpn": "551149561-620-10",
+          "color_name": "Pink",
+          "size_name": "XS-S",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-bow-dress-p07777825.html?v1=551149561",
+          "images": [
+            "https://static.zara.net/assets/public/4ce7/fbb1/08b542cfa382/636180f3e1cb/07777825620-p/07777825620-p.jpg?ts=1783067761717&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BOW DRESS - Pink - M-L",
+          "sku": "551149561-620-98",
+          "mpn": "551149561-620-98",
+          "color_name": "Pink",
+          "size_name": "M-L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-bow-dress-p07777825.html?v1=551149561",
+          "images": [
+            "https://static.zara.net/assets/public/4ce7/fbb1/08b542cfa382/636180f3e1cb/07777825620-p/07777825620-p.jpg?ts=1783067761717&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4ce7/fbb1/08b542cfa382/636180f3e1cb/07777825620-p/07777825620-p.jpg?ts=1783067761717&w=1920",
+        "https://static.zara.net/assets/public/c1c2/98c9/7c014f9084e7/8bedc4c7b354/07777825620-a1/07777825620-a1.jpg?ts=1783067755977&w=1920",
+        "https://static.zara.net/assets/public/f516/357b/b03c464094d8/a7cf2928a725/07777825620-a2/07777825620-a2.jpg?ts=1783067756595&w=1920",
+        "https://static.zara.net/assets/public/70f4/26fc/cd294eee84dc/7e208a49b96f/07777825620-a3/07777825620-a3.jpg?ts=1783067758189&w=1920",
+        "https://static.zara.net/assets/public/fdde/5e91/70384181a1d9/08f77f96debd/07777825620-a4/07777825620-a4.jpg?ts=1783067757973&w=1920",
+        "https://static.zara.net/assets/public/2496/17f9/703c4b84afa1/1b7203bbd8be/07777825620-a5/07777825620-a5.jpg?ts=1783067760610&w=1920",
+        "https://static.zara.net/assets/public/23d7/4049/87fd4c1fb253/8f67d8e8011a/07777825620-a6/07777825620-a6.jpg?ts=1783067761167&w=1920",
+        "https://static.zara.net/assets/public/6a37/d410/be02474e8d9d/f2be063c7b38/07777825620-e1/07777825620-e1.jpg?ts=1783059839880&w=1920",
+        "https://static.zara.net/assets/public/c6cd/92f5/70d241ce910c/7e39c4a630b9/07777825620-e2/07777825620-e2.jpg?ts=1783059842852&w=1920",
+        "https://static.zara.net/assets/public/06c3/30db/45a84bf4a222/fc555fe8b263/07777825620-e3/07777825620-e3.jpg?ts=1783059845838&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nStraight neck dress with smocked elastic detail. Adjustable shoulder straps with ties.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 10,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4e88b11691141d7b87da78628b22d074448f7f623ae8edca7e2b768806216de9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

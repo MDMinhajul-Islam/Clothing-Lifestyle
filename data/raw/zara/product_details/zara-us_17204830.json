@@ -1,0 +1,381 @@
+{
+  "product_id": "zara-us:17204830",
+  "source_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html",
+  "final_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html",
+  "canonical_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS",
+      "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html",
+      "productGroupID": "17204830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "MICKEY MOUSE© DISNEY basketball-style high-top sneakers with a combination of panels and contrasting color details. Features lace-up closure and side zipper. Includes a back pull tab for easy on and off. Chunky rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920",
+        "https://static.zara.net/assets/public/fc57/e920/e1ca40bf80fc/8d5a5e0ba209/17204830202-e2/17204830202-e2.jpg?ts=1787213087877&w=1920",
+        "https://static.zara.net/assets/public/2ede/b2de/a1a346f2bee6/37a4ee4aaa19/17204830202-e3/17204830202-e3.jpg?ts=1787213092340&w=1920",
+        "https://static.zara.net/assets/public/b6ee/3db1/32704a3aa3a6/822204b1fb93/17204830202-e4/17204830202-e4.jpg?ts=1787213092102&w=1920",
+        "https://static.zara.net/assets/public/ba53/bdcc/20584050909e/0655359786d1/17204830202-e5/17204830202-e5.jpg?ts=1787213093518&w=1920",
+        "https://static.zara.net/assets/public/84c2/951a/f5a940d18248/19c595db6383/17204830202-e6/17204830202-e6.jpg?ts=1787213091399&w=1920",
+        "https://static.zara.net/assets/public/9743/2483/c7e14d4aa863/e69af924d862/17204830202-e7/17204830202-e7.jpg?ts=1787213093632&w=1920",
+        "https://static.zara.net/assets/public/ac38/a465/661f438fa265/44723f7e8812/17204830202-e8/17204830202-e8.jpg?ts=1787213091994&w=1920"
+      ],
+      "material": "polyamide/polyester/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "55% polyamide, 39% polyester, 6% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyamide"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 6½ (5.3 INCHES)",
+          "sku": "553363826-202-22",
+          "mpn": "553363826-202-22",
+          "color": "Multi-color",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 7 (5.6 INCHES)",
+          "sku": "553363826-202-23",
+          "mpn": "553363826-202-23",
+          "color": "Multi-color",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 8 (5.9 INCHES)",
+          "sku": "553363826-202-24",
+          "mpn": "553363826-202-24",
+          "color": "Multi-color",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 9 (6.1 INCHES)",
+          "sku": "553363826-202-25",
+          "mpn": "553363826-202-25",
+          "color": "Multi-color",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 9½ (6.4 INCHES)",
+          "sku": "553363826-202-26",
+          "mpn": "553363826-202-26",
+          "color": "Multi-color",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 10½ (6.6 INCHES)",
+          "sku": "553363826-202-27",
+          "mpn": "553363826-202-27",
+          "color": "Multi-color",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 11 (7.0 INCHES)",
+          "sku": "553363826-202-28",
+          "mpn": "553363826-202-28",
+          "color": "Multi-color",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 12 (7.2 INCHES)",
+          "sku": "553363826-202-29",
+          "mpn": "553363826-202-29",
+          "color": "Multi-color",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS",
+      "product_group_id": "17204830",
+      "brand": "ZARA",
+      "description": "MICKEY MOUSE© DISNEY basketball-style high-top sneakers with a combination of panels and contrasting color details. Features lace-up closure and side zipper. Includes a back pull tab for easy on and off. Chunky rubber sole.",
+      "material": "polyamide/polyester/elastane",
+      "composition": "UPPER: 55% polyamide, 39% polyester, 6% elastane | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 100% polyamide",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 6½ (5.3 INCHES)",
+          "sku": "553363826-202-22",
+          "mpn": "553363826-202-22",
+          "color_name": "Multi-color",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+          "images": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ]
+        },
+        {
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 7 (5.6 INCHES)",
+          "sku": "553363826-202-23",
+          "mpn": "553363826-202-23",
+          "color_name": "Multi-color",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+          "images": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ]
+        },
+        {
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 8 (5.9 INCHES)",
+          "sku": "553363826-202-24",
+          "mpn": "553363826-202-24",
+          "color_name": "Multi-color",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+          "images": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ]
+        },
+        {
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 9 (6.1 INCHES)",
+          "sku": "553363826-202-25",
+          "mpn": "553363826-202-25",
+          "color_name": "Multi-color",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+          "images": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ]
+        },
+        {
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 9½ (6.4 INCHES)",
+          "sku": "553363826-202-26",
+          "mpn": "553363826-202-26",
+          "color_name": "Multi-color",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+          "images": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ]
+        },
+        {
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 10½ (6.6 INCHES)",
+          "sku": "553363826-202-27",
+          "mpn": "553363826-202-27",
+          "color_name": "Multi-color",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+          "images": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ]
+        },
+        {
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 11 (7.0 INCHES)",
+          "sku": "553363826-202-28",
+          "mpn": "553363826-202-28",
+          "color_name": "Multi-color",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+          "images": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ]
+        },
+        {
+          "name": "MICKEY MOUSE© DISNEY HIGH-TOP SNEAKERS - Multi-color - 12 (7.2 INCHES)",
+          "sku": "553363826-202-29",
+          "mpn": "553363826-202-29",
+          "color_name": "Multi-color",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-high-top-sneakers-p17204830.html?v1=553363826",
+          "images": [
+            "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6ffc/f089/dc9442ac9775/ed630da32f90/17204830202-e1/17204830202-e1.jpg?ts=1787213092898&w=1920",
+        "https://static.zara.net/assets/public/fc57/e920/e1ca40bf80fc/8d5a5e0ba209/17204830202-e2/17204830202-e2.jpg?ts=1787213087877&w=1920",
+        "https://static.zara.net/assets/public/2ede/b2de/a1a346f2bee6/37a4ee4aaa19/17204830202-e3/17204830202-e3.jpg?ts=1787213092340&w=1920",
+        "https://static.zara.net/assets/public/b6ee/3db1/32704a3aa3a6/822204b1fb93/17204830202-e4/17204830202-e4.jpg?ts=1787213092102&w=1920",
+        "https://static.zara.net/assets/public/ba53/bdcc/20584050909e/0655359786d1/17204830202-e5/17204830202-e5.jpg?ts=1787213093518&w=1920",
+        "https://static.zara.net/assets/public/84c2/951a/f5a940d18248/19c595db6383/17204830202-e6/17204830202-e6.jpg?ts=1787213091399&w=1920",
+        "https://static.zara.net/assets/public/9743/2483/c7e14d4aa863/e69af924d862/17204830202-e7/17204830202-e7.jpg?ts=1787213093632&w=1920",
+        "https://static.zara.net/assets/public/ac38/a465/661f438fa265/44723f7e8812/17204830202-e8/17204830202-e8.jpg?ts=1787213091994&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nMICKEY MOUSE© DISNEY basketball-style high-top sneakers with a combination of panels and contrasting color details. Features lace-up closure and side zipper. Includes a back pull tab for easy on and off. Chunky rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "86f7f9f21be9e16cc671e06e204c303ac1e5684116f986002b3273a55da2114a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,174 @@
+{
+  "product_id": "zara-us:11546830",
+  "source_url": "https://www.zara.com/us/en/quilted-backpack-p11546830.html",
+  "final_url": "https://www.zara.com/us/en/quilted-backpack-p11546830.html",
+  "canonical_url": "https://www.zara.com/us/en/quilted-backpack-p11546830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "QUILTED BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "QUILTED BACKPACK",
+      "url": "https://www.zara.com/us/en/quilted-backpack-p11546830.html",
+      "productGroupID": "11546830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Backpack with a color-block design and a quilted front pocket. Features a main compartment and a front pocket with zip closure. Side pockets, top handle, and adjustable double shoulder straps.\n\nHeight x Length x Width: 11.8 x 11.8 x 5.5 inches (30 x 30 x 14 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1b5f/60e5/31e84953b08e/020e8b342344/11547830202-e1/11547830202-e1.jpg?ts=1784559967066&w=1920",
+        "https://static.zara.net/assets/public/f863/9882/720c4bb9bd63/0575b84211fe/11547830202-e2/11547830202-e2.jpg?ts=1784559967060&w=1920",
+        "https://static.zara.net/assets/public/4d53/ff57/e0ed49fa8054/5c3ed83f8b9c/11547830202-e3/11547830202-e3.jpg?ts=1784559959573&w=1920",
+        "https://static.zara.net/assets/public/ddd0/5416/cf284c63a87b/1b4a19720115/11547830202-e4/11547830202-e4.jpg?ts=1784559965887&w=1920",
+        "https://static.zara.net/assets/public/6e64/2e62/bc994ca396eb/646b8ec24622/11547830202-e5/11547830202-e5.jpg?ts=1784559958500&w=1920",
+        "https://static.zara.net/assets/public/b1a8/3225/7bea45be9b75/372342964805/11547830202-e6/11547830202-e6.jpg?ts=1784559967290&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyethylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "QUILTED BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "548871469-202-53",
+          "mpn": "548871469-202-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/1b5f/60e5/31e84953b08e/020e8b342344/11547830202-e1/11547830202-e1.jpg?ts=1784559967066&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/quilted-backpack-p11546830.html?v1=548871469",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "QUILTED BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "548871469-203-53",
+          "mpn": "548871469-203-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/783a/17ea/36f341598e74/6c1c37443a3c/11546830203-e1/11546830203-e1.jpg?ts=1784559948717&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/quilted-backpack-p11546830.html?v1=545474690",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "QUILTED BACKPACK",
+      "product_group_id": "11546830",
+      "brand": "ZARA",
+      "description": "Backpack with a color-block design and a quilted front pocket. Features a main compartment and a front pocket with zip closure. Side pockets, top handle, and adjustable double shoulder straps.\n\nHeight x Length x Width: 11.8 x 11.8 x 5.5 inches (30 x 30 x 14 cm)",
+      "material": null,
+      "composition": "LINING: 100% polyester | FILLING: 100% polyethylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "QUILTED BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "548871469-202-53",
+          "mpn": "548871469-202-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/quilted-backpack-p11546830.html?v1=548871469",
+          "images": [
+            "https://static.zara.net/assets/public/1b5f/60e5/31e84953b08e/020e8b342344/11547830202-e1/11547830202-e1.jpg?ts=1784559967066&w=1920"
+          ]
+        },
+        {
+          "name": "QUILTED BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "548871469-203-53",
+          "mpn": "548871469-203-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/quilted-backpack-p11546830.html?v1=545474690",
+          "images": [
+            "https://static.zara.net/assets/public/783a/17ea/36f341598e74/6c1c37443a3c/11546830203-e1/11546830203-e1.jpg?ts=1784559948717&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1b5f/60e5/31e84953b08e/020e8b342344/11547830202-e1/11547830202-e1.jpg?ts=1784559967066&w=1920",
+        "https://static.zara.net/assets/public/f863/9882/720c4bb9bd63/0575b84211fe/11547830202-e2/11547830202-e2.jpg?ts=1784559967060&w=1920",
+        "https://static.zara.net/assets/public/4d53/ff57/e0ed49fa8054/5c3ed83f8b9c/11547830202-e3/11547830202-e3.jpg?ts=1784559959573&w=1920",
+        "https://static.zara.net/assets/public/ddd0/5416/cf284c63a87b/1b4a19720115/11547830202-e4/11547830202-e4.jpg?ts=1784559965887&w=1920",
+        "https://static.zara.net/assets/public/6e64/2e62/bc994ca396eb/646b8ec24622/11547830202-e5/11547830202-e5.jpg?ts=1784559958500&w=1920",
+        "https://static.zara.net/assets/public/b1a8/3225/7bea45be9b75/372342964805/11547830202-e6/11547830202-e6.jpg?ts=1784559967290&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Multi-color"
+  ],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nBackpack with a color-block design and a quilted front pocket. Features a main compartment and a front pocket with zip closure. Side pockets, top handle, and adjustable double shoulder straps.\nHeight x Length x Width: 11.8 x 11.8 x 5.5 inches (30 x 30 x 14 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "905e3785a4ed33fc389515f99c2a8d3956cb873828946ec28ebbbf53fad9d16d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

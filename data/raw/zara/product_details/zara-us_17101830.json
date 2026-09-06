@@ -1,0 +1,381 @@
+{
+  "product_id": "zara-us:17101830",
+  "source_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html",
+  "final_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER ANKLE BOOTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER ANKLE BOOTS",
+      "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html",
+      "productGroupID": "17101830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "100% leather ankle boots with a suede finish. Features side zip closure and adjustable laces. Designed with a chunky, track-style rubber sole. LEATHER: This product is made from a premium material. Any markings or color variations are characteristics that confirm the authenticity of the leather.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920",
+        "https://static.zara.net/assets/public/cbce/31c0/710641bd9084/acf5ff4ab958/17101830107-e2/17101830107-e2.jpg?ts=1783507065436&w=1920",
+        "https://static.zara.net/assets/public/d4b3/bdb0/6c9c4ed0b806/d7199254ad10/17101830107-e3/17101830107-e3.jpg?ts=1783507065355&w=1920",
+        "https://static.zara.net/assets/public/117f/93f5/910c4a598fc3/f5ac6626933d/17101830107-e4/17101830107-e4.jpg?ts=1783507065221&w=1920",
+        "https://static.zara.net/assets/public/a2e8/9c0c/503342348969/fe42ace70448/17101830107-e5/17101830107-e5.jpg?ts=1783507065469&w=1920",
+        "https://static.zara.net/assets/public/c830/f38a/10354af38d64/9d8b241fcaf7/17101830107-e6/17101830107-e6.jpg?ts=1783507064814&w=1920",
+        "https://static.zara.net/assets/public/bb7e/8b69/a53f4e19b3ad/4cca7e990ae1/17101830107-e7/17101830107-e7.jpg?ts=1783507065493&w=1920",
+        "https://static.zara.net/assets/public/5df2/ce3e/3b9643a49f45/72f0e71eab97/17101830107-e8/17101830107-e8.jpg?ts=1783507066197&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 6½ (5.3 INCHES)",
+          "sku": "545494266-107-22",
+          "mpn": "545494266-107-22",
+          "color": "Sandy Brown",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 7 (5.6 INCHES)",
+          "sku": "545494266-107-23",
+          "mpn": "545494266-107-23",
+          "color": "Sandy Brown",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 8 (5.9 INCHES)",
+          "sku": "545494266-107-24",
+          "mpn": "545494266-107-24",
+          "color": "Sandy Brown",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 9 (6.1 INCHES)",
+          "sku": "545494266-107-25",
+          "mpn": "545494266-107-25",
+          "color": "Sandy Brown",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 9½ (6.4 INCHES)",
+          "sku": "545494266-107-26",
+          "mpn": "545494266-107-26",
+          "color": "Sandy Brown",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 10½ (6.6 INCHES)",
+          "sku": "545494266-107-27",
+          "mpn": "545494266-107-27",
+          "color": "Sandy Brown",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 11 (7.0 INCHES)",
+          "sku": "545494266-107-28",
+          "mpn": "545494266-107-28",
+          "color": "Sandy Brown",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 12 (7.2 INCHES)",
+          "sku": "545494266-107-29",
+          "mpn": "545494266-107-29",
+          "color": "Sandy Brown",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER ANKLE BOOTS",
+      "product_group_id": "17101830",
+      "brand": "ZARA",
+      "description": "100% leather ankle boots with a suede finish. Features side zip closure and adjustable laces. Designed with a chunky, track-style rubber sole. LEATHER: This product is made from a premium material. Any markings or color variations are characteristics that confirm the authenticity of the leather.",
+      "material": "100% cow leather",
+      "composition": "UPPER: 100% cow leather | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 6½ (5.3 INCHES)",
+          "sku": "545494266-107-22",
+          "mpn": "545494266-107-22",
+          "color_name": "Sandy Brown",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+          "images": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 7 (5.6 INCHES)",
+          "sku": "545494266-107-23",
+          "mpn": "545494266-107-23",
+          "color_name": "Sandy Brown",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+          "images": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 8 (5.9 INCHES)",
+          "sku": "545494266-107-24",
+          "mpn": "545494266-107-24",
+          "color_name": "Sandy Brown",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+          "images": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 9 (6.1 INCHES)",
+          "sku": "545494266-107-25",
+          "mpn": "545494266-107-25",
+          "color_name": "Sandy Brown",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+          "images": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 9½ (6.4 INCHES)",
+          "sku": "545494266-107-26",
+          "mpn": "545494266-107-26",
+          "color_name": "Sandy Brown",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+          "images": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 10½ (6.6 INCHES)",
+          "sku": "545494266-107-27",
+          "mpn": "545494266-107-27",
+          "color_name": "Sandy Brown",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+          "images": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 11 (7.0 INCHES)",
+          "sku": "545494266-107-28",
+          "mpn": "545494266-107-28",
+          "color_name": "Sandy Brown",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+          "images": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER ANKLE BOOTS - Sandy Brown - 12 (7.2 INCHES)",
+          "sku": "545494266-107-29",
+          "mpn": "545494266-107-29",
+          "color_name": "Sandy Brown",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-ankle-boots-p17101830.html?v1=545494266",
+          "images": [
+            "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c784/32e4/ca1a4820afac/6b41d05aa590/17101830107-e1/17101830107-e1.jpg?ts=1783507065355&w=1920",
+        "https://static.zara.net/assets/public/cbce/31c0/710641bd9084/acf5ff4ab958/17101830107-e2/17101830107-e2.jpg?ts=1783507065436&w=1920",
+        "https://static.zara.net/assets/public/d4b3/bdb0/6c9c4ed0b806/d7199254ad10/17101830107-e3/17101830107-e3.jpg?ts=1783507065355&w=1920",
+        "https://static.zara.net/assets/public/117f/93f5/910c4a598fc3/f5ac6626933d/17101830107-e4/17101830107-e4.jpg?ts=1783507065221&w=1920",
+        "https://static.zara.net/assets/public/a2e8/9c0c/503342348969/fe42ace70448/17101830107-e5/17101830107-e5.jpg?ts=1783507065469&w=1920",
+        "https://static.zara.net/assets/public/c830/f38a/10354af38d64/9d8b241fcaf7/17101830107-e6/17101830107-e6.jpg?ts=1783507064814&w=1920",
+        "https://static.zara.net/assets/public/bb7e/8b69/a53f4e19b3ad/4cca7e990ae1/17101830107-e7/17101830107-e7.jpg?ts=1783507065493&w=1920",
+        "https://static.zara.net/assets/public/5df2/ce3e/3b9643a49f45/72f0e71eab97/17101830107-e8/17101830107-e8.jpg?ts=1783507066197&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\n100% leather ankle boots with a suede finish. Features side zip closure and adjustable laces. Designed with a chunky, track-style rubber sole. LEATHER: This product is made from a premium material. Any markings or color variations are characteristics that confirm the authenticity of the leather.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e7e9f7d171688fe1fd0970c8483a71efc7e180b67a32be2fba23492126128195",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

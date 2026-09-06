@@ -1,0 +1,484 @@
+{
+  "product_id": "zara-us:08614571",
+  "source_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html",
+  "final_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html",
+  "canonical_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COMFORT BAGGY JEANS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COMFORT BAGGY JEANS",
+      "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html",
+      "productGroupID": "08614571",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Baggy jeans with an elastic waistband and front snap button closure. Front pockets and back patch pockets. Cuffed hem.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920",
+        "https://static.zara.net/assets/public/4a4e/a336/6cc44348b9ab/0aac152f5216/08614571407-e2/08614571407-e2.jpg?ts=1786691949391&w=1920",
+        "https://static.zara.net/assets/public/dee8/6369/cce743e4b1e8/4b70c067e293/08614571407-e3/08614571407-e3.jpg?ts=1786691954124&w=1920",
+        "https://static.zara.net/assets/public/06f9/199f/f598448490ac/0ba154c253aa/08614571407-e4/08614571407-e4.jpg?ts=1786691952668&w=1920",
+        "https://static.zara.net/assets/public/92b2/ab83/b4c142f08ef5/2838edb86a2e/08614571407400-p/08614571407400-p.jpg?ts=1786369631381&w=1920",
+        "https://static.zara.net/assets/public/7b03/3273/b1904453ac22/8b1e21068116/08614571407400-a1/08614571407400-a1.jpg?ts=1786369630085&w=1920"
+      ],
+      "material": "cotton/polyester/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "92% cotton, 6% polyester, 2% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Blue - 1½ years (33,9 INCHES)",
+          "sku": "545453870-407-18",
+          "mpn": "545453870-407-18",
+          "color": "Blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Blue - 2 years (36,2 INCHES)",
+          "sku": "545453870-407-24",
+          "mpn": "545453870-407-24",
+          "color": "Blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Blue - 3 years (38,6 INCHES)",
+          "sku": "545453870-407-36",
+          "mpn": "545453870-407-36",
+          "color": "Blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Blue - 4 years (40,9 INCHES)",
+          "sku": "545453870-407-48",
+          "mpn": "545453870-407-48",
+          "color": "Blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Blue - 5 years (43,3 INCHES)",
+          "sku": "545453870-407-60",
+          "mpn": "545453870-407-60",
+          "color": "Blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Blue - 6 years (45,2 INCHES)",
+          "sku": "545453870-407-72",
+          "mpn": "545453870-407-72",
+          "color": "Blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 1½ years (33,9 INCHES)",
+          "sku": "545453870-427-18",
+          "mpn": "545453870-427-18",
+          "color": "Mid-blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 2 years (36,2 INCHES)",
+          "sku": "545453870-427-24",
+          "mpn": "545453870-427-24",
+          "color": "Mid-blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 3 years (38,6 INCHES)",
+          "sku": "545453870-427-36",
+          "mpn": "545453870-427-36",
+          "color": "Mid-blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 4 years (40,9 INCHES)",
+          "sku": "545453870-427-48",
+          "mpn": "545453870-427-48",
+          "color": "Mid-blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 5 years (43,3 INCHES)",
+          "sku": "545453870-427-60",
+          "mpn": "545453870-427-60",
+          "color": "Mid-blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 6 years (45,2 INCHES)",
+          "sku": "545453870-427-72",
+          "mpn": "545453870-427-72",
+          "color": "Mid-blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COMFORT BAGGY JEANS",
+      "product_group_id": "08614571",
+      "brand": "ZARA",
+      "description": "Baggy jeans with an elastic waistband and front snap button closure. Front pockets and back patch pockets. Cuffed hem.",
+      "material": "cotton/polyester/elastane",
+      "composition": "OUTER SHELL: 92% cotton, 6% polyester, 2% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COMFORT BAGGY JEANS - Blue - 1½ years (33,9 INCHES)",
+          "sku": "545453870-407-18",
+          "mpn": "545453870-407-18",
+          "color_name": "Blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+          "images": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Blue - 2 years (36,2 INCHES)",
+          "sku": "545453870-407-24",
+          "mpn": "545453870-407-24",
+          "color_name": "Blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+          "images": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Blue - 3 years (38,6 INCHES)",
+          "sku": "545453870-407-36",
+          "mpn": "545453870-407-36",
+          "color_name": "Blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+          "images": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Blue - 4 years (40,9 INCHES)",
+          "sku": "545453870-407-48",
+          "mpn": "545453870-407-48",
+          "color_name": "Blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+          "images": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Blue - 5 years (43,3 INCHES)",
+          "sku": "545453870-407-60",
+          "mpn": "545453870-407-60",
+          "color_name": "Blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+          "images": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Blue - 6 years (45,2 INCHES)",
+          "sku": "545453870-407-72",
+          "mpn": "545453870-407-72",
+          "color_name": "Blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453870",
+          "images": [
+            "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 1½ years (33,9 INCHES)",
+          "sku": "545453870-427-18",
+          "mpn": "545453870-427-18",
+          "color_name": "Mid-blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+          "images": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 2 years (36,2 INCHES)",
+          "sku": "545453870-427-24",
+          "mpn": "545453870-427-24",
+          "color_name": "Mid-blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+          "images": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 3 years (38,6 INCHES)",
+          "sku": "545453870-427-36",
+          "mpn": "545453870-427-36",
+          "color_name": "Mid-blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+          "images": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 4 years (40,9 INCHES)",
+          "sku": "545453870-427-48",
+          "mpn": "545453870-427-48",
+          "color_name": "Mid-blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+          "images": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 5 years (43,3 INCHES)",
+          "sku": "545453870-427-60",
+          "mpn": "545453870-427-60",
+          "color_name": "Mid-blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+          "images": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ]
+        },
+        {
+          "name": "COMFORT BAGGY JEANS - Mid-blue - 6 years (45,2 INCHES)",
+          "sku": "545453870-427-72",
+          "mpn": "545453870-427-72",
+          "color_name": "Mid-blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/comfort-baggy-jeans-p08614571.html?v1=545453868",
+          "images": [
+            "https://static.zara.net/assets/public/6c74/cd58/b191479c9e04/95c99f69e7e7/08614571427-e1/08614571427-e1.jpg?ts=1786710533853&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/be28/80f8/908c4710b129/cbb07d3bc58e/08614571407-e1/08614571407-e1.jpg?ts=1786691953071&w=1920",
+        "https://static.zara.net/assets/public/4a4e/a336/6cc44348b9ab/0aac152f5216/08614571407-e2/08614571407-e2.jpg?ts=1786691949391&w=1920",
+        "https://static.zara.net/assets/public/dee8/6369/cce743e4b1e8/4b70c067e293/08614571407-e3/08614571407-e3.jpg?ts=1786691954124&w=1920",
+        "https://static.zara.net/assets/public/06f9/199f/f598448490ac/0ba154c253aa/08614571407-e4/08614571407-e4.jpg?ts=1786691952668&w=1920",
+        "https://static.zara.net/assets/public/92b2/ab83/b4c142f08ef5/2838edb86a2e/08614571407400-p/08614571407400-p.jpg?ts=1786369631381&w=1920",
+        "https://static.zara.net/assets/public/7b03/3273/b1904453ac22/8b1e21068116/08614571407400-a1/08614571407400-a1.jpg?ts=1786369630085&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Mid-blue"
+  ],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nBaggy jeans with an elastic waistband and front snap button closure. Front pockets and back patch pockets. Cuffed hem.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0367209e9fb55445cb7475d74266e91acc20db0faf1f2411d363eebcac7e8c42",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

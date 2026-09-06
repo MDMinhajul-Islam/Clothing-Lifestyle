@@ -1,0 +1,481 @@
+{
+  "product_id": "zara-us:00722561",
+  "source_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html",
+  "final_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED POLO SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED POLO SHIRT",
+      "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html",
+      "productGroupID": "00722561",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Polo shirt with collar and short sleeves. Button closure at yoke. Striped print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920",
+        "https://static.zara.net/assets/public/5118/21f5/5b5148ee8783/68c36ffd2287/00722561400-e2/00722561400-e2.jpg?ts=1779963535990&w=1920",
+        "https://static.zara.net/assets/public/4172/76f6/fb6840ab8c2a/e9eb9d1f5cbf/00722561400-e3/00722561400-e3.jpg?ts=1779963534433&w=1920",
+        "https://static.zara.net/assets/public/1c55/76ae/505f4d499102/48cc5cae764c/00722561400-e4/00722561400-e4.jpg?ts=1779963534648&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Blue - 1½ years (33,9 INCHES)",
+          "sku": "545479266-400-18",
+          "mpn": "545479266-400-18",
+          "color": "Blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Blue - 2 years (36,2 INCHES)",
+          "sku": "545479266-400-24",
+          "mpn": "545479266-400-24",
+          "color": "Blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Blue - 3 years (38,6 INCHES)",
+          "sku": "545479266-400-36",
+          "mpn": "545479266-400-36",
+          "color": "Blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Blue - 4 years (40,9 INCHES)",
+          "sku": "545479266-400-48",
+          "mpn": "545479266-400-48",
+          "color": "Blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Blue - 5 years (43,3 INCHES)",
+          "sku": "545479266-400-60",
+          "mpn": "545479266-400-60",
+          "color": "Blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Blue - 6 years (45,2 INCHES)",
+          "sku": "545479266-400-72",
+          "mpn": "545479266-400-72",
+          "color": "Blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Red - 1½ years (33,9 INCHES)",
+          "sku": "545479266-600-18",
+          "mpn": "545479266-600-18",
+          "color": "Red",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Red - 2 years (36,2 INCHES)",
+          "sku": "545479266-600-24",
+          "mpn": "545479266-600-24",
+          "color": "Red",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Red - 3 years (38,6 INCHES)",
+          "sku": "545479266-600-36",
+          "mpn": "545479266-600-36",
+          "color": "Red",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Red - 4 years (40,9 INCHES)",
+          "sku": "545479266-600-48",
+          "mpn": "545479266-600-48",
+          "color": "Red",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Red - 5 years (43,3 INCHES)",
+          "sku": "545479266-600-60",
+          "mpn": "545479266-600-60",
+          "color": "Red",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED POLO SHIRT - Red - 6 years (45,2 INCHES)",
+          "sku": "545479266-600-72",
+          "mpn": "545479266-600-72",
+          "color": "Red",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED POLO SHIRT",
+      "product_group_id": "00722561",
+      "brand": "ZARA",
+      "description": "Polo shirt with collar and short sleeves. Button closure at yoke. Striped print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED POLO SHIRT - Blue - 1½ years (33,9 INCHES)",
+          "sku": "545479266-400-18",
+          "mpn": "545479266-400-18",
+          "color_name": "Blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+          "images": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Blue - 2 years (36,2 INCHES)",
+          "sku": "545479266-400-24",
+          "mpn": "545479266-400-24",
+          "color_name": "Blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+          "images": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Blue - 3 years (38,6 INCHES)",
+          "sku": "545479266-400-36",
+          "mpn": "545479266-400-36",
+          "color_name": "Blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+          "images": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Blue - 4 years (40,9 INCHES)",
+          "sku": "545479266-400-48",
+          "mpn": "545479266-400-48",
+          "color_name": "Blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+          "images": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Blue - 5 years (43,3 INCHES)",
+          "sku": "545479266-400-60",
+          "mpn": "545479266-400-60",
+          "color_name": "Blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+          "images": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Blue - 6 years (45,2 INCHES)",
+          "sku": "545479266-400-72",
+          "mpn": "545479266-400-72",
+          "color_name": "Blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479266",
+          "images": [
+            "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Red - 1½ years (33,9 INCHES)",
+          "sku": "545479266-600-18",
+          "mpn": "545479266-600-18",
+          "color_name": "Red",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+          "images": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Red - 2 years (36,2 INCHES)",
+          "sku": "545479266-600-24",
+          "mpn": "545479266-600-24",
+          "color_name": "Red",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+          "images": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Red - 3 years (38,6 INCHES)",
+          "sku": "545479266-600-36",
+          "mpn": "545479266-600-36",
+          "color_name": "Red",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+          "images": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Red - 4 years (40,9 INCHES)",
+          "sku": "545479266-600-48",
+          "mpn": "545479266-600-48",
+          "color_name": "Red",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+          "images": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Red - 5 years (43,3 INCHES)",
+          "sku": "545479266-600-60",
+          "mpn": "545479266-600-60",
+          "color_name": "Red",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+          "images": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED POLO SHIRT - Red - 6 years (45,2 INCHES)",
+          "sku": "545479266-600-72",
+          "mpn": "545479266-600-72",
+          "color_name": "Red",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/striped-polo-shirt-p00722561.html?v1=545479267",
+          "images": [
+            "https://static.zara.net/assets/public/c0f9/22b4/7a584097aad2/807e15511e43/00722561600-e1/00722561600-e1.jpg?ts=1779963531158&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/712a/32fc/801641b7a029/8450cd64fbcf/00722561400-e1/00722561400-e1.jpg?ts=1779963534444&w=1920",
+        "https://static.zara.net/assets/public/5118/21f5/5b5148ee8783/68c36ffd2287/00722561400-e2/00722561400-e2.jpg?ts=1779963535990&w=1920",
+        "https://static.zara.net/assets/public/4172/76f6/fb6840ab8c2a/e9eb9d1f5cbf/00722561400-e3/00722561400-e3.jpg?ts=1779963534433&w=1920",
+        "https://static.zara.net/assets/public/1c55/76ae/505f4d499102/48cc5cae764c/00722561400-e4/00722561400-e4.jpg?ts=1779963534648&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Red"
+  ],
+  "rendered_price": "15.90",
+  "rendered_description": "Description\nPolo shirt with collar and short sleeves. Button closure at yoke. Striped print.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "15.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "15.90",
+    "dom_price": "15.90",
+    "normalized_price": "15.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "69651740ddd60ed54b78bc85c198afa1724e805c20de1078fed4401e3ce0eb9b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

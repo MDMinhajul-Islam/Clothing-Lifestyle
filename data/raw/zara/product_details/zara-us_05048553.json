@@ -1,0 +1,673 @@
+{
+  "product_id": "zara-us:05048553",
+  "source_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html",
+  "final_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED T-SHIRT",
+      "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html",
+      "productGroupID": "05048553",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt. Striped print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920",
+        "https://static.zara.net/assets/public/16e2/4908/779e44d0831b/6727c1374319/05048553311-e2/05048553311-e2.jpg?ts=1781011895309&w=1920",
+        "https://static.zara.net/assets/public/1541/b2e1/fa954c0c83de/03de86f36ef5/05048553311-e3/05048553311-e3.jpg?ts=1781011896839&w=1920",
+        "https://static.zara.net/assets/public/806c/b8f1/b0df45119fca/8e8ccc07ed15/05048553311-e4/05048553311-e4.jpg?ts=1781011895912&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Dark yellow - 1½ years (33,9 INCHES)",
+          "sku": "545474803-311-18",
+          "mpn": "545474803-311-18",
+          "color": "Dark yellow",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Dark yellow - 2 years (36,2 INCHES)",
+          "sku": "545474803-311-24",
+          "mpn": "545474803-311-24",
+          "color": "Dark yellow",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Dark yellow - 3 years (38,6 INCHES)",
+          "sku": "545474803-311-36",
+          "mpn": "545474803-311-36",
+          "color": "Dark yellow",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Dark yellow - 4 years (40,9 INCHES)",
+          "sku": "545474803-311-48",
+          "mpn": "545474803-311-48",
+          "color": "Dark yellow",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Dark yellow - 5 years (43,3 INCHES)",
+          "sku": "545474803-311-60",
+          "mpn": "545474803-311-60",
+          "color": "Dark yellow",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Dark yellow - 6 years (45,2 INCHES)",
+          "sku": "545474803-311-72",
+          "mpn": "545474803-311-72",
+          "color": "Dark yellow",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue / Steel - 1½ years (33,9 INCHES)",
+          "sku": "545474803-431-18",
+          "mpn": "545474803-431-18",
+          "color": "Blue / Steel",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue / Steel - 2 years (36,2 INCHES)",
+          "sku": "545474803-431-24",
+          "mpn": "545474803-431-24",
+          "color": "Blue / Steel",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue / Steel - 3 years (38,6 INCHES)",
+          "sku": "545474803-431-36",
+          "mpn": "545474803-431-36",
+          "color": "Blue / Steel",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue / Steel - 4 years (40,9 INCHES)",
+          "sku": "545474803-431-48",
+          "mpn": "545474803-431-48",
+          "color": "Blue / Steel",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue / Steel - 5 years (43,3 INCHES)",
+          "sku": "545474803-431-60",
+          "mpn": "545474803-431-60",
+          "color": "Blue / Steel",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Blue / Steel - 6 years (45,2 INCHES)",
+          "sku": "545474803-431-72",
+          "mpn": "545474803-431-72",
+          "color": "Blue / Steel",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Burnt orange - 1½ years (33,9 INCHES)",
+          "sku": "545474803-634-18",
+          "mpn": "545474803-634-18",
+          "color": "Burnt orange",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Burnt orange - 2 years (36,2 INCHES)",
+          "sku": "545474803-634-24",
+          "mpn": "545474803-634-24",
+          "color": "Burnt orange",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Burnt orange - 3 years (38,6 INCHES)",
+          "sku": "545474803-634-36",
+          "mpn": "545474803-634-36",
+          "color": "Burnt orange",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Burnt orange - 4 years (40,9 INCHES)",
+          "sku": "545474803-634-48",
+          "mpn": "545474803-634-48",
+          "color": "Burnt orange",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Burnt orange - 5 years (43,3 INCHES)",
+          "sku": "545474803-634-60",
+          "mpn": "545474803-634-60",
+          "color": "Burnt orange",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED T-SHIRT - Burnt orange - 6 years (45,2 INCHES)",
+          "sku": "545474803-634-72",
+          "mpn": "545474803-634-72",
+          "color": "Burnt orange",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED T-SHIRT",
+      "product_group_id": "05048553",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt. Striped print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED T-SHIRT - Dark yellow - 1½ years (33,9 INCHES)",
+          "sku": "545474803-311-18",
+          "mpn": "545474803-311-18",
+          "color_name": "Dark yellow",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+          "images": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Dark yellow - 2 years (36,2 INCHES)",
+          "sku": "545474803-311-24",
+          "mpn": "545474803-311-24",
+          "color_name": "Dark yellow",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+          "images": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Dark yellow - 3 years (38,6 INCHES)",
+          "sku": "545474803-311-36",
+          "mpn": "545474803-311-36",
+          "color_name": "Dark yellow",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+          "images": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Dark yellow - 4 years (40,9 INCHES)",
+          "sku": "545474803-311-48",
+          "mpn": "545474803-311-48",
+          "color_name": "Dark yellow",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+          "images": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Dark yellow - 5 years (43,3 INCHES)",
+          "sku": "545474803-311-60",
+          "mpn": "545474803-311-60",
+          "color_name": "Dark yellow",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+          "images": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Dark yellow - 6 years (45,2 INCHES)",
+          "sku": "545474803-311-72",
+          "mpn": "545474803-311-72",
+          "color_name": "Dark yellow",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474803",
+          "images": [
+            "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue / Steel - 1½ years (33,9 INCHES)",
+          "sku": "545474803-431-18",
+          "mpn": "545474803-431-18",
+          "color_name": "Blue / Steel",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+          "images": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue / Steel - 2 years (36,2 INCHES)",
+          "sku": "545474803-431-24",
+          "mpn": "545474803-431-24",
+          "color_name": "Blue / Steel",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+          "images": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue / Steel - 3 years (38,6 INCHES)",
+          "sku": "545474803-431-36",
+          "mpn": "545474803-431-36",
+          "color_name": "Blue / Steel",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+          "images": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue / Steel - 4 years (40,9 INCHES)",
+          "sku": "545474803-431-48",
+          "mpn": "545474803-431-48",
+          "color_name": "Blue / Steel",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+          "images": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue / Steel - 5 years (43,3 INCHES)",
+          "sku": "545474803-431-60",
+          "mpn": "545474803-431-60",
+          "color_name": "Blue / Steel",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+          "images": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Blue / Steel - 6 years (45,2 INCHES)",
+          "sku": "545474803-431-72",
+          "mpn": "545474803-431-72",
+          "color_name": "Blue / Steel",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474802",
+          "images": [
+            "https://static.zara.net/assets/public/b009/ca40/8f6745728c22/0bb5e4cfce06/05048553431-e1/05048553431-e1.jpg?ts=1781011901866&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Burnt orange - 1½ years (33,9 INCHES)",
+          "sku": "545474803-634-18",
+          "mpn": "545474803-634-18",
+          "color_name": "Burnt orange",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+          "images": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Burnt orange - 2 years (36,2 INCHES)",
+          "sku": "545474803-634-24",
+          "mpn": "545474803-634-24",
+          "color_name": "Burnt orange",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+          "images": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Burnt orange - 3 years (38,6 INCHES)",
+          "sku": "545474803-634-36",
+          "mpn": "545474803-634-36",
+          "color_name": "Burnt orange",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+          "images": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Burnt orange - 4 years (40,9 INCHES)",
+          "sku": "545474803-634-48",
+          "mpn": "545474803-634-48",
+          "color_name": "Burnt orange",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+          "images": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Burnt orange - 5 years (43,3 INCHES)",
+          "sku": "545474803-634-60",
+          "mpn": "545474803-634-60",
+          "color_name": "Burnt orange",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+          "images": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED T-SHIRT - Burnt orange - 6 years (45,2 INCHES)",
+          "sku": "545474803-634-72",
+          "mpn": "545474803-634-72",
+          "color_name": "Burnt orange",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-t-shirt-p05048553.html?v1=545474804",
+          "images": [
+            "https://static.zara.net/assets/public/2046/985d/9e4647bab3db/ce50891af360/05048553634-e1/05048553634-e1.jpg?ts=1781011898507&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0ef1/4cf1/80d94df3828a/39099ca6efca/05048553311-e1/05048553311-e1.jpg?ts=1781011895300&w=1920",
+        "https://static.zara.net/assets/public/16e2/4908/779e44d0831b/6727c1374319/05048553311-e2/05048553311-e2.jpg?ts=1781011895309&w=1920",
+        "https://static.zara.net/assets/public/1541/b2e1/fa954c0c83de/03de86f36ef5/05048553311-e3/05048553311-e3.jpg?ts=1781011896839&w=1920",
+        "https://static.zara.net/assets/public/806c/b8f1/b0df45119fca/8e8ccc07ed15/05048553311-e4/05048553311-e4.jpg?ts=1781011895912&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Dark yellow",
+    "Blue / Steel",
+    "Burnt orange"
+  ],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt. Striped print.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 6,
+  "variants_count": 18,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a3b957eaa5a10d046b2718fdbc19fcca09738cb1d38080dc61cb06642fea7d82",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

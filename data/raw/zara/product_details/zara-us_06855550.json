@@ -1,0 +1,676 @@
+{
+  "product_id": "zara-us:06855550",
+  "source_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html",
+  "final_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html",
+  "canonical_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BAGGY JEANS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BAGGY JEANS",
+      "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html",
+      "productGroupID": "06855550",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Baggy style jeans with an elastic waistband and front button closure. Front pockets and back patch pockets.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920",
+        "https://static.zara.net/assets/public/c61f/4ca5/50694b208895/3b97bd632012/01095551405-e2/01095551405-e2.jpg?ts=1780930489914&w=1920",
+        "https://static.zara.net/assets/public/f8ae/a3eb/ba974d65a742/4fa5a6d8b2ed/01095551405-e3/01095551405-e3.jpg?ts=1780930491242&w=1920",
+        "https://static.zara.net/assets/public/132e/f52a/58da4f42932b/98e0b555ca62/01095551405-e4/01095551405-e4.jpg?ts=1780930490838&w=1920",
+        "https://static.zara.net/assets/public/3d04/0285/565445b1801b/4b9f4fff5527/06855550405000-p/06855550405000-p.jpg?ts=1784812824480&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Indigo - 1½ years (33,9 INCHES)",
+          "sku": "545453793-405-18",
+          "mpn": "545453793-405-18",
+          "color": "Indigo",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Indigo - 2 years (36,2 INCHES)",
+          "sku": "545453793-405-24",
+          "mpn": "545453793-405-24",
+          "color": "Indigo",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Indigo - 3 years (38,6 INCHES)",
+          "sku": "545453793-405-36",
+          "mpn": "545453793-405-36",
+          "color": "Indigo",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Indigo - 4 years (40,9 INCHES)",
+          "sku": "545453793-405-48",
+          "mpn": "545453793-405-48",
+          "color": "Indigo",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Indigo - 5 years (43,3 INCHES)",
+          "sku": "545453793-405-60",
+          "mpn": "545453793-405-60",
+          "color": "Indigo",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Indigo - 6 years (45,2 INCHES)",
+          "sku": "545453793-405-72",
+          "mpn": "545453793-405-72",
+          "color": "Indigo",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Mid-blue - 1½ years (33,9 INCHES)",
+          "sku": "545453793-427-18",
+          "mpn": "545453793-427-18",
+          "color": "Mid-blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Mid-blue - 2 years (36,2 INCHES)",
+          "sku": "545453793-427-24",
+          "mpn": "545453793-427-24",
+          "color": "Mid-blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Mid-blue - 3 years (38,6 INCHES)",
+          "sku": "545453793-427-36",
+          "mpn": "545453793-427-36",
+          "color": "Mid-blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Mid-blue - 4 years (40,9 INCHES)",
+          "sku": "545453793-427-48",
+          "mpn": "545453793-427-48",
+          "color": "Mid-blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Mid-blue - 5 years (43,3 INCHES)",
+          "sku": "545453793-427-60",
+          "mpn": "545453793-427-60",
+          "color": "Mid-blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Mid-blue - 6 years (45,2 INCHES)",
+          "sku": "545453793-427-72",
+          "mpn": "545453793-427-72",
+          "color": "Mid-blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Gray - 1½ years (33,9 INCHES)",
+          "sku": "545453793-802-18",
+          "mpn": "545453793-802-18",
+          "color": "Gray",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Gray - 2 years (36,2 INCHES)",
+          "sku": "545453793-802-24",
+          "mpn": "545453793-802-24",
+          "color": "Gray",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Gray - 3 years (38,6 INCHES)",
+          "sku": "545453793-802-36",
+          "mpn": "545453793-802-36",
+          "color": "Gray",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Gray - 4 years (40,9 INCHES)",
+          "sku": "545453793-802-48",
+          "mpn": "545453793-802-48",
+          "color": "Gray",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Gray - 5 years (43,3 INCHES)",
+          "sku": "545453793-802-60",
+          "mpn": "545453793-802-60",
+          "color": "Gray",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAGGY JEANS - Gray - 6 years (45,2 INCHES)",
+          "sku": "545453793-802-72",
+          "mpn": "545453793-802-72",
+          "color": "Gray",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BAGGY JEANS",
+      "product_group_id": "06855550",
+      "brand": "ZARA",
+      "description": "Baggy style jeans with an elastic waistband and front button closure. Front pockets and back patch pockets.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BAGGY JEANS - Indigo - 1½ years (33,9 INCHES)",
+          "sku": "545453793-405-18",
+          "mpn": "545453793-405-18",
+          "color_name": "Indigo",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+          "images": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Indigo - 2 years (36,2 INCHES)",
+          "sku": "545453793-405-24",
+          "mpn": "545453793-405-24",
+          "color_name": "Indigo",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+          "images": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Indigo - 3 years (38,6 INCHES)",
+          "sku": "545453793-405-36",
+          "mpn": "545453793-405-36",
+          "color_name": "Indigo",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+          "images": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Indigo - 4 years (40,9 INCHES)",
+          "sku": "545453793-405-48",
+          "mpn": "545453793-405-48",
+          "color_name": "Indigo",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+          "images": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Indigo - 5 years (43,3 INCHES)",
+          "sku": "545453793-405-60",
+          "mpn": "545453793-405-60",
+          "color_name": "Indigo",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+          "images": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Indigo - 6 years (45,2 INCHES)",
+          "sku": "545453793-405-72",
+          "mpn": "545453793-405-72",
+          "color_name": "Indigo",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453793",
+          "images": [
+            "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Mid-blue - 1½ years (33,9 INCHES)",
+          "sku": "545453793-427-18",
+          "mpn": "545453793-427-18",
+          "color_name": "Mid-blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+          "images": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Mid-blue - 2 years (36,2 INCHES)",
+          "sku": "545453793-427-24",
+          "mpn": "545453793-427-24",
+          "color_name": "Mid-blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+          "images": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Mid-blue - 3 years (38,6 INCHES)",
+          "sku": "545453793-427-36",
+          "mpn": "545453793-427-36",
+          "color_name": "Mid-blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+          "images": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Mid-blue - 4 years (40,9 INCHES)",
+          "sku": "545453793-427-48",
+          "mpn": "545453793-427-48",
+          "color_name": "Mid-blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+          "images": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Mid-blue - 5 years (43,3 INCHES)",
+          "sku": "545453793-427-60",
+          "mpn": "545453793-427-60",
+          "color_name": "Mid-blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+          "images": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Mid-blue - 6 years (45,2 INCHES)",
+          "sku": "545453793-427-72",
+          "mpn": "545453793-427-72",
+          "color_name": "Mid-blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453792",
+          "images": [
+            "https://static.zara.net/assets/public/5be3/fdbc/75454386b5b7/69ef6f8d7bae/06855550427-e1/06855550427-e1.jpg?ts=1781521265336&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Gray - 1½ years (33,9 INCHES)",
+          "sku": "545453793-802-18",
+          "mpn": "545453793-802-18",
+          "color_name": "Gray",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+          "images": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Gray - 2 years (36,2 INCHES)",
+          "sku": "545453793-802-24",
+          "mpn": "545453793-802-24",
+          "color_name": "Gray",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+          "images": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Gray - 3 years (38,6 INCHES)",
+          "sku": "545453793-802-36",
+          "mpn": "545453793-802-36",
+          "color_name": "Gray",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+          "images": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Gray - 4 years (40,9 INCHES)",
+          "sku": "545453793-802-48",
+          "mpn": "545453793-802-48",
+          "color_name": "Gray",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+          "images": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Gray - 5 years (43,3 INCHES)",
+          "sku": "545453793-802-60",
+          "mpn": "545453793-802-60",
+          "color_name": "Gray",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+          "images": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ]
+        },
+        {
+          "name": "BAGGY JEANS - Gray - 6 years (45,2 INCHES)",
+          "sku": "545453793-802-72",
+          "mpn": "545453793-802-72",
+          "color_name": "Gray",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baggy-jeans-p06855550.html?v1=545453794",
+          "images": [
+            "https://static.zara.net/assets/public/1f46/b262/42aa46748d4d/cbc324801496/06855550802-e1/06855550802-e1.jpg?ts=1781521262415&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/00d3/d40b/2abf4073b3e5/6f8abbafb89e/01095551405-e1/01095551405-e1.jpg?ts=1780930489861&w=1920",
+        "https://static.zara.net/assets/public/c61f/4ca5/50694b208895/3b97bd632012/01095551405-e2/01095551405-e2.jpg?ts=1780930489914&w=1920",
+        "https://static.zara.net/assets/public/f8ae/a3eb/ba974d65a742/4fa5a6d8b2ed/01095551405-e3/01095551405-e3.jpg?ts=1780930491242&w=1920",
+        "https://static.zara.net/assets/public/132e/f52a/58da4f42932b/98e0b555ca62/01095551405-e4/01095551405-e4.jpg?ts=1780930490838&w=1920",
+        "https://static.zara.net/assets/public/3d04/0285/565445b1801b/4b9f4fff5527/06855550405000-p/06855550405000-p.jpg?ts=1784812824480&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Indigo",
+    "Mid-blue",
+    "Gray"
+  ],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nBaggy style jeans with an elastic waistband and front button closure. Front pockets and back patch pockets.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 7,
+  "variants_count": 18,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5a158a48745f266775da543526fc47e98eca1df06ff0f600982d2c85d23c926d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

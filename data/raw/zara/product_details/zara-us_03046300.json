@@ -1,0 +1,234 @@
+{
+  "product_id": "zara-us:03046300",
+  "source_url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html",
+  "final_url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html",
+  "canonical_url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RELAXED FIT PLAID JACKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RELAXED FIT PLAID JACKET",
+      "url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html",
+      "productGroupID": "03046300",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Relaxed fit jacket made of cotton. Lapel collar and long sleeves with elastic cuffs. Double welt pockets at hip. Adjustable hem with elastic side details.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920",
+        "https://static.zara.net/assets/public/9353/ee9a/0c0d456a902e/f980c7d8a13f/03046300400-a1/03046300400-a1.jpg?ts=1785404380395&w=1920",
+        "https://static.zara.net/assets/public/a6ae/4794/53f948739581/f50d5be34e7a/03046300400-a2/03046300400-a2.jpg?ts=1785404380399&w=1920",
+        "https://static.zara.net/assets/public/1bb2/4bf3/bb7f4ee4a214/5a54e401c8af/03046300400-a3/03046300400-a3.jpg?ts=1785404380662&w=1920",
+        "https://static.zara.net/assets/public/20a5/536f/5fef451d90af/737c659c9f38/03046300400-a4/03046300400-a4.jpg?ts=1785404380752&w=1920",
+        "https://static.zara.net/assets/public/0c8e/0232/3d35435cbd63/6a35b7c48321/03046300400-e1/03046300400-e1.jpg?ts=1784724897094&w=1920",
+        "https://static.zara.net/assets/public/fa2e/fba1/2c5143359025/c93d6a548280/03046300400-e2/03046300400-e2.jpg?ts=1784724896791&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT PLAID JACKET - Blue - S",
+          "sku": "545486168-400-2",
+          "mpn": "545486168-400-2",
+          "color": "Blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html?v1=545486168",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT PLAID JACKET - Blue - M",
+          "sku": "545486168-400-3",
+          "mpn": "545486168-400-3",
+          "color": "Blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html?v1=545486168",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT PLAID JACKET - Blue - L",
+          "sku": "545486168-400-4",
+          "mpn": "545486168-400-4",
+          "color": "Blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html?v1=545486168",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT PLAID JACKET - Blue - XL",
+          "sku": "545486168-400-5",
+          "mpn": "545486168-400-5",
+          "color": "Blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html?v1=545486168",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RELAXED FIT PLAID JACKET",
+      "product_group_id": "03046300",
+      "brand": "ZARA",
+      "description": "Relaxed fit jacket made of cotton. Lapel collar and long sleeves with elastic cuffs. Double welt pockets at hip. Adjustable hem with elastic side details.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RELAXED FIT PLAID JACKET - Blue - S",
+          "sku": "545486168-400-2",
+          "mpn": "545486168-400-2",
+          "color_name": "Blue",
+          "size_name": "S",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html?v1=545486168",
+          "images": [
+            "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT PLAID JACKET - Blue - M",
+          "sku": "545486168-400-3",
+          "mpn": "545486168-400-3",
+          "color_name": "Blue",
+          "size_name": "M",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html?v1=545486168",
+          "images": [
+            "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT PLAID JACKET - Blue - L",
+          "sku": "545486168-400-4",
+          "mpn": "545486168-400-4",
+          "color_name": "Blue",
+          "size_name": "L",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html?v1=545486168",
+          "images": [
+            "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT PLAID JACKET - Blue - XL",
+          "sku": "545486168-400-5",
+          "mpn": "545486168-400-5",
+          "color_name": "Blue",
+          "size_name": "XL",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plaid-relaxed-fit-jacket-p03046300.html?v1=545486168",
+          "images": [
+            "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d2dc/e4e4/43094806a55d/a5be705164f1/03046300400-p/03046300400-p.jpg?ts=1785404380417&w=1920",
+        "https://static.zara.net/assets/public/9353/ee9a/0c0d456a902e/f980c7d8a13f/03046300400-a1/03046300400-a1.jpg?ts=1785404380395&w=1920",
+        "https://static.zara.net/assets/public/a6ae/4794/53f948739581/f50d5be34e7a/03046300400-a2/03046300400-a2.jpg?ts=1785404380399&w=1920",
+        "https://static.zara.net/assets/public/1bb2/4bf3/bb7f4ee4a214/5a54e401c8af/03046300400-a3/03046300400-a3.jpg?ts=1785404380662&w=1920",
+        "https://static.zara.net/assets/public/20a5/536f/5fef451d90af/737c659c9f38/03046300400-a4/03046300400-a4.jpg?ts=1785404380752&w=1920",
+        "https://static.zara.net/assets/public/0c8e/0232/3d35435cbd63/6a35b7c48321/03046300400-e1/03046300400-e1.jpg?ts=1784724897094&w=1920",
+        "https://static.zara.net/assets/public/fa2e/fba1/2c5143359025/c93d6a548280/03046300400-e2/03046300400-e2.jpg?ts=1784724896791&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "119.00",
+  "rendered_description": "Description\nRelaxed fit jacket made of cotton. Lapel collar and long sleeves with elastic cuffs. Double welt pockets at hip. Adjustable hem with elastic side details.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 7,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "119.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "119.00",
+    "dom_price": "119.00",
+    "normalized_price": "119.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a9c26df9e63b02b8bb4860632131b680d2ba1b8b3b1690f06de344fd1a22dd69",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

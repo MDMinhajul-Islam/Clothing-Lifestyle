@@ -1,0 +1,225 @@
+{
+  "product_id": "zara-us:08062391",
+  "source_url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html",
+  "final_url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC DENIM JACKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC DENIM JACKET",
+      "url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html",
+      "productGroupID": "08062391",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Regular fit jacket made of cotton denim. Lapel collar and long sleeves with buttoned cuffs. Hip pockets. Washed effect. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920",
+        "https://static.zara.net/assets/public/8238/bdf2/180f4a50ab75/7b67d7124c8e/08062391251-a1/08062391251-a1.jpg?ts=1785394109219&w=1920",
+        "https://static.zara.net/assets/public/488f/c032/510b42c8b260/65d0a5e0cfda/08062391251-a2/08062391251-a2.jpg?ts=1785394108799&w=1920",
+        "https://static.zara.net/assets/public/b0e6/8739/9e2d4534b17c/84f65e7f8a6d/08062391251-a3/08062391251-a3.jpg?ts=1785394108080&w=1920",
+        "https://static.zara.net/assets/public/0ec2/bf05/3e0d45e99a34/5f4a7cf97348/08062391251-e1/08062391251-e1.jpg?ts=1783342918063&w=1920",
+        "https://static.zara.net/assets/public/d98a/63d3/691c4413bc17/e33bf62e7e25/08062391251-e2/08062391251-e2.jpg?ts=1783342919157&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Oyster-white - S",
+          "sku": "555861854-251-2",
+          "mpn": "555861854-251-2",
+          "color": "Oyster-white",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html?v1=555861854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Oyster-white - M",
+          "sku": "555861854-251-3",
+          "mpn": "555861854-251-3",
+          "color": "Oyster-white",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html?v1=555861854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Oyster-white - L",
+          "sku": "555861854-251-4",
+          "mpn": "555861854-251-4",
+          "color": "Oyster-white",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html?v1=555861854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Oyster-white - XL",
+          "sku": "555861854-251-5",
+          "mpn": "555861854-251-5",
+          "color": "Oyster-white",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html?v1=555861854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC DENIM JACKET",
+      "product_group_id": "08062391",
+      "brand": "ZARA",
+      "description": "Regular fit jacket made of cotton denim. Lapel collar and long sleeves with buttoned cuffs. Hip pockets. Washed effect. Front button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC DENIM JACKET - Oyster-white - S",
+          "sku": "555861854-251-2",
+          "mpn": "555861854-251-2",
+          "color_name": "Oyster-white",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html?v1=555861854",
+          "images": [
+            "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Oyster-white - M",
+          "sku": "555861854-251-3",
+          "mpn": "555861854-251-3",
+          "color_name": "Oyster-white",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html?v1=555861854",
+          "images": [
+            "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Oyster-white - L",
+          "sku": "555861854-251-4",
+          "mpn": "555861854-251-4",
+          "color_name": "Oyster-white",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html?v1=555861854",
+          "images": [
+            "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Oyster-white - XL",
+          "sku": "555861854-251-5",
+          "mpn": "555861854-251-5",
+          "color_name": "Oyster-white",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08062391.html?v1=555861854",
+          "images": [
+            "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/dcc1/cdbe/cbc843939e68/0909527eaffa/08062391251-p/08062391251-p.jpg?ts=1785394107996&w=1920",
+        "https://static.zara.net/assets/public/8238/bdf2/180f4a50ab75/7b67d7124c8e/08062391251-a1/08062391251-a1.jpg?ts=1785394109219&w=1920",
+        "https://static.zara.net/assets/public/488f/c032/510b42c8b260/65d0a5e0cfda/08062391251-a2/08062391251-a2.jpg?ts=1785394108799&w=1920",
+        "https://static.zara.net/assets/public/b0e6/8739/9e2d4534b17c/84f65e7f8a6d/08062391251-a3/08062391251-a3.jpg?ts=1785394108080&w=1920",
+        "https://static.zara.net/assets/public/0ec2/bf05/3e0d45e99a34/5f4a7cf97348/08062391251-e1/08062391251-e1.jpg?ts=1783342918063&w=1920",
+        "https://static.zara.net/assets/public/d98a/63d3/691c4413bc17/e33bf62e7e25/08062391251-e2/08062391251-e2.jpg?ts=1783342919157&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nRegular fit jacket made of cotton denim. Lapel collar and long sleeves with buttoned cuffs. Hip pockets. Washed effect. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bd952d8675c3beddfa66d7d72d7bd26d27f4ce19e955455b392516ff8be54f27",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

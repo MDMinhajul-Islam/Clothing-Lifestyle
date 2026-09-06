@@ -1,0 +1,678 @@
+{
+  "product_id": "zara-us:00722559",
+  "source_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html",
+  "final_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html",
+  "canonical_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "INTERLOCK TEXT T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "INTERLOCK TEXT T-SHIRT",
+      "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html",
+      "productGroupID": "00722559",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt. Text print on front and back.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920",
+        "https://static.zara.net/assets/public/cb54/5efd/41fa49b3ad39/2ab36e26c5cc/00722559251-e2/00722559251-e2.jpg?ts=1781103920227&w=1920",
+        "https://static.zara.net/assets/public/5e7d/a4e2/c7ef444aa5f6/986ef06cd122/00722559251-e3/00722559251-e3.jpg?ts=1781103920710&w=1920",
+        "https://static.zara.net/assets/public/7a11/8fc4/36f4484a87e9/309630e7cb4d/00722559251-e4/00722559251-e4.jpg?ts=1781103920968&w=1920",
+        "https://static.zara.net/assets/public/d684/3606/68b14f4d9a80/6a10fb7bfd34/08054550730400-p/08054550730400-p.jpg?ts=1783069028500&w=1920",
+        "https://static.zara.net/assets/public/5b90/2307/6ba941debd26/b7e299821750/00722559251400-a1/00722559251400-a1.jpg?ts=1783069078335&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 1½ years (33,9 INCHES)",
+          "sku": "545485803-251-18",
+          "mpn": "545485803-251-18",
+          "color": "Oyster-white",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 2 years (36,2 INCHES)",
+          "sku": "545485803-251-24",
+          "mpn": "545485803-251-24",
+          "color": "Oyster-white",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 3 years (38,6 INCHES)",
+          "sku": "545485803-251-36",
+          "mpn": "545485803-251-36",
+          "color": "Oyster-white",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 4 years (40,9 INCHES)",
+          "sku": "545485803-251-48",
+          "mpn": "545485803-251-48",
+          "color": "Oyster-white",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 5 years (43,3 INCHES)",
+          "sku": "545485803-251-60",
+          "mpn": "545485803-251-60",
+          "color": "Oyster-white",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 6 years (45,2 INCHES)",
+          "sku": "545485803-251-72",
+          "mpn": "545485803-251-72",
+          "color": "Oyster-white",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 1½ years (33,9 INCHES)",
+          "sku": "545485803-420-18",
+          "mpn": "545485803-420-18",
+          "color": "Bluish",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 2 years (36,2 INCHES)",
+          "sku": "545485803-420-24",
+          "mpn": "545485803-420-24",
+          "color": "Bluish",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 3 years (38,6 INCHES)",
+          "sku": "545485803-420-36",
+          "mpn": "545485803-420-36",
+          "color": "Bluish",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 4 years (40,9 INCHES)",
+          "sku": "545485803-420-48",
+          "mpn": "545485803-420-48",
+          "color": "Bluish",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 5 years (43,3 INCHES)",
+          "sku": "545485803-420-60",
+          "mpn": "545485803-420-60",
+          "color": "Bluish",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 6 years (45,2 INCHES)",
+          "sku": "545485803-420-72",
+          "mpn": "545485803-420-72",
+          "color": "Bluish",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 1½ years (33,9 INCHES)",
+          "sku": "545485803-322-18",
+          "mpn": "545485803-322-18",
+          "color": "Bright yellow",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 2 years (36,2 INCHES)",
+          "sku": "545485803-322-24",
+          "mpn": "545485803-322-24",
+          "color": "Bright yellow",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 3 years (38,6 INCHES)",
+          "sku": "545485803-322-36",
+          "mpn": "545485803-322-36",
+          "color": "Bright yellow",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 4 years (40,9 INCHES)",
+          "sku": "545485803-322-48",
+          "mpn": "545485803-322-48",
+          "color": "Bright yellow",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 5 years (43,3 INCHES)",
+          "sku": "545485803-322-60",
+          "mpn": "545485803-322-60",
+          "color": "Bright yellow",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 6 years (45,2 INCHES)",
+          "sku": "545485803-322-72",
+          "mpn": "545485803-322-72",
+          "color": "Bright yellow",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "INTERLOCK TEXT T-SHIRT",
+      "product_group_id": "00722559",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt. Text print on front and back.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 1½ years (33,9 INCHES)",
+          "sku": "545485803-251-18",
+          "mpn": "545485803-251-18",
+          "color_name": "Oyster-white",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+          "images": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 2 years (36,2 INCHES)",
+          "sku": "545485803-251-24",
+          "mpn": "545485803-251-24",
+          "color_name": "Oyster-white",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+          "images": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 3 years (38,6 INCHES)",
+          "sku": "545485803-251-36",
+          "mpn": "545485803-251-36",
+          "color_name": "Oyster-white",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+          "images": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 4 years (40,9 INCHES)",
+          "sku": "545485803-251-48",
+          "mpn": "545485803-251-48",
+          "color_name": "Oyster-white",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+          "images": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 5 years (43,3 INCHES)",
+          "sku": "545485803-251-60",
+          "mpn": "545485803-251-60",
+          "color_name": "Oyster-white",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+          "images": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Oyster-white - 6 years (45,2 INCHES)",
+          "sku": "545485803-251-72",
+          "mpn": "545485803-251-72",
+          "color_name": "Oyster-white",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485803",
+          "images": [
+            "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 1½ years (33,9 INCHES)",
+          "sku": "545485803-420-18",
+          "mpn": "545485803-420-18",
+          "color_name": "Bluish",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+          "images": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 2 years (36,2 INCHES)",
+          "sku": "545485803-420-24",
+          "mpn": "545485803-420-24",
+          "color_name": "Bluish",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+          "images": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 3 years (38,6 INCHES)",
+          "sku": "545485803-420-36",
+          "mpn": "545485803-420-36",
+          "color_name": "Bluish",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+          "images": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 4 years (40,9 INCHES)",
+          "sku": "545485803-420-48",
+          "mpn": "545485803-420-48",
+          "color_name": "Bluish",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+          "images": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 5 years (43,3 INCHES)",
+          "sku": "545485803-420-60",
+          "mpn": "545485803-420-60",
+          "color_name": "Bluish",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+          "images": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bluish - 6 years (45,2 INCHES)",
+          "sku": "545485803-420-72",
+          "mpn": "545485803-420-72",
+          "color_name": "Bluish",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485801",
+          "images": [
+            "https://static.zara.net/assets/public/de02/929c/3fae45abb023/b8a834d81648/00722559420-e1/00722559420-e1.jpg?ts=1781083758447&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 1½ years (33,9 INCHES)",
+          "sku": "545485803-322-18",
+          "mpn": "545485803-322-18",
+          "color_name": "Bright yellow",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+          "images": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 2 years (36,2 INCHES)",
+          "sku": "545485803-322-24",
+          "mpn": "545485803-322-24",
+          "color_name": "Bright yellow",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+          "images": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 3 years (38,6 INCHES)",
+          "sku": "545485803-322-36",
+          "mpn": "545485803-322-36",
+          "color_name": "Bright yellow",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+          "images": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 4 years (40,9 INCHES)",
+          "sku": "545485803-322-48",
+          "mpn": "545485803-322-48",
+          "color_name": "Bright yellow",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+          "images": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 5 years (43,3 INCHES)",
+          "sku": "545485803-322-60",
+          "mpn": "545485803-322-60",
+          "color_name": "Bright yellow",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+          "images": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK TEXT T-SHIRT - Bright yellow - 6 years (45,2 INCHES)",
+          "sku": "545485803-322-72",
+          "mpn": "545485803-322-72",
+          "color_name": "Bright yellow",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-text-t-shirt-p00722559.html?v1=545485802",
+          "images": [
+            "https://static.zara.net/assets/public/7e04/2661/b4494ea0a5aa/a0608d7d0b98/00722559322-e1/00722559322-e1.jpg?ts=1781082300182&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b910/8fba/2ee34efc8dcb/1093cb6734d2/00722559251-e1/00722559251-e1.jpg?ts=1781103921074&w=1920",
+        "https://static.zara.net/assets/public/cb54/5efd/41fa49b3ad39/2ab36e26c5cc/00722559251-e2/00722559251-e2.jpg?ts=1781103920227&w=1920",
+        "https://static.zara.net/assets/public/5e7d/a4e2/c7ef444aa5f6/986ef06cd122/00722559251-e3/00722559251-e3.jpg?ts=1781103920710&w=1920",
+        "https://static.zara.net/assets/public/7a11/8fc4/36f4484a87e9/309630e7cb4d/00722559251-e4/00722559251-e4.jpg?ts=1781103920968&w=1920",
+        "https://static.zara.net/assets/public/d684/3606/68b14f4d9a80/6a10fb7bfd34/08054550730400-p/08054550730400-p.jpg?ts=1783069028500&w=1920",
+        "https://static.zara.net/assets/public/5b90/2307/6ba941debd26/b7e299821750/00722559251400-a1/00722559251400-a1.jpg?ts=1783069078335&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Oyster-white",
+    "Bluish",
+    "Bright yellow"
+  ],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt. Text print on front and back.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 8,
+  "variants_count": 18,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2761a184da818f56eeb85575e482b1287ffb075875565f57cbfa1bb0069b5ed2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

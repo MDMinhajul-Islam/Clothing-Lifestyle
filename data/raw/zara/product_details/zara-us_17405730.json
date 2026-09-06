@@ -1,0 +1,387 @@
+{
+  "product_id": "zara-us:17405730",
+  "source_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html",
+  "final_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html",
+  "canonical_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER BAREFOOT SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER BAREFOOT SNEAKERS",
+      "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html",
+      "productGroupID": "17405730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Barefoot sneakers in a combination of cowhide and sheepskin with a suede finish. Rounded, wide, and functional toe box with space for natural toe movement. Adjustable double adhesive strap closure for greater support and security. Includes back pull tab for easy on and off. Features a flexible rubber sole with an appropriate drop and a highly flexible heel counter.\n\nLEATHER: This product is made from an exclusive material. Any potential marks or color variations are characteristics that confirm the authenticity of the leather.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920",
+        "https://static.zara.net/assets/public/ddff/bb67/c6ff40889c88/8c8beb1d70f0/17405730800-e2/17405730800-e2.jpg?ts=1768291326912&w=1920",
+        "https://static.zara.net/assets/public/6f2a/93c1/a80b46509ef3/a4ec61d04742/17405730800-e3/17405730800-e3.jpg?ts=1768291326763&w=1920",
+        "https://static.zara.net/assets/public/1622/ed14/2ae34d0cbcd2/f2c9c73c4804/17405730800-e4/17405730800-e4.jpg?ts=1768291326657&w=1920",
+        "https://static.zara.net/assets/public/6c11/fc4b/2f5943558013/c6097cebc501/17405730800-e5/17405730800-e5.jpg?ts=1768291327037&w=1920",
+        "https://static.zara.net/assets/public/6115/0962/8f6740f58cd8/2464be0ee2de/17405730800-e6/17405730800-e6.jpg?ts=1768291326556&w=1920",
+        "https://static.zara.net/assets/public/8bd0/d357/eeac4d0098b1/9c10ff8e2313/17405730800-e7/17405730800-e7.jpg?ts=1768291328118&w=1920",
+        "https://static.zara.net/assets/public/5ee8/7941/8bdc48b4a094/8ef83b2fd061/17405730800-e8/17405730800-e8.jpg?ts=1768291328931&w=1920",
+        "https://static.zara.net/assets/public/46c9/ab4c/cb014f79b591/769cdd3ebe7a/17405730800-e9/17405730800-e9.jpg?ts=1768291329572&w=1920",
+        "https://static.zara.net/assets/public/0910/604b/7f5145cf926f/19709512a220/1333333333-e12/1333333333-e12.jpg?ts=1770220365471&w=1920",
+        "https://static.zara.net/assets/public/c531/a31f/816942a39eaf/d0ad034a8c27/1333333333-e13/1333333333-e13.jpg?ts=1770220365455&w=1920"
+      ],
+      "material": "sheep leather/cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "76% sheep leather, 24% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% sheep leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 6½ (5.3 INCHES)",
+          "sku": "545494817-800-22",
+          "mpn": "545494817-800-22",
+          "color": "Black",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.94",
+            "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 7 (5.6 INCHES)",
+          "sku": "545494817-800-23",
+          "mpn": "545494817-800-23",
+          "color": "Black",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.94",
+            "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 8 (5.9 INCHES)",
+          "sku": "545494817-800-24",
+          "mpn": "545494817-800-24",
+          "color": "Black",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.94",
+            "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 9 (6.1 INCHES)",
+          "sku": "545494817-800-25",
+          "mpn": "545494817-800-25",
+          "color": "Black",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.94",
+            "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 9½ (6.4 INCHES)",
+          "sku": "545494817-800-26",
+          "mpn": "545494817-800-26",
+          "color": "Black",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.94",
+            "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 10½ (6.6 INCHES)",
+          "sku": "545494817-800-27",
+          "mpn": "545494817-800-27",
+          "color": "Black",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.94",
+            "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 11 (7.0 INCHES)",
+          "sku": "545494817-800-28",
+          "mpn": "545494817-800-28",
+          "color": "Black",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.94",
+            "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 12 (7.2 INCHES)",
+          "sku": "545494817-800-29",
+          "mpn": "545494817-800-29",
+          "color": "Black",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.94",
+            "url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER BAREFOOT SNEAKERS",
+      "product_group_id": "17405730",
+      "brand": "ZARA",
+      "description": "Barefoot sneakers in a combination of cowhide and sheepskin with a suede finish. Rounded, wide, and functional toe box with space for natural toe movement. Adjustable double adhesive strap closure for greater support and security. Includes back pull tab for easy on and off. Features a flexible rubber sole with an appropriate drop and a highly flexible heel counter.\n\nLEATHER: This product is made from an exclusive material. Any potential marks or color variations are characteristics that confirm the authenticity of the leather.",
+      "material": "sheep leather/cow leather",
+      "composition": "UPPER: 76% sheep leather, 24% cow leather | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% sheep leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 6½ (5.3 INCHES)",
+          "sku": "545494817-800-22",
+          "mpn": "545494817-800-22",
+          "color_name": "Black",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "35.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+          "images": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 7 (5.6 INCHES)",
+          "sku": "545494817-800-23",
+          "mpn": "545494817-800-23",
+          "color_name": "Black",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "35.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+          "images": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 8 (5.9 INCHES)",
+          "sku": "545494817-800-24",
+          "mpn": "545494817-800-24",
+          "color_name": "Black",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "35.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+          "images": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 9 (6.1 INCHES)",
+          "sku": "545494817-800-25",
+          "mpn": "545494817-800-25",
+          "color_name": "Black",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "35.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+          "images": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 9½ (6.4 INCHES)",
+          "sku": "545494817-800-26",
+          "mpn": "545494817-800-26",
+          "color_name": "Black",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "35.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+          "images": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 10½ (6.6 INCHES)",
+          "sku": "545494817-800-27",
+          "mpn": "545494817-800-27",
+          "color_name": "Black",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "35.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+          "images": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 11 (7.0 INCHES)",
+          "sku": "545494817-800-28",
+          "mpn": "545494817-800-28",
+          "color_name": "Black",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "35.94",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+          "images": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BAREFOOT SNEAKERS - Black - 12 (7.2 INCHES)",
+          "sku": "545494817-800-29",
+          "mpn": "545494817-800-29",
+          "color_name": "Black",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "35.94",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-leather-sneakers-p17405730.html?v1=545494817",
+          "images": [
+            "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/49b6/1323/5619490998de/246b65df450d/17405730800-e1/17405730800-e1.jpg?ts=1783437076551&w=1920",
+        "https://static.zara.net/assets/public/ddff/bb67/c6ff40889c88/8c8beb1d70f0/17405730800-e2/17405730800-e2.jpg?ts=1768291326912&w=1920",
+        "https://static.zara.net/assets/public/6f2a/93c1/a80b46509ef3/a4ec61d04742/17405730800-e3/17405730800-e3.jpg?ts=1768291326763&w=1920",
+        "https://static.zara.net/assets/public/1622/ed14/2ae34d0cbcd2/f2c9c73c4804/17405730800-e4/17405730800-e4.jpg?ts=1768291326657&w=1920",
+        "https://static.zara.net/assets/public/6c11/fc4b/2f5943558013/c6097cebc501/17405730800-e5/17405730800-e5.jpg?ts=1768291327037&w=1920",
+        "https://static.zara.net/assets/public/6115/0962/8f6740f58cd8/2464be0ee2de/17405730800-e6/17405730800-e6.jpg?ts=1768291326556&w=1920",
+        "https://static.zara.net/assets/public/8bd0/d357/eeac4d0098b1/9c10ff8e2313/17405730800-e7/17405730800-e7.jpg?ts=1768291328118&w=1920",
+        "https://static.zara.net/assets/public/5ee8/7941/8bdc48b4a094/8ef83b2fd061/17405730800-e8/17405730800-e8.jpg?ts=1768291328931&w=1920",
+        "https://static.zara.net/assets/public/46c9/ab4c/cb014f79b591/769cdd3ebe7a/17405730800-e9/17405730800-e9.jpg?ts=1768291329572&w=1920",
+        "https://static.zara.net/assets/public/0910/604b/7f5145cf926f/19709512a220/1333333333-e12/1333333333-e12.jpg?ts=1770220365471&w=1920",
+        "https://static.zara.net/assets/public/c531/a31f/816942a39eaf/d0ad034a8c27/1333333333-e13/1333333333-e13.jpg?ts=1770220365455&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nBarefoot sneakers in a combination of cowhide and sheepskin with a suede finish. Rounded, wide, and functional toe box with space for natural toe movement. Adjustable double adhesive strap closure for greater support and security. Includes back pull tab for easy on and off. Features a flexible rubber sole with an appropriate drop and a highly flexible heel counter.\nLEATHER: This product is made from an exclusive material. Any potential marks or color variations are characteristics that confirm the authenticity of the leather.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 11,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.94",
+    "original_price": "59.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "35.94",
+    "dom_price": "59.90",
+    "normalized_price": "35.94",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '35.94' != DOM price '59.90'"
+  },
+  "source_content_hash": "177e3a3efad38d30503fd031835fbd345c7bab27d58ef067a8a3f7db9d4e2c95",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

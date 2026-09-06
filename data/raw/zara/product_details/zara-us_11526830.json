@@ -1,0 +1,180 @@
+{
+  "product_id": "zara-us:11526830",
+  "source_url": "https://www.zara.com/us/en/striped-backpack-p11526830.html",
+  "final_url": "https://www.zara.com/us/en/striped-backpack-p11526830.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-backpack-p11526830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED BACKPACK",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED BACKPACK",
+      "url": "https://www.zara.com/us/en/striped-backpack-p11526830.html",
+      "productGroupID": "11526830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Striped backpack with gathered detailing on the side pockets. Features a main compartment with a flap and an adjustable drawstring closure with a toggle. Includes a top handle and adjustable double shoulder straps. Dimensions (H x W x D): 13.8 x 15.4 x 2.4 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cbdc/d3af/ef514bf18e73/a61ae53ca7ac/11526830145-e1/11526830145-e1.jpg?ts=1785224097128&w=1920",
+        "https://static.zara.net/assets/public/5387/604c/89154c8ab169/6de6769de912/11526830145-e2/11526830145-e2.jpg?ts=1785224092136&w=1920",
+        "https://static.zara.net/assets/public/d63f/1a19/ba4f4ffea035/77c3fa734920/11526830145-e3/11526830145-e3.jpg?ts=1785224091694&w=1920",
+        "https://static.zara.net/assets/public/b03e/61cd/54f049f7ac59/59b2495e128f/11526830145-e4/11526830145-e4.jpg?ts=1785224092259&w=1920",
+        "https://static.zara.net/assets/public/720c/4c0f/49ed450a9a77/106dc62d14db/11526830145-e5/11526830145-e5.jpg?ts=1785224091884&w=1920",
+        "https://static.zara.net/assets/public/d9c7/124d/90ab4cc2bcea/168dd735b5b9/11526830145-e6/11526830145-e6.jpg?ts=1785224092185&w=1920",
+        "https://static.zara.net/assets/public/b146/24fd/0f364174803e/63d6f9c32c74/11526830145-e10/11526830145-e10.jpg?ts=1784112687499&w=1920",
+        "https://static.zara.net/assets/public/34eb/af98/1bb64dc191d6/7dfff91d2ff8/11526830145-e11/11526830145-e11.jpg?ts=1784112688206&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED BACKPACK - Caramel Brown - ONE SIZE ONLY",
+          "sku": "545486130-145-53",
+          "mpn": "545486130-145-53",
+          "color": "Caramel Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/cbdc/d3af/ef514bf18e73/a61ae53ca7ac/11526830145-e1/11526830145-e1.jpg?ts=1785224097128&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/striped-backpack-p11526830.html?v1=545486130",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BACKPACK - Blue - ONE SIZE ONLY",
+          "sku": "545486130-400-53",
+          "mpn": "545486130-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2c55/8d61/ccc342ffb4c5/bc11afadb11a/11526830400-e1/11526830400-e1.jpg?ts=1785224097066&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/striped-backpack-p11526830.html?v1=545486131",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED BACKPACK",
+      "product_group_id": "11526830",
+      "brand": "ZARA",
+      "description": "Striped backpack with gathered detailing on the side pockets. Features a main compartment with a flap and an adjustable drawstring closure with a toggle. Includes a top handle and adjustable double shoulder straps. Dimensions (H x W x D): 13.8 x 15.4 x 2.4 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED BACKPACK - Caramel Brown - ONE SIZE ONLY",
+          "sku": "545486130-145-53",
+          "mpn": "545486130-145-53",
+          "color_name": "Caramel Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-backpack-p11526830.html?v1=545486130",
+          "images": [
+            "https://static.zara.net/assets/public/cbdc/d3af/ef514bf18e73/a61ae53ca7ac/11526830145-e1/11526830145-e1.jpg?ts=1785224097128&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BACKPACK - Blue - ONE SIZE ONLY",
+          "sku": "545486130-400-53",
+          "mpn": "545486130-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-backpack-p11526830.html?v1=545486131",
+          "images": [
+            "https://static.zara.net/assets/public/2c55/8d61/ccc342ffb4c5/bc11afadb11a/11526830400-e1/11526830400-e1.jpg?ts=1785224097066&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cbdc/d3af/ef514bf18e73/a61ae53ca7ac/11526830145-e1/11526830145-e1.jpg?ts=1785224097128&w=1920",
+        "https://static.zara.net/assets/public/5387/604c/89154c8ab169/6de6769de912/11526830145-e2/11526830145-e2.jpg?ts=1785224092136&w=1920",
+        "https://static.zara.net/assets/public/d63f/1a19/ba4f4ffea035/77c3fa734920/11526830145-e3/11526830145-e3.jpg?ts=1785224091694&w=1920",
+        "https://static.zara.net/assets/public/b03e/61cd/54f049f7ac59/59b2495e128f/11526830145-e4/11526830145-e4.jpg?ts=1785224092259&w=1920",
+        "https://static.zara.net/assets/public/720c/4c0f/49ed450a9a77/106dc62d14db/11526830145-e5/11526830145-e5.jpg?ts=1785224091884&w=1920",
+        "https://static.zara.net/assets/public/d9c7/124d/90ab4cc2bcea/168dd735b5b9/11526830145-e6/11526830145-e6.jpg?ts=1785224092185&w=1920",
+        "https://static.zara.net/assets/public/b146/24fd/0f364174803e/63d6f9c32c74/11526830145-e10/11526830145-e10.jpg?ts=1784112687499&w=1920",
+        "https://static.zara.net/assets/public/34eb/af98/1bb64dc191d6/7dfff91d2ff8/11526830145-e11/11526830145-e11.jpg?ts=1784112688206&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Caramel Brown",
+    "Blue"
+  ],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nStriped backpack with gathered detailing on the side pockets. Features a main compartment with a flap and an adjustable drawstring closure with a toggle. Includes a top handle and adjustable double shoulder straps. Dimensions (H x W x D): 13.8 x 15.4 x 2.4 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 9,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "cb31bf8c9333854fc5c6632c2992aadb8cd7e82f4e17440b5be778c804fa4268",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

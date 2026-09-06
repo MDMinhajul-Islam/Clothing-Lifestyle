@@ -1,0 +1,170 @@
+{
+  "product_id": "zara-us:07501543",
+  "source_url": "https://www.zara.com/us/en/striped-midi-dress-p07501543.html",
+  "final_url": "https://www.zara.com/us/en/striped-midi-dress-p07501543.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-midi-dress-p07501543.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED MIDI DRESS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED MIDI DRESS",
+      "url": "https://www.zara.com/us/en/striped-midi-dress-p07501543.html",
+      "productGroupID": "07501543",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Striped midi dress featuring a straight neckline, elasticized smocked bodice, and tie-fastening shoulder straps. Includes a short inner lining and ruffled hem.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c8ba/b282/6e1a405f9cbc/a2c504135585/07501543046-p/07501543046-p.jpg?ts=1786711939346&w=1920",
+        "https://static.zara.net/assets/public/527f/ff8c/3666486c9e84/541d82734e63/07501543046-a1/07501543046-a1.jpg?ts=1786711939734&w=1920",
+        "https://static.zara.net/assets/public/10d9/c9f5/3fc1462c8107/919abc7c9b20/07501543046-a2/07501543046-a2.jpg?ts=1786711939634&w=1920",
+        "https://static.zara.net/assets/public/d85a/f010/1d1f4c479ddd/dbde14cecb68/07501543046-a3/07501543046-a3.jpg?ts=1786711938785&w=1920",
+        "https://static.zara.net/assets/public/9154/a6e9/40dc4c4d893a/3569aaa01dc7/07501543046-e1/07501543046-e1.jpg?ts=1786448868900&w=1920",
+        "https://static.zara.net/assets/public/0881/ffcf/c3a644b39b92/b8dceaa1bc99/07501543046-e2/07501543046-e2.jpg?ts=1786448869048&w=1920",
+        "https://static.zara.net/assets/public/336c/3283/023c427a96a0/6dfae3441db6/07501543046-e3/07501543046-e3.jpg?ts=1786448869338&w=1920"
+      ],
+      "material": "viscose/polyamide/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "66% viscose, 23% polyamide, 11% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% viscose"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED MIDI DRESS - Pink / White - XS-S",
+          "sku": "559640276-046-10",
+          "mpn": "559640276-046-10",
+          "color": "Pink / White",
+          "size": "XS-S",
+          "image": [
+            "https://static.zara.net/assets/public/c8ba/b282/6e1a405f9cbc/a2c504135585/07501543046-p/07501543046-p.jpg?ts=1786711939346&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/striped-midi-dress-p07501543.html?v1=559640276",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED MIDI DRESS - Pink / White - M-L",
+          "sku": "559640276-046-98",
+          "mpn": "559640276-046-98",
+          "color": "Pink / White",
+          "size": "M-L",
+          "image": [
+            "https://static.zara.net/assets/public/c8ba/b282/6e1a405f9cbc/a2c504135585/07501543046-p/07501543046-p.jpg?ts=1786711939346&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/striped-midi-dress-p07501543.html?v1=559640276",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED MIDI DRESS",
+      "product_group_id": "07501543",
+      "brand": "ZARA",
+      "description": "Striped midi dress featuring a straight neckline, elasticized smocked bodice, and tie-fastening shoulder straps. Includes a short inner lining and ruffled hem.",
+      "material": "viscose/polyamide/polyester",
+      "composition": "OUTER SHELL: 66% viscose, 23% polyamide, 11% polyester | LINING: 100% viscose",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED MIDI DRESS - Pink / White - XS-S",
+          "sku": "559640276-046-10",
+          "mpn": "559640276-046-10",
+          "color_name": "Pink / White",
+          "size_name": "XS-S",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-midi-dress-p07501543.html?v1=559640276",
+          "images": [
+            "https://static.zara.net/assets/public/c8ba/b282/6e1a405f9cbc/a2c504135585/07501543046-p/07501543046-p.jpg?ts=1786711939346&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED MIDI DRESS - Pink / White - M-L",
+          "sku": "559640276-046-98",
+          "mpn": "559640276-046-98",
+          "color_name": "Pink / White",
+          "size_name": "M-L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-midi-dress-p07501543.html?v1=559640276",
+          "images": [
+            "https://static.zara.net/assets/public/c8ba/b282/6e1a405f9cbc/a2c504135585/07501543046-p/07501543046-p.jpg?ts=1786711939346&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c8ba/b282/6e1a405f9cbc/a2c504135585/07501543046-p/07501543046-p.jpg?ts=1786711939346&w=1920",
+        "https://static.zara.net/assets/public/527f/ff8c/3666486c9e84/541d82734e63/07501543046-a1/07501543046-a1.jpg?ts=1786711939734&w=1920",
+        "https://static.zara.net/assets/public/10d9/c9f5/3fc1462c8107/919abc7c9b20/07501543046-a2/07501543046-a2.jpg?ts=1786711939634&w=1920",
+        "https://static.zara.net/assets/public/d85a/f010/1d1f4c479ddd/dbde14cecb68/07501543046-a3/07501543046-a3.jpg?ts=1786711938785&w=1920",
+        "https://static.zara.net/assets/public/9154/a6e9/40dc4c4d893a/3569aaa01dc7/07501543046-e1/07501543046-e1.jpg?ts=1786448868900&w=1920",
+        "https://static.zara.net/assets/public/0881/ffcf/c3a644b39b92/b8dceaa1bc99/07501543046-e2/07501543046-e2.jpg?ts=1786448869048&w=1920",
+        "https://static.zara.net/assets/public/336c/3283/023c427a96a0/6dfae3441db6/07501543046-e3/07501543046-e3.jpg?ts=1786448869338&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nStriped midi dress featuring a straight neckline, elasticized smocked bodice, and tie-fastening shoulder straps. Includes a short inner lining and ruffled hem.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "dd0d1810b86c89776bdad7a691a74a951ee4bad7742afad35c56ec12ca7a55d9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,406 @@
+{
+  "product_id": "zara-us:17100830",
+  "source_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html",
+  "final_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html",
+  "canonical_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHELSEA BOOTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHELSEA BOOTS",
+      "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html",
+      "productGroupID": "17100830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Chelsea-style ankle boots with elasticated side panels. Features a side zip closure. Finished with a lugged rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920",
+        "https://static.zara.net/assets/public/cab9/79e8/319e4b2591dd/1d1c69824e55/17100831700-e2/17100831700-e2.jpg?ts=1784022071292&w=1920",
+        "https://static.zara.net/assets/public/10f3/0eab/c3854192a335/3313acfdb594/17100831700-e3/17100831700-e3.jpg?ts=1784022074188&w=1920",
+        "https://static.zara.net/assets/public/7a5b/ab42/379a4ad38f9e/2544375f7451/17100831700-e4/17100831700-e4.jpg?ts=1784022073665&w=1920",
+        "https://static.zara.net/assets/public/2f93/8ae7/5afa46d7b87d/ca7c15cf26ce/17100831700-e5/17100831700-e5.jpg?ts=1784022073162&w=1920",
+        "https://static.zara.net/assets/public/db8b/30bb/9cbf4519a5c9/6f96fa8ce912/17100831700-e6/17100831700-e6.jpg?ts=1784022073591&w=1920",
+        "https://static.zara.net/assets/public/99f7/a9b5/4796468b9b62/33e7d4c38fbe/17100831700-e7/17100831700-e7.jpg?ts=1784022072576&w=1920"
+      ],
+      "material": "polyurethane/polyester/elastodiene",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "90% polyurethane, 7% polyester, 3% elastodiene"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 5½ (5.1 INCHES)",
+          "sku": "545446410-700-21",
+          "mpn": "545446410-700-21",
+          "color": "Brown",
+          "size": "5½ (5.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 6½ (5.3 INCHES)",
+          "sku": "545446410-700-22",
+          "mpn": "545446410-700-22",
+          "color": "Brown",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 7 (5.6 INCHES)",
+          "sku": "545446410-700-23",
+          "mpn": "545446410-700-23",
+          "color": "Brown",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 8 (5.9 INCHES)",
+          "sku": "545446410-700-24",
+          "mpn": "545446410-700-24",
+          "color": "Brown",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 9 (6.1 INCHES)",
+          "sku": "545446410-700-25",
+          "mpn": "545446410-700-25",
+          "color": "Brown",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 9½ (6.4 INCHES)",
+          "sku": "545446410-700-26",
+          "mpn": "545446410-700-26",
+          "color": "Brown",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 10½ (6.6 INCHES)",
+          "sku": "545446410-700-27",
+          "mpn": "545446410-700-27",
+          "color": "Brown",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 11 (7.0 INCHES)",
+          "sku": "545446410-700-28",
+          "mpn": "545446410-700-28",
+          "color": "Brown",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHELSEA BOOTS - Brown - 12 (7.2 INCHES)",
+          "sku": "545446410-700-29",
+          "mpn": "545446410-700-29",
+          "color": "Brown",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHELSEA BOOTS",
+      "product_group_id": "17100830",
+      "brand": "ZARA",
+      "description": "Chelsea-style ankle boots with elasticated side panels. Features a side zip closure. Finished with a lugged rubber sole.",
+      "material": "polyurethane/polyester/elastodiene",
+      "composition": "UPPER: 90% polyurethane, 7% polyester, 3% elastodiene | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHELSEA BOOTS - Brown - 5½ (5.1 INCHES)",
+          "sku": "545446410-700-21",
+          "mpn": "545446410-700-21",
+          "color_name": "Brown",
+          "size_name": "5½ (5.1 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA BOOTS - Brown - 6½ (5.3 INCHES)",
+          "sku": "545446410-700-22",
+          "mpn": "545446410-700-22",
+          "color_name": "Brown",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA BOOTS - Brown - 7 (5.6 INCHES)",
+          "sku": "545446410-700-23",
+          "mpn": "545446410-700-23",
+          "color_name": "Brown",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA BOOTS - Brown - 8 (5.9 INCHES)",
+          "sku": "545446410-700-24",
+          "mpn": "545446410-700-24",
+          "color_name": "Brown",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA BOOTS - Brown - 9 (6.1 INCHES)",
+          "sku": "545446410-700-25",
+          "mpn": "545446410-700-25",
+          "color_name": "Brown",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA BOOTS - Brown - 9½ (6.4 INCHES)",
+          "sku": "545446410-700-26",
+          "mpn": "545446410-700-26",
+          "color_name": "Brown",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA BOOTS - Brown - 10½ (6.6 INCHES)",
+          "sku": "545446410-700-27",
+          "mpn": "545446410-700-27",
+          "color_name": "Brown",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA BOOTS - Brown - 11 (7.0 INCHES)",
+          "sku": "545446410-700-28",
+          "mpn": "545446410-700-28",
+          "color_name": "Brown",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        },
+        {
+          "name": "CHELSEA BOOTS - Brown - 12 (7.2 INCHES)",
+          "sku": "545446410-700-29",
+          "mpn": "545446410-700-29",
+          "color_name": "Brown",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chelsea-boots-p17100830.html?v1=545446410",
+          "images": [
+            "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7d25/8552/731c43069341/ad2a6b5e5647/17100831700-e1/17100831700-e1.jpg?ts=1784022073259&w=1920",
+        "https://static.zara.net/assets/public/cab9/79e8/319e4b2591dd/1d1c69824e55/17100831700-e2/17100831700-e2.jpg?ts=1784022071292&w=1920",
+        "https://static.zara.net/assets/public/10f3/0eab/c3854192a335/3313acfdb594/17100831700-e3/17100831700-e3.jpg?ts=1784022074188&w=1920",
+        "https://static.zara.net/assets/public/7a5b/ab42/379a4ad38f9e/2544375f7451/17100831700-e4/17100831700-e4.jpg?ts=1784022073665&w=1920",
+        "https://static.zara.net/assets/public/2f93/8ae7/5afa46d7b87d/ca7c15cf26ce/17100831700-e5/17100831700-e5.jpg?ts=1784022073162&w=1920",
+        "https://static.zara.net/assets/public/db8b/30bb/9cbf4519a5c9/6f96fa8ce912/17100831700-e6/17100831700-e6.jpg?ts=1784022073591&w=1920",
+        "https://static.zara.net/assets/public/99f7/a9b5/4796468b9b62/33e7d4c38fbe/17100831700-e7/17100831700-e7.jpg?ts=1784022072576&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nChelsea-style ankle boots with elasticated side panels. Features a side zip closure. Finished with a lugged rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 9,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b64a84d6a8f154d49b94a5999978fb8cc2d4c6820f11b24a2d661cba681bae1c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

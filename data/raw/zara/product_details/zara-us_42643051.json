@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:42643051",
+  "source_url": "https://www.zara.com/us/en/rabbit-plush-toy-p42643051.html",
+  "final_url": "https://www.zara.com/us/en/rabbit-plush-toy-p42643051.html",
+  "canonical_url": "https://www.zara.com/us/en/rabbit-plush-toy-p42643051.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RABBIT PLUSH TOY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RABBIT PLUSH TOY",
+      "url": "https://www.zara.com/us/en/rabbit-plush-toy-p42643051.html",
+      "productGroupID": "42643051",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Light-colored bunny plush toy with a contrasting dress.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/97ca/5783/98164884b6f0/862ff04d6303/47610051251-e1/47610051251-e1.jpg?ts=1743597338895&w=1920",
+        "https://static.zara.net/assets/public/daeb/96b7/ec0b4edda97d/b1fa2a6ec895/47610051251-e2/47610051251-e2.jpg?ts=1743597340140&w=1920",
+        "https://static.zara.net/assets/public/e4ff/6c71/071846378d59/5697a3b78476/47610051251-e3/47610051251-e3.jpg?ts=1743597340324&w=1920",
+        "https://static.zara.net/assets/public/e30f/9758/9dcc4a40a85b/846c3ddd1600/47610051251-e4/47610051251-e4.jpg?ts=1743597339209&w=1920",
+        "https://static.zara.net/assets/public/ae4b/b64e/593b43cb806c/b665dd2e97a9/47610051251-e5/47610051251-e5.jpg?ts=1743597339097&w=1920",
+        "https://static.zara.net/assets/public/104e/15f9/aada4db9afcd/bc4ded7ebe3e/42643051251-a1/42643051251-a1.jpg?ts=1776782066835&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RABBIT PLUSH TOY - Oyster-white - ONE SIZE ONLY",
+          "sku": "545426717-251-99",
+          "mpn": "545426717-251-99",
+          "color": "Oyster-white",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/97ca/5783/98164884b6f0/862ff04d6303/47610051251-e1/47610051251-e1.jpg?ts=1743597338895&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/rabbit-plush-toy-p42643051.html?v1=545426717",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RABBIT PLUSH TOY",
+      "product_group_id": "42643051",
+      "brand": "ZARAHOME",
+      "description": "Light-colored bunny plush toy with a contrasting dress.",
+      "material": null,
+      "composition": "FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RABBIT PLUSH TOY - Oyster-white - ONE SIZE ONLY",
+          "sku": "545426717-251-99",
+          "mpn": "545426717-251-99",
+          "color_name": "Oyster-white",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rabbit-plush-toy-p42643051.html?v1=545426717",
+          "images": [
+            "https://static.zara.net/assets/public/97ca/5783/98164884b6f0/862ff04d6303/47610051251-e1/47610051251-e1.jpg?ts=1743597338895&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/97ca/5783/98164884b6f0/862ff04d6303/47610051251-e1/47610051251-e1.jpg?ts=1743597338895&w=1920",
+        "https://static.zara.net/assets/public/daeb/96b7/ec0b4edda97d/b1fa2a6ec895/47610051251-e2/47610051251-e2.jpg?ts=1743597340140&w=1920",
+        "https://static.zara.net/assets/public/e4ff/6c71/071846378d59/5697a3b78476/47610051251-e3/47610051251-e3.jpg?ts=1743597340324&w=1920",
+        "https://static.zara.net/assets/public/e30f/9758/9dcc4a40a85b/846c3ddd1600/47610051251-e4/47610051251-e4.jpg?ts=1743597339209&w=1920",
+        "https://static.zara.net/assets/public/ae4b/b64e/593b43cb806c/b665dd2e97a9/47610051251-e5/47610051251-e5.jpg?ts=1743597339097&w=1920",
+        "https://static.zara.net/assets/public/104e/15f9/aada4db9afcd/bc4ded7ebe3e/42643051251-a1/42643051251-a1.jpg?ts=1776782066835&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nLight-colored bunny plush toy with a contrasting dress.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1e07f86db6f4e692c23864316a58745e8c008f78921b062fd8b5cd068834603a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

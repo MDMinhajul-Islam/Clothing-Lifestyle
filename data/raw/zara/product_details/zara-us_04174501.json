@@ -1,0 +1,482 @@
+{
+  "product_id": "zara-us:04174501",
+  "source_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html",
+  "final_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html",
+  "canonical_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "INTERLOCK T-SHIRT AND SHORTS JOGGING SET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET",
+      "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html",
+      "productGroupID": "04174501",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Two-piece set. T-shirt with round neck and short sleeves. Chest text print. Shorts with elastic waistband. Front pockets. Front text print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920",
+        "https://static.zara.net/assets/public/b625/8bbe/e13c4487b5f1/ccd89d075af5/04174501401-e2/04174501401-e2.jpg?ts=1781090573076&w=1920",
+        "https://static.zara.net/assets/public/594a/3f28/b5614bb5b085/095c0d2855fc/04174501401-e3/04174501401-e3.jpg?ts=1781090573510&w=1920",
+        "https://static.zara.net/assets/public/8c8a/057f/985343a59d7f/5ca26cb801a4/04174501401-e4/04174501401-e4.jpg?ts=1781090572357&w=1920",
+        "https://static.zara.net/assets/public/2cb1/4495/c6654f7089ec/6d1753820c98/04174501401400-p/04174501401400-p.jpg?ts=1783068920220&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "80% cotton, 20% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 1½ years (33,9 INCHES)",
+          "sku": "575916714-401-18",
+          "mpn": "575916714-401-18",
+          "color": "Navy blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 2 years (36,2 INCHES)",
+          "sku": "575916714-401-24",
+          "mpn": "575916714-401-24",
+          "color": "Navy blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 3 years (38,6 INCHES)",
+          "sku": "575916714-401-36",
+          "mpn": "575916714-401-36",
+          "color": "Navy blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 4 years (40,9 INCHES)",
+          "sku": "575916714-401-48",
+          "mpn": "575916714-401-48",
+          "color": "Navy blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 5 years (43,3 INCHES)",
+          "sku": "575916714-401-60",
+          "mpn": "575916714-401-60",
+          "color": "Navy blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 6 years (45,2 INCHES)",
+          "sku": "575916714-401-72",
+          "mpn": "575916714-401-72",
+          "color": "Navy blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 1½ years (33,9 INCHES)",
+          "sku": "575916714-506-18",
+          "mpn": "575916714-506-18",
+          "color": "Light khaki",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 2 years (36,2 INCHES)",
+          "sku": "575916714-506-24",
+          "mpn": "575916714-506-24",
+          "color": "Light khaki",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 3 years (38,6 INCHES)",
+          "sku": "575916714-506-36",
+          "mpn": "575916714-506-36",
+          "color": "Light khaki",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 4 years (40,9 INCHES)",
+          "sku": "575916714-506-48",
+          "mpn": "575916714-506-48",
+          "color": "Light khaki",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 5 years (43,3 INCHES)",
+          "sku": "575916714-506-60",
+          "mpn": "575916714-506-60",
+          "color": "Light khaki",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 6 years (45,2 INCHES)",
+          "sku": "575916714-506-72",
+          "mpn": "575916714-506-72",
+          "color": "Light khaki",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET",
+      "product_group_id": "04174501",
+      "brand": "ZARA",
+      "description": "Two-piece set. T-shirt with round neck and short sleeves. Chest text print. Shorts with elastic waistband. Front pockets. Front text print.",
+      "material": "cotton/polyester",
+      "composition": "OUTER SHELL: 80% cotton, 20% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 1½ years (33,9 INCHES)",
+          "sku": "575916714-401-18",
+          "mpn": "575916714-401-18",
+          "color_name": "Navy blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+          "images": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 2 years (36,2 INCHES)",
+          "sku": "575916714-401-24",
+          "mpn": "575916714-401-24",
+          "color_name": "Navy blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+          "images": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 3 years (38,6 INCHES)",
+          "sku": "575916714-401-36",
+          "mpn": "575916714-401-36",
+          "color_name": "Navy blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+          "images": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 4 years (40,9 INCHES)",
+          "sku": "575916714-401-48",
+          "mpn": "575916714-401-48",
+          "color_name": "Navy blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+          "images": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 5 years (43,3 INCHES)",
+          "sku": "575916714-401-60",
+          "mpn": "575916714-401-60",
+          "color_name": "Navy blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+          "images": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Navy blue - 6 years (45,2 INCHES)",
+          "sku": "575916714-401-72",
+          "mpn": "575916714-401-72",
+          "color_name": "Navy blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575916714",
+          "images": [
+            "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 1½ years (33,9 INCHES)",
+          "sku": "575916714-506-18",
+          "mpn": "575916714-506-18",
+          "color_name": "Light khaki",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+          "images": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 2 years (36,2 INCHES)",
+          "sku": "575916714-506-24",
+          "mpn": "575916714-506-24",
+          "color_name": "Light khaki",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+          "images": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 3 years (38,6 INCHES)",
+          "sku": "575916714-506-36",
+          "mpn": "575916714-506-36",
+          "color_name": "Light khaki",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+          "images": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 4 years (40,9 INCHES)",
+          "sku": "575916714-506-48",
+          "mpn": "575916714-506-48",
+          "color_name": "Light khaki",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+          "images": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 5 years (43,3 INCHES)",
+          "sku": "575916714-506-60",
+          "mpn": "575916714-506-60",
+          "color_name": "Light khaki",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+          "images": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ]
+        },
+        {
+          "name": "INTERLOCK T-SHIRT AND SHORTS JOGGING SET - Light khaki - 6 years (45,2 INCHES)",
+          "sku": "575916714-506-72",
+          "mpn": "575916714-506-72",
+          "color_name": "Light khaki",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interlock-t-shirt-and-shorts-jogging-set-p04174501.html?v1=575713342",
+          "images": [
+            "https://static.zara.net/assets/public/81bb/f8c5/419b45ebae26/06db870fa650/04174501506-e1/04174501506-e1.jpg?ts=1781103922889&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c739/6bd2/368a47adb495/28768440e079/04174501401-e1/04174501401-e1.jpg?ts=1781090572357&w=1920",
+        "https://static.zara.net/assets/public/b625/8bbe/e13c4487b5f1/ccd89d075af5/04174501401-e2/04174501401-e2.jpg?ts=1781090573076&w=1920",
+        "https://static.zara.net/assets/public/594a/3f28/b5614bb5b085/095c0d2855fc/04174501401-e3/04174501401-e3.jpg?ts=1781090573510&w=1920",
+        "https://static.zara.net/assets/public/8c8a/057f/985343a59d7f/5ca26cb801a4/04174501401-e4/04174501401-e4.jpg?ts=1781090572357&w=1920",
+        "https://static.zara.net/assets/public/2cb1/4495/c6654f7089ec/6d1753820c98/04174501401400-p/04174501401400-p.jpg?ts=1783068920220&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Navy blue",
+    "Light khaki"
+  ],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nTwo-piece set. T-shirt with round neck and short sleeves. Chest text print. Shorts with elastic waistband. Front pockets. Front text print.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 6,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "709ade56d6f63844a4bd11c3cbed713afef41260124ef48b63db1616323f7764",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

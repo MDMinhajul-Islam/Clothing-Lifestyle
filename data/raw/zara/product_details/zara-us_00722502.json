@@ -1,0 +1,485 @@
+{
+  "product_id": "zara-us:00722502",
+  "source_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html",
+  "final_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html",
+  "canonical_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EMBROIDERED T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "EMBROIDERED T-SHIRT",
+      "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html",
+      "productGroupID": "00722502",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt. Embroidered detail on the front.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920",
+        "https://static.zara.net/assets/public/0049/4e1a/cf3e4e0482d8/34bc2f2e5883/00722502715-e2/00722502715-e2.jpg?ts=1777880700746&w=1920",
+        "https://static.zara.net/assets/public/0b28/c156/02b84fa9a2ed/b574c2d3515e/00722502715-e3/00722502715-e3.jpg?ts=1777880699038&w=1920",
+        "https://static.zara.net/assets/public/7754/4122/d49c4554a3fc/4153b2a8caad/00722502715-e4/00722502715-e4.jpg?ts=1777880700121&w=1920",
+        "https://static.zara.net/assets/public/e70b/6319/035749d6bf7b/6eef6129c3ea/00722502715400-p/00722502715400-p.jpg?ts=1779720936711&w=1920",
+        "https://static.zara.net/assets/public/d32e/ae46/f5ce4528bcf6/a4bf108c8621/00722502715400-a1/00722502715400-a1.jpg?ts=1779720936246&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 1½ years (33,9 INCHES)",
+          "sku": "545490581-715-18",
+          "mpn": "545490581-715-18",
+          "color": "Mid-ecru",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 2 years (36,2 INCHES)",
+          "sku": "545490581-715-24",
+          "mpn": "545490581-715-24",
+          "color": "Mid-ecru",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 3 years (38,6 INCHES)",
+          "sku": "545490581-715-36",
+          "mpn": "545490581-715-36",
+          "color": "Mid-ecru",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 4 years (40,9 INCHES)",
+          "sku": "545490581-715-48",
+          "mpn": "545490581-715-48",
+          "color": "Mid-ecru",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 5 years (43,3 INCHES)",
+          "sku": "545490581-715-60",
+          "mpn": "545490581-715-60",
+          "color": "Mid-ecru",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 6 years (45,2 INCHES)",
+          "sku": "545490581-715-72",
+          "mpn": "545490581-715-72",
+          "color": "Mid-ecru",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 1½ years (33,9 INCHES)",
+          "sku": "545490581-898-18",
+          "mpn": "545490581-898-18",
+          "color": "Dark anthracite",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 2 years (36,2 INCHES)",
+          "sku": "545490581-898-24",
+          "mpn": "545490581-898-24",
+          "color": "Dark anthracite",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 3 years (38,6 INCHES)",
+          "sku": "545490581-898-36",
+          "mpn": "545490581-898-36",
+          "color": "Dark anthracite",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 4 years (40,9 INCHES)",
+          "sku": "545490581-898-48",
+          "mpn": "545490581-898-48",
+          "color": "Dark anthracite",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 5 years (43,3 INCHES)",
+          "sku": "545490581-898-60",
+          "mpn": "545490581-898-60",
+          "color": "Dark anthracite",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 6 years (45,2 INCHES)",
+          "sku": "545490581-898-72",
+          "mpn": "545490581-898-72",
+          "color": "Dark anthracite",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "EMBROIDERED T-SHIRT",
+      "product_group_id": "00722502",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt. Embroidered detail on the front.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 1½ years (33,9 INCHES)",
+          "sku": "545490581-715-18",
+          "mpn": "545490581-715-18",
+          "color_name": "Mid-ecru",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+          "images": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 2 years (36,2 INCHES)",
+          "sku": "545490581-715-24",
+          "mpn": "545490581-715-24",
+          "color_name": "Mid-ecru",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+          "images": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 3 years (38,6 INCHES)",
+          "sku": "545490581-715-36",
+          "mpn": "545490581-715-36",
+          "color_name": "Mid-ecru",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+          "images": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 4 years (40,9 INCHES)",
+          "sku": "545490581-715-48",
+          "mpn": "545490581-715-48",
+          "color_name": "Mid-ecru",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+          "images": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 5 years (43,3 INCHES)",
+          "sku": "545490581-715-60",
+          "mpn": "545490581-715-60",
+          "color_name": "Mid-ecru",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+          "images": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Mid-ecru - 6 years (45,2 INCHES)",
+          "sku": "545490581-715-72",
+          "mpn": "545490581-715-72",
+          "color_name": "Mid-ecru",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490581",
+          "images": [
+            "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 1½ years (33,9 INCHES)",
+          "sku": "545490581-898-18",
+          "mpn": "545490581-898-18",
+          "color_name": "Dark anthracite",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+          "images": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 2 years (36,2 INCHES)",
+          "sku": "545490581-898-24",
+          "mpn": "545490581-898-24",
+          "color_name": "Dark anthracite",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+          "images": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 3 years (38,6 INCHES)",
+          "sku": "545490581-898-36",
+          "mpn": "545490581-898-36",
+          "color_name": "Dark anthracite",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+          "images": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 4 years (40,9 INCHES)",
+          "sku": "545490581-898-48",
+          "mpn": "545490581-898-48",
+          "color_name": "Dark anthracite",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+          "images": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 5 years (43,3 INCHES)",
+          "sku": "545490581-898-60",
+          "mpn": "545490581-898-60",
+          "color_name": "Dark anthracite",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+          "images": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED T-SHIRT - Dark anthracite - 6 years (45,2 INCHES)",
+          "sku": "545490581-898-72",
+          "mpn": "545490581-898-72",
+          "color_name": "Dark anthracite",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-t-shirt-p00722502.html?v1=545490580",
+          "images": [
+            "https://static.zara.net/assets/public/eae7/7977/f4454b538c22/01dc34631cca/00722502898-e1/00722502898-e1.jpg?ts=1777880700650&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/dbe8/a6d9/eb9240e8922e/36119790850f/00722502715-e1/00722502715-e1.jpg?ts=1777880699760&w=1920",
+        "https://static.zara.net/assets/public/0049/4e1a/cf3e4e0482d8/34bc2f2e5883/00722502715-e2/00722502715-e2.jpg?ts=1777880700746&w=1920",
+        "https://static.zara.net/assets/public/0b28/c156/02b84fa9a2ed/b574c2d3515e/00722502715-e3/00722502715-e3.jpg?ts=1777880699038&w=1920",
+        "https://static.zara.net/assets/public/7754/4122/d49c4554a3fc/4153b2a8caad/00722502715-e4/00722502715-e4.jpg?ts=1777880700121&w=1920",
+        "https://static.zara.net/assets/public/e70b/6319/035749d6bf7b/6eef6129c3ea/00722502715400-p/00722502715400-p.jpg?ts=1779720936711&w=1920",
+        "https://static.zara.net/assets/public/d32e/ae46/f5ce4528bcf6/a4bf108c8621/00722502715400-a1/00722502715400-a1.jpg?ts=1779720936246&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Mid-ecru",
+    "Dark anthracite"
+  ],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt. Embroidered detail on the front.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7efcc0e77e2085acaa5f70ee6d832408c2bac5d78e3a63a8fbb622081c64523d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,382 @@
+{
+  "product_id": "zara-us:17302830",
+  "source_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html",
+  "final_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html",
+  "canonical_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PIECED SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PIECED SNEAKERS",
+      "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html",
+      "productGroupID": "17302830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers with a contrasting color design and mesh details. Lace-up fastening. Features front and back pull tabs for easy on and off. Rubber sole with chunky tread and OrthoLite® insole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920",
+        "https://static.zara.net/assets/public/4560/5c9d/8a404de2b979/68c8c9c40255/17302830032-e2/17302830032-e2.jpg?ts=1782746181380&w=1920",
+        "https://static.zara.net/assets/public/1ff8/73c2/90e949ccaf26/e6856120682d/17302830032-e3/17302830032-e3.jpg?ts=1782746181327&w=1920",
+        "https://static.zara.net/assets/public/cf73/9a69/145c47bd922e/9e1eb7ae0b55/17302830032-e4/17302830032-e4.jpg?ts=1782746180240&w=1920",
+        "https://static.zara.net/assets/public/94a2/3637/dd994162a93b/e57ab45fe4f3/17302830032-e5/17302830032-e5.jpg?ts=1782746181361&w=1920",
+        "https://static.zara.net/assets/public/90a6/7461/604445db8ebd/309d63935f1e/17302830032-e6/17302830032-e6.jpg?ts=1782746180708&w=1920",
+        "https://static.zara.net/assets/public/ca84/cde3/e8884d6999bd/931a72a0c2f0/17302830032-e7/17302830032-e7.jpg?ts=1782746181726&w=1920",
+        "https://static.zara.net/assets/public/67dd/b40a/d83446c19461/eb352d3997d8/17302830032-e8/17302830032-e8.jpg?ts=1782746181326&w=1920"
+      ],
+      "material": "polyester/polyurethane/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "56% polyester, 38% polyurethane, 6% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PIECED SNEAKERS - Khaki Green - 6½ (5.3 INCHES)",
+          "sku": "545436295-032-22",
+          "mpn": "545436295-032-22",
+          "color": "Khaki Green",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PIECED SNEAKERS - Khaki Green - 7 (5.6 INCHES)",
+          "sku": "545436295-032-23",
+          "mpn": "545436295-032-23",
+          "color": "Khaki Green",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PIECED SNEAKERS - Khaki Green - 8 (5.9 INCHES)",
+          "sku": "545436295-032-24",
+          "mpn": "545436295-032-24",
+          "color": "Khaki Green",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PIECED SNEAKERS - Khaki Green - 9 (6.1 INCHES)",
+          "sku": "545436295-032-25",
+          "mpn": "545436295-032-25",
+          "color": "Khaki Green",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PIECED SNEAKERS - Khaki Green - 9½ (6.4 INCHES)",
+          "sku": "545436295-032-26",
+          "mpn": "545436295-032-26",
+          "color": "Khaki Green",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PIECED SNEAKERS - Khaki Green - 10½ (6.6 INCHES)",
+          "sku": "545436295-032-27",
+          "mpn": "545436295-032-27",
+          "color": "Khaki Green",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PIECED SNEAKERS - Khaki Green - 11 (7.0 INCHES)",
+          "sku": "545436295-032-28",
+          "mpn": "545436295-032-28",
+          "color": "Khaki Green",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PIECED SNEAKERS - Khaki Green - 12 (7.2 INCHES)",
+          "sku": "545436295-032-29",
+          "mpn": "545436295-032-29",
+          "color": "Khaki Green",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PIECED SNEAKERS",
+      "product_group_id": "17302830",
+      "brand": "ZARA",
+      "description": "Sneakers with a contrasting color design and mesh details. Lace-up fastening. Features front and back pull tabs for easy on and off. Rubber sole with chunky tread and OrthoLite® insole.",
+      "material": "polyester/polyurethane/elastane",
+      "composition": "UPPER: 56% polyester, 38% polyurethane, 6% elastane | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PIECED SNEAKERS - Khaki Green - 6½ (5.3 INCHES)",
+          "sku": "545436295-032-22",
+          "mpn": "545436295-032-22",
+          "color_name": "Khaki Green",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+          "images": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ]
+        },
+        {
+          "name": "PIECED SNEAKERS - Khaki Green - 7 (5.6 INCHES)",
+          "sku": "545436295-032-23",
+          "mpn": "545436295-032-23",
+          "color_name": "Khaki Green",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+          "images": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ]
+        },
+        {
+          "name": "PIECED SNEAKERS - Khaki Green - 8 (5.9 INCHES)",
+          "sku": "545436295-032-24",
+          "mpn": "545436295-032-24",
+          "color_name": "Khaki Green",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+          "images": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ]
+        },
+        {
+          "name": "PIECED SNEAKERS - Khaki Green - 9 (6.1 INCHES)",
+          "sku": "545436295-032-25",
+          "mpn": "545436295-032-25",
+          "color_name": "Khaki Green",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+          "images": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ]
+        },
+        {
+          "name": "PIECED SNEAKERS - Khaki Green - 9½ (6.4 INCHES)",
+          "sku": "545436295-032-26",
+          "mpn": "545436295-032-26",
+          "color_name": "Khaki Green",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+          "images": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ]
+        },
+        {
+          "name": "PIECED SNEAKERS - Khaki Green - 10½ (6.6 INCHES)",
+          "sku": "545436295-032-27",
+          "mpn": "545436295-032-27",
+          "color_name": "Khaki Green",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+          "images": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ]
+        },
+        {
+          "name": "PIECED SNEAKERS - Khaki Green - 11 (7.0 INCHES)",
+          "sku": "545436295-032-28",
+          "mpn": "545436295-032-28",
+          "color_name": "Khaki Green",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+          "images": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ]
+        },
+        {
+          "name": "PIECED SNEAKERS - Khaki Green - 12 (7.2 INCHES)",
+          "sku": "545436295-032-29",
+          "mpn": "545436295-032-29",
+          "color_name": "Khaki Green",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pieced-sneakers-p17302830.html?v1=545436295",
+          "images": [
+            "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/58c8/8ca0/3d9744bbb05d/41aade93b67b/17302830032-e1/17302830032-e1.jpg?ts=1782746181420&w=1920",
+        "https://static.zara.net/assets/public/4560/5c9d/8a404de2b979/68c8c9c40255/17302830032-e2/17302830032-e2.jpg?ts=1782746181380&w=1920",
+        "https://static.zara.net/assets/public/1ff8/73c2/90e949ccaf26/e6856120682d/17302830032-e3/17302830032-e3.jpg?ts=1782746181327&w=1920",
+        "https://static.zara.net/assets/public/cf73/9a69/145c47bd922e/9e1eb7ae0b55/17302830032-e4/17302830032-e4.jpg?ts=1782746180240&w=1920",
+        "https://static.zara.net/assets/public/94a2/3637/dd994162a93b/e57ab45fe4f3/17302830032-e5/17302830032-e5.jpg?ts=1782746181361&w=1920",
+        "https://static.zara.net/assets/public/90a6/7461/604445db8ebd/309d63935f1e/17302830032-e6/17302830032-e6.jpg?ts=1782746180708&w=1920",
+        "https://static.zara.net/assets/public/ca84/cde3/e8884d6999bd/931a72a0c2f0/17302830032-e7/17302830032-e7.jpg?ts=1782746181726&w=1920",
+        "https://static.zara.net/assets/public/67dd/b40a/d83446c19461/eb352d3997d8/17302830032-e8/17302830032-e8.jpg?ts=1782746181326&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nSneakers with a contrasting color design and mesh details. Lace-up fastening. Features front and back pull tabs for easy on and off. Rubber sole with chunky tread and OrthoLite® insole.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fd405187e08aa7d3a6e0a698a28fc2fbbe633cb21150c47fcee6691de38c505c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

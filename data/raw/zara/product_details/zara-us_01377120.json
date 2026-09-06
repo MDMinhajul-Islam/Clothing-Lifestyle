@@ -1,0 +1,205 @@
+{
+  "product_id": "zara-us:01377120",
+  "source_url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html",
+  "final_url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html",
+  "canonical_url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LIMITED EDITION BEADED SEQUIN MINI DRESS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIMITED EDITION BEADED SEQUIN MINI DRESS",
+      "url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html",
+      "productGroupID": "01377120",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mini dress with V-neck and wide straps. Contrasting bead and sequin appliqué. Interior lining. Side zip and hidden metal hook closure in seam.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ea8b/ef17/0c254797a461/c055dd39dfd1/01377120808-p/01377120808-p.jpg?ts=1781098728338&w=1920",
+        "https://static.zara.net/assets/public/c788/a8da/9cdf4c3ca208/4a735b1dfbf8/01377120808-a1/01377120808-a1.jpg?ts=1781098722275&w=1920",
+        "https://static.zara.net/assets/public/e0f3/3d8b/d12e46458cba/9583f5f6c49d/01377120808-a2/01377120808-a2.jpg?ts=1781098721609&w=1920",
+        "https://static.zara.net/assets/public/0828/e8e1/9a3a464096c8/24b0041c06e3/01377120808-a3/01377120808-a3.jpg?ts=1781098722628&w=1920",
+        "https://static.zara.net/assets/public/110f/0257/efc94a35823b/8beb6d6386de/01377120808-a5/01377120808-a5.jpg?ts=1781098722524&w=1920",
+        "https://static.zara.net/assets/public/bd18/407b/ad154f29b74a/9f61638b4f9d/01377120808-a6/01377120808-a6.jpg?ts=1781098722177&w=1920",
+        "https://static.zara.net/assets/public/db10/8761/6fa24de68637/dca156317539/01377120808-e1/01377120808-e1.jpg?ts=1780909933776&w=1920",
+        "https://static.zara.net/assets/public/14b2/8aac/ac73489bacbe/df57ad1d8fd1/01377120808-e2/01377120808-e2.jpg?ts=1780909934865&w=1920",
+        "https://static.zara.net/assets/public/2fe4/026a/9a2d422cbe27/80646275d114/01377120808-e3/01377120808-e3.jpg?ts=1780909934053&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION BEADED SEQUIN MINI DRESS - Silver - S",
+          "sku": "545431165-808-2",
+          "mpn": "545431165-808-2",
+          "color": "Silver",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/ea8b/ef17/0c254797a461/c055dd39dfd1/01377120808-p/01377120808-p.jpg?ts=1781098728338&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "429",
+            "url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html?v1=545431165",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION BEADED SEQUIN MINI DRESS - Silver - M",
+          "sku": "545431165-808-3",
+          "mpn": "545431165-808-3",
+          "color": "Silver",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/ea8b/ef17/0c254797a461/c055dd39dfd1/01377120808-p/01377120808-p.jpg?ts=1781098728338&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "429",
+            "url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html?v1=545431165",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIMITED EDITION BEADED SEQUIN MINI DRESS - Silver - L",
+          "sku": "545431165-808-4",
+          "mpn": "545431165-808-4",
+          "color": "Silver",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/ea8b/ef17/0c254797a461/c055dd39dfd1/01377120808-p/01377120808-p.jpg?ts=1781098728338&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "429",
+            "url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html?v1=545431165",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIMITED EDITION BEADED SEQUIN MINI DRESS",
+      "product_group_id": "01377120",
+      "brand": "ZARA",
+      "description": "Mini dress with V-neck and wide straps. Contrasting bead and sequin appliqué. Interior lining. Side zip and hidden metal hook closure in seam.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIMITED EDITION BEADED SEQUIN MINI DRESS - Silver - S",
+          "sku": "545431165-808-2",
+          "mpn": "545431165-808-2",
+          "color_name": "Silver",
+          "size_name": "S",
+          "price": "429.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html?v1=545431165",
+          "images": [
+            "https://static.zara.net/assets/public/ea8b/ef17/0c254797a461/c055dd39dfd1/01377120808-p/01377120808-p.jpg?ts=1781098728338&w=1920"
+          ]
+        },
+        {
+          "name": "LIMITED EDITION BEADED SEQUIN MINI DRESS - Silver - M",
+          "sku": "545431165-808-3",
+          "mpn": "545431165-808-3",
+          "color_name": "Silver",
+          "size_name": "M",
+          "price": "429.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html?v1=545431165",
+          "images": [
+            "https://static.zara.net/assets/public/ea8b/ef17/0c254797a461/c055dd39dfd1/01377120808-p/01377120808-p.jpg?ts=1781098728338&w=1920"
+          ]
+        },
+        {
+          "name": "LIMITED EDITION BEADED SEQUIN MINI DRESS - Silver - L",
+          "sku": "545431165-808-4",
+          "mpn": "545431165-808-4",
+          "color_name": "Silver",
+          "size_name": "L",
+          "price": "429.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/limited-edition-beaded-sequin-mini-dress-p01377120.html?v1=545431165",
+          "images": [
+            "https://static.zara.net/assets/public/ea8b/ef17/0c254797a461/c055dd39dfd1/01377120808-p/01377120808-p.jpg?ts=1781098728338&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ea8b/ef17/0c254797a461/c055dd39dfd1/01377120808-p/01377120808-p.jpg?ts=1781098728338&w=1920",
+        "https://static.zara.net/assets/public/c788/a8da/9cdf4c3ca208/4a735b1dfbf8/01377120808-a1/01377120808-a1.jpg?ts=1781098722275&w=1920",
+        "https://static.zara.net/assets/public/e0f3/3d8b/d12e46458cba/9583f5f6c49d/01377120808-a2/01377120808-a2.jpg?ts=1781098721609&w=1920",
+        "https://static.zara.net/assets/public/0828/e8e1/9a3a464096c8/24b0041c06e3/01377120808-a3/01377120808-a3.jpg?ts=1781098722628&w=1920",
+        "https://static.zara.net/assets/public/110f/0257/efc94a35823b/8beb6d6386de/01377120808-a5/01377120808-a5.jpg?ts=1781098722524&w=1920",
+        "https://static.zara.net/assets/public/bd18/407b/ad154f29b74a/9f61638b4f9d/01377120808-a6/01377120808-a6.jpg?ts=1781098722177&w=1920",
+        "https://static.zara.net/assets/public/db10/8761/6fa24de68637/dca156317539/01377120808-e1/01377120808-e1.jpg?ts=1780909933776&w=1920",
+        "https://static.zara.net/assets/public/14b2/8aac/ac73489bacbe/df57ad1d8fd1/01377120808-e2/01377120808-e2.jpg?ts=1780909934865&w=1920",
+        "https://static.zara.net/assets/public/2fe4/026a/9a2d422cbe27/80646275d114/01377120808-e3/01377120808-e3.jpg?ts=1780909934053&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "429.00",
+  "rendered_description": "Description\nMini dress with V-neck and wide straps. Contrasting bead and sequin appliqué. Interior lining. Side zip and hidden metal hook closure in seam.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "429.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "429.00",
+    "dom_price": "429.00",
+    "normalized_price": "429.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "cdf1a31675a39c6fae8dbb16ba1ccc0bf9a137259381453edb9be6383d1cb5ed",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

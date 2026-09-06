@@ -1,0 +1,193 @@
+{
+  "product_id": "zara-us:05063809",
+  "source_url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html",
+  "final_url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html",
+  "canonical_url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRETCH BAND MINI DRESS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRETCH BAND MINI DRESS",
+      "url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html",
+      "productGroupID": "05063809",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mini dress made of stretch fabric. V-neckline and straps.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ec5a/2e84/89214bcf81f8/a5eb4c080a6e/05063809800-p/05063809800-p.jpg?ts=1784733287607&w=1920",
+        "https://static.zara.net/assets/public/d671/c64d/7aca462788d6/2099b9b2ae9a/05063809800-a1/05063809800-a1.jpg?ts=1784733286102&w=1920",
+        "https://static.zara.net/assets/public/3e1a/df71/4b3546608c1d/da9d0d970943/05063809800-a2/05063809800-a2.jpg?ts=1784733285726&w=1920",
+        "https://static.zara.net/assets/public/d83c/a806/a2904d8ebc1c/b65e0072d02a/05063809800-e1/05063809800-e1.jpg?ts=1784290860376&w=1920",
+        "https://static.zara.net/assets/public/d4e0/5ef9/26f24aa5b413/3c2783ed054f/05063809800-e2/05063809800-e2.jpg?ts=1784290861514&w=1920",
+        "https://static.zara.net/assets/public/239a/261a/884e46e9b891/c202dafd358b/05063809800-e3/05063809800-e3.jpg?ts=1784290859482&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRETCH BAND MINI DRESS - Black - S",
+          "sku": "548226636-800-2",
+          "mpn": "548226636-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/ec5a/2e84/89214bcf81f8/a5eb4c080a6e/05063809800-p/05063809800-p.jpg?ts=1784733287607&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html?v1=548226636",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRETCH BAND MINI DRESS - Black - M",
+          "sku": "548226636-800-3",
+          "mpn": "548226636-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/ec5a/2e84/89214bcf81f8/a5eb4c080a6e/05063809800-p/05063809800-p.jpg?ts=1784733287607&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html?v1=548226636",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRETCH BAND MINI DRESS - Black - L",
+          "sku": "548226636-800-4",
+          "mpn": "548226636-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/ec5a/2e84/89214bcf81f8/a5eb4c080a6e/05063809800-p/05063809800-p.jpg?ts=1784733287607&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html?v1=548226636",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRETCH BAND MINI DRESS",
+      "product_group_id": "05063809",
+      "brand": "ZARA",
+      "description": "Mini dress made of stretch fabric. V-neckline and straps.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRETCH BAND MINI DRESS - Black - S",
+          "sku": "548226636-800-2",
+          "mpn": "548226636-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html?v1=548226636",
+          "images": [
+            "https://static.zara.net/assets/public/ec5a/2e84/89214bcf81f8/a5eb4c080a6e/05063809800-p/05063809800-p.jpg?ts=1784733287607&w=1920"
+          ]
+        },
+        {
+          "name": "STRETCH BAND MINI DRESS - Black - M",
+          "sku": "548226636-800-3",
+          "mpn": "548226636-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html?v1=548226636",
+          "images": [
+            "https://static.zara.net/assets/public/ec5a/2e84/89214bcf81f8/a5eb4c080a6e/05063809800-p/05063809800-p.jpg?ts=1784733287607&w=1920"
+          ]
+        },
+        {
+          "name": "STRETCH BAND MINI DRESS - Black - L",
+          "sku": "548226636-800-4",
+          "mpn": "548226636-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/stretch-band-mini-dress-p05063809.html?v1=548226636",
+          "images": [
+            "https://static.zara.net/assets/public/ec5a/2e84/89214bcf81f8/a5eb4c080a6e/05063809800-p/05063809800-p.jpg?ts=1784733287607&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ec5a/2e84/89214bcf81f8/a5eb4c080a6e/05063809800-p/05063809800-p.jpg?ts=1784733287607&w=1920",
+        "https://static.zara.net/assets/public/d671/c64d/7aca462788d6/2099b9b2ae9a/05063809800-a1/05063809800-a1.jpg?ts=1784733286102&w=1920",
+        "https://static.zara.net/assets/public/3e1a/df71/4b3546608c1d/da9d0d970943/05063809800-a2/05063809800-a2.jpg?ts=1784733285726&w=1920",
+        "https://static.zara.net/assets/public/d83c/a806/a2904d8ebc1c/b65e0072d02a/05063809800-e1/05063809800-e1.jpg?ts=1784290860376&w=1920",
+        "https://static.zara.net/assets/public/d4e0/5ef9/26f24aa5b413/3c2783ed054f/05063809800-e2/05063809800-e2.jpg?ts=1784290861514&w=1920",
+        "https://static.zara.net/assets/public/239a/261a/884e46e9b891/c202dafd358b/05063809800-e3/05063809800-e3.jpg?ts=1784290859482&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nMini dress made of stretch fabric. V-neckline and straps.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ca1366af384dc25cf42473c2fa2d125295b406c666898bd5b5e2e919a5f9acbc",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

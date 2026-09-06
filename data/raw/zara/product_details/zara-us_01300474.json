@@ -1,0 +1,231 @@
+{
+  "product_id": "zara-us:01300474",
+  "source_url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html",
+  "final_url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html",
+  "canonical_url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RELAXED FIT DENIM JACKET WITH TABS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RELAXED FIT DENIM JACKET WITH TABS",
+      "url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html",
+      "productGroupID": "01300474",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Cropped fit jacket made of cotton denim. Lapel collar and long sleeves with button cuffs. Flap pockets on the chest and side pockets at the hip. Distressed wash throughout the garment. Adjustable waist with a tab on the back. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920",
+        "https://static.zara.net/assets/public/c597/24d7/6e6a4ddfa80b/6952ee328d8f/01300474400-a1/01300474400-a1.jpg?ts=1785331793699&w=1920",
+        "https://static.zara.net/assets/public/7d6f/40af/54204e978857/d597dacf85fc/01300474400-a2/01300474400-a2.jpg?ts=1785331793211&w=1920",
+        "https://static.zara.net/assets/public/ac43/71c9/c4c643d4b43f/8eafc5735aa2/01300474400-a3/01300474400-a3.jpg?ts=1785331794006&w=1920",
+        "https://static.zara.net/assets/public/73fa/95e7/28a04b4e9045/a160e7cf91aa/01300474400-a4/01300474400-a4.jpg?ts=1785331793608&w=1920",
+        "https://static.zara.net/assets/public/585a/a8e0/899c4786a56f/a143409f0521/01300474400-a5/01300474400-a5.jpg?ts=1785331793900&w=1920",
+        "https://static.zara.net/assets/public/89c9/adb4/d5f4478b8072/1ef05640a968/01300474400-a6/01300474400-a6.jpg?ts=1785331795258&w=1920",
+        "https://static.zara.net/assets/public/7aa7/a92a/31614aa4bc9e/719612696168/01300474400-e1/01300474400-e1.jpg?ts=1783958583618&w=1920",
+        "https://static.zara.net/assets/public/a98e/87dc/b16a4a6fae61/fd259099dc6c/01300474400-e2/01300474400-e2.jpg?ts=1783958584353&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT DENIM JACKET WITH TABS - Blue - S",
+          "sku": "551789023-400-2",
+          "mpn": "551789023-400-2",
+          "color": "Blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html?v1=551789023",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT DENIM JACKET WITH TABS - Blue - M",
+          "sku": "551789023-400-3",
+          "mpn": "551789023-400-3",
+          "color": "Blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html?v1=551789023",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT DENIM JACKET WITH TABS - Blue - L",
+          "sku": "551789023-400-4",
+          "mpn": "551789023-400-4",
+          "color": "Blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html?v1=551789023",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RELAXED FIT DENIM JACKET WITH TABS - Blue - XL",
+          "sku": "551789023-400-5",
+          "mpn": "551789023-400-5",
+          "color": "Blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html?v1=551789023",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RELAXED FIT DENIM JACKET WITH TABS",
+      "product_group_id": "01300474",
+      "brand": "ZARA",
+      "description": "Cropped fit jacket made of cotton denim. Lapel collar and long sleeves with button cuffs. Flap pockets on the chest and side pockets at the hip. Distressed wash throughout the garment. Adjustable waist with a tab on the back. Front button closure.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RELAXED FIT DENIM JACKET WITH TABS - Blue - S",
+          "sku": "551789023-400-2",
+          "mpn": "551789023-400-2",
+          "color_name": "Blue",
+          "size_name": "S",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html?v1=551789023",
+          "images": [
+            "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT DENIM JACKET WITH TABS - Blue - M",
+          "sku": "551789023-400-3",
+          "mpn": "551789023-400-3",
+          "color_name": "Blue",
+          "size_name": "M",
+          "price": "119.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html?v1=551789023",
+          "images": [
+            "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT DENIM JACKET WITH TABS - Blue - L",
+          "sku": "551789023-400-4",
+          "mpn": "551789023-400-4",
+          "color_name": "Blue",
+          "size_name": "L",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html?v1=551789023",
+          "images": [
+            "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920"
+          ]
+        },
+        {
+          "name": "RELAXED FIT DENIM JACKET WITH TABS - Blue - XL",
+          "sku": "551789023-400-5",
+          "mpn": "551789023-400-5",
+          "color_name": "Blue",
+          "size_name": "XL",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/relaxed-fit-tabbed-denim-jacket-p01300474.html?v1=551789023",
+          "images": [
+            "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f94c/9dbd/c59f4ba490fb/13c637d3719b/01300474400-p/01300474400-p.jpg?ts=1785331793902&w=1920",
+        "https://static.zara.net/assets/public/c597/24d7/6e6a4ddfa80b/6952ee328d8f/01300474400-a1/01300474400-a1.jpg?ts=1785331793699&w=1920",
+        "https://static.zara.net/assets/public/7d6f/40af/54204e978857/d597dacf85fc/01300474400-a2/01300474400-a2.jpg?ts=1785331793211&w=1920",
+        "https://static.zara.net/assets/public/ac43/71c9/c4c643d4b43f/8eafc5735aa2/01300474400-a3/01300474400-a3.jpg?ts=1785331794006&w=1920",
+        "https://static.zara.net/assets/public/73fa/95e7/28a04b4e9045/a160e7cf91aa/01300474400-a4/01300474400-a4.jpg?ts=1785331793608&w=1920",
+        "https://static.zara.net/assets/public/585a/a8e0/899c4786a56f/a143409f0521/01300474400-a5/01300474400-a5.jpg?ts=1785331793900&w=1920",
+        "https://static.zara.net/assets/public/89c9/adb4/d5f4478b8072/1ef05640a968/01300474400-a6/01300474400-a6.jpg?ts=1785331795258&w=1920",
+        "https://static.zara.net/assets/public/7aa7/a92a/31614aa4bc9e/719612696168/01300474400-e1/01300474400-e1.jpg?ts=1783958583618&w=1920",
+        "https://static.zara.net/assets/public/a98e/87dc/b16a4a6fae61/fd259099dc6c/01300474400-e2/01300474400-e2.jpg?ts=1783958584353&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "119.00",
+  "rendered_description": "Description\nCropped fit jacket made of cotton denim. Lapel collar and long sleeves with button cuffs. Flap pockets on the chest and side pockets at the hip. Distressed wash throughout the garment. Adjustable waist with a tab on the back. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "119.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "119.00",
+    "dom_price": "119.00",
+    "normalized_price": "119.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c76f3a394c512c018232718f95ab29682c3034a717e3e71a92bfec573000acf7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

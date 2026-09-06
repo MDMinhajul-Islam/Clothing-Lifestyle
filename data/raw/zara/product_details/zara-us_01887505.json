@@ -1,0 +1,486 @@
+{
+  "product_id": "zara-us:01887505",
+  "source_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html",
+  "final_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html",
+  "canonical_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SOLID PIQUÉ POLO",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SOLID PIQUÉ POLO",
+      "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html",
+      "productGroupID": "01887505",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Solid polo shirt with polo collar and short sleeves. Button closure at yoke.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920",
+        "https://static.zara.net/assets/public/9201/ca8e/d5a2438196a5/691205d26a8c/01887505250-e2/01887505250-e2.jpg?ts=1771510701455&w=1920",
+        "https://static.zara.net/assets/public/c329/b98b/c51a4b328457/eef48f1e01b1/01887505250-e3/01887505250-e3.jpg?ts=1771510701750&w=1920",
+        "https://static.zara.net/assets/public/f951/4a86/46d6409b928f/92263c9afafc/01887505250-e4/01887505250-e4.jpg?ts=1771510701849&w=1920",
+        "https://static.zara.net/assets/public/8114/0f25/654a41ffbfa4/ce874c28698e/01887505250401-p/01887505250401-p.jpg?ts=1774859357898&w=1920",
+        "https://static.zara.net/assets/public/fdec/4757/ddd54d1488fe/0604077e2c0d/01887505250400-a1/01887505250400-a1.jpg?ts=1774886598315&w=1920",
+        "https://static.zara.net/assets/public/dd36/d998/eab64986a383/6bfb0fbc3202/01887505250400-a2/01887505250400-a2.jpg?ts=1774886560633&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - White - 1½ years (33,9 INCHES)",
+          "sku": "545426050-250-18",
+          "mpn": "545426050-250-18",
+          "color": "White",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - White - 2 years (36,2 INCHES)",
+          "sku": "545426050-250-24",
+          "mpn": "545426050-250-24",
+          "color": "White",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - White - 3 years (38,6 INCHES)",
+          "sku": "545426050-250-36",
+          "mpn": "545426050-250-36",
+          "color": "White",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - White - 4 years (40,9 INCHES)",
+          "sku": "545426050-250-48",
+          "mpn": "545426050-250-48",
+          "color": "White",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - White - 5 years (43,3 INCHES)",
+          "sku": "545426050-250-60",
+          "mpn": "545426050-250-60",
+          "color": "White",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - White - 6 years (45,2 INCHES)",
+          "sku": "545426050-250-72",
+          "mpn": "545426050-250-72",
+          "color": "White",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - Light blue - 1½ years (33,9 INCHES)",
+          "sku": "545426050-406-18",
+          "mpn": "545426050-406-18",
+          "color": "Light blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - Light blue - 2 years (36,2 INCHES)",
+          "sku": "545426050-406-24",
+          "mpn": "545426050-406-24",
+          "color": "Light blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - Light blue - 3 years (38,6 INCHES)",
+          "sku": "545426050-406-36",
+          "mpn": "545426050-406-36",
+          "color": "Light blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - Light blue - 4 years (40,9 INCHES)",
+          "sku": "545426050-406-48",
+          "mpn": "545426050-406-48",
+          "color": "Light blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - Light blue - 5 years (43,3 INCHES)",
+          "sku": "545426050-406-60",
+          "mpn": "545426050-406-60",
+          "color": "Light blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID PIQUÉ POLO - Light blue - 6 years (45,2 INCHES)",
+          "sku": "545426050-406-72",
+          "mpn": "545426050-406-72",
+          "color": "Light blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "8.9",
+            "url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SOLID PIQUÉ POLO",
+      "product_group_id": "01887505",
+      "brand": "ZARA",
+      "description": "Solid polo shirt with polo collar and short sleeves. Button closure at yoke.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SOLID PIQUÉ POLO - White - 1½ years (33,9 INCHES)",
+          "sku": "545426050-250-18",
+          "mpn": "545426050-250-18",
+          "color_name": "White",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+          "images": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - White - 2 years (36,2 INCHES)",
+          "sku": "545426050-250-24",
+          "mpn": "545426050-250-24",
+          "color_name": "White",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+          "images": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - White - 3 years (38,6 INCHES)",
+          "sku": "545426050-250-36",
+          "mpn": "545426050-250-36",
+          "color_name": "White",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+          "images": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - White - 4 years (40,9 INCHES)",
+          "sku": "545426050-250-48",
+          "mpn": "545426050-250-48",
+          "color_name": "White",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+          "images": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - White - 5 years (43,3 INCHES)",
+          "sku": "545426050-250-60",
+          "mpn": "545426050-250-60",
+          "color_name": "White",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+          "images": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - White - 6 years (45,2 INCHES)",
+          "sku": "545426050-250-72",
+          "mpn": "545426050-250-72",
+          "color_name": "White",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426050",
+          "images": [
+            "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - Light blue - 1½ years (33,9 INCHES)",
+          "sku": "545426050-406-18",
+          "mpn": "545426050-406-18",
+          "color_name": "Light blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+          "images": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - Light blue - 2 years (36,2 INCHES)",
+          "sku": "545426050-406-24",
+          "mpn": "545426050-406-24",
+          "color_name": "Light blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+          "images": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - Light blue - 3 years (38,6 INCHES)",
+          "sku": "545426050-406-36",
+          "mpn": "545426050-406-36",
+          "color_name": "Light blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+          "images": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - Light blue - 4 years (40,9 INCHES)",
+          "sku": "545426050-406-48",
+          "mpn": "545426050-406-48",
+          "color_name": "Light blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+          "images": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - Light blue - 5 years (43,3 INCHES)",
+          "sku": "545426050-406-60",
+          "mpn": "545426050-406-60",
+          "color_name": "Light blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+          "images": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID PIQUÉ POLO - Light blue - 6 years (45,2 INCHES)",
+          "sku": "545426050-406-72",
+          "mpn": "545426050-406-72",
+          "color_name": "Light blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "8.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-pique-polo-p01887505.html?v1=545426048",
+          "images": [
+            "https://static.zara.net/assets/public/b36e/f62b/024e40168d42/7a3f99cd533d/01887505406-e1/01887505406-e1.jpg?ts=1771517464402&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f261/f67c/53c347eabebd/3ae1a68b85e8/01887505250-e1/01887505250-e1.jpg?ts=1771510701118&w=1920",
+        "https://static.zara.net/assets/public/9201/ca8e/d5a2438196a5/691205d26a8c/01887505250-e2/01887505250-e2.jpg?ts=1771510701455&w=1920",
+        "https://static.zara.net/assets/public/c329/b98b/c51a4b328457/eef48f1e01b1/01887505250-e3/01887505250-e3.jpg?ts=1771510701750&w=1920",
+        "https://static.zara.net/assets/public/f951/4a86/46d6409b928f/92263c9afafc/01887505250-e4/01887505250-e4.jpg?ts=1771510701849&w=1920",
+        "https://static.zara.net/assets/public/8114/0f25/654a41ffbfa4/ce874c28698e/01887505250401-p/01887505250401-p.jpg?ts=1774859357898&w=1920",
+        "https://static.zara.net/assets/public/fdec/4757/ddd54d1488fe/0604077e2c0d/01887505250400-a1/01887505250400-a1.jpg?ts=1774886598315&w=1920",
+        "https://static.zara.net/assets/public/dd36/d998/eab64986a383/6bfb0fbc3202/01887505250400-a2/01887505250400-a2.jpg?ts=1774886560633&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Light blue"
+  ],
+  "rendered_price": "8.90",
+  "rendered_description": "Description\nSolid polo shirt with polo collar and short sleeves. Button closure at yoke.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "8.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "8.90",
+    "dom_price": "8.90",
+    "normalized_price": "8.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ffa371960d1ac457a281233262b59f293b0de6e7944addde714694a7bc960ff2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

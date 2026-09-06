@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:05919704",
+  "source_url": "https://www.zara.com/us/en/seamless-midi-dress-p05919704.html",
+  "final_url": "https://www.zara.com/us/en/seamless-midi-dress-p05919704.html",
+  "canonical_url": "https://www.zara.com/us/en/seamless-midi-dress-p05919704.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SEAMLESS MIDI DRESS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SEAMLESS MIDI DRESS",
+      "url": "https://www.zara.com/us/en/seamless-midi-dress-p05919704.html",
+      "productGroupID": "05919704",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Midi-length seamless dress made of a polyamide blend. Features a high neck and sleeveless design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/87e7/4043/b7cb4add9e59/72ab72c7d700/05919704800-p/05919704800-p.jpg?ts=1787038632702&w=1920",
+        "https://static.zara.net/assets/public/5077/1072/8f8b46199425/cd11f7cb0cbb/05919704800-a1/05919704800-a1.jpg?ts=1787038632565&w=1920",
+        "https://static.zara.net/assets/public/69b3/2012/77fe4ac8b7c4/782a5616d5d3/05919704800-a2/05919704800-a2.jpg?ts=1787038632499&w=1920",
+        "https://static.zara.net/assets/public/ab36/92d1/496f470f9ddc/eb3024081b6a/05919704800-e1/05919704800-e1.jpg?ts=1787052325916&w=1920",
+        "https://static.zara.net/assets/public/55b8/3fd9/72a84d09829c/4d6d63fbc442/05919704800-e2/05919704800-e2.jpg?ts=1787052323792&w=1920",
+        "https://static.zara.net/assets/public/f8d5/f84e/69114467afc2/6f988f38c664/05919704800-e3/05919704800-e3.jpg?ts=1787052322561&w=1920"
+      ],
+      "material": "polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "76% polyamide, 24% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SEAMLESS MIDI DRESS - Black - XS-S",
+          "sku": "545494559-800-10",
+          "mpn": "545494559-800-10",
+          "color": "Black",
+          "size": "XS-S",
+          "image": [
+            "https://static.zara.net/assets/public/87e7/4043/b7cb4add9e59/72ab72c7d700/05919704800-p/05919704800-p.jpg?ts=1787038632702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/seamless-midi-dress-p05919704.html?v1=545494559",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SEAMLESS MIDI DRESS - Black - M-L",
+          "sku": "545494559-800-98",
+          "mpn": "545494559-800-98",
+          "color": "Black",
+          "size": "M-L",
+          "image": [
+            "https://static.zara.net/assets/public/87e7/4043/b7cb4add9e59/72ab72c7d700/05919704800-p/05919704800-p.jpg?ts=1787038632702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/seamless-midi-dress-p05919704.html?v1=545494559",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SEAMLESS MIDI DRESS",
+      "product_group_id": "05919704",
+      "brand": "ZARA",
+      "description": "Midi-length seamless dress made of a polyamide blend. Features a high neck and sleeveless design.",
+      "material": "polyamide/elastane",
+      "composition": "OUTER SHELL: 76% polyamide, 24% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SEAMLESS MIDI DRESS - Black - XS-S",
+          "sku": "545494559-800-10",
+          "mpn": "545494559-800-10",
+          "color_name": "Black",
+          "size_name": "XS-S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/seamless-midi-dress-p05919704.html?v1=545494559",
+          "images": [
+            "https://static.zara.net/assets/public/87e7/4043/b7cb4add9e59/72ab72c7d700/05919704800-p/05919704800-p.jpg?ts=1787038632702&w=1920"
+          ]
+        },
+        {
+          "name": "SEAMLESS MIDI DRESS - Black - M-L",
+          "sku": "545494559-800-98",
+          "mpn": "545494559-800-98",
+          "color_name": "Black",
+          "size_name": "M-L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/seamless-midi-dress-p05919704.html?v1=545494559",
+          "images": [
+            "https://static.zara.net/assets/public/87e7/4043/b7cb4add9e59/72ab72c7d700/05919704800-p/05919704800-p.jpg?ts=1787038632702&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/87e7/4043/b7cb4add9e59/72ab72c7d700/05919704800-p/05919704800-p.jpg?ts=1787038632702&w=1920",
+        "https://static.zara.net/assets/public/5077/1072/8f8b46199425/cd11f7cb0cbb/05919704800-a1/05919704800-a1.jpg?ts=1787038632565&w=1920",
+        "https://static.zara.net/assets/public/69b3/2012/77fe4ac8b7c4/782a5616d5d3/05919704800-a2/05919704800-a2.jpg?ts=1787038632499&w=1920",
+        "https://static.zara.net/assets/public/ab36/92d1/496f470f9ddc/eb3024081b6a/05919704800-e1/05919704800-e1.jpg?ts=1787052325916&w=1920",
+        "https://static.zara.net/assets/public/55b8/3fd9/72a84d09829c/4d6d63fbc442/05919704800-e2/05919704800-e2.jpg?ts=1787052323792&w=1920",
+        "https://static.zara.net/assets/public/f8d5/f84e/69114467afc2/6f988f38c664/05919704800-e3/05919704800-e3.jpg?ts=1787052322561&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nMidi-length seamless dress made of a polyamide blend. Features a high neck and sleeveless design.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4750b84e6a89da6c571421f51c5c5a4765b58eed87353d80399abfe1619dac0a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

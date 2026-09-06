@@ -1,0 +1,868 @@
+{
+  "product_id": "zara-us:01887501",
+  "source_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html",
+  "final_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html",
+  "canonical_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SOLID CREW NECK T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SOLID CREW NECK T-SHIRT",
+      "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html",
+      "productGroupID": "01887501",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Solid-colored T-shirt featuring a crew neck and short sleeves.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920",
+        "https://static.zara.net/assets/public/29a2/e542/5ae247f38400/2ebedce68146/01887501250-e2/01887501250-e2.jpg?ts=1769100275370&w=1920",
+        "https://static.zara.net/assets/public/b7b0/7cca/9f0045bf9fc6/a58901c6202e/01887501250-e3/01887501250-e3.jpg?ts=1769100273562&w=1920",
+        "https://static.zara.net/assets/public/adf1/9b45/b8134a71becc/41e903c24f86/01887501250-e4/01887501250-e4.jpg?ts=1769100273382&w=1920",
+        "https://static.zara.net/assets/public/2b1c/259e/b41644dfa451/19238eaa3d31/01887501250402-p/01887501250402-p.jpg?ts=1776413305219&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - White - 1½ years (33,9 INCHES)",
+          "sku": "545413174-250-18",
+          "mpn": "545413174-250-18",
+          "color": "White",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - White - 2 years (36,2 INCHES)",
+          "sku": "545413174-250-24",
+          "mpn": "545413174-250-24",
+          "color": "White",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - White - 3 years (38,6 INCHES)",
+          "sku": "545413174-250-36",
+          "mpn": "545413174-250-36",
+          "color": "White",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - White - 4 years (40,9 INCHES)",
+          "sku": "545413174-250-48",
+          "mpn": "545413174-250-48",
+          "color": "White",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - White - 5 years (43,3 INCHES)",
+          "sku": "545413174-250-60",
+          "mpn": "545413174-250-60",
+          "color": "White",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - White - 6 years (45,2 INCHES)",
+          "sku": "545413174-250-72",
+          "mpn": "545413174-250-72",
+          "color": "White",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Black - 1½ years (33,9 INCHES)",
+          "sku": "545413174-800-18",
+          "mpn": "545413174-800-18",
+          "color": "Black",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Black - 2 years (36,2 INCHES)",
+          "sku": "545413174-800-24",
+          "mpn": "545413174-800-24",
+          "color": "Black",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Black - 3 years (38,6 INCHES)",
+          "sku": "545413174-800-36",
+          "mpn": "545413174-800-36",
+          "color": "Black",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Black - 4 years (40,9 INCHES)",
+          "sku": "545413174-800-48",
+          "mpn": "545413174-800-48",
+          "color": "Black",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Black - 5 years (43,3 INCHES)",
+          "sku": "545413174-800-60",
+          "mpn": "545413174-800-60",
+          "color": "Black",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Black - 6 years (45,2 INCHES)",
+          "sku": "545413174-800-72",
+          "mpn": "545413174-800-72",
+          "color": "Black",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Red - 1½ years (33,9 INCHES)",
+          "sku": "545413174-600-18",
+          "mpn": "545413174-600-18",
+          "color": "Red",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Red - 2 years (36,2 INCHES)",
+          "sku": "545413174-600-24",
+          "mpn": "545413174-600-24",
+          "color": "Red",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Red - 3 years (38,6 INCHES)",
+          "sku": "545413174-600-36",
+          "mpn": "545413174-600-36",
+          "color": "Red",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Red - 4 years (40,9 INCHES)",
+          "sku": "545413174-600-48",
+          "mpn": "545413174-600-48",
+          "color": "Red",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Red - 5 years (43,3 INCHES)",
+          "sku": "545413174-600-60",
+          "mpn": "545413174-600-60",
+          "color": "Red",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Red - 6 years (45,2 INCHES)",
+          "sku": "545413174-600-72",
+          "mpn": "545413174-600-72",
+          "color": "Red",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 1½ years (33,9 INCHES)",
+          "sku": "545413174-406-18",
+          "mpn": "545413174-406-18",
+          "color": "Light blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 2 years (36,2 INCHES)",
+          "sku": "545413174-406-24",
+          "mpn": "545413174-406-24",
+          "color": "Light blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 3 years (38,6 INCHES)",
+          "sku": "545413174-406-36",
+          "mpn": "545413174-406-36",
+          "color": "Light blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 4 years (40,9 INCHES)",
+          "sku": "545413174-406-48",
+          "mpn": "545413174-406-48",
+          "color": "Light blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 5 years (43,3 INCHES)",
+          "sku": "545413174-406-60",
+          "mpn": "545413174-406-60",
+          "color": "Light blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 6 years (45,2 INCHES)",
+          "sku": "545413174-406-72",
+          "mpn": "545413174-406-72",
+          "color": "Light blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SOLID CREW NECK T-SHIRT",
+      "product_group_id": "01887501",
+      "brand": "ZARA",
+      "description": "Solid-colored T-shirt featuring a crew neck and short sleeves.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SOLID CREW NECK T-SHIRT - White - 1½ years (33,9 INCHES)",
+          "sku": "545413174-250-18",
+          "mpn": "545413174-250-18",
+          "color_name": "White",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+          "images": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - White - 2 years (36,2 INCHES)",
+          "sku": "545413174-250-24",
+          "mpn": "545413174-250-24",
+          "color_name": "White",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+          "images": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - White - 3 years (38,6 INCHES)",
+          "sku": "545413174-250-36",
+          "mpn": "545413174-250-36",
+          "color_name": "White",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+          "images": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - White - 4 years (40,9 INCHES)",
+          "sku": "545413174-250-48",
+          "mpn": "545413174-250-48",
+          "color_name": "White",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+          "images": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - White - 5 years (43,3 INCHES)",
+          "sku": "545413174-250-60",
+          "mpn": "545413174-250-60",
+          "color_name": "White",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+          "images": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - White - 6 years (45,2 INCHES)",
+          "sku": "545413174-250-72",
+          "mpn": "545413174-250-72",
+          "color_name": "White",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413174",
+          "images": [
+            "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Black - 1½ years (33,9 INCHES)",
+          "sku": "545413174-800-18",
+          "mpn": "545413174-800-18",
+          "color_name": "Black",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+          "images": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Black - 2 years (36,2 INCHES)",
+          "sku": "545413174-800-24",
+          "mpn": "545413174-800-24",
+          "color_name": "Black",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+          "images": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Black - 3 years (38,6 INCHES)",
+          "sku": "545413174-800-36",
+          "mpn": "545413174-800-36",
+          "color_name": "Black",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+          "images": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Black - 4 years (40,9 INCHES)",
+          "sku": "545413174-800-48",
+          "mpn": "545413174-800-48",
+          "color_name": "Black",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+          "images": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Black - 5 years (43,3 INCHES)",
+          "sku": "545413174-800-60",
+          "mpn": "545413174-800-60",
+          "color_name": "Black",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+          "images": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Black - 6 years (45,2 INCHES)",
+          "sku": "545413174-800-72",
+          "mpn": "545413174-800-72",
+          "color_name": "Black",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413171",
+          "images": [
+            "https://static.zara.net/assets/public/b0aa/4493/36c74f19ab95/6df382d6212c/01887501800-e1/01887501800-e1.jpg?ts=1768986637757&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Red - 1½ years (33,9 INCHES)",
+          "sku": "545413174-600-18",
+          "mpn": "545413174-600-18",
+          "color_name": "Red",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+          "images": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Red - 2 years (36,2 INCHES)",
+          "sku": "545413174-600-24",
+          "mpn": "545413174-600-24",
+          "color_name": "Red",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+          "images": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Red - 3 years (38,6 INCHES)",
+          "sku": "545413174-600-36",
+          "mpn": "545413174-600-36",
+          "color_name": "Red",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+          "images": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Red - 4 years (40,9 INCHES)",
+          "sku": "545413174-600-48",
+          "mpn": "545413174-600-48",
+          "color_name": "Red",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+          "images": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Red - 5 years (43,3 INCHES)",
+          "sku": "545413174-600-60",
+          "mpn": "545413174-600-60",
+          "color_name": "Red",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+          "images": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Red - 6 years (45,2 INCHES)",
+          "sku": "545413174-600-72",
+          "mpn": "545413174-600-72",
+          "color_name": "Red",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413169",
+          "images": [
+            "https://static.zara.net/assets/public/4788/2f93/29db47f58f93/62b19f45d7e5/01887501600-e1/01887501600-e1.jpg?ts=1774338432557&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 1½ years (33,9 INCHES)",
+          "sku": "545413174-406-18",
+          "mpn": "545413174-406-18",
+          "color_name": "Light blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+          "images": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 2 years (36,2 INCHES)",
+          "sku": "545413174-406-24",
+          "mpn": "545413174-406-24",
+          "color_name": "Light blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+          "images": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 3 years (38,6 INCHES)",
+          "sku": "545413174-406-36",
+          "mpn": "545413174-406-36",
+          "color_name": "Light blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+          "images": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 4 years (40,9 INCHES)",
+          "sku": "545413174-406-48",
+          "mpn": "545413174-406-48",
+          "color_name": "Light blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+          "images": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 5 years (43,3 INCHES)",
+          "sku": "545413174-406-60",
+          "mpn": "545413174-406-60",
+          "color_name": "Light blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+          "images": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID CREW NECK T-SHIRT - Light blue - 6 years (45,2 INCHES)",
+          "sku": "545413174-406-72",
+          "mpn": "545413174-406-72",
+          "color_name": "Light blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p01887501.html?v1=545413172",
+          "images": [
+            "https://static.zara.net/assets/public/57e0/fc4d/911e4e3aa29a/98ca6ddedf98/01887501406-e1/01887501406-e1.jpg?ts=1774369681026&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ff3c/a111/a5b146089417/300afaf1681e/01887501250-e1/01887501250-e1.jpg?ts=1769100270521&w=1920",
+        "https://static.zara.net/assets/public/29a2/e542/5ae247f38400/2ebedce68146/01887501250-e2/01887501250-e2.jpg?ts=1769100275370&w=1920",
+        "https://static.zara.net/assets/public/b7b0/7cca/9f0045bf9fc6/a58901c6202e/01887501250-e3/01887501250-e3.jpg?ts=1769100273562&w=1920",
+        "https://static.zara.net/assets/public/adf1/9b45/b8134a71becc/41e903c24f86/01887501250-e4/01887501250-e4.jpg?ts=1769100273382&w=1920",
+        "https://static.zara.net/assets/public/2b1c/259e/b41644dfa451/19238eaa3d31/01887501250402-p/01887501250402-p.jpg?ts=1776413305219&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Black",
+    "Red",
+    "Light blue"
+  ],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nSolid-colored T-shirt featuring a crew neck and short sleeves.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 8,
+  "variants_count": 24,
+  "colors_count": 4,
+  "pricing_stats": {
+    "current_price": "9.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "9.90",
+    "dom_price": "9.90",
+    "normalized_price": "9.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "297ccb3855c4b37fbbe67a0daddbd26e430ee290b2cdac273148a8568ed7398c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

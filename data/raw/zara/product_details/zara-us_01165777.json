@@ -1,0 +1,198 @@
+{
+  "product_id": "zara-us:01165777",
+  "source_url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html",
+  "final_url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html",
+  "canonical_url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SASH DETAIL SLEEVELESS DRESS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SASH DETAIL SLEEVELESS DRESS",
+      "url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html",
+      "productGroupID": "01165777",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Dress made from viscose blend yarn. Round neckline and sleeveless design. Features a matching sash in the same fabric. A-line hem. Side tie closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/db63/aa08/427545b5bf08/9390d6620cdb/01165777800-p/01165777800-p.jpg?ts=1788360752470&w=1920",
+        "https://static.zara.net/assets/public/f6fa/904e/ccbc43cfb964/3ed18270b1b0/01165777800-a1/01165777800-a1.jpg?ts=1788360752262&w=1920",
+        "https://static.zara.net/assets/public/8d8b/017c/b3ef49f8b3ae/18521c7cb154/01165777800-a2/01165777800-a2.jpg?ts=1788360752398&w=1920",
+        "https://static.zara.net/assets/public/7006/1a76/7b2543488d3d/bc1a59dcb425/01165777800-a3/01165777800-a3.jpg?ts=1788360751894&w=1920",
+        "https://static.zara.net/assets/public/0125/1124/1bb640df9cd7/17dc29d02a5a/01165777800-a4/01165777800-a4.jpg?ts=1788360751628&w=1920",
+        "https://static.zara.net/assets/public/3ce8/a44b/299944cb86da/a4dcf25d7fa1/01165777800-e1/01165777800-e1.jpg?ts=1787044009534&w=1920",
+        "https://static.zara.net/assets/public/aa66/dda5/95b54b69aadd/fa0d8d35cd7b/01165777800-e2/01165777800-e2.jpg?ts=1787044009513&w=1920",
+        "https://static.zara.net/assets/public/e066/b41d/f37e4cfca54e/8ceb450c88a1/01165777800-e3/01165777800-e3.jpg?ts=1787044012880&w=1920"
+      ],
+      "material": "viscose/polyester/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "55% viscose, 44% polyester, 1% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SASH DETAIL SLEEVELESS DRESS - Black - S",
+          "sku": "571822428-800-2",
+          "mpn": "571822428-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/db63/aa08/427545b5bf08/9390d6620cdb/01165777800-p/01165777800-p.jpg?ts=1788360752470&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html?v1=571822428",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SASH DETAIL SLEEVELESS DRESS - Black - M",
+          "sku": "571822428-800-3",
+          "mpn": "571822428-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/db63/aa08/427545b5bf08/9390d6620cdb/01165777800-p/01165777800-p.jpg?ts=1788360752470&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html?v1=571822428",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SASH DETAIL SLEEVELESS DRESS - Black - L",
+          "sku": "571822428-800-4",
+          "mpn": "571822428-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/db63/aa08/427545b5bf08/9390d6620cdb/01165777800-p/01165777800-p.jpg?ts=1788360752470&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html?v1=571822428",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SASH DETAIL SLEEVELESS DRESS",
+      "product_group_id": "01165777",
+      "brand": "ZARA",
+      "description": "Dress made from viscose blend yarn. Round neckline and sleeveless design. Features a matching sash in the same fabric. A-line hem. Side tie closure.",
+      "material": "viscose/polyester/elastane",
+      "composition": "OUTER SHELL: 55% viscose, 44% polyester, 1% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SASH DETAIL SLEEVELESS DRESS - Black - S",
+          "sku": "571822428-800-2",
+          "mpn": "571822428-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html?v1=571822428",
+          "images": [
+            "https://static.zara.net/assets/public/db63/aa08/427545b5bf08/9390d6620cdb/01165777800-p/01165777800-p.jpg?ts=1788360752470&w=1920"
+          ]
+        },
+        {
+          "name": "SASH DETAIL SLEEVELESS DRESS - Black - M",
+          "sku": "571822428-800-3",
+          "mpn": "571822428-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html?v1=571822428",
+          "images": [
+            "https://static.zara.net/assets/public/db63/aa08/427545b5bf08/9390d6620cdb/01165777800-p/01165777800-p.jpg?ts=1788360752470&w=1920"
+          ]
+        },
+        {
+          "name": "SASH DETAIL SLEEVELESS DRESS - Black - L",
+          "sku": "571822428-800-4",
+          "mpn": "571822428-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sash-detail-sleeveless-dress-p01165777.html?v1=571822428",
+          "images": [
+            "https://static.zara.net/assets/public/db63/aa08/427545b5bf08/9390d6620cdb/01165777800-p/01165777800-p.jpg?ts=1788360752470&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/db63/aa08/427545b5bf08/9390d6620cdb/01165777800-p/01165777800-p.jpg?ts=1788360752470&w=1920",
+        "https://static.zara.net/assets/public/f6fa/904e/ccbc43cfb964/3ed18270b1b0/01165777800-a1/01165777800-a1.jpg?ts=1788360752262&w=1920",
+        "https://static.zara.net/assets/public/8d8b/017c/b3ef49f8b3ae/18521c7cb154/01165777800-a2/01165777800-a2.jpg?ts=1788360752398&w=1920",
+        "https://static.zara.net/assets/public/7006/1a76/7b2543488d3d/bc1a59dcb425/01165777800-a3/01165777800-a3.jpg?ts=1788360751894&w=1920",
+        "https://static.zara.net/assets/public/0125/1124/1bb640df9cd7/17dc29d02a5a/01165777800-a4/01165777800-a4.jpg?ts=1788360751628&w=1920",
+        "https://static.zara.net/assets/public/3ce8/a44b/299944cb86da/a4dcf25d7fa1/01165777800-e1/01165777800-e1.jpg?ts=1787044009534&w=1920",
+        "https://static.zara.net/assets/public/aa66/dda5/95b54b69aadd/fa0d8d35cd7b/01165777800-e2/01165777800-e2.jpg?ts=1787044009513&w=1920",
+        "https://static.zara.net/assets/public/e066/b41d/f37e4cfca54e/8ceb450c88a1/01165777800-e3/01165777800-e3.jpg?ts=1787044012880&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nDress made from viscose blend yarn. Round neckline and sleeveless design. Features a matching sash in the same fabric. A-line hem. Side tie closure.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 8,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d40c57ac38ca469b1dd096cb03949a2c4ab11b55a6e7d1bf4452297b5e83d1e7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,194 @@
+{
+  "product_id": "zara-us:05216248",
+  "source_url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html",
+  "final_url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html",
+  "canonical_url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ZW COLLECTION DENIM DRESS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ZW COLLECTION DENIM DRESS",
+      "url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html",
+      "productGroupID": "05216248",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "ZARA WOMAN COLLECTION\n\nDress made of a cotton blend fabric. Square neckline and wide straps. Front patch pockets. Hem finished in an A-line silhouette. Side zip closure hidden in the seam.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fd9f/f56f/3b3f4722875a/25760b72c623/05216248407-p/05216248407-p.jpg?ts=1784720611812&w=1920",
+        "https://static.zara.net/assets/public/dd75/fc63/45f042f4ba0e/17a866ad25de/05216248407-a1/05216248407-a1.jpg?ts=1784640252995&w=1920",
+        "https://static.zara.net/assets/public/6f7a/e405/8b194438a0b5/80926fa700a7/05216248407-a2/05216248407-a2.jpg?ts=1784640252894&w=1920",
+        "https://static.zara.net/assets/public/da4f/6d0b/e6064ab09ee5/437dd1297ac8/05216248407-e1/05216248407-e1.jpg?ts=1784552975845&w=1920",
+        "https://static.zara.net/assets/public/50a3/a784/f1db4841af8c/481e04e222fe/05216248407-e2/05216248407-e2.jpg?ts=1784552975654&w=1920",
+        "https://static.zara.net/assets/public/7cb5/64a0/2f3944ad967d/d9dc3025b9d7/05216248407-e3/05216248407-e3.jpg?ts=1784552977319&w=1920"
+      ],
+      "material": "cotton/viscose/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "66% cotton, 22% viscose, 12% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION DENIM DRESS - Blue - S",
+          "sku": "548237523-407-2",
+          "mpn": "548237523-407-2",
+          "color": "Blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/fd9f/f56f/3b3f4722875a/25760b72c623/05216248407-p/05216248407-p.jpg?ts=1784720611812&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html?v1=548237523",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION DENIM DRESS - Blue - M",
+          "sku": "548237523-407-3",
+          "mpn": "548237523-407-3",
+          "color": "Blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/fd9f/f56f/3b3f4722875a/25760b72c623/05216248407-p/05216248407-p.jpg?ts=1784720611812&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html?v1=548237523",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION DENIM DRESS - Blue - L",
+          "sku": "548237523-407-4",
+          "mpn": "548237523-407-4",
+          "color": "Blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/fd9f/f56f/3b3f4722875a/25760b72c623/05216248407-p/05216248407-p.jpg?ts=1784720611812&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "119",
+            "url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html?v1=548237523",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ZW COLLECTION DENIM DRESS",
+      "product_group_id": "05216248",
+      "brand": "ZARA",
+      "description": "ZARA WOMAN COLLECTION\n\nDress made of a cotton blend fabric. Square neckline and wide straps. Front patch pockets. Hem finished in an A-line silhouette. Side zip closure hidden in the seam.",
+      "material": "cotton/viscose/polyester",
+      "composition": "OUTER SHELL: 66% cotton, 22% viscose, 12% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ZW COLLECTION DENIM DRESS - Blue - S",
+          "sku": "548237523-407-2",
+          "mpn": "548237523-407-2",
+          "color_name": "Blue",
+          "size_name": "S",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html?v1=548237523",
+          "images": [
+            "https://static.zara.net/assets/public/fd9f/f56f/3b3f4722875a/25760b72c623/05216248407-p/05216248407-p.jpg?ts=1784720611812&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION DENIM DRESS - Blue - M",
+          "sku": "548237523-407-3",
+          "mpn": "548237523-407-3",
+          "color_name": "Blue",
+          "size_name": "M",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html?v1=548237523",
+          "images": [
+            "https://static.zara.net/assets/public/fd9f/f56f/3b3f4722875a/25760b72c623/05216248407-p/05216248407-p.jpg?ts=1784720611812&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION DENIM DRESS - Blue - L",
+          "sku": "548237523-407-4",
+          "mpn": "548237523-407-4",
+          "color_name": "Blue",
+          "size_name": "L",
+          "price": "119.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/zw-collection-denim-dress-p05216248.html?v1=548237523",
+          "images": [
+            "https://static.zara.net/assets/public/fd9f/f56f/3b3f4722875a/25760b72c623/05216248407-p/05216248407-p.jpg?ts=1784720611812&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fd9f/f56f/3b3f4722875a/25760b72c623/05216248407-p/05216248407-p.jpg?ts=1784720611812&w=1920",
+        "https://static.zara.net/assets/public/dd75/fc63/45f042f4ba0e/17a866ad25de/05216248407-a1/05216248407-a1.jpg?ts=1784640252995&w=1920",
+        "https://static.zara.net/assets/public/6f7a/e405/8b194438a0b5/80926fa700a7/05216248407-a2/05216248407-a2.jpg?ts=1784640252894&w=1920",
+        "https://static.zara.net/assets/public/da4f/6d0b/e6064ab09ee5/437dd1297ac8/05216248407-e1/05216248407-e1.jpg?ts=1784552975845&w=1920",
+        "https://static.zara.net/assets/public/50a3/a784/f1db4841af8c/481e04e222fe/05216248407-e2/05216248407-e2.jpg?ts=1784552975654&w=1920",
+        "https://static.zara.net/assets/public/7cb5/64a0/2f3944ad967d/d9dc3025b9d7/05216248407-e3/05216248407-e3.jpg?ts=1784552977319&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "119.00",
+  "rendered_description": "Description\nZARA WOMAN COLLECTION\nDress made of a cotton blend fabric. Square neckline and wide straps. Front patch pockets. Hem finished in an A-line silhouette. Side zip closure hidden in the seam.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 6,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "119.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "119.00",
+    "dom_price": "119.00",
+    "normalized_price": "119.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bb1ca0056c22024d722cc9ec8bcf99f3f1495825c72424e691c8598825a70203",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

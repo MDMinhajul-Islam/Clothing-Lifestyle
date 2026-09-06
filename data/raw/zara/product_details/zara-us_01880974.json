@@ -1,0 +1,484 @@
+{
+  "product_id": "zara-us:01880974",
+  "source_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html",
+  "final_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SOLID SWEATSHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SOLID SWEATSHIRT",
+      "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html",
+      "productGroupID": "01880974",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Crewneck sweatshirt with long sleeves. Finished with ribbed trim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920",
+        "https://static.zara.net/assets/public/c703/5c57/5d0a4336b0c7/8f587a838ac3/01880974420-e2/01880974420-e2.jpg?ts=1787744379256&w=1920",
+        "https://static.zara.net/assets/public/388e/3b6a/14574cc18ba7/9cfdd903efa8/01880974420-e3/01880974420-e3.jpg?ts=1787744379922&w=1920",
+        "https://static.zara.net/assets/public/3d67/8542/5d3748ad9ded/c7c619427a04/01880974420-e4/01880974420-e4.jpg?ts=1787744379614&w=1920",
+        "https://static.zara.net/assets/public/6a1a/9897/f11d4b33a2e6/a0fe84fda427/01880974420400-p/01880974420400-p.jpg?ts=1788273526571&w=1920",
+        "https://static.zara.net/assets/public/97a3/5404/e0294d6dba5d/8bb7c09e7499/01880974420400-a1/01880974420400-a1.jpg?ts=1788273527343&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Bluish - 1½ years (33,9 INCHES)",
+          "sku": "553972435-420-18",
+          "mpn": "553972435-420-18",
+          "color": "Bluish",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Bluish - 2 years (36,2 INCHES)",
+          "sku": "553972435-420-24",
+          "mpn": "553972435-420-24",
+          "color": "Bluish",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Bluish - 3 years (38,6 INCHES)",
+          "sku": "553972435-420-36",
+          "mpn": "553972435-420-36",
+          "color": "Bluish",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Bluish - 4 years (40,9 INCHES)",
+          "sku": "553972435-420-48",
+          "mpn": "553972435-420-48",
+          "color": "Bluish",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Bluish - 5 years (43,3 INCHES)",
+          "sku": "553972435-420-60",
+          "mpn": "553972435-420-60",
+          "color": "Bluish",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Bluish - 6 years (45,2 INCHES)",
+          "sku": "553972435-420-72",
+          "mpn": "553972435-420-72",
+          "color": "Bluish",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Brown - 1½ years (33,9 INCHES)",
+          "sku": "553972435-700-18",
+          "mpn": "553972435-700-18",
+          "color": "Brown",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Brown - 2 years (36,2 INCHES)",
+          "sku": "553972435-700-24",
+          "mpn": "553972435-700-24",
+          "color": "Brown",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Brown - 3 years (38,6 INCHES)",
+          "sku": "553972435-700-36",
+          "mpn": "553972435-700-36",
+          "color": "Brown",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Brown - 4 years (40,9 INCHES)",
+          "sku": "553972435-700-48",
+          "mpn": "553972435-700-48",
+          "color": "Brown",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Brown - 5 years (43,3 INCHES)",
+          "sku": "553972435-700-60",
+          "mpn": "553972435-700-60",
+          "color": "Brown",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID SWEATSHIRT - Brown - 6 years (45,2 INCHES)",
+          "sku": "553972435-700-72",
+          "mpn": "553972435-700-72",
+          "color": "Brown",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SOLID SWEATSHIRT",
+      "product_group_id": "01880974",
+      "brand": "ZARA",
+      "description": "Crewneck sweatshirt with long sleeves. Finished with ribbed trim.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SOLID SWEATSHIRT - Bluish - 1½ years (33,9 INCHES)",
+          "sku": "553972435-420-18",
+          "mpn": "553972435-420-18",
+          "color_name": "Bluish",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+          "images": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Bluish - 2 years (36,2 INCHES)",
+          "sku": "553972435-420-24",
+          "mpn": "553972435-420-24",
+          "color_name": "Bluish",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+          "images": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Bluish - 3 years (38,6 INCHES)",
+          "sku": "553972435-420-36",
+          "mpn": "553972435-420-36",
+          "color_name": "Bluish",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+          "images": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Bluish - 4 years (40,9 INCHES)",
+          "sku": "553972435-420-48",
+          "mpn": "553972435-420-48",
+          "color_name": "Bluish",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+          "images": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Bluish - 5 years (43,3 INCHES)",
+          "sku": "553972435-420-60",
+          "mpn": "553972435-420-60",
+          "color_name": "Bluish",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+          "images": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Bluish - 6 years (45,2 INCHES)",
+          "sku": "553972435-420-72",
+          "mpn": "553972435-420-72",
+          "color_name": "Bluish",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972435",
+          "images": [
+            "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Brown - 1½ years (33,9 INCHES)",
+          "sku": "553972435-700-18",
+          "mpn": "553972435-700-18",
+          "color_name": "Brown",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+          "images": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Brown - 2 years (36,2 INCHES)",
+          "sku": "553972435-700-24",
+          "mpn": "553972435-700-24",
+          "color_name": "Brown",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+          "images": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Brown - 3 years (38,6 INCHES)",
+          "sku": "553972435-700-36",
+          "mpn": "553972435-700-36",
+          "color_name": "Brown",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+          "images": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Brown - 4 years (40,9 INCHES)",
+          "sku": "553972435-700-48",
+          "mpn": "553972435-700-48",
+          "color_name": "Brown",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+          "images": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Brown - 5 years (43,3 INCHES)",
+          "sku": "553972435-700-60",
+          "mpn": "553972435-700-60",
+          "color_name": "Brown",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+          "images": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID SWEATSHIRT - Brown - 6 years (45,2 INCHES)",
+          "sku": "553972435-700-72",
+          "mpn": "553972435-700-72",
+          "color_name": "Brown",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sweatshirt-p01880974.html?v1=553972436",
+          "images": [
+            "https://static.zara.net/assets/public/3890/3688/a8184184a204/9dfc7dee0d2d/01880974700-e1/01880974700-e1.jpg?ts=1787744383419&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2889/243d/de214299b956/4f82c67f4739/01880974420-e1/01880974420-e1.jpg?ts=1787744380035&w=1920",
+        "https://static.zara.net/assets/public/c703/5c57/5d0a4336b0c7/8f587a838ac3/01880974420-e2/01880974420-e2.jpg?ts=1787744379256&w=1920",
+        "https://static.zara.net/assets/public/388e/3b6a/14574cc18ba7/9cfdd903efa8/01880974420-e3/01880974420-e3.jpg?ts=1787744379922&w=1920",
+        "https://static.zara.net/assets/public/3d67/8542/5d3748ad9ded/c7c619427a04/01880974420-e4/01880974420-e4.jpg?ts=1787744379614&w=1920",
+        "https://static.zara.net/assets/public/6a1a/9897/f11d4b33a2e6/a0fe84fda427/01880974420400-p/01880974420400-p.jpg?ts=1788273526571&w=1920",
+        "https://static.zara.net/assets/public/97a3/5404/e0294d6dba5d/8bb7c09e7499/01880974420400-a1/01880974420400-a1.jpg?ts=1788273527343&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Bluish",
+    "Brown"
+  ],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nCrewneck sweatshirt with long sleeves. Finished with ribbed trim.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "831686c0f882c6eee287c581be9b0e21618e0b9f27e16ff860fe094238158091",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

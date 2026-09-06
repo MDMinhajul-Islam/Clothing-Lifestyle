@@ -1,0 +1,376 @@
+{
+  "product_id": "zara-us:17500830",
+  "source_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html",
+  "final_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER CLOGS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER CLOGS",
+      "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html",
+      "productGroupID": "17500830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "100% leather clogs with a split suede finish. Adjustable buckle at the instep and hook-and-loop strap at the back. Features a treaded rubber sole.\n\nLEATHER: This product is made from a unique material. Any potential markings or color variations are characteristics that confirm the authenticity of the leather.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920",
+        "https://static.zara.net/assets/public/00d4/b1d7/4e2d43988fd8/ec6ead6a5fe7/17500830183-e2/17500830183-e2.jpg?ts=1782228882220&w=1920",
+        "https://static.zara.net/assets/public/565c/4673/794a4933b9c1/f54ea4be6341/17500830183-e3/17500830183-e3.jpg?ts=1782228883070&w=1920",
+        "https://static.zara.net/assets/public/e8ea/465e/fd03412387a2/ff618ab01fe3/17500830183-e4/17500830183-e4.jpg?ts=1782228883767&w=1920",
+        "https://static.zara.net/assets/public/a5c0/743a/80be4bc2b47f/6ce2d8e6374a/17500830183-e5/17500830183-e5.jpg?ts=1782228883202&w=1920",
+        "https://static.zara.net/assets/public/092f/e9fb/2f6a4579b4e9/4d5b7876f590/17500830183-e6/17500830183-e6.jpg?ts=1782228883359&w=1920",
+        "https://static.zara.net/assets/public/9065/8b3b/b83d4d288d35/77defd2ecfd7/17500830183-e7/17500830183-e7.jpg?ts=1782228882909&w=1920",
+        "https://static.zara.net/assets/public/1092/ffde/9c6f4e64b741/487d4d3e2208/17500830183-e8/17500830183-e8.jpg?ts=1782228883273&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyamide"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Beige - 6½ (5.3 INCHES)",
+          "sku": "545426555-183-22",
+          "mpn": "545426555-183-22",
+          "color": "Beige",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Beige - 7 (5.6 INCHES)",
+          "sku": "545426555-183-23",
+          "mpn": "545426555-183-23",
+          "color": "Beige",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Beige - 8 (5.9 INCHES)",
+          "sku": "545426555-183-24",
+          "mpn": "545426555-183-24",
+          "color": "Beige",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Beige - 9 (6.1 INCHES)",
+          "sku": "545426555-183-25",
+          "mpn": "545426555-183-25",
+          "color": "Beige",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Beige - 9½ (6.4 INCHES)",
+          "sku": "545426555-183-26",
+          "mpn": "545426555-183-26",
+          "color": "Beige",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Beige - 10½ (6.6 INCHES)",
+          "sku": "545426555-183-27",
+          "mpn": "545426555-183-27",
+          "color": "Beige",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Beige - 11 (7.0 INCHES)",
+          "sku": "545426555-183-28",
+          "mpn": "545426555-183-28",
+          "color": "Beige",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER CLOGS - Beige - 12 (7.2 INCHES)",
+          "sku": "545426555-183-29",
+          "mpn": "545426555-183-29",
+          "color": "Beige",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER CLOGS",
+      "product_group_id": "17500830",
+      "brand": "ZARA",
+      "description": "100% leather clogs with a split suede finish. Adjustable buckle at the instep and hook-and-loop strap at the back. Features a treaded rubber sole.\n\nLEATHER: This product is made from a unique material. Any potential markings or color variations are characteristics that confirm the authenticity of the leather.",
+      "material": "100% cow leather",
+      "composition": "UPPER: 100% cow leather | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyamide",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER CLOGS - Beige - 6½ (5.3 INCHES)",
+          "sku": "545426555-183-22",
+          "mpn": "545426555-183-22",
+          "color_name": "Beige",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+          "images": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Beige - 7 (5.6 INCHES)",
+          "sku": "545426555-183-23",
+          "mpn": "545426555-183-23",
+          "color_name": "Beige",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+          "images": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Beige - 8 (5.9 INCHES)",
+          "sku": "545426555-183-24",
+          "mpn": "545426555-183-24",
+          "color_name": "Beige",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+          "images": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Beige - 9 (6.1 INCHES)",
+          "sku": "545426555-183-25",
+          "mpn": "545426555-183-25",
+          "color_name": "Beige",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+          "images": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Beige - 9½ (6.4 INCHES)",
+          "sku": "545426555-183-26",
+          "mpn": "545426555-183-26",
+          "color_name": "Beige",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+          "images": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Beige - 10½ (6.6 INCHES)",
+          "sku": "545426555-183-27",
+          "mpn": "545426555-183-27",
+          "color_name": "Beige",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+          "images": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Beige - 11 (7.0 INCHES)",
+          "sku": "545426555-183-28",
+          "mpn": "545426555-183-28",
+          "color_name": "Beige",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+          "images": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER CLOGS - Beige - 12 (7.2 INCHES)",
+          "sku": "545426555-183-29",
+          "mpn": "545426555-183-29",
+          "color_name": "Beige",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-clogs-p17500830.html?v1=545426555",
+          "images": [
+            "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1d30/eb1a/752d42269640/2b9a39b90c81/17500830183-e1/17500830183-e1.jpg?ts=1782228883340&w=1920",
+        "https://static.zara.net/assets/public/00d4/b1d7/4e2d43988fd8/ec6ead6a5fe7/17500830183-e2/17500830183-e2.jpg?ts=1782228882220&w=1920",
+        "https://static.zara.net/assets/public/565c/4673/794a4933b9c1/f54ea4be6341/17500830183-e3/17500830183-e3.jpg?ts=1782228883070&w=1920",
+        "https://static.zara.net/assets/public/e8ea/465e/fd03412387a2/ff618ab01fe3/17500830183-e4/17500830183-e4.jpg?ts=1782228883767&w=1920",
+        "https://static.zara.net/assets/public/a5c0/743a/80be4bc2b47f/6ce2d8e6374a/17500830183-e5/17500830183-e5.jpg?ts=1782228883202&w=1920",
+        "https://static.zara.net/assets/public/092f/e9fb/2f6a4579b4e9/4d5b7876f590/17500830183-e6/17500830183-e6.jpg?ts=1782228883359&w=1920",
+        "https://static.zara.net/assets/public/9065/8b3b/b83d4d288d35/77defd2ecfd7/17500830183-e7/17500830183-e7.jpg?ts=1782228882909&w=1920",
+        "https://static.zara.net/assets/public/1092/ffde/9c6f4e64b741/487d4d3e2208/17500830183-e8/17500830183-e8.jpg?ts=1782228883273&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\n100% leather clogs with a split suede finish. Adjustable buckle at the instep and hook-and-loop strap at the back. Features a treaded rubber sole.\nLEATHER: This product is made from a unique material. Any potential markings or color variations are characteristics that confirm the authenticity of the leather.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 13,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2437f8254125bba705e4c12fb103530f91dad024ef4418cf7138280a7f60693c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

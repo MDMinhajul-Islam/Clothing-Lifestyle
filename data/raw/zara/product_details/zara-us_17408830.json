@@ -1,0 +1,382 @@
+{
+  "product_id": "zara-us:17408830",
+  "source_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html",
+  "final_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html",
+  "canonical_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html",
+  "enriched_at": "2026-09-06T18:54:12.624691+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HOT WHEELS© SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HOT WHEELS© SNEAKERS",
+      "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html",
+      "productGroupID": "17408830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "HOT WHEELS© sneakers with contrasting graphic detail. Fastens with double hook-and-loop straps on the instep and features a voluminous rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920",
+        "https://static.zara.net/assets/public/20c4/3f7d/04874d1e9cb3/352cf1fad66d/17408830001-e2/17408830001-e2.jpg?ts=1779965429795&w=1920",
+        "https://static.zara.net/assets/public/0dbc/9d5f/eb9d4219b088/907b330a4e38/17408830001-e3/17408830001-e3.jpg?ts=1779965429394&w=1920",
+        "https://static.zara.net/assets/public/90ff/4e1a/129f47bb8d7c/3c2dc5da4376/17408830001-e4/17408830001-e4.jpg?ts=1779965429862&w=1920",
+        "https://static.zara.net/assets/public/ffa1/5e22/c2e44a9682a4/c5314796858e/17408830001-e5/17408830001-e5.jpg?ts=1779965429106&w=1920",
+        "https://static.zara.net/assets/public/f8bd/ae48/8bb2412289e3/5501fb059b4e/17408830001-e6/17408830001-e6.jpg?ts=1779965429952&w=1920",
+        "https://static.zara.net/assets/public/463e/95cd/21af4a6490ba/fcda9a6fc00d/17408830001-e7/17408830001-e7.jpg?ts=1779965429958&w=1920",
+        "https://static.zara.net/assets/public/d612/4a83/5e8040418364/d2c258d873f4/17408830001-e8/17408830001-e8.jpg?ts=1779965429328&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HOT WHEELS© SNEAKERS - White - 6½ (5.3 INCHES)",
+          "sku": "545490422-001-22",
+          "mpn": "545490422-001-22",
+          "color": "White",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOT WHEELS© SNEAKERS - White - 7 (5.6 INCHES)",
+          "sku": "545490422-001-23",
+          "mpn": "545490422-001-23",
+          "color": "White",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOT WHEELS© SNEAKERS - White - 8 (5.9 INCHES)",
+          "sku": "545490422-001-24",
+          "mpn": "545490422-001-24",
+          "color": "White",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOT WHEELS© SNEAKERS - White - 9 (6.1 INCHES)",
+          "sku": "545490422-001-25",
+          "mpn": "545490422-001-25",
+          "color": "White",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOT WHEELS© SNEAKERS - White - 9½ (6.4 INCHES)",
+          "sku": "545490422-001-26",
+          "mpn": "545490422-001-26",
+          "color": "White",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOT WHEELS© SNEAKERS - White - 10½ (6.6 INCHES)",
+          "sku": "545490422-001-27",
+          "mpn": "545490422-001-27",
+          "color": "White",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOT WHEELS© SNEAKERS - White - 11 (7.0 INCHES)",
+          "sku": "545490422-001-28",
+          "mpn": "545490422-001-28",
+          "color": "White",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HOT WHEELS© SNEAKERS - White - 12 (7.2 INCHES)",
+          "sku": "545490422-001-29",
+          "mpn": "545490422-001-29",
+          "color": "White",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HOT WHEELS© SNEAKERS",
+      "product_group_id": "17408830",
+      "brand": "ZARA",
+      "description": "HOT WHEELS© sneakers with contrasting graphic detail. Fastens with double hook-and-loop straps on the instep and features a voluminous rubber sole.",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HOT WHEELS© SNEAKERS - White - 6½ (5.3 INCHES)",
+          "sku": "545490422-001-22",
+          "mpn": "545490422-001-22",
+          "color_name": "White",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+          "images": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ]
+        },
+        {
+          "name": "HOT WHEELS© SNEAKERS - White - 7 (5.6 INCHES)",
+          "sku": "545490422-001-23",
+          "mpn": "545490422-001-23",
+          "color_name": "White",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+          "images": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ]
+        },
+        {
+          "name": "HOT WHEELS© SNEAKERS - White - 8 (5.9 INCHES)",
+          "sku": "545490422-001-24",
+          "mpn": "545490422-001-24",
+          "color_name": "White",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+          "images": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ]
+        },
+        {
+          "name": "HOT WHEELS© SNEAKERS - White - 9 (6.1 INCHES)",
+          "sku": "545490422-001-25",
+          "mpn": "545490422-001-25",
+          "color_name": "White",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+          "images": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ]
+        },
+        {
+          "name": "HOT WHEELS© SNEAKERS - White - 9½ (6.4 INCHES)",
+          "sku": "545490422-001-26",
+          "mpn": "545490422-001-26",
+          "color_name": "White",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+          "images": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ]
+        },
+        {
+          "name": "HOT WHEELS© SNEAKERS - White - 10½ (6.6 INCHES)",
+          "sku": "545490422-001-27",
+          "mpn": "545490422-001-27",
+          "color_name": "White",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+          "images": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ]
+        },
+        {
+          "name": "HOT WHEELS© SNEAKERS - White - 11 (7.0 INCHES)",
+          "sku": "545490422-001-28",
+          "mpn": "545490422-001-28",
+          "color_name": "White",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+          "images": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ]
+        },
+        {
+          "name": "HOT WHEELS© SNEAKERS - White - 12 (7.2 INCHES)",
+          "sku": "545490422-001-29",
+          "mpn": "545490422-001-29",
+          "color_name": "White",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hot-wheels--sneakers-p17408830.html?v1=545490422",
+          "images": [
+            "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6dc0/a110/a75743e3b167/4d7306e7656d/17408830001-e1/17408830001-e1.jpg?ts=1779965430063&w=1920",
+        "https://static.zara.net/assets/public/20c4/3f7d/04874d1e9cb3/352cf1fad66d/17408830001-e2/17408830001-e2.jpg?ts=1779965429795&w=1920",
+        "https://static.zara.net/assets/public/0dbc/9d5f/eb9d4219b088/907b330a4e38/17408830001-e3/17408830001-e3.jpg?ts=1779965429394&w=1920",
+        "https://static.zara.net/assets/public/90ff/4e1a/129f47bb8d7c/3c2dc5da4376/17408830001-e4/17408830001-e4.jpg?ts=1779965429862&w=1920",
+        "https://static.zara.net/assets/public/ffa1/5e22/c2e44a9682a4/c5314796858e/17408830001-e5/17408830001-e5.jpg?ts=1779965429106&w=1920",
+        "https://static.zara.net/assets/public/f8bd/ae48/8bb2412289e3/5501fb059b4e/17408830001-e6/17408830001-e6.jpg?ts=1779965429952&w=1920",
+        "https://static.zara.net/assets/public/463e/95cd/21af4a6490ba/fcda9a6fc00d/17408830001-e7/17408830001-e7.jpg?ts=1779965429958&w=1920",
+        "https://static.zara.net/assets/public/d612/4a83/5e8040418364/d2c258d873f4/17408830001-e8/17408830001-e8.jpg?ts=1779965429328&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nHOT WHEELS© sneakers with contrasting graphic detail. Fastens with double hook-and-loop straps on the instep and features a voluminous rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 13,
+  "valid_images_count": 8,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "53baa0cd9debdd73b556d936a024c9471a9903afde15294f30fb60cd0f33aba6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
