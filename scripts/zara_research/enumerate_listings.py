@@ -31,8 +31,6 @@ MAJOR_DEPTS = ['WOMAN', 'MAN', 'KIDS', 'ZARA HOME', 'BEAUTY']
 
 def extract_grid_state(page):
     """Extract product grid cards, data-productid values, product links and document metrics."""
-    cards = page.query_selector_all(".product-grid-product, li.product-grid-product, [data-productid]")
-    visible_cards = [c for c in cards if c.is_visible()]
     return page.evaluate(r"""() => {
         const cards = Array.from(document.querySelectorAll('.product-grid-product, li.product-grid-product, [data-productid]'));
         const visibleCards = cards.filter(c => {
@@ -40,36 +38,16 @@ def extract_grid_state(page):
         });
         const targetCards = visibleCards.length > 0 ? visibleCards : cards;
 
-    seen_products = {}  # data_productid -> dict
-    for c in (visible_cards if visible_cards else cards):
-        pid = c.get_attribute("data-productid")
-        if not pid:
-            continue
-        pid = pid.strip()
         const seenProducts = {};
         for (const c of targetCards) {
             const pid = c.getAttribute('data-productid');
             if (!pid) continue;
             const cleanPid = pid.trim();
 
-        product_url = None
-        commercial_token = None
-        product_name = None
             let productUrl = null;
             let commercialToken = null;
             let productName = null;
 
-        a_tag = c.query_selector("a[href*='-p']")
-        if a_tag:
-            href = a_tag.get_attribute("href") or ""
-            if href:
-                product_url = href.split('?')[0]
-                p_match = re.search(r'-p(\d+)\.html', href)
-                if p_match:
-                    commercial_token = p_match[1]
-            txt = a_tag.inner_text().strip()
-            if txt:
-                product_name = txt.split('\n')[0].strip()
             const aTag = c.querySelector("a[href*='-p']");
             if (aTag) {
                 const href = aTag.getAttribute('href') || '';
@@ -82,16 +60,10 @@ def extract_grid_state(page):
                 }
                 const txt = (aTag.innerText || '').trim();
                 if (txt) {
-                    productName = txt.split('\\n')[0].trim();
+                    productName = txt.split('\n')[0].trim();
                 }
             }
 
-        if pid not in seen_products:
-            seen_products[pid] = {
-                "catalogue_id": pid,
-                "commercial_ref_token": commercial_token,
-                "product_url": product_url,
-                "name": product_name
             if (!seenProducts[cleanPid]) {
                 seenProducts[cleanPid] = {
                     catalogue_id: cleanPid,
@@ -110,54 +82,24 @@ def extract_grid_state(page):
                     seenProducts[cleanPid].name = productName;
                 }
             }
-        else:
-            if not seen_products[pid]["commercial_ref_token"] and commercial_token:
-                seen_products[pid]["commercial_ref_token"] = commercial_token
-            if not seen_products[pid]["product_url"] and product_url:
-                seen_products[pid]["product_url"] = product_url
-            if not seen_products[pid]["name"] and product_name:
-                seen_products[pid]["name"] = product_name
         }
 
-    # Document metrics
-    doc_height = page.evaluate("() => Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)")
-    scroll_y = page.evaluate("() => window.scrollY || window.pageYOffset")
-    inner_height = page.evaluate("() => window.innerHeight")
-    at_bottom = bool((scroll_y + inner_height) >= (doc_height - 180))
         const docHeight = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight);
         const scrollY = window.scrollY || window.pageYOffset;
         const innerHeight = window.innerHeight;
         const atBottom = Boolean((scrollY + innerHeight) >= (docHeight - 180));
 
-    # Loading indicators
-    loading_active = False
-    try:
-        loading_active = page.evaluate("""() => {
         let loadingActive = false;
         try {
             const spinners = document.querySelectorAll('.loading, .spinner, [aria-busy="true"], [class*="loading-indicator"]');
-            for (let s of spinners) {
-                if (s.offsetParent !== null) return true;
             for (const s of spinners) {
                 if (s.offsetParent !== null) {
                     loadingActive = true;
                     break;
                 }
             }
-            return false;
-        }""")
-    except Exception:
-        pass
         } catch (e) {}
 
-    # Load more control
-    load_more_active = False
-    try:
-        load_more_btn = page.query_selector("button.load-more-products, button[class*='load-more' i], a[class*='load-more' i]")
-        if load_more_btn and load_more_btn.is_visible():
-            load_more_active = True
-    except Exception:
-        pass
         let loadMoreActive = false;
         try {
             const loadMoreBtn = document.querySelector("button.load-more-products, button[class*='load-more' i], a[class*='load-more' i]");
@@ -166,14 +108,6 @@ def extract_grid_state(page):
             }
         } catch (e) {}
 
-    return {
-        "visible_cards_count": len(visible_cards),
-        "products": seen_products,
-        "doc_height": doc_height,
-        "at_bottom": at_bottom,
-        "loading": loading_active,
-        "load_more_available": load_more_active
-    }
         return {
             visible_cards_count: targetCards.length,
             products: seenProducts,
@@ -185,8 +119,6 @@ def extract_grid_state(page):
     }""")
 
 
-def scroll_listing(page, max_iterations=30, idle_timeout_ms=2500):
-def scroll_listing(page, max_iterations=60, idle_timeout_ms=2500):
 def scroll_listing(page, max_iterations=80, idle_timeout_ms=2000, prior_seen_ids=None):
     """Incrementally scrolls a listing page and evaluates conservative category-end conditions."""
     observations = []
@@ -203,7 +135,6 @@ def scroll_listing(page, max_iterations=80, idle_timeout_ms=2000, prior_seen_ids
         "at_bottom": state["at_bottom"],
         "settled": True,
         "new_unique_products": len(state["products"]),
-        "products_seen": len(seen_products_by_id),
         "products_seen": len(cumulative_now),
         "document_height": state["doc_height"],
         "loading": state["loading"],
@@ -230,8 +161,6 @@ def scroll_listing(page, max_iterations=80, idle_timeout_ms=2000, prior_seen_ids
             except Exception:
                 pass
 
-        # Scroll down smoothly
-        page.evaluate("() => window.scrollBy(0, Math.floor(window.innerHeight * 1.5))")
         # Scroll down progressively
         page.evaluate("() => window.scrollBy(0, Math.floor(window.innerHeight * 2.5))")
         page.wait_for_timeout(idle_timeout_ms)
@@ -254,7 +183,6 @@ def scroll_listing(page, max_iterations=80, idle_timeout_ms=2000, prior_seen_ids
             "at_bottom": state["at_bottom"],
             "settled": True,
             "new_unique_products": len(new_ids),
-            "products_seen": len(seen_products_by_id),
             "products_seen": len(cumulative_now),
             "document_height": state["doc_height"],
             "loading": state["loading"],
@@ -270,7 +198,6 @@ def scroll_listing(page, max_iterations=80, idle_timeout_ms=2000, prior_seen_ids
         if reason:
             return reason, observations, seen_products_by_id
 
-    return "NO_NEW_PRODUCTS", observations, seen_products_by_id
     # If safety maximum iteration reached without category_end completion:
     return "PARTIAL_MAX_ITERATIONS", observations, seen_products_by_id
 
@@ -358,7 +285,6 @@ def build_department_coverage(enum_queue, unique_products, graph, discovery_queu
     return coverage
 
 
-def run_enumeration(batch_size=3, category_ids=None):
 def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
     """Executes Phase 1B product enumeration for a selected batch of verified listings."""
     ENUM_DIR.mkdir(parents=True, exist_ok=True)
@@ -399,8 +325,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
     # Select batch
     queued_items = [q for q in enum_queue if q.get("status") == "QUEUED"]
     if category_ids:
-        target_set = set(category_ids)
-        batch = [q for q in queued_items if q["id"] in target_set]
         id_to_item = {q["id"]: q for q in enum_queue}
         batch = []
         for cid in category_ids:
@@ -443,7 +367,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
             prior_seen_ids = set(item.get("seen_product_ids", []))
             prior_seen_count = len(prior_seen_ids)
 
-            print(f"[{idx}/{len(batch)}] Enumerating {cat_id} | {dept} | {url}")
             print(f"[{idx}/{len(batch)}] Enumerating {cat_id} | {dept} | {previous_status} ({prior_seen_count} prior IDs) | {url}")
             page = context.new_page()
 
@@ -471,7 +394,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
                     reason = "TECHNICAL_RESTRICTION"
                     error_msg = "Access Denied title detected"
                 else:
-                    reason, observations, seen_products = scroll_listing(page)
                     reason, observations, seen_products = scroll_listing(
                         page, max_iterations=max_iterations, idle_timeout_ms=2000, prior_seen_ids=prior_seen_ids
                     )
@@ -484,7 +406,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
                 page.close()
 
             elapsed_seconds = round(time.time() - start_time, 2)
-            print(f"   -> Completed: {reason} in {len(observations)-1} scrolls ({elapsed_seconds}s), seen IDs: {len(seen_products)}")
             cumulative_seen_ids = prior_seen_ids.union(seen_products.keys())
             new_ids_this_run = len(cumulative_seen_ids) - len(prior_seen_ids)
             print(f"   -> Result: {reason} in {len(observations)-1} scrolls ({elapsed_seconds}s) | Seen this run: {len(seen_products)} | Cumulative IDs: {len(cumulative_seen_ids)} (+{new_ids_this_run} new to listing)")
@@ -591,7 +512,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
                 else:
                     existing_rel_count += 1
 
-            # Save raw trace document
             token_match = re.search(r'-(?:l|mkt|c)(\d+)\.html(?:\?page=(\d+))?', url)
             if token_match:
                 token = token_match[1]
@@ -600,7 +520,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
             else:
                 token = hashlib.sha256(url.encode()).hexdigest()[:16]
 
-            listing_status = "COMPLETE" if reason in ["NO_NEW_PRODUCTS", "END_OF_LIST", "CATEGORY_EMPTY"] else ("PARTIAL" if reason == "PARTIAL_MAX_ITERATIONS" else ("TECHNICAL_RESTRICTION" if reason == "TECHNICAL_RESTRICTION" else "ERROR"))
             listing_status = (
                 "COMPLETE" if reason in ["NO_NEW_PRODUCTS", "END_OF_LIST", "CATEGORY_EMPTY"]
                 else ("PARTIAL" if reason == "PARTIAL_MAX_ITERATIONS"
@@ -615,7 +534,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
                 "department": dept,
                 "started_at": now_iso,
                 "elapsed_seconds": elapsed_seconds,
-                "status": "COMPLETE" if reason in ["NO_NEW_PRODUCTS", "END_OF_LIST", "CATEGORY_EMPTY"] else ("TECHNICAL_RESTRICTION" if reason == "TECHNICAL_RESTRICTION" else "ERROR"),
                 "previous_status": previous_status,
                 "previous_seen_count": prior_seen_count,
                 "seen_this_run": len(seen_products),
@@ -625,7 +543,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
                 "completion_reason": reason,
                 "error": error_msg,
                 "initial_products_count": initial_count,
-                "total_unique_products_seen": len(seen_products),
                 "new_global_unique_products": listing_new_products,
                 "duplicate_appearances": listing_duplicates,
                 "new_category_relationships": new_rel_count,
@@ -637,19 +554,16 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
             write(raw_trace_file, raw_doc)
 
             # Update item in enumeration queue
-            item["status"] = raw_doc["status"]
             item["status"] = listing_status
             item["attempt_count"] = item.get("attempt_count", 0) + 1
             item["last_attempt_at"] = now_iso
             item["error"] = error_msg
             item["scroll_iteration"] = len(observations) - 1
-            item["seen_product_ids"] = list(seen_products.keys())
             item["seen_product_ids"] = list(cumulative_seen_ids)
             item["completion_reason"] = reason
             item["checkpoint"] = {
                 "phase": "enumeration",
                 "scroll_iteration": len(observations) - 1,
-                "seen_product_ids": list(seen_products.keys()),
                 "seen_product_ids": list(cumulative_seen_ids),
                 "completion_reason": reason,
                 "evidence_file": str(raw_trace_file.relative_to(ROOT))
@@ -683,9 +597,6 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
                 "completion_reason": reason,
                 "initial_product_ids": initial_count,
                 "scroll_iterations": len(observations) - 1,
-                "observations_trace": observations,
-                "final_unique_products": len(seen_products),
-                "completion_reason": reason,
                 "duplicate_appearances": listing_duplicates,
                 "new_global_unique_products": listing_new_products,
                 "new_product_category_relationships": new_rel_count,
@@ -727,19 +638,15 @@ def run_enumeration(batch_size=3, category_ids=None, max_iterations=80):
     # Markdown report
     md_report = f"# Zara Department Catalogue Coverage (Phase 1B)\n\n"
     md_report += f"**Updated**: {coverage_summary['updated_at']} | **Phase**: {coverage_summary['phase']}\n\n"
-    md_report += f"| Department | Structural Listings | Verified Listings | Completed Listings | Unique Products | New in Last Batch | Duplicate Appearances | Remaining Structural Queue | Tech Restrictions | Coverage Status |\n"
-    md_report += f"|---|---:|---:|---:|---:|---:|---:|---:|---:|---|\n"
     md_report += f"| Department | Structural Listings | Verified Listings | Completed Listings | Partial Listings | Queued Listings | Unique Products | New in Last Batch | Duplicate Appearances | Remaining Structural Queue | Tech Restrictions | Coverage Status |\n"
     md_report += f"|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---|\n"
     for d, c in dept_coverage.items():
-        md_report += f"| **{d}** | {c['structural_listing_count']} | {c['verified_listing_count']} | {c['completed_listing_count']} | {c['unique_products_seen']} | {c['new_unique_products_last_batch']} | {c['duplicate_product_appearances']} | {c['remaining_high_value_structural_routes']} | {c['technical_restrictions']} | `{c['coverage_status']}` |\n"
         md_report += f"| **{d}** | {c['structural_listing_count']} | {c['verified_listing_count']} | {c['completed_listing_count']} | {c['partial_listing_count']} | {c['queued_listing_count']} | {c['unique_products_seen']} | {c['new_unique_products_last_batch']} | {c['duplicate_product_appearances']} | {c['remaining_high_value_structural_routes']} | {c['technical_restrictions']} | `{c['coverage_status']}` |\n"
 
     md_report += f"\n## Global Summary\n"
     md_report += f"- **Global Unique Products**: {coverage_summary['global_unique_products_after']} (+{coverage_summary['new_unique_products_discovered']} new in batch)\n"
     md_report += f"- **Unique Product Yield**: {coverage_summary['unique_product_yield']} new products/listing\n"
     md_report += f"- **Duplicate Ratio**: {coverage_summary['duplicate_ratio'] * 100:.2f}%\n"
-    md_report += f"- **Enumeration Queue**: {coverage_summary['enumeration_queue_completed']} completed / {coverage_summary['enumeration_queue_remaining']} remaining\n"
     md_report += f"- **Enumeration Queue**: {coverage_summary['enumeration_queue_completed']} completed / {coverage_summary['enumeration_queue_partial']} partial / {coverage_summary['enumeration_queue_queued']} queued\n"
     md_report += f"- **Product Detail Queue Size**: {coverage_summary['product_detail_queue_size']} items queued for Phase 1C\n"
 
@@ -756,7 +663,5 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     cat_ids = [c.strip() for c in args.category_ids.split(",") if c.strip()] if args.category_ids else None
-    results, summary = run_enumeration(batch_size=args.batch_size, category_ids=cat_ids)
     results, summary = run_enumeration(batch_size=args.batch_size, category_ids=cat_ids, max_iterations=args.max_iterations)
     print(f"\nBatch finished: {len(results)} listings processed.")
-
