@@ -111,6 +111,7 @@ def extract_grid_state(page):
 
 
 def scroll_listing(page, max_iterations=30, idle_timeout_ms=2500):
+def scroll_listing(page, max_iterations=60, idle_timeout_ms=2500):
     """Incrementally scrolls a listing page and evaluates conservative category-end conditions."""
     observations = []
     seen_products_by_id = {}
@@ -152,7 +153,17 @@ def scroll_listing(page, max_iterations=30, idle_timeout_ms=2500):
 
         # Scroll down smoothly
         page.evaluate("() => window.scrollBy(0, Math.floor(window.innerHeight * 1.5))")
+        # Scroll down progressively
+        page.evaluate("() => window.scrollBy(0, Math.floor(window.innerHeight * 2.5))")
         page.wait_for_timeout(idle_timeout_ms)
+
+        # If nearing bottom or height is stable, ensure we reach the absolute bottom to trigger final intersection observers
+        cur_scroll_y = page.evaluate("() => window.scrollY || window.pageYOffset")
+        cur_inner_h = page.evaluate("() => window.innerHeight")
+        cur_doc_h = page.evaluate("() => Math.max(document.body.scrollHeight, document.documentElement.scrollHeight)")
+        if (cur_scroll_y + cur_inner_h) >= (cur_doc_h - 1500):
+            page.evaluate("() => window.scrollTo(0, document.documentElement.scrollHeight)")
+            page.wait_for_timeout(1000)
 
         state = extract_grid_state(page)
         new_ids = set(state["products"].keys()) - set(seen_products_by_id.keys())
@@ -179,6 +190,8 @@ def scroll_listing(page, max_iterations=30, idle_timeout_ms=2500):
             return reason, observations, seen_products_by_id
 
     return "NO_NEW_PRODUCTS", observations, seen_products_by_id
+    # If safety maximum iteration reached without category_end completion:
+    return "PARTIAL_MAX_ITERATIONS", observations, seen_products_by_id
 
 
 def build_department_coverage(enum_queue, unique_products, graph, discovery_queue, product_categories, current_batch_results):
@@ -380,6 +393,7 @@ def run_enumeration(batch_size=3, category_ids=None):
             listing_new_products = 0
             listing_duplicates = 0
             new_rel_count = 0
+            existing_rel_count = 0
             new_detail_queue_count = 0
 
             for pid, p_info in seen_products.items():
@@ -471,6 +485,8 @@ def run_enumeration(batch_size=3, category_ids=None):
                     })
                     existing_rel_keys.add(rel_key)
                     new_rel_count += 1
+                else:
+                    existing_rel_count += 1
 
             # Save raw trace document
             token_match = re.search(r'-(?:l|mkt|c)(\d+)\.html(?:\?page=(\d+))?', url)
@@ -481,6 +497,8 @@ def run_enumeration(batch_size=3, category_ids=None):
             else:
                 token = hashlib.sha256(url.encode()).hexdigest()[:16]
 
+            listing_status = "COMPLETE" if reason in ["NO_NEW_PRODUCTS", "END_OF_LIST", "CATEGORY_EMPTY"] else ("PARTIAL" if reason == "PARTIAL_MAX_ITERATIONS" else ("TECHNICAL_RESTRICTION" if reason == "TECHNICAL_RESTRICTION" else "ERROR"))
+
             raw_trace_file = ENUM_DIR / f"{token}.json"
             raw_doc = {
                 "category_id": cat_id,
@@ -489,6 +507,7 @@ def run_enumeration(batch_size=3, category_ids=None):
                 "started_at": now_iso,
                 "elapsed_seconds": elapsed_seconds,
                 "status": "COMPLETE" if reason in ["NO_NEW_PRODUCTS", "END_OF_LIST", "CATEGORY_EMPTY"] else ("TECHNICAL_RESTRICTION" if reason == "TECHNICAL_RESTRICTION" else "ERROR"),
+                "status": listing_status,
                 "completion_reason": reason,
                 "error": error_msg,
                 "initial_products_count": initial_count,
@@ -496,6 +515,8 @@ def run_enumeration(batch_size=3, category_ids=None):
                 "new_global_unique_products": listing_new_products,
                 "duplicate_appearances": listing_duplicates,
                 "new_category_relationships": new_rel_count,
+                "existing_category_relationships": existing_rel_count,
+                "final_bottom_state": observations[-1].get("at_bottom") if observations else False,
                 "scroll_trace": observations,
                 "products_sample": list(seen_products.values())[:10]
             }
@@ -503,6 +524,7 @@ def run_enumeration(batch_size=3, category_ids=None):
 
             # Update item in enumeration queue
             item["status"] = raw_doc["status"]
+            item["status"] = listing_status
             item["attempt_count"] = item.get("attempt_count", 0) + 1
             item["last_attempt_at"] = now_iso
             item["error"] = error_msg
@@ -544,7 +566,9 @@ def run_enumeration(batch_size=3, category_ids=None):
                 "duplicate_appearances": listing_duplicates,
                 "new_global_unique_products": listing_new_products,
                 "new_product_category_relationships": new_rel_count,
+                "existing_product_category_relationships": existing_rel_count,
                 "new_product_detail_queue_items": new_detail_queue_count,
+                "final_bottom_state": observations[-1].get("at_bottom") if observations else False,
                 "elapsed_seconds": elapsed_seconds,
                 "error_or_restriction": error_msg
             })
