@@ -1,0 +1,870 @@
+{
+  "product_id": "zara-us:04424701",
+  "source_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html",
+  "final_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html",
+  "canonical_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLAIN HEAVY WEIGHT T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLAIN HEAVY WEIGHT T-SHIRT",
+      "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html",
+      "productGroupID": "04424701",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920",
+        "https://static.zara.net/assets/public/34cd/30b9/c0274667b2c7/063d8e99670b/04424701403-e2/04424701403-e2.jpg?ts=1779277403453&w=1920",
+        "https://static.zara.net/assets/public/e08a/3de4/caff44c0bf50/f94c8ee5eea9/04424701403-e3/04424701403-e3.jpg?ts=1779277404157&w=1920",
+        "https://static.zara.net/assets/public/14e2/253a/4d7f40cc8a78/5aad5f4d8b8f/04424701403-e4/04424701403-e4.jpg?ts=1779277404021&w=1920",
+        "https://static.zara.net/assets/public/8560/7226/b679482f8663/ab7a42015264/04424701403-p/04424701403-p.jpg?ts=1780565193722&w=1920",
+        "https://static.zara.net/assets/public/074d/8e13/dd4c452a8aa5/73ab19a27023/04424700403100-a1/04424700403100-a1.jpg?ts=1780565472328&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 6-7 years (48,0 INCHES)",
+          "sku": "545485855-403-7",
+          "mpn": "545485855-403-7",
+          "color": "Sky blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 8-9 years (51,6 INCHES)",
+          "sku": "545485855-403-9",
+          "mpn": "545485855-403-9",
+          "color": "Sky blue",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 9-10 years (55,1 INCHES)",
+          "sku": "545485855-403-10",
+          "mpn": "545485855-403-10",
+          "color": "Sky blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 11-12 years (58,3 INCHES)",
+          "sku": "545485855-403-12",
+          "mpn": "545485855-403-12",
+          "color": "Sky blue",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 12-13 years (61,4 INCHES)",
+          "sku": "545485855-403-13",
+          "mpn": "545485855-403-13",
+          "color": "Sky blue",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 13-14 years (64,6 INCHES)",
+          "sku": "545485855-403-14",
+          "mpn": "545485855-403-14",
+          "color": "Sky blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 6-7 years (48,0 INCHES)",
+          "sku": "545485855-712-7",
+          "mpn": "545485855-712-7",
+          "color": "Ecru",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 8-9 years (51,6 INCHES)",
+          "sku": "545485855-712-9",
+          "mpn": "545485855-712-9",
+          "color": "Ecru",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 9-10 years (55,1 INCHES)",
+          "sku": "545485855-712-10",
+          "mpn": "545485855-712-10",
+          "color": "Ecru",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 11-12 years (58,3 INCHES)",
+          "sku": "545485855-712-12",
+          "mpn": "545485855-712-12",
+          "color": "Ecru",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 12-13 years (61,4 INCHES)",
+          "sku": "545485855-712-13",
+          "mpn": "545485855-712-13",
+          "color": "Ecru",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 13-14 years (64,6 INCHES)",
+          "sku": "545485855-712-14",
+          "mpn": "545485855-712-14",
+          "color": "Ecru",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 6-7 years (48,0 INCHES)",
+          "sku": "545485855-620-7",
+          "mpn": "545485855-620-7",
+          "color": "Pink",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 8-9 years (51,6 INCHES)",
+          "sku": "545485855-620-9",
+          "mpn": "545485855-620-9",
+          "color": "Pink",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 9-10 years (55,1 INCHES)",
+          "sku": "545485855-620-10",
+          "mpn": "545485855-620-10",
+          "color": "Pink",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 11-12 years (58,3 INCHES)",
+          "sku": "545485855-620-12",
+          "mpn": "545485855-620-12",
+          "color": "Pink",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 12-13 years (61,4 INCHES)",
+          "sku": "545485855-620-13",
+          "mpn": "545485855-620-13",
+          "color": "Pink",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 13-14 years (64,6 INCHES)",
+          "sku": "545485855-620-14",
+          "mpn": "545485855-620-14",
+          "color": "Pink",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 6-7 years (48,0 INCHES)",
+          "sku": "545485855-700-7",
+          "mpn": "545485855-700-7",
+          "color": "Brown",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 8-9 years (51,6 INCHES)",
+          "sku": "545485855-700-9",
+          "mpn": "545485855-700-9",
+          "color": "Brown",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 9-10 years (55,1 INCHES)",
+          "sku": "545485855-700-10",
+          "mpn": "545485855-700-10",
+          "color": "Brown",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 11-12 years (58,3 INCHES)",
+          "sku": "545485855-700-12",
+          "mpn": "545485855-700-12",
+          "color": "Brown",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 12-13 years (61,4 INCHES)",
+          "sku": "545485855-700-13",
+          "mpn": "545485855-700-13",
+          "color": "Brown",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 13-14 years (64,6 INCHES)",
+          "sku": "545485855-700-14",
+          "mpn": "545485855-700-14",
+          "color": "Brown",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLAIN HEAVY WEIGHT T-SHIRT",
+      "product_group_id": "04424701",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 6-7 years (48,0 INCHES)",
+          "sku": "545485855-403-7",
+          "mpn": "545485855-403-7",
+          "color_name": "Sky blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+          "images": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 8-9 years (51,6 INCHES)",
+          "sku": "545485855-403-9",
+          "mpn": "545485855-403-9",
+          "color_name": "Sky blue",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+          "images": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 9-10 years (55,1 INCHES)",
+          "sku": "545485855-403-10",
+          "mpn": "545485855-403-10",
+          "color_name": "Sky blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+          "images": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 11-12 years (58,3 INCHES)",
+          "sku": "545485855-403-12",
+          "mpn": "545485855-403-12",
+          "color_name": "Sky blue",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+          "images": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 12-13 years (61,4 INCHES)",
+          "sku": "545485855-403-13",
+          "mpn": "545485855-403-13",
+          "color_name": "Sky blue",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+          "images": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Sky blue - 13-14 years (64,6 INCHES)",
+          "sku": "545485855-403-14",
+          "mpn": "545485855-403-14",
+          "color_name": "Sky blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485855",
+          "images": [
+            "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 6-7 years (48,0 INCHES)",
+          "sku": "545485855-712-7",
+          "mpn": "545485855-712-7",
+          "color_name": "Ecru",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+          "images": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 8-9 years (51,6 INCHES)",
+          "sku": "545485855-712-9",
+          "mpn": "545485855-712-9",
+          "color_name": "Ecru",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+          "images": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 9-10 years (55,1 INCHES)",
+          "sku": "545485855-712-10",
+          "mpn": "545485855-712-10",
+          "color_name": "Ecru",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+          "images": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 11-12 years (58,3 INCHES)",
+          "sku": "545485855-712-12",
+          "mpn": "545485855-712-12",
+          "color_name": "Ecru",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+          "images": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 12-13 years (61,4 INCHES)",
+          "sku": "545485855-712-13",
+          "mpn": "545485855-712-13",
+          "color_name": "Ecru",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+          "images": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Ecru - 13-14 years (64,6 INCHES)",
+          "sku": "545485855-712-14",
+          "mpn": "545485855-712-14",
+          "color_name": "Ecru",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485856",
+          "images": [
+            "https://static.zara.net/assets/public/191b/650f/a41a4b6b84ea/5f0c0643945e/04424701712-e1/04424701712-e1.jpg?ts=1779204164241&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 6-7 years (48,0 INCHES)",
+          "sku": "545485855-620-7",
+          "mpn": "545485855-620-7",
+          "color_name": "Pink",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+          "images": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 8-9 years (51,6 INCHES)",
+          "sku": "545485855-620-9",
+          "mpn": "545485855-620-9",
+          "color_name": "Pink",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+          "images": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 9-10 years (55,1 INCHES)",
+          "sku": "545485855-620-10",
+          "mpn": "545485855-620-10",
+          "color_name": "Pink",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+          "images": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 11-12 years (58,3 INCHES)",
+          "sku": "545485855-620-12",
+          "mpn": "545485855-620-12",
+          "color_name": "Pink",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+          "images": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 12-13 years (61,4 INCHES)",
+          "sku": "545485855-620-13",
+          "mpn": "545485855-620-13",
+          "color_name": "Pink",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+          "images": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Pink - 13-14 years (64,6 INCHES)",
+          "sku": "545485855-620-14",
+          "mpn": "545485855-620-14",
+          "color_name": "Pink",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485853",
+          "images": [
+            "https://static.zara.net/assets/public/8f3f/a2b7/6545412bbe71/882e1f77a7e6/04424701620-e1/04424701620-e1.jpg?ts=1779264389956&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 6-7 years (48,0 INCHES)",
+          "sku": "545485855-700-7",
+          "mpn": "545485855-700-7",
+          "color_name": "Brown",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+          "images": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 8-9 years (51,6 INCHES)",
+          "sku": "545485855-700-9",
+          "mpn": "545485855-700-9",
+          "color_name": "Brown",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+          "images": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 9-10 years (55,1 INCHES)",
+          "sku": "545485855-700-10",
+          "mpn": "545485855-700-10",
+          "color_name": "Brown",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+          "images": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 11-12 years (58,3 INCHES)",
+          "sku": "545485855-700-12",
+          "mpn": "545485855-700-12",
+          "color_name": "Brown",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+          "images": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 12-13 years (61,4 INCHES)",
+          "sku": "545485855-700-13",
+          "mpn": "545485855-700-13",
+          "color_name": "Brown",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+          "images": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN HEAVY WEIGHT T-SHIRT - Brown - 13-14 years (64,6 INCHES)",
+          "sku": "545485855-700-14",
+          "mpn": "545485855-700-14",
+          "color_name": "Brown",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-heavy-weight-t-shirt-p04424701.html?v1=545485854",
+          "images": [
+            "https://static.zara.net/assets/public/2377/f904/263340da927a/0c7492f48340/04424701700-e1/04424701700-e1.jpg?ts=1779284627832&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/02af/c3c7/451b4eb08334/4f7d03856c00/04424701403-e1/04424701403-e1.jpg?ts=1779277404144&w=1920",
+        "https://static.zara.net/assets/public/34cd/30b9/c0274667b2c7/063d8e99670b/04424701403-e2/04424701403-e2.jpg?ts=1779277403453&w=1920",
+        "https://static.zara.net/assets/public/e08a/3de4/caff44c0bf50/f94c8ee5eea9/04424701403-e3/04424701403-e3.jpg?ts=1779277404157&w=1920",
+        "https://static.zara.net/assets/public/14e2/253a/4d7f40cc8a78/5aad5f4d8b8f/04424701403-e4/04424701403-e4.jpg?ts=1779277404021&w=1920",
+        "https://static.zara.net/assets/public/8560/7226/b679482f8663/ab7a42015264/04424701403-p/04424701403-p.jpg?ts=1780565193722&w=1920",
+        "https://static.zara.net/assets/public/074d/8e13/dd4c452a8aa5/73ab19a27023/04424700403100-a1/04424700403100-a1.jpg?ts=1780565472328&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Sky blue",
+    "Ecru",
+    "Pink",
+    "Brown"
+  ],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 9,
+  "variants_count": 24,
+  "colors_count": 4,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c2cab13b22c742dbf3d68fa5761960ffb59f56bc63802c49bb9cbcd8e000287c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

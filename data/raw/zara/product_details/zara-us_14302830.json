@@ -1,0 +1,511 @@
+{
+  "product_id": "zara-us:14302830",
+  "source_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html",
+  "final_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html",
+  "canonical_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SPORTY SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SPORTY SNEAKERS",
+      "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html",
+      "productGroupID": "14302830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers with a contrasting color design and technical details. Lace-up closure with a contrasting back pull tab for easy entry. Features rubber soles and an OrthoLite® insole.\n\n\n\n\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920",
+        "https://static.zara.net/assets/public/5f29/e245/7e9944aeb930/c5dddb991939/14302830006-e2/14302830006-e2.jpg?ts=1778080895377&w=1920",
+        "https://static.zara.net/assets/public/301e/bcbc/b60640d5b4fd/40e9ecb528d0/1333333331-e15/1333333331-e15.jpg?ts=1787657041155&w=1920",
+        "https://static.zara.net/assets/public/1034/0c79/70574f8586ee/f1f944abdb58/14302830006-e3/14302830006-e3.jpg?ts=1778080894127&w=1920",
+        "https://static.zara.net/assets/public/3851/2e57/f00d441dabd9/60f98420fad5/14302830006-e4/14302830006-e4.jpg?ts=1778080896211&w=1920",
+        "https://static.zara.net/assets/public/8786/6321/fbea45a4a3f5/8c04c93fff32/14302830006-e5/14302830006-e5.jpg?ts=1778080895605&w=1920",
+        "https://static.zara.net/assets/public/7667/0d44/c8754c10a00b/b3d78a97cc6a/14302830006-e6/14302830006-e6.jpg?ts=1778080893874&w=1920",
+        "https://static.zara.net/assets/public/a88a/1d39/458a4b0fbd14/c252db94b723/14302830006-e7/14302830006-e7.jpg?ts=1778080894323&w=1920",
+        "https://static.zara.net/assets/public/eaae/01a6/50e847778cfd/84625be00f92/14302830006-e8/14302830006-e8.jpg?ts=1778080893626&w=1920"
+      ],
+      "material": "polyester/polyurethane thermoplastic/sbs",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "62% polyester, 26% polyurethane thermoplastic, 12% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 12½ (7.4 INCHES)",
+          "sku": "545475043-006-30",
+          "mpn": "545475043-006-30",
+          "color": "Ivory",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 13½ (7.7 INCHES)",
+          "sku": "545475043-006-31",
+          "mpn": "545475043-006-31",
+          "color": "Ivory",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 1 (8.0 INCHES)",
+          "sku": "545475043-006-32",
+          "mpn": "545475043-006-32",
+          "color": "Ivory",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 2 (8.2 INCHES)",
+          "sku": "545475043-006-33",
+          "mpn": "545475043-006-33",
+          "color": "Ivory",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 2½ (8.5 INCHES)",
+          "sku": "545475043-006-34",
+          "mpn": "545475043-006-34",
+          "color": "Ivory",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 3½ (8.8 INCHES)",
+          "sku": "545475043-006-35",
+          "mpn": "545475043-006-35",
+          "color": "Ivory",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 4 (9.0 INCHES)",
+          "sku": "545475043-006-36",
+          "mpn": "545475043-006-36",
+          "color": "Ivory",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 5 (9.3 INCHES)",
+          "sku": "545475043-006-37",
+          "mpn": "545475043-006-37",
+          "color": "Ivory",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 5½ (9.5 INCHES)",
+          "sku": "545475043-006-38",
+          "mpn": "545475043-006-38",
+          "color": "Ivory",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 6 (9.8 INCHES)",
+          "sku": "545475043-006-39",
+          "mpn": "545475043-006-39",
+          "color": "Ivory",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 7 (10.0 INCHES)",
+          "sku": "545475043-006-40",
+          "mpn": "545475043-006-40",
+          "color": "Ivory",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY SNEAKERS - Ivory - 7½ (10.3 INCHES)",
+          "sku": "545475043-006-41",
+          "mpn": "545475043-006-41",
+          "color": "Ivory",
+          "size": "7½ (10.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SPORTY SNEAKERS",
+      "product_group_id": "14302830",
+      "brand": "ZARA",
+      "description": "Sneakers with a contrasting color design and technical details. Lace-up closure with a contrasting back pull tab for easy entry. Features rubber soles and an OrthoLite® insole.\n\n\n\n\n\nSIZE 40: Shoes available in size 40.",
+      "material": "polyester/polyurethane thermoplastic/sbs",
+      "composition": "UPPER: 62% polyester, 26% polyurethane thermoplastic, 12% sbs | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 12½ (7.4 INCHES)",
+          "sku": "545475043-006-30",
+          "mpn": "545475043-006-30",
+          "color_name": "Ivory",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 13½ (7.7 INCHES)",
+          "sku": "545475043-006-31",
+          "mpn": "545475043-006-31",
+          "color_name": "Ivory",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 1 (8.0 INCHES)",
+          "sku": "545475043-006-32",
+          "mpn": "545475043-006-32",
+          "color_name": "Ivory",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 2 (8.2 INCHES)",
+          "sku": "545475043-006-33",
+          "mpn": "545475043-006-33",
+          "color_name": "Ivory",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 2½ (8.5 INCHES)",
+          "sku": "545475043-006-34",
+          "mpn": "545475043-006-34",
+          "color_name": "Ivory",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 3½ (8.8 INCHES)",
+          "sku": "545475043-006-35",
+          "mpn": "545475043-006-35",
+          "color_name": "Ivory",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 4 (9.0 INCHES)",
+          "sku": "545475043-006-36",
+          "mpn": "545475043-006-36",
+          "color_name": "Ivory",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 5 (9.3 INCHES)",
+          "sku": "545475043-006-37",
+          "mpn": "545475043-006-37",
+          "color_name": "Ivory",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 5½ (9.5 INCHES)",
+          "sku": "545475043-006-38",
+          "mpn": "545475043-006-38",
+          "color_name": "Ivory",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 6 (9.8 INCHES)",
+          "sku": "545475043-006-39",
+          "mpn": "545475043-006-39",
+          "color_name": "Ivory",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 7 (10.0 INCHES)",
+          "sku": "545475043-006-40",
+          "mpn": "545475043-006-40",
+          "color_name": "Ivory",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY SNEAKERS - Ivory - 7½ (10.3 INCHES)",
+          "sku": "545475043-006-41",
+          "mpn": "545475043-006-41",
+          "color_name": "Ivory",
+          "size_name": "7½ (10.3 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-sneakers-p14302830.html?v1=545475043",
+          "images": [
+            "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c551/f344/95e24349b0cd/28a2a644845a/14302830006-e1/14302830006-e1.jpg?ts=1778080893115&w=1920",
+        "https://static.zara.net/assets/public/5f29/e245/7e9944aeb930/c5dddb991939/14302830006-e2/14302830006-e2.jpg?ts=1778080895377&w=1920",
+        "https://static.zara.net/assets/public/301e/bcbc/b60640d5b4fd/40e9ecb528d0/1333333331-e15/1333333331-e15.jpg?ts=1787657041155&w=1920",
+        "https://static.zara.net/assets/public/1034/0c79/70574f8586ee/f1f944abdb58/14302830006-e3/14302830006-e3.jpg?ts=1778080894127&w=1920",
+        "https://static.zara.net/assets/public/3851/2e57/f00d441dabd9/60f98420fad5/14302830006-e4/14302830006-e4.jpg?ts=1778080896211&w=1920",
+        "https://static.zara.net/assets/public/8786/6321/fbea45a4a3f5/8c04c93fff32/14302830006-e5/14302830006-e5.jpg?ts=1778080895605&w=1920",
+        "https://static.zara.net/assets/public/7667/0d44/c8754c10a00b/b3d78a97cc6a/14302830006-e6/14302830006-e6.jpg?ts=1778080893874&w=1920",
+        "https://static.zara.net/assets/public/a88a/1d39/458a4b0fbd14/c252db94b723/14302830006-e7/14302830006-e7.jpg?ts=1778080894323&w=1920",
+        "https://static.zara.net/assets/public/eaae/01a6/50e847778cfd/84625be00f92/14302830006-e8/14302830006-e8.jpg?ts=1778080893626&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nSneakers with a contrasting color design and technical details. Lace-up closure with a contrasting back pull tab for easy entry. Features rubber soles and an OrthoLite® insole.\nSIZE 40: Shoes available in size 40.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 12,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "32.99",
+    "original_price": "59.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "32.99",
+    "dom_price": "59.90",
+    "normalized_price": "32.99",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '32.99' != DOM price '59.90'"
+  },
+  "source_content_hash": "98b9e66cb0796004aacbbfebddc0d65ce1de28b921758a055b8c9587488216f5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

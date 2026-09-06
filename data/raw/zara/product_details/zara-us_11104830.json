@@ -1,0 +1,141 @@
+{
+  "product_id": "zara-us:11104830",
+  "source_url": "https://www.zara.com/us/en/bandana-backpack-p11104830.html",
+  "final_url": "https://www.zara.com/us/en/bandana-backpack-p11104830.html",
+  "canonical_url": "https://www.zara.com/us/en/bandana-backpack-p11104830.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BANDANA BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BANDANA BACKPACK",
+      "url": "https://www.zara.com/us/en/bandana-backpack-p11104830.html",
+      "productGroupID": "11104830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Backpack with contrasting bandana print and unique print on each piece. Features a main compartment and front pocket with zip closure and double adjustable shoulder straps. Includes decorative side detail.\n\n\n\n\n\nHeight x Length x Width: 14.2 x 13.8 x 3.9 inches (36 x 35 x 10 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bf94/20e8/793e450da57d/0f84f6add48a/11104830203-e1/11104830203-e1.jpg?ts=1778772537979&w=1920",
+        "https://static.zara.net/assets/public/a5a7/0a53/f3664a6280ea/7e42f40298bc/11104830203-e2/11104830203-e2.jpg?ts=1778772539694&w=1920",
+        "https://static.zara.net/assets/public/9716/8b0c/c9644acfa3c1/4f1507ef95b0/11104830203-e3/11104830203-e3.jpg?ts=1778772539198&w=1920",
+        "https://static.zara.net/assets/public/ec06/783d/b1fc4837ad3d/a3190ba3d423/11104830203-e4/11104830203-e4.jpg?ts=1778772539658&w=1920",
+        "https://static.zara.net/assets/public/f837/a7dc/fb9b4652b243/b069a247f9b3/11104830203-e5/11104830203-e5.jpg?ts=1778772539560&w=1920",
+        "https://static.zara.net/assets/public/9a73/4723/85db4b4e8eb7/8a0c0e76ae36/11104830203-e6/11104830203-e6.jpg?ts=1778772538757&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyethylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BANDANA BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545422775-203-53",
+          "mpn": "545422775-203-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/bf94/20e8/793e450da57d/0f84f6add48a/11104830203-e1/11104830203-e1.jpg?ts=1778772537979&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/bandana-backpack-p11104830.html?v1=545422775",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BANDANA BACKPACK",
+      "product_group_id": "11104830",
+      "brand": "ZARA",
+      "description": "Backpack with contrasting bandana print and unique print on each piece. Features a main compartment and front pocket with zip closure and double adjustable shoulder straps. Includes decorative side detail.\n\n\n\n\n\nHeight x Length x Width: 14.2 x 13.8 x 3.9 inches (36 x 35 x 10 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester | FILLING: 100% polyethylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BANDANA BACKPACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545422775-203-53",
+          "mpn": "545422775-203-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bandana-backpack-p11104830.html?v1=545422775",
+          "images": [
+            "https://static.zara.net/assets/public/bf94/20e8/793e450da57d/0f84f6add48a/11104830203-e1/11104830203-e1.jpg?ts=1778772537979&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bf94/20e8/793e450da57d/0f84f6add48a/11104830203-e1/11104830203-e1.jpg?ts=1778772537979&w=1920",
+        "https://static.zara.net/assets/public/a5a7/0a53/f3664a6280ea/7e42f40298bc/11104830203-e2/11104830203-e2.jpg?ts=1778772539694&w=1920",
+        "https://static.zara.net/assets/public/9716/8b0c/c9644acfa3c1/4f1507ef95b0/11104830203-e3/11104830203-e3.jpg?ts=1778772539198&w=1920",
+        "https://static.zara.net/assets/public/ec06/783d/b1fc4837ad3d/a3190ba3d423/11104830203-e4/11104830203-e4.jpg?ts=1778772539658&w=1920",
+        "https://static.zara.net/assets/public/f837/a7dc/fb9b4652b243/b069a247f9b3/11104830203-e5/11104830203-e5.jpg?ts=1778772539560&w=1920",
+        "https://static.zara.net/assets/public/9a73/4723/85db4b4e8eb7/8a0c0e76ae36/11104830203-e6/11104830203-e6.jpg?ts=1778772538757&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nBackpack with contrasting bandana print and unique print on each piece. Features a main compartment and front pocket with zip closure and double adjustable shoulder straps. Includes decorative side detail.\nHeight x Length x Width: 14.2 x 13.8 x 3.9 inches (36 x 35 x 10 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a414e7247ee29aad3d0f15258bfbbbcede064b2abf7dac97d91e84f88a697039",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20310460",
+  "source_url": "https://www.zara.com/us/en/hello-kitty---edt-50-ml--1-7-fl-oz--p20310460.html",
+  "final_url": "https://www.zara.com/us/en/hello-kitty---edt-50-ml--1-7-fl-oz--p20310460.html",
+  "canonical_url": "https://www.zara.com/us/en/hello-kitty---edt-50-ml--1-7-fl-oz--p20310460.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HELLO KITTY © EDT 50 ML (1.7 FL.OZ)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HELLO KITTY © EDT 50 ML (1.7 FL.OZ)",
+      "url": "https://www.zara.com/us/en/hello-kitty---edt-50-ml--1-7-fl-oz--p20310460.html",
+      "productGroupID": "20310460",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Eau de toilette. Fragrance pyramid includes notes of bergamot, pear and peony. A hypnotic and fun fragrance.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/dcaa/4e49/cbac4a9a8ef5/b5f9c0522651/20310460999-000-e1/20310460999-000-e1.jpg?ts=1774457053597&w=1920",
+        "https://static.zara.net/assets/public/69fb/76e7/57f44255a04a/b4bfe0783509/20310460999-000-e2/20310460999-000-e2.jpg?ts=1774457050871&w=1920",
+        "https://static.zara.net/assets/public/4e0e/2f81/a9eb4ee9b3ff/24d81ff86d68/20310460999-e3/20310460999-e3.jpg?ts=1773153899725&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HELLO KITTY © EDT 50 ML (1.7 FL.OZ) - ONE SIZE ONLY",
+          "sku": "545494763-999-99",
+          "mpn": "545494763-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/dcaa/4e49/cbac4a9a8ef5/b5f9c0522651/20310460999-000-e1/20310460999-000-e1.jpg?ts=1774457053597&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/hello-kitty---edt-50-ml--1-7-fl-oz--p20310460.html?v1=545494763",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HELLO KITTY © EDT 50 ML (1.7 FL.OZ)",
+      "product_group_id": "20310460",
+      "brand": "ZARA",
+      "description": "Eau de toilette. Fragrance pyramid includes notes of bergamot, pear and peony. A hypnotic and fun fragrance.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HELLO KITTY © EDT 50 ML (1.7 FL.OZ) - ONE SIZE ONLY",
+          "sku": "545494763-999-99",
+          "mpn": "545494763-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "17.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/hello-kitty---edt-50-ml--1-7-fl-oz--p20310460.html?v1=545494763",
+          "images": [
+            "https://static.zara.net/assets/public/dcaa/4e49/cbac4a9a8ef5/b5f9c0522651/20310460999-000-e1/20310460999-000-e1.jpg?ts=1774457053597&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/dcaa/4e49/cbac4a9a8ef5/b5f9c0522651/20310460999-000-e1/20310460999-000-e1.jpg?ts=1774457053597&w=1920",
+        "https://static.zara.net/assets/public/69fb/76e7/57f44255a04a/b4bfe0783509/20310460999-000-e2/20310460999-000-e2.jpg?ts=1774457050871&w=1920",
+        "https://static.zara.net/assets/public/4e0e/2f81/a9eb4ee9b3ff/24d81ff86d68/20310460999-e3/20310460999-e3.jpg?ts=1773153899725&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nEau de toilette. Fragrance pyramid includes notes of bergamot, pear and peony. A hypnotic and fun fragrance.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "07f1cbc949393bcb9fd42b192010ca8199a54ac0c722851718e62aded5a357a9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

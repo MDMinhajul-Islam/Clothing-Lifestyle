@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:04319700",
+  "source_url": "https://www.zara.com/us/en/pack-of-three-flower-hair-clips-p04319700.html",
+  "final_url": "https://www.zara.com/us/en/pack-of-three-flower-hair-clips-p04319700.html",
+  "canonical_url": "https://www.zara.com/us/en/pack-of-three-flower-hair-clips-p04319700.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PACK OF THREE FLORAL HAIR CLIPS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PACK OF THREE FLORAL HAIR CLIPS",
+      "url": "https://www.zara.com/us/en/pack-of-three-flower-hair-clips-p04319700.html",
+      "productGroupID": "04319700",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of three barrette-style hair clips with floral appliqué.\nContains small parts; not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3ac0/0742/dedb41a693cf/327b6720b022/04319700330-e1/04319700330-e1.jpg?ts=1783336008952&w=1920",
+        "https://static.zara.net/assets/public/bde8/4485/a8ab46bb8f93/77d16cc290c5/04319700330-e2/04319700330-e2.jpg?ts=1783336009455&w=1920",
+        "https://static.zara.net/assets/public/cc7d/57ff/7bef4546ad3c/3eac761303a1/04319700330-e3/04319700330-e3.jpg?ts=1783336009699&w=1920",
+        "https://static.zara.net/assets/public/b10d/2867/3e5f4e4789c2/b6401e504096/04319700330-e5/04319700330-e5.jpg?ts=1783336009184&w=1920"
+      ],
+      "material": "100% resin",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% resin"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PACK OF THREE FLORAL HAIR CLIPS - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545732278-330-14",
+          "mpn": "545732278-330-14",
+          "color": "Multicolored",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3ac0/0742/dedb41a693cf/327b6720b022/04319700330-e1/04319700330-e1.jpg?ts=1783336008952&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/pack-of-three-flower-hair-clips-p04319700.html?v1=545732278",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PACK OF THREE FLORAL HAIR CLIPS",
+      "product_group_id": "04319700",
+      "brand": "ZARA",
+      "description": "Pack of three barrette-style hair clips with floral appliqué.\nContains small parts; not recommended for children under 3 years old.",
+      "material": "100% resin",
+      "composition": "OUTER SHELL: 100% resin",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PACK OF THREE FLORAL HAIR CLIPS - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545732278-330-14",
+          "mpn": "545732278-330-14",
+          "color_name": "Multicolored",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pack-of-three-flower-hair-clips-p04319700.html?v1=545732278",
+          "images": [
+            "https://static.zara.net/assets/public/3ac0/0742/dedb41a693cf/327b6720b022/04319700330-e1/04319700330-e1.jpg?ts=1783336008952&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3ac0/0742/dedb41a693cf/327b6720b022/04319700330-e1/04319700330-e1.jpg?ts=1783336008952&w=1920",
+        "https://static.zara.net/assets/public/bde8/4485/a8ab46bb8f93/77d16cc290c5/04319700330-e2/04319700330-e2.jpg?ts=1783336009455&w=1920",
+        "https://static.zara.net/assets/public/cc7d/57ff/7bef4546ad3c/3eac761303a1/04319700330-e3/04319700330-e3.jpg?ts=1783336009699&w=1920",
+        "https://static.zara.net/assets/public/b10d/2867/3e5f4e4789c2/b6401e504096/04319700330-e5/04319700330-e5.jpg?ts=1783336009184&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nPack of three barrette-style hair clips with floral appliqué.\nContains small parts; not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9c19d3553207c1df3da069f1769807611fbd8d971137d1b5976b1505f164d33f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

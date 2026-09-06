@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:49300099",
+  "source_url": "https://www.zara.com/us/en/metal-first-aid-box-p49300099.html",
+  "final_url": "https://www.zara.com/us/en/metal-first-aid-box-p49300099.html",
+  "canonical_url": "https://www.zara.com/us/en/metal-first-aid-box-p49300099.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "METAL FIRST AID BOX",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "METAL FIRST AID BOX",
+      "url": "https://www.zara.com/us/en/metal-first-aid-box-p49300099.html",
+      "productGroupID": "49300099",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Rectangular steel first aid box with a smooth finish. The interior features four small square compartments and one larger rectangular compartment. Designed with \"First Aid Box\" and \"Explorers\" text, along with a forest and mountain illustration.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/aa2a/b44e/e8324ff48697/5291c9d29ad8/49300099600-e1/49300099600-e1.jpg?ts=1782228104320&w=1920",
+        "https://static.zara.net/assets/public/e8a7/2902/7f5449a9b258/1cd7d1f57e6f/49300099600-e2/49300099600-e2.jpg?ts=1782228105575&w=1920",
+        "https://static.zara.net/assets/public/0921/7455/a31946f2b40a/a88f6699ba4f/49300099600-e3/49300099600-e3.jpg?ts=1782228103641&w=1920",
+        "https://static.zara.net/assets/public/26e6/191b/9e544e969ec8/10482ed4b7b5/49300099600-e4/49300099600-e4.jpg?ts=1782228104009&w=1920"
+      ],
+      "material": "100% steel",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% steel"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "METAL FIRST AID BOX - Red - ONE SIZE ONLY",
+          "sku": "545404788-600-99",
+          "mpn": "545404788-600-99",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/aa2a/b44e/e8324ff48697/5291c9d29ad8/49300099600-e1/49300099600-e1.jpg?ts=1782228104320&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/metal-first-aid-box-p49300099.html?v1=545404788",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "METAL FIRST AID BOX",
+      "product_group_id": "49300099",
+      "brand": "ZARAHOME",
+      "description": "Rectangular steel first aid box with a smooth finish. The interior features four small square compartments and one larger rectangular compartment. Designed with \"First Aid Box\" and \"Explorers\" text, along with a forest and mountain illustration.",
+      "material": "100% steel",
+      "composition": "OUTER SHELL: 100% steel",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "METAL FIRST AID BOX - Red - ONE SIZE ONLY",
+          "sku": "545404788-600-99",
+          "mpn": "545404788-600-99",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metal-first-aid-box-p49300099.html?v1=545404788",
+          "images": [
+            "https://static.zara.net/assets/public/aa2a/b44e/e8324ff48697/5291c9d29ad8/49300099600-e1/49300099600-e1.jpg?ts=1782228104320&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/aa2a/b44e/e8324ff48697/5291c9d29ad8/49300099600-e1/49300099600-e1.jpg?ts=1782228104320&w=1920",
+        "https://static.zara.net/assets/public/e8a7/2902/7f5449a9b258/1cd7d1f57e6f/49300099600-e2/49300099600-e2.jpg?ts=1782228105575&w=1920",
+        "https://static.zara.net/assets/public/0921/7455/a31946f2b40a/a88f6699ba4f/49300099600-e3/49300099600-e3.jpg?ts=1782228103641&w=1920",
+        "https://static.zara.net/assets/public/26e6/191b/9e544e969ec8/10482ed4b7b5/49300099600-e4/49300099600-e4.jpg?ts=1782228104009&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nRectangular steel first aid box with a smooth finish. The interior features four small square compartments and one larger rectangular compartment. Designed with \"First Aid Box\" and \"Explorers\" text, along with a forest and mountain illustration.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b9cbd1b7a806133979d6785ee54cf96458fe24f9985db872a6087546ae90ef27",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

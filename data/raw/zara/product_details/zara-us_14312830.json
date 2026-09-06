@@ -1,0 +1,477 @@
+{
+  "product_id": "zara-us:14312830",
+  "source_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html",
+  "final_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html",
+  "canonical_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TECHNICAL MESH SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TECHNICAL MESH SNEAKERS",
+      "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html",
+      "productGroupID": "14312830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Technical sneakers featuring mesh detailing. Fastens with elastic laces and an adjustable toggle, with a back pull tab for easy entry. Finished with a rubber sole and OrthoLite® insole.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920",
+        "https://static.zara.net/assets/public/c417/2c18/bd5f4320a218/0df4323d0331/14312830002-e2/14312830002-e2.jpg?ts=1781099158554&w=1920",
+        "https://static.zara.net/assets/public/c44b/5c49/bde74b84a84c/e0156cab497a/14312830002-e3/14312830002-e3.jpg?ts=1781099158115&w=1920",
+        "https://static.zara.net/assets/public/062a/93fd/1ecc4cfe8a06/36094bed2ff8/14312830002-e4/14312830002-e4.jpg?ts=1781099159961&w=1920",
+        "https://static.zara.net/assets/public/cada/a7b6/7bbc4756bdc2/a0a04b3697d1/14312830002-e5/14312830002-e5.jpg?ts=1781099160176&w=1920",
+        "https://static.zara.net/assets/public/2635/682d/051e442089a9/08621910269a/14312830002-e6/14312830002-e6.jpg?ts=1781099158477&w=1920",
+        "https://static.zara.net/assets/public/facc/0492/17214bf8997b/768cb54370e0/14312830002-e7/14312830002-e7.jpg?ts=1781099159067&w=1920",
+        "https://static.zara.net/assets/public/533b/43e9/c0e649078c01/707ac786d3f3/14312830002-e8/14312830002-e8.jpg?ts=1781099158791&w=1920"
+      ],
+      "material": "polyester/polyurethane thermoplastic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "60% polyester, 40% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 12½ (7.4 INCHES)",
+          "sku": "545496275-002-30",
+          "mpn": "545496275-002-30",
+          "color": "Off White",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 13½ (7.7 INCHES)",
+          "sku": "545496275-002-31",
+          "mpn": "545496275-002-31",
+          "color": "Off White",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 1 (8.0 INCHES)",
+          "sku": "545496275-002-32",
+          "mpn": "545496275-002-32",
+          "color": "Off White",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 2 (8.2 INCHES)",
+          "sku": "545496275-002-33",
+          "mpn": "545496275-002-33",
+          "color": "Off White",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 2½ (8.5 INCHES)",
+          "sku": "545496275-002-34",
+          "mpn": "545496275-002-34",
+          "color": "Off White",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 3½ (8.8 INCHES)",
+          "sku": "545496275-002-35",
+          "mpn": "545496275-002-35",
+          "color": "Off White",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 4 (9.0 INCHES)",
+          "sku": "545496275-002-36",
+          "mpn": "545496275-002-36",
+          "color": "Off White",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 5 (9.3 INCHES)",
+          "sku": "545496275-002-37",
+          "mpn": "545496275-002-37",
+          "color": "Off White",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 5½ (9.5 INCHES)",
+          "sku": "545496275-002-38",
+          "mpn": "545496275-002-38",
+          "color": "Off White",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 6 (9.8 INCHES)",
+          "sku": "545496275-002-39",
+          "mpn": "545496275-002-39",
+          "color": "Off White",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 7 (10.0 INCHES)",
+          "sku": "545496275-002-40",
+          "mpn": "545496275-002-40",
+          "color": "Off White",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TECHNICAL MESH SNEAKERS",
+      "product_group_id": "14312830",
+      "brand": "ZARA",
+      "description": "Technical sneakers featuring mesh detailing. Fastens with elastic laces and an adjustable toggle, with a back pull tab for easy entry. Finished with a rubber sole and OrthoLite® insole.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "polyester/polyurethane thermoplastic",
+      "composition": "UPPER: 60% polyester, 40% polyurethane thermoplastic | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 12½ (7.4 INCHES)",
+          "sku": "545496275-002-30",
+          "mpn": "545496275-002-30",
+          "color_name": "Off White",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 13½ (7.7 INCHES)",
+          "sku": "545496275-002-31",
+          "mpn": "545496275-002-31",
+          "color_name": "Off White",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 1 (8.0 INCHES)",
+          "sku": "545496275-002-32",
+          "mpn": "545496275-002-32",
+          "color_name": "Off White",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 2 (8.2 INCHES)",
+          "sku": "545496275-002-33",
+          "mpn": "545496275-002-33",
+          "color_name": "Off White",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 2½ (8.5 INCHES)",
+          "sku": "545496275-002-34",
+          "mpn": "545496275-002-34",
+          "color_name": "Off White",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 3½ (8.8 INCHES)",
+          "sku": "545496275-002-35",
+          "mpn": "545496275-002-35",
+          "color_name": "Off White",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 4 (9.0 INCHES)",
+          "sku": "545496275-002-36",
+          "mpn": "545496275-002-36",
+          "color_name": "Off White",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 5 (9.3 INCHES)",
+          "sku": "545496275-002-37",
+          "mpn": "545496275-002-37",
+          "color_name": "Off White",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 5½ (9.5 INCHES)",
+          "sku": "545496275-002-38",
+          "mpn": "545496275-002-38",
+          "color_name": "Off White",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 6 (9.8 INCHES)",
+          "sku": "545496275-002-39",
+          "mpn": "545496275-002-39",
+          "color_name": "Off White",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL MESH SNEAKERS - Off White - 7 (10.0 INCHES)",
+          "sku": "545496275-002-40",
+          "mpn": "545496275-002-40",
+          "color_name": "Off White",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "69.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-mesh-sneakers-p14312830.html?v1=545496275",
+          "images": [
+            "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a972/b201/f17b4ce1810d/794aac3dde44/14312830002-e1/14312830002-e1.jpg?ts=1781099157935&w=1920",
+        "https://static.zara.net/assets/public/c417/2c18/bd5f4320a218/0df4323d0331/14312830002-e2/14312830002-e2.jpg?ts=1781099158554&w=1920",
+        "https://static.zara.net/assets/public/c44b/5c49/bde74b84a84c/e0156cab497a/14312830002-e3/14312830002-e3.jpg?ts=1781099158115&w=1920",
+        "https://static.zara.net/assets/public/062a/93fd/1ecc4cfe8a06/36094bed2ff8/14312830002-e4/14312830002-e4.jpg?ts=1781099159961&w=1920",
+        "https://static.zara.net/assets/public/cada/a7b6/7bbc4756bdc2/a0a04b3697d1/14312830002-e5/14312830002-e5.jpg?ts=1781099160176&w=1920",
+        "https://static.zara.net/assets/public/2635/682d/051e442089a9/08621910269a/14312830002-e6/14312830002-e6.jpg?ts=1781099158477&w=1920",
+        "https://static.zara.net/assets/public/facc/0492/17214bf8997b/768cb54370e0/14312830002-e7/14312830002-e7.jpg?ts=1781099159067&w=1920",
+        "https://static.zara.net/assets/public/533b/43e9/c0e649078c01/707ac786d3f3/14312830002-e8/14312830002-e8.jpg?ts=1781099158791&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nTechnical sneakers featuring mesh detailing. Fastens with elastic laces and an adjustable toggle, with a back pull tab for easy entry. Finished with a rubber sole and OrthoLite® insole.\nSIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9a29ef01a9e765e28dce50afaea172f8d0df41c8d60d27b4a0aa2bfe91adfaac",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

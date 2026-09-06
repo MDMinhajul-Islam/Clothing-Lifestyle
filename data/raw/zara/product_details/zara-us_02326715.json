@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:02326715",
+  "source_url": "https://www.zara.com/us/en/bow-applique-headband-p02326715.html",
+  "final_url": "https://www.zara.com/us/en/bow-applique-headband-p02326715.html",
+  "canonical_url": "https://www.zara.com/us/en/bow-applique-headband-p02326715.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BOW APPLIQUÉ HEADBAND",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BOW APPLIQUÉ HEADBAND",
+      "url": "https://www.zara.com/us/en/bow-applique-headband-p02326715.html",
+      "productGroupID": "02326715",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Headband with bow appliqué. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b5d7/6574/e04648d48a87/1b68b6d8ee71/02326715401-e1/02326715401-e1.jpg?ts=1784552833146&w=1920",
+        "https://static.zara.net/assets/public/7705/bd93/0ecf4322bd6b/ca6f03965703/02326715401-e2/02326715401-e2.jpg?ts=1784552832719&w=1920",
+        "https://static.zara.net/assets/public/3ada/cbc9/ed3e459fa49f/429a0a1217e3/02326715401-e3/02326715401-e3.jpg?ts=1784552833147&w=1920",
+        "https://static.zara.net/assets/public/12eb/fab9/27764367b598/5b182c2a0588/02326715401-e4/02326715401-e4.jpg?ts=1784552832699&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BOW APPLIQUÉ HEADBAND - Navy blue - 14",
+          "sku": "551350362-401-14",
+          "mpn": "551350362-401-14",
+          "color": "Navy blue",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/b5d7/6574/e04648d48a87/1b68b6d8ee71/02326715401-e1/02326715401-e1.jpg?ts=1784552833146&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/bow-applique-headband-p02326715.html?v1=551350362",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BOW APPLIQUÉ HEADBAND - Maroon - 14",
+          "sku": "551350362-605-14",
+          "mpn": "551350362-605-14",
+          "color": "Maroon",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/4f9a/b0b0/42524c34b0cb/8f427721d35e/02326715605-e1/02326715605-e1.jpg?ts=1784552836783&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/bow-applique-headband-p02326715.html?v1=551350363",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BOW APPLIQUÉ HEADBAND",
+      "product_group_id": "02326715",
+      "brand": "ZARA",
+      "description": "Headband with bow appliqué. Contains small parts, not recommended for children under 3 years old.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BOW APPLIQUÉ HEADBAND - Navy blue - 14",
+          "sku": "551350362-401-14",
+          "mpn": "551350362-401-14",
+          "color_name": "Navy blue",
+          "size_name": "14",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-applique-headband-p02326715.html?v1=551350362",
+          "images": [
+            "https://static.zara.net/assets/public/b5d7/6574/e04648d48a87/1b68b6d8ee71/02326715401-e1/02326715401-e1.jpg?ts=1784552833146&w=1920"
+          ]
+        },
+        {
+          "name": "BOW APPLIQUÉ HEADBAND - Maroon - 14",
+          "sku": "551350362-605-14",
+          "mpn": "551350362-605-14",
+          "color_name": "Maroon",
+          "size_name": "14",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-applique-headband-p02326715.html?v1=551350363",
+          "images": [
+            "https://static.zara.net/assets/public/4f9a/b0b0/42524c34b0cb/8f427721d35e/02326715605-e1/02326715605-e1.jpg?ts=1784552836783&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b5d7/6574/e04648d48a87/1b68b6d8ee71/02326715401-e1/02326715401-e1.jpg?ts=1784552833146&w=1920",
+        "https://static.zara.net/assets/public/7705/bd93/0ecf4322bd6b/ca6f03965703/02326715401-e2/02326715401-e2.jpg?ts=1784552832719&w=1920",
+        "https://static.zara.net/assets/public/3ada/cbc9/ed3e459fa49f/429a0a1217e3/02326715401-e3/02326715401-e3.jpg?ts=1784552833147&w=1920",
+        "https://static.zara.net/assets/public/12eb/fab9/27764367b598/5b182c2a0588/02326715401-e4/02326715401-e4.jpg?ts=1784552832699&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Navy blue",
+    "Maroon"
+  ],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nHeadband with bow appliqué. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "9.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "9.90",
+    "dom_price": "9.90",
+    "normalized_price": "9.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3cf01f264232213c1ea4e25c87bceca38ecfbb41e8606ce7def520504aef7cb3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

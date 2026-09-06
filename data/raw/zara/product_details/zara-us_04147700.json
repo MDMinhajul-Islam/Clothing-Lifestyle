@@ -1,0 +1,677 @@
+{
+  "product_id": "zara-us:04147700",
+  "source_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html",
+  "final_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html",
+  "canonical_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RUFFLED DENIM SKIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RUFFLED DENIM SKIRT",
+      "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html",
+      "productGroupID": "04147700",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Skirt with adjustable interior waistband, front button closure, and interior shorts. Front pockets. Flounced hem.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920",
+        "https://static.zara.net/assets/public/820a/e846/d2b048b393c4/baca9e261b84/03777703400-e2/03777703400-e2.jpg?ts=1783686749466&w=1920",
+        "https://static.zara.net/assets/public/c0fe/5dd9/75c249b49c07/038892d525c0/03777703400-e3/03777703400-e3.jpg?ts=1783686750321&w=1920",
+        "https://static.zara.net/assets/public/c69d/d377/93144196a6bf/3bf7a215e41e/03777703400-e4/03777703400-e4.jpg?ts=1783686749111&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "60% cotton, 40% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461834-400-7",
+          "mpn": "545461834-400-7",
+          "color": "Blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 8-9 years (51,6 INCHES)",
+          "sku": "545461834-400-9",
+          "mpn": "545461834-400-9",
+          "color": "Blue",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461834-400-10",
+          "mpn": "545461834-400-10",
+          "color": "Blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 11-12 years (58,3 INCHES)",
+          "sku": "545461834-400-12",
+          "mpn": "545461834-400-12",
+          "color": "Blue",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 12-13 years (61,4 INCHES)",
+          "sku": "545461834-400-13",
+          "mpn": "545461834-400-13",
+          "color": "Blue",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461834-400-14",
+          "mpn": "545461834-400-14",
+          "color": "Blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Black - 6-7 years (48,0 INCHES)",
+          "sku": "545461834-800-7",
+          "mpn": "545461834-800-7",
+          "color": "Black",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Black - 8-9 years (51,6 INCHES)",
+          "sku": "545461834-800-9",
+          "mpn": "545461834-800-9",
+          "color": "Black",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Black - 9-10 years (55,1 INCHES)",
+          "sku": "545461834-800-10",
+          "mpn": "545461834-800-10",
+          "color": "Black",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Black - 11-12 years (58,3 INCHES)",
+          "sku": "545461834-800-12",
+          "mpn": "545461834-800-12",
+          "color": "Black",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Black - 12-13 years (61,4 INCHES)",
+          "sku": "545461834-800-13",
+          "mpn": "545461834-800-13",
+          "color": "Black",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Black - 13-14 years (64,6 INCHES)",
+          "sku": "545461834-800-14",
+          "mpn": "545461834-800-14",
+          "color": "Black",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461834-407-7",
+          "mpn": "545461834-407-7",
+          "color": "Blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 8-9 years (51,6 INCHES)",
+          "sku": "545461834-407-9",
+          "mpn": "545461834-407-9",
+          "color": "Blue",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461834-407-10",
+          "mpn": "545461834-407-10",
+          "color": "Blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 11-12 years (58,3 INCHES)",
+          "sku": "545461834-407-12",
+          "mpn": "545461834-407-12",
+          "color": "Blue",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 12-13 years (61,4 INCHES)",
+          "sku": "545461834-407-13",
+          "mpn": "545461834-407-13",
+          "color": "Blue",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUFFLED DENIM SKIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461834-407-14",
+          "mpn": "545461834-407-14",
+          "color": "Blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RUFFLED DENIM SKIRT",
+      "product_group_id": "04147700",
+      "brand": "ZARA",
+      "description": "Skirt with adjustable interior waistband, front button closure, and interior shorts. Front pockets. Flounced hem.",
+      "material": null,
+      "composition": "LINING: 60% cotton, 40% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461834-400-7",
+          "mpn": "545461834-400-7",
+          "color_name": "Blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+          "images": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 8-9 years (51,6 INCHES)",
+          "sku": "545461834-400-9",
+          "mpn": "545461834-400-9",
+          "color_name": "Blue",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+          "images": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461834-400-10",
+          "mpn": "545461834-400-10",
+          "color_name": "Blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+          "images": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 11-12 years (58,3 INCHES)",
+          "sku": "545461834-400-12",
+          "mpn": "545461834-400-12",
+          "color_name": "Blue",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+          "images": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 12-13 years (61,4 INCHES)",
+          "sku": "545461834-400-13",
+          "mpn": "545461834-400-13",
+          "color_name": "Blue",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+          "images": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461834-400-14",
+          "mpn": "545461834-400-14",
+          "color_name": "Blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461834",
+          "images": [
+            "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Black - 6-7 years (48,0 INCHES)",
+          "sku": "545461834-800-7",
+          "mpn": "545461834-800-7",
+          "color_name": "Black",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+          "images": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Black - 8-9 years (51,6 INCHES)",
+          "sku": "545461834-800-9",
+          "mpn": "545461834-800-9",
+          "color_name": "Black",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+          "images": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Black - 9-10 years (55,1 INCHES)",
+          "sku": "545461834-800-10",
+          "mpn": "545461834-800-10",
+          "color_name": "Black",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+          "images": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Black - 11-12 years (58,3 INCHES)",
+          "sku": "545461834-800-12",
+          "mpn": "545461834-800-12",
+          "color_name": "Black",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+          "images": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Black - 12-13 years (61,4 INCHES)",
+          "sku": "545461834-800-13",
+          "mpn": "545461834-800-13",
+          "color_name": "Black",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+          "images": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Black - 13-14 years (64,6 INCHES)",
+          "sku": "545461834-800-14",
+          "mpn": "545461834-800-14",
+          "color_name": "Black",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461835",
+          "images": [
+            "https://static.zara.net/assets/public/9657/c628/279d42938714/226c6f1e1b24/04441721800-e1/04441721800-e1.jpg?ts=1783686744167&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461834-407-7",
+          "mpn": "545461834-407-7",
+          "color_name": "Blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+          "images": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 8-9 years (51,6 INCHES)",
+          "sku": "545461834-407-9",
+          "mpn": "545461834-407-9",
+          "color_name": "Blue",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+          "images": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461834-407-10",
+          "mpn": "545461834-407-10",
+          "color_name": "Blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+          "images": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 11-12 years (58,3 INCHES)",
+          "sku": "545461834-407-12",
+          "mpn": "545461834-407-12",
+          "color_name": "Blue",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+          "images": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 12-13 years (61,4 INCHES)",
+          "sku": "545461834-407-13",
+          "mpn": "545461834-407-13",
+          "color_name": "Blue",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+          "images": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ]
+        },
+        {
+          "name": "RUFFLED DENIM SKIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461834-407-14",
+          "mpn": "545461834-407-14",
+          "color_name": "Blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ruffled-denim-skirt-p04147700.html?v1=545461836",
+          "images": [
+            "https://static.zara.net/assets/public/9677/175c/1b3c4540916a/1f42fdc3908b/04147700407-e1/04147700407-e1.jpg?ts=1786347944184&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2d53/3fdf/a49e4fb6bfbe/b70520dec256/03777703400-e1/03777703400-e1.jpg?ts=1783686746240&w=1920",
+        "https://static.zara.net/assets/public/820a/e846/d2b048b393c4/baca9e261b84/03777703400-e2/03777703400-e2.jpg?ts=1783686749466&w=1920",
+        "https://static.zara.net/assets/public/c0fe/5dd9/75c249b49c07/038892d525c0/03777703400-e3/03777703400-e3.jpg?ts=1783686750321&w=1920",
+        "https://static.zara.net/assets/public/c69d/d377/93144196a6bf/3bf7a215e41e/03777703400-e4/03777703400-e4.jpg?ts=1783686749111&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Black"
+  ],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nSkirt with adjustable interior waistband, front button closure, and interior shorts. Front pockets. Flounced hem.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 6,
+  "variants_count": 18,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d371723d25bd2b0402ac728fd749ce434ecc84f97fb942b3af902d81ab578671",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

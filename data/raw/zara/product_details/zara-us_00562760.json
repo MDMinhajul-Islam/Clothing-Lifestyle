@@ -1,0 +1,272 @@
+{
+  "product_id": "zara-us:00562760",
+  "source_url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html",
+  "final_url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html",
+  "canonical_url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "100% LEATHER JACKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "100% LEATHER JACKET",
+      "url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html",
+      "productGroupID": "00562760",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leather jacket with shirt collar and long sleeves. Front button closure. Front patch pockets. Tonal interior lining. 100% leather.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920",
+        "https://static.zara.net/assets/public/eef6/e9e1/c52443aea1c8/703d3abe0b1a/00562760501-e2/00562760501-e2.jpg?ts=1783430977813&w=1920",
+        "https://static.zara.net/assets/public/2ef7/4770/63c14e05be87/b85e29845caf/00562760501-e3/00562760501-e3.jpg?ts=1783430977930&w=1920",
+        "https://static.zara.net/assets/public/6f95/9362/b1344cd49c98/14e070a69dd0/00562760501-e4/00562760501-e4.jpg?ts=1783430977310&w=1920",
+        "https://static.zara.net/assets/public/1f2c/b866/fd3d4934bced/935283689015/00562760501-e5/00562760501-e5.jpg?ts=1783430978151&w=1920",
+        "https://static.zara.net/assets/public/9f11/c962/da614484b81c/41258842beff/00562760501-e6/00562760501-e6.jpg?ts=1783430978181&w=1920",
+        "https://static.zara.net/assets/public/529b/c1be/02664953bf0a/d9203791e9d7/00562760501-e7/00562760501-e7.jpg?ts=1783430978059&w=1920",
+        "https://static.zara.net/assets/public/ba26/1603/32b847ce8dc2/5b3d06434b72/00562760501-e8/00562760501-e8.jpg?ts=1785751532614&w=1920",
+        "https://static.zara.net/assets/public/e486/fd1d/ffab421ab8b8/af9b85b3b620/00562760501-p/00562760501-p.jpg?ts=1785257541756&w=1920",
+        "https://static.zara.net/assets/public/f9e4/681e/78264e799dbf/b3b2e14d8b8a/00562760501-a1/00562760501-a1.jpg?ts=1785257545901&w=1920"
+      ],
+      "material": "100% pig leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% pig leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "100% LEATHER JACKET - Bottle green - 6-7 years (47,24 INCHES)",
+          "sku": "548664681-501-32",
+          "mpn": "548664681-501-32",
+          "color": "Bottle green",
+          "size": "6-7 years (47,24 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "139",
+            "url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% LEATHER JACKET - Bottle green - 8-9 years (51,18 INCHES)",
+          "sku": "548664681-501-33",
+          "mpn": "548664681-501-33",
+          "color": "Bottle green",
+          "size": "8-9 years (51,18 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "139",
+            "url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% LEATHER JACKET - Bottle green - 9-10 years (55,12 INCHES)",
+          "sku": "548664681-501-34",
+          "mpn": "548664681-501-34",
+          "color": "Bottle green",
+          "size": "9-10 years (55,12 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "139",
+            "url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% LEATHER JACKET - Bottle green - 11-12 years (59,84 INCHES)",
+          "sku": "548664681-501-35",
+          "mpn": "548664681-501-35",
+          "color": "Bottle green",
+          "size": "11-12 years (59,84 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "139",
+            "url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "100% LEATHER JACKET - Bottle green - 13-14 years (64,57 INCHES)",
+          "sku": "548664681-501-36",
+          "mpn": "548664681-501-36",
+          "color": "Bottle green",
+          "size": "13-14 years (64,57 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "139",
+            "url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "100% LEATHER JACKET",
+      "product_group_id": "00562760",
+      "brand": "ZARA",
+      "description": "Leather jacket with shirt collar and long sleeves. Front button closure. Front patch pockets. Tonal interior lining. 100% leather.",
+      "material": "100% pig leather",
+      "composition": "OUTER SHELL: 100% pig leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "100% LEATHER JACKET - Bottle green - 6-7 years (47,24 INCHES)",
+          "sku": "548664681-501-32",
+          "mpn": "548664681-501-32",
+          "color_name": "Bottle green",
+          "size_name": "6-7 years (47,24 INCHES)",
+          "price": "139.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+          "images": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ]
+        },
+        {
+          "name": "100% LEATHER JACKET - Bottle green - 8-9 years (51,18 INCHES)",
+          "sku": "548664681-501-33",
+          "mpn": "548664681-501-33",
+          "color_name": "Bottle green",
+          "size_name": "8-9 years (51,18 INCHES)",
+          "price": "139.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+          "images": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ]
+        },
+        {
+          "name": "100% LEATHER JACKET - Bottle green - 9-10 years (55,12 INCHES)",
+          "sku": "548664681-501-34",
+          "mpn": "548664681-501-34",
+          "color_name": "Bottle green",
+          "size_name": "9-10 years (55,12 INCHES)",
+          "price": "139.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+          "images": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ]
+        },
+        {
+          "name": "100% LEATHER JACKET - Bottle green - 11-12 years (59,84 INCHES)",
+          "sku": "548664681-501-35",
+          "mpn": "548664681-501-35",
+          "color_name": "Bottle green",
+          "size_name": "11-12 years (59,84 INCHES)",
+          "price": "139.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+          "images": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ]
+        },
+        {
+          "name": "100% LEATHER JACKET - Bottle green - 13-14 years (64,57 INCHES)",
+          "sku": "548664681-501-36",
+          "mpn": "548664681-501-36",
+          "color_name": "Bottle green",
+          "size_name": "13-14 years (64,57 INCHES)",
+          "price": "139.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-leather-jacket-p00562760.html?v1=548664681",
+          "images": [
+            "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d4d9/623f/329e4bed9eef/1cf647ce5062/00562760501-e1/00562760501-e1.jpg?ts=1783430977647&w=1920",
+        "https://static.zara.net/assets/public/eef6/e9e1/c52443aea1c8/703d3abe0b1a/00562760501-e2/00562760501-e2.jpg?ts=1783430977813&w=1920",
+        "https://static.zara.net/assets/public/2ef7/4770/63c14e05be87/b85e29845caf/00562760501-e3/00562760501-e3.jpg?ts=1783430977930&w=1920",
+        "https://static.zara.net/assets/public/6f95/9362/b1344cd49c98/14e070a69dd0/00562760501-e4/00562760501-e4.jpg?ts=1783430977310&w=1920",
+        "https://static.zara.net/assets/public/1f2c/b866/fd3d4934bced/935283689015/00562760501-e5/00562760501-e5.jpg?ts=1783430978151&w=1920",
+        "https://static.zara.net/assets/public/9f11/c962/da614484b81c/41258842beff/00562760501-e6/00562760501-e6.jpg?ts=1783430978181&w=1920",
+        "https://static.zara.net/assets/public/529b/c1be/02664953bf0a/d9203791e9d7/00562760501-e7/00562760501-e7.jpg?ts=1783430978059&w=1920",
+        "https://static.zara.net/assets/public/ba26/1603/32b847ce8dc2/5b3d06434b72/00562760501-e8/00562760501-e8.jpg?ts=1785751532614&w=1920",
+        "https://static.zara.net/assets/public/e486/fd1d/ffab421ab8b8/af9b85b3b620/00562760501-p/00562760501-p.jpg?ts=1785257541756&w=1920",
+        "https://static.zara.net/assets/public/f9e4/681e/78264e799dbf/b3b2e14d8b8a/00562760501-a1/00562760501-a1.jpg?ts=1785257545901&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "139.00",
+  "rendered_description": "Description\nLeather jacket with shirt collar and long sleeves. Front button closure. Front patch pockets. Tonal interior lining. 100% leather.",
+  "comp_care_text": null,
+  "raw_images_count": 14,
+  "valid_images_count": 10,
+  "variants_count": 5,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "139.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "139.00",
+    "dom_price": "139.00",
+    "normalized_price": "139.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "13d5211e065b19c99a02643852d6bd55ba8afcd39495110d2ccd1f5e91241cde",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

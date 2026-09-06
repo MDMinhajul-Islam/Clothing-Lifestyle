@@ -1,0 +1,671 @@
+{
+  "product_id": "zara-us:05987705",
+  "source_url": "https://www.zara.com/us/en/cardigan-p05987705.html",
+  "final_url": "https://www.zara.com/us/en/cardigan-p05987705.html",
+  "canonical_url": "https://www.zara.com/us/en/cardigan-p05987705.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CARDIGAN",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CARDIGAN",
+      "url": "https://www.zara.com/us/en/cardigan-p05987705.html",
+      "productGroupID": "05987705",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Cardigan with a round neckline and long sleeves. Front button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920",
+        "https://static.zara.net/assets/public/e0e7/ff98/fa0747199867/795ac98ac973/05987705300-090-e1/05987705300-090-e1.jpg?ts=1785312983929&w=1920",
+        "https://static.zara.net/assets/public/8c65/1594/3630454eac85/59b1287fa3cd/05987705300-090-e2/05987705300-090-e2.jpg?ts=1785312983788&w=1920"
+      ],
+      "material": "polyester/polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "79% polyester, 17% polyamide, 4% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Yellow - 6-7 years (48,0 INCHES)",
+          "sku": "587780899-300-7",
+          "mpn": "587780899-300-7",
+          "color": "Yellow",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Yellow - 8-9 years (51,6 INCHES)",
+          "sku": "587780899-300-9",
+          "mpn": "587780899-300-9",
+          "color": "Yellow",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Yellow - 9-10 years (55,1 INCHES)",
+          "sku": "587780899-300-10",
+          "mpn": "587780899-300-10",
+          "color": "Yellow",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Yellow - 11-12 years (58,3 INCHES)",
+          "sku": "587780899-300-12",
+          "mpn": "587780899-300-12",
+          "color": "Yellow",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Yellow - 12-13 years (61,4 INCHES)",
+          "sku": "587780899-300-13",
+          "mpn": "587780899-300-13",
+          "color": "Yellow",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Yellow - 13-14 years (64,6 INCHES)",
+          "sku": "587780899-300-14",
+          "mpn": "587780899-300-14",
+          "color": "Yellow",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Ecru - 6-7 years (48,0 INCHES)",
+          "sku": "587780899-712-7",
+          "mpn": "587780899-712-7",
+          "color": "Ecru",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Ecru - 8-9 years (51,6 INCHES)",
+          "sku": "587780899-712-9",
+          "mpn": "587780899-712-9",
+          "color": "Ecru",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Ecru - 9-10 years (55,1 INCHES)",
+          "sku": "587780899-712-10",
+          "mpn": "587780899-712-10",
+          "color": "Ecru",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Ecru - 11-12 years (58,3 INCHES)",
+          "sku": "587780899-712-12",
+          "mpn": "587780899-712-12",
+          "color": "Ecru",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Ecru - 12-13 years (61,4 INCHES)",
+          "sku": "587780899-712-13",
+          "mpn": "587780899-712-13",
+          "color": "Ecru",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Ecru - 13-14 years (64,6 INCHES)",
+          "sku": "587780899-712-14",
+          "mpn": "587780899-712-14",
+          "color": "Ecru",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Khaki - 6-7 years (48,0 INCHES)",
+          "sku": "587780899-505-7",
+          "mpn": "587780899-505-7",
+          "color": "Khaki",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Khaki - 8-9 years (51,6 INCHES)",
+          "sku": "587780899-505-9",
+          "mpn": "587780899-505-9",
+          "color": "Khaki",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Khaki - 9-10 years (55,1 INCHES)",
+          "sku": "587780899-505-10",
+          "mpn": "587780899-505-10",
+          "color": "Khaki",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Khaki - 11-12 years (58,3 INCHES)",
+          "sku": "587780899-505-12",
+          "mpn": "587780899-505-12",
+          "color": "Khaki",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Khaki - 12-13 years (61,4 INCHES)",
+          "sku": "587780899-505-13",
+          "mpn": "587780899-505-13",
+          "color": "Khaki",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CARDIGAN - Khaki - 13-14 years (64,6 INCHES)",
+          "sku": "587780899-505-14",
+          "mpn": "587780899-505-14",
+          "color": "Khaki",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CARDIGAN",
+      "product_group_id": "05987705",
+      "brand": "ZARA",
+      "description": "Cardigan with a round neckline and long sleeves. Front button closure.",
+      "material": "polyester/polyamide/elastane",
+      "composition": "OUTER SHELL: 79% polyester, 17% polyamide, 4% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CARDIGAN - Yellow - 6-7 years (48,0 INCHES)",
+          "sku": "587780899-300-7",
+          "mpn": "587780899-300-7",
+          "color_name": "Yellow",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+          "images": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Yellow - 8-9 years (51,6 INCHES)",
+          "sku": "587780899-300-9",
+          "mpn": "587780899-300-9",
+          "color_name": "Yellow",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+          "images": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Yellow - 9-10 years (55,1 INCHES)",
+          "sku": "587780899-300-10",
+          "mpn": "587780899-300-10",
+          "color_name": "Yellow",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+          "images": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Yellow - 11-12 years (58,3 INCHES)",
+          "sku": "587780899-300-12",
+          "mpn": "587780899-300-12",
+          "color_name": "Yellow",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+          "images": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Yellow - 12-13 years (61,4 INCHES)",
+          "sku": "587780899-300-13",
+          "mpn": "587780899-300-13",
+          "color_name": "Yellow",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+          "images": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Yellow - 13-14 years (64,6 INCHES)",
+          "sku": "587780899-300-14",
+          "mpn": "587780899-300-14",
+          "color_name": "Yellow",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=587780899",
+          "images": [
+            "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Ecru - 6-7 years (48,0 INCHES)",
+          "sku": "587780899-712-7",
+          "mpn": "587780899-712-7",
+          "color_name": "Ecru",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+          "images": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Ecru - 8-9 years (51,6 INCHES)",
+          "sku": "587780899-712-9",
+          "mpn": "587780899-712-9",
+          "color_name": "Ecru",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+          "images": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Ecru - 9-10 years (55,1 INCHES)",
+          "sku": "587780899-712-10",
+          "mpn": "587780899-712-10",
+          "color_name": "Ecru",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+          "images": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Ecru - 11-12 years (58,3 INCHES)",
+          "sku": "587780899-712-12",
+          "mpn": "587780899-712-12",
+          "color_name": "Ecru",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+          "images": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Ecru - 12-13 years (61,4 INCHES)",
+          "sku": "587780899-712-13",
+          "mpn": "587780899-712-13",
+          "color_name": "Ecru",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+          "images": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Ecru - 13-14 years (64,6 INCHES)",
+          "sku": "587780899-712-14",
+          "mpn": "587780899-712-14",
+          "color_name": "Ecru",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453986",
+          "images": [
+            "https://static.zara.net/assets/public/bd8f/238d/15b444dd85ce/0f157bbceb29/05987705712-e1/05987705712-e1.jpg?ts=1785309532577&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Khaki - 6-7 years (48,0 INCHES)",
+          "sku": "587780899-505-7",
+          "mpn": "587780899-505-7",
+          "color_name": "Khaki",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+          "images": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Khaki - 8-9 years (51,6 INCHES)",
+          "sku": "587780899-505-9",
+          "mpn": "587780899-505-9",
+          "color_name": "Khaki",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+          "images": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Khaki - 9-10 years (55,1 INCHES)",
+          "sku": "587780899-505-10",
+          "mpn": "587780899-505-10",
+          "color_name": "Khaki",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+          "images": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Khaki - 11-12 years (58,3 INCHES)",
+          "sku": "587780899-505-12",
+          "mpn": "587780899-505-12",
+          "color_name": "Khaki",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+          "images": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Khaki - 12-13 years (61,4 INCHES)",
+          "sku": "587780899-505-13",
+          "mpn": "587780899-505-13",
+          "color_name": "Khaki",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+          "images": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ]
+        },
+        {
+          "name": "CARDIGAN - Khaki - 13-14 years (64,6 INCHES)",
+          "sku": "587780899-505-14",
+          "mpn": "587780899-505-14",
+          "color_name": "Khaki",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cardigan-p05987705.html?v1=545453987",
+          "images": [
+            "https://static.zara.net/assets/public/b3f0/451d/ed7340b88873/11562829e621/05987705505-e1/05987705505-e1.jpg?ts=1785309526276&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7ed6/cac2/57d447a29636/df51f260b2a2/05987705300090-p/05987705300090-p.jpg?ts=1787815379228&w=1920",
+        "https://static.zara.net/assets/public/e0e7/ff98/fa0747199867/795ac98ac973/05987705300-090-e1/05987705300-090-e1.jpg?ts=1785312983929&w=1920",
+        "https://static.zara.net/assets/public/8c65/1594/3630454eac85/59b1287fa3cd/05987705300-090-e2/05987705300-090-e2.jpg?ts=1785312983788&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Yellow",
+    "Ecru",
+    "Khaki"
+  ],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nCardigan with a round neckline and long sleeves. Front button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 5,
+  "variants_count": 18,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f6b420dbc5c040ca15dcd21f499caeb09e08101bc920735083754416f62da700",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

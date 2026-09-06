@@ -1,0 +1,144 @@
+{
+  "product_id": "zara-us:11407830",
+  "source_url": "https://www.zara.com/us/en/joma--mexico-world-cup-bowling-bag-p11407830.html",
+  "final_url": "https://www.zara.com/us/en/joma--mexico-world-cup-bowling-bag-p11407830.html",
+  "canonical_url": "https://www.zara.com/us/en/joma--mexico-world-cup-bowling-bag-p11407830.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "JOMA© MEXICO WORLD CUP BOWLING BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "JOMA© MEXICO WORLD CUP BOWLING BAG",
+      "url": "https://www.zara.com/us/en/joma--mexico-world-cup-bowling-bag-p11407830.html",
+      "productGroupID": "11407830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "JOMA© sports bag with a contrasting color design and graphic detail. Features a main compartment with zipper closure, a mesh side pocket, and two handles. Includes an adjustable and detachable shoulder strap.\n\nHeight x Length x Width: 11.8 x 17.7 x 8.7 inches (30 x 45 x 22 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7433/83db/e5b942ef861e/d64723fa7381/11407830500-e1/11407830500-e1.jpg?ts=1779119026943&w=1920",
+        "https://static.zara.net/assets/public/4fbb/0eba/1c4c4ee5b752/96d38d6b62a7/11407830500-e2/11407830500-e2.jpg?ts=1779119029620&w=1920",
+        "https://static.zara.net/assets/public/4d9c/0a4c/8fde421bb4ce/a0c259a9e377/11407830500-e3/11407830500-e3.jpg?ts=1779119028364&w=1920",
+        "https://static.zara.net/assets/public/1a49/bfb4/0a2e4f5cb298/f4788ae49fc9/11407830500-e4/11407830500-e4.jpg?ts=1779119027470&w=1920",
+        "https://static.zara.net/assets/public/8fa0/3939/bd514497a600/56d584a7e4f8/11407830500-e5/11407830500-e5.jpg?ts=1779119028321&w=1920",
+        "https://static.zara.net/assets/public/b187/0bef/0b7040598feb/a7b1f003fece/11407830500-e6/11407830500-e6.jpg?ts=1779119027703&w=1920",
+        "https://static.zara.net/assets/public/3d9d/cb9a/6d2a4a2db8cb/8196d4428a95/11407830500-e7/11407830500-e7.jpg?ts=1779119029091&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyethylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "JOMA© MEXICO WORLD CUP BOWLING BAG - Green - ONE SIZE ONLY",
+          "sku": "545470359-500-53",
+          "mpn": "545470359-500-53",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/7433/83db/e5b942ef861e/d64723fa7381/11407830500-e1/11407830500-e1.jpg?ts=1779119026943&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.99",
+            "url": "https://www.zara.com/us/en/joma--mexico-world-cup-bowling-bag-p11407830.html?v1=545470359",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "JOMA© MEXICO WORLD CUP BOWLING BAG",
+      "product_group_id": "11407830",
+      "brand": "ZARA",
+      "description": "JOMA© sports bag with a contrasting color design and graphic detail. Features a main compartment with zipper closure, a mesh side pocket, and two handles. Includes an adjustable and detachable shoulder strap.\n\nHeight x Length x Width: 11.8 x 17.7 x 8.7 inches (30 x 45 x 22 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester | FILLING: 100% polyethylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "JOMA© MEXICO WORLD CUP BOWLING BAG - Green - ONE SIZE ONLY",
+          "sku": "545470359-500-53",
+          "mpn": "545470359-500-53",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/joma--mexico-world-cup-bowling-bag-p11407830.html?v1=545470359",
+          "images": [
+            "https://static.zara.net/assets/public/7433/83db/e5b942ef861e/d64723fa7381/11407830500-e1/11407830500-e1.jpg?ts=1779119026943&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7433/83db/e5b942ef861e/d64723fa7381/11407830500-e1/11407830500-e1.jpg?ts=1779119026943&w=1920",
+        "https://static.zara.net/assets/public/4fbb/0eba/1c4c4ee5b752/96d38d6b62a7/11407830500-e2/11407830500-e2.jpg?ts=1779119029620&w=1920",
+        "https://static.zara.net/assets/public/4d9c/0a4c/8fde421bb4ce/a0c259a9e377/11407830500-e3/11407830500-e3.jpg?ts=1779119028364&w=1920",
+        "https://static.zara.net/assets/public/1a49/bfb4/0a2e4f5cb298/f4788ae49fc9/11407830500-e4/11407830500-e4.jpg?ts=1779119027470&w=1920",
+        "https://static.zara.net/assets/public/8fa0/3939/bd514497a600/56d584a7e4f8/11407830500-e5/11407830500-e5.jpg?ts=1779119028321&w=1920",
+        "https://static.zara.net/assets/public/b187/0bef/0b7040598feb/a7b1f003fece/11407830500-e6/11407830500-e6.jpg?ts=1779119027703&w=1920",
+        "https://static.zara.net/assets/public/3d9d/cb9a/6d2a4a2db8cb/8196d4428a95/11407830500-e7/11407830500-e7.jpg?ts=1779119029091&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nJOMA© sports bag with a contrasting color design and graphic detail. Features a main compartment with zipper closure, a mesh side pocket, and two handles. Includes an adjustable and detachable shoulder strap.\nHeight x Length x Width: 11.8 x 17.7 x 8.7 inches (30 x 45 x 22 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.99",
+    "original_price": "69.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "39.99",
+    "dom_price": "69.90",
+    "normalized_price": "39.99",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '39.99' != DOM price '69.90'"
+  },
+  "source_content_hash": "bc3b5288176d15eb6ffb716c4eb8429666e58d2c85d8b5383f829af47ca7d980",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44520043",
+  "source_url": "https://www.zara.com/us/en/cream-decorative-ceramic-pitcher-p44520043.html",
+  "final_url": "https://www.zara.com/us/en/cream-decorative-ceramic-pitcher-p44520043.html",
+  "canonical_url": "https://www.zara.com/us/en/cream-decorative-ceramic-pitcher-p44520043.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CREAM DECORATIVE CERAMIC PITCHER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CREAM DECORATIVE CERAMIC PITCHER",
+      "url": "https://www.zara.com/us/en/cream-decorative-ceramic-pitcher-p44520043.html",
+      "productGroupID": "44520043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Decorative ceramic pitcher with a glossy enameled finish in cream. It features a rounded body, narrow neck, curved side handle, and a raised base with a stylized design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/dd13/5cca/5e3e4278bc7c/108e7b295524/44520043733-e1/44520043733-e1.jpg?ts=1779181949862&w=1920",
+        "https://static.zara.net/assets/public/3d90/c50c/c17a4aa1b252/7e6c56640ca9/44520043733-e2/44520043733-e2.jpg?ts=1779181949733&w=1920",
+        "https://static.zara.net/assets/public/3850/c1e7/0f084aa4929a/ae9748a5b884/44520043733-e3/44520043733-e3.jpg?ts=1779181949632&w=1920",
+        "https://static.zara.net/assets/public/cb52/d80f/3bac4b64945d/f3156710e0a3/44520043733-e4/44520043733-e4.jpg?ts=1779181949941&w=1920",
+        "https://static.zara.net/assets/public/0ea0/ac62/8a294e6fa3a5/de89835c8e3c/44520043733-a1/44520043733-a1.jpg?ts=1784104627732&w=1920"
+      ],
+      "material": "100% earthenware",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% earthenware"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CREAM DECORATIVE CERAMIC PITCHER - Cream - ONE SIZE ONLY",
+          "sku": "545461258-733-99",
+          "mpn": "545461258-733-99",
+          "color": "Cream",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/dd13/5cca/5e3e4278bc7c/108e7b295524/44520043733-e1/44520043733-e1.jpg?ts=1779181949862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/cream-decorative-ceramic-pitcher-p44520043.html?v1=545461258",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CREAM DECORATIVE CERAMIC PITCHER",
+      "product_group_id": "44520043",
+      "brand": "ZARAHOME",
+      "description": "Decorative ceramic pitcher with a glossy enameled finish in cream. It features a rounded body, narrow neck, curved side handle, and a raised base with a stylized design.",
+      "material": "100% earthenware",
+      "composition": "OUTER SHELL: 100% earthenware",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CREAM DECORATIVE CERAMIC PITCHER - Cream - ONE SIZE ONLY",
+          "sku": "545461258-733-99",
+          "mpn": "545461258-733-99",
+          "color_name": "Cream",
+          "size_name": "ONE SIZE ONLY",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cream-decorative-ceramic-pitcher-p44520043.html?v1=545461258",
+          "images": [
+            "https://static.zara.net/assets/public/dd13/5cca/5e3e4278bc7c/108e7b295524/44520043733-e1/44520043733-e1.jpg?ts=1779181949862&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/dd13/5cca/5e3e4278bc7c/108e7b295524/44520043733-e1/44520043733-e1.jpg?ts=1779181949862&w=1920",
+        "https://static.zara.net/assets/public/3d90/c50c/c17a4aa1b252/7e6c56640ca9/44520043733-e2/44520043733-e2.jpg?ts=1779181949733&w=1920",
+        "https://static.zara.net/assets/public/3850/c1e7/0f084aa4929a/ae9748a5b884/44520043733-e3/44520043733-e3.jpg?ts=1779181949632&w=1920",
+        "https://static.zara.net/assets/public/cb52/d80f/3bac4b64945d/f3156710e0a3/44520043733-e4/44520043733-e4.jpg?ts=1779181949941&w=1920",
+        "https://static.zara.net/assets/public/0ea0/ac62/8a294e6fa3a5/de89835c8e3c/44520043733-a1/44520043733-a1.jpg?ts=1784104627732&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nDecorative ceramic pitcher with a glossy enameled finish in cream. It features a rounded body, narrow neck, curved side handle, and a raised base with a stylized design.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4972efdccf5e5526b7d455544fddf44bb339135b2530b09f7d933ec36df38993",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

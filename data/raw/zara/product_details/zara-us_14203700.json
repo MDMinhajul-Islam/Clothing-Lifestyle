@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:14203700",
+  "source_url": "https://www.zara.com/us/en/mini-suede-leather-tote-bag-p14203700.html",
+  "final_url": "https://www.zara.com/us/en/mini-suede-leather-tote-bag-p14203700.html",
+  "canonical_url": "https://www.zara.com/us/en/mini-suede-leather-tote-bag-p14203700.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MINI SUEDE LEATHER TOTE BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MINI SUEDE LEATHER TOTE BAG",
+      "url": "https://www.zara.com/us/en/mini-suede-leather-tote-bag-p14203700.html",
+      "productGroupID": "14203700",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Mini tote bag. Made of leather with a suede finish. Inside zip pocket. Hand handles.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9934/4574/329f4e84955c/0b3e69d96f12/14203700100-e1/14203700100-e1.jpg?ts=1769004607655&w=1920",
+        "https://static.zara.net/assets/public/2266/c969/44af4f8a9952/3e04cb227765/14203700100-e2/14203700100-e2.jpg?ts=1769004607155&w=1920",
+        "https://static.zara.net/assets/public/e656/ed23/7a884977858e/adf338aad3a6/14203700100-e3/14203700100-e3.jpg?ts=1769004606438&w=1920",
+        "https://static.zara.net/assets/public/da5e/8cbd/ff164b7d976a/eadb917dfe88/14203700100-e4/14203700100-e4.jpg?ts=1769004608109&w=1920",
+        "https://static.zara.net/assets/public/3376/eef7/32c3478fa61d/9f64de12c362/14203700100-e5/14203700100-e5.jpg?ts=1769004608161&w=1920",
+        "https://static.zara.net/assets/public/2cfd/88c4/405e43ccb7e0/d895a0a07e4f/14203700100-a1/14203700100-a1.jpg?ts=1769012290476&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MINI SUEDE LEATHER TOTE BAG - Brown - ONE SIZE ONLY",
+          "sku": "545413485-100-3",
+          "mpn": "545413485-100-3",
+          "color": "Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/9934/4574/329f4e84955c/0b3e69d96f12/14203700100-e1/14203700100-e1.jpg?ts=1769004607655&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/mini-suede-leather-tote-bag-p14203700.html?v1=545413485",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MINI SUEDE LEATHER TOTE BAG",
+      "product_group_id": "14203700",
+      "brand": "ZARAHOME",
+      "description": "Mini tote bag. Made of leather with a suede finish. Inside zip pocket. Hand handles.",
+      "material": "100% cow leather",
+      "composition": "OUTER SHELL: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MINI SUEDE LEATHER TOTE BAG - Brown - ONE SIZE ONLY",
+          "sku": "545413485-100-3",
+          "mpn": "545413485-100-3",
+          "color_name": "Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mini-suede-leather-tote-bag-p14203700.html?v1=545413485",
+          "images": [
+            "https://static.zara.net/assets/public/9934/4574/329f4e84955c/0b3e69d96f12/14203700100-e1/14203700100-e1.jpg?ts=1769004607655&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9934/4574/329f4e84955c/0b3e69d96f12/14203700100-e1/14203700100-e1.jpg?ts=1769004607655&w=1920",
+        "https://static.zara.net/assets/public/2266/c969/44af4f8a9952/3e04cb227765/14203700100-e2/14203700100-e2.jpg?ts=1769004607155&w=1920",
+        "https://static.zara.net/assets/public/e656/ed23/7a884977858e/adf338aad3a6/14203700100-e3/14203700100-e3.jpg?ts=1769004606438&w=1920",
+        "https://static.zara.net/assets/public/da5e/8cbd/ff164b7d976a/eadb917dfe88/14203700100-e4/14203700100-e4.jpg?ts=1769004608109&w=1920",
+        "https://static.zara.net/assets/public/3376/eef7/32c3478fa61d/9f64de12c362/14203700100-e5/14203700100-e5.jpg?ts=1769004608161&w=1920",
+        "https://static.zara.net/assets/public/2cfd/88c4/405e43ccb7e0/d895a0a07e4f/14203700100-a1/14203700100-a1.jpg?ts=1769012290476&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nMini tote bag. Made of leather with a suede finish. Inside zip pocket. Hand handles.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c03256f1153fc5bd5334047d6f337cb5f49a9c609ffabd0dd29f1e315952efd7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

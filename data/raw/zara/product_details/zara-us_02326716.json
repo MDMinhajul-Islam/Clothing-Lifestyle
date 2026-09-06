@@ -1,0 +1,194 @@
+{
+  "product_id": "zara-us:02326716",
+  "source_url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html",
+  "final_url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html",
+  "canonical_url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BOW HAIR TIE AND BARRETTE SET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BOW HAIR TIE AND BARRETTE SET",
+      "url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html",
+      "productGroupID": "02326716",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Elastic hair tie with bow appliqué and barrette clip. Small parts included, not suitable for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b715/60d5/8b7d4580bdca/e4cc7fecba26/02326716401-e1/02326716401-e1.jpg?ts=1784112654075&w=1920",
+        "https://static.zara.net/assets/public/f130/b914/7ed64fa9bfa9/9f66dbc21370/02326716401-e2/02326716401-e2.jpg?ts=1784112654561&w=1920",
+        "https://static.zara.net/assets/public/fcb2/ddf5/041c4f14833a/9678d860f696/02326716401-e3/02326716401-e3.jpg?ts=1784112654820&w=1920",
+        "https://static.zara.net/assets/public/ab25/8d26/4c034c23b98f/bd72a28eba22/02326716401-e4/02326716401-e4.jpg?ts=1784112654932&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BOW HAIR TIE AND BARRETTE SET - Navy blue - 14",
+          "sku": "552331444-401-14",
+          "mpn": "552331444-401-14",
+          "color": "Navy blue",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/b715/60d5/8b7d4580bdca/e4cc7fecba26/02326716401-e1/02326716401-e1.jpg?ts=1784112654075&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html?v1=552331444",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BOW HAIR TIE AND BARRETTE SET - Ecru - 14",
+          "sku": "552331444-712-14",
+          "mpn": "552331444-712-14",
+          "color": "Ecru",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/7463/16d5/233a42f0b92e/fee67a57393e/02326716712-e1/02326716712-e1.jpg?ts=1784116532936&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html?v1=552331445",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BOW HAIR TIE AND BARRETTE SET - Maroon - 14",
+          "sku": "552331444-605-14",
+          "mpn": "552331444-605-14",
+          "color": "Maroon",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/4c55/e9b5/4b454aacb70e/03d210464a48/02326716605-e1/02326716605-e1.jpg?ts=1784112663241&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html?v1=552331446",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BOW HAIR TIE AND BARRETTE SET",
+      "product_group_id": "02326716",
+      "brand": "ZARA",
+      "description": "Elastic hair tie with bow appliqué and barrette clip. Small parts included, not suitable for children under 3 years old.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BOW HAIR TIE AND BARRETTE SET - Navy blue - 14",
+          "sku": "552331444-401-14",
+          "mpn": "552331444-401-14",
+          "color_name": "Navy blue",
+          "size_name": "14",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html?v1=552331444",
+          "images": [
+            "https://static.zara.net/assets/public/b715/60d5/8b7d4580bdca/e4cc7fecba26/02326716401-e1/02326716401-e1.jpg?ts=1784112654075&w=1920"
+          ]
+        },
+        {
+          "name": "BOW HAIR TIE AND BARRETTE SET - Ecru - 14",
+          "sku": "552331444-712-14",
+          "mpn": "552331444-712-14",
+          "color_name": "Ecru",
+          "size_name": "14",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html?v1=552331445",
+          "images": [
+            "https://static.zara.net/assets/public/7463/16d5/233a42f0b92e/fee67a57393e/02326716712-e1/02326716712-e1.jpg?ts=1784116532936&w=1920"
+          ]
+        },
+        {
+          "name": "BOW HAIR TIE AND BARRETTE SET - Maroon - 14",
+          "sku": "552331444-605-14",
+          "mpn": "552331444-605-14",
+          "color_name": "Maroon",
+          "size_name": "14",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-scrunchie-and-barrette-set-p02326716.html?v1=552331446",
+          "images": [
+            "https://static.zara.net/assets/public/4c55/e9b5/4b454aacb70e/03d210464a48/02326716605-e1/02326716605-e1.jpg?ts=1784112663241&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b715/60d5/8b7d4580bdca/e4cc7fecba26/02326716401-e1/02326716401-e1.jpg?ts=1784112654075&w=1920",
+        "https://static.zara.net/assets/public/f130/b914/7ed64fa9bfa9/9f66dbc21370/02326716401-e2/02326716401-e2.jpg?ts=1784112654561&w=1920",
+        "https://static.zara.net/assets/public/fcb2/ddf5/041c4f14833a/9678d860f696/02326716401-e3/02326716401-e3.jpg?ts=1784112654820&w=1920",
+        "https://static.zara.net/assets/public/ab25/8d26/4c034c23b98f/bd72a28eba22/02326716401-e4/02326716401-e4.jpg?ts=1784112654932&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Navy blue",
+    "Ecru",
+    "Maroon"
+  ],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nElastic hair tie with bow appliqué and barrette clip. Small parts included, not suitable for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 6,
+  "variants_count": 3,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "9.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "9.90",
+    "dom_price": "9.90",
+    "normalized_price": "9.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b34da1190e6fff42aa26aa0f894f9404acf533b3e0ecde92ebfdb4f64f6cc038",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

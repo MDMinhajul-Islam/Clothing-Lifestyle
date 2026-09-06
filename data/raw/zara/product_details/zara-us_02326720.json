@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:02326720",
+  "source_url": "https://www.zara.com/us/en/organza-bow-headband-p02326720.html",
+  "final_url": "https://www.zara.com/us/en/organza-bow-headband-p02326720.html",
+  "canonical_url": "https://www.zara.com/us/en/organza-bow-headband-p02326720.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ORGANZA BOW HEADBAND",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ORGANZA BOW HEADBAND",
+      "url": "https://www.zara.com/us/en/organza-bow-headband-p02326720.html",
+      "productGroupID": "02326720",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Headband with organza bow appliqué. Contains small parts; not recommended for children under 3 years.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a4cf/7d69/90aa4bd99b03/2929b5ba507b/02326720712-e1/02326720712-e1.jpg?ts=1784796027123&w=1920",
+        "https://static.zara.net/assets/public/803b/25cf/21744e22be14/73ba7db9ce54/02326720712-e2/02326720712-e2.jpg?ts=1784796025803&w=1920",
+        "https://static.zara.net/assets/public/30e0/ce68/51c4472682c4/7f39760fac29/02326720712-e3/02326720712-e3.jpg?ts=1784796027357&w=1920",
+        "https://static.zara.net/assets/public/b3d6/5b2a/438e4826a12d/ebdff7052637/02326720712-e4/02326720712-e4.jpg?ts=1784796026541&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ORGANZA BOW HEADBAND - Ecru - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "551506106-712-14",
+          "mpn": "551506106-712-14",
+          "color": "Ecru",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a4cf/7d69/90aa4bd99b03/2929b5ba507b/02326720712-e1/02326720712-e1.jpg?ts=1784796027123&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/organza-bow-headband-p02326720.html?v1=551506106",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ORGANZA BOW HEADBAND",
+      "product_group_id": "02326720",
+      "brand": "ZARA",
+      "description": "Headband with organza bow appliqué. Contains small parts; not recommended for children under 3 years.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ORGANZA BOW HEADBAND - Ecru - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "551506106-712-14",
+          "mpn": "551506106-712-14",
+          "color_name": "Ecru",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/organza-bow-headband-p02326720.html?v1=551506106",
+          "images": [
+            "https://static.zara.net/assets/public/a4cf/7d69/90aa4bd99b03/2929b5ba507b/02326720712-e1/02326720712-e1.jpg?ts=1784796027123&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a4cf/7d69/90aa4bd99b03/2929b5ba507b/02326720712-e1/02326720712-e1.jpg?ts=1784796027123&w=1920",
+        "https://static.zara.net/assets/public/803b/25cf/21744e22be14/73ba7db9ce54/02326720712-e2/02326720712-e2.jpg?ts=1784796025803&w=1920",
+        "https://static.zara.net/assets/public/30e0/ce68/51c4472682c4/7f39760fac29/02326720712-e3/02326720712-e3.jpg?ts=1784796027357&w=1920",
+        "https://static.zara.net/assets/public/b3d6/5b2a/438e4826a12d/ebdff7052637/02326720712-e4/02326720712-e4.jpg?ts=1784796026541&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nHeadband with organza bow appliqué. Contains small parts; not recommended for children under 3 years.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "690d85287f331fb7939d4c4ec9be44deff69ec3ed23025f7e970c0fc921b3870",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

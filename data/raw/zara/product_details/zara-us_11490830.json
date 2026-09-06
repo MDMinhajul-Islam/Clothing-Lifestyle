@@ -1,0 +1,140 @@
+{
+  "product_id": "zara-us:11490830",
+  "source_url": "https://www.zara.com/us/en/striped-shopper-p11490830.html",
+  "final_url": "https://www.zara.com/us/en/striped-shopper-p11490830.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-shopper-p11490830.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED SHOPPER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED SHOPPER",
+      "url": "https://www.zara.com/us/en/striped-shopper-p11490830.html",
+      "productGroupID": "11490830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shopper bag with a striped design. Features a main compartment and double shoulder straps.\n\nHeight x Length x Width: 12.6 x 12.6 x 4.7 inches (32 x 32 x 12 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0918/7f5a/23834f03a3bd/d56677c95779/T0000300009-p/T0000300009-p.jpg?ts=1784823233166&w=1920",
+        "https://static.zara.net/assets/public/49e1/8ef9/98e54f32af1e/66254dbf69ed/T0000300009-a1/T0000300009-a1.jpg?ts=1784823232135&w=1920",
+        "https://static.zara.net/assets/public/8963/1781/6f434690bba1/cd738e6602eb/T0000300009-a2/T0000300009-a2.jpg?ts=1784823232215&w=1920",
+        "https://static.zara.net/assets/public/0013/2a6a/f7c348e28279/6b0406e93493/T0000300009-a3/T0000300009-a3.jpg?ts=1784823232839&w=1920",
+        "https://static.zara.net/assets/public/506f/cc7e/9de14ae69627/41fd7754db1c/11490830718-e1/11490830718-e1.jpg?ts=1784816611690&w=1920",
+        "https://static.zara.net/assets/public/5553/722e/86554d418924/0cfab95d30cd/11490830718-e2/11490830718-e2.jpg?ts=1784816614209&w=1920",
+        "https://static.zara.net/assets/public/1fde/906f/46df48f58fd5/489304dc3fde/11490830718-e3/11490830718-e3.jpg?ts=1784816613993&w=1920",
+        "https://static.zara.net/assets/public/0a6b/4410/423048d6bcad/4a59a8d51a43/11490830718-e4/11490830718-e4.jpg?ts=1784816614642&w=1920",
+        "https://static.zara.net/assets/public/b08d/309a/1cdd475db26d/454b056ec920/11490830718-e5/11490830718-e5.jpg?ts=1784816616067&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "65% cotton, 35% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED SHOPPER - SAND/BROWN - ONE SIZE ONLY",
+          "sku": "548226580-718-53",
+          "mpn": "548226580-718-53",
+          "color": "SAND/BROWN",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0918/7f5a/23834f03a3bd/d56677c95779/T0000300009-p/T0000300009-p.jpg?ts=1784823233166&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/striped-shopper-p11490830.html?v1=548226580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED SHOPPER",
+      "product_group_id": "11490830",
+      "brand": "ZARA",
+      "description": "Shopper bag with a striped design. Features a main compartment and double shoulder straps.\n\nHeight x Length x Width: 12.6 x 12.6 x 4.7 inches (32 x 32 x 12 cm)",
+      "material": null,
+      "composition": "LINING: 65% cotton, 35% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED SHOPPER - SAND/BROWN - ONE SIZE ONLY",
+          "sku": "548226580-718-53",
+          "mpn": "548226580-718-53",
+          "color_name": "SAND/BROWN",
+          "size_name": "ONE SIZE ONLY",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-shopper-p11490830.html?v1=548226580",
+          "images": [
+            "https://static.zara.net/assets/public/0918/7f5a/23834f03a3bd/d56677c95779/T0000300009-p/T0000300009-p.jpg?ts=1784823233166&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0918/7f5a/23834f03a3bd/d56677c95779/T0000300009-p/T0000300009-p.jpg?ts=1784823233166&w=1920",
+        "https://static.zara.net/assets/public/49e1/8ef9/98e54f32af1e/66254dbf69ed/T0000300009-a1/T0000300009-a1.jpg?ts=1784823232135&w=1920",
+        "https://static.zara.net/assets/public/8963/1781/6f434690bba1/cd738e6602eb/T0000300009-a2/T0000300009-a2.jpg?ts=1784823232215&w=1920",
+        "https://static.zara.net/assets/public/0013/2a6a/f7c348e28279/6b0406e93493/T0000300009-a3/T0000300009-a3.jpg?ts=1784823232839&w=1920",
+        "https://static.zara.net/assets/public/506f/cc7e/9de14ae69627/41fd7754db1c/11490830718-e1/11490830718-e1.jpg?ts=1784816611690&w=1920",
+        "https://static.zara.net/assets/public/5553/722e/86554d418924/0cfab95d30cd/11490830718-e2/11490830718-e2.jpg?ts=1784816614209&w=1920",
+        "https://static.zara.net/assets/public/1fde/906f/46df48f58fd5/489304dc3fde/11490830718-e3/11490830718-e3.jpg?ts=1784816613993&w=1920",
+        "https://static.zara.net/assets/public/0a6b/4410/423048d6bcad/4a59a8d51a43/11490830718-e4/11490830718-e4.jpg?ts=1784816614642&w=1920",
+        "https://static.zara.net/assets/public/b08d/309a/1cdd475db26d/454b056ec920/11490830718-e5/11490830718-e5.jpg?ts=1784816616067&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "89.90",
+  "rendered_description": "Description\nShopper bag with a striped design. Features a main compartment and double shoulder straps.\nHeight x Length x Width: 12.6 x 12.6 x 4.7 inches (32 x 32 x 12 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "89.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "89.90",
+    "dom_price": "89.90",
+    "normalized_price": "89.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "99cfd32bdc1dccc89bc6f1a9452c6b8b1410cce493fc728c7ae94429652dfc24",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

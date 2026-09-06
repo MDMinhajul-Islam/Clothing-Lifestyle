@@ -1,0 +1,300 @@
+{
+  "product_id": "zara-us:03183701",
+  "source_url": "https://www.zara.com/us/en/star-jacket-p03183701.html",
+  "final_url": "https://www.zara.com/us/en/star-jacket-p03183701.html",
+  "canonical_url": "https://www.zara.com/us/en/star-jacket-p03183701.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STAR PRINT JACKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STAR PRINT JACKET",
+      "url": "https://www.zara.com/us/en/star-jacket-p03183701.html",
+      "productGroupID": "03183701",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck long sleeve jacket. Front button closure. Front pockets. Star print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920",
+        "https://static.zara.net/assets/public/1386/b1b6/181f418483a5/837df80628ef/03183701920-e2/03183701920-e2.jpg?ts=1783336044869&w=1920",
+        "https://static.zara.net/assets/public/d27e/cecf/e32045a195ef/f8fd4674e537/03183701920-e3/03183701920-e3.jpg?ts=1783336044663&w=1920",
+        "https://static.zara.net/assets/public/9b33/87e2/2c694b58b84a/d218cd9f14b3/03183701920-e4/03183701920-e4.jpg?ts=1783336045793&w=1920",
+        "https://static.zara.net/assets/public/5725/f7be/7b6e402584e1/ba09c41aaba8/03183701920-p/03183701920-p.jpg?ts=1783951193824&w=1920"
+      ],
+      "material": "100% lyocell",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% lyocell"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STAR PRINT JACKET - Bluish - 6-7 years (48,0 INCHES)",
+          "sku": "545490438-920-7",
+          "mpn": "545490438-920-7",
+          "color": "Bluish",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STAR PRINT JACKET - Bluish - 8-9 years (51,6 INCHES)",
+          "sku": "545490438-920-9",
+          "mpn": "545490438-920-9",
+          "color": "Bluish",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STAR PRINT JACKET - Bluish - 9-10 years (55,1 INCHES)",
+          "sku": "545490438-920-10",
+          "mpn": "545490438-920-10",
+          "color": "Bluish",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STAR PRINT JACKET - Bluish - 11-12 years (58,3 INCHES)",
+          "sku": "545490438-920-12",
+          "mpn": "545490438-920-12",
+          "color": "Bluish",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STAR PRINT JACKET - Bluish - 12-13 years (61,4 INCHES)",
+          "sku": "545490438-920-13",
+          "mpn": "545490438-920-13",
+          "color": "Bluish",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STAR PRINT JACKET - Bluish - 13-14 years (64,6 INCHES)",
+          "sku": "545490438-920-14",
+          "mpn": "545490438-920-14",
+          "color": "Bluish",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STAR PRINT JACKET",
+      "product_group_id": "03183701",
+      "brand": "ZARA",
+      "description": "Round neck long sleeve jacket. Front button closure. Front pockets. Star print.",
+      "material": "100% lyocell",
+      "composition": "OUTER SHELL: 100% lyocell | LINING: 100% cotton | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STAR PRINT JACKET - Bluish - 6-7 years (48,0 INCHES)",
+          "sku": "545490438-920-7",
+          "mpn": "545490438-920-7",
+          "color_name": "Bluish",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+          "images": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ]
+        },
+        {
+          "name": "STAR PRINT JACKET - Bluish - 8-9 years (51,6 INCHES)",
+          "sku": "545490438-920-9",
+          "mpn": "545490438-920-9",
+          "color_name": "Bluish",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+          "images": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ]
+        },
+        {
+          "name": "STAR PRINT JACKET - Bluish - 9-10 years (55,1 INCHES)",
+          "sku": "545490438-920-10",
+          "mpn": "545490438-920-10",
+          "color_name": "Bluish",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+          "images": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ]
+        },
+        {
+          "name": "STAR PRINT JACKET - Bluish - 11-12 years (58,3 INCHES)",
+          "sku": "545490438-920-12",
+          "mpn": "545490438-920-12",
+          "color_name": "Bluish",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+          "images": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ]
+        },
+        {
+          "name": "STAR PRINT JACKET - Bluish - 12-13 years (61,4 INCHES)",
+          "sku": "545490438-920-13",
+          "mpn": "545490438-920-13",
+          "color_name": "Bluish",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+          "images": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ]
+        },
+        {
+          "name": "STAR PRINT JACKET - Bluish - 13-14 years (64,6 INCHES)",
+          "sku": "545490438-920-14",
+          "mpn": "545490438-920-14",
+          "color_name": "Bluish",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-jacket-p03183701.html?v1=545490438",
+          "images": [
+            "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/690c/a7c6/49e34f77b7d6/17b3418e0dcb/03183701920-e1/03183701920-e1.jpg?ts=1783336044730&w=1920",
+        "https://static.zara.net/assets/public/1386/b1b6/181f418483a5/837df80628ef/03183701920-e2/03183701920-e2.jpg?ts=1783336044869&w=1920",
+        "https://static.zara.net/assets/public/d27e/cecf/e32045a195ef/f8fd4674e537/03183701920-e3/03183701920-e3.jpg?ts=1783336044663&w=1920",
+        "https://static.zara.net/assets/public/9b33/87e2/2c694b58b84a/d218cd9f14b3/03183701920-e4/03183701920-e4.jpg?ts=1783336045793&w=1920",
+        "https://static.zara.net/assets/public/5725/f7be/7b6e402584e1/ba09c41aaba8/03183701920-p/03183701920-p.jpg?ts=1783951193824&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nRound neck long sleeve jacket. Front button closure. Front pockets. Star print.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "37f853565c53e143bd24e253a667ae6baab8873d978a7c7a6aae655234537e7a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

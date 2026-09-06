@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:11443830",
+  "source_url": "https://www.zara.com/us/en/patch-fanny-pack-p11443830.html",
+  "final_url": "https://www.zara.com/us/en/patch-fanny-pack-p11443830.html",
+  "canonical_url": "https://www.zara.com/us/en/patch-fanny-pack-p11443830.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PATCH BELT BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PATCH BELT BAG",
+      "url": "https://www.zara.com/us/en/patch-fanny-pack-p11443830.html",
+      "productGroupID": "11443830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Belt bag featuring decorative front patches and contrasting details. Includes a main compartment and a front pocket with zip closure. Adjustable belt with clip fastening. Height x Width x Depth: 13 x 5.1 x 4.3 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6c46/478e/5ccf45dd9d72/573babe408d6/11443830600-e1/11443830600-e1.jpg?ts=1785481536753&w=1920",
+        "https://static.zara.net/assets/public/fc1f/ca73/6b9a4639805b/ef4a0217ae3a/11443830600-e3/11443830600-e3.jpg?ts=1785481544363&w=1920",
+        "https://static.zara.net/assets/public/862b/12b1/e5294fe08d9e/0d6242c827b6/11443830600-e4/11443830600-e4.jpg?ts=1785481543942&w=1920",
+        "https://static.zara.net/assets/public/3100/dc93/c17c4125a7f7/d41be2bed35d/11443830600-e6/11443830600-e6.jpg?ts=1785481536139&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PATCH BELT BAG - Red - ONE SIZE ONLY",
+          "sku": "545474748-600-53",
+          "mpn": "545474748-600-53",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6c46/478e/5ccf45dd9d72/573babe408d6/11443830600-e1/11443830600-e1.jpg?ts=1785481536753&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/patch-fanny-pack-p11443830.html?v1=545474748",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PATCH BELT BAG",
+      "product_group_id": "11443830",
+      "brand": "ZARA",
+      "description": "Belt bag featuring decorative front patches and contrasting details. Includes a main compartment and a front pocket with zip closure. Adjustable belt with clip fastening. Height x Width x Depth: 13 x 5.1 x 4.3 inches.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PATCH BELT BAG - Red - ONE SIZE ONLY",
+          "sku": "545474748-600-53",
+          "mpn": "545474748-600-53",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/patch-fanny-pack-p11443830.html?v1=545474748",
+          "images": [
+            "https://static.zara.net/assets/public/6c46/478e/5ccf45dd9d72/573babe408d6/11443830600-e1/11443830600-e1.jpg?ts=1785481536753&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6c46/478e/5ccf45dd9d72/573babe408d6/11443830600-e1/11443830600-e1.jpg?ts=1785481536753&w=1920",
+        "https://static.zara.net/assets/public/fc1f/ca73/6b9a4639805b/ef4a0217ae3a/11443830600-e3/11443830600-e3.jpg?ts=1785481544363&w=1920",
+        "https://static.zara.net/assets/public/862b/12b1/e5294fe08d9e/0d6242c827b6/11443830600-e4/11443830600-e4.jpg?ts=1785481543942&w=1920",
+        "https://static.zara.net/assets/public/3100/dc93/c17c4125a7f7/d41be2bed35d/11443830600-e6/11443830600-e6.jpg?ts=1785481536139&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nBelt bag featuring decorative front patches and contrasting details. Includes a main compartment and a front pocket with zip closure. Adjustable belt with clip fastening. Height x Width x Depth: 13 x 5.1 x 4.3 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c67c569b02043bd83b749f0c228d679425c9adfe15c57354bf19979090d44b09",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

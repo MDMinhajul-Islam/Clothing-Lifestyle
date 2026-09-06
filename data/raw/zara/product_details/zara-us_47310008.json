@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:47310008",
+  "source_url": "https://www.zara.com/us/en/striped-throw-pillow-cover-p47310008.html",
+  "final_url": "https://www.zara.com/us/en/striped-throw-pillow-cover-p47310008.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-throw-pillow-cover-p47310008.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED THROW PILLOW COVER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED THROW PILLOW COVER",
+      "url": "https://www.zara.com/us/en/striped-throw-pillow-cover-p47310008.html",
+      "productGroupID": "47310008",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Throw pillow cover made from a cotton and linen blend with a fine striped print.\nThrow pillow insert not included.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/69cf/08cb/a87f4c1cad4d/ceb40e05942f/47310008664-e1/47310008664-e1.jpg?ts=1782830459642&w=1920",
+        "https://static.zara.net/assets/public/956d/a72c/75a54b8083e4/284d092679b5/47310008664-e2/47310008664-e2.jpg?ts=1782830458407&w=1920",
+        "https://static.zara.net/assets/public/883a/e345/c3394c8cb658/c81bfa1887a3/47310008664-e3/47310008664-e3.jpg?ts=1782830459574&w=1920",
+        "https://static.zara.net/assets/public/82b7/47f4/35a044189463/d34debdd77d1/47310008664-e4/47310008664-e4.jpg?ts=1782830458456&w=1920",
+        "https://static.zara.net/assets/public/c616/9a97/a7014b0e9ec7/793b5124a3c8/47310008664-a1/47310008664-a1.jpg?ts=1784112393321&w=1920"
+      ],
+      "material": "cotton/linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "76% cotton, 24% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED THROW PILLOW COVER - Dark pink - 12 x 15,5 \"",
+          "sku": "545425918-664-60",
+          "mpn": "545425918-664-60",
+          "color": "Dark pink",
+          "size": "12 x 15,5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/69cf/08cb/a87f4c1cad4d/ceb40e05942f/47310008664-e1/47310008664-e1.jpg?ts=1782830459642&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/striped-throw-pillow-cover-p47310008.html?v1=545425918",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED THROW PILLOW COVER",
+      "product_group_id": "47310008",
+      "brand": "ZARAHOME",
+      "description": "Throw pillow cover made from a cotton and linen blend with a fine striped print.\nThrow pillow insert not included.",
+      "material": "cotton/linen",
+      "composition": "OUTER SHELL: 76% cotton, 24% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED THROW PILLOW COVER - Dark pink - 12 x 15,5 \"",
+          "sku": "545425918-664-60",
+          "mpn": "545425918-664-60",
+          "color_name": "Dark pink",
+          "size_name": "12 x 15,5 \"",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-throw-pillow-cover-p47310008.html?v1=545425918",
+          "images": [
+            "https://static.zara.net/assets/public/69cf/08cb/a87f4c1cad4d/ceb40e05942f/47310008664-e1/47310008664-e1.jpg?ts=1782830459642&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/69cf/08cb/a87f4c1cad4d/ceb40e05942f/47310008664-e1/47310008664-e1.jpg?ts=1782830459642&w=1920",
+        "https://static.zara.net/assets/public/956d/a72c/75a54b8083e4/284d092679b5/47310008664-e2/47310008664-e2.jpg?ts=1782830458407&w=1920",
+        "https://static.zara.net/assets/public/883a/e345/c3394c8cb658/c81bfa1887a3/47310008664-e3/47310008664-e3.jpg?ts=1782830459574&w=1920",
+        "https://static.zara.net/assets/public/82b7/47f4/35a044189463/d34debdd77d1/47310008664-e4/47310008664-e4.jpg?ts=1782830458456&w=1920",
+        "https://static.zara.net/assets/public/c616/9a97/a7014b0e9ec7/793b5124a3c8/47310008664-a1/47310008664-a1.jpg?ts=1784112393321&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nThrow pillow cover made from a cotton and linen blend with a fine striped print.\nThrow pillow insert not included.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "47f76497ddc252e89b49ea8f540786402f8ef2540d85c7ea9769f5dd1f4367b0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

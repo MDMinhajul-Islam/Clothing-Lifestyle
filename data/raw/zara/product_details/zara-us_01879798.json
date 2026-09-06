@@ -1,0 +1,160 @@
+{
+  "product_id": "zara-us:01879798",
+  "source_url": "https://www.zara.com/us/en/clara-cebrian---embroidered-cap-p01879798.html",
+  "final_url": "https://www.zara.com/us/en/clara-cebrian---embroidered-cap-p01879798.html",
+  "canonical_url": "https://www.zara.com/us/en/clara-cebrian---embroidered-cap-p01879798.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CLARA CEBRIAN © EMBROIDERED CAP",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CLARA CEBRIAN © EMBROIDERED CAP",
+      "url": "https://www.zara.com/us/en/clara-cebrian---embroidered-cap-p01879798.html",
+      "productGroupID": "01879798",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Cap with an adjustable closure at the back and Clara Cebrian © embroidery detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/329d/850e/839a4e0a96e8/db2e2c8a8f31/01879798420-e1/01879798420-e1.jpg?ts=1782386211295&w=1920",
+        "https://static.zara.net/assets/public/8d19/f037/407f47919e58/c1d143ae533f/01879798420-e2/01879798420-e2.jpg?ts=1782386208871&w=1920",
+        "https://static.zara.net/assets/public/4485/523e/d55e4030978f/e99c591fd961/01879798420-e3/01879798420-e3.jpg?ts=1782386213019&w=1920",
+        "https://static.zara.net/assets/public/053c/22c4/fa624afc9b7f/5bd1a95707d7/01879798420-e5/01879798420-e5.jpg?ts=1782386208973&w=1920",
+        "https://static.zara.net/assets/public/d7cf/a54a/4e9340baae35/88101bde802f/01879798420-p/01879798420-p.jpg?ts=1784131368810&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CLARA CEBRIAN © EMBROIDERED CAP - Bluish - M",
+          "sku": "549809173-420-9",
+          "mpn": "549809173-420-9",
+          "color": "Bluish",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/329d/850e/839a4e0a96e8/db2e2c8a8f31/01879798420-e1/01879798420-e1.jpg?ts=1782386211295&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/clara-cebrian---embroidered-cap-p01879798.html?v1=549809173",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CLARA CEBRIAN © EMBROIDERED CAP - Bluish - L",
+          "sku": "549809173-420-14",
+          "mpn": "549809173-420-14",
+          "color": "Bluish",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/329d/850e/839a4e0a96e8/db2e2c8a8f31/01879798420-e1/01879798420-e1.jpg?ts=1782386211295&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/clara-cebrian---embroidered-cap-p01879798.html?v1=549809173",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CLARA CEBRIAN © EMBROIDERED CAP",
+      "product_group_id": "01879798",
+      "brand": "ZARA",
+      "description": "Cap with an adjustable closure at the back and Clara Cebrian © embroidery detail.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CLARA CEBRIAN © EMBROIDERED CAP - Bluish - M",
+          "sku": "549809173-420-9",
+          "mpn": "549809173-420-9",
+          "color_name": "Bluish",
+          "size_name": "M",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/clara-cebrian---embroidered-cap-p01879798.html?v1=549809173",
+          "images": [
+            "https://static.zara.net/assets/public/329d/850e/839a4e0a96e8/db2e2c8a8f31/01879798420-e1/01879798420-e1.jpg?ts=1782386211295&w=1920"
+          ]
+        },
+        {
+          "name": "CLARA CEBRIAN © EMBROIDERED CAP - Bluish - L",
+          "sku": "549809173-420-14",
+          "mpn": "549809173-420-14",
+          "color_name": "Bluish",
+          "size_name": "L",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/clara-cebrian---embroidered-cap-p01879798.html?v1=549809173",
+          "images": [
+            "https://static.zara.net/assets/public/329d/850e/839a4e0a96e8/db2e2c8a8f31/01879798420-e1/01879798420-e1.jpg?ts=1782386211295&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/329d/850e/839a4e0a96e8/db2e2c8a8f31/01879798420-e1/01879798420-e1.jpg?ts=1782386211295&w=1920",
+        "https://static.zara.net/assets/public/8d19/f037/407f47919e58/c1d143ae533f/01879798420-e2/01879798420-e2.jpg?ts=1782386208871&w=1920",
+        "https://static.zara.net/assets/public/4485/523e/d55e4030978f/e99c591fd961/01879798420-e3/01879798420-e3.jpg?ts=1782386213019&w=1920",
+        "https://static.zara.net/assets/public/053c/22c4/fa624afc9b7f/5bd1a95707d7/01879798420-e5/01879798420-e5.jpg?ts=1782386208973&w=1920",
+        "https://static.zara.net/assets/public/d7cf/a54a/4e9340baae35/88101bde802f/01879798420-p/01879798420-p.jpg?ts=1784131368810&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nCap with an adjustable closure at the back and Clara Cebrian © embroidery detail.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e851cc9815a658899de8bdfd17d1d4cc75eab280493e6cf76921c532fdefdcd0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

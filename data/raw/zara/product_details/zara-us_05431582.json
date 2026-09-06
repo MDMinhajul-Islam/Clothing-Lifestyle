@@ -1,0 +1,157 @@
+{
+  "product_id": "zara-us:05431582",
+  "source_url": "https://www.zara.com/us/en/leon-s-bagels---striped-apron-p05431582.html",
+  "final_url": "https://www.zara.com/us/en/leon-s-bagels---striped-apron-p05431582.html",
+  "canonical_url": "https://www.zara.com/us/en/leon-s-bagels---striped-apron-p05431582.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEON'S BAGELS ® STRIPED APRON",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEON'S BAGELS ® STRIPED APRON",
+      "url": "https://www.zara.com/us/en/leon-s-bagels---striped-apron-p05431582.html",
+      "productGroupID": "05431582",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Apron featuring a straight neckline with an adjustable neck strap. Includes an adjustable tie at the back. Features a bib patch pocket with a LEON'S BAGELS ® label appliqué. All-over striped print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1ba9/9688/30ab49dcb98b/02ef2aa82568/05431582500-e1/05431582500-e1.jpg?ts=1786459626047&w=1920",
+        "https://static.zara.net/assets/public/afb6/783a/23da40d286fb/456cb43a3099/05431582500-e2/05431582500-e2.jpg?ts=1786459625715&w=1920",
+        "https://static.zara.net/assets/public/ebfd/dd28/c78345108020/5932920d98b8/05431582500-e3/05431582500-e3.jpg?ts=1786459625650&w=1920",
+        "https://static.zara.net/assets/public/8a2d/773e/a60e4e2a89be/4b875b46436e/05431582500-e4/05431582500-e4.jpg?ts=1786459626451&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEON'S BAGELS ® STRIPED APRON - Green - 1-6 years (31,5-45,7 INCHES)",
+          "sku": "554768975-500-6",
+          "mpn": "554768975-500-6",
+          "color": "Green",
+          "size": "1-6 years (31,5-45,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ba9/9688/30ab49dcb98b/02ef2aa82568/05431582500-e1/05431582500-e1.jpg?ts=1786459626047&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/leon-s-bagels---striped-apron-p05431582.html?v1=554768975",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEON'S BAGELS ® STRIPED APRON - Green - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "554768975-500-14",
+          "mpn": "554768975-500-14",
+          "color": "Green",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ba9/9688/30ab49dcb98b/02ef2aa82568/05431582500-e1/05431582500-e1.jpg?ts=1786459626047&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/leon-s-bagels---striped-apron-p05431582.html?v1=554768975",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEON'S BAGELS ® STRIPED APRON",
+      "product_group_id": "05431582",
+      "brand": "ZARA",
+      "description": "Apron featuring a straight neckline with an adjustable neck strap. Includes an adjustable tie at the back. Features a bib patch pocket with a LEON'S BAGELS ® label appliqué. All-over striped print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEON'S BAGELS ® STRIPED APRON - Green - 1-6 years (31,5-45,7 INCHES)",
+          "sku": "554768975-500-6",
+          "mpn": "554768975-500-6",
+          "color_name": "Green",
+          "size_name": "1-6 years (31,5-45,7 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leon-s-bagels---striped-apron-p05431582.html?v1=554768975",
+          "images": [
+            "https://static.zara.net/assets/public/1ba9/9688/30ab49dcb98b/02ef2aa82568/05431582500-e1/05431582500-e1.jpg?ts=1786459626047&w=1920"
+          ]
+        },
+        {
+          "name": "LEON'S BAGELS ® STRIPED APRON - Green - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "554768975-500-14",
+          "mpn": "554768975-500-14",
+          "color_name": "Green",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leon-s-bagels---striped-apron-p05431582.html?v1=554768975",
+          "images": [
+            "https://static.zara.net/assets/public/1ba9/9688/30ab49dcb98b/02ef2aa82568/05431582500-e1/05431582500-e1.jpg?ts=1786459626047&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1ba9/9688/30ab49dcb98b/02ef2aa82568/05431582500-e1/05431582500-e1.jpg?ts=1786459626047&w=1920",
+        "https://static.zara.net/assets/public/afb6/783a/23da40d286fb/456cb43a3099/05431582500-e2/05431582500-e2.jpg?ts=1786459625715&w=1920",
+        "https://static.zara.net/assets/public/ebfd/dd28/c78345108020/5932920d98b8/05431582500-e3/05431582500-e3.jpg?ts=1786459625650&w=1920",
+        "https://static.zara.net/assets/public/8a2d/773e/a60e4e2a89be/4b875b46436e/05431582500-e4/05431582500-e4.jpg?ts=1786459626451&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nApron featuring a straight neckline with an adjustable neck strap. Includes an adjustable tie at the back. Features a bib patch pocket with a LEON'S BAGELS ® label appliqué. All-over striped print.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fc9694d8b3eb70a92d74f20317f78a1666d26948111e230baaea0e637fa8c156",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

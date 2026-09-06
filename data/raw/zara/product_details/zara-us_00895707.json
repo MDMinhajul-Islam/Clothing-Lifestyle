@@ -1,0 +1,866 @@
+{
+  "product_id": "zara-us:00895707",
+  "source_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html",
+  "final_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html",
+  "canonical_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SOLID MODAL T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SOLID MODAL T-SHIRT",
+      "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html",
+      "productGroupID": "00895707",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Long-sleeve T-shirt with a round neckline. Fabric made with 48% cotton and 47% modal.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920",
+        "https://static.zara.net/assets/public/1e6b/7375/b2fa47e1bc9e/83981642c57b/00895707250-e2/00895707250-e2.jpg?ts=1787142760950&w=1920",
+        "https://static.zara.net/assets/public/e93e/97a5/1cc9415b9499/884b338baf54/00895707250-e3/00895707250-e3.jpg?ts=1787142745277&w=1920",
+        "https://static.zara.net/assets/public/36c4/571b/4207432987a5/4782a0e2a06b/00895707250-e4/00895707250-e4.jpg?ts=1787142745533&w=1920"
+      ],
+      "material": "cotton/modal/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "48% cotton, 47% modal, 5% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - White - 6-7 years (48,0 INCHES)",
+          "sku": "554734547-250-7",
+          "mpn": "554734547-250-7",
+          "color": "White",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - White - 8-9 years (51,6 INCHES)",
+          "sku": "554734547-250-9",
+          "mpn": "554734547-250-9",
+          "color": "White",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - White - 9-10 years (55,1 INCHES)",
+          "sku": "554734547-250-10",
+          "mpn": "554734547-250-10",
+          "color": "White",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - White - 11-12 years (58,3 INCHES)",
+          "sku": "554734547-250-12",
+          "mpn": "554734547-250-12",
+          "color": "White",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - White - 12-13 years (61,4 INCHES)",
+          "sku": "554734547-250-13",
+          "mpn": "554734547-250-13",
+          "color": "White",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - White - 13-14 years (64,6 INCHES)",
+          "sku": "554734547-250-14",
+          "mpn": "554734547-250-14",
+          "color": "White",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Brown - 6-7 years (48,0 INCHES)",
+          "sku": "554734547-700-7",
+          "mpn": "554734547-700-7",
+          "color": "Brown",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Brown - 8-9 years (51,6 INCHES)",
+          "sku": "554734547-700-9",
+          "mpn": "554734547-700-9",
+          "color": "Brown",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Brown - 9-10 years (55,1 INCHES)",
+          "sku": "554734547-700-10",
+          "mpn": "554734547-700-10",
+          "color": "Brown",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Brown - 11-12 years (58,3 INCHES)",
+          "sku": "554734547-700-12",
+          "mpn": "554734547-700-12",
+          "color": "Brown",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Brown - 12-13 years (61,4 INCHES)",
+          "sku": "554734547-700-13",
+          "mpn": "554734547-700-13",
+          "color": "Brown",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Brown - 13-14 years (64,6 INCHES)",
+          "sku": "554734547-700-14",
+          "mpn": "554734547-700-14",
+          "color": "Brown",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Pink - 6-7 years (48,0 INCHES)",
+          "sku": "554734547-620-7",
+          "mpn": "554734547-620-7",
+          "color": "Pink",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Pink - 8-9 years (51,6 INCHES)",
+          "sku": "554734547-620-9",
+          "mpn": "554734547-620-9",
+          "color": "Pink",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Pink - 9-10 years (55,1 INCHES)",
+          "sku": "554734547-620-10",
+          "mpn": "554734547-620-10",
+          "color": "Pink",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Pink - 11-12 years (58,3 INCHES)",
+          "sku": "554734547-620-12",
+          "mpn": "554734547-620-12",
+          "color": "Pink",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Pink - 12-13 years (61,4 INCHES)",
+          "sku": "554734547-620-13",
+          "mpn": "554734547-620-13",
+          "color": "Pink",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Pink - 13-14 years (64,6 INCHES)",
+          "sku": "554734547-620-14",
+          "mpn": "554734547-620-14",
+          "color": "Pink",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Khaki - 6-7 years (48,0 INCHES)",
+          "sku": "554734547-505-7",
+          "mpn": "554734547-505-7",
+          "color": "Khaki",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Khaki - 8-9 years (51,6 INCHES)",
+          "sku": "554734547-505-9",
+          "mpn": "554734547-505-9",
+          "color": "Khaki",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Khaki - 9-10 years (55,1 INCHES)",
+          "sku": "554734547-505-10",
+          "mpn": "554734547-505-10",
+          "color": "Khaki",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Khaki - 11-12 years (58,3 INCHES)",
+          "sku": "554734547-505-12",
+          "mpn": "554734547-505-12",
+          "color": "Khaki",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Khaki - 12-13 years (61,4 INCHES)",
+          "sku": "554734547-505-13",
+          "mpn": "554734547-505-13",
+          "color": "Khaki",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID MODAL T-SHIRT - Khaki - 13-14 years (64,6 INCHES)",
+          "sku": "554734547-505-14",
+          "mpn": "554734547-505-14",
+          "color": "Khaki",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SOLID MODAL T-SHIRT",
+      "product_group_id": "00895707",
+      "brand": "ZARA",
+      "description": "Long-sleeve T-shirt with a round neckline. Fabric made with 48% cotton and 47% modal.",
+      "material": "cotton/modal/elastane",
+      "composition": "OUTER SHELL: 48% cotton, 47% modal, 5% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SOLID MODAL T-SHIRT - White - 6-7 years (48,0 INCHES)",
+          "sku": "554734547-250-7",
+          "mpn": "554734547-250-7",
+          "color_name": "White",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+          "images": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - White - 8-9 years (51,6 INCHES)",
+          "sku": "554734547-250-9",
+          "mpn": "554734547-250-9",
+          "color_name": "White",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+          "images": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - White - 9-10 years (55,1 INCHES)",
+          "sku": "554734547-250-10",
+          "mpn": "554734547-250-10",
+          "color_name": "White",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+          "images": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - White - 11-12 years (58,3 INCHES)",
+          "sku": "554734547-250-12",
+          "mpn": "554734547-250-12",
+          "color_name": "White",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+          "images": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - White - 12-13 years (61,4 INCHES)",
+          "sku": "554734547-250-13",
+          "mpn": "554734547-250-13",
+          "color_name": "White",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+          "images": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - White - 13-14 years (64,6 INCHES)",
+          "sku": "554734547-250-14",
+          "mpn": "554734547-250-14",
+          "color_name": "White",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734547",
+          "images": [
+            "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Brown - 6-7 years (48,0 INCHES)",
+          "sku": "554734547-700-7",
+          "mpn": "554734547-700-7",
+          "color_name": "Brown",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+          "images": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Brown - 8-9 years (51,6 INCHES)",
+          "sku": "554734547-700-9",
+          "mpn": "554734547-700-9",
+          "color_name": "Brown",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+          "images": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Brown - 9-10 years (55,1 INCHES)",
+          "sku": "554734547-700-10",
+          "mpn": "554734547-700-10",
+          "color_name": "Brown",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+          "images": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Brown - 11-12 years (58,3 INCHES)",
+          "sku": "554734547-700-12",
+          "mpn": "554734547-700-12",
+          "color_name": "Brown",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+          "images": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Brown - 12-13 years (61,4 INCHES)",
+          "sku": "554734547-700-13",
+          "mpn": "554734547-700-13",
+          "color_name": "Brown",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+          "images": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Brown - 13-14 years (64,6 INCHES)",
+          "sku": "554734547-700-14",
+          "mpn": "554734547-700-14",
+          "color_name": "Brown",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734545",
+          "images": [
+            "https://static.zara.net/assets/public/b258/ebca/905548ba9ec4/389f30f987c5/00895707700-e1/00895707700-e1.jpg?ts=1787147604635&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Pink - 6-7 years (48,0 INCHES)",
+          "sku": "554734547-620-7",
+          "mpn": "554734547-620-7",
+          "color_name": "Pink",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+          "images": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Pink - 8-9 years (51,6 INCHES)",
+          "sku": "554734547-620-9",
+          "mpn": "554734547-620-9",
+          "color_name": "Pink",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+          "images": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Pink - 9-10 years (55,1 INCHES)",
+          "sku": "554734547-620-10",
+          "mpn": "554734547-620-10",
+          "color_name": "Pink",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+          "images": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Pink - 11-12 years (58,3 INCHES)",
+          "sku": "554734547-620-12",
+          "mpn": "554734547-620-12",
+          "color_name": "Pink",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+          "images": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Pink - 12-13 years (61,4 INCHES)",
+          "sku": "554734547-620-13",
+          "mpn": "554734547-620-13",
+          "color_name": "Pink",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+          "images": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Pink - 13-14 years (64,6 INCHES)",
+          "sku": "554734547-620-14",
+          "mpn": "554734547-620-14",
+          "color_name": "Pink",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734544",
+          "images": [
+            "https://static.zara.net/assets/public/071b/390d/fd3348aa9342/dfc5104cc618/00895707620-e1/00895707620-e1.jpg?ts=1787149461115&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Khaki - 6-7 years (48,0 INCHES)",
+          "sku": "554734547-505-7",
+          "mpn": "554734547-505-7",
+          "color_name": "Khaki",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+          "images": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Khaki - 8-9 years (51,6 INCHES)",
+          "sku": "554734547-505-9",
+          "mpn": "554734547-505-9",
+          "color_name": "Khaki",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+          "images": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Khaki - 9-10 years (55,1 INCHES)",
+          "sku": "554734547-505-10",
+          "mpn": "554734547-505-10",
+          "color_name": "Khaki",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+          "images": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Khaki - 11-12 years (58,3 INCHES)",
+          "sku": "554734547-505-12",
+          "mpn": "554734547-505-12",
+          "color_name": "Khaki",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+          "images": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Khaki - 12-13 years (61,4 INCHES)",
+          "sku": "554734547-505-13",
+          "mpn": "554734547-505-13",
+          "color_name": "Khaki",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+          "images": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID MODAL T-SHIRT - Khaki - 13-14 years (64,6 INCHES)",
+          "sku": "554734547-505-14",
+          "mpn": "554734547-505-14",
+          "color_name": "Khaki",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-modal-t-shirt-p00895707.html?v1=554734546",
+          "images": [
+            "https://static.zara.net/assets/public/4e7b/c9c0/97ae42d3bd67/a9c8a30dc349/00895707505-e1/00895707505-e1.jpg?ts=1787135530646&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0333/f46f/4c244b9889b6/9c9b41d1e023/00895707250-e1/00895707250-e1.jpg?ts=1787142743870&w=1920",
+        "https://static.zara.net/assets/public/1e6b/7375/b2fa47e1bc9e/83981642c57b/00895707250-e2/00895707250-e2.jpg?ts=1787142760950&w=1920",
+        "https://static.zara.net/assets/public/e93e/97a5/1cc9415b9499/884b338baf54/00895707250-e3/00895707250-e3.jpg?ts=1787142745277&w=1920",
+        "https://static.zara.net/assets/public/36c4/571b/4207432987a5/4782a0e2a06b/00895707250-e4/00895707250-e4.jpg?ts=1787142745533&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Brown",
+    "Pink",
+    "Khaki"
+  ],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nLong-sleeve T-shirt with a round neckline. Fabric made with 48% cotton and 47% modal.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 7,
+  "variants_count": 24,
+  "colors_count": 4,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "90f0615e1a74c4f71d0ed5d275907918c5d1574e7f8b7adceafc8973a163fc54",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

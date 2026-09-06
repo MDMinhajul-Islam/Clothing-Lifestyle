@@ -1,0 +1,471 @@
+{
+  "product_id": "zara-us:14308830",
+  "source_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html",
+  "final_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html",
+  "canonical_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FISHERMAN SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FISHERMAN SNEAKERS",
+      "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html",
+      "productGroupID": "14308830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Fisherman-style sneakers with cut-outs. Adjustable elastic laces with a stopper and front and back pull tabs for easy on and off. Rubber soles and OrthoLite® inner sole.\n\nSIZE 40: shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920",
+        "https://static.zara.net/assets/public/eecd/6cc6/bf44484ab5e2/305c83b8513b/14308830800-e2/14308830800-e2.jpg?ts=1778222893517&w=1920",
+        "https://static.zara.net/assets/public/18c4/7810/ee324aafa4dc/025aaaf8941f/14308830800-e3/14308830800-e3.jpg?ts=1778222895822&w=1920",
+        "https://static.zara.net/assets/public/9308/04f6/1ae64fe38abc/298e9cf6cd8b/14308830800-e4/14308830800-e4.jpg?ts=1778222893054&w=1920",
+        "https://static.zara.net/assets/public/96d0/1d3a/a7f143f39e67/184beec1cfbf/14308830800-e5/14308830800-e5.jpg?ts=1778222894241&w=1920",
+        "https://static.zara.net/assets/public/a260/8e0a/59574de1bb25/3b08b65c58a4/14308830800-e6/14308830800-e6.jpg?ts=1778222892730&w=1920",
+        "https://static.zara.net/assets/public/1f1f/7111/aff14fc4a1db/d389c38e9cec/14308830800-e7/14308830800-e7.jpg?ts=1778222893533&w=1920",
+        "https://static.zara.net/assets/public/412a/48b1/4c3a4a71bed5/27737a481e49/14308830800-e8/14308830800-e8.jpg?ts=1778222892466&w=1920"
+      ],
+      "material": "polyester/polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "74% polyester, 26% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 12½ (7.4 INCHES)",
+          "sku": "545475012-800-30",
+          "mpn": "545475012-800-30",
+          "color": "Black",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 13½ (7.7 INCHES)",
+          "sku": "545475012-800-31",
+          "mpn": "545475012-800-31",
+          "color": "Black",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 1 (8.0 INCHES)",
+          "sku": "545475012-800-32",
+          "mpn": "545475012-800-32",
+          "color": "Black",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 2 (8.2 INCHES)",
+          "sku": "545475012-800-33",
+          "mpn": "545475012-800-33",
+          "color": "Black",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 2½ (8.5 INCHES)",
+          "sku": "545475012-800-34",
+          "mpn": "545475012-800-34",
+          "color": "Black",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 3½ (8.8 INCHES)",
+          "sku": "545475012-800-35",
+          "mpn": "545475012-800-35",
+          "color": "Black",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 4 (9.0 INCHES)",
+          "sku": "545475012-800-36",
+          "mpn": "545475012-800-36",
+          "color": "Black",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 5 (9.3 INCHES)",
+          "sku": "545475012-800-37",
+          "mpn": "545475012-800-37",
+          "color": "Black",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 5½ (9.5 INCHES)",
+          "sku": "545475012-800-38",
+          "mpn": "545475012-800-38",
+          "color": "Black",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 6 (9.8 INCHES)",
+          "sku": "545475012-800-39",
+          "mpn": "545475012-800-39",
+          "color": "Black",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FISHERMAN SNEAKERS - Black - 7 (10.0 INCHES)",
+          "sku": "545475012-800-40",
+          "mpn": "545475012-800-40",
+          "color": "Black",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FISHERMAN SNEAKERS",
+      "product_group_id": "14308830",
+      "brand": "ZARA",
+      "description": "Fisherman-style sneakers with cut-outs. Adjustable elastic laces with a stopper and front and back pull tabs for easy on and off. Rubber soles and OrthoLite® inner sole.\n\nSIZE 40: shoes available in size 40.",
+      "material": "polyester/polyurethane",
+      "composition": "UPPER: 74% polyester, 26% polyurethane | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 12½ (7.4 INCHES)",
+          "sku": "545475012-800-30",
+          "mpn": "545475012-800-30",
+          "color_name": "Black",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 13½ (7.7 INCHES)",
+          "sku": "545475012-800-31",
+          "mpn": "545475012-800-31",
+          "color_name": "Black",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 1 (8.0 INCHES)",
+          "sku": "545475012-800-32",
+          "mpn": "545475012-800-32",
+          "color_name": "Black",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 2 (8.2 INCHES)",
+          "sku": "545475012-800-33",
+          "mpn": "545475012-800-33",
+          "color_name": "Black",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 2½ (8.5 INCHES)",
+          "sku": "545475012-800-34",
+          "mpn": "545475012-800-34",
+          "color_name": "Black",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 3½ (8.8 INCHES)",
+          "sku": "545475012-800-35",
+          "mpn": "545475012-800-35",
+          "color_name": "Black",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 4 (9.0 INCHES)",
+          "sku": "545475012-800-36",
+          "mpn": "545475012-800-36",
+          "color_name": "Black",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 5 (9.3 INCHES)",
+          "sku": "545475012-800-37",
+          "mpn": "545475012-800-37",
+          "color_name": "Black",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 5½ (9.5 INCHES)",
+          "sku": "545475012-800-38",
+          "mpn": "545475012-800-38",
+          "color_name": "Black",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 6 (9.8 INCHES)",
+          "sku": "545475012-800-39",
+          "mpn": "545475012-800-39",
+          "color_name": "Black",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        },
+        {
+          "name": "FISHERMAN SNEAKERS - Black - 7 (10.0 INCHES)",
+          "sku": "545475012-800-40",
+          "mpn": "545475012-800-40",
+          "color_name": "Black",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/fisherman-sneakers-p14308830.html?v1=545475012",
+          "images": [
+            "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0c6d/488b/b272463090aa/4d0e2565884f/14308830800-e1/14308830800-e1.jpg?ts=1778222892606&w=1920",
+        "https://static.zara.net/assets/public/eecd/6cc6/bf44484ab5e2/305c83b8513b/14308830800-e2/14308830800-e2.jpg?ts=1778222893517&w=1920",
+        "https://static.zara.net/assets/public/18c4/7810/ee324aafa4dc/025aaaf8941f/14308830800-e3/14308830800-e3.jpg?ts=1778222895822&w=1920",
+        "https://static.zara.net/assets/public/9308/04f6/1ae64fe38abc/298e9cf6cd8b/14308830800-e4/14308830800-e4.jpg?ts=1778222893054&w=1920",
+        "https://static.zara.net/assets/public/96d0/1d3a/a7f143f39e67/184beec1cfbf/14308830800-e5/14308830800-e5.jpg?ts=1778222894241&w=1920",
+        "https://static.zara.net/assets/public/a260/8e0a/59574de1bb25/3b08b65c58a4/14308830800-e6/14308830800-e6.jpg?ts=1778222892730&w=1920",
+        "https://static.zara.net/assets/public/1f1f/7111/aff14fc4a1db/d389c38e9cec/14308830800-e7/14308830800-e7.jpg?ts=1778222893533&w=1920",
+        "https://static.zara.net/assets/public/412a/48b1/4c3a4a71bed5/27737a481e49/14308830800-e8/14308830800-e8.jpg?ts=1778222892466&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nFisherman-style sneakers with cut-outs. Adjustable elastic laces with a stopper and front and back pull tabs for easy on and off. Rubber soles and OrthoLite® inner sole.\nSIZE 40: shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6820c3f9346a4c26d2de022d1e78e1c1983d201de098d0d204f86ec3edc7d797",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

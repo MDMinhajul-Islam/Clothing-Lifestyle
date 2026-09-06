@@ -1,0 +1,231 @@
+{
+  "product_id": "zara-us:00975695",
+  "source_url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html",
+  "final_url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SLIM FIT STRIPED SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SLIM FIT STRIPED SHIRT",
+      "url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html",
+      "productGroupID": "00975695",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "SLIM FIT - 100% COTTON - SPREAD COLLAR. Slim fit shirt crafted from cotton fabric. Features a spread collar, long sleeves with buttoned cuffs, and a front button fastening.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920",
+        "https://static.zara.net/assets/public/de86/8820/fb5447c399cc/488c1a9cf32e/00975695104-a1/00975695104-a1.jpg?ts=1787134114198&w=1920",
+        "https://static.zara.net/assets/public/6111/9f5d/d71f4ce7b77a/1341b3449017/00975695104-a2/00975695104-a2.jpg?ts=1787134115498&w=1920",
+        "https://static.zara.net/assets/public/ad11/7b68/dab74feab42d/e3d1cbef7b2d/00975695104-a3/00975695104-a3.jpg?ts=1787134115390&w=1920",
+        "https://static.zara.net/assets/public/6497/945d/e22a44b88d70/9da36cc47b4c/00975695104-a4/00975695104-a4.jpg?ts=1787134111406&w=1920",
+        "https://static.zara.net/assets/public/443f/c0b1/6595496e8380/0aa0724888f6/00975695104-a5/00975695104-a5.jpg?ts=1787134112081&w=1920",
+        "https://static.zara.net/assets/public/b41c/69f6/ae8f4fa498de/d9a71d47a665/00975695104-a6/00975695104-a6.jpg?ts=1787134115589&w=1920",
+        "https://static.zara.net/assets/public/a39f/5073/897a4f308f5b/0341ff384dee/00975695104-e1/00975695104-e1.jpg?ts=1786626230586&w=1920",
+        "https://static.zara.net/assets/public/ef53/9d97/9aab47469a16/d58a727a0a31/00975695104-e2/00975695104-e2.jpg?ts=1786626230659&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SLIM FIT STRIPED SHIRT - striped - S",
+          "sku": "563637619-104-2",
+          "mpn": "563637619-104-2",
+          "color": "striped",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html?v1=563637619",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SLIM FIT STRIPED SHIRT - striped - M",
+          "sku": "563637619-104-3",
+          "mpn": "563637619-104-3",
+          "color": "striped",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html?v1=563637619",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SLIM FIT STRIPED SHIRT - striped - L",
+          "sku": "563637619-104-4",
+          "mpn": "563637619-104-4",
+          "color": "striped",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html?v1=563637619",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SLIM FIT STRIPED SHIRT - striped - XL",
+          "sku": "563637619-104-5",
+          "mpn": "563637619-104-5",
+          "color": "striped",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html?v1=563637619",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SLIM FIT STRIPED SHIRT",
+      "product_group_id": "00975695",
+      "brand": "ZARA",
+      "description": "SLIM FIT - 100% COTTON - SPREAD COLLAR. Slim fit shirt crafted from cotton fabric. Features a spread collar, long sleeves with buttoned cuffs, and a front button fastening.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SLIM FIT STRIPED SHIRT - striped - S",
+          "sku": "563637619-104-2",
+          "mpn": "563637619-104-2",
+          "color_name": "striped",
+          "size_name": "S",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html?v1=563637619",
+          "images": [
+            "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920"
+          ]
+        },
+        {
+          "name": "SLIM FIT STRIPED SHIRT - striped - M",
+          "sku": "563637619-104-3",
+          "mpn": "563637619-104-3",
+          "color_name": "striped",
+          "size_name": "M",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html?v1=563637619",
+          "images": [
+            "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920"
+          ]
+        },
+        {
+          "name": "SLIM FIT STRIPED SHIRT - striped - L",
+          "sku": "563637619-104-4",
+          "mpn": "563637619-104-4",
+          "color_name": "striped",
+          "size_name": "L",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html?v1=563637619",
+          "images": [
+            "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920"
+          ]
+        },
+        {
+          "name": "SLIM FIT STRIPED SHIRT - striped - XL",
+          "sku": "563637619-104-5",
+          "mpn": "563637619-104-5",
+          "color_name": "striped",
+          "size_name": "XL",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-slim-fit-shirt-p00975695.html?v1=563637619",
+          "images": [
+            "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fb34/a648/86724b409d34/9f94dedaf6c4/00975695104-p/00975695104-p.jpg?ts=1787134111506&w=1920",
+        "https://static.zara.net/assets/public/de86/8820/fb5447c399cc/488c1a9cf32e/00975695104-a1/00975695104-a1.jpg?ts=1787134114198&w=1920",
+        "https://static.zara.net/assets/public/6111/9f5d/d71f4ce7b77a/1341b3449017/00975695104-a2/00975695104-a2.jpg?ts=1787134115498&w=1920",
+        "https://static.zara.net/assets/public/ad11/7b68/dab74feab42d/e3d1cbef7b2d/00975695104-a3/00975695104-a3.jpg?ts=1787134115390&w=1920",
+        "https://static.zara.net/assets/public/6497/945d/e22a44b88d70/9da36cc47b4c/00975695104-a4/00975695104-a4.jpg?ts=1787134111406&w=1920",
+        "https://static.zara.net/assets/public/443f/c0b1/6595496e8380/0aa0724888f6/00975695104-a5/00975695104-a5.jpg?ts=1787134112081&w=1920",
+        "https://static.zara.net/assets/public/b41c/69f6/ae8f4fa498de/d9a71d47a665/00975695104-a6/00975695104-a6.jpg?ts=1787134115589&w=1920",
+        "https://static.zara.net/assets/public/a39f/5073/897a4f308f5b/0341ff384dee/00975695104-e1/00975695104-e1.jpg?ts=1786626230586&w=1920",
+        "https://static.zara.net/assets/public/ef53/9d97/9aab47469a16/d58a727a0a31/00975695104-e2/00975695104-e2.jpg?ts=1786626230659&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nSLIM FIT - 100% COTTON - SPREAD COLLAR. Slim fit shirt crafted from cotton fabric. Features a spread collar, long sleeves with buttoned cuffs, and a front button fastening.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "47ee33e95e4ec52072de98e9d0056a3cb61d0ba059a3e4b1ebc3ef0d43925cbf",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

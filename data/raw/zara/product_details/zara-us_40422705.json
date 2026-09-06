@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:40422705",
+  "source_url": "https://www.zara.com/us/en/-666-g--pumpkin-spice-scented-candle-p40422705.html",
+  "final_url": "https://www.zara.com/us/en/-666-g--pumpkin-spice-scented-candle-p40422705.html",
+  "canonical_url": "https://www.zara.com/us/en/-666-g--pumpkin-spice-scented-candle-p40422705.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "(666 G) PUMPKIN SPICE SCENTED CANDLE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "(666 G) PUMPKIN SPICE SCENTED CANDLE",
+      "url": "https://www.zara.com/us/en/-666-g--pumpkin-spice-scented-candle-p40422705.html",
+      "productGroupID": "40422705",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Scented candle in the shape of an oval pumpkin.\n\nPumpkin Spice | An invitation to your deepest memories. Warm and surprising spices that reveal a delicious sweet pumpkin accord intertwined with creamy notes of sandalwood and cashmere.\n\nNotes:\nTop notes: Citrus, Nutmeg\nHeart notes: Pumpkin.\nBase notes: Cinnamon, Spices, Cashmeran, Dry wood",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3490/3456/fa09423d9302/de4bfeab85a6/40422705652-e1/40422705652-e1.jpg?ts=1785753369135&w=1920",
+        "https://static.zara.net/assets/public/6b3c/21fe/82bb4d488aad/27a25238fb0d/40422705652-e2/40422705652-e2.jpg?ts=1785753376924&w=1920",
+        "https://static.zara.net/assets/public/fee6/bf4b/401d43769de0/210e7fd70617/40422705652-e3/40422705652-e3.jpg?ts=1785753377345&w=1920",
+        "https://static.zara.net/assets/public/73d4/dea2/06524d16b7c3/67dd9e08e439/40422705652-e4/40422705652-e4.jpg?ts=1785753369446&w=1920",
+        "https://static.zara.net/assets/public/3013/103a/62624ad3b96a/ad4752586805/40422705652-a1/40422705652-a1.jpg?ts=1786524592710&w=1920",
+        "https://static.zara.net/assets/public/cc0c/5182/c46c473ea50a/e68ca1a26fe2/4042270565201-a3/4042270565201-a3.jpg?ts=1786533226177&w=1920",
+        "https://static.zara.net/assets/public/d7b7/fd35/d75842888fba/59bcfb75779b/4042270565201-a4/4042270565201-a4.jpg?ts=1786533226056&w=1920"
+      ],
+      "material": "wax/Soybean oil, hydrogenated/perfume",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "ZARA HOME SCENTED CANDLE PUMPKIN SPICE",
+          "value": " wax,  Soybean oil, hydrogenated,  perfume,  CINNAMALDEHYDE,  Eugenol,  (R)-p-mentha-1,8-diene,  ISOEUGENOL,  colorants"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "(666 G) PUMPKIN SPICE SCENTED CANDLE - Pumpkin - ONE SIZE ONLY",
+          "sku": "545400514-652-99",
+          "mpn": "545400514-652-99",
+          "color": "Pumpkin",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3490/3456/fa09423d9302/de4bfeab85a6/40422705652-e1/40422705652-e1.jpg?ts=1785753369135&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/-666-g--pumpkin-spice-scented-candle-p40422705.html?v1=545400514",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "(666 G) PUMPKIN SPICE SCENTED CANDLE",
+      "product_group_id": "40422705",
+      "brand": "ZARAHOME",
+      "description": "Scented candle in the shape of an oval pumpkin.\n\nPumpkin Spice | An invitation to your deepest memories. Warm and surprising spices that reveal a delicious sweet pumpkin accord intertwined with creamy notes of sandalwood and cashmere.\n\nNotes:\nTop notes: Citrus, Nutmeg\nHeart notes: Pumpkin.\nBase notes: Cinnamon, Spices, Cashmeran, Dry wood",
+      "material": "wax/Soybean oil, hydrogenated/perfume",
+      "composition": "ZARA HOME SCENTED CANDLE PUMPKIN SPICE:  wax,  Soybean oil, hydrogenated,  perfume,  CINNAMALDEHYDE,  Eugenol,  (R)-p-mentha-1,8-diene,  ISOEUGENOL,  colorants",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "(666 G) PUMPKIN SPICE SCENTED CANDLE - Pumpkin - ONE SIZE ONLY",
+          "sku": "545400514-652-99",
+          "mpn": "545400514-652-99",
+          "color_name": "Pumpkin",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/-666-g--pumpkin-spice-scented-candle-p40422705.html?v1=545400514",
+          "images": [
+            "https://static.zara.net/assets/public/3490/3456/fa09423d9302/de4bfeab85a6/40422705652-e1/40422705652-e1.jpg?ts=1785753369135&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3490/3456/fa09423d9302/de4bfeab85a6/40422705652-e1/40422705652-e1.jpg?ts=1785753369135&w=1920",
+        "https://static.zara.net/assets/public/6b3c/21fe/82bb4d488aad/27a25238fb0d/40422705652-e2/40422705652-e2.jpg?ts=1785753376924&w=1920",
+        "https://static.zara.net/assets/public/fee6/bf4b/401d43769de0/210e7fd70617/40422705652-e3/40422705652-e3.jpg?ts=1785753377345&w=1920",
+        "https://static.zara.net/assets/public/73d4/dea2/06524d16b7c3/67dd9e08e439/40422705652-e4/40422705652-e4.jpg?ts=1785753369446&w=1920",
+        "https://static.zara.net/assets/public/3013/103a/62624ad3b96a/ad4752586805/40422705652-a1/40422705652-a1.jpg?ts=1786524592710&w=1920",
+        "https://static.zara.net/assets/public/cc0c/5182/c46c473ea50a/e68ca1a26fe2/4042270565201-a3/4042270565201-a3.jpg?ts=1786533226177&w=1920",
+        "https://static.zara.net/assets/public/d7b7/fd35/d75842888fba/59bcfb75779b/4042270565201-a4/4042270565201-a4.jpg?ts=1786533226056&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nScented candle in the shape of an oval pumpkin.\nPumpkin Spice | An invitation to your deepest memories. Warm and surprising spices that reveal a delicious sweet pumpkin accord intertwined with creamy notes of sandalwood and cashmere.\nNotes:\nTop notes: Citrus, Nutmeg\nHeart notes: Pumpkin.\nBase notes: Cinnamon, Spices, Cashmeran, Dry wood",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c21d4d2725400b250179a268b2dc407abd6c1afb0ad0a194fef3a8782a10f616",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

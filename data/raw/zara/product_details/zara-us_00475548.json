@@ -1,0 +1,188 @@
+{
+  "product_id": "zara-us:00475548",
+  "source_url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html",
+  "final_url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html",
+  "canonical_url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "THIN PLASTIC FRAME SUNGLASSES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "THIN PLASTIC FRAME SUNGLASSES",
+      "url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html",
+      "productGroupID": "00475548",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round sunglasses with a thin plastic frame.\n100% UV PROTECTION. CATEGORY 3.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8f92/189b/112e401ca1b9/a8491ad2f174/00475548450-e1/00475548450-e1.jpg?ts=1774002158155&w=1920",
+        "https://static.zara.net/assets/public/60ff/b376/21a442d6aedf/16a9b39ed7e4/00475548450-e2/00475548450-e2.jpg?ts=1774002159100&w=1920",
+        "https://static.zara.net/assets/public/bfe8/b92d/0e9f4df98872/7c62b7423833/00475548450-e3/00475548450-e3.jpg?ts=1774002162576&w=1920",
+        "https://static.zara.net/assets/public/dc80/6a4c/26754ae3ba08/231e6ac462a6/00475548450-e5/00475548450-e5.jpg?ts=1774002160755&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "THIN PLASTIC FRAME SUNGLASSES - Beige - S (4-6 years)",
+          "sku": "563600653-450-6",
+          "mpn": "563600653-450-6",
+          "color": "Beige",
+          "size": "S (4-6 years)",
+          "image": [
+            "https://static.zara.net/assets/public/8f92/189b/112e401ca1b9/a8491ad2f174/00475548450-e1/00475548450-e1.jpg?ts=1774002158155&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html?v1=563600653",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "THIN PLASTIC FRAME SUNGLASSES - Beige - M (6-9 years)",
+          "sku": "563600653-450-9",
+          "mpn": "563600653-450-9",
+          "color": "Beige",
+          "size": "M (6-9 years)",
+          "image": [
+            "https://static.zara.net/assets/public/8f92/189b/112e401ca1b9/a8491ad2f174/00475548450-e1/00475548450-e1.jpg?ts=1774002158155&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html?v1=563600653",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "THIN PLASTIC FRAME SUNGLASSES - Beige - L (10-14 years)",
+          "sku": "563600653-450-14",
+          "mpn": "563600653-450-14",
+          "color": "Beige",
+          "size": "L (10-14 years)",
+          "image": [
+            "https://static.zara.net/assets/public/8f92/189b/112e401ca1b9/a8491ad2f174/00475548450-e1/00475548450-e1.jpg?ts=1774002158155&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html?v1=563600653",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "THIN PLASTIC FRAME SUNGLASSES",
+      "product_group_id": "00475548",
+      "brand": "ZARA",
+      "description": "Round sunglasses with a thin plastic frame.\n100% UV PROTECTION. CATEGORY 3.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "THIN PLASTIC FRAME SUNGLASSES - Beige - S (4-6 years)",
+          "sku": "563600653-450-6",
+          "mpn": "563600653-450-6",
+          "color_name": "Beige",
+          "size_name": "S (4-6 years)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html?v1=563600653",
+          "images": [
+            "https://static.zara.net/assets/public/8f92/189b/112e401ca1b9/a8491ad2f174/00475548450-e1/00475548450-e1.jpg?ts=1774002158155&w=1920"
+          ]
+        },
+        {
+          "name": "THIN PLASTIC FRAME SUNGLASSES - Beige - M (6-9 years)",
+          "sku": "563600653-450-9",
+          "mpn": "563600653-450-9",
+          "color_name": "Beige",
+          "size_name": "M (6-9 years)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html?v1=563600653",
+          "images": [
+            "https://static.zara.net/assets/public/8f92/189b/112e401ca1b9/a8491ad2f174/00475548450-e1/00475548450-e1.jpg?ts=1774002158155&w=1920"
+          ]
+        },
+        {
+          "name": "THIN PLASTIC FRAME SUNGLASSES - Beige - L (10-14 years)",
+          "sku": "563600653-450-14",
+          "mpn": "563600653-450-14",
+          "color_name": "Beige",
+          "size_name": "L (10-14 years)",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/thin-plastic-frame-sunglasses-p00475548.html?v1=563600653",
+          "images": [
+            "https://static.zara.net/assets/public/8f92/189b/112e401ca1b9/a8491ad2f174/00475548450-e1/00475548450-e1.jpg?ts=1774002158155&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8f92/189b/112e401ca1b9/a8491ad2f174/00475548450-e1/00475548450-e1.jpg?ts=1774002158155&w=1920",
+        "https://static.zara.net/assets/public/60ff/b376/21a442d6aedf/16a9b39ed7e4/00475548450-e2/00475548450-e2.jpg?ts=1774002159100&w=1920",
+        "https://static.zara.net/assets/public/bfe8/b92d/0e9f4df98872/7c62b7423833/00475548450-e3/00475548450-e3.jpg?ts=1774002162576&w=1920",
+        "https://static.zara.net/assets/public/dc80/6a4c/26754ae3ba08/231e6ac462a6/00475548450-e5/00475548450-e5.jpg?ts=1774002160755&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "19.90",
+  "rendered_description": "Description\nRound sunglasses with a thin plastic frame.\n100% UV PROTECTION. CATEGORY 3.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "19.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "19.90",
+    "dom_price": "19.90",
+    "normalized_price": "19.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0934d19a051a4af718f3c03d0fe149d0ef7a484ec9a33b4fb41e65ebe9ba14fe",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

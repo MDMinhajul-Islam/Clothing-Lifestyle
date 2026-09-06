@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:49288024",
+  "source_url": "https://www.zara.com/us/en/ramie-table-runner-p49288024.html",
+  "final_url": "https://www.zara.com/us/en/ramie-table-runner-p49288024.html",
+  "canonical_url": "https://www.zara.com/us/en/ramie-table-runner-p49288024.html",
+  "enriched_at": "2026-09-06T18:15:06.079324+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RAMIE TABLE RUNNER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RAMIE TABLE RUNNER",
+      "url": "https://www.zara.com/us/en/ramie-table-runner-p49288024.html",
+      "productGroupID": "49288024",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Table runner made of ramie. Plain design with texture.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/24f7/0070/0778444eb959/504df7891e84/49288024700-e1/49288024700-e1.jpg?ts=1781772716963&w=1920",
+        "https://static.zara.net/assets/public/bd59/1744/8e7243cab3dc/065a9a695755/49288024700-e2/49288024700-e2.jpg?ts=1781772717584&w=1920",
+        "https://static.zara.net/assets/public/3d14/b003/858540e6985a/26a9722e1802/49288024700-e3/49288024700-e3.jpg?ts=1781772718152&w=1920",
+        "https://static.zara.net/assets/public/d872/80fd/892644b1aa75/505a7112ebcf/49288024700-e4/49288024700-e4.jpg?ts=1781772717611&w=1920",
+        "https://static.zara.net/assets/public/4370/3f04/a320414b86c7/4cbd48addd02/49288024700-e5/49288024700-e5.jpg?ts=1781772717790&w=1920",
+        "https://static.zara.net/assets/public/fa56/c3e4/f841451f92d9/545a5d1ad93f/49288024700-a1/49288024700-a1.jpg?ts=1783498549292&w=1920"
+      ],
+      "material": "ramie/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "80% ramie, 20% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RAMIE TABLE RUNNER - Brown - 19,5 x 63 \"",
+          "sku": "545461339-700-50",
+          "mpn": "545461339-700-50",
+          "color": "Brown",
+          "size": "19,5 x 63 \"",
+          "image": [
+            "https://static.zara.net/assets/public/24f7/0070/0778444eb959/504df7891e84/49288024700-e1/49288024700-e1.jpg?ts=1781772716963&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/ramie-table-runner-p49288024.html?v1=545461339",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RAMIE TABLE RUNNER",
+      "product_group_id": "49288024",
+      "brand": "ZARAHOME",
+      "description": "Table runner made of ramie. Plain design with texture.",
+      "material": "ramie/polyester",
+      "composition": "OUTER SHELL: 80% ramie, 20% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RAMIE TABLE RUNNER - Brown - 19,5 x 63 \"",
+          "sku": "545461339-700-50",
+          "mpn": "545461339-700-50",
+          "color_name": "Brown",
+          "size_name": "19,5 x 63 \"",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ramie-table-runner-p49288024.html?v1=545461339",
+          "images": [
+            "https://static.zara.net/assets/public/24f7/0070/0778444eb959/504df7891e84/49288024700-e1/49288024700-e1.jpg?ts=1781772716963&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/24f7/0070/0778444eb959/504df7891e84/49288024700-e1/49288024700-e1.jpg?ts=1781772716963&w=1920",
+        "https://static.zara.net/assets/public/bd59/1744/8e7243cab3dc/065a9a695755/49288024700-e2/49288024700-e2.jpg?ts=1781772717584&w=1920",
+        "https://static.zara.net/assets/public/3d14/b003/858540e6985a/26a9722e1802/49288024700-e3/49288024700-e3.jpg?ts=1781772718152&w=1920",
+        "https://static.zara.net/assets/public/d872/80fd/892644b1aa75/505a7112ebcf/49288024700-e4/49288024700-e4.jpg?ts=1781772717611&w=1920",
+        "https://static.zara.net/assets/public/4370/3f04/a320414b86c7/4cbd48addd02/49288024700-e5/49288024700-e5.jpg?ts=1781772717790&w=1920",
+        "https://static.zara.net/assets/public/fa56/c3e4/f841451f92d9/545a5d1ad93f/49288024700-a1/49288024700-a1.jpg?ts=1783498549292&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nTable runner made of ramie. Plain design with texture.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f3db2f321095fc6ed550cb4c3468db8342d86ba9faf98e8763f8e48578305334",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
