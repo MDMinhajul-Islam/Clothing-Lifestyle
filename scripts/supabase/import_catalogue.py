@@ -4,8 +4,8 @@
 Supports:
   1. Offline DRY RUN mode with full schema, constraint, FK, and sample query verification
      using an in-memory SQLite relational engine.
-  2. Production Supabase PostgREST batch upsert using Python standard library HTTP.
-  3. Direct PostgreSQL connection using psycopg2 if available.
+  2. Production Supabase direct PostgreSQL batched upserts via psycopg2 when configured.
+  3. Production Supabase PostgREST batch upserts via Python standard library HTTP fallback.
 
 Idempotent: Re-running against the same data safely merges updates without duplicates.
 """
@@ -25,6 +25,13 @@ from urllib.parse import urlsplit
 import urllib.request
 import urllib.error
 
+try:
+    import psycopg2
+    from psycopg2.extras import execute_batch
+    HAVE_PSYCOPG2 = True
+except ImportError:
+    HAVE_PSYCOPG2 = False
+
 # Project paths
 ROOT_DIR = Path(__file__).resolve().parents[2]
 DATA_DIR = ROOT_DIR / "data" / "zara"
@@ -36,7 +43,7 @@ EXPECTED_COUNTS = {
     "product_variants": 38002,
     "product_colors": 7717,
     "product_images": 40228,
-    "product_categories": 8473,  # 8,200 valid products + 273 card-edges
+    "product_categories": 8200,  # 8,200 valid products (273 card-edges skipped)
     "product_price_history": 6018,
     "catalogue_sync_state": 6276,
 }
@@ -47,6 +54,19 @@ logging.basicConfig(
     handlers=[logging.StreamHandler(sys.stdout)]
 )
 logger = logging.getLogger("supabase_importer")
+
+
+def load_dotenv(env_path: Path = ROOT_DIR / ".env"):
+    """Lightweight .env parser using standard library."""
+    if env_path.exists():
+        for line in env_path.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                k = k.strip()
+                v = v.strip().strip("'").strip('"')
+                if k not in os.environ:
+                    os.environ[k] = v
 
 
 def canonicalize_image_asset_key(url: str) -> str:
@@ -686,6 +706,38 @@ class DryRunRelationalValidator:
         return queries
 
 
+class PostgresDirectClient:
+    """Direct PostgreSQL client using psycopg2 for high-speed batched upserts."""
+
+    def __init__(self, db_url: str):
+        self.conn = psycopg2.connect(db_url)
+        self.conn.autocommit = True
+
+    def upsert_batch(self, table: str, records: list, conflict_col: str) -> int:
+        if not records:
+            return 0
+        cols = list(records[0].keys())
+        cols_str = ", ".join(cols)
+        placeholders = ", ".join(["%s"] * len(cols))
+
+        conflicts = [c.strip() for c in conflict_col.split(",")]
+        non_conflicts = [c for c in cols if c not in conflicts]
+        if non_conflicts:
+            update_clause = ", ".join([f"{c} = EXCLUDED.{c}" for c in non_conflicts])
+            on_conflict_clause = f"ON CONFLICT ({conflict_col}) DO UPDATE SET {update_clause}"
+        else:
+            on_conflict_clause = f"ON CONFLICT ({conflict_col}) DO NOTHING"
+
+        sql = f"INSERT INTO {table} ({cols_str}) VALUES ({placeholders}) {on_conflict_clause};"
+        values = [[r[c] for c in cols] for r in records]
+        cur = self.conn.cursor()
+        execute_batch(cur, sql, values, page_size=len(records))
+        return len(records)
+
+    def close(self):
+        self.conn.close()
+
+
 class SupabasePostgrestClient:
     """Standard-library HTTP client for Supabase PostgREST batch upserts."""
 
@@ -717,8 +769,12 @@ class SupabasePostgrestClient:
             error_body = e.read().decode("utf-8")
             raise RuntimeError(f"Supabase PostgREST error on table {table} (HTTP {e.code}): {error_body}")
 
+    def close(self):
+        pass
+
 
 def main():
+    load_dotenv()
     parser = argparse.ArgumentParser(description="Zara US Catalogue Supabase Bulk Importer")
     parser.add_argument("--dry-run", action="store_true", default=False, help="Run validation in dry-run mode")
     parser.add_argument("--live", action="store_true", help="Execute real import against Supabase / PostgreSQL")
@@ -767,16 +823,21 @@ def main():
         return
 
     # 3. Live import execution
+    supabase_db_url = os.getenv("SUPABASE_DB_URL")
     supabase_url = os.getenv("SUPABASE_URL")
     service_role_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
 
-    if not supabase_url or not service_role_key:
-        logger.error("SUPABASE_URL or SUPABASE_SERVICE_ROLE_KEY environment variables are missing.")
+    if not (supabase_db_url or (supabase_url and service_role_key)):
+        logger.error("Neither SUPABASE_DB_URL nor (SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY) are configured.")
         logger.error("Cannot proceed with live import without valid credentials.")
         sys.exit(1)
 
-    logger.info(f"Connecting to Supabase at {supabase_url}...")
-    client = SupabasePostgrestClient(supabase_url, service_role_key)
+    if supabase_db_url and HAVE_PSYCOPG2:
+        logger.info("Initializing direct PostgreSQL high-speed client (psycopg2)...")
+        client = PostgresDirectClient(supabase_db_url)
+    else:
+        logger.info(f"Initializing Supabase PostgREST client at {supabase_url}...")
+        client = SupabasePostgrestClient(supabase_url, service_role_key)
 
     import_sequence = [
         ("products", loader.products, "product_id"),
@@ -795,12 +856,15 @@ def main():
     for table_name, records, conflict_col in import_sequence:
         logger.info(f"Importing {len(records)} rows into '{table_name}' in batches of {args.batch_size}...")
         table_count = 0
+        t0 = time.perf_counter()
         for batch in chunk_list(records, args.batch_size):
-            inserted = client.upsert_batch(table_name, batch, on_conflict=conflict_col)
+            inserted = client.upsert_batch(table_name, batch, conflict_col)
             table_count += inserted
-        logger.info(f"Successfully upserted {table_count} rows into '{table_name}'.")
+        t_tab = time.perf_counter() - t0
+        logger.info(f"Successfully upserted {table_count} rows into '{table_name}' in {t_tab:.2f}s.")
         total_inserted += table_count
 
+    client.close()
     elapsed = time.perf_counter() - t_start
     logger.info("====================================================================")
     logger.info("PRODUCTION SUPABASE IMPORT COMPLETED")
