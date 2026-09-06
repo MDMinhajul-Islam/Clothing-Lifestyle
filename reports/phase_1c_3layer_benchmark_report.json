@@ -1,0 +1,1112 @@
+{
+  "timestamp": "2026-09-06T11:45:07.166524+00:00",
+  "benchmark_summary": {
+    "total_products": 50,
+    "old_avg_seconds": 6.22,
+    "new_avg_seconds": 1.55,
+    "new_median_seconds": 1.4,
+    "speedup_factor": "4.01x",
+    "slowest_product": {
+      "product_id": "zara-us:04772385",
+      "name": "POLKA DOT CAPE SKIRT HALTER DRESS",
+      "seconds": 2.85
+    },
+    "timing_breakdown": {
+      "avg_browser_nav_seconds": 1.29,
+      "avg_local_parse_ms": 256.7,
+      "avg_normalization_ms": 0.6
+    }
+  },
+  "accuracy_gate": {
+    "passed": false,
+    "stats": {
+      "identity_matches": 50,
+      "identity_mismatches": 0,
+      "price_matches": 43,
+      "price_mismatches": 7,
+      "variant_matches": 50,
+      "variant_mismatches": 0,
+      "color_matches": 18,
+      "color_mismatches": 32,
+      "image_count_matches": 40,
+      "image_count_mismatches": 10,
+      "content_matches": 50,
+      "content_mismatches": 0
+    },
+    "mismatch_count": 42,
+    "mismatches": [
+      {
+        "product_id": "zara-us:04772227",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:03152225",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:04772385",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:03152232",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:03152205",
+        "diffs": {
+          "colors": {
+            "old_count": 6,
+            "new_count": 2
+          },
+          "images": {
+            "old_count": 71,
+            "new_count": 10
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:04786296",
+        "diffs": {
+          "colors": {
+            "old_count": 7,
+            "new_count": 5
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:04786307",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:04772386",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:07812332",
+        "diffs": {
+          "colors": {
+            "old_count": 6,
+            "new_count": 4
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:07827777",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:07823330",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:07768109",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:02778332",
+        "diffs": {
+          "colors": {
+            "old_count": 5,
+            "new_count": 3
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:01030731",
+        "diffs": {
+          "colors": {
+            "old_count": 7,
+            "new_count": 3
+          },
+          "images": {
+            "old_count": 74,
+            "new_count": 10
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:08281740",
+        "diffs": {
+          "colors": {
+            "old_count": 9,
+            "new_count": 5
+          },
+          "images": {
+            "old_count": 78,
+            "new_count": 14
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:03332310",
+        "diffs": {
+          "colors": {
+            "old_count": 8,
+            "new_count": 4
+          },
+          "images": {
+            "old_count": 76,
+            "new_count": 12
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:12000822",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:12355820",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:00029400",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:03411390",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:00108313",
+        "diffs": {
+          "colors": {
+            "old_count": 7,
+            "new_count": 5
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:03715349",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:08073702",
+        "diffs": {
+          "colors": {
+            "old_count": 6,
+            "new_count": 2
+          },
+          "images": {
+            "old_count": 73,
+            "new_count": 8
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:01044102",
+        "diffs": {
+          "colors": {
+            "old_count": 7,
+            "new_count": 3
+          },
+          "images": {
+            "old_count": 73,
+            "new_count": 7
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:02582555",
+        "diffs": {
+          "colors": {
+            "old_count": 7,
+            "new_count": 3
+          },
+          "images": {
+            "old_count": 70,
+            "new_count": 6
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:03153780",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:05644903",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:08501535",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:01095888",
+        "diffs": {
+          "images": {
+            "old_count": 71,
+            "new_count": 4
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:14016800",
+        "diffs": {
+          "colors": {
+            "old_count": 3,
+            "new_count": 1
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:44326728",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:44115121",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:46191008",
+        "diffs": {
+          "colors": {
+            "old_count": 4,
+            "new_count": 2
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:40406509",
+        "diffs": {
+          "images": {
+            "old_count": 71,
+            "new_count": 6
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:40247043",
+        "diffs": {
+          "images": {
+            "old_count": 68,
+            "new_count": 6
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:20110153",
+        "diffs": {
+          "pricing": {
+            "old_price": "39.90",
+            "new_price": "39.90",
+            "old_sale": true,
+            "new_sale": false
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:20110392",
+        "diffs": {
+          "pricing": {
+            "old_price": "39.90",
+            "new_price": "39.90",
+            "old_sale": true,
+            "new_sale": false
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:20110604",
+        "diffs": {
+          "pricing": {
+            "old_price": "49.90",
+            "new_price": "49.90",
+            "old_sale": true,
+            "new_sale": false
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:20110820",
+        "diffs": {
+          "pricing": {
+            "old_price": "69.90",
+            "new_price": "69.90",
+            "old_sale": true,
+            "new_sale": false
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:20110928",
+        "diffs": {
+          "pricing": {
+            "old_price": "59.90",
+            "new_price": "59.90",
+            "old_sale": true,
+            "new_sale": false
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:20110966",
+        "diffs": {
+          "pricing": {
+            "old_price": "59.90",
+            "new_price": "59.90",
+            "old_sale": true,
+            "new_sale": false
+          }
+        }
+      },
+      {
+        "product_id": "zara-us:20120273",
+        "diffs": {
+          "pricing": {
+            "old_price": "35.90",
+            "new_price": "35.90",
+            "old_sale": true,
+            "new_sale": false
+          }
+        }
+      }
+    ]
+  },
+  "products": [
+    {
+      "product_id": "zara-us:04772227",
+      "name": "SHORT MOCK NECK DRESS",
+      "department": "WOMAN",
+      "total_seconds": 2.54,
+      "nav_seconds": 2.25,
+      "parse_ms": 291.8,
+      "norm_ms": 0.8,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 9,
+      "price": "35.94"
+    },
+    {
+      "product_id": "zara-us:03152225",
+      "name": "BOW MINI DRESS",
+      "department": "WOMAN",
+      "total_seconds": 2.02,
+      "nav_seconds": 1.79,
+      "parse_ms": 232.6,
+      "norm_ms": 0.7,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 8,
+      "price": "35.94"
+    },
+    {
+      "product_id": "zara-us:04772385",
+      "name": "POLKA DOT CAPE SKIRT HALTER DRESS",
+      "department": "WOMAN",
+      "total_seconds": 2.85,
+      "nav_seconds": 2.47,
+      "parse_ms": 378.3,
+      "norm_ms": 0.9,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 8,
+      "price": "35.94"
+    },
+    {
+      "product_id": "zara-us:07807154",
+      "name": "STRETCHY KNOTTED CUT OUT MINI DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.99,
+      "nav_seconds": 1.64,
+      "parse_ms": 344.9,
+      "norm_ms": 0.9,
+      "variants_count": 6,
+      "colors_count": 1,
+      "images_count": 6,
+      "price": "35.94"
+    },
+    {
+      "product_id": "zara-us:07760111",
+      "name": "COMBINATION TULLE HALTER MINI DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.91,
+      "nav_seconds": 1.67,
+      "parse_ms": 241.1,
+      "norm_ms": 0.5,
+      "variants_count": 6,
+      "colors_count": 1,
+      "images_count": 7,
+      "price": "47.94"
+    },
+    {
+      "product_id": "zara-us:03152232",
+      "name": "CUT-OUT MINI DRESS",
+      "department": "WOMAN",
+      "total_seconds": 2.42,
+      "nav_seconds": 2.12,
+      "parse_ms": 294.3,
+      "norm_ms": 0.7,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 9,
+      "price": "35.94"
+    },
+    {
+      "product_id": "zara-us:03152205",
+      "name": "RUCHED HALTER DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.71,
+      "nav_seconds": 1.41,
+      "parse_ms": 296.5,
+      "norm_ms": 0.7,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 10,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:04786296",
+      "name": "SHORT SLEEVE FLOWY BLOUSE ZW COLLECTION",
+      "department": "WOMAN",
+      "total_seconds": 1.39,
+      "nav_seconds": 1.14,
+      "parse_ms": 247.6,
+      "norm_ms": 0.8,
+      "variants_count": 25,
+      "colors_count": 5,
+      "images_count": 12,
+      "price": "59.90"
+    },
+    {
+      "product_id": "zara-us:04786307",
+      "name": "ZW COLLECTION HALTER SATIN MIDI DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.81,
+      "nav_seconds": 1.52,
+      "parse_ms": 290.2,
+      "norm_ms": 0.7,
+      "variants_count": 10,
+      "colors_count": 2,
+      "images_count": 9,
+      "price": "79.90"
+    },
+    {
+      "product_id": "zara-us:04772386",
+      "name": "SATIN HALTER MIDI DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.16,
+      "nav_seconds": 0.93,
+      "parse_ms": 226.7,
+      "norm_ms": 0.5,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 6,
+      "price": "59.90"
+    },
+    {
+      "product_id": "zara-us:07812332",
+      "name": "SATIN EFFECT MINI DRESS WITH SLIT",
+      "department": "WOMAN",
+      "total_seconds": 1.22,
+      "nav_seconds": 0.98,
+      "parse_ms": 241.7,
+      "norm_ms": 0.8,
+      "variants_count": 24,
+      "colors_count": 4,
+      "images_count": 10,
+      "price": "59.90"
+    },
+    {
+      "product_id": "zara-us:07827777",
+      "name": "PLEATED SLEEVE MINI DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.15,
+      "nav_seconds": 0.92,
+      "parse_ms": 227.5,
+      "norm_ms": 1.2,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 8,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:07823330",
+      "name": "SATIN TIE-DETAIL MAXI DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.24,
+      "nav_seconds": 1.01,
+      "parse_ms": 236.2,
+      "norm_ms": 0.5,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 5,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:07768109",
+      "name": "LONG GEORGETTE SCARF STRAP DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.48,
+      "nav_seconds": 1.16,
+      "parse_ms": 323.6,
+      "norm_ms": 0.6,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 10,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:02778332",
+      "name": "ANIMAL PRINT SATIN HALTER DRESS",
+      "department": "WOMAN",
+      "total_seconds": 1.39,
+      "nav_seconds": 1.15,
+      "parse_ms": 230.8,
+      "norm_ms": 0.6,
+      "variants_count": 18,
+      "colors_count": 3,
+      "images_count": 10,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:card-575713575",
+      "name": "CHECKED REGULAR FIT SUIT",
+      "department": "MAN",
+      "total_seconds": 1.17,
+      "nav_seconds": 0.93,
+      "parse_ms": 241.1,
+      "norm_ms": 0.2,
+      "variants_count": 1,
+      "colors_count": 0,
+      "images_count": 0,
+      "price": "169.00"
+    },
+    {
+      "product_id": "zara-us:01030731",
+      "name": "BOXY FIT SHIRT",
+      "department": "MAN",
+      "total_seconds": 1.33,
+      "nav_seconds": 1.1,
+      "parse_ms": 228.7,
+      "norm_ms": 0.6,
+      "variants_count": 12,
+      "colors_count": 3,
+      "images_count": 10,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:08281740",
+      "name": "RELAXED FIT PLEATED PANTS",
+      "department": "MAN",
+      "total_seconds": 1.51,
+      "nav_seconds": 1.25,
+      "parse_ms": 251.5,
+      "norm_ms": 0.9,
+      "variants_count": 25,
+      "colors_count": 5,
+      "images_count": 14,
+      "price": "79.90"
+    },
+    {
+      "product_id": "zara-us:03332310",
+      "name": "PURL KNIT QUARTER-ZIP SWEATER",
+      "department": "MAN",
+      "total_seconds": 1.42,
+      "nav_seconds": 1.18,
+      "parse_ms": 233.4,
+      "norm_ms": 0.7,
+      "variants_count": 12,
+      "colors_count": 4,
+      "images_count": 12,
+      "price": "79.90"
+    },
+    {
+      "product_id": "zara-us:12000822",
+      "name": "POINTED-TOE CHELSEA BOOTS",
+      "department": "MAN",
+      "total_seconds": 1.13,
+      "nav_seconds": 0.93,
+      "parse_ms": 198.9,
+      "norm_ms": 0.6,
+      "variants_count": 18,
+      "colors_count": 2,
+      "images_count": 5,
+      "price": "79.90"
+    },
+    {
+      "product_id": "zara-us:12355820",
+      "name": "TRAIL RUNNING SNEAKERS",
+      "department": "MAN",
+      "total_seconds": 1.24,
+      "nav_seconds": 1.01,
+      "parse_ms": 232.9,
+      "norm_ms": 0.7,
+      "variants_count": 16,
+      "colors_count": 2,
+      "images_count": 8,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:00029400",
+      "name": "REGULAR FIT QUILTED VEST",
+      "department": "MAN",
+      "total_seconds": 1.46,
+      "nav_seconds": 1.15,
+      "parse_ms": 305.6,
+      "norm_ms": 0.6,
+      "variants_count": 8,
+      "colors_count": 2,
+      "images_count": 9,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:03411390",
+      "name": "QUILTED TECHNICAL VEST",
+      "department": "MAN",
+      "total_seconds": 1.32,
+      "nav_seconds": 1.06,
+      "parse_ms": 262.3,
+      "norm_ms": 0.8,
+      "variants_count": 8,
+      "colors_count": 2,
+      "images_count": 10,
+      "price": "59.90"
+    },
+    {
+      "product_id": "zara-us:00108313",
+      "name": "DRAWSTRING BARREL FIT PANTS",
+      "department": "MAN",
+      "total_seconds": 1.34,
+      "nav_seconds": 1.1,
+      "parse_ms": 245.5,
+      "norm_ms": 1.2,
+      "variants_count": 30,
+      "colors_count": 5,
+      "images_count": 15,
+      "price": "59.90"
+    },
+    {
+      "product_id": "zara-us:03715349",
+      "name": "100% LINEN STRIPED JACQUARD SHIRT",
+      "department": "MAN",
+      "total_seconds": 1.37,
+      "nav_seconds": 1.13,
+      "parse_ms": 238.7,
+      "norm_ms": 1.1,
+      "variants_count": 8,
+      "colors_count": 2,
+      "images_count": 8,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:11114830",
+      "name": "CAPYBARA CAPYFUN© CROSSBODY BAG",
+      "department": "KIDS",
+      "total_seconds": 1.28,
+      "nav_seconds": 1.03,
+      "parse_ms": 243.7,
+      "norm_ms": 0.6,
+      "variants_count": 1,
+      "colors_count": 1,
+      "images_count": 6,
+      "price": "22.99"
+    },
+    {
+      "product_id": "zara-us:08073702",
+      "name": "COMBINED QUILTED HOODED JACKET",
+      "department": "KIDS",
+      "total_seconds": 1.35,
+      "nav_seconds": 1.12,
+      "parse_ms": 226.4,
+      "norm_ms": 0.6,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 8,
+      "price": "45.90"
+    },
+    {
+      "product_id": "zara-us:01044102",
+      "name": "STRIPED SWEATSHIRT AND FLARE LEGGING SET",
+      "department": "KIDS",
+      "total_seconds": 0.9,
+      "nav_seconds": 0.85,
+      "parse_ms": 55.5,
+      "norm_ms": 0.7,
+      "variants_count": 18,
+      "colors_count": 3,
+      "images_count": 7,
+      "price": "25.90"
+    },
+    {
+      "product_id": "zara-us:02582555",
+      "name": "KNIT BONNET",
+      "department": "KIDS",
+      "total_seconds": 1.6,
+      "nav_seconds": 1.3,
+      "parse_ms": 294.2,
+      "norm_ms": 0.9,
+      "variants_count": 12,
+      "colors_count": 3,
+      "images_count": 6,
+      "price": "22.90"
+    },
+    {
+      "product_id": "zara-us:03153780",
+      "name": "WRAP WAIST BARREL TAILORED PANTS",
+      "department": "KIDS",
+      "total_seconds": 1.39,
+      "nav_seconds": 1.15,
+      "parse_ms": 233.0,
+      "norm_ms": 0.5,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 5,
+      "price": "35.90"
+    },
+    {
+      "product_id": "zara-us:05644903",
+      "name": "RAGLAN SLEEVE T-SHIRT",
+      "department": "KIDS",
+      "total_seconds": 1.78,
+      "nav_seconds": 1.52,
+      "parse_ms": 256.0,
+      "norm_ms": 1.0,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 7,
+      "price": "17.90"
+    },
+    {
+      "product_id": "zara-us:08501535",
+      "name": "3-PACK OF ADJUSTABLE LENGTH STRIPED LEGGINGS",
+      "department": "KIDS",
+      "total_seconds": 1.35,
+      "nav_seconds": 1.13,
+      "parse_ms": 219.5,
+      "norm_ms": 0.4,
+      "variants_count": 12,
+      "colors_count": 2,
+      "images_count": 5,
+      "price": "22.90"
+    },
+    {
+      "product_id": "zara-us:01095888",
+      "name": "BARREL CARGO PANTS",
+      "department": "KIDS",
+      "total_seconds": 1.32,
+      "nav_seconds": 1.08,
+      "parse_ms": 235.8,
+      "norm_ms": 0.4,
+      "variants_count": 6,
+      "colors_count": 1,
+      "images_count": 4,
+      "price": "39.90"
+    },
+    {
+      "product_id": "zara-us:00009548",
+      "name": "DOLPHIN SWIM GOGGLES",
+      "department": "KIDS",
+      "total_seconds": 1.32,
+      "nav_seconds": 0.99,
+      "parse_ms": 330.8,
+      "norm_ms": 0.3,
+      "variants_count": 1,
+      "colors_count": 1,
+      "images_count": 4,
+      "price": "22.90"
+    },
+    {
+      "product_id": "zara-us:00653537",
+      "name": "BIRTHDAY CROWN",
+      "department": "KIDS",
+      "total_seconds": 1.19,
+      "nav_seconds": 0.98,
+      "parse_ms": 217.6,
+      "norm_ms": 0.5,
+      "variants_count": 1,
+      "colors_count": 1,
+      "images_count": 6,
+      "price": "22.90"
+    },
+    {
+      "product_id": "zara-us:44408707",
+      "name": "VANILLA & NUT CAR AIR FRESHENER",
+      "department": "ZARA HOME",
+      "total_seconds": 1.17,
+      "nav_seconds": 0.95,
+      "parse_ms": 219.2,
+      "norm_ms": 0.4,
+      "variants_count": 1,
+      "colors_count": 1,
+      "images_count": 5,
+      "price": "27.92"
+    },
+    {
+      "product_id": "zara-us:14016800",
+      "name": "HALF-MOON LEATHER MAKEUP BAG",
+      "department": "ZARA HOME",
+      "total_seconds": 1.84,
+      "nav_seconds": 1.62,
+      "parse_ms": 225.4,
+      "norm_ms": 0.4,
+      "variants_count": 2,
+      "colors_count": 1,
+      "images_count": 7,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:44326728",
+      "name": "OHTO ALUMINUM AND BRASS PEN",
+      "department": "ZARA HOME",
+      "total_seconds": 1.64,
+      "nav_seconds": 1.38,
+      "parse_ms": 260.1,
+      "norm_ms": 0.5,
+      "variants_count": 2,
+      "colors_count": 2,
+      "images_count": 6,
+      "price": "29.90"
+    },
+    {
+      "product_id": "zara-us:44115121",
+      "name": "MULBERRY SILK STRAPPY NIGHTGOWN",
+      "department": "ZARA HOME",
+      "total_seconds": 1.55,
+      "nav_seconds": 1.32,
+      "parse_ms": 230.3,
+      "norm_ms": 0.6,
+      "variants_count": 8,
+      "colors_count": 2,
+      "images_count": 6,
+      "price": "299.00"
+    },
+    {
+      "product_id": "zara-us:46191008",
+      "name": "LINE THROW PILLOW COVER",
+      "department": "ZARA HOME",
+      "total_seconds": 1.87,
+      "nav_seconds": 1.6,
+      "parse_ms": 273.0,
+      "norm_ms": 0.7,
+      "variants_count": 2,
+      "colors_count": 2,
+      "images_count": 6,
+      "price": "59.90"
+    },
+    {
+      "product_id": "zara-us:11316700",
+      "name": "MINIMAL LEATHER SANDALS",
+      "department": "ZARA HOME",
+      "total_seconds": 1.37,
+      "nav_seconds": 1.07,
+      "parse_ms": 301.2,
+      "norm_ms": 0.6,
+      "variants_count": 7,
+      "colors_count": 1,
+      "images_count": 8,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:40406509",
+      "name": "SMALL STONEWARE MUSHROOM CANDLESTICK",
+      "department": "ZARA HOME",
+      "total_seconds": 1.42,
+      "nav_seconds": 1.16,
+      "parse_ms": 260.4,
+      "norm_ms": 0.5,
+      "variants_count": 1,
+      "colors_count": 1,
+      "images_count": 6,
+      "price": "11.90"
+    },
+    {
+      "product_id": "zara-us:40247043",
+      "name": "MAGNETIC BOARD WITH WOODEN FRAME",
+      "department": "ZARA HOME",
+      "total_seconds": 1.63,
+      "nav_seconds": 1.34,
+      "parse_ms": 287.4,
+      "norm_ms": 0.6,
+      "variants_count": 2,
+      "colors_count": 1,
+      "images_count": 6,
+      "price": "79.90"
+    },
+    {
+      "product_id": "zara-us:20110153",
+      "name": "WOMAN IN WHITE PARFUM 80 ML (2.72 FL. OZ).",
+      "department": "BEAUTY",
+      "total_seconds": 1.49,
+      "nav_seconds": 1.21,
+      "parse_ms": 281.0,
+      "norm_ms": 0.4,
+      "variants_count": 1,
+      "colors_count": 0,
+      "images_count": 5,
+      "price": "39.90"
+    },
+    {
+      "product_id": "zara-us:20110392",
+      "name": "PEACH GLOW EDP 80 ML (2.72 FL. OZ.)",
+      "department": "BEAUTY",
+      "total_seconds": 2.37,
+      "nav_seconds": 2.02,
+      "parse_ms": 347.6,
+      "norm_ms": 0.6,
+      "variants_count": 1,
+      "colors_count": 0,
+      "images_count": 4,
+      "price": "39.90"
+    },
+    {
+      "product_id": "zara-us:20110604",
+      "name": "RED ZARA TEMPTATION TOBACCO EXTRAIT DE PARFUM 50ML (1.7 FL. OZ).",
+      "department": "BEAUTY",
+      "total_seconds": 2.24,
+      "nav_seconds": 1.95,
+      "parse_ms": 287.8,
+      "norm_ms": 0.6,
+      "variants_count": 1,
+      "colors_count": 0,
+      "images_count": 4,
+      "price": "49.90"
+    },
+    {
+      "product_id": "zara-us:20110820",
+      "name": "FASHIONABLY LONDON ELIXIR PARFUM 100 ML (3.4 FL. OZ.)",
+      "department": "BEAUTY",
+      "total_seconds": 1.65,
+      "nav_seconds": 1.41,
+      "parse_ms": 240.7,
+      "norm_ms": 0.3,
+      "variants_count": 1,
+      "colors_count": 0,
+      "images_count": 4,
+      "price": "69.90"
+    },
+    {
+      "product_id": "zara-us:20110928",
+      "name": "TUBEROSE NOIR EDP 100 ML (3.4 FL OZ)",
+      "department": "BEAUTY",
+      "total_seconds": 1.36,
+      "nav_seconds": 1.08,
+      "parse_ms": 280.3,
+      "norm_ms": 0.5,
+      "variants_count": 1,
+      "colors_count": 0,
+      "images_count": 3,
+      "price": "59.90"
+    },
+    {
+      "product_id": "zara-us:20110966",
+      "name": "LEATHER JARDIN EDP 100ML (3.4 FL. OZ.)",
+      "department": "BEAUTY",
+      "total_seconds": 1.49,
+      "nav_seconds": 1.24,
+      "parse_ms": 250.7,
+      "norm_ms": 0.2,
+      "variants_count": 1,
+      "colors_count": 0,
+      "images_count": 1,
+      "price": "59.90"
+    },
+    {
+      "product_id": "zara-us:20120273",
+      "name": "BOLD RASPBERRY EDP 100ML (3.4 FL. OZ).",
+      "department": "BEAUTY",
+      "total_seconds": 1.24,
+      "nav_seconds": 1.0,
+      "parse_ms": 237.5,
+      "norm_ms": 0.6,
+      "variants_count": 1,
+      "colors_count": 0,
+      "images_count": 4,
+      "price": "35.90"
+    }
+  ]
+}
