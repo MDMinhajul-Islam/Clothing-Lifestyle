@@ -130,6 +130,10 @@ def build():
             b = node(link['url'], link.get('name'), obs['url'])
             if link.get('context') == 'Breadcrumbs Trail':
                 crumbs.append(b)
+            elif link.get('context') == 'Direct Local Subcategories':
+                edge(a, b, 'SUBCATEGORY_CAROUSEL', str(f.relative_to(ROOT)))
+            elif link.get('context') in ['SEO_RELATED_LINK', 'Main Content Related']:
+                edge(a, b, 'SEO_RELATED_LINK', str(f.relative_to(ROOT)))
             else:
                 edge(a, b, 'RELATED_LINK', str(f.relative_to(ROOT)))
         for parent_crumb, child_crumb in zip(crumbs, crumbs[1:]):
@@ -251,7 +255,10 @@ def build():
     summary = dict(phase='GRAPH_REPAIR_REVIEW', legacy_nodes=len(legacy), revised_nodes=len(nodes),
                    route_types=dict(Counter(n['route_type'] for n in rows)), department_coverage=counts,
                    observed_alias_merges=sum(u!=c for u,c in aliases.items()),
-                   enumeration_queue_size=len(enumeration_queue), discovery_queue_pending=sum(q['status']!='COMPLETE' for q in discovery_queue),
+                   enumeration_queue_size=len(enumeration_queue),
+                   discovery_queue_pending=sum(q['status']=='QUEUED' for q in discovery_queue),
+                   discovery_queue_deferred=sum(q['status']=='DEFERRED' for q in discovery_queue),
+                   discovery_queue_complete=sum(q['status']=='COMPLETE' for q in discovery_queue),
                    product_queue_pending=sum(q['status']=='QUEUED' for q in product_queue),
                    product_queue_supplemental_review=sum(q['status']=='PARTIAL' for q in product_queue),
                    protected_files_unchanged=integrity, all_major_landings_verified=all(d in roots for d in MAJOR),
@@ -261,7 +268,7 @@ def build():
     report += '| Department | Landing verified | Nodes | Product-bearing | Unresolved classification |\n|---|---|---:|---:|---:|\n'
     for d,c in counts.items():
         report += f"| {d} | {'Yes' if c['landing_verified'] else 'N/A'} | {c['category_nodes']} | {c['product_bearing_nodes']} | {c['unresolved_nodes']} |\n"
-    report += f'\n**Enumeration queue: {len(enumeration_queue)} verified product-bearing nodes.** Discovery/classification queue: {summary["discovery_queue_pending"]} pending. {len(legacy)} legacy nodes retained; {len(nodes)} revised nodes. {summary["observed_alias_merges"]} observed canonical alias merge(s).\n'
+    report += f'\n**Enumeration queue: {len(enumeration_queue)} verified product-bearing nodes.** Discovery/classification queue: {summary["discovery_queue_pending"]} active pending ({summary["discovery_queue_deferred"]} deferred SEO routes, {summary["discovery_queue_complete"]} complete). {len(legacy)} legacy nodes retained; {len(nodes)} revised nodes. {summary["observed_alias_merges"]} observed canonical alias merge(s).\n'
     report += '\n## Verified department landings\n' + '\n'.join(f'- [{d}]({c["landing_url"]})' for d,c in counts.items() if c['landing_verified'])
     report += '\n\n## Kids branches\n\nGirl, Boy, Toddler Girl, Toddler Boy, Baby, and Accessories/Shoes each have a browser-observed product grid. Their breadcrumb paths establish Kids parent links. The Kids landing public page links to Home Kids; the Home Kids product grid was also verified. Age ranges are navigation labels from the public Kids landing, not inferred size enums. Home Kids remains under Zara Home ownership with a Kids cross-link.\n'
     report += '\n## Classification and aliases\n\nProduct grid presence is proof of product-bearing status, not category completion. Other verified department landings are NAVIGATION_PAGE based on current visible content; they may still lead to campaigns. Uninspected routes stay UNKNOWN instead of being guessed as SEO or collection pages. Only verified product-bearing nodes enter enumeration. Null flags mean unverified.\n\nBreadcrumb edges establish parent links; related links do not. Unknown parents/depths remain null. Department assignments for unvisited routes are explicitly route-inferred.\n\nFragments are removed. The observed Beauty makeup v1 URL declares the same-path bare canonical and is recorded as an alias. Unverified v1, page, filter and regional parameters remain distinct. Canonical tags are not used to discard pagination coverage. No route is merged just because its title or numeric suffix matches.\n'

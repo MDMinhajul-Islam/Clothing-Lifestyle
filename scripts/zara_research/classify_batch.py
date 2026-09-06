@@ -115,13 +115,16 @@ def extract_page_evidence(page, url):
                 product_links.add(href)
                 commercial_ref_tokens.add(p_match[1])
 
-    # Category link discovery with priority filtering
+    # Category link discovery with strict priority filtering:
+    # 1. Breadcrumb links (parent hierarchy evidence)
+    # 2. Direct local subcategory navigation (category-sidebar / First level of related categories)
+    # Exclude: Global header drawer, footer links, bottom SEO keyword blocks
     category_links = []
     breadcrumbs = []
     seen_cat_urls = set()
 
     # Priority 1: Breadcrumbs
-    for a in page.query_selector_all("nav[aria-label*='Breadcrumb' i] a, nav[aria-label*='breadcrumbs' i] a, .breadcrumbs a"):
+    for a in page.query_selector_all("nav[aria-label*='Breadcrumb' i] a, nav[aria-label*='breadcrumbs' i] a, .breadcrumbs a, .layout-footer-breadcrumbs a"):
         href = a.get_attribute("href") or ""
         name = a.inner_text().strip()
         if category_route(href) and href not in seen_cat_urls:
@@ -129,25 +132,25 @@ def extract_page_evidence(page, url):
             category_links.append({"url": href, "name": name, "context": "Breadcrumbs Trail", "in_main": False})
             seen_cat_urls.add(href)
 
-    # Priority 2: Local subcategories / related categories carousel
-    for a in page.query_selector_all("nav[aria-label*='related categories' i] a, nav[class*='subcategories' i] a, [class*='category-list' i] a"):
+    # Priority 2: Direct local subcategories / immediate child-sibling category selector
+    for a in page.query_selector_all("nav[aria-label*='related categories' i] a, [class*='category-sidebar' i] a, .category-sidebar a"):
         href = a.get_attribute("href") or ""
         name = a.inner_text().strip()
         if category_route(href) and href not in seen_cat_urls:
-            category_links.append({"url": href, "name": name, "context": "Local Subcategories", "in_main": True})
+            category_links.append({"url": href, "name": name, "context": "Direct Local Subcategories", "in_main": True})
             seen_cat_urls.add(href)
 
-    # Priority 3: Related collection links inside main (excluding global header & footer)
+    # Observational only: Record bottom SEO keyword routes if present, but do NOT add to category_links or active queue
+    seo_observed_links = []
     for a in page.query_selector_all("main a[href]"):
         try:
-            is_excluded = a.evaluate("el => !!el.closest('header, footer, nav[aria-label*=\"Breadcrumb\" i], [class*=\"footer\" i]')")
+            is_excluded = a.evaluate("el => !!el.closest('header, footer, nav[aria-label*=\"Breadcrumb\" i], nav[aria-label*=\"related categories\" i], [class*=\"category-sidebar\" i], [class*=\"footer\" i]')")
             if is_excluded:
                 continue
             href = a.get_attribute("href") or ""
             name = a.inner_text().strip()
-            if category_route(href) and href not in seen_cat_urls:
-                category_links.append({"url": href, "name": name, "context": "Main Content Related", "in_main": True})
-                seen_cat_urls.add(href)
+            if category_route(href) and href not in seen_cat_urls and href not in [l['url'] for l in seo_observed_links]:
+                seo_observed_links.append({"url": href, "name": name, "context": "SEO_DISCOVERED_NOT_QUEUED", "in_main": True})
         except Exception:
             pass
 
@@ -164,6 +167,7 @@ def extract_page_evidence(page, url):
         "commercial_ref_tokens": sorted(list(commercial_ref_tokens)),
         "product_links": sorted(list(product_links)),
         "category_links": category_links,
+        "seo_observed_links": seo_observed_links,
         "breadcrumbs": breadcrumbs,
         "technical_restriction": restriction,
         "restriction_reason": restriction_reason

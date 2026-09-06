@@ -14,7 +14,7 @@ Graph repair checkpoint; **not full-catalogue completion**. All five major landi
 | TRAVEL MODE | Yes | 2 | 0 | 1 |
 | UNCLASSIFIED | N/A | 16 | 0 | 16 |
 
-**Enumeration queue: 25 verified product-bearing nodes.** Discovery/classification queue: 684 pending. 369 legacy nodes retained; 715 revised nodes. 1 observed canonical alias merge(s).
+**Enumeration queue: 25 verified product-bearing nodes.** Discovery/classification queue: 499 active pending (185 deferred SEO routes, 31 complete). 369 legacy nodes retained; 715 revised nodes. 1 observed canonical alias merge(s).
 
 ## Verified department landings
 - [WOMAN](https://www.zara.com/us/en/woman-mkt1000.html)
