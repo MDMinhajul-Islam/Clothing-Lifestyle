@@ -4,7 +4,7 @@ Graph repair checkpoint; **not full-catalogue completion**. All five major landi
 
 | Department | Landing verified | Nodes | Product-bearing | Unresolved classification |
 |---|---|---:|---:|---:|
-| WOMAN | Yes | 269 | 5 | 263 |
+| WOMAN | Yes | 454 | 15 | 438 |
 | MAN | Yes | 193 | 2 | 191 |
 | KIDS | Yes | 13 | 6 | 6 |
 | ZARA HOME | Yes | 19 | 1 | 17 |
@@ -14,7 +14,7 @@ Graph repair checkpoint; **not full-catalogue completion**. All five major landi
 | TRAVEL MODE | Yes | 2 | 0 | 1 |
 | UNCLASSIFIED | N/A | 16 | 0 | 16 |
 
-**Enumeration queue: 15 verified product-bearing nodes.** Discovery/classification queue: 509 pending. 369 legacy nodes retained; 530 revised nodes. 1 observed canonical alias merge(s).
+**Enumeration queue: 25 verified product-bearing nodes.** Discovery/classification queue: 684 pending. 369 legacy nodes retained; 715 revised nodes. 1 observed canonical alias merge(s).
 
 ## Verified department landings
 - [WOMAN](https://www.zara.com/us/en/woman-mkt1000.html)

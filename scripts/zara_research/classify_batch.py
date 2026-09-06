@@ -94,47 +94,60 @@ def extract_page_evidence(page, url):
         pass
 
     # Product cards and product links
-    cards = page.query_selector_all(".product-grid-product, li.product-grid-product, [data-productid]")
-    card_count = len(cards)
+    grid_cards = page.query_selector_all(".product-grid-product, li.product-grid-product")
+    if not grid_cards:
+        grid_cards = page.query_selector_all("[data-productid]")
+    visible_cards = [c for c in grid_cards if c.is_visible()]
+    card_count = len(visible_cards) if visible_cards else len(grid_cards)
 
-    product_ids = set()
+    catalogue_product_ids = set()
     product_links = set()
-    for c in cards:
+    commercial_ref_tokens = set()
+
+    for c in grid_cards:
         pid = c.get_attribute("data-productid")
         if pid:
-            product_ids.add(pid)
-
-    all_links = page.query_selector_all("a[href]")
-    category_links = []
-    breadcrumbs = []
-
-    for a in all_links:
-        try:
+            catalogue_product_ids.add(pid)
+        for a in c.query_selector_all("a[href*='-p']"):
             href = a.get_attribute("href") or ""
-            name = a.inner_text().strip()
-            if not href:
-                continue
-
-            # Product detail link
             p_match = re.search(r'-p(\d+)\.html', href)
             if p_match:
                 product_links.add(href)
-                product_ids.add(p_match[1])
+                commercial_ref_tokens.add(p_match[1])
 
-            # Category link
-            if category_route(href):
-                # Check if inside breadcrumb navigation
-                is_breadcrumb = False
-                parent_nav = a.evaluate("el => !!el.closest('nav[aria-label*=\"Breadcrumb\" i], nav[aria-label*=\"breadcrumbs\" i], [data-context*=\"breadcrumb\" i]')")
-                if parent_nav:
-                    is_breadcrumb = True
-                    breadcrumbs.append({"url": href, "name": name, "context": "Breadcrumbs Trail"})
-                category_links.append({
-                    "url": href,
-                    "name": name,
-                    "context": "Breadcrumbs Trail" if is_breadcrumb else None,
-                    "in_main": True
-                })
+    # Category link discovery with priority filtering
+    category_links = []
+    breadcrumbs = []
+    seen_cat_urls = set()
+
+    # Priority 1: Breadcrumbs
+    for a in page.query_selector_all("nav[aria-label*='Breadcrumb' i] a, nav[aria-label*='breadcrumbs' i] a, .breadcrumbs a"):
+        href = a.get_attribute("href") or ""
+        name = a.inner_text().strip()
+        if category_route(href) and href not in seen_cat_urls:
+            breadcrumbs.append({"url": href, "name": name, "context": "Breadcrumbs Trail"})
+            category_links.append({"url": href, "name": name, "context": "Breadcrumbs Trail", "in_main": False})
+            seen_cat_urls.add(href)
+
+    # Priority 2: Local subcategories / related categories carousel
+    for a in page.query_selector_all("nav[aria-label*='related categories' i] a, nav[class*='subcategories' i] a, [class*='category-list' i] a"):
+        href = a.get_attribute("href") or ""
+        name = a.inner_text().strip()
+        if category_route(href) and href not in seen_cat_urls:
+            category_links.append({"url": href, "name": name, "context": "Local Subcategories", "in_main": True})
+            seen_cat_urls.add(href)
+
+    # Priority 3: Related collection links inside main (excluding global header & footer)
+    for a in page.query_selector_all("main a[href]"):
+        try:
+            is_excluded = a.evaluate("el => !!el.closest('header, footer, nav[aria-label*=\"Breadcrumb\" i], [class*=\"footer\" i]')")
+            if is_excluded:
+                continue
+            href = a.get_attribute("href") or ""
+            name = a.inner_text().strip()
+            if category_route(href) and href not in seen_cat_urls:
+                category_links.append({"url": href, "name": name, "context": "Main Content Related", "in_main": True})
+                seen_cat_urls.add(href)
         except Exception:
             pass
 
@@ -146,8 +159,9 @@ def extract_page_evidence(page, url):
         "main_heading": main_heading,
         "jsonld": jsonld_raw,
         "jsonld_types": jsonld_types,
-        "product_card_count": card_count,
-        "product_ids": sorted(list(product_ids)),
+        "visible_grid_products": card_count,
+        "catalogue_product_ids": sorted(list(catalogue_product_ids)),
+        "commercial_ref_tokens": sorted(list(commercial_ref_tokens)),
         "product_links": sorted(list(product_links)),
         "category_links": category_links,
         "breadcrumbs": breadcrumbs,
@@ -160,14 +174,14 @@ def classify_category(evidence, previous_route_type=None):
     if evidence.get("technical_restriction"):
         return "TECHNICAL_RESTRICTION", f"Technical restriction: {evidence.get('restriction_reason')}"
 
-    cards = evidence.get("product_card_count", 0)
-    p_ids = len(evidence.get("product_ids", []))
+    cards = evidence.get("visible_grid_products", 0)
+    p_ids = len(evidence.get("catalogue_product_ids", []))
     p_links = len(evidence.get("product_links", []))
     jsonld_types = evidence.get("jsonld_types", [])
 
     # Direct evidence of product listing
     if cards > 0 or p_ids > 0 or p_links > 0 or "ItemList" in jsonld_types:
-        return "PRODUCT_LISTING_CATEGORY", f"Observed product grid: {cards} cards, {p_ids} product IDs, {p_links} product links, JSON-LD types {jsonld_types}"
+        return "PRODUCT_LISTING_CATEGORY", f"Observed product grid: {cards} visible cards, {p_ids} catalogue IDs, {p_links} product links, JSON-LD types {jsonld_types}"
 
     # Preserve known product listing from pilot (Constraint 6)
     if previous_route_type == "PRODUCT_LISTING_CATEGORY":
@@ -277,10 +291,13 @@ def run_batch(batch_size=5):
                 "headings": evidence.get("headings", []),
                 "main_heading": evidence.get("main_heading"),
                 "jsonld_types": evidence.get("jsonld_types", []),
-                "product_card_count": evidence.get("product_card_count", 0),
-                "product_ids_count": len(evidence.get("product_ids", [])),
+                "visible_grid_products": evidence.get("visible_grid_products", 0),
+                "product_card_count": evidence.get("visible_grid_products", 0),
+                "catalogue_product_ids_count": len(evidence.get("catalogue_product_ids", [])),
+                "commercial_ref_tokens_count": len(evidence.get("commercial_ref_tokens", [])),
                 "product_links_count": len(evidence.get("product_links", [])),
-                "product_ids_sample": evidence.get("product_ids", [])[:10],
+                "catalogue_product_ids_sample": evidence.get("catalogue_product_ids", [])[:10],
+                "commercial_ref_tokens_sample": evidence.get("commercial_ref_tokens", [])[:10],
                 "links": evidence.get("category_links", []),
                 "breadcrumbs": evidence.get("breadcrumbs", []),
                 "technical_restriction": evidence.get("technical_restriction", False),
@@ -317,8 +334,10 @@ def run_batch(batch_size=5):
                 "observed_evidence": {
                     "title": evidence.get("page_title"),
                     "main_heading": evidence.get("main_heading"),
-                    "cards": evidence.get("product_card_count", 0),
-                    "product_ids": len(evidence.get("product_ids", [])),
+                    "visible_grid_products": evidence.get("visible_grid_products", 0),
+                    "catalogue_product_ids": len(evidence.get("catalogue_product_ids", [])),
+                    "commercial_ref_tokens": len(evidence.get("commercial_ref_tokens", [])),
+                    "product_links": len(evidence.get("product_links", [])),
                     "jsonld_types": evidence.get("jsonld_types", []),
                     "category_links": len(evidence.get("category_links", [])),
                     "breadcrumbs": len(evidence.get("breadcrumbs", []))

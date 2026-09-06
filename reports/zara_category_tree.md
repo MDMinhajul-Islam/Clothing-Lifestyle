@@ -9,16 +9,16 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | midi / maxi | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-midi-l1081.html |
 | WOMAN | mini | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-mini-l1083.html |
 | WOMAN | jumpsuits | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-jumpsuits-l1150.html |
-| WOMAN | satin effect | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-camisole-l2184.html |
-| WOMAN | VIEW ALL | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-view-all-newsletter-l19359.html |
-| WOMAN | Women's Wedding Guest Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-wedding-guest-l2178.html |
-| WOMAN | Women's White Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-white-l1676.html |
-| WOMAN | Women´s Dress Beach | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-beach-l5337.html |
-| WOMAN | Women's Sweater Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-knitwear-dresses-l1160.html |
-| WOMAN | Women's Black Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-black-l1595.html |
-| WOMAN | LINGERIE STYLE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-lace-l1774.html |
-| WOMAN | Women's Linen Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-linen-l1686.html |
-| WOMAN | BELTED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-belted-l17324.html |
+| WOMAN | satin effect | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-camisole-l2184.html |
+| WOMAN | VIEW ALL | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-view-all-newsletter-l19359.html |
+| WOMAN | Women's Wedding Guest Dresses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-wedding-guest-l2178.html |
+| WOMAN | Women's White Dresses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-white-l1676.html |
+| WOMAN | Women´s Dress Beach | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-beach-l5337.html |
+| WOMAN | Women's Sweater Dresses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-knitwear-dresses-l1160.html |
+| WOMAN | Women's Black Dresses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-black-l1595.html |
+| WOMAN | LINGERIE STYLE | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-lace-l1774.html |
+| WOMAN | Women's Linen Dresses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-linen-l1686.html |
+| WOMAN | BELTED | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-belted-l17324.html |
 | WOMAN | Women´s Printed Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-printed-l1089.html |
 | WOMAN | Women's Maxi Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-maxi-l1079.html |
 | WOMAN | Women's Long Sleeve Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-long-sleeve-l1776.html |
@@ -511,6 +511,191 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-mini-l1083.html?page=2 |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jumpsuits-l1150.html?page=2 |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-party-l1581.html?page=2 |
+| WOMAN | BLACK LACE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-lace-dress-l18403.html |
+| WOMAN | BLACK LINEN DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-linen-dress-l18459.html |
+| WOMAN | BLACK FLOWY DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-flowy-dress-l18493.html |
+| WOMAN | BLACK DENIM DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-denim-dress-l18478.html |
+| WOMAN | BLACK VELVET DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-velvet-dress-l18480.html |
+| WOMAN | BLACK OFF THE SHOULDER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-off-the-shoulder-dress-l18483.html |
+| WOMAN | BLACK HALTER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-halter-dress-l18472.html |
+| WOMAN | BLACK PARTY DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-party-dress-l18785.html |
+| WOMAN | WHITE BLACK DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-black-dress-l18594.html |
+| WOMAN | BLACK LACE SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-lace-skirt-l18258.html |
+| WOMAN | BLACK BACKLESS DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-backless-dress-l18987.html |
+| WOMAN | BLACK SUMMER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-summer-dress-l18448.html |
+| WOMAN | BLACK SEQUIN DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-sequin-dress-l18424.html |
+| WOMAN | BLACK LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-linen-pants-l18323.html |
+| WOMAN | BLACK COCKTAIL DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-cocktail-dress-l18776.html |
+| WOMAN | BLACK BOW DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-bow-dress-l18489.html |
+| WOMAN | BLACK PLEATED SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-pleated-skirt-l18241.html |
+| WOMAN | BLACK LEATHER TROUSERS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-leather-trousers-l17036.html |
+| WOMAN | BLACK MAXI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-maxi-dress-l17936.html |
+| WOMAN | BLACK LEATHER SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-leather-skirt-l18213.html |
+| WOMAN | BLACK PLEATED PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-pleated-pants-l19049.html |
+| WOMAN | BLACK SATIN SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-satin-skirt-l18412.html |
+| WOMAN | BLACK RUFFLE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-ruffle-dress-l18435.html |
+| WOMAN | BLACK TIE WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-tie-wedding-guest-dress-l18167.html |
+| WOMAN | BLACK MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-midi-dress-l17174.html |
+| WOMAN | BLACK WORK PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-work-pants-l18311.html |
+| WOMAN | BLACK MAXI SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-maxi-skirt-l18210.html |
+| WOMAN | BLACK SATIN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-satin-pants-l18409.html |
+| WOMAN | BLACK LINEN SHIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-linen-shirt-l19014.html |
+| WOMAN | LONG SLEEVE LONG BLACK DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-sleeve-long-black-dress-l18418.html |
+| WOMAN | BLACK HEELED SANDALS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-heeled-sandals-l19124.html |
+| WOMAN | BLACK HEELED SHOES WITH STRAP WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-heeled-shoes-with-strap-l18646.html |
+| WOMAN | BLACK CAPRI PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-capri-pants-l18337.html |
+| WOMAN | BLACK LEATHER JACKET WOMEN WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-leather-jacket-l17045.html |
+| WOMAN | BLACK VEST WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-vest-l17935.html |
+| WOMAN | BLACK SKORT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-skort-l18592.html |
+| WOMAN | BLACK CROPPED PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-cropped-pants-l19063.html |
+| WOMAN | BLACK HEELED BOOTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-heeled-boots-l18637.html |
+| WOMAN | BLACK MIDI SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-midi-skirt-l18218.html |
+| WOMAN | BLACK FLARE PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-flare-pants-l18319.html |
+| WOMAN | BLACK BOMBER JACKET WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-bomber-jacket-l17171.html |
+| WOMAN | BLACK WOOL COAT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-wool-coat-l17061.html |
+| WOMAN | BLACK CROPPED JEANS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-cropped-jeans-l19077.html |
+| WOMAN | BLACK CROP SHIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-crop-shirt-l18629.html |
+| WOMAN | LOW RISE BLACK JEANS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-low-rise-black-jeans-l17974.html |
+| WOMAN | BLACK LOAFERS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-loafers-l18651.html |
+| WOMAN | BLACK BAGGY JEANS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-baggy-jeans-l17954.html |
+| WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-black-l1595.html?page=2 |
+| WOMAN | WHITE LACE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-lace-dress-l18404.html |
+| WOMAN | DRESSES LONG WHITE WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-long-white-l17176.html |
+| WOMAN | WHITE LINEN DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-linen-dress-l18458.html |
+| WOMAN | WHITE COTTON DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-cotton-dress-l18467.html |
+| WOMAN | WHITE FLORAL DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-floral-dress-l18391.html |
+| WOMAN | WHITE OFF THE SHOULDER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-off-the-shoulder-dress-l18498.html |
+| WOMAN | WHITE LINEN SHIRT WOMENS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-linen-shirt-womens-l18981.html |
+| WOMAN | WHITE SATIN DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-satin-dress-l18413.html |
+| WOMAN | WHITE PARTY DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-party-dress-l18465.html |
+| WOMAN | WHITE LACE SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-lace-skirt-l18254.html |
+| WOMAN | WHITE POLKA DOT DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-polka-dot-dress-l18440.html |
+| WOMAN | WHITE HALTER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-halter-dress-l18471.html |
+| WOMAN | WHITE STRAPLESS DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-strapless-dress-l18460.html |
+| WOMAN | WHITE SUMMER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-summer-dress-l18452.html |
+| WOMAN | WHITE LINEN SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-linen-skirt-l18885.html |
+| WOMAN | WHITE BOW DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-bow-dress-l18488.html |
+| WOMAN | LONG SLEEVE WHITE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-sleeve-white-dress-l18904.html |
+| WOMAN | WHITE BEACH DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-beach-dress-l18469.html |
+| WOMAN | WHITE PLEATED SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-pleated-skirt-l18312.html |
+| WOMAN | WHITE LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-linen-pants-l18326.html |
+| WOMAN | WHITE RUFFLE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-ruffle-dress-l18433.html |
+| WOMAN | WHITE MAXI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-maxi-dress-l17882.html |
+| WOMAN | WHITE SEQUIN DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-sequin-dress-l18425.html |
+| WOMAN | WHITE PLEATED PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-pleated-pants-l19051.html |
+| WOMAN | WHITE MAXI SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-maxi-skirt-l18229.html |
+| WOMAN | WHITE MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-midi-dress-l17175.html |
+| WOMAN | WHITE LINEN SHIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-linen-shirt-l18883.html |
+| WOMAN | COTTON WHITE SHIRTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cotton-white-shirts-l19006.html |
+| WOMAN | WHITE CAPRI PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-capri-pants-l18332.html |
+| WOMAN | WHITE LINEN SHORTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-linen-shorts-l19106.html |
+| WOMAN | WHITE VEST WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-vest-l17940.html |
+| WOMAN | CROPPED WHITE SHIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cropped-white-shirt-l19054.html |
+| WOMAN | WHITE RUFFLE SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-ruffle-skirt-l18227.html |
+| WOMAN | WHITE CROPPED SHIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-cropped-shirt-l18574.html |
+| WOMAN | WHITE MIDI SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-midi-skirt-l18232.html |
+| WOMAN | WHITE HIGH WAISTED PANTS​ WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-high-waisted-pants-l19026.html |
+| WOMAN | WHITE BOMBER JACKET WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-bomber-jacket-l17164.html |
+| WOMAN | WHITE COTTON SHIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-cotton-shirt-l18632.html |
+| WOMAN | WHITE LONG SLEEVE BLOUSE WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-long-sleeve-blouse-l18775.html |
+| WOMAN | WHITE SKORT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-skort-l18589.html |
+| WOMAN | WHITE HIGH WAISTED SHORTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-white-high-waisted-shorts-l19103.html |
+| WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-white-l1676.html?page=2 |
+| WOMAN | LINEN TOPS WOMEN WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-linen-tops-women-l18081.html |
+| WOMAN | COTTON LINEN TROUSERS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cotton-linen-trousers-l19144.html |
+| WOMAN | PLEATED LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pleated-linen-pants-l19050.html |
+| WOMAN | LINEN MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-linen-midi-dress-l18882.html |
+| WOMAN | LINEN MAXI SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-linen-maxi-skirt-l18325.html |
+| WOMAN | COTTON LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cotton-linen-pants-l19045.html |
+| WOMAN | LINEN BUTTON-UP SHIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-linen-button-up-shirt-l19012.html |
+| WOMAN | LINEN DRAWSTRING PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-linen-drawstring-pants-l18327.html |
+| WOMAN | BROWN LINEN TROUSERS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-linen-trousers-l18884.html |
+| WOMAN | SATIN COCKTAIL DRESSES WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-satin-cocktail-dresses-l18896.html |
+| WOMAN | COTTON SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cotton-skirt-l18260.html |
+| WOMAN | STRIPED LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-striped-linen-pants-l18316.html |
+| WOMAN | KNIT MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-knit-midi-dress-l18939.html |
+| WOMAN | BROWN LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-linen-pants-l19047.html |
+| WOMAN | SUMMER LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-summer-linen-pants-l18329.html |
+| WOMAN | CROPPED LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cropped-linen-pants-l19046.html |
+| WOMAN | GREEN LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-green-linen-pants-l19048.html |
+| WOMAN | DENIM MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-denim-midi-dress-l18477.html |
+| WOMAN | COTTON SUMMER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cotton-summer-dress-l18454.html |
+| WOMAN | BLUE LINEN PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-blue-linen-pants-l19044.html |
+| WOMAN | PLEATED MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pleated-midi-dress-l18943.html |
+| WOMAN | RED SATIN DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-red-satin-dress-l18414.html |
+| WOMAN | FLORAL MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-floral-midi-dress-l18396.html |
+| WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-linen-l1686.html?page=2 |
+| WOMAN | LACE PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-lace-pants-l18340.html |
+| WOMAN | LACE SHIRTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-lace-shirts-l18955.html |
+| WOMAN | LACE MAXI SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-lace-maxi-skirt-l18406.html |
+| WOMAN | LACE MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-lace-midi-dress-l18928.html |
+| WOMAN | LACE LONG SLEEVE TOP WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-lace-long-sleeve-top-l19020.html |
+| WOMAN | CROCHET SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-crochet-skirt-l18235.html |
+| WOMAN | BROWN HEEL SHOES WOMEN WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-heel-shoes-women-l18644.html |
+| WOMAN | SLINGBACK HIGH HEELS SHOES WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-slingback-high-heels-shoes-l18640.html |
+| WOMAN | CORDUROY SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-corduroy-skirt-l18236.html |
+| WOMAN | CORD SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cord-skirt-l18234.html |
+| WOMAN | KNIT MAXI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-knit-maxi-dress-l18494.html |
+| WOMAN | ELEGANT MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-elegant-midi-dress-l18940.html |
+| WOMAN | LONG GRADUATION DRESSES WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-graduation-dresses-l18898.html |
+| WOMAN | HEEL SHOES WITH BOW WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-heel-shoes-with-bow-l18642.html |
+| WOMAN | FLORAL MAXI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-floral-maxi-dress-l18389.html |
+| WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-lace-l1774.html?page=2 |
+| WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-view-all-newsletter-l19359.html?page=2 |
+| WOMAN | LONG WEDDING GUEST DRESSES WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-wedding-guest-dresses-l18178.html |
+| WOMAN | BLUE WEDDING GUEST DRESSES WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-blue-wedding-guest-dresses-l18176.html |
+| WOMAN | SPRING WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-spring-wedding-guest-dress-l18184.html |
+| WOMAN | PINK WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pink-wedding-guest-dress-l18175.html |
+| WOMAN | BROWN WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-wedding-guest-dress-l18173.html |
+| WOMAN | LIGHT BLUE WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-light-blue-wedding-guest-dress-l18187.html |
+| WOMAN | SUMMER WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-summer-wedding-guest-dress-l18416.html |
+| WOMAN | SATIN WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-satin-wedding-guest-dress-l18189.html |
+| WOMAN | ORANGE WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-orange-wedding-guest-dress-l18180.html |
+| WOMAN | GREEN WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-green-wedding-guest-dress-l18174.html |
+| WOMAN | RED WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-red-wedding-guest-dress-l18181.html |
+| WOMAN | YELLOW WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-yellow-wedding-guest-dress-l18177.html |
+| WOMAN | MIDI WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-wedding-guest-dress-l18169.html |
+| WOMAN | WEDDING GUEST MAXI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-wedding-guest-maxi-dress-l18172.html |
+| WOMAN | NAVY BLUE WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-navy-blue-wedding-guest-dress-l18188.html |
+| WOMAN | PURPLE WEDDING GUEST DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-purple-wedding-guest-dress-l18179.html |
+| WOMAN | LONG FLORAL DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-floral-dress-l18388.html |
+| WOMAN | BURGUNDY DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-burgundy-dress-l18575.html |
+| WOMAN | FORMAL MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-formal-midi-dress-l18918.html |
+| WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-wedding-guest-l2178.html?page=2 |
+| WOMAN | SLIP SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-slip-skirt-l18237.html |
+| WOMAN | CASUAL MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-casual-midi-dress-l18923.html |
+| WOMAN | FLOWY SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-flowy-skirt-l18233.html |
+| WOMAN | CARGO SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cargo-skirt-l18221.html |
+| WOMAN | OPEN BACK PROM DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-open-back-prom-dress-l18908.html |
+| WOMAN | SHEER SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-sheer-skirt-l18650.html |
+| WOMAN | BROWN HEELED SANDALS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-heeled-sandals-l18645.html |
+| WOMAN | LONG SLEEVE MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-long-sleeve-midi-dress-l18917.html |
+| WOMAN | PLEATED MIDI SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pleated-midi-skirt-l18212.html |
+| WOMAN | ASYMMETRICAL SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-asymmetrical-skirt-l18219.html |
+| WOMAN | SUIT PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-suit-pants-l18341.html |
+| WOMAN | SATIN MIDI SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-satin-midi-skirt-l18239.html |
+| WOMAN | SATIN MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-satin-midi-dress-l18924.html |
+| WOMAN | FLARED SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-flared-skirt-l18256.html |
+| WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-camisole-l2184.html?page=2 |
+| WOMAN | TRIANGLE BIKINIS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-triangle-bikinis-l19127.html |
+| WOMAN | BOAT NECK DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-boat-neck-dress-l18564.html |
+| WOMAN | NAVY BLUE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-navy-blue-dress-l18576.html |
+| WOMAN | BROWN MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-midi-dress-l18912.html |
+| WOMAN | MIDI SHIRT DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-shirt-dress-l18951.html |
+| WOMAN | PINK MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pink-midi-dress-l18443.html |
+| WOMAN | PINK SUMMER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-pink-summer-dress-l18450.html |
+| WOMAN | STRAPLESS MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-strapless-midi-dress-l18942.html |
+| WOMAN | BROWN DRESS POLKA DOTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-dress-polka-dots-l18886.html |
+| WOMAN | SUMMER MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-summer-midi-dress-l18901.html |
+| WOMAN | MIDI WORK DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-work-dress-l18949.html |
+| WOMAN | MIDI SUMMER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-summer-dress-l18950.html |
+| WOMAN | FLORAL SUMMER DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-floral-summer-dress-l18387.html |
+| WOMAN | GREEN MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-green-midi-dress-l18911.html |
+| WOMAN | NAVY PANTS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-navy-pants-l18322.html |
+| WOMAN | BROWN DRESS MIDI WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-brown-dress-midi-l18927.html |
+| WOMAN | NAVY BLUE SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-navy-blue-skirt-l18580.html |
+| WOMAN | MIDI COCKTAIL DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-cocktail-dress-l18921.html |
+| WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-beach-l5337.html?page=2 |
 | BEAUTY | 02the new | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-new-l7931.html |
 | BEAUTY | 03lips | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-lips-l4238.html |
 | BEAUTY | 04eyes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-eyes-l4239.html |
