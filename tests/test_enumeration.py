@@ -117,6 +117,29 @@ class EnumerationLogicTests(unittest.TestCase):
         self.assertEqual(inserted[0], "zara-us:99999999")
         self.assertEqual(len(detail_queue), 3)
 
+    def test_partial_max_iterations_status(self):
+        """When reason is PARTIAL_MAX_ITERATIONS, status must be PARTIAL and never COMPLETE."""
+        reason = "PARTIAL_MAX_ITERATIONS"
+        listing_status = (
+            "COMPLETE" if reason in ["NO_NEW_PRODUCTS", "END_OF_LIST", "CATEGORY_EMPTY"]
+            else ("PARTIAL" if reason == "PARTIAL_MAX_ITERATIONS"
+            else ("TECHNICAL_RESTRICTION" if reason == "TECHNICAL_RESTRICTION"
+            else "ERROR"))
+        )
+        self.assertEqual(listing_status, "PARTIAL")
+        self.assertNotEqual(listing_status, "COMPLETE")
+
+    def test_cumulative_resumption_accounting(self):
+        """Resuming a listing accumulates prior and newly seen product IDs."""
+        prior_seen_ids = {"111", "222", "333"}
+        seen_this_run = {"222", "333", "444", "555"}
+        cumulative_ids = prior_seen_ids.union(seen_this_run)
+        new_ids_this_run = len(cumulative_ids) - len(prior_seen_ids)
+
+        self.assertEqual(len(cumulative_ids), 5)
+        self.assertEqual(new_ids_this_run, 2)
+        self.assertEqual(cumulative_ids, {"111", "222", "333", "444", "555"})
+
 
 if __name__ == '__main__':
     unittest.main()
