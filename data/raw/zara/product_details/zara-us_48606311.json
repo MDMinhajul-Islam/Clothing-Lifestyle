@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:48606311",
+  "source_url": "https://www.zara.com/us/en/kids--dinosaur-flatware-set-p48606311.html",
+  "final_url": "https://www.zara.com/us/en/kids--dinosaur-flatware-set-p48606311.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--dinosaur-flatware-set-p48606311.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' DINOSAUR FLATWARE SET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' DINOSAUR FLATWARE SET",
+      "url": "https://www.zara.com/us/en/kids--dinosaur-flatware-set-p48606311.html",
+      "productGroupID": "48606311",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' flatware set made of stainless steel. Handle design featuring dinosaur and paper airplane motifs in different colors.\n\nThe set includes a spoon, a knife, and a fork.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8f00/54f0/52434ca5bcb7/cfc85a6cd7d7/48606311999-e1/48606311999-e1.jpg?ts=1786621771205&w=1920",
+        "https://static.zara.net/assets/public/af79/c9a2/6b834febb620/e59e063ac6eb/48606311999-e2/48606311999-e2.jpg?ts=1786621771538&w=1920",
+        "https://static.zara.net/assets/public/c3b3/d26e/101b44bdafb1/fc8a6cbd4bda/48606311999-e3/48606311999-e3.jpg?ts=1786621771374&w=1920",
+        "https://static.zara.net/assets/public/a8aa/02ed/8dab4cb18f79/3e1d4506b33a/48606311999-e4/48606311999-e4.jpg?ts=1786621772195&w=1920",
+        "https://static.zara.net/assets/public/62ae/0bb8/93aa4fc680a2/075d0ed446ca/48606311999-a1/48606311999-a1.jpg?ts=1785145222238&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' DINOSAUR FLATWARE SET - Multicolored - ONE SIZE ONLY",
+          "sku": "547769356-999-99",
+          "mpn": "547769356-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/8f00/54f0/52434ca5bcb7/cfc85a6cd7d7/48606311999-e1/48606311999-e1.jpg?ts=1786621771205&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--dinosaur-flatware-set-p48606311.html?v1=547769356",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' DINOSAUR FLATWARE SET",
+      "product_group_id": "48606311",
+      "brand": "ZARAHOME",
+      "description": "Kids' flatware set made of stainless steel. Handle design featuring dinosaur and paper airplane motifs in different colors.\n\nThe set includes a spoon, a knife, and a fork.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' DINOSAUR FLATWARE SET - Multicolored - ONE SIZE ONLY",
+          "sku": "547769356-999-99",
+          "mpn": "547769356-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--dinosaur-flatware-set-p48606311.html?v1=547769356",
+          "images": [
+            "https://static.zara.net/assets/public/8f00/54f0/52434ca5bcb7/cfc85a6cd7d7/48606311999-e1/48606311999-e1.jpg?ts=1786621771205&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8f00/54f0/52434ca5bcb7/cfc85a6cd7d7/48606311999-e1/48606311999-e1.jpg?ts=1786621771205&w=1920",
+        "https://static.zara.net/assets/public/af79/c9a2/6b834febb620/e59e063ac6eb/48606311999-e2/48606311999-e2.jpg?ts=1786621771538&w=1920",
+        "https://static.zara.net/assets/public/c3b3/d26e/101b44bdafb1/fc8a6cbd4bda/48606311999-e3/48606311999-e3.jpg?ts=1786621771374&w=1920",
+        "https://static.zara.net/assets/public/a8aa/02ed/8dab4cb18f79/3e1d4506b33a/48606311999-e4/48606311999-e4.jpg?ts=1786621772195&w=1920",
+        "https://static.zara.net/assets/public/62ae/0bb8/93aa4fc680a2/075d0ed446ca/48606311999-a1/48606311999-a1.jpg?ts=1785145222238&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' flatware set made of stainless steel. Handle design featuring dinosaur and paper airplane motifs in different colors.\nThe set includes a spoon, a knife, and a fork.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "db895221d5fd82df7ef359231c86b86541f9c8af29fd723260d457947a04ba7b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

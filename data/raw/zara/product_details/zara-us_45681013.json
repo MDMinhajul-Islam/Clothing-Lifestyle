@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:45681013",
+  "source_url": "https://www.zara.com/us/en/chick-chiffon-baby-bath-towel-p45681013.html",
+  "final_url": "https://www.zara.com/us/en/chick-chiffon-baby-bath-towel-p45681013.html",
+  "canonical_url": "https://www.zara.com/us/en/chick-chiffon-baby-bath-towel-p45681013.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHICK CHIFFON BABY BATH TOWEL",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHICK CHIFFON BABY BATH TOWEL",
+      "url": "https://www.zara.com/us/en/chick-chiffon-baby-bath-towel-p45681013.html",
+      "productGroupID": "45681013",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby bath towel made of chiffon-style cotton and mini-terry cotton. Featuring a printed chick design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f4ab/0762/5d4842e19499/57ef9e4a9d41/45681013802-e1/45681013802-e1.jpg?ts=1787585525875&w=1920",
+        "https://static.zara.net/assets/public/1341/cf18/fe734898af3e/2b2eb43ee299/45681013802-e2/45681013802-e2.jpg?ts=1787585525781&w=1920",
+        "https://static.zara.net/assets/public/768c/15cd/e3474eca8884/574c146a4519/45681013802-e3/45681013802-e3.jpg?ts=1787585525211&w=1920",
+        "https://static.zara.net/assets/public/e1d5/f9f1/acce41a78280/3e4321861795/45681013802-e4/45681013802-e4.jpg?ts=1787585525826&w=1920",
+        "https://static.zara.net/assets/public/e2e3/1663/d9f3415c98e9/79f7e88fee8b/45681013802-a1/45681013802-a1.jpg?ts=1787820177483&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHICK CHIFFON BABY BATH TOWEL - Gray - Hand towel",
+          "sku": "549302127-802-35",
+          "mpn": "549302127-802-35",
+          "color": "Gray",
+          "size": "Hand towel",
+          "image": [
+            "https://static.zara.net/assets/public/f4ab/0762/5d4842e19499/57ef9e4a9d41/45681013802-e1/45681013802-e1.jpg?ts=1787585525875&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/chick-chiffon-baby-bath-towel-p45681013.html?v1=549302127",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHICK CHIFFON BABY BATH TOWEL",
+      "product_group_id": "45681013",
+      "brand": "ZARAHOME",
+      "description": "Baby bath towel made of chiffon-style cotton and mini-terry cotton. Featuring a printed chick design.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHICK CHIFFON BABY BATH TOWEL - Gray - Hand towel",
+          "sku": "549302127-802-35",
+          "mpn": "549302127-802-35",
+          "color_name": "Gray",
+          "size_name": "Hand towel",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chick-chiffon-baby-bath-towel-p45681013.html?v1=549302127",
+          "images": [
+            "https://static.zara.net/assets/public/f4ab/0762/5d4842e19499/57ef9e4a9d41/45681013802-e1/45681013802-e1.jpg?ts=1787585525875&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f4ab/0762/5d4842e19499/57ef9e4a9d41/45681013802-e1/45681013802-e1.jpg?ts=1787585525875&w=1920",
+        "https://static.zara.net/assets/public/1341/cf18/fe734898af3e/2b2eb43ee299/45681013802-e2/45681013802-e2.jpg?ts=1787585525781&w=1920",
+        "https://static.zara.net/assets/public/768c/15cd/e3474eca8884/574c146a4519/45681013802-e3/45681013802-e3.jpg?ts=1787585525211&w=1920",
+        "https://static.zara.net/assets/public/e1d5/f9f1/acce41a78280/3e4321861795/45681013802-e4/45681013802-e4.jpg?ts=1787585525826&w=1920",
+        "https://static.zara.net/assets/public/e2e3/1663/d9f3415c98e9/79f7e88fee8b/45681013802-a1/45681013802-a1.jpg?ts=1787820177483&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nBaby bath towel made of chiffon-style cotton and mini-terry cotton. Featuring a printed chick design.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1d301f6aa098e1c674171e7413fe64125e7f9fec1968c47219a8b4324d4a74f7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

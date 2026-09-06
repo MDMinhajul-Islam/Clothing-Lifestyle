@@ -1,0 +1,160 @@
+{
+  "product_id": "zara-us:45682539",
+  "source_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45682539.html",
+  "final_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45682539.html",
+  "canonical_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45682539.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ALPACA BABY BOOTIES",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ALPACA BABY BOOTIES",
+      "url": "https://www.zara.com/us/en/alpaca-baby-booties-p45682539.html",
+      "productGroupID": "45682539",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby alpaca sock-style booties with double ribbed cuffs.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bda0/5636/c40e4ab7a751/ae568ed19948/45682539737-e1/45682539737-e1.jpg?ts=1788345804090&w=1920",
+        "https://static.zara.net/assets/public/a797/91e7/dfe048a38a0d/f4491852f53d/45682539737-e2/45682539737-e2.jpg?ts=1788345804158&w=1920",
+        "https://static.zara.net/assets/public/b692/b4ec/d2754b66a779/5b9e0cbb1f31/45682539737-e3/45682539737-e3.jpg?ts=1788345804289&w=1920",
+        "https://static.zara.net/assets/public/fba5/35ad/a32f4a11a070/de845c6b4928/45682539737-e4/45682539737-e4.jpg?ts=1788345803909&w=1920",
+        "https://static.zara.net/assets/public/cef2/0b0b/689a447bb708/8af0f9e83aae/45682539737-a1/45682539737-a1.jpg?ts=1788186252390&w=1920"
+      ],
+      "material": "100% alpaca",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% alpaca"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ALPACA BABY BOOTIES - Brown / Taupe - 1-6 months",
+          "sku": "547036108-737-16",
+          "mpn": "547036108-737-16",
+          "color": "Brown / Taupe",
+          "size": "1-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/bda0/5636/c40e4ab7a751/ae568ed19948/45682539737-e1/45682539737-e1.jpg?ts=1788345804090&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/alpaca-baby-booties-p45682539.html?v1=547036108",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ALPACA BABY BOOTIES - Brown / Taupe - 6-12 months",
+          "sku": "547036108-737-61",
+          "mpn": "547036108-737-61",
+          "color": "Brown / Taupe",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/bda0/5636/c40e4ab7a751/ae568ed19948/45682539737-e1/45682539737-e1.jpg?ts=1788345804090&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/alpaca-baby-booties-p45682539.html?v1=547036108",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ALPACA BABY BOOTIES",
+      "product_group_id": "45682539",
+      "brand": "ZARAHOME",
+      "description": "Baby alpaca sock-style booties with double ribbed cuffs.",
+      "material": "100% alpaca",
+      "composition": "OUTER SHELL: 100% alpaca",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ALPACA BABY BOOTIES - Brown / Taupe - 1-6 months",
+          "sku": "547036108-737-16",
+          "mpn": "547036108-737-16",
+          "color_name": "Brown / Taupe",
+          "size_name": "1-6 months",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45682539.html?v1=547036108",
+          "images": [
+            "https://static.zara.net/assets/public/bda0/5636/c40e4ab7a751/ae568ed19948/45682539737-e1/45682539737-e1.jpg?ts=1788345804090&w=1920"
+          ]
+        },
+        {
+          "name": "ALPACA BABY BOOTIES - Brown / Taupe - 6-12 months",
+          "sku": "547036108-737-61",
+          "mpn": "547036108-737-61",
+          "color_name": "Brown / Taupe",
+          "size_name": "6-12 months",
+          "price": "55.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45682539.html?v1=547036108",
+          "images": [
+            "https://static.zara.net/assets/public/bda0/5636/c40e4ab7a751/ae568ed19948/45682539737-e1/45682539737-e1.jpg?ts=1788345804090&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bda0/5636/c40e4ab7a751/ae568ed19948/45682539737-e1/45682539737-e1.jpg?ts=1788345804090&w=1920",
+        "https://static.zara.net/assets/public/a797/91e7/dfe048a38a0d/f4491852f53d/45682539737-e2/45682539737-e2.jpg?ts=1788345804158&w=1920",
+        "https://static.zara.net/assets/public/b692/b4ec/d2754b66a779/5b9e0cbb1f31/45682539737-e3/45682539737-e3.jpg?ts=1788345804289&w=1920",
+        "https://static.zara.net/assets/public/fba5/35ad/a32f4a11a070/de845c6b4928/45682539737-e4/45682539737-e4.jpg?ts=1788345803909&w=1920",
+        "https://static.zara.net/assets/public/cef2/0b0b/689a447bb708/8af0f9e83aae/45682539737-a1/45682539737-a1.jpg?ts=1788186252390&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nBaby alpaca sock-style booties with double ribbed cuffs.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "14bd47c30ffe5ab72d1fc6dc82872c80015a2b743ea3913dc522562825079fcd",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

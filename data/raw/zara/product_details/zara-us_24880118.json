@@ -1,0 +1,112 @@
+{
+  "product_id": "zara-us:24880118",
+  "source_url": "https://www.zara.com/us/en/summer-skin-sunscreen-mist-spf50-p24880118.html",
+  "final_url": "https://www.zara.com/us/en/summer-skin-sunscreen-mist-spf50-p24880118.html",
+  "canonical_url": "https://www.zara.com/us/en/summer-skin-sunscreen-mist-spf50-p24880118.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SUMMER SKIN SUNSCREEN MIST SPF50",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SUMMER SKIN SUNSCREEN MIST SPF50",
+      "url": "https://www.zara.com/us/en/summer-skin-sunscreen-mist-spf50-p24880118.html",
+      "productGroupID": "24880118",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A lightweight sun mist that protects skin against UV radiation and adds radiance in a single step. Quick and even application, with a dry, invisible finish that melts in without leaving a trace. Skin feels soft, hydrated, and comfortable.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/900c/fc63/401144f48909/f5de0436696c/24880118999-e1/24880118999-e1.jpg?ts=1783434779391&w=1920",
+        "https://static.zara.net/assets/public/f9ba/3f76/41204e61bec9/d43dd81c3178/24880118999-p/24880118999-p.jpg?ts=1783435717856&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SUMMER SKIN SUNSCREEN MIST SPF50 - TINTED LEATHER - ONE SIZE ONLY",
+          "sku": "554906996-999-99",
+          "mpn": "554906996-999-99",
+          "color": "TINTED LEATHER",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/900c/fc63/401144f48909/f5de0436696c/24880118999-e1/24880118999-e1.jpg?ts=1783434779391&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/summer-skin-sunscreen-mist-spf50-p24880118.html?v1=554906996",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SUMMER SKIN SUNSCREEN MIST SPF50",
+      "product_group_id": "24880118",
+      "brand": "ZARA",
+      "description": "A lightweight sun mist that protects skin against UV radiation and adds radiance in a single step. Quick and even application, with a dry, invisible finish that melts in without leaving a trace. Skin feels soft, hydrated, and comfortable.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SUMMER SKIN SUNSCREEN MIST SPF50 - TINTED LEATHER - ONE SIZE ONLY",
+          "sku": "554906996-999-99",
+          "mpn": "554906996-999-99",
+          "color_name": "TINTED LEATHER",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/summer-skin-sunscreen-mist-spf50-p24880118.html?v1=554906996",
+          "images": [
+            "https://static.zara.net/assets/public/900c/fc63/401144f48909/f5de0436696c/24880118999-e1/24880118999-e1.jpg?ts=1783434779391&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/900c/fc63/401144f48909/f5de0436696c/24880118999-e1/24880118999-e1.jpg?ts=1783434779391&w=1920",
+        "https://static.zara.net/assets/public/f9ba/3f76/41204e61bec9/d43dd81c3178/24880118999-p/24880118999-p.jpg?ts=1783435717856&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nA lightweight sun mist that protects skin against UV radiation and adds radiance in a single step. Quick and even application, with a dry, invisible finish that melts in without leaving a trace. Skin feels soft, hydrated, and comfortable.",
+  "comp_care_text": null,
+  "raw_images_count": 2,
+  "valid_images_count": 2,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9a8dbba3e7b41f5f547c702384f1cceb8305dd1382837592fb317eedc345ccd4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

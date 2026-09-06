@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:48640052",
+  "source_url": "https://www.zara.com/us/en/toy-breakfast-set-p48640052.html",
+  "final_url": "https://www.zara.com/us/en/toy-breakfast-set-p48640052.html",
+  "canonical_url": "https://www.zara.com/us/en/toy-breakfast-set-p48640052.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TOY BREAKFAST SET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TOY BREAKFAST SET",
+      "url": "https://www.zara.com/us/en/toy-breakfast-set-p48640052.html",
+      "productGroupID": "48640052",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Wooden toy breakfast set with 13 different pieces.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e4e3/049b/d3584b238093/e2e7371b7d53/49646052999-e1/49646052999-e1.jpg?ts=1699269037986&w=1920",
+        "https://static.zara.net/assets/public/a030/8cf1/af6a4de98855/9970b7df3dff/49646052999-e2/49646052999-e2.jpg?ts=1699268946641&w=1920",
+        "https://static.zara.net/assets/public/a731/a768/2bf14989b4f5/50e0718793ea/49646052999-e3/49646052999-e3.jpg?ts=1699268962950&w=1920",
+        "https://static.zara.net/assets/public/459a/d7cc/8979426dab37/fecb010f66d7/49646052999-e4/49646052999-e4.jpg?ts=1699268939935&w=1920",
+        "https://static.zara.net/assets/public/08e3/9f27/34f946bbb72a/e844a53aa201/49646052999-e5/49646052999-e5.jpg?ts=1699268952990&w=1920",
+        "https://static.zara.net/assets/public/45d7/e950/d96f480eb63d/7965b54e729b/48640052999-a1/48640052999-a1.jpg?ts=1775639698925&w=1920"
+      ],
+      "material": "beech wood/mdf/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "65% beech wood, 20% mdf, 7% cotton, 5% paper, 3% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TOY BREAKFAST SET - Multicolored - ONE SIZE ONLY",
+          "sku": "548926893-999-99",
+          "mpn": "548926893-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e4e3/049b/d3584b238093/e2e7371b7d53/49646052999-e1/49646052999-e1.jpg?ts=1699269037986&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/toy-breakfast-set-p48640052.html?v1=548926893",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TOY BREAKFAST SET",
+      "product_group_id": "48640052",
+      "brand": "ZARAHOME",
+      "description": "Wooden toy breakfast set with 13 different pieces.",
+      "material": "beech wood/mdf/cotton",
+      "composition": "OUTER SHELL: 65% beech wood, 20% mdf, 7% cotton, 5% paper, 3% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TOY BREAKFAST SET - Multicolored - ONE SIZE ONLY",
+          "sku": "548926893-999-99",
+          "mpn": "548926893-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/toy-breakfast-set-p48640052.html?v1=548926893",
+          "images": [
+            "https://static.zara.net/assets/public/e4e3/049b/d3584b238093/e2e7371b7d53/49646052999-e1/49646052999-e1.jpg?ts=1699269037986&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e4e3/049b/d3584b238093/e2e7371b7d53/49646052999-e1/49646052999-e1.jpg?ts=1699269037986&w=1920",
+        "https://static.zara.net/assets/public/a030/8cf1/af6a4de98855/9970b7df3dff/49646052999-e2/49646052999-e2.jpg?ts=1699268946641&w=1920",
+        "https://static.zara.net/assets/public/a731/a768/2bf14989b4f5/50e0718793ea/49646052999-e3/49646052999-e3.jpg?ts=1699268962950&w=1920",
+        "https://static.zara.net/assets/public/459a/d7cc/8979426dab37/fecb010f66d7/49646052999-e4/49646052999-e4.jpg?ts=1699268939935&w=1920",
+        "https://static.zara.net/assets/public/08e3/9f27/34f946bbb72a/e844a53aa201/49646052999-e5/49646052999-e5.jpg?ts=1699268952990&w=1920",
+        "https://static.zara.net/assets/public/45d7/e950/d96f480eb63d/7965b54e729b/48640052999-a1/48640052999-a1.jpg?ts=1775639698925&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nWooden toy breakfast set with 13 different pieces.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f87e172d7db0120b7b85b7f4e71855d4e02105295bc52cca06c6d7582e0c060a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

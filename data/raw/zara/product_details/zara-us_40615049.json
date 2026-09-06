@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:40615049",
+  "source_url": "https://www.zara.com/us/en/kids-house-basket-p40615049.html",
+  "final_url": "https://www.zara.com/us/en/kids-house-basket-p40615049.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-house-basket-p40615049.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS HOUSE BASKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS HOUSE BASKET",
+      "url": "https://www.zara.com/us/en/kids-house-basket-p40615049.html",
+      "productGroupID": "40615049",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids storage basket in the shape of a house, made from rattan.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f930/32e7/925a44268c42/ccd31ef9b02f/40615049052-e1/40615049052-e1.jpg?ts=1769088500364&w=1920",
+        "https://static.zara.net/assets/public/f6a1/1ac9/98374e6893f0/0b92c828733c/40615049052-e2/40615049052-e2.jpg?ts=1769088500947&w=1920",
+        "https://static.zara.net/assets/public/bad8/d187/a1624c128439/42831a03b086/40615049052-e3/40615049052-e3.jpg?ts=1769088500461&w=1920",
+        "https://static.zara.net/assets/public/ea01/1491/46d74360b3e4/87b8b557be33/40615049052-e4/40615049052-e4.jpg?ts=1769088500752&w=1920",
+        "https://static.zara.net/assets/public/336a/de6c/01b145e180ed/cb91c562ee91/40615049052-a1/40615049052-a1.jpg?ts=1770208253595&w=1920"
+      ],
+      "material": "100% rattan",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% rattan"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS HOUSE BASKET - Light beige - ONE SIZE ONLY",
+          "sku": "545456714-052-99",
+          "mpn": "545456714-052-99",
+          "color": "Light beige",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/f930/32e7/925a44268c42/ccd31ef9b02f/40615049052-e1/40615049052-e1.jpg?ts=1769088500364&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/kids-house-basket-p40615049.html?v1=545456714",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS HOUSE BASKET",
+      "product_group_id": "40615049",
+      "brand": "ZARAHOME",
+      "description": "Kids storage basket in the shape of a house, made from rattan.",
+      "material": "100% rattan",
+      "composition": "OUTER SHELL: 100% rattan",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS HOUSE BASKET - Light beige - ONE SIZE ONLY",
+          "sku": "545456714-052-99",
+          "mpn": "545456714-052-99",
+          "color_name": "Light beige",
+          "size_name": "ONE SIZE ONLY",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-house-basket-p40615049.html?v1=545456714",
+          "images": [
+            "https://static.zara.net/assets/public/f930/32e7/925a44268c42/ccd31ef9b02f/40615049052-e1/40615049052-e1.jpg?ts=1769088500364&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f930/32e7/925a44268c42/ccd31ef9b02f/40615049052-e1/40615049052-e1.jpg?ts=1769088500364&w=1920",
+        "https://static.zara.net/assets/public/f6a1/1ac9/98374e6893f0/0b92c828733c/40615049052-e2/40615049052-e2.jpg?ts=1769088500947&w=1920",
+        "https://static.zara.net/assets/public/bad8/d187/a1624c128439/42831a03b086/40615049052-e3/40615049052-e3.jpg?ts=1769088500461&w=1920",
+        "https://static.zara.net/assets/public/ea01/1491/46d74360b3e4/87b8b557be33/40615049052-e4/40615049052-e4.jpg?ts=1769088500752&w=1920",
+        "https://static.zara.net/assets/public/336a/de6c/01b145e180ed/cb91c562ee91/40615049052-a1/40615049052-a1.jpg?ts=1770208253595&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nKids storage basket in the shape of a house, made from rattan.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4ce468eb302605c60e27a56b1c23d7c26d23183aa1950dd220352377a5aa88ca",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

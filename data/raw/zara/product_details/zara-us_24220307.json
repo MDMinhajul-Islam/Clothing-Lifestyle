@@ -1,0 +1,147 @@
+{
+  "product_id": "zara-us:24220307",
+  "source_url": "https://www.zara.com/us/en/zara-cool-click-lip-gloss-lychee-p24220307.html",
+  "final_url": "https://www.zara.com/us/en/zara-cool-click-lip-gloss-lychee-p24220307.html",
+  "canonical_url": "https://www.zara.com/us/en/zara-cool-click-lip-gloss-lychee-p24220307.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ZARA COOL CLICK LIP GLOSS LYCHEE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ZARA COOL CLICK LIP GLOSS LYCHEE",
+      "url": "https://www.zara.com/us/en/zara-cool-click-lip-gloss-lychee-p24220307.html",
+      "productGroupID": "24220307",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A colored lip gloss with a tint effect that coats lips in a subtle, luminous shine. Its formula leaves a lasting veil of color, naturally prolonging the finish. The applicator, featuring a flock tip and a metal sphere, transforms application into a smooth, fresh, and sensory experience.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6a4e/39c6/e9fb438db695/aa6303937dd4/24220307574-e1/24220307574-e1.jpg?ts=1781707009714&w=1920",
+        "https://static.zara.net/assets/public/cb5a/307d/367746bd826f/0eaad4e4d0c9/24220307574-a1/24220307574-a1.jpg?ts=1781519264919&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ZARA COOL CLICK LIP GLOSS LYCHEE - LYCHEE - ONE SIZE ONLY",
+          "sku": "545412993-574-99",
+          "mpn": "545412993-574-99",
+          "color": "LYCHEE",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6a4e/39c6/e9fb438db695/aa6303937dd4/24220307574-e1/24220307574-e1.jpg?ts=1781707009714&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/zara-cool-click-lip-gloss-lychee-p24220307.html?v1=545412993",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZARA COOL CLICK LIP GLOSS LYCHEE - SPICY - ONE SIZE ONLY",
+          "sku": "545412993-575-99",
+          "mpn": "545412993-575-99",
+          "color": "SPICY",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/c4dc/88f6/472242729582/965acd67140c/24220308575-e1/24220308575-e1.jpg?ts=1781707008331&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/zara-cool-click-lip-gloss-lychee-p24220307.html?v1=561188955",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ZARA COOL CLICK LIP GLOSS LYCHEE",
+      "product_group_id": "24220307",
+      "brand": "ZARA",
+      "description": "A colored lip gloss with a tint effect that coats lips in a subtle, luminous shine. Its formula leaves a lasting veil of color, naturally prolonging the finish. The applicator, featuring a flock tip and a metal sphere, transforms application into a smooth, fresh, and sensory experience.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ZARA COOL CLICK LIP GLOSS LYCHEE - LYCHEE - ONE SIZE ONLY",
+          "sku": "545412993-574-99",
+          "mpn": "545412993-574-99",
+          "color_name": "LYCHEE",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/zara-cool-click-lip-gloss-lychee-p24220307.html?v1=545412993",
+          "images": [
+            "https://static.zara.net/assets/public/6a4e/39c6/e9fb438db695/aa6303937dd4/24220307574-e1/24220307574-e1.jpg?ts=1781707009714&w=1920"
+          ]
+        },
+        {
+          "name": "ZARA COOL CLICK LIP GLOSS LYCHEE - SPICY - ONE SIZE ONLY",
+          "sku": "545412993-575-99",
+          "mpn": "545412993-575-99",
+          "color_name": "SPICY",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/zara-cool-click-lip-gloss-lychee-p24220307.html?v1=561188955",
+          "images": [
+            "https://static.zara.net/assets/public/c4dc/88f6/472242729582/965acd67140c/24220308575-e1/24220308575-e1.jpg?ts=1781707008331&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6a4e/39c6/e9fb438db695/aa6303937dd4/24220307574-e1/24220307574-e1.jpg?ts=1781707009714&w=1920",
+        "https://static.zara.net/assets/public/cb5a/307d/367746bd826f/0eaad4e4d0c9/24220307574-a1/24220307574-a1.jpg?ts=1781519264919&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "LYCHEE",
+    "SPICY"
+  ],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nA colored lip gloss with a tint effect that coats lips in a subtle, luminous shine. Its formula leaves a lasting veil of color, naturally prolonging the finish. The applicator, featuring a flock tip and a metal sphere, transforms application into a smooth, fresh, and sensory experience.",
+  "comp_care_text": null,
+  "raw_images_count": 2,
+  "valid_images_count": 3,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9bd913763970b6d8ee06cfb3a8c1a88ba10b68a20aec78f35244cfeb3df9aa37",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

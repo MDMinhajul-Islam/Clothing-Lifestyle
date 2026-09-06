@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:45635013",
+  "source_url": "https://www.zara.com/us/en/kids--dog-towel-p45635013.html",
+  "final_url": "https://www.zara.com/us/en/kids--dog-towel-p45635013.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--dog-towel-p45635013.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' DOG TOWEL",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' DOG TOWEL",
+      "url": "https://www.zara.com/us/en/kids--dog-towel-p45635013.html",
+      "productGroupID": "45635013",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' towel made of cotton. Plain design with small embroidered summer dogs.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e195/2142/238f4f5394b5/3491570d82a5/45635013712-e1/45635013712-e1.jpg?ts=1778491594824&w=1920",
+        "https://static.zara.net/assets/public/2f1b/c0e1/1eda4a60b956/b6893689d00f/45635013712-e2/45635013712-e2.jpg?ts=1778491594653&w=1920",
+        "https://static.zara.net/assets/public/7221/d665/3402472cac3e/e10c8b688a84/45635013712-e3/45635013712-e3.jpg?ts=1778491599823&w=1920",
+        "https://static.zara.net/assets/public/949b/944f/69324b7e8339/8cf10edaa326/45635013712-e4/45635013712-e4.jpg?ts=1778491602196&w=1920",
+        "https://static.zara.net/assets/public/f737/07ea/e47c48eb8f9b/d7f3b0801fb1/45635013712-a1/45635013712-a1.jpg?ts=1778162546464&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' DOG TOWEL - Ecru - Hand towel",
+          "sku": "545447493-712-35",
+          "mpn": "545447493-712-35",
+          "color": "Ecru",
+          "size": "Hand towel",
+          "image": [
+            "https://static.zara.net/assets/public/e195/2142/238f4f5394b5/3491570d82a5/45635013712-e1/45635013712-e1.jpg?ts=1778491594824&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/kids--dog-towel-p45635013.html?v1=545447493",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' DOG TOWEL - Ecru - Shower towel",
+          "sku": "545447493-712-38",
+          "mpn": "545447493-712-38",
+          "color": "Ecru",
+          "size": "Shower towel",
+          "image": [
+            "https://static.zara.net/assets/public/e195/2142/238f4f5394b5/3491570d82a5/45635013712-e1/45635013712-e1.jpg?ts=1778491594824&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/kids--dog-towel-p45635013.html?v1=545447493",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' DOG TOWEL",
+      "product_group_id": "45635013",
+      "brand": "ZARAHOME",
+      "description": "Kids' towel made of cotton. Plain design with small embroidered summer dogs.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' DOG TOWEL - Ecru - Hand towel",
+          "sku": "545447493-712-35",
+          "mpn": "545447493-712-35",
+          "color_name": "Ecru",
+          "size_name": "Hand towel",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--dog-towel-p45635013.html?v1=545447493",
+          "images": [
+            "https://static.zara.net/assets/public/e195/2142/238f4f5394b5/3491570d82a5/45635013712-e1/45635013712-e1.jpg?ts=1778491594824&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' DOG TOWEL - Ecru - Shower towel",
+          "sku": "545447493-712-38",
+          "mpn": "545447493-712-38",
+          "color_name": "Ecru",
+          "size_name": "Shower towel",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--dog-towel-p45635013.html?v1=545447493",
+          "images": [
+            "https://static.zara.net/assets/public/e195/2142/238f4f5394b5/3491570d82a5/45635013712-e1/45635013712-e1.jpg?ts=1778491594824&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e195/2142/238f4f5394b5/3491570d82a5/45635013712-e1/45635013712-e1.jpg?ts=1778491594824&w=1920",
+        "https://static.zara.net/assets/public/2f1b/c0e1/1eda4a60b956/b6893689d00f/45635013712-e2/45635013712-e2.jpg?ts=1778491594653&w=1920",
+        "https://static.zara.net/assets/public/7221/d665/3402472cac3e/e10c8b688a84/45635013712-e3/45635013712-e3.jpg?ts=1778491599823&w=1920",
+        "https://static.zara.net/assets/public/949b/944f/69324b7e8339/8cf10edaa326/45635013712-e4/45635013712-e4.jpg?ts=1778491602196&w=1920",
+        "https://static.zara.net/assets/public/f737/07ea/e47c48eb8f9b/d7f3b0801fb1/45635013712-a1/45635013712-a1.jpg?ts=1778162546464&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nKids' towel made of cotton. Plain design with small embroidered summer dogs.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9f5d0345373337e2de04f535cbadf78b218805fb6e629e326f167c2afe0f0438",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

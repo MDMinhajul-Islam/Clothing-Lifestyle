@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:45668539",
+  "source_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45668539.html",
+  "final_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45668539.html",
+  "canonical_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45668539.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ALPACA BABY BOOTIES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ALPACA BABY BOOTIES",
+      "url": "https://www.zara.com/us/en/alpaca-baby-booties-p45668539.html",
+      "productGroupID": "45668539",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Alpaca baby booties with button fastening and a solid-color design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7449/71ba/03524ff8bd69/a221379a0ac5/45668539251-e1/45668539251-e1.jpg?ts=1787664347508&w=1920",
+        "https://static.zara.net/assets/public/1b67/b824/c219491f85eb/273ac00174dc/45668539251-e2/45668539251-e2.jpg?ts=1787664348817&w=1920",
+        "https://static.zara.net/assets/public/9800/ac9d/85094ef98366/d01239c2e175/45668539251-e3/45668539251-e3.jpg?ts=1787664348460&w=1920",
+        "https://static.zara.net/assets/public/eec5/340a/107d45bd850b/1e5dafd15e0f/45668539251-e4/45668539251-e4.jpg?ts=1787664347784&w=1920",
+        "https://static.zara.net/assets/public/0385/78ee/9ea44108a017/1ed21981ffed/45668539251-a1/45668539251-a1.jpg?ts=1787735077859&w=1920"
+      ],
+      "material": "100% alpaca",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% alpaca"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ALPACA BABY BOOTIES - Oyster-white - 1-6 months",
+          "sku": "545461379-251-16",
+          "mpn": "545461379-251-16",
+          "color": "Oyster-white",
+          "size": "1-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/7449/71ba/03524ff8bd69/a221379a0ac5/45668539251-e1/45668539251-e1.jpg?ts=1787664347508&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/alpaca-baby-booties-p45668539.html?v1=545461379",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ALPACA BABY BOOTIES - Oyster-white - 6-12 months",
+          "sku": "545461379-251-61",
+          "mpn": "545461379-251-61",
+          "color": "Oyster-white",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/7449/71ba/03524ff8bd69/a221379a0ac5/45668539251-e1/45668539251-e1.jpg?ts=1787664347508&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/alpaca-baby-booties-p45668539.html?v1=545461379",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ALPACA BABY BOOTIES",
+      "product_group_id": "45668539",
+      "brand": "ZARAHOME",
+      "description": "Alpaca baby booties with button fastening and a solid-color design.",
+      "material": "100% alpaca",
+      "composition": "OUTER SHELL: 100% alpaca",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ALPACA BABY BOOTIES - Oyster-white - 1-6 months",
+          "sku": "545461379-251-16",
+          "mpn": "545461379-251-16",
+          "color_name": "Oyster-white",
+          "size_name": "1-6 months",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45668539.html?v1=545461379",
+          "images": [
+            "https://static.zara.net/assets/public/7449/71ba/03524ff8bd69/a221379a0ac5/45668539251-e1/45668539251-e1.jpg?ts=1787664347508&w=1920"
+          ]
+        },
+        {
+          "name": "ALPACA BABY BOOTIES - Oyster-white - 6-12 months",
+          "sku": "545461379-251-61",
+          "mpn": "545461379-251-61",
+          "color_name": "Oyster-white",
+          "size_name": "6-12 months",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/alpaca-baby-booties-p45668539.html?v1=545461379",
+          "images": [
+            "https://static.zara.net/assets/public/7449/71ba/03524ff8bd69/a221379a0ac5/45668539251-e1/45668539251-e1.jpg?ts=1787664347508&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7449/71ba/03524ff8bd69/a221379a0ac5/45668539251-e1/45668539251-e1.jpg?ts=1787664347508&w=1920",
+        "https://static.zara.net/assets/public/1b67/b824/c219491f85eb/273ac00174dc/45668539251-e2/45668539251-e2.jpg?ts=1787664348817&w=1920",
+        "https://static.zara.net/assets/public/9800/ac9d/85094ef98366/d01239c2e175/45668539251-e3/45668539251-e3.jpg?ts=1787664348460&w=1920",
+        "https://static.zara.net/assets/public/eec5/340a/107d45bd850b/1e5dafd15e0f/45668539251-e4/45668539251-e4.jpg?ts=1787664347784&w=1920",
+        "https://static.zara.net/assets/public/0385/78ee/9ea44108a017/1ed21981ffed/45668539251-a1/45668539251-a1.jpg?ts=1787735077859&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nAlpaca baby booties with button fastening and a solid-color design.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "437c6783a6c4a1df59f29fa91186abeca6fc2b554a84364d7a483a55058d431a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

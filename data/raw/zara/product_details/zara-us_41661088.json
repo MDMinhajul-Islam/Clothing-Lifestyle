@@ -1,0 +1,166 @@
+{
+  "product_id": "zara-us:41661088",
+  "source_url": "https://www.zara.com/us/en/kids--cotton-leaf-and-dot-duvet-cover-p41661088.html",
+  "final_url": "https://www.zara.com/us/en/kids--cotton-leaf-and-dot-duvet-cover-p41661088.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--cotton-leaf-and-dot-duvet-cover-p41661088.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' COTTON LEAF AND DOT DUVET COVER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' COTTON LEAF AND DOT DUVET COVER",
+      "url": "https://www.zara.com/us/en/kids--cotton-leaf-and-dot-duvet-cover-p41661088.html",
+      "productGroupID": "41661088",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' duvet cover made from 200 thread count cotton percale with a leaf and dot print design.\nIt features a fastening at the bottom with hidden inside buttons.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ac19/c9f7/05dc45599603/bcf601975901/41661088060-e1/41661088060-e1.jpg?ts=1777533436202&w=1920",
+        "https://static.zara.net/assets/public/921c/3876/e9e34e17a563/8259f642556d/41661088060-e2/41661088060-e2.jpg?ts=1777533436904&w=1920",
+        "https://static.zara.net/assets/public/f8a0/4294/0c3345259c6f/0143f8e5e254/41661088060-e3/41661088060-e3.jpg?ts=1777533440708&w=1920",
+        "https://static.zara.net/assets/public/b93f/e593/0af14d8286f3/e52a8d6f8cfc/41661088060-e4/41661088060-e4.jpg?ts=1777533440310&w=1920",
+        "https://static.zara.net/assets/public/1cc4/f28b/b48c44308a03/11b45e9af085/41661088060-e5/41661088060-e5.jpg?ts=1777533436575&w=1920",
+        "https://static.zara.net/assets/public/7f8d/1822/0b8645529f04/2210d0aae359/41661088060-a1/41661088060-a1.jpg?ts=1777544281819&w=1920",
+        "https://static.zara.net/assets/public/563d/dce3/b0ee4167b21a/70255be4dd7b/41661088060-a2/41661088060-a2.jpg?ts=1778152500767&w=1920",
+        "https://static.zara.net/assets/public/9024/8b7a/2fca466a8d4f/9897417192b8/41605088999-a3/41605088999-a3.jpg?ts=1778153581473&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' COTTON LEAF AND DOT DUVET COVER - White / Navy - Stan.cot",
+          "sku": "545436657-060-10",
+          "mpn": "545436657-060-10",
+          "color": "White / Navy",
+          "size": "Stan.cot",
+          "image": [
+            "https://static.zara.net/assets/public/ac19/c9f7/05dc45599603/bcf601975901/41661088060-e1/41661088060-e1.jpg?ts=1777533436202&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/kids--cotton-leaf-and-dot-duvet-cover-p41661088.html?v1=545436657",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' COTTON LEAF AND DOT DUVET COVER - White / Navy - Single",
+          "sku": "545436657-060-12",
+          "mpn": "545436657-060-12",
+          "color": "White / Navy",
+          "size": "Single",
+          "image": [
+            "https://static.zara.net/assets/public/ac19/c9f7/05dc45599603/bcf601975901/41661088060-e1/41661088060-e1.jpg?ts=1777533436202&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/kids--cotton-leaf-and-dot-duvet-cover-p41661088.html?v1=545436657",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' COTTON LEAF AND DOT DUVET COVER",
+      "product_group_id": "41661088",
+      "brand": "ZARAHOME",
+      "description": "Kids' duvet cover made from 200 thread count cotton percale with a leaf and dot print design.\nIt features a fastening at the bottom with hidden inside buttons.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' COTTON LEAF AND DOT DUVET COVER - White / Navy - Stan.cot",
+          "sku": "545436657-060-10",
+          "mpn": "545436657-060-10",
+          "color_name": "White / Navy",
+          "size_name": "Stan.cot",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--cotton-leaf-and-dot-duvet-cover-p41661088.html?v1=545436657",
+          "images": [
+            "https://static.zara.net/assets/public/ac19/c9f7/05dc45599603/bcf601975901/41661088060-e1/41661088060-e1.jpg?ts=1777533436202&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' COTTON LEAF AND DOT DUVET COVER - White / Navy - Single",
+          "sku": "545436657-060-12",
+          "mpn": "545436657-060-12",
+          "color_name": "White / Navy",
+          "size_name": "Single",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--cotton-leaf-and-dot-duvet-cover-p41661088.html?v1=545436657",
+          "images": [
+            "https://static.zara.net/assets/public/ac19/c9f7/05dc45599603/bcf601975901/41661088060-e1/41661088060-e1.jpg?ts=1777533436202&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ac19/c9f7/05dc45599603/bcf601975901/41661088060-e1/41661088060-e1.jpg?ts=1777533436202&w=1920",
+        "https://static.zara.net/assets/public/921c/3876/e9e34e17a563/8259f642556d/41661088060-e2/41661088060-e2.jpg?ts=1777533436904&w=1920",
+        "https://static.zara.net/assets/public/f8a0/4294/0c3345259c6f/0143f8e5e254/41661088060-e3/41661088060-e3.jpg?ts=1777533440708&w=1920",
+        "https://static.zara.net/assets/public/b93f/e593/0af14d8286f3/e52a8d6f8cfc/41661088060-e4/41661088060-e4.jpg?ts=1777533440310&w=1920",
+        "https://static.zara.net/assets/public/1cc4/f28b/b48c44308a03/11b45e9af085/41661088060-e5/41661088060-e5.jpg?ts=1777533436575&w=1920",
+        "https://static.zara.net/assets/public/7f8d/1822/0b8645529f04/2210d0aae359/41661088060-a1/41661088060-a1.jpg?ts=1777544281819&w=1920",
+        "https://static.zara.net/assets/public/563d/dce3/b0ee4167b21a/70255be4dd7b/41661088060-a2/41661088060-a2.jpg?ts=1778152500767&w=1920",
+        "https://static.zara.net/assets/public/9024/8b7a/2fca466a8d4f/9897417192b8/41605088999-a3/41605088999-a3.jpg?ts=1778153581473&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nKids' duvet cover made from 200 thread count cotton percale with a leaf and dot print design.\nIt features a fastening at the bottom with hidden inside buttons.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 8,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "cc6f40e827e0b5d8158889bdb79fb95942231bdc97d74816808a2e1e833a5ab9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

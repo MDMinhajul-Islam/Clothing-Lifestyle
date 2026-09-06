@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:44630004",
+  "source_url": "https://www.zara.com/us/en/baby-dachshund-fleece-blanket-p44630004.html",
+  "final_url": "https://www.zara.com/us/en/baby-dachshund-fleece-blanket-p44630004.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-dachshund-fleece-blanket-p44630004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY DACHSHUND FLEECE BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY DACHSHUND FLEECE BLANKET",
+      "url": "https://www.zara.com/us/en/baby-dachshund-fleece-blanket-p44630004.html",
+      "productGroupID": "44630004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby fleece blanket with a dachshund (teckel) dog print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fdfc/dcec/b9cc48e4895f/02082ec466ab/44630004999-e1/44630004999-e1.jpg?ts=1755178562141&w=1920",
+        "https://static.zara.net/assets/public/0df6/5f38/61a047e8bd12/aeb6de027ab5/44630004999-e2/44630004999-e2.jpg?ts=1755178562096&w=1920",
+        "https://static.zara.net/assets/public/b6eb/a67c/a77b4c8c9a84/5f90b1fae970/44630004999-e3/44630004999-e3.jpg?ts=1755178562369&w=1920",
+        "https://static.zara.net/assets/public/8762/5fef/43274fb7b13a/395753921762/44630004999-e4/44630004999-e4.jpg?ts=1755178564843&w=1920",
+        "https://static.zara.net/assets/public/751a/c469/c1234847b067/ac91ed3f44a2/44630004999-e5/44630004999-e5.jpg?ts=1755178565975&w=1920",
+        "https://static.zara.net/assets/public/c213/68f6/462844c79cb1/3f0e7850d979/44630004999-a1/44630004999-a1.jpg?ts=1755512964370&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY DACHSHUND FLEECE BLANKET - Multicolored - 27.5 x 39.5 \"",
+          "sku": "545454169-999-9",
+          "mpn": "545454169-999-9",
+          "color": "Multicolored",
+          "size": "27.5 x 39.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/fdfc/dcec/b9cc48e4895f/02082ec466ab/44630004999-e1/44630004999-e1.jpg?ts=1755178562141&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/baby-dachshund-fleece-blanket-p44630004.html?v1=545454169",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY DACHSHUND FLEECE BLANKET",
+      "product_group_id": "44630004",
+      "brand": "ZARAHOME",
+      "description": "Baby fleece blanket with a dachshund (teckel) dog print.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY DACHSHUND FLEECE BLANKET - Multicolored - 27.5 x 39.5 \"",
+          "sku": "545454169-999-9",
+          "mpn": "545454169-999-9",
+          "color_name": "Multicolored",
+          "size_name": "27.5 x 39.5 \"",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-dachshund-fleece-blanket-p44630004.html?v1=545454169",
+          "images": [
+            "https://static.zara.net/assets/public/fdfc/dcec/b9cc48e4895f/02082ec466ab/44630004999-e1/44630004999-e1.jpg?ts=1755178562141&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fdfc/dcec/b9cc48e4895f/02082ec466ab/44630004999-e1/44630004999-e1.jpg?ts=1755178562141&w=1920",
+        "https://static.zara.net/assets/public/0df6/5f38/61a047e8bd12/aeb6de027ab5/44630004999-e2/44630004999-e2.jpg?ts=1755178562096&w=1920",
+        "https://static.zara.net/assets/public/b6eb/a67c/a77b4c8c9a84/5f90b1fae970/44630004999-e3/44630004999-e3.jpg?ts=1755178562369&w=1920",
+        "https://static.zara.net/assets/public/8762/5fef/43274fb7b13a/395753921762/44630004999-e4/44630004999-e4.jpg?ts=1755178564843&w=1920",
+        "https://static.zara.net/assets/public/751a/c469/c1234847b067/ac91ed3f44a2/44630004999-e5/44630004999-e5.jpg?ts=1755178565975&w=1920",
+        "https://static.zara.net/assets/public/c213/68f6/462844c79cb1/3f0e7850d979/44630004999-a1/44630004999-a1.jpg?ts=1755512964370&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nBaby fleece blanket with a dachshund (teckel) dog print.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7230a6903b1dfc26dab3b8e19b02bd37d51376367ba4c29933c247a1ec6f8e51",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

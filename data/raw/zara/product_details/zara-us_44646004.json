@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44646004",
+  "source_url": "https://www.zara.com/us/en/kids--dinosaur-blanket-p44646004.html",
+  "final_url": "https://www.zara.com/us/en/kids--dinosaur-blanket-p44646004.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--dinosaur-blanket-p44646004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' DINOSAUR BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' DINOSAUR BLANKET",
+      "url": "https://www.zara.com/us/en/kids--dinosaur-blanket-p44646004.html",
+      "productGroupID": "44646004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' blanket with a solid background, featuring illustrations of dinosaurs wearing scarves riding paper airplanes and small stars.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3c3b/5058/9beb4c3eacdf/34bda8feb078/44646004406-e1/44646004406-e1.jpg?ts=1788505549772&w=1920",
+        "https://static.zara.net/assets/public/b1c5/c8eb/342a41eab635/02f4367bae98/44646004406-e2/44646004406-e2.jpg?ts=1788505549366&w=1920",
+        "https://static.zara.net/assets/public/6456/2916/068f433fb384/1c4239341275/44646004406-e3/44646004406-e3.jpg?ts=1788505548860&w=1920",
+        "https://static.zara.net/assets/public/859f/d7f6/cadc4bc6aa8f/1e34eea7ac19/44646004406-e4/44646004406-e4.jpg?ts=1788505549807&w=1920",
+        "https://static.zara.net/assets/public/e51c/188e/96604a93a5c7/9aaebfe436ea/44646004406-a1/44646004406-a1.jpg?ts=1785158962646&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' DINOSAUR BLANKET - Light blue - 35.5 x 47 \"",
+          "sku": "547827076-406-11",
+          "mpn": "547827076-406-11",
+          "color": "Light blue",
+          "size": "35.5 x 47 \"",
+          "image": [
+            "https://static.zara.net/assets/public/3c3b/5058/9beb4c3eacdf/34bda8feb078/44646004406-e1/44646004406-e1.jpg?ts=1788505549772&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--dinosaur-blanket-p44646004.html?v1=547827076",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' DINOSAUR BLANKET",
+      "product_group_id": "44646004",
+      "brand": "ZARAHOME",
+      "description": "Kids' blanket with a solid background, featuring illustrations of dinosaurs wearing scarves riding paper airplanes and small stars.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' DINOSAUR BLANKET - Light blue - 35.5 x 47 \"",
+          "sku": "547827076-406-11",
+          "mpn": "547827076-406-11",
+          "color_name": "Light blue",
+          "size_name": "35.5 x 47 \"",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--dinosaur-blanket-p44646004.html?v1=547827076",
+          "images": [
+            "https://static.zara.net/assets/public/3c3b/5058/9beb4c3eacdf/34bda8feb078/44646004406-e1/44646004406-e1.jpg?ts=1788505549772&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3c3b/5058/9beb4c3eacdf/34bda8feb078/44646004406-e1/44646004406-e1.jpg?ts=1788505549772&w=1920",
+        "https://static.zara.net/assets/public/b1c5/c8eb/342a41eab635/02f4367bae98/44646004406-e2/44646004406-e2.jpg?ts=1788505549366&w=1920",
+        "https://static.zara.net/assets/public/6456/2916/068f433fb384/1c4239341275/44646004406-e3/44646004406-e3.jpg?ts=1788505548860&w=1920",
+        "https://static.zara.net/assets/public/859f/d7f6/cadc4bc6aa8f/1e34eea7ac19/44646004406-e4/44646004406-e4.jpg?ts=1788505549807&w=1920",
+        "https://static.zara.net/assets/public/e51c/188e/96604a93a5c7/9aaebfe436ea/44646004406-a1/44646004406-a1.jpg?ts=1785158962646&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' blanket with a solid background, featuring illustrations of dinosaurs wearing scarves riding paper airplanes and small stars.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c4bb47ab09eb0256252120718de1feb7b4937c36e63301b062ce8f3ca6194de1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

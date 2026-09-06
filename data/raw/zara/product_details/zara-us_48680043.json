@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:48680043",
+  "source_url": "https://www.zara.com/us/en/kids--planet-decorative-hanging-p48680043.html",
+  "final_url": "https://www.zara.com/us/en/kids--planet-decorative-hanging-p48680043.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--planet-decorative-hanging-p48680043.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' PLANET DECORATIVE HANGING",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' PLANET DECORATIVE HANGING",
+      "url": "https://www.zara.com/us/en/kids--planet-decorative-hanging-p48680043.html",
+      "productGroupID": "48680043",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' decorative hanging piece made of papier-mâché in the shape of a planet with a ring. Includes a string for ceiling suspension.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6d03/e5ff/333843c6a7d0/f0aec89654dd/48680043999-e1/48680043999-e1.jpg?ts=1786100659613&w=1920",
+        "https://static.zara.net/assets/public/9a18/146a/07874891ba3a/ca752965ec11/48680043999-e2/48680043999-e2.jpg?ts=1786100660615&w=1920",
+        "https://static.zara.net/assets/public/be25/fcfb/664c4c6d9231/a11b042e9f39/48680043999-e3/48680043999-e3.jpg?ts=1786100659073&w=1920",
+        "https://static.zara.net/assets/public/de1b/dbc9/4aee4d559ad0/06c3bb0f57e9/48680043999-e4/48680043999-e4.jpg?ts=1786100658604&w=1920",
+        "https://static.zara.net/assets/public/728b/82b3/d43b4578a7fe/64f3a59d8bbf/48680043999-e5/48680043999-e5.jpg?ts=1786100659699&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' PLANET DECORATIVE HANGING - Multicolored - ONE SIZE ONLY",
+          "sku": "545412687-999-99",
+          "mpn": "545412687-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6d03/e5ff/333843c6a7d0/f0aec89654dd/48680043999-e1/48680043999-e1.jpg?ts=1786100659613&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/kids--planet-decorative-hanging-p48680043.html?v1=545412687",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' PLANET DECORATIVE HANGING",
+      "product_group_id": "48680043",
+      "brand": "ZARAHOME",
+      "description": "Kids' decorative hanging piece made of papier-mâché in the shape of a planet with a ring. Includes a string for ceiling suspension.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' PLANET DECORATIVE HANGING - Multicolored - ONE SIZE ONLY",
+          "sku": "545412687-999-99",
+          "mpn": "545412687-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--planet-decorative-hanging-p48680043.html?v1=545412687",
+          "images": [
+            "https://static.zara.net/assets/public/6d03/e5ff/333843c6a7d0/f0aec89654dd/48680043999-e1/48680043999-e1.jpg?ts=1786100659613&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6d03/e5ff/333843c6a7d0/f0aec89654dd/48680043999-e1/48680043999-e1.jpg?ts=1786100659613&w=1920",
+        "https://static.zara.net/assets/public/9a18/146a/07874891ba3a/ca752965ec11/48680043999-e2/48680043999-e2.jpg?ts=1786100660615&w=1920",
+        "https://static.zara.net/assets/public/be25/fcfb/664c4c6d9231/a11b042e9f39/48680043999-e3/48680043999-e3.jpg?ts=1786100659073&w=1920",
+        "https://static.zara.net/assets/public/de1b/dbc9/4aee4d559ad0/06c3bb0f57e9/48680043999-e4/48680043999-e4.jpg?ts=1786100658604&w=1920",
+        "https://static.zara.net/assets/public/728b/82b3/d43b4578a7fe/64f3a59d8bbf/48680043999-e5/48680043999-e5.jpg?ts=1786100659699&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nKids' decorative hanging piece made of papier-mâché in the shape of a planet with a ring. Includes a string for ceiling suspension.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "af345a78b69c3454c21e641291515083a6e4b31421919f0760b073b9c5c3d07d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

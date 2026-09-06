@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:47698052",
+  "source_url": "https://www.zara.com/us/en/kids--bowling-toy-p47698052.html",
+  "final_url": "https://www.zara.com/us/en/kids--bowling-toy-p47698052.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--bowling-toy-p47698052.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' BOWLING TOY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' BOWLING TOY",
+      "url": "https://www.zara.com/us/en/kids--bowling-toy-p47698052.html",
+      "productGroupID": "47698052",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Wooden bowling toy. Includes 6 wooden bowling pins in different colors with a silhouette and ear relief on the top.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/222c/3e1e/50ed4f858cf0/7a40bcea5206/47698052999-e7/47698052999-e7.jpg?ts=1743161970231&w=1920",
+        "https://static.zara.net/assets/public/97be/edf6/0ba04f0c99b1/b16e946a12fa/1674751213134/1674751213134.jpg?ts=1703740205438&w=1920",
+        "https://static.zara.net/assets/public/6310/ba42/baae45bbadb9/ef79cd9d1bbc/1674751215104/1674751215104.jpg?ts=1702092116793&w=1920",
+        "https://static.zara.net/assets/public/cd24/d3d2/57724e08a2bb/b0dfa8d3fbd5/1674751221852/1674751221852.jpg?ts=1701732568584&w=1920",
+        "https://static.zara.net/assets/public/3366/37e8/2624463a8337/fc3a26082f81/1674751221969/1674751221969.jpg?ts=1703722333741&w=1920",
+        "https://static.zara.net/assets/public/bb4e/4669/6eaf4367b2c5/57100df607bf/1674751221850/1674751221850.jpg?ts=1704339956550&w=1920"
+      ],
+      "material": "beech wood/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "95% beech wood, 5% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' BOWLING TOY - Multicolored - ONE SIZE ONLY",
+          "sku": "545436367-999-99",
+          "mpn": "545436367-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/222c/3e1e/50ed4f858cf0/7a40bcea5206/47698052999-e7/47698052999-e7.jpg?ts=1743161970231&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/kids--bowling-toy-p47698052.html?v1=545436367",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' BOWLING TOY",
+      "product_group_id": "47698052",
+      "brand": "ZARAHOME",
+      "description": "Wooden bowling toy. Includes 6 wooden bowling pins in different colors with a silhouette and ear relief on the top.",
+      "material": "beech wood/cotton",
+      "composition": "OUTER SHELL: 95% beech wood, 5% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' BOWLING TOY - Multicolored - ONE SIZE ONLY",
+          "sku": "545436367-999-99",
+          "mpn": "545436367-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--bowling-toy-p47698052.html?v1=545436367",
+          "images": [
+            "https://static.zara.net/assets/public/222c/3e1e/50ed4f858cf0/7a40bcea5206/47698052999-e7/47698052999-e7.jpg?ts=1743161970231&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/222c/3e1e/50ed4f858cf0/7a40bcea5206/47698052999-e7/47698052999-e7.jpg?ts=1743161970231&w=1920",
+        "https://static.zara.net/assets/public/97be/edf6/0ba04f0c99b1/b16e946a12fa/1674751213134/1674751213134.jpg?ts=1703740205438&w=1920",
+        "https://static.zara.net/assets/public/6310/ba42/baae45bbadb9/ef79cd9d1bbc/1674751215104/1674751215104.jpg?ts=1702092116793&w=1920",
+        "https://static.zara.net/assets/public/cd24/d3d2/57724e08a2bb/b0dfa8d3fbd5/1674751221852/1674751221852.jpg?ts=1701732568584&w=1920",
+        "https://static.zara.net/assets/public/3366/37e8/2624463a8337/fc3a26082f81/1674751221969/1674751221969.jpg?ts=1703722333741&w=1920",
+        "https://static.zara.net/assets/public/bb4e/4669/6eaf4367b2c5/57100df607bf/1674751221850/1674751221850.jpg?ts=1704339956550&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nWooden bowling toy. Includes 6 wooden bowling pins in different colors with a silhouette and ear relief on the top.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "265192cf72374b3322d4822c18d981f7ad051fa8db911f27aa5391d84351daa9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

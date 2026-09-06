@@ -1,0 +1,163 @@
+{
+  "product_id": "zara-us:41617088",
+  "source_url": "https://www.zara.com/us/en/kids--space-stripe-duvet-cover-p41617088.html",
+  "final_url": "https://www.zara.com/us/en/kids--space-stripe-duvet-cover-p41617088.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--space-stripe-duvet-cover-p41617088.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' SPACE STRIPE DUVET COVER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' SPACE STRIPE DUVET COVER",
+      "url": "https://www.zara.com/us/en/kids--space-stripe-duvet-cover-p41617088.html",
+      "productGroupID": "41617088",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' duvet cover made from 200 thread count cotton. Features a striped background with space-inspired motifs and glow-in-the-dark details.\n\nConcealed button fastening at the bottom.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0c13/e4fd/b4994577be97/c725a2b496e2/41617088407-e1/41617088407-e1.jpg?ts=1781701999815&w=1920",
+        "https://static.zara.net/assets/public/d2df/b680/35bf44cba580/1aee9f929265/41617088407-e2/41617088407-e2.jpg?ts=1781701994820&w=1920",
+        "https://static.zara.net/assets/public/5574/22a8/a6694b739d8e/b9b419464690/41617088407-e3/41617088407-e3.jpg?ts=1781701999597&w=1920",
+        "https://static.zara.net/assets/public/2261/d0fb/025b41278af2/1db904a190fa/41617088407-e4/41617088407-e4.jpg?ts=1781701999405&w=1920",
+        "https://static.zara.net/assets/public/75a0/6845/36b743aa83e3/e2aa8c154a68/41617088407-e5/41617088407-e5.jpg?ts=1782384102235&w=1920",
+        "https://static.zara.net/assets/public/3f5d/4353/862a41d48666/9b869ea7635e/4161708840701-a1/4161708840701-a1.jpg?ts=1782472104383&w=1920",
+        "https://static.zara.net/assets/public/f8d8/6e46/e21548a2ab41/d2bc0ceb5144/41617088407-a2/41617088407-a2.jpg?ts=1782472109713&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' SPACE STRIPE DUVET COVER - Blue - Single",
+          "sku": "545431336-407-12",
+          "mpn": "545431336-407-12",
+          "color": "Blue",
+          "size": "Single",
+          "image": [
+            "https://static.zara.net/assets/public/0c13/e4fd/b4994577be97/c725a2b496e2/41617088407-e1/41617088407-e1.jpg?ts=1781701999815&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/kids--space-stripe-duvet-cover-p41617088.html?v1=545431336",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' SPACE STRIPE DUVET COVER - Blue - Double",
+          "sku": "545431336-407-14",
+          "mpn": "545431336-407-14",
+          "color": "Blue",
+          "size": "Double",
+          "image": [
+            "https://static.zara.net/assets/public/0c13/e4fd/b4994577be97/c725a2b496e2/41617088407-e1/41617088407-e1.jpg?ts=1781701999815&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/kids--space-stripe-duvet-cover-p41617088.html?v1=545431336",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' SPACE STRIPE DUVET COVER",
+      "product_group_id": "41617088",
+      "brand": "ZARAHOME",
+      "description": "Kids' duvet cover made from 200 thread count cotton. Features a striped background with space-inspired motifs and glow-in-the-dark details.\n\nConcealed button fastening at the bottom.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' SPACE STRIPE DUVET COVER - Blue - Single",
+          "sku": "545431336-407-12",
+          "mpn": "545431336-407-12",
+          "color_name": "Blue",
+          "size_name": "Single",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--space-stripe-duvet-cover-p41617088.html?v1=545431336",
+          "images": [
+            "https://static.zara.net/assets/public/0c13/e4fd/b4994577be97/c725a2b496e2/41617088407-e1/41617088407-e1.jpg?ts=1781701999815&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' SPACE STRIPE DUVET COVER - Blue - Double",
+          "sku": "545431336-407-14",
+          "mpn": "545431336-407-14",
+          "color_name": "Blue",
+          "size_name": "Double",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--space-stripe-duvet-cover-p41617088.html?v1=545431336",
+          "images": [
+            "https://static.zara.net/assets/public/0c13/e4fd/b4994577be97/c725a2b496e2/41617088407-e1/41617088407-e1.jpg?ts=1781701999815&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0c13/e4fd/b4994577be97/c725a2b496e2/41617088407-e1/41617088407-e1.jpg?ts=1781701999815&w=1920",
+        "https://static.zara.net/assets/public/d2df/b680/35bf44cba580/1aee9f929265/41617088407-e2/41617088407-e2.jpg?ts=1781701994820&w=1920",
+        "https://static.zara.net/assets/public/5574/22a8/a6694b739d8e/b9b419464690/41617088407-e3/41617088407-e3.jpg?ts=1781701999597&w=1920",
+        "https://static.zara.net/assets/public/2261/d0fb/025b41278af2/1db904a190fa/41617088407-e4/41617088407-e4.jpg?ts=1781701999405&w=1920",
+        "https://static.zara.net/assets/public/75a0/6845/36b743aa83e3/e2aa8c154a68/41617088407-e5/41617088407-e5.jpg?ts=1782384102235&w=1920",
+        "https://static.zara.net/assets/public/3f5d/4353/862a41d48666/9b869ea7635e/4161708840701-a1/4161708840701-a1.jpg?ts=1782472104383&w=1920",
+        "https://static.zara.net/assets/public/f8d8/6e46/e21548a2ab41/d2bc0ceb5144/41617088407-a2/41617088407-a2.jpg?ts=1782472109713&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nKids' duvet cover made from 200 thread count cotton. Features a striped background with space-inspired motifs and glow-in-the-dark details.\nConcealed button fastening at the bottom.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "aede2882016290d1b9ad74b640ed4ded953f68a6f531b0246983cff9ae9415ae",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

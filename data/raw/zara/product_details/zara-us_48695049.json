@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:48695049",
+  "source_url": "https://www.zara.com/us/en/large-scalloped-basket-p48695049.html",
+  "final_url": "https://www.zara.com/us/en/large-scalloped-basket-p48695049.html",
+  "canonical_url": "https://www.zara.com/us/en/large-scalloped-basket-p48695049.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LARGE SCALLOPED BASKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LARGE SCALLOPED BASKET",
+      "url": "https://www.zara.com/us/en/large-scalloped-basket-p48695049.html",
+      "productGroupID": "48695049",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Rectangular toy storage basket with a scalloped finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6c17/c2d7/64f5432dbdd4/b8255db202a6/48695049052-e1/48695049052-e1.jpg?ts=1747381047298&w=1920",
+        "https://static.zara.net/assets/public/bcab/ea48/9fc24cb9a2e1/f701887f71e5/48695049052-e2/48695049052-e2.jpg?ts=1747381055480&w=1920",
+        "https://static.zara.net/assets/public/8206/2064/944b461dbf7b/fec4b6722e0e/48695049052-e3/48695049052-e3.jpg?ts=1747381056539&w=1920",
+        "https://static.zara.net/assets/public/f27a/809a/0dff4bfaa4a2/41507d0f6d30/48695049052-e4/48695049052-e4.jpg?ts=1747381056352&w=1920",
+        "https://static.zara.net/assets/public/39fa/5311/5f7c46949683/00f67ef5f5dd/48695049052-e5/48695049052-e5.jpg?ts=1747381052710&w=1920",
+        "https://static.zara.net/assets/public/320a/a5f7/11e84a26b6c2/b0a907c124b2/48695049052-e7/48695049052-e7.jpg?ts=1747901225852&w=1920",
+        "https://static.zara.net/assets/public/6339/1485/e8b148fba659/2f9730866ac7/48695049052-a1/48695049052-a1.jpg?ts=1768316588388&w=1920"
+      ],
+      "material": "paper/steel",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "60% paper, 40% steel"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LARGE SCALLOPED BASKET - Light beige - ONE SIZE ONLY",
+          "sku": "545400742-052-99",
+          "mpn": "545400742-052-99",
+          "color": "Light beige",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6c17/c2d7/64f5432dbdd4/b8255db202a6/48695049052-e1/48695049052-e1.jpg?ts=1747381047298&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/large-scalloped-basket-p48695049.html?v1=545400742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LARGE SCALLOPED BASKET",
+      "product_group_id": "48695049",
+      "brand": "ZARAHOME",
+      "description": "Rectangular toy storage basket with a scalloped finish.",
+      "material": "paper/steel",
+      "composition": "OUTER SHELL: 60% paper, 40% steel",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LARGE SCALLOPED BASKET - Light beige - ONE SIZE ONLY",
+          "sku": "545400742-052-99",
+          "mpn": "545400742-052-99",
+          "color_name": "Light beige",
+          "size_name": "ONE SIZE ONLY",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/large-scalloped-basket-p48695049.html?v1=545400742",
+          "images": [
+            "https://static.zara.net/assets/public/6c17/c2d7/64f5432dbdd4/b8255db202a6/48695049052-e1/48695049052-e1.jpg?ts=1747381047298&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6c17/c2d7/64f5432dbdd4/b8255db202a6/48695049052-e1/48695049052-e1.jpg?ts=1747381047298&w=1920",
+        "https://static.zara.net/assets/public/bcab/ea48/9fc24cb9a2e1/f701887f71e5/48695049052-e2/48695049052-e2.jpg?ts=1747381055480&w=1920",
+        "https://static.zara.net/assets/public/8206/2064/944b461dbf7b/fec4b6722e0e/48695049052-e3/48695049052-e3.jpg?ts=1747381056539&w=1920",
+        "https://static.zara.net/assets/public/f27a/809a/0dff4bfaa4a2/41507d0f6d30/48695049052-e4/48695049052-e4.jpg?ts=1747381056352&w=1920",
+        "https://static.zara.net/assets/public/39fa/5311/5f7c46949683/00f67ef5f5dd/48695049052-e5/48695049052-e5.jpg?ts=1747381052710&w=1920",
+        "https://static.zara.net/assets/public/320a/a5f7/11e84a26b6c2/b0a907c124b2/48695049052-e7/48695049052-e7.jpg?ts=1747901225852&w=1920",
+        "https://static.zara.net/assets/public/6339/1485/e8b148fba659/2f9730866ac7/48695049052-a1/48695049052-a1.jpg?ts=1768316588388&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nRectangular toy storage basket with a scalloped finish.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bf3113ed79ea3a2d7988858508ccac4465ff1b3b41ec833e02efeb04b3d77e52",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

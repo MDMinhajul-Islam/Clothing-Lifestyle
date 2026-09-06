@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:44622004",
+  "source_url": "https://www.zara.com/us/en/baby-chicks-cotton-blanket-p44622004.html",
+  "final_url": "https://www.zara.com/us/en/baby-chicks-cotton-blanket-p44622004.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-chicks-cotton-blanket-p44622004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY CHICKS COTTON BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY CHICKS COTTON BLANKET",
+      "url": "https://www.zara.com/us/en/baby-chicks-cotton-blanket-p44622004.html",
+      "productGroupID": "44622004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby cotton blanket with a small baby chicks print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2819/6bf3/0f354dc595d7/44ea300bbf4f/44622004802-e1/44622004802-e1.jpg?ts=1788505592150&w=1920",
+        "https://static.zara.net/assets/public/f74c/24fc/cec34b90b921/dc1c19a7ed45/44622004802-e2/44622004802-e2.jpg?ts=1788505598454&w=1920",
+        "https://static.zara.net/assets/public/f543/6ead/8bc642ecbf6d/b86604484048/44622004802-e3/44622004802-e3.jpg?ts=1788505592526&w=1920",
+        "https://static.zara.net/assets/public/a5bc/b40a/cb034387afac/c4fae20c8852/44622004802-e4/44622004802-e4.jpg?ts=1788505591234&w=1920",
+        "https://static.zara.net/assets/public/f1c2/4c69/477346a0aa74/d9bc96046835/44622004802-a1/44622004802-a1.jpg?ts=1787820182574&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY CHICKS COTTON BLANKET - Gray - 27.5 x 39.5 \"",
+          "sku": "545409795-802-9",
+          "mpn": "545409795-802-9",
+          "color": "Gray",
+          "size": "27.5 x 39.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/2819/6bf3/0f354dc595d7/44ea300bbf4f/44622004802-e1/44622004802-e1.jpg?ts=1788505592150&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/baby-chicks-cotton-blanket-p44622004.html?v1=545409795",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY CHICKS COTTON BLANKET",
+      "product_group_id": "44622004",
+      "brand": "ZARAHOME",
+      "description": "Baby cotton blanket with a small baby chicks print.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY CHICKS COTTON BLANKET - Gray - 27.5 x 39.5 \"",
+          "sku": "545409795-802-9",
+          "mpn": "545409795-802-9",
+          "color_name": "Gray",
+          "size_name": "27.5 x 39.5 \"",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-chicks-cotton-blanket-p44622004.html?v1=545409795",
+          "images": [
+            "https://static.zara.net/assets/public/2819/6bf3/0f354dc595d7/44ea300bbf4f/44622004802-e1/44622004802-e1.jpg?ts=1788505592150&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2819/6bf3/0f354dc595d7/44ea300bbf4f/44622004802-e1/44622004802-e1.jpg?ts=1788505592150&w=1920",
+        "https://static.zara.net/assets/public/f74c/24fc/cec34b90b921/dc1c19a7ed45/44622004802-e2/44622004802-e2.jpg?ts=1788505598454&w=1920",
+        "https://static.zara.net/assets/public/f543/6ead/8bc642ecbf6d/b86604484048/44622004802-e3/44622004802-e3.jpg?ts=1788505592526&w=1920",
+        "https://static.zara.net/assets/public/a5bc/b40a/cb034387afac/c4fae20c8852/44622004802-e4/44622004802-e4.jpg?ts=1788505591234&w=1920",
+        "https://static.zara.net/assets/public/f1c2/4c69/477346a0aa74/d9bc96046835/44622004802-a1/44622004802-a1.jpg?ts=1787820182574&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nBaby cotton blanket with a small baby chicks print.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d649ca7d958f047264d727d67352df8f520a2751131ff616c5075de32b7ff757",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:49685029",
+  "source_url": "https://www.zara.com/us/en/kids--multicolor-wool-area-rug-p49685029.html",
+  "final_url": "https://www.zara.com/us/en/kids--multicolor-wool-area-rug-p49685029.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--multicolor-wool-area-rug-p49685029.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' MULTICOLOR WOOL AREA RUG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' MULTICOLOR WOOL AREA RUG",
+      "url": "https://www.zara.com/us/en/kids--multicolor-wool-area-rug-p49685029.html",
+      "productGroupID": "49685029",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' area rug made of wool with a multicolour striped design and contrasting fringe detail at the ends. Available in runner size.\n\nWe recommend cleaning with a damp white cloth and air drying.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/19be/66c4/9669428982e5/deb50a910dc9/49685029052-e1/49685029052-e1.jpg?ts=1755008281500&w=1920",
+        "https://static.zara.net/assets/public/c311/e09a/b10f4690a72a/ac4b70016530/49685029052-e2/49685029052-e2.jpg?ts=1755008282282&w=1920",
+        "https://static.zara.net/assets/public/9045/c6b5/e4b64827ae17/1302fcd11f35/49685029052-e3/49685029052-e3.jpg?ts=1755008281788&w=1920",
+        "https://static.zara.net/assets/public/a9f4/92e1/7bf643119879/704083a544e8/49685029052-e4/49685029052-e4.jpg?ts=1755008283184&w=1920",
+        "https://static.zara.net/assets/public/bf2e/023c/489b431ebe0d/8699cc7d7793/49685029052-e5/49685029052-e5.jpg?ts=1755008282483&w=1920",
+        "https://static.zara.net/assets/public/0063/76e1/8d284e729116/7b94fda97c51/49685029052-a1/49685029052-a1.jpg?ts=1780312177570&w=1920"
+      ],
+      "material": "wool/cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "71% wool, 29% cotton, 0% polyester, 0% viscose"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' MULTICOLOR WOOL AREA RUG - Light beige - 35,5 x 59 \"",
+          "sku": "545461037-052-90",
+          "mpn": "545461037-052-90",
+          "color": "Light beige",
+          "size": "35,5 x 59 \"",
+          "image": [
+            "https://static.zara.net/assets/public/19be/66c4/9669428982e5/deb50a910dc9/49685029052-e1/49685029052-e1.jpg?ts=1755008281500&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "199",
+            "url": "https://www.zara.com/us/en/kids--multicolor-wool-area-rug-p49685029.html?v1=545461037",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' MULTICOLOR WOOL AREA RUG - Light beige - 59 x 78,5 \"",
+          "sku": "545461037-052-83",
+          "mpn": "545461037-052-83",
+          "color": "Light beige",
+          "size": "59 x 78,5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/19be/66c4/9669428982e5/deb50a910dc9/49685029052-e1/49685029052-e1.jpg?ts=1755008281500&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "399",
+            "url": "https://www.zara.com/us/en/kids--multicolor-wool-area-rug-p49685029.html?v1=545461037",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' MULTICOLOR WOOL AREA RUG",
+      "product_group_id": "49685029",
+      "brand": "ZARAHOME",
+      "description": "Kids' area rug made of wool with a multicolour striped design and contrasting fringe detail at the ends. Available in runner size.\n\nWe recommend cleaning with a damp white cloth and air drying.",
+      "material": "wool/cotton/polyester",
+      "composition": "OUTER SHELL: 71% wool, 29% cotton, 0% polyester, 0% viscose",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' MULTICOLOR WOOL AREA RUG - Light beige - 35,5 x 59 \"",
+          "sku": "545461037-052-90",
+          "mpn": "545461037-052-90",
+          "color_name": "Light beige",
+          "size_name": "35,5 x 59 \"",
+          "price": "199.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--multicolor-wool-area-rug-p49685029.html?v1=545461037",
+          "images": [
+            "https://static.zara.net/assets/public/19be/66c4/9669428982e5/deb50a910dc9/49685029052-e1/49685029052-e1.jpg?ts=1755008281500&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' MULTICOLOR WOOL AREA RUG - Light beige - 59 x 78,5 \"",
+          "sku": "545461037-052-83",
+          "mpn": "545461037-052-83",
+          "color_name": "Light beige",
+          "size_name": "59 x 78,5 \"",
+          "price": "399.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--multicolor-wool-area-rug-p49685029.html?v1=545461037",
+          "images": [
+            "https://static.zara.net/assets/public/19be/66c4/9669428982e5/deb50a910dc9/49685029052-e1/49685029052-e1.jpg?ts=1755008281500&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/19be/66c4/9669428982e5/deb50a910dc9/49685029052-e1/49685029052-e1.jpg?ts=1755008281500&w=1920",
+        "https://static.zara.net/assets/public/c311/e09a/b10f4690a72a/ac4b70016530/49685029052-e2/49685029052-e2.jpg?ts=1755008282282&w=1920",
+        "https://static.zara.net/assets/public/9045/c6b5/e4b64827ae17/1302fcd11f35/49685029052-e3/49685029052-e3.jpg?ts=1755008281788&w=1920",
+        "https://static.zara.net/assets/public/a9f4/92e1/7bf643119879/704083a544e8/49685029052-e4/49685029052-e4.jpg?ts=1755008283184&w=1920",
+        "https://static.zara.net/assets/public/bf2e/023c/489b431ebe0d/8699cc7d7793/49685029052-e5/49685029052-e5.jpg?ts=1755008282483&w=1920",
+        "https://static.zara.net/assets/public/0063/76e1/8d284e729116/7b94fda97c51/49685029052-a1/49685029052-a1.jpg?ts=1780312177570&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "199.00",
+  "rendered_description": "Description\nKids' area rug made of wool with a multicolour striped design and contrasting fringe detail at the ends. Available in runner size.\nWe recommend cleaning with a damp white cloth and air drying.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "199.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "199.00",
+    "dom_price": "199.00",
+    "normalized_price": "199.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3e04addfc2658210bc722b028ea953ff4b21f88a9b0b34ac290e5a5b239c346e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:46650080",
+  "source_url": "https://www.zara.com/us/en/rotating-bookshelf-p46650080.html",
+  "final_url": "https://www.zara.com/us/en/rotating-bookshelf-p46650080.html",
+  "canonical_url": "https://www.zara.com/us/en/rotating-bookshelf-p46650080.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ROTATING BOOKSHELF",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ROTATING BOOKSHELF",
+      "url": "https://www.zara.com/us/en/rotating-bookshelf-p46650080.html",
+      "productGroupID": "46650080",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "360º rotating bookshelf made of ash wood, with two heights for storing and displaying books.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b6a6/55c7/eadd40ef809b/610b4cf15e7e/46650080716-e1/46650080716-e1.jpg?ts=1769093646563&w=1920",
+        "https://static.zara.net/assets/public/8f59/6500/e95a4853908a/c9e99bcae1a1/46650080716-e2/46650080716-e2.jpg?ts=1769093649071&w=1920",
+        "https://static.zara.net/assets/public/5eb0/d0cf/479946f781d7/db95bb3872df/46650080716-e3/46650080716-e3.jpg?ts=1769093661043&w=1920",
+        "https://static.zara.net/assets/public/42f2/86f8/9f1c49b4b067/c66357dfdb06/46650080716-e4/46650080716-e4.jpg?ts=1769093648499&w=1920",
+        "https://static.zara.net/assets/public/2545/4c98/ac4f4d33884b/65d38c10be51/46650080716-e5/46650080716-e5.jpg?ts=1769093648383&w=1920",
+        "https://static.zara.net/assets/public/4e17/c8ef/9e9b4df8a098/18b3a3e7eeb3/46650080716-a1/46650080716-a1.jpg?ts=1786105432407&w=1920"
+      ],
+      "material": "100% ASH WOOD",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% ASH WOOD"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ROTATING BOOKSHELF - Dark brown - ONE SIZE ONLY",
+          "sku": "545454171-716-99",
+          "mpn": "545454171-716-99",
+          "color": "Dark brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/b6a6/55c7/eadd40ef809b/610b4cf15e7e/46650080716-e1/46650080716-e1.jpg?ts=1769093646563&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "499",
+            "url": "https://www.zara.com/us/en/rotating-bookshelf-p46650080.html?v1=545454171",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ROTATING BOOKSHELF",
+      "product_group_id": "46650080",
+      "brand": "ZARAHOME",
+      "description": "360º rotating bookshelf made of ash wood, with two heights for storing and displaying books.",
+      "material": "100% ASH WOOD",
+      "composition": "OUTER SHELL: 100% ASH WOOD",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ROTATING BOOKSHELF - Dark brown - ONE SIZE ONLY",
+          "sku": "545454171-716-99",
+          "mpn": "545454171-716-99",
+          "color_name": "Dark brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "499.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rotating-bookshelf-p46650080.html?v1=545454171",
+          "images": [
+            "https://static.zara.net/assets/public/b6a6/55c7/eadd40ef809b/610b4cf15e7e/46650080716-e1/46650080716-e1.jpg?ts=1769093646563&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b6a6/55c7/eadd40ef809b/610b4cf15e7e/46650080716-e1/46650080716-e1.jpg?ts=1769093646563&w=1920",
+        "https://static.zara.net/assets/public/8f59/6500/e95a4853908a/c9e99bcae1a1/46650080716-e2/46650080716-e2.jpg?ts=1769093649071&w=1920",
+        "https://static.zara.net/assets/public/5eb0/d0cf/479946f781d7/db95bb3872df/46650080716-e3/46650080716-e3.jpg?ts=1769093661043&w=1920",
+        "https://static.zara.net/assets/public/42f2/86f8/9f1c49b4b067/c66357dfdb06/46650080716-e4/46650080716-e4.jpg?ts=1769093648499&w=1920",
+        "https://static.zara.net/assets/public/2545/4c98/ac4f4d33884b/65d38c10be51/46650080716-e5/46650080716-e5.jpg?ts=1769093648383&w=1920",
+        "https://static.zara.net/assets/public/4e17/c8ef/9e9b4df8a098/18b3a3e7eeb3/46650080716-a1/46650080716-a1.jpg?ts=1786105432407&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "499.00",
+  "rendered_description": "Description\n360º rotating bookshelf made of ash wood, with two heights for storing and displaying books.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "499.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "499.00",
+    "dom_price": "499.00",
+    "normalized_price": "499.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "294c2006cc9c3ad0639928504d9582d157c6c6e3f1c76e38f7fe56fdaf1a24d3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

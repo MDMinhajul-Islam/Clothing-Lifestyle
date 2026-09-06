@@ -1,0 +1,137 @@
+{
+  "product_id": "zara-us:42622019",
+  "source_url": "https://www.zara.com/us/en/kids--cotton-backpack-p42622019.html",
+  "final_url": "https://www.zara.com/us/en/kids--cotton-backpack-p42622019.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--cotton-backpack-p42622019.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' COTTON BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' COTTON BACKPACK",
+      "url": "https://www.zara.com/us/en/kids--cotton-backpack-p42622019.html",
+      "productGroupID": "42622019",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Cotton backpack. Design features a main compartment with a zip closure, a front zip pocket, a top carry handle and adjustable shoulder straps.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/dc00/ce37/db5f46a895cc/e81d7b96344d/42622019999-e1/42622019999-e1.jpg?ts=1787578699530&w=1920",
+        "https://static.zara.net/assets/public/dc57/496f/3e2f46429167/c962226cac91/42622019999-e2/42622019999-e2.jpg?ts=1787578700849&w=1920",
+        "https://static.zara.net/assets/public/6423/aee3/44bd4a46ac98/dc6ca0e2336b/42622019999-e3/42622019999-e3.jpg?ts=1787578700505&w=1920",
+        "https://static.zara.net/assets/public/372b/b1f9/3f2e4c5b8d19/2267c6153863/42622019999-e4/42622019999-e4.jpg?ts=1787578700674&w=1920",
+        "https://static.zara.net/assets/public/1250/9976/88cb47caa7a9/05d18802a58c/42622019999-e5/42622019999-e5.jpg?ts=1787578700791&w=1920",
+        "https://static.zara.net/assets/public/3e5a/ccd0/167a4ad992e2/ba830d617496/42622019999-a1/42622019999-a1.jpg?ts=1787046531610&w=1920",
+        "https://static.zara.net/assets/public/813b/5c94/05dd4bf6bee4/29dfc71d0f5f/4262201999901-a2/4262201999901-a2.jpg?ts=1787227695072&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' COTTON BACKPACK - Multicolored - ONE SIZE ONLY",
+          "sku": "566247013-999-99",
+          "mpn": "566247013-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/dc00/ce37/db5f46a895cc/e81d7b96344d/42622019999-e1/42622019999-e1.jpg?ts=1787578699530&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/kids--cotton-backpack-p42622019.html?v1=566247013",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' COTTON BACKPACK",
+      "product_group_id": "42622019",
+      "brand": "ZARAHOME",
+      "description": "Cotton backpack. Design features a main compartment with a zip closure, a front zip pocket, a top carry handle and adjustable shoulder straps.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' COTTON BACKPACK - Multicolored - ONE SIZE ONLY",
+          "sku": "566247013-999-99",
+          "mpn": "566247013-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--cotton-backpack-p42622019.html?v1=566247013",
+          "images": [
+            "https://static.zara.net/assets/public/dc00/ce37/db5f46a895cc/e81d7b96344d/42622019999-e1/42622019999-e1.jpg?ts=1787578699530&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/dc00/ce37/db5f46a895cc/e81d7b96344d/42622019999-e1/42622019999-e1.jpg?ts=1787578699530&w=1920",
+        "https://static.zara.net/assets/public/dc57/496f/3e2f46429167/c962226cac91/42622019999-e2/42622019999-e2.jpg?ts=1787578700849&w=1920",
+        "https://static.zara.net/assets/public/6423/aee3/44bd4a46ac98/dc6ca0e2336b/42622019999-e3/42622019999-e3.jpg?ts=1787578700505&w=1920",
+        "https://static.zara.net/assets/public/372b/b1f9/3f2e4c5b8d19/2267c6153863/42622019999-e4/42622019999-e4.jpg?ts=1787578700674&w=1920",
+        "https://static.zara.net/assets/public/1250/9976/88cb47caa7a9/05d18802a58c/42622019999-e5/42622019999-e5.jpg?ts=1787578700791&w=1920",
+        "https://static.zara.net/assets/public/3e5a/ccd0/167a4ad992e2/ba830d617496/42622019999-a1/42622019999-a1.jpg?ts=1787046531610&w=1920",
+        "https://static.zara.net/assets/public/813b/5c94/05dd4bf6bee4/29dfc71d0f5f/4262201999901-a2/4262201999901-a2.jpg?ts=1787227695072&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nCotton backpack. Design features a main compartment with a zip closure, a front zip pocket, a top carry handle and adjustable shoulder straps.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c3fb36c291b2026b905a7c91d4dc93d2265716ab59d39b9ec142ca3a803fdfe6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

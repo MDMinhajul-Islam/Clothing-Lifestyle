@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:42688052",
+  "source_url": "https://www.zara.com/us/en/kids-ticket-dispenser-toy-p42688052.html",
+  "final_url": "https://www.zara.com/us/en/kids-ticket-dispenser-toy-p42688052.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-ticket-dispenser-toy-p42688052.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS TICKET DISPENSER TOY",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS TICKET DISPENSER TOY",
+      "url": "https://www.zara.com/us/en/kids-ticket-dispenser-toy-p42688052.html",
+      "productGroupID": "42688052",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids toy with a turn ticket dispenser and a round base stand. Includes two rolls of numbers, one inside the dispenser and one spare.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a7f6/fa9c/ae384278b07f/8f6a5c3e6c7c/42688052600-e1/42688052600-e1.jpg?ts=1763483501911&w=1920",
+        "https://static.zara.net/assets/public/99bb/262b/566c44d894a4/bc64535762b4/42688052600-e2/42688052600-e2.jpg?ts=1763483501893&w=1920",
+        "https://static.zara.net/assets/public/5adf/8aaa/451445fb9c26/721490d8a7f8/42688052600-e3/42688052600-e3.jpg?ts=1763483501954&w=1920",
+        "https://static.zara.net/assets/public/f5c3/f473/240a4f52a9ef/c0c3b59f2697/42688052600-e4/42688052600-e4.jpg?ts=1763483502509&w=1920",
+        "https://static.zara.net/assets/public/3404/2fe6/06e249ad9420/eca22b205fbf/42688052600-a1/42688052600-a1.jpg?ts=1775736224685&w=1920"
+      ],
+      "material": "mdf/paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "95% mdf, 5% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS TICKET DISPENSER TOY - Red - ONE SIZE ONLY",
+          "sku": "550855007-600-99",
+          "mpn": "550855007-600-99",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a7f6/fa9c/ae384278b07f/8f6a5c3e6c7c/42688052600-e1/42688052600-e1.jpg?ts=1763483501911&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/kids-ticket-dispenser-toy-p42688052.html?v1=550855007",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS TICKET DISPENSER TOY",
+      "product_group_id": "42688052",
+      "brand": "ZARAHOME",
+      "description": "Kids toy with a turn ticket dispenser and a round base stand. Includes two rolls of numbers, one inside the dispenser and one spare.",
+      "material": "mdf/paper",
+      "composition": "OUTER SHELL: 95% mdf, 5% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS TICKET DISPENSER TOY - Red - ONE SIZE ONLY",
+          "sku": "550855007-600-99",
+          "mpn": "550855007-600-99",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-ticket-dispenser-toy-p42688052.html?v1=550855007",
+          "images": [
+            "https://static.zara.net/assets/public/a7f6/fa9c/ae384278b07f/8f6a5c3e6c7c/42688052600-e1/42688052600-e1.jpg?ts=1763483501911&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a7f6/fa9c/ae384278b07f/8f6a5c3e6c7c/42688052600-e1/42688052600-e1.jpg?ts=1763483501911&w=1920",
+        "https://static.zara.net/assets/public/99bb/262b/566c44d894a4/bc64535762b4/42688052600-e2/42688052600-e2.jpg?ts=1763483501893&w=1920",
+        "https://static.zara.net/assets/public/5adf/8aaa/451445fb9c26/721490d8a7f8/42688052600-e3/42688052600-e3.jpg?ts=1763483501954&w=1920",
+        "https://static.zara.net/assets/public/f5c3/f473/240a4f52a9ef/c0c3b59f2697/42688052600-e4/42688052600-e4.jpg?ts=1763483502509&w=1920",
+        "https://static.zara.net/assets/public/3404/2fe6/06e249ad9420/eca22b205fbf/42688052600-a1/42688052600-a1.jpg?ts=1775736224685&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nKids toy with a turn ticket dispenser and a round base stand. Includes two rolls of numbers, one inside the dispenser and one spare.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "143aaf161db03877656989108dd1320dabb3e0eba417d0600174875291d677b8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

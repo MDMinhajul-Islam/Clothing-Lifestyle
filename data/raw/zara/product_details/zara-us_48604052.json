@@ -1,0 +1,133 @@
+{
+  "product_id": "zara-us:48604052",
+  "source_url": "https://www.zara.com/us/en/kids--pizza-toy-p48604052.html",
+  "final_url": "https://www.zara.com/us/en/kids--pizza-toy-p48604052.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--pizza-toy-p48604052.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' PIZZA TOY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' PIZZA TOY",
+      "url": "https://www.zara.com/us/en/kids--pizza-toy-p48604052.html",
+      "productGroupID": "48604052",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Wooden pizza toy, with ingredients and a rolling pin in a miniature box.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bbbb/db82/3b5f497ba9d9/75c581e1a122/48604052999-e1/48604052999-e1.jpg?ts=1706533251267&w=1920",
+        "https://static.zara.net/assets/public/2da6/7c93/036a4c669513/eb412f6c7cea/48604052999-e2/48604052999-e2.jpg?ts=1706533251461&w=1920",
+        "https://static.zara.net/assets/public/3f71/8f94/5875495b853d/b2616346d032/48604052999-e3/48604052999-e3.jpg?ts=1706533256253&w=1920",
+        "https://static.zara.net/assets/public/a265/4045/438e46d7a69e/baa263fc59ba/48604052999-e4/48604052999-e4.jpg?ts=1706533251751&w=1920",
+        "https://static.zara.net/assets/public/7312/5ebc/96d94f6d9784/a78cb88453f0/48604052999-e5/48604052999-e5.jpg?ts=1706533252937&w=1920",
+        "https://static.zara.net/assets/public/e3c1/95bd/1c5443f9b363/0b935c593106/48604052999-e6/48604052999-e6.jpg?ts=1706533250954&w=1920",
+        "https://static.zara.net/assets/public/1a77/c8a9/d0a24611b90a/23130cbadd30/48604052999-a1/48604052999-a1.jpg?ts=1775735803636&w=1920",
+        "https://static.zara.net/assets/public/6cd2/69f8/29274843895d/864ed16f8067/48604052999-a2/48604052999-a2.jpg?ts=1739895269590&w=1920"
+      ],
+      "material": "particleboard/mdf",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "80% particleboard, 20% mdf"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' PIZZA TOY - Multicolored - ONE SIZE ONLY",
+          "sku": "545456783-999-99",
+          "mpn": "545456783-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/bbbb/db82/3b5f497ba9d9/75c581e1a122/48604052999-e1/48604052999-e1.jpg?ts=1706533251267&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/kids--pizza-toy-p48604052.html?v1=545456783",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' PIZZA TOY",
+      "product_group_id": "48604052",
+      "brand": "ZARAHOME",
+      "description": "Wooden pizza toy, with ingredients and a rolling pin in a miniature box.",
+      "material": "particleboard/mdf",
+      "composition": "OUTER SHELL: 80% particleboard, 20% mdf",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' PIZZA TOY - Multicolored - ONE SIZE ONLY",
+          "sku": "545456783-999-99",
+          "mpn": "545456783-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--pizza-toy-p48604052.html?v1=545456783",
+          "images": [
+            "https://static.zara.net/assets/public/bbbb/db82/3b5f497ba9d9/75c581e1a122/48604052999-e1/48604052999-e1.jpg?ts=1706533251267&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bbbb/db82/3b5f497ba9d9/75c581e1a122/48604052999-e1/48604052999-e1.jpg?ts=1706533251267&w=1920",
+        "https://static.zara.net/assets/public/2da6/7c93/036a4c669513/eb412f6c7cea/48604052999-e2/48604052999-e2.jpg?ts=1706533251461&w=1920",
+        "https://static.zara.net/assets/public/3f71/8f94/5875495b853d/b2616346d032/48604052999-e3/48604052999-e3.jpg?ts=1706533256253&w=1920",
+        "https://static.zara.net/assets/public/a265/4045/438e46d7a69e/baa263fc59ba/48604052999-e4/48604052999-e4.jpg?ts=1706533251751&w=1920",
+        "https://static.zara.net/assets/public/7312/5ebc/96d94f6d9784/a78cb88453f0/48604052999-e5/48604052999-e5.jpg?ts=1706533252937&w=1920",
+        "https://static.zara.net/assets/public/e3c1/95bd/1c5443f9b363/0b935c593106/48604052999-e6/48604052999-e6.jpg?ts=1706533250954&w=1920",
+        "https://static.zara.net/assets/public/1a77/c8a9/d0a24611b90a/23130cbadd30/48604052999-a1/48604052999-a1.jpg?ts=1775735803636&w=1920",
+        "https://static.zara.net/assets/public/6cd2/69f8/29274843895d/864ed16f8067/48604052999-a2/48604052999-a2.jpg?ts=1739895269590&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nWooden pizza toy, with ingredients and a rolling pin in a miniature box.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5af208e1d9e0738a4382a314c2f4dd49b051e380fbbf30a602d382f3a22acddc",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

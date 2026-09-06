@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44645004",
+  "source_url": "https://www.zara.com/us/en/kids--unicorn-blanket-p44645004.html",
+  "final_url": "https://www.zara.com/us/en/kids--unicorn-blanket-p44645004.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--unicorn-blanket-p44645004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' UNICORN BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' UNICORN BLANKET",
+      "url": "https://www.zara.com/us/en/kids--unicorn-blanket-p44645004.html",
+      "productGroupID": "44645004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' blanket featuring a solid background with illustrations of ponies dressed as unicorns and small stars.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c753/5afc/b7434723b2fa/fe1d205c7af7/44645004620-e1/44645004620-e1.jpg?ts=1788505523894&w=1920",
+        "https://static.zara.net/assets/public/af69/4c8f/d492460d89bb/16af012fb167/44645004620-e2/44645004620-e2.jpg?ts=1788505524527&w=1920",
+        "https://static.zara.net/assets/public/d3ed/7077/d1ed4b11b26b/4ad2055096ba/44645004620-e3/44645004620-e3.jpg?ts=1788505523594&w=1920",
+        "https://static.zara.net/assets/public/d95a/32ef/c6ea4225a4a5/7d53d4aff932/44645004620-e4/44645004620-e4.jpg?ts=1788505523272&w=1920",
+        "https://static.zara.net/assets/public/4ff4/9031/6d304dd88829/739dc4b717ee/44645004620-a1/44645004620-a1.jpg?ts=1785160227062&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' UNICORN BLANKET - Pink - 35.5 x 47 \"",
+          "sku": "547834354-620-11",
+          "mpn": "547834354-620-11",
+          "color": "Pink",
+          "size": "35.5 x 47 \"",
+          "image": [
+            "https://static.zara.net/assets/public/c753/5afc/b7434723b2fa/fe1d205c7af7/44645004620-e1/44645004620-e1.jpg?ts=1788505523894&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--unicorn-blanket-p44645004.html?v1=547834354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' UNICORN BLANKET",
+      "product_group_id": "44645004",
+      "brand": "ZARAHOME",
+      "description": "Kids' blanket featuring a solid background with illustrations of ponies dressed as unicorns and small stars.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' UNICORN BLANKET - Pink - 35.5 x 47 \"",
+          "sku": "547834354-620-11",
+          "mpn": "547834354-620-11",
+          "color_name": "Pink",
+          "size_name": "35.5 x 47 \"",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--unicorn-blanket-p44645004.html?v1=547834354",
+          "images": [
+            "https://static.zara.net/assets/public/c753/5afc/b7434723b2fa/fe1d205c7af7/44645004620-e1/44645004620-e1.jpg?ts=1788505523894&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c753/5afc/b7434723b2fa/fe1d205c7af7/44645004620-e1/44645004620-e1.jpg?ts=1788505523894&w=1920",
+        "https://static.zara.net/assets/public/af69/4c8f/d492460d89bb/16af012fb167/44645004620-e2/44645004620-e2.jpg?ts=1788505524527&w=1920",
+        "https://static.zara.net/assets/public/d3ed/7077/d1ed4b11b26b/4ad2055096ba/44645004620-e3/44645004620-e3.jpg?ts=1788505523594&w=1920",
+        "https://static.zara.net/assets/public/d95a/32ef/c6ea4225a4a5/7d53d4aff932/44645004620-e4/44645004620-e4.jpg?ts=1788505523272&w=1920",
+        "https://static.zara.net/assets/public/4ff4/9031/6d304dd88829/739dc4b717ee/44645004620-a1/44645004620-a1.jpg?ts=1785160227062&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' blanket featuring a solid background with illustrations of ponies dressed as unicorns and small stars.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f16cacdb2bd119609f3530efebe617237c6a16fc8aa7db9758bad9f5221380de",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

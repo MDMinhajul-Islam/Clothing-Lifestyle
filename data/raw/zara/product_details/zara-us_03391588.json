@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:03391588",
+  "source_url": "https://www.zara.com/us/en/sun-print-pareo-p03391588.html",
+  "final_url": "https://www.zara.com/us/en/sun-print-pareo-p03391588.html",
+  "canonical_url": "https://www.zara.com/us/en/sun-print-pareo-p03391588.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SUN PRINT PAREO",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SUN PRINT PAREO",
+      "url": "https://www.zara.com/us/en/sun-print-pareo-p03391588.html",
+      "productGroupID": "03391588",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pareo with adjustable side closure. Sun print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c904/32a2/e1844a5181ae/bd6a3d6fab05/03391588630-e1/03391588630-e1.jpg?ts=1781002140624&w=1920",
+        "https://static.zara.net/assets/public/3094/2f47/3eda40e38aab/80eb4df4e3fe/03391588630-e2/03391588630-e2.jpg?ts=1781002139926&w=1920",
+        "https://static.zara.net/assets/public/7b88/c76d/e3a9479abe95/b6d4503088a7/03391588630-e3/03391588630-e3.jpg?ts=1781002140416&w=1920",
+        "https://static.zara.net/assets/public/1f86/d8dd/2e0a4277bdb0/d8b2acce1850/03391588630-e4/03391588630-e4.jpg?ts=1781002140939&w=1920",
+        "https://static.zara.net/assets/public/2209/4fb0/dc1240539b0f/d38ba90b5ca3/03391588630100-p/03391588630100-p.jpg?ts=1781253720473&w=1920"
+      ],
+      "material": "polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "85% polyamide, 15% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SUN PRINT PAREO - Fuchsia - 14",
+          "sku": "545465753-630-14",
+          "mpn": "545465753-630-14",
+          "color": "Fuchsia",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/c904/32a2/e1844a5181ae/bd6a3d6fab05/03391588630-e1/03391588630-e1.jpg?ts=1781002140624&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/sun-print-pareo-p03391588.html?v1=545465753",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SUN PRINT PAREO",
+      "product_group_id": "03391588",
+      "brand": "ZARA",
+      "description": "Pareo with adjustable side closure. Sun print.",
+      "material": "polyamide/elastane",
+      "composition": "OUTER SHELL: 85% polyamide, 15% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SUN PRINT PAREO - Fuchsia - 14",
+          "sku": "545465753-630-14",
+          "mpn": "545465753-630-14",
+          "color_name": "Fuchsia",
+          "size_name": "14",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sun-print-pareo-p03391588.html?v1=545465753",
+          "images": [
+            "https://static.zara.net/assets/public/c904/32a2/e1844a5181ae/bd6a3d6fab05/03391588630-e1/03391588630-e1.jpg?ts=1781002140624&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c904/32a2/e1844a5181ae/bd6a3d6fab05/03391588630-e1/03391588630-e1.jpg?ts=1781002140624&w=1920",
+        "https://static.zara.net/assets/public/3094/2f47/3eda40e38aab/80eb4df4e3fe/03391588630-e2/03391588630-e2.jpg?ts=1781002139926&w=1920",
+        "https://static.zara.net/assets/public/7b88/c76d/e3a9479abe95/b6d4503088a7/03391588630-e3/03391588630-e3.jpg?ts=1781002140416&w=1920",
+        "https://static.zara.net/assets/public/1f86/d8dd/2e0a4277bdb0/d8b2acce1850/03391588630-e4/03391588630-e4.jpg?ts=1781002140939&w=1920",
+        "https://static.zara.net/assets/public/2209/4fb0/dc1240539b0f/d38ba90b5ca3/03391588630100-p/03391588630100-p.jpg?ts=1781253720473&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nPareo with adjustable side closure. Sun print.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e27ad91226dd5d8a5b0803f8303e396c24149e0b466a01cbb5bc385010f25627",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

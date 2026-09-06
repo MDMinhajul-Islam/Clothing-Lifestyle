@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:11165830",
+  "source_url": "https://www.zara.com/us/en/puppy-print-bag-p11165830.html",
+  "final_url": "https://www.zara.com/us/en/puppy-print-bag-p11165830.html",
+  "canonical_url": "https://www.zara.com/us/en/puppy-print-bag-p11165830.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DOG PRINT BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DOG PRINT BAG",
+      "url": "https://www.zara.com/us/en/puppy-print-bag-p11165830.html",
+      "productGroupID": "11165830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Drawstring bag featuring an allover dog print. Adjustable drawstring closure. Height x Width x Depth: 12.6 x 11.4 x 1.2 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/93f4/edc8/116d40a69a34/37d4b87bcb90/11165830400-e1/11165830400-e1.jpg?ts=1785232156267&w=1920",
+        "https://static.zara.net/assets/public/b4eb/fca9/64e9472ea7ab/0f0eb2936d17/11165830400-e2/11165830400-e2.jpg?ts=1785232155303&w=1920",
+        "https://static.zara.net/assets/public/a57e/6747/b0414c9c979e/9d39a808bad9/11165830400-e3/11165830400-e3.jpg?ts=1785246596170&w=1920",
+        "https://static.zara.net/assets/public/83b4/e617/f6d348aea960/4bcd852d1160/11165830400-e4/11165830400-e4.jpg?ts=1785246596248&w=1920",
+        "https://static.zara.net/assets/public/3f9f/8823/b8034b5a91de/eb71f7a56ea0/11165830400-e5/11165830400-e5.jpg?ts=1785246599143&w=1920",
+        "https://static.zara.net/assets/public/9985/0519/8c3a4b7d9ec6/44dd94e4cab3/11165830400-e6/11165830400-e6.jpg?ts=1785246596246&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DOG PRINT BAG - Blue - ONE SIZE ONLY",
+          "sku": "545465886-400-53",
+          "mpn": "545465886-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/93f4/edc8/116d40a69a34/37d4b87bcb90/11165830400-e1/11165830400-e1.jpg?ts=1785232156267&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/puppy-print-bag-p11165830.html?v1=545465886",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DOG PRINT BAG",
+      "product_group_id": "11165830",
+      "brand": "ZARA",
+      "description": "Drawstring bag featuring an allover dog print. Adjustable drawstring closure. Height x Width x Depth: 12.6 x 11.4 x 1.2 inches.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DOG PRINT BAG - Blue - ONE SIZE ONLY",
+          "sku": "545465886-400-53",
+          "mpn": "545465886-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/puppy-print-bag-p11165830.html?v1=545465886",
+          "images": [
+            "https://static.zara.net/assets/public/93f4/edc8/116d40a69a34/37d4b87bcb90/11165830400-e1/11165830400-e1.jpg?ts=1785232156267&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/93f4/edc8/116d40a69a34/37d4b87bcb90/11165830400-e1/11165830400-e1.jpg?ts=1785232156267&w=1920",
+        "https://static.zara.net/assets/public/b4eb/fca9/64e9472ea7ab/0f0eb2936d17/11165830400-e2/11165830400-e2.jpg?ts=1785232155303&w=1920",
+        "https://static.zara.net/assets/public/a57e/6747/b0414c9c979e/9d39a808bad9/11165830400-e3/11165830400-e3.jpg?ts=1785246596170&w=1920",
+        "https://static.zara.net/assets/public/83b4/e617/f6d348aea960/4bcd852d1160/11165830400-e4/11165830400-e4.jpg?ts=1785246596248&w=1920",
+        "https://static.zara.net/assets/public/3f9f/8823/b8034b5a91de/eb71f7a56ea0/11165830400-e5/11165830400-e5.jpg?ts=1785246599143&w=1920",
+        "https://static.zara.net/assets/public/9985/0519/8c3a4b7d9ec6/44dd94e4cab3/11165830400-e6/11165830400-e6.jpg?ts=1785246596246&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nDrawstring bag featuring an allover dog print. Adjustable drawstring closure. Height x Width x Depth: 12.6 x 11.4 x 1.2 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d1c8db47bcf1bc876001757cbc853fb5341496cdac583ea4b912ddb4177fdf52",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

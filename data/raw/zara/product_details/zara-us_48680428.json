@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:48680428",
+  "source_url": "https://www.zara.com/us/en/kids--space-lunch-box-p48680428.html",
+  "final_url": "https://www.zara.com/us/en/kids--space-lunch-box-p48680428.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--space-lunch-box-p48680428.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' SPACE LUNCH BOX",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' SPACE LUNCH BOX",
+      "url": "https://www.zara.com/us/en/kids--space-lunch-box-p48680428.html",
+      "productGroupID": "48680428",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' square-shaped lunch box with four compartments and a silicone lid featuring a spaceship illustration.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ac23/2a3a/0cea4675bd34/f40bbdf7800d/48680428400-e1/48680428400-e1.jpg?ts=1781086344918&w=1920",
+        "https://static.zara.net/assets/public/6f1b/e893/7e694cd8a671/72e473373cb4/48680428400-e2/48680428400-e2.jpg?ts=1781086344350&w=1920",
+        "https://static.zara.net/assets/public/2835/86cf/73e24b45a384/2ed2473a8572/48680428400-e3/48680428400-e3.jpg?ts=1781086344355&w=1920",
+        "https://static.zara.net/assets/public/e950/a690/9a954f85b298/2f9ed15f7fcc/48680428400-e4/48680428400-e4.jpg?ts=1781086344316&w=1920",
+        "https://static.zara.net/assets/public/9f9f/377c/7d544ff9b0f8/979f50783c17/48680428400-a1/48680428400-a1.jpg?ts=1780649886882&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' SPACE LUNCH BOX - Blue - ONE SIZE ONLY",
+          "sku": "545422886-400-99",
+          "mpn": "545422886-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ac23/2a3a/0cea4675bd34/f40bbdf7800d/48680428400-e1/48680428400-e1.jpg?ts=1781086344918&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/kids--space-lunch-box-p48680428.html?v1=545422886",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' SPACE LUNCH BOX",
+      "product_group_id": "48680428",
+      "brand": "ZARAHOME",
+      "description": "Kids' square-shaped lunch box with four compartments and a silicone lid featuring a spaceship illustration.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' SPACE LUNCH BOX - Blue - ONE SIZE ONLY",
+          "sku": "545422886-400-99",
+          "mpn": "545422886-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--space-lunch-box-p48680428.html?v1=545422886",
+          "images": [
+            "https://static.zara.net/assets/public/ac23/2a3a/0cea4675bd34/f40bbdf7800d/48680428400-e1/48680428400-e1.jpg?ts=1781086344918&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ac23/2a3a/0cea4675bd34/f40bbdf7800d/48680428400-e1/48680428400-e1.jpg?ts=1781086344918&w=1920",
+        "https://static.zara.net/assets/public/6f1b/e893/7e694cd8a671/72e473373cb4/48680428400-e2/48680428400-e2.jpg?ts=1781086344350&w=1920",
+        "https://static.zara.net/assets/public/2835/86cf/73e24b45a384/2ed2473a8572/48680428400-e3/48680428400-e3.jpg?ts=1781086344355&w=1920",
+        "https://static.zara.net/assets/public/e950/a690/9a954f85b298/2f9ed15f7fcc/48680428400-e4/48680428400-e4.jpg?ts=1781086344316&w=1920",
+        "https://static.zara.net/assets/public/9f9f/377c/7d544ff9b0f8/979f50783c17/48680428400-a1/48680428400-a1.jpg?ts=1780649886882&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nKids' square-shaped lunch box with four compartments and a silicone lid featuring a spaceship illustration.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "93e1abf204a0df8c3f6b43386dd5b610b5958212061ffd4bdf8515fd04b704f7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,141 @@
+{
+  "product_id": "zara-us:44669019",
+  "source_url": "https://www.zara.com/us/en/gingham-cotton-diaper-bag-p44669019.html",
+  "final_url": "https://www.zara.com/us/en/gingham-cotton-diaper-bag-p44669019.html",
+  "canonical_url": "https://www.zara.com/us/en/gingham-cotton-diaper-bag-p44669019.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GINGHAM COTTON DIAPER BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GINGHAM COTTON DIAPER BAG",
+      "url": "https://www.zara.com/us/en/gingham-cotton-diaper-bag-p44669019.html",
+      "productGroupID": "44669019",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Cotton diaper bag with a gingham check print. Featuring a handle design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cbfc/15ae/2b6f48ef867e/1e1f25e39e1b/44669019642-e1/44669019642-e1.jpg?ts=1787641168782&w=1920",
+        "https://static.zara.net/assets/public/cd97/9687/007a46c3a421/7ac590bbc80e/44669019642-e2/44669019642-e2.jpg?ts=1787641168504&w=1920",
+        "https://static.zara.net/assets/public/5ed1/6da0/ac9746db8f01/3c6b987f49f6/44669019642-e3/44669019642-e3.jpg?ts=1787641168284&w=1920",
+        "https://static.zara.net/assets/public/238c/0ef7/669842e4a8b5/2dfcdb54f77b/44669019642-e4/44669019642-e4.jpg?ts=1787641168596&w=1920",
+        "https://static.zara.net/assets/public/8f4a/7fa5/cc3b4ced8ce4/2e6a82f4e072/44669019642-e5/44669019642-e5.jpg?ts=1787641168698&w=1920",
+        "https://static.zara.net/assets/public/0869/10a9/616346c5b25b/d33519997734/44669019642-a1/44669019642-a1.jpg?ts=1787735072082&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GINGHAM COTTON DIAPER BAG - Dark orange - ONE SIZE ONLY",
+          "sku": "549003359-642-99",
+          "mpn": "549003359-642-99",
+          "color": "Dark orange",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/cbfc/15ae/2b6f48ef867e/1e1f25e39e1b/44669019642-e1/44669019642-e1.jpg?ts=1787641168782&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/gingham-cotton-diaper-bag-p44669019.html?v1=549003359",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GINGHAM COTTON DIAPER BAG",
+      "product_group_id": "44669019",
+      "brand": "ZARAHOME",
+      "description": "Cotton diaper bag with a gingham check print. Featuring a handle design.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | LINING: 100% cotton | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GINGHAM COTTON DIAPER BAG - Dark orange - ONE SIZE ONLY",
+          "sku": "549003359-642-99",
+          "mpn": "549003359-642-99",
+          "color_name": "Dark orange",
+          "size_name": "ONE SIZE ONLY",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/gingham-cotton-diaper-bag-p44669019.html?v1=549003359",
+          "images": [
+            "https://static.zara.net/assets/public/cbfc/15ae/2b6f48ef867e/1e1f25e39e1b/44669019642-e1/44669019642-e1.jpg?ts=1787641168782&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cbfc/15ae/2b6f48ef867e/1e1f25e39e1b/44669019642-e1/44669019642-e1.jpg?ts=1787641168782&w=1920",
+        "https://static.zara.net/assets/public/cd97/9687/007a46c3a421/7ac590bbc80e/44669019642-e2/44669019642-e2.jpg?ts=1787641168504&w=1920",
+        "https://static.zara.net/assets/public/5ed1/6da0/ac9746db8f01/3c6b987f49f6/44669019642-e3/44669019642-e3.jpg?ts=1787641168284&w=1920",
+        "https://static.zara.net/assets/public/238c/0ef7/669842e4a8b5/2dfcdb54f77b/44669019642-e4/44669019642-e4.jpg?ts=1787641168596&w=1920",
+        "https://static.zara.net/assets/public/8f4a/7fa5/cc3b4ced8ce4/2e6a82f4e072/44669019642-e5/44669019642-e5.jpg?ts=1787641168698&w=1920",
+        "https://static.zara.net/assets/public/0869/10a9/616346c5b25b/d33519997734/44669019642-a1/44669019642-a1.jpg?ts=1787735072082&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nCotton diaper bag with a gingham check print. Featuring a handle design.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6c79139be469a970db6cadc7bdf1311648fd17ad0ad6701cd5a86a63305575e4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

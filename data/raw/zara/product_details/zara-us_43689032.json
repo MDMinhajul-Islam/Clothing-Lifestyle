@@ -1,0 +1,163 @@
+{
+  "product_id": "zara-us:43689032",
+  "source_url": "https://www.zara.com/us/en/medium-opacity-cotton-muslin-curtain-p43689032.html",
+  "final_url": "https://www.zara.com/us/en/medium-opacity-cotton-muslin-curtain-p43689032.html",
+  "canonical_url": "https://www.zara.com/us/en/medium-opacity-cotton-muslin-curtain-p43689032.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MEDIUM OPACITY COTTON MUSLIN CURTAIN",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MEDIUM OPACITY COTTON MUSLIN CURTAIN",
+      "url": "https://www.zara.com/us/en/medium-opacity-cotton-muslin-curtain-p43689032.html",
+      "productGroupID": "43689032",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Curtain made of medium opacity cotton chiffon with multicolored loops at the top.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a5e2/c502/94f4470d866f/cd9e1d1201ef/49600032999-e1/49600032999-e1.jpg?ts=1705581385884&w=1920",
+        "https://static.zara.net/assets/public/b4ad/821e/57f94de2aa79/d9af58ed9fe4/49600032999-e2/49600032999-e2.jpg?ts=1753257565290&w=1920",
+        "https://static.zara.net/assets/public/7175/29cc/60714047baaf/97b357ba1513/49600032999-e3/49600032999-e3.jpg?ts=1705581388276&w=1920",
+        "https://static.zara.net/assets/public/bcd6/73b4/c03a4b3282b8/d283bbbfe624/49600032999-e4/49600032999-e4.jpg?ts=1705581389164&w=1920",
+        "https://static.zara.net/assets/public/e531/6eb9/5a1a400e954f/7b74153a117e/49600032999-e5/49600032999-e5.jpg?ts=1705581388312&w=1920",
+        "https://static.zara.net/assets/public/72c4/6c8a/421d4cc3923c/6edeabac13d4/49600032999-a1/49600032999-a1.jpg?ts=1753263337036&w=1920",
+        "https://static.zara.net/assets/public/88c1/6124/f3b4406592e7/e2de94fae007/49600032999-a2/49600032999-a2.jpg?ts=1705581389801&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MEDIUM OPACITY COTTON MUSLIN CURTAIN - Multicolored - 55 x 106,5 \"",
+          "sku": "545400852-999-73",
+          "mpn": "545400852-999-73",
+          "color": "Multicolored",
+          "size": "55 x 106,5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/a5e2/c502/94f4470d866f/cd9e1d1201ef/49600032999-e1/49600032999-e1.jpg?ts=1705581385884&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/medium-opacity-cotton-muslin-curtain-p43689032.html?v1=545400852",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MEDIUM OPACITY COTTON MUSLIN CURTAIN - Multicolored",
+          "sku": "545400852-999-99",
+          "mpn": "545400852-999-99",
+          "color": "Multicolored",
+          "size": "",
+          "image": [
+            "https://static.zara.net/assets/public/a5e2/c502/94f4470d866f/cd9e1d1201ef/49600032999-e1/49600032999-e1.jpg?ts=1705581385884&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/medium-opacity-cotton-muslin-curtain-p43689032.html?v1=545400852",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MEDIUM OPACITY COTTON MUSLIN CURTAIN",
+      "product_group_id": "43689032",
+      "brand": "ZARAHOME",
+      "description": "Curtain made of medium opacity cotton chiffon with multicolored loops at the top.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MEDIUM OPACITY COTTON MUSLIN CURTAIN - Multicolored - 55 x 106,5 \"",
+          "sku": "545400852-999-73",
+          "mpn": "545400852-999-73",
+          "color_name": "Multicolored",
+          "size_name": "55 x 106,5 \"",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/medium-opacity-cotton-muslin-curtain-p43689032.html?v1=545400852",
+          "images": [
+            "https://static.zara.net/assets/public/a5e2/c502/94f4470d866f/cd9e1d1201ef/49600032999-e1/49600032999-e1.jpg?ts=1705581385884&w=1920"
+          ]
+        },
+        {
+          "name": "MEDIUM OPACITY COTTON MUSLIN CURTAIN - Multicolored",
+          "sku": "545400852-999-99",
+          "mpn": "545400852-999-99",
+          "color_name": "Multicolored",
+          "size_name": "",
+          "price": "79.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/medium-opacity-cotton-muslin-curtain-p43689032.html?v1=545400852",
+          "images": [
+            "https://static.zara.net/assets/public/a5e2/c502/94f4470d866f/cd9e1d1201ef/49600032999-e1/49600032999-e1.jpg?ts=1705581385884&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a5e2/c502/94f4470d866f/cd9e1d1201ef/49600032999-e1/49600032999-e1.jpg?ts=1705581385884&w=1920",
+        "https://static.zara.net/assets/public/b4ad/821e/57f94de2aa79/d9af58ed9fe4/49600032999-e2/49600032999-e2.jpg?ts=1753257565290&w=1920",
+        "https://static.zara.net/assets/public/7175/29cc/60714047baaf/97b357ba1513/49600032999-e3/49600032999-e3.jpg?ts=1705581388276&w=1920",
+        "https://static.zara.net/assets/public/bcd6/73b4/c03a4b3282b8/d283bbbfe624/49600032999-e4/49600032999-e4.jpg?ts=1705581389164&w=1920",
+        "https://static.zara.net/assets/public/e531/6eb9/5a1a400e954f/7b74153a117e/49600032999-e5/49600032999-e5.jpg?ts=1705581388312&w=1920",
+        "https://static.zara.net/assets/public/72c4/6c8a/421d4cc3923c/6edeabac13d4/49600032999-a1/49600032999-a1.jpg?ts=1753263337036&w=1920",
+        "https://static.zara.net/assets/public/88c1/6124/f3b4406592e7/e2de94fae007/49600032999-a2/49600032999-a2.jpg?ts=1705581389801&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nCurtain made of medium opacity cotton chiffon with multicolored loops at the top.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "72346adc630c921e69e4b41313605d44576d5c371c322260648d236dfc053dfe",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

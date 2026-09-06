@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:46680052",
+  "source_url": "https://www.zara.com/us/en/wooden-chalk-slate-eraser-p46680052.html",
+  "final_url": "https://www.zara.com/us/en/wooden-chalk-slate-eraser-p46680052.html",
+  "canonical_url": "https://www.zara.com/us/en/wooden-chalk-slate-eraser-p46680052.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WOODEN CHALK SLATE ERASER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WOODEN CHALK SLATE ERASER",
+      "url": "https://www.zara.com/us/en/wooden-chalk-slate-eraser-p46680052.html",
+      "productGroupID": "46680052",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Chalk slate eraser, with felt base and rubber wood handle.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/af3b/3257/ba914182895a/9cbb5a8053fd/46680052999-e1/46680052999-e1.jpg?ts=1756199388025&w=1920",
+        "https://static.zara.net/assets/public/7a24/a397/4c78458594fa/61bf4cff9a27/46680052999-e2/46680052999-e2.jpg?ts=1756199389950&w=1920",
+        "https://static.zara.net/assets/public/468d/3e53/3ddd4bc9a5ad/f7d29a58c300/46680052999-e3/46680052999-e3.jpg?ts=1756199389527&w=1920",
+        "https://static.zara.net/assets/public/244b/aa81/47dd46528fec/ce1bfe256f62/46680052999-e4/46680052999-e4.jpg?ts=1756199389508&w=1920",
+        "https://static.zara.net/assets/public/a197/6d20/3e134f3bbaa8/5fef3c80b0c7/4668005299902-a1/4668005299902-a1.jpg?ts=1787227994489&w=1920"
+      ],
+      "material": "rubberwood/polypropylene",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "98% rubberwood, 2% polypropylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WOODEN CHALK SLATE ERASER - Multicolored - ONE SIZE ONLY",
+          "sku": "550839558-999-99",
+          "mpn": "550839558-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/af3b/3257/ba914182895a/9cbb5a8053fd/46680052999-e1/46680052999-e1.jpg?ts=1756199388025&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/wooden-chalk-slate-eraser-p46680052.html?v1=550839558",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WOODEN CHALK SLATE ERASER",
+      "product_group_id": "46680052",
+      "brand": "ZARAHOME",
+      "description": "Chalk slate eraser, with felt base and rubber wood handle.",
+      "material": "rubberwood/polypropylene",
+      "composition": "OUTER SHELL: 98% rubberwood, 2% polypropylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WOODEN CHALK SLATE ERASER - Multicolored - ONE SIZE ONLY",
+          "sku": "550839558-999-99",
+          "mpn": "550839558-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wooden-chalk-slate-eraser-p46680052.html?v1=550839558",
+          "images": [
+            "https://static.zara.net/assets/public/af3b/3257/ba914182895a/9cbb5a8053fd/46680052999-e1/46680052999-e1.jpg?ts=1756199388025&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/af3b/3257/ba914182895a/9cbb5a8053fd/46680052999-e1/46680052999-e1.jpg?ts=1756199388025&w=1920",
+        "https://static.zara.net/assets/public/7a24/a397/4c78458594fa/61bf4cff9a27/46680052999-e2/46680052999-e2.jpg?ts=1756199389950&w=1920",
+        "https://static.zara.net/assets/public/468d/3e53/3ddd4bc9a5ad/f7d29a58c300/46680052999-e3/46680052999-e3.jpg?ts=1756199389527&w=1920",
+        "https://static.zara.net/assets/public/244b/aa81/47dd46528fec/ce1bfe256f62/46680052999-e4/46680052999-e4.jpg?ts=1756199389508&w=1920",
+        "https://static.zara.net/assets/public/a197/6d20/3e134f3bbaa8/5fef3c80b0c7/4668005299902-a1/4668005299902-a1.jpg?ts=1787227994489&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nChalk slate eraser, with felt base and rubber wood handle.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c98fb47301a0d2484cfe02924fe6f791acb58127bf4fc79edc10b5f5209f3ca9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

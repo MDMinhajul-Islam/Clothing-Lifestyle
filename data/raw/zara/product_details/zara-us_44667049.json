@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:44667049",
+  "source_url": "https://www.zara.com/us/en/kids--paper-circus-basket-p44667049.html",
+  "final_url": "https://www.zara.com/us/en/kids--paper-circus-basket-p44667049.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--paper-circus-basket-p44667049.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' PAPER CIRCUS BASKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' PAPER CIRCUS BASKET",
+      "url": "https://www.zara.com/us/en/kids--paper-circus-basket-p44667049.html",
+      "productGroupID": "44667049",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' basket with a lid, crafted from braided paper and designed for organizing toys. Featuring a striped design inspired by a circus tent.\n\nAvailable in the following sizes and colors:\n37 x 32 x 32 cm: aqua green.\n43 x 37.5 x 37.5 cm: red.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/948a/5238/08dc40968918/91f6c570acbc/44667049999-000-e1/44667049999-000-e1.jpg?ts=1771920959486&w=1920",
+        "https://static.zara.net/assets/public/c7e9/4d73/71fc442d84b4/c84db891e0ec/44667049999-e2/44667049999-e2.jpg?ts=1739268449086&w=1920",
+        "https://static.zara.net/assets/public/4ba8/717a/53cb4b908751/6854f0b5a97f/44667049999-e3/44667049999-e3.jpg?ts=1739268472250&w=1920",
+        "https://static.zara.net/assets/public/3c88/62d4/f28c4b3d8b7d/e924d8533f90/44667049999-e4/44667049999-e4.jpg?ts=1739268472741&w=1920",
+        "https://static.zara.net/assets/public/1f22/6f5b/2fbd4b5abe04/6c89a7392e93/44667049999-e5/44667049999-e5.jpg?ts=1739268472719&w=1920",
+        "https://static.zara.net/assets/public/93ba/01b6/6c6840969518/96c5cf09b79e/44667049999-000-a1/44667049999-000-a1.jpg?ts=1771921148778&w=1920"
+      ],
+      "material": "paper/steel",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "50% paper, 50% steel"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' PAPER CIRCUS BASKET - Multicolored - 14.6 x 12.6 x 12.6 \"",
+          "sku": "545413361-999-2",
+          "mpn": "545413361-999-2",
+          "color": "Multicolored",
+          "size": "14.6 x 12.6 x 12.6 \"",
+          "image": [
+            "https://static.zara.net/assets/public/948a/5238/08dc40968918/91f6c570acbc/44667049999-000-e1/44667049999-000-e1.jpg?ts=1771920959486&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/kids--paper-circus-basket-p44667049.html?v1=545413361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' PAPER CIRCUS BASKET - Multicolored - 16.9 x 14.8 x 14.8 \"",
+          "sku": "545413361-999-3",
+          "mpn": "545413361-999-3",
+          "color": "Multicolored",
+          "size": "16.9 x 14.8 x 14.8 \"",
+          "image": [
+            "https://static.zara.net/assets/public/948a/5238/08dc40968918/91f6c570acbc/44667049999-000-e1/44667049999-000-e1.jpg?ts=1771920959486&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/kids--paper-circus-basket-p44667049.html?v1=545413361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' PAPER CIRCUS BASKET",
+      "product_group_id": "44667049",
+      "brand": "ZARAHOME",
+      "description": "Kids' basket with a lid, crafted from braided paper and designed for organizing toys. Featuring a striped design inspired by a circus tent.\n\nAvailable in the following sizes and colors:\n37 x 32 x 32 cm: aqua green.\n43 x 37.5 x 37.5 cm: red.",
+      "material": "paper/steel",
+      "composition": "OUTER SHELL: 50% paper, 50% steel",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' PAPER CIRCUS BASKET - Multicolored - 14.6 x 12.6 x 12.6 \"",
+          "sku": "545413361-999-2",
+          "mpn": "545413361-999-2",
+          "color_name": "Multicolored",
+          "size_name": "14.6 x 12.6 x 12.6 \"",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--paper-circus-basket-p44667049.html?v1=545413361",
+          "images": [
+            "https://static.zara.net/assets/public/948a/5238/08dc40968918/91f6c570acbc/44667049999-000-e1/44667049999-000-e1.jpg?ts=1771920959486&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' PAPER CIRCUS BASKET - Multicolored - 16.9 x 14.8 x 14.8 \"",
+          "sku": "545413361-999-3",
+          "mpn": "545413361-999-3",
+          "color_name": "Multicolored",
+          "size_name": "16.9 x 14.8 x 14.8 \"",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--paper-circus-basket-p44667049.html?v1=545413361",
+          "images": [
+            "https://static.zara.net/assets/public/948a/5238/08dc40968918/91f6c570acbc/44667049999-000-e1/44667049999-000-e1.jpg?ts=1771920959486&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/948a/5238/08dc40968918/91f6c570acbc/44667049999-000-e1/44667049999-000-e1.jpg?ts=1771920959486&w=1920",
+        "https://static.zara.net/assets/public/c7e9/4d73/71fc442d84b4/c84db891e0ec/44667049999-e2/44667049999-e2.jpg?ts=1739268449086&w=1920",
+        "https://static.zara.net/assets/public/4ba8/717a/53cb4b908751/6854f0b5a97f/44667049999-e3/44667049999-e3.jpg?ts=1739268472250&w=1920",
+        "https://static.zara.net/assets/public/3c88/62d4/f28c4b3d8b7d/e924d8533f90/44667049999-e4/44667049999-e4.jpg?ts=1739268472741&w=1920",
+        "https://static.zara.net/assets/public/1f22/6f5b/2fbd4b5abe04/6c89a7392e93/44667049999-e5/44667049999-e5.jpg?ts=1739268472719&w=1920",
+        "https://static.zara.net/assets/public/93ba/01b6/6c6840969518/96c5cf09b79e/44667049999-000-a1/44667049999-000-a1.jpg?ts=1771921148778&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nKids' basket with a lid, crafted from braided paper and designed for organizing toys. Featuring a striped design inspired by a circus tent.\nAvailable in the following sizes and colors:\n37 x 32 x 32 cm: aqua green.\n43 x 37.5 x 37.5 cm: red.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a59585094e4cc92490a072c8b8cbb548664c7c3ab61bc0cd3ab52c613c3f329a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

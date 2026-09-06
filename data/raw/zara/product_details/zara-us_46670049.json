@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:46670049",
+  "source_url": "https://www.zara.com/us/en/scalloped-medium-basket-p46670049.html",
+  "final_url": "https://www.zara.com/us/en/scalloped-medium-basket-p46670049.html",
+  "canonical_url": "https://www.zara.com/us/en/scalloped-medium-basket-p46670049.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SCALLOPED MEDIUM BASKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SCALLOPED MEDIUM BASKET",
+      "url": "https://www.zara.com/us/en/scalloped-medium-basket-p46670049.html",
+      "productGroupID": "46670049",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Rectangular toy storage basket with a scalloped finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2a72/7548/b1004d77854d/ab51c0bbeb95/46670049052-e1/46670049052-e1.jpg?ts=1770217767883&w=1920",
+        "https://static.zara.net/assets/public/4ada/2d05/53174eddb361/64a0c3001b69/46670049052-e2/46670049052-e2.jpg?ts=1770217766179&w=1920",
+        "https://static.zara.net/assets/public/34fd/2adb/144d4a279cac/8f2c54f31908/46670049052-e3/46670049052-e3.jpg?ts=1770217766594&w=1920",
+        "https://static.zara.net/assets/public/43e0/3e9c/818745e7abb8/f90ed95fc959/46670049052-e4/46670049052-e4.jpg?ts=1770217765712&w=1920",
+        "https://static.zara.net/assets/public/c758/57cd/247748b1a440/e38eba28bd2b/46670049052-a1/46670049052-a1.jpg?ts=1768298701024&w=1920"
+      ],
+      "material": "paper/iron",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "52% paper, 48% iron"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SCALLOPED MEDIUM BASKET - Light beige - ONE SIZE ONLY",
+          "sku": "545400833-052-99",
+          "mpn": "545400833-052-99",
+          "color": "Light beige",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2a72/7548/b1004d77854d/ab51c0bbeb95/46670049052-e1/46670049052-e1.jpg?ts=1770217767883&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/scalloped-medium-basket-p46670049.html?v1=545400833",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SCALLOPED MEDIUM BASKET",
+      "product_group_id": "46670049",
+      "brand": "ZARAHOME",
+      "description": "Rectangular toy storage basket with a scalloped finish.",
+      "material": "paper/iron",
+      "composition": "OUTER SHELL: 52% paper, 48% iron",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SCALLOPED MEDIUM BASKET - Light beige - ONE SIZE ONLY",
+          "sku": "545400833-052-99",
+          "mpn": "545400833-052-99",
+          "color_name": "Light beige",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/scalloped-medium-basket-p46670049.html?v1=545400833",
+          "images": [
+            "https://static.zara.net/assets/public/2a72/7548/b1004d77854d/ab51c0bbeb95/46670049052-e1/46670049052-e1.jpg?ts=1770217767883&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2a72/7548/b1004d77854d/ab51c0bbeb95/46670049052-e1/46670049052-e1.jpg?ts=1770217767883&w=1920",
+        "https://static.zara.net/assets/public/4ada/2d05/53174eddb361/64a0c3001b69/46670049052-e2/46670049052-e2.jpg?ts=1770217766179&w=1920",
+        "https://static.zara.net/assets/public/34fd/2adb/144d4a279cac/8f2c54f31908/46670049052-e3/46670049052-e3.jpg?ts=1770217766594&w=1920",
+        "https://static.zara.net/assets/public/43e0/3e9c/818745e7abb8/f90ed95fc959/46670049052-e4/46670049052-e4.jpg?ts=1770217765712&w=1920",
+        "https://static.zara.net/assets/public/c758/57cd/247748b1a440/e38eba28bd2b/46670049052-a1/46670049052-a1.jpg?ts=1768298701024&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nRectangular toy storage basket with a scalloped finish.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d1ae57356bc4bb63e1061ec06a96a348a6fe3020b4ccd8da0faa71638a5757a2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

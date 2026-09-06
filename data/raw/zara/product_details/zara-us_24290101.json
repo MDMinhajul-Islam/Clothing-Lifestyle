@@ -1,0 +1,157 @@
+{
+  "product_id": "zara-us:24290101",
+  "source_url": "https://www.zara.com/us/en/powder-blush---highly-licious-p24290101.html",
+  "final_url": "https://www.zara.com/us/en/powder-blush---highly-licious-p24290101.html",
+  "canonical_url": "https://www.zara.com/us/en/powder-blush---highly-licious-p24290101.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "POWDER BLUSH - HIGHLY-LICIOUS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "POWDER BLUSH - HIGHLY-LICIOUS",
+      "url": "https://www.zara.com/us/en/powder-blush---highly-licious-p24290101.html",
+      "productGroupID": "24290101",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "This versatile product combines the best of both worlds: a vibrant blush color for your cheeks and a radiant highlighter to enhance your complexion. The harmonious shades blend seamlessly and capture the light. Whether for a natural look or a more daring makeup, it can be used alone as a highlighter and blush.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ad6a/84f7/80c3497c925d/99b993342de6/24290102580-e1/24290102580-e1.jpg?ts=1751354707095&w=1920",
+        "https://static.zara.net/assets/public/7152/6d70/3a6e45c8af10/55956a46f63c/24290102580-a1/24290102580-a1.jpg?ts=1742457939096&w=1920",
+        "https://static.zara.net/assets/public/e50b/de69/26f246e2bc00/123a3ac18180/24290102580-a2/24290102580-a2.jpg?ts=1742457938464&w=1920",
+        "https://static.zara.net/assets/public/6d07/8f6d/2be94fb4ae73/d6ddaa1afe95/24290102580-a5/24290102580-a5.jpg?ts=1742457938894&w=1920",
+        "https://static.zara.net/assets/public/ce9e/9d22/77f24c6cb978/e24c7206fabf/24290102580-ult22/24290102580-ult22.jpg?ts=1743415185281&w=1920",
+        "https://static.zara.net/assets/public/021c/8e65/2506452197ed/f11543266b62/24290102580-ult25/24290102580-ult25.jpg?ts=1743428888811&w=1920",
+        "https://static.zara.net/assets/public/122d/fb1f/0e004b07b1ce/95eac1f0d486/24290102580-e1/24290102580-e1.jpg?ts=1751354671172&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "POWDER BLUSH - HIGHLY-LICIOUS - CHERRY RUBY - ONE SIZE ONLY",
+          "sku": "557361012-580-99",
+          "mpn": "557361012-580-99",
+          "color": "CHERRY RUBY",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ad6a/84f7/80c3497c925d/99b993342de6/24290102580-e1/24290102580-e1.jpg?ts=1751354707095&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/powder-blush---highly-licious-p24290101.html?v1=559657577",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "POWDER BLUSH - HIGHLY-LICIOUS - OPALE GOLD - ONE SIZE ONLY",
+          "sku": "557361012-579-99",
+          "mpn": "557361012-579-99",
+          "color": "OPALE GOLD",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/53d9/3805/92a84f0a9963/3135cf4e9ae7/24290101579-e1/24290101579-e1.jpg?ts=1751354708953&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/powder-blush---highly-licious-p24290101.html?v1=557361012",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "POWDER BLUSH - HIGHLY-LICIOUS",
+      "product_group_id": "24290101",
+      "brand": "ZARA",
+      "description": "This versatile product combines the best of both worlds: a vibrant blush color for your cheeks and a radiant highlighter to enhance your complexion. The harmonious shades blend seamlessly and capture the light. Whether for a natural look or a more daring makeup, it can be used alone as a highlighter and blush.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "POWDER BLUSH - HIGHLY-LICIOUS - CHERRY RUBY - ONE SIZE ONLY",
+          "sku": "557361012-580-99",
+          "mpn": "557361012-580-99",
+          "color_name": "CHERRY RUBY",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/powder-blush---highly-licious-p24290101.html?v1=559657577",
+          "images": [
+            "https://static.zara.net/assets/public/ad6a/84f7/80c3497c925d/99b993342de6/24290102580-e1/24290102580-e1.jpg?ts=1751354707095&w=1920"
+          ]
+        },
+        {
+          "name": "POWDER BLUSH - HIGHLY-LICIOUS - OPALE GOLD - ONE SIZE ONLY",
+          "sku": "557361012-579-99",
+          "mpn": "557361012-579-99",
+          "color_name": "OPALE GOLD",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/powder-blush---highly-licious-p24290101.html?v1=557361012",
+          "images": [
+            "https://static.zara.net/assets/public/53d9/3805/92a84f0a9963/3135cf4e9ae7/24290101579-e1/24290101579-e1.jpg?ts=1751354708953&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ad6a/84f7/80c3497c925d/99b993342de6/24290102580-e1/24290102580-e1.jpg?ts=1751354707095&w=1920",
+        "https://static.zara.net/assets/public/7152/6d70/3a6e45c8af10/55956a46f63c/24290102580-a1/24290102580-a1.jpg?ts=1742457939096&w=1920",
+        "https://static.zara.net/assets/public/e50b/de69/26f246e2bc00/123a3ac18180/24290102580-a2/24290102580-a2.jpg?ts=1742457938464&w=1920",
+        "https://static.zara.net/assets/public/6d07/8f6d/2be94fb4ae73/d6ddaa1afe95/24290102580-a5/24290102580-a5.jpg?ts=1742457938894&w=1920",
+        "https://static.zara.net/assets/public/ce9e/9d22/77f24c6cb978/e24c7206fabf/24290102580-ult22/24290102580-ult22.jpg?ts=1743415185281&w=1920",
+        "https://static.zara.net/assets/public/021c/8e65/2506452197ed/f11543266b62/24290102580-ult25/24290102580-ult25.jpg?ts=1743428888811&w=1920",
+        "https://static.zara.net/assets/public/122d/fb1f/0e004b07b1ce/95eac1f0d486/24290102580-e1/24290102580-e1.jpg?ts=1751354671172&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "CHERRY RUBY",
+    "OPALE GOLD"
+  ],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nThis versatile product combines the best of both worlds: a vibrant blush color for your cheeks and a radiant highlighter to enhance your complexion. The harmonious shades blend seamlessly and capture the light. Whether for a natural look or a more daring makeup, it can be used alone as a highlighter and blush.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 8,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5ad4e40f656867c1e9c4bcaabca9c5256e05e152fe7c6e4686f3dc0f34a8c841",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

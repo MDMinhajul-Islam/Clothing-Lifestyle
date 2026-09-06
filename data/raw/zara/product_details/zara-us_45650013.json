@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:45650013",
+  "source_url": "https://www.zara.com/us/en/children-s-tassel-bath-towel-p45650013.html",
+  "final_url": "https://www.zara.com/us/en/children-s-tassel-bath-towel-p45650013.html",
+  "canonical_url": "https://www.zara.com/us/en/children-s-tassel-bath-towel-p45650013.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHILDREN'S TASSEL BATH TOWEL",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHILDREN'S TASSEL BATH TOWEL",
+      "url": "https://www.zara.com/us/en/children-s-tassel-bath-towel-p45650013.html",
+      "productGroupID": "45650013",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Children's cotton terrycloth bath towel with colored star embroidery and finished with pompoms.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/12c2/ce4e/3aff475b8f4f/a2530f9ac07c/41624013251-e1/41624013251-e1.jpg?ts=1735557672557&w=1920",
+        "https://static.zara.net/assets/public/2f29/706c/1cc04a37ba94/868b47604f22/41624013251-e2/41624013251-e2.jpg?ts=1735557670970&w=1920",
+        "https://static.zara.net/assets/public/cd12/087a/ffbb4ef39576/0bebac0149fe/41624013251-e3/41624013251-e3.jpg?ts=1735557671218&w=1920",
+        "https://static.zara.net/assets/public/d201/b9a6/0f77497381a2/1584091b7baa/41624013251-e4/41624013251-e4.jpg?ts=1735557671992&w=1920",
+        "https://static.zara.net/assets/public/40d4/e467/f957428087bd/dc3fdfac7c04/41624013251-e5/41624013251-e5.jpg?ts=1735557671015&w=1920",
+        "https://static.zara.net/assets/public/cccb/d6cd/4e0343a8af48/535f0ab506c3/41624013251-a1/41624013251-a1.jpg?ts=1786456999188&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHILDREN'S TASSEL BATH TOWEL - Oyster-white - Hand towel",
+          "sku": "550840613-251-35",
+          "mpn": "550840613-251-35",
+          "color": "Oyster-white",
+          "size": "Hand towel",
+          "image": [
+            "https://static.zara.net/assets/public/12c2/ce4e/3aff475b8f4f/a2530f9ac07c/41624013251-e1/41624013251-e1.jpg?ts=1735557672557&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/children-s-tassel-bath-towel-p45650013.html?v1=550840613",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHILDREN'S TASSEL BATH TOWEL - Oyster-white - Shower towel",
+          "sku": "550840613-251-38",
+          "mpn": "550840613-251-38",
+          "color": "Oyster-white",
+          "size": "Shower towel",
+          "image": [
+            "https://static.zara.net/assets/public/12c2/ce4e/3aff475b8f4f/a2530f9ac07c/41624013251-e1/41624013251-e1.jpg?ts=1735557672557&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/children-s-tassel-bath-towel-p45650013.html?v1=550840613",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHILDREN'S TASSEL BATH TOWEL",
+      "product_group_id": "45650013",
+      "brand": "ZARAHOME",
+      "description": "Children's cotton terrycloth bath towel with colored star embroidery and finished with pompoms.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHILDREN'S TASSEL BATH TOWEL - Oyster-white - Hand towel",
+          "sku": "550840613-251-35",
+          "mpn": "550840613-251-35",
+          "color_name": "Oyster-white",
+          "size_name": "Hand towel",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/children-s-tassel-bath-towel-p45650013.html?v1=550840613",
+          "images": [
+            "https://static.zara.net/assets/public/12c2/ce4e/3aff475b8f4f/a2530f9ac07c/41624013251-e1/41624013251-e1.jpg?ts=1735557672557&w=1920"
+          ]
+        },
+        {
+          "name": "CHILDREN'S TASSEL BATH TOWEL - Oyster-white - Shower towel",
+          "sku": "550840613-251-38",
+          "mpn": "550840613-251-38",
+          "color_name": "Oyster-white",
+          "size_name": "Shower towel",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/children-s-tassel-bath-towel-p45650013.html?v1=550840613",
+          "images": [
+            "https://static.zara.net/assets/public/12c2/ce4e/3aff475b8f4f/a2530f9ac07c/41624013251-e1/41624013251-e1.jpg?ts=1735557672557&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/12c2/ce4e/3aff475b8f4f/a2530f9ac07c/41624013251-e1/41624013251-e1.jpg?ts=1735557672557&w=1920",
+        "https://static.zara.net/assets/public/2f29/706c/1cc04a37ba94/868b47604f22/41624013251-e2/41624013251-e2.jpg?ts=1735557670970&w=1920",
+        "https://static.zara.net/assets/public/cd12/087a/ffbb4ef39576/0bebac0149fe/41624013251-e3/41624013251-e3.jpg?ts=1735557671218&w=1920",
+        "https://static.zara.net/assets/public/d201/b9a6/0f77497381a2/1584091b7baa/41624013251-e4/41624013251-e4.jpg?ts=1735557671992&w=1920",
+        "https://static.zara.net/assets/public/40d4/e467/f957428087bd/dc3fdfac7c04/41624013251-e5/41624013251-e5.jpg?ts=1735557671015&w=1920",
+        "https://static.zara.net/assets/public/cccb/d6cd/4e0343a8af48/535f0ab506c3/41624013251-a1/41624013251-a1.jpg?ts=1786456999188&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nChildren's cotton terrycloth bath towel with colored star embroidery and finished with pompoms.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5a7eb16cbd62c5f5262154a314b4424412ce9acf37b67e2948e32cf00cbd5106",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

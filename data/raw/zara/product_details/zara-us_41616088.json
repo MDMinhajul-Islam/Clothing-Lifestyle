@@ -1,0 +1,164 @@
+{
+  "product_id": "zara-us:41616088",
+  "source_url": "https://www.zara.com/us/en/kids--checked-cotton-duvet-cover-p41616088.html",
+  "final_url": "https://www.zara.com/us/en/kids--checked-cotton-duvet-cover-p41616088.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--checked-cotton-duvet-cover-p41616088.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' CHECKED COTTON DUVET COVER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' CHECKED COTTON DUVET COVER",
+      "url": "https://www.zara.com/us/en/kids--checked-cotton-duvet-cover-p41616088.html",
+      "productGroupID": "41616088",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' duvet cover made of cotton. Features a design with fine, multicolored lines forming a small check pattern.\n\nButton fastening at the bottom.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/091b/70e0/7c904c258523/032bd0ec570f/41616088999-e1/41616088999-e1.jpg?ts=1781769488793&w=1920",
+        "https://static.zara.net/assets/public/4337/c90f/4fcb424d87a6/22e982789532/41616088999-e2/41616088999-e2.jpg?ts=1781769487796&w=1920",
+        "https://static.zara.net/assets/public/baff/332d/3d9049188591/8d92ba9fc823/41616088999-e3/41616088999-e3.jpg?ts=1781769488802&w=1920",
+        "https://static.zara.net/assets/public/d928/f9c5/7f9f4210abce/08a8fbe73d31/41616088999-e4/41616088999-e4.jpg?ts=1781769488500&w=1920",
+        "https://static.zara.net/assets/public/3d61/6f22/e86b493ea6af/acb4cc0892b2/41616088999-e5/41616088999-e5.jpg?ts=1781769487740&w=1920",
+        "https://static.zara.net/assets/public/04d6/79c2/bbc8477e95cd/a36252103999/41616088999-a1/41616088999-a1.jpg?ts=1781083152738&w=1920",
+        "https://static.zara.net/assets/public/c19b/cea2/1b0847cb92d2/f440e9211476/41616088999-a2/41616088999-a2.jpg?ts=1781167709705&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' CHECKED COTTON DUVET COVER - Multicolored - Single",
+          "sku": "545426549-999-12",
+          "mpn": "545426549-999-12",
+          "color": "Multicolored",
+          "size": "Single",
+          "image": [
+            "https://static.zara.net/assets/public/091b/70e0/7c904c258523/032bd0ec570f/41616088999-e1/41616088999-e1.jpg?ts=1781769488793&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/kids--checked-cotton-duvet-cover-p41616088.html?v1=545426549",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' CHECKED COTTON DUVET COVER - Multicolored - Double",
+          "sku": "545426549-999-14",
+          "mpn": "545426549-999-14",
+          "color": "Multicolored",
+          "size": "Double",
+          "image": [
+            "https://static.zara.net/assets/public/091b/70e0/7c904c258523/032bd0ec570f/41616088999-e1/41616088999-e1.jpg?ts=1781769488793&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/kids--checked-cotton-duvet-cover-p41616088.html?v1=545426549",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' CHECKED COTTON DUVET COVER",
+      "product_group_id": "41616088",
+      "brand": "ZARAHOME",
+      "description": "Kids' duvet cover made of cotton. Features a design with fine, multicolored lines forming a small check pattern.\n\nButton fastening at the bottom.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' CHECKED COTTON DUVET COVER - Multicolored - Single",
+          "sku": "545426549-999-12",
+          "mpn": "545426549-999-12",
+          "color_name": "Multicolored",
+          "size_name": "Single",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--checked-cotton-duvet-cover-p41616088.html?v1=545426549",
+          "images": [
+            "https://static.zara.net/assets/public/091b/70e0/7c904c258523/032bd0ec570f/41616088999-e1/41616088999-e1.jpg?ts=1781769488793&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' CHECKED COTTON DUVET COVER - Multicolored - Double",
+          "sku": "545426549-999-14",
+          "mpn": "545426549-999-14",
+          "color_name": "Multicolored",
+          "size_name": "Double",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--checked-cotton-duvet-cover-p41616088.html?v1=545426549",
+          "images": [
+            "https://static.zara.net/assets/public/091b/70e0/7c904c258523/032bd0ec570f/41616088999-e1/41616088999-e1.jpg?ts=1781769488793&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/091b/70e0/7c904c258523/032bd0ec570f/41616088999-e1/41616088999-e1.jpg?ts=1781769488793&w=1920",
+        "https://static.zara.net/assets/public/4337/c90f/4fcb424d87a6/22e982789532/41616088999-e2/41616088999-e2.jpg?ts=1781769487796&w=1920",
+        "https://static.zara.net/assets/public/baff/332d/3d9049188591/8d92ba9fc823/41616088999-e3/41616088999-e3.jpg?ts=1781769488802&w=1920",
+        "https://static.zara.net/assets/public/d928/f9c5/7f9f4210abce/08a8fbe73d31/41616088999-e4/41616088999-e4.jpg?ts=1781769488500&w=1920",
+        "https://static.zara.net/assets/public/3d61/6f22/e86b493ea6af/acb4cc0892b2/41616088999-e5/41616088999-e5.jpg?ts=1781769487740&w=1920",
+        "https://static.zara.net/assets/public/04d6/79c2/bbc8477e95cd/a36252103999/41616088999-a1/41616088999-a1.jpg?ts=1781083152738&w=1920",
+        "https://static.zara.net/assets/public/c19b/cea2/1b0847cb92d2/f440e9211476/41616088999-a2/41616088999-a2.jpg?ts=1781167709705&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nKids' duvet cover made of cotton. Features a design with fine, multicolored lines forming a small check pattern.\nButton fastening at the bottom.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bf456e9f964a7ef15f234da44b49baab2b9d230e4720ebeb2566d6482b939438",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

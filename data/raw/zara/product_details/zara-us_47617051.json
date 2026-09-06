@@ -1,0 +1,133 @@
+{
+  "product_id": "zara-us:47617051",
+  "source_url": "https://www.zara.com/us/en/kids--space-plush-toy-p47617051.html",
+  "final_url": "https://www.zara.com/us/en/kids--space-plush-toy-p47617051.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--space-plush-toy-p47617051.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' SPACE PLUSH TOY",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' SPACE PLUSH TOY",
+      "url": "https://www.zara.com/us/en/kids--space-plush-toy-p47617051.html",
+      "productGroupID": "47617051",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' plush toy in the shape of a character wearing plaid pajamas, a cape, and a space-inspired helmet.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/326a/6c5d/93074bb6a77b/982cf6a07335/47617051999-e1/47617051999-e1.jpg?ts=1782394870985&w=1920",
+        "https://static.zara.net/assets/public/691d/0018/fe594cb7b830/0aee0fa91e18/47617051999-e2/47617051999-e2.jpg?ts=1782394870791&w=1920",
+        "https://static.zara.net/assets/public/f2cf/7b5a/dcdf40439f5f/3e6f00a51dcc/47617051999-e3/47617051999-e3.jpg?ts=1782394870822&w=1920",
+        "https://static.zara.net/assets/public/391a/a207/ef3c43a58b6f/28b0f2470513/47617051999-e4/47617051999-e4.jpg?ts=1782394874595&w=1920",
+        "https://static.zara.net/assets/public/e3ae/8ed6/74bb43168d03/2c13a9133662/47617051999-a1/47617051999-a1.jpg?ts=1782383561895&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' SPACE PLUSH TOY - Multicolored - ONE SIZE ONLY",
+          "sku": "545422299-999-99",
+          "mpn": "545422299-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/326a/6c5d/93074bb6a77b/982cf6a07335/47617051999-e1/47617051999-e1.jpg?ts=1782394870985&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/kids--space-plush-toy-p47617051.html?v1=545422299",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' SPACE PLUSH TOY",
+      "product_group_id": "47617051",
+      "brand": "ZARAHOME",
+      "description": "Kids' plush toy in the shape of a character wearing plaid pajamas, a cape, and a space-inspired helmet.",
+      "material": null,
+      "composition": "FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' SPACE PLUSH TOY - Multicolored - ONE SIZE ONLY",
+          "sku": "545422299-999-99",
+          "mpn": "545422299-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--space-plush-toy-p47617051.html?v1=545422299",
+          "images": [
+            "https://static.zara.net/assets/public/326a/6c5d/93074bb6a77b/982cf6a07335/47617051999-e1/47617051999-e1.jpg?ts=1782394870985&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/326a/6c5d/93074bb6a77b/982cf6a07335/47617051999-e1/47617051999-e1.jpg?ts=1782394870985&w=1920",
+        "https://static.zara.net/assets/public/691d/0018/fe594cb7b830/0aee0fa91e18/47617051999-e2/47617051999-e2.jpg?ts=1782394870791&w=1920",
+        "https://static.zara.net/assets/public/f2cf/7b5a/dcdf40439f5f/3e6f00a51dcc/47617051999-e3/47617051999-e3.jpg?ts=1782394870822&w=1920",
+        "https://static.zara.net/assets/public/391a/a207/ef3c43a58b6f/28b0f2470513/47617051999-e4/47617051999-e4.jpg?ts=1782394874595&w=1920",
+        "https://static.zara.net/assets/public/e3ae/8ed6/74bb43168d03/2c13a9133662/47617051999-a1/47617051999-a1.jpg?ts=1782383561895&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nKids' plush toy in the shape of a character wearing plaid pajamas, a cape, and a space-inspired helmet.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3d6ea1df6a034ec74bf87c44714427694d6e4666bf2849c61da7e82d598dcb45",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

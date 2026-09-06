@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:48681202",
+  "source_url": "https://www.zara.com/us/en/kids--space-stoneware-plate-p48681202.html",
+  "final_url": "https://www.zara.com/us/en/kids--space-stoneware-plate-p48681202.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--space-stoneware-plate-p48681202.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' SPACE STONEWARE PLATE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' SPACE STONEWARE PLATE",
+      "url": "https://www.zara.com/us/en/kids--space-stoneware-plate-p48681202.html",
+      "productGroupID": "48681202",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' stoneware plate shaped like a planet. Features a ring design, star details, and the text \"A GALACTIC LUNCH\".",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/364f/d9e0/6eea4ac2846b/ca717ae7607b/48682202999-e1/48682202999-e1.jpg?ts=1781086351947&w=1920",
+        "https://static.zara.net/assets/public/42e8/e05e/31b742dab3f2/90cd4df877f0/48682202999-e2/48682202999-e2.jpg?ts=1781086350118&w=1920",
+        "https://static.zara.net/assets/public/3729/b177/28044a3d8799/1a526f999573/48682202999-e3/48682202999-e3.jpg?ts=1781086350214&w=1920",
+        "https://static.zara.net/assets/public/00fd/c37c/abf04d3fac58/6a98457e9710/48682202999-e4/48682202999-e4.jpg?ts=1781086350161&w=1920",
+        "https://static.zara.net/assets/public/5d0e/d666/d5fc4155808b/1d0bcc647093/48682202999-a1/48682202999-a1.jpg?ts=1781175262351&w=1920"
+      ],
+      "material": "100% stoneware",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% stoneware"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' SPACE STONEWARE PLATE - Multicolored - ONE SIZE ONLY",
+          "sku": "545404884-999-99",
+          "mpn": "545404884-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/364f/d9e0/6eea4ac2846b/ca717ae7607b/48682202999-e1/48682202999-e1.jpg?ts=1781086351947&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--space-stoneware-plate-p48681202.html?v1=545404884",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' SPACE STONEWARE PLATE",
+      "product_group_id": "48681202",
+      "brand": "ZARAHOME",
+      "description": "Kids' stoneware plate shaped like a planet. Features a ring design, star details, and the text \"A GALACTIC LUNCH\".",
+      "material": "100% stoneware",
+      "composition": "OUTER SHELL: 100% stoneware",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' SPACE STONEWARE PLATE - Multicolored - ONE SIZE ONLY",
+          "sku": "545404884-999-99",
+          "mpn": "545404884-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--space-stoneware-plate-p48681202.html?v1=545404884",
+          "images": [
+            "https://static.zara.net/assets/public/364f/d9e0/6eea4ac2846b/ca717ae7607b/48682202999-e1/48682202999-e1.jpg?ts=1781086351947&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/364f/d9e0/6eea4ac2846b/ca717ae7607b/48682202999-e1/48682202999-e1.jpg?ts=1781086351947&w=1920",
+        "https://static.zara.net/assets/public/42e8/e05e/31b742dab3f2/90cd4df877f0/48682202999-e2/48682202999-e2.jpg?ts=1781086350118&w=1920",
+        "https://static.zara.net/assets/public/3729/b177/28044a3d8799/1a526f999573/48682202999-e3/48682202999-e3.jpg?ts=1781086350214&w=1920",
+        "https://static.zara.net/assets/public/00fd/c37c/abf04d3fac58/6a98457e9710/48682202999-e4/48682202999-e4.jpg?ts=1781086350161&w=1920",
+        "https://static.zara.net/assets/public/5d0e/d666/d5fc4155808b/1d0bcc647093/48682202999-a1/48682202999-a1.jpg?ts=1781175262351&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' stoneware plate shaped like a planet. Features a ring design, star details, and the text \"A GALACTIC LUNCH\".",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d29a7de56d42d274b6c0501da5860e5b9c01849628774e12f8f83313d801be98",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

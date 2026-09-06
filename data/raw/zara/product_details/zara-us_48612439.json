@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:48612439",
+  "source_url": "https://www.zara.com/us/en/kids--steel-dog-bottle-p48612439.html",
+  "final_url": "https://www.zara.com/us/en/kids--steel-dog-bottle-p48612439.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--steel-dog-bottle-p48612439.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' STEEL DOG BOTTLE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' STEEL DOG BOTTLE",
+      "url": "https://www.zara.com/us/en/kids--steel-dog-bottle-p48612439.html",
+      "productGroupID": "48612439",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' stainless steel bottle with a screw cap and top handle. Features a dog illustration and printed text on the front.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/74c7/e3a0/e97f49a7913f/d4efbf92fa60/48612439999-e1/48612439999-e1.jpg?ts=1778491601324&w=1920",
+        "https://static.zara.net/assets/public/8200/187d/24e04929a7a1/2ef0d7cebdff/48612439999-e2/48612439999-e2.jpg?ts=1778491602217&w=1920",
+        "https://static.zara.net/assets/public/0d6e/a290/edde43ecaac1/0053ff05c490/48612439999-e3/48612439999-e3.jpg?ts=1778491602095&w=1920",
+        "https://static.zara.net/assets/public/2cae/daf6/d2e24cc68c31/494228beb784/48612439999-e4/48612439999-e4.jpg?ts=1778491602203&w=1920",
+        "https://static.zara.net/assets/public/55ab/1098/d5f74184a8fa/0154e267efbf/48612439999-a1/48612439999-a1.jpg?ts=1781190790040&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' STEEL DOG BOTTLE - Multicolored - 7.1 x 3 x 3 \"",
+          "sku": "545456755-999-99",
+          "mpn": "545456755-999-99",
+          "color": "Multicolored",
+          "size": "7.1 x 3 x 3 \"",
+          "image": [
+            "https://static.zara.net/assets/public/74c7/e3a0/e97f49a7913f/d4efbf92fa60/48612439999-e1/48612439999-e1.jpg?ts=1778491601324&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/kids--steel-dog-bottle-p48612439.html?v1=545456755",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' STEEL DOG BOTTLE",
+      "product_group_id": "48612439",
+      "brand": "ZARAHOME",
+      "description": "Kids' stainless steel bottle with a screw cap and top handle. Features a dog illustration and printed text on the front.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' STEEL DOG BOTTLE - Multicolored - 7.1 x 3 x 3 \"",
+          "sku": "545456755-999-99",
+          "mpn": "545456755-999-99",
+          "color_name": "Multicolored",
+          "size_name": "7.1 x 3 x 3 \"",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--steel-dog-bottle-p48612439.html?v1=545456755",
+          "images": [
+            "https://static.zara.net/assets/public/74c7/e3a0/e97f49a7913f/d4efbf92fa60/48612439999-e1/48612439999-e1.jpg?ts=1778491601324&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/74c7/e3a0/e97f49a7913f/d4efbf92fa60/48612439999-e1/48612439999-e1.jpg?ts=1778491601324&w=1920",
+        "https://static.zara.net/assets/public/8200/187d/24e04929a7a1/2ef0d7cebdff/48612439999-e2/48612439999-e2.jpg?ts=1778491602217&w=1920",
+        "https://static.zara.net/assets/public/0d6e/a290/edde43ecaac1/0053ff05c490/48612439999-e3/48612439999-e3.jpg?ts=1778491602095&w=1920",
+        "https://static.zara.net/assets/public/2cae/daf6/d2e24cc68c31/494228beb784/48612439999-e4/48612439999-e4.jpg?ts=1778491602203&w=1920",
+        "https://static.zara.net/assets/public/55ab/1098/d5f74184a8fa/0154e267efbf/48612439999-a1/48612439999-a1.jpg?ts=1781190790040&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nKids' stainless steel bottle with a screw cap and top handle. Features a dog illustration and printed text on the front.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "cd816a9ba4ab9e8c8935a03289d5d4c1e0b748cc90efd92c09637de9e30dadc2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

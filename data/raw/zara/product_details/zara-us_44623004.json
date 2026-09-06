@@ -1,0 +1,162 @@
+{
+  "product_id": "zara-us:44623004",
+  "source_url": "https://www.zara.com/us/en/baby-knit-blanket-p44623004.html",
+  "final_url": "https://www.zara.com/us/en/baby-knit-blanket-p44623004.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-knit-blanket-p44623004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY KNIT BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY KNIT BLANKET",
+      "url": "https://www.zara.com/us/en/baby-knit-blanket-p44623004.html",
+      "productGroupID": "44623004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby blanket made of cotton. Featuring a fine openwork knit design with a wavy finish on the edges.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/289a/821c/a6d64e97b4ca/1cb72bb7153a/44623004400-e1/44623004400-e1.jpg?ts=1788505414411&w=1920",
+        "https://static.zara.net/assets/public/af38/5628/42004195a956/b0fb09126810/44623004400-e2/44623004400-e2.jpg?ts=1788505420991&w=1920",
+        "https://static.zara.net/assets/public/75fe/681b/4fd74e4f8588/18fb7e02f745/44623004400-e3/44623004400-e3.jpg?ts=1788505421798&w=1920",
+        "https://static.zara.net/assets/public/682e/0086/9d8646fe8308/06d23d941d6b/44623004400-e4/44623004400-e4.jpg?ts=1788505417222&w=1920",
+        "https://static.zara.net/assets/public/9b51/5f07/6dd4432aaca9/e49b667b1f44/44623004400-a1/44623004400-a1.jpg?ts=1780496293978&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY KNIT BLANKET - Blue - 27.5 x 39.5 \"",
+          "sku": "545413359-400-9",
+          "mpn": "545413359-400-9",
+          "color": "Blue",
+          "size": "27.5 x 39.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/289a/821c/a6d64e97b4ca/1cb72bb7153a/44623004400-e1/44623004400-e1.jpg?ts=1788505414411&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "44.72",
+            "url": "https://www.zara.com/us/en/baby-knit-blanket-p44623004.html?v1=545413359",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BABY KNIT BLANKET - Gray - 27.5 x 39.5 \"",
+          "sku": "545413359-802-9",
+          "mpn": "545413359-802-9",
+          "color": "Gray",
+          "size": "27.5 x 39.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/3bc5/f1e5/9a5544f3b26c/3a5ff870ad05/44623004802-e1/44623004802-e1.jpg?ts=1788505585182&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/baby-knit-blanket-p44623004.html?v1=545413360",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY KNIT BLANKET",
+      "product_group_id": "44623004",
+      "brand": "ZARAHOME",
+      "description": "Baby blanket made of cotton. Featuring a fine openwork knit design with a wavy finish on the edges.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY KNIT BLANKET - Blue - 27.5 x 39.5 \"",
+          "sku": "545413359-400-9",
+          "mpn": "545413359-400-9",
+          "color_name": "Blue",
+          "size_name": "27.5 x 39.5 \"",
+          "price": "44.72",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-knit-blanket-p44623004.html?v1=545413359",
+          "images": [
+            "https://static.zara.net/assets/public/289a/821c/a6d64e97b4ca/1cb72bb7153a/44623004400-e1/44623004400-e1.jpg?ts=1788505414411&w=1920"
+          ]
+        },
+        {
+          "name": "BABY KNIT BLANKET - Gray - 27.5 x 39.5 \"",
+          "sku": "545413359-802-9",
+          "mpn": "545413359-802-9",
+          "color_name": "Gray",
+          "size_name": "27.5 x 39.5 \"",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-knit-blanket-p44623004.html?v1=545413360",
+          "images": [
+            "https://static.zara.net/assets/public/3bc5/f1e5/9a5544f3b26c/3a5ff870ad05/44623004802-e1/44623004802-e1.jpg?ts=1788505585182&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/289a/821c/a6d64e97b4ca/1cb72bb7153a/44623004400-e1/44623004400-e1.jpg?ts=1788505414411&w=1920",
+        "https://static.zara.net/assets/public/af38/5628/42004195a956/b0fb09126810/44623004400-e2/44623004400-e2.jpg?ts=1788505420991&w=1920",
+        "https://static.zara.net/assets/public/75fe/681b/4fd74e4f8588/18fb7e02f745/44623004400-e3/44623004400-e3.jpg?ts=1788505421798&w=1920",
+        "https://static.zara.net/assets/public/682e/0086/9d8646fe8308/06d23d941d6b/44623004400-e4/44623004400-e4.jpg?ts=1788505417222&w=1920",
+        "https://static.zara.net/assets/public/9b51/5f07/6dd4432aaca9/e49b667b1f44/44623004400-a1/44623004400-a1.jpg?ts=1780496293978&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Gray"
+  ],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nBaby blanket made of cotton. Featuring a fine openwork knit design with a wavy finish on the edges.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "44.72",
+    "original_price": "55.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "44.72",
+    "dom_price": "55.90",
+    "normalized_price": "44.72",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '44.72' != DOM price '55.90'"
+  },
+  "source_content_hash": "c78e902e74d7f3cbcc094427d3d69a754348cc1592c74d9050616616851bf174",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

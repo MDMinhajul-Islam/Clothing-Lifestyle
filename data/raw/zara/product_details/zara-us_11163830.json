@@ -1,0 +1,171 @@
+{
+  "product_id": "zara-us:11163830",
+  "source_url": "https://www.zara.com/us/en/multicolor-toiletry-bag-p11163830.html",
+  "final_url": "https://www.zara.com/us/en/multicolor-toiletry-bag-p11163830.html",
+  "canonical_url": "https://www.zara.com/us/en/multicolor-toiletry-bag-p11163830.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULTICOLOR TOILETRY BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULTICOLOR TOILETRY BAG",
+      "url": "https://www.zara.com/us/en/multicolor-toiletry-bag-p11163830.html",
+      "productGroupID": "11163830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Technical-style toiletry bag in contrasting colors. Featuring a main compartment with zip closure and a side handle.\n\n\n\n\n\nHeight x Length x Width: 3.9 x 9.1 x 3.5 inches (10 x 23 x 9 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3e58/a98a/9ad3488995eb/3fe0bd077142/11163830050-e1/11163830050-e1.jpg?ts=1781017847918&w=1920",
+        "https://static.zara.net/assets/public/535c/21b5/42e14992afce/fc1a53f0f200/11163830050-e2/11163830050-e2.jpg?ts=1781017848050&w=1920",
+        "https://static.zara.net/assets/public/49c8/eeb1/338043f9abce/5ac06ca1686c/11163830050-e3/11163830050-e3.jpg?ts=1781017848446&w=1920",
+        "https://static.zara.net/assets/public/39ea/e2c9/458d497cb2ff/1148bc9c7d80/11163830050-e4/11163830050-e4.jpg?ts=1781017848274&w=1920",
+        "https://static.zara.net/assets/public/7be2/cab1/34ad45f19726/e81e68d7f8e3/11163830050-e5/11163830050-e5.jpg?ts=1781017848218&w=1920",
+        "https://static.zara.net/assets/public/1086/61c4/d0cf47398a8f/dc304a7a1d0c/11163830050-e6/11163830050-e6.jpg?ts=1781017848043&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULTICOLOR TOILETRY BAG - Pink - ONE SIZE ONLY",
+          "sku": "545465988-050-53",
+          "mpn": "545465988-050-53",
+          "color": "Pink",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/3e58/a98a/9ad3488995eb/3fe0bd077142/11163830050-e1/11163830050-e1.jpg?ts=1781017847918&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/multicolor-toiletry-bag-p11163830.html?v1=545465988",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTICOLOR TOILETRY BAG - Lilac - ONE SIZE ONLY",
+          "sku": "545465988-081-53",
+          "mpn": "545465988-081-53",
+          "color": "Lilac",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/259f/8c86/489a400db273/84bad131aaf8/11163830081-e1/11163830081-e1.jpg?ts=1781017850162&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/multicolor-toiletry-bag-p11163830.html?v1=545465987",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULTICOLOR TOILETRY BAG",
+      "product_group_id": "11163830",
+      "brand": "ZARA",
+      "description": "Technical-style toiletry bag in contrasting colors. Featuring a main compartment with zip closure and a side handle.\n\n\n\n\n\nHeight x Length x Width: 3.9 x 9.1 x 3.5 inches (10 x 23 x 9 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULTICOLOR TOILETRY BAG - Pink - ONE SIZE ONLY",
+          "sku": "545465988-050-53",
+          "mpn": "545465988-050-53",
+          "color_name": "Pink",
+          "size_name": "ONE SIZE ONLY",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multicolor-toiletry-bag-p11163830.html?v1=545465988",
+          "images": [
+            "https://static.zara.net/assets/public/3e58/a98a/9ad3488995eb/3fe0bd077142/11163830050-e1/11163830050-e1.jpg?ts=1781017847918&w=1920"
+          ]
+        },
+        {
+          "name": "MULTICOLOR TOILETRY BAG - Lilac - ONE SIZE ONLY",
+          "sku": "545465988-081-53",
+          "mpn": "545465988-081-53",
+          "color_name": "Lilac",
+          "size_name": "ONE SIZE ONLY",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multicolor-toiletry-bag-p11163830.html?v1=545465987",
+          "images": [
+            "https://static.zara.net/assets/public/259f/8c86/489a400db273/84bad131aaf8/11163830081-e1/11163830081-e1.jpg?ts=1781017850162&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3e58/a98a/9ad3488995eb/3fe0bd077142/11163830050-e1/11163830050-e1.jpg?ts=1781017847918&w=1920",
+        "https://static.zara.net/assets/public/535c/21b5/42e14992afce/fc1a53f0f200/11163830050-e2/11163830050-e2.jpg?ts=1781017848050&w=1920",
+        "https://static.zara.net/assets/public/49c8/eeb1/338043f9abce/5ac06ca1686c/11163830050-e3/11163830050-e3.jpg?ts=1781017848446&w=1920",
+        "https://static.zara.net/assets/public/39ea/e2c9/458d497cb2ff/1148bc9c7d80/11163830050-e4/11163830050-e4.jpg?ts=1781017848274&w=1920",
+        "https://static.zara.net/assets/public/7be2/cab1/34ad45f19726/e81e68d7f8e3/11163830050-e5/11163830050-e5.jpg?ts=1781017848218&w=1920",
+        "https://static.zara.net/assets/public/1086/61c4/d0cf47398a8f/dc304a7a1d0c/11163830050-e6/11163830050-e6.jpg?ts=1781017848043&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Pink",
+    "Lilac"
+  ],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nTechnical-style toiletry bag in contrasting colors. Featuring a main compartment with zip closure and a side handle.\nHeight x Length x Width: 3.9 x 9.1 x 3.5 inches (10 x 23 x 9 cm)\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ce74a9c5b40c160f32c0494e33709f285d27ee9e34450dec601c543136dd2bb0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

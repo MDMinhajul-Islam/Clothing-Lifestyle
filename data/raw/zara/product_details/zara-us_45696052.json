@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:45696052",
+  "source_url": "https://www.zara.com/us/en/kids-mini-supermarket-toy-p45696052.html",
+  "final_url": "https://www.zara.com/us/en/kids-mini-supermarket-toy-p45696052.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-mini-supermarket-toy-p45696052.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS MINI SUPERMARKET TOY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS MINI SUPERMARKET TOY",
+      "url": "https://www.zara.com/us/en/kids-mini-supermarket-toy-p45696052.html",
+      "productGroupID": "45696052",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids wooden mini supermarket toy with a decorative facade, fabric awning and a sign with the text “Little Market”.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4c89/60d4/ed4f41e6a913/d8d248c1aae0/45696052802-e1/45696052802-e1.jpg?ts=1763725641907&w=1920",
+        "https://static.zara.net/assets/public/14a5/d564/26c7445c8254/ba3c691aabd5/45696052802-e3/45696052802-e3.jpg?ts=1763725641955&w=1920",
+        "https://static.zara.net/assets/public/c719/abe0/c131446bb3c9/b680314e0fed/45696052802-e4/45696052802-e4.jpg?ts=1763725643009&w=1920",
+        "https://static.zara.net/assets/public/822b/5b82/b2a64f1baf8e/04e75fa9ff60/45696052802-e5/45696052802-e5.jpg?ts=1763725643347&w=1920",
+        "https://static.zara.net/assets/public/1dc6/f2ec/af33465e9faf/53a91b5cc045/45696052802-a1/45696052802-a1.jpg?ts=1775639765468&w=1920"
+      ],
+      "material": "mdf/beech wood/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "70% mdf, 20% beech wood, 5% cotton, 5% acrylic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS MINI SUPERMARKET TOY - Gray - ONE SIZE ONLY",
+          "sku": "550840617-802-99",
+          "mpn": "550840617-802-99",
+          "color": "Gray",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/4c89/60d4/ed4f41e6a913/d8d248c1aae0/45696052802-e1/45696052802-e1.jpg?ts=1763725641907&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/kids-mini-supermarket-toy-p45696052.html?v1=550840617",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS MINI SUPERMARKET TOY",
+      "product_group_id": "45696052",
+      "brand": "ZARAHOME",
+      "description": "Kids wooden mini supermarket toy with a decorative facade, fabric awning and a sign with the text “Little Market”.",
+      "material": "mdf/beech wood/cotton",
+      "composition": "OUTER SHELL: 70% mdf, 20% beech wood, 5% cotton, 5% acrylic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS MINI SUPERMARKET TOY - Gray - ONE SIZE ONLY",
+          "sku": "550840617-802-99",
+          "mpn": "550840617-802-99",
+          "color_name": "Gray",
+          "size_name": "ONE SIZE ONLY",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-mini-supermarket-toy-p45696052.html?v1=550840617",
+          "images": [
+            "https://static.zara.net/assets/public/4c89/60d4/ed4f41e6a913/d8d248c1aae0/45696052802-e1/45696052802-e1.jpg?ts=1763725641907&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4c89/60d4/ed4f41e6a913/d8d248c1aae0/45696052802-e1/45696052802-e1.jpg?ts=1763725641907&w=1920",
+        "https://static.zara.net/assets/public/14a5/d564/26c7445c8254/ba3c691aabd5/45696052802-e3/45696052802-e3.jpg?ts=1763725641955&w=1920",
+        "https://static.zara.net/assets/public/c719/abe0/c131446bb3c9/b680314e0fed/45696052802-e4/45696052802-e4.jpg?ts=1763725643009&w=1920",
+        "https://static.zara.net/assets/public/822b/5b82/b2a64f1baf8e/04e75fa9ff60/45696052802-e5/45696052802-e5.jpg?ts=1763725643347&w=1920",
+        "https://static.zara.net/assets/public/1dc6/f2ec/af33465e9faf/53a91b5cc045/45696052802-a1/45696052802-a1.jpg?ts=1775639765468&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nKids wooden mini supermarket toy with a decorative facade, fabric awning and a sign with the text “Little Market”.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5031c5364b233386c621fd7194095adf9a56a3a984f85c0865969b63db39c0eb",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

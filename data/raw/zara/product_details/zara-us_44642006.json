@@ -1,0 +1,164 @@
+{
+  "product_id": "zara-us:44642006",
+  "source_url": "https://www.zara.com/us/en/reversible-kids--check-and-stripe-bedspread-p44642006.html",
+  "final_url": "https://www.zara.com/us/en/reversible-kids--check-and-stripe-bedspread-p44642006.html",
+  "canonical_url": "https://www.zara.com/us/en/reversible-kids--check-and-stripe-bedspread-p44642006.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "REVERSIBLE KIDS' CHECK AND STRIPE BEDSPREAD",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "REVERSIBLE KIDS' CHECK AND STRIPE BEDSPREAD",
+      "url": "https://www.zara.com/us/en/reversible-kids--check-and-stripe-bedspread-p44642006.html",
+      "productGroupID": "44642006",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' bedspread made of cotton. Reversible design featuring stripes on one side and a color-contrast check pattern on the other.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/977e/ec69/13e04d7cbcb1/046a960434d8/44642006712-e1/44642006712-e1.jpg?ts=1787061210712&w=1920",
+        "https://static.zara.net/assets/public/ccf3/884d/e16d4afd97d8/1469b7762509/44642006712-e2/44642006712-e2.jpg?ts=1787061211129&w=1920",
+        "https://static.zara.net/assets/public/e3e9/d38c/13cd477a8ac6/645f625e7d0d/44642006712-e3/44642006712-e3.jpg?ts=1787061209487&w=1920",
+        "https://static.zara.net/assets/public/f256/fecf/495b4c5bb638/2a5f8d2660ce/44642006712-e4/44642006712-e4.jpg?ts=1787061210824&w=1920",
+        "https://static.zara.net/assets/public/be7e/daa7/a7b849b49ed5/33ab308359c4/44642006712-a1/44642006712-a1.jpg?ts=1785235143848&w=1920",
+        "https://static.zara.net/assets/public/9fbc/0b03/0c8c425ebaa2/04cf94933170/44642006712-a2/44642006712-a2.jpg?ts=1786089003217&w=1920",
+        "https://static.zara.net/assets/public/3dbe/e428/8aaf4bdb840e/dd74c59fcc1b/44642006712-a3/44642006712-a3.jpg?ts=1786029512059&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "REVERSIBLE KIDS' CHECK AND STRIPE BEDSPREAD - Ecru - Stan.cot",
+          "sku": "553619964-712-10",
+          "mpn": "553619964-712-10",
+          "color": "Ecru",
+          "size": "Stan.cot",
+          "image": [
+            "https://static.zara.net/assets/public/977e/ec69/13e04d7cbcb1/046a960434d8/44642006712-e1/44642006712-e1.jpg?ts=1787061210712&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/reversible-kids--check-and-stripe-bedspread-p44642006.html?v1=553619964",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "REVERSIBLE KIDS' CHECK AND STRIPE BEDSPREAD - Ecru - Single",
+          "sku": "553619964-712-20",
+          "mpn": "553619964-712-20",
+          "color": "Ecru",
+          "size": "Single",
+          "image": [
+            "https://static.zara.net/assets/public/977e/ec69/13e04d7cbcb1/046a960434d8/44642006712-e1/44642006712-e1.jpg?ts=1787061210712&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/reversible-kids--check-and-stripe-bedspread-p44642006.html?v1=553619964",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "REVERSIBLE KIDS' CHECK AND STRIPE BEDSPREAD",
+      "product_group_id": "44642006",
+      "brand": "ZARAHOME",
+      "description": "Kids' bedspread made of cotton. Reversible design featuring stripes on one side and a color-contrast check pattern on the other.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "REVERSIBLE KIDS' CHECK AND STRIPE BEDSPREAD - Ecru - Stan.cot",
+          "sku": "553619964-712-10",
+          "mpn": "553619964-712-10",
+          "color_name": "Ecru",
+          "size_name": "Stan.cot",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/reversible-kids--check-and-stripe-bedspread-p44642006.html?v1=553619964",
+          "images": [
+            "https://static.zara.net/assets/public/977e/ec69/13e04d7cbcb1/046a960434d8/44642006712-e1/44642006712-e1.jpg?ts=1787061210712&w=1920"
+          ]
+        },
+        {
+          "name": "REVERSIBLE KIDS' CHECK AND STRIPE BEDSPREAD - Ecru - Single",
+          "sku": "553619964-712-20",
+          "mpn": "553619964-712-20",
+          "color_name": "Ecru",
+          "size_name": "Single",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/reversible-kids--check-and-stripe-bedspread-p44642006.html?v1=553619964",
+          "images": [
+            "https://static.zara.net/assets/public/977e/ec69/13e04d7cbcb1/046a960434d8/44642006712-e1/44642006712-e1.jpg?ts=1787061210712&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/977e/ec69/13e04d7cbcb1/046a960434d8/44642006712-e1/44642006712-e1.jpg?ts=1787061210712&w=1920",
+        "https://static.zara.net/assets/public/ccf3/884d/e16d4afd97d8/1469b7762509/44642006712-e2/44642006712-e2.jpg?ts=1787061211129&w=1920",
+        "https://static.zara.net/assets/public/e3e9/d38c/13cd477a8ac6/645f625e7d0d/44642006712-e3/44642006712-e3.jpg?ts=1787061209487&w=1920",
+        "https://static.zara.net/assets/public/f256/fecf/495b4c5bb638/2a5f8d2660ce/44642006712-e4/44642006712-e4.jpg?ts=1787061210824&w=1920",
+        "https://static.zara.net/assets/public/be7e/daa7/a7b849b49ed5/33ab308359c4/44642006712-a1/44642006712-a1.jpg?ts=1785235143848&w=1920",
+        "https://static.zara.net/assets/public/9fbc/0b03/0c8c425ebaa2/04cf94933170/44642006712-a2/44642006712-a2.jpg?ts=1786089003217&w=1920",
+        "https://static.zara.net/assets/public/3dbe/e428/8aaf4bdb840e/dd74c59fcc1b/44642006712-a3/44642006712-a3.jpg?ts=1786029512059&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nKids' bedspread made of cotton. Reversible design featuring stripes on one side and a color-contrast check pattern on the other.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bf31f4fbcc351c3ea72ffde77900fa56a64a41fa8874a0c484157913e6967b09",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

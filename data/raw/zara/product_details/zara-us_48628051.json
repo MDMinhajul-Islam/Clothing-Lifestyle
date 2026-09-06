@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:48628051",
+  "source_url": "https://www.zara.com/us/en/kids-mouse-plush-toy-p48628051.html",
+  "final_url": "https://www.zara.com/us/en/kids-mouse-plush-toy-p48628051.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-mouse-plush-toy-p48628051.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "Kids Mouse Plush Toy",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "Kids Mouse Plush Toy",
+      "url": "https://www.zara.com/us/en/kids-mouse-plush-toy-p48628051.html",
+      "productGroupID": "48628051",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' plush toy in the shape of a little mouse dressed in striped pants and a bag.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1894/2636/9d6d4153a862/fb56cd33df4f/48628051733-e1/48628051733-e1.jpg?ts=1775489238792&w=1920",
+        "https://static.zara.net/assets/public/756b/001f/1dd84ca9af32/1bd0b36587a9/48628051733-e2/48628051733-e2.jpg?ts=1775489243061&w=1920",
+        "https://static.zara.net/assets/public/f78f/7869/dca140f4904a/953a47b2cc2e/48628051733-e3/48628051733-e3.jpg?ts=1775489243805&w=1920",
+        "https://static.zara.net/assets/public/aa84/10d6/d57a4bcc8e82/ed952a8f57f2/48628051733-e4/48628051733-e4.jpg?ts=1775489239156&w=1920",
+        "https://static.zara.net/assets/public/f55a/5312/fe5c42cf9d39/7196e1efe8c6/48628051733-a1/48628051733-a1.jpg?ts=1776082797065&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "Kids Mouse Plush Toy - Cream - ONE SIZE ONLY",
+          "sku": "545425857-733-99",
+          "mpn": "545425857-733-99",
+          "color": "Cream",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/1894/2636/9d6d4153a862/fb56cd33df4f/48628051733-e1/48628051733-e1.jpg?ts=1775489238792&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/kids-mouse-plush-toy-p48628051.html?v1=545425857",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "Kids Mouse Plush Toy",
+      "product_group_id": "48628051",
+      "brand": "ZARAHOME",
+      "description": "Kids' plush toy in the shape of a little mouse dressed in striped pants and a bag.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "Kids Mouse Plush Toy - Cream - ONE SIZE ONLY",
+          "sku": "545425857-733-99",
+          "mpn": "545425857-733-99",
+          "color_name": "Cream",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-mouse-plush-toy-p48628051.html?v1=545425857",
+          "images": [
+            "https://static.zara.net/assets/public/1894/2636/9d6d4153a862/fb56cd33df4f/48628051733-e1/48628051733-e1.jpg?ts=1775489238792&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1894/2636/9d6d4153a862/fb56cd33df4f/48628051733-e1/48628051733-e1.jpg?ts=1775489238792&w=1920",
+        "https://static.zara.net/assets/public/756b/001f/1dd84ca9af32/1bd0b36587a9/48628051733-e2/48628051733-e2.jpg?ts=1775489243061&w=1920",
+        "https://static.zara.net/assets/public/f78f/7869/dca140f4904a/953a47b2cc2e/48628051733-e3/48628051733-e3.jpg?ts=1775489243805&w=1920",
+        "https://static.zara.net/assets/public/aa84/10d6/d57a4bcc8e82/ed952a8f57f2/48628051733-e4/48628051733-e4.jpg?ts=1775489239156&w=1920",
+        "https://static.zara.net/assets/public/f55a/5312/fe5c42cf9d39/7196e1efe8c6/48628051733-a1/48628051733-a1.jpg?ts=1776082797065&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nKids' plush toy in the shape of a little mouse dressed in striped pants and a bag.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9f56b911742aea7a30ca144c49dc9b33a24ee81648ad465affe6cc91ce150262",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

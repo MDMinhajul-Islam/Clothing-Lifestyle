@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:45631126",
+  "source_url": "https://www.zara.com/us/en/kids-dog-makeup-bag-p45631126.html",
+  "final_url": "https://www.zara.com/us/en/kids-dog-makeup-bag-p45631126.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-dog-makeup-bag-p45631126.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS DOG MAKEUP BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS DOG MAKEUP BAG",
+      "url": "https://www.zara.com/us/en/kids-dog-makeup-bag-p45631126.html",
+      "productGroupID": "45631126",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids cotton makeup bag with a striped print, zip closure, and a dog-shaped knob.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0d2a/0047/60144b8b8221/aa090c117d95/45631126400-e1/45631126400-e1.jpg?ts=1778242320772&w=1920",
+        "https://static.zara.net/assets/public/77c7/82aa/56c140329306/a318e80ea1a7/45631126400-e2/45631126400-e2.jpg?ts=1778242320159&w=1920",
+        "https://static.zara.net/assets/public/8e74/731f/9d204871bcd7/a84c8a05ba99/45631126400-e3/45631126400-e3.jpg?ts=1778242320952&w=1920",
+        "https://static.zara.net/assets/public/d8d8/de19/e85d43939211/a03ca832a025/45631126400-e4/45631126400-e4.jpg?ts=1778242321194&w=1920",
+        "https://static.zara.net/assets/public/c214/4365/04c14eb1b4a0/217eb80a5f27/45631126400-a1/45631126400-a1.jpg?ts=1780930117058&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS DOG MAKEUP BAG - Blue - ONE SIZE ONLY",
+          "sku": "545431349-400-99",
+          "mpn": "545431349-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0d2a/0047/60144b8b8221/aa090c117d95/45631126400-e1/45631126400-e1.jpg?ts=1778242320772&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/kids-dog-makeup-bag-p45631126.html?v1=545431349",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS DOG MAKEUP BAG",
+      "product_group_id": "45631126",
+      "brand": "ZARAHOME",
+      "description": "Kids cotton makeup bag with a striped print, zip closure, and a dog-shaped knob.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | LINING: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS DOG MAKEUP BAG - Blue - ONE SIZE ONLY",
+          "sku": "545431349-400-99",
+          "mpn": "545431349-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-dog-makeup-bag-p45631126.html?v1=545431349",
+          "images": [
+            "https://static.zara.net/assets/public/0d2a/0047/60144b8b8221/aa090c117d95/45631126400-e1/45631126400-e1.jpg?ts=1778242320772&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0d2a/0047/60144b8b8221/aa090c117d95/45631126400-e1/45631126400-e1.jpg?ts=1778242320772&w=1920",
+        "https://static.zara.net/assets/public/77c7/82aa/56c140329306/a318e80ea1a7/45631126400-e2/45631126400-e2.jpg?ts=1778242320159&w=1920",
+        "https://static.zara.net/assets/public/8e74/731f/9d204871bcd7/a84c8a05ba99/45631126400-e3/45631126400-e3.jpg?ts=1778242320952&w=1920",
+        "https://static.zara.net/assets/public/d8d8/de19/e85d43939211/a03ca832a025/45631126400-e4/45631126400-e4.jpg?ts=1778242321194&w=1920",
+        "https://static.zara.net/assets/public/c214/4365/04c14eb1b4a0/217eb80a5f27/45631126400-a1/45631126400-a1.jpg?ts=1780930117058&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nKids cotton makeup bag with a striped print, zip closure, and a dog-shaped knob.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ed043b213a0c91ca11dcbb95324e3a3666b36637bb17bd003787367880e218b7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

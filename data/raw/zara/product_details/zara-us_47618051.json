@@ -1,0 +1,133 @@
+{
+  "product_id": "zara-us:47618051",
+  "source_url": "https://www.zara.com/us/en/kids--space-keychain-p47618051.html",
+  "final_url": "https://www.zara.com/us/en/kids--space-keychain-p47618051.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--space-keychain-p47618051.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' SPACE KEYCHAIN",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' SPACE KEYCHAIN",
+      "url": "https://www.zara.com/us/en/kids--space-keychain-p47618051.html",
+      "productGroupID": "47618051",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' keychain featuring an astronaut figure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1f4b/4a9f/34834f6a8acc/0deaecd42d27/47618051999-e1/47618051999-e1.jpg?ts=1782390678797&w=1920",
+        "https://static.zara.net/assets/public/73a8/0cd2/5336447f805f/b6d34e5b6853/47618051999-e2/47618051999-e2.jpg?ts=1782390681121&w=1920",
+        "https://static.zara.net/assets/public/dddb/6817/2d424d718143/c4f169dbcf80/47618051999-e3/47618051999-e3.jpg?ts=1782390680120&w=1920",
+        "https://static.zara.net/assets/public/b355/759e/38a24b6a80b0/1f71c2f05913/47618051999-e4/47618051999-e4.jpg?ts=1782390681368&w=1920",
+        "https://static.zara.net/assets/public/7f93/f426/fe9e42cea896/f41727546231/47618051999-a1/47618051999-a1.jpg?ts=1781184720848&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' SPACE KEYCHAIN - Multicolored - ONE SIZE ONLY",
+          "sku": "545436282-999-99",
+          "mpn": "545436282-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/1f4b/4a9f/34834f6a8acc/0deaecd42d27/47618051999-e1/47618051999-e1.jpg?ts=1782390678797&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--space-keychain-p47618051.html?v1=545436282",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' SPACE KEYCHAIN",
+      "product_group_id": "47618051",
+      "brand": "ZARAHOME",
+      "description": "Kids' keychain featuring an astronaut figure.",
+      "material": null,
+      "composition": "FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' SPACE KEYCHAIN - Multicolored - ONE SIZE ONLY",
+          "sku": "545436282-999-99",
+          "mpn": "545436282-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--space-keychain-p47618051.html?v1=545436282",
+          "images": [
+            "https://static.zara.net/assets/public/1f4b/4a9f/34834f6a8acc/0deaecd42d27/47618051999-e1/47618051999-e1.jpg?ts=1782390678797&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1f4b/4a9f/34834f6a8acc/0deaecd42d27/47618051999-e1/47618051999-e1.jpg?ts=1782390678797&w=1920",
+        "https://static.zara.net/assets/public/73a8/0cd2/5336447f805f/b6d34e5b6853/47618051999-e2/47618051999-e2.jpg?ts=1782390681121&w=1920",
+        "https://static.zara.net/assets/public/dddb/6817/2d424d718143/c4f169dbcf80/47618051999-e3/47618051999-e3.jpg?ts=1782390680120&w=1920",
+        "https://static.zara.net/assets/public/b355/759e/38a24b6a80b0/1f71c2f05913/47618051999-e4/47618051999-e4.jpg?ts=1782390681368&w=1920",
+        "https://static.zara.net/assets/public/7f93/f426/fe9e42cea896/f41727546231/47618051999-a1/47618051999-a1.jpg?ts=1781184720848&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' keychain featuring an astronaut figure.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b94235b1a9f35cdfbd64a16699ab0cbf4c832d635ab69142e8d847777a16c77e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

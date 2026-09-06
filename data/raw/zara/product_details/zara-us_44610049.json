@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:44610049",
+  "source_url": "https://www.zara.com/us/en/chest-basket-p44610049.html",
+  "final_url": "https://www.zara.com/us/en/chest-basket-p44610049.html",
+  "canonical_url": "https://www.zara.com/us/en/chest-basket-p44610049.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHEST BASKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHEST BASKET",
+      "url": "https://www.zara.com/us/en/chest-basket-p44610049.html",
+      "productGroupID": "44610049",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Woven design chest basket with a lid and handle for easy opening. Ideal for storing and organizing clothing, blankets, or other items.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/10e5/352d/f3c84de9a3c8/b25e020140cb/44610049700-e1/44610049700-e1.jpg?ts=1787668774653&w=1920",
+        "https://static.zara.net/assets/public/1675/49f0/c73d4711b5c5/ec24958a7f6f/44610049700-e2/44610049700-e2.jpg?ts=1787668775171&w=1920",
+        "https://static.zara.net/assets/public/3395/e1d0/b54c4a6f97c4/0b5cb9d36195/44610049700-e3/44610049700-e3.jpg?ts=1787668775215&w=1920",
+        "https://static.zara.net/assets/public/b121/5cf9/47014cf49c34/1db9bd16a02c/44610049700-e4/44610049700-e4.jpg?ts=1787668774897&w=1920",
+        "https://static.zara.net/assets/public/ed56/9a7d/b54a420b86af/0d0c90fc1376/44610049700-a1/44610049700-a1.jpg?ts=1787739026474&w=1920"
+      ],
+      "material": "100% rattan",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% rattan"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHEST BASKET - Brown - 11.8 x 13.8 x 10.6 \"",
+          "sku": "545456340-700-1",
+          "mpn": "545456340-700-1",
+          "color": "Brown",
+          "size": "11.8 x 13.8 x 10.6 \"",
+          "image": [
+            "https://static.zara.net/assets/public/10e5/352d/f3c84de9a3c8/b25e020140cb/44610049700-e1/44610049700-e1.jpg?ts=1787668774653&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/chest-basket-p44610049.html?v1=545456340",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CHEST BASKET - Brown - 16.5 x 20.1 x 14.6 \"",
+          "sku": "545456340-700-2",
+          "mpn": "545456340-700-2",
+          "color": "Brown",
+          "size": "16.5 x 20.1 x 14.6 \"",
+          "image": [
+            "https://static.zara.net/assets/public/10e5/352d/f3c84de9a3c8/b25e020140cb/44610049700-e1/44610049700-e1.jpg?ts=1787668774653&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/chest-basket-p44610049.html?v1=545456340",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHEST BASKET",
+      "product_group_id": "44610049",
+      "brand": "ZARAHOME",
+      "description": "Woven design chest basket with a lid and handle for easy opening. Ideal for storing and organizing clothing, blankets, or other items.",
+      "material": "100% rattan",
+      "composition": "OUTER SHELL: 100% rattan",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHEST BASKET - Brown - 11.8 x 13.8 x 10.6 \"",
+          "sku": "545456340-700-1",
+          "mpn": "545456340-700-1",
+          "color_name": "Brown",
+          "size_name": "11.8 x 13.8 x 10.6 \"",
+          "price": "99.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chest-basket-p44610049.html?v1=545456340",
+          "images": [
+            "https://static.zara.net/assets/public/10e5/352d/f3c84de9a3c8/b25e020140cb/44610049700-e1/44610049700-e1.jpg?ts=1787668774653&w=1920"
+          ]
+        },
+        {
+          "name": "CHEST BASKET - Brown - 16.5 x 20.1 x 14.6 \"",
+          "sku": "545456340-700-2",
+          "mpn": "545456340-700-2",
+          "color_name": "Brown",
+          "size_name": "16.5 x 20.1 x 14.6 \"",
+          "price": "149.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/chest-basket-p44610049.html?v1=545456340",
+          "images": [
+            "https://static.zara.net/assets/public/10e5/352d/f3c84de9a3c8/b25e020140cb/44610049700-e1/44610049700-e1.jpg?ts=1787668774653&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/10e5/352d/f3c84de9a3c8/b25e020140cb/44610049700-e1/44610049700-e1.jpg?ts=1787668774653&w=1920",
+        "https://static.zara.net/assets/public/1675/49f0/c73d4711b5c5/ec24958a7f6f/44610049700-e2/44610049700-e2.jpg?ts=1787668775171&w=1920",
+        "https://static.zara.net/assets/public/3395/e1d0/b54c4a6f97c4/0b5cb9d36195/44610049700-e3/44610049700-e3.jpg?ts=1787668775215&w=1920",
+        "https://static.zara.net/assets/public/b121/5cf9/47014cf49c34/1db9bd16a02c/44610049700-e4/44610049700-e4.jpg?ts=1787668774897&w=1920",
+        "https://static.zara.net/assets/public/ed56/9a7d/b54a420b86af/0d0c90fc1376/44610049700-a1/44610049700-a1.jpg?ts=1787739026474&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nWoven design chest basket with a lid and handle for easy opening. Ideal for storing and organizing clothing, blankets, or other items.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "12d21752587e59d63af4fa45227aad74359cf7a4c08a165d3c0e21fbe65cee86",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

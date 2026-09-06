@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:48607211",
+  "source_url": "https://www.zara.com/us/en/kids--ceramic-unicorn-bowl-p48607211.html",
+  "final_url": "https://www.zara.com/us/en/kids--ceramic-unicorn-bowl-p48607211.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--ceramic-unicorn-bowl-p48607211.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS’ CERAMIC UNICORN BOWL",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS’ CERAMIC UNICORN BOWL",
+      "url": "https://www.zara.com/us/en/kids--ceramic-unicorn-bowl-p48607211.html",
+      "productGroupID": "48607211",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' bowl made of ceramic. Features a design with an illustration of a pony dressed as a unicorn, a rainbow, and a contrast-colored rim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/330a/a909/2bae4b339f87/f72319c1caa6/48607211999-e1/48607211999-e1.jpg?ts=1785409062056&w=1920",
+        "https://static.zara.net/assets/public/aa49/1056/af1841aca037/835f57a22b73/48607211999-e2/48607211999-e2.jpg?ts=1785409061945&w=1920",
+        "https://static.zara.net/assets/public/5c36/0a07/957142d58984/8af3ed01d6e1/48607211999-e3/48607211999-e3.jpg?ts=1785409062134&w=1920",
+        "https://static.zara.net/assets/public/ffd0/28d4/3e2f4c7d9674/5c8be45c8427/48607211999-e4/48607211999-e4.jpg?ts=1785409061615&w=1920",
+        "https://static.zara.net/assets/public/c0d8/3364/ed1747d08bac/49ec20535344/48607211999-a1/48607211999-a1.jpg?ts=1784812217239&w=1920"
+      ],
+      "material": "100% stoneware",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% stoneware"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS’ CERAMIC UNICORN BOWL - Multicolored - ONE SIZE ONLY",
+          "sku": "547762655-999-99",
+          "mpn": "547762655-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/330a/a909/2bae4b339f87/f72319c1caa6/48607211999-e1/48607211999-e1.jpg?ts=1785409062056&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "16.9",
+            "url": "https://www.zara.com/us/en/kids--ceramic-unicorn-bowl-p48607211.html?v1=547762655",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS’ CERAMIC UNICORN BOWL",
+      "product_group_id": "48607211",
+      "brand": "ZARAHOME",
+      "description": "Kids' bowl made of ceramic. Features a design with an illustration of a pony dressed as a unicorn, a rainbow, and a contrast-colored rim.",
+      "material": "100% stoneware",
+      "composition": "OUTER SHELL: 100% stoneware",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS’ CERAMIC UNICORN BOWL - Multicolored - ONE SIZE ONLY",
+          "sku": "547762655-999-99",
+          "mpn": "547762655-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "16.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--ceramic-unicorn-bowl-p48607211.html?v1=547762655",
+          "images": [
+            "https://static.zara.net/assets/public/330a/a909/2bae4b339f87/f72319c1caa6/48607211999-e1/48607211999-e1.jpg?ts=1785409062056&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/330a/a909/2bae4b339f87/f72319c1caa6/48607211999-e1/48607211999-e1.jpg?ts=1785409062056&w=1920",
+        "https://static.zara.net/assets/public/aa49/1056/af1841aca037/835f57a22b73/48607211999-e2/48607211999-e2.jpg?ts=1785409061945&w=1920",
+        "https://static.zara.net/assets/public/5c36/0a07/957142d58984/8af3ed01d6e1/48607211999-e3/48607211999-e3.jpg?ts=1785409062134&w=1920",
+        "https://static.zara.net/assets/public/ffd0/28d4/3e2f4c7d9674/5c8be45c8427/48607211999-e4/48607211999-e4.jpg?ts=1785409061615&w=1920",
+        "https://static.zara.net/assets/public/c0d8/3364/ed1747d08bac/49ec20535344/48607211999-a1/48607211999-a1.jpg?ts=1784812217239&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "16.90",
+  "rendered_description": "Description\nKids' bowl made of ceramic. Features a design with an illustration of a pony dressed as a unicorn, a rainbow, and a contrast-colored rim.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "16.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "16.90",
+    "dom_price": "16.90",
+    "normalized_price": "16.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2a5403a6fde43b9a21286179f3a3dcbcafd0a36dbadc94ca41d1f0387718bb19",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

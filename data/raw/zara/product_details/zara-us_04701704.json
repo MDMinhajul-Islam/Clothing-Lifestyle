@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04701704",
+  "source_url": "https://www.zara.com/us/en/two-pack-of-plain-and-tortoiseshell-effect-headbands-p04701704.html",
+  "final_url": "https://www.zara.com/us/en/two-pack-of-plain-and-tortoiseshell-effect-headbands-p04701704.html",
+  "canonical_url": "https://www.zara.com/us/en/two-pack-of-plain-and-tortoiseshell-effect-headbands-p04701704.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TWO-PACK OF PLAIN AND TORTOISESHELL EFFECT HEADBANDS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TWO-PACK OF PLAIN AND TORTOISESHELL EFFECT HEADBANDS",
+      "url": "https://www.zara.com/us/en/two-pack-of-plain-and-tortoiseshell-effect-headbands-p04701704.html",
+      "productGroupID": "04701704",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of two headbands, one plain and one with a tortoiseshell effect.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/67c6/48e9/19a5440cb91f/949dc582175f/04701704760-e1/04701704760-e1.jpg?ts=1785925888922&w=1920",
+        "https://static.zara.net/assets/public/287d/8980/bc12440db20a/0957b2b77ca2/04701704760-e2/04701704760-e2.jpg?ts=1785925889434&w=1920",
+        "https://static.zara.net/assets/public/15e1/c77e/f3a34a3f9ce6/f05ae586c10d/04701704760-e3/04701704760-e3.jpg?ts=1785925893426&w=1920",
+        "https://static.zara.net/assets/public/9072/6460/73554b969128/4b72d4852d20/04701704760-e5/04701704760-e5.jpg?ts=1785925886170&w=1920"
+      ],
+      "material": "100% acetate",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% acetate"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TWO-PACK OF PLAIN AND TORTOISESHELL EFFECT HEADBANDS - Tortoise shell - 14",
+          "sku": "551793672-760-14",
+          "mpn": "551793672-760-14",
+          "color": "Tortoise shell",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/67c6/48e9/19a5440cb91f/949dc582175f/04701704760-e1/04701704760-e1.jpg?ts=1785925888922&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/two-pack-of-plain-and-tortoiseshell-effect-headbands-p04701704.html?v1=551793672",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TWO-PACK OF PLAIN AND TORTOISESHELL EFFECT HEADBANDS",
+      "product_group_id": "04701704",
+      "brand": "ZARA",
+      "description": "Pack of two headbands, one plain and one with a tortoiseshell effect.",
+      "material": "100% acetate",
+      "composition": "OUTER SHELL: 100% acetate",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TWO-PACK OF PLAIN AND TORTOISESHELL EFFECT HEADBANDS - Tortoise shell - 14",
+          "sku": "551793672-760-14",
+          "mpn": "551793672-760-14",
+          "color_name": "Tortoise shell",
+          "size_name": "14",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/two-pack-of-plain-and-tortoiseshell-effect-headbands-p04701704.html?v1=551793672",
+          "images": [
+            "https://static.zara.net/assets/public/67c6/48e9/19a5440cb91f/949dc582175f/04701704760-e1/04701704760-e1.jpg?ts=1785925888922&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/67c6/48e9/19a5440cb91f/949dc582175f/04701704760-e1/04701704760-e1.jpg?ts=1785925888922&w=1920",
+        "https://static.zara.net/assets/public/287d/8980/bc12440db20a/0957b2b77ca2/04701704760-e2/04701704760-e2.jpg?ts=1785925889434&w=1920",
+        "https://static.zara.net/assets/public/15e1/c77e/f3a34a3f9ce6/f05ae586c10d/04701704760-e3/04701704760-e3.jpg?ts=1785925893426&w=1920",
+        "https://static.zara.net/assets/public/9072/6460/73554b969128/4b72d4852d20/04701704760-e5/04701704760-e5.jpg?ts=1785925886170&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nPack of two headbands, one plain and one with a tortoiseshell effect.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b7636ded75b9247ce9e691983e2194579b2ba96dc5594ebff4265e0643470a4d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:40620004",
+  "source_url": "https://www.zara.com/us/en/kids-polka-dot-blanket-p40620004.html",
+  "final_url": "https://www.zara.com/us/en/kids-polka-dot-blanket-p40620004.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-polka-dot-blanket-p40620004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS POLKA DOT BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS POLKA DOT BLANKET",
+      "url": "https://www.zara.com/us/en/kids-polka-dot-blanket-p40620004.html",
+      "productGroupID": "40620004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' cotton blanket with a plain design and different colored polka dots.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/eddc/c374/3e9a48319d1f/30a4b8f9f86b/40620004999-e1/40620004999-e1.jpg?ts=1788439472615&w=1920",
+        "https://static.zara.net/assets/public/3172/f51b/b0e9448aaa81/a88708ccebc3/40620004999-e2/40620004999-e2.jpg?ts=1788439473134&w=1920",
+        "https://static.zara.net/assets/public/16ea/6157/3eac4562aecd/4c2e672ca05a/40620004999-e3/40620004999-e3.jpg?ts=1788439473111&w=1920",
+        "https://static.zara.net/assets/public/8970/ba10/218b447686b9/7e5227c084ea/40620004999-e4/40620004999-e4.jpg?ts=1788439471592&w=1920",
+        "https://static.zara.net/assets/public/8496/0e5e/9a1b4d4ca43c/95dc5551f8cf/40620004999-a1/40620004999-a1.jpg?ts=1773825183861&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS POLKA DOT BLANKET - Multicolored - 27.5 x 39.5 \"",
+          "sku": "547823407-999-9",
+          "mpn": "547823407-999-9",
+          "color": "Multicolored",
+          "size": "27.5 x 39.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/eddc/c374/3e9a48319d1f/30a4b8f9f86b/40620004999-e1/40620004999-e1.jpg?ts=1788439472615&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/kids-polka-dot-blanket-p40620004.html?v1=547823407",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS POLKA DOT BLANKET",
+      "product_group_id": "40620004",
+      "brand": "ZARAHOME",
+      "description": "Kids' cotton blanket with a plain design and different colored polka dots.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS POLKA DOT BLANKET - Multicolored - 27.5 x 39.5 \"",
+          "sku": "547823407-999-9",
+          "mpn": "547823407-999-9",
+          "color_name": "Multicolored",
+          "size_name": "27.5 x 39.5 \"",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-polka-dot-blanket-p40620004.html?v1=547823407",
+          "images": [
+            "https://static.zara.net/assets/public/eddc/c374/3e9a48319d1f/30a4b8f9f86b/40620004999-e1/40620004999-e1.jpg?ts=1788439472615&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/eddc/c374/3e9a48319d1f/30a4b8f9f86b/40620004999-e1/40620004999-e1.jpg?ts=1788439472615&w=1920",
+        "https://static.zara.net/assets/public/3172/f51b/b0e9448aaa81/a88708ccebc3/40620004999-e2/40620004999-e2.jpg?ts=1788439473134&w=1920",
+        "https://static.zara.net/assets/public/16ea/6157/3eac4562aecd/4c2e672ca05a/40620004999-e3/40620004999-e3.jpg?ts=1788439473111&w=1920",
+        "https://static.zara.net/assets/public/8970/ba10/218b447686b9/7e5227c084ea/40620004999-e4/40620004999-e4.jpg?ts=1788439471592&w=1920",
+        "https://static.zara.net/assets/public/8496/0e5e/9a1b4d4ca43c/95dc5551f8cf/40620004999-a1/40620004999-a1.jpg?ts=1773825183861&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nKids' cotton blanket with a plain design and different colored polka dots.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e3595bf2df1445b7d5d5a259ae9db1df1627013aec45dea6338c8d08312e18b3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

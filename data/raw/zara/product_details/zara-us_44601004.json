@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44601004",
+  "source_url": "https://www.zara.com/us/en/kids--dog-blanket-p44601004.html",
+  "final_url": "https://www.zara.com/us/en/kids--dog-blanket-p44601004.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--dog-blanket-p44601004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' DOG BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' DOG BLANKET",
+      "url": "https://www.zara.com/us/en/kids--dog-blanket-p44601004.html",
+      "productGroupID": "44601004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' blanket with a design of small summer dogs.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fc53/6bc1/42fc4378ba4f/210eb7a0ec50/44601004712-e1/44601004712-e1.jpg?ts=1788505407773&w=1920",
+        "https://static.zara.net/assets/public/b61e/f736/babe47e98bf6/a0409a60f3dd/44601004712-e2/44601004712-e2.jpg?ts=1788505404863&w=1920",
+        "https://static.zara.net/assets/public/1295/30c2/bda648688bb6/c0583565edb4/44601004712-e3/44601004712-e3.jpg?ts=1788505410088&w=1920",
+        "https://static.zara.net/assets/public/616e/c4c6/98f9456f87fa/35bc664ad015/44601004712-e4/44601004712-e4.jpg?ts=1788505409887&w=1920",
+        "https://static.zara.net/assets/public/60ea/84d7/76d44394b6de/c5960dc9023f/44601004712-a1/44601004712-a1.jpg?ts=1778228432375&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' DOG BLANKET - Ecru - 35.5 x 47 \"",
+          "sku": "545409759-712-11",
+          "mpn": "545409759-712-11",
+          "color": "Ecru",
+          "size": "35.5 x 47 \"",
+          "image": [
+            "https://static.zara.net/assets/public/fc53/6bc1/42fc4378ba4f/210eb7a0ec50/44601004712-e1/44601004712-e1.jpg?ts=1788505407773&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/kids--dog-blanket-p44601004.html?v1=545409759",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' DOG BLANKET",
+      "product_group_id": "44601004",
+      "brand": "ZARAHOME",
+      "description": "Kids' blanket with a design of small summer dogs.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' DOG BLANKET - Ecru - 35.5 x 47 \"",
+          "sku": "545409759-712-11",
+          "mpn": "545409759-712-11",
+          "color_name": "Ecru",
+          "size_name": "35.5 x 47 \"",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--dog-blanket-p44601004.html?v1=545409759",
+          "images": [
+            "https://static.zara.net/assets/public/fc53/6bc1/42fc4378ba4f/210eb7a0ec50/44601004712-e1/44601004712-e1.jpg?ts=1788505407773&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fc53/6bc1/42fc4378ba4f/210eb7a0ec50/44601004712-e1/44601004712-e1.jpg?ts=1788505407773&w=1920",
+        "https://static.zara.net/assets/public/b61e/f736/babe47e98bf6/a0409a60f3dd/44601004712-e2/44601004712-e2.jpg?ts=1788505404863&w=1920",
+        "https://static.zara.net/assets/public/1295/30c2/bda648688bb6/c0583565edb4/44601004712-e3/44601004712-e3.jpg?ts=1788505410088&w=1920",
+        "https://static.zara.net/assets/public/616e/c4c6/98f9456f87fa/35bc664ad015/44601004712-e4/44601004712-e4.jpg?ts=1788505409887&w=1920",
+        "https://static.zara.net/assets/public/60ea/84d7/76d44394b6de/c5960dc9023f/44601004712-a1/44601004712-a1.jpg?ts=1778228432375&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nKids' blanket with a design of small summer dogs.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a2422e7fa108ab202bd6d694def8a1ea945208490002a67b9f13b167066fd202",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,156 @@
+{
+  "product_id": "zara-us:24880306",
+  "source_url": "https://www.zara.com/us/en/lip-pencil-p24880306.html",
+  "final_url": "https://www.zara.com/us/en/lip-pencil-p24880306.html",
+  "canonical_url": "https://www.zara.com/us/en/lip-pencil-p24880306.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LIP PENCIL",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIP PENCIL",
+      "url": "https://www.zara.com/us/en/lip-pencil-p24880306.html",
+      "productGroupID": "24880306",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "This lipstick offers a smooth and precise application with a velvety matte finish that effortlessly defines and shapes the lips. Available in a range of natural shades that enhance the lip contour while maintaining a natural look.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e68a/16a6/5d35433e922a/fba893729b99/24880304575-e1/24880304575-e1.jpg?ts=1751354690731&w=1920",
+        "https://static.zara.net/assets/public/fda7/9534/c4a546c99d2e/437beb92e323/24880304575-a1/24880304575-a1.jpg?ts=1739966175226&w=1920",
+        "https://static.zara.net/assets/public/821a/0818/a4e04458bbe4/8077ea719a45/24880304575-a3/24880304575-a3.jpg?ts=1739966175671&w=1920",
+        "https://static.zara.net/assets/public/db92/b276/45e641ddb5ef/ee73cebbc6a0/24880304575-e2/24880304575-e2.jpg?ts=1740574384482&w=1920",
+        "https://static.zara.net/assets/public/2942/0352/bf3241b6973c/53eb279f7284/24880304575-e7/24880304575-e7.jpg?ts=1740574384716&w=1920",
+        "https://static.zara.net/assets/public/9565/79ec/e8fb4e9ea610/5adfb5b9e460/24880304575-e1/24880304575-e1.jpg?ts=1751354667034&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIP PENCIL - SPICY - ONE SIZE ONLY",
+          "sku": "557361017-575-99",
+          "mpn": "557361017-575-99",
+          "color": "SPICY",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e68a/16a6/5d35433e922a/fba893729b99/24880304575-e1/24880304575-e1.jpg?ts=1751354690731&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/lip-pencil-p24880306.html?v1=559657582",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIP PENCIL - LYCHEE - ONE SIZE ONLY",
+          "sku": "557361017-574-99",
+          "mpn": "557361017-574-99",
+          "color": "LYCHEE",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/c084/976b/044b420598ce/327379757610/24880306574-e1/24880306574-e1.jpg?ts=1751354715290&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/lip-pencil-p24880306.html?v1=557361017",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIP PENCIL",
+      "product_group_id": "24880306",
+      "brand": "ZARA",
+      "description": "This lipstick offers a smooth and precise application with a velvety matte finish that effortlessly defines and shapes the lips. Available in a range of natural shades that enhance the lip contour while maintaining a natural look.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIP PENCIL - SPICY - ONE SIZE ONLY",
+          "sku": "557361017-575-99",
+          "mpn": "557361017-575-99",
+          "color_name": "SPICY",
+          "size_name": "ONE SIZE ONLY",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lip-pencil-p24880306.html?v1=559657582",
+          "images": [
+            "https://static.zara.net/assets/public/e68a/16a6/5d35433e922a/fba893729b99/24880304575-e1/24880304575-e1.jpg?ts=1751354690731&w=1920"
+          ]
+        },
+        {
+          "name": "LIP PENCIL - LYCHEE - ONE SIZE ONLY",
+          "sku": "557361017-574-99",
+          "mpn": "557361017-574-99",
+          "color_name": "LYCHEE",
+          "size_name": "ONE SIZE ONLY",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lip-pencil-p24880306.html?v1=557361017",
+          "images": [
+            "https://static.zara.net/assets/public/c084/976b/044b420598ce/327379757610/24880306574-e1/24880306574-e1.jpg?ts=1751354715290&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e68a/16a6/5d35433e922a/fba893729b99/24880304575-e1/24880304575-e1.jpg?ts=1751354690731&w=1920",
+        "https://static.zara.net/assets/public/fda7/9534/c4a546c99d2e/437beb92e323/24880304575-a1/24880304575-a1.jpg?ts=1739966175226&w=1920",
+        "https://static.zara.net/assets/public/821a/0818/a4e04458bbe4/8077ea719a45/24880304575-a3/24880304575-a3.jpg?ts=1739966175671&w=1920",
+        "https://static.zara.net/assets/public/db92/b276/45e641ddb5ef/ee73cebbc6a0/24880304575-e2/24880304575-e2.jpg?ts=1740574384482&w=1920",
+        "https://static.zara.net/assets/public/2942/0352/bf3241b6973c/53eb279f7284/24880304575-e7/24880304575-e7.jpg?ts=1740574384716&w=1920",
+        "https://static.zara.net/assets/public/9565/79ec/e8fb4e9ea610/5adfb5b9e460/24880304575-e1/24880304575-e1.jpg?ts=1751354667034&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "SPICY",
+    "LYCHEE"
+  ],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nThis lipstick offers a smooth and precise application with a velvety matte finish that effortlessly defines and shapes the lips. Available in a range of natural shades that enhance the lip contour while maintaining a natural look.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e0c8cf4d30849c8bf88c94e9b1afaa51cb843433065ccdf041395e818ca8c40f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

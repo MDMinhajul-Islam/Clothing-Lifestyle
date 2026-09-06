@@ -1,0 +1,292 @@
+{
+  "product_id": "zara-us:04424703",
+  "source_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html",
+  "final_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html",
+  "canonical_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLAIN T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLAIN T-SHIRT",
+      "url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html",
+      "productGroupID": "04424703",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920",
+        "https://static.zara.net/assets/public/ab86/335b/288b4f6e9b3d/b3c76f8a38a4/04424703803-e2/04424703803-e2.jpg?ts=1779892279904&w=1920",
+        "https://static.zara.net/assets/public/e97e/ae6b/7be7441082de/e589825d05cd/04424703803-e3/04424703803-e3.jpg?ts=1779892281071&w=1920",
+        "https://static.zara.net/assets/public/c6e2/bb84/66cd41daa171/bebd1a61338c/04424703803-e4/04424703803-e4.jpg?ts=1779892280309&w=1920",
+        "https://static.zara.net/assets/public/38e9/533d/f81047e3bad8/ced4156bcc61/04424703803-p/04424703803-p.jpg?ts=1780565194698&w=1920",
+        "https://static.zara.net/assets/public/1ce9/be69/76bd44a8bdc4/fca49b864900/04424703803-a1/04424703803-a1.jpg?ts=1780565194761&w=1920",
+        "https://static.zara.net/assets/public/6044/15c6/f24c4c2cb179/f627d589130e/04424703803-a2/04424703803-a2.jpg?ts=1780565194899&w=1920"
+      ],
+      "material": "cotton/viscose",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "99% cotton, 1% viscose"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Gray marl - 6-7 years (48,0 INCHES)",
+          "sku": "571829263-803-7",
+          "mpn": "571829263-803-7",
+          "color": "Gray marl",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Gray marl - 8-9 years (51,6 INCHES)",
+          "sku": "571829263-803-9",
+          "mpn": "571829263-803-9",
+          "color": "Gray marl",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Gray marl - 9-10 years (55,1 INCHES)",
+          "sku": "571829263-803-10",
+          "mpn": "571829263-803-10",
+          "color": "Gray marl",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Gray marl - 11-12 years (58,3 INCHES)",
+          "sku": "571829263-803-12",
+          "mpn": "571829263-803-12",
+          "color": "Gray marl",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Gray marl - 12-13 years (61,4 INCHES)",
+          "sku": "571829263-803-13",
+          "mpn": "571829263-803-13",
+          "color": "Gray marl",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - Gray marl - 13-14 years (64,6 INCHES)",
+          "sku": "571829263-803-14",
+          "mpn": "571829263-803-14",
+          "color": "Gray marl",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLAIN T-SHIRT",
+      "product_group_id": "04424703",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt.",
+      "material": "cotton/viscose",
+      "composition": "OUTER SHELL: 99% cotton, 1% viscose",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLAIN T-SHIRT - Gray marl - 6-7 years (48,0 INCHES)",
+          "sku": "571829263-803-7",
+          "mpn": "571829263-803-7",
+          "color_name": "Gray marl",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+          "images": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Gray marl - 8-9 years (51,6 INCHES)",
+          "sku": "571829263-803-9",
+          "mpn": "571829263-803-9",
+          "color_name": "Gray marl",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+          "images": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Gray marl - 9-10 years (55,1 INCHES)",
+          "sku": "571829263-803-10",
+          "mpn": "571829263-803-10",
+          "color_name": "Gray marl",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+          "images": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Gray marl - 11-12 years (58,3 INCHES)",
+          "sku": "571829263-803-12",
+          "mpn": "571829263-803-12",
+          "color_name": "Gray marl",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+          "images": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Gray marl - 12-13 years (61,4 INCHES)",
+          "sku": "571829263-803-13",
+          "mpn": "571829263-803-13",
+          "color_name": "Gray marl",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+          "images": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - Gray marl - 13-14 years (64,6 INCHES)",
+          "sku": "571829263-803-14",
+          "mpn": "571829263-803-14",
+          "color_name": "Gray marl",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04424703.html?v1=571829263",
+          "images": [
+            "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3200/3218/c20244eba73c/79898a29b08b/04424703803-e1/04424703803-e1.jpg?ts=1779892279729&w=1920",
+        "https://static.zara.net/assets/public/ab86/335b/288b4f6e9b3d/b3c76f8a38a4/04424703803-e2/04424703803-e2.jpg?ts=1779892279904&w=1920",
+        "https://static.zara.net/assets/public/e97e/ae6b/7be7441082de/e589825d05cd/04424703803-e3/04424703803-e3.jpg?ts=1779892281071&w=1920",
+        "https://static.zara.net/assets/public/c6e2/bb84/66cd41daa171/bebd1a61338c/04424703803-e4/04424703803-e4.jpg?ts=1779892280309&w=1920",
+        "https://static.zara.net/assets/public/38e9/533d/f81047e3bad8/ced4156bcc61/04424703803-p/04424703803-p.jpg?ts=1780565194698&w=1920",
+        "https://static.zara.net/assets/public/1ce9/be69/76bd44a8bdc4/fca49b864900/04424703803-a1/04424703803-a1.jpg?ts=1780565194761&w=1920",
+        "https://static.zara.net/assets/public/6044/15c6/f24c4c2cb179/f627d589130e/04424703803-a2/04424703803-a2.jpg?ts=1780565194899&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 7,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "9.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "9.90",
+    "dom_price": "9.90",
+    "normalized_price": "9.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c4a2e3118522a8a3be3d7a5645962b779f0d0c460da848e111d35870093586a6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

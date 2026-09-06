@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:45682534",
+  "source_url": "https://www.zara.com/us/en/alpaca-baby-bonnet-p45682534.html",
+  "final_url": "https://www.zara.com/us/en/alpaca-baby-bonnet-p45682534.html",
+  "canonical_url": "https://www.zara.com/us/en/alpaca-baby-bonnet-p45682534.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ALPACA BABY BONNET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ALPACA BABY BONNET",
+      "url": "https://www.zara.com/us/en/alpaca-baby-bonnet-p45682534.html",
+      "productGroupID": "45682534",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby alpaca bonnet with adjustable drawstrings.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0269/fc3c/41dc48a9b7ae/3b57aeea7864/45682534737-e1/45682534737-e1.jpg?ts=1788345795061&w=1920",
+        "https://static.zara.net/assets/public/2cfe/c318/352c46668570/5ec490e45737/45682534737-e2/45682534737-e2.jpg?ts=1788345793477&w=1920",
+        "https://static.zara.net/assets/public/5482/3c9e/920d4db3855b/75a5640780b9/45682534737-e3/45682534737-e3.jpg?ts=1788345803995&w=1920",
+        "https://static.zara.net/assets/public/410f/52c6/b936440b8392/927a358df424/45682534737-e4/45682534737-e4.jpg?ts=1788345794125&w=1920",
+        "https://static.zara.net/assets/public/6836/89e7/0d9d43d5abc1/acf596475c02/45682534737-a1/45682534737-a1.jpg?ts=1788184962540&w=1920"
+      ],
+      "material": "100% alpaca",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% alpaca"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ALPACA BABY BONNET - Brown / Taupe - 1-6 months",
+          "sku": "547036106-737-16",
+          "mpn": "547036106-737-16",
+          "color": "Brown / Taupe",
+          "size": "1-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/0269/fc3c/41dc48a9b7ae/3b57aeea7864/45682534737-e1/45682534737-e1.jpg?ts=1788345795061&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/alpaca-baby-bonnet-p45682534.html?v1=547036106",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ALPACA BABY BONNET - Brown / Taupe - 6-12 months",
+          "sku": "547036106-737-61",
+          "mpn": "547036106-737-61",
+          "color": "Brown / Taupe",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/0269/fc3c/41dc48a9b7ae/3b57aeea7864/45682534737-e1/45682534737-e1.jpg?ts=1788345795061&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/alpaca-baby-bonnet-p45682534.html?v1=547036106",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ALPACA BABY BONNET",
+      "product_group_id": "45682534",
+      "brand": "ZARAHOME",
+      "description": "Baby alpaca bonnet with adjustable drawstrings.",
+      "material": "100% alpaca",
+      "composition": "OUTER SHELL: 100% alpaca",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ALPACA BABY BONNET - Brown / Taupe - 1-6 months",
+          "sku": "547036106-737-16",
+          "mpn": "547036106-737-16",
+          "color_name": "Brown / Taupe",
+          "size_name": "1-6 months",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/alpaca-baby-bonnet-p45682534.html?v1=547036106",
+          "images": [
+            "https://static.zara.net/assets/public/0269/fc3c/41dc48a9b7ae/3b57aeea7864/45682534737-e1/45682534737-e1.jpg?ts=1788345795061&w=1920"
+          ]
+        },
+        {
+          "name": "ALPACA BABY BONNET - Brown / Taupe - 6-12 months",
+          "sku": "547036106-737-61",
+          "mpn": "547036106-737-61",
+          "color_name": "Brown / Taupe",
+          "size_name": "6-12 months",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/alpaca-baby-bonnet-p45682534.html?v1=547036106",
+          "images": [
+            "https://static.zara.net/assets/public/0269/fc3c/41dc48a9b7ae/3b57aeea7864/45682534737-e1/45682534737-e1.jpg?ts=1788345795061&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0269/fc3c/41dc48a9b7ae/3b57aeea7864/45682534737-e1/45682534737-e1.jpg?ts=1788345795061&w=1920",
+        "https://static.zara.net/assets/public/2cfe/c318/352c46668570/5ec490e45737/45682534737-e2/45682534737-e2.jpg?ts=1788345793477&w=1920",
+        "https://static.zara.net/assets/public/5482/3c9e/920d4db3855b/75a5640780b9/45682534737-e3/45682534737-e3.jpg?ts=1788345803995&w=1920",
+        "https://static.zara.net/assets/public/410f/52c6/b936440b8392/927a358df424/45682534737-e4/45682534737-e4.jpg?ts=1788345794125&w=1920",
+        "https://static.zara.net/assets/public/6836/89e7/0d9d43d5abc1/acf596475c02/45682534737-a1/45682534737-a1.jpg?ts=1788184962540&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nBaby alpaca bonnet with adjustable drawstrings.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6aaf68eb57aab76321fa132e14b9bb9c0f6c9af9820beb7aed587543cfa76464",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

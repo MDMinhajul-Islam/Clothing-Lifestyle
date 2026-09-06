@@ -1,0 +1,193 @@
+{
+  "product_id": "zara-us:03391584",
+  "source_url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html",
+  "final_url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html",
+  "canonical_url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RIBBED PAREO",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RIBBED PAREO",
+      "url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html",
+      "productGroupID": "03391584",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pareo with adjustable side closure. Ruffled trim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4b19/7be9/cccc4104bc6a/e50b0698feaa/03391584301-e1/03391584301-e1.jpg?ts=1779103848498&w=1920",
+        "https://static.zara.net/assets/public/4b5c/6c30/a06b47a4b9ba/a37a4a00b974/03391584301-e2/03391584301-e2.jpg?ts=1779103849306&w=1920",
+        "https://static.zara.net/assets/public/2976/4370/45a54993acc0/86dd695d851e/03391584301-e3/03391584301-e3.jpg?ts=1779103849929&w=1920",
+        "https://static.zara.net/assets/public/075e/20f5/4ab543b3a885/62564a238201/03391584301-e4/03391584301-e4.jpg?ts=1779103849254&w=1920"
+      ],
+      "material": "polyester/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "92% polyester, 8% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RIBBED PAREO - Neon yellow - M",
+          "sku": "545494650-301-14",
+          "mpn": "545494650-301-14",
+          "color": "Neon yellow",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/4b19/7be9/cccc4104bc6a/e50b0698feaa/03391584301-e1/03391584301-e1.jpg?ts=1779103848498&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html?v1=545494650",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIBBED PAREO - Pink - M",
+          "sku": "545494650-620-14",
+          "mpn": "545494650-620-14",
+          "color": "Pink",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/7249/a8a9/fccb469c8976/3ec8b7055dcb/03391584620-e1/03391584620-e1.jpg?ts=1776669558992&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html?v1=545494651",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIBBED PAREO - Turquoise - M",
+          "sku": "545494650-402-14",
+          "mpn": "545494650-402-14",
+          "color": "Turquoise",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/bbe4/95e0/1ef84a65bc15/1000ca0751df/03391584402-e1/03391584402-e1.jpg?ts=1779103843803&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html?v1=545494652",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RIBBED PAREO",
+      "product_group_id": "03391584",
+      "brand": "ZARA",
+      "description": "Pareo with adjustable side closure. Ruffled trim.",
+      "material": "polyester/elastane",
+      "composition": "OUTER SHELL: 92% polyester, 8% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RIBBED PAREO - Neon yellow - M",
+          "sku": "545494650-301-14",
+          "mpn": "545494650-301-14",
+          "color_name": "Neon yellow",
+          "size_name": "M",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html?v1=545494650",
+          "images": [
+            "https://static.zara.net/assets/public/4b19/7be9/cccc4104bc6a/e50b0698feaa/03391584301-e1/03391584301-e1.jpg?ts=1779103848498&w=1920"
+          ]
+        },
+        {
+          "name": "RIBBED PAREO - Pink - M",
+          "sku": "545494650-620-14",
+          "mpn": "545494650-620-14",
+          "color_name": "Pink",
+          "size_name": "M",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html?v1=545494651",
+          "images": [
+            "https://static.zara.net/assets/public/7249/a8a9/fccb469c8976/3ec8b7055dcb/03391584620-e1/03391584620-e1.jpg?ts=1776669558992&w=1920"
+          ]
+        },
+        {
+          "name": "RIBBED PAREO - Turquoise - M",
+          "sku": "545494650-402-14",
+          "mpn": "545494650-402-14",
+          "color_name": "Turquoise",
+          "size_name": "M",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-pareo-p03391584.html?v1=545494652",
+          "images": [
+            "https://static.zara.net/assets/public/bbe4/95e0/1ef84a65bc15/1000ca0751df/03391584402-e1/03391584402-e1.jpg?ts=1779103843803&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4b19/7be9/cccc4104bc6a/e50b0698feaa/03391584301-e1/03391584301-e1.jpg?ts=1779103848498&w=1920",
+        "https://static.zara.net/assets/public/4b5c/6c30/a06b47a4b9ba/a37a4a00b974/03391584301-e2/03391584301-e2.jpg?ts=1779103849306&w=1920",
+        "https://static.zara.net/assets/public/2976/4370/45a54993acc0/86dd695d851e/03391584301-e3/03391584301-e3.jpg?ts=1779103849929&w=1920",
+        "https://static.zara.net/assets/public/075e/20f5/4ab543b3a885/62564a238201/03391584301-e4/03391584301-e4.jpg?ts=1779103849254&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Neon yellow",
+    "Pink",
+    "Turquoise"
+  ],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nPareo with adjustable side closure. Ruffled trim.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 6,
+  "variants_count": 3,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7c5ffba253bb202c77da83a07ec585d5c01e80de24c405a8c7cb216ab3cdb8e7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

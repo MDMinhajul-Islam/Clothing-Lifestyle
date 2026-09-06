@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:11116830",
+  "source_url": "https://www.zara.com/us/en/denim-crossbody-bag-p11116830.html",
+  "final_url": "https://www.zara.com/us/en/denim-crossbody-bag-p11116830.html",
+  "canonical_url": "https://www.zara.com/us/en/denim-crossbody-bag-p11116830.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DENIM CROSSBODY BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DENIM CROSSBODY BAG",
+      "url": "https://www.zara.com/us/en/denim-crossbody-bag-p11116830.html",
+      "productGroupID": "11116830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Denim-effect crossbody bag. Features a main compartment with zip closure and adjustable shoulder strap.\n\nHeight x Length x Width: 6.7 x 12.2 x 2.8 inches (17 x 31 x 7 cm).",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e8cf/39c1/07f54c08a20a/e7fd6e1bb925/11116830802-e1/11116830802-e1.jpg?ts=1780656217811&w=1920",
+        "https://static.zara.net/assets/public/52ea/9757/51034d12adc8/e8f806e924e0/11116830802-e2/11116830802-e2.jpg?ts=1780656217994&w=1920",
+        "https://static.zara.net/assets/public/c10b/1ba1/fc5e41a3a3ac/c55c559b07ae/11116830802-e3/11116830802-e3.jpg?ts=1780656217897&w=1920",
+        "https://static.zara.net/assets/public/531c/0ecb/10654c448a3f/5512e0be777d/11116830802-e4/11116830802-e4.jpg?ts=1780656218351&w=1920",
+        "https://static.zara.net/assets/public/2991/7dea/877346e7a8ff/bb298ea6b87f/11116830802-e5/11116830802-e5.jpg?ts=1780656217765&w=1920",
+        "https://static.zara.net/assets/public/750e/94a8/06984a77b0ee/800c2fb340a4/11116830802-e6/11116830802-e6.jpg?ts=1780656218687&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DENIM CROSSBODY BAG - Gray - ONE SIZE ONLY",
+          "sku": "545422122-802-53",
+          "mpn": "545422122-802-53",
+          "color": "Gray",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e8cf/39c1/07f54c08a20a/e7fd6e1bb925/11116830802-e1/11116830802-e1.jpg?ts=1780656217811&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/denim-crossbody-bag-p11116830.html?v1=545422122",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DENIM CROSSBODY BAG",
+      "product_group_id": "11116830",
+      "brand": "ZARA",
+      "description": "Denim-effect crossbody bag. Features a main compartment with zip closure and adjustable shoulder strap.\n\nHeight x Length x Width: 6.7 x 12.2 x 2.8 inches (17 x 31 x 7 cm).",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DENIM CROSSBODY BAG - Gray - ONE SIZE ONLY",
+          "sku": "545422122-802-53",
+          "mpn": "545422122-802-53",
+          "color_name": "Gray",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/denim-crossbody-bag-p11116830.html?v1=545422122",
+          "images": [
+            "https://static.zara.net/assets/public/e8cf/39c1/07f54c08a20a/e7fd6e1bb925/11116830802-e1/11116830802-e1.jpg?ts=1780656217811&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e8cf/39c1/07f54c08a20a/e7fd6e1bb925/11116830802-e1/11116830802-e1.jpg?ts=1780656217811&w=1920",
+        "https://static.zara.net/assets/public/52ea/9757/51034d12adc8/e8f806e924e0/11116830802-e2/11116830802-e2.jpg?ts=1780656217994&w=1920",
+        "https://static.zara.net/assets/public/c10b/1ba1/fc5e41a3a3ac/c55c559b07ae/11116830802-e3/11116830802-e3.jpg?ts=1780656217897&w=1920",
+        "https://static.zara.net/assets/public/531c/0ecb/10654c448a3f/5512e0be777d/11116830802-e4/11116830802-e4.jpg?ts=1780656218351&w=1920",
+        "https://static.zara.net/assets/public/2991/7dea/877346e7a8ff/bb298ea6b87f/11116830802-e5/11116830802-e5.jpg?ts=1780656217765&w=1920",
+        "https://static.zara.net/assets/public/750e/94a8/06984a77b0ee/800c2fb340a4/11116830802-e6/11116830802-e6.jpg?ts=1780656218687&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nDenim-effect crossbody bag. Features a main compartment with zip closure and adjustable shoulder strap.\nHeight x Length x Width: 6.7 x 12.2 x 2.8 inches (17 x 31 x 7 cm).",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e624b636c4e78ee83187da6a814c71d31caaab39f1a9e1df8c23b550938fe508",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

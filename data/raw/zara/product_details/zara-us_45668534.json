@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:45668534",
+  "source_url": "https://www.zara.com/us/en/baby-alpaca-bonnet-p45668534.html",
+  "final_url": "https://www.zara.com/us/en/baby-alpaca-bonnet-p45668534.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-alpaca-bonnet-p45668534.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY ALPACA BONNET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY ALPACA BONNET",
+      "url": "https://www.zara.com/us/en/baby-alpaca-bonnet-p45668534.html",
+      "productGroupID": "45668534",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby alpaca bonnet with openwork details and adjustable drawstrings.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/effe/4da7/e2c8411fad9a/0176d59e7d33/45668534251-e1/45668534251-e1.jpg?ts=1787664346186&w=1920",
+        "https://static.zara.net/assets/public/3569/182a/89ba4c86858a/9a7504d3c221/45668534251-e2/45668534251-e2.jpg?ts=1787664348414&w=1920",
+        "https://static.zara.net/assets/public/dbf5/5457/b3244d968ed8/5306ef516814/45668534251-e3/45668534251-e3.jpg?ts=1787664348705&w=1920",
+        "https://static.zara.net/assets/public/d36e/f04c/8c7342dfa480/cc551032ec6b/45668534251-e4/45668534251-e4.jpg?ts=1787664348576&w=1920",
+        "https://static.zara.net/assets/public/3708/e9df/d11c49348cbf/0923c8db0133/45668534251-a1/45668534251-a1.jpg?ts=1786101092774&w=1920"
+      ],
+      "material": "100% alpaca",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% alpaca"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY ALPACA BONNET - Oyster-white - 1-6 months",
+          "sku": "545461264-251-16",
+          "mpn": "545461264-251-16",
+          "color": "Oyster-white",
+          "size": "1-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/effe/4da7/e2c8411fad9a/0176d59e7d33/45668534251-e1/45668534251-e1.jpg?ts=1787664346186&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/baby-alpaca-bonnet-p45668534.html?v1=545461264",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BABY ALPACA BONNET - Oyster-white - 6-12 months",
+          "sku": "545461264-251-61",
+          "mpn": "545461264-251-61",
+          "color": "Oyster-white",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/effe/4da7/e2c8411fad9a/0176d59e7d33/45668534251-e1/45668534251-e1.jpg?ts=1787664346186&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/baby-alpaca-bonnet-p45668534.html?v1=545461264",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY ALPACA BONNET",
+      "product_group_id": "45668534",
+      "brand": "ZARAHOME",
+      "description": "Baby alpaca bonnet with openwork details and adjustable drawstrings.",
+      "material": "100% alpaca",
+      "composition": "OUTER SHELL: 100% alpaca",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY ALPACA BONNET - Oyster-white - 1-6 months",
+          "sku": "545461264-251-16",
+          "mpn": "545461264-251-16",
+          "color_name": "Oyster-white",
+          "size_name": "1-6 months",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-alpaca-bonnet-p45668534.html?v1=545461264",
+          "images": [
+            "https://static.zara.net/assets/public/effe/4da7/e2c8411fad9a/0176d59e7d33/45668534251-e1/45668534251-e1.jpg?ts=1787664346186&w=1920"
+          ]
+        },
+        {
+          "name": "BABY ALPACA BONNET - Oyster-white - 6-12 months",
+          "sku": "545461264-251-61",
+          "mpn": "545461264-251-61",
+          "color_name": "Oyster-white",
+          "size_name": "6-12 months",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-alpaca-bonnet-p45668534.html?v1=545461264",
+          "images": [
+            "https://static.zara.net/assets/public/effe/4da7/e2c8411fad9a/0176d59e7d33/45668534251-e1/45668534251-e1.jpg?ts=1787664346186&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/effe/4da7/e2c8411fad9a/0176d59e7d33/45668534251-e1/45668534251-e1.jpg?ts=1787664346186&w=1920",
+        "https://static.zara.net/assets/public/3569/182a/89ba4c86858a/9a7504d3c221/45668534251-e2/45668534251-e2.jpg?ts=1787664348414&w=1920",
+        "https://static.zara.net/assets/public/dbf5/5457/b3244d968ed8/5306ef516814/45668534251-e3/45668534251-e3.jpg?ts=1787664348705&w=1920",
+        "https://static.zara.net/assets/public/d36e/f04c/8c7342dfa480/cc551032ec6b/45668534251-e4/45668534251-e4.jpg?ts=1787664348576&w=1920",
+        "https://static.zara.net/assets/public/3708/e9df/d11c49348cbf/0923c8db0133/45668534251-a1/45668534251-a1.jpg?ts=1786101092774&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nBaby alpaca bonnet with openwork details and adjustable drawstrings.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4c5593a19d69bd17d7662e74f33de9b098b99c6b8300e4f99657084248f0f554",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

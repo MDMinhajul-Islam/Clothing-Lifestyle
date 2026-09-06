@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:11120830",
+  "source_url": "https://www.zara.com/us/en/zip-shoulder-bag-p11120830.html",
+  "final_url": "https://www.zara.com/us/en/zip-shoulder-bag-p11120830.html",
+  "canonical_url": "https://www.zara.com/us/en/zip-shoulder-bag-p11120830.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ZIPPER SHOULDER BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ZIPPER SHOULDER BAG",
+      "url": "https://www.zara.com/us/en/zip-shoulder-bag-p11120830.html",
+      "productGroupID": "11120830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shoulder bag featuring decorative front zipper details. Includes a main zip-closure compartment, side zip-closure compartments, and a short shoulder strap. Dimensions (Height x Width x Depth): 5.1 x 8.3 x 3.1 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e28b/5d63/66424ef98de6/21d712091be4/11120830002-e1/11120830002-e1.jpg?ts=1778678362722&w=1920",
+        "https://static.zara.net/assets/public/a839/bd5a/bdae402d8ff5/dd4f45109420/11120830002-e2/11120830002-e2.jpg?ts=1778678363143&w=1920",
+        "https://static.zara.net/assets/public/6bcf/3294/82894aa5b1b2/ae46ba2427fc/11120830002-e3/11120830002-e3.jpg?ts=1778678363558&w=1920",
+        "https://static.zara.net/assets/public/8926/5129/40784966add0/c4b498f70764/11120830002-e4/11120830002-e4.jpg?ts=1778678363436&w=1920",
+        "https://static.zara.net/assets/public/dc8e/e960/1f9d41b888f5/9a8d1b65593a/11120830002-e5/11120830002-e5.jpg?ts=1778678362325&w=1920",
+        "https://static.zara.net/assets/public/f807/09f1/78de4ffba2d7/c2bc121f0d54/11120830002-e6/11120830002-e6.jpg?ts=1778678362783&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ZIPPER SHOULDER BAG - Off White - ONE SIZE ONLY",
+          "sku": "545446949-002-53",
+          "mpn": "545446949-002-53",
+          "color": "Off White",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e28b/5d63/66424ef98de6/21d712091be4/11120830002-e1/11120830002-e1.jpg?ts=1778678362722&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/zip-shoulder-bag-p11120830.html?v1=545446949",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ZIPPER SHOULDER BAG",
+      "product_group_id": "11120830",
+      "brand": "ZARA",
+      "description": "Shoulder bag featuring decorative front zipper details. Includes a main zip-closure compartment, side zip-closure compartments, and a short shoulder strap. Dimensions (Height x Width x Depth): 5.1 x 8.3 x 3.1 inches.",
+      "material": "100% polyurethane",
+      "composition": "OUTER SHELL: 100% polyurethane | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ZIPPER SHOULDER BAG - Off White - ONE SIZE ONLY",
+          "sku": "545446949-002-53",
+          "mpn": "545446949-002-53",
+          "color_name": "Off White",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/zip-shoulder-bag-p11120830.html?v1=545446949",
+          "images": [
+            "https://static.zara.net/assets/public/e28b/5d63/66424ef98de6/21d712091be4/11120830002-e1/11120830002-e1.jpg?ts=1778678362722&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e28b/5d63/66424ef98de6/21d712091be4/11120830002-e1/11120830002-e1.jpg?ts=1778678362722&w=1920",
+        "https://static.zara.net/assets/public/a839/bd5a/bdae402d8ff5/dd4f45109420/11120830002-e2/11120830002-e2.jpg?ts=1778678363143&w=1920",
+        "https://static.zara.net/assets/public/6bcf/3294/82894aa5b1b2/ae46ba2427fc/11120830002-e3/11120830002-e3.jpg?ts=1778678363558&w=1920",
+        "https://static.zara.net/assets/public/8926/5129/40784966add0/c4b498f70764/11120830002-e4/11120830002-e4.jpg?ts=1778678363436&w=1920",
+        "https://static.zara.net/assets/public/dc8e/e960/1f9d41b888f5/9a8d1b65593a/11120830002-e5/11120830002-e5.jpg?ts=1778678362325&w=1920",
+        "https://static.zara.net/assets/public/f807/09f1/78de4ffba2d7/c2bc121f0d54/11120830002-e6/11120830002-e6.jpg?ts=1778678362783&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nShoulder bag featuring decorative front zipper details. Includes a main zip-closure compartment, side zip-closure compartments, and a short shoulder strap. Dimensions (Height x Width x Depth): 5.1 x 8.3 x 3.1 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d16250e7ad477c6dc39abb270fad39213525648626892ae5ca78ae8c16aa8ea3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

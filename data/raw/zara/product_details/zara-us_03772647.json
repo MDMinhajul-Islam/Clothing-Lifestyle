@@ -1,0 +1,189 @@
+{
+  "product_id": "zara-us:03772647",
+  "source_url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html",
+  "final_url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html",
+  "canonical_url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HIBISCUS BEADED CAFTAN",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HIBISCUS BEADED CAFTAN",
+      "url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html",
+      "productGroupID": "03772647",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "V-neck, short-sleeve caftan. Adjustable drawstring at the waist. Hibiscus-shaped bead detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a6b0/e7b9/67e74f7ea3ed/4e07d5eb9bb0/03772647519-e1/03772647519-e1.jpg?ts=1778769754958&w=1920",
+        "https://static.zara.net/assets/public/92c1/5109/c735473c8f60/bf24a92c2770/03772647519-e2/03772647519-e2.jpg?ts=1778769755479&w=1920",
+        "https://static.zara.net/assets/public/e88f/8926/4be24233a7e2/545017faae9e/03772647519-e3/03772647519-e3.jpg?ts=1778769757845&w=1920",
+        "https://static.zara.net/assets/public/1d40/9eb2/00494640b0f4/3531f952dc2b/03772647519-e4/03772647519-e4.jpg?ts=1778769758042&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HIBISCUS BEADED CAFTAN - Washed green - 4-5 years",
+          "sku": "554921366-519-91",
+          "mpn": "554921366-519-91",
+          "color": "Washed green",
+          "size": "4-5 years",
+          "image": [
+            "https://static.zara.net/assets/public/a6b0/e7b9/67e74f7ea3ed/4e07d5eb9bb0/03772647519-e1/03772647519-e1.jpg?ts=1778769754958&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html?v1=554921366",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIBISCUS BEADED CAFTAN - Washed green - 6-9 years",
+          "sku": "554921366-519-92",
+          "mpn": "554921366-519-92",
+          "color": "Washed green",
+          "size": "6-9 years",
+          "image": [
+            "https://static.zara.net/assets/public/a6b0/e7b9/67e74f7ea3ed/4e07d5eb9bb0/03772647519-e1/03772647519-e1.jpg?ts=1778769754958&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html?v1=554921366",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HIBISCUS BEADED CAFTAN - Washed green - 10-14 years",
+          "sku": "554921366-519-93",
+          "mpn": "554921366-519-93",
+          "color": "Washed green",
+          "size": "10-14 years",
+          "image": [
+            "https://static.zara.net/assets/public/a6b0/e7b9/67e74f7ea3ed/4e07d5eb9bb0/03772647519-e1/03772647519-e1.jpg?ts=1778769754958&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html?v1=554921366",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HIBISCUS BEADED CAFTAN",
+      "product_group_id": "03772647",
+      "brand": "ZARA",
+      "description": "V-neck, short-sleeve caftan. Adjustable drawstring at the waist. Hibiscus-shaped bead detail.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HIBISCUS BEADED CAFTAN - Washed green - 4-5 years",
+          "sku": "554921366-519-91",
+          "mpn": "554921366-519-91",
+          "color_name": "Washed green",
+          "size_name": "4-5 years",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html?v1=554921366",
+          "images": [
+            "https://static.zara.net/assets/public/a6b0/e7b9/67e74f7ea3ed/4e07d5eb9bb0/03772647519-e1/03772647519-e1.jpg?ts=1778769754958&w=1920"
+          ]
+        },
+        {
+          "name": "HIBISCUS BEADED CAFTAN - Washed green - 6-9 years",
+          "sku": "554921366-519-92",
+          "mpn": "554921366-519-92",
+          "color_name": "Washed green",
+          "size_name": "6-9 years",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html?v1=554921366",
+          "images": [
+            "https://static.zara.net/assets/public/a6b0/e7b9/67e74f7ea3ed/4e07d5eb9bb0/03772647519-e1/03772647519-e1.jpg?ts=1778769754958&w=1920"
+          ]
+        },
+        {
+          "name": "HIBISCUS BEADED CAFTAN - Washed green - 10-14 years",
+          "sku": "554921366-519-93",
+          "mpn": "554921366-519-93",
+          "color_name": "Washed green",
+          "size_name": "10-14 years",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hibiscus-beaded-caftan-p03772647.html?v1=554921366",
+          "images": [
+            "https://static.zara.net/assets/public/a6b0/e7b9/67e74f7ea3ed/4e07d5eb9bb0/03772647519-e1/03772647519-e1.jpg?ts=1778769754958&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a6b0/e7b9/67e74f7ea3ed/4e07d5eb9bb0/03772647519-e1/03772647519-e1.jpg?ts=1778769754958&w=1920",
+        "https://static.zara.net/assets/public/92c1/5109/c735473c8f60/bf24a92c2770/03772647519-e2/03772647519-e2.jpg?ts=1778769755479&w=1920",
+        "https://static.zara.net/assets/public/e88f/8926/4be24233a7e2/545017faae9e/03772647519-e3/03772647519-e3.jpg?ts=1778769757845&w=1920",
+        "https://static.zara.net/assets/public/1d40/9eb2/00494640b0f4/3531f952dc2b/03772647519-e4/03772647519-e4.jpg?ts=1778769758042&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nV-neck, short-sleeve caftan. Adjustable drawstring at the waist. Hibiscus-shaped bead detail.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "af6f7350bf203a4cf240af22f133a0fa7bcaa7e9411ac07a46a367662fd3e27d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

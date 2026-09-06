@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44604004",
+  "source_url": "https://www.zara.com/us/en/kids--alpaca-blanket-p44604004.html",
+  "final_url": "https://www.zara.com/us/en/kids--alpaca-blanket-p44604004.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--alpaca-blanket-p44604004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' ALPACA BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' ALPACA BLANKET",
+      "url": "https://www.zara.com/us/en/kids--alpaca-blanket-p44604004.html",
+      "productGroupID": "44604004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' blanket made of alpaca. Plain design with a textured finish and topstitched edges.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a54b/8be0/9439470481e6/7f5653364687/44604004712-e1/44604004712-e1.jpg?ts=1788505607380&w=1920",
+        "https://static.zara.net/assets/public/7ab6/a729/685c4debbd03/f3ba54873689/44604004712-e2/44604004712-e2.jpg?ts=1788505613479&w=1920",
+        "https://static.zara.net/assets/public/d03c/b778/6a2f44c8a4e5/591e43e8646c/44604004712-e3/44604004712-e3.jpg?ts=1788505612251&w=1920",
+        "https://static.zara.net/assets/public/5ac3/2057/6d1948fe83c9/36a57c9f80c1/44604004712-e4/44604004712-e4.jpg?ts=1788505607055&w=1920",
+        "https://static.zara.net/assets/public/235e/2f5a/fe3d4d66888b/ea4be4f8b33f/44604004712-a1/44604004712-a1.jpg?ts=1787646117217&w=1920"
+      ],
+      "material": "100% alpaca",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% alpaca"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' ALPACA BLANKET - Ecru - 27.5 x 39.5 \"",
+          "sku": "545409764-712-9",
+          "mpn": "545409764-712-9",
+          "color": "Ecru",
+          "size": "27.5 x 39.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/a54b/8be0/9439470481e6/7f5653364687/44604004712-e1/44604004712-e1.jpg?ts=1788505607380&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/kids--alpaca-blanket-p44604004.html?v1=545409764",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' ALPACA BLANKET",
+      "product_group_id": "44604004",
+      "brand": "ZARAHOME",
+      "description": "Kids' blanket made of alpaca. Plain design with a textured finish and topstitched edges.",
+      "material": "100% alpaca",
+      "composition": "OUTER SHELL: 100% alpaca",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' ALPACA BLANKET - Ecru - 27.5 x 39.5 \"",
+          "sku": "545409764-712-9",
+          "mpn": "545409764-712-9",
+          "color_name": "Ecru",
+          "size_name": "27.5 x 39.5 \"",
+          "price": "169.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--alpaca-blanket-p44604004.html?v1=545409764",
+          "images": [
+            "https://static.zara.net/assets/public/a54b/8be0/9439470481e6/7f5653364687/44604004712-e1/44604004712-e1.jpg?ts=1788505607380&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a54b/8be0/9439470481e6/7f5653364687/44604004712-e1/44604004712-e1.jpg?ts=1788505607380&w=1920",
+        "https://static.zara.net/assets/public/7ab6/a729/685c4debbd03/f3ba54873689/44604004712-e2/44604004712-e2.jpg?ts=1788505613479&w=1920",
+        "https://static.zara.net/assets/public/d03c/b778/6a2f44c8a4e5/591e43e8646c/44604004712-e3/44604004712-e3.jpg?ts=1788505612251&w=1920",
+        "https://static.zara.net/assets/public/5ac3/2057/6d1948fe83c9/36a57c9f80c1/44604004712-e4/44604004712-e4.jpg?ts=1788505607055&w=1920",
+        "https://static.zara.net/assets/public/235e/2f5a/fe3d4d66888b/ea4be4f8b33f/44604004712-a1/44604004712-a1.jpg?ts=1787646117217&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "169.00",
+  "rendered_description": "Description\nKids' blanket made of alpaca. Plain design with a textured finish and topstitched edges.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "169.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "169.00",
+    "dom_price": "169.00",
+    "normalized_price": "169.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9bb5cd1fa08f1bfa41c51f366c70130658cf29e4267b126182f31a28bdbdcd9d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

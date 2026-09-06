@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:47685080",
+  "source_url": "https://www.zara.com/us/en/wooden-nightstand-p47685080.html",
+  "final_url": "https://www.zara.com/us/en/wooden-nightstand-p47685080.html",
+  "canonical_url": "https://www.zara.com/us/en/wooden-nightstand-p47685080.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WOODEN NIGHTSTAND",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WOODEN NIGHTSTAND",
+      "url": "https://www.zara.com/us/en/wooden-nightstand-p47685080.html",
+      "productGroupID": "47685080",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Ash wood nightstand with a drawer and shelf at the bottom. Featuring shaped legs.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/86f8/13d8/aa594086aaa6/6d333c24c3bd/4000.jpg?ts=1694606760144&w=1920",
+        "https://static.zara.net/assets/public/4d34/16c4/be57424cb694/1fc79cc02986/4000.jpg?ts=1694606759671&w=1920",
+        "https://static.zara.net/assets/public/7ded/3ee8/0d134fc999a8/2881de8bd855/4000.jpg?ts=1694606757945&w=1920",
+        "https://static.zara.net/assets/public/b993/f168/8c6d4339858b/ccc79d666198/4000.jpg?ts=1694606760267&w=1920",
+        "https://static.zara.net/assets/public/18f7/8bcb/e4664ac093dc/8c176f0fbcf4/4000.jpg?ts=1694606762663&w=1920",
+        "https://static.zara.net/assets/public/000f/7949/6de041bdb318/9680cdd5136a/47685080052-a1/47685080052-a1.jpg?ts=1777994302955&w=1920",
+        "https://static.zara.net/assets/public/7023/4121/b7d84ae0abb5/cbb844a949f0/47685080052-e10/47685080052-e10.jpg?ts=1708942020686&w=1920"
+      ],
+      "material": "100% ASH WOOD",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% ASH WOOD"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WOODEN NIGHTSTAND - Light beige - ONE SIZE ONLY",
+          "sku": "545436374-052-99",
+          "mpn": "545436374-052-99",
+          "color": "Light beige",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/13d8/aa594086aaa6/6d333c24c3bd/4000.jpg?ts=1694606760144&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "299",
+            "url": "https://www.zara.com/us/en/wooden-nightstand-p47685080.html?v1=545436374",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WOODEN NIGHTSTAND",
+      "product_group_id": "47685080",
+      "brand": "ZARAHOME",
+      "description": "Ash wood nightstand with a drawer and shelf at the bottom. Featuring shaped legs.",
+      "material": "100% ASH WOOD",
+      "composition": "OUTER SHELL: 100% ASH WOOD",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WOODEN NIGHTSTAND - Light beige - ONE SIZE ONLY",
+          "sku": "545436374-052-99",
+          "mpn": "545436374-052-99",
+          "color_name": "Light beige",
+          "size_name": "ONE SIZE ONLY",
+          "price": "299.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wooden-nightstand-p47685080.html?v1=545436374",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/13d8/aa594086aaa6/6d333c24c3bd/4000.jpg?ts=1694606760144&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/86f8/13d8/aa594086aaa6/6d333c24c3bd/4000.jpg?ts=1694606760144&w=1920",
+        "https://static.zara.net/assets/public/4d34/16c4/be57424cb694/1fc79cc02986/4000.jpg?ts=1694606759671&w=1920",
+        "https://static.zara.net/assets/public/7ded/3ee8/0d134fc999a8/2881de8bd855/4000.jpg?ts=1694606757945&w=1920",
+        "https://static.zara.net/assets/public/b993/f168/8c6d4339858b/ccc79d666198/4000.jpg?ts=1694606760267&w=1920",
+        "https://static.zara.net/assets/public/18f7/8bcb/e4664ac093dc/8c176f0fbcf4/4000.jpg?ts=1694606762663&w=1920",
+        "https://static.zara.net/assets/public/000f/7949/6de041bdb318/9680cdd5136a/47685080052-a1/47685080052-a1.jpg?ts=1777994302955&w=1920",
+        "https://static.zara.net/assets/public/7023/4121/b7d84ae0abb5/cbb844a949f0/47685080052-e10/47685080052-e10.jpg?ts=1708942020686&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "299.00",
+  "rendered_description": "Description\nAsh wood nightstand with a drawer and shelf at the bottom. Featuring shaped legs.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "299.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "299.00",
+    "dom_price": "299.00",
+    "normalized_price": "299.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0582c0d9a01cb27a17eeb9cb1240cf69dde18ab5fd637f3ba5f4eb23b0fdefb6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

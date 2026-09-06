@@ -1,0 +1,163 @@
+{
+  "product_id": "zara-us:44626006",
+  "source_url": "https://www.zara.com/us/en/kids--textured-ruffle-bedspread-p44626006.html",
+  "final_url": "https://www.zara.com/us/en/kids--textured-ruffle-bedspread-p44626006.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--textured-ruffle-bedspread-p44626006.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' TEXTURED RUFFLE BEDSPREAD",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' TEXTURED RUFFLE BEDSPREAD",
+      "url": "https://www.zara.com/us/en/kids--textured-ruffle-bedspread-p44626006.html",
+      "productGroupID": "44626006",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' bedspread made of cotton. Solid-colored textured design featuring ruffle detailing with contrast stitching along the edges.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/716a/7a76/f7ad4955afe4/680ba77bc3c3/44626006615-e1/44626006615-e1.jpg?ts=1779872490602&w=1920",
+        "https://static.zara.net/assets/public/b34f/dfd3/59874d2ca8e8/2890b5f202c3/44626006615-e2/44626006615-e2.jpg?ts=1779872491576&w=1920",
+        "https://static.zara.net/assets/public/d97b/bdb1/e87444f49cac/af14cadda8fb/44626006615-e3/44626006615-e3.jpg?ts=1779872490824&w=1920",
+        "https://static.zara.net/assets/public/85e6/ea7d/c36944faa60f/dbae5b2f7ce3/44626006615-e4/44626006615-e4.jpg?ts=1779872491289&w=1920",
+        "https://static.zara.net/assets/public/e715/6642/2dc8484f8e3a/2a78612a3da2/44626006615-a1/44626006615-a1.jpg?ts=1780039967233&w=1920",
+        "https://static.zara.net/assets/public/f4b5/c9a3/daed4839a402/154676d5201c/44626006615-a2/44626006615-a2.jpg?ts=1780308824119&w=1920",
+        "https://static.zara.net/assets/public/e78e/2796/f93e4cccbb56/a32b5d378eca/44626006615-a3/44626006615-a3.jpg?ts=1782985268966&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' TEXTURED RUFFLE BEDSPREAD - Orange - Stan.cot",
+          "sku": "545422005-615-10",
+          "mpn": "545422005-615-10",
+          "color": "Orange",
+          "size": "Stan.cot",
+          "image": [
+            "https://static.zara.net/assets/public/716a/7a76/f7ad4955afe4/680ba77bc3c3/44626006615-e1/44626006615-e1.jpg?ts=1779872490602&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/kids--textured-ruffle-bedspread-p44626006.html?v1=545422005",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' TEXTURED RUFFLE BEDSPREAD - Orange - Single",
+          "sku": "545422005-615-20",
+          "mpn": "545422005-615-20",
+          "color": "Orange",
+          "size": "Single",
+          "image": [
+            "https://static.zara.net/assets/public/716a/7a76/f7ad4955afe4/680ba77bc3c3/44626006615-e1/44626006615-e1.jpg?ts=1779872490602&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/kids--textured-ruffle-bedspread-p44626006.html?v1=545422005",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' TEXTURED RUFFLE BEDSPREAD",
+      "product_group_id": "44626006",
+      "brand": "ZARAHOME",
+      "description": "Kids' bedspread made of cotton. Solid-colored textured design featuring ruffle detailing with contrast stitching along the edges.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' TEXTURED RUFFLE BEDSPREAD - Orange - Stan.cot",
+          "sku": "545422005-615-10",
+          "mpn": "545422005-615-10",
+          "color_name": "Orange",
+          "size_name": "Stan.cot",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--textured-ruffle-bedspread-p44626006.html?v1=545422005",
+          "images": [
+            "https://static.zara.net/assets/public/716a/7a76/f7ad4955afe4/680ba77bc3c3/44626006615-e1/44626006615-e1.jpg?ts=1779872490602&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' TEXTURED RUFFLE BEDSPREAD - Orange - Single",
+          "sku": "545422005-615-20",
+          "mpn": "545422005-615-20",
+          "color_name": "Orange",
+          "size_name": "Single",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--textured-ruffle-bedspread-p44626006.html?v1=545422005",
+          "images": [
+            "https://static.zara.net/assets/public/716a/7a76/f7ad4955afe4/680ba77bc3c3/44626006615-e1/44626006615-e1.jpg?ts=1779872490602&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/716a/7a76/f7ad4955afe4/680ba77bc3c3/44626006615-e1/44626006615-e1.jpg?ts=1779872490602&w=1920",
+        "https://static.zara.net/assets/public/b34f/dfd3/59874d2ca8e8/2890b5f202c3/44626006615-e2/44626006615-e2.jpg?ts=1779872491576&w=1920",
+        "https://static.zara.net/assets/public/d97b/bdb1/e87444f49cac/af14cadda8fb/44626006615-e3/44626006615-e3.jpg?ts=1779872490824&w=1920",
+        "https://static.zara.net/assets/public/85e6/ea7d/c36944faa60f/dbae5b2f7ce3/44626006615-e4/44626006615-e4.jpg?ts=1779872491289&w=1920",
+        "https://static.zara.net/assets/public/e715/6642/2dc8484f8e3a/2a78612a3da2/44626006615-a1/44626006615-a1.jpg?ts=1780039967233&w=1920",
+        "https://static.zara.net/assets/public/f4b5/c9a3/daed4839a402/154676d5201c/44626006615-a2/44626006615-a2.jpg?ts=1780308824119&w=1920",
+        "https://static.zara.net/assets/public/e78e/2796/f93e4cccbb56/a32b5d378eca/44626006615-a3/44626006615-a3.jpg?ts=1782985268966&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nKids' bedspread made of cotton. Solid-colored textured design featuring ruffle detailing with contrast stitching along the edges.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "10d19aba1a820aa72359a09e92f725a318b0886464679206a516e76f7dbe8da9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

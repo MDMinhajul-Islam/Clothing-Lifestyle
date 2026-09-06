@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:44625006",
+  "source_url": "https://www.zara.com/us/en/kids--textured-striped-bedspread-p44625006.html",
+  "final_url": "https://www.zara.com/us/en/kids--textured-striped-bedspread-p44625006.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--textured-striped-bedspread-p44625006.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' TEXTURED STRIPED BEDSPREAD",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' TEXTURED STRIPED BEDSPREAD",
+      "url": "https://www.zara.com/us/en/kids--textured-striped-bedspread-p44625006.html",
+      "productGroupID": "44625006",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' bedspread made of cotton. Features a two-tone striped textured design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8d1d/b564/58554e98b98d/b22db6425877/44625006400-e1/44625006400-e1.jpg?ts=1781694148214&w=1920",
+        "https://static.zara.net/assets/public/9bb9/ed3d/96e2473eb6cd/7406086a06cb/44625006400-e2/44625006400-e2.jpg?ts=1781694148208&w=1920",
+        "https://static.zara.net/assets/public/25cd/5d91/3f6f4d36b28e/2f9b3f7ea5b4/44625006400-e3/44625006400-e3.jpg?ts=1781694147799&w=1920",
+        "https://static.zara.net/assets/public/91f8/023f/da9943d4ba78/6e29ea640c44/44625006400-e4/44625006400-e4.jpg?ts=1781694148575&w=1920",
+        "https://static.zara.net/assets/public/cc4b/cae0/4f6e4a88928e/8d4c75c7a63d/44625006400-a1/44625006400-a1.jpg?ts=1781688202113&w=1920",
+        "https://static.zara.net/assets/public/32f3/037b/9a174c44a22c/0898f0b013e4/44625006400-a3/44625006400-a3.jpg?ts=1782904220467&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' TEXTURED STRIPED BEDSPREAD - Blue - Stan.cot",
+          "sku": "545413450-400-10",
+          "mpn": "545413450-400-10",
+          "color": "Blue",
+          "size": "Stan.cot",
+          "image": [
+            "https://static.zara.net/assets/public/8d1d/b564/58554e98b98d/b22db6425877/44625006400-e1/44625006400-e1.jpg?ts=1781694148214&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/kids--textured-striped-bedspread-p44625006.html?v1=545413450",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' TEXTURED STRIPED BEDSPREAD - Blue - Single",
+          "sku": "545413450-400-20",
+          "mpn": "545413450-400-20",
+          "color": "Blue",
+          "size": "Single",
+          "image": [
+            "https://static.zara.net/assets/public/8d1d/b564/58554e98b98d/b22db6425877/44625006400-e1/44625006400-e1.jpg?ts=1781694148214&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/kids--textured-striped-bedspread-p44625006.html?v1=545413450",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' TEXTURED STRIPED BEDSPREAD",
+      "product_group_id": "44625006",
+      "brand": "ZARAHOME",
+      "description": "Kids' bedspread made of cotton. Features a two-tone striped textured design.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' TEXTURED STRIPED BEDSPREAD - Blue - Stan.cot",
+          "sku": "545413450-400-10",
+          "mpn": "545413450-400-10",
+          "color_name": "Blue",
+          "size_name": "Stan.cot",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--textured-striped-bedspread-p44625006.html?v1=545413450",
+          "images": [
+            "https://static.zara.net/assets/public/8d1d/b564/58554e98b98d/b22db6425877/44625006400-e1/44625006400-e1.jpg?ts=1781694148214&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' TEXTURED STRIPED BEDSPREAD - Blue - Single",
+          "sku": "545413450-400-20",
+          "mpn": "545413450-400-20",
+          "color_name": "Blue",
+          "size_name": "Single",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--textured-striped-bedspread-p44625006.html?v1=545413450",
+          "images": [
+            "https://static.zara.net/assets/public/8d1d/b564/58554e98b98d/b22db6425877/44625006400-e1/44625006400-e1.jpg?ts=1781694148214&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8d1d/b564/58554e98b98d/b22db6425877/44625006400-e1/44625006400-e1.jpg?ts=1781694148214&w=1920",
+        "https://static.zara.net/assets/public/9bb9/ed3d/96e2473eb6cd/7406086a06cb/44625006400-e2/44625006400-e2.jpg?ts=1781694148208&w=1920",
+        "https://static.zara.net/assets/public/25cd/5d91/3f6f4d36b28e/2f9b3f7ea5b4/44625006400-e3/44625006400-e3.jpg?ts=1781694147799&w=1920",
+        "https://static.zara.net/assets/public/91f8/023f/da9943d4ba78/6e29ea640c44/44625006400-e4/44625006400-e4.jpg?ts=1781694148575&w=1920",
+        "https://static.zara.net/assets/public/cc4b/cae0/4f6e4a88928e/8d4c75c7a63d/44625006400-a1/44625006400-a1.jpg?ts=1781688202113&w=1920",
+        "https://static.zara.net/assets/public/32f3/037b/9a174c44a22c/0898f0b013e4/44625006400-a3/44625006400-a3.jpg?ts=1782904220467&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nKids' bedspread made of cotton. Features a two-tone striped textured design.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "01abc045b2d9f60a4aa0a69e91f561337df34c556cac7a5e7e6a842019a7555e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

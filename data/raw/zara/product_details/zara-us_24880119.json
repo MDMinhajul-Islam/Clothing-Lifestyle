@@ -1,0 +1,118 @@
+{
+  "product_id": "zara-us:24880119",
+  "source_url": "https://www.zara.com/us/en/summer-skin-bronzing-drops-p24880119.html",
+  "final_url": "https://www.zara.com/us/en/summer-skin-bronzing-drops-p24880119.html",
+  "canonical_url": "https://www.zara.com/us/en/summer-skin-bronzing-drops-p24880119.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SUMMER SKIN BRONZING DROPS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SUMMER SKIN BRONZING DROPS",
+      "url": "https://www.zara.com/us/en/summer-skin-bronzing-drops-p24880119.html",
+      "productGroupID": "24880119",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Achieve a bronzed, luminous complexion with these bronzing drops. The lightweight, hydrating formula blends easily, leaving a natural glow that evens out skin tone and adds radiance to your face.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/daa3/c63b/af384ef39739/0d577a1f6d83/24880119996-e1/24880119996-e1.jpg?ts=1783434785496&w=1920",
+        "https://static.zara.net/assets/public/6e3b/9114/8144457a9d5d/ec4fb18d95d5/24880119996-p/24880119996-p.jpg?ts=1783435716812&w=1920",
+        "https://static.zara.net/assets/public/eede/3d47/255742aa9a57/ffffcf0d1b82/24880119996-e2/24880119996-e2.jpg?ts=1783434785394&w=1920",
+        "https://static.zara.net/assets/public/bcbc/9236/eb3d46758efc/91588bbda019/24880119996-e3/24880119996-e3.jpg?ts=1783435716043&w=1920",
+        "https://static.zara.net/assets/public/f145/2bc1/6bc6446690b5/9932402aa3dc/24880119996-e1/24880119996-e1.jpg?ts=1783434793570&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SUMMER SKIN BRONZING DROPS - TAN - ONE SIZE ONLY",
+          "sku": "554907010-996-99",
+          "mpn": "554907010-996-99",
+          "color": "TAN",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/daa3/c63b/af384ef39739/0d577a1f6d83/24880119996-e1/24880119996-e1.jpg?ts=1783434785496&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/summer-skin-bronzing-drops-p24880119.html?v1=554907010",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SUMMER SKIN BRONZING DROPS",
+      "product_group_id": "24880119",
+      "brand": "ZARA",
+      "description": "Achieve a bronzed, luminous complexion with these bronzing drops. The lightweight, hydrating formula blends easily, leaving a natural glow that evens out skin tone and adds radiance to your face.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SUMMER SKIN BRONZING DROPS - TAN - ONE SIZE ONLY",
+          "sku": "554907010-996-99",
+          "mpn": "554907010-996-99",
+          "color_name": "TAN",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/summer-skin-bronzing-drops-p24880119.html?v1=554907010",
+          "images": [
+            "https://static.zara.net/assets/public/daa3/c63b/af384ef39739/0d577a1f6d83/24880119996-e1/24880119996-e1.jpg?ts=1783434785496&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/daa3/c63b/af384ef39739/0d577a1f6d83/24880119996-e1/24880119996-e1.jpg?ts=1783434785496&w=1920",
+        "https://static.zara.net/assets/public/6e3b/9114/8144457a9d5d/ec4fb18d95d5/24880119996-p/24880119996-p.jpg?ts=1783435716812&w=1920",
+        "https://static.zara.net/assets/public/eede/3d47/255742aa9a57/ffffcf0d1b82/24880119996-e2/24880119996-e2.jpg?ts=1783434785394&w=1920",
+        "https://static.zara.net/assets/public/bcbc/9236/eb3d46758efc/91588bbda019/24880119996-e3/24880119996-e3.jpg?ts=1783435716043&w=1920",
+        "https://static.zara.net/assets/public/f145/2bc1/6bc6446690b5/9932402aa3dc/24880119996-e1/24880119996-e1.jpg?ts=1783434793570&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nAchieve a bronzed, luminous complexion with these bronzing drops. The lightweight, hydrating formula blends easily, leaving a natural glow that evens out skin tone and adds radiance to your face.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "80838c0dd02751ecb7984e219b2f3d039d22e086d6447590830478c1fea4f3a5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

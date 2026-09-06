@@ -1,0 +1,165 @@
+{
+  "product_id": "zara-us:44620005",
+  "source_url": "https://www.zara.com/us/en/kids--linen-and-cotton-striped-quilt-p44620005.html",
+  "final_url": "https://www.zara.com/us/en/kids--linen-and-cotton-striped-quilt-p44620005.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--linen-and-cotton-striped-quilt-p44620005.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' LINEN AND COTTON STRIPED QUILT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' LINEN AND COTTON STRIPED QUILT",
+      "url": "https://www.zara.com/us/en/kids--linen-and-cotton-striped-quilt-p44620005.html",
+      "productGroupID": "44620005",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' quilt made of linen and cotton. Features a contrasting striped design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d6a1/5787/27de46e28988/21c04f9cfafe/44620005701-e1/44620005701-e1.jpg?ts=1779882492448&w=1920",
+        "https://static.zara.net/assets/public/bb90/b702/09e94c3f9793/a02e13164014/44620005701-e2/44620005701-e2.jpg?ts=1779882488730&w=1920",
+        "https://static.zara.net/assets/public/fe4c/469c/03e9424586bb/4b9f73ff3c8c/44620005701-e3/44620005701-e3.jpg?ts=1779882489005&w=1920",
+        "https://static.zara.net/assets/public/ef31/8bca/435b4afea9c6/211a3adc6462/44620005701-e4/44620005701-e4.jpg?ts=1779882488901&w=1920",
+        "https://static.zara.net/assets/public/8288/7817/e802411f9be0/af662a00ce9a/44617005701-a1/44617005701-a1.jpg?ts=1780306366481&w=1920"
+      ],
+      "material": "linen/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "55% linen, 45% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' LINEN AND COTTON STRIPED QUILT - Brick - Stan.cot",
+          "sku": "551054769-701-40",
+          "mpn": "551054769-701-40",
+          "color": "Brick",
+          "size": "Stan.cot",
+          "image": [
+            "https://static.zara.net/assets/public/d6a1/5787/27de46e28988/21c04f9cfafe/44620005701-e1/44620005701-e1.jpg?ts=1779882492448&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/kids--linen-and-cotton-striped-quilt-p44620005.html?v1=551054769",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' LINEN AND COTTON STRIPED QUILT - Brick - Single",
+          "sku": "551054769-701-45",
+          "mpn": "551054769-701-45",
+          "color": "Brick",
+          "size": "Single",
+          "image": [
+            "https://static.zara.net/assets/public/d6a1/5787/27de46e28988/21c04f9cfafe/44620005701-e1/44620005701-e1.jpg?ts=1779882492448&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/kids--linen-and-cotton-striped-quilt-p44620005.html?v1=551054769",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' LINEN AND COTTON STRIPED QUILT",
+      "product_group_id": "44620005",
+      "brand": "ZARAHOME",
+      "description": "Kids' quilt made of linen and cotton. Features a contrasting striped design.",
+      "material": "linen/cotton",
+      "composition": "OUTER SHELL: 55% linen, 45% cotton | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' LINEN AND COTTON STRIPED QUILT - Brick - Stan.cot",
+          "sku": "551054769-701-40",
+          "mpn": "551054769-701-40",
+          "color_name": "Brick",
+          "size_name": "Stan.cot",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--linen-and-cotton-striped-quilt-p44620005.html?v1=551054769",
+          "images": [
+            "https://static.zara.net/assets/public/d6a1/5787/27de46e28988/21c04f9cfafe/44620005701-e1/44620005701-e1.jpg?ts=1779882492448&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' LINEN AND COTTON STRIPED QUILT - Brick - Single",
+          "sku": "551054769-701-45",
+          "mpn": "551054769-701-45",
+          "color_name": "Brick",
+          "size_name": "Single",
+          "price": "169.00",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--linen-and-cotton-striped-quilt-p44620005.html?v1=551054769",
+          "images": [
+            "https://static.zara.net/assets/public/d6a1/5787/27de46e28988/21c04f9cfafe/44620005701-e1/44620005701-e1.jpg?ts=1779882492448&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d6a1/5787/27de46e28988/21c04f9cfafe/44620005701-e1/44620005701-e1.jpg?ts=1779882492448&w=1920",
+        "https://static.zara.net/assets/public/bb90/b702/09e94c3f9793/a02e13164014/44620005701-e2/44620005701-e2.jpg?ts=1779882488730&w=1920",
+        "https://static.zara.net/assets/public/fe4c/469c/03e9424586bb/4b9f73ff3c8c/44620005701-e3/44620005701-e3.jpg?ts=1779882489005&w=1920",
+        "https://static.zara.net/assets/public/ef31/8bca/435b4afea9c6/211a3adc6462/44620005701-e4/44620005701-e4.jpg?ts=1779882488901&w=1920",
+        "https://static.zara.net/assets/public/8288/7817/e802411f9be0/af662a00ce9a/44617005701-a1/44617005701-a1.jpg?ts=1780306366481&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nKids' quilt made of linen and cotton. Features a contrasting striped design.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d2cd6c6e41da881325836a7d8f8e4ad7f907e9046d5c50fd7026ac29929837c2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

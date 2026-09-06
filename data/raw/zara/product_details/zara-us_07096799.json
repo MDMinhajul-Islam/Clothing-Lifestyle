@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:07096799",
+  "source_url": "https://www.zara.com/us/en/smileyworld---terrycloth-poncho-p07096799.html",
+  "final_url": "https://www.zara.com/us/en/smileyworld---terrycloth-poncho-p07096799.html",
+  "canonical_url": "https://www.zara.com/us/en/smileyworld---terrycloth-poncho-p07096799.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SMILEYWORLD ® TERRYCLOTH PONCHO",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SMILEYWORLD ® TERRYCLOTH PONCHO",
+      "url": "https://www.zara.com/us/en/smileyworld---terrycloth-poncho-p07096799.html",
+      "productGroupID": "07096799",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Terrycloth poncho with hoodie. Smileyworld ® print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/94ac/0ad7/210a42b19d9f/53d5d4af9920/07096799630-e1/07096799630-e1.jpg?ts=1780400658747&w=1920",
+        "https://static.zara.net/assets/public/81c5/ce07/fe144df08540/038f9f2a9295/07096799630-e2/07096799630-e2.jpg?ts=1780400658249&w=1920",
+        "https://static.zara.net/assets/public/b376/f5ad/2f9c4c1c8803/f069fbde0273/07096799630-e3/07096799630-e3.jpg?ts=1780400663044&w=1920",
+        "https://static.zara.net/assets/public/f288/aa57/0e21436389bb/534ad335900b/07096799630-e4/07096799630-e4.jpg?ts=1780400660715&w=1920",
+        "https://static.zara.net/assets/public/6906/93da/45714430be65/14bc9b8cbc43/07096799630100-p/07096799630100-p.jpg?ts=1781018668643&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SMILEYWORLD ® TERRYCLOTH PONCHO - Fuchsia - 6",
+          "sku": "545470797-630-6",
+          "mpn": "545470797-630-6",
+          "color": "Fuchsia",
+          "size": "6",
+          "image": [
+            "https://static.zara.net/assets/public/94ac/0ad7/210a42b19d9f/53d5d4af9920/07096799630-e1/07096799630-e1.jpg?ts=1780400658747&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/smileyworld---terrycloth-poncho-p07096799.html?v1=545470797",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SMILEYWORLD ® TERRYCLOTH PONCHO - Fuchsia - 9",
+          "sku": "545470797-630-9",
+          "mpn": "545470797-630-9",
+          "color": "Fuchsia",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/94ac/0ad7/210a42b19d9f/53d5d4af9920/07096799630-e1/07096799630-e1.jpg?ts=1780400658747&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/smileyworld---terrycloth-poncho-p07096799.html?v1=545470797",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SMILEYWORLD ® TERRYCLOTH PONCHO",
+      "product_group_id": "07096799",
+      "brand": "ZARA",
+      "description": "Terrycloth poncho with hoodie. Smileyworld ® print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SMILEYWORLD ® TERRYCLOTH PONCHO - Fuchsia - 6",
+          "sku": "545470797-630-6",
+          "mpn": "545470797-630-6",
+          "color_name": "Fuchsia",
+          "size_name": "6",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/smileyworld---terrycloth-poncho-p07096799.html?v1=545470797",
+          "images": [
+            "https://static.zara.net/assets/public/94ac/0ad7/210a42b19d9f/53d5d4af9920/07096799630-e1/07096799630-e1.jpg?ts=1780400658747&w=1920"
+          ]
+        },
+        {
+          "name": "SMILEYWORLD ® TERRYCLOTH PONCHO - Fuchsia - 9",
+          "sku": "545470797-630-9",
+          "mpn": "545470797-630-9",
+          "color_name": "Fuchsia",
+          "size_name": "9",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/smileyworld---terrycloth-poncho-p07096799.html?v1=545470797",
+          "images": [
+            "https://static.zara.net/assets/public/94ac/0ad7/210a42b19d9f/53d5d4af9920/07096799630-e1/07096799630-e1.jpg?ts=1780400658747&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/94ac/0ad7/210a42b19d9f/53d5d4af9920/07096799630-e1/07096799630-e1.jpg?ts=1780400658747&w=1920",
+        "https://static.zara.net/assets/public/81c5/ce07/fe144df08540/038f9f2a9295/07096799630-e2/07096799630-e2.jpg?ts=1780400658249&w=1920",
+        "https://static.zara.net/assets/public/b376/f5ad/2f9c4c1c8803/f069fbde0273/07096799630-e3/07096799630-e3.jpg?ts=1780400663044&w=1920",
+        "https://static.zara.net/assets/public/f288/aa57/0e21436389bb/534ad335900b/07096799630-e4/07096799630-e4.jpg?ts=1780400660715&w=1920",
+        "https://static.zara.net/assets/public/6906/93da/45714430be65/14bc9b8cbc43/07096799630100-p/07096799630100-p.jpg?ts=1781018668643&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nTerrycloth poncho with hoodie. Smileyworld ® print.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a065dea5b152e538d09a8b69f06fc5150091caf38b7f51155951c769077fb2f3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

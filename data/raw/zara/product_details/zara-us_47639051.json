@@ -1,0 +1,133 @@
+{
+  "product_id": "zara-us:47639051",
+  "source_url": "https://www.zara.com/us/en/kids--duckling-blanket-toy-p47639051.html",
+  "final_url": "https://www.zara.com/us/en/kids--duckling-blanket-toy-p47639051.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--duckling-blanket-toy-p47639051.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' DUCKLING BLANKET TOY",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' DUCKLING BLANKET TOY",
+      "url": "https://www.zara.com/us/en/kids--duckling-blanket-toy-p47639051.html",
+      "productGroupID": "47639051",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' cuddly soft cloth toy with a duckling head.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/788c/2c26/3d254763914e/36349c664385/47639051300-e1/47639051300-e1.jpg?ts=1788269742734&w=1920",
+        "https://static.zara.net/assets/public/01e8/e7e3/7a044244917c/74d93b390fe5/47639051300-e2/47639051300-e2.jpg?ts=1788269742463&w=1920",
+        "https://static.zara.net/assets/public/d752/ed52/bbc04d16ade5/189b6ae56bbb/47639051300-e3/47639051300-e3.jpg?ts=1788269742373&w=1920",
+        "https://static.zara.net/assets/public/b2aa/4f46/a55f4665962c/00abc9f8152f/47639051300-e4/47639051300-e4.jpg?ts=1788269742693&w=1920",
+        "https://static.zara.net/assets/public/0d5e/f714/2baa4330907d/2cb40cffd5f2/47639051300-a1/47639051300-a1.jpg?ts=1788187007579&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' DUCKLING BLANKET TOY - Yellow - ONE SIZE ONLY",
+          "sku": "551526156-300-99",
+          "mpn": "551526156-300-99",
+          "color": "Yellow",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/788c/2c26/3d254763914e/36349c664385/47639051300-e1/47639051300-e1.jpg?ts=1788269742734&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--duckling-blanket-toy-p47639051.html?v1=551526156",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' DUCKLING BLANKET TOY",
+      "product_group_id": "47639051",
+      "brand": "ZARAHOME",
+      "description": "Kids' cuddly soft cloth toy with a duckling head.",
+      "material": null,
+      "composition": "FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' DUCKLING BLANKET TOY - Yellow - ONE SIZE ONLY",
+          "sku": "551526156-300-99",
+          "mpn": "551526156-300-99",
+          "color_name": "Yellow",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--duckling-blanket-toy-p47639051.html?v1=551526156",
+          "images": [
+            "https://static.zara.net/assets/public/788c/2c26/3d254763914e/36349c664385/47639051300-e1/47639051300-e1.jpg?ts=1788269742734&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/788c/2c26/3d254763914e/36349c664385/47639051300-e1/47639051300-e1.jpg?ts=1788269742734&w=1920",
+        "https://static.zara.net/assets/public/01e8/e7e3/7a044244917c/74d93b390fe5/47639051300-e2/47639051300-e2.jpg?ts=1788269742463&w=1920",
+        "https://static.zara.net/assets/public/d752/ed52/bbc04d16ade5/189b6ae56bbb/47639051300-e3/47639051300-e3.jpg?ts=1788269742373&w=1920",
+        "https://static.zara.net/assets/public/b2aa/4f46/a55f4665962c/00abc9f8152f/47639051300-e4/47639051300-e4.jpg?ts=1788269742693&w=1920",
+        "https://static.zara.net/assets/public/0d5e/f714/2baa4330907d/2cb40cffd5f2/47639051300-a1/47639051300-a1.jpg?ts=1788187007579&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' cuddly soft cloth toy with a duckling head.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "83a8b712744c66c0aae4547b2b0a3acf0b9bb31c124850de0452fd3e1c298dc7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:42650728",
+  "source_url": "https://www.zara.com/us/en/kids--space-stickers-p42650728.html",
+  "final_url": "https://www.zara.com/us/en/kids--space-stickers-p42650728.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--space-stickers-p42650728.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' SPACE STICKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' SPACE STICKERS",
+      "url": "https://www.zara.com/us/en/kids--space-stickers-p42650728.html",
+      "productGroupID": "42650728",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' stickers featuring space-themed designs. Contains 60 stickers.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/60e3/43ff/57764d789278/be150ee17117/42650728999-e1/42650728999-e1.jpg?ts=1781173480789&w=1920",
+        "https://static.zara.net/assets/public/5faa/6333/606844718e2e/c838e8aaef97/42650728999-e2/42650728999-e2.jpg?ts=1781173480895&w=1920",
+        "https://static.zara.net/assets/public/9eef/f0e7/60a54ba1be0f/e4ae5f1f5528/42650728999-e3/42650728999-e3.jpg?ts=1781173480744&w=1920",
+        "https://static.zara.net/assets/public/9a68/a597/164c48ffbc59/e05565f5ad52/42650728999-e4/42650728999-e4.jpg?ts=1781173480391&w=1920",
+        "https://static.zara.net/assets/public/08c3/9e12/17d94b51bf24/b87da20c0565/42650728999-a1/42650728999-a1.jpg?ts=1781254991707&w=1920"
+      ],
+      "material": "100% paper",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% paper"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' SPACE STICKERS - Multicolored - ONE SIZE ONLY",
+          "sku": "545412742-999-99",
+          "mpn": "545412742-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/60e3/43ff/57764d789278/be150ee17117/42650728999-e1/42650728999-e1.jpg?ts=1781173480789&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "11.9",
+            "url": "https://www.zara.com/us/en/kids--space-stickers-p42650728.html?v1=545412742",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' SPACE STICKERS",
+      "product_group_id": "42650728",
+      "brand": "ZARAHOME",
+      "description": "Kids' stickers featuring space-themed designs. Contains 60 stickers.",
+      "material": "100% paper",
+      "composition": "OUTER SHELL: 100% paper",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' SPACE STICKERS - Multicolored - ONE SIZE ONLY",
+          "sku": "545412742-999-99",
+          "mpn": "545412742-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "11.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--space-stickers-p42650728.html?v1=545412742",
+          "images": [
+            "https://static.zara.net/assets/public/60e3/43ff/57764d789278/be150ee17117/42650728999-e1/42650728999-e1.jpg?ts=1781173480789&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/60e3/43ff/57764d789278/be150ee17117/42650728999-e1/42650728999-e1.jpg?ts=1781173480789&w=1920",
+        "https://static.zara.net/assets/public/5faa/6333/606844718e2e/c838e8aaef97/42650728999-e2/42650728999-e2.jpg?ts=1781173480895&w=1920",
+        "https://static.zara.net/assets/public/9eef/f0e7/60a54ba1be0f/e4ae5f1f5528/42650728999-e3/42650728999-e3.jpg?ts=1781173480744&w=1920",
+        "https://static.zara.net/assets/public/9a68/a597/164c48ffbc59/e05565f5ad52/42650728999-e4/42650728999-e4.jpg?ts=1781173480391&w=1920",
+        "https://static.zara.net/assets/public/08c3/9e12/17d94b51bf24/b87da20c0565/42650728999-a1/42650728999-a1.jpg?ts=1781254991707&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "11.90",
+  "rendered_description": "Description\nKids' stickers featuring space-themed designs. Contains 60 stickers.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "11.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "11.90",
+    "dom_price": "11.90",
+    "normalized_price": "11.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4b771329bb1964b0328a7994980f195fe01f8217d5755be9cd83c5f16df838f2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,185 @@
+{
+  "product_id": "zara-us:24220108",
+  "source_url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html",
+  "final_url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html",
+  "canonical_url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LIQUID EYE SHADOW",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LIQUID EYE SHADOW",
+      "url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html",
+      "productGroupID": "24220108",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A high-intensity liquid shimmer. Its formula, loaded with glitter and vibrant color, glides on easily thanks to its precision applicator, revealing a radiant, even, and high-impact finish with every application.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ab3e/528d/2b7e4d3f98e7/08b995252a7f/24220109464-e1/24220109464-e1.jpg?ts=1764780166752&w=1920",
+        "https://static.zara.net/assets/public/55a6/5441/f62d4829af9c/d01d55539b98/24220109464-p/24220109464-p.jpg?ts=1764692665229&w=1920",
+        "https://static.zara.net/assets/public/3bb3/ba63/ba9e432bbb45/e933a1441bf1/24220109464-a1/24220109464-a1.jpg?ts=1764692665245&w=1920",
+        "https://static.zara.net/assets/public/5c7f/b066/ad9c4c85948b/34846d7e19c2/24220109464-e1/24220109464-e1.jpg?ts=1764780166906&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LIQUID EYE SHADOW - Darkest Purple - ONE SIZE ONLY",
+          "sku": "559657581-464-99",
+          "mpn": "559657581-464-99",
+          "color": "Darkest Purple",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ab3e/528d/2b7e4d3f98e7/08b995252a7f/24220109464-e1/24220109464-e1.jpg?ts=1764780166752&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html?v1=559657580",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIQUID EYE SHADOW - Darkest Blue - ONE SIZE ONLY",
+          "sku": "559657581-490-99",
+          "mpn": "559657581-490-99",
+          "color": "Darkest Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d49e/3b59/3f0d420a934c/a06953f11bc1/24220108490-e1/24220108490-e1.jpg?ts=1764780167302&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html?v1=557361023",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LIQUID EYE SHADOW - Pink - ONE SIZE ONLY",
+          "sku": "559657581-314-99",
+          "mpn": "559657581-314-99",
+          "color": "Pink",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/6571/eb82/1abe4865bf59/d8c371e40ff3/24280200314-e1/24280200314-e1.jpg?ts=1764334840905&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html?v1=559657581",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LIQUID EYE SHADOW",
+      "product_group_id": "24220108",
+      "brand": "ZARA",
+      "description": "A high-intensity liquid shimmer. Its formula, loaded with glitter and vibrant color, glides on easily thanks to its precision applicator, revealing a radiant, even, and high-impact finish with every application.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LIQUID EYE SHADOW - Darkest Purple - ONE SIZE ONLY",
+          "sku": "559657581-464-99",
+          "mpn": "559657581-464-99",
+          "color_name": "Darkest Purple",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html?v1=559657580",
+          "images": [
+            "https://static.zara.net/assets/public/ab3e/528d/2b7e4d3f98e7/08b995252a7f/24220109464-e1/24220109464-e1.jpg?ts=1764780166752&w=1920"
+          ]
+        },
+        {
+          "name": "LIQUID EYE SHADOW - Darkest Blue - ONE SIZE ONLY",
+          "sku": "559657581-490-99",
+          "mpn": "559657581-490-99",
+          "color_name": "Darkest Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html?v1=557361023",
+          "images": [
+            "https://static.zara.net/assets/public/d49e/3b59/3f0d420a934c/a06953f11bc1/24220108490-e1/24220108490-e1.jpg?ts=1764780167302&w=1920"
+          ]
+        },
+        {
+          "name": "LIQUID EYE SHADOW - Pink - ONE SIZE ONLY",
+          "sku": "559657581-314-99",
+          "mpn": "559657581-314-99",
+          "color_name": "Pink",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/liquid-eye-shadow-p24220108.html?v1=559657581",
+          "images": [
+            "https://static.zara.net/assets/public/6571/eb82/1abe4865bf59/d8c371e40ff3/24280200314-e1/24280200314-e1.jpg?ts=1764334840905&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ab3e/528d/2b7e4d3f98e7/08b995252a7f/24220109464-e1/24220109464-e1.jpg?ts=1764780166752&w=1920",
+        "https://static.zara.net/assets/public/55a6/5441/f62d4829af9c/d01d55539b98/24220109464-p/24220109464-p.jpg?ts=1764692665229&w=1920",
+        "https://static.zara.net/assets/public/3bb3/ba63/ba9e432bbb45/e933a1441bf1/24220109464-a1/24220109464-a1.jpg?ts=1764692665245&w=1920",
+        "https://static.zara.net/assets/public/5c7f/b066/ad9c4c85948b/34846d7e19c2/24220109464-e1/24220109464-e1.jpg?ts=1764780166906&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Darkest Purple",
+    "Darkest Blue",
+    "Pink"
+  ],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nA high-intensity liquid shimmer. Its formula, loaded with glitter and vibrant color, glides on easily thanks to its precision applicator, revealing a radiant, even, and high-impact finish with every application.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 6,
+  "variants_count": 3,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fec737bde21a64c987fed5bfd9d3e621d514c57860c59b29b1ba7dfa9a08d32b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

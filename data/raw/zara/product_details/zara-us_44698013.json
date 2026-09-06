@@ -1,0 +1,160 @@
+{
+  "product_id": "zara-us:44698013",
+  "source_url": "https://www.zara.com/us/en/kids-mice-towel-p44698013.html",
+  "final_url": "https://www.zara.com/us/en/kids-mice-towel-p44698013.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-mice-towel-p44698013.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS MICE TOWEL",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS MICE TOWEL",
+      "url": "https://www.zara.com/us/en/kids-mice-towel-p44698013.html",
+      "productGroupID": "44698013",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids towel made of cotton terry. Design with two embroidered mice on the side.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3622/d185/6aac49e5a4dd/95de31e54c5b/44698013052-e1/44698013052-e1.jpg?ts=1774283438221&w=1920",
+        "https://static.zara.net/assets/public/d100/61cb/71f742a581c8/ab266a6c7195/44698013052-e2/44698013052-e2.jpg?ts=1774283437021&w=1920",
+        "https://static.zara.net/assets/public/2b9b/f601/ccc04cc5823e/00c6bf1356b7/44698013052-e3/44698013052-e3.jpg?ts=1774283437138&w=1920",
+        "https://static.zara.net/assets/public/4367/47f9/30cc44ca8b49/d3ac03e070ab/44698013052-e4/44698013052-e4.jpg?ts=1774283437585&w=1920",
+        "https://static.zara.net/assets/public/7358/1ad9/67d44973bb45/298d30de4a01/44698013052-a1/44698013052-a1.jpg?ts=1774349327818&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS MICE TOWEL - Light beige - Hand towel",
+          "sku": "547823413-052-35",
+          "mpn": "547823413-052-35",
+          "color": "Light beige",
+          "size": "Hand towel",
+          "image": [
+            "https://static.zara.net/assets/public/3622/d185/6aac49e5a4dd/95de31e54c5b/44698013052-e1/44698013052-e1.jpg?ts=1774283438221&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/kids-mice-towel-p44698013.html?v1=547823413",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS MICE TOWEL - Light beige - Shower towel",
+          "sku": "547823413-052-38",
+          "mpn": "547823413-052-38",
+          "color": "Light beige",
+          "size": "Shower towel",
+          "image": [
+            "https://static.zara.net/assets/public/3622/d185/6aac49e5a4dd/95de31e54c5b/44698013052-e1/44698013052-e1.jpg?ts=1774283438221&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/kids-mice-towel-p44698013.html?v1=547823413",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS MICE TOWEL",
+      "product_group_id": "44698013",
+      "brand": "ZARAHOME",
+      "description": "Kids towel made of cotton terry. Design with two embroidered mice on the side.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS MICE TOWEL - Light beige - Hand towel",
+          "sku": "547823413-052-35",
+          "mpn": "547823413-052-35",
+          "color_name": "Light beige",
+          "size_name": "Hand towel",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-mice-towel-p44698013.html?v1=547823413",
+          "images": [
+            "https://static.zara.net/assets/public/3622/d185/6aac49e5a4dd/95de31e54c5b/44698013052-e1/44698013052-e1.jpg?ts=1774283438221&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS MICE TOWEL - Light beige - Shower towel",
+          "sku": "547823413-052-38",
+          "mpn": "547823413-052-38",
+          "color_name": "Light beige",
+          "size_name": "Shower towel",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-mice-towel-p44698013.html?v1=547823413",
+          "images": [
+            "https://static.zara.net/assets/public/3622/d185/6aac49e5a4dd/95de31e54c5b/44698013052-e1/44698013052-e1.jpg?ts=1774283438221&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3622/d185/6aac49e5a4dd/95de31e54c5b/44698013052-e1/44698013052-e1.jpg?ts=1774283438221&w=1920",
+        "https://static.zara.net/assets/public/d100/61cb/71f742a581c8/ab266a6c7195/44698013052-e2/44698013052-e2.jpg?ts=1774283437021&w=1920",
+        "https://static.zara.net/assets/public/2b9b/f601/ccc04cc5823e/00c6bf1356b7/44698013052-e3/44698013052-e3.jpg?ts=1774283437138&w=1920",
+        "https://static.zara.net/assets/public/4367/47f9/30cc44ca8b49/d3ac03e070ab/44698013052-e4/44698013052-e4.jpg?ts=1774283437585&w=1920",
+        "https://static.zara.net/assets/public/7358/1ad9/67d44973bb45/298d30de4a01/44698013052-a1/44698013052-a1.jpg?ts=1774349327818&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nKids towel made of cotton terry. Design with two embroidered mice on the side.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d1d5cdc50528c5fc29273301de503d3e4e159ddd14a234cdb526281906bb4eda",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

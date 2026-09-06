@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:46602529",
+  "source_url": "https://www.zara.com/us/en/baby-striped-footed-romper-p46602529.html",
+  "final_url": "https://www.zara.com/us/en/baby-striped-footed-romper-p46602529.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-striped-footed-romper-p46602529.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY STRIPED FOOTED ROMPER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY STRIPED FOOTED ROMPER",
+      "url": "https://www.zara.com/us/en/baby-striped-footed-romper-p46602529.html",
+      "productGroupID": "46602529",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby's long-sleeve striped footed romper with button fastening.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d6b8/ff8a/b1e544329d59/43d39dc944a0/46602529400-e1/46602529400-e1.jpg?ts=1784199935290&w=1920",
+        "https://static.zara.net/assets/public/2438/13ef/93a44d4588fa/6d210eff9183/46602529400-e2/46602529400-e2.jpg?ts=1784199936936&w=1920",
+        "https://static.zara.net/assets/public/e73b/2365/44e844ffac82/c4635e70afd2/46602529400-e3/46602529400-e3.jpg?ts=1784199936184&w=1920",
+        "https://static.zara.net/assets/public/db4a/0696/0dea41c5805b/47537d3dc92b/46602529400-e4/46602529400-e4.jpg?ts=1784199936614&w=1920",
+        "https://static.zara.net/assets/public/1ff8/8ce8/2a204eed979e/be25b6b7b31a/46602529400-a1/46602529400-a1.jpg?ts=1782392157024&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY STRIPED FOOTED ROMPER - Blue - 62 cm",
+          "sku": "545436327-400-13",
+          "mpn": "545436327-400-13",
+          "color": "Blue",
+          "size": "62 cm",
+          "image": [
+            "https://static.zara.net/assets/public/d6b8/ff8a/b1e544329d59/43d39dc944a0/46602529400-e1/46602529400-e1.jpg?ts=1784199935290&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/baby-striped-footed-romper-p46602529.html?v1=545436327",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BABY STRIPED FOOTED ROMPER - Blue - 68 cm",
+          "sku": "545436327-400-36",
+          "mpn": "545436327-400-36",
+          "color": "Blue",
+          "size": "68 cm",
+          "image": [
+            "https://static.zara.net/assets/public/d6b8/ff8a/b1e544329d59/43d39dc944a0/46602529400-e1/46602529400-e1.jpg?ts=1784199935290&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/baby-striped-footed-romper-p46602529.html?v1=545436327",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY STRIPED FOOTED ROMPER",
+      "product_group_id": "46602529",
+      "brand": "ZARAHOME",
+      "description": "Baby's long-sleeve striped footed romper with button fastening.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY STRIPED FOOTED ROMPER - Blue - 62 cm",
+          "sku": "545436327-400-13",
+          "mpn": "545436327-400-13",
+          "color_name": "Blue",
+          "size_name": "62 cm",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-striped-footed-romper-p46602529.html?v1=545436327",
+          "images": [
+            "https://static.zara.net/assets/public/d6b8/ff8a/b1e544329d59/43d39dc944a0/46602529400-e1/46602529400-e1.jpg?ts=1784199935290&w=1920"
+          ]
+        },
+        {
+          "name": "BABY STRIPED FOOTED ROMPER - Blue - 68 cm",
+          "sku": "545436327-400-36",
+          "mpn": "545436327-400-36",
+          "color_name": "Blue",
+          "size_name": "68 cm",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-striped-footed-romper-p46602529.html?v1=545436327",
+          "images": [
+            "https://static.zara.net/assets/public/d6b8/ff8a/b1e544329d59/43d39dc944a0/46602529400-e1/46602529400-e1.jpg?ts=1784199935290&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d6b8/ff8a/b1e544329d59/43d39dc944a0/46602529400-e1/46602529400-e1.jpg?ts=1784199935290&w=1920",
+        "https://static.zara.net/assets/public/2438/13ef/93a44d4588fa/6d210eff9183/46602529400-e2/46602529400-e2.jpg?ts=1784199936936&w=1920",
+        "https://static.zara.net/assets/public/e73b/2365/44e844ffac82/c4635e70afd2/46602529400-e3/46602529400-e3.jpg?ts=1784199936184&w=1920",
+        "https://static.zara.net/assets/public/db4a/0696/0dea41c5805b/47537d3dc92b/46602529400-e4/46602529400-e4.jpg?ts=1784199936614&w=1920",
+        "https://static.zara.net/assets/public/1ff8/8ce8/2a204eed979e/be25b6b7b31a/46602529400-a1/46602529400-a1.jpg?ts=1782392157024&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nBaby's long-sleeve striped footed romper with button fastening.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bc57d29b9499fac5bf686687345abee7b2fd01aef4090ebec6cc553befb06120",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

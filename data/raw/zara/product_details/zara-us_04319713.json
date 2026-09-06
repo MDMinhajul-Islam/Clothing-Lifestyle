@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04319713",
+  "source_url": "https://www.zara.com/us/en/four-pack-of-flower-and-heart-rings-p04319713.html",
+  "final_url": "https://www.zara.com/us/en/four-pack-of-flower-and-heart-rings-p04319713.html",
+  "canonical_url": "https://www.zara.com/us/en/four-pack-of-flower-and-heart-rings-p04319713.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FOUR-PACK OF FLOWER AND HEART RINGS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FOUR-PACK OF FLOWER AND HEART RINGS",
+      "url": "https://www.zara.com/us/en/four-pack-of-flower-and-heart-rings-p04319713.html",
+      "productGroupID": "04319713",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of four rings with flower and heart appliqués.\nContains small parts, not suitable for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1044/b6d2/1d364cf686ee/4a2e97893d67/04319713303-e1/04319713303-e1.jpg?ts=1784538601586&w=1920",
+        "https://static.zara.net/assets/public/31f3/6512/3f234262b28a/757696d2791d/04319713303-e2/04319713303-e2.jpg?ts=1784538601597&w=1920",
+        "https://static.zara.net/assets/public/6a59/200e/b9944dc883ae/6531efa01d5d/04319713303-e3/04319713303-e3.jpg?ts=1784538603306&w=1920",
+        "https://static.zara.net/assets/public/1929/1e36/560445c98a75/9270fafacda9/04319713303-e5/04319713303-e5.jpg?ts=1784538601459&w=1920"
+      ],
+      "material": "zinc/resin",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "95% zinc, 5% resin"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK OF FLOWER AND HEART RINGS - Golden - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "554917227-303-14",
+          "mpn": "554917227-303-14",
+          "color": "Golden",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1044/b6d2/1d364cf686ee/4a2e97893d67/04319713303-e1/04319713303-e1.jpg?ts=1784538601586&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/four-pack-of-flower-and-heart-rings-p04319713.html?v1=554917227",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FOUR-PACK OF FLOWER AND HEART RINGS",
+      "product_group_id": "04319713",
+      "brand": "ZARA",
+      "description": "Pack of four rings with flower and heart appliqués.\nContains small parts, not suitable for children under 3 years old.",
+      "material": "zinc/resin",
+      "composition": "OUTER SHELL: 95% zinc, 5% resin",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FOUR-PACK OF FLOWER AND HEART RINGS - Golden - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "554917227-303-14",
+          "mpn": "554917227-303-14",
+          "color_name": "Golden",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-of-flower-and-heart-rings-p04319713.html?v1=554917227",
+          "images": [
+            "https://static.zara.net/assets/public/1044/b6d2/1d364cf686ee/4a2e97893d67/04319713303-e1/04319713303-e1.jpg?ts=1784538601586&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1044/b6d2/1d364cf686ee/4a2e97893d67/04319713303-e1/04319713303-e1.jpg?ts=1784538601586&w=1920",
+        "https://static.zara.net/assets/public/31f3/6512/3f234262b28a/757696d2791d/04319713303-e2/04319713303-e2.jpg?ts=1784538601597&w=1920",
+        "https://static.zara.net/assets/public/6a59/200e/b9944dc883ae/6531efa01d5d/04319713303-e3/04319713303-e3.jpg?ts=1784538603306&w=1920",
+        "https://static.zara.net/assets/public/1929/1e36/560445c98a75/9270fafacda9/04319713303-e5/04319713303-e5.jpg?ts=1784538601459&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nPack of four rings with flower and heart appliqués.\nContains small parts, not suitable for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "eea8a9c1203b2bed1a5a1c74506bf38a677a03b880e0721479519ba41cae40cd",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

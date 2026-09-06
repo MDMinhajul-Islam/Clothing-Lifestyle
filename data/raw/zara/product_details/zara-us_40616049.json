@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:40616049",
+  "source_url": "https://www.zara.com/us/en/rattan-changing-basket-p40616049.html",
+  "final_url": "https://www.zara.com/us/en/rattan-changing-basket-p40616049.html",
+  "canonical_url": "https://www.zara.com/us/en/rattan-changing-basket-p40616049.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RATTAN CHANGING BASKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RATTAN CHANGING BASKET",
+      "url": "https://www.zara.com/us/en/rattan-changing-basket-p40616049.html",
+      "productGroupID": "40616049",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Rattan changing basket with a washable cotton cover. Mattress not included.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9e21/638f/ef0c431f8558/e472581f6d1c/40616049700-e1/40616049700-e1.jpg?ts=1774367513281&w=1920",
+        "https://static.zara.net/assets/public/80aa/e8c0/c6254218af36/7f243537d33c/40616049700-e2/40616049700-e2.jpg?ts=1774367508409&w=1920",
+        "https://static.zara.net/assets/public/2daa/343e/801c4c619598/1e2d80a0e796/40616049700-e3/40616049700-e3.jpg?ts=1774367513149&w=1920",
+        "https://static.zara.net/assets/public/c8be/c121/3fbf4050bc03/d9a85fe262da/40616049700-e4/40616049700-e4.jpg?ts=1774367513848&w=1920",
+        "https://static.zara.net/assets/public/885c/9d64/ae2a46449b51/d811dcc9304f/40616049700-a1/40616049700-a1.jpg?ts=1774365996251&w=1920"
+      ],
+      "material": "rattan/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "90% rattan, 10% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RATTAN CHANGING BASKET - Brown - ONE SIZE ONLY",
+          "sku": "545412855-700-99",
+          "mpn": "545412855-700-99",
+          "color": "Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/9e21/638f/ef0c431f8558/e472581f6d1c/40616049700-e1/40616049700-e1.jpg?ts=1774367513281&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/rattan-changing-basket-p40616049.html?v1=545412855",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RATTAN CHANGING BASKET",
+      "product_group_id": "40616049",
+      "brand": "ZARAHOME",
+      "description": "Rattan changing basket with a washable cotton cover. Mattress not included.",
+      "material": "rattan/cotton",
+      "composition": "OUTER SHELL: 90% rattan, 10% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RATTAN CHANGING BASKET - Brown - ONE SIZE ONLY",
+          "sku": "545412855-700-99",
+          "mpn": "545412855-700-99",
+          "color_name": "Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rattan-changing-basket-p40616049.html?v1=545412855",
+          "images": [
+            "https://static.zara.net/assets/public/9e21/638f/ef0c431f8558/e472581f6d1c/40616049700-e1/40616049700-e1.jpg?ts=1774367513281&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9e21/638f/ef0c431f8558/e472581f6d1c/40616049700-e1/40616049700-e1.jpg?ts=1774367513281&w=1920",
+        "https://static.zara.net/assets/public/80aa/e8c0/c6254218af36/7f243537d33c/40616049700-e2/40616049700-e2.jpg?ts=1774367508409&w=1920",
+        "https://static.zara.net/assets/public/2daa/343e/801c4c619598/1e2d80a0e796/40616049700-e3/40616049700-e3.jpg?ts=1774367513149&w=1920",
+        "https://static.zara.net/assets/public/c8be/c121/3fbf4050bc03/d9a85fe262da/40616049700-e4/40616049700-e4.jpg?ts=1774367513848&w=1920",
+        "https://static.zara.net/assets/public/885c/9d64/ae2a46449b51/d811dcc9304f/40616049700-a1/40616049700-a1.jpg?ts=1774365996251&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "129.00",
+  "rendered_description": "Description\nRattan changing basket with a washable cotton cover. Mattress not included.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "129.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "129.00",
+    "dom_price": "129.00",
+    "normalized_price": "129.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1c4503b8c90171dbce9a60f895bc57852891c592b092ec124f50d7f813a12eea",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

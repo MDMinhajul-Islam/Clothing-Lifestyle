@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:44698423",
+  "source_url": "https://www.zara.com/us/en/kids-mice-hooded-bath-towel-p44698423.html",
+  "final_url": "https://www.zara.com/us/en/kids-mice-hooded-bath-towel-p44698423.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-mice-hooded-bath-towel-p44698423.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS MICE HOODED BATH TOWEL",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS MICE HOODED BATH TOWEL",
+      "url": "https://www.zara.com/us/en/kids-mice-hooded-bath-towel-p44698423.html",
+      "productGroupID": "44698423",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids hooded bath towel made of cotton terry. Design with two embroidered mice on the hood.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d101/7ef0/1c414a219910/7467fd43319d/44698423052-e1/44698423052-e1.jpg?ts=1774283443051&w=1920",
+        "https://static.zara.net/assets/public/4f9c/5294/42a64cd7a823/1d26d6ac3606/44698423052-e2/44698423052-e2.jpg?ts=1774283437749&w=1920",
+        "https://static.zara.net/assets/public/cea5/3cd2/b85642dcbd83/e8ad555ad512/44698423052-e3/44698423052-e3.jpg?ts=1774283443044&w=1920",
+        "https://static.zara.net/assets/public/711a/ae29/280f44d58222/7a676dc0c313/44698423052-e4/44698423052-e4.jpg?ts=1774283443146&w=1920",
+        "https://static.zara.net/assets/public/abcb/026e/385c4c4c9f87/76b78743a61a/44698423052-a1/44698423052-a1.jpg?ts=1774349327922&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS MICE HOODED BATH TOWEL - Light beige - Children's towel with hood",
+          "sku": "550855248-052-49",
+          "mpn": "550855248-052-49",
+          "color": "Light beige",
+          "size": "Children's towel with hood",
+          "image": [
+            "https://static.zara.net/assets/public/d101/7ef0/1c414a219910/7467fd43319d/44698423052-e1/44698423052-e1.jpg?ts=1774283443051&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/kids-mice-hooded-bath-towel-p44698423.html?v1=550855248",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS MICE HOODED BATH TOWEL",
+      "product_group_id": "44698423",
+      "brand": "ZARAHOME",
+      "description": "Kids hooded bath towel made of cotton terry. Design with two embroidered mice on the hood.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS MICE HOODED BATH TOWEL - Light beige - Children's towel with hood",
+          "sku": "550855248-052-49",
+          "mpn": "550855248-052-49",
+          "color_name": "Light beige",
+          "size_name": "Children's towel with hood",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-mice-hooded-bath-towel-p44698423.html?v1=550855248",
+          "images": [
+            "https://static.zara.net/assets/public/d101/7ef0/1c414a219910/7467fd43319d/44698423052-e1/44698423052-e1.jpg?ts=1774283443051&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d101/7ef0/1c414a219910/7467fd43319d/44698423052-e1/44698423052-e1.jpg?ts=1774283443051&w=1920",
+        "https://static.zara.net/assets/public/4f9c/5294/42a64cd7a823/1d26d6ac3606/44698423052-e2/44698423052-e2.jpg?ts=1774283437749&w=1920",
+        "https://static.zara.net/assets/public/cea5/3cd2/b85642dcbd83/e8ad555ad512/44698423052-e3/44698423052-e3.jpg?ts=1774283443044&w=1920",
+        "https://static.zara.net/assets/public/711a/ae29/280f44d58222/7a676dc0c313/44698423052-e4/44698423052-e4.jpg?ts=1774283443146&w=1920",
+        "https://static.zara.net/assets/public/abcb/026e/385c4c4c9f87/76b78743a61a/44698423052-a1/44698423052-a1.jpg?ts=1774349327922&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nKids hooded bath towel made of cotton terry. Design with two embroidered mice on the hood.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "150d0f342a54e6b45dca38c32105a982e151a37440d8293cf7768e6a823a9f7c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

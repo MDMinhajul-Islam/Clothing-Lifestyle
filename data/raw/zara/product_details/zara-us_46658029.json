@@ -1,0 +1,160 @@
+{
+  "product_id": "zara-us:46658029",
+  "source_url": "https://www.zara.com/us/en/wool-area-rug-p46658029.html",
+  "final_url": "https://www.zara.com/us/en/wool-area-rug-p46658029.html",
+  "canonical_url": "https://www.zara.com/us/en/wool-area-rug-p46658029.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WOOL AREA RUG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WOOL AREA RUG",
+      "url": "https://www.zara.com/us/en/wool-area-rug-p46658029.html",
+      "productGroupID": "46658029",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Wool area rug with a color block design and contrasting fringe at the ends.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9b14/1844/9e324bc9a483/bcf75a8f8f4a/46658029052-e1/46658029052-e1.jpg?ts=1725432673061&w=1920",
+        "https://static.zara.net/assets/public/d319/e4c7/60504491bd98/66fa031ab673/46658029052-e2/46658029052-e2.jpg?ts=1725432672889&w=1920",
+        "https://static.zara.net/assets/public/dbcc/5eca/cb7a4ec7ad6b/d0d22443cdee/46658029052-e3/46658029052-e3.jpg?ts=1725432670426&w=1920",
+        "https://static.zara.net/assets/public/9289/9a2c/e1954299b27d/a0093fdeca7c/46658029052-e4/46658029052-e4.jpg?ts=1725432677948&w=1920",
+        "https://static.zara.net/assets/public/e969/863e/2eb64c32bbd1/363051cd759d/46658029052-e5/46658029052-e5.jpg?ts=1725432678452&w=1920",
+        "https://static.zara.net/assets/public/e222/a11c/32fb45cbb351/a976a9a000df/46658029052-a1/46658029052-a1.jpg?ts=1781601352176&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WOOL AREA RUG - Light beige - 35,5 x 59 \"",
+          "sku": "545400695-052-90",
+          "mpn": "545400695-052-90",
+          "color": "Light beige",
+          "size": "35,5 x 59 \"",
+          "image": [
+            "https://static.zara.net/assets/public/9b14/1844/9e324bc9a483/bcf75a8f8f4a/46658029052-e1/46658029052-e1.jpg?ts=1725432673061&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "229",
+            "url": "https://www.zara.com/us/en/wool-area-rug-p46658029.html?v1=545400695",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOOL AREA RUG - Light beige - 59 x 78,5 \"",
+          "sku": "545400695-052-83",
+          "mpn": "545400695-052-83",
+          "color": "Light beige",
+          "size": "59 x 78,5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/9b14/1844/9e324bc9a483/bcf75a8f8f4a/46658029052-e1/46658029052-e1.jpg?ts=1725432673061&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "529",
+            "url": "https://www.zara.com/us/en/wool-area-rug-p46658029.html?v1=545400695",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WOOL AREA RUG",
+      "product_group_id": "46658029",
+      "brand": "ZARAHOME",
+      "description": "Wool area rug with a color block design and contrasting fringe at the ends.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WOOL AREA RUG - Light beige - 35,5 x 59 \"",
+          "sku": "545400695-052-90",
+          "mpn": "545400695-052-90",
+          "color_name": "Light beige",
+          "size_name": "35,5 x 59 \"",
+          "price": "229.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-area-rug-p46658029.html?v1=545400695",
+          "images": [
+            "https://static.zara.net/assets/public/9b14/1844/9e324bc9a483/bcf75a8f8f4a/46658029052-e1/46658029052-e1.jpg?ts=1725432673061&w=1920"
+          ]
+        },
+        {
+          "name": "WOOL AREA RUG - Light beige - 59 x 78,5 \"",
+          "sku": "545400695-052-83",
+          "mpn": "545400695-052-83",
+          "color_name": "Light beige",
+          "size_name": "59 x 78,5 \"",
+          "price": "529.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/wool-area-rug-p46658029.html?v1=545400695",
+          "images": [
+            "https://static.zara.net/assets/public/9b14/1844/9e324bc9a483/bcf75a8f8f4a/46658029052-e1/46658029052-e1.jpg?ts=1725432673061&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9b14/1844/9e324bc9a483/bcf75a8f8f4a/46658029052-e1/46658029052-e1.jpg?ts=1725432673061&w=1920",
+        "https://static.zara.net/assets/public/d319/e4c7/60504491bd98/66fa031ab673/46658029052-e2/46658029052-e2.jpg?ts=1725432672889&w=1920",
+        "https://static.zara.net/assets/public/dbcc/5eca/cb7a4ec7ad6b/d0d22443cdee/46658029052-e3/46658029052-e3.jpg?ts=1725432670426&w=1920",
+        "https://static.zara.net/assets/public/9289/9a2c/e1954299b27d/a0093fdeca7c/46658029052-e4/46658029052-e4.jpg?ts=1725432677948&w=1920",
+        "https://static.zara.net/assets/public/e969/863e/2eb64c32bbd1/363051cd759d/46658029052-e5/46658029052-e5.jpg?ts=1725432678452&w=1920",
+        "https://static.zara.net/assets/public/e222/a11c/32fb45cbb351/a976a9a000df/46658029052-a1/46658029052-a1.jpg?ts=1781601352176&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "229.00",
+  "rendered_description": "Description\nWool area rug with a color block design and contrasting fringe at the ends.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "229.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "229.00",
+    "dom_price": "229.00",
+    "normalized_price": "229.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e27e32a7931f521d69ce8da4d6554823b5767e1fc40b5261010c093c02d3bfec",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

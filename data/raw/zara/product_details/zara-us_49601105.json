@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:49601105",
+  "source_url": "https://www.zara.com/us/en/kids--dog-bathroom-soap-dish-p49601105.html",
+  "final_url": "https://www.zara.com/us/en/kids--dog-bathroom-soap-dish-p49601105.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--dog-bathroom-soap-dish-p49601105.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' DOG BATHROOM SOAP DISH",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' DOG BATHROOM SOAP DISH",
+      "url": "https://www.zara.com/us/en/kids--dog-bathroom-soap-dish-p49601105.html",
+      "productGroupID": "49601105",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' bathroom soap dish featuring a central dog design and \"a slow life\" text.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f59f/ae30/5b0542dfbc40/99a846f67acd/49601105400-e1/49601105400-e1.jpg?ts=1778505362811&w=1920",
+        "https://static.zara.net/assets/public/125c/fbc8/fc2142779ed7/2c813e94e955/49601105400-e2/49601105400-e2.jpg?ts=1778505362723&w=1920",
+        "https://static.zara.net/assets/public/1275/dfde/47134df78705/84a3a5b84a23/49601105400-e3/49601105400-e3.jpg?ts=1778505363083&w=1920",
+        "https://static.zara.net/assets/public/5651/e858/458b49edbdd8/686f9fb76cdd/49601105400-e4/49601105400-e4.jpg?ts=1778505365356&w=1920",
+        "https://static.zara.net/assets/public/e749/4fa4/972b47dfa689/66e521752223/49601105400-a1/49601105400-a1.jpg?ts=1778076732441&w=1920"
+      ],
+      "material": "100% polyethylene",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyethylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' DOG BATHROOM SOAP DISH - Blue - ONE SIZE ONLY",
+          "sku": "545404701-400-99",
+          "mpn": "545404701-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/f59f/ae30/5b0542dfbc40/99a846f67acd/49601105400-e1/49601105400-e1.jpg?ts=1778505362811&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "16.9",
+            "url": "https://www.zara.com/us/en/kids--dog-bathroom-soap-dish-p49601105.html?v1=545404701",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' DOG BATHROOM SOAP DISH",
+      "product_group_id": "49601105",
+      "brand": "ZARAHOME",
+      "description": "Kids' bathroom soap dish featuring a central dog design and \"a slow life\" text.",
+      "material": "100% polyethylene",
+      "composition": "OUTER SHELL: 100% polyethylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' DOG BATHROOM SOAP DISH - Blue - ONE SIZE ONLY",
+          "sku": "545404701-400-99",
+          "mpn": "545404701-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "16.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--dog-bathroom-soap-dish-p49601105.html?v1=545404701",
+          "images": [
+            "https://static.zara.net/assets/public/f59f/ae30/5b0542dfbc40/99a846f67acd/49601105400-e1/49601105400-e1.jpg?ts=1778505362811&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f59f/ae30/5b0542dfbc40/99a846f67acd/49601105400-e1/49601105400-e1.jpg?ts=1778505362811&w=1920",
+        "https://static.zara.net/assets/public/125c/fbc8/fc2142779ed7/2c813e94e955/49601105400-e2/49601105400-e2.jpg?ts=1778505362723&w=1920",
+        "https://static.zara.net/assets/public/1275/dfde/47134df78705/84a3a5b84a23/49601105400-e3/49601105400-e3.jpg?ts=1778505363083&w=1920",
+        "https://static.zara.net/assets/public/5651/e858/458b49edbdd8/686f9fb76cdd/49601105400-e4/49601105400-e4.jpg?ts=1778505365356&w=1920",
+        "https://static.zara.net/assets/public/e749/4fa4/972b47dfa689/66e521752223/49601105400-a1/49601105400-a1.jpg?ts=1778076732441&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "16.90",
+  "rendered_description": "Description\nKids' bathroom soap dish featuring a central dog design and \"a slow life\" text.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "16.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "16.90",
+    "dom_price": "16.90",
+    "normalized_price": "16.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "cc8b5809193222153510f33057b19224a996371d71dab662993cd91dca27fc17",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

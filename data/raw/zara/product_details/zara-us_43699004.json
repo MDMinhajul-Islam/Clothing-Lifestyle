@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:43699004",
+  "source_url": "https://www.zara.com/us/en/baby-knit-blanket-p43699004.html",
+  "final_url": "https://www.zara.com/us/en/baby-knit-blanket-p43699004.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-knit-blanket-p43699004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY KNIT BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY KNIT BLANKET",
+      "url": "https://www.zara.com/us/en/baby-knit-blanket-p43699004.html",
+      "productGroupID": "43699004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby knit blanket made of cotton with a ribbed edge.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4251/4e15/90d84c8389e4/6a5e6899c62c/43625004999-e1/43625004999-e1.jpg?ts=1735551137285&w=1920",
+        "https://static.zara.net/assets/public/4135/748a/91a84759a3fe/b97750af1acd/43625004999-e2/43625004999-e2.jpg?ts=1735551137644&w=1920",
+        "https://static.zara.net/assets/public/067f/89f4/c64746fdacc7/635c26e05052/43625004999-e3/43625004999-e3.jpg?ts=1735551140245&w=1920",
+        "https://static.zara.net/assets/public/9e6c/04a0/9e654a29971b/150b949e20a0/43625004999-e4/43625004999-e4.jpg?ts=1735551138116&w=1920",
+        "https://static.zara.net/assets/public/c736/b415/a8b24429b94a/22ee1f51bf79/43625004999-e5/43625004999-e5.jpg?ts=1735551124180&w=1920",
+        "https://static.zara.net/assets/public/c165/10bb/b4744f24b00c/65430c17e1bc/43699004999-a1/43699004999-a1.jpg?ts=1771918088995&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY KNIT BLANKET - Multicolored - 27.5 x 39.5 \"",
+          "sku": "545400730-999-9",
+          "mpn": "545400730-999-9",
+          "color": "Multicolored",
+          "size": "27.5 x 39.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/4251/4e15/90d84c8389e4/6a5e6899c62c/43625004999-e1/43625004999-e1.jpg?ts=1735551137285&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/baby-knit-blanket-p43699004.html?v1=545400730",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY KNIT BLANKET",
+      "product_group_id": "43699004",
+      "brand": "ZARAHOME",
+      "description": "Baby knit blanket made of cotton with a ribbed edge.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY KNIT BLANKET - Multicolored - 27.5 x 39.5 \"",
+          "sku": "545400730-999-9",
+          "mpn": "545400730-999-9",
+          "color_name": "Multicolored",
+          "size_name": "27.5 x 39.5 \"",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-knit-blanket-p43699004.html?v1=545400730",
+          "images": [
+            "https://static.zara.net/assets/public/4251/4e15/90d84c8389e4/6a5e6899c62c/43625004999-e1/43625004999-e1.jpg?ts=1735551137285&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4251/4e15/90d84c8389e4/6a5e6899c62c/43625004999-e1/43625004999-e1.jpg?ts=1735551137285&w=1920",
+        "https://static.zara.net/assets/public/4135/748a/91a84759a3fe/b97750af1acd/43625004999-e2/43625004999-e2.jpg?ts=1735551137644&w=1920",
+        "https://static.zara.net/assets/public/067f/89f4/c64746fdacc7/635c26e05052/43625004999-e3/43625004999-e3.jpg?ts=1735551140245&w=1920",
+        "https://static.zara.net/assets/public/9e6c/04a0/9e654a29971b/150b949e20a0/43625004999-e4/43625004999-e4.jpg?ts=1735551138116&w=1920",
+        "https://static.zara.net/assets/public/c736/b415/a8b24429b94a/22ee1f51bf79/43625004999-e5/43625004999-e5.jpg?ts=1735551124180&w=1920",
+        "https://static.zara.net/assets/public/c165/10bb/b4744f24b00c/65430c17e1bc/43699004999-a1/43699004999-a1.jpg?ts=1771918088995&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nBaby knit blanket made of cotton with a ribbed edge.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2c1904f6f336d214e96e52f5c72d00d8ff86b6930f22a3a4d78070488e04e258",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

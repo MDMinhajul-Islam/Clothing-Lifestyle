@@ -1,0 +1,133 @@
+{
+  "product_id": "zara-us:45626073",
+  "source_url": "https://www.zara.com/us/en/bear-wooden-chair-p45626073.html",
+  "final_url": "https://www.zara.com/us/en/bear-wooden-chair-p45626073.html",
+  "canonical_url": "https://www.zara.com/us/en/bear-wooden-chair-p45626073.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BEAR WOODEN CHAIR",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BEAR WOODEN CHAIR",
+      "url": "https://www.zara.com/us/en/bear-wooden-chair-p45626073.html",
+      "productGroupID": "45626073",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Pine wood chair with a bear-shaped backrest. Simple assembly required. Instructions included inside. Recommended for children between 1 and 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bd07/3c09/85c943e4886f/6760698aeccc/45626073052-000-e1/45626073052-000-e1.jpg?ts=1776421329315&w=1920",
+        "https://static.zara.net/assets/public/39ab/2c86/84984228a95a/b99146a3a040/1639581389761/1639581389761.jpg?ts=1693910154163&w=1920",
+        "https://static.zara.net/assets/public/615a/dcd4/ff3543049791/7634fb45154d/1639581390727/1639581390727.jpg?ts=1693817900069&w=1920",
+        "https://static.zara.net/assets/public/8ce6/e60d/0bb54325a753/fbacead18637/1639581391921/1639581391921.jpg?ts=1693916662596&w=1920",
+        "https://static.zara.net/assets/public/d507/a825/edba471a937b/6739913ab94f/1639581391558/1639581391558.jpg?ts=1693916792563&w=1920",
+        "https://static.zara.net/assets/public/50a8/f1f2/accc42c8bb29/bd24c29812ff/1639581391166/1639581391166.jpg?ts=1727707343655&w=1920",
+        "https://static.zara.net/assets/public/b70f/82bf/c2db4aa49ff3/ff55416c6582/45626073052-a1/45626073052-a1.jpg?ts=1786102435802&w=1920",
+        "https://static.zara.net/assets/public/7937/e679/a35e464bb52f/aab14c94f821/45626073052-e10/45626073052-e10.jpg?ts=1730397690518&w=1920"
+      ],
+      "material": "100% pine wood",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% pine wood"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BEAR WOODEN CHAIR - Light beige - ONE SIZE ONLY",
+          "sku": "550840619-052-99",
+          "mpn": "550840619-052-99",
+          "color": "Light beige",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/bd07/3c09/85c943e4886f/6760698aeccc/45626073052-000-e1/45626073052-000-e1.jpg?ts=1776421329315&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/bear-wooden-chair-p45626073.html?v1=550840619",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BEAR WOODEN CHAIR",
+      "product_group_id": "45626073",
+      "brand": "ZARAHOME",
+      "description": "Pine wood chair with a bear-shaped backrest. Simple assembly required. Instructions included inside. Recommended for children between 1 and 3 years old.",
+      "material": "100% pine wood",
+      "composition": "OUTER SHELL: 100% pine wood",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BEAR WOODEN CHAIR - Light beige - ONE SIZE ONLY",
+          "sku": "550840619-052-99",
+          "mpn": "550840619-052-99",
+          "color_name": "Light beige",
+          "size_name": "ONE SIZE ONLY",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bear-wooden-chair-p45626073.html?v1=550840619",
+          "images": [
+            "https://static.zara.net/assets/public/bd07/3c09/85c943e4886f/6760698aeccc/45626073052-000-e1/45626073052-000-e1.jpg?ts=1776421329315&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bd07/3c09/85c943e4886f/6760698aeccc/45626073052-000-e1/45626073052-000-e1.jpg?ts=1776421329315&w=1920",
+        "https://static.zara.net/assets/public/39ab/2c86/84984228a95a/b99146a3a040/1639581389761/1639581389761.jpg?ts=1693910154163&w=1920",
+        "https://static.zara.net/assets/public/615a/dcd4/ff3543049791/7634fb45154d/1639581390727/1639581390727.jpg?ts=1693817900069&w=1920",
+        "https://static.zara.net/assets/public/8ce6/e60d/0bb54325a753/fbacead18637/1639581391921/1639581391921.jpg?ts=1693916662596&w=1920",
+        "https://static.zara.net/assets/public/d507/a825/edba471a937b/6739913ab94f/1639581391558/1639581391558.jpg?ts=1693916792563&w=1920",
+        "https://static.zara.net/assets/public/50a8/f1f2/accc42c8bb29/bd24c29812ff/1639581391166/1639581391166.jpg?ts=1727707343655&w=1920",
+        "https://static.zara.net/assets/public/b70f/82bf/c2db4aa49ff3/ff55416c6582/45626073052-a1/45626073052-a1.jpg?ts=1786102435802&w=1920",
+        "https://static.zara.net/assets/public/7937/e679/a35e464bb52f/aab14c94f821/45626073052-e10/45626073052-e10.jpg?ts=1730397690518&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nPine wood chair with a bear-shaped backrest. Simple assembly required. Instructions included inside. Recommended for children between 1 and 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "757528746834054353da273e8bc3cb44c641c4e034b4f376643c4fcd061b44c7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

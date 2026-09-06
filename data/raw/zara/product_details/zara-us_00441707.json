@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:00441707",
+  "source_url": "https://www.zara.com/us/en/star-hoop-earring-and-ring-set-p00441707.html",
+  "final_url": "https://www.zara.com/us/en/star-hoop-earring-and-ring-set-p00441707.html",
+  "canonical_url": "https://www.zara.com/us/en/star-hoop-earring-and-ring-set-p00441707.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STAR HOOP EARRINGS AND RING SET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STAR HOOP EARRINGS AND RING SET",
+      "url": "https://www.zara.com/us/en/star-hoop-earring-and-ring-set-p00441707.html",
+      "productGroupID": "00441707",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of three hoop earrings and two rings featuring star details. Contains small parts, not suitable for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2962/b46b/a4eb42709d5c/5c6ec7af7b2e/00441707808-e1/00441707808-e1.jpg?ts=1785925884936&w=1920",
+        "https://static.zara.net/assets/public/08b8/57b0/6cbd47368733/150a286fa535/00441707808-e2/00441707808-e2.jpg?ts=1785925885968&w=1920",
+        "https://static.zara.net/assets/public/b356/2592/af9a47c8a721/38fb802b303d/00441707808-e3/00441707808-e3.jpg?ts=1785925886160&w=1920",
+        "https://static.zara.net/assets/public/da66/81c8/2e99497abce3/cbe1cbd94cf5/00441707808-e5/00441707808-e5.jpg?ts=1785925885577&w=1920"
+      ],
+      "material": "zinc/iron",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "98% zinc, 2% iron"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STAR HOOP EARRINGS AND RING SET - Silver - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "585916696-808-14",
+          "mpn": "585916696-808-14",
+          "color": "Silver",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2962/b46b/a4eb42709d5c/5c6ec7af7b2e/00441707808-e1/00441707808-e1.jpg?ts=1785925884936&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/star-hoop-earring-and-ring-set-p00441707.html?v1=585916696",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STAR HOOP EARRINGS AND RING SET",
+      "product_group_id": "00441707",
+      "brand": "ZARA",
+      "description": "Pack of three hoop earrings and two rings featuring star details. Contains small parts, not suitable for children under 3 years old.",
+      "material": "zinc/iron",
+      "composition": "OUTER SHELL: 98% zinc, 2% iron",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STAR HOOP EARRINGS AND RING SET - Silver - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "585916696-808-14",
+          "mpn": "585916696-808-14",
+          "color_name": "Silver",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-hoop-earring-and-ring-set-p00441707.html?v1=585916696",
+          "images": [
+            "https://static.zara.net/assets/public/2962/b46b/a4eb42709d5c/5c6ec7af7b2e/00441707808-e1/00441707808-e1.jpg?ts=1785925884936&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2962/b46b/a4eb42709d5c/5c6ec7af7b2e/00441707808-e1/00441707808-e1.jpg?ts=1785925884936&w=1920",
+        "https://static.zara.net/assets/public/08b8/57b0/6cbd47368733/150a286fa535/00441707808-e2/00441707808-e2.jpg?ts=1785925885968&w=1920",
+        "https://static.zara.net/assets/public/b356/2592/af9a47c8a721/38fb802b303d/00441707808-e3/00441707808-e3.jpg?ts=1785925886160&w=1920",
+        "https://static.zara.net/assets/public/da66/81c8/2e99497abce3/cbe1cbd94cf5/00441707808-e5/00441707808-e5.jpg?ts=1785925885577&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nPack of three hoop earrings and two rings featuring star details. Contains small parts, not suitable for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a87a98a0e3beeba709322c60224c9484d43b2dd5c79346fd2c336e6fbf7947cb",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

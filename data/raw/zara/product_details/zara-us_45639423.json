@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:45639423",
+  "source_url": "https://www.zara.com/us/en/hooded-dog-bath-towel-p45639423.html",
+  "final_url": "https://www.zara.com/us/en/hooded-dog-bath-towel-p45639423.html",
+  "canonical_url": "https://www.zara.com/us/en/hooded-dog-bath-towel-p45639423.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HOODED DOG BATH TOWEL",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HOODED DOG BATH TOWEL",
+      "url": "https://www.zara.com/us/en/hooded-dog-bath-towel-p45639423.html",
+      "productGroupID": "45639423",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Hooded bath towel made of cotton with a dog design wearing a hat.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1019/6a50/7f494433b4cf/55409bd031a9/45639423700-e1/45639423700-e1.jpg?ts=1778681563467&w=1920",
+        "https://static.zara.net/assets/public/2931/9d00/51d14c0eb996/cad073541321/45639423700-e2/45639423700-e2.jpg?ts=1778681563142&w=1920",
+        "https://static.zara.net/assets/public/1364/4914/9db549619f46/6bec6b24612b/45639423700-e3/45639423700-e3.jpg?ts=1778681563508&w=1920",
+        "https://static.zara.net/assets/public/d128/225e/b59f4e9cbf78/97b2cd81c4c8/45639423700-e4/45639423700-e4.jpg?ts=1778681563513&w=1920",
+        "https://static.zara.net/assets/public/a96e/52f7/09fe4cdea438/c054356f24f2/45639423700-a1/45639423700-a1.jpg?ts=1779286006949&w=1920",
+        "https://static.zara.net/assets/public/0f52/0339/0799427188c4/67f9be980b00/4563942370001-a10/4563942370001-a10.jpg?ts=1778834771336&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HOODED DOG BATH TOWEL - Brown - Children's towel with hood",
+          "sku": "545447509-700-38",
+          "mpn": "545447509-700-38",
+          "color": "Brown",
+          "size": "Children's towel with hood",
+          "image": [
+            "https://static.zara.net/assets/public/1019/6a50/7f494433b4cf/55409bd031a9/45639423700-e1/45639423700-e1.jpg?ts=1778681563467&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/hooded-dog-bath-towel-p45639423.html?v1=545447509",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HOODED DOG BATH TOWEL",
+      "product_group_id": "45639423",
+      "brand": "ZARAHOME",
+      "description": "Hooded bath towel made of cotton with a dog design wearing a hat.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HOODED DOG BATH TOWEL - Brown - Children's towel with hood",
+          "sku": "545447509-700-38",
+          "mpn": "545447509-700-38",
+          "color_name": "Brown",
+          "size_name": "Children's towel with hood",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hooded-dog-bath-towel-p45639423.html?v1=545447509",
+          "images": [
+            "https://static.zara.net/assets/public/1019/6a50/7f494433b4cf/55409bd031a9/45639423700-e1/45639423700-e1.jpg?ts=1778681563467&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1019/6a50/7f494433b4cf/55409bd031a9/45639423700-e1/45639423700-e1.jpg?ts=1778681563467&w=1920",
+        "https://static.zara.net/assets/public/2931/9d00/51d14c0eb996/cad073541321/45639423700-e2/45639423700-e2.jpg?ts=1778681563142&w=1920",
+        "https://static.zara.net/assets/public/1364/4914/9db549619f46/6bec6b24612b/45639423700-e3/45639423700-e3.jpg?ts=1778681563508&w=1920",
+        "https://static.zara.net/assets/public/d128/225e/b59f4e9cbf78/97b2cd81c4c8/45639423700-e4/45639423700-e4.jpg?ts=1778681563513&w=1920",
+        "https://static.zara.net/assets/public/a96e/52f7/09fe4cdea438/c054356f24f2/45639423700-a1/45639423700-a1.jpg?ts=1779286006949&w=1920",
+        "https://static.zara.net/assets/public/0f52/0339/0799427188c4/67f9be980b00/4563942370001-a10/4563942370001-a10.jpg?ts=1778834771336&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nHooded bath towel made of cotton with a dog design wearing a hat.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "385969fc66ca967afca70552184c95b0b96425deec4db12897d730cdf677e647",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

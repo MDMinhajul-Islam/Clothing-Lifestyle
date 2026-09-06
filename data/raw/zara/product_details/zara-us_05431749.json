@@ -1,0 +1,160 @@
+{
+  "product_id": "zara-us:05431749",
+  "source_url": "https://www.zara.com/us/en/striped-print-bag-p05431749.html",
+  "final_url": "https://www.zara.com/us/en/striped-print-bag-p05431749.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-print-bag-p05431749.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED PRINT BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED PRINT BAG",
+      "url": "https://www.zara.com/us/en/striped-print-bag-p05431749.html",
+      "productGroupID": "05431749",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Handbag with short handles. Striped print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e227/ee8a/6bda4f969925/710629517b58/05431749400-e1/05431749400-e1.jpg?ts=1781690317654&w=1920",
+        "https://static.zara.net/assets/public/f9c9/3c66/141c4b779609/51b048ce2db9/05431749400-e2/05431749400-e2.jpg?ts=1781690316552&w=1920",
+        "https://static.zara.net/assets/public/6365/dd26/9dc246408f01/e38c56e85638/05431749400-e3/05431749400-e3.jpg?ts=1781690317405&w=1920",
+        "https://static.zara.net/assets/public/da3c/82d5/c49045bc9eec/56b7c6213273/05431749400-e4/05431749400-e4.jpg?ts=1781690316996&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED PRINT BAG - Blue - 14",
+          "sku": "551070941-400-14",
+          "mpn": "551070941-400-14",
+          "color": "Blue",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/e227/ee8a/6bda4f969925/710629517b58/05431749400-e1/05431749400-e1.jpg?ts=1781690317654&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/striped-print-bag-p05431749.html?v1=551070941",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PRINT BAG - Red - 14",
+          "sku": "551070941-600-14",
+          "mpn": "551070941-600-14",
+          "color": "Red",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/2a3d/985f/132748a39c0b/7d78848ae8c3/05431749600-e1/05431749600-e1.jpg?ts=1781689555514&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/striped-print-bag-p05431749.html?v1=551070942",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED PRINT BAG",
+      "product_group_id": "05431749",
+      "brand": "ZARA",
+      "description": "Handbag with short handles. Striped print.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED PRINT BAG - Blue - 14",
+          "sku": "551070941-400-14",
+          "mpn": "551070941-400-14",
+          "color_name": "Blue",
+          "size_name": "14",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-print-bag-p05431749.html?v1=551070941",
+          "images": [
+            "https://static.zara.net/assets/public/e227/ee8a/6bda4f969925/710629517b58/05431749400-e1/05431749400-e1.jpg?ts=1781690317654&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PRINT BAG - Red - 14",
+          "sku": "551070941-600-14",
+          "mpn": "551070941-600-14",
+          "color_name": "Red",
+          "size_name": "14",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-print-bag-p05431749.html?v1=551070942",
+          "images": [
+            "https://static.zara.net/assets/public/2a3d/985f/132748a39c0b/7d78848ae8c3/05431749600-e1/05431749600-e1.jpg?ts=1781689555514&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e227/ee8a/6bda4f969925/710629517b58/05431749400-e1/05431749400-e1.jpg?ts=1781690317654&w=1920",
+        "https://static.zara.net/assets/public/f9c9/3c66/141c4b779609/51b048ce2db9/05431749400-e2/05431749400-e2.jpg?ts=1781690316552&w=1920",
+        "https://static.zara.net/assets/public/6365/dd26/9dc246408f01/e38c56e85638/05431749400-e3/05431749400-e3.jpg?ts=1781690317405&w=1920",
+        "https://static.zara.net/assets/public/da3c/82d5/c49045bc9eec/56b7c6213273/05431749400-e4/05431749400-e4.jpg?ts=1781690316996&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Red"
+  ],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nHandbag with short handles. Striped print.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4a1b0439e4d48ecf63e870073ba8845fa6b0cac5274c152c753c5c6223101683",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

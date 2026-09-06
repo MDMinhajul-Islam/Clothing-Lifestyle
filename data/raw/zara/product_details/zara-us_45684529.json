@@ -1,0 +1,158 @@
+{
+  "product_id": "zara-us:45684529",
+  "source_url": "https://www.zara.com/us/en/baby-velour-footed-romper-p45684529.html",
+  "final_url": "https://www.zara.com/us/en/baby-velour-footed-romper-p45684529.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-velour-footed-romper-p45684529.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY VELOUR FOOTED ROMPER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY VELOUR FOOTED ROMPER",
+      "url": "https://www.zara.com/us/en/baby-velour-footed-romper-p45684529.html",
+      "productGroupID": "45684529",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Long baby velour footed romper with a contrasting infinity scarf and embroidered chick detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/eb96/2bb4/8c79477699ca/5482425409d4/45684529803-e1/45684529803-e1.jpg?ts=1787751355077&w=1920",
+        "https://static.zara.net/assets/public/b818/0313/453243928e22/edc40d3dc4bf/45684529803-e2/45684529803-e2.jpg?ts=1787751355823&w=1920",
+        "https://static.zara.net/assets/public/3e6c/f29c/f29a48228300/9e702fe5190e/45684529803-e3/45684529803-e3.jpg?ts=1787751355175&w=1920",
+        "https://static.zara.net/assets/public/a28b/62f1/a34f4cf9b523/59f821d01fb1/45684529803-e4/45684529803-e4.jpg?ts=1787751355636&w=1920",
+        "https://static.zara.net/assets/public/d0ae/2817/738045408aa4/8d07c825ed30/45684529803-a1/45684529803-a1.jpg?ts=1787654791884&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY VELOUR FOOTED ROMPER - Gray marl - 62 cm",
+          "sku": "553294836-803-13",
+          "mpn": "553294836-803-13",
+          "color": "Gray marl",
+          "size": "62 cm",
+          "image": [
+            "https://static.zara.net/assets/public/eb96/2bb4/8c79477699ca/5482425409d4/45684529803-e1/45684529803-e1.jpg?ts=1787751355077&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/baby-velour-footed-romper-p45684529.html?v1=553294836",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BABY VELOUR FOOTED ROMPER - Gray marl - 68 cm",
+          "sku": "553294836-803-36",
+          "mpn": "553294836-803-36",
+          "color": "Gray marl",
+          "size": "68 cm",
+          "image": [
+            "https://static.zara.net/assets/public/eb96/2bb4/8c79477699ca/5482425409d4/45684529803-e1/45684529803-e1.jpg?ts=1787751355077&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/baby-velour-footed-romper-p45684529.html?v1=553294836",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY VELOUR FOOTED ROMPER",
+      "product_group_id": "45684529",
+      "brand": "ZARAHOME",
+      "description": "Long baby velour footed romper with a contrasting infinity scarf and embroidered chick detail.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY VELOUR FOOTED ROMPER - Gray marl - 62 cm",
+          "sku": "553294836-803-13",
+          "mpn": "553294836-803-13",
+          "color_name": "Gray marl",
+          "size_name": "62 cm",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-velour-footed-romper-p45684529.html?v1=553294836",
+          "images": [
+            "https://static.zara.net/assets/public/eb96/2bb4/8c79477699ca/5482425409d4/45684529803-e1/45684529803-e1.jpg?ts=1787751355077&w=1920"
+          ]
+        },
+        {
+          "name": "BABY VELOUR FOOTED ROMPER - Gray marl - 68 cm",
+          "sku": "553294836-803-36",
+          "mpn": "553294836-803-36",
+          "color_name": "Gray marl",
+          "size_name": "68 cm",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-velour-footed-romper-p45684529.html?v1=553294836",
+          "images": [
+            "https://static.zara.net/assets/public/eb96/2bb4/8c79477699ca/5482425409d4/45684529803-e1/45684529803-e1.jpg?ts=1787751355077&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/eb96/2bb4/8c79477699ca/5482425409d4/45684529803-e1/45684529803-e1.jpg?ts=1787751355077&w=1920",
+        "https://static.zara.net/assets/public/b818/0313/453243928e22/edc40d3dc4bf/45684529803-e2/45684529803-e2.jpg?ts=1787751355823&w=1920",
+        "https://static.zara.net/assets/public/3e6c/f29c/f29a48228300/9e702fe5190e/45684529803-e3/45684529803-e3.jpg?ts=1787751355175&w=1920",
+        "https://static.zara.net/assets/public/a28b/62f1/a34f4cf9b523/59f821d01fb1/45684529803-e4/45684529803-e4.jpg?ts=1787751355636&w=1920",
+        "https://static.zara.net/assets/public/d0ae/2817/738045408aa4/8d07c825ed30/45684529803-a1/45684529803-a1.jpg?ts=1787654791884&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nLong baby velour footed romper with a contrasting infinity scarf and embroidered chick detail.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d20e451f253418f140542e3aed79a6af55afb8e149951ba906c297eb76452106",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:04701642",
+  "source_url": "https://www.zara.com/us/en/four-pack-of-contrast-trim-scrunchies-p04701642.html",
+  "final_url": "https://www.zara.com/us/en/four-pack-of-contrast-trim-scrunchies-p04701642.html",
+  "canonical_url": "https://www.zara.com/us/en/four-pack-of-contrast-trim-scrunchies-p04701642.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FOUR-PACK OF CONTRAST TRIM SCRUNCHIES",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FOUR-PACK OF CONTRAST TRIM SCRUNCHIES",
+      "url": "https://www.zara.com/us/en/four-pack-of-contrast-trim-scrunchies-p04701642.html",
+      "productGroupID": "04701642",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Four-pack of elastic scrunchies. Features vibrant contrast trim details.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bdab/0fce/70b64da09531/5b05eddcce52/04701642330-e1/04701642330-e1.jpg?ts=1779447494462&w=1920",
+        "https://static.zara.net/assets/public/9b13/7720/9edd4d4fb1e5/f3f96dfb266c/04701642330-e2/04701642330-e2.jpg?ts=1779447494496&w=1920",
+        "https://static.zara.net/assets/public/0500/aec4/a6fb486f8b1d/19a927aaedb5/04701642330-e3/04701642330-e3.jpg?ts=1779447494535&w=1920",
+        "https://static.zara.net/assets/public/f854/4cd2/794e4e48ac90/341ae2ad3192/04701642330-e5/04701642330-e5.jpg?ts=1779447494472&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK OF CONTRAST TRIM SCRUNCHIES - Multicolored - 14",
+          "sku": "545437376-330-14",
+          "mpn": "545437376-330-14",
+          "color": "Multicolored",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/bdab/0fce/70b64da09531/5b05eddcce52/04701642330-e1/04701642330-e1.jpg?ts=1779447494462&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/four-pack-of-contrast-trim-scrunchies-p04701642.html?v1=545437376",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FOUR-PACK OF CONTRAST TRIM SCRUNCHIES",
+      "product_group_id": "04701642",
+      "brand": "ZARA",
+      "description": "Four-pack of elastic scrunchies. Features vibrant contrast trim details.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FOUR-PACK OF CONTRAST TRIM SCRUNCHIES - Multicolored - 14",
+          "sku": "545437376-330-14",
+          "mpn": "545437376-330-14",
+          "color_name": "Multicolored",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-of-contrast-trim-scrunchies-p04701642.html?v1=545437376",
+          "images": [
+            "https://static.zara.net/assets/public/bdab/0fce/70b64da09531/5b05eddcce52/04701642330-e1/04701642330-e1.jpg?ts=1779447494462&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bdab/0fce/70b64da09531/5b05eddcce52/04701642330-e1/04701642330-e1.jpg?ts=1779447494462&w=1920",
+        "https://static.zara.net/assets/public/9b13/7720/9edd4d4fb1e5/f3f96dfb266c/04701642330-e2/04701642330-e2.jpg?ts=1779447494496&w=1920",
+        "https://static.zara.net/assets/public/0500/aec4/a6fb486f8b1d/19a927aaedb5/04701642330-e3/04701642330-e3.jpg?ts=1779447494535&w=1920",
+        "https://static.zara.net/assets/public/f854/4cd2/794e4e48ac90/341ae2ad3192/04701642330-e5/04701642330-e5.jpg?ts=1779447494472&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nFour-pack of elastic scrunchies. Features vibrant contrast trim details.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "424bb69e8348326b7a8e6fbf656d8b0f40513eab2d28a719daa231b33fcded76",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20330053",
+  "source_url": "https://www.zara.com/us/en/my-cute-friend-bear-50-ml--1-7-fl--oz--p20330053.html",
+  "final_url": "https://www.zara.com/us/en/my-cute-friend-bear-50-ml--1-7-fl--oz--p20330053.html",
+  "canonical_url": "https://www.zara.com/us/en/my-cute-friend-bear-50-ml--1-7-fl--oz--p20330053.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MY CUTE FRIEND BEAR 50 ML (1.7 FL. OZ)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MY CUTE FRIEND BEAR 50 ML (1.7 FL. OZ)",
+      "url": "https://www.zara.com/us/en/my-cute-friend-bear-50-ml--1-7-fl--oz--p20330053.html",
+      "productGroupID": "20330053",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A light, soft fragrance that blends notes of red fruit sorbet, hibiscus flower, and sandalwood. A tender and comforting composition with a sweet, luminous character.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cdf9/597b/55d0485091a5/63ce59d0eab0/20330053999-e1/20330053999-e1.jpg?ts=1786630316006&w=1920",
+        "https://static.zara.net/assets/public/60a7/f96e/9d4b432bb84f/7db1370c26e6/20330053999-e2/20330053999-e2.jpg?ts=1786630314870&w=1920",
+        "https://static.zara.net/assets/public/60e1/0f46/4d5f407fbee6/06925fb73dcf/20330053999-e3/20330053999-e3.jpg?ts=1786630313495&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MY CUTE FRIEND BEAR 50 ML (1.7 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545494434-999-99",
+          "mpn": "545494434-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/cdf9/597b/55d0485091a5/63ce59d0eab0/20330053999-e1/20330053999-e1.jpg?ts=1786630316006&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/my-cute-friend-bear-50-ml--1-7-fl--oz--p20330053.html?v1=545494434",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MY CUTE FRIEND BEAR 50 ML (1.7 FL. OZ)",
+      "product_group_id": "20330053",
+      "brand": "ZARA",
+      "description": "A light, soft fragrance that blends notes of red fruit sorbet, hibiscus flower, and sandalwood. A tender and comforting composition with a sweet, luminous character.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MY CUTE FRIEND BEAR 50 ML (1.7 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545494434-999-99",
+          "mpn": "545494434-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/my-cute-friend-bear-50-ml--1-7-fl--oz--p20330053.html?v1=545494434",
+          "images": [
+            "https://static.zara.net/assets/public/cdf9/597b/55d0485091a5/63ce59d0eab0/20330053999-e1/20330053999-e1.jpg?ts=1786630316006&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cdf9/597b/55d0485091a5/63ce59d0eab0/20330053999-e1/20330053999-e1.jpg?ts=1786630316006&w=1920",
+        "https://static.zara.net/assets/public/60a7/f96e/9d4b432bb84f/7db1370c26e6/20330053999-e2/20330053999-e2.jpg?ts=1786630314870&w=1920",
+        "https://static.zara.net/assets/public/60e1/0f46/4d5f407fbee6/06925fb73dcf/20330053999-e3/20330053999-e3.jpg?ts=1786630313495&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nA light, soft fragrance that blends notes of red fruit sorbet, hibiscus flower, and sandalwood. A tender and comforting composition with a sweet, luminous character.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fb076204b2872e115c0cb608e2d8969ada5f1eeedd2123cb9c07f7f19420aab3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,474 @@
+{
+  "product_id": "zara-us:12002830",
+  "source_url": "https://www.zara.com/us/en/leather-boot-p12002830.html",
+  "final_url": "https://www.zara.com/us/en/leather-boot-p12002830.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-boot-p12002830.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER BOOTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER BOOTS",
+      "url": "https://www.zara.com/us/en/leather-boot-p12002830.html",
+      "productGroupID": "12002830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "100% leather boots with a suede finish and contrasting seam details. Features a back pull tab for easy wear and a lugged rubber sole. LEATHER: This product is made from an exclusive material. Any variations in color or markings are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920",
+        "https://static.zara.net/assets/public/52d3/1740/ca5c4589ab03/24ac9c73506c/12002830700001-a1/12002830700001-a1.jpg?ts=1783928380281&w=1920",
+        "https://static.zara.net/assets/public/c00b/532f/2d8048a5ba3a/7fe0fc6b8765/12002830700-e1/12002830700-e1.jpg?ts=1783949687300&w=1920",
+        "https://static.zara.net/assets/public/55b5/38e7/255d4af0931f/5e20db933f8f/12002830700-e2/12002830700-e2.jpg?ts=1783949686109&w=1920",
+        "https://static.zara.net/assets/public/e19c/4ce9/7f6a41caa3f9/233eb33af56c/12002830700-e3/12002830700-e3.jpg?ts=1783949686776&w=1920",
+        "https://static.zara.net/assets/public/9f43/1979/328248ce938c/12e066f09151/12002830700-e4/12002830700-e4.jpg?ts=1783949686880&w=1920",
+        "https://static.zara.net/assets/public/2ea1/2dc3/711947d289bf/95918492310a/12002830700-e5/12002830700-e5.jpg?ts=1783949686497&w=1920",
+        "https://static.zara.net/assets/public/c1d6/5587/347e48569980/2974738d6b49/12002830700-e6/12002830700-e6.jpg?ts=1783949686495&w=1920",
+        "https://static.zara.net/assets/public/108c/1c9b/f0ee41c6a6a8/04809c9dd0d5/12002830700-e7/12002830700-e7.jpg?ts=1783949686598&w=1920"
+      ],
+      "material": "100% cow leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cow leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 12½ (7.4 INCHES)",
+          "sku": "545456689-700-30",
+          "mpn": "545456689-700-30",
+          "color": "Brown",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 13½ (7.7 INCHES)",
+          "sku": "545456689-700-31",
+          "mpn": "545456689-700-31",
+          "color": "Brown",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 1 (8.0 INCHES)",
+          "sku": "545456689-700-32",
+          "mpn": "545456689-700-32",
+          "color": "Brown",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 2 (8.2 INCHES)",
+          "sku": "545456689-700-33",
+          "mpn": "545456689-700-33",
+          "color": "Brown",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 2½ (8.5 INCHES)",
+          "sku": "545456689-700-34",
+          "mpn": "545456689-700-34",
+          "color": "Brown",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 3½ (8.8 INCHES)",
+          "sku": "545456689-700-35",
+          "mpn": "545456689-700-35",
+          "color": "Brown",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 4 (9.0 INCHES)",
+          "sku": "545456689-700-36",
+          "mpn": "545456689-700-36",
+          "color": "Brown",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 5 (9.3 INCHES)",
+          "sku": "545456689-700-37",
+          "mpn": "545456689-700-37",
+          "color": "Brown",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 5½ (9.5 INCHES)",
+          "sku": "545456689-700-38",
+          "mpn": "545456689-700-38",
+          "color": "Brown",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 6 (9.8 INCHES)",
+          "sku": "545456689-700-39",
+          "mpn": "545456689-700-39",
+          "color": "Brown",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER BOOTS - Brown - 7 (10.0 INCHES)",
+          "sku": "545456689-700-40",
+          "mpn": "545456689-700-40",
+          "color": "Brown",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER BOOTS",
+      "product_group_id": "12002830",
+      "brand": "ZARA",
+      "description": "100% leather boots with a suede finish and contrasting seam details. Features a back pull tab for easy wear and a lugged rubber sole. LEATHER: This product is made from an exclusive material. Any variations in color or markings are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+      "material": "100% cow leather",
+      "composition": "UPPER: 100% cow leather | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER BOOTS - Brown - 12½ (7.4 INCHES)",
+          "sku": "545456689-700-30",
+          "mpn": "545456689-700-30",
+          "color_name": "Brown",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 13½ (7.7 INCHES)",
+          "sku": "545456689-700-31",
+          "mpn": "545456689-700-31",
+          "color_name": "Brown",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 1 (8.0 INCHES)",
+          "sku": "545456689-700-32",
+          "mpn": "545456689-700-32",
+          "color_name": "Brown",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 2 (8.2 INCHES)",
+          "sku": "545456689-700-33",
+          "mpn": "545456689-700-33",
+          "color_name": "Brown",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 2½ (8.5 INCHES)",
+          "sku": "545456689-700-34",
+          "mpn": "545456689-700-34",
+          "color_name": "Brown",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 3½ (8.8 INCHES)",
+          "sku": "545456689-700-35",
+          "mpn": "545456689-700-35",
+          "color_name": "Brown",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 4 (9.0 INCHES)",
+          "sku": "545456689-700-36",
+          "mpn": "545456689-700-36",
+          "color_name": "Brown",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 5 (9.3 INCHES)",
+          "sku": "545456689-700-37",
+          "mpn": "545456689-700-37",
+          "color_name": "Brown",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 5½ (9.5 INCHES)",
+          "sku": "545456689-700-38",
+          "mpn": "545456689-700-38",
+          "color_name": "Brown",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 6 (9.8 INCHES)",
+          "sku": "545456689-700-39",
+          "mpn": "545456689-700-39",
+          "color_name": "Brown",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER BOOTS - Brown - 7 (10.0 INCHES)",
+          "sku": "545456689-700-40",
+          "mpn": "545456689-700-40",
+          "color_name": "Brown",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-boot-p12002830.html?v1=545456689",
+          "images": [
+            "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e53b/4e0f/4cea45468e1a/3beb27d361be/12002830700001-p/12002830700001-p.jpg?ts=1783928381939&w=1920",
+        "https://static.zara.net/assets/public/52d3/1740/ca5c4589ab03/24ac9c73506c/12002830700001-a1/12002830700001-a1.jpg?ts=1783928380281&w=1920",
+        "https://static.zara.net/assets/public/c00b/532f/2d8048a5ba3a/7fe0fc6b8765/12002830700-e1/12002830700-e1.jpg?ts=1783949687300&w=1920",
+        "https://static.zara.net/assets/public/55b5/38e7/255d4af0931f/5e20db933f8f/12002830700-e2/12002830700-e2.jpg?ts=1783949686109&w=1920",
+        "https://static.zara.net/assets/public/e19c/4ce9/7f6a41caa3f9/233eb33af56c/12002830700-e3/12002830700-e3.jpg?ts=1783949686776&w=1920",
+        "https://static.zara.net/assets/public/9f43/1979/328248ce938c/12e066f09151/12002830700-e4/12002830700-e4.jpg?ts=1783949686880&w=1920",
+        "https://static.zara.net/assets/public/2ea1/2dc3/711947d289bf/95918492310a/12002830700-e5/12002830700-e5.jpg?ts=1783949686497&w=1920",
+        "https://static.zara.net/assets/public/c1d6/5587/347e48569980/2974738d6b49/12002830700-e6/12002830700-e6.jpg?ts=1783949686495&w=1920",
+        "https://static.zara.net/assets/public/108c/1c9b/f0ee41c6a6a8/04809c9dd0d5/12002830700-e7/12002830700-e7.jpg?ts=1783949686598&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\n100% leather boots with a suede finish and contrasting seam details. Features a back pull tab for easy wear and a lugged rubber sole. LEATHER: This product is made from an exclusive material. Any variations in color or markings are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 9,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ada47f0e0da97f3de0527f895066babeb678c144fd9a0996deed8a6ee67bd5d9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

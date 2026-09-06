@@ -1,0 +1,191 @@
+{
+  "product_id": "zara-us:45683534",
+  "source_url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html",
+  "final_url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' STRIPED BONNET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' STRIPED BONNET",
+      "url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html",
+      "productGroupID": "45683534",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' cotton bonnet with a striped print and adjustable ties.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/33fa/054c/8cf94ee1a48a/4f98600fc549/45683534067-e1/45683534067-e1.jpg?ts=1787650499197&w=1920",
+        "https://static.zara.net/assets/public/d2f8/eef4/0a6f406babde/f4ff1f164f00/45683534067-e2/45683534067-e2.jpg?ts=1787650499604&w=1920",
+        "https://static.zara.net/assets/public/98fb/f026/52374869ae57/5878b23f739c/45683534067-e3/45683534067-e3.jpg?ts=1787650499719&w=1920",
+        "https://static.zara.net/assets/public/03d0/ad13/d170437b9b3f/29bea6eb9738/45683534067-e5/45683534067-e5.jpg?ts=1787650499402&w=1920",
+        "https://static.zara.net/assets/public/c94c/b4ba/7ff9456e83b2/0e6340e0b25f/45683534067-a1/45683534067-a1.jpg?ts=1787735077204&w=1920"
+      ],
+      "material": "cotton/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "97% cotton, 3% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED BONNET - Ecru / Red",
+          "sku": "549176213-067-36",
+          "mpn": "549176213-067-36",
+          "color": "Ecru / Red",
+          "size": "",
+          "image": [
+            "https://static.zara.net/assets/public/33fa/054c/8cf94ee1a48a/4f98600fc549/45683534067-e1/45683534067-e1.jpg?ts=1787650499197&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html?v1=549176213",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED BONNET - Ecru / Red",
+          "sku": "549176213-067-13",
+          "mpn": "549176213-067-13",
+          "color": "Ecru / Red",
+          "size": "",
+          "image": [
+            "https://static.zara.net/assets/public/33fa/054c/8cf94ee1a48a/4f98600fc549/45683534067-e1/45683534067-e1.jpg?ts=1787650499197&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html?v1=549176213",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED BONNET - Ecru / Red - 6-12 months",
+          "sku": "549176213-067-61",
+          "mpn": "549176213-067-61",
+          "color": "Ecru / Red",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/33fa/054c/8cf94ee1a48a/4f98600fc549/45683534067-e1/45683534067-e1.jpg?ts=1787650499197&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html?v1=549176213",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' STRIPED BONNET",
+      "product_group_id": "45683534",
+      "brand": "ZARAHOME",
+      "description": "Kids' cotton bonnet with a striped print and adjustable ties.",
+      "material": "cotton/elastane",
+      "composition": "OUTER SHELL: 97% cotton, 3% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' STRIPED BONNET - Ecru / Red",
+          "sku": "549176213-067-36",
+          "mpn": "549176213-067-36",
+          "color_name": "Ecru / Red",
+          "size_name": "",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html?v1=549176213",
+          "images": [
+            "https://static.zara.net/assets/public/33fa/054c/8cf94ee1a48a/4f98600fc549/45683534067-e1/45683534067-e1.jpg?ts=1787650499197&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED BONNET - Ecru / Red",
+          "sku": "549176213-067-13",
+          "mpn": "549176213-067-13",
+          "color_name": "Ecru / Red",
+          "size_name": "",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html?v1=549176213",
+          "images": [
+            "https://static.zara.net/assets/public/33fa/054c/8cf94ee1a48a/4f98600fc549/45683534067-e1/45683534067-e1.jpg?ts=1787650499197&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED BONNET - Ecru / Red - 6-12 months",
+          "sku": "549176213-067-61",
+          "mpn": "549176213-067-61",
+          "color_name": "Ecru / Red",
+          "size_name": "6-12 months",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-bonnet-p45683534.html?v1=549176213",
+          "images": [
+            "https://static.zara.net/assets/public/33fa/054c/8cf94ee1a48a/4f98600fc549/45683534067-e1/45683534067-e1.jpg?ts=1787650499197&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/33fa/054c/8cf94ee1a48a/4f98600fc549/45683534067-e1/45683534067-e1.jpg?ts=1787650499197&w=1920",
+        "https://static.zara.net/assets/public/d2f8/eef4/0a6f406babde/f4ff1f164f00/45683534067-e2/45683534067-e2.jpg?ts=1787650499604&w=1920",
+        "https://static.zara.net/assets/public/98fb/f026/52374869ae57/5878b23f739c/45683534067-e3/45683534067-e3.jpg?ts=1787650499719&w=1920",
+        "https://static.zara.net/assets/public/03d0/ad13/d170437b9b3f/29bea6eb9738/45683534067-e5/45683534067-e5.jpg?ts=1787650499402&w=1920",
+        "https://static.zara.net/assets/public/c94c/b4ba/7ff9456e83b2/0e6340e0b25f/45683534067-a1/45683534067-a1.jpg?ts=1787735077204&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' cotton bonnet with a striped print and adjustable ties.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "427e115ae88520df61f7b6d18e363292fc0ecbf6cbc30891b670a5089ce7ce3d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

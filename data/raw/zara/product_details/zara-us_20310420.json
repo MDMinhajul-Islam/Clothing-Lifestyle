@@ -1,0 +1,116 @@
+{
+  "product_id": "zara-us:20310420",
+  "source_url": "https://www.zara.com/us/en/hello-kitty---sanrio-summer-edt-50-ml--1-7-fl--oz--p20310420.html",
+  "final_url": "https://www.zara.com/us/en/hello-kitty---sanrio-summer-edt-50-ml--1-7-fl--oz--p20310420.html",
+  "canonical_url": "https://www.zara.com/us/en/hello-kitty---sanrio-summer-edt-50-ml--1-7-fl--oz--p20310420.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HELLO KITTY © SANRIO SUMMER EDT 50 ML (1.7 FL. OZ)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HELLO KITTY © SANRIO SUMMER EDT 50 ML (1.7 FL. OZ)",
+      "url": "https://www.zara.com/us/en/hello-kitty---sanrio-summer-edt-50-ml--1-7-fl--oz--p20310420.html",
+      "productGroupID": "20310420",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A fresher, juicier version within the Hello Kitty universe. Peach and watermelon create a light fruity accord, balanced by soft floral notes.\nFresh, luminous, and designed for everyday wear, with a fun and carefree spirit.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2bf0/4dcc/7e4548d2aa8d/dd498cdeee82/20310420999-000-e1/20310420999-000-e1.jpg?ts=1774457015909&w=1920",
+        "https://static.zara.net/assets/public/035a/ef92/b51b42ac9991/0ad4cef5d8ec/20310420999-000-e2/20310420999-000-e2.jpg?ts=1774457016163&w=1920",
+        "https://static.zara.net/assets/public/f927/a563/8d5542d996cb/dec7b3d6b7d2/20310420999-e3/20310420999-e3.jpg?ts=1743155345565&w=1920",
+        "https://static.zara.net/assets/public/9c78/20ba/0ae44f00b15f/b74da65edf9b/20310420999-000-e5/20310420999-000-e5.jpg?ts=1774457015891&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HELLO KITTY © SANRIO SUMMER EDT 50 ML (1.7 FL. OZ) - ONE SIZE ONLY",
+          "sku": "554912748-999-99",
+          "mpn": "554912748-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2bf0/4dcc/7e4548d2aa8d/dd498cdeee82/20310420999-000-e1/20310420999-000-e1.jpg?ts=1774457015909&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/hello-kitty---sanrio-summer-edt-50-ml--1-7-fl--oz--p20310420.html?v1=554912748",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HELLO KITTY © SANRIO SUMMER EDT 50 ML (1.7 FL. OZ)",
+      "product_group_id": "20310420",
+      "brand": "ZARA",
+      "description": "A fresher, juicier version within the Hello Kitty universe. Peach and watermelon create a light fruity accord, balanced by soft floral notes.\nFresh, luminous, and designed for everyday wear, with a fun and carefree spirit.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HELLO KITTY © SANRIO SUMMER EDT 50 ML (1.7 FL. OZ) - ONE SIZE ONLY",
+          "sku": "554912748-999-99",
+          "mpn": "554912748-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "17.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hello-kitty---sanrio-summer-edt-50-ml--1-7-fl--oz--p20310420.html?v1=554912748",
+          "images": [
+            "https://static.zara.net/assets/public/2bf0/4dcc/7e4548d2aa8d/dd498cdeee82/20310420999-000-e1/20310420999-000-e1.jpg?ts=1774457015909&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2bf0/4dcc/7e4548d2aa8d/dd498cdeee82/20310420999-000-e1/20310420999-000-e1.jpg?ts=1774457015909&w=1920",
+        "https://static.zara.net/assets/public/035a/ef92/b51b42ac9991/0ad4cef5d8ec/20310420999-000-e2/20310420999-000-e2.jpg?ts=1774457016163&w=1920",
+        "https://static.zara.net/assets/public/f927/a563/8d5542d996cb/dec7b3d6b7d2/20310420999-e3/20310420999-e3.jpg?ts=1743155345565&w=1920",
+        "https://static.zara.net/assets/public/9c78/20ba/0ae44f00b15f/b74da65edf9b/20310420999-000-e5/20310420999-000-e5.jpg?ts=1774457015891&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nA fresher, juicier version within the Hello Kitty universe. Peach and watermelon create a light fruity accord, balanced by soft floral notes.\nFresh, luminous, and designed for everyday wear, with a fun and carefree spirit.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "14a757b45dd8ada90c1f9ffba29911079137b55e550a67a1fbdee9de297d210f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

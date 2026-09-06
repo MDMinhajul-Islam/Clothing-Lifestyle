@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:42693052",
+  "source_url": "https://www.zara.com/us/en/kids-supermarket-cart-toy-p42693052.html",
+  "final_url": "https://www.zara.com/us/en/kids-supermarket-cart-toy-p42693052.html",
+  "canonical_url": "https://www.zara.com/us/en/kids-supermarket-cart-toy-p42693052.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS SUPERMARKET CART TOY",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS SUPERMARKET CART TOY",
+      "url": "https://www.zara.com/us/en/kids-supermarket-cart-toy-p42693052.html",
+      "productGroupID": "42693052",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids supermarket shopping cart toy made of metal, with a colored handle, functional wheels, and a front seat for placing toys.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d30b/76c6/56084cf69a1f/7dbf2c102ab1/42693052808-e1/42693052808-e1.jpg?ts=1763483506036&w=1920",
+        "https://static.zara.net/assets/public/635a/2a3f/04a74bc186d4/2f27450ba604/42693052808-e2/42693052808-e2.jpg?ts=1763483506690&w=1920",
+        "https://static.zara.net/assets/public/c45f/e313/2ec74502af8d/1229551a9a0d/42693052808-e3/42693052808-e3.jpg?ts=1763483506513&w=1920",
+        "https://static.zara.net/assets/public/287c/9ba5/51eb40a5ba5e/3f6672eaf86b/42693052808-e4/42693052808-e4.jpg?ts=1763483506951&w=1920",
+        "https://static.zara.net/assets/public/27f5/77dd/d92746e6a9c6/1f043dff326f/42693052808-a1/42693052808-a1.jpg?ts=1775055123292&w=1920"
+      ],
+      "material": "iron/plastic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "94% iron, 6% plastic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS SUPERMARKET CART TOY - Silver - ONE SIZE ONLY",
+          "sku": "545413058-808-99",
+          "mpn": "545413058-808-99",
+          "color": "Silver",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d30b/76c6/56084cf69a1f/7dbf2c102ab1/42693052808-e1/42693052808-e1.jpg?ts=1763483506036&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/kids-supermarket-cart-toy-p42693052.html?v1=545413058",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS SUPERMARKET CART TOY",
+      "product_group_id": "42693052",
+      "brand": "ZARAHOME",
+      "description": "Kids supermarket shopping cart toy made of metal, with a colored handle, functional wheels, and a front seat for placing toys.",
+      "material": "iron/plastic",
+      "composition": "OUTER SHELL: 94% iron, 6% plastic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS SUPERMARKET CART TOY - Silver - ONE SIZE ONLY",
+          "sku": "545413058-808-99",
+          "mpn": "545413058-808-99",
+          "color_name": "Silver",
+          "size_name": "ONE SIZE ONLY",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids-supermarket-cart-toy-p42693052.html?v1=545413058",
+          "images": [
+            "https://static.zara.net/assets/public/d30b/76c6/56084cf69a1f/7dbf2c102ab1/42693052808-e1/42693052808-e1.jpg?ts=1763483506036&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d30b/76c6/56084cf69a1f/7dbf2c102ab1/42693052808-e1/42693052808-e1.jpg?ts=1763483506036&w=1920",
+        "https://static.zara.net/assets/public/635a/2a3f/04a74bc186d4/2f27450ba604/42693052808-e2/42693052808-e2.jpg?ts=1763483506690&w=1920",
+        "https://static.zara.net/assets/public/c45f/e313/2ec74502af8d/1229551a9a0d/42693052808-e3/42693052808-e3.jpg?ts=1763483506513&w=1920",
+        "https://static.zara.net/assets/public/287c/9ba5/51eb40a5ba5e/3f6672eaf86b/42693052808-e4/42693052808-e4.jpg?ts=1763483506951&w=1920",
+        "https://static.zara.net/assets/public/27f5/77dd/d92746e6a9c6/1f043dff326f/42693052808-a1/42693052808-a1.jpg?ts=1775055123292&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nKids supermarket shopping cart toy made of metal, with a colored handle, functional wheels, and a front seat for placing toys.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4b53eba8880fcd7844125a6979d622821960740a9bfd3868be5a56190970396d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:48607023",
+  "source_url": "https://www.zara.com/us/en/rainbow-kids--placemat-p48607023.html",
+  "final_url": "https://www.zara.com/us/en/rainbow-kids--placemat-p48607023.html",
+  "canonical_url": "https://www.zara.com/us/en/rainbow-kids--placemat-p48607023.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RAINBOW KIDS' PLACEMAT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RAINBOW KIDS' PLACEMAT",
+      "url": "https://www.zara.com/us/en/rainbow-kids--placemat-p48607023.html",
+      "productGroupID": "48607023",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Cotton kids' placemat with light padding. Features a rainbow-shaped design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7958/e8b8/82324042aea4/95efc7ea2b40/48607023712-e1/48607023712-e1.jpg?ts=1785233189476&w=1920",
+        "https://static.zara.net/assets/public/6b4b/71d9/6ba24c3db0aa/371d96ba790c/48607023712-e2/48607023712-e2.jpg?ts=1785233189988&w=1920",
+        "https://static.zara.net/assets/public/0dd0/076e/bbbc45f596fc/d913a2a1eee3/48607023712-e3/48607023712-e3.jpg?ts=1785233186651&w=1920",
+        "https://static.zara.net/assets/public/badb/9cc3/d2c446a888b9/fd9d7b3c6c10/48607023712-e4/48607023712-e4.jpg?ts=1785233189823&w=1920",
+        "https://static.zara.net/assets/public/0935/36c8/590a4aa5aeb8/fe63aab339d0/48607023712-a1/48607023712-a1.jpg?ts=1785919582143&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RAINBOW KIDS' PLACEMAT - Ecru - ONE SIZE ONLY",
+          "sku": "548224846-712-99",
+          "mpn": "548224846-712-99",
+          "color": "Ecru",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/7958/e8b8/82324042aea4/95efc7ea2b40/48607023712-e1/48607023712-e1.jpg?ts=1785233189476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "34.9",
+            "url": "https://www.zara.com/us/en/rainbow-kids--placemat-p48607023.html?v1=548224846",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RAINBOW KIDS' PLACEMAT",
+      "product_group_id": "48607023",
+      "brand": "ZARAHOME",
+      "description": "Cotton kids' placemat with light padding. Features a rainbow-shaped design.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RAINBOW KIDS' PLACEMAT - Ecru - ONE SIZE ONLY",
+          "sku": "548224846-712-99",
+          "mpn": "548224846-712-99",
+          "color_name": "Ecru",
+          "size_name": "ONE SIZE ONLY",
+          "price": "34.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rainbow-kids--placemat-p48607023.html?v1=548224846",
+          "images": [
+            "https://static.zara.net/assets/public/7958/e8b8/82324042aea4/95efc7ea2b40/48607023712-e1/48607023712-e1.jpg?ts=1785233189476&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7958/e8b8/82324042aea4/95efc7ea2b40/48607023712-e1/48607023712-e1.jpg?ts=1785233189476&w=1920",
+        "https://static.zara.net/assets/public/6b4b/71d9/6ba24c3db0aa/371d96ba790c/48607023712-e2/48607023712-e2.jpg?ts=1785233189988&w=1920",
+        "https://static.zara.net/assets/public/0dd0/076e/bbbc45f596fc/d913a2a1eee3/48607023712-e3/48607023712-e3.jpg?ts=1785233186651&w=1920",
+        "https://static.zara.net/assets/public/badb/9cc3/d2c446a888b9/fd9d7b3c6c10/48607023712-e4/48607023712-e4.jpg?ts=1785233189823&w=1920",
+        "https://static.zara.net/assets/public/0935/36c8/590a4aa5aeb8/fe63aab339d0/48607023712-a1/48607023712-a1.jpg?ts=1785919582143&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "34.90",
+  "rendered_description": "Description\nCotton kids' placemat with light padding. Features a rainbow-shaped design.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "34.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "34.90",
+    "dom_price": "34.90",
+    "normalized_price": "34.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3fa2ba5e3a45726a501280ee5d42d773434c20219a3da2daed207a2faf22f0a0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

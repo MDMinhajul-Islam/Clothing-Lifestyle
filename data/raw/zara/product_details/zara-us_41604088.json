@@ -1,0 +1,164 @@
+{
+  "product_id": "zara-us:41604088",
+  "source_url": "https://www.zara.com/us/en/kids--floral-and-stripe-duvet-cover-p41604088.html",
+  "final_url": "https://www.zara.com/us/en/kids--floral-and-stripe-duvet-cover-p41604088.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--floral-and-stripe-duvet-cover-p41604088.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' FLORAL AND STRIPE DUVET COVER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' FLORAL AND STRIPE DUVET COVER",
+      "url": "https://www.zara.com/us/en/kids--floral-and-stripe-duvet-cover-p41604088.html",
+      "productGroupID": "41604088",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' duvet cover made from a blend of linen and cotton. Features a design with fine embroidered stripes and small scattered floral details.\n\nButton fastening at the bottom.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/889f/38dc/b892419d928f/59f339db8bd2/41604088826-e1/41604088826-e1.jpg?ts=1779784056808&w=1920",
+        "https://static.zara.net/assets/public/a5ba/518c/cdef4dec8224/3d2487ec2b76/41604088826-e2/41604088826-e2.jpg?ts=1779784056982&w=1920",
+        "https://static.zara.net/assets/public/a8af/be59/3ce24958ba72/41fc05ec22e7/41604088826-e3/41604088826-e3.jpg?ts=1779784056781&w=1920",
+        "https://static.zara.net/assets/public/f132/2ab6/d961478c81d0/4245b3642a46/41604088826-e4/41604088826-e4.jpg?ts=1779784057231&w=1920",
+        "https://static.zara.net/assets/public/9b9d/ed24/02754c2fb915/f9af4451002b/41604088826-e5/41604088826-e5.jpg?ts=1779784057103&w=1920",
+        "https://static.zara.net/assets/public/a1df/91e5/3e654e6eacb6/827a9c20806d/41604088826-a1/41604088826-a1.jpg?ts=1780472682072&w=1920",
+        "https://static.zara.net/assets/public/5d5c/0b11/040f41d29ec4/22e101cacf27/41604088826-a3/41604088826-a3.jpg?ts=1782985269954&w=1920"
+      ],
+      "material": "linen/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "55% linen, 45% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' FLORAL AND STRIPE DUVET COVER - Grayish - Stan.cot",
+          "sku": "545410164-826-10",
+          "mpn": "545410164-826-10",
+          "color": "Grayish",
+          "size": "Stan.cot",
+          "image": [
+            "https://static.zara.net/assets/public/889f/38dc/b892419d928f/59f339db8bd2/41604088826-e1/41604088826-e1.jpg?ts=1779784056808&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "99.9",
+            "url": "https://www.zara.com/us/en/kids--floral-and-stripe-duvet-cover-p41604088.html?v1=545410164",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' FLORAL AND STRIPE DUVET COVER - Grayish - Single",
+          "sku": "545410164-826-12",
+          "mpn": "545410164-826-12",
+          "color": "Grayish",
+          "size": "Single",
+          "image": [
+            "https://static.zara.net/assets/public/889f/38dc/b892419d928f/59f339db8bd2/41604088826-e1/41604088826-e1.jpg?ts=1779784056808&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "169",
+            "url": "https://www.zara.com/us/en/kids--floral-and-stripe-duvet-cover-p41604088.html?v1=545410164",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' FLORAL AND STRIPE DUVET COVER",
+      "product_group_id": "41604088",
+      "brand": "ZARAHOME",
+      "description": "Kids' duvet cover made from a blend of linen and cotton. Features a design with fine embroidered stripes and small scattered floral details.\n\nButton fastening at the bottom.",
+      "material": "linen/cotton",
+      "composition": "OUTER SHELL: 55% linen, 45% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' FLORAL AND STRIPE DUVET COVER - Grayish - Stan.cot",
+          "sku": "545410164-826-10",
+          "mpn": "545410164-826-10",
+          "color_name": "Grayish",
+          "size_name": "Stan.cot",
+          "price": "99.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--floral-and-stripe-duvet-cover-p41604088.html?v1=545410164",
+          "images": [
+            "https://static.zara.net/assets/public/889f/38dc/b892419d928f/59f339db8bd2/41604088826-e1/41604088826-e1.jpg?ts=1779784056808&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' FLORAL AND STRIPE DUVET COVER - Grayish - Single",
+          "sku": "545410164-826-12",
+          "mpn": "545410164-826-12",
+          "color_name": "Grayish",
+          "size_name": "Single",
+          "price": "169.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--floral-and-stripe-duvet-cover-p41604088.html?v1=545410164",
+          "images": [
+            "https://static.zara.net/assets/public/889f/38dc/b892419d928f/59f339db8bd2/41604088826-e1/41604088826-e1.jpg?ts=1779784056808&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/889f/38dc/b892419d928f/59f339db8bd2/41604088826-e1/41604088826-e1.jpg?ts=1779784056808&w=1920",
+        "https://static.zara.net/assets/public/a5ba/518c/cdef4dec8224/3d2487ec2b76/41604088826-e2/41604088826-e2.jpg?ts=1779784056982&w=1920",
+        "https://static.zara.net/assets/public/a8af/be59/3ce24958ba72/41fc05ec22e7/41604088826-e3/41604088826-e3.jpg?ts=1779784056781&w=1920",
+        "https://static.zara.net/assets/public/f132/2ab6/d961478c81d0/4245b3642a46/41604088826-e4/41604088826-e4.jpg?ts=1779784057231&w=1920",
+        "https://static.zara.net/assets/public/9b9d/ed24/02754c2fb915/f9af4451002b/41604088826-e5/41604088826-e5.jpg?ts=1779784057103&w=1920",
+        "https://static.zara.net/assets/public/a1df/91e5/3e654e6eacb6/827a9c20806d/41604088826-a1/41604088826-a1.jpg?ts=1780472682072&w=1920",
+        "https://static.zara.net/assets/public/5d5c/0b11/040f41d29ec4/22e101cacf27/41604088826-a3/41604088826-a3.jpg?ts=1782985269954&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "99.90",
+  "rendered_description": "Description\nKids' duvet cover made from a blend of linen and cotton. Features a design with fine embroidered stripes and small scattered floral details.\nButton fastening at the bottom.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "99.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "99.90",
+    "dom_price": "99.90",
+    "normalized_price": "99.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f14fac769699e4e0cfa0783e23779d24ffc0c7b92a15a21e31764e20d0649d98",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

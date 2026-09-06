@@ -1,0 +1,371 @@
+{
+  "product_id": "zara-us:13000800",
+  "source_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html",
+  "final_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' STRIPED SLIPPERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' STRIPED SLIPPERS",
+      "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html",
+      "productGroupID": "13000800",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' house slippers with a striped print. Features a non-slip sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920",
+        "https://static.zara.net/assets/public/ae3c/a126/63754c7a8f5c/94534a88e995/13000800009-e2/13000800009-e2.jpg?ts=1781525218092&w=1920",
+        "https://static.zara.net/assets/public/b231/9091/77544dd2a979/562db6745ca0/13000800009-e3/13000800009-e3.jpg?ts=1781525212466&w=1920",
+        "https://static.zara.net/assets/public/60a6/5b4b/a37e4700a061/174587cd4cef/13000800009-e4/13000800009-e4.jpg?ts=1781525217373&w=1920",
+        "https://static.zara.net/assets/public/6bd3/8e16/93c642dab633/3a87e6469854/13000800009-e5/13000800009-e5.jpg?ts=1781525217861&w=1920",
+        "https://static.zara.net/assets/public/ea3e/f22f/e392447ba0b7/58e345b08be5/13000800009-a1/13000800009-a1.jpg?ts=1783678218282&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "60% polyester, 40% silicone"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "65% cotton, 35% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 7",
+          "sku": "545436373-009-22",
+          "mpn": "545436373-009-22",
+          "color": "Blue",
+          "size": "7",
+          "image": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 9",
+          "sku": "545436373-009-24",
+          "mpn": "545436373-009-24",
+          "color": "Blue",
+          "size": "9",
+          "image": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 10½",
+          "sku": "545436373-009-26",
+          "mpn": "545436373-009-26",
+          "color": "Blue",
+          "size": "10½",
+          "image": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 12",
+          "sku": "545436373-009-28",
+          "mpn": "545436373-009-28",
+          "color": "Blue",
+          "size": "12",
+          "image": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 13½",
+          "sku": "545436373-009-30",
+          "mpn": "545436373-009-30",
+          "color": "Blue",
+          "size": "13½",
+          "image": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 2",
+          "sku": "545436373-009-32",
+          "mpn": "545436373-009-32",
+          "color": "Blue",
+          "size": "2",
+          "image": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 3½",
+          "sku": "545436373-009-34",
+          "mpn": "545436373-009-34",
+          "color": "Blue",
+          "size": "3½",
+          "image": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 5",
+          "sku": "545436373-009-36",
+          "mpn": "545436373-009-36",
+          "color": "Blue",
+          "size": "5",
+          "image": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' STRIPED SLIPPERS",
+      "product_group_id": "13000800",
+      "brand": "ZARAHOME",
+      "description": "Kids' house slippers with a striped print. Features a non-slip sole.",
+      "material": "cotton/polyester",
+      "composition": "UPPER: 65% cotton, 35% polyester | LINING: 65% cotton, 35% polyester | SOLE: 60% polyester, 40% silicone | INSOLE: 65% cotton, 35% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 7",
+          "sku": "545436373-009-22",
+          "mpn": "545436373-009-22",
+          "color_name": "Blue",
+          "size_name": "7",
+          "price": "29.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+          "images": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 9",
+          "sku": "545436373-009-24",
+          "mpn": "545436373-009-24",
+          "color_name": "Blue",
+          "size_name": "9",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+          "images": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 10½",
+          "sku": "545436373-009-26",
+          "mpn": "545436373-009-26",
+          "color_name": "Blue",
+          "size_name": "10½",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+          "images": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 12",
+          "sku": "545436373-009-28",
+          "mpn": "545436373-009-28",
+          "color_name": "Blue",
+          "size_name": "12",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+          "images": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 13½",
+          "sku": "545436373-009-30",
+          "mpn": "545436373-009-30",
+          "color_name": "Blue",
+          "size_name": "13½",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+          "images": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 2",
+          "sku": "545436373-009-32",
+          "mpn": "545436373-009-32",
+          "color_name": "Blue",
+          "size_name": "2",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+          "images": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 3½",
+          "sku": "545436373-009-34",
+          "mpn": "545436373-009-34",
+          "color_name": "Blue",
+          "size_name": "3½",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+          "images": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' STRIPED SLIPPERS - Blue - 5",
+          "sku": "545436373-009-36",
+          "mpn": "545436373-009-36",
+          "color_name": "Blue",
+          "size_name": "5",
+          "price": "29.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--striped-slippers-p13000800.html?v1=545436373",
+          "images": [
+            "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0209/62ae/a0b449f2ae9a/abb93d25f4c3/13000800009-e1/13000800009-e1.jpg?ts=1781525218138&w=1920",
+        "https://static.zara.net/assets/public/ae3c/a126/63754c7a8f5c/94534a88e995/13000800009-e2/13000800009-e2.jpg?ts=1781525218092&w=1920",
+        "https://static.zara.net/assets/public/b231/9091/77544dd2a979/562db6745ca0/13000800009-e3/13000800009-e3.jpg?ts=1781525212466&w=1920",
+        "https://static.zara.net/assets/public/60a6/5b4b/a37e4700a061/174587cd4cef/13000800009-e4/13000800009-e4.jpg?ts=1781525217373&w=1920",
+        "https://static.zara.net/assets/public/6bd3/8e16/93c642dab633/3a87e6469854/13000800009-e5/13000800009-e5.jpg?ts=1781525217861&w=1920",
+        "https://static.zara.net/assets/public/ea3e/f22f/e392447ba0b7/58e345b08be5/13000800009-a1/13000800009-a1.jpg?ts=1783678218282&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' house slippers with a striped print. Features a non-slip sole.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 8,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0fb72911c080f9db48906dffc56ae7529eb5253d77154d4470b74fb823cfcf25",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

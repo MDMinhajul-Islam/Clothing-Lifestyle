@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:48606202",
+  "source_url": "https://www.zara.com/us/en/kids--ceramic-dinosaur-plate-p48606202.html",
+  "final_url": "https://www.zara.com/us/en/kids--ceramic-dinosaur-plate-p48606202.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--ceramic-dinosaur-plate-p48606202.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' CERAMIC DINOSAUR PLATE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' CERAMIC DINOSAUR PLATE",
+      "url": "https://www.zara.com/us/en/kids--ceramic-dinosaur-plate-p48606202.html",
+      "productGroupID": "48606202",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' ceramic plate. Features an illustration of a dinosaur wearing a scarf riding a paper airplane with the text \"yummy foodie\" and a contrasting colored rim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a8c7/01e5/8d5049449f0c/685c4a4a6107/48606202999-e1/48606202999-e1.jpg?ts=1785133672813&w=1920",
+        "https://static.zara.net/assets/public/f62c/a129/d7f248f09233/32134307e6e3/48606202999-e2/48606202999-e2.jpg?ts=1785133672771&w=1920",
+        "https://static.zara.net/assets/public/fc4e/9d19/d79a46848fe0/10b5a264055d/48606202999-e3/48606202999-e3.jpg?ts=1785133672781&w=1920",
+        "https://static.zara.net/assets/public/afc9/b46a/041443cab46c/6ee63af7449f/48606202999-e4/48606202999-e4.jpg?ts=1785133679221&w=1920",
+        "https://static.zara.net/assets/public/0999/2402/9cc4431e9479/7104f9de5d82/48606202999-a1/48606202999-a1.jpg?ts=1786633137136&w=1920"
+      ],
+      "material": "100% stoneware",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% stoneware"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' CERAMIC DINOSAUR PLATE - Multicolored - ONE SIZE ONLY",
+          "sku": "547762653-999-99",
+          "mpn": "547762653-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a8c7/01e5/8d5049449f0c/685c4a4a6107/48606202999-e1/48606202999-e1.jpg?ts=1785133672813&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "16.9",
+            "url": "https://www.zara.com/us/en/kids--ceramic-dinosaur-plate-p48606202.html?v1=547762653",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' CERAMIC DINOSAUR PLATE",
+      "product_group_id": "48606202",
+      "brand": "ZARAHOME",
+      "description": "Kids' ceramic plate. Features an illustration of a dinosaur wearing a scarf riding a paper airplane with the text \"yummy foodie\" and a contrasting colored rim.",
+      "material": "100% stoneware",
+      "composition": "OUTER SHELL: 100% stoneware",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' CERAMIC DINOSAUR PLATE - Multicolored - ONE SIZE ONLY",
+          "sku": "547762653-999-99",
+          "mpn": "547762653-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "16.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--ceramic-dinosaur-plate-p48606202.html?v1=547762653",
+          "images": [
+            "https://static.zara.net/assets/public/a8c7/01e5/8d5049449f0c/685c4a4a6107/48606202999-e1/48606202999-e1.jpg?ts=1785133672813&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a8c7/01e5/8d5049449f0c/685c4a4a6107/48606202999-e1/48606202999-e1.jpg?ts=1785133672813&w=1920",
+        "https://static.zara.net/assets/public/f62c/a129/d7f248f09233/32134307e6e3/48606202999-e2/48606202999-e2.jpg?ts=1785133672771&w=1920",
+        "https://static.zara.net/assets/public/fc4e/9d19/d79a46848fe0/10b5a264055d/48606202999-e3/48606202999-e3.jpg?ts=1785133672781&w=1920",
+        "https://static.zara.net/assets/public/afc9/b46a/041443cab46c/6ee63af7449f/48606202999-e4/48606202999-e4.jpg?ts=1785133679221&w=1920",
+        "https://static.zara.net/assets/public/0999/2402/9cc4431e9479/7104f9de5d82/48606202999-a1/48606202999-a1.jpg?ts=1786633137136&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "16.90",
+  "rendered_description": "Description\nKids' ceramic plate. Features an illustration of a dinosaur wearing a scarf riding a paper airplane with the text \"yummy foodie\" and a contrasting colored rim.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "16.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "16.90",
+    "dom_price": "16.90",
+    "normalized_price": "16.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "093d198c1d9268fcb6f657663e8ade5e8f94eb64472f24d19ad826f30a15e1f1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

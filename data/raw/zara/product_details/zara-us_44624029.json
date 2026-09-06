@@ -1,0 +1,163 @@
+{
+  "product_id": "zara-us:44624029",
+  "source_url": "https://www.zara.com/us/en/kids--cotton-dog-area-rug-p44624029.html",
+  "final_url": "https://www.zara.com/us/en/kids--cotton-dog-area-rug-p44624029.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--cotton-dog-area-rug-p44624029.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' COTTON DOG AREA RUG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' COTTON DOG AREA RUG",
+      "url": "https://www.zara.com/us/en/kids--cotton-dog-area-rug-p44624029.html",
+      "productGroupID": "44624029",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' cotton area rug with lines and Dachshund dog motifs.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6c55/d7e5/733943d1baa1/caa5c7af0010/49682029251-e1/49682029251-e1.jpg?ts=1754989121619&w=1920",
+        "https://static.zara.net/assets/public/9b78/684b/afec46c5a385/ca250b473d50/49682029251-e2/49682029251-e2.jpg?ts=1754989122553&w=1920",
+        "https://static.zara.net/assets/public/7b6f/93c5/d5834e9895f3/fba349b7480d/49682029251-e3/49682029251-e3.jpg?ts=1754989116288&w=1920",
+        "https://static.zara.net/assets/public/10e4/906e/2beb48c296c0/8ad268ac1054/49682029251-e4/49682029251-e4.jpg?ts=1754989116382&w=1920",
+        "https://static.zara.net/assets/public/83c3/8439/ceda48959eba/6a7298857cf0/49682029251-e5/49682029251-e5.jpg?ts=1754989117433&w=1920",
+        "https://static.zara.net/assets/public/a73d/76c3/040f4e7c9a83/b403ff91f869/49682029251-e6/49682029251-e6.jpg?ts=1754989116737&w=1920",
+        "https://static.zara.net/assets/public/4e47/aa28/78894e9c9380/4fc4c26d662d/44624029251-a1/44624029251-a1.jpg?ts=1780312171862&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' COTTON DOG AREA RUG - Oyster-white - 35,5 x 59 \"",
+          "sku": "545436255-251-90",
+          "mpn": "545436255-251-90",
+          "color": "Oyster-white",
+          "size": "35,5 x 59 \"",
+          "image": [
+            "https://static.zara.net/assets/public/6c55/d7e5/733943d1baa1/caa5c7af0010/49682029251-e1/49682029251-e1.jpg?ts=1754989121619&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/kids--cotton-dog-area-rug-p44624029.html?v1=545436255",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KIDS' COTTON DOG AREA RUG - Oyster-white - 59 x 78,5 \"",
+          "sku": "545436255-251-83",
+          "mpn": "545436255-251-83",
+          "color": "Oyster-white",
+          "size": "59 x 78,5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/6c55/d7e5/733943d1baa1/caa5c7af0010/49682029251-e1/49682029251-e1.jpg?ts=1754989121619&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "269",
+            "url": "https://www.zara.com/us/en/kids--cotton-dog-area-rug-p44624029.html?v1=545436255",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' COTTON DOG AREA RUG",
+      "product_group_id": "44624029",
+      "brand": "ZARAHOME",
+      "description": "Kids' cotton area rug with lines and Dachshund dog motifs.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' COTTON DOG AREA RUG - Oyster-white - 35,5 x 59 \"",
+          "sku": "545436255-251-90",
+          "mpn": "545436255-251-90",
+          "color_name": "Oyster-white",
+          "size_name": "35,5 x 59 \"",
+          "price": "149.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--cotton-dog-area-rug-p44624029.html?v1=545436255",
+          "images": [
+            "https://static.zara.net/assets/public/6c55/d7e5/733943d1baa1/caa5c7af0010/49682029251-e1/49682029251-e1.jpg?ts=1754989121619&w=1920"
+          ]
+        },
+        {
+          "name": "KIDS' COTTON DOG AREA RUG - Oyster-white - 59 x 78,5 \"",
+          "sku": "545436255-251-83",
+          "mpn": "545436255-251-83",
+          "color_name": "Oyster-white",
+          "size_name": "59 x 78,5 \"",
+          "price": "269.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--cotton-dog-area-rug-p44624029.html?v1=545436255",
+          "images": [
+            "https://static.zara.net/assets/public/6c55/d7e5/733943d1baa1/caa5c7af0010/49682029251-e1/49682029251-e1.jpg?ts=1754989121619&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6c55/d7e5/733943d1baa1/caa5c7af0010/49682029251-e1/49682029251-e1.jpg?ts=1754989121619&w=1920",
+        "https://static.zara.net/assets/public/9b78/684b/afec46c5a385/ca250b473d50/49682029251-e2/49682029251-e2.jpg?ts=1754989122553&w=1920",
+        "https://static.zara.net/assets/public/7b6f/93c5/d5834e9895f3/fba349b7480d/49682029251-e3/49682029251-e3.jpg?ts=1754989116288&w=1920",
+        "https://static.zara.net/assets/public/10e4/906e/2beb48c296c0/8ad268ac1054/49682029251-e4/49682029251-e4.jpg?ts=1754989116382&w=1920",
+        "https://static.zara.net/assets/public/83c3/8439/ceda48959eba/6a7298857cf0/49682029251-e5/49682029251-e5.jpg?ts=1754989117433&w=1920",
+        "https://static.zara.net/assets/public/a73d/76c3/040f4e7c9a83/b403ff91f869/49682029251-e6/49682029251-e6.jpg?ts=1754989116737&w=1920",
+        "https://static.zara.net/assets/public/4e47/aa28/78894e9c9380/4fc4c26d662d/44624029251-a1/44624029251-a1.jpg?ts=1780312171862&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\nKids' cotton area rug with lines and Dachshund dog motifs.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0c7f069585d43a0f9c72bf80c4aeaab55a1ae14f689c55f3b14f17df8d513d33",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

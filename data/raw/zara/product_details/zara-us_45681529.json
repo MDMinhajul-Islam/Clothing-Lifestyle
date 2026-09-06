@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:45681529",
+  "source_url": "https://www.zara.com/us/en/baby-chicks-footed-romper-p45681529.html",
+  "final_url": "https://www.zara.com/us/en/baby-chicks-footed-romper-p45681529.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-chicks-footed-romper-p45681529.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY CHICKS FOOTED ROMPER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY CHICKS FOOTED ROMPER",
+      "url": "https://www.zara.com/us/en/baby-chicks-footed-romper-p45681529.html",
+      "productGroupID": "45681529",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby long footed romper with an infinity scarf and a chick print. Fastenings on the back.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d97d/9ab9/16314cbca39f/44881114a6c8/45681529803-e1/45681529803-e1.jpg?ts=1787735680177&w=1920",
+        "https://static.zara.net/assets/public/82e6/862c/fe704a5181c1/e98927ed80b6/45681529803-e2/45681529803-e2.jpg?ts=1787649365252&w=1920",
+        "https://static.zara.net/assets/public/4ab5/2060/eace4317bbec/a23e13e47cef/45681529803-e3/45681529803-e3.jpg?ts=1787649365717&w=1920",
+        "https://static.zara.net/assets/public/06cc/6714/178c4c12b678/ff28d980065d/45681529803-e4/45681529803-e4.jpg?ts=1787649364406&w=1920",
+        "https://static.zara.net/assets/public/b8f3/1963/be31472d810c/2745ccc205c9/45681529803-e5/45681529803-e5.jpg?ts=1787649371266&w=1920",
+        "https://static.zara.net/assets/public/0f45/ce0d/663c448985d2/cad1feecdfe6/45681529803-a1/45681529803-a1.jpg?ts=1788331332132&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY CHICKS FOOTED ROMPER - Gray marl - 62 cm",
+          "sku": "545461321-803-13",
+          "mpn": "545461321-803-13",
+          "color": "Gray marl",
+          "size": "62 cm",
+          "image": [
+            "https://static.zara.net/assets/public/d97d/9ab9/16314cbca39f/44881114a6c8/45681529803-e1/45681529803-e1.jpg?ts=1787735680177&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/baby-chicks-footed-romper-p45681529.html?v1=545461321",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BABY CHICKS FOOTED ROMPER - Gray marl - 68 cm",
+          "sku": "545461321-803-36",
+          "mpn": "545461321-803-36",
+          "color": "Gray marl",
+          "size": "68 cm",
+          "image": [
+            "https://static.zara.net/assets/public/d97d/9ab9/16314cbca39f/44881114a6c8/45681529803-e1/45681529803-e1.jpg?ts=1787735680177&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/baby-chicks-footed-romper-p45681529.html?v1=545461321",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY CHICKS FOOTED ROMPER",
+      "product_group_id": "45681529",
+      "brand": "ZARAHOME",
+      "description": "Baby long footed romper with an infinity scarf and a chick print. Fastenings on the back.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY CHICKS FOOTED ROMPER - Gray marl - 62 cm",
+          "sku": "545461321-803-13",
+          "mpn": "545461321-803-13",
+          "color_name": "Gray marl",
+          "size_name": "62 cm",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-chicks-footed-romper-p45681529.html?v1=545461321",
+          "images": [
+            "https://static.zara.net/assets/public/d97d/9ab9/16314cbca39f/44881114a6c8/45681529803-e1/45681529803-e1.jpg?ts=1787735680177&w=1920"
+          ]
+        },
+        {
+          "name": "BABY CHICKS FOOTED ROMPER - Gray marl - 68 cm",
+          "sku": "545461321-803-36",
+          "mpn": "545461321-803-36",
+          "color_name": "Gray marl",
+          "size_name": "68 cm",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-chicks-footed-romper-p45681529.html?v1=545461321",
+          "images": [
+            "https://static.zara.net/assets/public/d97d/9ab9/16314cbca39f/44881114a6c8/45681529803-e1/45681529803-e1.jpg?ts=1787735680177&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d97d/9ab9/16314cbca39f/44881114a6c8/45681529803-e1/45681529803-e1.jpg?ts=1787735680177&w=1920",
+        "https://static.zara.net/assets/public/82e6/862c/fe704a5181c1/e98927ed80b6/45681529803-e2/45681529803-e2.jpg?ts=1787649365252&w=1920",
+        "https://static.zara.net/assets/public/4ab5/2060/eace4317bbec/a23e13e47cef/45681529803-e3/45681529803-e3.jpg?ts=1787649365717&w=1920",
+        "https://static.zara.net/assets/public/06cc/6714/178c4c12b678/ff28d980065d/45681529803-e4/45681529803-e4.jpg?ts=1787649364406&w=1920",
+        "https://static.zara.net/assets/public/b8f3/1963/be31472d810c/2745ccc205c9/45681529803-e5/45681529803-e5.jpg?ts=1787649371266&w=1920",
+        "https://static.zara.net/assets/public/0f45/ce0d/663c448985d2/cad1feecdfe6/45681529803-a1/45681529803-a1.jpg?ts=1788331332132&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nBaby long footed romper with an infinity scarf and a chick print. Fastenings on the back.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6f151c4be958415bccfb3407ca86001d42e0ca641965c591737d69075f09a406",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:44618004",
+  "source_url": "https://www.zara.com/us/en/baby-planet-blanket-p44618004.html",
+  "final_url": "https://www.zara.com/us/en/baby-planet-blanket-p44618004.html",
+  "canonical_url": "https://www.zara.com/us/en/baby-planet-blanket-p44618004.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BABY PLANET BLANKET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BABY PLANET BLANKET",
+      "url": "https://www.zara.com/us/en/baby-planet-blanket-p44618004.html",
+      "productGroupID": "44618004",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Baby blanket featuring planet motifs.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1fb8/9037/612e4d218ae3/874f683f470e/44618004712-e1/44618004712-e1.jpg?ts=1788505459623&w=1920",
+        "https://static.zara.net/assets/public/b8e7/3c91/4339476f8b52/77148e75f526/44618004712-e2/44618004712-e2.jpg?ts=1788505460823&w=1920",
+        "https://static.zara.net/assets/public/515c/09a4/301c41039891/359735416570/44618004712-e3/44618004712-e3.jpg?ts=1788505447577&w=1920",
+        "https://static.zara.net/assets/public/d834/75e1/e7654f6d84a8/399ab5f81941/44618004712-e4/44618004712-e4.jpg?ts=1788505460195&w=1920",
+        "https://static.zara.net/assets/public/4d0c/3159/994d48bc9b50/26b91bcabbf9/44618004712-a1/44618004712-a1.jpg?ts=1781793692618&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BABY PLANET BLANKET - Ecru - 27.5 x 39.5 \"",
+          "sku": "545436561-712-9",
+          "mpn": "545436561-712-9",
+          "color": "Ecru",
+          "size": "27.5 x 39.5 \"",
+          "image": [
+            "https://static.zara.net/assets/public/1fb8/9037/612e4d218ae3/874f683f470e/44618004712-e1/44618004712-e1.jpg?ts=1788505459623&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/baby-planet-blanket-p44618004.html?v1=545436561",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BABY PLANET BLANKET",
+      "product_group_id": "44618004",
+      "brand": "ZARAHOME",
+      "description": "Baby blanket featuring planet motifs.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BABY PLANET BLANKET - Ecru - 27.5 x 39.5 \"",
+          "sku": "545436561-712-9",
+          "mpn": "545436561-712-9",
+          "color_name": "Ecru",
+          "size_name": "27.5 x 39.5 \"",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/baby-planet-blanket-p44618004.html?v1=545436561",
+          "images": [
+            "https://static.zara.net/assets/public/1fb8/9037/612e4d218ae3/874f683f470e/44618004712-e1/44618004712-e1.jpg?ts=1788505459623&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1fb8/9037/612e4d218ae3/874f683f470e/44618004712-e1/44618004712-e1.jpg?ts=1788505459623&w=1920",
+        "https://static.zara.net/assets/public/b8e7/3c91/4339476f8b52/77148e75f526/44618004712-e2/44618004712-e2.jpg?ts=1788505460823&w=1920",
+        "https://static.zara.net/assets/public/515c/09a4/301c41039891/359735416570/44618004712-e3/44618004712-e3.jpg?ts=1788505447577&w=1920",
+        "https://static.zara.net/assets/public/d834/75e1/e7654f6d84a8/399ab5f81941/44618004712-e4/44618004712-e4.jpg?ts=1788505460195&w=1920",
+        "https://static.zara.net/assets/public/4d0c/3159/994d48bc9b50/26b91bcabbf9/44618004712-a1/44618004712-a1.jpg?ts=1781793692618&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nBaby blanket featuring planet motifs.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f4f433144fbe0323f6f7a322de1a110f2d8d17f6454199ae9fe9cb87e839f84e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

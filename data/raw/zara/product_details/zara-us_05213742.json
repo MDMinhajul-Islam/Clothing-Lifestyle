@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:05213742",
+  "source_url": "https://www.zara.com/us/en/neon-floral-bandana-p05213742.html",
+  "final_url": "https://www.zara.com/us/en/neon-floral-bandana-p05213742.html",
+  "canonical_url": "https://www.zara.com/us/en/neon-floral-bandana-p05213742.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "NEON FLORAL BANDANA",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "NEON FLORAL BANDANA",
+      "url": "https://www.zara.com/us/en/neon-floral-bandana-p05213742.html",
+      "productGroupID": "05213742",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Floral print bandana with neon detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5784/f7c8/93e0491a8e17/523b94f55cc2/05213742712-e1/05213742712-e1.jpg?ts=1782914096436&w=1920",
+        "https://static.zara.net/assets/public/dd20/fe52/ca294431afaa/30a64bfbd886/05213742712-e2/05213742712-e2.jpg?ts=1782914096627&w=1920",
+        "https://static.zara.net/assets/public/c68f/95ac/f4734a6ab9c6/eb0bb8ce6c28/05213742712-e3/05213742712-e3.jpg?ts=1782914096075&w=1920",
+        "https://static.zara.net/assets/public/00b8/049e/3d3840d58975/9a5ec9259321/05213742712-e5/05213742712-e5.jpg?ts=1782914098356&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "NEON FLORAL BANDANA - Ecru - M",
+          "sku": "545400479-712-14",
+          "mpn": "545400479-712-14",
+          "color": "Ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/5784/f7c8/93e0491a8e17/523b94f55cc2/05213742712-e1/05213742712-e1.jpg?ts=1782914096436&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/neon-floral-bandana-p05213742.html?v1=545400479",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "NEON FLORAL BANDANA",
+      "product_group_id": "05213742",
+      "brand": "ZARA",
+      "description": "Floral print bandana with neon detail.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "NEON FLORAL BANDANA - Ecru - M",
+          "sku": "545400479-712-14",
+          "mpn": "545400479-712-14",
+          "color_name": "Ecru",
+          "size_name": "M",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/neon-floral-bandana-p05213742.html?v1=545400479",
+          "images": [
+            "https://static.zara.net/assets/public/5784/f7c8/93e0491a8e17/523b94f55cc2/05213742712-e1/05213742712-e1.jpg?ts=1782914096436&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5784/f7c8/93e0491a8e17/523b94f55cc2/05213742712-e1/05213742712-e1.jpg?ts=1782914096436&w=1920",
+        "https://static.zara.net/assets/public/dd20/fe52/ca294431afaa/30a64bfbd886/05213742712-e2/05213742712-e2.jpg?ts=1782914096627&w=1920",
+        "https://static.zara.net/assets/public/c68f/95ac/f4734a6ab9c6/eb0bb8ce6c28/05213742712-e3/05213742712-e3.jpg?ts=1782914096075&w=1920",
+        "https://static.zara.net/assets/public/00b8/049e/3d3840d58975/9a5ec9259321/05213742712-e5/05213742712-e5.jpg?ts=1782914098356&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "15.90",
+  "rendered_description": "Description\nFloral print bandana with neon detail.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "15.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "15.90",
+    "dom_price": "15.90",
+    "normalized_price": "15.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "68c9afa18d59f1f213fd97d54058d41922ef6d33f4e5c86e5f011164236a5041",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

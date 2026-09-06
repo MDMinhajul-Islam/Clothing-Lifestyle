@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:41672592",
+  "source_url": "https://www.zara.com/us/en/large-kids--planet-lamp-shade-p41672592.html",
+  "final_url": "https://www.zara.com/us/en/large-kids--planet-lamp-shade-p41672592.html",
+  "canonical_url": "https://www.zara.com/us/en/large-kids--planet-lamp-shade-p41672592.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LARGE KIDS’ PLANET LAMP SHADE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LARGE KIDS’ PLANET LAMP SHADE",
+      "url": "https://www.zara.com/us/en/large-kids--planet-lamp-shade-p41672592.html",
+      "productGroupID": "41672592",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Spherical ceiling lamp shade. Designed with a spherical shape that mimics a planet with rings.\n\nLED bulb recommended.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8ae0/5feb/d62a4f7ea5eb/884dc816692d/41672592400-e1/41672592400-e1.jpg?ts=1782827382549&w=1920",
+        "https://static.zara.net/assets/public/be3d/777a/55e44f55b5cd/36a505d96fe5/41672592400-e2/41672592400-e2.jpg?ts=1782827387161&w=1920",
+        "https://static.zara.net/assets/public/5760/7a06/8db74ea69fb0/ee770d02afdf/41672592400-e3/41672592400-e3.jpg?ts=1782208501081&w=1920",
+        "https://static.zara.net/assets/public/85ad/ee29/9f4a4cbea048/80d7af3cb93a/41672592400-e4/41672592400-e4.jpg?ts=1782208501623&w=1920",
+        "https://static.zara.net/assets/public/cbc8/3ad7/88704cee931f/a7103b5a56af/41672592400-a1/41672592400-a1.jpg?ts=1782831858930&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LARGE KIDS’ PLANET LAMP SHADE - Blue - ONE SIZE ONLY",
+          "sku": "545404909-400-99",
+          "mpn": "545404909-400-99",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/8ae0/5feb/d62a4f7ea5eb/884dc816692d/41672592400-e1/41672592400-e1.jpg?ts=1782827382549&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/large-kids--planet-lamp-shade-p41672592.html?v1=545404909",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LARGE KIDS’ PLANET LAMP SHADE",
+      "product_group_id": "41672592",
+      "brand": "ZARAHOME",
+      "description": "Spherical ceiling lamp shade. Designed with a spherical shape that mimics a planet with rings.\n\nLED bulb recommended.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LARGE KIDS’ PLANET LAMP SHADE - Blue - ONE SIZE ONLY",
+          "sku": "545404909-400-99",
+          "mpn": "545404909-400-99",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/large-kids--planet-lamp-shade-p41672592.html?v1=545404909",
+          "images": [
+            "https://static.zara.net/assets/public/8ae0/5feb/d62a4f7ea5eb/884dc816692d/41672592400-e1/41672592400-e1.jpg?ts=1782827382549&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8ae0/5feb/d62a4f7ea5eb/884dc816692d/41672592400-e1/41672592400-e1.jpg?ts=1782827382549&w=1920",
+        "https://static.zara.net/assets/public/be3d/777a/55e44f55b5cd/36a505d96fe5/41672592400-e2/41672592400-e2.jpg?ts=1782827387161&w=1920",
+        "https://static.zara.net/assets/public/5760/7a06/8db74ea69fb0/ee770d02afdf/41672592400-e3/41672592400-e3.jpg?ts=1782208501081&w=1920",
+        "https://static.zara.net/assets/public/85ad/ee29/9f4a4cbea048/80d7af3cb93a/41672592400-e4/41672592400-e4.jpg?ts=1782208501623&w=1920",
+        "https://static.zara.net/assets/public/cbc8/3ad7/88704cee931f/a7103b5a56af/41672592400-a1/41672592400-a1.jpg?ts=1782831858930&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nSpherical ceiling lamp shade. Designed with a spherical shape that mimics a planet with rings.\nLED bulb recommended.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "340d068f55f3b59d08c1fb8dba3ebff943d52cc8cc9f484d8e1ecfa677f11029",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

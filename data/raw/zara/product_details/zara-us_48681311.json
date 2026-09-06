@@ -1,0 +1,127 @@
+{
+  "product_id": "zara-us:48681311",
+  "source_url": "https://www.zara.com/us/en/kids--space-flatware-set-p48681311.html",
+  "final_url": "https://www.zara.com/us/en/kids--space-flatware-set-p48681311.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--space-flatware-set-p48681311.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS' SPACE FLATWARE SET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS' SPACE FLATWARE SET",
+      "url": "https://www.zara.com/us/en/kids--space-flatware-set-p48681311.html",
+      "productGroupID": "48681311",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' flatware set made of stainless steel with space-themed handles.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8c68/0a11/b8254d028450/cfcd39d2a02b/48681311999-e1/48681311999-e1.jpg?ts=1781794570505&w=1920",
+        "https://static.zara.net/assets/public/b79d/196f/3aa547728692/f1b65f1668f0/48681311999-e2/48681311999-e2.jpg?ts=1781794571114&w=1920",
+        "https://static.zara.net/assets/public/4763/6491/2c094e6097bf/fa47a5b8a994/48681311999-e3/48681311999-e3.jpg?ts=1781794570896&w=1920",
+        "https://static.zara.net/assets/public/c319/0e45/06cc48918b78/3fb8801196bc/48681311999-e4/48681311999-e4.jpg?ts=1781794571078&w=1920",
+        "https://static.zara.net/assets/public/a27d/b362/0a4f4d22b0c3/7d362889439a/48681311999-a1/48681311999-a1.jpg?ts=1781792077212&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS' SPACE FLATWARE SET - Multicolored - ONE SIZE ONLY",
+          "sku": "545409839-999-99",
+          "mpn": "545409839-999-99",
+          "color": "Multicolored",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/8c68/0a11/b8254d028450/cfcd39d2a02b/48681311999-e1/48681311999-e1.jpg?ts=1781794570505&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/kids--space-flatware-set-p48681311.html?v1=545409839",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS' SPACE FLATWARE SET",
+      "product_group_id": "48681311",
+      "brand": "ZARAHOME",
+      "description": "Kids' flatware set made of stainless steel with space-themed handles.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS' SPACE FLATWARE SET - Multicolored - ONE SIZE ONLY",
+          "sku": "545409839-999-99",
+          "mpn": "545409839-999-99",
+          "color_name": "Multicolored",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--space-flatware-set-p48681311.html?v1=545409839",
+          "images": [
+            "https://static.zara.net/assets/public/8c68/0a11/b8254d028450/cfcd39d2a02b/48681311999-e1/48681311999-e1.jpg?ts=1781794570505&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8c68/0a11/b8254d028450/cfcd39d2a02b/48681311999-e1/48681311999-e1.jpg?ts=1781794570505&w=1920",
+        "https://static.zara.net/assets/public/b79d/196f/3aa547728692/f1b65f1668f0/48681311999-e2/48681311999-e2.jpg?ts=1781794571114&w=1920",
+        "https://static.zara.net/assets/public/4763/6491/2c094e6097bf/fa47a5b8a994/48681311999-e3/48681311999-e3.jpg?ts=1781794570896&w=1920",
+        "https://static.zara.net/assets/public/c319/0e45/06cc48918b78/3fb8801196bc/48681311999-e4/48681311999-e4.jpg?ts=1781794571078&w=1920",
+        "https://static.zara.net/assets/public/a27d/b362/0a4f4d22b0c3/7d362889439a/48681311999-a1/48681311999-a1.jpg?ts=1781792077212&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nKids' flatware set made of stainless steel with space-themed handles.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b0ff29939b058ce2abc6246391fb68eabea68ed5456aa0840b2f92e8eae095c5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,128 @@
+{
+  "product_id": "zara-us:46600423",
+  "source_url": "https://www.zara.com/us/en/space-hooded-kids--bath-towel-p46600423.html",
+  "final_url": "https://www.zara.com/us/en/space-hooded-kids--bath-towel-p46600423.html",
+  "canonical_url": "https://www.zara.com/us/en/space-hooded-kids--bath-towel-p46600423.html",
+  "enriched_at": "2026-09-06T18:41:07.837227+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SPACE HOODED KIDS' BATH TOWEL",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SPACE HOODED KIDS' BATH TOWEL",
+      "url": "https://www.zara.com/us/en/space-hooded-kids--bath-towel-p46600423.html",
+      "productGroupID": "46600423",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARAHOME"
+      },
+      "description": "Kids' hooded bath towel made of cotton terrycloth, featuring a space-themed design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bc80/c1bd/aae249b8a7f4/6fca972c4ba3/46600423251-e1/46600423251-e1.jpg?ts=1782402752409&w=1920",
+        "https://static.zara.net/assets/public/a636/d1ac/5210460da2a3/de0315eb902e/46600423251-e2/46600423251-e2.jpg?ts=1782402752977&w=1920",
+        "https://static.zara.net/assets/public/7468/1456/32274e269897/936a90b9767f/46600423251-e3/46600423251-e3.jpg?ts=1782402752779&w=1920",
+        "https://static.zara.net/assets/public/cbf1/7915/f96941899495/69aaa4548525/46600423251-e4/46600423251-e4.jpg?ts=1782402752960&w=1920",
+        "https://static.zara.net/assets/public/0655/28c8/63554b52b499/8d7c1a9be795/46600423251-a1/46600423251-a1.jpg?ts=1781528937199&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SPACE HOODED KIDS' BATH TOWEL - Oyster-white - Children's towel with hood",
+          "sku": "545426390-251-38",
+          "mpn": "545426390-251-38",
+          "color": "Oyster-white",
+          "size": "Children's towel with hood",
+          "image": [
+            "https://static.zara.net/assets/public/bc80/c1bd/aae249b8a7f4/6fca972c4ba3/46600423251-e1/46600423251-e1.jpg?ts=1782402752409&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/space-hooded-kids--bath-towel-p46600423.html?v1=545426390",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SPACE HOODED KIDS' BATH TOWEL",
+      "product_group_id": "46600423",
+      "brand": "ZARAHOME",
+      "description": "Kids' hooded bath towel made of cotton terrycloth, featuring a space-themed design.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SPACE HOODED KIDS' BATH TOWEL - Oyster-white - Children's towel with hood",
+          "sku": "545426390-251-38",
+          "mpn": "545426390-251-38",
+          "color_name": "Oyster-white",
+          "size_name": "Children's towel with hood",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/space-hooded-kids--bath-towel-p46600423.html?v1=545426390",
+          "images": [
+            "https://static.zara.net/assets/public/bc80/c1bd/aae249b8a7f4/6fca972c4ba3/46600423251-e1/46600423251-e1.jpg?ts=1782402752409&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bc80/c1bd/aae249b8a7f4/6fca972c4ba3/46600423251-e1/46600423251-e1.jpg?ts=1782402752409&w=1920",
+        "https://static.zara.net/assets/public/a636/d1ac/5210460da2a3/de0315eb902e/46600423251-e2/46600423251-e2.jpg?ts=1782402752977&w=1920",
+        "https://static.zara.net/assets/public/7468/1456/32274e269897/936a90b9767f/46600423251-e3/46600423251-e3.jpg?ts=1782402752779&w=1920",
+        "https://static.zara.net/assets/public/cbf1/7915/f96941899495/69aaa4548525/46600423251-e4/46600423251-e4.jpg?ts=1782402752960&w=1920",
+        "https://static.zara.net/assets/public/0655/28c8/63554b52b499/8d7c1a9be795/46600423251-a1/46600423251-a1.jpg?ts=1781528937199&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nKids' hooded bath towel made of cotton terrycloth, featuring a space-themed design.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2ce8b0c37f9d5b1431583fccdcb4c5548923c4519093bbb1b4e04558abfdf050",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
