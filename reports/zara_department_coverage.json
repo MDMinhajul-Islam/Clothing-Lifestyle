@@ -1,10 +1,10 @@
 {
   "phase": "GRAPH_REPAIR_REVIEW",
   "legacy_nodes": 369,
-  "revised_nodes": 715,
+  "revised_nodes": 717,
   "route_types": {
-    "PRODUCT_LISTING_CATEGORY": 25,
-    "UNKNOWN": 683,
+    "PRODUCT_LISTING_CATEGORY": 35,
+    "UNKNOWN": 675,
     "NAVIGATION_PAGE": 7
   },
   "department_coverage": {
@@ -12,36 +12,36 @@
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/woman-mkt1000.html",
       "category_nodes": 454,
-      "product_bearing_nodes": 15,
-      "unresolved_nodes": 438
+      "product_bearing_nodes": 17,
+      "unresolved_nodes": 436
     },
     "MAN": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/man-l534.html",
       "category_nodes": 193,
-      "product_bearing_nodes": 2,
-      "unresolved_nodes": 191
+      "product_bearing_nodes": 4,
+      "unresolved_nodes": 189
     },
     "KIDS": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/kids-mkt1.html",
       "category_nodes": 13,
-      "product_bearing_nodes": 6,
-      "unresolved_nodes": 6
+      "product_bearing_nodes": 8,
+      "unresolved_nodes": 4
     },
     "ZARA HOME": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/home-mkt2085.html",
-      "category_nodes": 19,
-      "product_bearing_nodes": 1,
-      "unresolved_nodes": 17
+      "category_nodes": 20,
+      "product_bearing_nodes": 3,
+      "unresolved_nodes": 16
     },
     "BEAUTY": {
       "landing_verified": true,
       "landing_url": "https://www.zara.com/us/en/woman-beauty-mkt1414.html",
-      "category_nodes": 8,
-      "product_bearing_nodes": 1,
-      "unresolved_nodes": 6
+      "category_nodes": 9,
+      "product_bearing_nodes": 3,
+      "unresolved_nodes": 5
     },
     "MASSIMO DUTTI": {
       "landing_verified": true,
@@ -73,10 +73,10 @@
     }
   },
   "observed_alias_merges": 1,
-  "enumeration_queue_size": 25,
-  "discovery_queue_pending": 499,
+  "enumeration_queue_size": 35,
+  "discovery_queue_pending": 491,
   "discovery_queue_deferred": 185,
-  "discovery_queue_complete": 31,
+  "discovery_queue_complete": 41,
   "product_queue_pending": 7,
   "product_queue_supplemental_review": 51,
   "protected_files_unchanged": {

@@ -212,29 +212,29 @@
   {
     "id": "category:4c4e00e79769d251",
     "url": "https://www.zara.com/us/en/woman-dresses-printed-l1089.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:52:22.674589+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1089.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
     "id": "category:5c28c37318e0ff3f",
     "url": "https://www.zara.com/us/en/woman-dresses-maxi-l1079.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:52:31.800128+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1079.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
@@ -2564,15 +2564,15 @@
   {
     "id": "category:d466f95da1e8eced",
     "url": "https://www.zara.com/us/en/man-jackets-l640.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:52:39.860297+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\640.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
@@ -2592,15 +2592,15 @@
   {
     "id": "category:61bfa8198472b8bf",
     "url": "https://www.zara.com/us/en/man-outerwear-leather-l4550.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:52:48.368019+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\4550.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
@@ -5588,15 +5588,15 @@
   {
     "id": "category:1d06358b2b90c030",
     "url": "https://www.zara.com/us/en/woman-beauty-perfumes-l1415.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:52:53.983816+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1415.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
@@ -5756,15 +5756,15 @@
   {
     "id": "category:199c414d594fdc90",
     "url": "https://www.zara.com/us/en/home-new-collection-l15856.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:53:02.024023+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\15856.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
@@ -5784,15 +5784,15 @@
   {
     "id": "category:236c3fef535eda91",
     "url": "https://www.zara.com/us/en/home-living-room-stationery-l2619.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:53:09.222726+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\2619.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
@@ -7084,8 +7084,36 @@
     }
   },
   {
+    "id": "category:58880c624de4adcb",
+    "url": "https://www.zara.com/us/en/woman-beauty-perfumes-chapters-l6285.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
     "id": "category:5fb583e397978f17",
     "url": "https://www.zara.com/us/en/woman-dresses-party-l1581.html?page=2",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:060bc5eb3d5ddbcf",
+    "url": "https://www.zara.com/us/en/home-collection-l6128.html",
     "status": "QUEUED",
     "attempt_count": 0,
     "last_attempt_at": null,
@@ -9588,6 +9616,20 @@
     }
   },
   {
+    "id": "category:c7380f95c6f0ff78",
+    "url": "https://www.zara.com/us/en/kids-accessories-l3.html?page=2",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:53:24.667463+00:00",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\discovery\\3_p2.json",
+      "phase": "classification",
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
+    }
+  },
+  {
     "id": "category:f6f89346c540a384",
     "url": "https://www.zara.com/us/en/woman-triangle-bikinis-l19127.html",
     "status": "DEFERRED",
@@ -9873,17 +9915,31 @@
     }
   },
   {
-    "id": "category:0d2099eb3dc18c6f",
-    "url": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "id": "category:3d330d42bf74141a",
+    "url": "https://www.zara.com/us/en/kids-baby-l7244.html?page=2",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:53:34.284115+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\7244_p2.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
+    }
+  },
+  {
+    "id": "category:0d2099eb3dc18c6f",
+    "url": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:53:18.600419+00:00",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\discovery\\7931.json",
+      "phase": "classification",
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     }
   },
   {
@@ -10027,20 +10083,6 @@
     }
   },
   {
-    "id": "category:c7380f95c6f0ff78",
-    "url": "https://www.zara.com/us/en/kids-accessories-l3.html?page=2",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
-    "error": null,
-    "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
     "id": "category:2fb546a5484fad6f",
     "url": "https://www.zara.com/us/en/kids-baby-l7244.html",
     "status": "COMPLETE",
@@ -10049,20 +10091,6 @@
     "error": null,
     "checkpoint": {
       "evidence": "data\\raw\\zara\\repair\\kids_baby.json",
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:3d330d42bf74141a",
-    "url": "https://www.zara.com/us/en/kids-baby-l7244.html?page=2",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
-    "error": null,
-    "checkpoint": {
-      "evidence": null,
       "legacy_visited": false,
       "phase": "classification",
       "enumeration_complete": false

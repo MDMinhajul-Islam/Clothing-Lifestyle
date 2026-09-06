@@ -19,8 +19,8 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | LINGERIE STYLE | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-lace-l1774.html |
 | WOMAN | Women's Linen Dresses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-linen-l1686.html |
 | WOMAN | BELTED | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-belted-l17324.html |
-| WOMAN | Women´s Printed Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-printed-l1089.html |
-| WOMAN | Women's Maxi Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-maxi-l1079.html |
+| WOMAN | Women´s Printed Dresses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-printed-l1089.html |
+| WOMAN | Women's Maxi Dresses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-dresses-maxi-l1079.html |
 | WOMAN | Women's Long Sleeve Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-long-sleeve-l1776.html |
 | WOMAN | Women´s Satin Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-satin-l3082.html |
 | WOMAN | Women's Denim Dresses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-denim-l1704.html |
@@ -187,9 +187,9 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | Blue And White Dress Woman | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-blue-and-white-dress-l18485.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-l1066.html?page=2 |
 | MAN | Men's Rain Jackets / ZARA United States | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-wind-breaker-l1651.html |
-| MAN | view all | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-l640.html |
+| MAN | view all | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/man-jackets-l640.html |
 | MAN | puffers | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-padded-l722.html |
-| MAN | real leather | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-leather-l4550.html |
+| MAN | real leather | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/man-outerwear-leather-l4550.html |
 | MAN | leather effect | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-faux-leather-l650.html |
 | MAN | vests | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-vests-l730.html |
 | MAN | denim | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-denim-l648.html |
@@ -403,7 +403,7 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | SHOES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-l1251.html |
 | WOMAN | BAGS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-bags-l1024.html |
 | WOMAN | ACCESSORIES / JEWELRY | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-accessories-l1003.html |
-| BEAUTY | PERFUMES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-perfumes-l1415.html |
+| BEAUTY | PERFUMES | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-beauty-perfumes-l1415.html |
 | WOMAN | ZARA HAIR | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-hair-l7345.html |
 | BEAUTY | BEAUTY | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-beauty-makeup-l4414.html |
 | PRE-OWNED | SECONDHAND | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/preowned-woman-mkt7630.html |
@@ -415,9 +415,9 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | MARIE VON BEHRENS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-the-fold-marie-von-behrens-mkt19413.html |
 | WOMAN | LILLY SISTO | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-the-fold-lilly-sisto-mkt19414.html |
 | WOMAN | LARISSA MILLS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-the-fold-larissa-mills-mkt19415.html |
-| ZARA HOME | THE NEW | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-new-collection-l15856.html |
+| ZARA HOME | THE NEW | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/home-new-collection-l15856.html |
 | UNCLASSIFIED | MARIE LENNOX STUDIO | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/mary-lennox-l18770.html |
-| ZARA HOME | HOME OFFICE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-living-room-stationery-l2619.html |
+| ZARA HOME | HOME OFFICE | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/home-living-room-stationery-l2619.html |
 | UNCLASSIFIED | BACK TO CAMPUS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/back-to-university-l19182.html |
 | ZARA HOME | FRAGRANCES / PUMPKIN SPICE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-fragrances-l2091.html |
 | UNCLASSIFIED | GIFT CARD | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/z-giftcard-mkt1394.html |
@@ -510,7 +510,10 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | SHORT SLEEVE MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-short-sleeve-midi-dress-l18915.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-mini-l1083.html?page=2 |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jumpsuits-l1150.html?page=2 |
+| BEAUTY | 02
+JO LOVES COLLAB | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-perfumes-chapters-l6285.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-party-l1581.html?page=2 |
+| ZARA HOME | ZARA HOME | category:6884ee20701f15b5 | UNKNOWN | https://www.zara.com/us/en/home-collection-l6128.html |
 | WOMAN | BLACK LACE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-lace-dress-l18403.html |
 | WOMAN | BLACK LINEN DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-linen-dress-l18459.html |
 | WOMAN | BLACK FLOWY DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-black-flowy-dress-l18493.html |
@@ -677,6 +680,7 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | SATIN MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-satin-midi-dress-l18924.html |
 | WOMAN | FLARED SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-flared-skirt-l18256.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-camisole-l2184.html?page=2 |
+| KIDS | Accessories / Shoes Kid´s Clothes / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-accessories-l3.html?page=2 |
 | WOMAN | TRIANGLE BIKINIS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-triangle-bikinis-l19127.html |
 | WOMAN | BOAT NECK DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-boat-neck-dress-l18564.html |
 | WOMAN | NAVY BLUE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-navy-blue-dress-l18576.html |
@@ -696,10 +700,14 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | NAVY BLUE SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-navy-blue-skirt-l18580.html |
 | WOMAN | MIDI COCKTAIL DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-cocktail-dress-l18921.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-beach-l5337.html?page=2 |
-| BEAUTY | 02the new | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-new-l7931.html |
-| BEAUTY | 03lips | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-lips-l4238.html |
-| BEAUTY | 04eyes | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-eyes-l4239.html |
-| BEAUTY | 05face | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-face-l4240.html |
+| KIDS | Baby Clothes / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-baby-l7244.html?page=2 |
+| BEAUTY | The New Beauty / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-beauty-new-l7931.html |
+| BEAUTY | 03
+LIPS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-lips-l4238.html |
+| BEAUTY | 04
+EYES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-eyes-l4239.html |
+| BEAUTY | 05
+FACE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-face-l4240.html |
 | BEAUTY | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-makeup-l4414.html?page=2 |
 | UNCLASSIFIED | 04back to school | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/back-to-school-l7763.html |
 | ZARA HOME | 06newborn | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-kids-baby-l15846.html |
@@ -707,9 +715,7 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | ZARA HOME | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-kids-new-in-l3974.html?page=2 |
 | UNCLASSIFIED | ZARA HOME KIDS | category:04bd82dffbe7dad2 | UNKNOWN | https://www.zara.com/us/en/-c2605625.html |
 | KIDS | Accessories / Shoes Kid´s Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-accessories-l3.html |
-| KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-accessories-l3.html?page=2 |
 | KIDS | Baby Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-baby-l7244.html |
-| KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-baby-l7244.html?page=2 |
 | KIDS | Boy Kid´s Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-boy-l173.html |
 | KIDS | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/kids-boy-l173.html?page=2 |
 | KIDS | Girl Kid´s Clothes / ZARA United States | category:04bd82dffbe7dad2 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-girl-l323.html |

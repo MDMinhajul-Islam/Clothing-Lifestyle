@@ -203,7 +203,7 @@ def classify_category(evidence, previous_route_type=None):
     return "UNKNOWN", "Insufficient evidence to determine route type"
 
 
-def run_batch(batch_size=5):
+def run_batch(batch_size=5, category_ids=None):
     DISCOVERY_DIR.mkdir(parents=True, exist_ok=True)
     
     # Read current state
@@ -216,10 +216,14 @@ def run_batch(batch_size=5):
 
     # Pick batch items
     queued_items = [q for q in discovery_queue if q['status'] == 'QUEUED']
-    batch = queued_items[:batch_size]
+    if category_ids:
+        target_set = set(category_ids)
+        batch = [q for q in queued_items if q['id'] in target_set]
+    else:
+        batch = queued_items[:batch_size]
 
     if not batch:
-        print("No pending items in category discovery queue.")
+        print("No pending items in category discovery queue matching criteria.")
         return [], []
 
     print(f"\n==================================================")
@@ -267,9 +271,11 @@ def run_batch(batch_size=5):
             print(f"   -> Result: {route_type} ({reason})")
 
             # Derive file token
-            token_match = re.search(r'-(?:l|mkt|c)(\d+)\.html', url)
+            token_match = re.search(r'-(?:l|mkt|c)(\d+)\.html(?:\?page=(\d+))?', url)
             if token_match:
                 token = token_match[1]
+                if token_match[2]:
+                    token = f"{token}_p{token_match[2]}"
             else:
                 token = hashlib.sha256(url.encode()).hexdigest()[:16]
 
@@ -367,8 +373,10 @@ def run_batch(batch_size=5):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Classify category batch")
     parser.add_argument("--batch-size", type=int, default=5, help="Batch size to classify")
+    parser.add_argument("--category-ids", type=str, default=None, help="Comma-separated category IDs to process")
     args = parser.parse_args()
 
-    results, new_links = run_batch(args.batch_size)
+    cat_ids = [c.strip() for c in args.category_ids.split(",") if c.strip()] if args.category_ids else None
+    results, new_links = run_batch(args.batch_size, category_ids=cat_ids)
     print(f"\nCompleted {len(results)} items.")
     print(f"Newly discovered URLs: {len(new_links)}")

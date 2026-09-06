@@ -427,26 +427,26 @@
       "name": "Women´s Printed Dresses",
       "normalized_name": "women´s printed dresses",
       "url": "https://www.zara.com/us/en/woman-dresses-printed-l1089.html",
-      "route_type": "UNKNOWN",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
       "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
       "first_seen_from": "legacy_checkpoint",
-      "last_verified_at": null,
-      "crawl_status": "QUEUED",
+      "last_verified_at": "2026-09-06T05:52:22.674589+00:00",
+      "crawl_status": "PARTIAL",
       "canonical_category_key": "category:4c4e00e79769d251",
       "canonical_url": "https://www.zara.com/us/en/woman-dresses-printed-l1089.html",
       "alias_urls": [],
-      "classification_evidence": null,
+      "classification_evidence": "data\\raw\\zara\\discovery\\1089.json",
       "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
+      "product_card_count_observed": 40,
       "legacy_category_ids": [
         "category:4c4e00e79769d251"
       ],
       "enumeration_complete": false,
-      "discovery_complete": false
+      "discovery_complete": true
     },
     {
       "category_id": "category:5c28c37318e0ff3f",
@@ -455,26 +455,26 @@
       "name": "Women's Maxi Dresses",
       "normalized_name": "women's maxi dresses",
       "url": "https://www.zara.com/us/en/woman-dresses-maxi-l1079.html",
-      "route_type": "UNKNOWN",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
       "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
       "first_seen_from": "legacy_checkpoint",
-      "last_verified_at": null,
-      "crawl_status": "QUEUED",
+      "last_verified_at": "2026-09-06T05:52:31.800128+00:00",
+      "crawl_status": "PARTIAL",
       "canonical_category_key": "category:5c28c37318e0ff3f",
       "canonical_url": "https://www.zara.com/us/en/woman-dresses-maxi-l1079.html",
       "alias_urls": [],
-      "classification_evidence": null,
+      "classification_evidence": "data\\raw\\zara\\discovery\\1079.json",
       "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
+      "product_card_count_observed": 20,
       "legacy_category_ids": [
         "category:5c28c37318e0ff3f"
       ],
       "enumeration_complete": false,
-      "discovery_complete": false
+      "discovery_complete": true
     },
     {
       "category_id": "category:65558b559bf9adca",
@@ -5131,26 +5131,26 @@
       "name": "view all",
       "normalized_name": "view all",
       "url": "https://www.zara.com/us/en/man-jackets-l640.html",
-      "route_type": "UNKNOWN",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
       "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
       "first_seen_from": "legacy_checkpoint",
-      "last_verified_at": null,
-      "crawl_status": "QUEUED",
+      "last_verified_at": "2026-09-06T05:52:39.860297+00:00",
+      "crawl_status": "PARTIAL",
       "canonical_category_key": "category:d466f95da1e8eced",
       "canonical_url": "https://www.zara.com/us/en/man-jackets-l640.html",
       "alias_urls": [],
-      "classification_evidence": null,
+      "classification_evidence": "data\\raw\\zara\\discovery\\640.json",
       "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
+      "product_card_count_observed": 65,
       "legacy_category_ids": [
         "category:d466f95da1e8eced"
       ],
       "enumeration_complete": false,
-      "discovery_complete": false
+      "discovery_complete": true
     },
     {
       "category_id": "category:a5b3626926846f0b",
@@ -5187,26 +5187,26 @@
       "name": "real leather",
       "normalized_name": "real leather",
       "url": "https://www.zara.com/us/en/man-outerwear-leather-l4550.html",
-      "route_type": "UNKNOWN",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
       "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
       "first_seen_from": "legacy_checkpoint",
-      "last_verified_at": null,
-      "crawl_status": "QUEUED",
+      "last_verified_at": "2026-09-06T05:52:48.368019+00:00",
+      "crawl_status": "PARTIAL",
       "canonical_category_key": "category:61bfa8198472b8bf",
       "canonical_url": "https://www.zara.com/us/en/man-outerwear-leather-l4550.html",
       "alias_urls": [],
-      "classification_evidence": null,
+      "classification_evidence": "data\\raw\\zara\\discovery\\4550.json",
       "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
+      "product_card_count_observed": 17,
       "legacy_category_ids": [
         "category:61bfa8198472b8bf"
       ],
       "enumeration_complete": false,
-      "discovery_complete": false
+      "discovery_complete": true
     },
     {
       "category_id": "category:97787d9f86820684",
@@ -11121,24 +11121,24 @@
       "name": "PERFUMES",
       "normalized_name": "perfumes",
       "url": "https://www.zara.com/us/en/woman-beauty-perfumes-l1415.html",
-      "route_type": "UNKNOWN",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
       "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
       "first_seen_from": "https://www.zara.com/us/en/woman-dresses-l1066.html",
-      "last_verified_at": null,
-      "crawl_status": "DISCOVERED",
+      "last_verified_at": "2026-09-06T05:52:53.983816+00:00",
+      "crawl_status": "PARTIAL",
       "canonical_category_key": "category:1d06358b2b90c030",
       "canonical_url": "https://www.zara.com/us/en/woman-beauty-perfumes-l1415.html",
       "alias_urls": [],
-      "classification_evidence": null,
+      "classification_evidence": "data\\raw\\zara\\discovery\\1415.json",
       "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
+      "product_card_count_observed": 46,
       "legacy_category_ids": [],
       "enumeration_complete": false,
-      "discovery_complete": false
+      "discovery_complete": true
     },
     {
       "category_id": "category:d76a0be8f624be64",
@@ -11435,24 +11435,24 @@
       "name": "THE NEW",
       "normalized_name": "the new",
       "url": "https://www.zara.com/us/en/home-new-collection-l15856.html",
-      "route_type": "UNKNOWN",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
       "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
       "first_seen_from": "https://www.zara.com/us/en/woman-dresses-l1066.html",
-      "last_verified_at": null,
-      "crawl_status": "DISCOVERED",
+      "last_verified_at": "2026-09-06T05:53:02.024023+00:00",
+      "crawl_status": "PARTIAL",
       "canonical_category_key": "category:199c414d594fdc90",
       "canonical_url": "https://www.zara.com/us/en/home-new-collection-l15856.html",
       "alias_urls": [],
-      "classification_evidence": null,
+      "classification_evidence": "data\\raw\\zara\\discovery\\15856.json",
       "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
+      "product_card_count_observed": 57,
       "legacy_category_ids": [],
       "enumeration_complete": false,
-      "discovery_complete": false
+      "discovery_complete": true
     },
     {
       "category_id": "category:c78f172b8ed23732",
@@ -11487,24 +11487,24 @@
       "name": "HOME OFFICE",
       "normalized_name": "home office",
       "url": "https://www.zara.com/us/en/home-living-room-stationery-l2619.html",
-      "route_type": "UNKNOWN",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
       "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
       "first_seen_from": "https://www.zara.com/us/en/woman-dresses-l1066.html",
-      "last_verified_at": null,
-      "crawl_status": "DISCOVERED",
+      "last_verified_at": "2026-09-06T05:53:09.222726+00:00",
+      "crawl_status": "PARTIAL",
       "canonical_category_key": "category:236c3fef535eda91",
       "canonical_url": "https://www.zara.com/us/en/home-living-room-stationery-l2619.html",
       "alias_urls": [],
-      "classification_evidence": null,
+      "classification_evidence": "data\\raw\\zara\\discovery\\2619.json",
       "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
+      "product_card_count_observed": 117,
       "legacy_category_ids": [],
       "enumeration_complete": false,
-      "discovery_complete": false
+      "discovery_complete": true
     },
     {
       "category_id": "category:ada53d9ed3273582",
@@ -13901,6 +13901,32 @@
       "discovery_complete": false
     },
     {
+      "category_id": "category:58880c624de4adcb",
+      "department": "BEAUTY",
+      "parent_category_id": null,
+      "name": "02\nJO LOVES COLLAB",
+      "normalized_name": "02 jo loves collab",
+      "url": "https://www.zara.com/us/en/woman-beauty-perfumes-chapters-l6285.html",
+      "route_type": "UNKNOWN",
+      "depth": null,
+      "is_product_listing": null,
+      "is_collection_page": null,
+      "is_campaign_page": null,
+      "is_navigation_only": null,
+      "first_seen_from": "https://www.zara.com/us/en/woman-beauty-perfumes-l1415.html",
+      "last_verified_at": null,
+      "crawl_status": "DISCOVERED",
+      "canonical_category_key": "category:58880c624de4adcb",
+      "canonical_url": "https://www.zara.com/us/en/woman-beauty-perfumes-chapters-l6285.html",
+      "alias_urls": [],
+      "classification_evidence": null,
+      "department_basis": "INFERRED from route unless landing heading verified",
+      "product_card_count_observed": null,
+      "legacy_category_ids": [],
+      "enumeration_complete": false,
+      "discovery_complete": false
+    },
+    {
       "category_id": "category:5fb583e397978f17",
       "department": "WOMAN",
       "parent_category_id": null,
@@ -13918,6 +13944,32 @@
       "crawl_status": "DISCOVERED",
       "canonical_category_key": "category:5fb583e397978f17",
       "canonical_url": "https://www.zara.com/us/en/woman-dresses-party-l1581.html?page=2",
+      "alias_urls": [],
+      "classification_evidence": null,
+      "department_basis": "INFERRED from route unless landing heading verified",
+      "product_card_count_observed": null,
+      "legacy_category_ids": [],
+      "enumeration_complete": false,
+      "discovery_complete": false
+    },
+    {
+      "category_id": "category:060bc5eb3d5ddbcf",
+      "department": "ZARA HOME",
+      "parent_category_id": "category:6884ee20701f15b5",
+      "name": "ZARA HOME",
+      "normalized_name": "zara home",
+      "url": "https://www.zara.com/us/en/home-collection-l6128.html",
+      "route_type": "UNKNOWN",
+      "depth": 1,
+      "is_product_listing": null,
+      "is_collection_page": null,
+      "is_campaign_page": null,
+      "is_navigation_only": null,
+      "first_seen_from": "https://www.zara.com/us/en/home-new-collection-l15856.html",
+      "last_verified_at": null,
+      "crawl_status": "DISCOVERED",
+      "canonical_category_key": "category:060bc5eb3d5ddbcf",
+      "canonical_url": "https://www.zara.com/us/en/home-collection-l6128.html",
       "alias_urls": [],
       "classification_evidence": null,
       "department_basis": "INFERRED from route unless landing heading verified",
@@ -18243,6 +18295,32 @@
       "discovery_complete": false
     },
     {
+      "category_id": "category:c7380f95c6f0ff78",
+      "department": "KIDS",
+      "parent_category_id": null,
+      "name": "Accessories | Shoes Kid´s Clothes | ZARA United States",
+      "normalized_name": "accessories | shoes kid´s clothes | zara united states",
+      "url": "https://www.zara.com/us/en/kids-accessories-l3.html?page=2",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
+      "depth": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
+      "first_seen_from": "data\\raw\\zara\\discovery\\3_p2.json",
+      "last_verified_at": "2026-09-06T05:53:24.667463+00:00",
+      "crawl_status": "PARTIAL",
+      "canonical_category_key": "category:c7380f95c6f0ff78",
+      "canonical_url": "https://www.zara.com/us/en/kids-accessories-l3.html?page=2",
+      "alias_urls": [],
+      "classification_evidence": "data\\raw\\zara\\discovery\\3_p2.json",
+      "department_basis": "INFERRED from route unless landing heading verified",
+      "product_card_count_observed": 160,
+      "legacy_category_ids": [],
+      "enumeration_complete": false,
+      "discovery_complete": true
+    },
+    {
       "category_id": "category:f6f89346c540a384",
       "department": "WOMAN",
       "parent_category_id": null,
@@ -18737,37 +18815,63 @@
       "discovery_complete": false
     },
     {
+      "category_id": "category:3d330d42bf74141a",
+      "department": "KIDS",
+      "parent_category_id": null,
+      "name": "Baby Clothes | ZARA United States",
+      "normalized_name": "baby clothes | zara united states",
+      "url": "https://www.zara.com/us/en/kids-baby-l7244.html?page=2",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
+      "depth": null,
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
+      "first_seen_from": "data\\raw\\zara\\discovery\\7244_p2.json",
+      "last_verified_at": "2026-09-06T05:53:34.284115+00:00",
+      "crawl_status": "PARTIAL",
+      "canonical_category_key": "category:3d330d42bf74141a",
+      "canonical_url": "https://www.zara.com/us/en/kids-baby-l7244.html?page=2",
+      "alias_urls": [],
+      "classification_evidence": "data\\raw\\zara\\discovery\\7244_p2.json",
+      "department_basis": "INFERRED from route unless landing heading verified",
+      "product_card_count_observed": 151,
+      "legacy_category_ids": [],
+      "enumeration_complete": false,
+      "discovery_complete": true
+    },
+    {
       "category_id": "category:0d2099eb3dc18c6f",
       "department": "BEAUTY",
       "parent_category_id": null,
-      "name": "02the new",
-      "normalized_name": "02the new",
+      "name": "The New Beauty | ZARA United States",
+      "normalized_name": "the new beauty | zara united states",
       "url": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
-      "route_type": "UNKNOWN",
+      "route_type": "PRODUCT_LISTING_CATEGORY",
       "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
-      "first_seen_from": "https://www.zara.com/us/en/woman-beauty-makeup-l4414.html?v1=1881272",
-      "last_verified_at": null,
-      "crawl_status": "DISCOVERED",
+      "is_product_listing": true,
+      "is_collection_page": false,
+      "is_campaign_page": false,
+      "is_navigation_only": false,
+      "first_seen_from": "data\\raw\\zara\\discovery\\7931.json",
+      "last_verified_at": "2026-09-06T05:53:18.600419+00:00",
+      "crawl_status": "PARTIAL",
       "canonical_category_key": "category:0d2099eb3dc18c6f",
       "canonical_url": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
       "alias_urls": [],
-      "classification_evidence": null,
+      "classification_evidence": "data\\raw\\zara\\discovery\\7931.json",
       "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
+      "product_card_count_observed": 35,
       "legacy_category_ids": [],
       "enumeration_complete": false,
-      "discovery_complete": false
+      "discovery_complete": true
     },
     {
       "category_id": "category:c7d47fcd33289c7a",
       "department": "BEAUTY",
       "parent_category_id": null,
-      "name": "03lips",
-      "normalized_name": "03lips",
+      "name": "03\nLIPS",
+      "normalized_name": "03 lips",
       "url": "https://www.zara.com/us/en/woman-beauty-lips-l4238.html",
       "route_type": "UNKNOWN",
       "depth": null,
@@ -18775,7 +18879,7 @@
       "is_collection_page": null,
       "is_campaign_page": null,
       "is_navigation_only": null,
-      "first_seen_from": "https://www.zara.com/us/en/woman-beauty-makeup-l4414.html?v1=1881272",
+      "first_seen_from": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
       "last_verified_at": null,
       "crawl_status": "DISCOVERED",
       "canonical_category_key": "category:c7d47fcd33289c7a",
@@ -18792,8 +18896,8 @@
       "category_id": "category:f08598e30797f77e",
       "department": "BEAUTY",
       "parent_category_id": null,
-      "name": "04eyes",
-      "normalized_name": "04eyes",
+      "name": "04\nEYES",
+      "normalized_name": "04 eyes",
       "url": "https://www.zara.com/us/en/woman-beauty-eyes-l4239.html",
       "route_type": "UNKNOWN",
       "depth": null,
@@ -18801,7 +18905,7 @@
       "is_collection_page": null,
       "is_campaign_page": null,
       "is_navigation_only": null,
-      "first_seen_from": "https://www.zara.com/us/en/woman-beauty-makeup-l4414.html?v1=1881272",
+      "first_seen_from": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
       "last_verified_at": null,
       "crawl_status": "DISCOVERED",
       "canonical_category_key": "category:f08598e30797f77e",
@@ -18818,8 +18922,8 @@
       "category_id": "category:0d3e33afd33ce48a",
       "department": "BEAUTY",
       "parent_category_id": null,
-      "name": "05face",
-      "normalized_name": "05face",
+      "name": "05\nFACE",
+      "normalized_name": "05 face",
       "url": "https://www.zara.com/us/en/woman-beauty-face-l4240.html",
       "route_type": "UNKNOWN",
       "depth": null,
@@ -18827,7 +18931,7 @@
       "is_collection_page": null,
       "is_campaign_page": null,
       "is_navigation_only": null,
-      "first_seen_from": "https://www.zara.com/us/en/woman-beauty-makeup-l4414.html?v1=1881272",
+      "first_seen_from": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
       "last_verified_at": null,
       "crawl_status": "DISCOVERED",
       "canonical_category_key": "category:0d3e33afd33ce48a",
@@ -19025,32 +19129,6 @@
       "discovery_complete": true
     },
     {
-      "category_id": "category:c7380f95c6f0ff78",
-      "department": "KIDS",
-      "parent_category_id": null,
-      "name": "2",
-      "normalized_name": "2",
-      "url": "https://www.zara.com/us/en/kids-accessories-l3.html?page=2",
-      "route_type": "UNKNOWN",
-      "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
-      "first_seen_from": "https://www.zara.com/us/en/kids-accessories-l3.html",
-      "last_verified_at": null,
-      "crawl_status": "DISCOVERED",
-      "canonical_category_key": "category:c7380f95c6f0ff78",
-      "canonical_url": "https://www.zara.com/us/en/kids-accessories-l3.html?page=2",
-      "alias_urls": [],
-      "classification_evidence": null,
-      "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
-      "legacy_category_ids": [],
-      "enumeration_complete": false,
-      "discovery_complete": false
-    },
-    {
       "category_id": "category:2fb546a5484fad6f",
       "department": "KIDS",
       "parent_category_id": "category:04bd82dffbe7dad2",
@@ -19077,32 +19155,6 @@
       "legacy_category_ids": [],
       "enumeration_complete": false,
       "discovery_complete": true
-    },
-    {
-      "category_id": "category:3d330d42bf74141a",
-      "department": "KIDS",
-      "parent_category_id": null,
-      "name": "2",
-      "normalized_name": "2",
-      "url": "https://www.zara.com/us/en/kids-baby-l7244.html?page=2",
-      "route_type": "UNKNOWN",
-      "depth": null,
-      "is_product_listing": null,
-      "is_collection_page": null,
-      "is_campaign_page": null,
-      "is_navigation_only": null,
-      "first_seen_from": "https://www.zara.com/us/en/kids-baby-l7244.html",
-      "last_verified_at": null,
-      "crawl_status": "DISCOVERED",
-      "canonical_category_key": "category:3d330d42bf74141a",
-      "canonical_url": "https://www.zara.com/us/en/kids-baby-l7244.html?page=2",
-      "alias_urls": [],
-      "classification_evidence": null,
-      "department_basis": "INFERRED from route unless landing heading verified",
-      "product_card_count_observed": null,
-      "legacy_category_ids": [],
-      "enumeration_complete": false,
-      "discovery_complete": false
     },
     {
       "category_id": "category:651987f04e3dd3b9",
@@ -20985,6 +21037,36 @@
       "target_category_id": "category:52b69d58ca7f96f8",
       "relation": "BREADCRUMB_PARENT",
       "evidence": "data\\raw\\zara\\discovery\\5337.json"
+    },
+    {
+      "source_category_id": "category:5c28c37318e0ff3f",
+      "target_category_id": "category:464699df8a939649",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1079.json"
+    },
+    {
+      "source_category_id": "category:5c28c37318e0ff3f",
+      "target_category_id": "category:0a70d2e37392985f",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1079.json"
+    },
+    {
+      "source_category_id": "category:5c28c37318e0ff3f",
+      "target_category_id": "category:e51c9cb6e9106f5d",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1079.json"
+    },
+    {
+      "source_category_id": "category:5c28c37318e0ff3f",
+      "target_category_id": "category:2296093622c90fd2",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1079.json"
+    },
+    {
+      "source_category_id": "category:5c28c37318e0ff3f",
+      "target_category_id": "category:91c60a1489d05f0a",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1079.json"
     },
     {
       "source_category_id": "category:0a70d2e37392985f",
@@ -23867,6 +23949,36 @@
       "evidence": "data\\raw\\zara\\discovery\\1083.json"
     },
     {
+      "source_category_id": "category:4c4e00e79769d251",
+      "target_category_id": "category:464699df8a939649",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1089.json"
+    },
+    {
+      "source_category_id": "category:4c4e00e79769d251",
+      "target_category_id": "category:0a70d2e37392985f",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1089.json"
+    },
+    {
+      "source_category_id": "category:4c4e00e79769d251",
+      "target_category_id": "category:e51c9cb6e9106f5d",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1089.json"
+    },
+    {
+      "source_category_id": "category:4c4e00e79769d251",
+      "target_category_id": "category:2296093622c90fd2",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1089.json"
+    },
+    {
+      "source_category_id": "category:4c4e00e79769d251",
+      "target_category_id": "category:91c60a1489d05f0a",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1089.json"
+    },
+    {
       "source_category_id": "category:2296093622c90fd2",
       "target_category_id": "category:6884ee20701f15b5",
       "relation": "RELATED_LINK",
@@ -26291,6 +26403,18 @@
       "evidence": "data\\raw\\zara\\discovery\\1160.json"
     },
     {
+      "source_category_id": "category:1d06358b2b90c030",
+      "target_category_id": "category:58880c624de4adcb",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1415.json"
+    },
+    {
+      "source_category_id": "category:1d06358b2b90c030",
+      "target_category_id": "category:4b9f0181cd3eb1fa",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\1415.json"
+    },
+    {
       "source_category_id": "category:464699df8a939649",
       "target_category_id": "category:6884ee20701f15b5",
       "relation": "RELATED_LINK",
@@ -27531,6 +27655,12 @@
       "target_category_id": "category:5fb583e397978f17",
       "relation": "RELATED_LINK",
       "evidence": "data\\raw\\zara\\discovery\\1581.json"
+    },
+    {
+      "source_category_id": "category:6884ee20701f15b5",
+      "target_category_id": "category:060bc5eb3d5ddbcf",
+      "relation": "BREADCRUMB_PARENT",
+      "evidence": "data\\raw\\zara\\discovery\\15856.json"
     },
     {
       "source_category_id": "category:64745c5b2e6e09de",
@@ -41177,6 +41307,60 @@
       "evidence": "data\\raw\\zara\\discovery\\4547.json"
     },
     {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:d466f95da1e8eced",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:a5b3626926846f0b",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:97787d9f86820684",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:28187e18bcbcb457",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:a90746e9b12ca312",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:5069281f29a1ff75",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:7d11bbc8108fb596",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:37dc724bd80c1c40",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
+      "source_category_id": "category:61bfa8198472b8bf",
+      "target_category_id": "category:7646b21c5fe650c0",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\4550.json"
+    },
+    {
       "source_category_id": "category:e16bc65c15899d9d",
       "target_category_id": "category:25c9417fba67de39",
       "relation": "RELATED_LINK",
@@ -43437,6 +43621,60 @@
       "target_category_id": "category:33ef15e54b045ae6",
       "relation": "RELATED_LINK",
       "evidence": "data\\raw\\zara\\discovery\\563.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:a5b3626926846f0b",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:61bfa8198472b8bf",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:97787d9f86820684",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:28187e18bcbcb457",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:a90746e9b12ca312",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:5069281f29a1ff75",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:7d11bbc8108fb596",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:37dc724bd80c1c40",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
+    },
+    {
+      "source_category_id": "category:d466f95da1e8eced",
+      "target_category_id": "category:7646b21c5fe650c0",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\640.json"
     },
     {
       "source_category_id": "category:5069281f29a1ff75",
@@ -47865,6 +48103,30 @@
       "target_category_id": "category:81013872aa97d760",
       "relation": "RELATED_LINK",
       "evidence": "data\\raw\\zara\\discovery\\789.json"
+    },
+    {
+      "source_category_id": "category:0d2099eb3dc18c6f",
+      "target_category_id": "category:50282081b0e1cada",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\7931.json"
+    },
+    {
+      "source_category_id": "category:0d2099eb3dc18c6f",
+      "target_category_id": "category:c7d47fcd33289c7a",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\7931.json"
+    },
+    {
+      "source_category_id": "category:0d2099eb3dc18c6f",
+      "target_category_id": "category:f08598e30797f77e",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\7931.json"
+    },
+    {
+      "source_category_id": "category:0d2099eb3dc18c6f",
+      "target_category_id": "category:0d3e33afd33ce48a",
+      "relation": "SUBCATEGORY_CAROUSEL",
+      "evidence": "data\\raw\\zara\\discovery\\7931.json"
     },
     {
       "source_category_id": "category:d9d8e46557c98bec",
