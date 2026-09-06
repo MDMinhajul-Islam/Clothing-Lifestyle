@@ -1554,15 +1554,15 @@
   {
     "id": "category:29026c362e120d32",
     "url": "https://www.zara.com/us/en/woman-shirts-blouses-l1221.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T08:21:27.868169+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1221.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     },
     "category_id": "category:29026c362e120d32",
     "category_url": "https://www.zara.com/us/en/woman-shirts-blouses-l1221.html"
@@ -3410,15 +3410,15 @@
   {
     "id": "category:c02c58555d24d51a",
     "url": "https://www.zara.com/us/en/man-jeans-l659.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T08:21:35.991616+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": true,
+      "evidence": "data\\raw\\zara\\discovery\\659.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "NAVIGATION_PAGE"
     },
     "category_id": "category:c02c58555d24d51a",
     "category_url": "https://www.zara.com/us/en/man-jeans-l659.html"
@@ -3442,15 +3442,15 @@
   {
     "id": "category:b8f2003d5b630a6d",
     "url": "https://www.zara.com/us/en/man-knitwear-l681.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T08:21:41.321808+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": true,
+      "evidence": "data\\raw\\zara\\discovery\\681.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     },
     "category_id": "category:b8f2003d5b630a6d",
     "category_url": "https://www.zara.com/us/en/man-knitwear-l681.html"
@@ -6354,15 +6354,15 @@
   {
     "id": "category:7f4f364fbb946907",
     "url": "https://www.zara.com/us/en/woman-shoes-l1251.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T08:21:50.493172+00:00",
     "error": null,
     "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
+      "evidence": "data\\raw\\zara\\discovery\\1251.json",
       "phase": "classification",
-      "enumeration_complete": false
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
     },
     "category_id": "category:7f4f364fbb946907",
     "category_url": "https://www.zara.com/us/en/woman-shoes-l1251.html"
@@ -8110,6 +8110,182 @@
     },
     "category_id": "category:a59e9a777d475f2a",
     "category_url": "https://www.zara.com/us/en/woman-jumpsuits-l1150.html?page=2"
+  },
+  {
+    "id": "category:11da5a48464248ee",
+    "category_id": "category:11da5a48464248ee",
+    "url": "https://www.zara.com/us/en/woman-shirts-white-shirts-l2208.html",
+    "category_url": "https://www.zara.com/us/en/woman-shirts-white-shirts-l2208.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:6981b0b1df7c1430",
+    "category_id": "category:6981b0b1df7c1430",
+    "url": "https://www.zara.com/us/en/woman-shirts-shirts-l1244.html",
+    "category_url": "https://www.zara.com/us/en/woman-shirts-shirts-l1244.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:63d5afe582203afe",
+    "category_id": "category:63d5afe582203afe",
+    "url": "https://www.zara.com/us/en/woman-highlight-shoes-accessories-l17360.html",
+    "category_url": "https://www.zara.com/us/en/woman-highlight-shoes-accessories-l17360.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:721895d3aaaa55e8",
+    "category_id": "category:721895d3aaaa55e8",
+    "url": "https://www.zara.com/us/en/woman-shoes-flat-l1269.html",
+    "category_url": "https://www.zara.com/us/en/woman-shoes-flat-l1269.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:de514ee19a8beee6",
+    "category_id": "category:de514ee19a8beee6",
+    "url": "https://www.zara.com/us/en/woman-shoes-ballerinas-l1260.html",
+    "category_url": "https://www.zara.com/us/en/woman-shoes-ballerinas-l1260.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:cf2b34eb2f7d739c",
+    "category_id": "category:cf2b34eb2f7d739c",
+    "url": "https://www.zara.com/us/en/woman-shoes-boots-ankle-boots-l1265.html",
+    "category_url": "https://www.zara.com/us/en/woman-shoes-boots-ankle-boots-l1265.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:cda91de6f602522b",
+    "category_id": "category:cda91de6f602522b",
+    "url": "https://www.zara.com/us/en/woman-shoes-sandals-heeled-l1284.html",
+    "category_url": "https://www.zara.com/us/en/woman-shoes-sandals-heeled-l1284.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:5d91cd7970be4e6a",
+    "category_id": "category:5d91cd7970be4e6a",
+    "url": "https://www.zara.com/us/en/woman-shoes-sandals-flat-l1282.html",
+    "category_url": "https://www.zara.com/us/en/woman-shoes-sandals-flat-l1282.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:8a1de953d5b80c1d",
+    "category_id": "category:8a1de953d5b80c1d",
+    "url": "https://www.zara.com/us/en/woman-shoes-sneakers-barefoot-l17512.html",
+    "category_url": "https://www.zara.com/us/en/woman-shoes-sneakers-barefoot-l17512.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:1e39217a96c20152",
+    "category_id": "category:1e39217a96c20152",
+    "url": "https://www.zara.com/us/en/woman-shoes-sneakers-l1287.html",
+    "category_url": "https://www.zara.com/us/en/woman-shoes-sneakers-l1287.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
+    "id": "category:384c203afd9a93a8",
+    "category_id": "category:384c203afd9a93a8",
+    "url": "https://www.zara.com/us/en/woman-shoes-leather-l1275.html",
+    "category_url": "https://www.zara.com/us/en/woman-shoes-leather-l1275.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
   },
   {
     "id": "category:58880c624de4adcb",
@@ -11094,6 +11270,86 @@
     "category_url": "https://www.zara.com/us/en/kids-accessories-l3.html?page=2"
   },
   {
+    "id": "category:c7d47fcd33289c7a",
+    "url": "https://www.zara.com/us/en/woman-beauty-lips-l4238.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T08:22:00.509676+00:00",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\discovery\\4238.json",
+      "phase": "classification",
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
+    },
+    "category_id": "category:c7d47fcd33289c7a",
+    "category_url": "https://www.zara.com/us/en/woman-beauty-lips-l4238.html"
+  },
+  {
+    "id": "category:0d2099eb3dc18c6f",
+    "url": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
+    "status": "COMPLETE",
+    "attempt_count": 1,
+    "last_attempt_at": "2026-09-06T05:53:18.600419+00:00",
+    "error": null,
+    "checkpoint": {
+      "evidence": "data\\raw\\zara\\discovery\\7931.json",
+      "phase": "classification",
+      "enumeration_complete": false,
+      "classification": "PRODUCT_LISTING_CATEGORY"
+    },
+    "category_id": "category:0d2099eb3dc18c6f",
+    "category_url": "https://www.zara.com/us/en/woman-beauty-new-l7931.html"
+  },
+  {
+    "id": "category:f08598e30797f77e",
+    "url": "https://www.zara.com/us/en/woman-beauty-eyes-l4239.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    },
+    "category_id": "category:f08598e30797f77e",
+    "category_url": "https://www.zara.com/us/en/woman-beauty-eyes-l4239.html"
+  },
+  {
+    "id": "category:0d3e33afd33ce48a",
+    "url": "https://www.zara.com/us/en/woman-beauty-face-l4240.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    },
+    "category_id": "category:0d3e33afd33ce48a",
+    "category_url": "https://www.zara.com/us/en/woman-beauty-face-l4240.html"
+  },
+  {
+    "id": "category:46137dbd716547ba",
+    "category_id": "category:46137dbd716547ba",
+    "url": "https://www.zara.com/us/en/woman-beauty-body-l6461.html",
+    "category_url": "https://www.zara.com/us/en/woman-beauty-body-l6461.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
     "id": "category:f6f89346c540a384",
     "url": "https://www.zara.com/us/en/woman-triangle-bikinis-l19127.html",
     "status": "DEFERRED",
@@ -11417,6 +11673,22 @@
     "category_url": "https://www.zara.com/us/en/woman-dresses-beach-l5337.html?page=2"
   },
   {
+    "id": "category:10c76ff231f57185",
+    "category_id": "category:10c76ff231f57185",
+    "url": "https://www.zara.com/us/en/man-collection-l622.html",
+    "category_url": "https://www.zara.com/us/en/man-collection-l622.html",
+    "status": "QUEUED",
+    "attempt_count": 0,
+    "last_attempt_at": null,
+    "error": null,
+    "checkpoint": {
+      "evidence": null,
+      "legacy_visited": false,
+      "phase": "classification",
+      "enumeration_complete": false
+    }
+  },
+  {
     "id": "category:3d330d42bf74141a",
     "url": "https://www.zara.com/us/en/kids-baby-l7244.html?page=2",
     "status": "COMPLETE",
@@ -11437,86 +11709,6 @@
     "category_id": "category:cebc24391672b786",
     "url": "https://www.zara.com/us/en/man-shoes-accessories-l17588.html",
     "category_url": "https://www.zara.com/us/en/man-shoes-accessories-l17588.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
-    "error": null,
-    "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    }
-  },
-  {
-    "id": "category:0d2099eb3dc18c6f",
-    "url": "https://www.zara.com/us/en/woman-beauty-new-l7931.html",
-    "status": "COMPLETE",
-    "attempt_count": 1,
-    "last_attempt_at": "2026-09-06T05:53:18.600419+00:00",
-    "error": null,
-    "checkpoint": {
-      "evidence": "data\\raw\\zara\\discovery\\7931.json",
-      "phase": "classification",
-      "enumeration_complete": false,
-      "classification": "PRODUCT_LISTING_CATEGORY"
-    },
-    "category_id": "category:0d2099eb3dc18c6f",
-    "category_url": "https://www.zara.com/us/en/woman-beauty-new-l7931.html"
-  },
-  {
-    "id": "category:c7d47fcd33289c7a",
-    "url": "https://www.zara.com/us/en/woman-beauty-lips-l4238.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
-    "error": null,
-    "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    },
-    "category_id": "category:c7d47fcd33289c7a",
-    "category_url": "https://www.zara.com/us/en/woman-beauty-lips-l4238.html"
-  },
-  {
-    "id": "category:f08598e30797f77e",
-    "url": "https://www.zara.com/us/en/woman-beauty-eyes-l4239.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
-    "error": null,
-    "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    },
-    "category_id": "category:f08598e30797f77e",
-    "category_url": "https://www.zara.com/us/en/woman-beauty-eyes-l4239.html"
-  },
-  {
-    "id": "category:0d3e33afd33ce48a",
-    "url": "https://www.zara.com/us/en/woman-beauty-face-l4240.html",
-    "status": "QUEUED",
-    "attempt_count": 0,
-    "last_attempt_at": null,
-    "error": null,
-    "checkpoint": {
-      "evidence": null,
-      "legacy_visited": false,
-      "phase": "classification",
-      "enumeration_complete": false
-    },
-    "category_id": "category:0d3e33afd33ce48a",
-    "category_url": "https://www.zara.com/us/en/woman-beauty-face-l4240.html"
-  },
-  {
-    "id": "category:10c76ff231f57185",
-    "category_id": "category:10c76ff231f57185",
-    "url": "https://www.zara.com/us/en/man-collection-l622.html",
-    "category_url": "https://www.zara.com/us/en/man-collection-l622.html",
     "status": "QUEUED",
     "attempt_count": 0,
     "last_attempt_at": null,

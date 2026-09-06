@@ -101,7 +101,7 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | WOMAN | Women's Wide Leg Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jeans-wide-leg-l2241.html |
 | WOMAN | Women's Straight Leg Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jeans-regular-l1140.html |
 | WOMAN | Women's Flared Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jeans-flare-l1132.html |
-| WOMAN | Women's Blouses | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shirts-blouses-l1221.html |
+| WOMAN | Women's Blouses | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-shirts-blouses-l1221.html |
 | WOMAN | Women´s Satin Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shirts-satin-l4089.html |
 | WOMAN | Women's Long Sleeve T-shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-tshirts-long-sleeved-l1373.html |
 | WOMAN | Women´s Short Sleeve T-Shirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-tshirts-short-sleeved-l1380.html |
@@ -217,9 +217,9 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | MAN | Men's Casual Jackets | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-casual-l646.html |
 | MAN | Men's Leather Jackets and Coats | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-leather-l652.html |
 | MAN | SPECIAL PRICES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-special-prices-l658.html |
-| MAN | Men's Jeans | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jeans-l659.html |
+| MAN | Men's Jeans | NOT VERIFIED | NAVIGATION_PAGE | https://www.zara.com/us/en/man-jeans-l659.html |
 | MAN | Men's Coats | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-outerwear-l715.html |
-| MAN | Men's Knitwear | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-l681.html |
+| MAN | Men's Knitwear | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/man-knitwear-l681.html |
 | MAN | Men´s Sweatshirts | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-sweatshirts-l821.html |
 | MAN | Men's Suits | category:10c76ff231f57185 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/man-suits-l808.html |
 | MAN | Men´s Shoes | category:cebc24391672b786 | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/man-shoes-l769.html |
@@ -297,7 +297,7 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | MAN | casual | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-casual-l689.html |
 | MAN | v-neck | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-vneck-l2523.html |
 | MAN | crew-neck | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-crewneck-l2522.html |
-| MAN | sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-sweaters-l701.html |
+| MAN | sweaters | category:10c76ff231f57185 | UNKNOWN | https://www.zara.com/us/en/man-knitwear-sweaters-l701.html |
 | MAN | Men´s Vest | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-vest-l4384.html |
 | MAN | Men's Turtlenecks Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-turtleneck-l2518.html |
 | MAN | Men's Cashmere Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-cashmere-l687.html |
@@ -305,7 +305,7 @@ See zara_department_coverage.md for verification and limitations. Parent is supp
 | MAN | Men's Beige Sweater | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-beige-l4552.html |
 | MAN | Men's Gray Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-grey-l4554.html |
 | MAN | Men's Chunky Sweaters | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-chunky-l4555.html |
-| MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-l681.html?page=2 |
+| MAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-knitwear-l681.html?page=2 |
 | MAN | lightweight | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-jackets-lightweight-l2492.html |
 | MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-casual-l743.html?page=2 |
 | MAN | 2 | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-shirts-check-l745.html?page=2 |
@@ -392,7 +392,7 @@ BLACK | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-blazers-black-
 | WOMAN | KNITWEAR | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-knitwear-l1152.html |
 | WOMAN | PANTS | category:9be78623888074ad | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-trousers-l1335.html |
 | WOMAN | JEANS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jeans-l1119.html |
-| WOMAN | SHIRTS / BLOUSES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shirts-l1217.html |
+| WOMAN | SHIRTS / BLOUSES | category:9be78623888074ad | UNKNOWN | https://www.zara.com/us/en/woman-shirts-l1217.html |
 | WOMAN | TOPS / BODYSUITS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-tops-l1322.html |
 | WOMAN | T-SHIRTS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-tshirts-l1362.html |
 | WOMAN | SWEATERS / CARDIGANS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-cardigans-sweaters-l8322.html |
@@ -402,7 +402,7 @@ BLACK | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-blazers-black-
 | WOMAN | SUEDE / LEATHER | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-leather-l1174.html |
 | WOMAN | LINGERIE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-lingerie-l4021.html |
 | WOMAN | BACK TO WORK | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-back-to-office-l19161.html |
-| WOMAN | SHOES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-l1251.html |
+| WOMAN | SHOES | category:63d5afe582203afe | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-shoes-l1251.html |
 | WOMAN | BAGS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-bags-l1024.html |
 | WOMAN | ACCESSORIES / JEWELRY | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-accessories-l1003.html |
 | BEAUTY | PERFUMES | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-beauty-perfumes-l1415.html |
@@ -512,6 +512,27 @@ BLACK | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-blazers-black-
 | WOMAN | SHORT SLEEVE MIDI DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-short-sleeve-midi-dress-l18915.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-mini-l1083.html?page=2 |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-jumpsuits-l1150.html?page=2 |
+| WOMAN | 02
+WHITE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shirts-white-shirts-l2208.html |
+| WOMAN | 03
+SHIRTS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shirts-shirts-l1244.html |
+| WOMAN | SHOES / ACCESSORIES | category:6884ee20701f15b5 | UNKNOWN | https://www.zara.com/us/en/woman-highlight-shoes-accessories-l17360.html |
+| WOMAN | 02
+FLATS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-flat-l1269.html |
+| WOMAN | 04
+BALLET FLATS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-ballerinas-l1260.html |
+| WOMAN | 05
+BOOTS / ANKLE BOOTS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-boots-ankle-boots-l1265.html |
+| WOMAN | 06
+HEELED SANDALS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-sandals-heeled-l1284.html |
+| WOMAN | 07
+FLAT SANDALS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-sandals-flat-l1282.html |
+| WOMAN | 08
+BAREFOOT | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-sneakers-barefoot-l17512.html |
+| WOMAN | 09
+SNEAKERS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-sneakers-l1287.html |
+| WOMAN | 10
+LEATHER | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-shoes-leather-l1275.html |
 | BEAUTY | 02
 JO LOVES COLLAB | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-perfumes-chapters-l6285.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-party-l1581.html?page=2 |
@@ -695,6 +716,15 @@ ICONS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-fragrances-icon
 | WOMAN | FLARED SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-flared-skirt-l18256.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-camisole-l2184.html?page=2 |
 | KIDS | Accessories / Shoes Kid´s Clothes / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-accessories-l3.html?page=2 |
+| BEAUTY | Lipsticks - Beauty Collection / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-beauty-lips-l4238.html |
+| BEAUTY | 02
+THE NEW | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-beauty-new-l7931.html |
+| BEAUTY | 04
+EYES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-eyes-l4239.html |
+| BEAUTY | 05
+FACE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-face-l4240.html |
+| BEAUTY | 06
+BODY | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-body-l6461.html |
 | WOMAN | TRIANGLE BIKINIS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-triangle-bikinis-l19127.html |
 | WOMAN | BOAT NECK DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-boat-neck-dress-l18564.html |
 | WOMAN | NAVY BLUE DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-navy-blue-dress-l18576.html |
@@ -714,16 +744,9 @@ ICONS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/home-fragrances-icon
 | WOMAN | NAVY BLUE SKIRT WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-navy-blue-skirt-l18580.html |
 | WOMAN | MIDI COCKTAIL DRESS WOMAN | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-midi-cocktail-dress-l18921.html |
 | WOMAN | NOT VERIFIED | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-dresses-beach-l5337.html?page=2 |
+| MAN | COLLECTION | category:4f1a863445927eee | UNKNOWN | https://www.zara.com/us/en/man-collection-l622.html |
 | KIDS | Baby Clothes / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/kids-baby-l7244.html?page=2 |
 | MAN | SHOES / ACCESSORIES | category:4f1a863445927eee | UNKNOWN | https://www.zara.com/us/en/man-shoes-accessories-l17588.html |
-| BEAUTY | The New Beauty / ZARA United States | NOT VERIFIED | PRODUCT_LISTING_CATEGORY | https://www.zara.com/us/en/woman-beauty-new-l7931.html |
-| BEAUTY | 03
-LIPS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-lips-l4238.html |
-| BEAUTY | 04
-EYES | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-eyes-l4239.html |
-| BEAUTY | 05
-FACE | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/woman-beauty-face-l4240.html |
-| MAN | COLLECTION | category:4f1a863445927eee | UNKNOWN | https://www.zara.com/us/en/man-collection-l622.html |
 | MAN | 02
 CHINOS | NOT VERIFIED | UNKNOWN | https://www.zara.com/us/en/man-trousers-chinos-l845.html |
 | MAN | 03
