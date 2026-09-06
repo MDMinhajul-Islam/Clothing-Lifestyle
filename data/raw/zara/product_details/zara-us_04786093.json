@@ -1,0 +1,582 @@
+{
+  "product_id": "zara-us:04786093",
+  "source_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html",
+  "final_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html",
+  "canonical_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ZW COLLECTION 100% LINEN PLEATED PANTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ZW COLLECTION 100% LINEN PLEATED PANTS",
+      "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html",
+      "productGroupID": "04786093",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "ZARA WOMAN COLLECTION\n\nPants with main fabric made of 100% linen yarn. Mid-rise with elastic waistband and belt loops. Side pockets. Front pleat detail. Front zip and button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920",
+        "https://static.zara.net/assets/public/0d23/3934/c33047adbefb/1d9a490bdb14/04786093250-a1/04786093250-a1.jpg?ts=1774267239859&w=1920",
+        "https://static.zara.net/assets/public/723e/75d0/500e41c09ad9/9835ae0db0f1/04786093250-a2/04786093250-a2.jpg?ts=1774267239997&w=1920",
+        "https://static.zara.net/assets/public/3919/68cd/37db458ba044/3201f0b1f74e/04786093250-e1/04786093250-e1.jpg?ts=1774268018206&w=1920",
+        "https://static.zara.net/assets/public/5bcc/4c79/27ce409ea8f0/7db3850793f2/04786093250-e2/04786093250-e2.jpg?ts=1774268014539&w=1920",
+        "https://static.zara.net/assets/public/0a68/205a/aced4935ab25/c9d67ec4643e/04786093250-e3/04786093250-e3.jpg?ts=1774268014258&w=1920"
+      ],
+      "material": "100% linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - XS",
+          "sku": "545422051-250-1",
+          "mpn": "545422051-250-1",
+          "color": "White",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - S",
+          "sku": "545422051-250-2",
+          "mpn": "545422051-250-2",
+          "color": "White",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - M",
+          "sku": "545422051-250-3",
+          "mpn": "545422051-250-3",
+          "color": "White",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - L",
+          "sku": "545422051-250-4",
+          "mpn": "545422051-250-4",
+          "color": "White",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - XL",
+          "sku": "545422051-250-5",
+          "mpn": "545422051-250-5",
+          "color": "White",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - XS",
+          "sku": "545422051-401-1",
+          "mpn": "545422051-401-1",
+          "color": "Navy blue",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - S",
+          "sku": "545422051-401-2",
+          "mpn": "545422051-401-2",
+          "color": "Navy blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - M",
+          "sku": "545422051-401-3",
+          "mpn": "545422051-401-3",
+          "color": "Navy blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - L",
+          "sku": "545422051-401-4",
+          "mpn": "545422051-401-4",
+          "color": "Navy blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - XL",
+          "sku": "545422051-401-5",
+          "mpn": "545422051-401-5",
+          "color": "Navy blue",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - XS",
+          "sku": "545422051-600-1",
+          "mpn": "545422051-600-1",
+          "color": "Red",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - S",
+          "sku": "545422051-600-2",
+          "mpn": "545422051-600-2",
+          "color": "Red",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - M",
+          "sku": "545422051-600-3",
+          "mpn": "545422051-600-3",
+          "color": "Red",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - L",
+          "sku": "545422051-600-4",
+          "mpn": "545422051-600-4",
+          "color": "Red",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - XL",
+          "sku": "545422051-600-5",
+          "mpn": "545422051-600-5",
+          "color": "Red",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "79.9",
+            "url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ZW COLLECTION 100% LINEN PLEATED PANTS",
+      "product_group_id": "04786093",
+      "brand": "ZARA",
+      "description": "ZARA WOMAN COLLECTION\n\nPants with main fabric made of 100% linen yarn. Mid-rise with elastic waistband and belt loops. Side pockets. Front pleat detail. Front zip and button closure.",
+      "material": "100% linen",
+      "composition": "OUTER SHELL: 100% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - XS",
+          "sku": "545422051-250-1",
+          "mpn": "545422051-250-1",
+          "color_name": "White",
+          "size_name": "XS",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+          "images": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - S",
+          "sku": "545422051-250-2",
+          "mpn": "545422051-250-2",
+          "color_name": "White",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+          "images": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - M",
+          "sku": "545422051-250-3",
+          "mpn": "545422051-250-3",
+          "color_name": "White",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+          "images": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - L",
+          "sku": "545422051-250-4",
+          "mpn": "545422051-250-4",
+          "color_name": "White",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+          "images": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - White - XL",
+          "sku": "545422051-250-5",
+          "mpn": "545422051-250-5",
+          "color_name": "White",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422051",
+          "images": [
+            "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - XS",
+          "sku": "545422051-401-1",
+          "mpn": "545422051-401-1",
+          "color_name": "Navy blue",
+          "size_name": "XS",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+          "images": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - S",
+          "sku": "545422051-401-2",
+          "mpn": "545422051-401-2",
+          "color_name": "Navy blue",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+          "images": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - M",
+          "sku": "545422051-401-3",
+          "mpn": "545422051-401-3",
+          "color_name": "Navy blue",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+          "images": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - L",
+          "sku": "545422051-401-4",
+          "mpn": "545422051-401-4",
+          "color_name": "Navy blue",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+          "images": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Navy blue - XL",
+          "sku": "545422051-401-5",
+          "mpn": "545422051-401-5",
+          "color_name": "Navy blue",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422049",
+          "images": [
+            "https://static.zara.net/assets/public/d566/1f8b/7a754650a904/62a7d49698ef/04786093401-p/04786093401-p.jpg?ts=1774279830148&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - XS",
+          "sku": "545422051-600-1",
+          "mpn": "545422051-600-1",
+          "color_name": "Red",
+          "size_name": "XS",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+          "images": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - S",
+          "sku": "545422051-600-2",
+          "mpn": "545422051-600-2",
+          "color_name": "Red",
+          "size_name": "S",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+          "images": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - M",
+          "sku": "545422051-600-3",
+          "mpn": "545422051-600-3",
+          "color_name": "Red",
+          "size_name": "M",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+          "images": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - L",
+          "sku": "545422051-600-4",
+          "mpn": "545422051-600-4",
+          "color_name": "Red",
+          "size_name": "L",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+          "images": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ]
+        },
+        {
+          "name": "ZW COLLECTION 100% LINEN PLEATED PANTS - Red - XL",
+          "sku": "545422051-600-5",
+          "mpn": "545422051-600-5",
+          "color_name": "Red",
+          "size_name": "XL",
+          "price": "79.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-linen-pleated-pants-zw-collection-p04786093.html?v1=545422050",
+          "images": [
+            "https://static.zara.net/assets/public/cee6/4bd2/b8894987a6ae/f96f45bfcbcb/04786248600-p/04786248600-p.jpg?ts=1780585871362&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c2f6/83cc/701c4f4eb79e/a16f7064fc6e/04786093250-p/04786093250-p.jpg?ts=1774267240510&w=1920",
+        "https://static.zara.net/assets/public/0d23/3934/c33047adbefb/1d9a490bdb14/04786093250-a1/04786093250-a1.jpg?ts=1774267239859&w=1920",
+        "https://static.zara.net/assets/public/723e/75d0/500e41c09ad9/9835ae0db0f1/04786093250-a2/04786093250-a2.jpg?ts=1774267239997&w=1920",
+        "https://static.zara.net/assets/public/3919/68cd/37db458ba044/3201f0b1f74e/04786093250-e1/04786093250-e1.jpg?ts=1774268018206&w=1920",
+        "https://static.zara.net/assets/public/5bcc/4c79/27ce409ea8f0/7db3850793f2/04786093250-e2/04786093250-e2.jpg?ts=1774268014539&w=1920",
+        "https://static.zara.net/assets/public/0a68/205a/aced4935ab25/c9d67ec4643e/04786093250-e3/04786093250-e3.jpg?ts=1774268014258&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Navy blue",
+    "Red"
+  ],
+  "rendered_price": "79.90",
+  "rendered_description": "Description\nZARA WOMAN COLLECTION\nPants with main fabric made of 100% linen yarn. Mid-rise with elastic waistband and belt loops. Side pockets. Front pleat detail. Front zip and button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 15,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "79.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "79.90",
+    "dom_price": "79.90",
+    "normalized_price": "79.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d53b9ae37eae065f4ea5fb469b07d1e4317addaa8cef2249cc3be16d65e344a0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

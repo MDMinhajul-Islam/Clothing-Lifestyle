@@ -1,0 +1,487 @@
+{
+  "product_id": "zara-us:01880540",
+  "source_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html",
+  "final_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html",
+  "canonical_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EMBROIDERED ZIP-UP HOODIE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "EMBROIDERED ZIP-UP HOODIE",
+      "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html",
+      "productGroupID": "01880540",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Plush hoodie with long sleeves. Ribbed trim. Front zip closure. Patch pocket. Daisy embroidery on the chest.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920",
+        "https://static.zara.net/assets/public/2b42/7261/16bf4d26b989/da237bea77ed/01880540433-e2/01880540433-e2.jpg?ts=1781618204357&w=1920",
+        "https://static.zara.net/assets/public/b872/483a/680b4d55b585/4e26d7c9ecf1/01880540433-e3/01880540433-e3.jpg?ts=1781618205715&w=1920",
+        "https://static.zara.net/assets/public/dbe9/5b63/830145329329/be9a111c61c1/01880540433-e4/01880540433-e4.jpg?ts=1781618204077&w=1920",
+        "https://static.zara.net/assets/public/0501/e1d0/b2904fe7b264/a710eda82529/01880540433200-p/01880540433200-p.jpg?ts=1784631122845&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "64% cotton, 36% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 1½ years (33,9 INCHES)",
+          "sku": "545401361-433-18",
+          "mpn": "545401361-433-18",
+          "color": "Blue / Lavender",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 2 years (36,2 INCHES)",
+          "sku": "545401361-433-24",
+          "mpn": "545401361-433-24",
+          "color": "Blue / Lavender",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 3 years (38,6 INCHES)",
+          "sku": "545401361-433-36",
+          "mpn": "545401361-433-36",
+          "color": "Blue / Lavender",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 4 years (40,9 INCHES)",
+          "sku": "545401361-433-48",
+          "mpn": "545401361-433-48",
+          "color": "Blue / Lavender",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 5 years (43,3 INCHES)",
+          "sku": "545401361-433-60",
+          "mpn": "545401361-433-60",
+          "color": "Blue / Lavender",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 6 years (45,2 INCHES)",
+          "sku": "545401361-433-72",
+          "mpn": "545401361-433-72",
+          "color": "Blue / Lavender",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 1½ years (33,9 INCHES)",
+          "sku": "545401361-626-18",
+          "mpn": "545401361-626-18",
+          "color": "Chalk pink",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 2 years (36,2 INCHES)",
+          "sku": "545401361-626-24",
+          "mpn": "545401361-626-24",
+          "color": "Chalk pink",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 3 years (38,6 INCHES)",
+          "sku": "545401361-626-36",
+          "mpn": "545401361-626-36",
+          "color": "Chalk pink",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 4 years (40,9 INCHES)",
+          "sku": "545401361-626-48",
+          "mpn": "545401361-626-48",
+          "color": "Chalk pink",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 5 years (43,3 INCHES)",
+          "sku": "545401361-626-60",
+          "mpn": "545401361-626-60",
+          "color": "Chalk pink",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 6 years (45,2 INCHES)",
+          "sku": "545401361-626-72",
+          "mpn": "545401361-626-72",
+          "color": "Chalk pink",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "EMBROIDERED ZIP-UP HOODIE",
+      "product_group_id": "01880540",
+      "brand": "ZARA",
+      "description": "Plush hoodie with long sleeves. Ribbed trim. Front zip closure. Patch pocket. Daisy embroidery on the chest.",
+      "material": null,
+      "composition": "LINING: 64% cotton, 36% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 1½ years (33,9 INCHES)",
+          "sku": "545401361-433-18",
+          "mpn": "545401361-433-18",
+          "color_name": "Blue / Lavender",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+          "images": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 2 years (36,2 INCHES)",
+          "sku": "545401361-433-24",
+          "mpn": "545401361-433-24",
+          "color_name": "Blue / Lavender",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+          "images": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 3 years (38,6 INCHES)",
+          "sku": "545401361-433-36",
+          "mpn": "545401361-433-36",
+          "color_name": "Blue / Lavender",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+          "images": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 4 years (40,9 INCHES)",
+          "sku": "545401361-433-48",
+          "mpn": "545401361-433-48",
+          "color_name": "Blue / Lavender",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+          "images": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 5 years (43,3 INCHES)",
+          "sku": "545401361-433-60",
+          "mpn": "545401361-433-60",
+          "color_name": "Blue / Lavender",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+          "images": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Blue / Lavender - 6 years (45,2 INCHES)",
+          "sku": "545401361-433-72",
+          "mpn": "545401361-433-72",
+          "color_name": "Blue / Lavender",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401361",
+          "images": [
+            "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 1½ years (33,9 INCHES)",
+          "sku": "545401361-626-18",
+          "mpn": "545401361-626-18",
+          "color_name": "Chalk pink",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+          "images": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 2 years (36,2 INCHES)",
+          "sku": "545401361-626-24",
+          "mpn": "545401361-626-24",
+          "color_name": "Chalk pink",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+          "images": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 3 years (38,6 INCHES)",
+          "sku": "545401361-626-36",
+          "mpn": "545401361-626-36",
+          "color_name": "Chalk pink",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+          "images": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 4 years (40,9 INCHES)",
+          "sku": "545401361-626-48",
+          "mpn": "545401361-626-48",
+          "color_name": "Chalk pink",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+          "images": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 5 years (43,3 INCHES)",
+          "sku": "545401361-626-60",
+          "mpn": "545401361-626-60",
+          "color_name": "Chalk pink",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+          "images": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED ZIP-UP HOODIE - Chalk pink - 6 years (45,2 INCHES)",
+          "sku": "545401361-626-72",
+          "mpn": "545401361-626-72",
+          "color_name": "Chalk pink",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-zip-up-hoodie-p01880540.html?v1=545401363",
+          "images": [
+            "https://static.zara.net/assets/public/bc8b/9b17/8dde4209b8c1/c17fac4d0e5e/01880540626-e1/01880540626-e1.jpg?ts=1781625046077&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/406a/bcc5/9bcf4ddfa608/3cf9514457af/01880540433-e1/01880540433-e1.jpg?ts=1781618203974&w=1920",
+        "https://static.zara.net/assets/public/2b42/7261/16bf4d26b989/da237bea77ed/01880540433-e2/01880540433-e2.jpg?ts=1781618204357&w=1920",
+        "https://static.zara.net/assets/public/b872/483a/680b4d55b585/4e26d7c9ecf1/01880540433-e3/01880540433-e3.jpg?ts=1781618205715&w=1920",
+        "https://static.zara.net/assets/public/dbe9/5b63/830145329329/be9a111c61c1/01880540433-e4/01880540433-e4.jpg?ts=1781618204077&w=1920",
+        "https://static.zara.net/assets/public/0501/e1d0/b2904fe7b264/a710eda82529/01880540433200-p/01880540433200-p.jpg?ts=1784631122845&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue / Lavender",
+    "Chalk pink"
+  ],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nPlush hoodie with long sleeves. Ribbed trim. Front zip closure. Patch pocket. Daisy embroidery on the chest.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 6,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6d6223623b726a3bbe85cefbc316339db3221b88194be9545cb7d5f05d187003",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

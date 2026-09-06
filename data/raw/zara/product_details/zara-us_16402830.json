@@ -1,0 +1,409 @@
+{
+  "product_id": "zara-us:16402830",
+  "source_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html",
+  "final_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html",
+  "canonical_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BAREFOOT SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BAREFOOT SNEAKERS",
+      "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html",
+      "productGroupID": "16402830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Barefoot sneakers made of 100% cotton with a bow detail on the instep. Features a rounded, wide, and functional toe that allows for free movement of the toes, and has a flexible rubber sole with 0 drop and a very flexible heel counter.\n\n\nSTARFIT®",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920",
+        "https://static.zara.net/assets/public/a897/82f6/251647d2956d/94f28529c209/16402830001-e2/16402830001-e2.jpg?ts=1775748619205&w=1920",
+        "https://static.zara.net/assets/public/9957/d904/bd804d26aafc/d8902557d843/16402830001-e3/16402830001-e3.jpg?ts=1775748622263&w=1920",
+        "https://static.zara.net/assets/public/3c52/dc3a/de454e0f8526/c81cfe954634/16402830001-e4/16402830001-e4.jpg?ts=1775748614627&w=1920",
+        "https://static.zara.net/assets/public/edcd/bde0/e1a14387b6f4/a6f6bc360954/16402830001-e5/16402830001-e5.jpg?ts=1775748612802&w=1920",
+        "https://static.zara.net/assets/public/d3bd/5370/99704ef5a2f0/ec528301474e/16402830001-e6/16402830001-e6.jpg?ts=1775748615552&w=1920",
+        "https://static.zara.net/assets/public/8e49/8f15/fd9243e7aa3f/5877fb9d3dba/16402830001-e7/16402830001-e7.jpg?ts=1775748612579&w=1920",
+        "https://static.zara.net/assets/public/5f5b/d1b4/710d44e1ac35/40cee13df4d5/16402830001-e8/16402830001-e8.jpg?ts=1775748619880&w=1920",
+        "https://static.zara.net/assets/public/cdae/11c4/1083457abbfb/4d7ad5c09281/16402830001-e9/16402830001-e9.jpg?ts=1775748614347&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "90% polyester, 10% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "90% polyester, 10% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 5½ (5.1 INCHES)",
+          "sku": "545490904-001-21",
+          "mpn": "545490904-001-21",
+          "color": "White",
+          "size": "5½ (5.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 6½ (5.3 INCHES)",
+          "sku": "545490904-001-22",
+          "mpn": "545490904-001-22",
+          "color": "White",
+          "size": "6½ (5.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 7 (5.6 INCHES)",
+          "sku": "545490904-001-23",
+          "mpn": "545490904-001-23",
+          "color": "White",
+          "size": "7 (5.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 8 (5.9 INCHES)",
+          "sku": "545490904-001-24",
+          "mpn": "545490904-001-24",
+          "color": "White",
+          "size": "8 (5.9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 9 (6.1 INCHES)",
+          "sku": "545490904-001-25",
+          "mpn": "545490904-001-25",
+          "color": "White",
+          "size": "9 (6.1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 9½ (6.4 INCHES)",
+          "sku": "545490904-001-26",
+          "mpn": "545490904-001-26",
+          "color": "White",
+          "size": "9½ (6.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 10½ (6.6 INCHES)",
+          "sku": "545490904-001-27",
+          "mpn": "545490904-001-27",
+          "color": "White",
+          "size": "10½ (6.6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 11 (7.0 INCHES)",
+          "sku": "545490904-001-28",
+          "mpn": "545490904-001-28",
+          "color": "White",
+          "size": "11 (7.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - White - 12 (7.2 INCHES)",
+          "sku": "545490904-001-29",
+          "mpn": "545490904-001-29",
+          "color": "White",
+          "size": "12 (7.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BAREFOOT SNEAKERS",
+      "product_group_id": "16402830",
+      "brand": "ZARA",
+      "description": "Barefoot sneakers made of 100% cotton with a bow detail on the instep. Features a rounded, wide, and functional toe that allows for free movement of the toes, and has a flexible rubber sole with 0 drop and a very flexible heel counter.\n\n\nSTARFIT®",
+      "material": "100% cotton",
+      "composition": "UPPER: 100% cotton | LINING: 90% polyester, 10% cotton | SOLE: 100% rubber | INSOLE: 90% polyester, 10% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BAREFOOT SNEAKERS - White - 5½ (5.1 INCHES)",
+          "sku": "545490904-001-21",
+          "mpn": "545490904-001-21",
+          "color_name": "White",
+          "size_name": "5½ (5.1 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - White - 6½ (5.3 INCHES)",
+          "sku": "545490904-001-22",
+          "mpn": "545490904-001-22",
+          "color_name": "White",
+          "size_name": "6½ (5.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - White - 7 (5.6 INCHES)",
+          "sku": "545490904-001-23",
+          "mpn": "545490904-001-23",
+          "color_name": "White",
+          "size_name": "7 (5.6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - White - 8 (5.9 INCHES)",
+          "sku": "545490904-001-24",
+          "mpn": "545490904-001-24",
+          "color_name": "White",
+          "size_name": "8 (5.9 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - White - 9 (6.1 INCHES)",
+          "sku": "545490904-001-25",
+          "mpn": "545490904-001-25",
+          "color_name": "White",
+          "size_name": "9 (6.1 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - White - 9½ (6.4 INCHES)",
+          "sku": "545490904-001-26",
+          "mpn": "545490904-001-26",
+          "color_name": "White",
+          "size_name": "9½ (6.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - White - 10½ (6.6 INCHES)",
+          "sku": "545490904-001-27",
+          "mpn": "545490904-001-27",
+          "color_name": "White",
+          "size_name": "10½ (6.6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - White - 11 (7.0 INCHES)",
+          "sku": "545490904-001-28",
+          "mpn": "545490904-001-28",
+          "color_name": "White",
+          "size_name": "11 (7.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - White - 12 (7.2 INCHES)",
+          "sku": "545490904-001-29",
+          "mpn": "545490904-001-29",
+          "color_name": "White",
+          "size_name": "12 (7.2 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-sneakers-p16402830.html?v1=545490904",
+          "images": [
+            "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ba1c/7912/a0074009bf77/b61fcd65777f/16402830001-e1/16402830001-e1.jpg?ts=1775748618418&w=1920",
+        "https://static.zara.net/assets/public/a897/82f6/251647d2956d/94f28529c209/16402830001-e2/16402830001-e2.jpg?ts=1775748619205&w=1920",
+        "https://static.zara.net/assets/public/9957/d904/bd804d26aafc/d8902557d843/16402830001-e3/16402830001-e3.jpg?ts=1775748622263&w=1920",
+        "https://static.zara.net/assets/public/3c52/dc3a/de454e0f8526/c81cfe954634/16402830001-e4/16402830001-e4.jpg?ts=1775748614627&w=1920",
+        "https://static.zara.net/assets/public/edcd/bde0/e1a14387b6f4/a6f6bc360954/16402830001-e5/16402830001-e5.jpg?ts=1775748612802&w=1920",
+        "https://static.zara.net/assets/public/d3bd/5370/99704ef5a2f0/ec528301474e/16402830001-e6/16402830001-e6.jpg?ts=1775748615552&w=1920",
+        "https://static.zara.net/assets/public/8e49/8f15/fd9243e7aa3f/5877fb9d3dba/16402830001-e7/16402830001-e7.jpg?ts=1775748612579&w=1920",
+        "https://static.zara.net/assets/public/5f5b/d1b4/710d44e1ac35/40cee13df4d5/16402830001-e8/16402830001-e8.jpg?ts=1775748619880&w=1920",
+        "https://static.zara.net/assets/public/cdae/11c4/1083457abbfb/4d7ad5c09281/16402830001-e9/16402830001-e9.jpg?ts=1775748614347&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nBarefoot sneakers made of 100% cotton with a bow detail on the instep. Features a rounded, wide, and functional toe that allows for free movement of the toes, and has a flexible rubber sole with 0 drop and a very flexible heel counter.\nSTARFIT®\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 9,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "41a9d3c09d7c3027bc0eb10a5e12f49b8fec2a698cf041c3954cf7eaa0d3ab76",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

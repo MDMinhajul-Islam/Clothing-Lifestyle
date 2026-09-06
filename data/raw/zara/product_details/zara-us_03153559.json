@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:03153559",
+  "source_url": "https://www.zara.com/us/en/floral-print-textured-lace-throw-blanket-p03153559.html",
+  "final_url": "https://www.zara.com/us/en/floral-print-textured-lace-throw-blanket-p03153559.html",
+  "canonical_url": "https://www.zara.com/us/en/floral-print-textured-lace-throw-blanket-p03153559.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FLORAL PRINT TEXTURED LACE BLANKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FLORAL PRINT TEXTURED LACE BLANKET",
+      "url": "https://www.zara.com/us/en/floral-print-textured-lace-throw-blanket-p03153559.html",
+      "productGroupID": "03153559",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Textured floral print blanket. Lace trim finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/52cb/e1c5/6981439ca0bc/7d06214a25c0/03153559712-e1/03153559712-e1.jpg?ts=1786954618270&w=1920",
+        "https://static.zara.net/assets/public/a037/5fe8/cbfc49608327/9108baeaf037/03153559712-e2/03153559712-e2.jpg?ts=1786954617916&w=1920",
+        "https://static.zara.net/assets/public/e083/d0af/bf1b4d0fbbbe/c9a1247deb5d/03153559712-e3/03153559712-e3.jpg?ts=1786954618495&w=1920",
+        "https://static.zara.net/assets/public/0786/cfab/52d0490ca6ea/5a4b1327e4d6/03153559712-e4/03153559712-e4.jpg?ts=1786954618940&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FLORAL PRINT TEXTURED LACE BLANKET - Ecru - XS",
+          "sku": "547652860-712-43",
+          "mpn": "547652860-712-43",
+          "color": "Ecru",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/52cb/e1c5/6981439ca0bc/7d06214a25c0/03153559712-e1/03153559712-e1.jpg?ts=1786954618270&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/floral-print-textured-lace-throw-blanket-p03153559.html?v1=547652860",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FLORAL PRINT TEXTURED LACE BLANKET",
+      "product_group_id": "03153559",
+      "brand": "ZARA",
+      "description": "Textured floral print blanket. Lace trim finish.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FLORAL PRINT TEXTURED LACE BLANKET - Ecru - XS",
+          "sku": "547652860-712-43",
+          "mpn": "547652860-712-43",
+          "color_name": "Ecru",
+          "size_name": "XS",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/floral-print-textured-lace-throw-blanket-p03153559.html?v1=547652860",
+          "images": [
+            "https://static.zara.net/assets/public/52cb/e1c5/6981439ca0bc/7d06214a25c0/03153559712-e1/03153559712-e1.jpg?ts=1786954618270&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/52cb/e1c5/6981439ca0bc/7d06214a25c0/03153559712-e1/03153559712-e1.jpg?ts=1786954618270&w=1920",
+        "https://static.zara.net/assets/public/a037/5fe8/cbfc49608327/9108baeaf037/03153559712-e2/03153559712-e2.jpg?ts=1786954617916&w=1920",
+        "https://static.zara.net/assets/public/e083/d0af/bf1b4d0fbbbe/c9a1247deb5d/03153559712-e3/03153559712-e3.jpg?ts=1786954618495&w=1920",
+        "https://static.zara.net/assets/public/0786/cfab/52d0490ca6ea/5a4b1327e4d6/03153559712-e4/03153559712-e4.jpg?ts=1786954618940&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nTextured floral print blanket. Lace trim finish.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6e7e19340b20e230eaa42dbf12cf4c83df23b0c92e4d662c5c15a9c2a0847afb",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

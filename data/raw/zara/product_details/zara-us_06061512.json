@@ -1,0 +1,198 @@
+{
+  "product_id": "zara-us:06061512",
+  "source_url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html",
+  "final_url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html",
+  "canonical_url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GINGHAM PRINT HAT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GINGHAM PRINT HAT",
+      "url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html",
+      "productGroupID": "06061512",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Hat with adjustable front cords. Gingham print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/72d7/9614/815345538ef7/f22bd9109652/06061512401-e1/06061512401-e1.jpg?ts=1781618189093&w=1920",
+        "https://static.zara.net/assets/public/666e/e7aa/306a4d7bbf79/d9655f7dd6a8/06061512401-e2/06061512401-e2.jpg?ts=1781618188420&w=1920",
+        "https://static.zara.net/assets/public/c146/3804/5c9f4ba7bfa5/160ad5d65207/06061512401-e3/06061512401-e3.jpg?ts=1781618188244&w=1920",
+        "https://static.zara.net/assets/public/1d6e/5541/a27b4b7e8c42/04d29bb42b4f/06061512401-e4/06061512401-e4.jpg?ts=1781618188589&w=1920",
+        "https://static.zara.net/assets/public/aae1/cc86/b58f4248a9e0/be304694206d/06061512401-p/06061512401-p.jpg?ts=1783439920173&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "67% cotton, 33% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GINGHAM PRINT HAT - Navy blue - 3-6 months",
+          "sku": "545486039-401-43",
+          "mpn": "545486039-401-43",
+          "color": "Navy blue",
+          "size": "3-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/72d7/9614/815345538ef7/f22bd9109652/06061512401-e1/06061512401-e1.jpg?ts=1781618189093&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html?v1=545486039",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GINGHAM PRINT HAT - Navy blue - 6-12 months",
+          "sku": "545486039-401-46",
+          "mpn": "545486039-401-46",
+          "color": "Navy blue",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/72d7/9614/815345538ef7/f22bd9109652/06061512401-e1/06061512401-e1.jpg?ts=1781618189093&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html?v1=545486039",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GINGHAM PRINT HAT - Navy blue - 12-18 months",
+          "sku": "545486039-401-49",
+          "mpn": "545486039-401-49",
+          "color": "Navy blue",
+          "size": "12-18 months",
+          "image": [
+            "https://static.zara.net/assets/public/72d7/9614/815345538ef7/f22bd9109652/06061512401-e1/06061512401-e1.jpg?ts=1781618189093&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html?v1=545486039",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GINGHAM PRINT HAT",
+      "product_group_id": "06061512",
+      "brand": "ZARA",
+      "description": "Hat with adjustable front cords. Gingham print.",
+      "material": "cotton/polyester",
+      "composition": "OUTER SHELL: 67% cotton, 33% polyester | LINING: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GINGHAM PRINT HAT - Navy blue - 3-6 months",
+          "sku": "545486039-401-43",
+          "mpn": "545486039-401-43",
+          "color_name": "Navy blue",
+          "size_name": "3-6 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html?v1=545486039",
+          "images": [
+            "https://static.zara.net/assets/public/72d7/9614/815345538ef7/f22bd9109652/06061512401-e1/06061512401-e1.jpg?ts=1781618189093&w=1920"
+          ]
+        },
+        {
+          "name": "GINGHAM PRINT HAT - Navy blue - 6-12 months",
+          "sku": "545486039-401-46",
+          "mpn": "545486039-401-46",
+          "color_name": "Navy blue",
+          "size_name": "6-12 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html?v1=545486039",
+          "images": [
+            "https://static.zara.net/assets/public/72d7/9614/815345538ef7/f22bd9109652/06061512401-e1/06061512401-e1.jpg?ts=1781618189093&w=1920"
+          ]
+        },
+        {
+          "name": "GINGHAM PRINT HAT - Navy blue - 12-18 months",
+          "sku": "545486039-401-49",
+          "mpn": "545486039-401-49",
+          "color_name": "Navy blue",
+          "size_name": "12-18 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/gingham-print-hat-p06061512.html?v1=545486039",
+          "images": [
+            "https://static.zara.net/assets/public/72d7/9614/815345538ef7/f22bd9109652/06061512401-e1/06061512401-e1.jpg?ts=1781618189093&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/72d7/9614/815345538ef7/f22bd9109652/06061512401-e1/06061512401-e1.jpg?ts=1781618189093&w=1920",
+        "https://static.zara.net/assets/public/666e/e7aa/306a4d7bbf79/d9655f7dd6a8/06061512401-e2/06061512401-e2.jpg?ts=1781618188420&w=1920",
+        "https://static.zara.net/assets/public/c146/3804/5c9f4ba7bfa5/160ad5d65207/06061512401-e3/06061512401-e3.jpg?ts=1781618188244&w=1920",
+        "https://static.zara.net/assets/public/1d6e/5541/a27b4b7e8c42/04d29bb42b4f/06061512401-e4/06061512401-e4.jpg?ts=1781618188589&w=1920",
+        "https://static.zara.net/assets/public/aae1/cc86/b58f4248a9e0/be304694206d/06061512401-p/06061512401-p.jpg?ts=1783439920173&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nHat with adjustable front cords. Gingham print.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "aa024dd2094ece6b613d35fbf47279a3f5fe77cfc5768c6331d1c2393d4db891",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

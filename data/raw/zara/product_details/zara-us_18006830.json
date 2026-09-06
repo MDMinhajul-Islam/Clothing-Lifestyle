@@ -1,0 +1,133 @@
+{
+  "product_id": "zara-us:18006830",
+  "source_url": "https://www.zara.com/us/en/striped-knit-booties-p18006830.html",
+  "final_url": "https://www.zara.com/us/en/striped-knit-booties-p18006830.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-knit-booties-p18006830.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED KNIT BOOTIE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED KNIT BOOTIE",
+      "url": "https://www.zara.com/us/en/striped-knit-booties-p18006830.html",
+      "productGroupID": "18006830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Knit bootie with contrasting stripe design. Lace-up fastening on the instep.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/04ae/e66a/ff114d0baf7f/e4d07bf031b4/18006830202-e1/18006830202-e1.jpg?ts=1788336935020&w=1920",
+        "https://static.zara.net/assets/public/e9ae/44d9/1e4a4f23a595/4ac2643f8cd8/18006830202-e2/18006830202-e2.jpg?ts=1788347313257&w=1920",
+        "https://static.zara.net/assets/public/a1fb/5576/ac53461ca054/0a8ec5f90c72/18006830202-e3/18006830202-e3.jpg?ts=1788336934742&w=1920",
+        "https://static.zara.net/assets/public/351f/62e0/d74c4d34a163/cfa87333b107/18006830202-e4/18006830202-e4.jpg?ts=1788336934993&w=1920",
+        "https://static.zara.net/assets/public/26ee/16ef/c3004c76b2eb/b39c6d507909/18006830202-e5/18006830202-e5.jpg?ts=1788336934913&w=1920",
+        "https://static.zara.net/assets/public/9c1d/5053/69004f9cabdf/f9ebd27ec04d/18006830202-e6/18006830202-e6.jpg?ts=1788336934489&w=1920",
+        "https://static.zara.net/assets/public/cc25/fde8/25bc4e8d9949/73a69b9d452f/18006830202-e7/18006830202-e7.jpg?ts=1788336934881&w=1920",
+        "https://static.zara.net/assets/public/5bc5/24da/a86b4273b042/b5ff2329139b/18006830202-e8/18006830202-e8.jpg?ts=1788336934684&w=1920"
+      ],
+      "material": "100% wool",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% wool"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED KNIT BOOTIE - Multi-color - ONE SIZE ONLY",
+          "sku": "555113519-202-53",
+          "mpn": "555113519-202-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/04ae/e66a/ff114d0baf7f/e4d07bf031b4/18006830202-e1/18006830202-e1.jpg?ts=1788336935020&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/striped-knit-booties-p18006830.html?v1=555113519",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED KNIT BOOTIE",
+      "product_group_id": "18006830",
+      "brand": "ZARA",
+      "description": "Knit bootie with contrasting stripe design. Lace-up fastening on the instep.",
+      "material": "100% wool",
+      "composition": "OUTER SHELL: 100% wool",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED KNIT BOOTIE - Multi-color - ONE SIZE ONLY",
+          "sku": "555113519-202-53",
+          "mpn": "555113519-202-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-knit-booties-p18006830.html?v1=555113519",
+          "images": [
+            "https://static.zara.net/assets/public/04ae/e66a/ff114d0baf7f/e4d07bf031b4/18006830202-e1/18006830202-e1.jpg?ts=1788336935020&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/04ae/e66a/ff114d0baf7f/e4d07bf031b4/18006830202-e1/18006830202-e1.jpg?ts=1788336935020&w=1920",
+        "https://static.zara.net/assets/public/e9ae/44d9/1e4a4f23a595/4ac2643f8cd8/18006830202-e2/18006830202-e2.jpg?ts=1788347313257&w=1920",
+        "https://static.zara.net/assets/public/a1fb/5576/ac53461ca054/0a8ec5f90c72/18006830202-e3/18006830202-e3.jpg?ts=1788336934742&w=1920",
+        "https://static.zara.net/assets/public/351f/62e0/d74c4d34a163/cfa87333b107/18006830202-e4/18006830202-e4.jpg?ts=1788336934993&w=1920",
+        "https://static.zara.net/assets/public/26ee/16ef/c3004c76b2eb/b39c6d507909/18006830202-e5/18006830202-e5.jpg?ts=1788336934913&w=1920",
+        "https://static.zara.net/assets/public/9c1d/5053/69004f9cabdf/f9ebd27ec04d/18006830202-e6/18006830202-e6.jpg?ts=1788336934489&w=1920",
+        "https://static.zara.net/assets/public/cc25/fde8/25bc4e8d9949/73a69b9d452f/18006830202-e7/18006830202-e7.jpg?ts=1788336934881&w=1920",
+        "https://static.zara.net/assets/public/5bc5/24da/a86b4273b042/b5ff2329139b/18006830202-e8/18006830202-e8.jpg?ts=1788336934684&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nKnit bootie with contrasting stripe design. Lace-up fastening on the instep.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7dd33ba5b0670e8e2ebb6bf5f3ceccfb84bc8501e01e4963ac31c78560c70e44",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

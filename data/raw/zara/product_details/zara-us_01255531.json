@@ -1,0 +1,681 @@
+{
+  "product_id": "zara-us:01255531",
+  "source_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html",
+  "final_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html",
+  "canonical_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED PLEATED PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED PLEATED PANTS",
+      "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html",
+      "productGroupID": "01255531",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mid-rise pants with belt loops. Side pockets and faux welt pockets at the back. Front pleat detail. Front zip fly with interior button and metal hook fastening.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920",
+        "https://static.zara.net/assets/public/ddac/2477/7e0c44b595dd/48d941800605/01255535523-a1/01255535523-a1.jpg?ts=1788513619494&w=1920",
+        "https://static.zara.net/assets/public/4f6c/88e8/48114e078db9/821c5e5ecfa4/01255535523-a2/01255535523-a2.jpg?ts=1788513619434&w=1920",
+        "https://static.zara.net/assets/public/92ed/19ce/34134a889b4a/07c2cb09af33/01255535523-a3/01255535523-a3.jpg?ts=1788513618380&w=1920",
+        "https://static.zara.net/assets/public/ef33/8d9c/f80949b09768/8d1f584a4067/01255535523-a4/01255535523-a4.jpg?ts=1788513619016&w=1920",
+        "https://static.zara.net/assets/public/6496/4331/832848a08737/0d8cfea118cf/01255535523-e1/01255535523-e1.jpg?ts=1788509560782&w=1920",
+        "https://static.zara.net/assets/public/6113/ca9c/5cfd41f28003/e066556f7047/01255535523-e2/01255535523-e2.jpg?ts=1788509562200&w=1920",
+        "https://static.zara.net/assets/public/84d5/5cb3/80294c828800/1e1931c394d6/01255535523-e3/01255535523-e3.jpg?ts=1788509561391&w=1920"
+      ],
+      "material": "polyester/viscose/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "87% polyester, 11% viscose, 2% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Khaki marl - XS",
+          "sku": "549293360-523-1",
+          "mpn": "549293360-523-1",
+          "color": "Khaki marl",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Khaki marl - S",
+          "sku": "549293360-523-2",
+          "mpn": "549293360-523-2",
+          "color": "Khaki marl",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Khaki marl - M",
+          "sku": "549293360-523-3",
+          "mpn": "549293360-523-3",
+          "color": "Khaki marl",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Khaki marl - L",
+          "sku": "549293360-523-4",
+          "mpn": "549293360-523-4",
+          "color": "Khaki marl",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Khaki marl - XL",
+          "sku": "549293360-523-5",
+          "mpn": "549293360-523-5",
+          "color": "Khaki marl",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Khaki marl - XXL",
+          "sku": "549293360-523-6",
+          "mpn": "549293360-523-6",
+          "color": "Khaki marl",
+          "size": "XXL",
+          "image": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Black - XS",
+          "sku": "549293360-800-1",
+          "mpn": "549293360-800-1",
+          "color": "Black",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Black - S",
+          "sku": "549293360-800-2",
+          "mpn": "549293360-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Black - M",
+          "sku": "549293360-800-3",
+          "mpn": "549293360-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Black - L",
+          "sku": "549293360-800-4",
+          "mpn": "549293360-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Black - XL",
+          "sku": "549293360-800-5",
+          "mpn": "549293360-800-5",
+          "color": "Black",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Black - XXL",
+          "sku": "549293360-800-6",
+          "mpn": "549293360-800-6",
+          "color": "Black",
+          "size": "XXL",
+          "image": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - XS",
+          "sku": "549293360-818-1",
+          "mpn": "549293360-818-1",
+          "color": "Charcoal gray",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - S",
+          "sku": "549293360-818-2",
+          "mpn": "549293360-818-2",
+          "color": "Charcoal gray",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - M",
+          "sku": "549293360-818-3",
+          "mpn": "549293360-818-3",
+          "color": "Charcoal gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - L",
+          "sku": "549293360-818-4",
+          "mpn": "549293360-818-4",
+          "color": "Charcoal gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - XL",
+          "sku": "549293360-818-5",
+          "mpn": "549293360-818-5",
+          "color": "Charcoal gray",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - XXL",
+          "sku": "549293360-818-6",
+          "mpn": "549293360-818-6",
+          "color": "Charcoal gray",
+          "size": "XXL",
+          "image": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED PLEATED PANTS",
+      "product_group_id": "01255531",
+      "brand": "ZARA",
+      "description": "Mid-rise pants with belt loops. Side pockets and faux welt pockets at the back. Front pleat detail. Front zip fly with interior button and metal hook fastening.",
+      "material": "polyester/viscose/elastane",
+      "composition": "OUTER SHELL: 87% polyester, 11% viscose, 2% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED PLEATED PANTS - Khaki marl - XS",
+          "sku": "549293360-523-1",
+          "mpn": "549293360-523-1",
+          "color_name": "Khaki marl",
+          "size_name": "XS",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+          "images": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Khaki marl - S",
+          "sku": "549293360-523-2",
+          "mpn": "549293360-523-2",
+          "color_name": "Khaki marl",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+          "images": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Khaki marl - M",
+          "sku": "549293360-523-3",
+          "mpn": "549293360-523-3",
+          "color_name": "Khaki marl",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+          "images": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Khaki marl - L",
+          "sku": "549293360-523-4",
+          "mpn": "549293360-523-4",
+          "color_name": "Khaki marl",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+          "images": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Khaki marl - XL",
+          "sku": "549293360-523-5",
+          "mpn": "549293360-523-5",
+          "color_name": "Khaki marl",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+          "images": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Khaki marl - XXL",
+          "sku": "549293360-523-6",
+          "mpn": "549293360-523-6",
+          "color_name": "Khaki marl",
+          "size_name": "XXL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293360",
+          "images": [
+            "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Black - XS",
+          "sku": "549293360-800-1",
+          "mpn": "549293360-800-1",
+          "color_name": "Black",
+          "size_name": "XS",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+          "images": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Black - S",
+          "sku": "549293360-800-2",
+          "mpn": "549293360-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+          "images": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Black - M",
+          "sku": "549293360-800-3",
+          "mpn": "549293360-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+          "images": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Black - L",
+          "sku": "549293360-800-4",
+          "mpn": "549293360-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+          "images": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Black - XL",
+          "sku": "549293360-800-5",
+          "mpn": "549293360-800-5",
+          "color_name": "Black",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+          "images": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Black - XXL",
+          "sku": "549293360-800-6",
+          "mpn": "549293360-800-6",
+          "color_name": "Black",
+          "size_name": "XXL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293361",
+          "images": [
+            "https://static.zara.net/assets/public/e97a/15fe/51a240dc91c6/1ae5d642ebbf/01255531800-p/01255531800-p.jpg?ts=1788447982677&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - XS",
+          "sku": "549293360-818-1",
+          "mpn": "549293360-818-1",
+          "color_name": "Charcoal gray",
+          "size_name": "XS",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+          "images": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - S",
+          "sku": "549293360-818-2",
+          "mpn": "549293360-818-2",
+          "color_name": "Charcoal gray",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+          "images": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - M",
+          "sku": "549293360-818-3",
+          "mpn": "549293360-818-3",
+          "color_name": "Charcoal gray",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+          "images": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - L",
+          "sku": "549293360-818-4",
+          "mpn": "549293360-818-4",
+          "color_name": "Charcoal gray",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+          "images": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - XL",
+          "sku": "549293360-818-5",
+          "mpn": "549293360-818-5",
+          "color_name": "Charcoal gray",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+          "images": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED PLEATED PANTS - Charcoal gray - XXL",
+          "sku": "549293360-818-6",
+          "mpn": "549293360-818-6",
+          "color_name": "Charcoal gray",
+          "size_name": "XXL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-pants-p01255531.html?v1=549293362",
+          "images": [
+            "https://static.zara.net/assets/public/c948/d065/709243959895/8767aa3110d3/01255533818-p/01255533818-p.jpg?ts=1788513618993&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9731/2c01/2725482f991a/3391bc7b76b7/01255535523-p/01255535523-p.jpg?ts=1788513618778&w=1920",
+        "https://static.zara.net/assets/public/ddac/2477/7e0c44b595dd/48d941800605/01255535523-a1/01255535523-a1.jpg?ts=1788513619494&w=1920",
+        "https://static.zara.net/assets/public/4f6c/88e8/48114e078db9/821c5e5ecfa4/01255535523-a2/01255535523-a2.jpg?ts=1788513619434&w=1920",
+        "https://static.zara.net/assets/public/92ed/19ce/34134a889b4a/07c2cb09af33/01255535523-a3/01255535523-a3.jpg?ts=1788513618380&w=1920",
+        "https://static.zara.net/assets/public/ef33/8d9c/f80949b09768/8d1f584a4067/01255535523-a4/01255535523-a4.jpg?ts=1788513619016&w=1920",
+        "https://static.zara.net/assets/public/6496/4331/832848a08737/0d8cfea118cf/01255535523-e1/01255535523-e1.jpg?ts=1788509560782&w=1920",
+        "https://static.zara.net/assets/public/6113/ca9c/5cfd41f28003/e066556f7047/01255535523-e2/01255535523-e2.jpg?ts=1788509562200&w=1920",
+        "https://static.zara.net/assets/public/84d5/5cb3/80294c828800/1e1931c394d6/01255535523-e3/01255535523-e3.jpg?ts=1788509561391&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Khaki marl",
+    "Black",
+    "Charcoal gray"
+  ],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nMid-rise pants with belt loops. Side pockets and faux welt pockets at the back. Front pleat detail. Front zip fly with interior button and metal hook fastening.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 10,
+  "variants_count": 18,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "31449c8e0e5710114d0c8d8ed7a355c654bc09e132bfd830847c565c43ab347e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

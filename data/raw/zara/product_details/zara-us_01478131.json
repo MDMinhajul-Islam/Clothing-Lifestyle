@@ -1,0 +1,261 @@
+{
+  "product_id": "zara-us:01478131",
+  "source_url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html",
+  "final_url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED STRAIGHT LEG PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED STRAIGHT LEG PANTS",
+      "url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html",
+      "productGroupID": "01478131",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Low-rise pants with front pockets. Straight leg. Front zip and button closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920",
+        "https://static.zara.net/assets/public/7d93/2689/280a4ecb9214/bba24f8e441a/01478131670-a1/01478131670-a1.jpg?ts=1783006398212&w=1920",
+        "https://static.zara.net/assets/public/fc94/31fb/107a4f63a151/27fb16b983d6/01478131670-a2/01478131670-a2.jpg?ts=1783006397511&w=1920",
+        "https://static.zara.net/assets/public/ec49/b9b0/27a744f9930f/53acd1035de8/01478131670-a3/01478131670-a3.jpg?ts=1783006398116&w=1920",
+        "https://static.zara.net/assets/public/d620/85f3/c8074452a41a/0bcc1051c1d0/01478131670-a4/01478131670-a4.jpg?ts=1783006397625&w=1920",
+        "https://static.zara.net/assets/public/0b3e/bf89/c5964405b540/244e3b02711c/01478131670-e1/01478131670-e1.jpg?ts=1782999037722&w=1920",
+        "https://static.zara.net/assets/public/f2cb/574a/b4d04ad29f4e/bbb30ea4b319/01478131670-e2/01478131670-e2.jpg?ts=1782999036247&w=1920",
+        "https://static.zara.net/assets/public/f45d/ca05/cf374248b764/8e2b02f33c51/01478131670-e3/01478131670-e3.jpg?ts=1782999036733&w=1920"
+      ],
+      "material": "lyocell/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "85% lyocell, 15% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - XS",
+          "sku": "552390077-670-1",
+          "mpn": "552390077-670-1",
+          "color": "Russet",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - S",
+          "sku": "552390077-670-2",
+          "mpn": "552390077-670-2",
+          "color": "Russet",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - M",
+          "sku": "552390077-670-3",
+          "mpn": "552390077-670-3",
+          "color": "Russet",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - L",
+          "sku": "552390077-670-4",
+          "mpn": "552390077-670-4",
+          "color": "Russet",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - XL",
+          "sku": "552390077-670-5",
+          "mpn": "552390077-670-5",
+          "color": "Russet",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED STRAIGHT LEG PANTS",
+      "product_group_id": "01478131",
+      "brand": "ZARA",
+      "description": "Low-rise pants with front pockets. Straight leg. Front zip and button closure.",
+      "material": "lyocell/polyester",
+      "composition": "OUTER SHELL: 85% lyocell, 15% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - XS",
+          "sku": "552390077-670-1",
+          "mpn": "552390077-670-1",
+          "color_name": "Russet",
+          "size_name": "XS",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+          "images": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - S",
+          "sku": "552390077-670-2",
+          "mpn": "552390077-670-2",
+          "color_name": "Russet",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+          "images": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - M",
+          "sku": "552390077-670-3",
+          "mpn": "552390077-670-3",
+          "color_name": "Russet",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+          "images": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - L",
+          "sku": "552390077-670-4",
+          "mpn": "552390077-670-4",
+          "color_name": "Russet",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+          "images": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED STRAIGHT LEG PANTS - Russet - XL",
+          "sku": "552390077-670-5",
+          "mpn": "552390077-670-5",
+          "color_name": "Russet",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-straight-leg-pants-p01478131.html?v1=552390077",
+          "images": [
+            "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c531/e993/9ce4423b9095/21373ba60564/01478131670-p/01478131670-p.jpg?ts=1783006398071&w=1920",
+        "https://static.zara.net/assets/public/7d93/2689/280a4ecb9214/bba24f8e441a/01478131670-a1/01478131670-a1.jpg?ts=1783006398212&w=1920",
+        "https://static.zara.net/assets/public/fc94/31fb/107a4f63a151/27fb16b983d6/01478131670-a2/01478131670-a2.jpg?ts=1783006397511&w=1920",
+        "https://static.zara.net/assets/public/ec49/b9b0/27a744f9930f/53acd1035de8/01478131670-a3/01478131670-a3.jpg?ts=1783006398116&w=1920",
+        "https://static.zara.net/assets/public/d620/85f3/c8074452a41a/0bcc1051c1d0/01478131670-a4/01478131670-a4.jpg?ts=1783006397625&w=1920",
+        "https://static.zara.net/assets/public/0b3e/bf89/c5964405b540/244e3b02711c/01478131670-e1/01478131670-e1.jpg?ts=1782999037722&w=1920",
+        "https://static.zara.net/assets/public/f2cb/574a/b4d04ad29f4e/bbb30ea4b319/01478131670-e2/01478131670-e2.jpg?ts=1782999036247&w=1920",
+        "https://static.zara.net/assets/public/f45d/ca05/cf374248b764/8e2b02f33c51/01478131670-e3/01478131670-e3.jpg?ts=1782999036733&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nLow-rise pants with front pockets. Straight leg. Front zip and button closure.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 5,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3d94278e696002b4558197f68aa86b3676d5d2767990996f9e7c44b2100b4655",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

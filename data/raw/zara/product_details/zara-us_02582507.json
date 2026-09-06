@@ -1,0 +1,194 @@
+{
+  "product_id": "zara-us:02582507",
+  "source_url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html",
+  "final_url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html",
+  "canonical_url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EMBROIDERED FLOWER KNIT BONNET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "EMBROIDERED FLOWER KNIT BONNET",
+      "url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html",
+      "productGroupID": "02582507",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Knit bonnet with adjustable front ties. Features embroidered flower detail and ruffle trim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/de7c/79d3/459140c0a4e1/69763e50dd71/02582507712-e1/02582507712-e1.jpg?ts=1783412728494&w=1920",
+        "https://static.zara.net/assets/public/a4a5/df67/952141328c2a/872c9a908b1a/02582507712-e2/02582507712-e2.jpg?ts=1783412728756&w=1920",
+        "https://static.zara.net/assets/public/0f77/f13a/da2e46128291/c5f754ac19a0/02582507712-e3/02582507712-e3.jpg?ts=1783412728584&w=1920",
+        "https://static.zara.net/assets/public/5dba/0d3a/d363451d98e8/31ae7e1d9e45/02582507712-e4/02582507712-e4.jpg?ts=1783412728650&w=1920",
+        "https://static.zara.net/assets/public/a9a0/ab00/ae4f4d2b81b0/0b084e286def/02582507712-p/02582507712-p.jpg?ts=1781711456431&w=1920",
+        "https://static.zara.net/assets/public/509f/25c8/da7f4c678d1a/00599481d2b8/02582507712-a1/02582507712-a1.jpg?ts=1781711456934&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED FLOWER KNIT BONNET - Ecru - 0-3 months",
+          "sku": "545412657-712-38",
+          "mpn": "545412657-712-38",
+          "color": "Ecru",
+          "size": "0-3 months",
+          "image": [
+            "https://static.zara.net/assets/public/de7c/79d3/459140c0a4e1/69763e50dd71/02582507712-e1/02582507712-e1.jpg?ts=1783412728494&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html?v1=545412657",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED FLOWER KNIT BONNET - Ecru - 3-6 months",
+          "sku": "545412657-712-43",
+          "mpn": "545412657-712-43",
+          "color": "Ecru",
+          "size": "3-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/de7c/79d3/459140c0a4e1/69763e50dd71/02582507712-e1/02582507712-e1.jpg?ts=1783412728494&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html?v1=545412657",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED FLOWER KNIT BONNET - Ecru - 6-12 months",
+          "sku": "545412657-712-46",
+          "mpn": "545412657-712-46",
+          "color": "Ecru",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/de7c/79d3/459140c0a4e1/69763e50dd71/02582507712-e1/02582507712-e1.jpg?ts=1783412728494&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html?v1=545412657",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "EMBROIDERED FLOWER KNIT BONNET",
+      "product_group_id": "02582507",
+      "brand": "ZARA",
+      "description": "Knit bonnet with adjustable front ties. Features embroidered flower detail and ruffle trim.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "EMBROIDERED FLOWER KNIT BONNET - Ecru - 0-3 months",
+          "sku": "545412657-712-38",
+          "mpn": "545412657-712-38",
+          "color_name": "Ecru",
+          "size_name": "0-3 months",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html?v1=545412657",
+          "images": [
+            "https://static.zara.net/assets/public/de7c/79d3/459140c0a4e1/69763e50dd71/02582507712-e1/02582507712-e1.jpg?ts=1783412728494&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED FLOWER KNIT BONNET - Ecru - 3-6 months",
+          "sku": "545412657-712-43",
+          "mpn": "545412657-712-43",
+          "color_name": "Ecru",
+          "size_name": "3-6 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html?v1=545412657",
+          "images": [
+            "https://static.zara.net/assets/public/de7c/79d3/459140c0a4e1/69763e50dd71/02582507712-e1/02582507712-e1.jpg?ts=1783412728494&w=1920"
+          ]
+        },
+        {
+          "name": "EMBROIDERED FLOWER KNIT BONNET - Ecru - 6-12 months",
+          "sku": "545412657-712-46",
+          "mpn": "545412657-712-46",
+          "color_name": "Ecru",
+          "size_name": "6-12 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-flower-knit-bonnet-p02582507.html?v1=545412657",
+          "images": [
+            "https://static.zara.net/assets/public/de7c/79d3/459140c0a4e1/69763e50dd71/02582507712-e1/02582507712-e1.jpg?ts=1783412728494&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/de7c/79d3/459140c0a4e1/69763e50dd71/02582507712-e1/02582507712-e1.jpg?ts=1783412728494&w=1920",
+        "https://static.zara.net/assets/public/a4a5/df67/952141328c2a/872c9a908b1a/02582507712-e2/02582507712-e2.jpg?ts=1783412728756&w=1920",
+        "https://static.zara.net/assets/public/0f77/f13a/da2e46128291/c5f754ac19a0/02582507712-e3/02582507712-e3.jpg?ts=1783412728584&w=1920",
+        "https://static.zara.net/assets/public/5dba/0d3a/d363451d98e8/31ae7e1d9e45/02582507712-e4/02582507712-e4.jpg?ts=1783412728650&w=1920",
+        "https://static.zara.net/assets/public/a9a0/ab00/ae4f4d2b81b0/0b084e286def/02582507712-p/02582507712-p.jpg?ts=1781711456431&w=1920",
+        "https://static.zara.net/assets/public/509f/25c8/da7f4c678d1a/00599481d2b8/02582507712-a1/02582507712-a1.jpg?ts=1781711456934&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nKnit bonnet with adjustable front ties. Features embroidered flower detail and ruffle trim.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 6,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3d158484b043538f49434f756cbd822b3b414a45bfbd5b5f6a742d7957b4482e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,190 @@
+{
+  "product_id": "zara-us:02582569",
+  "source_url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html",
+  "final_url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html",
+  "canonical_url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CONTRAST LACE KNIT BONNET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CONTRAST LACE KNIT BONNET",
+      "url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html",
+      "productGroupID": "02582569",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Knit bonnet with adjustable front ties. Contrasting lace trim detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5e91/ac44/7be0426c9579/85f6e21c00d6/02582569926-e1/02582569926-e1.jpg?ts=1787917945286&w=1920",
+        "https://static.zara.net/assets/public/422a/08e6/f456427881df/0c8d8f4e8fed/02582569926-e2/02582569926-e2.jpg?ts=1787917946268&w=1920",
+        "https://static.zara.net/assets/public/16cf/b862/757f48ed9d07/26e0f4e25cf7/02582569926-e3/02582569926-e3.jpg?ts=1787917946557&w=1920",
+        "https://static.zara.net/assets/public/db00/6242/c7d9470fb28c/9035c7c68007/02582569926-e5/02582569926-e5.jpg?ts=1787917945863&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CONTRAST LACE KNIT BONNET - Pink - 0-3 months",
+          "sku": "551839405-926-38",
+          "mpn": "551839405-926-38",
+          "color": "Pink",
+          "size": "0-3 months",
+          "image": [
+            "https://static.zara.net/assets/public/5e91/ac44/7be0426c9579/85f6e21c00d6/02582569926-e1/02582569926-e1.jpg?ts=1787917945286&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html?v1=551839405",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LACE KNIT BONNET - Pink - 3-6 months",
+          "sku": "551839405-926-43",
+          "mpn": "551839405-926-43",
+          "color": "Pink",
+          "size": "3-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/5e91/ac44/7be0426c9579/85f6e21c00d6/02582569926-e1/02582569926-e1.jpg?ts=1787917945286&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html?v1=551839405",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LACE KNIT BONNET - Pink - 6-12 months",
+          "sku": "551839405-926-46",
+          "mpn": "551839405-926-46",
+          "color": "Pink",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/5e91/ac44/7be0426c9579/85f6e21c00d6/02582569926-e1/02582569926-e1.jpg?ts=1787917945286&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html?v1=551839405",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CONTRAST LACE KNIT BONNET",
+      "product_group_id": "02582569",
+      "brand": "ZARA",
+      "description": "Knit bonnet with adjustable front ties. Contrasting lace trim detail.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CONTRAST LACE KNIT BONNET - Pink - 0-3 months",
+          "sku": "551839405-926-38",
+          "mpn": "551839405-926-38",
+          "color_name": "Pink",
+          "size_name": "0-3 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html?v1=551839405",
+          "images": [
+            "https://static.zara.net/assets/public/5e91/ac44/7be0426c9579/85f6e21c00d6/02582569926-e1/02582569926-e1.jpg?ts=1787917945286&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LACE KNIT BONNET - Pink - 3-6 months",
+          "sku": "551839405-926-43",
+          "mpn": "551839405-926-43",
+          "color_name": "Pink",
+          "size_name": "3-6 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html?v1=551839405",
+          "images": [
+            "https://static.zara.net/assets/public/5e91/ac44/7be0426c9579/85f6e21c00d6/02582569926-e1/02582569926-e1.jpg?ts=1787917945286&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LACE KNIT BONNET - Pink - 6-12 months",
+          "sku": "551839405-926-46",
+          "mpn": "551839405-926-46",
+          "color_name": "Pink",
+          "size_name": "6-12 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-lace-knit-bonnet-p02582569.html?v1=551839405",
+          "images": [
+            "https://static.zara.net/assets/public/5e91/ac44/7be0426c9579/85f6e21c00d6/02582569926-e1/02582569926-e1.jpg?ts=1787917945286&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5e91/ac44/7be0426c9579/85f6e21c00d6/02582569926-e1/02582569926-e1.jpg?ts=1787917945286&w=1920",
+        "https://static.zara.net/assets/public/422a/08e6/f456427881df/0c8d8f4e8fed/02582569926-e2/02582569926-e2.jpg?ts=1787917946268&w=1920",
+        "https://static.zara.net/assets/public/16cf/b862/757f48ed9d07/26e0f4e25cf7/02582569926-e3/02582569926-e3.jpg?ts=1787917946557&w=1920",
+        "https://static.zara.net/assets/public/db00/6242/c7d9470fb28c/9035c7c68007/02582569926-e5/02582569926-e5.jpg?ts=1787917945863&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nKnit bonnet with adjustable front ties. Contrasting lace trim detail.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 4,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5ecaf3dde1609fdb1fc86eaa0d9065af3c6535224c97af3bfef6d0ff0dead5c1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

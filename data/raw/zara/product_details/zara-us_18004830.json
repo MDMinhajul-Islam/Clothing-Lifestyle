@@ -1,0 +1,181 @@
+{
+  "product_id": "zara-us:18004830",
+  "source_url": "https://www.zara.com/us/en/dog-slippers-p18004830.html",
+  "final_url": "https://www.zara.com/us/en/dog-slippers-p18004830.html",
+  "canonical_url": "https://www.zara.com/us/en/dog-slippers-p18004830.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PUPPY SLIPPERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PUPPY SLIPPERS",
+      "url": "https://www.zara.com/us/en/dog-slippers-p18004830.html",
+      "productGroupID": "18004830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Puppy-shaped house slippers with a curly faux fur finish. Features a ribbed, sock-style cuff and a flexible sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ce1a/86ef/c5fb45c1af7a/f11988923708/18004830700-e1/18004830700-e1.jpg?ts=1785916647567&w=1920",
+        "https://static.zara.net/assets/public/a685/df22/0b0e486888fe/1569f0508911/18004830700-e2/18004830700-e2.jpg?ts=1785916647122&w=1920",
+        "https://static.zara.net/assets/public/1b13/9cec/09cb4d5d9b11/4dbc88884b44/18004830700-e3/18004830700-e3.jpg?ts=1785916646861&w=1920",
+        "https://static.zara.net/assets/public/1960/3ed1/92914020bf4c/0479e8e79039/18004830700-e4/18004830700-e4.jpg?ts=1785916647703&w=1920",
+        "https://static.zara.net/assets/public/8edd/448e/faed4dea9cd9/dd5c62fa6daf/18004830700-e5/18004830700-e5.jpg?ts=1785916648331&w=1920",
+        "https://static.zara.net/assets/public/1b2f/21cd/332e42428496/51c2931fa283/18004830700-e6/18004830700-e6.jpg?ts=1785916649160&w=1920",
+        "https://static.zara.net/assets/public/4dc5/185b/12fe4564a2a8/40f01c5a02de/18004830700-e7/18004830700-e7.jpg?ts=1785916648834&w=1920"
+      ],
+      "material": "polyester/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "76% polyester, 24% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "60% polyester, 40% silicone"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PUPPY SLIPPERS - Brown - 1½ (3.8 INCHES)",
+          "sku": "545494786-700-16",
+          "mpn": "545494786-700-16",
+          "color": "Brown",
+          "size": "1½ (3.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce1a/86ef/c5fb45c1af7a/f11988923708/18004830700-e1/18004830700-e1.jpg?ts=1785916647567&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/dog-slippers-p18004830.html?v1=545494786",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PUPPY SLIPPERS - Brown - 3 (4.3 INCHES)",
+          "sku": "545494786-700-18",
+          "mpn": "545494786-700-18",
+          "color": "Brown",
+          "size": "3 (4.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce1a/86ef/c5fb45c1af7a/f11988923708/18004830700-e1/18004830700-e1.jpg?ts=1785916647567&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/dog-slippers-p18004830.html?v1=545494786",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PUPPY SLIPPERS",
+      "product_group_id": "18004830",
+      "brand": "ZARA",
+      "description": "Puppy-shaped house slippers with a curly faux fur finish. Features a ribbed, sock-style cuff and a flexible sole.",
+      "material": "polyester/cotton",
+      "composition": "UPPER: 76% polyester, 24% cotton | LINING: 100% polyester | SOLE: 60% polyester, 40% silicone | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PUPPY SLIPPERS - Brown - 1½ (3.8 INCHES)",
+          "sku": "545494786-700-16",
+          "mpn": "545494786-700-16",
+          "color_name": "Brown",
+          "size_name": "1½ (3.8 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dog-slippers-p18004830.html?v1=545494786",
+          "images": [
+            "https://static.zara.net/assets/public/ce1a/86ef/c5fb45c1af7a/f11988923708/18004830700-e1/18004830700-e1.jpg?ts=1785916647567&w=1920"
+          ]
+        },
+        {
+          "name": "PUPPY SLIPPERS - Brown - 3 (4.3 INCHES)",
+          "sku": "545494786-700-18",
+          "mpn": "545494786-700-18",
+          "color_name": "Brown",
+          "size_name": "3 (4.3 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/dog-slippers-p18004830.html?v1=545494786",
+          "images": [
+            "https://static.zara.net/assets/public/ce1a/86ef/c5fb45c1af7a/f11988923708/18004830700-e1/18004830700-e1.jpg?ts=1785916647567&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ce1a/86ef/c5fb45c1af7a/f11988923708/18004830700-e1/18004830700-e1.jpg?ts=1785916647567&w=1920",
+        "https://static.zara.net/assets/public/a685/df22/0b0e486888fe/1569f0508911/18004830700-e2/18004830700-e2.jpg?ts=1785916647122&w=1920",
+        "https://static.zara.net/assets/public/1b13/9cec/09cb4d5d9b11/4dbc88884b44/18004830700-e3/18004830700-e3.jpg?ts=1785916646861&w=1920",
+        "https://static.zara.net/assets/public/1960/3ed1/92914020bf4c/0479e8e79039/18004830700-e4/18004830700-e4.jpg?ts=1785916647703&w=1920",
+        "https://static.zara.net/assets/public/8edd/448e/faed4dea9cd9/dd5c62fa6daf/18004830700-e5/18004830700-e5.jpg?ts=1785916648331&w=1920",
+        "https://static.zara.net/assets/public/1b2f/21cd/332e42428496/51c2931fa283/18004830700-e6/18004830700-e6.jpg?ts=1785916649160&w=1920",
+        "https://static.zara.net/assets/public/4dc5/185b/12fe4564a2a8/40f01c5a02de/18004830700-e7/18004830700-e7.jpg?ts=1785916648834&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nPuppy-shaped house slippers with a curly faux fur finish. Features a ribbed, sock-style cuff and a flexible sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "83d67bc6554f871a718d1facbec85ed5dbe26d4f89e87f74fa798e12c7e65d09",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

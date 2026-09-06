@@ -1,0 +1,195 @@
+{
+  "product_id": "zara-us:05580251",
+  "source_url": "https://www.zara.com/us/en/rustic-pants-p05580251.html",
+  "final_url": "https://www.zara.com/us/en/rustic-pants-p05580251.html",
+  "canonical_url": "https://www.zara.com/us/en/rustic-pants-p05580251.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RUSTIC PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RUSTIC PANTS",
+      "url": "https://www.zara.com/us/en/rustic-pants-p05580251.html",
+      "productGroupID": "05580251",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pants made of cotton blend yarn. Mid-rise with an elastic waistband. Wide-leg cut.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/785d/b0d4/ccd3480a82af/c94b22c8a2a2/05580251712-p/05580251712-p.jpg?ts=1784128232095&w=1920",
+        "https://static.zara.net/assets/public/e3c5/f1bb/eda24907ac93/731458dd6c40/05580251712-a1/05580251712-a1.jpg?ts=1784128231209&w=1920",
+        "https://static.zara.net/assets/public/6af9/94f3/bc1f40b68b8f/f94bdc55163d/05580251712-a2/05580251712-a2.jpg?ts=1784128231217&w=1920",
+        "https://static.zara.net/assets/public/1cb6/8dfb/a8e742a3bae5/a5d8258a14a6/05580251712-a3/05580251712-a3.jpg?ts=1784128235085&w=1920",
+        "https://static.zara.net/assets/public/bd23/dc38/59124953bdb2/c34a4a1c4e6f/05580251712-e1/05580251712-e1.jpg?ts=1784633989809&w=1920",
+        "https://static.zara.net/assets/public/4d64/742c/17c645daac9d/3d2e2741a553/05580251712-e2/05580251712-e2.jpg?ts=1784633989466&w=1920",
+        "https://static.zara.net/assets/public/c43c/739b/15664816883a/4c02a8ec3ddb/05580251712-e3/05580251712-e3.jpg?ts=1784633989765&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "79% cotton, 21% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RUSTIC PANTS - Ecru - S",
+          "sku": "551392179-712-2",
+          "mpn": "551392179-712-2",
+          "color": "Ecru",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/785d/b0d4/ccd3480a82af/c94b22c8a2a2/05580251712-p/05580251712-p.jpg?ts=1784128232095&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/rustic-pants-p05580251.html?v1=551392179",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUSTIC PANTS - Ecru - M",
+          "sku": "551392179-712-3",
+          "mpn": "551392179-712-3",
+          "color": "Ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/785d/b0d4/ccd3480a82af/c94b22c8a2a2/05580251712-p/05580251712-p.jpg?ts=1784128232095&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/rustic-pants-p05580251.html?v1=551392179",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUSTIC PANTS - Ecru - L",
+          "sku": "551392179-712-4",
+          "mpn": "551392179-712-4",
+          "color": "Ecru",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/785d/b0d4/ccd3480a82af/c94b22c8a2a2/05580251712-p/05580251712-p.jpg?ts=1784128232095&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/rustic-pants-p05580251.html?v1=551392179",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RUSTIC PANTS",
+      "product_group_id": "05580251",
+      "brand": "ZARA",
+      "description": "Pants made of cotton blend yarn. Mid-rise with an elastic waistband. Wide-leg cut.",
+      "material": "cotton/polyester",
+      "composition": "OUTER SHELL: 79% cotton, 21% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RUSTIC PANTS - Ecru - S",
+          "sku": "551392179-712-2",
+          "mpn": "551392179-712-2",
+          "color_name": "Ecru",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rustic-pants-p05580251.html?v1=551392179",
+          "images": [
+            "https://static.zara.net/assets/public/785d/b0d4/ccd3480a82af/c94b22c8a2a2/05580251712-p/05580251712-p.jpg?ts=1784128232095&w=1920"
+          ]
+        },
+        {
+          "name": "RUSTIC PANTS - Ecru - M",
+          "sku": "551392179-712-3",
+          "mpn": "551392179-712-3",
+          "color_name": "Ecru",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rustic-pants-p05580251.html?v1=551392179",
+          "images": [
+            "https://static.zara.net/assets/public/785d/b0d4/ccd3480a82af/c94b22c8a2a2/05580251712-p/05580251712-p.jpg?ts=1784128232095&w=1920"
+          ]
+        },
+        {
+          "name": "RUSTIC PANTS - Ecru - L",
+          "sku": "551392179-712-4",
+          "mpn": "551392179-712-4",
+          "color_name": "Ecru",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rustic-pants-p05580251.html?v1=551392179",
+          "images": [
+            "https://static.zara.net/assets/public/785d/b0d4/ccd3480a82af/c94b22c8a2a2/05580251712-p/05580251712-p.jpg?ts=1784128232095&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/785d/b0d4/ccd3480a82af/c94b22c8a2a2/05580251712-p/05580251712-p.jpg?ts=1784128232095&w=1920",
+        "https://static.zara.net/assets/public/e3c5/f1bb/eda24907ac93/731458dd6c40/05580251712-a1/05580251712-a1.jpg?ts=1784128231209&w=1920",
+        "https://static.zara.net/assets/public/6af9/94f3/bc1f40b68b8f/f94bdc55163d/05580251712-a2/05580251712-a2.jpg?ts=1784128231217&w=1920",
+        "https://static.zara.net/assets/public/1cb6/8dfb/a8e742a3bae5/a5d8258a14a6/05580251712-a3/05580251712-a3.jpg?ts=1784128235085&w=1920",
+        "https://static.zara.net/assets/public/bd23/dc38/59124953bdb2/c34a4a1c4e6f/05580251712-e1/05580251712-e1.jpg?ts=1784633989809&w=1920",
+        "https://static.zara.net/assets/public/4d64/742c/17c645daac9d/3d2e2741a553/05580251712-e2/05580251712-e2.jpg?ts=1784633989466&w=1920",
+        "https://static.zara.net/assets/public/c43c/739b/15664816883a/4c02a8ec3ddb/05580251712-e3/05580251712-e3.jpg?ts=1784633989765&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nPants made of cotton blend yarn. Mid-rise with an elastic waistband. Wide-leg cut.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2edd90a7c2fc82ebb1fa1d5ddbe2535d198ee4edb5f2d8383192edee8c49c8e7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

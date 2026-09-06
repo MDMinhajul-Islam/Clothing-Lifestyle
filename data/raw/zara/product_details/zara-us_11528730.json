@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:11528730",
+  "source_url": "https://www.zara.com/us/en/strawberry-identifier-p11528730.html",
+  "final_url": "https://www.zara.com/us/en/strawberry-identifier-p11528730.html",
+  "canonical_url": "https://www.zara.com/us/en/strawberry-identifier-p11528730.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRAWBERRY IDENTIFIER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRAWBERRY IDENTIFIER",
+      "url": "https://www.zara.com/us/en/strawberry-identifier-p11528730.html",
+      "productGroupID": "11528730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Strawberry-shaped identifier.\n\nHeight x Width x Depth: 4.33 x 2.76 x 0.39 inches (11 x 7 x 1 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1e55/b604/28f14e6e878f/4f407343e4d8/11528730600-e1/11528730600-e1.jpg?ts=1772192274546&w=1920",
+        "https://static.zara.net/assets/public/7d4d/97c1/46ef47019bf3/6970721adc0e/11528730600-e2/11528730600-e2.jpg?ts=1772192274949&w=1920",
+        "https://static.zara.net/assets/public/908e/f48b/ec6b4d79beed/b6d1b4d7b4a5/11528730600-e3/11528730600-e3.jpg?ts=1772192274813&w=1920",
+        "https://static.zara.net/assets/public/3fc0/d43b/b466404ea69c/0e6fe489523b/11528730600-e4/11528730600-e4.jpg?ts=1772192274826&w=1920"
+      ],
+      "material": "silicone/polyurethane thermoplastic/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "50% silicone, 40% polyurethane thermoplastic, 10% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRAWBERRY IDENTIFIER - Red - ONE SIZE ONLY",
+          "sku": "554734583-600-53",
+          "mpn": "554734583-600-53",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/1e55/b604/28f14e6e878f/4f407343e4d8/11528730600-e1/11528730600-e1.jpg?ts=1772192274546&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/strawberry-identifier-p11528730.html?v1=554734583",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRAWBERRY IDENTIFIER",
+      "product_group_id": "11528730",
+      "brand": "ZARA",
+      "description": "Strawberry-shaped identifier.\n\nHeight x Width x Depth: 4.33 x 2.76 x 0.39 inches (11 x 7 x 1 cm)",
+      "material": "silicone/polyurethane thermoplastic/polyester",
+      "composition": "OUTER SHELL: 50% silicone, 40% polyurethane thermoplastic, 10% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRAWBERRY IDENTIFIER - Red - ONE SIZE ONLY",
+          "sku": "554734583-600-53",
+          "mpn": "554734583-600-53",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/strawberry-identifier-p11528730.html?v1=554734583",
+          "images": [
+            "https://static.zara.net/assets/public/1e55/b604/28f14e6e878f/4f407343e4d8/11528730600-e1/11528730600-e1.jpg?ts=1772192274546&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1e55/b604/28f14e6e878f/4f407343e4d8/11528730600-e1/11528730600-e1.jpg?ts=1772192274546&w=1920",
+        "https://static.zara.net/assets/public/7d4d/97c1/46ef47019bf3/6970721adc0e/11528730600-e2/11528730600-e2.jpg?ts=1772192274949&w=1920",
+        "https://static.zara.net/assets/public/908e/f48b/ec6b4d79beed/b6d1b4d7b4a5/11528730600-e3/11528730600-e3.jpg?ts=1772192274813&w=1920",
+        "https://static.zara.net/assets/public/3fc0/d43b/b466404ea69c/0e6fe489523b/11528730600-e4/11528730600-e4.jpg?ts=1772192274826&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nStrawberry-shaped identifier.\nHeight x Width x Depth: 4.33 x 2.76 x 0.39 inches (11 x 7 x 1 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5401941fce91664ea2af62bee31411f79627e61baad8a3c9d780af05faaa23d9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

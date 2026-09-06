@@ -1,0 +1,290 @@
+{
+  "product_id": "zara-us:08727009",
+  "source_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html",
+  "final_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC DENIM JACKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC DENIM JACKET",
+      "url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html",
+      "productGroupID": "08727009",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Denim jacket with shirt collar and long sleeves. Front button closure. Front patch pockets.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920",
+        "https://static.zara.net/assets/public/e4f0/7898/d5fa4eb58bec/86ecd5744917/08727009406-e2/08727009406-e2.jpg?ts=1769173328578&w=1920",
+        "https://static.zara.net/assets/public/c84f/6a4e/608443aea1d7/ffe059a66a82/08727009406-e3/08727009406-e3.jpg?ts=1769173328437&w=1920",
+        "https://static.zara.net/assets/public/bc49/adba/b3ed4df0b120/477dcf1fed4e/08727009406-e4/08727009406-e4.jpg?ts=1769173328493&w=1920",
+        "https://static.zara.net/assets/public/da99/9bca/8db549068f98/80d4a08fb580/08727009406-p/08727009406-p.jpg?ts=1779894072962&w=1920",
+        "https://static.zara.net/assets/public/d8c2/aa02/f492473591cf/ffaa5dc955fb/08727009406201-a1/08727009406201-a1.jpg?ts=1780927612336&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Light blue - 1½ years (33,9 INCHES)",
+          "sku": "554925865-406-18",
+          "mpn": "554925865-406-18",
+          "color": "Light blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "21.54",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Light blue - 2 years (36,2 INCHES)",
+          "sku": "554925865-406-24",
+          "mpn": "554925865-406-24",
+          "color": "Light blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "21.54",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Light blue - 3 years (38,6 INCHES)",
+          "sku": "554925865-406-36",
+          "mpn": "554925865-406-36",
+          "color": "Light blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "21.54",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Light blue - 4 years (40,9 INCHES)",
+          "sku": "554925865-406-48",
+          "mpn": "554925865-406-48",
+          "color": "Light blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "21.54",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Light blue - 5 years (43,3 INCHES)",
+          "sku": "554925865-406-60",
+          "mpn": "554925865-406-60",
+          "color": "Light blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "21.54",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC DENIM JACKET - Light blue - 6 years (45,2 INCHES)",
+          "sku": "554925865-406-72",
+          "mpn": "554925865-406-72",
+          "color": "Light blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "21.54",
+            "url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC DENIM JACKET",
+      "product_group_id": "08727009",
+      "brand": "ZARA",
+      "description": "Denim jacket with shirt collar and long sleeves. Front button closure. Front patch pockets.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC DENIM JACKET - Light blue - 1½ years (33,9 INCHES)",
+          "sku": "554925865-406-18",
+          "mpn": "554925865-406-18",
+          "color_name": "Light blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "21.54",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+          "images": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Light blue - 2 years (36,2 INCHES)",
+          "sku": "554925865-406-24",
+          "mpn": "554925865-406-24",
+          "color_name": "Light blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "21.54",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+          "images": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Light blue - 3 years (38,6 INCHES)",
+          "sku": "554925865-406-36",
+          "mpn": "554925865-406-36",
+          "color_name": "Light blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "21.54",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+          "images": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Light blue - 4 years (40,9 INCHES)",
+          "sku": "554925865-406-48",
+          "mpn": "554925865-406-48",
+          "color_name": "Light blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "21.54",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+          "images": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Light blue - 5 years (43,3 INCHES)",
+          "sku": "554925865-406-60",
+          "mpn": "554925865-406-60",
+          "color_name": "Light blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "21.54",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+          "images": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC DENIM JACKET - Light blue - 6 years (45,2 INCHES)",
+          "sku": "554925865-406-72",
+          "mpn": "554925865-406-72",
+          "color_name": "Light blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "21.54",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-denim-jacket-p08727009.html?v1=554925865",
+          "images": [
+            "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6c9b/f7ba/656d49eb9f34/c71836207f0b/08727009406-e1/08727009406-e1.jpg?ts=1769173328080&w=1920",
+        "https://static.zara.net/assets/public/e4f0/7898/d5fa4eb58bec/86ecd5744917/08727009406-e2/08727009406-e2.jpg?ts=1769173328578&w=1920",
+        "https://static.zara.net/assets/public/c84f/6a4e/608443aea1d7/ffe059a66a82/08727009406-e3/08727009406-e3.jpg?ts=1769173328437&w=1920",
+        "https://static.zara.net/assets/public/bc49/adba/b3ed4df0b120/477dcf1fed4e/08727009406-e4/08727009406-e4.jpg?ts=1769173328493&w=1920",
+        "https://static.zara.net/assets/public/da99/9bca/8db549068f98/80d4a08fb580/08727009406-p/08727009406-p.jpg?ts=1779894072962&w=1920",
+        "https://static.zara.net/assets/public/d8c2/aa02/f492473591cf/ffaa5dc955fb/08727009406201-a1/08727009406201-a1.jpg?ts=1780927612336&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nDenim jacket with shirt collar and long sleeves. Front button closure. Front patch pockets.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "21.54",
+    "original_price": "35.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "21.54",
+    "dom_price": "35.90",
+    "normalized_price": "21.54",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '21.54' != DOM price '35.90'"
+  },
+  "source_content_hash": "47a099bbc37badd80c7e4c2e93b3e040924b3a5055792d88f7fd4b8e2888fd6f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,197 @@
+{
+  "product_id": "zara-us:05063842",
+  "source_url": "https://www.zara.com/us/en/lace-leggings-p05063842.html",
+  "final_url": "https://www.zara.com/us/en/lace-leggings-p05063842.html",
+  "canonical_url": "https://www.zara.com/us/en/lace-leggings-p05063842.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LACE LEGGINGS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LACE LEGGINGS",
+      "url": "https://www.zara.com/us/en/lace-leggings-p05063842.html",
+      "productGroupID": "05063842",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leggings crafted from stretch lace fabric. High rise with an elastic waistband.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c470/b562/2b6942988865/5cd9b58cf040/05063842800-p/05063842800-p.jpg?ts=1788517963960&w=1920",
+        "https://static.zara.net/assets/public/47a0/a716/99aa4cf8a2fd/ae1125c1a30f/05063842800-a1/05063842800-a1.jpg?ts=1788517963873&w=1920",
+        "https://static.zara.net/assets/public/d93e/8b88/54834075b531/7bd4f81f217d/05063842800-a2/05063842800-a2.jpg?ts=1788517963998&w=1920",
+        "https://static.zara.net/assets/public/49e1/c4f4/18b742bfb026/f246c90b323f/05063842800-a3/05063842800-a3.jpg?ts=1788517963474&w=1920",
+        "https://static.zara.net/assets/public/6bc9/8cd9/7e2f48308145/4be696472ee6/05063842800-a4/05063842800-a4.jpg?ts=1788517964317&w=1920",
+        "https://static.zara.net/assets/public/1ea4/04ee/68ee4513b968/97d8322052ed/05063842800-e1/05063842800-e1.jpg?ts=1788519874503&w=1920",
+        "https://static.zara.net/assets/public/5e6e/3963/49fb4808b71d/22fc120a5aff/05063842800-e2/05063842800-e2.jpg?ts=1788519875126&w=1920",
+        "https://static.zara.net/assets/public/ed88/3cd8/53e14edda230/d99b132d169f/05063842800-e3/05063842800-e3.jpg?ts=1788519874474&w=1920"
+      ],
+      "material": "polyester/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "91% polyester, 9% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LACE LEGGINGS - Black - S",
+          "sku": "557775520-800-2",
+          "mpn": "557775520-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/c470/b562/2b6942988865/5cd9b58cf040/05063842800-p/05063842800-p.jpg?ts=1788517963960&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/lace-leggings-p05063842.html?v1=557775520",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE LEGGINGS - Black - M",
+          "sku": "557775520-800-3",
+          "mpn": "557775520-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/c470/b562/2b6942988865/5cd9b58cf040/05063842800-p/05063842800-p.jpg?ts=1788517963960&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/lace-leggings-p05063842.html?v1=557775520",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACE LEGGINGS - Black - L",
+          "sku": "557775520-800-4",
+          "mpn": "557775520-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/c470/b562/2b6942988865/5cd9b58cf040/05063842800-p/05063842800-p.jpg?ts=1788517963960&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/lace-leggings-p05063842.html?v1=557775520",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LACE LEGGINGS",
+      "product_group_id": "05063842",
+      "brand": "ZARA",
+      "description": "Leggings crafted from stretch lace fabric. High rise with an elastic waistband.",
+      "material": "polyester/elastane",
+      "composition": "OUTER SHELL: 91% polyester, 9% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LACE LEGGINGS - Black - S",
+          "sku": "557775520-800-2",
+          "mpn": "557775520-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-leggings-p05063842.html?v1=557775520",
+          "images": [
+            "https://static.zara.net/assets/public/c470/b562/2b6942988865/5cd9b58cf040/05063842800-p/05063842800-p.jpg?ts=1788517963960&w=1920"
+          ]
+        },
+        {
+          "name": "LACE LEGGINGS - Black - M",
+          "sku": "557775520-800-3",
+          "mpn": "557775520-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-leggings-p05063842.html?v1=557775520",
+          "images": [
+            "https://static.zara.net/assets/public/c470/b562/2b6942988865/5cd9b58cf040/05063842800-p/05063842800-p.jpg?ts=1788517963960&w=1920"
+          ]
+        },
+        {
+          "name": "LACE LEGGINGS - Black - L",
+          "sku": "557775520-800-4",
+          "mpn": "557775520-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-leggings-p05063842.html?v1=557775520",
+          "images": [
+            "https://static.zara.net/assets/public/c470/b562/2b6942988865/5cd9b58cf040/05063842800-p/05063842800-p.jpg?ts=1788517963960&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c470/b562/2b6942988865/5cd9b58cf040/05063842800-p/05063842800-p.jpg?ts=1788517963960&w=1920",
+        "https://static.zara.net/assets/public/47a0/a716/99aa4cf8a2fd/ae1125c1a30f/05063842800-a1/05063842800-a1.jpg?ts=1788517963873&w=1920",
+        "https://static.zara.net/assets/public/d93e/8b88/54834075b531/7bd4f81f217d/05063842800-a2/05063842800-a2.jpg?ts=1788517963998&w=1920",
+        "https://static.zara.net/assets/public/49e1/c4f4/18b742bfb026/f246c90b323f/05063842800-a3/05063842800-a3.jpg?ts=1788517963474&w=1920",
+        "https://static.zara.net/assets/public/6bc9/8cd9/7e2f48308145/4be696472ee6/05063842800-a4/05063842800-a4.jpg?ts=1788517964317&w=1920",
+        "https://static.zara.net/assets/public/1ea4/04ee/68ee4513b968/97d8322052ed/05063842800-e1/05063842800-e1.jpg?ts=1788519874503&w=1920",
+        "https://static.zara.net/assets/public/5e6e/3963/49fb4808b71d/22fc120a5aff/05063842800-e2/05063842800-e2.jpg?ts=1788519875126&w=1920",
+        "https://static.zara.net/assets/public/ed88/3cd8/53e14edda230/d99b132d169f/05063842800-e3/05063842800-e3.jpg?ts=1788519874474&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nLeggings crafted from stretch lace fabric. High rise with an elastic waistband.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a55e84e8d3c4e577f4b2cce10ddb1c10515834663d60a60a205f4053350643b9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

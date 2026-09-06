@@ -1,0 +1,195 @@
+{
+  "product_id": "zara-us:00858709",
+  "source_url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html",
+  "final_url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html",
+  "canonical_url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DARTED JOGGER PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DARTED JOGGER PANTS",
+      "url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html",
+      "productGroupID": "00858709",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Jogger pants with main fabric made of cotton yarn. Mid-rise with an elastic waist. Side pockets. Wide leg.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3542/eabe/8a6746b791ac/876448508f54/00858719600-000-p/00858719600-000-p.jpg?ts=1787310509185&w=1920",
+        "https://static.zara.net/assets/public/308f/5458/57d3467dbb4f/7bd9ef79e0a4/00858709600-a1/00858709600-a1.jpg?ts=1787307219330&w=1920",
+        "https://static.zara.net/assets/public/54ee/9173/47264517b2e2/0f6499880500/00858709600-a2/00858709600-a2.jpg?ts=1787307219419&w=1920",
+        "https://static.zara.net/assets/public/c05c/44e8/bd2d450bafb4/a3c150c73be2/00858709600-a3/00858709600-a3.jpg?ts=1787307219256&w=1920",
+        "https://static.zara.net/assets/public/a1c8/12c4/003a4467b780/5f90adbd62e0/00858709600-e1/00858709600-e1.jpg?ts=1787237158452&w=1920",
+        "https://static.zara.net/assets/public/c37a/9271/85da4b28bcc5/06309e480bb4/00858709600-e2/00858709600-e2.jpg?ts=1787237160039&w=1920",
+        "https://static.zara.net/assets/public/ff19/4d59/97d948b78c28/8ba913ba2c72/00858709600-e3/00858709600-e3.jpg?ts=1787237160322&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DARTED JOGGER PANTS - Red - S",
+          "sku": "562504734-600-2",
+          "mpn": "562504734-600-2",
+          "color": "Red",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/3542/eabe/8a6746b791ac/876448508f54/00858719600-000-p/00858719600-000-p.jpg?ts=1787310509185&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html?v1=562504734",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DARTED JOGGER PANTS - Red - M",
+          "sku": "562504734-600-3",
+          "mpn": "562504734-600-3",
+          "color": "Red",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/3542/eabe/8a6746b791ac/876448508f54/00858719600-000-p/00858719600-000-p.jpg?ts=1787310509185&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html?v1=562504734",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "DARTED JOGGER PANTS - Red - L",
+          "sku": "562504734-600-4",
+          "mpn": "562504734-600-4",
+          "color": "Red",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/3542/eabe/8a6746b791ac/876448508f54/00858719600-000-p/00858719600-000-p.jpg?ts=1787310509185&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html?v1=562504734",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DARTED JOGGER PANTS",
+      "product_group_id": "00858709",
+      "brand": "ZARA",
+      "description": "Jogger pants with main fabric made of cotton yarn. Mid-rise with an elastic waist. Side pockets. Wide leg.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DARTED JOGGER PANTS - Red - S",
+          "sku": "562504734-600-2",
+          "mpn": "562504734-600-2",
+          "color_name": "Red",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html?v1=562504734",
+          "images": [
+            "https://static.zara.net/assets/public/3542/eabe/8a6746b791ac/876448508f54/00858719600-000-p/00858719600-000-p.jpg?ts=1787310509185&w=1920"
+          ]
+        },
+        {
+          "name": "DARTED JOGGER PANTS - Red - M",
+          "sku": "562504734-600-3",
+          "mpn": "562504734-600-3",
+          "color_name": "Red",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html?v1=562504734",
+          "images": [
+            "https://static.zara.net/assets/public/3542/eabe/8a6746b791ac/876448508f54/00858719600-000-p/00858719600-000-p.jpg?ts=1787310509185&w=1920"
+          ]
+        },
+        {
+          "name": "DARTED JOGGER PANTS - Red - L",
+          "sku": "562504734-600-4",
+          "mpn": "562504734-600-4",
+          "color_name": "Red",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pleated-jogger-pants-p00858709.html?v1=562504734",
+          "images": [
+            "https://static.zara.net/assets/public/3542/eabe/8a6746b791ac/876448508f54/00858719600-000-p/00858719600-000-p.jpg?ts=1787310509185&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3542/eabe/8a6746b791ac/876448508f54/00858719600-000-p/00858719600-000-p.jpg?ts=1787310509185&w=1920",
+        "https://static.zara.net/assets/public/308f/5458/57d3467dbb4f/7bd9ef79e0a4/00858709600-a1/00858709600-a1.jpg?ts=1787307219330&w=1920",
+        "https://static.zara.net/assets/public/54ee/9173/47264517b2e2/0f6499880500/00858709600-a2/00858709600-a2.jpg?ts=1787307219419&w=1920",
+        "https://static.zara.net/assets/public/c05c/44e8/bd2d450bafb4/a3c150c73be2/00858709600-a3/00858709600-a3.jpg?ts=1787307219256&w=1920",
+        "https://static.zara.net/assets/public/a1c8/12c4/003a4467b780/5f90adbd62e0/00858709600-e1/00858709600-e1.jpg?ts=1787237158452&w=1920",
+        "https://static.zara.net/assets/public/c37a/9271/85da4b28bcc5/06309e480bb4/00858709600-e2/00858709600-e2.jpg?ts=1787237160039&w=1920",
+        "https://static.zara.net/assets/public/ff19/4d59/97d948b78c28/8ba913ba2c72/00858709600-e3/00858709600-e3.jpg?ts=1787237160322&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nJogger pants with main fabric made of cotton yarn. Mid-rise with an elastic waist. Side pockets. Wide leg.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "798c00c9b43cc076eaf7a3175d5fb60c13496b8f87f4dd8e60e2a611380524fe",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

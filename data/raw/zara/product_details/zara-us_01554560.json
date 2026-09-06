@@ -1,0 +1,221 @@
+{
+  "product_id": "zara-us:01554560",
+  "source_url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html",
+  "final_url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html",
+  "canonical_url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FOUR-PACK OF COLORED SOCKS IN A BOX",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FOUR-PACK OF COLORED SOCKS IN A BOX",
+      "url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html",
+      "productGroupID": "01554560",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of four pairs of socks with a folded cuff finish.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920",
+        "https://static.zara.net/assets/public/2960/c80e/edde44b69c7f/050501ebd5b4/01554560427-e2/01554560427-e2.jpg?ts=1783588652090&w=1920",
+        "https://static.zara.net/assets/public/a6ff/7df7/ba9f42099680/243135df60f7/01554560427-e3/01554560427-e3.jpg?ts=1783588652148&w=1920",
+        "https://static.zara.net/assets/public/3ee2/4087/02434238b612/60d6b695415b/01554560427-e5/01554560427-e5.jpg?ts=1783588651402&w=1920"
+      ],
+      "material": "cotton/polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "76% cotton, 22% polyamide, 2% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK OF COLORED SOCKS IN A BOX - Mid-blue - 0-3 months (3,9-4,3 INCHES)",
+          "sku": "545436782-427-67",
+          "mpn": "545436782-427-67",
+          "color": "Mid-blue",
+          "size": "0-3 months (3,9-4,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html?v1=545436782",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK OF COLORED SOCKS IN A BOX - Mid-blue - 3-6 months (4,3-4,7 INCHES)",
+          "sku": "545436782-427-68",
+          "mpn": "545436782-427-68",
+          "color": "Mid-blue",
+          "size": "3-6 months (4,3-4,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html?v1=545436782",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK OF COLORED SOCKS IN A BOX - Mid-blue - 6-12 months (4,7-5,1 INCHES)",
+          "sku": "545436782-427-69",
+          "mpn": "545436782-427-69",
+          "color": "Mid-blue",
+          "size": "6-12 months (4,7-5,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html?v1=545436782",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK OF COLORED SOCKS IN A BOX - Mid-blue - 12-18 months (5,1-5,5 INCHES)",
+          "sku": "545436782-427-71",
+          "mpn": "545436782-427-71",
+          "color": "Mid-blue",
+          "size": "12-18 months (5,1-5,5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html?v1=545436782",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FOUR-PACK OF COLORED SOCKS IN A BOX",
+      "product_group_id": "01554560",
+      "brand": "ZARA",
+      "description": "Pack of four pairs of socks with a folded cuff finish.",
+      "material": "cotton/polyamide/elastane",
+      "composition": "OUTER SHELL: 76% cotton, 22% polyamide, 2% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FOUR-PACK OF COLORED SOCKS IN A BOX - Mid-blue - 0-3 months (3,9-4,3 INCHES)",
+          "sku": "545436782-427-67",
+          "mpn": "545436782-427-67",
+          "color_name": "Mid-blue",
+          "size_name": "0-3 months (3,9-4,3 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html?v1=545436782",
+          "images": [
+            "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920"
+          ]
+        },
+        {
+          "name": "FOUR-PACK OF COLORED SOCKS IN A BOX - Mid-blue - 3-6 months (4,3-4,7 INCHES)",
+          "sku": "545436782-427-68",
+          "mpn": "545436782-427-68",
+          "color_name": "Mid-blue",
+          "size_name": "3-6 months (4,3-4,7 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html?v1=545436782",
+          "images": [
+            "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920"
+          ]
+        },
+        {
+          "name": "FOUR-PACK OF COLORED SOCKS IN A BOX - Mid-blue - 6-12 months (4,7-5,1 INCHES)",
+          "sku": "545436782-427-69",
+          "mpn": "545436782-427-69",
+          "color_name": "Mid-blue",
+          "size_name": "6-12 months (4,7-5,1 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html?v1=545436782",
+          "images": [
+            "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920"
+          ]
+        },
+        {
+          "name": "FOUR-PACK OF COLORED SOCKS IN A BOX - Mid-blue - 12-18 months (5,1-5,5 INCHES)",
+          "sku": "545436782-427-71",
+          "mpn": "545436782-427-71",
+          "color_name": "Mid-blue",
+          "size_name": "12-18 months (5,1-5,5 INCHES)",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-of-colored-socks-in-a-box-p01554560.html?v1=545436782",
+          "images": [
+            "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/03ba/eea0/cc754b3b92e3/04baac2d3182/01554560427-e1/01554560427-e1.jpg?ts=1783588651611&w=1920",
+        "https://static.zara.net/assets/public/2960/c80e/edde44b69c7f/050501ebd5b4/01554560427-e2/01554560427-e2.jpg?ts=1783588652090&w=1920",
+        "https://static.zara.net/assets/public/a6ff/7df7/ba9f42099680/243135df60f7/01554560427-e3/01554560427-e3.jpg?ts=1783588652148&w=1920",
+        "https://static.zara.net/assets/public/3ee2/4087/02434238b612/60d6b695415b/01554560427-e5/01554560427-e5.jpg?ts=1783588651402&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nPack of four pairs of socks with a folded cuff finish.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 4,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9ae450790e49a65d33fffe270d406face0b37990f60957521d43ecd9ad7939e1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

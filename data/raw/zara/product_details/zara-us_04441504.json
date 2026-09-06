@@ -1,0 +1,195 @@
+{
+  "product_id": "zara-us:04441504",
+  "source_url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html",
+  "final_url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html",
+  "canonical_url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FLORAL PATCHWORK BUCKET HAT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FLORAL PATCHWORK BUCKET HAT",
+      "url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html",
+      "productGroupID": "04441504",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Bucket hat with a floral patchwork print. Adjustable front drawstrings.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1ad9/be00/07e4483ea49c/312a7b806528/04441504044-e1/04441504044-e1.jpg?ts=1781005654766&w=1920",
+        "https://static.zara.net/assets/public/fa3b/2b13/02e54f089e94/e051344ff9b0/04441504044-e2/04441504044-e2.jpg?ts=1781005655181&w=1920",
+        "https://static.zara.net/assets/public/f80a/979a/07b64b5aa914/c8019f158f05/04441504044-e3/04441504044-e3.jpg?ts=1781005655573&w=1920",
+        "https://static.zara.net/assets/public/a024/20a5/d5bf402dbb89/66b59dc18175/04441504044-e4/04441504044-e4.jpg?ts=1781005655699&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FLORAL PATCHWORK BUCKET HAT - Blue / White - 3-6 months",
+          "sku": "545437354-044-43",
+          "mpn": "545437354-044-43",
+          "color": "Blue / White",
+          "size": "3-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/be00/07e4483ea49c/312a7b806528/04441504044-e1/04441504044-e1.jpg?ts=1781005654766&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html?v1=545437354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FLORAL PATCHWORK BUCKET HAT - Blue / White - 6-12 months",
+          "sku": "545437354-044-46",
+          "mpn": "545437354-044-46",
+          "color": "Blue / White",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/be00/07e4483ea49c/312a7b806528/04441504044-e1/04441504044-e1.jpg?ts=1781005654766&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html?v1=545437354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FLORAL PATCHWORK BUCKET HAT - Blue / White - 12-18 months",
+          "sku": "545437354-044-49",
+          "mpn": "545437354-044-49",
+          "color": "Blue / White",
+          "size": "12-18 months",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/be00/07e4483ea49c/312a7b806528/04441504044-e1/04441504044-e1.jpg?ts=1781005654766&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html?v1=545437354",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FLORAL PATCHWORK BUCKET HAT",
+      "product_group_id": "04441504",
+      "brand": "ZARA",
+      "description": "Bucket hat with a floral patchwork print. Adjustable front drawstrings.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | LINING: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FLORAL PATCHWORK BUCKET HAT - Blue / White - 3-6 months",
+          "sku": "545437354-044-43",
+          "mpn": "545437354-044-43",
+          "color_name": "Blue / White",
+          "size_name": "3-6 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html?v1=545437354",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/be00/07e4483ea49c/312a7b806528/04441504044-e1/04441504044-e1.jpg?ts=1781005654766&w=1920"
+          ]
+        },
+        {
+          "name": "FLORAL PATCHWORK BUCKET HAT - Blue / White - 6-12 months",
+          "sku": "545437354-044-46",
+          "mpn": "545437354-044-46",
+          "color_name": "Blue / White",
+          "size_name": "6-12 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html?v1=545437354",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/be00/07e4483ea49c/312a7b806528/04441504044-e1/04441504044-e1.jpg?ts=1781005654766&w=1920"
+          ]
+        },
+        {
+          "name": "FLORAL PATCHWORK BUCKET HAT - Blue / White - 12-18 months",
+          "sku": "545437354-044-49",
+          "mpn": "545437354-044-49",
+          "color_name": "Blue / White",
+          "size_name": "12-18 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/floral-patchwork-bucket-hat-p04441504.html?v1=545437354",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/be00/07e4483ea49c/312a7b806528/04441504044-e1/04441504044-e1.jpg?ts=1781005654766&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1ad9/be00/07e4483ea49c/312a7b806528/04441504044-e1/04441504044-e1.jpg?ts=1781005654766&w=1920",
+        "https://static.zara.net/assets/public/fa3b/2b13/02e54f089e94/e051344ff9b0/04441504044-e2/04441504044-e2.jpg?ts=1781005655181&w=1920",
+        "https://static.zara.net/assets/public/f80a/979a/07b64b5aa914/c8019f158f05/04441504044-e3/04441504044-e3.jpg?ts=1781005655573&w=1920",
+        "https://static.zara.net/assets/public/a024/20a5/d5bf402dbb89/66b59dc18175/04441504044-e4/04441504044-e4.jpg?ts=1781005655699&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nBucket hat with a floral patchwork print. Adjustable front drawstrings.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a6eba05c876fceed50433834d781bd9eeded52f994bc12d295ef54634b42841f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

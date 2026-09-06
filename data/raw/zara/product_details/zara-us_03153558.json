@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:03153558",
+  "source_url": "https://www.zara.com/us/en/two-pack-floral-textured-muslin-cloths-p03153558.html",
+  "final_url": "https://www.zara.com/us/en/two-pack-floral-textured-muslin-cloths-p03153558.html",
+  "canonical_url": "https://www.zara.com/us/en/two-pack-floral-textured-muslin-cloths-p03153558.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TEXTURED MUSLIN CLOTHS 2-PACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TEXTURED MUSLIN CLOTHS 2-PACK",
+      "url": "https://www.zara.com/us/en/two-pack-floral-textured-muslin-cloths-p03153558.html",
+      "productGroupID": "03153558",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Two-pack of textured muslin cloths. Featuring one floral print and one solid design.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d1d9/dcc8/e7e04e5cb63b/c0d1f4050ff9/03153558712-e1/03153558712-e1.jpg?ts=1787912060247&w=1920",
+        "https://static.zara.net/assets/public/0383/fce7/a2a04985933b/19a56d8d41ee/03153558712-e2/03153558712-e2.jpg?ts=1786700811167&w=1920",
+        "https://static.zara.net/assets/public/506a/42b7/d6cb457fa867/688189a71a96/03153558712-e3/03153558712-e3.jpg?ts=1786700810912&w=1920",
+        "https://static.zara.net/assets/public/69f8/0799/83354b1da346/b089a7914928/03153558712-e5/03153558712-e5.jpg?ts=1787912061181&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TEXTURED MUSLIN CLOTHS 2-PACK - Ecru - XS",
+          "sku": "547758500-712-43",
+          "mpn": "547758500-712-43",
+          "color": "Ecru",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/d1d9/dcc8/e7e04e5cb63b/c0d1f4050ff9/03153558712-e1/03153558712-e1.jpg?ts=1787912060247&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/two-pack-floral-textured-muslin-cloths-p03153558.html?v1=547758500",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TEXTURED MUSLIN CLOTHS 2-PACK",
+      "product_group_id": "03153558",
+      "brand": "ZARA",
+      "description": "Two-pack of textured muslin cloths. Featuring one floral print and one solid design.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TEXTURED MUSLIN CLOTHS 2-PACK - Ecru - XS",
+          "sku": "547758500-712-43",
+          "mpn": "547758500-712-43",
+          "color_name": "Ecru",
+          "size_name": "XS",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/two-pack-floral-textured-muslin-cloths-p03153558.html?v1=547758500",
+          "images": [
+            "https://static.zara.net/assets/public/d1d9/dcc8/e7e04e5cb63b/c0d1f4050ff9/03153558712-e1/03153558712-e1.jpg?ts=1787912060247&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d1d9/dcc8/e7e04e5cb63b/c0d1f4050ff9/03153558712-e1/03153558712-e1.jpg?ts=1787912060247&w=1920",
+        "https://static.zara.net/assets/public/0383/fce7/a2a04985933b/19a56d8d41ee/03153558712-e2/03153558712-e2.jpg?ts=1786700811167&w=1920",
+        "https://static.zara.net/assets/public/506a/42b7/d6cb457fa867/688189a71a96/03153558712-e3/03153558712-e3.jpg?ts=1786700810912&w=1920",
+        "https://static.zara.net/assets/public/69f8/0799/83354b1da346/b089a7914928/03153558712-e5/03153558712-e5.jpg?ts=1787912061181&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nTwo-pack of textured muslin cloths. Featuring one floral print and one solid design.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1eea314e07f48e734e47e27bd44029459414e8948d692cb593549eec6c6af0db",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

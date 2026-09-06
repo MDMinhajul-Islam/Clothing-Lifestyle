@@ -1,0 +1,289 @@
+{
+  "product_id": "zara-us:04575001",
+  "source_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html",
+  "final_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html",
+  "canonical_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HEART POCKET DENIM SHORTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HEART POCKET DENIM SHORTS",
+      "url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html",
+      "productGroupID": "04575001",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Denim shorts with elastic waistband and front button closure. Heart-shaped patch pockets on the front.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920",
+        "https://static.zara.net/assets/public/e6f9/8c7e/603840418b11/0bb600a639d2/04575001406-e2/04575001406-e2.jpg?ts=1772099837214&w=1920",
+        "https://static.zara.net/assets/public/5c73/9663/0c87427fa4b9/494c2a880c63/04575001406-e3/04575001406-e3.jpg?ts=1772099837202&w=1920",
+        "https://static.zara.net/assets/public/1265/314b/2d044af1a22b/4ae1063ed0a9/04575001406-e4/04575001406-e4.jpg?ts=1772099839390&w=1920",
+        "https://static.zara.net/assets/public/7cc1/1232/318d4e3896be/ef7270cf6563/04575001406200-p/04575001406200-p.jpg?ts=1776262106636&w=1920",
+        "https://static.zara.net/assets/public/ef76/e0d6/60d44bfe9fb1/66b28f9307a5/04575001406200-a1/04575001406200-a1.jpg?ts=1776262106953&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 1½ years (33,9 INCHES)",
+          "sku": "554925863-406-18",
+          "mpn": "554925863-406-18",
+          "color": "Light blue",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 2 years (36,2 INCHES)",
+          "sku": "554925863-406-24",
+          "mpn": "554925863-406-24",
+          "color": "Light blue",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 3 years (38,6 INCHES)",
+          "sku": "554925863-406-36",
+          "mpn": "554925863-406-36",
+          "color": "Light blue",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 4 years (40,9 INCHES)",
+          "sku": "554925863-406-48",
+          "mpn": "554925863-406-48",
+          "color": "Light blue",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 5 years (43,3 INCHES)",
+          "sku": "554925863-406-60",
+          "mpn": "554925863-406-60",
+          "color": "Light blue",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 6 years (45,2 INCHES)",
+          "sku": "554925863-406-72",
+          "mpn": "554925863-406-72",
+          "color": "Light blue",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HEART POCKET DENIM SHORTS",
+      "product_group_id": "04575001",
+      "brand": "ZARA",
+      "description": "Denim shorts with elastic waistband and front button closure. Heart-shaped patch pockets on the front.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 1½ years (33,9 INCHES)",
+          "sku": "554925863-406-18",
+          "mpn": "554925863-406-18",
+          "color_name": "Light blue",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+          "images": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ]
+        },
+        {
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 2 years (36,2 INCHES)",
+          "sku": "554925863-406-24",
+          "mpn": "554925863-406-24",
+          "color_name": "Light blue",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+          "images": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ]
+        },
+        {
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 3 years (38,6 INCHES)",
+          "sku": "554925863-406-36",
+          "mpn": "554925863-406-36",
+          "color_name": "Light blue",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+          "images": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ]
+        },
+        {
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 4 years (40,9 INCHES)",
+          "sku": "554925863-406-48",
+          "mpn": "554925863-406-48",
+          "color_name": "Light blue",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+          "images": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ]
+        },
+        {
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 5 years (43,3 INCHES)",
+          "sku": "554925863-406-60",
+          "mpn": "554925863-406-60",
+          "color_name": "Light blue",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+          "images": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ]
+        },
+        {
+          "name": "HEART POCKET DENIM SHORTS - Light blue - 6 years (45,2 INCHES)",
+          "sku": "554925863-406-72",
+          "mpn": "554925863-406-72",
+          "color_name": "Light blue",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/denim-shorts-with-heart-pockets-p04575001.html?v1=554925863",
+          "images": [
+            "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cfaf/c263/c5cc48638283/88fd8013ac4d/04575001406-e1/04575001406-e1.jpg?ts=1772099837897&w=1920",
+        "https://static.zara.net/assets/public/e6f9/8c7e/603840418b11/0bb600a639d2/04575001406-e2/04575001406-e2.jpg?ts=1772099837214&w=1920",
+        "https://static.zara.net/assets/public/5c73/9663/0c87427fa4b9/494c2a880c63/04575001406-e3/04575001406-e3.jpg?ts=1772099837202&w=1920",
+        "https://static.zara.net/assets/public/1265/314b/2d044af1a22b/4ae1063ed0a9/04575001406-e4/04575001406-e4.jpg?ts=1772099839390&w=1920",
+        "https://static.zara.net/assets/public/7cc1/1232/318d4e3896be/ef7270cf6563/04575001406200-p/04575001406200-p.jpg?ts=1776262106636&w=1920",
+        "https://static.zara.net/assets/public/ef76/e0d6/60d44bfe9fb1/66b28f9307a5/04575001406200-a1/04575001406200-a1.jpg?ts=1776262106953&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nDenim shorts with elastic waistband and front button closure. Heart-shaped patch pockets on the front.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "13df09dab8172c5aeb64c11d5484394ee5135308dafb0f97080e0e612732d108",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

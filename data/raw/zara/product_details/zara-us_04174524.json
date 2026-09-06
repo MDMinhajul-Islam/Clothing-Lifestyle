@@ -1,0 +1,285 @@
+{
+  "product_id": "zara-us:04174524",
+  "source_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html",
+  "final_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html",
+  "canonical_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLAIN T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLAIN T-SHIRT",
+      "url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html",
+      "productGroupID": "04174524",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt. 100% cotton fabric.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920",
+        "https://static.zara.net/assets/public/a2b2/7a4c/9c124bca8f22/93ff30437cef/04174524707-e2/04174524707-e2.jpg?ts=1779881753410&w=1920",
+        "https://static.zara.net/assets/public/cd4e/97ce/ca8d4878a56e/fff6b7e74292/04174524707-e3/04174524707-e3.jpg?ts=1779881753793&w=1920",
+        "https://static.zara.net/assets/public/4dce/ca9f/38654ed9bb3c/25704fc1e879/04174524707-e4/04174524707-e4.jpg?ts=1779881754276&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - taupe brown - 1½ years (33,9 INCHES)",
+          "sku": "545447594-707-18",
+          "mpn": "545447594-707-18",
+          "color": "taupe brown",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - taupe brown - 2 years (36,2 INCHES)",
+          "sku": "545447594-707-24",
+          "mpn": "545447594-707-24",
+          "color": "taupe brown",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - taupe brown - 3 years (38,6 INCHES)",
+          "sku": "545447594-707-36",
+          "mpn": "545447594-707-36",
+          "color": "taupe brown",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - taupe brown - 4 years (40,9 INCHES)",
+          "sku": "545447594-707-48",
+          "mpn": "545447594-707-48",
+          "color": "taupe brown",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - taupe brown - 5 years (43,3 INCHES)",
+          "sku": "545447594-707-60",
+          "mpn": "545447594-707-60",
+          "color": "taupe brown",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN T-SHIRT - taupe brown - 6 years (45,2 INCHES)",
+          "sku": "545447594-707-72",
+          "mpn": "545447594-707-72",
+          "color": "taupe brown",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLAIN T-SHIRT",
+      "product_group_id": "04174524",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt. 100% cotton fabric.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLAIN T-SHIRT - taupe brown - 1½ years (33,9 INCHES)",
+          "sku": "545447594-707-18",
+          "mpn": "545447594-707-18",
+          "color_name": "taupe brown",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+          "images": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - taupe brown - 2 years (36,2 INCHES)",
+          "sku": "545447594-707-24",
+          "mpn": "545447594-707-24",
+          "color_name": "taupe brown",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+          "images": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - taupe brown - 3 years (38,6 INCHES)",
+          "sku": "545447594-707-36",
+          "mpn": "545447594-707-36",
+          "color_name": "taupe brown",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+          "images": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - taupe brown - 4 years (40,9 INCHES)",
+          "sku": "545447594-707-48",
+          "mpn": "545447594-707-48",
+          "color_name": "taupe brown",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+          "images": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - taupe brown - 5 years (43,3 INCHES)",
+          "sku": "545447594-707-60",
+          "mpn": "545447594-707-60",
+          "color_name": "taupe brown",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+          "images": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN T-SHIRT - taupe brown - 6 years (45,2 INCHES)",
+          "sku": "545447594-707-72",
+          "mpn": "545447594-707-72",
+          "color_name": "taupe brown",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/plain-t-shirt-p04174524.html?v1=545447594",
+          "images": [
+            "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1b05/4af2/dce54501860a/4fd964c44d21/04174524707-e1/04174524707-e1.jpg?ts=1779881753288&w=1920",
+        "https://static.zara.net/assets/public/a2b2/7a4c/9c124bca8f22/93ff30437cef/04174524707-e2/04174524707-e2.jpg?ts=1779881753410&w=1920",
+        "https://static.zara.net/assets/public/cd4e/97ce/ca8d4878a56e/fff6b7e74292/04174524707-e3/04174524707-e3.jpg?ts=1779881753793&w=1920",
+        "https://static.zara.net/assets/public/4dce/ca9f/38654ed9bb3c/25704fc1e879/04174524707-e4/04174524707-e4.jpg?ts=1779881754276&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt. 100% cotton fabric.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2c83f8a094ad41338d26db7c67ac78687467f461f6bb7cbf44fbc680f7112975",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,430 @@
+{
+  "product_id": "zara-us:01478934",
+  "source_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html",
+  "final_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html",
+  "canonical_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED BELTED TROUSERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED BELTED TROUSERS",
+      "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html",
+      "productGroupID": "01478934",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "High-rise trousers with front pockets. Featuring a belt detail. Straight leg. Front zip, inside button, and metal hook closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920",
+        "https://static.zara.net/assets/public/91fe/30ac/03164c14a0b0/8cc3b9ded6e4/01478934104-a1/01478934104-a1.jpg?ts=1785501063597&w=1920",
+        "https://static.zara.net/assets/public/2fa2/3cc7/9d4740858fbb/85d96248b083/01478934104-a2/01478934104-a2.jpg?ts=1785501064091&w=1920",
+        "https://static.zara.net/assets/public/c793/f8ec/11b8428e8c6a/e0ec1eb72fd9/01478934104-a3/01478934104-a3.jpg?ts=1785501064344&w=1920",
+        "https://static.zara.net/assets/public/a5eb/f7bc/15814611b2b7/a14068508b54/01478934104-a4/01478934104-a4.jpg?ts=1785501064562&w=1920",
+        "https://static.zara.net/assets/public/13b9/d972/ffe24adba2d6/33302b243874/01478934104-a5/01478934104-a5.jpg?ts=1785501064818&w=1920",
+        "https://static.zara.net/assets/public/5826/2e7e/454b4fd191bf/aee6879378f7/01478934104-a6/01478934104-a6.jpg?ts=1785501064421&w=1920",
+        "https://static.zara.net/assets/public/7af9/a3e8/e5bf4c908972/1911da60c267/01478934104-a7/01478934104-a7.jpg?ts=1785501065188&w=1920",
+        "https://static.zara.net/assets/public/9b05/14ee/529f4dc6a8c0/098b92ffc09c/01478934104-e1/01478934104-e1.jpg?ts=1785750653083&w=1920",
+        "https://static.zara.net/assets/public/fd22/6392/f1d1476695ec/a491b7f90eec/01478934104-e2/01478934104-e2.jpg?ts=1785750652698&w=1920",
+        "https://static.zara.net/assets/public/287a/3e20/d69d4e9cbf3c/9e831128b773/01478934104-e3/01478934104-e3.jpg?ts=1785750654837&w=1920"
+      ],
+      "material": "cotton/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "97% cotton, 3% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - striped - XS",
+          "sku": "555861868-104-1",
+          "mpn": "555861868-104-1",
+          "color": "striped",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - striped - S",
+          "sku": "555861868-104-2",
+          "mpn": "555861868-104-2",
+          "color": "striped",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - striped - M",
+          "sku": "555861868-104-3",
+          "mpn": "555861868-104-3",
+          "color": "striped",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - striped - L",
+          "sku": "555861868-104-4",
+          "mpn": "555861868-104-4",
+          "color": "striped",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - striped - XL",
+          "sku": "555861868-104-5",
+          "mpn": "555861868-104-5",
+          "color": "striped",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "69.9",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - Striped - XS",
+          "sku": "555861868-105-1",
+          "mpn": "555861868-105-1",
+          "color": "Striped",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - Striped - S",
+          "sku": "555861868-105-2",
+          "mpn": "555861868-105-2",
+          "color": "Striped",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - Striped - M",
+          "sku": "555861868-105-3",
+          "mpn": "555861868-105-3",
+          "color": "Striped",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - Striped - L",
+          "sku": "555861868-105-4",
+          "mpn": "555861868-105-4",
+          "color": "Striped",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED BELTED TROUSERS - Striped - XL",
+          "sku": "555861868-105-5",
+          "mpn": "555861868-105-5",
+          "color": "Striped",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "41.94",
+            "url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED BELTED TROUSERS",
+      "product_group_id": "01478934",
+      "brand": "ZARA",
+      "description": "High-rise trousers with front pockets. Featuring a belt detail. Straight leg. Front zip, inside button, and metal hook closure.",
+      "material": "cotton/elastane",
+      "composition": "OUTER SHELL: 97% cotton, 3% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED BELTED TROUSERS - striped - XS",
+          "sku": "555861868-104-1",
+          "mpn": "555861868-104-1",
+          "color_name": "striped",
+          "size_name": "XS",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+          "images": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - striped - S",
+          "sku": "555861868-104-2",
+          "mpn": "555861868-104-2",
+          "color_name": "striped",
+          "size_name": "S",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+          "images": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - striped - M",
+          "sku": "555861868-104-3",
+          "mpn": "555861868-104-3",
+          "color_name": "striped",
+          "size_name": "M",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+          "images": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - striped - L",
+          "sku": "555861868-104-4",
+          "mpn": "555861868-104-4",
+          "color_name": "striped",
+          "size_name": "L",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+          "images": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - striped - XL",
+          "sku": "555861868-104-5",
+          "mpn": "555861868-104-5",
+          "color_name": "striped",
+          "size_name": "XL",
+          "price": "69.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861868",
+          "images": [
+            "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - Striped - XS",
+          "sku": "555861868-105-1",
+          "mpn": "555861868-105-1",
+          "color_name": "Striped",
+          "size_name": "XS",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+          "images": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - Striped - S",
+          "sku": "555861868-105-2",
+          "mpn": "555861868-105-2",
+          "color_name": "Striped",
+          "size_name": "S",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+          "images": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - Striped - M",
+          "sku": "555861868-105-3",
+          "mpn": "555861868-105-3",
+          "color_name": "Striped",
+          "size_name": "M",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+          "images": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - Striped - L",
+          "sku": "555861868-105-4",
+          "mpn": "555861868-105-4",
+          "color_name": "Striped",
+          "size_name": "L",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+          "images": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED BELTED TROUSERS - Striped - XL",
+          "sku": "555861868-105-5",
+          "mpn": "555861868-105-5",
+          "color_name": "Striped",
+          "size_name": "XL",
+          "price": "41.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/belted-striped-trousers-p01478934.html?v1=555861869",
+          "images": [
+            "https://static.zara.net/assets/public/d170/e055/055d4108ada1/4b1ea440d007/01478934105-p/01478934105-p.jpg?ts=1787136453810&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2cb2/1a3f/90524a2fbfbe/1085b769d1cc/01478934104-p/01478934104-p.jpg?ts=1785501065777&w=1920",
+        "https://static.zara.net/assets/public/91fe/30ac/03164c14a0b0/8cc3b9ded6e4/01478934104-a1/01478934104-a1.jpg?ts=1785501063597&w=1920",
+        "https://static.zara.net/assets/public/2fa2/3cc7/9d4740858fbb/85d96248b083/01478934104-a2/01478934104-a2.jpg?ts=1785501064091&w=1920",
+        "https://static.zara.net/assets/public/c793/f8ec/11b8428e8c6a/e0ec1eb72fd9/01478934104-a3/01478934104-a3.jpg?ts=1785501064344&w=1920",
+        "https://static.zara.net/assets/public/a5eb/f7bc/15814611b2b7/a14068508b54/01478934104-a4/01478934104-a4.jpg?ts=1785501064562&w=1920",
+        "https://static.zara.net/assets/public/13b9/d972/ffe24adba2d6/33302b243874/01478934104-a5/01478934104-a5.jpg?ts=1785501064818&w=1920",
+        "https://static.zara.net/assets/public/5826/2e7e/454b4fd191bf/aee6879378f7/01478934104-a6/01478934104-a6.jpg?ts=1785501064421&w=1920",
+        "https://static.zara.net/assets/public/7af9/a3e8/e5bf4c908972/1911da60c267/01478934104-a7/01478934104-a7.jpg?ts=1785501065188&w=1920",
+        "https://static.zara.net/assets/public/9b05/14ee/529f4dc6a8c0/098b92ffc09c/01478934104-e1/01478934104-e1.jpg?ts=1785750653083&w=1920",
+        "https://static.zara.net/assets/public/fd22/6392/f1d1476695ec/a491b7f90eec/01478934104-e2/01478934104-e2.jpg?ts=1785750652698&w=1920",
+        "https://static.zara.net/assets/public/287a/3e20/d69d4e9cbf3c/9e831128b773/01478934104-e3/01478934104-e3.jpg?ts=1785750654837&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "striped",
+    "Striped"
+  ],
+  "rendered_price": "69.90",
+  "rendered_description": "Description\nHigh-rise trousers with front pockets. Featuring a belt detail. Straight leg. Front zip, inside button, and metal hook closure.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 12,
+  "variants_count": 10,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "69.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "69.90",
+    "dom_price": "69.90",
+    "normalized_price": "69.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "bd287b45657a881b26feffdd8dce5c150926ae51c7723e557d2865520bd3d50b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

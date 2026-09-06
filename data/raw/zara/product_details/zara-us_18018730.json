@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:18018730",
+  "source_url": "https://www.zara.com/us/en/knit-booties-p18018730.html",
+  "final_url": "https://www.zara.com/us/en/knit-booties-p18018730.html",
+  "canonical_url": "https://www.zara.com/us/en/knit-booties-p18018730.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KNIT BOOTIES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KNIT BOOTIES",
+      "url": "https://www.zara.com/us/en/knit-booties-p18018730.html",
+      "productGroupID": "18018730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "100% cotton knit booties. Fastened with a side button strap.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/62b1/30c1/1b6241c7b5c8/8201d5c57aa9/18018730202-e1/18018730202-e1.jpg?ts=1776237964527&w=1920",
+        "https://static.zara.net/assets/public/1ac5/a6c3/117b448d9393/895d8a5c43a0/18018730202-e2/18018730202-e2.jpg?ts=1776237964064&w=1920",
+        "https://static.zara.net/assets/public/73ed/cf94/0f1f45a5815b/76dd88be23b2/18018730202-e3/18018730202-e3.jpg?ts=1776237968694&w=1920",
+        "https://static.zara.net/assets/public/3b56/66c5/a0f6490d9f0f/80d3720f09a0/18018730202-e4/18018730202-e4.jpg?ts=1776237964817&w=1920",
+        "https://static.zara.net/assets/public/d9e0/fd64/9e504f5d9c84/d11e24c43d25/18018730202-e5/18018730202-e5.jpg?ts=1776237966977&w=1920",
+        "https://static.zara.net/assets/public/196f/096a/fadf4e8e8fc0/5b03cf4c85a3/18018730202-e6/18018730202-e6.jpg?ts=1776237968763&w=1920",
+        "https://static.zara.net/assets/public/440d/d53d/83f44a928240/ac8a7d0f928a/18018730202-e7/18018730202-e7.jpg?ts=1776237966224&w=1920",
+        "https://static.zara.net/assets/public/03b5/2e40/e41b4685b474/f245318ac5fc/18018730202-e8/18018730202-e8.jpg?ts=1776237966864&w=1920",
+        "https://static.zara.net/assets/public/0cb2/82c3/aead4511b538/3e406c01ebd0/18018730202-e9/18018730202-e9.jpg?ts=1776237965494&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KNIT BOOTIES - Multi-color - ONE SIZE ONLY",
+          "sku": "554734611-202-53",
+          "mpn": "554734611-202-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/62b1/30c1/1b6241c7b5c8/8201d5c57aa9/18018730202-e1/18018730202-e1.jpg?ts=1776237964527&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/knit-booties-p18018730.html?v1=554734611",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KNIT BOOTIES",
+      "product_group_id": "18018730",
+      "brand": "ZARA",
+      "description": "100% cotton knit booties. Fastened with a side button strap.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KNIT BOOTIES - Multi-color - ONE SIZE ONLY",
+          "sku": "554734611-202-53",
+          "mpn": "554734611-202-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/knit-booties-p18018730.html?v1=554734611",
+          "images": [
+            "https://static.zara.net/assets/public/62b1/30c1/1b6241c7b5c8/8201d5c57aa9/18018730202-e1/18018730202-e1.jpg?ts=1776237964527&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/62b1/30c1/1b6241c7b5c8/8201d5c57aa9/18018730202-e1/18018730202-e1.jpg?ts=1776237964527&w=1920",
+        "https://static.zara.net/assets/public/1ac5/a6c3/117b448d9393/895d8a5c43a0/18018730202-e2/18018730202-e2.jpg?ts=1776237964064&w=1920",
+        "https://static.zara.net/assets/public/73ed/cf94/0f1f45a5815b/76dd88be23b2/18018730202-e3/18018730202-e3.jpg?ts=1776237968694&w=1920",
+        "https://static.zara.net/assets/public/3b56/66c5/a0f6490d9f0f/80d3720f09a0/18018730202-e4/18018730202-e4.jpg?ts=1776237964817&w=1920",
+        "https://static.zara.net/assets/public/d9e0/fd64/9e504f5d9c84/d11e24c43d25/18018730202-e5/18018730202-e5.jpg?ts=1776237966977&w=1920",
+        "https://static.zara.net/assets/public/196f/096a/fadf4e8e8fc0/5b03cf4c85a3/18018730202-e6/18018730202-e6.jpg?ts=1776237968763&w=1920",
+        "https://static.zara.net/assets/public/440d/d53d/83f44a928240/ac8a7d0f928a/18018730202-e7/18018730202-e7.jpg?ts=1776237966224&w=1920",
+        "https://static.zara.net/assets/public/03b5/2e40/e41b4685b474/f245318ac5fc/18018730202-e8/18018730202-e8.jpg?ts=1776237966864&w=1920",
+        "https://static.zara.net/assets/public/0cb2/82c3/aead4511b538/3e406c01ebd0/18018730202-e9/18018730202-e9.jpg?ts=1776237965494&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\n100% cotton knit booties. Fastened with a side button strap.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4bf3e2c079092db9f560b38e289ccf97e3fcc17bf860f0a387caae062df0e25e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

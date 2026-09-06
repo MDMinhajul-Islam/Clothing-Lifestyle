@@ -1,0 +1,202 @@
+{
+  "product_id": "zara-us:01223464",
+  "source_url": "https://www.zara.com/us/en/rustic-pants-p01223464.html",
+  "final_url": "https://www.zara.com/us/en/rustic-pants-p01223464.html",
+  "canonical_url": "https://www.zara.com/us/en/rustic-pants-p01223464.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RUSTIC PANTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RUSTIC PANTS",
+      "url": "https://www.zara.com/us/en/rustic-pants-p01223464.html",
+      "productGroupID": "01223464",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mid-rise pants with an elastic waistband. Raw-edge hem.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a36e/0a18/c940475f920b/92eb854d431a/01223464959-p/01223464959-p.jpg?ts=1787922870844&w=1920",
+        "https://static.zara.net/assets/public/0960/efdc/ade5445bbd6f/563ccf982fc5/01223464959-a1/01223464959-a1.jpg?ts=1787922869469&w=1920",
+        "https://static.zara.net/assets/public/9b2a/1256/fa9d4e1eb1fb/669dbdc1a5b0/01223464959-a2/01223464959-a2.jpg?ts=1787922870471&w=1920",
+        "https://static.zara.net/assets/public/1694/728c/eae246c9b211/1f66c13203d2/01223464959-a3/01223464959-a3.jpg?ts=1787922870278&w=1920",
+        "https://static.zara.net/assets/public/50db/2889/abf74620891c/3e569149b93a/01223464959-a4/01223464959-a4.jpg?ts=1787922871462&w=1920",
+        "https://static.zara.net/assets/public/626d/4a8e/a09f49db8675/4940993f38a4/01223464959-a5/01223464959-a5.jpg?ts=1787922871350&w=1920",
+        "https://static.zara.net/assets/public/ba3b/da11/bbd549dd87bf/9309b5ad4ac0/01223464959-a6/01223464959-a6.jpg?ts=1787922871679&w=1920",
+        "https://static.zara.net/assets/public/da51/93d1/55a54892b38a/8e0f05972369/01223464959-e1/01223464959-e1.jpg?ts=1787827317890&w=1920",
+        "https://static.zara.net/assets/public/b5a3/cd98/ff5d4bb5aa84/ecbe3baff16d/01223464959-e2/01223464959-e2.jpg?ts=1787827317986&w=1920",
+        "https://static.zara.net/assets/public/b58b/506b/9df24b8bac8e/ec54aa1bebac/01223464959-e3/01223464959-e3.jpg?ts=1787827318485&w=1920"
+      ],
+      "material": "polyester/cotton/wool",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "56% polyester, 40% cotton, 1% wool, 1% polyamide, 1% acrylic, 1% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RUSTIC PANTS - Light ecru - S",
+          "sku": "560653659-959-2",
+          "mpn": "560653659-959-2",
+          "color": "Light ecru",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/a36e/0a18/c940475f920b/92eb854d431a/01223464959-p/01223464959-p.jpg?ts=1787922870844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/rustic-pants-p01223464.html?v1=560653659",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUSTIC PANTS - Light ecru - M",
+          "sku": "560653659-959-3",
+          "mpn": "560653659-959-3",
+          "color": "Light ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/a36e/0a18/c940475f920b/92eb854d431a/01223464959-p/01223464959-p.jpg?ts=1787922870844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/rustic-pants-p01223464.html?v1=560653659",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RUSTIC PANTS - Light ecru - L",
+          "sku": "560653659-959-4",
+          "mpn": "560653659-959-4",
+          "color": "Light ecru",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/a36e/0a18/c940475f920b/92eb854d431a/01223464959-p/01223464959-p.jpg?ts=1787922870844&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/rustic-pants-p01223464.html?v1=560653659",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RUSTIC PANTS",
+      "product_group_id": "01223464",
+      "brand": "ZARA",
+      "description": "Mid-rise pants with an elastic waistband. Raw-edge hem.",
+      "material": "polyester/cotton/wool",
+      "composition": "OUTER SHELL: 56% polyester, 40% cotton, 1% wool, 1% polyamide, 1% acrylic, 1% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RUSTIC PANTS - Light ecru - S",
+          "sku": "560653659-959-2",
+          "mpn": "560653659-959-2",
+          "color_name": "Light ecru",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rustic-pants-p01223464.html?v1=560653659",
+          "images": [
+            "https://static.zara.net/assets/public/a36e/0a18/c940475f920b/92eb854d431a/01223464959-p/01223464959-p.jpg?ts=1787922870844&w=1920"
+          ]
+        },
+        {
+          "name": "RUSTIC PANTS - Light ecru - M",
+          "sku": "560653659-959-3",
+          "mpn": "560653659-959-3",
+          "color_name": "Light ecru",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rustic-pants-p01223464.html?v1=560653659",
+          "images": [
+            "https://static.zara.net/assets/public/a36e/0a18/c940475f920b/92eb854d431a/01223464959-p/01223464959-p.jpg?ts=1787922870844&w=1920"
+          ]
+        },
+        {
+          "name": "RUSTIC PANTS - Light ecru - L",
+          "sku": "560653659-959-4",
+          "mpn": "560653659-959-4",
+          "color_name": "Light ecru",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/rustic-pants-p01223464.html?v1=560653659",
+          "images": [
+            "https://static.zara.net/assets/public/a36e/0a18/c940475f920b/92eb854d431a/01223464959-p/01223464959-p.jpg?ts=1787922870844&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a36e/0a18/c940475f920b/92eb854d431a/01223464959-p/01223464959-p.jpg?ts=1787922870844&w=1920",
+        "https://static.zara.net/assets/public/0960/efdc/ade5445bbd6f/563ccf982fc5/01223464959-a1/01223464959-a1.jpg?ts=1787922869469&w=1920",
+        "https://static.zara.net/assets/public/9b2a/1256/fa9d4e1eb1fb/669dbdc1a5b0/01223464959-a2/01223464959-a2.jpg?ts=1787922870471&w=1920",
+        "https://static.zara.net/assets/public/1694/728c/eae246c9b211/1f66c13203d2/01223464959-a3/01223464959-a3.jpg?ts=1787922870278&w=1920",
+        "https://static.zara.net/assets/public/50db/2889/abf74620891c/3e569149b93a/01223464959-a4/01223464959-a4.jpg?ts=1787922871462&w=1920",
+        "https://static.zara.net/assets/public/626d/4a8e/a09f49db8675/4940993f38a4/01223464959-a5/01223464959-a5.jpg?ts=1787922871350&w=1920",
+        "https://static.zara.net/assets/public/ba3b/da11/bbd549dd87bf/9309b5ad4ac0/01223464959-a6/01223464959-a6.jpg?ts=1787922871679&w=1920",
+        "https://static.zara.net/assets/public/da51/93d1/55a54892b38a/8e0f05972369/01223464959-e1/01223464959-e1.jpg?ts=1787827317890&w=1920",
+        "https://static.zara.net/assets/public/b5a3/cd98/ff5d4bb5aa84/ecbe3baff16d/01223464959-e2/01223464959-e2.jpg?ts=1787827317986&w=1920",
+        "https://static.zara.net/assets/public/b58b/506b/9df24b8bac8e/ec54aa1bebac/01223464959-e3/01223464959-e3.jpg?ts=1787827318485&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nMid-rise pants with an elastic waistband. Raw-edge hem.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 10,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "79827b7bd1d1b1778b13faa09cfb4adddda361e1272fc8f4322c728cf9c5a4f2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

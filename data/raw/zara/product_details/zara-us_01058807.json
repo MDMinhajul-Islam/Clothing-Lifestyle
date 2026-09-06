@@ -1,0 +1,196 @@
+{
+  "product_id": "zara-us:01058807",
+  "source_url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html",
+  "final_url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html",
+  "canonical_url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRETCH LEGGINGS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRETCH LEGGINGS",
+      "url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html",
+      "productGroupID": "01058807",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "High-rise leggings with an elastic waistband.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fcd0/3934/54a24f0aaa78/b51e833ae1ee/01058807800-p/01058807800-p.jpg?ts=1788519116695&w=1920",
+        "https://static.zara.net/assets/public/1e5d/ab4a/dd964e5089db/98bdea3750d9/01058807800-a1/01058807800-a1.jpg?ts=1788519116995&w=1920",
+        "https://static.zara.net/assets/public/eba8/2135/54444298b6f7/4aa13fd2a330/01058807800-a2/01058807800-a2.jpg?ts=1788519116681&w=1920",
+        "https://static.zara.net/assets/public/2835/8262/3b0b46b485b4/8b6fa8e24d9e/01058807800-a3/01058807800-a3.jpg?ts=1788519116794&w=1920",
+        "https://static.zara.net/assets/public/2aef/9e79/61b94300bbb0/264ae888117b/01058807800-e1/01058807800-e1.jpg?ts=1788333442350&w=1920",
+        "https://static.zara.net/assets/public/2483/359b/088d4c76b4b6/383de8c2f159/01058807800-e2/01058807800-e2.jpg?ts=1788333442353&w=1920",
+        "https://static.zara.net/assets/public/95bb/2cef/62824899b9b7/95a70d107ad8/01058807800-e3/01058807800-e3.jpg?ts=1788333442188&w=1920"
+      ],
+      "material": "polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "78% polyamide, 22% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRETCH LEGGINGS - Black - S",
+          "sku": "557757371-800-2",
+          "mpn": "557757371-800-2",
+          "color": "Black",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/fcd0/3934/54a24f0aaa78/b51e833ae1ee/01058807800-p/01058807800-p.jpg?ts=1788519116695&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html?v1=557757371",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRETCH LEGGINGS - Black - M",
+          "sku": "557757371-800-3",
+          "mpn": "557757371-800-3",
+          "color": "Black",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/fcd0/3934/54a24f0aaa78/b51e833ae1ee/01058807800-p/01058807800-p.jpg?ts=1788519116695&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html?v1=557757371",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRETCH LEGGINGS - Black - L",
+          "sku": "557757371-800-4",
+          "mpn": "557757371-800-4",
+          "color": "Black",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/fcd0/3934/54a24f0aaa78/b51e833ae1ee/01058807800-p/01058807800-p.jpg?ts=1788519116695&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html?v1=557757371",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRETCH LEGGINGS",
+      "product_group_id": "01058807",
+      "brand": "ZARA",
+      "description": "High-rise leggings with an elastic waistband.",
+      "material": "polyamide/elastane",
+      "composition": "OUTER SHELL: 78% polyamide, 22% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRETCH LEGGINGS - Black - S",
+          "sku": "557757371-800-2",
+          "mpn": "557757371-800-2",
+          "color_name": "Black",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html?v1=557757371",
+          "images": [
+            "https://static.zara.net/assets/public/fcd0/3934/54a24f0aaa78/b51e833ae1ee/01058807800-p/01058807800-p.jpg?ts=1788519116695&w=1920"
+          ]
+        },
+        {
+          "name": "STRETCH LEGGINGS - Black - M",
+          "sku": "557757371-800-3",
+          "mpn": "557757371-800-3",
+          "color_name": "Black",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html?v1=557757371",
+          "images": [
+            "https://static.zara.net/assets/public/fcd0/3934/54a24f0aaa78/b51e833ae1ee/01058807800-p/01058807800-p.jpg?ts=1788519116695&w=1920"
+          ]
+        },
+        {
+          "name": "STRETCH LEGGINGS - Black - L",
+          "sku": "557757371-800-4",
+          "mpn": "557757371-800-4",
+          "color_name": "Black",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/stretch-leggings-p01058807.html?v1=557757371",
+          "images": [
+            "https://static.zara.net/assets/public/fcd0/3934/54a24f0aaa78/b51e833ae1ee/01058807800-p/01058807800-p.jpg?ts=1788519116695&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fcd0/3934/54a24f0aaa78/b51e833ae1ee/01058807800-p/01058807800-p.jpg?ts=1788519116695&w=1920",
+        "https://static.zara.net/assets/public/1e5d/ab4a/dd964e5089db/98bdea3750d9/01058807800-a1/01058807800-a1.jpg?ts=1788519116995&w=1920",
+        "https://static.zara.net/assets/public/eba8/2135/54444298b6f7/4aa13fd2a330/01058807800-a2/01058807800-a2.jpg?ts=1788519116681&w=1920",
+        "https://static.zara.net/assets/public/2835/8262/3b0b46b485b4/8b6fa8e24d9e/01058807800-a3/01058807800-a3.jpg?ts=1788519116794&w=1920",
+        "https://static.zara.net/assets/public/2aef/9e79/61b94300bbb0/264ae888117b/01058807800-e1/01058807800-e1.jpg?ts=1788333442350&w=1920",
+        "https://static.zara.net/assets/public/2483/359b/088d4c76b4b6/383de8c2f159/01058807800-e2/01058807800-e2.jpg?ts=1788333442353&w=1920",
+        "https://static.zara.net/assets/public/95bb/2cef/62824899b9b7/95a70d107ad8/01058807800-e3/01058807800-e3.jpg?ts=1788333442188&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nHigh-rise leggings with an elastic waistband.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0c4a6dea170d080d98ac70693d9aaa88ba364e412ce2e644429215d1eac689f6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,159 @@
+{
+  "product_id": "zara-us:18020830",
+  "source_url": "https://www.zara.com/us/en/floral-booties-p18020830.html",
+  "final_url": "https://www.zara.com/us/en/floral-booties-p18020830.html",
+  "canonical_url": "https://www.zara.com/us/en/floral-booties-p18020830.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FLORAL BABY BOOTIES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FLORAL BABY BOOTIES",
+      "url": "https://www.zara.com/us/en/floral-booties-p18020830.html",
+      "productGroupID": "18020830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Baby booties with a floral print design and a bow on the instep.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d266/e9b5/200b495cbe23/d05f37ed4ed9/18020830050-e1/18020830050-e1.jpg?ts=1785232157453&w=1920",
+        "https://static.zara.net/assets/public/c117/d00e/314e4bb5a918/cc75f8171189/18020830050-e2/18020830050-e2.jpg?ts=1785232157307&w=1920",
+        "https://static.zara.net/assets/public/63e4/1b58/60a4439f825c/38ed76a22368/18020830050-e3/18020830050-e3.jpg?ts=1785308960110&w=1920",
+        "https://static.zara.net/assets/public/aed5/b3aa/e2a9476cb1b9/829ef271ce7a/18020830050-e4/18020830050-e4.jpg?ts=1785308959230&w=1920",
+        "https://static.zara.net/assets/public/9d55/ad9c/071644198ee2/0e958a414ec6/18020830050-e5/18020830050-e5.jpg?ts=1785308960512&w=1920",
+        "https://static.zara.net/assets/public/4a86/03a3/d23f4d4a8bdb/b10de34827f6/18020830050-e6/18020830050-e6.jpg?ts=1785308960688&w=1920",
+        "https://static.zara.net/assets/public/6296/35a0/f9cf4404987e/4e1f6dd7d9c4/18020830050-e7/18020830050-e7.jpg?ts=1785308959602&w=1920",
+        "https://static.zara.net/assets/public/dddf/f3f8/588544308b78/563866882dfd/18020830050-e8/18020830050-e8.jpg?ts=1785308960712&w=1920",
+        "https://static.zara.net/assets/public/8d83/5046/e9f4457eaa4e/e09177e41566/18020830050-e9/18020830050-e9.jpg?ts=1785308960670&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "90% cotton, 10% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "90% cotton, 10% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "90% cotton, 10% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "90% cotton, 10% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "90% cotton, 10% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FLORAL BABY BOOTIES - Pink - ONE SIZE ONLY",
+          "sku": "545475036-050-15",
+          "mpn": "545475036-050-15",
+          "color": "Pink",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d266/e9b5/200b495cbe23/d05f37ed4ed9/18020830050-e1/18020830050-e1.jpg?ts=1785232157453&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/floral-booties-p18020830.html?v1=545475036",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FLORAL BABY BOOTIES",
+      "product_group_id": "18020830",
+      "brand": "ZARA",
+      "description": "Baby booties with a floral print design and a bow on the instep.",
+      "material": "cotton/polyester",
+      "composition": "UPPER: 90% cotton, 10% polyester | LINING: 90% cotton, 10% polyester | SOLE: 90% cotton, 10% polyester | INSOLE: 90% cotton, 10% polyester | TONGUE: 90% cotton, 10% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FLORAL BABY BOOTIES - Pink - ONE SIZE ONLY",
+          "sku": "545475036-050-15",
+          "mpn": "545475036-050-15",
+          "color_name": "Pink",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/floral-booties-p18020830.html?v1=545475036",
+          "images": [
+            "https://static.zara.net/assets/public/d266/e9b5/200b495cbe23/d05f37ed4ed9/18020830050-e1/18020830050-e1.jpg?ts=1785232157453&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d266/e9b5/200b495cbe23/d05f37ed4ed9/18020830050-e1/18020830050-e1.jpg?ts=1785232157453&w=1920",
+        "https://static.zara.net/assets/public/c117/d00e/314e4bb5a918/cc75f8171189/18020830050-e2/18020830050-e2.jpg?ts=1785232157307&w=1920",
+        "https://static.zara.net/assets/public/63e4/1b58/60a4439f825c/38ed76a22368/18020830050-e3/18020830050-e3.jpg?ts=1785308960110&w=1920",
+        "https://static.zara.net/assets/public/aed5/b3aa/e2a9476cb1b9/829ef271ce7a/18020830050-e4/18020830050-e4.jpg?ts=1785308959230&w=1920",
+        "https://static.zara.net/assets/public/9d55/ad9c/071644198ee2/0e958a414ec6/18020830050-e5/18020830050-e5.jpg?ts=1785308960512&w=1920",
+        "https://static.zara.net/assets/public/4a86/03a3/d23f4d4a8bdb/b10de34827f6/18020830050-e6/18020830050-e6.jpg?ts=1785308960688&w=1920",
+        "https://static.zara.net/assets/public/6296/35a0/f9cf4404987e/4e1f6dd7d9c4/18020830050-e7/18020830050-e7.jpg?ts=1785308959602&w=1920",
+        "https://static.zara.net/assets/public/dddf/f3f8/588544308b78/563866882dfd/18020830050-e8/18020830050-e8.jpg?ts=1785308960712&w=1920",
+        "https://static.zara.net/assets/public/8d83/5046/e9f4457eaa4e/e09177e41566/18020830050-e9/18020830050-e9.jpg?ts=1785308960670&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nBaby booties with a floral print design and a bow on the instep.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "ffb602ae55d6f48b8f8e8da6dbbc7f7c81eea6b3233d29113d7f957f013d7227",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

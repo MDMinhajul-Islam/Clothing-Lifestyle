@@ -1,0 +1,189 @@
+{
+  "product_id": "zara-us:02582566",
+  "source_url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html",
+  "final_url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html",
+  "canonical_url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KNIT POM-POM BONNET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KNIT POM-POM BONNET",
+      "url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html",
+      "productGroupID": "02582566",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Knit bonnet with adjustable front ties. Features colorful pom-pom details.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d27a/cf37/45f34cb7916a/8165a56c867a/02582566745-e1/02582566745-e1.jpg?ts=1787914769481&w=1920",
+        "https://static.zara.net/assets/public/a347/6316/0408457cb21b/f1ecae864278/02582566745-e2/02582566745-e2.jpg?ts=1787914771063&w=1920",
+        "https://static.zara.net/assets/public/c49d/c5b3/ec954f48af06/1c97c389f088/02582566745-e3/02582566745-e3.jpg?ts=1787914769821&w=1920",
+        "https://static.zara.net/assets/public/e690/b82a/9ed34a2a8e60/bda6677d32f2/02582566745-e5/02582566745-e5.jpg?ts=1787914770417&w=1920"
+      ],
+      "material": "cotton/acrylic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "55% cotton, 45% acrylic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KNIT POM-POM BONNET - Toffee - 0-3 months",
+          "sku": "555813582-745-38",
+          "mpn": "555813582-745-38",
+          "color": "Toffee",
+          "size": "0-3 months",
+          "image": [
+            "https://static.zara.net/assets/public/d27a/cf37/45f34cb7916a/8165a56c867a/02582566745-e1/02582566745-e1.jpg?ts=1787914769481&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html?v1=555813582",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KNIT POM-POM BONNET - Toffee - 3-6 months",
+          "sku": "555813582-745-43",
+          "mpn": "555813582-745-43",
+          "color": "Toffee",
+          "size": "3-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/d27a/cf37/45f34cb7916a/8165a56c867a/02582566745-e1/02582566745-e1.jpg?ts=1787914769481&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html?v1=555813582",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KNIT POM-POM BONNET - Toffee - 6-12 months",
+          "sku": "555813582-745-46",
+          "mpn": "555813582-745-46",
+          "color": "Toffee",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/d27a/cf37/45f34cb7916a/8165a56c867a/02582566745-e1/02582566745-e1.jpg?ts=1787914769481&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html?v1=555813582",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KNIT POM-POM BONNET",
+      "product_group_id": "02582566",
+      "brand": "ZARA",
+      "description": "Knit bonnet with adjustable front ties. Features colorful pom-pom details.",
+      "material": "cotton/acrylic",
+      "composition": "OUTER SHELL: 55% cotton, 45% acrylic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KNIT POM-POM BONNET - Toffee - 0-3 months",
+          "sku": "555813582-745-38",
+          "mpn": "555813582-745-38",
+          "color_name": "Toffee",
+          "size_name": "0-3 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html?v1=555813582",
+          "images": [
+            "https://static.zara.net/assets/public/d27a/cf37/45f34cb7916a/8165a56c867a/02582566745-e1/02582566745-e1.jpg?ts=1787914769481&w=1920"
+          ]
+        },
+        {
+          "name": "KNIT POM-POM BONNET - Toffee - 3-6 months",
+          "sku": "555813582-745-43",
+          "mpn": "555813582-745-43",
+          "color_name": "Toffee",
+          "size_name": "3-6 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html?v1=555813582",
+          "images": [
+            "https://static.zara.net/assets/public/d27a/cf37/45f34cb7916a/8165a56c867a/02582566745-e1/02582566745-e1.jpg?ts=1787914769481&w=1920"
+          ]
+        },
+        {
+          "name": "KNIT POM-POM BONNET - Toffee - 6-12 months",
+          "sku": "555813582-745-46",
+          "mpn": "555813582-745-46",
+          "color_name": "Toffee",
+          "size_name": "6-12 months",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pom-pom-knit-bonnet-p02582566.html?v1=555813582",
+          "images": [
+            "https://static.zara.net/assets/public/d27a/cf37/45f34cb7916a/8165a56c867a/02582566745-e1/02582566745-e1.jpg?ts=1787914769481&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d27a/cf37/45f34cb7916a/8165a56c867a/02582566745-e1/02582566745-e1.jpg?ts=1787914769481&w=1920",
+        "https://static.zara.net/assets/public/a347/6316/0408457cb21b/f1ecae864278/02582566745-e2/02582566745-e2.jpg?ts=1787914771063&w=1920",
+        "https://static.zara.net/assets/public/c49d/c5b3/ec954f48af06/1c97c389f088/02582566745-e3/02582566745-e3.jpg?ts=1787914769821&w=1920",
+        "https://static.zara.net/assets/public/e690/b82a/9ed34a2a8e60/bda6677d32f2/02582566745-e5/02582566745-e5.jpg?ts=1787914770417&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nKnit bonnet with adjustable front ties. Features colorful pom-pom details.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3278afaf9675195e97e96db21b4147ae6f334aa1fcb123ee404651689ac49cfc",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

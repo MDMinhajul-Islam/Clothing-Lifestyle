@@ -1,0 +1,289 @@
+{
+  "product_id": "zara-us:05536535",
+  "source_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html",
+  "final_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html",
+  "canonical_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BOW KNIT CARDIGAN",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BOW KNIT CARDIGAN",
+      "url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html",
+      "productGroupID": "05536535",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Knit cardigan with a round neck and long sleeves. Front button closure. Features front patch pockets with bow appliqués and contrasting trim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920",
+        "https://static.zara.net/assets/public/87af/584c/9ddf4556839f/fcd2e59c5541/05536535800-e2/05536535800-e2.jpg?ts=1781510993531&w=1920",
+        "https://static.zara.net/assets/public/ddc9/47e1/3e494fd1804c/277e8219eb9f/05536535800-e3/05536535800-e3.jpg?ts=1781510993464&w=1920",
+        "https://static.zara.net/assets/public/d8ed/4640/91f245fabd44/74d54587fccc/05536535800-e4/05536535800-e4.jpg?ts=1781510993896&w=1920",
+        "https://static.zara.net/assets/public/962a/c7f1/fb9c40a6a7f0/fd0295313f2f/05536535800200-p/05536535800200-p.jpg?ts=1786011741802&w=1920",
+        "https://static.zara.net/assets/public/9b1b/27f1/dd5f4ae8b1a3/3d6ff5591242/05536535800200-a1/05536535800200-a1.jpg?ts=1786011744063&w=1920"
+      ],
+      "material": "viscose/polyester/polyamide",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "52% viscose, 29% polyester, 19% polyamide"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BOW KNIT CARDIGAN - Black - 1½ years (33,9 INCHES)",
+          "sku": "545485839-800-18",
+          "mpn": "545485839-800-18",
+          "color": "Black",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BOW KNIT CARDIGAN - Black - 2 years (36,2 INCHES)",
+          "sku": "545485839-800-24",
+          "mpn": "545485839-800-24",
+          "color": "Black",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BOW KNIT CARDIGAN - Black - 3 years (38,6 INCHES)",
+          "sku": "545485839-800-36",
+          "mpn": "545485839-800-36",
+          "color": "Black",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BOW KNIT CARDIGAN - Black - 4 years (40,9 INCHES)",
+          "sku": "545485839-800-48",
+          "mpn": "545485839-800-48",
+          "color": "Black",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BOW KNIT CARDIGAN - Black - 5 years (43,3 INCHES)",
+          "sku": "545485839-800-60",
+          "mpn": "545485839-800-60",
+          "color": "Black",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BOW KNIT CARDIGAN - Black - 6 years (45,2 INCHES)",
+          "sku": "545485839-800-72",
+          "mpn": "545485839-800-72",
+          "color": "Black",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BOW KNIT CARDIGAN",
+      "product_group_id": "05536535",
+      "brand": "ZARA",
+      "description": "Knit cardigan with a round neck and long sleeves. Front button closure. Features front patch pockets with bow appliqués and contrasting trim.",
+      "material": "viscose/polyester/polyamide",
+      "composition": "OUTER SHELL: 52% viscose, 29% polyester, 19% polyamide",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BOW KNIT CARDIGAN - Black - 1½ years (33,9 INCHES)",
+          "sku": "545485839-800-18",
+          "mpn": "545485839-800-18",
+          "color_name": "Black",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+          "images": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ]
+        },
+        {
+          "name": "BOW KNIT CARDIGAN - Black - 2 years (36,2 INCHES)",
+          "sku": "545485839-800-24",
+          "mpn": "545485839-800-24",
+          "color_name": "Black",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+          "images": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ]
+        },
+        {
+          "name": "BOW KNIT CARDIGAN - Black - 3 years (38,6 INCHES)",
+          "sku": "545485839-800-36",
+          "mpn": "545485839-800-36",
+          "color_name": "Black",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+          "images": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ]
+        },
+        {
+          "name": "BOW KNIT CARDIGAN - Black - 4 years (40,9 INCHES)",
+          "sku": "545485839-800-48",
+          "mpn": "545485839-800-48",
+          "color_name": "Black",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+          "images": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ]
+        },
+        {
+          "name": "BOW KNIT CARDIGAN - Black - 5 years (43,3 INCHES)",
+          "sku": "545485839-800-60",
+          "mpn": "545485839-800-60",
+          "color_name": "Black",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+          "images": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ]
+        },
+        {
+          "name": "BOW KNIT CARDIGAN - Black - 6 years (45,2 INCHES)",
+          "sku": "545485839-800-72",
+          "mpn": "545485839-800-72",
+          "color_name": "Black",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bow-knit-cardigan-p05536535.html?v1=545485839",
+          "images": [
+            "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/dcf7/1b6b/5c2d4680a587/015cc423d495/05536535800-e1/05536535800-e1.jpg?ts=1781510995702&w=1920",
+        "https://static.zara.net/assets/public/87af/584c/9ddf4556839f/fcd2e59c5541/05536535800-e2/05536535800-e2.jpg?ts=1781510993531&w=1920",
+        "https://static.zara.net/assets/public/ddc9/47e1/3e494fd1804c/277e8219eb9f/05536535800-e3/05536535800-e3.jpg?ts=1781510993464&w=1920",
+        "https://static.zara.net/assets/public/d8ed/4640/91f245fabd44/74d54587fccc/05536535800-e4/05536535800-e4.jpg?ts=1781510993896&w=1920",
+        "https://static.zara.net/assets/public/962a/c7f1/fb9c40a6a7f0/fd0295313f2f/05536535800200-p/05536535800200-p.jpg?ts=1786011741802&w=1920",
+        "https://static.zara.net/assets/public/9b1b/27f1/dd5f4ae8b1a3/3d6ff5591242/05536535800200-a1/05536535800200-a1.jpg?ts=1786011744063&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nKnit cardigan with a round neck and long sleeves. Front button closure. Features front patch pockets with bow appliqués and contrasting trim.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fb8478da6efb19755fb806acd33f2b2dcfbb98797954b16c0891d0aaa7d94edf",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

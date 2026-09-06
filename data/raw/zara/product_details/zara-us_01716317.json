@@ -1,0 +1,485 @@
+{
+  "product_id": "zara-us:01716317",
+  "source_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html",
+  "final_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html",
+  "canonical_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TEXT PRINT T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TEXT PRINT T-SHIRT",
+      "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html",
+      "productGroupID": "01716317",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt. Front text print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920",
+        "https://static.zara.net/assets/public/50b4/06ce/75fb420e8a3d/393e81075cf4/01716317433-e2/01716317433-e2.jpg?ts=1779369534180&w=1920",
+        "https://static.zara.net/assets/public/22e1/cb2f/373f4ac0a9d7/79aef37565ec/01716317433-e3/01716317433-e3.jpg?ts=1779369534081&w=1920",
+        "https://static.zara.net/assets/public/ea1b/f5ce/182946bf8ca5/8402c0a0e27c/01716317433-e4/01716317433-e4.jpg?ts=1779369535188&w=1920",
+        "https://static.zara.net/assets/public/32c0/b0e6/a0284de29eb0/6409b71a79af/01716317433200-p/01716317433200-p.jpg?ts=1780927613724&w=1920",
+        "https://static.zara.net/assets/public/3a0a/5682/476a4d8e8223/258f326b7645/01716317433200-a1/01716317433200-a1.jpg?ts=1780927612227&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 1½ years (33,9 INCHES)",
+          "sku": "545421936-433-18",
+          "mpn": "545421936-433-18",
+          "color": "Blue / Lavender",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 2 years (36,2 INCHES)",
+          "sku": "545421936-433-24",
+          "mpn": "545421936-433-24",
+          "color": "Blue / Lavender",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 3 years (38,6 INCHES)",
+          "sku": "545421936-433-36",
+          "mpn": "545421936-433-36",
+          "color": "Blue / Lavender",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 4 years (40,9 INCHES)",
+          "sku": "545421936-433-48",
+          "mpn": "545421936-433-48",
+          "color": "Blue / Lavender",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 5 years (43,3 INCHES)",
+          "sku": "545421936-433-60",
+          "mpn": "545421936-433-60",
+          "color": "Blue / Lavender",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 6 years (45,2 INCHES)",
+          "sku": "545421936-433-72",
+          "mpn": "545421936-433-72",
+          "color": "Blue / Lavender",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Red - 1½ years (33,9 INCHES)",
+          "sku": "545421936-600-18",
+          "mpn": "545421936-600-18",
+          "color": "Red",
+          "size": "1½ years (33,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Red - 2 years (36,2 INCHES)",
+          "sku": "545421936-600-24",
+          "mpn": "545421936-600-24",
+          "color": "Red",
+          "size": "2 years (36,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Red - 3 years (38,6 INCHES)",
+          "sku": "545421936-600-36",
+          "mpn": "545421936-600-36",
+          "color": "Red",
+          "size": "3 years (38,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Red - 4 years (40,9 INCHES)",
+          "sku": "545421936-600-48",
+          "mpn": "545421936-600-48",
+          "color": "Red",
+          "size": "4 years (40,9 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Red - 5 years (43,3 INCHES)",
+          "sku": "545421936-600-60",
+          "mpn": "545421936-600-60",
+          "color": "Red",
+          "size": "5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TEXT PRINT T-SHIRT - Red - 6 years (45,2 INCHES)",
+          "sku": "545421936-600-72",
+          "mpn": "545421936-600-72",
+          "color": "Red",
+          "size": "6 years (45,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "9.9",
+            "url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TEXT PRINT T-SHIRT",
+      "product_group_id": "01716317",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt. Front text print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 1½ years (33,9 INCHES)",
+          "sku": "545421936-433-18",
+          "mpn": "545421936-433-18",
+          "color_name": "Blue / Lavender",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+          "images": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 2 years (36,2 INCHES)",
+          "sku": "545421936-433-24",
+          "mpn": "545421936-433-24",
+          "color_name": "Blue / Lavender",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+          "images": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 3 years (38,6 INCHES)",
+          "sku": "545421936-433-36",
+          "mpn": "545421936-433-36",
+          "color_name": "Blue / Lavender",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+          "images": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 4 years (40,9 INCHES)",
+          "sku": "545421936-433-48",
+          "mpn": "545421936-433-48",
+          "color_name": "Blue / Lavender",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+          "images": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 5 years (43,3 INCHES)",
+          "sku": "545421936-433-60",
+          "mpn": "545421936-433-60",
+          "color_name": "Blue / Lavender",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+          "images": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Blue / Lavender - 6 years (45,2 INCHES)",
+          "sku": "545421936-433-72",
+          "mpn": "545421936-433-72",
+          "color_name": "Blue / Lavender",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421936",
+          "images": [
+            "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Red - 1½ years (33,9 INCHES)",
+          "sku": "545421936-600-18",
+          "mpn": "545421936-600-18",
+          "color_name": "Red",
+          "size_name": "1½ years (33,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+          "images": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Red - 2 years (36,2 INCHES)",
+          "sku": "545421936-600-24",
+          "mpn": "545421936-600-24",
+          "color_name": "Red",
+          "size_name": "2 years (36,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+          "images": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Red - 3 years (38,6 INCHES)",
+          "sku": "545421936-600-36",
+          "mpn": "545421936-600-36",
+          "color_name": "Red",
+          "size_name": "3 years (38,6 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+          "images": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Red - 4 years (40,9 INCHES)",
+          "sku": "545421936-600-48",
+          "mpn": "545421936-600-48",
+          "color_name": "Red",
+          "size_name": "4 years (40,9 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+          "images": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Red - 5 years (43,3 INCHES)",
+          "sku": "545421936-600-60",
+          "mpn": "545421936-600-60",
+          "color_name": "Red",
+          "size_name": "5 years (43,3 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+          "images": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ]
+        },
+        {
+          "name": "TEXT PRINT T-SHIRT - Red - 6 years (45,2 INCHES)",
+          "sku": "545421936-600-72",
+          "mpn": "545421936-600-72",
+          "color_name": "Red",
+          "size_name": "6 years (45,2 INCHES)",
+          "price": "9.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/text-print-t-shirt-p01716317.html?v1=545421937",
+          "images": [
+            "https://static.zara.net/assets/public/66d2/bc3f/659b4d478861/bd1ac946db90/01716317600-e1/01716317600-e1.jpg?ts=1779369529823&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/354c/b410/b58f4efab7e7/0d2204e07e8e/01716317433-e1/01716317433-e1.jpg?ts=1779369533699&w=1920",
+        "https://static.zara.net/assets/public/50b4/06ce/75fb420e8a3d/393e81075cf4/01716317433-e2/01716317433-e2.jpg?ts=1779369534180&w=1920",
+        "https://static.zara.net/assets/public/22e1/cb2f/373f4ac0a9d7/79aef37565ec/01716317433-e3/01716317433-e3.jpg?ts=1779369534081&w=1920",
+        "https://static.zara.net/assets/public/ea1b/f5ce/182946bf8ca5/8402c0a0e27c/01716317433-e4/01716317433-e4.jpg?ts=1779369535188&w=1920",
+        "https://static.zara.net/assets/public/32c0/b0e6/a0284de29eb0/6409b71a79af/01716317433200-p/01716317433200-p.jpg?ts=1780927613724&w=1920",
+        "https://static.zara.net/assets/public/3a0a/5682/476a4d8e8223/258f326b7645/01716317433200-a1/01716317433200-a1.jpg?ts=1780927612227&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue / Lavender",
+    "Red"
+  ],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt. Front text print.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "9.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "9.90",
+    "dom_price": "9.90",
+    "normalized_price": "9.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6fdfe136f2bcf9b814a37260b1445626c8c17a025560688193549875dcbdea64",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

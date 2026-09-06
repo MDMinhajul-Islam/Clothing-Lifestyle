@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20330040",
+  "source_url": "https://www.zara.com/us/en/kids--eau-de-cologne-200-ml--6-76-fl-oz--p20330040.html",
+  "final_url": "https://www.zara.com/us/en/kids--eau-de-cologne-200-ml--6-76-fl-oz--p20330040.html",
+  "canonical_url": "https://www.zara.com/us/en/kids--eau-de-cologne-200-ml--6-76-fl-oz--p20330040.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KIDS EAU DE COLOGNE 200ML (6.76 FL OZ)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KIDS EAU DE COLOGNE 200ML (6.76 FL OZ)",
+      "url": "https://www.zara.com/us/en/kids--eau-de-cologne-200-ml--6-76-fl-oz--p20330040.html",
+      "productGroupID": "20330040",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A children’s fragrance with a fresh, light and pleasant scent, ideal for everyday use. Its gentle fragrance provides a refreshing sense of well-being, perfect for completing little ones’ daily routine.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/970a/90ee/c3724045b514/33767d77a6dd/20330040999-e1/20330040999-e1.jpg?ts=1788258919930&w=1920",
+        "https://static.zara.net/assets/public/a7aa/33ec/518f45a1a932/a3459434fbe2/20330040999-e2/20330040999-e2.jpg?ts=1788335958652&w=1920",
+        "https://static.zara.net/assets/public/93ee/cb4b/0a11485baa31/082d2f5fa14b/20330040999-e3/20330040999-e3.jpg?ts=1788258919249&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KIDS EAU DE COLOGNE 200ML (6.76 FL OZ) - ONE SIZE ONLY",
+          "sku": "545490905-999-99",
+          "mpn": "545490905-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/970a/90ee/c3724045b514/33767d77a6dd/20330040999-e1/20330040999-e1.jpg?ts=1788258919930&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/kids--eau-de-cologne-200-ml--6-76-fl-oz--p20330040.html?v1=545490905",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KIDS EAU DE COLOGNE 200ML (6.76 FL OZ)",
+      "product_group_id": "20330040",
+      "brand": "ZARA",
+      "description": "A children’s fragrance with a fresh, light and pleasant scent, ideal for everyday use. Its gentle fragrance provides a refreshing sense of well-being, perfect for completing little ones’ daily routine.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KIDS EAU DE COLOGNE 200ML (6.76 FL OZ) - ONE SIZE ONLY",
+          "sku": "545490905-999-99",
+          "mpn": "545490905-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/kids--eau-de-cologne-200-ml--6-76-fl-oz--p20330040.html?v1=545490905",
+          "images": [
+            "https://static.zara.net/assets/public/970a/90ee/c3724045b514/33767d77a6dd/20330040999-e1/20330040999-e1.jpg?ts=1788258919930&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/970a/90ee/c3724045b514/33767d77a6dd/20330040999-e1/20330040999-e1.jpg?ts=1788258919930&w=1920",
+        "https://static.zara.net/assets/public/a7aa/33ec/518f45a1a932/a3459434fbe2/20330040999-e2/20330040999-e2.jpg?ts=1788335958652&w=1920",
+        "https://static.zara.net/assets/public/93ee/cb4b/0a11485baa31/082d2f5fa14b/20330040999-e3/20330040999-e3.jpg?ts=1788258919249&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "15.90",
+  "rendered_description": "Description\nA children’s fragrance with a fresh, light and pleasant scent, ideal for everyday use. Its gentle fragrance provides a refreshing sense of well-being, perfect for completing little ones’ daily routine.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "15.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "15.90",
+    "dom_price": "15.90",
+    "normalized_price": "15.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7486dd4f006235023c7b710903c5c0417f957cff1869cff5f005abb231286f14",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,264 @@
+{
+  "product_id": "zara-us:03046288",
+  "source_url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html",
+  "final_url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html",
+  "canonical_url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PINSTRIPE PANTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PINSTRIPE PANTS",
+      "url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html",
+      "productGroupID": "03046288",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mid-rise ankle-length pants with front pleats. Features front pockets and faux welt pockets at the back. Front zip fly with an interior button and hook closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920",
+        "https://static.zara.net/assets/public/ff36/090d/71344ff6900a/c752f249d1da/03046288922-a1/03046288922-a1.jpg?ts=1788274108364&w=1920",
+        "https://static.zara.net/assets/public/b7ac/0a2c/8fe64cd494ff/106040c42146/03046288922-a2/03046288922-a2.jpg?ts=1788274107602&w=1920",
+        "https://static.zara.net/assets/public/181c/2a99/72524eb88038/62eb20770577/03046288922-a3/03046288922-a3.jpg?ts=1788274109546&w=1920",
+        "https://static.zara.net/assets/public/7452/deda/cade4a868748/3fbb9bc01470/03046288922-a4/03046288922-a4.jpg?ts=1788274108596&w=1920",
+        "https://static.zara.net/assets/public/1179/9b9e/7eac41d995e3/20c8af61a23a/03046288922-a5/03046288922-a5.jpg?ts=1788274109569&w=1920",
+        "https://static.zara.net/assets/public/d36d/1d2d/87c3461aaaef/25be319b55af/03046288922-e1/03046288922-e1.jpg?ts=1788522724854&w=1920",
+        "https://static.zara.net/assets/public/618b/e482/3eac43648f7a/4dac698ffd72/03046288922-e2/03046288922-e2.jpg?ts=1788522724842&w=1920",
+        "https://static.zara.net/assets/public/fdd4/6e86/5a1348ada2f0/810531fb02bb/03046288922-e3/03046288922-e3.jpg?ts=1788522725447&w=1920"
+      ],
+      "material": "polyester/viscose/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "64% polyester, 32% viscose, 4% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PINSTRIPE PANTS - Dark gray - XS",
+          "sku": "550533713-922-1",
+          "mpn": "550533713-922-1",
+          "color": "Dark gray",
+          "size": "XS",
+          "image": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PINSTRIPE PANTS - Dark gray - S",
+          "sku": "550533713-922-2",
+          "mpn": "550533713-922-2",
+          "color": "Dark gray",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PINSTRIPE PANTS - Dark gray - M",
+          "sku": "550533713-922-3",
+          "mpn": "550533713-922-3",
+          "color": "Dark gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PINSTRIPE PANTS - Dark gray - L",
+          "sku": "550533713-922-4",
+          "mpn": "550533713-922-4",
+          "color": "Dark gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PINSTRIPE PANTS - Dark gray - XL",
+          "sku": "550533713-922-5",
+          "mpn": "550533713-922-5",
+          "color": "Dark gray",
+          "size": "XL",
+          "image": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PINSTRIPE PANTS",
+      "product_group_id": "03046288",
+      "brand": "ZARA",
+      "description": "Mid-rise ankle-length pants with front pleats. Features front pockets and faux welt pockets at the back. Front zip fly with an interior button and hook closure.",
+      "material": "polyester/viscose/elastane",
+      "composition": "OUTER SHELL: 64% polyester, 32% viscose, 4% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PINSTRIPE PANTS - Dark gray - XS",
+          "sku": "550533713-922-1",
+          "mpn": "550533713-922-1",
+          "color_name": "Dark gray",
+          "size_name": "XS",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+          "images": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ]
+        },
+        {
+          "name": "PINSTRIPE PANTS - Dark gray - S",
+          "sku": "550533713-922-2",
+          "mpn": "550533713-922-2",
+          "color_name": "Dark gray",
+          "size_name": "S",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+          "images": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ]
+        },
+        {
+          "name": "PINSTRIPE PANTS - Dark gray - M",
+          "sku": "550533713-922-3",
+          "mpn": "550533713-922-3",
+          "color_name": "Dark gray",
+          "size_name": "M",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+          "images": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ]
+        },
+        {
+          "name": "PINSTRIPE PANTS - Dark gray - L",
+          "sku": "550533713-922-4",
+          "mpn": "550533713-922-4",
+          "color_name": "Dark gray",
+          "size_name": "L",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+          "images": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ]
+        },
+        {
+          "name": "PINSTRIPE PANTS - Dark gray - XL",
+          "sku": "550533713-922-5",
+          "mpn": "550533713-922-5",
+          "color_name": "Dark gray",
+          "size_name": "XL",
+          "price": "59.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pinstripe-pants-p03046288.html?v1=550533713",
+          "images": [
+            "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7f44/cf9d/ab33467cbf69/0f532f4a84d5/03046288922-p/03046288922-p.jpg?ts=1788274108315&w=1920",
+        "https://static.zara.net/assets/public/ff36/090d/71344ff6900a/c752f249d1da/03046288922-a1/03046288922-a1.jpg?ts=1788274108364&w=1920",
+        "https://static.zara.net/assets/public/b7ac/0a2c/8fe64cd494ff/106040c42146/03046288922-a2/03046288922-a2.jpg?ts=1788274107602&w=1920",
+        "https://static.zara.net/assets/public/181c/2a99/72524eb88038/62eb20770577/03046288922-a3/03046288922-a3.jpg?ts=1788274109546&w=1920",
+        "https://static.zara.net/assets/public/7452/deda/cade4a868748/3fbb9bc01470/03046288922-a4/03046288922-a4.jpg?ts=1788274108596&w=1920",
+        "https://static.zara.net/assets/public/1179/9b9e/7eac41d995e3/20c8af61a23a/03046288922-a5/03046288922-a5.jpg?ts=1788274109569&w=1920",
+        "https://static.zara.net/assets/public/d36d/1d2d/87c3461aaaef/25be319b55af/03046288922-e1/03046288922-e1.jpg?ts=1788522724854&w=1920",
+        "https://static.zara.net/assets/public/618b/e482/3eac43648f7a/4dac698ffd72/03046288922-e2/03046288922-e2.jpg?ts=1788522724842&w=1920",
+        "https://static.zara.net/assets/public/fdd4/6e86/5a1348ada2f0/810531fb02bb/03046288922-e3/03046288922-e3.jpg?ts=1788522725447&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nMid-rise ankle-length pants with front pleats. Features front pockets and faux welt pockets at the back. Front zip fly with an interior button and hook closure.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 9,
+  "variants_count": 5,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "49a93ac3b33d12aa92bbf236cda0b3ff1f330076cda2965f9862e08ba8dc68f3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

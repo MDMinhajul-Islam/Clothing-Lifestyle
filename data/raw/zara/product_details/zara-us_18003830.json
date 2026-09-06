@@ -1,0 +1,181 @@
+{
+  "product_id": "zara-us:18003830",
+  "source_url": "https://www.zara.com/us/en/bunny-slippers-p18003830.html",
+  "final_url": "https://www.zara.com/us/en/bunny-slippers-p18003830.html",
+  "canonical_url": "https://www.zara.com/us/en/bunny-slippers-p18003830.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BUNNY SLIPPERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BUNNY SLIPPERS",
+      "url": "https://www.zara.com/us/en/bunny-slippers-p18003830.html",
+      "productGroupID": "18003830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Bunny-design slippers with a soft faux-fur finish. Features a ribbed, sock-style cuff and a flexible sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1da8/512f/3d994b3a8500/32e98eac94a2/18895830700-e1/18895830700-e1.jpg?ts=1786521419852&w=1920",
+        "https://static.zara.net/assets/public/b198/937e/6783454b95e8/06d6efe7f504/18895830700-e2/18895830700-e2.jpg?ts=1786521419670&w=1920",
+        "https://static.zara.net/assets/public/260b/169f/a0194635b168/558fb07133b0/18895830700-e3/18895830700-e3.jpg?ts=1786521419718&w=1920",
+        "https://static.zara.net/assets/public/a80f/7358/6ab146ffb108/319d174554d1/18895830700-e4/18895830700-e4.jpg?ts=1786521420499&w=1920",
+        "https://static.zara.net/assets/public/244f/216d/3ae749ecbc90/9c75d9ce7822/18895830700-e5/18895830700-e5.jpg?ts=1786521420446&w=1920",
+        "https://static.zara.net/assets/public/1d52/1b87/5a7f4667aa73/eddc764b038f/18895830700-e6/18895830700-e6.jpg?ts=1786521420235&w=1920",
+        "https://static.zara.net/assets/public/6fad/1960/b57340f38f1d/79c6a7e979fe/18895830700-e7/18895830700-e7.jpg?ts=1786521420142&w=1920"
+      ],
+      "material": "polyester/cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "76% polyester, 24% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "60% polyester, 40% silicone"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BUNNY SLIPPERS - Off White - 1½ (3.8 INCHES)",
+          "sku": "545494779-002-16",
+          "mpn": "545494779-002-16",
+          "color": "Off White",
+          "size": "1½ (3.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1da8/512f/3d994b3a8500/32e98eac94a2/18895830700-e1/18895830700-e1.jpg?ts=1786521419852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/bunny-slippers-p18003830.html?v1=545494779",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BUNNY SLIPPERS - Off White - 3 (4.3 INCHES)",
+          "sku": "545494779-002-18",
+          "mpn": "545494779-002-18",
+          "color": "Off White",
+          "size": "3 (4.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1da8/512f/3d994b3a8500/32e98eac94a2/18895830700-e1/18895830700-e1.jpg?ts=1786521419852&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/bunny-slippers-p18003830.html?v1=545494779",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BUNNY SLIPPERS",
+      "product_group_id": "18003830",
+      "brand": "ZARA",
+      "description": "Bunny-design slippers with a soft faux-fur finish. Features a ribbed, sock-style cuff and a flexible sole.",
+      "material": "polyester/cotton",
+      "composition": "UPPER: 76% polyester, 24% cotton | LINING: 100% polyester | SOLE: 60% polyester, 40% silicone | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BUNNY SLIPPERS - Off White - 1½ (3.8 INCHES)",
+          "sku": "545494779-002-16",
+          "mpn": "545494779-002-16",
+          "color_name": "Off White",
+          "size_name": "1½ (3.8 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bunny-slippers-p18003830.html?v1=545494779",
+          "images": [
+            "https://static.zara.net/assets/public/1da8/512f/3d994b3a8500/32e98eac94a2/18895830700-e1/18895830700-e1.jpg?ts=1786521419852&w=1920"
+          ]
+        },
+        {
+          "name": "BUNNY SLIPPERS - Off White - 3 (4.3 INCHES)",
+          "sku": "545494779-002-18",
+          "mpn": "545494779-002-18",
+          "color_name": "Off White",
+          "size_name": "3 (4.3 INCHES)",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bunny-slippers-p18003830.html?v1=545494779",
+          "images": [
+            "https://static.zara.net/assets/public/1da8/512f/3d994b3a8500/32e98eac94a2/18895830700-e1/18895830700-e1.jpg?ts=1786521419852&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1da8/512f/3d994b3a8500/32e98eac94a2/18895830700-e1/18895830700-e1.jpg?ts=1786521419852&w=1920",
+        "https://static.zara.net/assets/public/b198/937e/6783454b95e8/06d6efe7f504/18895830700-e2/18895830700-e2.jpg?ts=1786521419670&w=1920",
+        "https://static.zara.net/assets/public/260b/169f/a0194635b168/558fb07133b0/18895830700-e3/18895830700-e3.jpg?ts=1786521419718&w=1920",
+        "https://static.zara.net/assets/public/a80f/7358/6ab146ffb108/319d174554d1/18895830700-e4/18895830700-e4.jpg?ts=1786521420499&w=1920",
+        "https://static.zara.net/assets/public/244f/216d/3ae749ecbc90/9c75d9ce7822/18895830700-e5/18895830700-e5.jpg?ts=1786521420446&w=1920",
+        "https://static.zara.net/assets/public/1d52/1b87/5a7f4667aa73/eddc764b038f/18895830700-e6/18895830700-e6.jpg?ts=1786521420235&w=1920",
+        "https://static.zara.net/assets/public/6fad/1960/b57340f38f1d/79c6a7e979fe/18895830700-e7/18895830700-e7.jpg?ts=1786521420142&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nBunny-design slippers with a soft faux-fur finish. Features a ribbed, sock-style cuff and a flexible sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6aec4bddac537cdaca8fd1e570442c12ea2395094c0aa7a3a318450c509bd415",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,195 @@
+{
+  "product_id": "zara-us:05063837",
+  "source_url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html",
+  "final_url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html",
+  "canonical_url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "VELVET PRINT PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "VELVET PRINT PANTS",
+      "url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html",
+      "productGroupID": "05063837",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mid-rise pants with an elastic waistband. Features a floral print and wide legs.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6d75/2604/44f64ed4abe7/5910aeccfae5/05063837054-p/05063837054-p.jpg?ts=1788512010500&w=1920",
+        "https://static.zara.net/assets/public/4b1d/ea01/97ef4ee5b98b/958b32bde9b3/05063837054-a1/05063837054-a1.jpg?ts=1788512010122&w=1920",
+        "https://static.zara.net/assets/public/3c11/048c/1fe14404bf99/6ac217312729/05063837054-a2/05063837054-a2.jpg?ts=1788512009687&w=1920",
+        "https://static.zara.net/assets/public/661b/3741/d45947d7907e/cd6567498a88/05063837054-a3/05063837054-a3.jpg?ts=1788512010322&w=1920",
+        "https://static.zara.net/assets/public/9561/02f3/50d540f6ab12/c096bbab3820/05063837054-e1/05063837054-e1.jpg?ts=1788519876246&w=1920",
+        "https://static.zara.net/assets/public/990c/f04c/c8b944c5b0e1/07acf8838df0/05063837054-e2/05063837054-e2.jpg?ts=1788519876460&w=1920",
+        "https://static.zara.net/assets/public/d1fd/f098/1d8d49f3845e/1219db3057fa/05063837054-e3/05063837054-e3.jpg?ts=1788519876254&w=1920"
+      ],
+      "material": "polyester/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "93% polyester, 7% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "VELVET PRINT PANTS - Brown / Green - S",
+          "sku": "557788513-054-2",
+          "mpn": "557788513-054-2",
+          "color": "Brown / Green",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/6d75/2604/44f64ed4abe7/5910aeccfae5/05063837054-p/05063837054-p.jpg?ts=1788512010500&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html?v1=557788513",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VELVET PRINT PANTS - Brown / Green - M",
+          "sku": "557788513-054-3",
+          "mpn": "557788513-054-3",
+          "color": "Brown / Green",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/6d75/2604/44f64ed4abe7/5910aeccfae5/05063837054-p/05063837054-p.jpg?ts=1788512010500&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html?v1=557788513",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "VELVET PRINT PANTS - Brown / Green - L",
+          "sku": "557788513-054-4",
+          "mpn": "557788513-054-4",
+          "color": "Brown / Green",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/6d75/2604/44f64ed4abe7/5910aeccfae5/05063837054-p/05063837054-p.jpg?ts=1788512010500&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html?v1=557788513",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "VELVET PRINT PANTS",
+      "product_group_id": "05063837",
+      "brand": "ZARA",
+      "description": "Mid-rise pants with an elastic waistband. Features a floral print and wide legs.",
+      "material": "polyester/elastane",
+      "composition": "OUTER SHELL: 93% polyester, 7% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "VELVET PRINT PANTS - Brown / Green - S",
+          "sku": "557788513-054-2",
+          "mpn": "557788513-054-2",
+          "color_name": "Brown / Green",
+          "size_name": "S",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html?v1=557788513",
+          "images": [
+            "https://static.zara.net/assets/public/6d75/2604/44f64ed4abe7/5910aeccfae5/05063837054-p/05063837054-p.jpg?ts=1788512010500&w=1920"
+          ]
+        },
+        {
+          "name": "VELVET PRINT PANTS - Brown / Green - M",
+          "sku": "557788513-054-3",
+          "mpn": "557788513-054-3",
+          "color_name": "Brown / Green",
+          "size_name": "M",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html?v1=557788513",
+          "images": [
+            "https://static.zara.net/assets/public/6d75/2604/44f64ed4abe7/5910aeccfae5/05063837054-p/05063837054-p.jpg?ts=1788512010500&w=1920"
+          ]
+        },
+        {
+          "name": "VELVET PRINT PANTS - Brown / Green - L",
+          "sku": "557788513-054-4",
+          "mpn": "557788513-054-4",
+          "color_name": "Brown / Green",
+          "size_name": "L",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/floral-print-velvet-pants-p05063837.html?v1=557788513",
+          "images": [
+            "https://static.zara.net/assets/public/6d75/2604/44f64ed4abe7/5910aeccfae5/05063837054-p/05063837054-p.jpg?ts=1788512010500&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6d75/2604/44f64ed4abe7/5910aeccfae5/05063837054-p/05063837054-p.jpg?ts=1788512010500&w=1920",
+        "https://static.zara.net/assets/public/4b1d/ea01/97ef4ee5b98b/958b32bde9b3/05063837054-a1/05063837054-a1.jpg?ts=1788512010122&w=1920",
+        "https://static.zara.net/assets/public/3c11/048c/1fe14404bf99/6ac217312729/05063837054-a2/05063837054-a2.jpg?ts=1788512009687&w=1920",
+        "https://static.zara.net/assets/public/661b/3741/d45947d7907e/cd6567498a88/05063837054-a3/05063837054-a3.jpg?ts=1788512010322&w=1920",
+        "https://static.zara.net/assets/public/9561/02f3/50d540f6ab12/c096bbab3820/05063837054-e1/05063837054-e1.jpg?ts=1788519876246&w=1920",
+        "https://static.zara.net/assets/public/990c/f04c/c8b944c5b0e1/07acf8838df0/05063837054-e2/05063837054-e2.jpg?ts=1788519876460&w=1920",
+        "https://static.zara.net/assets/public/d1fd/f098/1d8d49f3845e/1219db3057fa/05063837054-e3/05063837054-e3.jpg?ts=1788519876254&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nMid-rise pants with an elastic waistband. Features a floral print and wide legs.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0c5981376a4efc61203a903320660cf9a39ebc13e7fc3a6202db7bdf01f95aa8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

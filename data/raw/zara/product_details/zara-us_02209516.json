@@ -1,0 +1,190 @@
+{
+  "product_id": "zara-us:02209516",
+  "source_url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html",
+  "final_url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html",
+  "canonical_url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html",
+  "enriched_at": "2026-09-06T19:20:30.031593+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "KNIT BONNET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "KNIT BONNET",
+      "url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html",
+      "productGroupID": "02209516",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Knit bonnet with front ties.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a9c4/f1ce/d2d34821815d/02934b229d64/02209516406-e1/02209516406-e1.jpg?ts=1780657722477&w=1920",
+        "https://static.zara.net/assets/public/68ff/107d/e89d4c458ec3/1a792575c599/02209516406-e2/02209516406-e2.jpg?ts=1780657722666&w=1920",
+        "https://static.zara.net/assets/public/e0b8/4cc0/a6794d5f97d2/886ea77aadaa/02209516406-e3/02209516406-e3.jpg?ts=1780657722819&w=1920",
+        "https://static.zara.net/assets/public/d4eb/5db8/d2e1434bb6bf/6dc273ba230d/02209516406-e5/02209516406-e5.jpg?ts=1780657722432&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "KNIT BONNET - Light blue - 0-3 months",
+          "sku": "545437272-406-38",
+          "mpn": "545437272-406-38",
+          "color": "Light blue",
+          "size": "0-3 months",
+          "image": [
+            "https://static.zara.net/assets/public/a9c4/f1ce/d2d34821815d/02934b229d64/02209516406-e1/02209516406-e1.jpg?ts=1780657722477&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html?v1=545437272",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KNIT BONNET - Light blue - 3-6 months",
+          "sku": "545437272-406-43",
+          "mpn": "545437272-406-43",
+          "color": "Light blue",
+          "size": "3-6 months",
+          "image": [
+            "https://static.zara.net/assets/public/a9c4/f1ce/d2d34821815d/02934b229d64/02209516406-e1/02209516406-e1.jpg?ts=1780657722477&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html?v1=545437272",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "KNIT BONNET - Light blue - 6-12 months",
+          "sku": "545437272-406-46",
+          "mpn": "545437272-406-46",
+          "color": "Light blue",
+          "size": "6-12 months",
+          "image": [
+            "https://static.zara.net/assets/public/a9c4/f1ce/d2d34821815d/02934b229d64/02209516406-e1/02209516406-e1.jpg?ts=1780657722477&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html?v1=545437272",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "KNIT BONNET",
+      "product_group_id": "02209516",
+      "brand": "ZARA",
+      "description": "Knit bonnet with front ties.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "KNIT BONNET - Light blue - 0-3 months",
+          "sku": "545437272-406-38",
+          "mpn": "545437272-406-38",
+          "color_name": "Light blue",
+          "size_name": "0-3 months",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html?v1=545437272",
+          "images": [
+            "https://static.zara.net/assets/public/a9c4/f1ce/d2d34821815d/02934b229d64/02209516406-e1/02209516406-e1.jpg?ts=1780657722477&w=1920"
+          ]
+        },
+        {
+          "name": "KNIT BONNET - Light blue - 3-6 months",
+          "sku": "545437272-406-43",
+          "mpn": "545437272-406-43",
+          "color_name": "Light blue",
+          "size_name": "3-6 months",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html?v1=545437272",
+          "images": [
+            "https://static.zara.net/assets/public/a9c4/f1ce/d2d34821815d/02934b229d64/02209516406-e1/02209516406-e1.jpg?ts=1780657722477&w=1920"
+          ]
+        },
+        {
+          "name": "KNIT BONNET - Light blue - 6-12 months",
+          "sku": "545437272-406-46",
+          "mpn": "545437272-406-46",
+          "color_name": "Light blue",
+          "size_name": "6-12 months",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/knit-bonnet-p02209516.html?v1=545437272",
+          "images": [
+            "https://static.zara.net/assets/public/a9c4/f1ce/d2d34821815d/02934b229d64/02209516406-e1/02209516406-e1.jpg?ts=1780657722477&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a9c4/f1ce/d2d34821815d/02934b229d64/02209516406-e1/02209516406-e1.jpg?ts=1780657722477&w=1920",
+        "https://static.zara.net/assets/public/68ff/107d/e89d4c458ec3/1a792575c599/02209516406-e2/02209516406-e2.jpg?ts=1780657722666&w=1920",
+        "https://static.zara.net/assets/public/e0b8/4cc0/a6794d5f97d2/886ea77aadaa/02209516406-e3/02209516406-e3.jpg?ts=1780657722819&w=1920",
+        "https://static.zara.net/assets/public/d4eb/5db8/d2e1434bb6bf/6dc273ba230d/02209516406-e5/02209516406-e5.jpg?ts=1780657722432&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "19.90",
+  "rendered_description": "Description\nKnit bonnet with front ties.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 4,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "19.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "19.90",
+    "dom_price": "19.90",
+    "normalized_price": "19.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1fde221d854ed236000963cc2f5748150a9c1bc1aee6cc29804a37c6dd509103",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
