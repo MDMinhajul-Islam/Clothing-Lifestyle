@@ -1,0 +1,106 @@
+{
+  "product_id": "zara-us:24290105",
+  "source_product_id": "24290105",
+  "source_url": "https://www.zara.com/us/en/freckle-pen-eyeliner-duo-p24290105.html",
+  "final_url": "https://www.zara.com/us/en/freckle-pen-eyeliner-duo-p24290105.html",
+  "canonical_url": "https://www.zara.com/us/en/freckle-pen-eyeliner-duo-p24290105.html",
+  "retrieved_at": "2026-09-06T08:36:56.288421+00:00",
+  "http_status": 200,
+  "page_title": "FRECKLE PEN + EYELINER DUO - BROWN | ZARA United States",
+  "headings": [
+    "FRECKLE PEN + EYELINER DUO",
+    "Add to cart",
+    "Description",
+    "COMPLETE YOUR LOOK",
+    "Footer",
+    "Privacy Preference Center",
+    "HELLO,"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FRECKLE PEN + EYELINER DUO",
+      "url": "https://www.zara.com/us/en/freckle-pen-eyeliner-duo-p24290105.html",
+      "productGroupID": "24290105",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Liquid freckle pen and eyeliner. This 2-in-1 tool is easy to carry. The 5-point tip varies slightly in height and thickness, allowing you to create highly realistic freckles in various sizes and colors. The freckle cushion applies makeup quickly for a more natural-looking finish. The eyeliner features an ultra-precise, fine tip that ensures flawless control and definition during application. Its brown formula glides on smoothly, creating defined lines with ease and a natural look.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4286/0bd2/53ed4a0ebe65/857a1b5747d6/24290105592-e1/24290105592-e1.jpg?ts=1751354720843&w=1920",
+        "https://static.zara.net/assets/public/7800/9387/ef734d9fa96e/f17f4ee22eca/24290105592-e2/24290105592-e2.jpg?ts=1745579869227&w=1920",
+        "https://static.zara.net/assets/public/d182/675d/d91e4ae48660/8d921ac99444/24290105592-e3/24290105592-e3.jpg?ts=1745579868924&w=1920",
+        "https://static.zara.net/assets/public/a74d/7e6d/51bb4c1f9178/0f9ef745c8af/24290105592-e1/24290105592-e1.jpg?ts=1751354674146&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FRECKLE PEN + EYELINER DUO - BROWN - ONE SIZE ONLY",
+          "sku": "545454647-592-99",
+          "mpn": "545454647-592-99",
+          "color": "BROWN",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/4286/0bd2/53ed4a0ebe65/857a1b5747d6/24290105592-e1/24290105592-e1.jpg?ts=1751354720843&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/freckle-pen-eyeliner-duo-p24290105.html?v1=545454647",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FRECKLE PEN + EYELINER DUO",
+      "product_group_id": "24290105",
+      "brand": "ZARA",
+      "description": "Liquid freckle pen and eyeliner. This 2-in-1 tool is easy to carry. The 5-point tip varies slightly in height and thickness, allowing you to create highly realistic freckles in various sizes and colors. The freckle cushion applies makeup quickly for a more natural-looking finish. The eyeliner features an ultra-precise, fine tip that ensures flawless control and definition during application. Its brown formula glides on smoothly, creating defined lines with ease and a natural look.",
+      "material": null,
+      "composition": null,
+      "images": [
+        "https://static.zara.net/assets/public/4286/0bd2/53ed4a0ebe65/857a1b5747d6/24290105592-e1/24290105592-e1.jpg?ts=1751354720843&w=1920",
+        "https://static.zara.net/assets/public/7800/9387/ef734d9fa96e/f17f4ee22eca/24290105592-e2/24290105592-e2.jpg?ts=1745579869227&w=1920",
+        "https://static.zara.net/assets/public/d182/675d/d91e4ae48660/8d921ac99444/24290105592-e3/24290105592-e3.jpg?ts=1745579868924&w=1920",
+        "https://static.zara.net/assets/public/a74d/7e6d/51bb4c1f9178/0f9ef745c8af/24290105592-e1/24290105592-e1.jpg?ts=1751354674146&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "FRECKLE PEN + EYELINER DUO - BROWN - ONE SIZE ONLY",
+          "sku": "545454647-592-99",
+          "mpn": "545454647-592-99",
+          "color_name": "BROWN",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/freckle-pen-eyeliner-duo-p24290105.html?v1=545454647",
+          "images": [
+            "https://static.zara.net/assets/public/4286/0bd2/53ed4a0ebe65/857a1b5747d6/24290105592-e1/24290105592-e1.jpg?ts=1751354720843&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\n\nLiquid freckle pen and eyeliner. This 2-in-1 tool is easy to carry. The 5-point tip varies slightly in height and thickness, allowing you to create highly realistic freckles in various sizes and colors. The freckle cushion applies makeup quickly for a more natural-looking finish. The eyeliner features an ultra-precise, fine tip that ensures flawless control and definition during application. Its brown formula glides on smoothly, creating defined lines with ease and a natural look.\n\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 78,
+  "valid_images_count": 67,
+  "variants_count": 1,
+  "colors_count": 1,
+  "source_content_hash": "a382c5beb86f74a223d444dbb13384c48e56427d2b1ff1e618679d80ba9baf01",
+  "parser_version": "phase_1c_v1.0"
+}

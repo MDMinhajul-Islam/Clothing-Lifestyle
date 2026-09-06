@@ -1,0 +1,105 @@
+{
+  "product_id": "zara-us:24210301",
+  "source_product_id": "24210301",
+  "source_url": "https://www.zara.com/us/en/gloss-lipstick---glossy-twist-p24210301.html",
+  "final_url": "https://www.zara.com/us/en/gloss-lipstick---glossy-twist-p24210301.html",
+  "canonical_url": "https://www.zara.com/us/en/gloss-lipstick---glossy-twist-p24210301.html",
+  "retrieved_at": "2026-09-06T08:37:02.104059+00:00",
+  "http_status": 200,
+  "page_title": "GLOSS LIPSTICK - GLOSSY TWIST - TOFFEE | ZARA United States",
+  "headings": [
+    "GLOSS LIPSTICK - GLOSSY TWIST",
+    "Add to cart",
+    "Description",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GLOSS LIPSTICK - GLOSSY TWIST",
+      "url": "https://www.zara.com/us/en/gloss-lipstick---glossy-twist-p24210301.html",
+      "productGroupID": "24210301",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Twist, apply and glow! A comfortable lip balm with soft color pigments. A transformative gloss texture and a melting sensoriality that provides a super glow look to your lips.\n\nAvailable in 4 shades.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d29c/1aa8/ed7848beb797/e0367e711439/24210302187-e1/24210302187-e1.jpg?ts=1751289532252&w=1920",
+        "https://static.zara.net/assets/public/4556/fae9/12a04a2e96f8/468b99d8f4bb/24210302187-p/24210302187-p.jpg?ts=1731067359981&w=1920",
+        "https://static.zara.net/assets/public/90da/fc0c/cb9f492fb935/b1756efd1719/24210302187-a1/24210302187-a1.jpg?ts=1730623843987&w=1920",
+        "https://static.zara.net/assets/public/5115/a156/c6ef4d9bbd05/4e24c49c37f9/24210302187-e4/24210302187-e4.jpg?ts=1730623844023&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GLOSS LIPSTICK - GLOSSY TWIST - TOFFEE - ONE SIZE ONLY",
+          "sku": "559692940-187-99",
+          "mpn": "559692940-187-99",
+          "color": "TOFFEE",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d29c/1aa8/ed7848beb797/e0367e711439/24210302187-e1/24210302187-e1.jpg?ts=1751289532252&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/gloss-lipstick---glossy-twist-p24210301.html?v1=559692940",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GLOSS LIPSTICK - GLOSSY TWIST",
+      "product_group_id": "24210301",
+      "brand": "ZARA",
+      "description": "Twist, apply and glow! A comfortable lip balm with soft color pigments. A transformative gloss texture and a melting sensoriality that provides a super glow look to your lips.\n\nAvailable in 4 shades.",
+      "material": null,
+      "composition": null,
+      "images": [
+        "https://static.zara.net/assets/public/d29c/1aa8/ed7848beb797/e0367e711439/24210302187-e1/24210302187-e1.jpg?ts=1751289532252&w=1920",
+        "https://static.zara.net/assets/public/4556/fae9/12a04a2e96f8/468b99d8f4bb/24210302187-p/24210302187-p.jpg?ts=1731067359981&w=1920",
+        "https://static.zara.net/assets/public/90da/fc0c/cb9f492fb935/b1756efd1719/24210302187-a1/24210302187-a1.jpg?ts=1730623843987&w=1920",
+        "https://static.zara.net/assets/public/5115/a156/c6ef4d9bbd05/4e24c49c37f9/24210302187-e4/24210302187-e4.jpg?ts=1730623844023&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "GLOSS LIPSTICK - GLOSSY TWIST - TOFFEE - ONE SIZE ONLY",
+          "sku": "559692940-187-99",
+          "mpn": "559692940-187-99",
+          "color_name": "TOFFEE",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/gloss-lipstick---glossy-twist-p24210301.html?v1=559692940",
+          "images": [
+            "https://static.zara.net/assets/public/d29c/1aa8/ed7848beb797/e0367e711439/24210302187-e1/24210302187-e1.jpg?ts=1751289532252&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\n\nTwist, apply and glow! A comfortable lip balm with soft color pigments. A transformative gloss texture and a melting sensoriality that provides a super glow look to your lips.\n\nAvailable in 4 shades.",
+  "comp_care_text": null,
+  "raw_images_count": 80,
+  "valid_images_count": 66,
+  "variants_count": 1,
+  "colors_count": 1,
+  "source_content_hash": "7f4c4414b9ad5774a3d9ee68f8ef048740417c30635dbe96721549d1b811e322",
+  "parser_version": "phase_1c_v1.0"
+}
