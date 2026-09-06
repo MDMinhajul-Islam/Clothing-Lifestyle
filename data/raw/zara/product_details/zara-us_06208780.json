@@ -1,0 +1,285 @@
+{
+  "product_id": "zara-us:06208780",
+  "source_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html",
+  "final_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html",
+  "canonical_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PRINTED T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PRINTED T-SHIRT",
+      "url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html",
+      "productGroupID": "06208780",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck T-shirt with short sleeves. Front and back print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920",
+        "https://static.zara.net/assets/public/fcf5/3b2c/09784ad4851c/d7a607135a7f/06208780712-e2/06208780712-e2.jpg?ts=1783346662275&w=1920",
+        "https://static.zara.net/assets/public/e4d2/d296/cc4a406e9349/98137a994710/06208780712-e3/06208780712-e3.jpg?ts=1783346662256&w=1920",
+        "https://static.zara.net/assets/public/2882/fc2b/b0ac4f089661/30eff4e67577/06208780712-e4/06208780712-e4.jpg?ts=1783346662527&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Ecru - 6-7 years (48,0 INCHES)",
+          "sku": "549262320-712-7",
+          "mpn": "549262320-712-7",
+          "color": "Ecru",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Ecru - 7-8 years (50,4 INCHES)",
+          "sku": "549262320-712-8",
+          "mpn": "549262320-712-8",
+          "color": "Ecru",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Ecru - 8-9 years (52,7 INCHES)",
+          "sku": "549262320-712-9",
+          "mpn": "549262320-712-9",
+          "color": "Ecru",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Ecru - 9-10 years (55,1 INCHES)",
+          "sku": "549262320-712-10",
+          "mpn": "549262320-712-10",
+          "color": "Ecru",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Ecru - 11-12 years (59,8 INCHES)",
+          "sku": "549262320-712-12",
+          "mpn": "549262320-712-12",
+          "color": "Ecru",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Ecru - 13-14 years (64,6 INCHES)",
+          "sku": "549262320-712-14",
+          "mpn": "549262320-712-14",
+          "color": "Ecru",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PRINTED T-SHIRT",
+      "product_group_id": "06208780",
+      "brand": "ZARA",
+      "description": "Round neck T-shirt with short sleeves. Front and back print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PRINTED T-SHIRT - Ecru - 6-7 years (48,0 INCHES)",
+          "sku": "549262320-712-7",
+          "mpn": "549262320-712-7",
+          "color_name": "Ecru",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+          "images": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Ecru - 7-8 years (50,4 INCHES)",
+          "sku": "549262320-712-8",
+          "mpn": "549262320-712-8",
+          "color_name": "Ecru",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+          "images": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Ecru - 8-9 years (52,7 INCHES)",
+          "sku": "549262320-712-9",
+          "mpn": "549262320-712-9",
+          "color_name": "Ecru",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+          "images": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Ecru - 9-10 years (55,1 INCHES)",
+          "sku": "549262320-712-10",
+          "mpn": "549262320-712-10",
+          "color_name": "Ecru",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+          "images": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Ecru - 11-12 years (59,8 INCHES)",
+          "sku": "549262320-712-12",
+          "mpn": "549262320-712-12",
+          "color_name": "Ecru",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+          "images": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Ecru - 13-14 years (64,6 INCHES)",
+          "sku": "549262320-712-14",
+          "mpn": "549262320-712-14",
+          "color_name": "Ecru",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p06208780.html?v1=549262320",
+          "images": [
+            "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/795c/dadd/63c04535b391/4ef538216af3/06208780712-e1/06208780712-e1.jpg?ts=1783346662064&w=1920",
+        "https://static.zara.net/assets/public/fcf5/3b2c/09784ad4851c/d7a607135a7f/06208780712-e2/06208780712-e2.jpg?ts=1783346662275&w=1920",
+        "https://static.zara.net/assets/public/e4d2/d296/cc4a406e9349/98137a994710/06208780712-e3/06208780712-e3.jpg?ts=1783346662256&w=1920",
+        "https://static.zara.net/assets/public/2882/fc2b/b0ac4f089661/30eff4e67577/06208780712-e4/06208780712-e4.jpg?ts=1783346662527&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "15.90",
+  "rendered_description": "Description\nRound neck T-shirt with short sleeves. Front and back print.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "15.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "15.90",
+    "dom_price": "15.90",
+    "normalized_price": "15.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e6b5cfbc05b02d49dc7d0da3d711b265119b1d1323805563240d28040f567f7b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

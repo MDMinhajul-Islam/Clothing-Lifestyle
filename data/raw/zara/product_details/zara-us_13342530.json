@@ -1,0 +1,509 @@
+{
+  "product_id": "zara-us:13342530",
+  "source_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html",
+  "final_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html",
+  "canonical_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MESH SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MESH SNEAKERS",
+      "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html",
+      "productGroupID": "13342530",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sporty sneakers with metallic mesh details. Adjustable lace closure. Back pull tab for ease. Flexible insole. Rubber sole.\n\nSIZE 41: shoes available in size 41.\n\nSTARFIT®",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920",
+        "https://static.zara.net/assets/public/a376/f1b5/05014c8fa10c/b4241e1d8ab5/13342530001-e1/13342530001-e1.jpg?ts=1743435667962&w=1920",
+        "https://static.zara.net/assets/public/ce2b/42a2/15af493d8340/480eaae691d4/13342530001-e2/13342530001-e2.jpg?ts=1761231142071&w=1920",
+        "https://static.zara.net/assets/public/8b8f/f1a8/9a8d41a0aa01/12e08c6d3923/13342530001-e3/13342530001-e3.jpg?ts=1743435665577&w=1920",
+        "https://static.zara.net/assets/public/5497/aa87/0a5a4501886c/c66f58c35c7f/13342530001-e4/13342530001-e4.jpg?ts=1743435668841&w=1920",
+        "https://static.zara.net/assets/public/d922/8470/355a453fa05b/5d39ba90118c/13342530001-e5/13342530001-e5.jpg?ts=1743435665678&w=1920",
+        "https://static.zara.net/assets/public/03c7/9b73/9d004202bbfd/9bf6739df0cc/13342530001-e6/13342530001-e6.jpg?ts=1743435665524&w=1920",
+        "https://static.zara.net/assets/public/5a45/97e3/430546c2aaa5/312909f9bafa/13342530001-e7/13342530001-e7.jpg?ts=1743435665576&w=1920"
+      ],
+      "material": "polyurethane/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "65% polyurethane, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "75% polyester, 25% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "563265547-001-30",
+          "mpn": "563265547-001-30",
+          "color": "White",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "563265547-001-31",
+          "mpn": "563265547-001-31",
+          "color": "White",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "563265547-001-32",
+          "mpn": "563265547-001-32",
+          "color": "White",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "563265547-001-33",
+          "mpn": "563265547-001-33",
+          "color": "White",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "563265547-001-34",
+          "mpn": "563265547-001-34",
+          "color": "White",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "563265547-001-35",
+          "mpn": "563265547-001-35",
+          "color": "White",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "563265547-001-36",
+          "mpn": "563265547-001-36",
+          "color": "White",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "563265547-001-37",
+          "mpn": "563265547-001-37",
+          "color": "White",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "563265547-001-38",
+          "mpn": "563265547-001-38",
+          "color": "White",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "563265547-001-39",
+          "mpn": "563265547-001-39",
+          "color": "White",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "563265547-001-40",
+          "mpn": "563265547-001-40",
+          "color": "White",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - White - 7½ (10.3 INCHES)",
+          "sku": "563265547-001-41",
+          "mpn": "563265547-001-41",
+          "color": "White",
+          "size": "7½ (10.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MESH SNEAKERS",
+      "product_group_id": "13342530",
+      "brand": "ZARA",
+      "description": "Sporty sneakers with metallic mesh details. Adjustable lace closure. Back pull tab for ease. Flexible insole. Rubber sole.\n\nSIZE 41: shoes available in size 41.\n\nSTARFIT®",
+      "material": "polyurethane/polyester",
+      "composition": "UPPER: 65% polyurethane, 35% polyester | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 75% polyester, 25% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MESH SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "563265547-001-30",
+          "mpn": "563265547-001-30",
+          "color_name": "White",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "563265547-001-31",
+          "mpn": "563265547-001-31",
+          "color_name": "White",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "563265547-001-32",
+          "mpn": "563265547-001-32",
+          "color_name": "White",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "563265547-001-33",
+          "mpn": "563265547-001-33",
+          "color_name": "White",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "563265547-001-34",
+          "mpn": "563265547-001-34",
+          "color_name": "White",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "563265547-001-35",
+          "mpn": "563265547-001-35",
+          "color_name": "White",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "563265547-001-36",
+          "mpn": "563265547-001-36",
+          "color_name": "White",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "563265547-001-37",
+          "mpn": "563265547-001-37",
+          "color_name": "White",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "563265547-001-38",
+          "mpn": "563265547-001-38",
+          "color_name": "White",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "563265547-001-39",
+          "mpn": "563265547-001-39",
+          "color_name": "White",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "563265547-001-40",
+          "mpn": "563265547-001-40",
+          "color_name": "White",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - White - 7½ (10.3 INCHES)",
+          "sku": "563265547-001-41",
+          "mpn": "563265547-001-41",
+          "color_name": "White",
+          "size_name": "7½ (10.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p13342530.html?v1=563265547",
+          "images": [
+            "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ab97/e0fa/54834913b054/454649c5f8ac/T9591831182-p/T9591831182-p.jpg?ts=1750861647098&w=1920",
+        "https://static.zara.net/assets/public/a376/f1b5/05014c8fa10c/b4241e1d8ab5/13342530001-e1/13342530001-e1.jpg?ts=1743435667962&w=1920",
+        "https://static.zara.net/assets/public/ce2b/42a2/15af493d8340/480eaae691d4/13342530001-e2/13342530001-e2.jpg?ts=1761231142071&w=1920",
+        "https://static.zara.net/assets/public/8b8f/f1a8/9a8d41a0aa01/12e08c6d3923/13342530001-e3/13342530001-e3.jpg?ts=1743435665577&w=1920",
+        "https://static.zara.net/assets/public/5497/aa87/0a5a4501886c/c66f58c35c7f/13342530001-e4/13342530001-e4.jpg?ts=1743435668841&w=1920",
+        "https://static.zara.net/assets/public/d922/8470/355a453fa05b/5d39ba90118c/13342530001-e5/13342530001-e5.jpg?ts=1743435665678&w=1920",
+        "https://static.zara.net/assets/public/03c7/9b73/9d004202bbfd/9bf6739df0cc/13342530001-e6/13342530001-e6.jpg?ts=1743435665524&w=1920",
+        "https://static.zara.net/assets/public/5a45/97e3/430546c2aaa5/312909f9bafa/13342530001-e7/13342530001-e7.jpg?ts=1743435665576&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nSporty sneakers with metallic mesh details. Adjustable lace closure. Back pull tab for ease. Flexible insole. Rubber sole.\nSIZE 41: shoes available in size 41.\nSTARFIT®",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 12,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "32bac487720d7ecd89c80a656944ba114da90966ebb434a1193b4f2c8541c731",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

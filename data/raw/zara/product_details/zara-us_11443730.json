@@ -1,0 +1,136 @@
+{
+  "product_id": "zara-us:11443730",
+  "source_url": "https://www.zara.com/us/en/psg--toiletry-bag-p11443730.html",
+  "final_url": "https://www.zara.com/us/en/psg--toiletry-bag-p11443730.html",
+  "canonical_url": "https://www.zara.com/us/en/psg--toiletry-bag-p11443730.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PSG® TOILETRY BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PSG® TOILETRY BAG",
+      "url": "https://www.zara.com/us/en/psg--toiletry-bag-p11443730.html",
+      "productGroupID": "11443730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "PSG® toiletry bag with contrasting color design and graphic detail on the front. Features a main compartment and a front pocket with zip closure and a side handle.\n\n\n\n\n\nHeight x Length x Width: 5.9 x 11.4 x 3.9 inches (15 x 29 x 10 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9786/464a/fd704f8295b0/3bf94e2b7ac0/11443730400-e1/11443730400-e1.jpg?ts=1778772541556&w=1920",
+        "https://static.zara.net/assets/public/51be/e7e8/f375434a8b3e/66ff3e2e13b7/11443730400-e2/11443730400-e2.jpg?ts=1778772543078&w=1920",
+        "https://static.zara.net/assets/public/40cb/7f1f/8c8440a6ae6c/5967310af185/11443730400-e3/11443730400-e3.jpg?ts=1778772544482&w=1920",
+        "https://static.zara.net/assets/public/52aa/636e/c5d54942a8d7/f5d711a8a848/11443730400-e4/11443730400-e4.jpg?ts=1778772544751&w=1920",
+        "https://static.zara.net/assets/public/e0a0/31a6/633b45c69954/165abc1c51f7/11443730400-e5/11443730400-e5.jpg?ts=1778772544372&w=1920",
+        "https://static.zara.net/assets/public/0c2e/3b89/629e4f23997c/036b54e28bf0/11443730400-e6/11443730400-e6.jpg?ts=1778772544509&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PSG® TOILETRY BAG - Blue - ONE SIZE ONLY",
+          "sku": "545496399-400-53",
+          "mpn": "545496399-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/9786/464a/fd704f8295b0/3bf94e2b7ac0/11443730400-e1/11443730400-e1.jpg?ts=1778772541556&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/psg--toiletry-bag-p11443730.html?v1=545496399",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PSG® TOILETRY BAG",
+      "product_group_id": "11443730",
+      "brand": "ZARA",
+      "description": "PSG® toiletry bag with contrasting color design and graphic detail on the front. Features a main compartment and a front pocket with zip closure and a side handle.\n\n\n\n\n\nHeight x Length x Width: 5.9 x 11.4 x 3.9 inches (15 x 29 x 10 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PSG® TOILETRY BAG - Blue - ONE SIZE ONLY",
+          "sku": "545496399-400-53",
+          "mpn": "545496399-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/psg--toiletry-bag-p11443730.html?v1=545496399",
+          "images": [
+            "https://static.zara.net/assets/public/9786/464a/fd704f8295b0/3bf94e2b7ac0/11443730400-e1/11443730400-e1.jpg?ts=1778772541556&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9786/464a/fd704f8295b0/3bf94e2b7ac0/11443730400-e1/11443730400-e1.jpg?ts=1778772541556&w=1920",
+        "https://static.zara.net/assets/public/51be/e7e8/f375434a8b3e/66ff3e2e13b7/11443730400-e2/11443730400-e2.jpg?ts=1778772543078&w=1920",
+        "https://static.zara.net/assets/public/40cb/7f1f/8c8440a6ae6c/5967310af185/11443730400-e3/11443730400-e3.jpg?ts=1778772544482&w=1920",
+        "https://static.zara.net/assets/public/52aa/636e/c5d54942a8d7/f5d711a8a848/11443730400-e4/11443730400-e4.jpg?ts=1778772544751&w=1920",
+        "https://static.zara.net/assets/public/e0a0/31a6/633b45c69954/165abc1c51f7/11443730400-e5/11443730400-e5.jpg?ts=1778772544372&w=1920",
+        "https://static.zara.net/assets/public/0c2e/3b89/629e4f23997c/036b54e28bf0/11443730400-e6/11443730400-e6.jpg?ts=1778772544509&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nPSG® toiletry bag with contrasting color design and graphic detail on the front. Features a main compartment and a front pocket with zip closure and a side handle.\nHeight x Length x Width: 5.9 x 11.4 x 3.9 inches (15 x 29 x 10 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "1c88afa429f4067b8c06afac346526cce2ff523f6f8e9ea94bd4cb626d7766b5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

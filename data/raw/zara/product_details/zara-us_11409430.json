@@ -1,0 +1,124 @@
+{
+  "product_id": "zara-us:11409430",
+  "source_url": "https://www.zara.com/us/en/backpack-cart-p11409430.html",
+  "final_url": "https://www.zara.com/us/en/backpack-cart-p11409430.html",
+  "canonical_url": "https://www.zara.com/us/en/backpack-cart-p11409430.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BACKPACK CART",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BACKPACK CART",
+      "url": "https://www.zara.com/us/en/backpack-cart-p11409430.html",
+      "productGroupID": "11409430",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Wheeled cart for back to school backpack. Has three wheels and is very lightweight with adjustable height strap. \n\n- Backpack not included.\n\nHeight x Length x Width: 35.4 x 13.8 x 7.9 inches (90 x 35 x 20 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e69d/17c2/91414d969f1c/53774279afe9/11409430800-e1/11409430800-e1.jpg?ts=1738256166045&w=1920",
+        "https://static.zara.net/assets/public/0be0/a0c5/64714ad5bcae/9a1640ce103d/11409430800-e2/11409430800-e2.jpg?ts=1738256165792&w=1920",
+        "https://static.zara.net/assets/public/e4c6/9e4d/14e741919cd5/71ac121a7c4c/11409430800-e3/11409430800-e3.jpg?ts=1738256165808&w=1920",
+        "https://static.zara.net/assets/public/62cf/1002/6fc948968791/092ab5b5b7fb/11409430800-e5/11409430800-e5.jpg?ts=1738256161300&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BACKPACK CART - Black - ONE SIZE ONLY",
+          "sku": "545475094-800-53",
+          "mpn": "545475094-800-53",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e69d/17c2/91414d969f1c/53774279afe9/11409430800-e1/11409430800-e1.jpg?ts=1738256166045&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/backpack-cart-p11409430.html?v1=545475094",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BACKPACK CART",
+      "product_group_id": "11409430",
+      "brand": "ZARA",
+      "description": "Wheeled cart for back to school backpack. Has three wheels and is very lightweight with adjustable height strap. \n\n- Backpack not included.\n\nHeight x Length x Width: 35.4 x 13.8 x 7.9 inches (90 x 35 x 20 cm)",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BACKPACK CART - Black - ONE SIZE ONLY",
+          "sku": "545475094-800-53",
+          "mpn": "545475094-800-53",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/backpack-cart-p11409430.html?v1=545475094",
+          "images": [
+            "https://static.zara.net/assets/public/e69d/17c2/91414d969f1c/53774279afe9/11409430800-e1/11409430800-e1.jpg?ts=1738256166045&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e69d/17c2/91414d969f1c/53774279afe9/11409430800-e1/11409430800-e1.jpg?ts=1738256166045&w=1920",
+        "https://static.zara.net/assets/public/0be0/a0c5/64714ad5bcae/9a1640ce103d/11409430800-e2/11409430800-e2.jpg?ts=1738256165792&w=1920",
+        "https://static.zara.net/assets/public/e4c6/9e4d/14e741919cd5/71ac121a7c4c/11409430800-e3/11409430800-e3.jpg?ts=1738256165808&w=1920",
+        "https://static.zara.net/assets/public/62cf/1002/6fc948968791/092ab5b5b7fb/11409430800-e5/11409430800-e5.jpg?ts=1738256161300&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nWheeled cart for back to school backpack. Has three wheels and is very lightweight with adjustable height strap.\n- Backpack not included.\nHeight x Length x Width: 35.4 x 13.8 x 7.9 inches (90 x 35 x 20 cm)\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "677651073a07de0274227f340ec387d344951fcfa6522cb6f0d11e86b2f8852e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

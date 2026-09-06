@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20310504",
+  "source_url": "https://www.zara.com/us/en/tennis--on-the-court-edt-12-ml--0-4-fl--oz---p20310504.html",
+  "final_url": "https://www.zara.com/us/en/tennis--on-the-court-edt-12-ml--0-4-fl--oz---p20310504.html",
+  "canonical_url": "https://www.zara.com/us/en/tennis--on-the-court-edt-12-ml--0-4-fl--oz---p20310504.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TENNIS, ON THE COURT EDT 12 ML (0.4 FL. OZ.)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TENNIS, ON THE COURT EDT 12 ML (0.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/tennis--on-the-court-edt-12-ml--0-4-fl--oz---p20310504.html",
+      "productGroupID": "20310504",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A clean and light fragrance inspired by days spent outdoors. The freshness of citrus and soft floral notes create a delicate, natural, and easy-to-wear scent for any occasion.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2050/8258/2e79477cb576/1f9c015b8d4f/20310504999-e1/20310504999-e1.jpg?ts=1779200281480&w=1920",
+        "https://static.zara.net/assets/public/2c01/e762/2e9a4600a616/23df038db27e/20310504999-e2/20310504999-e2.jpg?ts=1779200281526&w=1920",
+        "https://static.zara.net/assets/public/579b/c12d/4c24410e893d/83cc96246cd8/20310504999-e3/20310504999-e3.jpg?ts=1779200280916&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TENNIS, ON THE COURT EDT 12 ML (0.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545400535-999-99",
+          "mpn": "545400535-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2050/8258/2e79477cb576/1f9c015b8d4f/20310504999-e1/20310504999-e1.jpg?ts=1779200281480&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "5.94",
+            "url": "https://www.zara.com/us/en/tennis--on-the-court-edt-12-ml--0-4-fl--oz---p20310504.html?v1=545400535",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TENNIS, ON THE COURT EDT 12 ML (0.4 FL. OZ.)",
+      "product_group_id": "20310504",
+      "brand": "ZARA",
+      "description": "A clean and light fragrance inspired by days spent outdoors. The freshness of citrus and soft floral notes create a delicate, natural, and easy-to-wear scent for any occasion.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TENNIS, ON THE COURT EDT 12 ML (0.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545400535-999-99",
+          "mpn": "545400535-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "5.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/tennis--on-the-court-edt-12-ml--0-4-fl--oz---p20310504.html?v1=545400535",
+          "images": [
+            "https://static.zara.net/assets/public/2050/8258/2e79477cb576/1f9c015b8d4f/20310504999-e1/20310504999-e1.jpg?ts=1779200281480&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2050/8258/2e79477cb576/1f9c015b8d4f/20310504999-e1/20310504999-e1.jpg?ts=1779200281480&w=1920",
+        "https://static.zara.net/assets/public/2c01/e762/2e9a4600a616/23df038db27e/20310504999-e2/20310504999-e2.jpg?ts=1779200281526&w=1920",
+        "https://static.zara.net/assets/public/579b/c12d/4c24410e893d/83cc96246cd8/20310504999-e3/20310504999-e3.jpg?ts=1779200280916&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nA clean and light fragrance inspired by days spent outdoors. The freshness of citrus and soft floral notes create a delicate, natural, and easy-to-wear scent for any occasion.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "5.94",
+    "original_price": "9.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "5.94",
+    "dom_price": "9.90",
+    "normalized_price": "5.94",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '5.94' != DOM price '9.90'"
+  },
+  "source_content_hash": "a6ffbd6396cfcd09416efed4ce83763712fc8f8bbfce4de0f568c64f8db36122",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

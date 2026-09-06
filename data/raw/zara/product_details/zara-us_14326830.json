@@ -1,0 +1,508 @@
+{
+  "product_id": "zara-us:14326830",
+  "source_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html",
+  "final_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html",
+  "canonical_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MESH SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MESH SNEAKERS",
+      "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html",
+      "productGroupID": "14326830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers crafted from 55% leather with a suede-effect finish, featuring a mesh design and contrasting color panels. Lace-up closure. Chunky rubber sole and OrthoLite® interior insole.\n\nSIZE 41: Shoes available in size 41.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920",
+        "https://static.zara.net/assets/public/0f6d/9930/0ae64de2be02/92b5eb3bb8f3/14326831618-e2/14326831618-e2.jpg?ts=1786446355304&w=1920",
+        "https://static.zara.net/assets/public/9d3a/0e3b/c5b141dfbc87/14b004340cf4/14326831618-e3/14326831618-e3.jpg?ts=1786446355479&w=1920",
+        "https://static.zara.net/assets/public/c914/84c2/0b384b569a86/5c03005406cb/14326831618-e4/14326831618-e4.jpg?ts=1786446350452&w=1920",
+        "https://static.zara.net/assets/public/6c4b/c97b/b46d4c48ba30/8073fd4f3133/14326831618-e5/14326831618-e5.jpg?ts=1786446354326&w=1920",
+        "https://static.zara.net/assets/public/3849/30d0/ce25402d85de/8552abeab894/14326831618-e6/14326831618-e6.jpg?ts=1786446349429&w=1920",
+        "https://static.zara.net/assets/public/ec0e/7040/0a6c416d9a17/c2bc882b9306/14326831618-e7/14326831618-e7.jpg?ts=1786446355372&w=1920"
+      ],
+      "material": "cow leather/polyester/polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "55% cow leather, 30% polyester, 15% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "90% polyester, 10% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 12½ (7.4 INCHES)",
+          "sku": "545436656-618-30",
+          "mpn": "545436656-618-30",
+          "color": "Orange",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 13½ (7.7 INCHES)",
+          "sku": "545436656-618-31",
+          "mpn": "545436656-618-31",
+          "color": "Orange",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 1 (8.0 INCHES)",
+          "sku": "545436656-618-32",
+          "mpn": "545436656-618-32",
+          "color": "Orange",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 2 (8.2 INCHES)",
+          "sku": "545436656-618-33",
+          "mpn": "545436656-618-33",
+          "color": "Orange",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 2½ (8.5 INCHES)",
+          "sku": "545436656-618-34",
+          "mpn": "545436656-618-34",
+          "color": "Orange",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 3½ (8.8 INCHES)",
+          "sku": "545436656-618-35",
+          "mpn": "545436656-618-35",
+          "color": "Orange",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 4 (9.0 INCHES)",
+          "sku": "545436656-618-36",
+          "mpn": "545436656-618-36",
+          "color": "Orange",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 5 (9.3 INCHES)",
+          "sku": "545436656-618-37",
+          "mpn": "545436656-618-37",
+          "color": "Orange",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 5½ (9.5 INCHES)",
+          "sku": "545436656-618-38",
+          "mpn": "545436656-618-38",
+          "color": "Orange",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 6 (9.8 INCHES)",
+          "sku": "545436656-618-39",
+          "mpn": "545436656-618-39",
+          "color": "Orange",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 7 (10.0 INCHES)",
+          "sku": "545436656-618-40",
+          "mpn": "545436656-618-40",
+          "color": "Orange",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Orange - 7½ (10.3 INCHES)",
+          "sku": "545436656-618-41",
+          "mpn": "545436656-618-41",
+          "color": "Orange",
+          "size": "7½ (10.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MESH SNEAKERS",
+      "product_group_id": "14326830",
+      "brand": "ZARA",
+      "description": "Sneakers crafted from 55% leather with a suede-effect finish, featuring a mesh design and contrasting color panels. Lace-up closure. Chunky rubber sole and OrthoLite® interior insole.\n\nSIZE 41: Shoes available in size 41.",
+      "material": "cow leather/polyester/polyurethane",
+      "composition": "UPPER: 55% cow leather, 30% polyester, 15% polyurethane | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 90% polyester, 10% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MESH SNEAKERS - Orange - 12½ (7.4 INCHES)",
+          "sku": "545436656-618-30",
+          "mpn": "545436656-618-30",
+          "color_name": "Orange",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 13½ (7.7 INCHES)",
+          "sku": "545436656-618-31",
+          "mpn": "545436656-618-31",
+          "color_name": "Orange",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 1 (8.0 INCHES)",
+          "sku": "545436656-618-32",
+          "mpn": "545436656-618-32",
+          "color_name": "Orange",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 2 (8.2 INCHES)",
+          "sku": "545436656-618-33",
+          "mpn": "545436656-618-33",
+          "color_name": "Orange",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 2½ (8.5 INCHES)",
+          "sku": "545436656-618-34",
+          "mpn": "545436656-618-34",
+          "color_name": "Orange",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 3½ (8.8 INCHES)",
+          "sku": "545436656-618-35",
+          "mpn": "545436656-618-35",
+          "color_name": "Orange",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 4 (9.0 INCHES)",
+          "sku": "545436656-618-36",
+          "mpn": "545436656-618-36",
+          "color_name": "Orange",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 5 (9.3 INCHES)",
+          "sku": "545436656-618-37",
+          "mpn": "545436656-618-37",
+          "color_name": "Orange",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 5½ (9.5 INCHES)",
+          "sku": "545436656-618-38",
+          "mpn": "545436656-618-38",
+          "color_name": "Orange",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 6 (9.8 INCHES)",
+          "sku": "545436656-618-39",
+          "mpn": "545436656-618-39",
+          "color_name": "Orange",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 7 (10.0 INCHES)",
+          "sku": "545436656-618-40",
+          "mpn": "545436656-618-40",
+          "color_name": "Orange",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Orange - 7½ (10.3 INCHES)",
+          "sku": "545436656-618-41",
+          "mpn": "545436656-618-41",
+          "color_name": "Orange",
+          "size_name": "7½ (10.3 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p14326830.html?v1=545436656",
+          "images": [
+            "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9763/8810/7d8f4d68a316/d12b687d7d41/14326831618-e1/14326831618-e1.jpg?ts=1786446355057&w=1920",
+        "https://static.zara.net/assets/public/0f6d/9930/0ae64de2be02/92b5eb3bb8f3/14326831618-e2/14326831618-e2.jpg?ts=1786446355304&w=1920",
+        "https://static.zara.net/assets/public/9d3a/0e3b/c5b141dfbc87/14b004340cf4/14326831618-e3/14326831618-e3.jpg?ts=1786446355479&w=1920",
+        "https://static.zara.net/assets/public/c914/84c2/0b384b569a86/5c03005406cb/14326831618-e4/14326831618-e4.jpg?ts=1786446350452&w=1920",
+        "https://static.zara.net/assets/public/6c4b/c97b/b46d4c48ba30/8073fd4f3133/14326831618-e5/14326831618-e5.jpg?ts=1786446354326&w=1920",
+        "https://static.zara.net/assets/public/3849/30d0/ce25402d85de/8552abeab894/14326831618-e6/14326831618-e6.jpg?ts=1786446349429&w=1920",
+        "https://static.zara.net/assets/public/ec0e/7040/0a6c416d9a17/c2bc882b9306/14326831618-e7/14326831618-e7.jpg?ts=1786446355372&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "65.90",
+  "rendered_description": "Description\nSneakers crafted from 55% leather with a suede-effect finish, featuring a mesh design and contrasting color panels. Lace-up closure. Chunky rubber sole and OrthoLite® interior insole.\nSIZE 41: Shoes available in size 41.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "65.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "65.90",
+    "dom_price": "65.90",
+    "normalized_price": "65.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d9d4d010bf05761d06828a331bd89546ea2d819dbab36b567e28ec2a67db7bec",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

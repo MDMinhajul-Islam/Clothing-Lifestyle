@@ -1,0 +1,124 @@
+{
+  "product_id": "zara-us:00009549",
+  "source_url": "https://www.zara.com/us/en/strawberry-swim-goggles-p00009549.html",
+  "final_url": "https://www.zara.com/us/en/strawberry-swim-goggles-p00009549.html",
+  "canonical_url": "https://www.zara.com/us/en/strawberry-swim-goggles-p00009549.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRAWBERRY SWIM GOGGLES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRAWBERRY SWIM GOGGLES",
+      "url": "https://www.zara.com/us/en/strawberry-swim-goggles-p00009549.html",
+      "productGroupID": "00009549",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Swim goggles with polycarbonate lenses for clear underwater vision. Strawberry shape and adjustable elastic silicone strap.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/53c3/6137/77f14bfd8185/784f6a474f8e/00009549600-e1/00009549600-e1.jpg?ts=1776062396369&w=1920",
+        "https://static.zara.net/assets/public/ce60/9e1f/ac064651bed1/63299ad82586/00009549600-e2/00009549600-e2.jpg?ts=1776062397453&w=1920",
+        "https://static.zara.net/assets/public/c4cc/252c/0b25427f8869/68c66c7421a5/00009549600-e3/00009549600-e3.jpg?ts=1776062397563&w=1920",
+        "https://static.zara.net/assets/public/cc58/6f7b/82654b50b589/4cda1ca7ed87/00009549600-e4/00009549600-e4.jpg?ts=1776062396672&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRAWBERRY SWIM GOGGLES - Red - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545461785-600-14",
+          "mpn": "545461785-600-14",
+          "color": "Red",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53c3/6137/77f14bfd8185/784f6a474f8e/00009549600-e1/00009549600-e1.jpg?ts=1776062396369&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/strawberry-swim-goggles-p00009549.html?v1=545461785",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRAWBERRY SWIM GOGGLES",
+      "product_group_id": "00009549",
+      "brand": "ZARA",
+      "description": "Swim goggles with polycarbonate lenses for clear underwater vision. Strawberry shape and adjustable elastic silicone strap.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRAWBERRY SWIM GOGGLES - Red - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545461785-600-14",
+          "mpn": "545461785-600-14",
+          "color_name": "Red",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/strawberry-swim-goggles-p00009549.html?v1=545461785",
+          "images": [
+            "https://static.zara.net/assets/public/53c3/6137/77f14bfd8185/784f6a474f8e/00009549600-e1/00009549600-e1.jpg?ts=1776062396369&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/53c3/6137/77f14bfd8185/784f6a474f8e/00009549600-e1/00009549600-e1.jpg?ts=1776062396369&w=1920",
+        "https://static.zara.net/assets/public/ce60/9e1f/ac064651bed1/63299ad82586/00009549600-e2/00009549600-e2.jpg?ts=1776062397453&w=1920",
+        "https://static.zara.net/assets/public/c4cc/252c/0b25427f8869/68c66c7421a5/00009549600-e3/00009549600-e3.jpg?ts=1776062397563&w=1920",
+        "https://static.zara.net/assets/public/cc58/6f7b/82654b50b589/4cda1ca7ed87/00009549600-e4/00009549600-e4.jpg?ts=1776062396672&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nSwim goggles with polycarbonate lenses for clear underwater vision. Strawberry shape and adjustable elastic silicone strap.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b73e2b7375fe970bf040665e266033a0b1ea7ed949798d0996772ec193090fd0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

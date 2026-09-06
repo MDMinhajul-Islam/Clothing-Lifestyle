@@ -1,0 +1,165 @@
+{
+  "product_id": "zara-us:05059798",
+  "source_url": "https://www.zara.com/us/en/0fr--paris-x-zara-embroidered-text-scarf-p05059798.html",
+  "final_url": "https://www.zara.com/us/en/0fr--paris-x-zara-embroidered-text-scarf-p05059798.html",
+  "canonical_url": "https://www.zara.com/us/en/0fr--paris-x-zara-embroidered-text-scarf-p05059798.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "0FR. PARIS X ZARA EMBROIDERED TEXT SCARF",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "0FR. PARIS X ZARA EMBROIDERED TEXT SCARF",
+      "url": "https://www.zara.com/us/en/0fr--paris-x-zara-embroidered-text-scarf-p05059798.html",
+      "productGroupID": "05059798",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Triangular scarf featuring contrasting embroidered text detail. Fabric contains 8% silk. 0fr. Paris x Zara special collection.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c144/7bc5/8aee4455b433/567df0aad9ec/05059798420-e1/05059798420-e1.jpg?ts=1787302588885&w=1920",
+        "https://static.zara.net/assets/public/7ab5/e86d/2f184c7ba986/08440f5f37f4/05059798420-e2/05059798420-e2.jpg?ts=1787302588368&w=1920",
+        "https://static.zara.net/assets/public/92f6/8481/1a8d4faab32e/0a3e5a07f882/05059798420-e3/05059798420-e3.jpg?ts=1787302591849&w=1920",
+        "https://static.zara.net/assets/public/336c/6b42/b1b2408dab4f/d83702b06529/05059798420-e4/05059798420-e4.jpg?ts=1787302588560&w=1920",
+        "https://static.zara.net/assets/public/06da/45d9/27e74b92a38b/db2fc5a349ff/05059798420-p/05059798420-p.jpg?ts=1788246862279&w=1920",
+        "https://static.zara.net/assets/public/a95d/599c/730e479796eb/7434f51045d2/05059798420-a1/05059798420-a1.jpg?ts=1788246861556&w=1920"
+      ],
+      "material": "cotton/viscose/silk (mulberry)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "55% cotton, 37% viscose, 8% silk (mulberry)"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "0FR. PARIS X ZARA EMBROIDERED TEXT SCARF - Bluish - M",
+          "sku": "567327818-420-14",
+          "mpn": "567327818-420-14",
+          "color": "Bluish",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/c144/7bc5/8aee4455b433/567df0aad9ec/05059798420-e1/05059798420-e1.jpg?ts=1787302588885&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/0fr--paris-x-zara-embroidered-text-scarf-p05059798.html?v1=567327818",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "0FR. PARIS X ZARA EMBROIDERED TEXT SCARF - Anthracite grey - M",
+          "sku": "567327818-807-14",
+          "mpn": "567327818-807-14",
+          "color": "Anthracite grey",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/af33/2e98/bf954f1ca54e/13c1f8a21673/05059798807-e1/05059798807-e1.jpg?ts=1787302588964&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/0fr--paris-x-zara-embroidered-text-scarf-p05059798.html?v1=567327819",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "0FR. PARIS X ZARA EMBROIDERED TEXT SCARF",
+      "product_group_id": "05059798",
+      "brand": "ZARA",
+      "description": "Triangular scarf featuring contrasting embroidered text detail. Fabric contains 8% silk. 0fr. Paris x Zara special collection.",
+      "material": "cotton/viscose/silk (mulberry)",
+      "composition": "OUTER SHELL: 55% cotton, 37% viscose, 8% silk (mulberry)",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "0FR. PARIS X ZARA EMBROIDERED TEXT SCARF - Bluish - M",
+          "sku": "567327818-420-14",
+          "mpn": "567327818-420-14",
+          "color_name": "Bluish",
+          "size_name": "M",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/0fr--paris-x-zara-embroidered-text-scarf-p05059798.html?v1=567327818",
+          "images": [
+            "https://static.zara.net/assets/public/c144/7bc5/8aee4455b433/567df0aad9ec/05059798420-e1/05059798420-e1.jpg?ts=1787302588885&w=1920"
+          ]
+        },
+        {
+          "name": "0FR. PARIS X ZARA EMBROIDERED TEXT SCARF - Anthracite grey - M",
+          "sku": "567327818-807-14",
+          "mpn": "567327818-807-14",
+          "color_name": "Anthracite grey",
+          "size_name": "M",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/0fr--paris-x-zara-embroidered-text-scarf-p05059798.html?v1=567327819",
+          "images": [
+            "https://static.zara.net/assets/public/af33/2e98/bf954f1ca54e/13c1f8a21673/05059798807-e1/05059798807-e1.jpg?ts=1787302588964&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c144/7bc5/8aee4455b433/567df0aad9ec/05059798420-e1/05059798420-e1.jpg?ts=1787302588885&w=1920",
+        "https://static.zara.net/assets/public/7ab5/e86d/2f184c7ba986/08440f5f37f4/05059798420-e2/05059798420-e2.jpg?ts=1787302588368&w=1920",
+        "https://static.zara.net/assets/public/92f6/8481/1a8d4faab32e/0a3e5a07f882/05059798420-e3/05059798420-e3.jpg?ts=1787302591849&w=1920",
+        "https://static.zara.net/assets/public/336c/6b42/b1b2408dab4f/d83702b06529/05059798420-e4/05059798420-e4.jpg?ts=1787302588560&w=1920",
+        "https://static.zara.net/assets/public/06da/45d9/27e74b92a38b/db2fc5a349ff/05059798420-p/05059798420-p.jpg?ts=1788246862279&w=1920",
+        "https://static.zara.net/assets/public/a95d/599c/730e479796eb/7434f51045d2/05059798420-a1/05059798420-a1.jpg?ts=1788246861556&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Bluish",
+    "Anthracite grey"
+  ],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nTriangular scarf featuring contrasting embroidered text detail. Fabric contains 8% silk. 0fr. Paris x Zara special collection.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "70661d2b709fdf1543599c2fdc772e2bc0aeebabfc9549d1f4aed229bb9c7cc4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

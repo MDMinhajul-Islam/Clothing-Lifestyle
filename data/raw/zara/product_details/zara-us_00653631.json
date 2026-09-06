@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:00653631",
+  "source_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653631.html",
+  "final_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653631.html",
+  "canonical_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653631.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PAISLEY PRINT BANDANA",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PAISLEY PRINT BANDANA",
+      "url": "https://www.zara.com/us/en/paisley-print-bandana-p00653631.html",
+      "productGroupID": "00653631",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Square bandana with paisley print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3d74/53a2/fd254a4bb75d/bf78e756e96d/00653631400-e1/00653631400-e1.jpg?ts=1767876334025&w=1920",
+        "https://static.zara.net/assets/public/2f96/e4c3/460e455eae7d/e1e24af80169/00653631400-e2/00653631400-e2.jpg?ts=1767876334975&w=1920",
+        "https://static.zara.net/assets/public/cc92/2da1/268b4febb146/43684f26c726/00653631400-e3/00653631400-e3.jpg?ts=1767876335267&w=1920",
+        "https://static.zara.net/assets/public/48b2/7d6e/abbc422898a0/88b09d3bda65/00653631400-e5/00653631400-e5.jpg?ts=1767876336779&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PAISLEY PRINT BANDANA - Blue - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545465969-400-14",
+          "mpn": "545465969-400-14",
+          "color": "Blue",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3d74/53a2/fd254a4bb75d/bf78e756e96d/00653631400-e1/00653631400-e1.jpg?ts=1767876334025&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/paisley-print-bandana-p00653631.html?v1=545465969",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PAISLEY PRINT BANDANA - Red - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545465969-600-14",
+          "mpn": "545465969-600-14",
+          "color": "Red",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/52bc/6087/68bf43fb9933/e2a5f0a36cc4/00653631600-e1/00653631600-e1.jpg?ts=1767804861586&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/paisley-print-bandana-p00653631.html?v1=545465971",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PAISLEY PRINT BANDANA",
+      "product_group_id": "00653631",
+      "brand": "ZARA",
+      "description": "Square bandana with paisley print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PAISLEY PRINT BANDANA - Blue - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545465969-400-14",
+          "mpn": "545465969-400-14",
+          "color_name": "Blue",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653631.html?v1=545465969",
+          "images": [
+            "https://static.zara.net/assets/public/3d74/53a2/fd254a4bb75d/bf78e756e96d/00653631400-e1/00653631400-e1.jpg?ts=1767876334025&w=1920"
+          ]
+        },
+        {
+          "name": "PAISLEY PRINT BANDANA - Red - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545465969-600-14",
+          "mpn": "545465969-600-14",
+          "color_name": "Red",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653631.html?v1=545465971",
+          "images": [
+            "https://static.zara.net/assets/public/52bc/6087/68bf43fb9933/e2a5f0a36cc4/00653631600-e1/00653631600-e1.jpg?ts=1767804861586&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3d74/53a2/fd254a4bb75d/bf78e756e96d/00653631400-e1/00653631400-e1.jpg?ts=1767876334025&w=1920",
+        "https://static.zara.net/assets/public/2f96/e4c3/460e455eae7d/e1e24af80169/00653631400-e2/00653631400-e2.jpg?ts=1767876334975&w=1920",
+        "https://static.zara.net/assets/public/cc92/2da1/268b4febb146/43684f26c726/00653631400-e3/00653631400-e3.jpg?ts=1767876335267&w=1920",
+        "https://static.zara.net/assets/public/48b2/7d6e/abbc422898a0/88b09d3bda65/00653631400-e5/00653631400-e5.jpg?ts=1767876336779&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Red"
+  ],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nSquare bandana with paisley print.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "06eef516962542e1c5de5a4ab473b879bbadd9139b8bdb9d80a8c4a7a3f16687",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

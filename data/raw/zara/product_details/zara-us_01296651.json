@@ -1,0 +1,186 @@
+{
+  "product_id": "zara-us:01296651",
+  "source_url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html",
+  "final_url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html",
+  "canonical_url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "WOVEN STRETCH BELT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "WOVEN STRETCH BELT",
+      "url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html",
+      "productGroupID": "01296651",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Braided elastic belt. Buckle and keeper closure.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/470e/079a/cc7e4ff2a4ba/65f7b8c1125a/01296651407-e1/01296651407-e1.jpg?ts=1741347250825&w=1920",
+        "https://static.zara.net/assets/public/f52b/bb4b/0e364984a047/39bde39f177c/01296651407-e2/01296651407-e2.jpg?ts=1741347251837&w=1920",
+        "https://static.zara.net/assets/public/0b4c/8df0/34ad4783aa3a/52d2706bbb4f/01296651407-e5/01296651407-e5.jpg?ts=1741347251535&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "WOVEN STRETCH BELT - Blue - S",
+          "sku": "545465936-407-6",
+          "mpn": "545465936-407-6",
+          "color": "Blue",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/470e/079a/cc7e4ff2a4ba/65f7b8c1125a/01296651407-e1/01296651407-e1.jpg?ts=1741347250825&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html?v1=545465936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOVEN STRETCH BELT - Blue - M",
+          "sku": "545465936-407-9",
+          "mpn": "545465936-407-9",
+          "color": "Blue",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/470e/079a/cc7e4ff2a4ba/65f7b8c1125a/01296651407-e1/01296651407-e1.jpg?ts=1741347250825&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html?v1=545465936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "WOVEN STRETCH BELT - Blue - L",
+          "sku": "545465936-407-14",
+          "mpn": "545465936-407-14",
+          "color": "Blue",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/470e/079a/cc7e4ff2a4ba/65f7b8c1125a/01296651407-e1/01296651407-e1.jpg?ts=1741347250825&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html?v1=545465936",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "WOVEN STRETCH BELT",
+      "product_group_id": "01296651",
+      "brand": "ZARA",
+      "description": "Braided elastic belt. Buckle and keeper closure.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "WOVEN STRETCH BELT - Blue - S",
+          "sku": "545465936-407-6",
+          "mpn": "545465936-407-6",
+          "color_name": "Blue",
+          "size_name": "S",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html?v1=545465936",
+          "images": [
+            "https://static.zara.net/assets/public/470e/079a/cc7e4ff2a4ba/65f7b8c1125a/01296651407-e1/01296651407-e1.jpg?ts=1741347250825&w=1920"
+          ]
+        },
+        {
+          "name": "WOVEN STRETCH BELT - Blue - M",
+          "sku": "545465936-407-9",
+          "mpn": "545465936-407-9",
+          "color_name": "Blue",
+          "size_name": "M",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html?v1=545465936",
+          "images": [
+            "https://static.zara.net/assets/public/470e/079a/cc7e4ff2a4ba/65f7b8c1125a/01296651407-e1/01296651407-e1.jpg?ts=1741347250825&w=1920"
+          ]
+        },
+        {
+          "name": "WOVEN STRETCH BELT - Blue - L",
+          "sku": "545465936-407-14",
+          "mpn": "545465936-407-14",
+          "color_name": "Blue",
+          "size_name": "L",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/woven-stretch-belt-p01296651.html?v1=545465936",
+          "images": [
+            "https://static.zara.net/assets/public/470e/079a/cc7e4ff2a4ba/65f7b8c1125a/01296651407-e1/01296651407-e1.jpg?ts=1741347250825&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/470e/079a/cc7e4ff2a4ba/65f7b8c1125a/01296651407-e1/01296651407-e1.jpg?ts=1741347250825&w=1920",
+        "https://static.zara.net/assets/public/f52b/bb4b/0e364984a047/39bde39f177c/01296651407-e2/01296651407-e2.jpg?ts=1741347251837&w=1920",
+        "https://static.zara.net/assets/public/0b4c/8df0/34ad4783aa3a/52d2706bbb4f/01296651407-e5/01296651407-e5.jpg?ts=1741347251535&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "15.90",
+  "rendered_description": "Description\nBraided elastic belt. Buckle and keeper closure.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "15.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "15.90",
+    "dom_price": "15.90",
+    "normalized_price": "15.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a78272c3d7a66700a7eddb4324801d1154c6025068c33559a80b93f57982509b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

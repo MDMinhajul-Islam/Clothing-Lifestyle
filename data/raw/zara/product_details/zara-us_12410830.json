@@ -1,0 +1,477 @@
+{
+  "product_id": "zara-us:12410830",
+  "source_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html",
+  "final_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html",
+  "canonical_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CASUAL LACE-UP SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CASUAL LACE-UP SNEAKERS",
+      "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html",
+      "productGroupID": "12410830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Plain design sneakers. Adjustable lace-up closure and rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920",
+        "https://static.zara.net/assets/public/ad39/d49f/c6564e078c20/4b90b3b72154/12410830001-e2/12410830001-e2.jpg?ts=1780656224098&w=1920",
+        "https://static.zara.net/assets/public/75ce/8967/74a94e64a12b/a1b876213bc8/12410830001-e3/12410830001-e3.jpg?ts=1780656224016&w=1920",
+        "https://static.zara.net/assets/public/8fb8/fff7/2c294582a701/7f1b15621125/12410830001-e4/12410830001-e4.jpg?ts=1780656223570&w=1920",
+        "https://static.zara.net/assets/public/6d27/a99c/6199411e9144/15ed32f7aa93/12410830001-e5/12410830001-e5.jpg?ts=1780656224880&w=1920",
+        "https://static.zara.net/assets/public/31c6/f750/307e4ad4be6d/537479dee558/12410830001-e6/12410830001-e6.jpg?ts=1780656223835&w=1920",
+        "https://static.zara.net/assets/public/7fc0/8182/d7854426aaf2/d8396fceb154/12410830001-e7/12410830001-e7.jpg?ts=1780656223817&w=1920",
+        "https://static.zara.net/assets/public/d39e/850e/bc5941cc884d/bff17818d3e7/12410830001-e8/12410830001-e8.jpg?ts=1780656224226&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "63% cotton, 37% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "60% cotton, 40% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "65% cotton, 35% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "545470280-001-30",
+          "mpn": "545470280-001-30",
+          "color": "White",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "545470280-001-31",
+          "mpn": "545470280-001-31",
+          "color": "White",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "545470280-001-32",
+          "mpn": "545470280-001-32",
+          "color": "White",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "545470280-001-33",
+          "mpn": "545470280-001-33",
+          "color": "White",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "545470280-001-34",
+          "mpn": "545470280-001-34",
+          "color": "White",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "545470280-001-35",
+          "mpn": "545470280-001-35",
+          "color": "White",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "545470280-001-36",
+          "mpn": "545470280-001-36",
+          "color": "White",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "545470280-001-37",
+          "mpn": "545470280-001-37",
+          "color": "White",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "545470280-001-38",
+          "mpn": "545470280-001-38",
+          "color": "White",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "545470280-001-39",
+          "mpn": "545470280-001-39",
+          "color": "White",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "545470280-001-40",
+          "mpn": "545470280-001-40",
+          "color": "White",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CASUAL LACE-UP SNEAKERS",
+      "product_group_id": "12410830",
+      "brand": "ZARA",
+      "description": "Plain design sneakers. Adjustable lace-up closure and rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "cotton/polyester",
+      "composition": "UPPER: 63% cotton, 37% polyester | LINING: 60% cotton, 40% polyester | SOLE: 100% rubber | INSOLE: 65% cotton, 35% polyester | TONGUE: 65% cotton, 35% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "545470280-001-30",
+          "mpn": "545470280-001-30",
+          "color_name": "White",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "545470280-001-31",
+          "mpn": "545470280-001-31",
+          "color_name": "White",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "545470280-001-32",
+          "mpn": "545470280-001-32",
+          "color_name": "White",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "545470280-001-33",
+          "mpn": "545470280-001-33",
+          "color_name": "White",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "545470280-001-34",
+          "mpn": "545470280-001-34",
+          "color_name": "White",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "545470280-001-35",
+          "mpn": "545470280-001-35",
+          "color_name": "White",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "545470280-001-36",
+          "mpn": "545470280-001-36",
+          "color_name": "White",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "545470280-001-37",
+          "mpn": "545470280-001-37",
+          "color_name": "White",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "545470280-001-38",
+          "mpn": "545470280-001-38",
+          "color_name": "White",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "545470280-001-39",
+          "mpn": "545470280-001-39",
+          "color_name": "White",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "545470280-001-40",
+          "mpn": "545470280-001-40",
+          "color_name": "White",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12410830.html?v1=545470280",
+          "images": [
+            "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1ad9/bb07/0cc440a2bff0/c2b11ba6528c/12410830001-e1/12410830001-e1.jpg?ts=1780656224142&w=1920",
+        "https://static.zara.net/assets/public/ad39/d49f/c6564e078c20/4b90b3b72154/12410830001-e2/12410830001-e2.jpg?ts=1780656224098&w=1920",
+        "https://static.zara.net/assets/public/75ce/8967/74a94e64a12b/a1b876213bc8/12410830001-e3/12410830001-e3.jpg?ts=1780656224016&w=1920",
+        "https://static.zara.net/assets/public/8fb8/fff7/2c294582a701/7f1b15621125/12410830001-e4/12410830001-e4.jpg?ts=1780656223570&w=1920",
+        "https://static.zara.net/assets/public/6d27/a99c/6199411e9144/15ed32f7aa93/12410830001-e5/12410830001-e5.jpg?ts=1780656224880&w=1920",
+        "https://static.zara.net/assets/public/31c6/f750/307e4ad4be6d/537479dee558/12410830001-e6/12410830001-e6.jpg?ts=1780656223835&w=1920",
+        "https://static.zara.net/assets/public/7fc0/8182/d7854426aaf2/d8396fceb154/12410830001-e7/12410830001-e7.jpg?ts=1780656223817&w=1920",
+        "https://static.zara.net/assets/public/d39e/850e/bc5941cc884d/bff17818d3e7/12410830001-e8/12410830001-e8.jpg?ts=1780656224226&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nPlain design sneakers. Adjustable lace-up closure and rubber sole.\nSIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "cca6406bb4014364ff13fdadae1472ed4cfc23eead434e0afbe1d43b2692d2ec",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,476 @@
+{
+  "product_id": "zara-us:12337830",
+  "source_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html",
+  "final_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html",
+  "canonical_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "METALLIC SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "METALLIC SNEAKERS",
+      "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html",
+      "productGroupID": "12337830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Metallic sneakers featuring a mesh design with contrasting color panel details. Lace-up closure with a back pull tab for easy entry. Chunky rubber sole. SIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920",
+        "https://static.zara.net/assets/public/43b6/f855/a8354666aaa0/be1dbcb558de/12337830808-e2/12337830808-e2.jpg?ts=1786022555457&w=1920",
+        "https://static.zara.net/assets/public/3f11/1375/5879425aaa48/5f64168388e5/12337830808-e3/12337830808-e3.jpg?ts=1786022555138&w=1920",
+        "https://static.zara.net/assets/public/a408/ee77/307f49dd8d4b/3f319cbb57f2/12337830808-e4/12337830808-e4.jpg?ts=1786022555467&w=1920",
+        "https://static.zara.net/assets/public/fdc8/87f6/6a6a407184dd/ed9cdf5801c0/12337830808-e5/12337830808-e5.jpg?ts=1786022555884&w=1920",
+        "https://static.zara.net/assets/public/176a/f0f1/b4d54f64a30f/059b582bd6bf/12337830808-e6/12337830808-e6.jpg?ts=1786022556217&w=1920",
+        "https://static.zara.net/assets/public/e284/aaf8/cd0b4dce86b9/eb78245cbcec/12337830808-e7/12337830808-e7.jpg?ts=1786022555850&w=1920"
+      ],
+      "material": "polyurethane/polyester/rubber",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "55% polyurethane, 35% polyester, 10% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "95% polyester, 5% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 12½ (7.4 INCHES)",
+          "sku": "545485967-808-30",
+          "mpn": "545485967-808-30",
+          "color": "Silver",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 13½ (7.7 INCHES)",
+          "sku": "545485967-808-31",
+          "mpn": "545485967-808-31",
+          "color": "Silver",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 1 (8.0 INCHES)",
+          "sku": "545485967-808-32",
+          "mpn": "545485967-808-32",
+          "color": "Silver",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 2 (8.2 INCHES)",
+          "sku": "545485967-808-33",
+          "mpn": "545485967-808-33",
+          "color": "Silver",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 2½ (8.5 INCHES)",
+          "sku": "545485967-808-34",
+          "mpn": "545485967-808-34",
+          "color": "Silver",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 3½ (8.8 INCHES)",
+          "sku": "545485967-808-35",
+          "mpn": "545485967-808-35",
+          "color": "Silver",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 4 (9.0 INCHES)",
+          "sku": "545485967-808-36",
+          "mpn": "545485967-808-36",
+          "color": "Silver",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 5 (9.3 INCHES)",
+          "sku": "545485967-808-37",
+          "mpn": "545485967-808-37",
+          "color": "Silver",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 5½ (9.5 INCHES)",
+          "sku": "545485967-808-38",
+          "mpn": "545485967-808-38",
+          "color": "Silver",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 6 (9.8 INCHES)",
+          "sku": "545485967-808-39",
+          "mpn": "545485967-808-39",
+          "color": "Silver",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC SNEAKERS - Silver - 7 (10.0 INCHES)",
+          "sku": "545485967-808-40",
+          "mpn": "545485967-808-40",
+          "color": "Silver",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "METALLIC SNEAKERS",
+      "product_group_id": "12337830",
+      "brand": "ZARA",
+      "description": "Metallic sneakers featuring a mesh design with contrasting color panel details. Lace-up closure with a back pull tab for easy entry. Chunky rubber sole. SIZE 40: Shoes available in size 40.",
+      "material": "polyurethane/polyester/rubber",
+      "composition": "UPPER: 55% polyurethane, 35% polyester, 10% rubber | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 95% polyester, 5% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "METALLIC SNEAKERS - Silver - 12½ (7.4 INCHES)",
+          "sku": "545485967-808-30",
+          "mpn": "545485967-808-30",
+          "color_name": "Silver",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 13½ (7.7 INCHES)",
+          "sku": "545485967-808-31",
+          "mpn": "545485967-808-31",
+          "color_name": "Silver",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 1 (8.0 INCHES)",
+          "sku": "545485967-808-32",
+          "mpn": "545485967-808-32",
+          "color_name": "Silver",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 2 (8.2 INCHES)",
+          "sku": "545485967-808-33",
+          "mpn": "545485967-808-33",
+          "color_name": "Silver",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 2½ (8.5 INCHES)",
+          "sku": "545485967-808-34",
+          "mpn": "545485967-808-34",
+          "color_name": "Silver",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 3½ (8.8 INCHES)",
+          "sku": "545485967-808-35",
+          "mpn": "545485967-808-35",
+          "color_name": "Silver",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 4 (9.0 INCHES)",
+          "sku": "545485967-808-36",
+          "mpn": "545485967-808-36",
+          "color_name": "Silver",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 5 (9.3 INCHES)",
+          "sku": "545485967-808-37",
+          "mpn": "545485967-808-37",
+          "color_name": "Silver",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 5½ (9.5 INCHES)",
+          "sku": "545485967-808-38",
+          "mpn": "545485967-808-38",
+          "color_name": "Silver",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 6 (9.8 INCHES)",
+          "sku": "545485967-808-39",
+          "mpn": "545485967-808-39",
+          "color_name": "Silver",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC SNEAKERS - Silver - 7 (10.0 INCHES)",
+          "sku": "545485967-808-40",
+          "mpn": "545485967-808-40",
+          "color_name": "Silver",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-sneakers-p12337830.html?v1=545485967",
+          "images": [
+            "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ce79/e1e8/761a443785d3/0c8b09953447/12337830808-e1/12337830808-e1.jpg?ts=1786022554649&w=1920",
+        "https://static.zara.net/assets/public/43b6/f855/a8354666aaa0/be1dbcb558de/12337830808-e2/12337830808-e2.jpg?ts=1786022555457&w=1920",
+        "https://static.zara.net/assets/public/3f11/1375/5879425aaa48/5f64168388e5/12337830808-e3/12337830808-e3.jpg?ts=1786022555138&w=1920",
+        "https://static.zara.net/assets/public/a408/ee77/307f49dd8d4b/3f319cbb57f2/12337830808-e4/12337830808-e4.jpg?ts=1786022555467&w=1920",
+        "https://static.zara.net/assets/public/fdc8/87f6/6a6a407184dd/ed9cdf5801c0/12337830808-e5/12337830808-e5.jpg?ts=1786022555884&w=1920",
+        "https://static.zara.net/assets/public/176a/f0f1/b4d54f64a30f/059b582bd6bf/12337830808-e6/12337830808-e6.jpg?ts=1786022556217&w=1920",
+        "https://static.zara.net/assets/public/e284/aaf8/cd0b4dce86b9/eb78245cbcec/12337830808-e7/12337830808-e7.jpg?ts=1786022555850&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nMetallic sneakers featuring a mesh design with contrasting color panel details. Lace-up closure with a back pull tab for easy entry. Chunky rubber sole. SIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f388e2cefd072d4f4326721765ba5e4bf0711a73b57887b8df94d6a9d2ca3f60",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:00653656",
+  "source_url": "https://www.zara.com/us/en/embroidered-striped-floral-bandana-p00653656.html",
+  "final_url": "https://www.zara.com/us/en/embroidered-striped-floral-bandana-p00653656.html",
+  "canonical_url": "https://www.zara.com/us/en/embroidered-striped-floral-bandana-p00653656.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EMBROIDERED STRIPED FLORAL BANDANA",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "EMBROIDERED STRIPED FLORAL BANDANA",
+      "url": "https://www.zara.com/us/en/embroidered-striped-floral-bandana-p00653656.html",
+      "productGroupID": "00653656",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Bandana with striped print and embroidered floral detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f7e4/3422/bfb74adeb373/4fba5da267bf/00653656620-e1/00653656620-e1.jpg?ts=1779117404404&w=1920",
+        "https://static.zara.net/assets/public/a06b/4fa5/959e4123a39c/4828d7d0a7d7/00653656620-e2/00653656620-e2.jpg?ts=1779117404870&w=1920",
+        "https://static.zara.net/assets/public/a885/cc15/364149acaa9d/31fa334d18e2/00653656620-e3/00653656620-e3.jpg?ts=1779117404421&w=1920",
+        "https://static.zara.net/assets/public/4e5f/8d50/e52b4dd1bfc2/53d17d289468/00653656620-e5/00653656620-e5.jpg?ts=1779117403975&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED STRIPED FLORAL BANDANA - Pink - M",
+          "sku": "545456758-620-14",
+          "mpn": "545456758-620-14",
+          "color": "Pink",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/f7e4/3422/bfb74adeb373/4fba5da267bf/00653656620-e1/00653656620-e1.jpg?ts=1779117404404&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/embroidered-striped-floral-bandana-p00653656.html?v1=545456758",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "EMBROIDERED STRIPED FLORAL BANDANA",
+      "product_group_id": "00653656",
+      "brand": "ZARA",
+      "description": "Bandana with striped print and embroidered floral detail.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "EMBROIDERED STRIPED FLORAL BANDANA - Pink - M",
+          "sku": "545456758-620-14",
+          "mpn": "545456758-620-14",
+          "color_name": "Pink",
+          "size_name": "M",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-striped-floral-bandana-p00653656.html?v1=545456758",
+          "images": [
+            "https://static.zara.net/assets/public/f7e4/3422/bfb74adeb373/4fba5da267bf/00653656620-e1/00653656620-e1.jpg?ts=1779117404404&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f7e4/3422/bfb74adeb373/4fba5da267bf/00653656620-e1/00653656620-e1.jpg?ts=1779117404404&w=1920",
+        "https://static.zara.net/assets/public/a06b/4fa5/959e4123a39c/4828d7d0a7d7/00653656620-e2/00653656620-e2.jpg?ts=1779117404870&w=1920",
+        "https://static.zara.net/assets/public/a885/cc15/364149acaa9d/31fa334d18e2/00653656620-e3/00653656620-e3.jpg?ts=1779117404421&w=1920",
+        "https://static.zara.net/assets/public/4e5f/8d50/e52b4dd1bfc2/53d17d289468/00653656620-e5/00653656620-e5.jpg?ts=1779117403975&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "19.90",
+  "rendered_description": "Description\nBandana with striped print and embroidered floral detail.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "19.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "19.90",
+    "dom_price": "19.90",
+    "normalized_price": "19.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "02aeeca0549deeab26e68833bb245cf82aae3a767933ed137b6fde4a8cc32db3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

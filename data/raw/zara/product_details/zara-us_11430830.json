@@ -1,0 +1,141 @@
+{
+  "product_id": "zara-us:11430830",
+  "source_url": "https://www.zara.com/us/en/technical-backpack-p11430830.html",
+  "final_url": "https://www.zara.com/us/en/technical-backpack-p11430830.html",
+  "canonical_url": "https://www.zara.com/us/en/technical-backpack-p11430830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TECHNICAL BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TECHNICAL BACKPACK",
+      "url": "https://www.zara.com/us/en/technical-backpack-p11430830.html",
+      "productGroupID": "11430830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Backpack with a color-block design. Features a main compartment with a zip closure, two front pockets with zip closures, and side pockets. Includes a top handle and double adjustable shoulder straps.\n\nHeight x Length x Width: 15.7 x 11.8 x 5.5 inches (40 x 30 x 14 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2fa7/f813/b8344801906e/b55a375d88a9/11430830700-e1/11430830700-e1.jpg?ts=1783324189489&w=1920",
+        "https://static.zara.net/assets/public/42d2/f3ce/2c1b4da18c17/4e0ee8cae406/11430830700-e2/11430830700-e2.jpg?ts=1783324189105&w=1920",
+        "https://static.zara.net/assets/public/3c1d/a3f9/65364578bd90/15c1f34b1bdd/11430830700-e3/11430830700-e3.jpg?ts=1783324188800&w=1920",
+        "https://static.zara.net/assets/public/922e/d3a4/f7ee4d34aee3/af7ffe17ed4d/11430830700-e4/11430830700-e4.jpg?ts=1783324189755&w=1920",
+        "https://static.zara.net/assets/public/0eb0/0309/d00b4bf5bd99/a3b9ce2c9007/11430830700-e5/11430830700-e5.jpg?ts=1783324188428&w=1920",
+        "https://static.zara.net/assets/public/43ea/fcbf/019747bca479/72ec8bfe8c1f/11430830700-e6/11430830700-e6.jpg?ts=1783324188822&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyethylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TECHNICAL BACKPACK - Brown - ONE SIZE ONLY",
+          "sku": "545490681-700-53",
+          "mpn": "545490681-700-53",
+          "color": "Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2fa7/f813/b8344801906e/b55a375d88a9/11430830700-e1/11430830700-e1.jpg?ts=1783324189489&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/technical-backpack-p11430830.html?v1=545490681",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TECHNICAL BACKPACK",
+      "product_group_id": "11430830",
+      "brand": "ZARA",
+      "description": "Backpack with a color-block design. Features a main compartment with a zip closure, two front pockets with zip closures, and side pockets. Includes a top handle and double adjustable shoulder straps.\n\nHeight x Length x Width: 15.7 x 11.8 x 5.5 inches (40 x 30 x 14 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester | FILLING: 100% polyethylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TECHNICAL BACKPACK - Brown - ONE SIZE ONLY",
+          "sku": "545490681-700-53",
+          "mpn": "545490681-700-53",
+          "color_name": "Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-backpack-p11430830.html?v1=545490681",
+          "images": [
+            "https://static.zara.net/assets/public/2fa7/f813/b8344801906e/b55a375d88a9/11430830700-e1/11430830700-e1.jpg?ts=1783324189489&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2fa7/f813/b8344801906e/b55a375d88a9/11430830700-e1/11430830700-e1.jpg?ts=1783324189489&w=1920",
+        "https://static.zara.net/assets/public/42d2/f3ce/2c1b4da18c17/4e0ee8cae406/11430830700-e2/11430830700-e2.jpg?ts=1783324189105&w=1920",
+        "https://static.zara.net/assets/public/3c1d/a3f9/65364578bd90/15c1f34b1bdd/11430830700-e3/11430830700-e3.jpg?ts=1783324188800&w=1920",
+        "https://static.zara.net/assets/public/922e/d3a4/f7ee4d34aee3/af7ffe17ed4d/11430830700-e4/11430830700-e4.jpg?ts=1783324189755&w=1920",
+        "https://static.zara.net/assets/public/0eb0/0309/d00b4bf5bd99/a3b9ce2c9007/11430830700-e5/11430830700-e5.jpg?ts=1783324188428&w=1920",
+        "https://static.zara.net/assets/public/43ea/fcbf/019747bca479/72ec8bfe8c1f/11430830700-e6/11430830700-e6.jpg?ts=1783324188822&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nBackpack with a color-block design. Features a main compartment with a zip closure, two front pockets with zip closures, and side pockets. Includes a top handle and double adjustable shoulder straps.\nHeight x Length x Width: 15.7 x 11.8 x 5.5 inches (40 x 30 x 14 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a68793b0b3e18feeab4d3593affd9b0cfb7dc12cb897aab4b9322874dd573126",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

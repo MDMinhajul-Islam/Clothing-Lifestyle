@@ -1,0 +1,475 @@
+{
+  "product_id": "zara-us:14458830",
+  "source_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html",
+  "final_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC SNEAKERS",
+      "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html",
+      "productGroupID": "14458830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Basic casual sneakers. Lace-up closure with a back pull tab for easy fit. Finished with a rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920",
+        "https://static.zara.net/assets/public/a412/110e/51e44df5b6b7/acdd8b17bd94/14458830010-e2/14458830010-e2.jpg?ts=1782199637475&w=1920",
+        "https://static.zara.net/assets/public/c3f9/64e2/47a345f49cdd/f6d70e27f7b2/14458830010-e3/14458830010-e3.jpg?ts=1782199636048&w=1920",
+        "https://static.zara.net/assets/public/4340/6486/a4214c628f4a/2af44bdae39e/14458830010-e4/14458830010-e4.jpg?ts=1782199638922&w=1920",
+        "https://static.zara.net/assets/public/951f/06d6/e744474588b7/5c7f26b1bf70/14458830010-e5/14458830010-e5.jpg?ts=1782199638270&w=1920",
+        "https://static.zara.net/assets/public/67cc/bd4b/dd194070b51d/3c468d070a47/14458830010-e6/14458830010-e6.jpg?ts=1782199638495&w=1920",
+        "https://static.zara.net/assets/public/9d81/d2be/940c4bea965a/abe9f7754ad9/14458830010-e7/14458830010-e7.jpg?ts=1782199637244&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 12½ (7.4 INCHES)",
+          "sku": "545436442-010-30",
+          "mpn": "545436442-010-30",
+          "color": "Navy Blue",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 13½ (7.7 INCHES)",
+          "sku": "545436442-010-31",
+          "mpn": "545436442-010-31",
+          "color": "Navy Blue",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 1 (8.0 INCHES)",
+          "sku": "545436442-010-32",
+          "mpn": "545436442-010-32",
+          "color": "Navy Blue",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 2 (8.2 INCHES)",
+          "sku": "545436442-010-33",
+          "mpn": "545436442-010-33",
+          "color": "Navy Blue",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 2½ (8.5 INCHES)",
+          "sku": "545436442-010-34",
+          "mpn": "545436442-010-34",
+          "color": "Navy Blue",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 3½ (8.8 INCHES)",
+          "sku": "545436442-010-35",
+          "mpn": "545436442-010-35",
+          "color": "Navy Blue",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 4 (9.0 INCHES)",
+          "sku": "545436442-010-36",
+          "mpn": "545436442-010-36",
+          "color": "Navy Blue",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 5 (9.3 INCHES)",
+          "sku": "545436442-010-37",
+          "mpn": "545436442-010-37",
+          "color": "Navy Blue",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 5½ (9.5 INCHES)",
+          "sku": "545436442-010-38",
+          "mpn": "545436442-010-38",
+          "color": "Navy Blue",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 6 (9.8 INCHES)",
+          "sku": "545436442-010-39",
+          "mpn": "545436442-010-39",
+          "color": "Navy Blue",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Navy Blue - 7 (10.0 INCHES)",
+          "sku": "545436442-010-40",
+          "mpn": "545436442-010-40",
+          "color": "Navy Blue",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC SNEAKERS",
+      "product_group_id": "14458830",
+      "brand": "ZARA",
+      "description": "Basic casual sneakers. Lace-up closure with a back pull tab for easy fit. Finished with a rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 12½ (7.4 INCHES)",
+          "sku": "545436442-010-30",
+          "mpn": "545436442-010-30",
+          "color_name": "Navy Blue",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 13½ (7.7 INCHES)",
+          "sku": "545436442-010-31",
+          "mpn": "545436442-010-31",
+          "color_name": "Navy Blue",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 1 (8.0 INCHES)",
+          "sku": "545436442-010-32",
+          "mpn": "545436442-010-32",
+          "color_name": "Navy Blue",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 2 (8.2 INCHES)",
+          "sku": "545436442-010-33",
+          "mpn": "545436442-010-33",
+          "color_name": "Navy Blue",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 2½ (8.5 INCHES)",
+          "sku": "545436442-010-34",
+          "mpn": "545436442-010-34",
+          "color_name": "Navy Blue",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 3½ (8.8 INCHES)",
+          "sku": "545436442-010-35",
+          "mpn": "545436442-010-35",
+          "color_name": "Navy Blue",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 4 (9.0 INCHES)",
+          "sku": "545436442-010-36",
+          "mpn": "545436442-010-36",
+          "color_name": "Navy Blue",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 5 (9.3 INCHES)",
+          "sku": "545436442-010-37",
+          "mpn": "545436442-010-37",
+          "color_name": "Navy Blue",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 5½ (9.5 INCHES)",
+          "sku": "545436442-010-38",
+          "mpn": "545436442-010-38",
+          "color_name": "Navy Blue",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 6 (9.8 INCHES)",
+          "sku": "545436442-010-39",
+          "mpn": "545436442-010-39",
+          "color_name": "Navy Blue",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Navy Blue - 7 (10.0 INCHES)",
+          "sku": "545436442-010-40",
+          "mpn": "545436442-010-40",
+          "color_name": "Navy Blue",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14458830.html?v1=545436442",
+          "images": [
+            "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/9512/8318/46d943ceb82a/1cb358305beb/14458830010-e1/14458830010-e1.jpg?ts=1782199638413&w=1920",
+        "https://static.zara.net/assets/public/a412/110e/51e44df5b6b7/acdd8b17bd94/14458830010-e2/14458830010-e2.jpg?ts=1782199637475&w=1920",
+        "https://static.zara.net/assets/public/c3f9/64e2/47a345f49cdd/f6d70e27f7b2/14458830010-e3/14458830010-e3.jpg?ts=1782199636048&w=1920",
+        "https://static.zara.net/assets/public/4340/6486/a4214c628f4a/2af44bdae39e/14458830010-e4/14458830010-e4.jpg?ts=1782199638922&w=1920",
+        "https://static.zara.net/assets/public/951f/06d6/e744474588b7/5c7f26b1bf70/14458830010-e5/14458830010-e5.jpg?ts=1782199638270&w=1920",
+        "https://static.zara.net/assets/public/67cc/bd4b/dd194070b51d/3c468d070a47/14458830010-e6/14458830010-e6.jpg?ts=1782199638495&w=1920",
+        "https://static.zara.net/assets/public/9d81/d2be/940c4bea965a/abe9f7754ad9/14458830010-e7/14458830010-e7.jpg?ts=1782199637244&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nBasic casual sneakers. Lace-up closure with a back pull tab for easy fit. Finished with a rubber sole.\nSIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "27543f9b8cd9cf5eef3057a0be897a382ac560b5d51baa36eff838c84032c4e8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

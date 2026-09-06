@@ -1,0 +1,507 @@
+{
+  "product_id": "zara-us:14318830",
+  "source_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html",
+  "final_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html",
+  "canonical_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TECHNICAL SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TECHNICAL SNEAKERS",
+      "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html",
+      "productGroupID": "14318830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Technical school-style sneakers featuring a mesh design with contrasting panels. Lace-up closure. Includes dual pull tabs for easy on and off. Chunky rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920",
+        "https://static.zara.net/assets/public/4dd3/eaf9/7afb43b9adda/a7fbf44da851/14318830001-e2/14318830001-e2.jpg?ts=1783324241041&w=1920",
+        "https://static.zara.net/assets/public/2162/ada0/8bbf475cb255/08fefe9e22c7/14318830001-e3/14318830001-e3.jpg?ts=1783076484401&w=1920",
+        "https://static.zara.net/assets/public/8751/0f9b/cbd647daa925/a5276e7569dd/14318830001-e4/14318830001-e4.jpg?ts=1783076484879&w=1920",
+        "https://static.zara.net/assets/public/25f7/5219/02a14c23b802/6381c98daf88/14318830001-e5/14318830001-e5.jpg?ts=1783076484171&w=1920",
+        "https://static.zara.net/assets/public/5ec2/e92a/400948b295c7/632fca22b5db/14318830001-e6/14318830001-e6.jpg?ts=1784561775974&w=1920",
+        "https://static.zara.net/assets/public/319c/86c4/8eae44f7aaf8/0b3b75eca363/14318830001-e7/14318830001-e7.jpg?ts=1783076484525&w=1920"
+      ],
+      "material": "polyurethane/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "65% polyurethane, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "80% polyester, 20% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "545436608-001-30",
+          "mpn": "545436608-001-30",
+          "color": "White",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "545436608-001-31",
+          "mpn": "545436608-001-31",
+          "color": "White",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "545436608-001-32",
+          "mpn": "545436608-001-32",
+          "color": "White",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "545436608-001-33",
+          "mpn": "545436608-001-33",
+          "color": "White",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "545436608-001-34",
+          "mpn": "545436608-001-34",
+          "color": "White",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "545436608-001-35",
+          "mpn": "545436608-001-35",
+          "color": "White",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "545436608-001-36",
+          "mpn": "545436608-001-36",
+          "color": "White",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "545436608-001-37",
+          "mpn": "545436608-001-37",
+          "color": "White",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "545436608-001-38",
+          "mpn": "545436608-001-38",
+          "color": "White",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "545436608-001-39",
+          "mpn": "545436608-001-39",
+          "color": "White",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "545436608-001-40",
+          "mpn": "545436608-001-40",
+          "color": "White",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SNEAKERS - White - 7½ (10.3 INCHES)",
+          "sku": "545436608-001-41",
+          "mpn": "545436608-001-41",
+          "color": "White",
+          "size": "7½ (10.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TECHNICAL SNEAKERS",
+      "product_group_id": "14318830",
+      "brand": "ZARA",
+      "description": "Technical school-style sneakers featuring a mesh design with contrasting panels. Lace-up closure. Includes dual pull tabs for easy on and off. Chunky rubber sole.",
+      "material": "polyurethane/polyester",
+      "composition": "UPPER: 65% polyurethane, 35% polyester | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 80% polyester, 20% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TECHNICAL SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "545436608-001-30",
+          "mpn": "545436608-001-30",
+          "color_name": "White",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "545436608-001-31",
+          "mpn": "545436608-001-31",
+          "color_name": "White",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "545436608-001-32",
+          "mpn": "545436608-001-32",
+          "color_name": "White",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "545436608-001-33",
+          "mpn": "545436608-001-33",
+          "color_name": "White",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "545436608-001-34",
+          "mpn": "545436608-001-34",
+          "color_name": "White",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "545436608-001-35",
+          "mpn": "545436608-001-35",
+          "color_name": "White",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "545436608-001-36",
+          "mpn": "545436608-001-36",
+          "color_name": "White",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "545436608-001-37",
+          "mpn": "545436608-001-37",
+          "color_name": "White",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "545436608-001-38",
+          "mpn": "545436608-001-38",
+          "color_name": "White",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "545436608-001-39",
+          "mpn": "545436608-001-39",
+          "color_name": "White",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "545436608-001-40",
+          "mpn": "545436608-001-40",
+          "color_name": "White",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SNEAKERS - White - 7½ (10.3 INCHES)",
+          "sku": "545436608-001-41",
+          "mpn": "545436608-001-41",
+          "color_name": "White",
+          "size_name": "7½ (10.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sneakers-p14318830.html?v1=545436608",
+          "images": [
+            "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4f49/081e/3b2b4973bf35/eefb44a23642/14318830001-e1/14318830001-e1.jpg?ts=1783076483571&w=1920",
+        "https://static.zara.net/assets/public/4dd3/eaf9/7afb43b9adda/a7fbf44da851/14318830001-e2/14318830001-e2.jpg?ts=1783324241041&w=1920",
+        "https://static.zara.net/assets/public/2162/ada0/8bbf475cb255/08fefe9e22c7/14318830001-e3/14318830001-e3.jpg?ts=1783076484401&w=1920",
+        "https://static.zara.net/assets/public/8751/0f9b/cbd647daa925/a5276e7569dd/14318830001-e4/14318830001-e4.jpg?ts=1783076484879&w=1920",
+        "https://static.zara.net/assets/public/25f7/5219/02a14c23b802/6381c98daf88/14318830001-e5/14318830001-e5.jpg?ts=1783076484171&w=1920",
+        "https://static.zara.net/assets/public/5ec2/e92a/400948b295c7/632fca22b5db/14318830001-e6/14318830001-e6.jpg?ts=1784561775974&w=1920",
+        "https://static.zara.net/assets/public/319c/86c4/8eae44f7aaf8/0b3b75eca363/14318830001-e7/14318830001-e7.jpg?ts=1783076484525&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nTechnical school-style sneakers featuring a mesh design with contrasting panels. Lace-up closure. Includes dual pull tabs for easy on and off. Chunky rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e88cf08a59ea7ba78dbc4d9009e9bdc962c81432512f1bcd318e8df46161458d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,140 @@
+{
+  "product_id": "zara-us:11456830",
+  "source_url": "https://www.zara.com/us/en/pocket-backpack-p11456830.html",
+  "final_url": "https://www.zara.com/us/en/pocket-backpack-p11456830.html",
+  "canonical_url": "https://www.zara.com/us/en/pocket-backpack-p11456830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "POCKET BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "POCKET BACKPACK",
+      "url": "https://www.zara.com/us/en/pocket-backpack-p11456830.html",
+      "productGroupID": "11456830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Backpack with front pockets and contrasting color details. Features a main compartment and front pockets with zipper closures. Includes side pockets, a top handle, and adjustable double shoulder straps. Dimensions (Height x Width x Depth): 14.6 x 10.2 x 5.5 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/db9e/e0b5/1b49479dac3b/0beb9fccd8b7/11456830400-e1/11456830400-e1.jpg?ts=1785923118531&w=1920",
+        "https://static.zara.net/assets/public/1533/7482/28d54be4837e/52f8d92f7a99/11456830400-e2/11456830400-e2.jpg?ts=1785923118391&w=1920",
+        "https://static.zara.net/assets/public/df32/30ce/a197427eb60f/0b456569cb4f/11456830400-e3/11456830400-e3.jpg?ts=1785923119710&w=1920",
+        "https://static.zara.net/assets/public/42f6/4864/2a0249c29af8/7ace0517a2d5/11456830400-e4/11456830400-e4.jpg?ts=1785923119445&w=1920",
+        "https://static.zara.net/assets/public/080f/fb12/d8d241fda486/74180f4e8a6b/11456830400-e5/11456830400-e5.jpg?ts=1785923117520&w=1920",
+        "https://static.zara.net/assets/public/9534/f652/129c492a8032/78b2ee1fd37b/11456830400-e6/11456830400-e6.jpg?ts=1785923118705&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyethylene"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "POCKET BACKPACK - Blue - ONE SIZE ONLY",
+          "sku": "545446599-400-53",
+          "mpn": "545446599-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/db9e/e0b5/1b49479dac3b/0beb9fccd8b7/11456830400-e1/11456830400-e1.jpg?ts=1785923118531&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/pocket-backpack-p11456830.html?v1=545446599",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "POCKET BACKPACK",
+      "product_group_id": "11456830",
+      "brand": "ZARA",
+      "description": "Backpack with front pockets and contrasting color details. Features a main compartment and front pockets with zipper closures. Includes side pockets, a top handle, and adjustable double shoulder straps. Dimensions (Height x Width x Depth): 14.6 x 10.2 x 5.5 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester | FILLING: 100% polyethylene",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "POCKET BACKPACK - Blue - ONE SIZE ONLY",
+          "sku": "545446599-400-53",
+          "mpn": "545446599-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-backpack-p11456830.html?v1=545446599",
+          "images": [
+            "https://static.zara.net/assets/public/db9e/e0b5/1b49479dac3b/0beb9fccd8b7/11456830400-e1/11456830400-e1.jpg?ts=1785923118531&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/db9e/e0b5/1b49479dac3b/0beb9fccd8b7/11456830400-e1/11456830400-e1.jpg?ts=1785923118531&w=1920",
+        "https://static.zara.net/assets/public/1533/7482/28d54be4837e/52f8d92f7a99/11456830400-e2/11456830400-e2.jpg?ts=1785923118391&w=1920",
+        "https://static.zara.net/assets/public/df32/30ce/a197427eb60f/0b456569cb4f/11456830400-e3/11456830400-e3.jpg?ts=1785923119710&w=1920",
+        "https://static.zara.net/assets/public/42f6/4864/2a0249c29af8/7ace0517a2d5/11456830400-e4/11456830400-e4.jpg?ts=1785923119445&w=1920",
+        "https://static.zara.net/assets/public/080f/fb12/d8d241fda486/74180f4e8a6b/11456830400-e5/11456830400-e5.jpg?ts=1785923117520&w=1920",
+        "https://static.zara.net/assets/public/9534/f652/129c492a8032/78b2ee1fd37b/11456830400-e6/11456830400-e6.jpg?ts=1785923118705&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nBackpack with front pockets and contrasting color details. Features a main compartment and front pockets with zipper closures. Includes side pockets, a top handle, and adjustable double shoulder straps. Dimensions (Height x Width x Depth): 14.6 x 10.2 x 5.5 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e0f87180c7ea2fb36a963b3342d545c219bb1ef4fe6ab5d6853007623f4cea2a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

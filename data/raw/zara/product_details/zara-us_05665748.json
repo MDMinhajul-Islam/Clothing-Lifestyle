@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:05665748",
+  "source_url": "https://www.zara.com/us/en/paisley-print-bandana-p05665748.html",
+  "final_url": "https://www.zara.com/us/en/paisley-print-bandana-p05665748.html",
+  "canonical_url": "https://www.zara.com/us/en/paisley-print-bandana-p05665748.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PAISLEY PRINT BANDANA",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PAISLEY PRINT BANDANA",
+      "url": "https://www.zara.com/us/en/paisley-print-bandana-p05665748.html",
+      "productGroupID": "05665748",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Paisley print bandana.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/df18/8410/891e43448d9e/116c9f613919/05665748712-e1/05665748712-e1.jpg?ts=1787650080499&w=1920",
+        "https://static.zara.net/assets/public/5636/c19d/307641b59770/9c2890daf33a/05665748712-e2/05665748712-e2.jpg?ts=1787650083450&w=1920",
+        "https://static.zara.net/assets/public/0f7d/24fe/19bc403a8ab2/3675b8dfad87/05665748712-e3/05665748712-e3.jpg?ts=1787650083048&w=1920",
+        "https://static.zara.net/assets/public/7137/1132/b4594464befb/5aef81c3b0b5/05665748712-e5/05665748712-e5.jpg?ts=1787650082959&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PAISLEY PRINT BANDANA - Ecru - M",
+          "sku": "553355573-712-14",
+          "mpn": "553355573-712-14",
+          "color": "Ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/df18/8410/891e43448d9e/116c9f613919/05665748712-e1/05665748712-e1.jpg?ts=1787650080499&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/paisley-print-bandana-p05665748.html?v1=553355573",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PAISLEY PRINT BANDANA",
+      "product_group_id": "05665748",
+      "brand": "ZARA",
+      "description": "Paisley print bandana.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PAISLEY PRINT BANDANA - Ecru - M",
+          "sku": "553355573-712-14",
+          "mpn": "553355573-712-14",
+          "color_name": "Ecru",
+          "size_name": "M",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/paisley-print-bandana-p05665748.html?v1=553355573",
+          "images": [
+            "https://static.zara.net/assets/public/df18/8410/891e43448d9e/116c9f613919/05665748712-e1/05665748712-e1.jpg?ts=1787650080499&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/df18/8410/891e43448d9e/116c9f613919/05665748712-e1/05665748712-e1.jpg?ts=1787650080499&w=1920",
+        "https://static.zara.net/assets/public/5636/c19d/307641b59770/9c2890daf33a/05665748712-e2/05665748712-e2.jpg?ts=1787650083450&w=1920",
+        "https://static.zara.net/assets/public/0f7d/24fe/19bc403a8ab2/3675b8dfad87/05665748712-e3/05665748712-e3.jpg?ts=1787650083048&w=1920",
+        "https://static.zara.net/assets/public/7137/1132/b4594464befb/5aef81c3b0b5/05665748712-e5/05665748712-e5.jpg?ts=1787650082959&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nPaisley print bandana.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7e5eb9223b6bbfe3252969aa78c00e48b494737d994a939fe39d6ac57e7d24de",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

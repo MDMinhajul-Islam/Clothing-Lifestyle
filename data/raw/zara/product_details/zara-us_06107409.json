@@ -1,0 +1,291 @@
+{
+  "product_id": "zara-us:06107409",
+  "source_url": "https://www.zara.com/us/en/by-chlb-p06107409.html",
+  "final_url": "https://www.zara.com/us/en/by-chlb-p06107409.html",
+  "canonical_url": "https://www.zara.com/us/en/by-chlb-p06107409.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BY CHLB",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BY CHLB",
+      "url": "https://www.zara.com/us/en/by-chlb-p06107409.html",
+      "productGroupID": "06107409",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Jellaba-style shirt with a shirt collar and short sleeves. Fabric containing 33% linen.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920",
+        "https://static.zara.net/assets/public/68d7/411f/eca04fb2a0fe/693b8a0594bd/06107409052-a1/06107409052-a1.jpg?ts=1784822374280&w=1920",
+        "https://static.zara.net/assets/public/93bb/0185/611a48419c8b/28cf8780c03b/06107409052-a3/06107409052-a3.jpg?ts=1784822385029&w=1920",
+        "https://static.zara.net/assets/public/4ab3/6852/69dd43639e7e/47a69e90eba3/06107409052-e1/06107409052-e1.jpg?ts=1784816537750&w=1920",
+        "https://static.zara.net/assets/public/3291/0551/00ca49889e4a/4979501462c3/06107409052-e2/06107409052-e2.jpg?ts=1784816538014&w=1920",
+        "https://static.zara.net/assets/public/c6ad/7141/1c724f15a950/22bca3377759/06107409052-e3/06107409052-e3.jpg?ts=1784816541987&w=1920",
+        "https://static.zara.net/assets/public/fe65/d28a/4d1a42f08ea4/7f114ac50619/06107409052-e4/06107409052-e4.jpg?ts=1784816540984&w=1920"
+      ],
+      "material": "viscose/linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "67% viscose, 33% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BY CHLB - Light beige - 4-5 years (43,3 INCHES)",
+          "sku": "548825934-052-31",
+          "mpn": "548825934-052-31",
+          "color": "Light beige",
+          "size": "4-5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BY CHLB - Light beige - 6-7 years (47,2 INCHES)",
+          "sku": "548825934-052-32",
+          "mpn": "548825934-052-32",
+          "color": "Light beige",
+          "size": "6-7 years (47,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BY CHLB - Light beige - 8-9 years (51,2 INCHES)",
+          "sku": "548825934-052-33",
+          "mpn": "548825934-052-33",
+          "color": "Light beige",
+          "size": "8-9 years (51,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BY CHLB - Light beige - 10-11 years (57,1 INCHES)",
+          "sku": "548825934-052-34",
+          "mpn": "548825934-052-34",
+          "color": "Light beige",
+          "size": "10-11 years (57,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BY CHLB - Light beige - 12-13 years (62,2 INCHES)",
+          "sku": "548825934-052-35",
+          "mpn": "548825934-052-35",
+          "color": "Light beige",
+          "size": "12-13 years (62,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BY CHLB - Light beige - 13-14 years (64,6 INCHES)",
+          "sku": "548825934-052-36",
+          "mpn": "548825934-052-36",
+          "color": "Light beige",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BY CHLB",
+      "product_group_id": "06107409",
+      "brand": "ZARA",
+      "description": "Jellaba-style shirt with a shirt collar and short sleeves. Fabric containing 33% linen.",
+      "material": "viscose/linen",
+      "composition": "OUTER SHELL: 67% viscose, 33% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BY CHLB - Light beige - 4-5 years (43,3 INCHES)",
+          "sku": "548825934-052-31",
+          "mpn": "548825934-052-31",
+          "color_name": "Light beige",
+          "size_name": "4-5 years (43,3 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+          "images": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ]
+        },
+        {
+          "name": "BY CHLB - Light beige - 6-7 years (47,2 INCHES)",
+          "sku": "548825934-052-32",
+          "mpn": "548825934-052-32",
+          "color_name": "Light beige",
+          "size_name": "6-7 years (47,2 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+          "images": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ]
+        },
+        {
+          "name": "BY CHLB - Light beige - 8-9 years (51,2 INCHES)",
+          "sku": "548825934-052-33",
+          "mpn": "548825934-052-33",
+          "color_name": "Light beige",
+          "size_name": "8-9 years (51,2 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+          "images": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ]
+        },
+        {
+          "name": "BY CHLB - Light beige - 10-11 years (57,1 INCHES)",
+          "sku": "548825934-052-34",
+          "mpn": "548825934-052-34",
+          "color_name": "Light beige",
+          "size_name": "10-11 years (57,1 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+          "images": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ]
+        },
+        {
+          "name": "BY CHLB - Light beige - 12-13 years (62,2 INCHES)",
+          "sku": "548825934-052-35",
+          "mpn": "548825934-052-35",
+          "color_name": "Light beige",
+          "size_name": "12-13 years (62,2 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+          "images": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ]
+        },
+        {
+          "name": "BY CHLB - Light beige - 13-14 years (64,6 INCHES)",
+          "sku": "548825934-052-36",
+          "mpn": "548825934-052-36",
+          "color_name": "Light beige",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/by-chlb-p06107409.html?v1=548825934",
+          "images": [
+            "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1875/26d0/4c694ead9d39/5e0737346305/06107409052-p/06107409052-p.jpg?ts=1784822384203&w=1920",
+        "https://static.zara.net/assets/public/68d7/411f/eca04fb2a0fe/693b8a0594bd/06107409052-a1/06107409052-a1.jpg?ts=1784822374280&w=1920",
+        "https://static.zara.net/assets/public/93bb/0185/611a48419c8b/28cf8780c03b/06107409052-a3/06107409052-a3.jpg?ts=1784822385029&w=1920",
+        "https://static.zara.net/assets/public/4ab3/6852/69dd43639e7e/47a69e90eba3/06107409052-e1/06107409052-e1.jpg?ts=1784816537750&w=1920",
+        "https://static.zara.net/assets/public/3291/0551/00ca49889e4a/4979501462c3/06107409052-e2/06107409052-e2.jpg?ts=1784816538014&w=1920",
+        "https://static.zara.net/assets/public/c6ad/7141/1c724f15a950/22bca3377759/06107409052-e3/06107409052-e3.jpg?ts=1784816541987&w=1920",
+        "https://static.zara.net/assets/public/fe65/d28a/4d1a42f08ea4/7f114ac50619/06107409052-e4/06107409052-e4.jpg?ts=1784816540984&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nJellaba-style shirt with a shirt collar and short sleeves. Fabric containing 33% linen.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "60a41bd3b963dda2af5b6ad57fafda04fa0cfc1b2e5922d0f5e331e13e1dd794",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

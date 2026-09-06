@@ -1,0 +1,140 @@
+{
+  "product_id": "zara-us:11455730",
+  "source_url": "https://www.zara.com/us/en/multi-color-travel-suitcase-p11455730.html",
+  "final_url": "https://www.zara.com/us/en/multi-color-travel-suitcase-p11455730.html",
+  "canonical_url": "https://www.zara.com/us/en/multi-color-travel-suitcase-p11455730.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULTI-COLOR TRAVEL SUITCASE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULTI-COLOR TRAVEL SUITCASE",
+      "url": "https://www.zara.com/us/en/multi-color-travel-suitcase-p11455730.html",
+      "productGroupID": "11455730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Multi-color travel suitcase. Zip closure. Extendable handle with two height settings and a top handle. Four double swivel wheels. Main compartment with two sections. One side features a mesh divider with zip closure, and the other has double adjustable cross straps with a clip closure. Includes a set of decorative stickers.\n\nHeight x Length x Width: 19.7 x 13.8 x 7.9 inches (50 x 35 x 20 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ab89/e566/35474db99f9f/40e5cb0fb9cc/11455730802-e10/11455730802-e10.jpg?ts=1774957063476&w=1920",
+        "https://static.zara.net/assets/public/30b8/dc52/2654439dbed7/9abd30dda55c/11455730802-e1/11455730802-e1.jpg?ts=1771832782153&w=1920",
+        "https://static.zara.net/assets/public/cdfd/a166/c0d740898158/d1aa7d62afc0/11455730802-e7/11455730802-e7.jpg?ts=1771832781978&w=1920",
+        "https://static.zara.net/assets/public/a57f/8d1b/f54b419fa991/02e0761c32d0/11455730802-e2/11455730802-e2.jpg?ts=1771832781785&w=1920",
+        "https://static.zara.net/assets/public/8fb7/20fa/6d2647c8a504/3edf9f98a79a/11455730802-e3/11455730802-e3.jpg?ts=1771832781915&w=1920",
+        "https://static.zara.net/assets/public/7675/a297/88c44800aa0f/304a16fed4cf/11455730802-e4/11455730802-e4.jpg?ts=1771832781933&w=1920",
+        "https://static.zara.net/assets/public/18a9/a8ad/9373433e9106/3ccda4fd8248/11455730802-e5/11455730802-e5.jpg?ts=1771832781992&w=1920",
+        "https://static.zara.net/assets/public/a579/2d28/c1ff46b19585/b7a557ca55e4/11455730802-e6/11455730802-e6.jpg?ts=1771832781771&w=1920",
+        "https://static.zara.net/assets/public/90cc/2f51/28db48a7ac6c/22098de3c939/11456730300-e8/11456730300-e8.jpg?ts=1772541735043&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULTI-COLOR TRAVEL SUITCASE - Gray - ONE SIZE ONLY",
+          "sku": "545475096-802-53",
+          "mpn": "545475096-802-53",
+          "color": "Gray",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ab89/e566/35474db99f9f/40e5cb0fb9cc/11455730802-e10/11455730802-e10.jpg?ts=1774957063476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "129",
+            "url": "https://www.zara.com/us/en/multi-color-travel-suitcase-p11455730.html?v1=545475096",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULTI-COLOR TRAVEL SUITCASE",
+      "product_group_id": "11455730",
+      "brand": "ZARA",
+      "description": "Multi-color travel suitcase. Zip closure. Extendable handle with two height settings and a top handle. Four double swivel wheels. Main compartment with two sections. One side features a mesh divider with zip closure, and the other has double adjustable cross straps with a clip closure. Includes a set of decorative stickers.\n\nHeight x Length x Width: 19.7 x 13.8 x 7.9 inches (50 x 35 x 20 cm)",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULTI-COLOR TRAVEL SUITCASE - Gray - ONE SIZE ONLY",
+          "sku": "545475096-802-53",
+          "mpn": "545475096-802-53",
+          "color_name": "Gray",
+          "size_name": "ONE SIZE ONLY",
+          "price": "129.00",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-color-travel-suitcase-p11455730.html?v1=545475096",
+          "images": [
+            "https://static.zara.net/assets/public/ab89/e566/35474db99f9f/40e5cb0fb9cc/11455730802-e10/11455730802-e10.jpg?ts=1774957063476&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ab89/e566/35474db99f9f/40e5cb0fb9cc/11455730802-e10/11455730802-e10.jpg?ts=1774957063476&w=1920",
+        "https://static.zara.net/assets/public/30b8/dc52/2654439dbed7/9abd30dda55c/11455730802-e1/11455730802-e1.jpg?ts=1771832782153&w=1920",
+        "https://static.zara.net/assets/public/cdfd/a166/c0d740898158/d1aa7d62afc0/11455730802-e7/11455730802-e7.jpg?ts=1771832781978&w=1920",
+        "https://static.zara.net/assets/public/a57f/8d1b/f54b419fa991/02e0761c32d0/11455730802-e2/11455730802-e2.jpg?ts=1771832781785&w=1920",
+        "https://static.zara.net/assets/public/8fb7/20fa/6d2647c8a504/3edf9f98a79a/11455730802-e3/11455730802-e3.jpg?ts=1771832781915&w=1920",
+        "https://static.zara.net/assets/public/7675/a297/88c44800aa0f/304a16fed4cf/11455730802-e4/11455730802-e4.jpg?ts=1771832781933&w=1920",
+        "https://static.zara.net/assets/public/18a9/a8ad/9373433e9106/3ccda4fd8248/11455730802-e5/11455730802-e5.jpg?ts=1771832781992&w=1920",
+        "https://static.zara.net/assets/public/a579/2d28/c1ff46b19585/b7a557ca55e4/11455730802-e6/11455730802-e6.jpg?ts=1771832781771&w=1920",
+        "https://static.zara.net/assets/public/90cc/2f51/28db48a7ac6c/22098de3c939/11456730300-e8/11456730300-e8.jpg?ts=1772541735043&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "129.00",
+  "rendered_description": "Description\nMulti-color travel suitcase. Zip closure. Extendable handle with two height settings and a top handle. Four double swivel wheels. Main compartment with two sections. One side features a mesh divider with zip closure, and the other has double adjustable cross straps with a clip closure. Includes a set of decorative stickers.\nHeight x Length x Width: 19.7 x 13.8 x 7.9 inches (50 x 35 x 20 cm)\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "129.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "129.00",
+    "dom_price": "129.00",
+    "normalized_price": "129.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9374c0164b68a30dc126ad88324176a07951320a62b5baffdb6d852eaf16eb4f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:11400830",
+  "source_url": "https://www.zara.com/us/en/psp--crossbody-bag-p11400830.html",
+  "final_url": "https://www.zara.com/us/en/psp--crossbody-bag-p11400830.html",
+  "canonical_url": "https://www.zara.com/us/en/psp--crossbody-bag-p11400830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PSP™ CROSSBODY BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PSP™ CROSSBODY BAG",
+      "url": "https://www.zara.com/us/en/psp--crossbody-bag-p11400830.html",
+      "productGroupID": "11400830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "PSP™ crossbody bag with a vinyl touch screen. It features a main compartment with a zipper closure and an adjustable shoulder strap.\n\nHeight x Length x Width: 4.3 x 7.9 x 2 inches (11 x 20 x 5 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/04eb/97b6/637647709281/728042850964/11400830800-e1/11400830800-e1.jpg?ts=1778053003341&w=1920",
+        "https://static.zara.net/assets/public/6c7d/62a9/f7bf46338656/6b70909c44d9/11400830800-e2/11400830800-e2.jpg?ts=1778053004221&w=1920",
+        "https://static.zara.net/assets/public/e24a/8f6b/a94a402894e8/1aef8922dc86/11400830800-e3/11400830800-e3.jpg?ts=1777476963659&w=1920",
+        "https://static.zara.net/assets/public/87af/3640/d0a644ad8860/b058184c7308/11400830800-e4/11400830800-e4.jpg?ts=1777476963883&w=1920",
+        "https://static.zara.net/assets/public/d1fe/c0de/5d014900b13a/1d6269cad13f/11400830800-e5/11400830800-e5.jpg?ts=1777476961547&w=1920",
+        "https://static.zara.net/assets/public/b1ea/c8ac/baff4a43b43b/4c6ea34b206f/11400830800-e6/11400830800-e6.jpg?ts=1777476966120&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PSP™ CROSSBODY BAG - Black - ONE SIZE ONLY",
+          "sku": "545413448-800-53",
+          "mpn": "545413448-800-53",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/04eb/97b6/637647709281/728042850964/11400830800-e1/11400830800-e1.jpg?ts=1778053003341&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/psp--crossbody-bag-p11400830.html?v1=545413448",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PSP™ CROSSBODY BAG",
+      "product_group_id": "11400830",
+      "brand": "ZARA",
+      "description": "PSP™ crossbody bag with a vinyl touch screen. It features a main compartment with a zipper closure and an adjustable shoulder strap.\n\nHeight x Length x Width: 4.3 x 7.9 x 2 inches (11 x 20 x 5 cm)",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PSP™ CROSSBODY BAG - Black - ONE SIZE ONLY",
+          "sku": "545413448-800-53",
+          "mpn": "545413448-800-53",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/psp--crossbody-bag-p11400830.html?v1=545413448",
+          "images": [
+            "https://static.zara.net/assets/public/04eb/97b6/637647709281/728042850964/11400830800-e1/11400830800-e1.jpg?ts=1778053003341&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/04eb/97b6/637647709281/728042850964/11400830800-e1/11400830800-e1.jpg?ts=1778053003341&w=1920",
+        "https://static.zara.net/assets/public/6c7d/62a9/f7bf46338656/6b70909c44d9/11400830800-e2/11400830800-e2.jpg?ts=1778053004221&w=1920",
+        "https://static.zara.net/assets/public/e24a/8f6b/a94a402894e8/1aef8922dc86/11400830800-e3/11400830800-e3.jpg?ts=1777476963659&w=1920",
+        "https://static.zara.net/assets/public/87af/3640/d0a644ad8860/b058184c7308/11400830800-e4/11400830800-e4.jpg?ts=1777476963883&w=1920",
+        "https://static.zara.net/assets/public/d1fe/c0de/5d014900b13a/1d6269cad13f/11400830800-e5/11400830800-e5.jpg?ts=1777476961547&w=1920",
+        "https://static.zara.net/assets/public/b1ea/c8ac/baff4a43b43b/4c6ea34b206f/11400830800-e6/11400830800-e6.jpg?ts=1777476966120&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nPSP™ crossbody bag with a vinyl touch screen. It features a main compartment with a zipper closure and an adjustable shoulder strap.\nHeight x Length x Width: 4.3 x 7.9 x 2 inches (11 x 20 x 5 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "920d0269b8d50b0a835f7bce6a51ae3c2550cea2204af7ab4a16ef35be285d03",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

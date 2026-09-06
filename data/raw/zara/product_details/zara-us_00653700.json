@@ -1,0 +1,160 @@
+{
+  "product_id": "zara-us:00653700",
+  "source_url": "https://www.zara.com/us/en/braided-bandana-necklace-p00653700.html",
+  "final_url": "https://www.zara.com/us/en/braided-bandana-necklace-p00653700.html",
+  "canonical_url": "https://www.zara.com/us/en/braided-bandana-necklace-p00653700.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BRAIDED BANDANA NECKLACE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BRAIDED BANDANA NECKLACE",
+      "url": "https://www.zara.com/us/en/braided-bandana-necklace-p00653700.html",
+      "productGroupID": "00653700",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Necklace with braided bandana detail and front knot. Contains small parts, not suitable for children under 3 years.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0d8a/8c99/2589447895d0/9c7a1edd185c/00653700400-e1/00653700400-e1.jpg?ts=1786691954481&w=1920",
+        "https://static.zara.net/assets/public/200d/ade7/3d874989bf67/78385a7f8e37/00653700400-e2/00653700400-e2.jpg?ts=1786691954473&w=1920",
+        "https://static.zara.net/assets/public/be50/a35f/a4b54ec5ae65/0b8f411f0df1/00653700400-e3/00653700400-e3.jpg?ts=1786691954419&w=1920",
+        "https://static.zara.net/assets/public/7a8f/db2f/342b416d91ae/6a3859d3b990/00653700400-e4/00653700400-e4.jpg?ts=1786691954064&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BRAIDED BANDANA NECKLACE - Blue - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "549169917-400-14",
+          "mpn": "549169917-400-14",
+          "color": "Blue",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0d8a/8c99/2589447895d0/9c7a1edd185c/00653700400-e1/00653700400-e1.jpg?ts=1786691954481&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/braided-bandana-necklace-p00653700.html?v1=549169917",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BRAIDED BANDANA NECKLACE - Red - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "549169917-600-14",
+          "mpn": "549169917-600-14",
+          "color": "Red",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3fe3/2e80/ae8c454da20b/bb2e9f5b4048/00653700600-e1/00653700600-e1.jpg?ts=1786691954329&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/braided-bandana-necklace-p00653700.html?v1=549169918",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BRAIDED BANDANA NECKLACE",
+      "product_group_id": "00653700",
+      "brand": "ZARA",
+      "description": "Necklace with braided bandana detail and front knot. Contains small parts, not suitable for children under 3 years.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BRAIDED BANDANA NECKLACE - Blue - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "549169917-400-14",
+          "mpn": "549169917-400-14",
+          "color_name": "Blue",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/braided-bandana-necklace-p00653700.html?v1=549169917",
+          "images": [
+            "https://static.zara.net/assets/public/0d8a/8c99/2589447895d0/9c7a1edd185c/00653700400-e1/00653700400-e1.jpg?ts=1786691954481&w=1920"
+          ]
+        },
+        {
+          "name": "BRAIDED BANDANA NECKLACE - Red - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "549169917-600-14",
+          "mpn": "549169917-600-14",
+          "color_name": "Red",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/braided-bandana-necklace-p00653700.html?v1=549169918",
+          "images": [
+            "https://static.zara.net/assets/public/3fe3/2e80/ae8c454da20b/bb2e9f5b4048/00653700600-e1/00653700600-e1.jpg?ts=1786691954329&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0d8a/8c99/2589447895d0/9c7a1edd185c/00653700400-e1/00653700400-e1.jpg?ts=1786691954481&w=1920",
+        "https://static.zara.net/assets/public/200d/ade7/3d874989bf67/78385a7f8e37/00653700400-e2/00653700400-e2.jpg?ts=1786691954473&w=1920",
+        "https://static.zara.net/assets/public/be50/a35f/a4b54ec5ae65/0b8f411f0df1/00653700400-e3/00653700400-e3.jpg?ts=1786691954419&w=1920",
+        "https://static.zara.net/assets/public/7a8f/db2f/342b416d91ae/6a3859d3b990/00653700400-e4/00653700400-e4.jpg?ts=1786691954064&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Red"
+  ],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nNecklace with braided bandana detail and front knot. Contains small parts, not suitable for children under 3 years.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b8a6664617b942e0a25c0f53f2ee1b9389bce50b02bc153e88cae56604ccdf91",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

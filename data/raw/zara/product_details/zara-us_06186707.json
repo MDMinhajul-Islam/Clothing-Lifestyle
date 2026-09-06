@@ -1,0 +1,288 @@
+{
+  "product_id": "zara-us:06186707",
+  "source_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html",
+  "final_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html",
+  "canonical_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STORIESZ - WASHED EFFECT DENIM JACKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STORIESZ - WASHED EFFECT DENIM JACKET",
+      "url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html",
+      "productGroupID": "06186707",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Structured denim jacket with a washed effect finish. Features a shirt collar and long sleeves. Designed with elasticated trims and a front button closure. Pockets with piped detailing on the front.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920",
+        "https://static.zara.net/assets/public/864a/8374/2648494d9fb9/a888247832f8/06186707802-e2/06186707802-e2.jpg?ts=1787566076671&w=1920",
+        "https://static.zara.net/assets/public/7f4c/8005/d57a4428b959/537010a51eac/06186707802-e3/06186707802-e3.jpg?ts=1787566077135&w=1920",
+        "https://static.zara.net/assets/public/742f/ff63/0bbc44c69096/0bab3911ad59/06186707802-p/06186707802-p.jpg?ts=1787853880954&w=1920",
+        "https://static.zara.net/assets/public/a430/35aa/592d436599da/3ead668fc880/06186707802-a1/06186707802-a1.jpg?ts=1787853880879&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 6-7 years (48,0 INCHES)",
+          "sku": "562836369-802-7",
+          "mpn": "562836369-802-7",
+          "color": "Gray",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 7-8 years (50,4 INCHES)",
+          "sku": "562836369-802-8",
+          "mpn": "562836369-802-8",
+          "color": "Gray",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 8-9 years (52,7 INCHES)",
+          "sku": "562836369-802-9",
+          "mpn": "562836369-802-9",
+          "color": "Gray",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 9-10 years (55,1 INCHES)",
+          "sku": "562836369-802-10",
+          "mpn": "562836369-802-10",
+          "color": "Gray",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 11-12 years (59,8 INCHES)",
+          "sku": "562836369-802-12",
+          "mpn": "562836369-802-12",
+          "color": "Gray",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 13-14 years (64,6 INCHES)",
+          "sku": "562836369-802-14",
+          "mpn": "562836369-802-14",
+          "color": "Gray",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STORIESZ - WASHED EFFECT DENIM JACKET",
+      "product_group_id": "06186707",
+      "brand": "ZARA",
+      "description": "Structured denim jacket with a washed effect finish. Features a shirt collar and long sleeves. Designed with elasticated trims and a front button closure. Pockets with piped detailing on the front.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 6-7 years (48,0 INCHES)",
+          "sku": "562836369-802-7",
+          "mpn": "562836369-802-7",
+          "color_name": "Gray",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+          "images": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ]
+        },
+        {
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 7-8 years (50,4 INCHES)",
+          "sku": "562836369-802-8",
+          "mpn": "562836369-802-8",
+          "color_name": "Gray",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+          "images": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ]
+        },
+        {
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 8-9 years (52,7 INCHES)",
+          "sku": "562836369-802-9",
+          "mpn": "562836369-802-9",
+          "color_name": "Gray",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+          "images": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ]
+        },
+        {
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 9-10 years (55,1 INCHES)",
+          "sku": "562836369-802-10",
+          "mpn": "562836369-802-10",
+          "color_name": "Gray",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+          "images": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ]
+        },
+        {
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 11-12 years (59,8 INCHES)",
+          "sku": "562836369-802-12",
+          "mpn": "562836369-802-12",
+          "color_name": "Gray",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+          "images": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ]
+        },
+        {
+          "name": "STORIESZ - WASHED EFFECT DENIM JACKET - Gray - 13-14 years (64,6 INCHES)",
+          "sku": "562836369-802-14",
+          "mpn": "562836369-802-14",
+          "color_name": "Gray",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/storiesz---washed-effect-denim-jacket-p06186707.html?v1=562836369",
+          "images": [
+            "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d9ba/aa46/d82448b79712/7c83efbabbb1/06186707802-e1/06186707802-e1.jpg?ts=1787566079977&w=1920",
+        "https://static.zara.net/assets/public/864a/8374/2648494d9fb9/a888247832f8/06186707802-e2/06186707802-e2.jpg?ts=1787566076671&w=1920",
+        "https://static.zara.net/assets/public/7f4c/8005/d57a4428b959/537010a51eac/06186707802-e3/06186707802-e3.jpg?ts=1787566077135&w=1920",
+        "https://static.zara.net/assets/public/742f/ff63/0bbc44c69096/0bab3911ad59/06186707802-p/06186707802-p.jpg?ts=1787853880954&w=1920",
+        "https://static.zara.net/assets/public/a430/35aa/592d436599da/3ead668fc880/06186707802-a1/06186707802-a1.jpg?ts=1787853880879&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nStructured denim jacket with a washed effect finish. Features a shirt collar and long sleeves. Designed with elasticated trims and a front button closure. Pockets with piped detailing on the front.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "73e39555d1ab8871503b417725ac36eee84dec8ccd60796cccd398906785c229",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

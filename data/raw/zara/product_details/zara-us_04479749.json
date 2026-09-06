@@ -1,0 +1,164 @@
+{
+  "product_id": "zara-us:04479749",
+  "source_url": "https://www.zara.com/us/en/jennie-ruby--embroidered-washed-cap-p04479749.html",
+  "final_url": "https://www.zara.com/us/en/jennie-ruby--embroidered-washed-cap-p04479749.html",
+  "canonical_url": "https://www.zara.com/us/en/jennie-ruby--embroidered-washed-cap-p04479749.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "JENNIE RUBY® EMBROIDERED WASHED-EFFECT CAP",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "JENNIE RUBY® EMBROIDERED WASHED-EFFECT CAP",
+      "url": "https://www.zara.com/us/en/jennie-ruby--embroidered-washed-cap-p04479749.html",
+      "productGroupID": "04479749",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Washed-effect cap with an adjustable hook-and-loop strap at the back. Features JENNIE RUBY® embroidery detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8976/bb9a/afd747f0803c/f0331f1b5114/04479749811-e1/04479749811-e1.jpg?ts=1785159982149&w=1920",
+        "https://static.zara.net/assets/public/39c7/211c/2fac4672ba15/9de8185fce05/04479749811-e2/04479749811-e2.jpg?ts=1785159982056&w=1920",
+        "https://static.zara.net/assets/public/5f45/fe58/59344e198f6f/66e163161ec1/04479749811-e3/04479749811-e3.jpg?ts=1785159981606&w=1920",
+        "https://static.zara.net/assets/public/51ed/3632/b3b5475480f4/279a361a45e2/04479749811-e5/04479749811-e5.jpg?ts=1785159982007&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "JENNIE RUBY® EMBROIDERED WASHED-EFFECT CAP - Light gray - M",
+          "sku": "547042319-811-9",
+          "mpn": "547042319-811-9",
+          "color": "Light gray",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/8976/bb9a/afd747f0803c/f0331f1b5114/04479749811-e1/04479749811-e1.jpg?ts=1785159982149&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/jennie-ruby--embroidered-washed-cap-p04479749.html?v1=547042319",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "JENNIE RUBY® EMBROIDERED WASHED-EFFECT CAP - Light gray - L",
+          "sku": "547042319-811-14",
+          "mpn": "547042319-811-14",
+          "color": "Light gray",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/8976/bb9a/afd747f0803c/f0331f1b5114/04479749811-e1/04479749811-e1.jpg?ts=1785159982149&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/jennie-ruby--embroidered-washed-cap-p04479749.html?v1=547042319",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "JENNIE RUBY® EMBROIDERED WASHED-EFFECT CAP",
+      "product_group_id": "04479749",
+      "brand": "ZARA",
+      "description": "Washed-effect cap with an adjustable hook-and-loop strap at the back. Features JENNIE RUBY® embroidery detail.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton | LINING: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "JENNIE RUBY® EMBROIDERED WASHED-EFFECT CAP - Light gray - M",
+          "sku": "547042319-811-9",
+          "mpn": "547042319-811-9",
+          "color_name": "Light gray",
+          "size_name": "M",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/jennie-ruby--embroidered-washed-cap-p04479749.html?v1=547042319",
+          "images": [
+            "https://static.zara.net/assets/public/8976/bb9a/afd747f0803c/f0331f1b5114/04479749811-e1/04479749811-e1.jpg?ts=1785159982149&w=1920"
+          ]
+        },
+        {
+          "name": "JENNIE RUBY® EMBROIDERED WASHED-EFFECT CAP - Light gray - L",
+          "sku": "547042319-811-14",
+          "mpn": "547042319-811-14",
+          "color_name": "Light gray",
+          "size_name": "L",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/jennie-ruby--embroidered-washed-cap-p04479749.html?v1=547042319",
+          "images": [
+            "https://static.zara.net/assets/public/8976/bb9a/afd747f0803c/f0331f1b5114/04479749811-e1/04479749811-e1.jpg?ts=1785159982149&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8976/bb9a/afd747f0803c/f0331f1b5114/04479749811-e1/04479749811-e1.jpg?ts=1785159982149&w=1920",
+        "https://static.zara.net/assets/public/39c7/211c/2fac4672ba15/9de8185fce05/04479749811-e2/04479749811-e2.jpg?ts=1785159982056&w=1920",
+        "https://static.zara.net/assets/public/5f45/fe58/59344e198f6f/66e163161ec1/04479749811-e3/04479749811-e3.jpg?ts=1785159981606&w=1920",
+        "https://static.zara.net/assets/public/51ed/3632/b3b5475480f4/279a361a45e2/04479749811-e5/04479749811-e5.jpg?ts=1785159982007&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nWashed-effect cap with an adjustable hook-and-loop strap at the back. Features JENNIE RUBY® embroidery detail.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 4,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "10b5498cabe894a18c7f214ca6753b69c61dfb73d6145156849876c7dc8df16b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:00653653",
+  "source_url": "https://www.zara.com/us/en/polka-dot-print-tie-p00653653.html",
+  "final_url": "https://www.zara.com/us/en/polka-dot-print-tie-p00653653.html",
+  "canonical_url": "https://www.zara.com/us/en/polka-dot-print-tie-p00653653.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "POLKA DOT PRINT TIE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "POLKA DOT PRINT TIE",
+      "url": "https://www.zara.com/us/en/polka-dot-print-tie-p00653653.html",
+      "productGroupID": "00653653",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Tie with adjustable neck fastening. Polka dot print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d6ba/5506/7d5d470fbddb/67821b540572/00653653400-e1/00653653400-e1.jpg?ts=1773153898301&w=1920",
+        "https://static.zara.net/assets/public/67b0/3b5a/a26949dfb013/576bb6f4a346/00653653400-e2/00653653400-e2.jpg?ts=1773153899829&w=1920",
+        "https://static.zara.net/assets/public/de16/1041/df6a4590b6a9/44c3756f3dd4/00653653400-e3/00653653400-e3.jpg?ts=1773153898457&w=1920",
+        "https://static.zara.net/assets/public/a90d/04d7/b3fd4ba7b326/dcfd922f4999/00653653400-e5/00653653400-e5.jpg?ts=1773153898522&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "POLKA DOT PRINT TIE - Blue - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545446597-400-14",
+          "mpn": "545446597-400-14",
+          "color": "Blue",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/d6ba/5506/7d5d470fbddb/67821b540572/00653653400-e1/00653653400-e1.jpg?ts=1773153898301&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/polka-dot-print-tie-p00653653.html?v1=545446597",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "POLKA DOT PRINT TIE",
+      "product_group_id": "00653653",
+      "brand": "ZARA",
+      "description": "Tie with adjustable neck fastening. Polka dot print.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "POLKA DOT PRINT TIE - Blue - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545446597-400-14",
+          "mpn": "545446597-400-14",
+          "color_name": "Blue",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/polka-dot-print-tie-p00653653.html?v1=545446597",
+          "images": [
+            "https://static.zara.net/assets/public/d6ba/5506/7d5d470fbddb/67821b540572/00653653400-e1/00653653400-e1.jpg?ts=1773153898301&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d6ba/5506/7d5d470fbddb/67821b540572/00653653400-e1/00653653400-e1.jpg?ts=1773153898301&w=1920",
+        "https://static.zara.net/assets/public/67b0/3b5a/a26949dfb013/576bb6f4a346/00653653400-e2/00653653400-e2.jpg?ts=1773153899829&w=1920",
+        "https://static.zara.net/assets/public/de16/1041/df6a4590b6a9/44c3756f3dd4/00653653400-e3/00653653400-e3.jpg?ts=1773153898457&w=1920",
+        "https://static.zara.net/assets/public/a90d/04d7/b3fd4ba7b326/dcfd922f4999/00653653400-e5/00653653400-e5.jpg?ts=1773153898522&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nTie with adjustable neck fastening. Polka dot print.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3e0a78e960847ff5b9f5f2c54d4732a17e3bfff262c9782cdbe2acfcf7c3ba38",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20310506",
+  "source_url": "https://www.zara.com/us/en/basket--on-the-court-edt-12-ml--0-4-fl--oz---p20310506.html",
+  "final_url": "https://www.zara.com/us/en/basket--on-the-court-edt-12-ml--0-4-fl--oz---p20310506.html",
+  "canonical_url": "https://www.zara.com/us/en/basket--on-the-court-edt-12-ml--0-4-fl--oz---p20310506.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASKET, ON THE COURT EDT 12 ML (0.4 FL. OZ.)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASKET, ON THE COURT EDT 12 ML (0.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/basket--on-the-court-edt-12-ml--0-4-fl--oz---p20310506.html",
+      "productGroupID": "20310506",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A modern and luminous fragrance created for those always on the go. Citrus and floral notes provide a fresh and versatile sensation, accompanied by a soft and comfortable base.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0f0a/2032/86cd4f9f8641/b610deeacc57/20310506999-e1/20310506999-e1.jpg?ts=1779200273948&w=1920",
+        "https://static.zara.net/assets/public/bf2b/df1e/703a40b395c2/1ddde04acdeb/20310506999-e2/20310506999-e2.jpg?ts=1779200273416&w=1920",
+        "https://static.zara.net/assets/public/8d89/3e74/fa664eaa9e36/aa67f8c3e8f5/20310506999-e3/20310506999-e3.jpg?ts=1779200274080&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASKET, ON THE COURT EDT 12 ML (0.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545401077-999-99",
+          "mpn": "545401077-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0f0a/2032/86cd4f9f8641/b610deeacc57/20310506999-e1/20310506999-e1.jpg?ts=1779200273948&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "5.94",
+            "url": "https://www.zara.com/us/en/basket--on-the-court-edt-12-ml--0-4-fl--oz---p20310506.html?v1=545401077",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASKET, ON THE COURT EDT 12 ML (0.4 FL. OZ.)",
+      "product_group_id": "20310506",
+      "brand": "ZARA",
+      "description": "A modern and luminous fragrance created for those always on the go. Citrus and floral notes provide a fresh and versatile sensation, accompanied by a soft and comfortable base.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASKET, ON THE COURT EDT 12 ML (0.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545401077-999-99",
+          "mpn": "545401077-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "5.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basket--on-the-court-edt-12-ml--0-4-fl--oz---p20310506.html?v1=545401077",
+          "images": [
+            "https://static.zara.net/assets/public/0f0a/2032/86cd4f9f8641/b610deeacc57/20310506999-e1/20310506999-e1.jpg?ts=1779200273948&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0f0a/2032/86cd4f9f8641/b610deeacc57/20310506999-e1/20310506999-e1.jpg?ts=1779200273948&w=1920",
+        "https://static.zara.net/assets/public/bf2b/df1e/703a40b395c2/1ddde04acdeb/20310506999-e2/20310506999-e2.jpg?ts=1779200273416&w=1920",
+        "https://static.zara.net/assets/public/8d89/3e74/fa664eaa9e36/aa67f8c3e8f5/20310506999-e3/20310506999-e3.jpg?ts=1779200274080&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nA modern and luminous fragrance created for those always on the go. Citrus and floral notes provide a fresh and versatile sensation, accompanied by a soft and comfortable base.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "5.94",
+    "original_price": "9.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "5.94",
+    "dom_price": "9.90",
+    "normalized_price": "5.94",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '5.94' != DOM price '9.90'"
+  },
+  "source_content_hash": "1f77e5b80391be280cb18606b384f4c88db09d084ab332394c9d5eb061cf368a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

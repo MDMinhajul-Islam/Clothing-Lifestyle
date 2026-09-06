@@ -1,0 +1,290 @@
+{
+  "product_id": "zara-us:07878755",
+  "source_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html",
+  "final_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html",
+  "canonical_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SMILEYWORLD® T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SMILEYWORLD® T-SHIRT",
+      "url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html",
+      "productGroupID": "07878755",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck short sleeve T-shirt. SMILEYWORLD® print on the front and back.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920",
+        "https://static.zara.net/assets/public/35fa/c473/f76a495b94cc/62f8e85976a7/07878755400-e2/07878755400-e2.jpg?ts=1781177799457&w=1920",
+        "https://static.zara.net/assets/public/c449/d58d/ee3d42da9519/82505b910373/07878755400-e3/07878755400-e3.jpg?ts=1781177802059&w=1920",
+        "https://static.zara.net/assets/public/4622/0833/21ec492fba43/2adff95da2bc/07878755400-e4/07878755400-e4.jpg?ts=1781177800473&w=1920",
+        "https://static.zara.net/assets/public/2034/441c/d00e49cb8294/adc710d07a35/07878755400-p/07878755400-p.jpg?ts=1783599879938&w=1920",
+        "https://static.zara.net/assets/public/2560/a651/77604ddeb6c5/b80eefaa7676/07878755400-a1/07878755400-a1.jpg?ts=1783599880078&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461181-400-7",
+          "mpn": "545461181-400-7",
+          "color": "Blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 7-8 years (50,4 INCHES)",
+          "sku": "545461181-400-8",
+          "mpn": "545461181-400-8",
+          "color": "Blue",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 8-9 years (52,7 INCHES)",
+          "sku": "545461181-400-9",
+          "mpn": "545461181-400-9",
+          "color": "Blue",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461181-400-10",
+          "mpn": "545461181-400-10",
+          "color": "Blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 11-12 years (59,8 INCHES)",
+          "sku": "545461181-400-12",
+          "mpn": "545461181-400-12",
+          "color": "Blue",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461181-400-14",
+          "mpn": "545461181-400-14",
+          "color": "Blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SMILEYWORLD® T-SHIRT",
+      "product_group_id": "07878755",
+      "brand": "ZARA",
+      "description": "Round neck short sleeve T-shirt. SMILEYWORLD® print on the front and back.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461181-400-7",
+          "mpn": "545461181-400-7",
+          "color_name": "Blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+          "images": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ]
+        },
+        {
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 7-8 years (50,4 INCHES)",
+          "sku": "545461181-400-8",
+          "mpn": "545461181-400-8",
+          "color_name": "Blue",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+          "images": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ]
+        },
+        {
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 8-9 years (52,7 INCHES)",
+          "sku": "545461181-400-9",
+          "mpn": "545461181-400-9",
+          "color_name": "Blue",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+          "images": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ]
+        },
+        {
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461181-400-10",
+          "mpn": "545461181-400-10",
+          "color_name": "Blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+          "images": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ]
+        },
+        {
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 11-12 years (59,8 INCHES)",
+          "sku": "545461181-400-12",
+          "mpn": "545461181-400-12",
+          "color_name": "Blue",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+          "images": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ]
+        },
+        {
+          "name": "SMILEYWORLD® T-SHIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461181-400-14",
+          "mpn": "545461181-400-14",
+          "color_name": "Blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/smileyworld--t-shirt-p07878755.html?v1=545461181",
+          "images": [
+            "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7552/1e58/4a9e489d90a0/664a6b34fcb0/07878755400-e1/07878755400-e1.jpg?ts=1781177802202&w=1920",
+        "https://static.zara.net/assets/public/35fa/c473/f76a495b94cc/62f8e85976a7/07878755400-e2/07878755400-e2.jpg?ts=1781177799457&w=1920",
+        "https://static.zara.net/assets/public/c449/d58d/ee3d42da9519/82505b910373/07878755400-e3/07878755400-e3.jpg?ts=1781177802059&w=1920",
+        "https://static.zara.net/assets/public/4622/0833/21ec492fba43/2adff95da2bc/07878755400-e4/07878755400-e4.jpg?ts=1781177800473&w=1920",
+        "https://static.zara.net/assets/public/2034/441c/d00e49cb8294/adc710d07a35/07878755400-p/07878755400-p.jpg?ts=1783599879938&w=1920",
+        "https://static.zara.net/assets/public/2560/a651/77604ddeb6c5/b80eefaa7676/07878755400-a1/07878755400-a1.jpg?ts=1783599880078&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nRound neck short sleeve T-shirt. SMILEYWORLD® print on the front and back.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "13.74",
+    "original_price": "22.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "13.74",
+    "dom_price": "22.90",
+    "normalized_price": "13.74",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '13.74' != DOM price '22.90'"
+  },
+  "source_content_hash": "e8f06baf18392983f3346de4aabdbe6743fc9c216382b78cf93de4da941eafb4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

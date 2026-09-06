@@ -1,0 +1,476 @@
+{
+  "product_id": "zara-us:14460830",
+  "source_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html",
+  "final_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html",
+  "canonical_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CONTRAST LEATHER SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CONTRAST LEATHER SNEAKERS",
+      "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html",
+      "productGroupID": "14460830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leather sneaker with a mix of panels and contrast stitching detail. Features lace-up closure and a rubber sole. LEATHER: This product is crafted from a premium material. Any natural markings or variations in color are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920",
+        "https://static.zara.net/assets/public/dd48/b637/aaad44489d7a/d9cc742e5337/14460830600-e2/14460830600-e2.jpg?ts=1783670790676&w=1920",
+        "https://static.zara.net/assets/public/10c4/8cae/6a024ea0b27e/f0b734659088/14460830600-e3/14460830600-e3.jpg?ts=1783670791810&w=1920",
+        "https://static.zara.net/assets/public/0caf/8c2e/3da843c7b3c5/647086c20c2a/14460830600-e4/14460830600-e4.jpg?ts=1783670792416&w=1920",
+        "https://static.zara.net/assets/public/757e/a96f/2fff4aa09d99/cbf4fba074b3/14460830600-e5/14460830600-e5.jpg?ts=1783670791472&w=1920",
+        "https://static.zara.net/assets/public/8dd7/1c69/49e54f528e76/6e12695f7a99/14460830600-e6/14460830600-e6.jpg?ts=1783670791516&w=1920",
+        "https://static.zara.net/assets/public/75c9/28e5/4a954674865c/a1c227d64c3c/14460830600-e7/14460830600-e7.jpg?ts=1783670792062&w=1920"
+      ],
+      "material": "cow leather/polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "93% cow leather, 7% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 12½ (7.4 INCHES)",
+          "sku": "545436676-600-30",
+          "mpn": "545436676-600-30",
+          "color": "Red",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 13½ (7.7 INCHES)",
+          "sku": "545436676-600-31",
+          "mpn": "545436676-600-31",
+          "color": "Red",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 1 (8.0 INCHES)",
+          "sku": "545436676-600-32",
+          "mpn": "545436676-600-32",
+          "color": "Red",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 2 (8.2 INCHES)",
+          "sku": "545436676-600-33",
+          "mpn": "545436676-600-33",
+          "color": "Red",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 2½ (8.5 INCHES)",
+          "sku": "545436676-600-34",
+          "mpn": "545436676-600-34",
+          "color": "Red",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 3½ (8.8 INCHES)",
+          "sku": "545436676-600-35",
+          "mpn": "545436676-600-35",
+          "color": "Red",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 4 (9.0 INCHES)",
+          "sku": "545436676-600-36",
+          "mpn": "545436676-600-36",
+          "color": "Red",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 5 (9.3 INCHES)",
+          "sku": "545436676-600-37",
+          "mpn": "545436676-600-37",
+          "color": "Red",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 5½ (9.5 INCHES)",
+          "sku": "545436676-600-38",
+          "mpn": "545436676-600-38",
+          "color": "Red",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 6 (9.8 INCHES)",
+          "sku": "545436676-600-39",
+          "mpn": "545436676-600-39",
+          "color": "Red",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 7 (10.0 INCHES)",
+          "sku": "545436676-600-40",
+          "mpn": "545436676-600-40",
+          "color": "Red",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CONTRAST LEATHER SNEAKERS",
+      "product_group_id": "14460830",
+      "brand": "ZARA",
+      "description": "Leather sneaker with a mix of panels and contrast stitching detail. Features lace-up closure and a rubber sole. LEATHER: This product is crafted from a premium material. Any natural markings or variations in color are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+      "material": "cow leather/polyurethane",
+      "composition": "UPPER: 93% cow leather, 7% polyurethane | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 12½ (7.4 INCHES)",
+          "sku": "545436676-600-30",
+          "mpn": "545436676-600-30",
+          "color_name": "Red",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 13½ (7.7 INCHES)",
+          "sku": "545436676-600-31",
+          "mpn": "545436676-600-31",
+          "color_name": "Red",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 1 (8.0 INCHES)",
+          "sku": "545436676-600-32",
+          "mpn": "545436676-600-32",
+          "color_name": "Red",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 2 (8.2 INCHES)",
+          "sku": "545436676-600-33",
+          "mpn": "545436676-600-33",
+          "color_name": "Red",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 2½ (8.5 INCHES)",
+          "sku": "545436676-600-34",
+          "mpn": "545436676-600-34",
+          "color_name": "Red",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 3½ (8.8 INCHES)",
+          "sku": "545436676-600-35",
+          "mpn": "545436676-600-35",
+          "color_name": "Red",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 4 (9.0 INCHES)",
+          "sku": "545436676-600-36",
+          "mpn": "545436676-600-36",
+          "color_name": "Red",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 5 (9.3 INCHES)",
+          "sku": "545436676-600-37",
+          "mpn": "545436676-600-37",
+          "color_name": "Red",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 5½ (9.5 INCHES)",
+          "sku": "545436676-600-38",
+          "mpn": "545436676-600-38",
+          "color_name": "Red",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 6 (9.8 INCHES)",
+          "sku": "545436676-600-39",
+          "mpn": "545436676-600-39",
+          "color_name": "Red",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        },
+        {
+          "name": "CONTRAST LEATHER SNEAKERS - Red - 7 (10.0 INCHES)",
+          "sku": "545436676-600-40",
+          "mpn": "545436676-600-40",
+          "color_name": "Red",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/contrast-sneakers-p14460830.html?v1=545436676",
+          "images": [
+            "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f7c6/40bb/cd9b49eda4c3/d97033e1a902/14460830600-e1/14460830600-e1.jpg?ts=1783670791889&w=1920",
+        "https://static.zara.net/assets/public/dd48/b637/aaad44489d7a/d9cc742e5337/14460830600-e2/14460830600-e2.jpg?ts=1783670790676&w=1920",
+        "https://static.zara.net/assets/public/10c4/8cae/6a024ea0b27e/f0b734659088/14460830600-e3/14460830600-e3.jpg?ts=1783670791810&w=1920",
+        "https://static.zara.net/assets/public/0caf/8c2e/3da843c7b3c5/647086c20c2a/14460830600-e4/14460830600-e4.jpg?ts=1783670792416&w=1920",
+        "https://static.zara.net/assets/public/757e/a96f/2fff4aa09d99/cbf4fba074b3/14460830600-e5/14460830600-e5.jpg?ts=1783670791472&w=1920",
+        "https://static.zara.net/assets/public/8dd7/1c69/49e54f528e76/6e12695f7a99/14460830600-e6/14460830600-e6.jpg?ts=1783670791516&w=1920",
+        "https://static.zara.net/assets/public/75c9/28e5/4a954674865c/a1c227d64c3c/14460830600-e7/14460830600-e7.jpg?ts=1783670792062&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nLeather sneaker with a mix of panels and contrast stitching detail. Features lace-up closure and a rubber sole. LEATHER: This product is crafted from a premium material. Any natural markings or variations in color are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "914c4d39c34d128acbb331b423b5313059c9136d1b13e8799de4225f5ed7c121",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

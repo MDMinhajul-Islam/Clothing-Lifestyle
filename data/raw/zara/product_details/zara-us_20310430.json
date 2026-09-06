@@ -1,0 +1,116 @@
+{
+  "product_id": "zara-us:20310430",
+  "source_url": "https://www.zara.com/us/en/star-wars-darth-vader---disney-edt-50-ml--1-69-fl--oz---p20310430.html",
+  "final_url": "https://www.zara.com/us/en/star-wars-darth-vader---disney-edt-50-ml--1-69-fl--oz---p20310430.html",
+  "canonical_url": "https://www.zara.com/us/en/star-wars-darth-vader---disney-edt-50-ml--1-69-fl--oz---p20310430.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STAR WARS DARTH VADER © DISNEY EDT 50 ML (1.69 FL. OZ.)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STAR WARS DARTH VADER © DISNEY EDT 50 ML (1.69 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/star-wars-darth-vader---disney-edt-50-ml--1-69-fl--oz---p20310430.html",
+      "productGroupID": "20310430",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Woody fougère eau de toilette. Welcome to the magical and powerful world of superheroes with this energetic and special Darth Vader © DISNEY fragrance, composed of sweet vanilla, pineapple and soft geranium.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4249/d675/3ac94d93b8a9/b8fa72be37ef/20310430999-000-e1/20310430999-000-e1.jpg?ts=1774456147854&w=1920",
+        "https://static.zara.net/assets/public/8cf2/72da/cc654077af45/d6576450c9e7/20310430999-000-e2/20310430999-000-e2.jpg?ts=1774456147664&w=1920",
+        "https://static.zara.net/assets/public/b5e2/0b26/95094497bd7c/33e75050c92b/20310430999-e3/20310430999-e3.jpg?ts=1762170049949&w=1920",
+        "https://static.zara.net/assets/public/223d/d479/e17c49989c1f/62df3926382c/20310430999-000-e5/20310430999-000-e5.jpg?ts=1774456149052&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STAR WARS DARTH VADER © DISNEY EDT 50 ML (1.69 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545485682-999-99",
+          "mpn": "545485682-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/4249/d675/3ac94d93b8a9/b8fa72be37ef/20310430999-000-e1/20310430999-000-e1.jpg?ts=1774456147854&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/star-wars-darth-vader---disney-edt-50-ml--1-69-fl--oz---p20310430.html?v1=545485682",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STAR WARS DARTH VADER © DISNEY EDT 50 ML (1.69 FL. OZ.)",
+      "product_group_id": "20310430",
+      "brand": "ZARA",
+      "description": "Woody fougère eau de toilette. Welcome to the magical and powerful world of superheroes with this energetic and special Darth Vader © DISNEY fragrance, composed of sweet vanilla, pineapple and soft geranium.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STAR WARS DARTH VADER © DISNEY EDT 50 ML (1.69 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545485682-999-99",
+          "mpn": "545485682-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-wars-darth-vader---disney-edt-50-ml--1-69-fl--oz---p20310430.html?v1=545485682",
+          "images": [
+            "https://static.zara.net/assets/public/4249/d675/3ac94d93b8a9/b8fa72be37ef/20310430999-000-e1/20310430999-000-e1.jpg?ts=1774456147854&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4249/d675/3ac94d93b8a9/b8fa72be37ef/20310430999-000-e1/20310430999-000-e1.jpg?ts=1774456147854&w=1920",
+        "https://static.zara.net/assets/public/8cf2/72da/cc654077af45/d6576450c9e7/20310430999-000-e2/20310430999-000-e2.jpg?ts=1774456147664&w=1920",
+        "https://static.zara.net/assets/public/b5e2/0b26/95094497bd7c/33e75050c92b/20310430999-e3/20310430999-e3.jpg?ts=1762170049949&w=1920",
+        "https://static.zara.net/assets/public/223d/d479/e17c49989c1f/62df3926382c/20310430999-000-e5/20310430999-000-e5.jpg?ts=1774456149052&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nWoody fougère eau de toilette. Welcome to the magical and powerful world of superheroes with this energetic and special Darth Vader © DISNEY fragrance, composed of sweet vanilla, pineapple and soft geranium.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c62ab65490c20868e654e96785cef61620581d1591af09b4d5734fabfb2d07d3",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

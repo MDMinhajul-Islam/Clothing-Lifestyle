@@ -1,0 +1,484 @@
+{
+  "product_id": "zara-us:04729775",
+  "source_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html",
+  "final_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html",
+  "canonical_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PLAIN COTTON SWEATSHIRT",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PLAIN COTTON SWEATSHIRT",
+      "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html",
+      "productGroupID": "04729775",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck sweatshirt with long sleeves. Ribbed trim.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920",
+        "https://static.zara.net/assets/public/0220/eabc/b4c3410f9325/c7b04988afee/04729775486-e2/04729775486-e2.jpg?ts=1783942890783&w=1920",
+        "https://static.zara.net/assets/public/1dfa/f8fc/76af42f9a62b/25f5592e1336/04729775486-e3/04729775486-e3.jpg?ts=1783942892927&w=1920",
+        "https://static.zara.net/assets/public/bc68/638e/1a8740ce9ba4/10bc881c7f3e/04729775486-e4/04729775486-e4.jpg?ts=1783942891526&w=1920",
+        "https://static.zara.net/assets/public/529b/4e04/a1b1499d9370/68806b73d1c1/05755607300-p/05755607300-p.jpg?ts=1785257546715&w=1920",
+        "https://static.zara.net/assets/public/d774/8d0f/4a8544c69687/f7afbd6c5845/05755607300-a1/05755607300-a1.jpg?ts=1785257546104&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 6-7 years (48,0 INCHES)",
+          "sku": "553345144-486-7",
+          "mpn": "553345144-486-7",
+          "color": "Bright turquoise",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 7-8 years (50,4 INCHES)",
+          "sku": "553345144-486-8",
+          "mpn": "553345144-486-8",
+          "color": "Bright turquoise",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 8-9 years (52,7 INCHES)",
+          "sku": "553345144-486-9",
+          "mpn": "553345144-486-9",
+          "color": "Bright turquoise",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 9-10 years (55,1 INCHES)",
+          "sku": "553345144-486-10",
+          "mpn": "553345144-486-10",
+          "color": "Bright turquoise",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 11-12 years (59,8 INCHES)",
+          "sku": "553345144-486-12",
+          "mpn": "553345144-486-12",
+          "color": "Bright turquoise",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 13-14 years (64,6 INCHES)",
+          "sku": "553345144-486-14",
+          "mpn": "553345144-486-14",
+          "color": "Bright turquoise",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 6-7 years (48,0 INCHES)",
+          "sku": "553345144-690-7",
+          "mpn": "553345144-690-7",
+          "color": "Dark fuchsia",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 7-8 years (50,4 INCHES)",
+          "sku": "553345144-690-8",
+          "mpn": "553345144-690-8",
+          "color": "Dark fuchsia",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 8-9 years (52,7 INCHES)",
+          "sku": "553345144-690-9",
+          "mpn": "553345144-690-9",
+          "color": "Dark fuchsia",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 9-10 years (55,1 INCHES)",
+          "sku": "553345144-690-10",
+          "mpn": "553345144-690-10",
+          "color": "Dark fuchsia",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 11-12 years (59,8 INCHES)",
+          "sku": "553345144-690-12",
+          "mpn": "553345144-690-12",
+          "color": "Dark fuchsia",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 13-14 years (64,6 INCHES)",
+          "sku": "553345144-690-14",
+          "mpn": "553345144-690-14",
+          "color": "Dark fuchsia",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PLAIN COTTON SWEATSHIRT",
+      "product_group_id": "04729775",
+      "brand": "ZARA",
+      "description": "Round neck sweatshirt with long sleeves. Ribbed trim.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 6-7 years (48,0 INCHES)",
+          "sku": "553345144-486-7",
+          "mpn": "553345144-486-7",
+          "color_name": "Bright turquoise",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+          "images": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 7-8 years (50,4 INCHES)",
+          "sku": "553345144-486-8",
+          "mpn": "553345144-486-8",
+          "color_name": "Bright turquoise",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+          "images": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 8-9 years (52,7 INCHES)",
+          "sku": "553345144-486-9",
+          "mpn": "553345144-486-9",
+          "color_name": "Bright turquoise",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+          "images": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 9-10 years (55,1 INCHES)",
+          "sku": "553345144-486-10",
+          "mpn": "553345144-486-10",
+          "color_name": "Bright turquoise",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+          "images": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 11-12 years (59,8 INCHES)",
+          "sku": "553345144-486-12",
+          "mpn": "553345144-486-12",
+          "color_name": "Bright turquoise",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+          "images": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Bright turquoise - 13-14 years (64,6 INCHES)",
+          "sku": "553345144-486-14",
+          "mpn": "553345144-486-14",
+          "color_name": "Bright turquoise",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345144",
+          "images": [
+            "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 6-7 years (48,0 INCHES)",
+          "sku": "553345144-690-7",
+          "mpn": "553345144-690-7",
+          "color_name": "Dark fuchsia",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+          "images": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 7-8 years (50,4 INCHES)",
+          "sku": "553345144-690-8",
+          "mpn": "553345144-690-8",
+          "color_name": "Dark fuchsia",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+          "images": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 8-9 years (52,7 INCHES)",
+          "sku": "553345144-690-9",
+          "mpn": "553345144-690-9",
+          "color_name": "Dark fuchsia",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+          "images": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 9-10 years (55,1 INCHES)",
+          "sku": "553345144-690-10",
+          "mpn": "553345144-690-10",
+          "color_name": "Dark fuchsia",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+          "images": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 11-12 years (59,8 INCHES)",
+          "sku": "553345144-690-12",
+          "mpn": "553345144-690-12",
+          "color_name": "Dark fuchsia",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+          "images": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ]
+        },
+        {
+          "name": "PLAIN COTTON SWEATSHIRT - Dark fuchsia - 13-14 years (64,6 INCHES)",
+          "sku": "553345144-690-14",
+          "mpn": "553345144-690-14",
+          "color_name": "Dark fuchsia",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cotton-plain-sweatshirt-p04729775.html?v1=553345145",
+          "images": [
+            "https://static.zara.net/assets/public/9391/7c0b/ee2d47ffacff/829635b47d44/04729775690-e1/04729775690-e1.jpg?ts=1783939836089&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/255b/4177/c75b45cb9195/537d0ec4b282/04729775486-e1/04729775486-e1.jpg?ts=1783942888788&w=1920",
+        "https://static.zara.net/assets/public/0220/eabc/b4c3410f9325/c7b04988afee/04729775486-e2/04729775486-e2.jpg?ts=1783942890783&w=1920",
+        "https://static.zara.net/assets/public/1dfa/f8fc/76af42f9a62b/25f5592e1336/04729775486-e3/04729775486-e3.jpg?ts=1783942892927&w=1920",
+        "https://static.zara.net/assets/public/bc68/638e/1a8740ce9ba4/10bc881c7f3e/04729775486-e4/04729775486-e4.jpg?ts=1783942891526&w=1920",
+        "https://static.zara.net/assets/public/529b/4e04/a1b1499d9370/68806b73d1c1/05755607300-p/05755607300-p.jpg?ts=1785257546715&w=1920",
+        "https://static.zara.net/assets/public/d774/8d0f/4a8544c69687/f7afbd6c5845/05755607300-a1/05755607300-a1.jpg?ts=1785257546104&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Bright turquoise",
+    "Dark fuchsia"
+  ],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nRound neck sweatshirt with long sleeves. Ribbed trim.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f3c8605ce1d81f9525d731fb33cbc92d968d3736c2dfd33a5ac0818d94538045",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

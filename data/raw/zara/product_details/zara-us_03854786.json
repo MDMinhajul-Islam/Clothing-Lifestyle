@@ -1,0 +1,288 @@
+{
+  "product_id": "zara-us:03854786",
+  "source_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html",
+  "final_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html",
+  "canonical_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GARMENT DYE T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GARMENT DYE T-SHIRT",
+      "url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html",
+      "productGroupID": "03854786",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck T-shirt with short raglan sleeves. Front label appliqué.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920",
+        "https://static.zara.net/assets/public/b620/93aa/926c46b8b037/f7e2f467ffa3/03854786712-e2/03854786712-e2.jpg?ts=1779978014333&w=1920",
+        "https://static.zara.net/assets/public/5a64/7978/db06439ab002/3e0462808e68/03854786712-e3/03854786712-e3.jpg?ts=1779978014821&w=1920",
+        "https://static.zara.net/assets/public/6a9c/0c42/6eca42b2a22a/ec16b6394324/03854786712-e4/03854786712-e4.jpg?ts=1779978014369&w=1920",
+        "https://static.zara.net/assets/public/7cc6/f3c8/c46443dd8dad/f038150a5dbc/03854786712-a1/03854786712-a1.jpg?ts=1783337954402&w=1920",
+        "https://static.zara.net/assets/public/434f/8e2e/384c472a8b01/52d54307dc3b/03854786712-p/03854786712-p.jpg?ts=1783337951403&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GARMENT DYE T-SHIRT - Ecru - 6-7 years (48,0 INCHES)",
+          "sku": "545479455-712-7",
+          "mpn": "545479455-712-7",
+          "color": "Ecru",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GARMENT DYE T-SHIRT - Ecru - 7-8 years (50,4 INCHES)",
+          "sku": "545479455-712-8",
+          "mpn": "545479455-712-8",
+          "color": "Ecru",
+          "size": "7-8 years (50,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GARMENT DYE T-SHIRT - Ecru - 8-9 years (52,7 INCHES)",
+          "sku": "545479455-712-9",
+          "mpn": "545479455-712-9",
+          "color": "Ecru",
+          "size": "8-9 years (52,7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GARMENT DYE T-SHIRT - Ecru - 9-10 years (55,1 INCHES)",
+          "sku": "545479455-712-10",
+          "mpn": "545479455-712-10",
+          "color": "Ecru",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GARMENT DYE T-SHIRT - Ecru - 11-12 years (59,8 INCHES)",
+          "sku": "545479455-712-12",
+          "mpn": "545479455-712-12",
+          "color": "Ecru",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "GARMENT DYE T-SHIRT - Ecru - 13-14 years (64,6 INCHES)",
+          "sku": "545479455-712-14",
+          "mpn": "545479455-712-14",
+          "color": "Ecru",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "13.74",
+            "url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GARMENT DYE T-SHIRT",
+      "product_group_id": "03854786",
+      "brand": "ZARA",
+      "description": "Round neck T-shirt with short raglan sleeves. Front label appliqué.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GARMENT DYE T-SHIRT - Ecru - 6-7 years (48,0 INCHES)",
+          "sku": "545479455-712-7",
+          "mpn": "545479455-712-7",
+          "color_name": "Ecru",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+          "images": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ]
+        },
+        {
+          "name": "GARMENT DYE T-SHIRT - Ecru - 7-8 years (50,4 INCHES)",
+          "sku": "545479455-712-8",
+          "mpn": "545479455-712-8",
+          "color_name": "Ecru",
+          "size_name": "7-8 years (50,4 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+          "images": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ]
+        },
+        {
+          "name": "GARMENT DYE T-SHIRT - Ecru - 8-9 years (52,7 INCHES)",
+          "sku": "545479455-712-9",
+          "mpn": "545479455-712-9",
+          "color_name": "Ecru",
+          "size_name": "8-9 years (52,7 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+          "images": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ]
+        },
+        {
+          "name": "GARMENT DYE T-SHIRT - Ecru - 9-10 years (55,1 INCHES)",
+          "sku": "545479455-712-10",
+          "mpn": "545479455-712-10",
+          "color_name": "Ecru",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+          "images": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ]
+        },
+        {
+          "name": "GARMENT DYE T-SHIRT - Ecru - 11-12 years (59,8 INCHES)",
+          "sku": "545479455-712-12",
+          "mpn": "545479455-712-12",
+          "color_name": "Ecru",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+          "images": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ]
+        },
+        {
+          "name": "GARMENT DYE T-SHIRT - Ecru - 13-14 years (64,6 INCHES)",
+          "sku": "545479455-712-14",
+          "mpn": "545479455-712-14",
+          "color_name": "Ecru",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "13.74",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/garment-dye-t-shirt-p03854786.html?v1=545479455",
+          "images": [
+            "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7bc8/2ec7/bbf34511b285/9c26e99b130d/03854786712-e1/03854786712-e1.jpg?ts=1779978015119&w=1920",
+        "https://static.zara.net/assets/public/b620/93aa/926c46b8b037/f7e2f467ffa3/03854786712-e2/03854786712-e2.jpg?ts=1779978014333&w=1920",
+        "https://static.zara.net/assets/public/5a64/7978/db06439ab002/3e0462808e68/03854786712-e3/03854786712-e3.jpg?ts=1779978014821&w=1920",
+        "https://static.zara.net/assets/public/6a9c/0c42/6eca42b2a22a/ec16b6394324/03854786712-e4/03854786712-e4.jpg?ts=1779978014369&w=1920",
+        "https://static.zara.net/assets/public/7cc6/f3c8/c46443dd8dad/f038150a5dbc/03854786712-a1/03854786712-a1.jpg?ts=1783337954402&w=1920",
+        "https://static.zara.net/assets/public/434f/8e2e/384c472a8b01/52d54307dc3b/03854786712-p/03854786712-p.jpg?ts=1783337951403&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nRound neck T-shirt with short raglan sleeves. Front label appliqué.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "13.74",
+    "original_price": "22.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "13.74",
+    "dom_price": "22.90",
+    "normalized_price": "13.74",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '13.74' != DOM price '22.90'"
+  },
+  "source_content_hash": "98def462581f8b19e33d45d4b12220bfd23fb3332379e962c4b61f6ea3dae35d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

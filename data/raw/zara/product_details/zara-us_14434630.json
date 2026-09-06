@@ -1,0 +1,444 @@
+{
+  "product_id": "zara-us:14434630",
+  "source_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html",
+  "final_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html",
+  "canonical_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "URBAN SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "URBAN SNEAKERS",
+      "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html",
+      "productGroupID": "14434630",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Casual sneakers featuring a color-block design. Adjustable with elastic laces and a hook-and-loop strap on the instep. Includes a back pull tab for easy entry. Finished with a chunky rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920",
+        "https://static.zara.net/assets/public/e683/4d46/0c3d4333a61e/1b4f58377bc4/14434630800-e2/14434630800-e2.jpg?ts=1757000421321&w=1920",
+        "https://static.zara.net/assets/public/fcf5/3ee4/cbe44380bb23/29721a52b2af/14434630800-e3/14434630800-e3.jpg?ts=1757000421590&w=1920",
+        "https://static.zara.net/assets/public/d93d/88b5/4dda47d7b60a/f43042cc8ec2/14434630800-e4/14434630800-e4.jpg?ts=1757000421531&w=1920",
+        "https://static.zara.net/assets/public/a656/5a13/6fe84ed98cfc/d8882668eb00/14434630800-e5/14434630800-e5.jpg?ts=1757000421500&w=1920",
+        "https://static.zara.net/assets/public/f04d/4957/189949d68cbf/340ef9578362/14434630800-e6/14434630800-e6.jpg?ts=1757000421631&w=1920",
+        "https://static.zara.net/assets/public/b41b/5e74/88fe4c278910/4e9d7f19e7da/14434630800-e7/14434630800-e7.jpg?ts=1757000423727&w=1920"
+      ],
+      "material": "polyester/polyurethane/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "52% polyester, 40% polyurethane, 8% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "86% polyester, 14% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 12½ (7.4 INCHES)",
+          "sku": "545494711-800-30",
+          "mpn": "545494711-800-30",
+          "color": "Black",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 13½ (7.7 INCHES)",
+          "sku": "545494711-800-31",
+          "mpn": "545494711-800-31",
+          "color": "Black",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 1 (8.0 INCHES)",
+          "sku": "545494711-800-32",
+          "mpn": "545494711-800-32",
+          "color": "Black",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 2 (8.2 INCHES)",
+          "sku": "545494711-800-33",
+          "mpn": "545494711-800-33",
+          "color": "Black",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 2½ (8.5 INCHES)",
+          "sku": "545494711-800-34",
+          "mpn": "545494711-800-34",
+          "color": "Black",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 3½ (8.8 INCHES)",
+          "sku": "545494711-800-35",
+          "mpn": "545494711-800-35",
+          "color": "Black",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 4 (9.0 INCHES)",
+          "sku": "545494711-800-36",
+          "mpn": "545494711-800-36",
+          "color": "Black",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 5 (9.3 INCHES)",
+          "sku": "545494711-800-37",
+          "mpn": "545494711-800-37",
+          "color": "Black",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 5½ (9.5 INCHES)",
+          "sku": "545494711-800-38",
+          "mpn": "545494711-800-38",
+          "color": "Black",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "URBAN SNEAKERS - Black - 6 (9.8 INCHES)",
+          "sku": "545494711-800-39",
+          "mpn": "545494711-800-39",
+          "color": "Black",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "URBAN SNEAKERS",
+      "product_group_id": "14434630",
+      "brand": "ZARA",
+      "description": "Casual sneakers featuring a color-block design. Adjustable with elastic laces and a hook-and-loop strap on the instep. Includes a back pull tab for easy entry. Finished with a chunky rubber sole.",
+      "material": "polyester/polyurethane/elastane",
+      "composition": "UPPER: 52% polyester, 40% polyurethane, 8% elastane | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 86% polyester, 14% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "URBAN SNEAKERS - Black - 12½ (7.4 INCHES)",
+          "sku": "545494711-800-30",
+          "mpn": "545494711-800-30",
+          "color_name": "Black",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 13½ (7.7 INCHES)",
+          "sku": "545494711-800-31",
+          "mpn": "545494711-800-31",
+          "color_name": "Black",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 1 (8.0 INCHES)",
+          "sku": "545494711-800-32",
+          "mpn": "545494711-800-32",
+          "color_name": "Black",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 2 (8.2 INCHES)",
+          "sku": "545494711-800-33",
+          "mpn": "545494711-800-33",
+          "color_name": "Black",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 2½ (8.5 INCHES)",
+          "sku": "545494711-800-34",
+          "mpn": "545494711-800-34",
+          "color_name": "Black",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 3½ (8.8 INCHES)",
+          "sku": "545494711-800-35",
+          "mpn": "545494711-800-35",
+          "color_name": "Black",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 4 (9.0 INCHES)",
+          "sku": "545494711-800-36",
+          "mpn": "545494711-800-36",
+          "color_name": "Black",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 5 (9.3 INCHES)",
+          "sku": "545494711-800-37",
+          "mpn": "545494711-800-37",
+          "color_name": "Black",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 5½ (9.5 INCHES)",
+          "sku": "545494711-800-38",
+          "mpn": "545494711-800-38",
+          "color_name": "Black",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        },
+        {
+          "name": "URBAN SNEAKERS - Black - 6 (9.8 INCHES)",
+          "sku": "545494711-800-39",
+          "mpn": "545494711-800-39",
+          "color_name": "Black",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/urban-casual-sneakers-p14434630.html?v1=545494711",
+          "images": [
+            "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cda5/48af/580e4ad9aa89/07b0ebd08489/14434630800-e1/14434630800-e1.jpg?ts=1757000421425&w=1920",
+        "https://static.zara.net/assets/public/e683/4d46/0c3d4333a61e/1b4f58377bc4/14434630800-e2/14434630800-e2.jpg?ts=1757000421321&w=1920",
+        "https://static.zara.net/assets/public/fcf5/3ee4/cbe44380bb23/29721a52b2af/14434630800-e3/14434630800-e3.jpg?ts=1757000421590&w=1920",
+        "https://static.zara.net/assets/public/d93d/88b5/4dda47d7b60a/f43042cc8ec2/14434630800-e4/14434630800-e4.jpg?ts=1757000421531&w=1920",
+        "https://static.zara.net/assets/public/a656/5a13/6fe84ed98cfc/d8882668eb00/14434630800-e5/14434630800-e5.jpg?ts=1757000421500&w=1920",
+        "https://static.zara.net/assets/public/f04d/4957/189949d68cbf/340ef9578362/14434630800-e6/14434630800-e6.jpg?ts=1757000421631&w=1920",
+        "https://static.zara.net/assets/public/b41b/5e74/88fe4c278910/4e9d7f19e7da/14434630800-e7/14434630800-e7.jpg?ts=1757000423727&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nCasual sneakers featuring a color-block design. Adjustable with elastic laces and a hook-and-loop strap on the instep. Includes a back pull tab for easy entry. Finished with a chunky rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 7,
+  "variants_count": 10,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d0f730cdf4c572e307647807aab81dacb51f80f4d2277cc533549c183c5bca9a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

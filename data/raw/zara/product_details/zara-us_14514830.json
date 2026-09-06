@@ -1,0 +1,507 @@
+{
+  "product_id": "zara-us:14514830",
+  "source_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html",
+  "final_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER SCHOOL SHOES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER SCHOOL SHOES",
+      "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html",
+      "productGroupID": "14514830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Cowhide leather school shoes featuring a reinforced rubber toe. Hook-and-loop closure at the instep. Rubber sole.\n\nLEATHER: This product is crafted from an exclusive material. Any marks or color variations are characteristics that confirm the authenticity of the leather.\n\nSIZE 40 AND 41: Shoes available in sizes 40 and 41.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920",
+        "https://static.zara.net/assets/public/ebe1/e7f5/152e4036b01f/57a4ed0ab17f/14514830800-e2/14514830800-e2.jpg?ts=1782901571316&w=1920",
+        "https://static.zara.net/assets/public/da4e/f646/5fbe41f0af62/8aa3b2a9761f/14514830800-e3/14514830800-e3.jpg?ts=1782814901478&w=1920",
+        "https://static.zara.net/assets/public/2a7e/7972/99604f11bd82/2ed4e5fa7c8d/14514830800-e4/14514830800-e4.jpg?ts=1782814901500&w=1920",
+        "https://static.zara.net/assets/public/aae8/a8b5/f60749b3a648/80328809a50e/14514830800-e5/14514830800-e5.jpg?ts=1782814903542&w=1920",
+        "https://static.zara.net/assets/public/975d/1dd7/20e84e7ca1a5/0e0e944c5f1e/14514830800-e6/14514830800-e6.jpg?ts=1782814902955&w=1920",
+        "https://static.zara.net/assets/public/0fd2/6e09/07ef4ac78dbc/c173b23a8b2a/14514830800-e7/14514830800-e7.jpg?ts=1782814904146&w=1920"
+      ],
+      "material": "cow leather/polyurethane thermoplastic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "90% cow leather, 10% polyurethane thermoplastic"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "60% polyester, 40% goat leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% goat leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 12½ (7.4 INCHES)",
+          "sku": "545436591-800-30",
+          "mpn": "545436591-800-30",
+          "color": "Black",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 13½ (7.7 INCHES)",
+          "sku": "545436591-800-31",
+          "mpn": "545436591-800-31",
+          "color": "Black",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 1 (8.0 INCHES)",
+          "sku": "545436591-800-32",
+          "mpn": "545436591-800-32",
+          "color": "Black",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 2 (8.2 INCHES)",
+          "sku": "545436591-800-33",
+          "mpn": "545436591-800-33",
+          "color": "Black",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 2½ (8.5 INCHES)",
+          "sku": "545436591-800-34",
+          "mpn": "545436591-800-34",
+          "color": "Black",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 3½ (8.8 INCHES)",
+          "sku": "545436591-800-35",
+          "mpn": "545436591-800-35",
+          "color": "Black",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 4 (9.0 INCHES)",
+          "sku": "545436591-800-36",
+          "mpn": "545436591-800-36",
+          "color": "Black",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 5 (9.3 INCHES)",
+          "sku": "545436591-800-37",
+          "mpn": "545436591-800-37",
+          "color": "Black",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 5½ (9.5 INCHES)",
+          "sku": "545436591-800-38",
+          "mpn": "545436591-800-38",
+          "color": "Black",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 6 (9.8 INCHES)",
+          "sku": "545436591-800-39",
+          "mpn": "545436591-800-39",
+          "color": "Black",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 7 (10.0 INCHES)",
+          "sku": "545436591-800-40",
+          "mpn": "545436591-800-40",
+          "color": "Black",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SCHOOL SHOES - Black - 7½ (10.3 INCHES)",
+          "sku": "545436591-800-41",
+          "mpn": "545436591-800-41",
+          "color": "Black",
+          "size": "7½ (10.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER SCHOOL SHOES",
+      "product_group_id": "14514830",
+      "brand": "ZARA",
+      "description": "Cowhide leather school shoes featuring a reinforced rubber toe. Hook-and-loop closure at the instep. Rubber sole.\n\nLEATHER: This product is crafted from an exclusive material. Any marks or color variations are characteristics that confirm the authenticity of the leather.\n\nSIZE 40 AND 41: Shoes available in sizes 40 and 41.",
+      "material": "cow leather/polyurethane thermoplastic",
+      "composition": "UPPER: 90% cow leather, 10% polyurethane thermoplastic | LINING: 60% polyester, 40% goat leather | SOLE: 100% sbs | INSOLE: 100% goat leather | TONGUE: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 12½ (7.4 INCHES)",
+          "sku": "545436591-800-30",
+          "mpn": "545436591-800-30",
+          "color_name": "Black",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 13½ (7.7 INCHES)",
+          "sku": "545436591-800-31",
+          "mpn": "545436591-800-31",
+          "color_name": "Black",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 1 (8.0 INCHES)",
+          "sku": "545436591-800-32",
+          "mpn": "545436591-800-32",
+          "color_name": "Black",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 2 (8.2 INCHES)",
+          "sku": "545436591-800-33",
+          "mpn": "545436591-800-33",
+          "color_name": "Black",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 2½ (8.5 INCHES)",
+          "sku": "545436591-800-34",
+          "mpn": "545436591-800-34",
+          "color_name": "Black",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 3½ (8.8 INCHES)",
+          "sku": "545436591-800-35",
+          "mpn": "545436591-800-35",
+          "color_name": "Black",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 4 (9.0 INCHES)",
+          "sku": "545436591-800-36",
+          "mpn": "545436591-800-36",
+          "color_name": "Black",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 5 (9.3 INCHES)",
+          "sku": "545436591-800-37",
+          "mpn": "545436591-800-37",
+          "color_name": "Black",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 5½ (9.5 INCHES)",
+          "sku": "545436591-800-38",
+          "mpn": "545436591-800-38",
+          "color_name": "Black",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 6 (9.8 INCHES)",
+          "sku": "545436591-800-39",
+          "mpn": "545436591-800-39",
+          "color_name": "Black",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 7 (10.0 INCHES)",
+          "sku": "545436591-800-40",
+          "mpn": "545436591-800-40",
+          "color_name": "Black",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SCHOOL SHOES - Black - 7½ (10.3 INCHES)",
+          "sku": "545436591-800-41",
+          "mpn": "545436591-800-41",
+          "color_name": "Black",
+          "size_name": "7½ (10.3 INCHES)",
+          "price": "89.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-school-shoes-p14514830.html?v1=545436591",
+          "images": [
+            "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2250/6c25/c9944e6f92e8/5a318c2b0b41/14514830800-e1/14514830800-e1.jpg?ts=1782901570698&w=1920",
+        "https://static.zara.net/assets/public/ebe1/e7f5/152e4036b01f/57a4ed0ab17f/14514830800-e2/14514830800-e2.jpg?ts=1782901571316&w=1920",
+        "https://static.zara.net/assets/public/da4e/f646/5fbe41f0af62/8aa3b2a9761f/14514830800-e3/14514830800-e3.jpg?ts=1782814901478&w=1920",
+        "https://static.zara.net/assets/public/2a7e/7972/99604f11bd82/2ed4e5fa7c8d/14514830800-e4/14514830800-e4.jpg?ts=1782814901500&w=1920",
+        "https://static.zara.net/assets/public/aae8/a8b5/f60749b3a648/80328809a50e/14514830800-e5/14514830800-e5.jpg?ts=1782814903542&w=1920",
+        "https://static.zara.net/assets/public/975d/1dd7/20e84e7ca1a5/0e0e944c5f1e/14514830800-e6/14514830800-e6.jpg?ts=1782814902955&w=1920",
+        "https://static.zara.net/assets/public/0fd2/6e09/07ef4ac78dbc/c173b23a8b2a/14514830800-e7/14514830800-e7.jpg?ts=1782814904146&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "89.90",
+  "rendered_description": "Description\nCowhide leather school shoes featuring a reinforced rubber toe. Hook-and-loop closure at the instep. Rubber sole.\nLEATHER: This product is crafted from an exclusive material. Any marks or color variations are characteristics that confirm the authenticity of the leather.\nSIZE 40 AND 41: Shoes available in sizes 40 and 41.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 12,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "89.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "89.90",
+    "dom_price": "89.90",
+    "normalized_price": "89.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5abb0c4ce4a0bc53014470209699ad09e0fa0c26a1ac75309b86fab737e196fa",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

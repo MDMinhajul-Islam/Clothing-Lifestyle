@@ -1,0 +1,475 @@
+{
+  "product_id": "zara-us:12411830",
+  "source_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html",
+  "final_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html",
+  "canonical_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CASUAL LACE-UP SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CASUAL LACE-UP SNEAKERS",
+      "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html",
+      "productGroupID": "12411830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers with a distressed effect. Adjustable lace-up closure and rubber soles.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920",
+        "https://static.zara.net/assets/public/47e7/42e9/2f1b47628951/d904209d4a7a/12411830300-e2/12411830300-e2.jpg?ts=1780900619680&w=1920",
+        "https://static.zara.net/assets/public/02b6/295d/89834df0bb1d/8354847bee1b/12411830300-e3/12411830300-e3.jpg?ts=1780900618546&w=1920",
+        "https://static.zara.net/assets/public/1bb3/af1e/908d447fae4b/5ada1ce38e1f/12411830300-e4/12411830300-e4.jpg?ts=1780900618664&w=1920",
+        "https://static.zara.net/assets/public/3457/21e1/7fdd49e485e1/dab1ab907be2/12411830300-e5/12411830300-e5.jpg?ts=1780900618350&w=1920",
+        "https://static.zara.net/assets/public/494d/2172/c26044749d60/f384f27e91a8/12411830300-e6/12411830300-e6.jpg?ts=1780900618555&w=1920",
+        "https://static.zara.net/assets/public/3227/cfd4/861b4975b4f0/bbf3d834d4ab/12411830300-e7/12411830300-e7.jpg?ts=1780900618929&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "63% cotton, 37% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "65% cotton, 35% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 12½ (7.4 INCHES)",
+          "sku": "555504621-300-30",
+          "mpn": "555504621-300-30",
+          "color": "Yellow",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 13½ (7.7 INCHES)",
+          "sku": "555504621-300-31",
+          "mpn": "555504621-300-31",
+          "color": "Yellow",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 1 (8.0 INCHES)",
+          "sku": "555504621-300-32",
+          "mpn": "555504621-300-32",
+          "color": "Yellow",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 2 (8.2 INCHES)",
+          "sku": "555504621-300-33",
+          "mpn": "555504621-300-33",
+          "color": "Yellow",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 2½ (8.5 INCHES)",
+          "sku": "555504621-300-34",
+          "mpn": "555504621-300-34",
+          "color": "Yellow",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 3½ (8.8 INCHES)",
+          "sku": "555504621-300-35",
+          "mpn": "555504621-300-35",
+          "color": "Yellow",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 4 (9.0 INCHES)",
+          "sku": "555504621-300-36",
+          "mpn": "555504621-300-36",
+          "color": "Yellow",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 5 (9.3 INCHES)",
+          "sku": "555504621-300-37",
+          "mpn": "555504621-300-37",
+          "color": "Yellow",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 5½ (9.5 INCHES)",
+          "sku": "555504621-300-38",
+          "mpn": "555504621-300-38",
+          "color": "Yellow",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 6 (9.8 INCHES)",
+          "sku": "555504621-300-39",
+          "mpn": "555504621-300-39",
+          "color": "Yellow",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 7 (10.0 INCHES)",
+          "sku": "555504621-300-40",
+          "mpn": "555504621-300-40",
+          "color": "Yellow",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CASUAL LACE-UP SNEAKERS",
+      "product_group_id": "12411830",
+      "brand": "ZARA",
+      "description": "Sneakers with a distressed effect. Adjustable lace-up closure and rubber soles.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "cotton/polyester",
+      "composition": "UPPER: 63% cotton, 37% polyester | LINING: 65% cotton, 35% polyester | SOLE: 100% rubber | INSOLE: 65% cotton, 35% polyester | TONGUE: 65% cotton, 35% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 12½ (7.4 INCHES)",
+          "sku": "555504621-300-30",
+          "mpn": "555504621-300-30",
+          "color_name": "Yellow",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 13½ (7.7 INCHES)",
+          "sku": "555504621-300-31",
+          "mpn": "555504621-300-31",
+          "color_name": "Yellow",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 1 (8.0 INCHES)",
+          "sku": "555504621-300-32",
+          "mpn": "555504621-300-32",
+          "color_name": "Yellow",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 2 (8.2 INCHES)",
+          "sku": "555504621-300-33",
+          "mpn": "555504621-300-33",
+          "color_name": "Yellow",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 2½ (8.5 INCHES)",
+          "sku": "555504621-300-34",
+          "mpn": "555504621-300-34",
+          "color_name": "Yellow",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 3½ (8.8 INCHES)",
+          "sku": "555504621-300-35",
+          "mpn": "555504621-300-35",
+          "color_name": "Yellow",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 4 (9.0 INCHES)",
+          "sku": "555504621-300-36",
+          "mpn": "555504621-300-36",
+          "color_name": "Yellow",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 5 (9.3 INCHES)",
+          "sku": "555504621-300-37",
+          "mpn": "555504621-300-37",
+          "color_name": "Yellow",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 5½ (9.5 INCHES)",
+          "sku": "555504621-300-38",
+          "mpn": "555504621-300-38",
+          "color_name": "Yellow",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 6 (9.8 INCHES)",
+          "sku": "555504621-300-39",
+          "mpn": "555504621-300-39",
+          "color_name": "Yellow",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        },
+        {
+          "name": "CASUAL LACE-UP SNEAKERS - Yellow - 7 (10.0 INCHES)",
+          "sku": "555504621-300-40",
+          "mpn": "555504621-300-40",
+          "color_name": "Yellow",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/casual-lace-up-sneakers-p12411830.html?v1=555504621",
+          "images": [
+            "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/53ee/8d42/1d7349fba2f2/6e3470d29385/12411830300-e1/12411830300-e1.jpg?ts=1780900619009&w=1920",
+        "https://static.zara.net/assets/public/47e7/42e9/2f1b47628951/d904209d4a7a/12411830300-e2/12411830300-e2.jpg?ts=1780900619680&w=1920",
+        "https://static.zara.net/assets/public/02b6/295d/89834df0bb1d/8354847bee1b/12411830300-e3/12411830300-e3.jpg?ts=1780900618546&w=1920",
+        "https://static.zara.net/assets/public/1bb3/af1e/908d447fae4b/5ada1ce38e1f/12411830300-e4/12411830300-e4.jpg?ts=1780900618664&w=1920",
+        "https://static.zara.net/assets/public/3457/21e1/7fdd49e485e1/dab1ab907be2/12411830300-e5/12411830300-e5.jpg?ts=1780900618350&w=1920",
+        "https://static.zara.net/assets/public/494d/2172/c26044749d60/f384f27e91a8/12411830300-e6/12411830300-e6.jpg?ts=1780900618555&w=1920",
+        "https://static.zara.net/assets/public/3227/cfd4/861b4975b4f0/bbf3d834d4ab/12411830300-e7/12411830300-e7.jpg?ts=1780900618929&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nSneakers with a distressed effect. Adjustable lace-up closure and rubber soles.\nSIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5b837b7f9076507ce44ed8f2fcd1a0efd53623c5dc8c2e33508b58cdd2b988b1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

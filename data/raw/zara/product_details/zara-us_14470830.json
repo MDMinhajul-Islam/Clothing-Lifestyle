@@ -1,0 +1,484 @@
+{
+  "product_id": "zara-us:14470830",
+  "source_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html",
+  "final_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html",
+  "canonical_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BAREFOOT SKATER SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BAREFOOT SKATER SNEAKERS",
+      "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html",
+      "productGroupID": "14470830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Barefoot skater-style sneaker with mixed panels and contrasting color details. Lace-up closure. Rounded, wide, functional toe box allows for unrestricted toe movement. Flexible rubber sole with zero drop, highly flexible heel counter, and removable insole.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920",
+        "https://static.zara.net/assets/public/9b33/8910/83ae4ef4acd9/542504bba4d4/14470830202-e2/14470830202-e2.jpg?ts=1785411162807&w=1920",
+        "https://static.zara.net/assets/public/f2ce/e027/80584e50aa05/a53df5fa932b/14470830202-e3/14470830202-e3.jpg?ts=1785411161264&w=1920",
+        "https://static.zara.net/assets/public/5be2/6547/d55e4cafb8f5/47bd78b59254/14470830202-e4/14470830202-e4.jpg?ts=1785411164247&w=1920",
+        "https://static.zara.net/assets/public/1339/63ab/063345ca8ef8/4c14d7e4e9ba/14470830202-e5/14470830202-e5.jpg?ts=1785411164260&w=1920",
+        "https://static.zara.net/assets/public/c528/3bd6/a75246daaca9/7c1748f6e61d/14470830202-e6/14470830202-e6.jpg?ts=1785411161612&w=1920",
+        "https://static.zara.net/assets/public/cda0/c4f2/f47a43abb4ee/59e467196b34/14470830202-e7/14470830202-e7.jpg?ts=1785411163846&w=1920",
+        "https://static.zara.net/assets/public/5ad2/ea39/86574bb0afeb/67dbaf03a23b/14470830202-e8/14470830202-e8.jpg?ts=1785411162409&w=1920",
+        "https://static.zara.net/assets/public/1f28/fc9e/ddbe4c48be63/09c8a0fcd2d8/14470830202-e9/14470830202-e9.jpg?ts=1785411164153&w=1920",
+        "https://static.zara.net/assets/public/1d30/0965/280b4d41b312/c6d6d4497409/1333333333-e13/1333333333-e13.jpg?ts=1786976591087&w=1920",
+        "https://static.zara.net/assets/public/7ee8/a96b/ae06487fa358/20d95bb26845/1333333333-e14/1333333333-e14.jpg?ts=1786976590865&w=1920"
+      ],
+      "material": "cotton/cow leather/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "50% cotton, 40% cow leather, 9% polyester, 1% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "90% cotton, 10% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 12½ (7.4 INCHES)",
+          "sku": "549013242-202-30",
+          "mpn": "549013242-202-30",
+          "color": "Multi-color",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 13½ (7.7 INCHES)",
+          "sku": "549013242-202-31",
+          "mpn": "549013242-202-31",
+          "color": "Multi-color",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 1 (8.0 INCHES)",
+          "sku": "549013242-202-32",
+          "mpn": "549013242-202-32",
+          "color": "Multi-color",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 2 (8.2 INCHES)",
+          "sku": "549013242-202-33",
+          "mpn": "549013242-202-33",
+          "color": "Multi-color",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 2½ (8.5 INCHES)",
+          "sku": "549013242-202-34",
+          "mpn": "549013242-202-34",
+          "color": "Multi-color",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 3½ (8.8 INCHES)",
+          "sku": "549013242-202-35",
+          "mpn": "549013242-202-35",
+          "color": "Multi-color",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 4 (9.0 INCHES)",
+          "sku": "549013242-202-36",
+          "mpn": "549013242-202-36",
+          "color": "Multi-color",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 5 (9.3 INCHES)",
+          "sku": "549013242-202-37",
+          "mpn": "549013242-202-37",
+          "color": "Multi-color",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 5½ (9.5 INCHES)",
+          "sku": "549013242-202-38",
+          "mpn": "549013242-202-38",
+          "color": "Multi-color",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 6 (9.8 INCHES)",
+          "sku": "549013242-202-39",
+          "mpn": "549013242-202-39",
+          "color": "Multi-color",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 7 (10.0 INCHES)",
+          "sku": "549013242-202-40",
+          "mpn": "549013242-202-40",
+          "color": "Multi-color",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BAREFOOT SKATER SNEAKERS",
+      "product_group_id": "14470830",
+      "brand": "ZARA",
+      "description": "Barefoot skater-style sneaker with mixed panels and contrasting color details. Lace-up closure. Rounded, wide, functional toe box allows for unrestricted toe movement. Flexible rubber sole with zero drop, highly flexible heel counter, and removable insole.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "cotton/cow leather/polyester",
+      "composition": "UPPER: 50% cotton, 40% cow leather, 9% polyester, 1% elastane | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 90% cotton, 10% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 12½ (7.4 INCHES)",
+          "sku": "549013242-202-30",
+          "mpn": "549013242-202-30",
+          "color_name": "Multi-color",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 13½ (7.7 INCHES)",
+          "sku": "549013242-202-31",
+          "mpn": "549013242-202-31",
+          "color_name": "Multi-color",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 1 (8.0 INCHES)",
+          "sku": "549013242-202-32",
+          "mpn": "549013242-202-32",
+          "color_name": "Multi-color",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 2 (8.2 INCHES)",
+          "sku": "549013242-202-33",
+          "mpn": "549013242-202-33",
+          "color_name": "Multi-color",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 2½ (8.5 INCHES)",
+          "sku": "549013242-202-34",
+          "mpn": "549013242-202-34",
+          "color_name": "Multi-color",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 3½ (8.8 INCHES)",
+          "sku": "549013242-202-35",
+          "mpn": "549013242-202-35",
+          "color_name": "Multi-color",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 4 (9.0 INCHES)",
+          "sku": "549013242-202-36",
+          "mpn": "549013242-202-36",
+          "color_name": "Multi-color",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 5 (9.3 INCHES)",
+          "sku": "549013242-202-37",
+          "mpn": "549013242-202-37",
+          "color_name": "Multi-color",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 5½ (9.5 INCHES)",
+          "sku": "549013242-202-38",
+          "mpn": "549013242-202-38",
+          "color_name": "Multi-color",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 6 (9.8 INCHES)",
+          "sku": "549013242-202-39",
+          "mpn": "549013242-202-39",
+          "color_name": "Multi-color",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SKATER SNEAKERS - Multi-color - 7 (10.0 INCHES)",
+          "sku": "549013242-202-40",
+          "mpn": "549013242-202-40",
+          "color_name": "Multi-color",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/barefoot-skater-sneakers-p14470830.html?v1=549013242",
+          "images": [
+            "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0294/3b20/26594394b130/fbaf52b25781/14470830202-e1/14470830202-e1.jpg?ts=1785411163204&w=1920",
+        "https://static.zara.net/assets/public/9b33/8910/83ae4ef4acd9/542504bba4d4/14470830202-e2/14470830202-e2.jpg?ts=1785411162807&w=1920",
+        "https://static.zara.net/assets/public/f2ce/e027/80584e50aa05/a53df5fa932b/14470830202-e3/14470830202-e3.jpg?ts=1785411161264&w=1920",
+        "https://static.zara.net/assets/public/5be2/6547/d55e4cafb8f5/47bd78b59254/14470830202-e4/14470830202-e4.jpg?ts=1785411164247&w=1920",
+        "https://static.zara.net/assets/public/1339/63ab/063345ca8ef8/4c14d7e4e9ba/14470830202-e5/14470830202-e5.jpg?ts=1785411164260&w=1920",
+        "https://static.zara.net/assets/public/c528/3bd6/a75246daaca9/7c1748f6e61d/14470830202-e6/14470830202-e6.jpg?ts=1785411161612&w=1920",
+        "https://static.zara.net/assets/public/cda0/c4f2/f47a43abb4ee/59e467196b34/14470830202-e7/14470830202-e7.jpg?ts=1785411163846&w=1920",
+        "https://static.zara.net/assets/public/5ad2/ea39/86574bb0afeb/67dbaf03a23b/14470830202-e8/14470830202-e8.jpg?ts=1785411162409&w=1920",
+        "https://static.zara.net/assets/public/1f28/fc9e/ddbe4c48be63/09c8a0fcd2d8/14470830202-e9/14470830202-e9.jpg?ts=1785411164153&w=1920",
+        "https://static.zara.net/assets/public/1d30/0965/280b4d41b312/c6d6d4497409/1333333333-e13/1333333333-e13.jpg?ts=1786976591087&w=1920",
+        "https://static.zara.net/assets/public/7ee8/a96b/ae06487fa358/20d95bb26845/1333333333-e14/1333333333-e14.jpg?ts=1786976590865&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nBarefoot skater-style sneaker with mixed panels and contrasting color details. Lace-up closure. Rounded, wide, functional toe box allows for unrestricted toe movement. Flexible rubber sole with zero drop, highly flexible heel counter, and removable insole.\nSIZE 40: Shoes available in size 40.\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 14,
+  "valid_images_count": 11,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "24893469ef3d21eee71ff9ad955db37b330f817a5db5736dbdc3470d1447721a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

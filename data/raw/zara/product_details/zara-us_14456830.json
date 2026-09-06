@@ -1,0 +1,475 @@
+{
+  "product_id": "zara-us:14456830",
+  "source_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html",
+  "final_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC SNEAKERS",
+      "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html",
+      "productGroupID": "14456830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Casual lace-up sneakers with a basic design. Features a back pull tab for easy on and off. Rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920",
+        "https://static.zara.net/assets/public/db2c/118a/07354f248e57/9f9636876928/14456830107-e2/14456830107-e2.jpg?ts=1782199633075&w=1920",
+        "https://static.zara.net/assets/public/0d23/71ee/2ea04120a494/3dbf56fdb2e7/14456830107-e3/14456830107-e3.jpg?ts=1782199634431&w=1920",
+        "https://static.zara.net/assets/public/1b06/f339/d842448ba91b/4badb24075c7/14456830107-e4/14456830107-e4.jpg?ts=1782199634069&w=1920",
+        "https://static.zara.net/assets/public/ffe3/b156/726f497a9317/9d01e3fb09df/14456830107-e5/14456830107-e5.jpg?ts=1782199633016&w=1920",
+        "https://static.zara.net/assets/public/aa09/b84f/0dfb40cc8c8d/6e50b8eea2a9/14456830107-e6/14456830107-e6.jpg?ts=1782199634087&w=1920",
+        "https://static.zara.net/assets/public/87ee/0283/353247e0a5e5/388f9c6e950c/14456830107-e7/14456830107-e7.jpg?ts=1782199635177&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 12½ (7.4 INCHES)",
+          "sku": "545494495-107-30",
+          "mpn": "545494495-107-30",
+          "color": "Sandy Brown",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 13½ (7.7 INCHES)",
+          "sku": "545494495-107-31",
+          "mpn": "545494495-107-31",
+          "color": "Sandy Brown",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 1 (8.0 INCHES)",
+          "sku": "545494495-107-32",
+          "mpn": "545494495-107-32",
+          "color": "Sandy Brown",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 2 (8.2 INCHES)",
+          "sku": "545494495-107-33",
+          "mpn": "545494495-107-33",
+          "color": "Sandy Brown",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 2½ (8.5 INCHES)",
+          "sku": "545494495-107-34",
+          "mpn": "545494495-107-34",
+          "color": "Sandy Brown",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 3½ (8.8 INCHES)",
+          "sku": "545494495-107-35",
+          "mpn": "545494495-107-35",
+          "color": "Sandy Brown",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 4 (9.0 INCHES)",
+          "sku": "545494495-107-36",
+          "mpn": "545494495-107-36",
+          "color": "Sandy Brown",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 5 (9.3 INCHES)",
+          "sku": "545494495-107-37",
+          "mpn": "545494495-107-37",
+          "color": "Sandy Brown",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 5½ (9.5 INCHES)",
+          "sku": "545494495-107-38",
+          "mpn": "545494495-107-38",
+          "color": "Sandy Brown",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 6 (9.8 INCHES)",
+          "sku": "545494495-107-39",
+          "mpn": "545494495-107-39",
+          "color": "Sandy Brown",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - Sandy Brown - 7 (10.0 INCHES)",
+          "sku": "545494495-107-40",
+          "mpn": "545494495-107-40",
+          "color": "Sandy Brown",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC SNEAKERS",
+      "product_group_id": "14456830",
+      "brand": "ZARA",
+      "description": "Casual lace-up sneakers with a basic design. Features a back pull tab for easy on and off. Rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 12½ (7.4 INCHES)",
+          "sku": "545494495-107-30",
+          "mpn": "545494495-107-30",
+          "color_name": "Sandy Brown",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 13½ (7.7 INCHES)",
+          "sku": "545494495-107-31",
+          "mpn": "545494495-107-31",
+          "color_name": "Sandy Brown",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 1 (8.0 INCHES)",
+          "sku": "545494495-107-32",
+          "mpn": "545494495-107-32",
+          "color_name": "Sandy Brown",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 2 (8.2 INCHES)",
+          "sku": "545494495-107-33",
+          "mpn": "545494495-107-33",
+          "color_name": "Sandy Brown",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 2½ (8.5 INCHES)",
+          "sku": "545494495-107-34",
+          "mpn": "545494495-107-34",
+          "color_name": "Sandy Brown",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 3½ (8.8 INCHES)",
+          "sku": "545494495-107-35",
+          "mpn": "545494495-107-35",
+          "color_name": "Sandy Brown",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 4 (9.0 INCHES)",
+          "sku": "545494495-107-36",
+          "mpn": "545494495-107-36",
+          "color_name": "Sandy Brown",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 5 (9.3 INCHES)",
+          "sku": "545494495-107-37",
+          "mpn": "545494495-107-37",
+          "color_name": "Sandy Brown",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 5½ (9.5 INCHES)",
+          "sku": "545494495-107-38",
+          "mpn": "545494495-107-38",
+          "color_name": "Sandy Brown",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 6 (9.8 INCHES)",
+          "sku": "545494495-107-39",
+          "mpn": "545494495-107-39",
+          "color_name": "Sandy Brown",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - Sandy Brown - 7 (10.0 INCHES)",
+          "sku": "545494495-107-40",
+          "mpn": "545494495-107-40",
+          "color_name": "Sandy Brown",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14456830.html?v1=545494495",
+          "images": [
+            "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/68c8/8e5a/fd22434da788/5ebfa30db17c/14456830107-e1/14456830107-e1.jpg?ts=1782199635059&w=1920",
+        "https://static.zara.net/assets/public/db2c/118a/07354f248e57/9f9636876928/14456830107-e2/14456830107-e2.jpg?ts=1782199633075&w=1920",
+        "https://static.zara.net/assets/public/0d23/71ee/2ea04120a494/3dbf56fdb2e7/14456830107-e3/14456830107-e3.jpg?ts=1782199634431&w=1920",
+        "https://static.zara.net/assets/public/1b06/f339/d842448ba91b/4badb24075c7/14456830107-e4/14456830107-e4.jpg?ts=1782199634069&w=1920",
+        "https://static.zara.net/assets/public/ffe3/b156/726f497a9317/9d01e3fb09df/14456830107-e5/14456830107-e5.jpg?ts=1782199633016&w=1920",
+        "https://static.zara.net/assets/public/aa09/b84f/0dfb40cc8c8d/6e50b8eea2a9/14456830107-e6/14456830107-e6.jpg?ts=1782199634087&w=1920",
+        "https://static.zara.net/assets/public/87ee/0283/353247e0a5e5/388f9c6e950c/14456830107-e7/14456830107-e7.jpg?ts=1782199635177&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nCasual lace-up sneakers with a basic design. Features a back pull tab for easy on and off. Rubber sole.\nSIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f6604276ab2122e5f3151e9d2cd37d836435edd8739d4408b382289922856c79",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

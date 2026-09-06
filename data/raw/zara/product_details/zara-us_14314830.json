@@ -1,0 +1,476 @@
+{
+  "product_id": "zara-us:14314830",
+  "source_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html",
+  "final_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html",
+  "canonical_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULTI-PIECE SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULTI-PIECE SNEAKERS",
+      "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html",
+      "productGroupID": "14314830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Multi-piece sneakers in a color-block design with mesh details. Adjustable lace-up closure. Features a back pull tab for easy on and off. Chunky rubber sole. SIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920",
+        "https://static.zara.net/assets/public/cb1d/5155/1e914316a8a2/6beb9aa4af80/14314830001-e2/14314830001-e2.jpg?ts=1780918426062&w=1920",
+        "https://static.zara.net/assets/public/d9c6/a67d/9c1f4c7d9037/719001888e0d/14314830001-e3/14314830001-e3.jpg?ts=1780918426188&w=1920",
+        "https://static.zara.net/assets/public/543f/a07e/a127467d8c81/2d3e591d1f48/14314830001-e4/14314830001-e4.jpg?ts=1780918426566&w=1920",
+        "https://static.zara.net/assets/public/74f9/0c50/1cc844d797ac/3c4f287b1d7e/14314830001-e5/14314830001-e5.jpg?ts=1780918425450&w=1920",
+        "https://static.zara.net/assets/public/2be7/41db/e27f4e20a75d/591eeadf0e94/14314830001-e6/14314830001-e6.jpg?ts=1780918426715&w=1920",
+        "https://static.zara.net/assets/public/bf4e/240c/1d6b4c84be0e/fc238a500e1a/14314830001-e7/14314830001-e7.jpg?ts=1780918426076&w=1920"
+      ],
+      "material": "cow leather/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "68% cow leather, 32% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "70% polyester, 30% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "545496277-001-30",
+          "mpn": "545496277-001-30",
+          "color": "White",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "545496277-001-31",
+          "mpn": "545496277-001-31",
+          "color": "White",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "545496277-001-32",
+          "mpn": "545496277-001-32",
+          "color": "White",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "545496277-001-33",
+          "mpn": "545496277-001-33",
+          "color": "White",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "545496277-001-34",
+          "mpn": "545496277-001-34",
+          "color": "White",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "545496277-001-35",
+          "mpn": "545496277-001-35",
+          "color": "White",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "545496277-001-36",
+          "mpn": "545496277-001-36",
+          "color": "White",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "545496277-001-37",
+          "mpn": "545496277-001-37",
+          "color": "White",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "545496277-001-38",
+          "mpn": "545496277-001-38",
+          "color": "White",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "545496277-001-39",
+          "mpn": "545496277-001-39",
+          "color": "White",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-PIECE SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "545496277-001-40",
+          "mpn": "545496277-001-40",
+          "color": "White",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULTI-PIECE SNEAKERS",
+      "product_group_id": "14314830",
+      "brand": "ZARA",
+      "description": "Multi-piece sneakers in a color-block design with mesh details. Adjustable lace-up closure. Features a back pull tab for easy on and off. Chunky rubber sole. SIZE 40: Shoes available in size 40.",
+      "material": "cow leather/polyester",
+      "composition": "UPPER: 68% cow leather, 32% polyester | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 70% polyester, 30% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "545496277-001-30",
+          "mpn": "545496277-001-30",
+          "color_name": "White",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "545496277-001-31",
+          "mpn": "545496277-001-31",
+          "color_name": "White",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "545496277-001-32",
+          "mpn": "545496277-001-32",
+          "color_name": "White",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "545496277-001-33",
+          "mpn": "545496277-001-33",
+          "color_name": "White",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "545496277-001-34",
+          "mpn": "545496277-001-34",
+          "color_name": "White",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "545496277-001-35",
+          "mpn": "545496277-001-35",
+          "color_name": "White",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "545496277-001-36",
+          "mpn": "545496277-001-36",
+          "color_name": "White",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "545496277-001-37",
+          "mpn": "545496277-001-37",
+          "color_name": "White",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "545496277-001-38",
+          "mpn": "545496277-001-38",
+          "color_name": "White",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "545496277-001-39",
+          "mpn": "545496277-001-39",
+          "color_name": "White",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-PIECE SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "545496277-001-40",
+          "mpn": "545496277-001-40",
+          "color_name": "White",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/multi-piece-sneakers-p14314830.html?v1=545496277",
+          "images": [
+            "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/7f20/785c/e55d4616be8d/d806f34ff88d/14314830001-e1/14314830001-e1.jpg?ts=1780918427864&w=1920",
+        "https://static.zara.net/assets/public/cb1d/5155/1e914316a8a2/6beb9aa4af80/14314830001-e2/14314830001-e2.jpg?ts=1780918426062&w=1920",
+        "https://static.zara.net/assets/public/d9c6/a67d/9c1f4c7d9037/719001888e0d/14314830001-e3/14314830001-e3.jpg?ts=1780918426188&w=1920",
+        "https://static.zara.net/assets/public/543f/a07e/a127467d8c81/2d3e591d1f48/14314830001-e4/14314830001-e4.jpg?ts=1780918426566&w=1920",
+        "https://static.zara.net/assets/public/74f9/0c50/1cc844d797ac/3c4f287b1d7e/14314830001-e5/14314830001-e5.jpg?ts=1780918425450&w=1920",
+        "https://static.zara.net/assets/public/2be7/41db/e27f4e20a75d/591eeadf0e94/14314830001-e6/14314830001-e6.jpg?ts=1780918426715&w=1920",
+        "https://static.zara.net/assets/public/bf4e/240c/1d6b4c84be0e/fc238a500e1a/14314830001-e7/14314830001-e7.jpg?ts=1780918426076&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "65.90",
+  "rendered_description": "Description\nMulti-piece sneakers in a color-block design with mesh details. Adjustable lace-up closure. Features a back pull tab for easy on and off. Chunky rubber sole. SIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "65.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "65.90",
+    "dom_price": "65.90",
+    "normalized_price": "65.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "78fba161e87f22718dd300dda9e4ce2bd1642cb14d6b5f28b08e98f12f0cbf54",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

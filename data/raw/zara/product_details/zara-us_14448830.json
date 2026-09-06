@@ -1,0 +1,476 @@
+{
+  "product_id": "zara-us:14448830",
+  "source_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html",
+  "final_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html",
+  "canonical_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BASIC SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BASIC SNEAKERS",
+      "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html",
+      "productGroupID": "14448830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Casual style sneakers with a color-block design. Lace-up closure and rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920",
+        "https://static.zara.net/assets/public/6809/a515/95e74b0797a7/f210ca929ad5/14448830001-e2/14448830001-e2.jpg?ts=1782993040606&w=1920",
+        "https://static.zara.net/assets/public/b8a9/3db3/e92c4769bc78/029684989c70/14448830001-e3/14448830001-e3.jpg?ts=1782993041410&w=1920",
+        "https://static.zara.net/assets/public/7700/0e49/f0a34679864c/81234bd5d963/14448830001-e4/14448830001-e4.jpg?ts=1782993041098&w=1920",
+        "https://static.zara.net/assets/public/5673/028f/2d6844b1bf36/045c671a0cad/14448830001-e5/14448830001-e5.jpg?ts=1782993041197&w=1920",
+        "https://static.zara.net/assets/public/931d/d87a/568748f688de/a9a911f4e357/14448830001-e6/14448830001-e6.jpg?ts=1782993040930&w=1920",
+        "https://static.zara.net/assets/public/7a41/c227/8038460aba44/4792d107b964/14448830001-e7/14448830001-e7.jpg?ts=1782993041111&w=1920"
+      ],
+      "material": "polyurethane/polyester/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "70% polyurethane, 26% polyester, 4% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "545436686-001-30",
+          "mpn": "545436686-001-30",
+          "color": "White",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "545436686-001-31",
+          "mpn": "545436686-001-31",
+          "color": "White",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "545436686-001-32",
+          "mpn": "545436686-001-32",
+          "color": "White",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "545436686-001-33",
+          "mpn": "545436686-001-33",
+          "color": "White",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "545436686-001-34",
+          "mpn": "545436686-001-34",
+          "color": "White",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "545436686-001-35",
+          "mpn": "545436686-001-35",
+          "color": "White",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "545436686-001-36",
+          "mpn": "545436686-001-36",
+          "color": "White",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "545436686-001-37",
+          "mpn": "545436686-001-37",
+          "color": "White",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "545436686-001-38",
+          "mpn": "545436686-001-38",
+          "color": "White",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "545436686-001-39",
+          "mpn": "545436686-001-39",
+          "color": "White",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BASIC SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "545436686-001-40",
+          "mpn": "545436686-001-40",
+          "color": "White",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BASIC SNEAKERS",
+      "product_group_id": "14448830",
+      "brand": "ZARA",
+      "description": "Casual style sneakers with a color-block design. Lace-up closure and rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "polyurethane/polyester/elastane",
+      "composition": "UPPER: 70% polyurethane, 26% polyester, 4% elastane | LINING: 100% polyester | SOLE: 100% rubber | INSOLE: 100% polyester | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BASIC SNEAKERS - White - 12½ (7.4 INCHES)",
+          "sku": "545436686-001-30",
+          "mpn": "545436686-001-30",
+          "color_name": "White",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 13½ (7.7 INCHES)",
+          "sku": "545436686-001-31",
+          "mpn": "545436686-001-31",
+          "color_name": "White",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 1 (8.0 INCHES)",
+          "sku": "545436686-001-32",
+          "mpn": "545436686-001-32",
+          "color_name": "White",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 2 (8.2 INCHES)",
+          "sku": "545436686-001-33",
+          "mpn": "545436686-001-33",
+          "color_name": "White",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 2½ (8.5 INCHES)",
+          "sku": "545436686-001-34",
+          "mpn": "545436686-001-34",
+          "color_name": "White",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 3½ (8.8 INCHES)",
+          "sku": "545436686-001-35",
+          "mpn": "545436686-001-35",
+          "color_name": "White",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 4 (9.0 INCHES)",
+          "sku": "545436686-001-36",
+          "mpn": "545436686-001-36",
+          "color_name": "White",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 5 (9.3 INCHES)",
+          "sku": "545436686-001-37",
+          "mpn": "545436686-001-37",
+          "color_name": "White",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 5½ (9.5 INCHES)",
+          "sku": "545436686-001-38",
+          "mpn": "545436686-001-38",
+          "color_name": "White",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 6 (9.8 INCHES)",
+          "sku": "545436686-001-39",
+          "mpn": "545436686-001-39",
+          "color_name": "White",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        },
+        {
+          "name": "BASIC SNEAKERS - White - 7 (10.0 INCHES)",
+          "sku": "545436686-001-40",
+          "mpn": "545436686-001-40",
+          "color_name": "White",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/basic-sneakers-p14448830.html?v1=545436686",
+          "images": [
+            "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e7d6/d405/571f4825baa8/6277a97f7b2a/14448830001-e1/14448830001-e1.jpg?ts=1782993041806&w=1920",
+        "https://static.zara.net/assets/public/6809/a515/95e74b0797a7/f210ca929ad5/14448830001-e2/14448830001-e2.jpg?ts=1782993040606&w=1920",
+        "https://static.zara.net/assets/public/b8a9/3db3/e92c4769bc78/029684989c70/14448830001-e3/14448830001-e3.jpg?ts=1782993041410&w=1920",
+        "https://static.zara.net/assets/public/7700/0e49/f0a34679864c/81234bd5d963/14448830001-e4/14448830001-e4.jpg?ts=1782993041098&w=1920",
+        "https://static.zara.net/assets/public/5673/028f/2d6844b1bf36/045c671a0cad/14448830001-e5/14448830001-e5.jpg?ts=1782993041197&w=1920",
+        "https://static.zara.net/assets/public/931d/d87a/568748f688de/a9a911f4e357/14448830001-e6/14448830001-e6.jpg?ts=1782993040930&w=1920",
+        "https://static.zara.net/assets/public/7a41/c227/8038460aba44/4792d107b964/14448830001-e7/14448830001-e7.jpg?ts=1782993041111&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nCasual style sneakers with a color-block design. Lace-up closure and rubber sole.\nSIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d23e9c5762dffbb1f7ad5080baad2415810cf27a33d94b1fb43b9f0a76f71094",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

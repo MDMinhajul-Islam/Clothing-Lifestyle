@@ -1,0 +1,115 @@
+{
+  "product_id": "zara-us:20310371",
+  "source_url": "https://www.zara.com/us/en/hello-kitty---sanrio---hello-kitty-magic-2x50ml--1-7-fl--oz--p20310371.html",
+  "final_url": "https://www.zara.com/us/en/hello-kitty---sanrio---hello-kitty-magic-2x50ml--1-7-fl--oz--p20310371.html",
+  "canonical_url": "https://www.zara.com/us/en/hello-kitty---sanrio---hello-kitty-magic-2x50ml--1-7-fl--oz--p20310371.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HELLO KITTY © SANRIO & HELLO KITTY MAGIC 2X50ML (1.7 FL. OZ)",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HELLO KITTY © SANRIO & HELLO KITTY MAGIC 2X50ML (1.7 FL. OZ)",
+      "url": "https://www.zara.com/us/en/hello-kitty---sanrio---hello-kitty-magic-2x50ml--1-7-fl--oz--p20310371.html",
+      "productGroupID": "20310371",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Two fragrances that reinterpret the Hello Kitty universe with freshness and sweetness. Hello Kitty combines bergamot, pear, and peony in a soft and luminous composition, while Hello Kitty Rainbow introduces a sweeter accord with cotton candy, pear, and orange blossom.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b120/bb2c/9161460696fd/c89824cae7f0/20310371999-e1/20310371999-e1.jpg?ts=1777533702352&w=1920",
+        "https://static.zara.net/assets/public/994e/f855/ccf94741abee/8c480a0386f1/20310371999-e2/20310371999-e2.jpg?ts=1777533702613&w=1920",
+        "https://static.zara.net/assets/public/f291/68a2/65824ceebb19/dc4a29619333/20310371999-e3/20310371999-e3.jpg?ts=1777533700739&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HELLO KITTY © SANRIO & HELLO KITTY MAGIC 2X50ML (1.7 FL. OZ) - ONE SIZE ONLY",
+          "sku": "547008812-999-99",
+          "mpn": "547008812-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/b120/bb2c/9161460696fd/c89824cae7f0/20310371999-e1/20310371999-e1.jpg?ts=1777533702352&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/hello-kitty---sanrio---hello-kitty-magic-2x50ml--1-7-fl--oz--p20310371.html?v1=547008812",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HELLO KITTY © SANRIO & HELLO KITTY MAGIC 2X50ML (1.7 FL. OZ)",
+      "product_group_id": "20310371",
+      "brand": "ZARA",
+      "description": "Two fragrances that reinterpret the Hello Kitty universe with freshness and sweetness. Hello Kitty combines bergamot, pear, and peony in a soft and luminous composition, while Hello Kitty Rainbow introduces a sweeter accord with cotton candy, pear, and orange blossom.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HELLO KITTY © SANRIO & HELLO KITTY MAGIC 2X50ML (1.7 FL. OZ) - ONE SIZE ONLY",
+          "sku": "547008812-999-99",
+          "mpn": "547008812-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/hello-kitty---sanrio---hello-kitty-magic-2x50ml--1-7-fl--oz--p20310371.html?v1=547008812",
+          "images": [
+            "https://static.zara.net/assets/public/b120/bb2c/9161460696fd/c89824cae7f0/20310371999-e1/20310371999-e1.jpg?ts=1777533702352&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b120/bb2c/9161460696fd/c89824cae7f0/20310371999-e1/20310371999-e1.jpg?ts=1777533702352&w=1920",
+        "https://static.zara.net/assets/public/994e/f855/ccf94741abee/8c480a0386f1/20310371999-e2/20310371999-e2.jpg?ts=1777533702613&w=1920",
+        "https://static.zara.net/assets/public/f291/68a2/65824ceebb19/dc4a29619333/20310371999-e3/20310371999-e3.jpg?ts=1777533700739&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nTwo fragrances that reinterpret the Hello Kitty universe with freshness and sweetness. Hello Kitty combines bergamot, pear, and peony in a soft and luminous composition, while Hello Kitty Rainbow introduces a sweeter accord with cotton candy, pear, and orange blossom.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "188d64b478cdff58a5c9c604299dfde77b26d3bfa0b73f4dfcdd16ed56fe28ec",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

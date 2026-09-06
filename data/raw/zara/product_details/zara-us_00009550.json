@@ -1,0 +1,124 @@
+{
+  "product_id": "zara-us:00009550",
+  "source_url": "https://www.zara.com/us/en/crab-swimming-goggles-p00009550.html",
+  "final_url": "https://www.zara.com/us/en/crab-swimming-goggles-p00009550.html",
+  "canonical_url": "https://www.zara.com/us/en/crab-swimming-goggles-p00009550.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CRAB SWIMMING GOGGLES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CRAB SWIMMING GOGGLES",
+      "url": "https://www.zara.com/us/en/crab-swimming-goggles-p00009550.html",
+      "productGroupID": "00009550",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Swimming goggles with polycarbonate lenses for clear underwater vision. Features a crab shape and an adjustable elastic silicone strap.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b070/f15c/71714d4cb4bb/05b1f0e13ec4/00009550615-e1/00009550615-e1.jpg?ts=1776156417137&w=1920",
+        "https://static.zara.net/assets/public/df65/f4ae/6de84395b5f3/b72a13c509a5/00009550615-e2/00009550615-e2.jpg?ts=1776156417164&w=1920",
+        "https://static.zara.net/assets/public/d5ac/19bf/209b4048a7b4/cf6e78a9023f/00009550615-e3/00009550615-e3.jpg?ts=1776156417179&w=1920",
+        "https://static.zara.net/assets/public/9a2f/5ab9/f2894bcbb342/b41d360287de/00009550615-e4/00009550615-e4.jpg?ts=1776156416262&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CRAB SWIMMING GOGGLES - Orange - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545461787-615-14",
+          "mpn": "545461787-615-14",
+          "color": "Orange",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b070/f15c/71714d4cb4bb/05b1f0e13ec4/00009550615-e1/00009550615-e1.jpg?ts=1776156417137&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/crab-swimming-goggles-p00009550.html?v1=545461787",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CRAB SWIMMING GOGGLES",
+      "product_group_id": "00009550",
+      "brand": "ZARA",
+      "description": "Swimming goggles with polycarbonate lenses for clear underwater vision. Features a crab shape and an adjustable elastic silicone strap.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CRAB SWIMMING GOGGLES - Orange - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545461787-615-14",
+          "mpn": "545461787-615-14",
+          "color_name": "Orange",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/crab-swimming-goggles-p00009550.html?v1=545461787",
+          "images": [
+            "https://static.zara.net/assets/public/b070/f15c/71714d4cb4bb/05b1f0e13ec4/00009550615-e1/00009550615-e1.jpg?ts=1776156417137&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b070/f15c/71714d4cb4bb/05b1f0e13ec4/00009550615-e1/00009550615-e1.jpg?ts=1776156417137&w=1920",
+        "https://static.zara.net/assets/public/df65/f4ae/6de84395b5f3/b72a13c509a5/00009550615-e2/00009550615-e2.jpg?ts=1776156417164&w=1920",
+        "https://static.zara.net/assets/public/d5ac/19bf/209b4048a7b4/cf6e78a9023f/00009550615-e3/00009550615-e3.jpg?ts=1776156417179&w=1920",
+        "https://static.zara.net/assets/public/9a2f/5ab9/f2894bcbb342/b41d360287de/00009550615-e4/00009550615-e4.jpg?ts=1776156416262&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nSwimming goggles with polycarbonate lenses for clear underwater vision. Features a crab shape and an adjustable elastic silicone strap.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f83ac09db0c5685cab5c28ed72855ec6f2f584b99d11af4e6cc732fc16df6deb",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

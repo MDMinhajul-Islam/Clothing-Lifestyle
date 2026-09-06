@@ -1,0 +1,117 @@
+{
+  "product_id": "zara-us:20310383",
+  "source_url": "https://www.zara.com/us/en/star-wars-the-mandalorian---disney-50-ml-p20310383.html",
+  "final_url": "https://www.zara.com/us/en/star-wars-the-mandalorian---disney-50-ml-p20310383.html",
+  "canonical_url": "https://www.zara.com/us/en/star-wars-the-mandalorian---disney-50-ml-p20310383.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STAR WARS THE MANDALORIAN © DISNEY 50 ML",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STAR WARS THE MANDALORIAN © DISNEY 50 ML",
+      "url": "https://www.zara.com/us/en/star-wars-the-mandalorian---disney-50-ml-p20310383.html",
+      "productGroupID": "20310383",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "ZARA STAR WARS THE MANDALORIAN © DISNEY EDC 50 ML (1.69 FL. OZ).\n\nFruity eau de cologne. Fragrance pyramid includes notes of mandarin, pepper, and lavender. A fresh and bright fragrance.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5bae/fce4/5ee2483485e8/7e1d03698a32/20310383999-000-e1/20310383999-000-e1.jpg?ts=1774456139779&w=1920",
+        "https://static.zara.net/assets/public/dd18/d548/e8f449289039/b184ffcf6ad4/20310383999-000-e2/20310383999-000-e2.jpg?ts=1774456139448&w=1920",
+        "https://static.zara.net/assets/public/988e/532e/e6824937a1d6/57935c12d587/20310383999-e3/20310383999-e3.jpg?ts=1762170036420&w=1920",
+        "https://static.zara.net/assets/public/01c2/2308/ee1448c7ae5c/c652ac9c1f8c/20310383999-000-e5/20310383999-000-e5.jpg?ts=1774456139461&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STAR WARS THE MANDALORIAN © DISNEY 50 ML - ONE SIZE ONLY",
+          "sku": "545413429-999-99",
+          "mpn": "545413429-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/5bae/fce4/5ee2483485e8/7e1d03698a32/20310383999-000-e1/20310383999-000-e1.jpg?ts=1774456139779&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "17.9",
+            "url": "https://www.zara.com/us/en/star-wars-the-mandalorian---disney-50-ml-p20310383.html?v1=545413429",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STAR WARS THE MANDALORIAN © DISNEY 50 ML",
+      "product_group_id": "20310383",
+      "brand": "ZARA",
+      "description": "ZARA STAR WARS THE MANDALORIAN © DISNEY EDC 50 ML (1.69 FL. OZ).\n\nFruity eau de cologne. Fragrance pyramid includes notes of mandarin, pepper, and lavender. A fresh and bright fragrance.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STAR WARS THE MANDALORIAN © DISNEY 50 ML - ONE SIZE ONLY",
+          "sku": "545413429-999-99",
+          "mpn": "545413429-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "17.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-wars-the-mandalorian---disney-50-ml-p20310383.html?v1=545413429",
+          "images": [
+            "https://static.zara.net/assets/public/5bae/fce4/5ee2483485e8/7e1d03698a32/20310383999-000-e1/20310383999-000-e1.jpg?ts=1774456139779&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5bae/fce4/5ee2483485e8/7e1d03698a32/20310383999-000-e1/20310383999-000-e1.jpg?ts=1774456139779&w=1920",
+        "https://static.zara.net/assets/public/dd18/d548/e8f449289039/b184ffcf6ad4/20310383999-000-e2/20310383999-000-e2.jpg?ts=1774456139448&w=1920",
+        "https://static.zara.net/assets/public/988e/532e/e6824937a1d6/57935c12d587/20310383999-e3/20310383999-e3.jpg?ts=1762170036420&w=1920",
+        "https://static.zara.net/assets/public/01c2/2308/ee1448c7ae5c/c652ac9c1f8c/20310383999-000-e5/20310383999-000-e5.jpg?ts=1774456139461&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "17.90",
+  "rendered_description": "Description\nZARA STAR WARS THE MANDALORIAN © DISNEY EDC 50 ML (1.69 FL. OZ).\nFruity eau de cologne. Fragrance pyramid includes notes of mandarin, pepper, and lavender. A fresh and bright fragrance.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "17.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "17.90",
+    "dom_price": "17.90",
+    "normalized_price": "17.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "203de3b2d569697ea242ccb9725729d601e2ded5e33c54519fbccd327b00f682",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

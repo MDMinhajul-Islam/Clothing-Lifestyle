@@ -1,0 +1,836 @@
+{
+  "product_id": "zara-us:14468830",
+  "source_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html",
+  "final_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html",
+  "enriched_at": "2026-09-06T18:01:21.375355+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER SNEAKERS",
+      "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html",
+      "productGroupID": "14468830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leather sneaker with a suede finish and contrasting toe. Features a lace-up fastening and rubber sole. LEATHER: This product is made from an exclusive material. Any potential marks or color variations are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920",
+        "https://static.zara.net/assets/public/4f5b/179a/d5974ad58f0e/4093f0e8c413/14468830400-e2/14468830400-e2.jpg?ts=1787238215337&w=1920",
+        "https://static.zara.net/assets/public/2cd7/8e1f/4eb2487fbb1c/8ec94c04b5c4/14468830400-e3/14468830400-e3.jpg?ts=1787238214045&w=1920",
+        "https://static.zara.net/assets/public/5b15/3791/88bd40a49675/b1e13aee1626/14468830400-e4/14468830400-e4.jpg?ts=1787238214740&w=1920",
+        "https://static.zara.net/assets/public/3525/9adf/aa7b436f98e0/bb7ccf27f19c/14468830400-e5/14468830400-e5.jpg?ts=1787238215813&w=1920",
+        "https://static.zara.net/assets/public/9294/3460/cc4847eab9a6/0a7c043bb021/14468830400-e6/14468830400-e6.jpg?ts=1787238213866&w=1920",
+        "https://static.zara.net/assets/public/06cb/8a54/473640f2a9e5/0f71192c2c2c/14468830400-e7/14468830400-e7.jpg?ts=1787238214836&w=1920",
+        "https://static.zara.net/assets/public/30f7/49fa/5c9743048f43/6b980326c81f/14468830400-e10/14468830400-e10.jpg?ts=1787810332486&w=1920",
+        "https://static.zara.net/assets/public/dfa2/36ac/79c948568a87/7abe92e0335d/14468830400-e11/14468830400-e11.jpg?ts=1787810333203&w=1920",
+        "https://static.zara.net/assets/public/9f24/ca33/e41443819b6a/578e982855de/14468830400-e12/14468830400-e12.jpg?ts=1787810332740&w=1920"
+      ],
+      "material": "cow leather/rubber",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "95% cow leather, 5% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "65% cotton, 35% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% cow leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 12½ (7.4 INCHES)",
+          "sku": "549173937-400-30",
+          "mpn": "549173937-400-30",
+          "color": "Blue",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 13½ (7.7 INCHES)",
+          "sku": "549173937-400-31",
+          "mpn": "549173937-400-31",
+          "color": "Blue",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 1 (8.0 INCHES)",
+          "sku": "549173937-400-32",
+          "mpn": "549173937-400-32",
+          "color": "Blue",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 2 (8.2 INCHES)",
+          "sku": "549173937-400-33",
+          "mpn": "549173937-400-33",
+          "color": "Blue",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 2½ (8.5 INCHES)",
+          "sku": "549173937-400-34",
+          "mpn": "549173937-400-34",
+          "color": "Blue",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 3½ (8.8 INCHES)",
+          "sku": "549173937-400-35",
+          "mpn": "549173937-400-35",
+          "color": "Blue",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 4 (9.0 INCHES)",
+          "sku": "549173937-400-36",
+          "mpn": "549173937-400-36",
+          "color": "Blue",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 5 (9.3 INCHES)",
+          "sku": "549173937-400-37",
+          "mpn": "549173937-400-37",
+          "color": "Blue",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 5½ (9.5 INCHES)",
+          "sku": "549173937-400-38",
+          "mpn": "549173937-400-38",
+          "color": "Blue",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 6 (9.8 INCHES)",
+          "sku": "549173937-400-39",
+          "mpn": "549173937-400-39",
+          "color": "Blue",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Blue - 7 (10.0 INCHES)",
+          "sku": "549173937-400-40",
+          "mpn": "549173937-400-40",
+          "color": "Blue",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 12½ (7.4 INCHES)",
+          "sku": "549173937-700-30",
+          "mpn": "549173937-700-30",
+          "color": "Brown",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 13½ (7.7 INCHES)",
+          "sku": "549173937-700-31",
+          "mpn": "549173937-700-31",
+          "color": "Brown",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 1 (8.0 INCHES)",
+          "sku": "549173937-700-32",
+          "mpn": "549173937-700-32",
+          "color": "Brown",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 2 (8.2 INCHES)",
+          "sku": "549173937-700-33",
+          "mpn": "549173937-700-33",
+          "color": "Brown",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 2½ (8.5 INCHES)",
+          "sku": "549173937-700-34",
+          "mpn": "549173937-700-34",
+          "color": "Brown",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 3½ (8.8 INCHES)",
+          "sku": "549173937-700-35",
+          "mpn": "549173937-700-35",
+          "color": "Brown",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 4 (9.0 INCHES)",
+          "sku": "549173937-700-36",
+          "mpn": "549173937-700-36",
+          "color": "Brown",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 5 (9.3 INCHES)",
+          "sku": "549173937-700-37",
+          "mpn": "549173937-700-37",
+          "color": "Brown",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 5½ (9.5 INCHES)",
+          "sku": "549173937-700-38",
+          "mpn": "549173937-700-38",
+          "color": "Brown",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 6 (9.8 INCHES)",
+          "sku": "549173937-700-39",
+          "mpn": "549173937-700-39",
+          "color": "Brown",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER SNEAKERS - Brown - 7 (10.0 INCHES)",
+          "sku": "549173937-700-40",
+          "mpn": "549173937-700-40",
+          "color": "Brown",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER SNEAKERS",
+      "product_group_id": "14468830",
+      "brand": "ZARA",
+      "description": "Leather sneaker with a suede finish and contrasting toe. Features a lace-up fastening and rubber sole. LEATHER: This product is made from an exclusive material. Any potential marks or color variations are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+      "material": "cow leather/rubber",
+      "composition": "UPPER: 95% cow leather, 5% rubber | LINING: 65% cotton, 35% polyester | SOLE: 100% rubber | INSOLE: 65% cotton, 35% polyester | TONGUE: 100% cow leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER SNEAKERS - Blue - 12½ (7.4 INCHES)",
+          "sku": "549173937-400-30",
+          "mpn": "549173937-400-30",
+          "color_name": "Blue",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 13½ (7.7 INCHES)",
+          "sku": "549173937-400-31",
+          "mpn": "549173937-400-31",
+          "color_name": "Blue",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 1 (8.0 INCHES)",
+          "sku": "549173937-400-32",
+          "mpn": "549173937-400-32",
+          "color_name": "Blue",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 2 (8.2 INCHES)",
+          "sku": "549173937-400-33",
+          "mpn": "549173937-400-33",
+          "color_name": "Blue",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 2½ (8.5 INCHES)",
+          "sku": "549173937-400-34",
+          "mpn": "549173937-400-34",
+          "color_name": "Blue",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 3½ (8.8 INCHES)",
+          "sku": "549173937-400-35",
+          "mpn": "549173937-400-35",
+          "color_name": "Blue",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 4 (9.0 INCHES)",
+          "sku": "549173937-400-36",
+          "mpn": "549173937-400-36",
+          "color_name": "Blue",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 5 (9.3 INCHES)",
+          "sku": "549173937-400-37",
+          "mpn": "549173937-400-37",
+          "color_name": "Blue",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 5½ (9.5 INCHES)",
+          "sku": "549173937-400-38",
+          "mpn": "549173937-400-38",
+          "color_name": "Blue",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 6 (9.8 INCHES)",
+          "sku": "549173937-400-39",
+          "mpn": "549173937-400-39",
+          "color_name": "Blue",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Blue - 7 (10.0 INCHES)",
+          "sku": "549173937-400-40",
+          "mpn": "549173937-400-40",
+          "color_name": "Blue",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173937",
+          "images": [
+            "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 12½ (7.4 INCHES)",
+          "sku": "549173937-700-30",
+          "mpn": "549173937-700-30",
+          "color_name": "Brown",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 13½ (7.7 INCHES)",
+          "sku": "549173937-700-31",
+          "mpn": "549173937-700-31",
+          "color_name": "Brown",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 1 (8.0 INCHES)",
+          "sku": "549173937-700-32",
+          "mpn": "549173937-700-32",
+          "color_name": "Brown",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 2 (8.2 INCHES)",
+          "sku": "549173937-700-33",
+          "mpn": "549173937-700-33",
+          "color_name": "Brown",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 2½ (8.5 INCHES)",
+          "sku": "549173937-700-34",
+          "mpn": "549173937-700-34",
+          "color_name": "Brown",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 3½ (8.8 INCHES)",
+          "sku": "549173937-700-35",
+          "mpn": "549173937-700-35",
+          "color_name": "Brown",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 4 (9.0 INCHES)",
+          "sku": "549173937-700-36",
+          "mpn": "549173937-700-36",
+          "color_name": "Brown",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 5 (9.3 INCHES)",
+          "sku": "549173937-700-37",
+          "mpn": "549173937-700-37",
+          "color_name": "Brown",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 5½ (9.5 INCHES)",
+          "sku": "549173937-700-38",
+          "mpn": "549173937-700-38",
+          "color_name": "Brown",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 6 (9.8 INCHES)",
+          "sku": "549173937-700-39",
+          "mpn": "549173937-700-39",
+          "color_name": "Brown",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER SNEAKERS - Brown - 7 (10.0 INCHES)",
+          "sku": "549173937-700-40",
+          "mpn": "549173937-700-40",
+          "color_name": "Brown",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "59.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-sneakers-p14468830.html?v1=549173938",
+          "images": [
+            "https://static.zara.net/assets/public/2206/5acd/01a6415d8c49/925ecfc55939/14468830700-e1/14468830700-e1.jpg?ts=1787238215750&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/86f8/583d/758c4ef1a129/ac433a7d71fe/14468830400-e1/14468830400-e1.jpg?ts=1787238214452&w=1920",
+        "https://static.zara.net/assets/public/4f5b/179a/d5974ad58f0e/4093f0e8c413/14468830400-e2/14468830400-e2.jpg?ts=1787238215337&w=1920",
+        "https://static.zara.net/assets/public/2cd7/8e1f/4eb2487fbb1c/8ec94c04b5c4/14468830400-e3/14468830400-e3.jpg?ts=1787238214045&w=1920",
+        "https://static.zara.net/assets/public/5b15/3791/88bd40a49675/b1e13aee1626/14468830400-e4/14468830400-e4.jpg?ts=1787238214740&w=1920",
+        "https://static.zara.net/assets/public/3525/9adf/aa7b436f98e0/bb7ccf27f19c/14468830400-e5/14468830400-e5.jpg?ts=1787238215813&w=1920",
+        "https://static.zara.net/assets/public/9294/3460/cc4847eab9a6/0a7c043bb021/14468830400-e6/14468830400-e6.jpg?ts=1787238213866&w=1920",
+        "https://static.zara.net/assets/public/06cb/8a54/473640f2a9e5/0f71192c2c2c/14468830400-e7/14468830400-e7.jpg?ts=1787238214836&w=1920",
+        "https://static.zara.net/assets/public/30f7/49fa/5c9743048f43/6b980326c81f/14468830400-e10/14468830400-e10.jpg?ts=1787810332486&w=1920",
+        "https://static.zara.net/assets/public/dfa2/36ac/79c948568a87/7abe92e0335d/14468830400-e11/14468830400-e11.jpg?ts=1787810333203&w=1920",
+        "https://static.zara.net/assets/public/9f24/ca33/e41443819b6a/578e982855de/14468830400-e12/14468830400-e12.jpg?ts=1787810332740&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Brown"
+  ],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nLeather sneaker with a suede finish and contrasting toe. Features a lace-up fastening and rubber sole. LEATHER: This product is made from an exclusive material. Any potential marks or color variations are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 11,
+  "variants_count": 22,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8fac2bd92e82a37b27952b4bece80492cc9c7fdbf69f84c4a4b18b6c78e1a796",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
