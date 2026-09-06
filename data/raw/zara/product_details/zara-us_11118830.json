@@ -1,0 +1,171 @@
+{
+  "product_id": "zara-us:11118830",
+  "source_url": "https://www.zara.com/us/en/pocket-shoulder-bag-p11118830.html",
+  "final_url": "https://www.zara.com/us/en/pocket-shoulder-bag-p11118830.html",
+  "canonical_url": "https://www.zara.com/us/en/pocket-shoulder-bag-p11118830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULTI-POCKET SHOULDER BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULTI-POCKET SHOULDER BAG",
+      "url": "https://www.zara.com/us/en/pocket-shoulder-bag-p11118830.html",
+      "productGroupID": "11118830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shoulder bag with front pockets. Features a main compartment and front zip pockets.\n\nHeight x Length x Width: 4.3 x 8.7 x 3.9 inches (11 x 22 x 10 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4ea2/8be2/03f141418449/b5c6b7f2c3ae/11118831605-e1/11118831605-e1.jpg?ts=1782901552312&w=1920",
+        "https://static.zara.net/assets/public/928f/627c/ed7a40879916/699e8c123e2a/11118831605-e2/11118831605-e2.jpg?ts=1782901550576&w=1920",
+        "https://static.zara.net/assets/public/a6b0/5f59/da0840b5b6dc/f89b12f0df11/11118831605-e3/11118831605-e3.jpg?ts=1782901553211&w=1920",
+        "https://static.zara.net/assets/public/d901/c643/927a45979bf0/9654637a4cf1/11118831605-e4/11118831605-e4.jpg?ts=1782901556177&w=1920",
+        "https://static.zara.net/assets/public/2c8d/c609/d6a943cfb987/20dcf3396a12/11118831605-e5/11118831605-e5.jpg?ts=1782901555049&w=1920",
+        "https://static.zara.net/assets/public/0355/3858/dc5448cf98a3/1d70116c1abe/11118831605-e6/11118831605-e6.jpg?ts=1782901555564&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULTI-POCKET SHOULDER BAG - Maroon - ONE SIZE ONLY",
+          "sku": "545426249-605-53",
+          "mpn": "545426249-605-53",
+          "color": "Maroon",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/4ea2/8be2/03f141418449/b5c6b7f2c3ae/11118831605-e1/11118831605-e1.jpg?ts=1782901552312&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-shoulder-bag-p11118830.html?v1=545426249",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MULTI-POCKET SHOULDER BAG - Black - ONE SIZE ONLY",
+          "sku": "545426249-800-53",
+          "mpn": "545426249-800-53",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/42d2/1c88/54184f99b7e8/ec981fcd204f/11118831800-e1/11118831800-e1.jpg?ts=1782901559822&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/pocket-shoulder-bag-p11118830.html?v1=545426248",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULTI-POCKET SHOULDER BAG",
+      "product_group_id": "11118830",
+      "brand": "ZARA",
+      "description": "Shoulder bag with front pockets. Features a main compartment and front zip pockets.\n\nHeight x Length x Width: 4.3 x 8.7 x 3.9 inches (11 x 22 x 10 cm)",
+      "material": "100% polyurethane",
+      "composition": "OUTER SHELL: 100% polyurethane | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULTI-POCKET SHOULDER BAG - Maroon - ONE SIZE ONLY",
+          "sku": "545426249-605-53",
+          "mpn": "545426249-605-53",
+          "color_name": "Maroon",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-shoulder-bag-p11118830.html?v1=545426249",
+          "images": [
+            "https://static.zara.net/assets/public/4ea2/8be2/03f141418449/b5c6b7f2c3ae/11118831605-e1/11118831605-e1.jpg?ts=1782901552312&w=1920"
+          ]
+        },
+        {
+          "name": "MULTI-POCKET SHOULDER BAG - Black - ONE SIZE ONLY",
+          "sku": "545426249-800-53",
+          "mpn": "545426249-800-53",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pocket-shoulder-bag-p11118830.html?v1=545426248",
+          "images": [
+            "https://static.zara.net/assets/public/42d2/1c88/54184f99b7e8/ec981fcd204f/11118831800-e1/11118831800-e1.jpg?ts=1782901559822&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4ea2/8be2/03f141418449/b5c6b7f2c3ae/11118831605-e1/11118831605-e1.jpg?ts=1782901552312&w=1920",
+        "https://static.zara.net/assets/public/928f/627c/ed7a40879916/699e8c123e2a/11118831605-e2/11118831605-e2.jpg?ts=1782901550576&w=1920",
+        "https://static.zara.net/assets/public/a6b0/5f59/da0840b5b6dc/f89b12f0df11/11118831605-e3/11118831605-e3.jpg?ts=1782901553211&w=1920",
+        "https://static.zara.net/assets/public/d901/c643/927a45979bf0/9654637a4cf1/11118831605-e4/11118831605-e4.jpg?ts=1782901556177&w=1920",
+        "https://static.zara.net/assets/public/2c8d/c609/d6a943cfb987/20dcf3396a12/11118831605-e5/11118831605-e5.jpg?ts=1782901555049&w=1920",
+        "https://static.zara.net/assets/public/0355/3858/dc5448cf98a3/1d70116c1abe/11118831605-e6/11118831605-e6.jpg?ts=1782901555564&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Maroon",
+    "Black"
+  ],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nShoulder bag with front pockets. Features a main compartment and front zip pockets.\nHeight x Length x Width: 4.3 x 8.7 x 3.9 inches (11 x 22 x 10 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b8484d263c9d4db72d17e2965a330d4f3396bfc31f0176d446ea2d86a96996f4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

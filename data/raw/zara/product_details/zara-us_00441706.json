@@ -1,0 +1,124 @@
+{
+  "product_id": "zara-us:00441706",
+  "source_url": "https://www.zara.com/us/en/interchangeable-charm-necklace-p00441706.html",
+  "final_url": "https://www.zara.com/us/en/interchangeable-charm-necklace-p00441706.html",
+  "canonical_url": "https://www.zara.com/us/en/interchangeable-charm-necklace-p00441706.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "INTERCHANGEABLE CHARM NECKLACE",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "INTERCHANGEABLE CHARM NECKLACE",
+      "url": "https://www.zara.com/us/en/interchangeable-charm-necklace-p00441706.html",
+      "productGroupID": "00441706",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Necklace with an adjustable clasp at the nape. Features interchangeable charms. Contains small parts, not suitable for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/1c43/eb6f/36f14839b3f0/169297a3336c/00441706303-e1/00441706303-e1.jpg?ts=1787151701576&w=1920",
+        "https://static.zara.net/assets/public/adb2/b2fd/467e47dc99b1/4da6b8691b8c/00441706303-e2/00441706303-e2.jpg?ts=1787151701845&w=1920",
+        "https://static.zara.net/assets/public/f23c/036b/d9b3498a9d70/43afa997e516/00441706303-e3/00441706303-e3.jpg?ts=1787151701357&w=1920"
+      ],
+      "material": "zinc/iron/plastic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "60% zinc, 30% iron, 7% plastic, 3% glass"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "INTERCHANGEABLE CHARM NECKLACE - Golden - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "560772018-303-14",
+          "mpn": "560772018-303-14",
+          "color": "Golden",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/1c43/eb6f/36f14839b3f0/169297a3336c/00441706303-e1/00441706303-e1.jpg?ts=1787151701576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/interchangeable-charm-necklace-p00441706.html?v1=560772018",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "INTERCHANGEABLE CHARM NECKLACE",
+      "product_group_id": "00441706",
+      "brand": "ZARA",
+      "description": "Necklace with an adjustable clasp at the nape. Features interchangeable charms. Contains small parts, not suitable for children under 3 years old.",
+      "material": "zinc/iron/plastic",
+      "composition": "OUTER SHELL: 60% zinc, 30% iron, 7% plastic, 3% glass",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "INTERCHANGEABLE CHARM NECKLACE - Golden - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "560772018-303-14",
+          "mpn": "560772018-303-14",
+          "color_name": "Golden",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/interchangeable-charm-necklace-p00441706.html?v1=560772018",
+          "images": [
+            "https://static.zara.net/assets/public/1c43/eb6f/36f14839b3f0/169297a3336c/00441706303-e1/00441706303-e1.jpg?ts=1787151701576&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/1c43/eb6f/36f14839b3f0/169297a3336c/00441706303-e1/00441706303-e1.jpg?ts=1787151701576&w=1920",
+        "https://static.zara.net/assets/public/adb2/b2fd/467e47dc99b1/4da6b8691b8c/00441706303-e2/00441706303-e2.jpg?ts=1787151701845&w=1920",
+        "https://static.zara.net/assets/public/f23c/036b/d9b3498a9d70/43afa997e516/00441706303-e3/00441706303-e3.jpg?ts=1787151701357&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nNecklace with an adjustable clasp at the nape. Features interchangeable charms. Contains small parts, not suitable for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "2cc1b6579399d24fb76f2d03f2ae2a0b7b8f763da0220aff34f3195c628de1ca",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

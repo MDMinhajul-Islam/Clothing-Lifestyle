@@ -1,0 +1,130 @@
+{
+  "product_id": "zara-us:11148830",
+  "source_url": "https://www.zara.com/us/en/star-denim-shopper-p11148830.html",
+  "final_url": "https://www.zara.com/us/en/star-denim-shopper-p11148830.html",
+  "canonical_url": "https://www.zara.com/us/en/star-denim-shopper-p11148830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STAR DENIM SHOPPER",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STAR DENIM SHOPPER",
+      "url": "https://www.zara.com/us/en/star-denim-shopper-p11148830.html",
+      "productGroupID": "11148830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Denim effect shopper bag with star detail. Features a main compartment and double shoulder straps.\n\nHeight x Length x Width: 11.8 x 18.1 x 5.1 inches (30 x 46 x 13 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/04b7/cc2a/476142de8952/36fd6e6e609a/11148830800-e1/11148830800-e1.jpg?ts=1783939149939&w=1920",
+        "https://static.zara.net/assets/public/f9be/ec33/4b184e3cb554/629c73acd290/11148830800-e2/11148830800-e2.jpg?ts=1783939149744&w=1920",
+        "https://static.zara.net/assets/public/6ae3/a2bc/110b4dbe9c09/fbb200128f79/11148830800-e3/11148830800-e3.jpg?ts=1783939150067&w=1920",
+        "https://static.zara.net/assets/public/07b2/e88a/7b644cf6b6e8/39ced081bf9c/11148830800-e4/11148830800-e4.jpg?ts=1783939150060&w=1920",
+        "https://static.zara.net/assets/public/8f3b/726e/da8f483c86b1/071da47243ee/11148830800-e5/11148830800-e5.jpg?ts=1783939149385&w=1920",
+        "https://static.zara.net/assets/public/463c/1fa8/843f4be98533/50b498aab05a/11148830800-e6/11148830800-e6.jpg?ts=1783939149854&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "70% cotton, 30% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STAR DENIM SHOPPER - Black - ONE SIZE ONLY",
+          "sku": "545494285-800-53",
+          "mpn": "545494285-800-53",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/04b7/cc2a/476142de8952/36fd6e6e609a/11148830800-e1/11148830800-e1.jpg?ts=1783939149939&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/star-denim-shopper-p11148830.html?v1=545494285",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STAR DENIM SHOPPER",
+      "product_group_id": "11148830",
+      "brand": "ZARA",
+      "description": "Denim effect shopper bag with star detail. Features a main compartment and double shoulder straps.\n\nHeight x Length x Width: 11.8 x 18.1 x 5.1 inches (30 x 46 x 13 cm)",
+      "material": "cotton/polyester",
+      "composition": "OUTER SHELL: 70% cotton, 30% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STAR DENIM SHOPPER - Black - ONE SIZE ONLY",
+          "sku": "545494285-800-53",
+          "mpn": "545494285-800-53",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-denim-shopper-p11148830.html?v1=545494285",
+          "images": [
+            "https://static.zara.net/assets/public/04b7/cc2a/476142de8952/36fd6e6e609a/11148830800-e1/11148830800-e1.jpg?ts=1783939149939&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/04b7/cc2a/476142de8952/36fd6e6e609a/11148830800-e1/11148830800-e1.jpg?ts=1783939149939&w=1920",
+        "https://static.zara.net/assets/public/f9be/ec33/4b184e3cb554/629c73acd290/11148830800-e2/11148830800-e2.jpg?ts=1783939149744&w=1920",
+        "https://static.zara.net/assets/public/6ae3/a2bc/110b4dbe9c09/fbb200128f79/11148830800-e3/11148830800-e3.jpg?ts=1783939150067&w=1920",
+        "https://static.zara.net/assets/public/07b2/e88a/7b644cf6b6e8/39ced081bf9c/11148830800-e4/11148830800-e4.jpg?ts=1783939150060&w=1920",
+        "https://static.zara.net/assets/public/8f3b/726e/da8f483c86b1/071da47243ee/11148830800-e5/11148830800-e5.jpg?ts=1783939149385&w=1920",
+        "https://static.zara.net/assets/public/463c/1fa8/843f4be98533/50b498aab05a/11148830800-e6/11148830800-e6.jpg?ts=1783939149854&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nDenim effect shopper bag with star detail. Features a main compartment and double shoulder straps.\nHeight x Length x Width: 11.8 x 18.1 x 5.1 inches (30 x 46 x 13 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "3d9ed0c2badce3a8bc5f48f31661f6e9c191d37f09d94b05ea720682c1134810",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

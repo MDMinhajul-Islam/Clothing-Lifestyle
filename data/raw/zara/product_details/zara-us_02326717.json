@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:02326717",
+  "source_url": "https://www.zara.com/us/en/four-pack-of-solid-and-gingham-bow-hair-ties-p02326717.html",
+  "final_url": "https://www.zara.com/us/en/four-pack-of-solid-and-gingham-bow-hair-ties-p02326717.html",
+  "canonical_url": "https://www.zara.com/us/en/four-pack-of-solid-and-gingham-bow-hair-ties-p02326717.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FOUR-PACK OF SOLID AND GINGHAM BOW HAIR TIES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FOUR-PACK OF SOLID AND GINGHAM BOW HAIR TIES",
+      "url": "https://www.zara.com/us/en/four-pack-of-solid-and-gingham-bow-hair-ties-p02326717.html",
+      "productGroupID": "02326717",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of four elastic hair ties with bow appliqués in a gingham check print. Includes small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0eeb/cd4f/aa2c497ebb66/185b3137beae/02326717330-e1/02326717330-e1.jpg?ts=1784792395006&w=1920",
+        "https://static.zara.net/assets/public/c24e/26a6/2edb42849178/02a93274e9b7/02326717330-e2/02326717330-e2.jpg?ts=1784792394904&w=1920",
+        "https://static.zara.net/assets/public/2e71/74e8/24b34433b513/796fee37df3c/02326717330-e3/02326717330-e3.jpg?ts=1784792397850&w=1920",
+        "https://static.zara.net/assets/public/9a3f/e4b0/f0eb446eb9df/ff5dcff6b612/02326717330-e4/02326717330-e4.jpg?ts=1784792395237&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK OF SOLID AND GINGHAM BOW HAIR TIES - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "551446018-330-14",
+          "mpn": "551446018-330-14",
+          "color": "Multicolored",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0eeb/cd4f/aa2c497ebb66/185b3137beae/02326717330-e1/02326717330-e1.jpg?ts=1784792395006&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/four-pack-of-solid-and-gingham-bow-hair-ties-p02326717.html?v1=551446018",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FOUR-PACK OF SOLID AND GINGHAM BOW HAIR TIES",
+      "product_group_id": "02326717",
+      "brand": "ZARA",
+      "description": "Pack of four elastic hair ties with bow appliqués in a gingham check print. Includes small parts, not recommended for children under 3 years old.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FOUR-PACK OF SOLID AND GINGHAM BOW HAIR TIES - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "551446018-330-14",
+          "mpn": "551446018-330-14",
+          "color_name": "Multicolored",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-of-solid-and-gingham-bow-hair-ties-p02326717.html?v1=551446018",
+          "images": [
+            "https://static.zara.net/assets/public/0eeb/cd4f/aa2c497ebb66/185b3137beae/02326717330-e1/02326717330-e1.jpg?ts=1784792395006&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0eeb/cd4f/aa2c497ebb66/185b3137beae/02326717330-e1/02326717330-e1.jpg?ts=1784792395006&w=1920",
+        "https://static.zara.net/assets/public/c24e/26a6/2edb42849178/02a93274e9b7/02326717330-e2/02326717330-e2.jpg?ts=1784792394904&w=1920",
+        "https://static.zara.net/assets/public/2e71/74e8/24b34433b513/796fee37df3c/02326717330-e3/02326717330-e3.jpg?ts=1784792397850&w=1920",
+        "https://static.zara.net/assets/public/9a3f/e4b0/f0eb446eb9df/ff5dcff6b612/02326717330-e4/02326717330-e4.jpg?ts=1784792395237&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nPack of four elastic hair ties with bow appliqués in a gingham check print. Includes small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9bb2468c9a5fbc7c2d9ef688720199be0c961e99c397823191b6c9f3da24492c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

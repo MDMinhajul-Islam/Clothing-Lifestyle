@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:11231830",
+  "source_url": "https://www.zara.com/us/en/floral-bag-set-p11231830.html",
+  "final_url": "https://www.zara.com/us/en/floral-bag-set-p11231830.html",
+  "canonical_url": "https://www.zara.com/us/en/floral-bag-set-p11231830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FLORAL BAG SET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FLORAL BAG SET",
+      "url": "https://www.zara.com/us/en/floral-bag-set-p11231830.html",
+      "productGroupID": "11231830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Set of two bags featuring a floral and gingham print. Features an adjustable drawstring closure.\n\nHeight x Width x Depth: 12.2 x 13.8 x 13 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b8f6/e8d3/6796440dbf47/2df152d791fb/11231830605-e1/11231830605-e1.jpg?ts=1786965649717&w=1920",
+        "https://static.zara.net/assets/public/eaad/3b44/5e7e4371851e/e712c90413ba/11231830605-e2/11231830605-e2.jpg?ts=1786965647591&w=1920",
+        "https://static.zara.net/assets/public/ddbe/dd80/9cdd4faab4c5/8d8daf66bbc2/11231830605-e3/11231830605-e3.jpg?ts=1786965650043&w=1920",
+        "https://static.zara.net/assets/public/255f/65c3/7db24de0b9a6/afd27b50397c/11231830605-e4/11231830605-e4.jpg?ts=1786965646451&w=1920",
+        "https://static.zara.net/assets/public/e493/9c5f/d0c445b7ae4d/19240894d871/11231830605-e5/11231830605-e5.jpg?ts=1786965645764&w=1920",
+        "https://static.zara.net/assets/public/5da3/5ced/a00c4f359ef3/038084882ed7/11231830605-e6/11231830605-e6.jpg?ts=1786965645808&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FLORAL BAG SET - Maroon - ONE SIZE ONLY",
+          "sku": "545494303-605-53",
+          "mpn": "545494303-605-53",
+          "color": "Maroon",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/b8f6/e8d3/6796440dbf47/2df152d791fb/11231830605-e1/11231830605-e1.jpg?ts=1786965649717&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/floral-bag-set-p11231830.html?v1=545494303",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FLORAL BAG SET",
+      "product_group_id": "11231830",
+      "brand": "ZARA",
+      "description": "Set of two bags featuring a floral and gingham print. Features an adjustable drawstring closure.\n\nHeight x Width x Depth: 12.2 x 13.8 x 13 inches.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FLORAL BAG SET - Maroon - ONE SIZE ONLY",
+          "sku": "545494303-605-53",
+          "mpn": "545494303-605-53",
+          "color_name": "Maroon",
+          "size_name": "ONE SIZE ONLY",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/floral-bag-set-p11231830.html?v1=545494303",
+          "images": [
+            "https://static.zara.net/assets/public/b8f6/e8d3/6796440dbf47/2df152d791fb/11231830605-e1/11231830605-e1.jpg?ts=1786965649717&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b8f6/e8d3/6796440dbf47/2df152d791fb/11231830605-e1/11231830605-e1.jpg?ts=1786965649717&w=1920",
+        "https://static.zara.net/assets/public/eaad/3b44/5e7e4371851e/e712c90413ba/11231830605-e2/11231830605-e2.jpg?ts=1786965647591&w=1920",
+        "https://static.zara.net/assets/public/ddbe/dd80/9cdd4faab4c5/8d8daf66bbc2/11231830605-e3/11231830605-e3.jpg?ts=1786965650043&w=1920",
+        "https://static.zara.net/assets/public/255f/65c3/7db24de0b9a6/afd27b50397c/11231830605-e4/11231830605-e4.jpg?ts=1786965646451&w=1920",
+        "https://static.zara.net/assets/public/e493/9c5f/d0c445b7ae4d/19240894d871/11231830605-e5/11231830605-e5.jpg?ts=1786965645764&w=1920",
+        "https://static.zara.net/assets/public/5da3/5ced/a00c4f359ef3/038084882ed7/11231830605-e6/11231830605-e6.jpg?ts=1786965645808&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nSet of two bags featuring a floral and gingham print. Features an adjustable drawstring closure.\nHeight x Width x Depth: 12.2 x 13.8 x 13 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "78e1b827505c0aa0de2671d0551e66057b5ff75ff946ce0cfc0979e8412af0d4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

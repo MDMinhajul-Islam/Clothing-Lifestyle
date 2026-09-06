@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:11153830",
+  "source_url": "https://www.zara.com/us/en/checkered-shopper-bag-p11153830.html",
+  "final_url": "https://www.zara.com/us/en/checkered-shopper-bag-p11153830.html",
+  "canonical_url": "https://www.zara.com/us/en/checkered-shopper-bag-p11153830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CHECKERED SHOPPER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CHECKERED SHOPPER",
+      "url": "https://www.zara.com/us/en/checkered-shopper-bag-p11153830.html",
+      "productGroupID": "11153830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shopper bag with a checkered design. Features a main compartment with a zipper closure, double shoulder straps, and side loops for hanging.\n\nHeight x Length x Width: 18.5 x 15 x 2.4 inches (47 x 38 x 6 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ab44/1d9d/939843139512/3a61f31af9f0/11153830700-e1/11153830700-e1.jpg?ts=1784024783635&w=1920",
+        "https://static.zara.net/assets/public/56fd/1f93/be9e44ceb9a8/5533aefbbab9/11153830700-e2/11153830700-e2.jpg?ts=1784024781575&w=1920",
+        "https://static.zara.net/assets/public/9e34/f1e0/2b714a2cab3a/9e892720e05e/11153830700-e3/11153830700-e3.jpg?ts=1784024782745&w=1920",
+        "https://static.zara.net/assets/public/fbb6/4c10/793b4502ba9b/d1ce4ae69b4e/11153830700-e4/11153830700-e4.jpg?ts=1784034962196&w=1920",
+        "https://static.zara.net/assets/public/1ab5/4e6c/d709464d89c0/e9d04e3214b1/11153830700-e5/11153830700-e5.jpg?ts=1784024782469&w=1920",
+        "https://static.zara.net/assets/public/980e/25cf/6b1b44f1a1e9/648ec6fe98fd/11153830700-e6/11153830700-e6.jpg?ts=1784034962162&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CHECKERED SHOPPER - Brown - ONE SIZE ONLY",
+          "sku": "545496428-700-53",
+          "mpn": "545496428-700-53",
+          "color": "Brown",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ab44/1d9d/939843139512/3a61f31af9f0/11153830700-e1/11153830700-e1.jpg?ts=1784024783635&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/checkered-shopper-bag-p11153830.html?v1=545496428",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CHECKERED SHOPPER",
+      "product_group_id": "11153830",
+      "brand": "ZARA",
+      "description": "Shopper bag with a checkered design. Features a main compartment with a zipper closure, double shoulder straps, and side loops for hanging.\n\nHeight x Length x Width: 18.5 x 15 x 2.4 inches (47 x 38 x 6 cm)",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CHECKERED SHOPPER - Brown - ONE SIZE ONLY",
+          "sku": "545496428-700-53",
+          "mpn": "545496428-700-53",
+          "color_name": "Brown",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/checkered-shopper-bag-p11153830.html?v1=545496428",
+          "images": [
+            "https://static.zara.net/assets/public/ab44/1d9d/939843139512/3a61f31af9f0/11153830700-e1/11153830700-e1.jpg?ts=1784024783635&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ab44/1d9d/939843139512/3a61f31af9f0/11153830700-e1/11153830700-e1.jpg?ts=1784024783635&w=1920",
+        "https://static.zara.net/assets/public/56fd/1f93/be9e44ceb9a8/5533aefbbab9/11153830700-e2/11153830700-e2.jpg?ts=1784024781575&w=1920",
+        "https://static.zara.net/assets/public/9e34/f1e0/2b714a2cab3a/9e892720e05e/11153830700-e3/11153830700-e3.jpg?ts=1784024782745&w=1920",
+        "https://static.zara.net/assets/public/fbb6/4c10/793b4502ba9b/d1ce4ae69b4e/11153830700-e4/11153830700-e4.jpg?ts=1784034962196&w=1920",
+        "https://static.zara.net/assets/public/1ab5/4e6c/d709464d89c0/e9d04e3214b1/11153830700-e5/11153830700-e5.jpg?ts=1784024782469&w=1920",
+        "https://static.zara.net/assets/public/980e/25cf/6b1b44f1a1e9/648ec6fe98fd/11153830700-e6/11153830700-e6.jpg?ts=1784034962162&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nShopper bag with a checkered design. Features a main compartment with a zipper closure, double shoulder straps, and side loops for hanging.\nHeight x Length x Width: 18.5 x 15 x 2.4 inches (47 x 38 x 6 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "741ca065e094e999f4c8ebee3dd07c571d8651a4e9fdc470cf166aa2a7da5d19",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

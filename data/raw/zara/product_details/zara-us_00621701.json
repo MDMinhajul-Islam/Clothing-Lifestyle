@@ -1,0 +1,290 @@
+{
+  "product_id": "zara-us:00621701",
+  "source_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html",
+  "final_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html",
+  "canonical_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LONG DENIM SHORTS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LONG DENIM SHORTS",
+      "url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html",
+      "productGroupID": "00621701",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Long denim shorts with front button closure. Back patch pockets. Front seam detail.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920",
+        "https://static.zara.net/assets/public/5bf7/4554/27f34104b3f8/205401f8e94e/00621701630-e2/00621701630-e2.jpg?ts=1783936175843&w=1920",
+        "https://static.zara.net/assets/public/8615/c6a9/d3ce4c19a846/4881d5ea250d/00621701630-e3/00621701630-e3.jpg?ts=1783936177526&w=1920",
+        "https://static.zara.net/assets/public/aa9e/0a04/77094e799677/653562bbe61e/00621701630-e4/00621701630-e4.jpg?ts=1783936179521&w=1920",
+        "https://static.zara.net/assets/public/7e6a/eb1c/e595444ab932/f7ac7a1d49bf/09874703630-p/09874703630-p.jpg?ts=1785257545342&w=1920",
+        "https://static.zara.net/assets/public/008d/123c/b89c4c098d2c/e1f740b5b97d/09874703630-a1/09874703630-a1.jpg?ts=1785257545667&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LONG DENIM SHORTS - Fuchsia - 6-7 years (48,0 INCHES)",
+          "sku": "549238834-630-7",
+          "mpn": "549238834-630-7",
+          "color": "Fuchsia",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LONG DENIM SHORTS - Fuchsia - 8-9 years (51,6 INCHES)",
+          "sku": "549238834-630-9",
+          "mpn": "549238834-630-9",
+          "color": "Fuchsia",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LONG DENIM SHORTS - Fuchsia - 9-10 years (55,1 INCHES)",
+          "sku": "549238834-630-10",
+          "mpn": "549238834-630-10",
+          "color": "Fuchsia",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LONG DENIM SHORTS - Fuchsia - 11-12 years (58,3 INCHES)",
+          "sku": "549238834-630-12",
+          "mpn": "549238834-630-12",
+          "color": "Fuchsia",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LONG DENIM SHORTS - Fuchsia - 12-13 years (61,4 INCHES)",
+          "sku": "549238834-630-13",
+          "mpn": "549238834-630-13",
+          "color": "Fuchsia",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LONG DENIM SHORTS - Fuchsia - 13-14 years (64,6 INCHES)",
+          "sku": "549238834-630-14",
+          "mpn": "549238834-630-14",
+          "color": "Fuchsia",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LONG DENIM SHORTS",
+      "product_group_id": "00621701",
+      "brand": "ZARA",
+      "description": "Long denim shorts with front button closure. Back patch pockets. Front seam detail.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LONG DENIM SHORTS - Fuchsia - 6-7 years (48,0 INCHES)",
+          "sku": "549238834-630-7",
+          "mpn": "549238834-630-7",
+          "color_name": "Fuchsia",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+          "images": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ]
+        },
+        {
+          "name": "LONG DENIM SHORTS - Fuchsia - 8-9 years (51,6 INCHES)",
+          "sku": "549238834-630-9",
+          "mpn": "549238834-630-9",
+          "color_name": "Fuchsia",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+          "images": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ]
+        },
+        {
+          "name": "LONG DENIM SHORTS - Fuchsia - 9-10 years (55,1 INCHES)",
+          "sku": "549238834-630-10",
+          "mpn": "549238834-630-10",
+          "color_name": "Fuchsia",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+          "images": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ]
+        },
+        {
+          "name": "LONG DENIM SHORTS - Fuchsia - 11-12 years (58,3 INCHES)",
+          "sku": "549238834-630-12",
+          "mpn": "549238834-630-12",
+          "color_name": "Fuchsia",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+          "images": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ]
+        },
+        {
+          "name": "LONG DENIM SHORTS - Fuchsia - 12-13 years (61,4 INCHES)",
+          "sku": "549238834-630-13",
+          "mpn": "549238834-630-13",
+          "color_name": "Fuchsia",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+          "images": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ]
+        },
+        {
+          "name": "LONG DENIM SHORTS - Fuchsia - 13-14 years (64,6 INCHES)",
+          "sku": "549238834-630-14",
+          "mpn": "549238834-630-14",
+          "color_name": "Fuchsia",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/long-denim-shorts-p00621701.html?v1=549238834",
+          "images": [
+            "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3e6e/2515/b8ee43fda0a2/81753d41f516/00621701630-e1/00621701630-e1.jpg?ts=1783936179379&w=1920",
+        "https://static.zara.net/assets/public/5bf7/4554/27f34104b3f8/205401f8e94e/00621701630-e2/00621701630-e2.jpg?ts=1783936175843&w=1920",
+        "https://static.zara.net/assets/public/8615/c6a9/d3ce4c19a846/4881d5ea250d/00621701630-e3/00621701630-e3.jpg?ts=1783936177526&w=1920",
+        "https://static.zara.net/assets/public/aa9e/0a04/77094e799677/653562bbe61e/00621701630-e4/00621701630-e4.jpg?ts=1783936179521&w=1920",
+        "https://static.zara.net/assets/public/7e6a/eb1c/e595444ab932/f7ac7a1d49bf/09874703630-p/09874703630-p.jpg?ts=1785257545342&w=1920",
+        "https://static.zara.net/assets/public/008d/123c/b89c4c098d2c/e1f740b5b97d/09874703630-a1/09874703630-a1.jpg?ts=1785257545667&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nLong denim shorts with front button closure. Back patch pockets. Front seam detail.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 6,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d9e86719239cc318101cc83c9619eabb6fd26336b6ae1315af721c295e621e0d",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

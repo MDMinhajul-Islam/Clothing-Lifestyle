@@ -1,0 +1,486 @@
+{
+  "product_id": "zara-us:01716704",
+  "source_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html",
+  "final_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html",
+  "canonical_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PRINTED T-SHIRT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PRINTED T-SHIRT",
+      "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html",
+      "productGroupID": "01716704",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Round neck T-shirt with short sleeves. Front and back print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920",
+        "https://static.zara.net/assets/public/ae1f/a1cf/3b3b4950b9dc/bf92f18ed4d0/01716704250-e2/01716704250-e2.jpg?ts=1779791218681&w=1920",
+        "https://static.zara.net/assets/public/e259/2a9d/f8934f8e9a94/dc991a7e8648/01716704250-e3/01716704250-e3.jpg?ts=1779791219360&w=1920",
+        "https://static.zara.net/assets/public/6df7/38c4/b5834810b565/bfcd1cd2804f/01716704250-e4/01716704250-e4.jpg?ts=1779791219400&w=1920",
+        "https://static.zara.net/assets/public/b449/d792/bcb340b3975f/14db70ce1a56/01716704250-p/01716704250-p.jpg?ts=1780581686183&w=1920",
+        "https://static.zara.net/assets/public/babe/8f3e/db1f482380a3/bb74945be5e1/01716704250-a2/01716704250-a2.jpg?ts=1780581686205&w=1920",
+        "https://static.zara.net/assets/public/fd07/7fc8/1704478caea7/3ef45cc2cca6/01716704250-a3/01716704250-a3.jpg?ts=1780581686606&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - White - 6-7 years (48,0 INCHES)",
+          "sku": "545461335-250-7",
+          "mpn": "545461335-250-7",
+          "color": "White",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - White - 8-9 years (51,6 INCHES)",
+          "sku": "545461335-250-9",
+          "mpn": "545461335-250-9",
+          "color": "White",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - White - 9-10 years (55,1 INCHES)",
+          "sku": "545461335-250-10",
+          "mpn": "545461335-250-10",
+          "color": "White",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - White - 11-12 years (58,3 INCHES)",
+          "sku": "545461335-250-12",
+          "mpn": "545461335-250-12",
+          "color": "White",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - White - 12-13 years (61,4 INCHES)",
+          "sku": "545461335-250-13",
+          "mpn": "545461335-250-13",
+          "color": "White",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - White - 13-14 years (64,6 INCHES)",
+          "sku": "545461335-250-14",
+          "mpn": "545461335-250-14",
+          "color": "White",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461335-400-7",
+          "mpn": "545461335-400-7",
+          "color": "Blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Blue - 8-9 years (51,6 INCHES)",
+          "sku": "545461335-400-9",
+          "mpn": "545461335-400-9",
+          "color": "Blue",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461335-400-10",
+          "mpn": "545461335-400-10",
+          "color": "Blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Blue - 11-12 years (58,3 INCHES)",
+          "sku": "545461335-400-12",
+          "mpn": "545461335-400-12",
+          "color": "Blue",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Blue - 12-13 years (61,4 INCHES)",
+          "sku": "545461335-400-13",
+          "mpn": "545461335-400-13",
+          "color": "Blue",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED T-SHIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461335-400-14",
+          "mpn": "545461335-400-14",
+          "color": "Blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PRINTED T-SHIRT",
+      "product_group_id": "01716704",
+      "brand": "ZARA",
+      "description": "Round neck T-shirt with short sleeves. Front and back print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PRINTED T-SHIRT - White - 6-7 years (48,0 INCHES)",
+          "sku": "545461335-250-7",
+          "mpn": "545461335-250-7",
+          "color_name": "White",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+          "images": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - White - 8-9 years (51,6 INCHES)",
+          "sku": "545461335-250-9",
+          "mpn": "545461335-250-9",
+          "color_name": "White",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+          "images": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - White - 9-10 years (55,1 INCHES)",
+          "sku": "545461335-250-10",
+          "mpn": "545461335-250-10",
+          "color_name": "White",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+          "images": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - White - 11-12 years (58,3 INCHES)",
+          "sku": "545461335-250-12",
+          "mpn": "545461335-250-12",
+          "color_name": "White",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+          "images": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - White - 12-13 years (61,4 INCHES)",
+          "sku": "545461335-250-13",
+          "mpn": "545461335-250-13",
+          "color_name": "White",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+          "images": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - White - 13-14 years (64,6 INCHES)",
+          "sku": "545461335-250-14",
+          "mpn": "545461335-250-14",
+          "color_name": "White",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461335",
+          "images": [
+            "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461335-400-7",
+          "mpn": "545461335-400-7",
+          "color_name": "Blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+          "images": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Blue - 8-9 years (51,6 INCHES)",
+          "sku": "545461335-400-9",
+          "mpn": "545461335-400-9",
+          "color_name": "Blue",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+          "images": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461335-400-10",
+          "mpn": "545461335-400-10",
+          "color_name": "Blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+          "images": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Blue - 11-12 years (58,3 INCHES)",
+          "sku": "545461335-400-12",
+          "mpn": "545461335-400-12",
+          "color_name": "Blue",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+          "images": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Blue - 12-13 years (61,4 INCHES)",
+          "sku": "545461335-400-13",
+          "mpn": "545461335-400-13",
+          "color_name": "Blue",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+          "images": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED T-SHIRT - Blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461335-400-14",
+          "mpn": "545461335-400-14",
+          "color_name": "Blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/printed-t-shirt-p01716704.html?v1=545461334",
+          "images": [
+            "https://static.zara.net/assets/public/b9b5/591b/eaf34d1fbd71/86e0becbcf52/01716704400-e1/01716704400-e1.jpg?ts=1779786875309&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ddf3/44e3/f11c40628190/e180568c7a27/01716704250-e1/01716704250-e1.jpg?ts=1779791218942&w=1920",
+        "https://static.zara.net/assets/public/ae1f/a1cf/3b3b4950b9dc/bf92f18ed4d0/01716704250-e2/01716704250-e2.jpg?ts=1779791218681&w=1920",
+        "https://static.zara.net/assets/public/e259/2a9d/f8934f8e9a94/dc991a7e8648/01716704250-e3/01716704250-e3.jpg?ts=1779791219360&w=1920",
+        "https://static.zara.net/assets/public/6df7/38c4/b5834810b565/bfcd1cd2804f/01716704250-e4/01716704250-e4.jpg?ts=1779791219400&w=1920",
+        "https://static.zara.net/assets/public/b449/d792/bcb340b3975f/14db70ce1a56/01716704250-p/01716704250-p.jpg?ts=1780581686183&w=1920",
+        "https://static.zara.net/assets/public/babe/8f3e/db1f482380a3/bb74945be5e1/01716704250-a2/01716704250-a2.jpg?ts=1780581686205&w=1920",
+        "https://static.zara.net/assets/public/fd07/7fc8/1704478caea7/3ef45cc2cca6/01716704250-a3/01716704250-a3.jpg?ts=1780581686606&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Blue"
+  ],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nRound neck T-shirt with short sleeves. Front and back print.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 12,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7283d82c6c731e4e1b6e2b694e8cb9e36e3c7405dcd987678d719b03da80c152",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

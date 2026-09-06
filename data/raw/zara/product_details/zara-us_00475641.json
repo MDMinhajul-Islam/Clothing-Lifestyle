@@ -1,0 +1,188 @@
+{
+  "product_id": "zara-us:00475641",
+  "source_url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html",
+  "final_url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html",
+  "canonical_url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "OVAL PLASTIC SUNGLASSES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "OVAL PLASTIC SUNGLASSES",
+      "url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html",
+      "productGroupID": "00475641",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Oval plastic frame sunglasses.\n100% UV PROTECTION. CATEGORY 3.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/cfc1/6fc8/3dab48ffa50e/0a86a68d8744/00475641700-e1/00475641700-e1.jpg?ts=1768920451778&w=1920",
+        "https://static.zara.net/assets/public/b79b/5ad6/d2dc4db887ba/8251b216367b/00475641700-e2/00475641700-e2.jpg?ts=1768920451609&w=1920",
+        "https://static.zara.net/assets/public/9b98/e311/1d5e45d6bd29/432ba5ff9035/00475641700-e3/00475641700-e3.jpg?ts=1768920450530&w=1920",
+        "https://static.zara.net/assets/public/eb36/7d4d/b28a416f9640/c1ff38d62913/00475641700-e5/00475641700-e5.jpg?ts=1768920452902&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "OVAL PLASTIC SUNGLASSES - Brown - S (4-6 years)",
+          "sku": "545461776-700-6",
+          "mpn": "545461776-700-6",
+          "color": "Brown",
+          "size": "S (4-6 years)",
+          "image": [
+            "https://static.zara.net/assets/public/cfc1/6fc8/3dab48ffa50e/0a86a68d8744/00475641700-e1/00475641700-e1.jpg?ts=1768920451778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html?v1=545461776",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OVAL PLASTIC SUNGLASSES - Brown - M (6-9 years)",
+          "sku": "545461776-700-9",
+          "mpn": "545461776-700-9",
+          "color": "Brown",
+          "size": "M (6-9 years)",
+          "image": [
+            "https://static.zara.net/assets/public/cfc1/6fc8/3dab48ffa50e/0a86a68d8744/00475641700-e1/00475641700-e1.jpg?ts=1768920451778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html?v1=545461776",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OVAL PLASTIC SUNGLASSES - Brown - L (10-14 years)",
+          "sku": "545461776-700-14",
+          "mpn": "545461776-700-14",
+          "color": "Brown",
+          "size": "L (10-14 years)",
+          "image": [
+            "https://static.zara.net/assets/public/cfc1/6fc8/3dab48ffa50e/0a86a68d8744/00475641700-e1/00475641700-e1.jpg?ts=1768920451778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "19.9",
+            "url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html?v1=545461776",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "OVAL PLASTIC SUNGLASSES",
+      "product_group_id": "00475641",
+      "brand": "ZARA",
+      "description": "Oval plastic frame sunglasses.\n100% UV PROTECTION. CATEGORY 3.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "OVAL PLASTIC SUNGLASSES - Brown - S (4-6 years)",
+          "sku": "545461776-700-6",
+          "mpn": "545461776-700-6",
+          "color_name": "Brown",
+          "size_name": "S (4-6 years)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html?v1=545461776",
+          "images": [
+            "https://static.zara.net/assets/public/cfc1/6fc8/3dab48ffa50e/0a86a68d8744/00475641700-e1/00475641700-e1.jpg?ts=1768920451778&w=1920"
+          ]
+        },
+        {
+          "name": "OVAL PLASTIC SUNGLASSES - Brown - M (6-9 years)",
+          "sku": "545461776-700-9",
+          "mpn": "545461776-700-9",
+          "color_name": "Brown",
+          "size_name": "M (6-9 years)",
+          "price": "19.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html?v1=545461776",
+          "images": [
+            "https://static.zara.net/assets/public/cfc1/6fc8/3dab48ffa50e/0a86a68d8744/00475641700-e1/00475641700-e1.jpg?ts=1768920451778&w=1920"
+          ]
+        },
+        {
+          "name": "OVAL PLASTIC SUNGLASSES - Brown - L (10-14 years)",
+          "sku": "545461776-700-14",
+          "mpn": "545461776-700-14",
+          "color_name": "Brown",
+          "size_name": "L (10-14 years)",
+          "price": "19.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/oval-plastic-sunglasses-p00475641.html?v1=545461776",
+          "images": [
+            "https://static.zara.net/assets/public/cfc1/6fc8/3dab48ffa50e/0a86a68d8744/00475641700-e1/00475641700-e1.jpg?ts=1768920451778&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/cfc1/6fc8/3dab48ffa50e/0a86a68d8744/00475641700-e1/00475641700-e1.jpg?ts=1768920451778&w=1920",
+        "https://static.zara.net/assets/public/b79b/5ad6/d2dc4db887ba/8251b216367b/00475641700-e2/00475641700-e2.jpg?ts=1768920451609&w=1920",
+        "https://static.zara.net/assets/public/9b98/e311/1d5e45d6bd29/432ba5ff9035/00475641700-e3/00475641700-e3.jpg?ts=1768920450530&w=1920",
+        "https://static.zara.net/assets/public/eb36/7d4d/b28a416f9640/c1ff38d62913/00475641700-e5/00475641700-e5.jpg?ts=1768920452902&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "19.90",
+  "rendered_description": "Description\nOval plastic frame sunglasses.\n100% UV PROTECTION. CATEGORY 3.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "19.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "19.90",
+    "dom_price": "19.90",
+    "normalized_price": "19.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e2a768d4a82e7186de5093cb1d95b8cb126f47ec4d3a68fea5116185446bb030",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

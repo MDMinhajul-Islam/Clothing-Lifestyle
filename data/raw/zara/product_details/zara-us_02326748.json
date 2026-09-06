@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:02326748",
+  "source_url": "https://www.zara.com/us/en/cut-out-bow-elastic-and-clip-p02326748.html",
+  "final_url": "https://www.zara.com/us/en/cut-out-bow-elastic-and-clip-p02326748.html",
+  "canonical_url": "https://www.zara.com/us/en/cut-out-bow-elastic-and-clip-p02326748.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CUT-OUT BOW ELASTIC AND CLIP",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CUT-OUT BOW ELASTIC AND CLIP",
+      "url": "https://www.zara.com/us/en/cut-out-bow-elastic-and-clip-p02326748.html",
+      "productGroupID": "02326748",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Elastic hair tie with a cut-out bow appliqué and a barrette-style clip. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5e27/12a4/51944e15bfa5/a45511989bfc/02326748250-e1/02326748250-e1.jpg?ts=1779110442038&w=1920",
+        "https://static.zara.net/assets/public/a808/9b47/6d6143639187/6f31828f79a3/02326748250-e2/02326748250-e2.jpg?ts=1779110440599&w=1920",
+        "https://static.zara.net/assets/public/5a45/1f95/a1454ccea71d/ab9adc71b9f2/02326748250-e3/02326748250-e3.jpg?ts=1779110440850&w=1920",
+        "https://static.zara.net/assets/public/b8ea/5d67/1a0a4404995c/c7df3b47045d/02326748250-e4/02326748250-e4.jpg?ts=1779110439358&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CUT-OUT BOW ELASTIC AND CLIP - White - 14",
+          "sku": "545479779-250-14",
+          "mpn": "545479779-250-14",
+          "color": "White",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/5e27/12a4/51944e15bfa5/a45511989bfc/02326748250-e1/02326748250-e1.jpg?ts=1779110442038&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/cut-out-bow-elastic-and-clip-p02326748.html?v1=545479779",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CUT-OUT BOW ELASTIC AND CLIP",
+      "product_group_id": "02326748",
+      "brand": "ZARA",
+      "description": "Elastic hair tie with a cut-out bow appliqué and a barrette-style clip. Contains small parts, not recommended for children under 3 years old.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CUT-OUT BOW ELASTIC AND CLIP - White - 14",
+          "sku": "545479779-250-14",
+          "mpn": "545479779-250-14",
+          "color_name": "White",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cut-out-bow-elastic-and-clip-p02326748.html?v1=545479779",
+          "images": [
+            "https://static.zara.net/assets/public/5e27/12a4/51944e15bfa5/a45511989bfc/02326748250-e1/02326748250-e1.jpg?ts=1779110442038&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5e27/12a4/51944e15bfa5/a45511989bfc/02326748250-e1/02326748250-e1.jpg?ts=1779110442038&w=1920",
+        "https://static.zara.net/assets/public/a808/9b47/6d6143639187/6f31828f79a3/02326748250-e2/02326748250-e2.jpg?ts=1779110440599&w=1920",
+        "https://static.zara.net/assets/public/5a45/1f95/a1454ccea71d/ab9adc71b9f2/02326748250-e3/02326748250-e3.jpg?ts=1779110440850&w=1920",
+        "https://static.zara.net/assets/public/b8ea/5d67/1a0a4404995c/c7df3b47045d/02326748250-e4/02326748250-e4.jpg?ts=1779110439358&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nElastic hair tie with a cut-out bow appliqué and a barrette-style clip. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "865d8cf08729697aa4bbd03ebb5341bb8b951c3ec8c6bae004a198545d7c2627",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

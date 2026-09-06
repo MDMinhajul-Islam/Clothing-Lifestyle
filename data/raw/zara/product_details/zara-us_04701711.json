@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:04701711",
+  "source_url": "https://www.zara.com/us/en/gingham-bow-headband-p04701711.html",
+  "final_url": "https://www.zara.com/us/en/gingham-bow-headband-p04701711.html",
+  "canonical_url": "https://www.zara.com/us/en/gingham-bow-headband-p04701711.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GINGHAM BOW HEADBAND",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GINGHAM BOW HEADBAND",
+      "url": "https://www.zara.com/us/en/gingham-bow-headband-p04701711.html",
+      "productGroupID": "04701711",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Headband with bow appliqué. Gingham print.\nContains small parts; not recommended for children under 3 years of age.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/586b/72bd/ca4e4f4cb3d2/5e3150796a7e/04701711710-e1/04701711710-e1.jpg?ts=1788512446183&w=1920",
+        "https://static.zara.net/assets/public/3d7c/999f/eea443beadab/dc2195b101a4/04701711710-e2/04701711710-e2.jpg?ts=1788512446441&w=1920",
+        "https://static.zara.net/assets/public/96f4/c472/02a14cceba2e/05d678c69cb4/04701711710-e3/04701711710-e3.jpg?ts=1788512446852&w=1920",
+        "https://static.zara.net/assets/public/a27c/42e3/959543b4b6df/e9cc8d475bd8/04701711710-e5/04701711710-e5.jpg?ts=1788512446816&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GINGHAM BOW HEADBAND - Beige - 14",
+          "sku": "561615305-710-14",
+          "mpn": "561615305-710-14",
+          "color": "Beige",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/586b/72bd/ca4e4f4cb3d2/5e3150796a7e/04701711710-e1/04701711710-e1.jpg?ts=1788512446183&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/gingham-bow-headband-p04701711.html?v1=561615305",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GINGHAM BOW HEADBAND",
+      "product_group_id": "04701711",
+      "brand": "ZARA",
+      "description": "Headband with bow appliqué. Gingham print.\nContains small parts; not recommended for children under 3 years of age.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GINGHAM BOW HEADBAND - Beige - 14",
+          "sku": "561615305-710-14",
+          "mpn": "561615305-710-14",
+          "color_name": "Beige",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/gingham-bow-headband-p04701711.html?v1=561615305",
+          "images": [
+            "https://static.zara.net/assets/public/586b/72bd/ca4e4f4cb3d2/5e3150796a7e/04701711710-e1/04701711710-e1.jpg?ts=1788512446183&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/586b/72bd/ca4e4f4cb3d2/5e3150796a7e/04701711710-e1/04701711710-e1.jpg?ts=1788512446183&w=1920",
+        "https://static.zara.net/assets/public/3d7c/999f/eea443beadab/dc2195b101a4/04701711710-e2/04701711710-e2.jpg?ts=1788512446441&w=1920",
+        "https://static.zara.net/assets/public/96f4/c472/02a14cceba2e/05d678c69cb4/04701711710-e3/04701711710-e3.jpg?ts=1788512446852&w=1920",
+        "https://static.zara.net/assets/public/a27c/42e3/959543b4b6df/e9cc8d475bd8/04701711710-e5/04701711710-e5.jpg?ts=1788512446816&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nHeadband with bow appliqué. Gingham print.\nContains small parts; not recommended for children under 3 years of age.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c294d4b3bc6104279605f047a6f4e53d9f0d7d6e34c0d0bb7e6bcf0bfc0f74fb",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

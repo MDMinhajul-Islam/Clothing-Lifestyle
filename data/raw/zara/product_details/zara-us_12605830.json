@@ -1,0 +1,469 @@
+{
+  "product_id": "zara-us:12605830",
+  "source_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html",
+  "final_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html",
+  "canonical_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TECHNICAL SANDALS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TECHNICAL SANDALS",
+      "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html",
+      "productGroupID": "12605830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Technical style sandals with a contrasting color design. Adjustable hook-and-loop straps at the front, instep, and ankle. Features a rubber sole.\n\nSIZE 40: shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920",
+        "https://static.zara.net/assets/public/56f4/fd15/ce88474ca708/d3564c8655a8/12605830203-e2/12605830203-e2.jpg?ts=1777542062469&w=1920",
+        "https://static.zara.net/assets/public/38bf/f2f4/ecba4b57a0df/f6c2f312f887/12605830203-e3/12605830203-e3.jpg?ts=1777542061917&w=1920",
+        "https://static.zara.net/assets/public/3ef6/99ce/a31049f5a718/99760c73f59f/12605830203-e4/12605830203-e4.jpg?ts=1777542062221&w=1920",
+        "https://static.zara.net/assets/public/ebaf/2294/21e345c99ca5/cee108e1247b/12605830203-e5/12605830203-e5.jpg?ts=1777542062240&w=1920",
+        "https://static.zara.net/assets/public/3e5f/2b4e/76f147a4baac/4493a4f2ad2c/12605830203-e6/12605830203-e6.jpg?ts=1777542062784&w=1920",
+        "https://static.zara.net/assets/public/8c4d/9bbc/83164aff93d1/b2364fc00fd2/12605830203-e7/12605830203-e7.jpg?ts=1777542062590&w=1920"
+      ],
+      "material": "polyester/polypropylene/rubber",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "90% polyester, 5% polypropylene, 5% rubber"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% ethylene vinyl acetate"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 12½ (7.4 INCHES)",
+          "sku": "545404903-203-30",
+          "mpn": "545404903-203-30",
+          "color": "Multi-color",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 13½ (7.7 INCHES)",
+          "sku": "545404903-203-31",
+          "mpn": "545404903-203-31",
+          "color": "Multi-color",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 1 (8.0 INCHES)",
+          "sku": "545404903-203-32",
+          "mpn": "545404903-203-32",
+          "color": "Multi-color",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 2 (8.2 INCHES)",
+          "sku": "545404903-203-33",
+          "mpn": "545404903-203-33",
+          "color": "Multi-color",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 2½ (8.5 INCHES)",
+          "sku": "545404903-203-34",
+          "mpn": "545404903-203-34",
+          "color": "Multi-color",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 3½ (8.8 INCHES)",
+          "sku": "545404903-203-35",
+          "mpn": "545404903-203-35",
+          "color": "Multi-color",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 4 (9.0 INCHES)",
+          "sku": "545404903-203-36",
+          "mpn": "545404903-203-36",
+          "color": "Multi-color",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 5 (9.3 INCHES)",
+          "sku": "545404903-203-37",
+          "mpn": "545404903-203-37",
+          "color": "Multi-color",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 5½ (9.5 INCHES)",
+          "sku": "545404903-203-38",
+          "mpn": "545404903-203-38",
+          "color": "Multi-color",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 6 (9.8 INCHES)",
+          "sku": "545404903-203-39",
+          "mpn": "545404903-203-39",
+          "color": "Multi-color",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "TECHNICAL SANDALS - Multi-color - 7 (10.0 INCHES)",
+          "sku": "545404903-203-40",
+          "mpn": "545404903-203-40",
+          "color": "Multi-color",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.99",
+            "url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TECHNICAL SANDALS",
+      "product_group_id": "12605830",
+      "brand": "ZARA",
+      "description": "Technical style sandals with a contrasting color design. Adjustable hook-and-loop straps at the front, instep, and ankle. Features a rubber sole.\n\nSIZE 40: shoes available in size 40.",
+      "material": "polyester/polypropylene/rubber",
+      "composition": "UPPER: 90% polyester, 5% polypropylene, 5% rubber | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% ethylene vinyl acetate",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 12½ (7.4 INCHES)",
+          "sku": "545404903-203-30",
+          "mpn": "545404903-203-30",
+          "color_name": "Multi-color",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 13½ (7.7 INCHES)",
+          "sku": "545404903-203-31",
+          "mpn": "545404903-203-31",
+          "color_name": "Multi-color",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 1 (8.0 INCHES)",
+          "sku": "545404903-203-32",
+          "mpn": "545404903-203-32",
+          "color_name": "Multi-color",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 2 (8.2 INCHES)",
+          "sku": "545404903-203-33",
+          "mpn": "545404903-203-33",
+          "color_name": "Multi-color",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 2½ (8.5 INCHES)",
+          "sku": "545404903-203-34",
+          "mpn": "545404903-203-34",
+          "color_name": "Multi-color",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 3½ (8.8 INCHES)",
+          "sku": "545404903-203-35",
+          "mpn": "545404903-203-35",
+          "color_name": "Multi-color",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 4 (9.0 INCHES)",
+          "sku": "545404903-203-36",
+          "mpn": "545404903-203-36",
+          "color_name": "Multi-color",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 5 (9.3 INCHES)",
+          "sku": "545404903-203-37",
+          "mpn": "545404903-203-37",
+          "color_name": "Multi-color",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 5½ (9.5 INCHES)",
+          "sku": "545404903-203-38",
+          "mpn": "545404903-203-38",
+          "color_name": "Multi-color",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 6 (9.8 INCHES)",
+          "sku": "545404903-203-39",
+          "mpn": "545404903-203-39",
+          "color_name": "Multi-color",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        },
+        {
+          "name": "TECHNICAL SANDALS - Multi-color - 7 (10.0 INCHES)",
+          "sku": "545404903-203-40",
+          "mpn": "545404903-203-40",
+          "color_name": "Multi-color",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "29.99",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/technical-sandals-p12605830.html?v1=545404903",
+          "images": [
+            "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/04b3/b54e/49004eb6820a/80c12c07f8c5/12605830203-e1/12605830203-e1.jpg?ts=1777542061868&w=1920",
+        "https://static.zara.net/assets/public/56f4/fd15/ce88474ca708/d3564c8655a8/12605830203-e2/12605830203-e2.jpg?ts=1777542062469&w=1920",
+        "https://static.zara.net/assets/public/38bf/f2f4/ecba4b57a0df/f6c2f312f887/12605830203-e3/12605830203-e3.jpg?ts=1777542061917&w=1920",
+        "https://static.zara.net/assets/public/3ef6/99ce/a31049f5a718/99760c73f59f/12605830203-e4/12605830203-e4.jpg?ts=1777542062221&w=1920",
+        "https://static.zara.net/assets/public/ebaf/2294/21e345c99ca5/cee108e1247b/12605830203-e5/12605830203-e5.jpg?ts=1777542062240&w=1920",
+        "https://static.zara.net/assets/public/3e5f/2b4e/76f147a4baac/4493a4f2ad2c/12605830203-e6/12605830203-e6.jpg?ts=1777542062784&w=1920",
+        "https://static.zara.net/assets/public/8c4d/9bbc/83164aff93d1/b2364fc00fd2/12605830203-e7/12605830203-e7.jpg?ts=1777542062590&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nTechnical style sandals with a contrasting color design. Adjustable hook-and-loop straps at the front, instep, and ankle. Features a rubber sole.\nSIZE 40: shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.99",
+    "original_price": "49.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "29.99",
+    "dom_price": "49.90",
+    "normalized_price": "29.99",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '29.99' != DOM price '49.90'"
+  },
+  "source_content_hash": "2b3bb677f551f3777547ec8f190d141db0b7015056311d363a79a290b9d312af",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

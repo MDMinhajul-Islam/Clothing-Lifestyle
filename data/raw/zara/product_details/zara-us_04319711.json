@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04319711",
+  "source_url": "https://www.zara.com/us/en/heart-pendant-necklace-p04319711.html",
+  "final_url": "https://www.zara.com/us/en/heart-pendant-necklace-p04319711.html",
+  "canonical_url": "https://www.zara.com/us/en/heart-pendant-necklace-p04319711.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "HEART PENDANT NECKLACE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "HEART PENDANT NECKLACE",
+      "url": "https://www.zara.com/us/en/heart-pendant-necklace-p04319711.html",
+      "productGroupID": "04319711",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Necklace with adjustable back closure. Heart pendant at the front. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5bf2/286e/daa24f7291cb/472100510ec1/04319711303-e1/04319711303-e1.jpg?ts=1784538600136&w=1920",
+        "https://static.zara.net/assets/public/ea0c/2768/09e54dc685de/6ff62bbb1300/04319711303-e2/04319711303-e2.jpg?ts=1784538603764&w=1920",
+        "https://static.zara.net/assets/public/59e0/5a6b/7f384afd8cae/4bf2103f27d0/04319711303-e3/04319711303-e3.jpg?ts=1784538600233&w=1920",
+        "https://static.zara.net/assets/public/8beb/f862/63b74304b1ff/15d50335b8ab/04319711303-e5/04319711303-e5.jpg?ts=1784538598826&w=1920"
+      ],
+      "material": "brass/iron/resin",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "71% brass, 24% iron, 5% resin"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "HEART PENDANT NECKLACE - Golden - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "554787121-303-14",
+          "mpn": "554787121-303-14",
+          "color": "Golden",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/5bf2/286e/daa24f7291cb/472100510ec1/04319711303-e1/04319711303-e1.jpg?ts=1784538600136&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/heart-pendant-necklace-p04319711.html?v1=554787121",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "HEART PENDANT NECKLACE",
+      "product_group_id": "04319711",
+      "brand": "ZARA",
+      "description": "Necklace with adjustable back closure. Heart pendant at the front. Contains small parts, not recommended for children under 3 years old.",
+      "material": "brass/iron/resin",
+      "composition": "OUTER SHELL: 71% brass, 24% iron, 5% resin",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "HEART PENDANT NECKLACE - Golden - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "554787121-303-14",
+          "mpn": "554787121-303-14",
+          "color_name": "Golden",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/heart-pendant-necklace-p04319711.html?v1=554787121",
+          "images": [
+            "https://static.zara.net/assets/public/5bf2/286e/daa24f7291cb/472100510ec1/04319711303-e1/04319711303-e1.jpg?ts=1784538600136&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5bf2/286e/daa24f7291cb/472100510ec1/04319711303-e1/04319711303-e1.jpg?ts=1784538600136&w=1920",
+        "https://static.zara.net/assets/public/ea0c/2768/09e54dc685de/6ff62bbb1300/04319711303-e2/04319711303-e2.jpg?ts=1784538603764&w=1920",
+        "https://static.zara.net/assets/public/59e0/5a6b/7f384afd8cae/4bf2103f27d0/04319711303-e3/04319711303-e3.jpg?ts=1784538600233&w=1920",
+        "https://static.zara.net/assets/public/8beb/f862/63b74304b1ff/15d50335b8ab/04319711303-e5/04319711303-e5.jpg?ts=1784538598826&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nNecklace with adjustable back closure. Heart pendant at the front. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "09a7909206c4b9cbd77a2351913c52e687c2dac89374a0bb3a6983770450077a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

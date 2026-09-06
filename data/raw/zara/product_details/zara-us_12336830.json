@@ -1,0 +1,476 @@
+{
+  "product_id": "zara-us:12336830",
+  "source_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html",
+  "final_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html",
+  "canonical_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MESH SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MESH SNEAKERS",
+      "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html",
+      "productGroupID": "12336830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Technical sneakers featuring a combination of materials and contrasting color details. Elastic lace-up closure with a back pull tab for easy wear. Finished with a chunky rubber sole. SIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920",
+        "https://static.zara.net/assets/public/4ccc/1717/b11445578b0e/1e604e229486/12336830624-e2/12336830624-e2.jpg?ts=1783346402975&w=1920",
+        "https://static.zara.net/assets/public/26fa/a700/d36544e5838b/09ece3bc4a1d/12336830624-e3/12336830624-e3.jpg?ts=1783346402734&w=1920",
+        "https://static.zara.net/assets/public/ed5f/ce93/205e44cd9bcc/73e4485c895b/12336830624-e4/12336830624-e4.jpg?ts=1783346403739&w=1920",
+        "https://static.zara.net/assets/public/2ec7/be33/34a94fe7b1da/4b8787d763d6/12336830624-e5/12336830624-e5.jpg?ts=1783346408584&w=1920",
+        "https://static.zara.net/assets/public/c27e/1706/1bca41d788ca/dfdede57ab5b/12336830624-e6/12336830624-e6.jpg?ts=1783346403302&w=1920",
+        "https://static.zara.net/assets/public/3220/6d4d/2e9e470db0b8/8cef5881e982/12336830624-e7/12336830624-e7.jpg?ts=1783346403203&w=1920"
+      ],
+      "material": "polyurethane/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "60% polyurethane, 40% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "58% polyester, 42% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 12½ (7.4 INCHES)",
+          "sku": "545465744-624-30",
+          "mpn": "545465744-624-30",
+          "color": "Burgundy Red",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 13½ (7.7 INCHES)",
+          "sku": "545465744-624-31",
+          "mpn": "545465744-624-31",
+          "color": "Burgundy Red",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 1 (8.0 INCHES)",
+          "sku": "545465744-624-32",
+          "mpn": "545465744-624-32",
+          "color": "Burgundy Red",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 2 (8.2 INCHES)",
+          "sku": "545465744-624-33",
+          "mpn": "545465744-624-33",
+          "color": "Burgundy Red",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 2½ (8.5 INCHES)",
+          "sku": "545465744-624-34",
+          "mpn": "545465744-624-34",
+          "color": "Burgundy Red",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 3½ (8.8 INCHES)",
+          "sku": "545465744-624-35",
+          "mpn": "545465744-624-35",
+          "color": "Burgundy Red",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 4 (9.0 INCHES)",
+          "sku": "545465744-624-36",
+          "mpn": "545465744-624-36",
+          "color": "Burgundy Red",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 5 (9.3 INCHES)",
+          "sku": "545465744-624-37",
+          "mpn": "545465744-624-37",
+          "color": "Burgundy Red",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 5½ (9.5 INCHES)",
+          "sku": "545465744-624-38",
+          "mpn": "545465744-624-38",
+          "color": "Burgundy Red",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 6 (9.8 INCHES)",
+          "sku": "545465744-624-39",
+          "mpn": "545465744-624-39",
+          "color": "Burgundy Red",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MESH SNEAKERS - Burgundy Red - 7 (10.0 INCHES)",
+          "sku": "545465744-624-40",
+          "mpn": "545465744-624-40",
+          "color": "Burgundy Red",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MESH SNEAKERS",
+      "product_group_id": "12336830",
+      "brand": "ZARA",
+      "description": "Technical sneakers featuring a combination of materials and contrasting color details. Elastic lace-up closure with a back pull tab for easy wear. Finished with a chunky rubber sole. SIZE 40: Shoes available in size 40.",
+      "material": "polyurethane/polyester",
+      "composition": "UPPER: 60% polyurethane, 40% polyester | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 58% polyester, 42% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 12½ (7.4 INCHES)",
+          "sku": "545465744-624-30",
+          "mpn": "545465744-624-30",
+          "color_name": "Burgundy Red",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 13½ (7.7 INCHES)",
+          "sku": "545465744-624-31",
+          "mpn": "545465744-624-31",
+          "color_name": "Burgundy Red",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 1 (8.0 INCHES)",
+          "sku": "545465744-624-32",
+          "mpn": "545465744-624-32",
+          "color_name": "Burgundy Red",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 2 (8.2 INCHES)",
+          "sku": "545465744-624-33",
+          "mpn": "545465744-624-33",
+          "color_name": "Burgundy Red",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 2½ (8.5 INCHES)",
+          "sku": "545465744-624-34",
+          "mpn": "545465744-624-34",
+          "color_name": "Burgundy Red",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 3½ (8.8 INCHES)",
+          "sku": "545465744-624-35",
+          "mpn": "545465744-624-35",
+          "color_name": "Burgundy Red",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 4 (9.0 INCHES)",
+          "sku": "545465744-624-36",
+          "mpn": "545465744-624-36",
+          "color_name": "Burgundy Red",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 5 (9.3 INCHES)",
+          "sku": "545465744-624-37",
+          "mpn": "545465744-624-37",
+          "color_name": "Burgundy Red",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 5½ (9.5 INCHES)",
+          "sku": "545465744-624-38",
+          "mpn": "545465744-624-38",
+          "color_name": "Burgundy Red",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 6 (9.8 INCHES)",
+          "sku": "545465744-624-39",
+          "mpn": "545465744-624-39",
+          "color_name": "Burgundy Red",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        },
+        {
+          "name": "MESH SNEAKERS - Burgundy Red - 7 (10.0 INCHES)",
+          "sku": "545465744-624-40",
+          "mpn": "545465744-624-40",
+          "color_name": "Burgundy Red",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mesh-sneakers-p12336830.html?v1=545465744",
+          "images": [
+            "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c276/f3b5/a79d447aadae/98f9433b7268/12336830624-e1/12336830624-e1.jpg?ts=1783346403589&w=1920",
+        "https://static.zara.net/assets/public/4ccc/1717/b11445578b0e/1e604e229486/12336830624-e2/12336830624-e2.jpg?ts=1783346402975&w=1920",
+        "https://static.zara.net/assets/public/26fa/a700/d36544e5838b/09ece3bc4a1d/12336830624-e3/12336830624-e3.jpg?ts=1783346402734&w=1920",
+        "https://static.zara.net/assets/public/ed5f/ce93/205e44cd9bcc/73e4485c895b/12336830624-e4/12336830624-e4.jpg?ts=1783346403739&w=1920",
+        "https://static.zara.net/assets/public/2ec7/be33/34a94fe7b1da/4b8787d763d6/12336830624-e5/12336830624-e5.jpg?ts=1783346408584&w=1920",
+        "https://static.zara.net/assets/public/c27e/1706/1bca41d788ca/dfdede57ab5b/12336830624-e6/12336830624-e6.jpg?ts=1783346403302&w=1920",
+        "https://static.zara.net/assets/public/3220/6d4d/2e9e470db0b8/8cef5881e982/12336830624-e7/12336830624-e7.jpg?ts=1783346403203&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nTechnical sneakers featuring a combination of materials and contrasting color details. Elastic lace-up closure with a back pull tab for easy wear. Finished with a chunky rubber sole. SIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4f835d1371fd1233884d9660223cb728d69a2ccce4ecd19241ab75a206f4bfc4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

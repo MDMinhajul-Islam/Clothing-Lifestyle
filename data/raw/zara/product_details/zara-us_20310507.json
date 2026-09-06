@@ -1,0 +1,115 @@
+{
+  "product_id": "zara-us:20310507",
+  "source_url": "https://www.zara.com/us/en/tiz-edt-50-ml--1-7-fl--oz--p20310507.html",
+  "final_url": "https://www.zara.com/us/en/tiz-edt-50-ml--1-7-fl--oz--p20310507.html",
+  "canonical_url": "https://www.zara.com/us/en/tiz-edt-50-ml--1-7-fl--oz--p20310507.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TIZ EDT 50 ML (1.7 FL. OZ)",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TIZ EDT 50 ML (1.7 FL. OZ)",
+      "url": "https://www.zara.com/us/en/tiz-edt-50-ml--1-7-fl--oz--p20310507.html",
+      "productGroupID": "20310507",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Fruity floral eau de toilette. A perfume inspired by the coquette aesthetic. Tiz is a fairy that combines notes of soft violet, juicy peach, and delicate musk. A fragrance that invites you to imagine a world where anything is possible.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/43ec/e57c/58d44dd28c67/d391401d2e4c/20310507999-000-e1/20310507999-000-e1.jpg?ts=1774456159667&w=1920",
+        "https://static.zara.net/assets/public/c30b/3a3d/90b14c0fab7e/581153cb430c/20310507999-e2/20310507999-e2.jpg?ts=1774001421456&w=1920",
+        "https://static.zara.net/assets/public/6555/df78/a1c749f5b356/f7b2eb259760/20310507999-e3/20310507999-e3.jpg?ts=1774001416374&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TIZ EDT 50 ML (1.7 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545421953-999-99",
+          "mpn": "545421953-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/43ec/e57c/58d44dd28c67/d391401d2e4c/20310507999-000-e1/20310507999-000-e1.jpg?ts=1774456159667&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "15.9",
+            "url": "https://www.zara.com/us/en/tiz-edt-50-ml--1-7-fl--oz--p20310507.html?v1=545421953",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TIZ EDT 50 ML (1.7 FL. OZ)",
+      "product_group_id": "20310507",
+      "brand": "ZARA",
+      "description": "Fruity floral eau de toilette. A perfume inspired by the coquette aesthetic. Tiz is a fairy that combines notes of soft violet, juicy peach, and delicate musk. A fragrance that invites you to imagine a world where anything is possible.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TIZ EDT 50 ML (1.7 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545421953-999-99",
+          "mpn": "545421953-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "15.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/tiz-edt-50-ml--1-7-fl--oz--p20310507.html?v1=545421953",
+          "images": [
+            "https://static.zara.net/assets/public/43ec/e57c/58d44dd28c67/d391401d2e4c/20310507999-000-e1/20310507999-000-e1.jpg?ts=1774456159667&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/43ec/e57c/58d44dd28c67/d391401d2e4c/20310507999-000-e1/20310507999-000-e1.jpg?ts=1774456159667&w=1920",
+        "https://static.zara.net/assets/public/c30b/3a3d/90b14c0fab7e/581153cb430c/20310507999-e2/20310507999-e2.jpg?ts=1774001421456&w=1920",
+        "https://static.zara.net/assets/public/6555/df78/a1c749f5b356/f7b2eb259760/20310507999-e3/20310507999-e3.jpg?ts=1774001416374&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "15.90",
+  "rendered_description": "Description\nFruity floral eau de toilette. A perfume inspired by the coquette aesthetic. Tiz is a fairy that combines notes of soft violet, juicy peach, and delicate musk. A fragrance that invites you to imagine a world where anything is possible.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "15.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "15.90",
+    "dom_price": "15.90",
+    "normalized_price": "15.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c4fe786afe9ae6e467d650ac5da4d8664c24e1fab5c0d50eb448061ddc89f17a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

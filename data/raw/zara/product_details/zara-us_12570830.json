@@ -1,0 +1,574 @@
+{
+  "product_id": "zara-us:12570830",
+  "source_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html",
+  "final_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html",
+  "canonical_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LEATHER LACE-UP BLUCHERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LEATHER LACE-UP BLUCHERS",
+      "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html",
+      "productGroupID": "12570830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Leather blucher shoes with a smooth finish. Feature lace-up fastening and rubber soles. LEATHER: This product is crafted from premium materials. Any potential marks or color variations are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920",
+        "https://static.zara.net/assets/public/19b6/45f2/c17b4230b500/5405e6d083ef/12570830001-e2/12570830001-e2.jpg?ts=1785489109298&w=1920",
+        "https://static.zara.net/assets/public/9ca1/017b/cbe7481485f9/3fd5e8468290/12570830001-e3/12570830001-e3.jpg?ts=1785496796833&w=1920",
+        "https://static.zara.net/assets/public/d3cf/1e03/bf5b4dcc830b/12c31250ef1f/12570830001-e4/12570830001-e4.jpg?ts=1785496797745&w=1920",
+        "https://static.zara.net/assets/public/0424/2439/fb8e4f57b266/3ad15753122f/12570830001-e5/12570830001-e5.jpg?ts=1785496801256&w=1920",
+        "https://static.zara.net/assets/public/ff61/cde8/545349f78420/b4b85e7e9021/12570830001-e6/12570830001-e6.jpg?ts=1785496797975&w=1920",
+        "https://static.zara.net/assets/public/809f/876e/77614e2ab01d/f505679158df/12570830001-e7/12570830001-e7.jpg?ts=1785496797338&w=1920"
+      ],
+      "material": "100% sheep leather",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% sheep leather"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% sheep leather"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - White - 2½ (8.5 INCHES)",
+          "sku": "549809552-001-34",
+          "mpn": "549809552-001-34",
+          "color": "White",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - White - 3½ (8.8 INCHES)",
+          "sku": "549809552-001-35",
+          "mpn": "549809552-001-35",
+          "color": "White",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - White - 4 (9.0 INCHES)",
+          "sku": "549809552-001-36",
+          "mpn": "549809552-001-36",
+          "color": "White",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - White - 5 (9.3 INCHES)",
+          "sku": "549809552-001-37",
+          "mpn": "549809552-001-37",
+          "color": "White",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - White - 5½ (9.5 INCHES)",
+          "sku": "549809552-001-38",
+          "mpn": "549809552-001-38",
+          "color": "White",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - White - 6 (9.8 INCHES)",
+          "sku": "549809552-001-39",
+          "mpn": "549809552-001-39",
+          "color": "White",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - White - 7 (10.0 INCHES)",
+          "sku": "549809552-001-40",
+          "mpn": "549809552-001-40",
+          "color": "White",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 2½ (8.5 INCHES)",
+          "sku": "549809552-600-34",
+          "mpn": "549809552-600-34",
+          "color": "Red",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 3½ (8.8 INCHES)",
+          "sku": "549809552-600-35",
+          "mpn": "549809552-600-35",
+          "color": "Red",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 4 (9.0 INCHES)",
+          "sku": "549809552-600-36",
+          "mpn": "549809552-600-36",
+          "color": "Red",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 5 (9.3 INCHES)",
+          "sku": "549809552-600-37",
+          "mpn": "549809552-600-37",
+          "color": "Red",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 5½ (9.5 INCHES)",
+          "sku": "549809552-600-38",
+          "mpn": "549809552-600-38",
+          "color": "Red",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 6 (9.8 INCHES)",
+          "sku": "549809552-600-39",
+          "mpn": "549809552-600-39",
+          "color": "Red",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 7 (10.0 INCHES)",
+          "sku": "549809552-600-40",
+          "mpn": "549809552-600-40",
+          "color": "Red",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "65.9",
+            "url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LEATHER LACE-UP BLUCHERS",
+      "product_group_id": "12570830",
+      "brand": "ZARA",
+      "description": "Leather blucher shoes with a smooth finish. Feature lace-up fastening and rubber soles. LEATHER: This product is crafted from premium materials. Any potential marks or color variations are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+      "material": "100% sheep leather",
+      "composition": "UPPER: 100% sheep leather | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyurethane | TONGUE: 100% sheep leather",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - White - 2½ (8.5 INCHES)",
+          "sku": "549809552-001-34",
+          "mpn": "549809552-001-34",
+          "color_name": "White",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+          "images": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - White - 3½ (8.8 INCHES)",
+          "sku": "549809552-001-35",
+          "mpn": "549809552-001-35",
+          "color_name": "White",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+          "images": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - White - 4 (9.0 INCHES)",
+          "sku": "549809552-001-36",
+          "mpn": "549809552-001-36",
+          "color_name": "White",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+          "images": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - White - 5 (9.3 INCHES)",
+          "sku": "549809552-001-37",
+          "mpn": "549809552-001-37",
+          "color_name": "White",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+          "images": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - White - 5½ (9.5 INCHES)",
+          "sku": "549809552-001-38",
+          "mpn": "549809552-001-38",
+          "color_name": "White",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+          "images": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - White - 6 (9.8 INCHES)",
+          "sku": "549809552-001-39",
+          "mpn": "549809552-001-39",
+          "color_name": "White",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+          "images": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - White - 7 (10.0 INCHES)",
+          "sku": "549809552-001-40",
+          "mpn": "549809552-001-40",
+          "color_name": "White",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809552",
+          "images": [
+            "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 2½ (8.5 INCHES)",
+          "sku": "549809552-600-34",
+          "mpn": "549809552-600-34",
+          "color_name": "Red",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+          "images": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 3½ (8.8 INCHES)",
+          "sku": "549809552-600-35",
+          "mpn": "549809552-600-35",
+          "color_name": "Red",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+          "images": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 4 (9.0 INCHES)",
+          "sku": "549809552-600-36",
+          "mpn": "549809552-600-36",
+          "color_name": "Red",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+          "images": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 5 (9.3 INCHES)",
+          "sku": "549809552-600-37",
+          "mpn": "549809552-600-37",
+          "color_name": "Red",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+          "images": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 5½ (9.5 INCHES)",
+          "sku": "549809552-600-38",
+          "mpn": "549809552-600-38",
+          "color_name": "Red",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+          "images": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 6 (9.8 INCHES)",
+          "sku": "549809552-600-39",
+          "mpn": "549809552-600-39",
+          "color_name": "Red",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+          "images": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ]
+        },
+        {
+          "name": "LEATHER LACE-UP BLUCHERS - Red - 7 (10.0 INCHES)",
+          "sku": "549809552-600-40",
+          "mpn": "549809552-600-40",
+          "color_name": "Red",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "65.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/leather-lace-up-bluchers-p12570830.html?v1=549809553",
+          "images": [
+            "https://static.zara.net/assets/public/94fa/0bca/28a04a98b0d8/0f122f20a3e4/12570830600-e1/12570830600-e1.jpg?ts=1785489109694&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0146/b0b8/4e0846a28d4d/f1ecc4badcdd/12570830001-e1/12570830001-e1.jpg?ts=1785489109442&w=1920",
+        "https://static.zara.net/assets/public/19b6/45f2/c17b4230b500/5405e6d083ef/12570830001-e2/12570830001-e2.jpg?ts=1785489109298&w=1920",
+        "https://static.zara.net/assets/public/9ca1/017b/cbe7481485f9/3fd5e8468290/12570830001-e3/12570830001-e3.jpg?ts=1785496796833&w=1920",
+        "https://static.zara.net/assets/public/d3cf/1e03/bf5b4dcc830b/12c31250ef1f/12570830001-e4/12570830001-e4.jpg?ts=1785496797745&w=1920",
+        "https://static.zara.net/assets/public/0424/2439/fb8e4f57b266/3ad15753122f/12570830001-e5/12570830001-e5.jpg?ts=1785496801256&w=1920",
+        "https://static.zara.net/assets/public/ff61/cde8/545349f78420/b4b85e7e9021/12570830001-e6/12570830001-e6.jpg?ts=1785496797975&w=1920",
+        "https://static.zara.net/assets/public/809f/876e/77614e2ab01d/f505679158df/12570830001-e7/12570830001-e7.jpg?ts=1785496797338&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "White",
+    "Red"
+  ],
+  "rendered_price": "65.90",
+  "rendered_description": "Description\nLeather blucher shoes with a smooth finish. Feature lace-up fastening and rubber soles. LEATHER: This product is crafted from premium materials. Any potential marks or color variations are characteristics that confirm the authenticity of the leather. SIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 14,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "65.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "65.90",
+    "dom_price": "65.90",
+    "normalized_price": "65.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "16bcd81494d5b339541a193c810f4c79ddab7c41996bbf57e27041493ec1cf6e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04319706",
+  "source_url": "https://www.zara.com/us/en/bear-and-dog-clip-pack-p04319706.html",
+  "final_url": "https://www.zara.com/us/en/bear-and-dog-clip-pack-p04319706.html",
+  "canonical_url": "https://www.zara.com/us/en/bear-and-dog-clip-pack-p04319706.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BEAR AND DOG CLIP PACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BEAR AND DOG CLIP PACK",
+      "url": "https://www.zara.com/us/en/bear-and-dog-clip-pack-p04319706.html",
+      "productGroupID": "04319706",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of two hair clips featuring bear and dog designs. Includes small parts, not suitable for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/78c1/72b4/b9344d02a29d/eacf762cfdd5/04319706760-e1/04319706760-e1.jpg?ts=1785313981655&w=1920",
+        "https://static.zara.net/assets/public/fdeb/2973/3efd4fa18d78/3bfe0deaf7c2/04319706760-e2/04319706760-e2.jpg?ts=1785313981758&w=1920",
+        "https://static.zara.net/assets/public/1780/2e83/911948808727/82a77d14e05d/04319706760-e3/04319706760-e3.jpg?ts=1785313981742&w=1920",
+        "https://static.zara.net/assets/public/59a7/ce5d/21684ae3bd59/202377f8b04d/04319706760-e5/04319706760-e5.jpg?ts=1785313980334&w=1920"
+      ],
+      "material": "100% plastic-acrylic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% plastic-acrylic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BEAR AND DOG CLIP PACK - Tortoise shell - 14",
+          "sku": "550292801-760-14",
+          "mpn": "550292801-760-14",
+          "color": "Tortoise shell",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/78c1/72b4/b9344d02a29d/eacf762cfdd5/04319706760-e1/04319706760-e1.jpg?ts=1785313981655&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/bear-and-dog-clip-pack-p04319706.html?v1=550292801",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BEAR AND DOG CLIP PACK",
+      "product_group_id": "04319706",
+      "brand": "ZARA",
+      "description": "Pack of two hair clips featuring bear and dog designs. Includes small parts, not suitable for children under 3 years old.",
+      "material": "100% plastic-acrylic",
+      "composition": "OUTER SHELL: 100% plastic-acrylic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BEAR AND DOG CLIP PACK - Tortoise shell - 14",
+          "sku": "550292801-760-14",
+          "mpn": "550292801-760-14",
+          "color_name": "Tortoise shell",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bear-and-dog-clip-pack-p04319706.html?v1=550292801",
+          "images": [
+            "https://static.zara.net/assets/public/78c1/72b4/b9344d02a29d/eacf762cfdd5/04319706760-e1/04319706760-e1.jpg?ts=1785313981655&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/78c1/72b4/b9344d02a29d/eacf762cfdd5/04319706760-e1/04319706760-e1.jpg?ts=1785313981655&w=1920",
+        "https://static.zara.net/assets/public/fdeb/2973/3efd4fa18d78/3bfe0deaf7c2/04319706760-e2/04319706760-e2.jpg?ts=1785313981758&w=1920",
+        "https://static.zara.net/assets/public/1780/2e83/911948808727/82a77d14e05d/04319706760-e3/04319706760-e3.jpg?ts=1785313981742&w=1920",
+        "https://static.zara.net/assets/public/59a7/ce5d/21684ae3bd59/202377f8b04d/04319706760-e5/04319706760-e5.jpg?ts=1785313980334&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nPack of two hair clips featuring bear and dog designs. Includes small parts, not suitable for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9c4dbb2aadbe404a9430ecdac646fcab507d75892cf6b1233953792ce5db7a0b",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

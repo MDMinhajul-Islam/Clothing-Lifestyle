@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:03920744",
+  "source_url": "https://www.zara.com/us/en/100-wool-beanie-p03920744.html",
+  "final_url": "https://www.zara.com/us/en/100-wool-beanie-p03920744.html",
+  "canonical_url": "https://www.zara.com/us/en/100-wool-beanie-p03920744.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "100% WOOL BEANIE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "100% WOOL BEANIE",
+      "url": "https://www.zara.com/us/en/100-wool-beanie-p03920744.html",
+      "productGroupID": "03920744",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Beanie-style hat featuring a wide folded cuff. Made of 100% wool.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4d51/4965/ee7a4d0fa7eb/a04a93534294/03920744481-e1/03920744481-e1.jpg?ts=1784815471375&w=1920",
+        "https://static.zara.net/assets/public/29d7/cabb/71d34a36b2c0/ea563f2d4d3e/03920744481-e2/03920744481-e2.jpg?ts=1784815471058&w=1920",
+        "https://static.zara.net/assets/public/790c/4a40/01434044b99a/b3fda25b3238/03920744481-e3/03920744481-e3.jpg?ts=1784815471308&w=1920",
+        "https://static.zara.net/assets/public/57b9/9228/90674a34a401/39d2492d4067/03920744481-e4/03920744481-e4.jpg?ts=1784815469961&w=1920"
+      ],
+      "material": "100% wool",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% wool"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "100% WOOL BEANIE - navy - 14",
+          "sku": "550855258-481-14",
+          "mpn": "550855258-481-14",
+          "color": "navy",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/4d51/4965/ee7a4d0fa7eb/a04a93534294/03920744481-e1/03920744481-e1.jpg?ts=1784815471375&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/100-wool-beanie-p03920744.html?v1=550855258",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "100% WOOL BEANIE",
+      "product_group_id": "03920744",
+      "brand": "ZARA",
+      "description": "Beanie-style hat featuring a wide folded cuff. Made of 100% wool.",
+      "material": "100% wool",
+      "composition": "OUTER SHELL: 100% wool",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "100% WOOL BEANIE - navy - 14",
+          "sku": "550855258-481-14",
+          "mpn": "550855258-481-14",
+          "color_name": "navy",
+          "size_name": "14",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/100-wool-beanie-p03920744.html?v1=550855258",
+          "images": [
+            "https://static.zara.net/assets/public/4d51/4965/ee7a4d0fa7eb/a04a93534294/03920744481-e1/03920744481-e1.jpg?ts=1784815471375&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4d51/4965/ee7a4d0fa7eb/a04a93534294/03920744481-e1/03920744481-e1.jpg?ts=1784815471375&w=1920",
+        "https://static.zara.net/assets/public/29d7/cabb/71d34a36b2c0/ea563f2d4d3e/03920744481-e2/03920744481-e2.jpg?ts=1784815471058&w=1920",
+        "https://static.zara.net/assets/public/790c/4a40/01434044b99a/b3fda25b3238/03920744481-e3/03920744481-e3.jpg?ts=1784815471308&w=1920",
+        "https://static.zara.net/assets/public/57b9/9228/90674a34a401/39d2492d4067/03920744481-e4/03920744481-e4.jpg?ts=1784815469961&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nBeanie-style hat featuring a wide folded cuff. Made of 100% wool.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "abf59b485ab6eb2ed0ad176bcaf2d5bdff7fb9b968f3a090343e438daf2e3b12",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

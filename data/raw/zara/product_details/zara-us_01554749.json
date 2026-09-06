@@ -1,0 +1,544 @@
+{
+  "product_id": "zara-us:01554749",
+  "source_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html",
+  "final_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html",
+  "canonical_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SOLID LEOTARD",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SOLID LEOTARD",
+      "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html",
+      "productGroupID": "01554749",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Solid leotard with an elastic waistband.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920",
+        "https://static.zara.net/assets/public/86f9/d77a/67234596bd4f/e5ac930fffa7/01554749401-e2/01554749401-e2.jpg?ts=1785420206457&w=1920",
+        "https://static.zara.net/assets/public/da21/5a54/9d3e482288a5/59c37352a371/01554749401-e3/01554749401-e3.jpg?ts=1785420208752&w=1920",
+        "https://static.zara.net/assets/public/ab8a/7e1f/d97049aa97d2/505dfaa09cb8/01554749401-000-e5/01554749401-000-e5.jpg?ts=1787300805934&w=1920"
+      ],
+      "material": "viscose/polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "72% viscose, 26% polyamide, 2% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Navy blue - 1-2 years (20-22)",
+          "sku": "545410144-401-24",
+          "mpn": "545410144-401-24",
+          "color": "Navy blue",
+          "size": "1-2 years (20-22)",
+          "image": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Navy blue - 2-4 years (23-25)",
+          "sku": "545410144-401-48",
+          "mpn": "545410144-401-48",
+          "color": "Navy blue",
+          "size": "2-4 years (23-25)",
+          "image": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Navy blue - 4-6 years (26-28)",
+          "sku": "545410144-401-72",
+          "mpn": "545410144-401-72",
+          "color": "Navy blue",
+          "size": "4-6 years (26-28)",
+          "image": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Navy blue - 6-8 years (28-30)",
+          "sku": "545410144-401-88",
+          "mpn": "545410144-401-88",
+          "color": "Navy blue",
+          "size": "6-8 years (28-30)",
+          "image": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Navy blue - 8-10 years (31-33)",
+          "sku": "545410144-401-90",
+          "mpn": "545410144-401-90",
+          "color": "Navy blue",
+          "size": "8-10 years (31-33)",
+          "image": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Navy blue - 10-12 years (34-36)",
+          "sku": "545410144-401-92",
+          "mpn": "545410144-401-92",
+          "color": "Navy blue",
+          "size": "10-12 years (34-36)",
+          "image": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Navy blue - 12-14 years (37-40)",
+          "sku": "545410144-401-94",
+          "mpn": "545410144-401-94",
+          "color": "Navy blue",
+          "size": "12-14 years (37-40)",
+          "image": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Black - 1-2 years (20-22)",
+          "sku": "545410144-800-24",
+          "mpn": "545410144-800-24",
+          "color": "Black",
+          "size": "1-2 years (20-22)",
+          "image": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Black - 2-4 years (23-25)",
+          "sku": "545410144-800-48",
+          "mpn": "545410144-800-48",
+          "color": "Black",
+          "size": "2-4 years (23-25)",
+          "image": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Black - 4-6 years (26-28)",
+          "sku": "545410144-800-72",
+          "mpn": "545410144-800-72",
+          "color": "Black",
+          "size": "4-6 years (26-28)",
+          "image": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Black - 6-8 years (28-30)",
+          "sku": "545410144-800-88",
+          "mpn": "545410144-800-88",
+          "color": "Black",
+          "size": "6-8 years (28-30)",
+          "image": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Black - 8-10 years (31-33)",
+          "sku": "545410144-800-90",
+          "mpn": "545410144-800-90",
+          "color": "Black",
+          "size": "8-10 years (31-33)",
+          "image": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Black - 10-12 years (34-36)",
+          "sku": "545410144-800-92",
+          "mpn": "545410144-800-92",
+          "color": "Black",
+          "size": "10-12 years (34-36)",
+          "image": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SOLID LEOTARD - Black - 12-14 years (37-40)",
+          "sku": "545410144-800-94",
+          "mpn": "545410144-800-94",
+          "color": "Black",
+          "size": "12-14 years (37-40)",
+          "image": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SOLID LEOTARD",
+      "product_group_id": "01554749",
+      "brand": "ZARA",
+      "description": "Solid leotard with an elastic waistband.",
+      "material": "viscose/polyamide/elastane",
+      "composition": "OUTER SHELL: 72% viscose, 26% polyamide, 2% elastane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SOLID LEOTARD - Navy blue - 1-2 years (20-22)",
+          "sku": "545410144-401-24",
+          "mpn": "545410144-401-24",
+          "color_name": "Navy blue",
+          "size_name": "1-2 years (20-22)",
+          "price": "12.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+          "images": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Navy blue - 2-4 years (23-25)",
+          "sku": "545410144-401-48",
+          "mpn": "545410144-401-48",
+          "color_name": "Navy blue",
+          "size_name": "2-4 years (23-25)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+          "images": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Navy blue - 4-6 years (26-28)",
+          "sku": "545410144-401-72",
+          "mpn": "545410144-401-72",
+          "color_name": "Navy blue",
+          "size_name": "4-6 years (26-28)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+          "images": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Navy blue - 6-8 years (28-30)",
+          "sku": "545410144-401-88",
+          "mpn": "545410144-401-88",
+          "color_name": "Navy blue",
+          "size_name": "6-8 years (28-30)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+          "images": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Navy blue - 8-10 years (31-33)",
+          "sku": "545410144-401-90",
+          "mpn": "545410144-401-90",
+          "color_name": "Navy blue",
+          "size_name": "8-10 years (31-33)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+          "images": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Navy blue - 10-12 years (34-36)",
+          "sku": "545410144-401-92",
+          "mpn": "545410144-401-92",
+          "color_name": "Navy blue",
+          "size_name": "10-12 years (34-36)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+          "images": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Navy blue - 12-14 years (37-40)",
+          "sku": "545410144-401-94",
+          "mpn": "545410144-401-94",
+          "color_name": "Navy blue",
+          "size_name": "12-14 years (37-40)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410144",
+          "images": [
+            "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Black - 1-2 years (20-22)",
+          "sku": "545410144-800-24",
+          "mpn": "545410144-800-24",
+          "color_name": "Black",
+          "size_name": "1-2 years (20-22)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+          "images": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Black - 2-4 years (23-25)",
+          "sku": "545410144-800-48",
+          "mpn": "545410144-800-48",
+          "color_name": "Black",
+          "size_name": "2-4 years (23-25)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+          "images": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Black - 4-6 years (26-28)",
+          "sku": "545410144-800-72",
+          "mpn": "545410144-800-72",
+          "color_name": "Black",
+          "size_name": "4-6 years (26-28)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+          "images": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Black - 6-8 years (28-30)",
+          "sku": "545410144-800-88",
+          "mpn": "545410144-800-88",
+          "color_name": "Black",
+          "size_name": "6-8 years (28-30)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+          "images": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Black - 8-10 years (31-33)",
+          "sku": "545410144-800-90",
+          "mpn": "545410144-800-90",
+          "color_name": "Black",
+          "size_name": "8-10 years (31-33)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+          "images": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Black - 10-12 years (34-36)",
+          "sku": "545410144-800-92",
+          "mpn": "545410144-800-92",
+          "color_name": "Black",
+          "size_name": "10-12 years (34-36)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+          "images": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ]
+        },
+        {
+          "name": "SOLID LEOTARD - Black - 12-14 years (37-40)",
+          "sku": "545410144-800-94",
+          "mpn": "545410144-800-94",
+          "color_name": "Black",
+          "size_name": "12-14 years (37-40)",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/solid-leotard-p01554749.html?v1=545410146",
+          "images": [
+            "https://static.zara.net/assets/public/542c/938e/cc4a4b6c9141/5658d936d941/01554743800-e1/01554743800-e1.jpg?ts=1769442073629&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/da7b/6bf9/ff964f96863c/d63b338427f0/01554749401-e1/01554749401-e1.jpg?ts=1785420206277&w=1920",
+        "https://static.zara.net/assets/public/86f9/d77a/67234596bd4f/e5ac930fffa7/01554749401-e2/01554749401-e2.jpg?ts=1785420206457&w=1920",
+        "https://static.zara.net/assets/public/da21/5a54/9d3e482288a5/59c37352a371/01554749401-e3/01554749401-e3.jpg?ts=1785420208752&w=1920",
+        "https://static.zara.net/assets/public/ab8a/7e1f/d97049aa97d2/505dfaa09cb8/01554749401-000-e5/01554749401-000-e5.jpg?ts=1787300805934&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Navy blue",
+    "Black"
+  ],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nSolid leotard with an elastic waistband.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 5,
+  "variants_count": 14,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4c1e87bfb3222504b62d3eb99aac9da91263c3650b8106c3efa02793e255b728",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:00653585",
+  "source_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653585.html",
+  "final_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653585.html",
+  "canonical_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653585.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PAISLEY PRINT BANDANA",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PAISLEY PRINT BANDANA",
+      "url": "https://www.zara.com/us/en/paisley-print-bandana-p00653585.html",
+      "productGroupID": "00653585",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Square bandana with paisley print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/80bf/f859/2b7b4a90aacc/c7754bde1c0e/00653585620-e1/00653585620-e1.jpg?ts=1775570325678&w=1920",
+        "https://static.zara.net/assets/public/e1b8/f60f/128a41c4a6ab/d81562c78a33/00653585620-e2/00653585620-e2.jpg?ts=1775570325906&w=1920",
+        "https://static.zara.net/assets/public/d9c0/6058/a0b64420877a/0b746bfb5f08/00653585620-e3/00653585620-e3.jpg?ts=1775570327192&w=1920",
+        "https://static.zara.net/assets/public/7ed8/d7bd/9cfc4068984f/37e2b916e542/00653585620-e5/00653585620-e5.jpg?ts=1775570328607&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PAISLEY PRINT BANDANA - Pink - M",
+          "sku": "545466007-620-14",
+          "mpn": "545466007-620-14",
+          "color": "Pink",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/80bf/f859/2b7b4a90aacc/c7754bde1c0e/00653585620-e1/00653585620-e1.jpg?ts=1775570325678&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/paisley-print-bandana-p00653585.html?v1=545466007",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PAISLEY PRINT BANDANA",
+      "product_group_id": "00653585",
+      "brand": "ZARA",
+      "description": "Square bandana with paisley print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PAISLEY PRINT BANDANA - Pink - M",
+          "sku": "545466007-620-14",
+          "mpn": "545466007-620-14",
+          "color_name": "Pink",
+          "size_name": "M",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/paisley-print-bandana-p00653585.html?v1=545466007",
+          "images": [
+            "https://static.zara.net/assets/public/80bf/f859/2b7b4a90aacc/c7754bde1c0e/00653585620-e1/00653585620-e1.jpg?ts=1775570325678&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/80bf/f859/2b7b4a90aacc/c7754bde1c0e/00653585620-e1/00653585620-e1.jpg?ts=1775570325678&w=1920",
+        "https://static.zara.net/assets/public/e1b8/f60f/128a41c4a6ab/d81562c78a33/00653585620-e2/00653585620-e2.jpg?ts=1775570325906&w=1920",
+        "https://static.zara.net/assets/public/d9c0/6058/a0b64420877a/0b746bfb5f08/00653585620-e3/00653585620-e3.jpg?ts=1775570327192&w=1920",
+        "https://static.zara.net/assets/public/7ed8/d7bd/9cfc4068984f/37e2b916e542/00653585620-e5/00653585620-e5.jpg?ts=1775570328607&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nSquare bandana with paisley print.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e6e8b5b00c11a200c8230ddf0d29244c1c5826fea0b32c3a896890f1186527c1",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

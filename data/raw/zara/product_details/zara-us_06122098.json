@@ -1,0 +1,287 @@
+{
+  "product_id": "zara-us:06122098",
+  "source_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html",
+  "final_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED LINEN BLEND BALLOON PANTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED LINEN BLEND BALLOON PANTS",
+      "url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html",
+      "productGroupID": "06122098",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Balloon fit pants with front button closure and drawstring detail. Striped print. Fabric made with 18% linen and 82% cotton.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920",
+        "https://static.zara.net/assets/public/85d1/4b0a/9b004c529bd4/8ac81da35d66/06122098080-e2/06122098080-e2.jpg?ts=1783336043702&w=1920",
+        "https://static.zara.net/assets/public/d4eb/8ea5/12b34ceb8bcc/dccd2b3db9d5/06122098080-e3/06122098080-e3.jpg?ts=1783336043502&w=1920",
+        "https://static.zara.net/assets/public/5720/08c0/56a24859952d/15f22a9459b6/06122098080-e4/06122098080-e4.jpg?ts=1783336044022&w=1920",
+        "https://static.zara.net/assets/public/dbaa/2d01/7d9d490aae2a/148142d80e9b/06122098080-p/06122098080-p.jpg?ts=1783951193337&w=1920"
+      ],
+      "material": "cotton/linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "82% cotton, 18% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 6-7 years (48,0 INCHES)",
+          "sku": "548714038-080-7",
+          "mpn": "548714038-080-7",
+          "color": "Ecru / Blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 8-9 years (51,6 INCHES)",
+          "sku": "548714038-080-9",
+          "mpn": "548714038-080-9",
+          "color": "Ecru / Blue",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 9-10 years (55,1 INCHES)",
+          "sku": "548714038-080-10",
+          "mpn": "548714038-080-10",
+          "color": "Ecru / Blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 11-12 years (58,3 INCHES)",
+          "sku": "548714038-080-12",
+          "mpn": "548714038-080-12",
+          "color": "Ecru / Blue",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 12-13 years (61,4 INCHES)",
+          "sku": "548714038-080-13",
+          "mpn": "548714038-080-13",
+          "color": "Ecru / Blue",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 13-14 years (64,6 INCHES)",
+          "sku": "548714038-080-14",
+          "mpn": "548714038-080-14",
+          "color": "Ecru / Blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED LINEN BLEND BALLOON PANTS",
+      "product_group_id": "06122098",
+      "brand": "ZARA",
+      "description": "Balloon fit pants with front button closure and drawstring detail. Striped print. Fabric made with 18% linen and 82% cotton.",
+      "material": "cotton/linen",
+      "composition": "OUTER SHELL: 82% cotton, 18% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 6-7 years (48,0 INCHES)",
+          "sku": "548714038-080-7",
+          "mpn": "548714038-080-7",
+          "color_name": "Ecru / Blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+          "images": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 8-9 years (51,6 INCHES)",
+          "sku": "548714038-080-9",
+          "mpn": "548714038-080-9",
+          "color_name": "Ecru / Blue",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+          "images": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 9-10 years (55,1 INCHES)",
+          "sku": "548714038-080-10",
+          "mpn": "548714038-080-10",
+          "color_name": "Ecru / Blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+          "images": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 11-12 years (58,3 INCHES)",
+          "sku": "548714038-080-12",
+          "mpn": "548714038-080-12",
+          "color_name": "Ecru / Blue",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+          "images": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 12-13 years (61,4 INCHES)",
+          "sku": "548714038-080-13",
+          "mpn": "548714038-080-13",
+          "color_name": "Ecru / Blue",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+          "images": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ]
+        },
+        {
+          "name": "STRIPED LINEN BLEND BALLOON PANTS - Ecru / Blue - 13-14 years (64,6 INCHES)",
+          "sku": "548714038-080-14",
+          "mpn": "548714038-080-14",
+          "color_name": "Ecru / Blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-linen-blend-balloon-pants-p06122098.html?v1=548714038",
+          "images": [
+            "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e8b0/bd4b/d21b439ca062/433095ca3aef/06122098080-e1/06122098080-e1.jpg?ts=1783336043710&w=1920",
+        "https://static.zara.net/assets/public/85d1/4b0a/9b004c529bd4/8ac81da35d66/06122098080-e2/06122098080-e2.jpg?ts=1783336043702&w=1920",
+        "https://static.zara.net/assets/public/d4eb/8ea5/12b34ceb8bcc/dccd2b3db9d5/06122098080-e3/06122098080-e3.jpg?ts=1783336043502&w=1920",
+        "https://static.zara.net/assets/public/5720/08c0/56a24859952d/15f22a9459b6/06122098080-e4/06122098080-e4.jpg?ts=1783336044022&w=1920",
+        "https://static.zara.net/assets/public/dbaa/2d01/7d9d490aae2a/148142d80e9b/06122098080-p/06122098080-p.jpg?ts=1783951193337&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nBalloon fit pants with front button closure and drawstring detail. Striped print. Fabric made with 18% linen and 82% cotton.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "00030dab329cac63c88c16b37f422bdd57dd25413f7f9643c0df10e94189bb1a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

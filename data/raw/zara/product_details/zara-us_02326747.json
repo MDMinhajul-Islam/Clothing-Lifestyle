@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:02326747",
+  "source_url": "https://www.zara.com/us/en/pack-box-with-elastics-and-clips-p02326747.html",
+  "final_url": "https://www.zara.com/us/en/pack-box-with-elastics-and-clips-p02326747.html",
+  "canonical_url": "https://www.zara.com/us/en/pack-box-with-elastics-and-clips-p02326747.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BOX WITH ELASTICS AND CLIPS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BOX WITH ELASTICS AND CLIPS",
+      "url": "https://www.zara.com/us/en/pack-box-with-elastics-and-clips-p02326747.html",
+      "productGroupID": "02326747",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Box with a pack of small elastic bands and clips. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/df91/4175/d813420299ff/eac0633effc7/02326747330-e1/02326747330-e1.jpg?ts=1779204738224&w=1920",
+        "https://static.zara.net/assets/public/d276/7ef1/bff14425ab92/3168ff05bf83/02326747330-e2/02326747330-e2.jpg?ts=1779204738363&w=1920",
+        "https://static.zara.net/assets/public/c170/6e3e/1b244035939a/9a7023eaa706/02326747330-e3/02326747330-e3.jpg?ts=1779204736382&w=1920",
+        "https://static.zara.net/assets/public/c416/7da4/6d7a43cda8a6/7c9ca8b87778/02326747330-e5/02326747330-e5.jpg?ts=1779204737379&w=1920"
+      ],
+      "material": "100% plastic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% plastic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BOX WITH ELASTICS AND CLIPS - Multicolored - 14",
+          "sku": "545461923-330-14",
+          "mpn": "545461923-330-14",
+          "color": "Multicolored",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/df91/4175/d813420299ff/eac0633effc7/02326747330-e1/02326747330-e1.jpg?ts=1779204738224&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/pack-box-with-elastics-and-clips-p02326747.html?v1=545461923",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BOX WITH ELASTICS AND CLIPS",
+      "product_group_id": "02326747",
+      "brand": "ZARA",
+      "description": "Box with a pack of small elastic bands and clips. Contains small parts, not recommended for children under 3 years old.",
+      "material": "100% plastic",
+      "composition": "OUTER SHELL: 100% plastic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BOX WITH ELASTICS AND CLIPS - Multicolored - 14",
+          "sku": "545461923-330-14",
+          "mpn": "545461923-330-14",
+          "color_name": "Multicolored",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pack-box-with-elastics-and-clips-p02326747.html?v1=545461923",
+          "images": [
+            "https://static.zara.net/assets/public/df91/4175/d813420299ff/eac0633effc7/02326747330-e1/02326747330-e1.jpg?ts=1779204738224&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/df91/4175/d813420299ff/eac0633effc7/02326747330-e1/02326747330-e1.jpg?ts=1779204738224&w=1920",
+        "https://static.zara.net/assets/public/d276/7ef1/bff14425ab92/3168ff05bf83/02326747330-e2/02326747330-e2.jpg?ts=1779204738363&w=1920",
+        "https://static.zara.net/assets/public/c170/6e3e/1b244035939a/9a7023eaa706/02326747330-e3/02326747330-e3.jpg?ts=1779204736382&w=1920",
+        "https://static.zara.net/assets/public/c416/7da4/6d7a43cda8a6/7c9ca8b87778/02326747330-e5/02326747330-e5.jpg?ts=1779204737379&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nBox with a pack of small elastic bands and clips. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b282bb19044d542f6a7d240053c14ed9893fb1e5d389d5201bd084ff002b5ac2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

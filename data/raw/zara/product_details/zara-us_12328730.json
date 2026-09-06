@@ -1,0 +1,472 @@
+{
+  "product_id": "zara-us:12328730",
+  "source_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html",
+  "final_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html",
+  "canonical_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "OPENWORK SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "OPENWORK SNEAKERS",
+      "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html",
+      "productGroupID": "12328730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sneakers with a contrasting color design and side openings. Adjustable with elastic laces and a stopper, with a back pull tab for easy wear. Featuring a rubber sole and OrthoLite® insole.\n\nSIZE 40: shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920",
+        "https://static.zara.net/assets/public/9130/d708/dde04c48a032/683d58e1ae34/12328730050-e2/12328730050-e2.jpg?ts=1776945344928&w=1920",
+        "https://static.zara.net/assets/public/8dc0/c565/6bdd45338970/255a90a8f671/12328730050-e3/12328730050-e3.jpg?ts=1776945342912&w=1920",
+        "https://static.zara.net/assets/public/29ba/ba13/918d4fd49504/c85db197f504/12328730050-e4/12328730050-e4.jpg?ts=1776945346699&w=1920",
+        "https://static.zara.net/assets/public/9cfc/ddae/da87481eb440/ee996894d387/12328730050-e5/12328730050-e5.jpg?ts=1776945343267&w=1920",
+        "https://static.zara.net/assets/public/0874/fa58/82c94d2eb3a4/2683b54c0b8c/12328730050-e6/12328730050-e6.jpg?ts=1776945343085&w=1920",
+        "https://static.zara.net/assets/public/e3df/3bae/029e4bcea86c/474eda8d0bba/12328730050-e7/12328730050-e7.jpg?ts=1776945342992&w=1920",
+        "https://static.zara.net/assets/public/233f/21c6/85f64de59af0/955824396cb4/12328730050-e8/12328730050-e8.jpg?ts=1776945343385&w=1920"
+      ],
+      "material": "polyester/polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "85% polyester, 15% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 12½ (7.4 INCHES)",
+          "sku": "545436565-050-30",
+          "mpn": "545436565-050-30",
+          "color": "Pink",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 13½ (7.7 INCHES)",
+          "sku": "545436565-050-31",
+          "mpn": "545436565-050-31",
+          "color": "Pink",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 1 (8.0 INCHES)",
+          "sku": "545436565-050-32",
+          "mpn": "545436565-050-32",
+          "color": "Pink",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 2 (8.2 INCHES)",
+          "sku": "545436565-050-33",
+          "mpn": "545436565-050-33",
+          "color": "Pink",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 2½ (8.5 INCHES)",
+          "sku": "545436565-050-34",
+          "mpn": "545436565-050-34",
+          "color": "Pink",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 3½ (8.8 INCHES)",
+          "sku": "545436565-050-35",
+          "mpn": "545436565-050-35",
+          "color": "Pink",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 4 (9.0 INCHES)",
+          "sku": "545436565-050-36",
+          "mpn": "545436565-050-36",
+          "color": "Pink",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 5 (9.3 INCHES)",
+          "sku": "545436565-050-37",
+          "mpn": "545436565-050-37",
+          "color": "Pink",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 5½ (9.5 INCHES)",
+          "sku": "545436565-050-38",
+          "mpn": "545436565-050-38",
+          "color": "Pink",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 6 (9.8 INCHES)",
+          "sku": "545436565-050-39",
+          "mpn": "545436565-050-39",
+          "color": "Pink",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "OPENWORK SNEAKERS - Pink - 7 (10.0 INCHES)",
+          "sku": "545436565-050-40",
+          "mpn": "545436565-050-40",
+          "color": "Pink",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.99",
+            "url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "OPENWORK SNEAKERS",
+      "product_group_id": "12328730",
+      "brand": "ZARA",
+      "description": "Sneakers with a contrasting color design and side openings. Adjustable with elastic laces and a stopper, with a back pull tab for easy wear. Featuring a rubber sole and OrthoLite® insole.\n\nSIZE 40: shoes available in size 40.",
+      "material": "polyester/polyurethane",
+      "composition": "UPPER: 85% polyester, 15% polyurethane | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 12½ (7.4 INCHES)",
+          "sku": "545436565-050-30",
+          "mpn": "545436565-050-30",
+          "color_name": "Pink",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 13½ (7.7 INCHES)",
+          "sku": "545436565-050-31",
+          "mpn": "545436565-050-31",
+          "color_name": "Pink",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 1 (8.0 INCHES)",
+          "sku": "545436565-050-32",
+          "mpn": "545436565-050-32",
+          "color_name": "Pink",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 2 (8.2 INCHES)",
+          "sku": "545436565-050-33",
+          "mpn": "545436565-050-33",
+          "color_name": "Pink",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 2½ (8.5 INCHES)",
+          "sku": "545436565-050-34",
+          "mpn": "545436565-050-34",
+          "color_name": "Pink",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 3½ (8.8 INCHES)",
+          "sku": "545436565-050-35",
+          "mpn": "545436565-050-35",
+          "color_name": "Pink",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 4 (9.0 INCHES)",
+          "sku": "545436565-050-36",
+          "mpn": "545436565-050-36",
+          "color_name": "Pink",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 5 (9.3 INCHES)",
+          "sku": "545436565-050-37",
+          "mpn": "545436565-050-37",
+          "color_name": "Pink",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 5½ (9.5 INCHES)",
+          "sku": "545436565-050-38",
+          "mpn": "545436565-050-38",
+          "color_name": "Pink",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 6 (9.8 INCHES)",
+          "sku": "545436565-050-39",
+          "mpn": "545436565-050-39",
+          "color_name": "Pink",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        },
+        {
+          "name": "OPENWORK SNEAKERS - Pink - 7 (10.0 INCHES)",
+          "sku": "545436565-050-40",
+          "mpn": "545436565-050-40",
+          "color_name": "Pink",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "32.99",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/openwork-sneakers-p12328730.html?v1=545436565",
+          "images": [
+            "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/62e7/c3bb/d7fc4f4b8a9f/61412a54ae41/12328730050-e1/12328730050-e1.jpg?ts=1776945344366&w=1920",
+        "https://static.zara.net/assets/public/9130/d708/dde04c48a032/683d58e1ae34/12328730050-e2/12328730050-e2.jpg?ts=1776945344928&w=1920",
+        "https://static.zara.net/assets/public/8dc0/c565/6bdd45338970/255a90a8f671/12328730050-e3/12328730050-e3.jpg?ts=1776945342912&w=1920",
+        "https://static.zara.net/assets/public/29ba/ba13/918d4fd49504/c85db197f504/12328730050-e4/12328730050-e4.jpg?ts=1776945346699&w=1920",
+        "https://static.zara.net/assets/public/9cfc/ddae/da87481eb440/ee996894d387/12328730050-e5/12328730050-e5.jpg?ts=1776945343267&w=1920",
+        "https://static.zara.net/assets/public/0874/fa58/82c94d2eb3a4/2683b54c0b8c/12328730050-e6/12328730050-e6.jpg?ts=1776945343085&w=1920",
+        "https://static.zara.net/assets/public/e3df/3bae/029e4bcea86c/474eda8d0bba/12328730050-e7/12328730050-e7.jpg?ts=1776945342992&w=1920",
+        "https://static.zara.net/assets/public/233f/21c6/85f64de59af0/955824396cb4/12328730050-e8/12328730050-e8.jpg?ts=1776945343385&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\nSneakers with a contrasting color design and side openings. Adjustable with elastic laces and a stopper, with a back pull tab for easy wear. Featuring a rubber sole and OrthoLite® insole.\nSIZE 40: shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 8,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "32.99",
+    "original_price": "59.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "32.99",
+    "dom_price": "59.90",
+    "normalized_price": "32.99",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '32.99' != DOM price '59.90'"
+  },
+  "source_content_hash": "ea3e423372fb022e29f3ce14e3d573936b81dccbf7be48e2b0ee1d6f1d51b340",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

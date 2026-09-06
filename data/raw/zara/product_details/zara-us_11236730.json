@@ -1,0 +1,129 @@
+{
+  "product_id": "zara-us:11236730",
+  "source_url": "https://www.zara.com/us/en/mickey-mouse--disney-bag-pack-p11236730.html",
+  "final_url": "https://www.zara.com/us/en/mickey-mouse--disney-bag-pack-p11236730.html",
+  "canonical_url": "https://www.zara.com/us/en/mickey-mouse--disney-bag-pack-p11236730.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MICKEY MOUSE© DISNEY BAG PACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MICKEY MOUSE© DISNEY BAG PACK",
+      "url": "https://www.zara.com/us/en/mickey-mouse--disney-bag-pack-p11236730.html",
+      "productGroupID": "11236730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mickey Mouse© Disney multi-purpose bag with contrasting graphic character detail. Features a main compartment with adjustable drawstring closure.\n\n\nHeight x Length x Width: 13 x 14.6 x 0.4 inches (33 x 37 x 1 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5c84/cde9/66d44e769e10/1ac1124ccd17/11236730203-e1/11236730203-e1.jpg?ts=1780569649944&w=1920",
+        "https://static.zara.net/assets/public/5535/7664/bb6843c7a62b/49633330aea1/11236730203-e2/11236730203-e2.jpg?ts=1780569650449&w=1920",
+        "https://static.zara.net/assets/public/bd0b/6bd7/d5354ab8912b/b6331a860f90/11236730203-e3/11236730203-e3.jpg?ts=1780645247317&w=1920",
+        "https://static.zara.net/assets/public/8a74/852f/8be84c8d9d4c/e35876caa46e/11236730203-e4/11236730203-e4.jpg?ts=1780645247136&w=1920",
+        "https://static.zara.net/assets/public/9ca0/e109/2df249c5bd48/1a5570dc2312/11236730203-e5/11236730203-e5.jpg?ts=1780645246822&w=1920",
+        "https://static.zara.net/assets/public/a796/a037/dbdd4ddab1aa/a154690c0a36/11236730203-e6/11236730203-e6.jpg?ts=1780645246341&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MICKEY MOUSE© DISNEY BAG PACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545461918-203-53",
+          "mpn": "545461918-203-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/5c84/cde9/66d44e769e10/1ac1124ccd17/11236730203-e1/11236730203-e1.jpg?ts=1780569649944&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/mickey-mouse--disney-bag-pack-p11236730.html?v1=545461918",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MICKEY MOUSE© DISNEY BAG PACK",
+      "product_group_id": "11236730",
+      "brand": "ZARA",
+      "description": "Mickey Mouse© Disney multi-purpose bag with contrasting graphic character detail. Features a main compartment with adjustable drawstring closure.\n\n\nHeight x Length x Width: 13 x 14.6 x 0.4 inches (33 x 37 x 1 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MICKEY MOUSE© DISNEY BAG PACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545461918-203-53",
+          "mpn": "545461918-203-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mickey-mouse--disney-bag-pack-p11236730.html?v1=545461918",
+          "images": [
+            "https://static.zara.net/assets/public/5c84/cde9/66d44e769e10/1ac1124ccd17/11236730203-e1/11236730203-e1.jpg?ts=1780569649944&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5c84/cde9/66d44e769e10/1ac1124ccd17/11236730203-e1/11236730203-e1.jpg?ts=1780569649944&w=1920",
+        "https://static.zara.net/assets/public/5535/7664/bb6843c7a62b/49633330aea1/11236730203-e2/11236730203-e2.jpg?ts=1780569650449&w=1920",
+        "https://static.zara.net/assets/public/bd0b/6bd7/d5354ab8912b/b6331a860f90/11236730203-e3/11236730203-e3.jpg?ts=1780645247317&w=1920",
+        "https://static.zara.net/assets/public/8a74/852f/8be84c8d9d4c/e35876caa46e/11236730203-e4/11236730203-e4.jpg?ts=1780645247136&w=1920",
+        "https://static.zara.net/assets/public/9ca0/e109/2df249c5bd48/1a5570dc2312/11236730203-e5/11236730203-e5.jpg?ts=1780645246822&w=1920",
+        "https://static.zara.net/assets/public/a796/a037/dbdd4ddab1aa/a154690c0a36/11236730203-e6/11236730203-e6.jpg?ts=1780645246341&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nMickey Mouse© Disney multi-purpose bag with contrasting graphic character detail. Features a main compartment with adjustable drawstring closure.\nHeight x Length x Width: 13 x 14.6 x 0.4 inches (33 x 37 x 1 cm)\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "6684279de06801133a239300938655c50795af83bf7140677a30c00c8359028e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

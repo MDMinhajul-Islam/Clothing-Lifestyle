@@ -1,0 +1,477 @@
+{
+  "product_id": "zara-us:12100830",
+  "source_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html",
+  "final_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html",
+  "canonical_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LACED BOOTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LACED BOOTS",
+      "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html",
+      "productGroupID": "12100830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Laced boots with front closure. Includes a back pull tab for ease and features a chunky rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920",
+        "https://static.zara.net/assets/public/c631/4866/8db34f5f9f56/b2031ad8975d/12100830800001-p/12100830800001-p.jpg?ts=1783928380236&w=1920",
+        "https://static.zara.net/assets/public/34ea/7a8d/0ad74cdc8603/fc579a37cd67/12100830800-e2/12100830800-e2.jpg?ts=1781172643544&w=1920",
+        "https://static.zara.net/assets/public/77a3/6b21/003647049c9c/e016fb8124fa/12100830800-e3/12100830800-e3.jpg?ts=1781172643311&w=1920",
+        "https://static.zara.net/assets/public/cb13/ed84/faec4d85ac6c/6e2adfb77dfc/12100830800-e4/12100830800-e4.jpg?ts=1781172644076&w=1920",
+        "https://static.zara.net/assets/public/3d99/00b0/94d44b1590a0/7acba0a25ea2/12100830800-e5/12100830800-e5.jpg?ts=1781172643458&w=1920",
+        "https://static.zara.net/assets/public/8ad7/ba7b/52374e48b781/1adf35d0b079/12100830800-e6/12100830800-e6.jpg?ts=1781172643345&w=1920",
+        "https://static.zara.net/assets/public/3ae1/09c1/b65649939eb2/dd7539cb288f/12100830800-e7/12100830800-e7.jpg?ts=1781172643545&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyurethane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 12½ (7.4 INCHES)",
+          "sku": "545456443-800-30",
+          "mpn": "545456443-800-30",
+          "color": "Black",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 13½ (7.7 INCHES)",
+          "sku": "545456443-800-31",
+          "mpn": "545456443-800-31",
+          "color": "Black",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 1 (8.0 INCHES)",
+          "sku": "545456443-800-32",
+          "mpn": "545456443-800-32",
+          "color": "Black",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 2 (8.2 INCHES)",
+          "sku": "545456443-800-33",
+          "mpn": "545456443-800-33",
+          "color": "Black",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 2½ (8.5 INCHES)",
+          "sku": "545456443-800-34",
+          "mpn": "545456443-800-34",
+          "color": "Black",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 3½ (8.8 INCHES)",
+          "sku": "545456443-800-35",
+          "mpn": "545456443-800-35",
+          "color": "Black",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 4 (9.0 INCHES)",
+          "sku": "545456443-800-36",
+          "mpn": "545456443-800-36",
+          "color": "Black",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 5 (9.3 INCHES)",
+          "sku": "545456443-800-37",
+          "mpn": "545456443-800-37",
+          "color": "Black",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 5½ (9.5 INCHES)",
+          "sku": "545456443-800-38",
+          "mpn": "545456443-800-38",
+          "color": "Black",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 6 (9.8 INCHES)",
+          "sku": "545456443-800-39",
+          "mpn": "545456443-800-39",
+          "color": "Black",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LACED BOOTS - Black - 7 (10.0 INCHES)",
+          "sku": "545456443-800-40",
+          "mpn": "545456443-800-40",
+          "color": "Black",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LACED BOOTS",
+      "product_group_id": "12100830",
+      "brand": "ZARA",
+      "description": "Laced boots with front closure. Includes a back pull tab for ease and features a chunky rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "100% polyurethane",
+      "composition": "UPPER: 100% polyurethane | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyurethane",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LACED BOOTS - Black - 12½ (7.4 INCHES)",
+          "sku": "545456443-800-30",
+          "mpn": "545456443-800-30",
+          "color_name": "Black",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 13½ (7.7 INCHES)",
+          "sku": "545456443-800-31",
+          "mpn": "545456443-800-31",
+          "color_name": "Black",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 1 (8.0 INCHES)",
+          "sku": "545456443-800-32",
+          "mpn": "545456443-800-32",
+          "color_name": "Black",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 2 (8.2 INCHES)",
+          "sku": "545456443-800-33",
+          "mpn": "545456443-800-33",
+          "color_name": "Black",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 2½ (8.5 INCHES)",
+          "sku": "545456443-800-34",
+          "mpn": "545456443-800-34",
+          "color_name": "Black",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 3½ (8.8 INCHES)",
+          "sku": "545456443-800-35",
+          "mpn": "545456443-800-35",
+          "color_name": "Black",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 4 (9.0 INCHES)",
+          "sku": "545456443-800-36",
+          "mpn": "545456443-800-36",
+          "color_name": "Black",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 5 (9.3 INCHES)",
+          "sku": "545456443-800-37",
+          "mpn": "545456443-800-37",
+          "color_name": "Black",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 5½ (9.5 INCHES)",
+          "sku": "545456443-800-38",
+          "mpn": "545456443-800-38",
+          "color_name": "Black",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 6 (9.8 INCHES)",
+          "sku": "545456443-800-39",
+          "mpn": "545456443-800-39",
+          "color_name": "Black",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        },
+        {
+          "name": "LACED BOOTS - Black - 7 (10.0 INCHES)",
+          "sku": "545456443-800-40",
+          "mpn": "545456443-800-40",
+          "color_name": "Black",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lace-up-boots-p12100830.html?v1=545456443",
+          "images": [
+            "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0fa9/cdd2/69e8479287b5/9f869c2eae3b/12100830800-e1/12100830800-e1.jpg?ts=1781172642576&w=1920",
+        "https://static.zara.net/assets/public/c631/4866/8db34f5f9f56/b2031ad8975d/12100830800001-p/12100830800001-p.jpg?ts=1783928380236&w=1920",
+        "https://static.zara.net/assets/public/34ea/7a8d/0ad74cdc8603/fc579a37cd67/12100830800-e2/12100830800-e2.jpg?ts=1781172643544&w=1920",
+        "https://static.zara.net/assets/public/77a3/6b21/003647049c9c/e016fb8124fa/12100830800-e3/12100830800-e3.jpg?ts=1781172643311&w=1920",
+        "https://static.zara.net/assets/public/cb13/ed84/faec4d85ac6c/6e2adfb77dfc/12100830800-e4/12100830800-e4.jpg?ts=1781172644076&w=1920",
+        "https://static.zara.net/assets/public/3d99/00b0/94d44b1590a0/7acba0a25ea2/12100830800-e5/12100830800-e5.jpg?ts=1781172643458&w=1920",
+        "https://static.zara.net/assets/public/8ad7/ba7b/52374e48b781/1adf35d0b079/12100830800-e6/12100830800-e6.jpg?ts=1781172643345&w=1920",
+        "https://static.zara.net/assets/public/3ae1/09c1/b65649939eb2/dd7539cb288f/12100830800-e7/12100830800-e7.jpg?ts=1781172643545&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nLaced boots with front closure. Includes a back pull tab for ease and features a chunky rubber sole.\nSIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 8,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4d74c0847d9af8c6f8b6854e631f65659447bf2f13ffbfe4f59157571ec0798a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

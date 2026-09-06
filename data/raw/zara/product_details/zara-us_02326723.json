@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:02326723",
+  "source_url": "https://www.zara.com/us/en/four-pack-of-star-and-heart-hair-clips-p02326723.html",
+  "final_url": "https://www.zara.com/us/en/four-pack-of-star-and-heart-hair-clips-p02326723.html",
+  "canonical_url": "https://www.zara.com/us/en/four-pack-of-star-and-heart-hair-clips-p02326723.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FOUR-PACK OF STAR AND HEART HAIR CLIPS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FOUR-PACK OF STAR AND HEART HAIR CLIPS",
+      "url": "https://www.zara.com/us/en/four-pack-of-star-and-heart-hair-clips-p02326723.html",
+      "productGroupID": "02326723",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of four clip-style barrettes. Features star and heart-shaped details.\nContains small parts, not suitable for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/0ddd/2054/e67d42228812/b1b0953dd5bc/02326723330-e1/02326723330-e1.jpg?ts=1784552837129&w=1920",
+        "https://static.zara.net/assets/public/8c63/b843/190d4a739ad1/61e8d753def9/02326723330-e2/02326723330-e2.jpg?ts=1784552844359&w=1920",
+        "https://static.zara.net/assets/public/1660/d7a9/dd904ad4bd51/9a3771b588cc/02326723330-e3/02326723330-e3.jpg?ts=1784552839456&w=1920",
+        "https://static.zara.net/assets/public/b973/0888/080e4b7fb407/106e8a93f39f/02326723330-e4/02326723330-e4.jpg?ts=1784552844551&w=1920"
+      ],
+      "material": "zinc/iron",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "84% zinc, 16% iron"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK OF STAR AND HEART HAIR CLIPS - Multicolored - 14",
+          "sku": "553001901-330-14",
+          "mpn": "553001901-330-14",
+          "color": "Multicolored",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/0ddd/2054/e67d42228812/b1b0953dd5bc/02326723330-e1/02326723330-e1.jpg?ts=1784552837129&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/four-pack-of-star-and-heart-hair-clips-p02326723.html?v1=553001901",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FOUR-PACK OF STAR AND HEART HAIR CLIPS",
+      "product_group_id": "02326723",
+      "brand": "ZARA",
+      "description": "Pack of four clip-style barrettes. Features star and heart-shaped details.\nContains small parts, not suitable for children under 3 years old.",
+      "material": "zinc/iron",
+      "composition": "OUTER SHELL: 84% zinc, 16% iron",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FOUR-PACK OF STAR AND HEART HAIR CLIPS - Multicolored - 14",
+          "sku": "553001901-330-14",
+          "mpn": "553001901-330-14",
+          "color_name": "Multicolored",
+          "size_name": "14",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-of-star-and-heart-hair-clips-p02326723.html?v1=553001901",
+          "images": [
+            "https://static.zara.net/assets/public/0ddd/2054/e67d42228812/b1b0953dd5bc/02326723330-e1/02326723330-e1.jpg?ts=1784552837129&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/0ddd/2054/e67d42228812/b1b0953dd5bc/02326723330-e1/02326723330-e1.jpg?ts=1784552837129&w=1920",
+        "https://static.zara.net/assets/public/8c63/b843/190d4a739ad1/61e8d753def9/02326723330-e2/02326723330-e2.jpg?ts=1784552844359&w=1920",
+        "https://static.zara.net/assets/public/1660/d7a9/dd904ad4bd51/9a3771b588cc/02326723330-e3/02326723330-e3.jpg?ts=1784552839456&w=1920",
+        "https://static.zara.net/assets/public/b973/0888/080e4b7fb407/106e8a93f39f/02326723330-e4/02326723330-e4.jpg?ts=1784552844551&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nPack of four clip-style barrettes. Features star and heart-shaped details.\nContains small parts, not suitable for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8bc312b3f77a4c1d5375584e5e62c311063b2e42c6f882732aa764458515ba3a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

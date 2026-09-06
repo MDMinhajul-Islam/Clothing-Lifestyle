@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:11248830",
+  "source_url": "https://www.zara.com/us/en/glitter-backpack-p11248830.html",
+  "final_url": "https://www.zara.com/us/en/glitter-backpack-p11248830.html",
+  "canonical_url": "https://www.zara.com/us/en/glitter-backpack-p11248830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "GLITTER BACKPACK",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "GLITTER BACKPACK",
+      "url": "https://www.zara.com/us/en/glitter-backpack-p11248830.html",
+      "productGroupID": "11248830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Clear backpack with a glitter finish. Features a main compartment with a zip closure and a front pocket with button closure. Includes side pockets, a top handle, and adjustable double shoulder straps.\n\nHeight x Length x Width: 11 x 7.9 x 6.3 inches (28 x 20 x 16 cm).",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/fdfd/41c2/2d0440c699f2/27f19b80156b/11248830050-e1/11248830050-e1.jpg?ts=1783939150264&w=1920",
+        "https://static.zara.net/assets/public/4e65/4a30/61be403da94d/53cc299c0e47/11248830050-e2/11248830050-e2.jpg?ts=1783939150017&w=1920",
+        "https://static.zara.net/assets/public/7fe8/66fd/2ded44b897ea/98d38d90574f/11248830050-e3/11248830050-e3.jpg?ts=1783939149843&w=1920",
+        "https://static.zara.net/assets/public/c2bc/b5d2/c580401dbe3d/2d62745f0cb1/11248830050-e4/11248830050-e4.jpg?ts=1783939150064&w=1920",
+        "https://static.zara.net/assets/public/3310/b9ae/d8b045f2bbbe/428485e9af88/11248830050-e5/11248830050-e5.jpg?ts=1783939149856&w=1920",
+        "https://static.zara.net/assets/public/b83d/6272/2c4e447fb93d/8f2ae16e15a1/11248830050-e6/11248830050-e6.jpg?ts=1783939149877&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyurethane thermoplastic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "GLITTER BACKPACK - Pink - ONE SIZE ONLY",
+          "sku": "549572420-050-53",
+          "mpn": "549572420-050-53",
+          "color": "Pink",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/fdfd/41c2/2d0440c699f2/27f19b80156b/11248830050-e1/11248830050-e1.jpg?ts=1783939150264&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "23.94",
+            "url": "https://www.zara.com/us/en/glitter-backpack-p11248830.html?v1=549572420",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "GLITTER BACKPACK",
+      "product_group_id": "11248830",
+      "brand": "ZARA",
+      "description": "Clear backpack with a glitter finish. Features a main compartment with a zip closure and a front pocket with button closure. Includes side pockets, a top handle, and adjustable double shoulder straps.\n\nHeight x Length x Width: 11 x 7.9 x 6.3 inches (28 x 20 x 16 cm).",
+      "material": null,
+      "composition": "LINING: 100% polyurethane thermoplastic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "GLITTER BACKPACK - Pink - ONE SIZE ONLY",
+          "sku": "549572420-050-53",
+          "mpn": "549572420-050-53",
+          "color_name": "Pink",
+          "size_name": "ONE SIZE ONLY",
+          "price": "23.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/glitter-backpack-p11248830.html?v1=549572420",
+          "images": [
+            "https://static.zara.net/assets/public/fdfd/41c2/2d0440c699f2/27f19b80156b/11248830050-e1/11248830050-e1.jpg?ts=1783939150264&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/fdfd/41c2/2d0440c699f2/27f19b80156b/11248830050-e1/11248830050-e1.jpg?ts=1783939150264&w=1920",
+        "https://static.zara.net/assets/public/4e65/4a30/61be403da94d/53cc299c0e47/11248830050-e2/11248830050-e2.jpg?ts=1783939150017&w=1920",
+        "https://static.zara.net/assets/public/7fe8/66fd/2ded44b897ea/98d38d90574f/11248830050-e3/11248830050-e3.jpg?ts=1783939149843&w=1920",
+        "https://static.zara.net/assets/public/c2bc/b5d2/c580401dbe3d/2d62745f0cb1/11248830050-e4/11248830050-e4.jpg?ts=1783939150064&w=1920",
+        "https://static.zara.net/assets/public/3310/b9ae/d8b045f2bbbe/428485e9af88/11248830050-e5/11248830050-e5.jpg?ts=1783939149856&w=1920",
+        "https://static.zara.net/assets/public/b83d/6272/2c4e447fb93d/8f2ae16e15a1/11248830050-e6/11248830050-e6.jpg?ts=1783939149877&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nClear backpack with a glitter finish. Features a main compartment with a zip closure and a front pocket with button closure. Includes side pockets, a top handle, and adjustable double shoulder straps.\nHeight x Length x Width: 11 x 7.9 x 6.3 inches (28 x 20 x 16 cm).",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "23.94",
+    "original_price": "39.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "23.94",
+    "dom_price": "39.90",
+    "normalized_price": "23.94",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '23.94' != DOM price '39.90'"
+  },
+  "source_content_hash": "35119100ffcf55e7411b925dc064a77ff745d74fb3b539648c7d85da4ba9d07c",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

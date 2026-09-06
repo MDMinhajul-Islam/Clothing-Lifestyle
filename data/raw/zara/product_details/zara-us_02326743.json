@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:02326743",
+  "source_url": "https://www.zara.com/us/en/embroidered-bow-hair-tie-with-clip-p02326743.html",
+  "final_url": "https://www.zara.com/us/en/embroidered-bow-hair-tie-with-clip-p02326743.html",
+  "canonical_url": "https://www.zara.com/us/en/embroidered-bow-hair-tie-with-clip-p02326743.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EMBROIDERED DENIM BOW HAIR CLAW",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "EMBROIDERED DENIM BOW HAIR CLAW",
+      "url": "https://www.zara.com/us/en/embroidered-bow-hair-tie-with-clip-p02326743.html",
+      "productGroupID": "02326743",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Elastic hair tie with denim bow appliqué, embroidered details, and a barrette-style claw. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/67c4/4852/ec874f558701/48e6e129e1e2/02326743407-e1/02326743407-e1.jpg?ts=1779110444679&w=1920",
+        "https://static.zara.net/assets/public/97c7/85a4/92004f678fd2/3dd38b35f49f/02326743407-e2/02326743407-e2.jpg?ts=1779110445192&w=1920",
+        "https://static.zara.net/assets/public/3d40/0e31/d6194ce09b5f/f358ad4b6d6e/02326743407-e3/02326743407-e3.jpg?ts=1779110444906&w=1920",
+        "https://static.zara.net/assets/public/cb2b/872a/0bb8401f882b/8dedc4d9e53f/02326743407-e4/02326743407-e4.jpg?ts=1779110443731&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED DENIM BOW HAIR CLAW - Blue - 14",
+          "sku": "545479237-407-14",
+          "mpn": "545479237-407-14",
+          "color": "Blue",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/67c4/4852/ec874f558701/48e6e129e1e2/02326743407-e1/02326743407-e1.jpg?ts=1779110444679&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/embroidered-bow-hair-tie-with-clip-p02326743.html?v1=545479237",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "EMBROIDERED DENIM BOW HAIR CLAW",
+      "product_group_id": "02326743",
+      "brand": "ZARA",
+      "description": "Elastic hair tie with denim bow appliqué, embroidered details, and a barrette-style claw. Contains small parts, not recommended for children under 3 years old.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "EMBROIDERED DENIM BOW HAIR CLAW - Blue - 14",
+          "sku": "545479237-407-14",
+          "mpn": "545479237-407-14",
+          "color_name": "Blue",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-bow-hair-tie-with-clip-p02326743.html?v1=545479237",
+          "images": [
+            "https://static.zara.net/assets/public/67c4/4852/ec874f558701/48e6e129e1e2/02326743407-e1/02326743407-e1.jpg?ts=1779110444679&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/67c4/4852/ec874f558701/48e6e129e1e2/02326743407-e1/02326743407-e1.jpg?ts=1779110444679&w=1920",
+        "https://static.zara.net/assets/public/97c7/85a4/92004f678fd2/3dd38b35f49f/02326743407-e2/02326743407-e2.jpg?ts=1779110445192&w=1920",
+        "https://static.zara.net/assets/public/3d40/0e31/d6194ce09b5f/f358ad4b6d6e/02326743407-e3/02326743407-e3.jpg?ts=1779110444906&w=1920",
+        "https://static.zara.net/assets/public/cb2b/872a/0bb8401f882b/8dedc4d9e53f/02326743407-e4/02326743407-e4.jpg?ts=1779110443731&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nElastic hair tie with denim bow appliqué, embroidered details, and a barrette-style claw. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a908202faa5784339eb27cbe63b62b74577bf257f3699b946ad93385eb40b499",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

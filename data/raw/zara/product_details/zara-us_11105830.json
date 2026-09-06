@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:11105830",
+  "source_url": "https://www.zara.com/us/en/bear-charm-shoulder-bag-p11105830.html",
+  "final_url": "https://www.zara.com/us/en/bear-charm-shoulder-bag-p11105830.html",
+  "canonical_url": "https://www.zara.com/us/en/bear-charm-shoulder-bag-p11105830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BEAR CHARM SHOULDER BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BEAR CHARM SHOULDER BAG",
+      "url": "https://www.zara.com/us/en/bear-charm-shoulder-bag-p11105830.html",
+      "productGroupID": "11105830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shoulder bag with bear charm. Features a zipper closure and adjustable shoulder strap.\n\nHeight x Length x Width: 4.3 x 9.4 x 2.4 inches (11 x 24 x 6 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/73df/4051/de904135b1a3/979538b59ac4/11105830400-e1/11105830400-e1.jpg?ts=1775720173950&w=1920",
+        "https://static.zara.net/assets/public/86de/f7fd/ffb048f9b564/482755ed59dc/11105830400-e2/11105830400-e2.jpg?ts=1775720166619&w=1920",
+        "https://static.zara.net/assets/public/a820/9965/423041daa07e/019cdc7092e5/11105830400-e3/11105830400-e3.jpg?ts=1775720165871&w=1920",
+        "https://static.zara.net/assets/public/a47f/54f9/7d5142beab32/697c806ff0d2/11105830400-e4/11105830400-e4.jpg?ts=1775720165641&w=1920",
+        "https://static.zara.net/assets/public/2c91/1a1d/9df84ba481dd/641dd97160fa/11105830400-e5/11105830400-e5.jpg?ts=1775720170649&w=1920",
+        "https://static.zara.net/assets/public/ab71/ed4c/925546c9805f/7d68a3188a49/11105830400-e6/11105830400-e6.jpg?ts=1775720166984&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BEAR CHARM SHOULDER BAG - Blue - ONE SIZE ONLY",
+          "sku": "554734610-400-53",
+          "mpn": "554734610-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/73df/4051/de904135b1a3/979538b59ac4/11105830400-e1/11105830400-e1.jpg?ts=1775720173950&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/bear-charm-shoulder-bag-p11105830.html?v1=554734610",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BEAR CHARM SHOULDER BAG",
+      "product_group_id": "11105830",
+      "brand": "ZARA",
+      "description": "Shoulder bag with bear charm. Features a zipper closure and adjustable shoulder strap.\n\nHeight x Length x Width: 4.3 x 9.4 x 2.4 inches (11 x 24 x 6 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BEAR CHARM SHOULDER BAG - Blue - ONE SIZE ONLY",
+          "sku": "554734610-400-53",
+          "mpn": "554734610-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bear-charm-shoulder-bag-p11105830.html?v1=554734610",
+          "images": [
+            "https://static.zara.net/assets/public/73df/4051/de904135b1a3/979538b59ac4/11105830400-e1/11105830400-e1.jpg?ts=1775720173950&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/73df/4051/de904135b1a3/979538b59ac4/11105830400-e1/11105830400-e1.jpg?ts=1775720173950&w=1920",
+        "https://static.zara.net/assets/public/86de/f7fd/ffb048f9b564/482755ed59dc/11105830400-e2/11105830400-e2.jpg?ts=1775720166619&w=1920",
+        "https://static.zara.net/assets/public/a820/9965/423041daa07e/019cdc7092e5/11105830400-e3/11105830400-e3.jpg?ts=1775720165871&w=1920",
+        "https://static.zara.net/assets/public/a47f/54f9/7d5142beab32/697c806ff0d2/11105830400-e4/11105830400-e4.jpg?ts=1775720165641&w=1920",
+        "https://static.zara.net/assets/public/2c91/1a1d/9df84ba481dd/641dd97160fa/11105830400-e5/11105830400-e5.jpg?ts=1775720170649&w=1920",
+        "https://static.zara.net/assets/public/ab71/ed4c/925546c9805f/7d68a3188a49/11105830400-e6/11105830400-e6.jpg?ts=1775720166984&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nShoulder bag with bear charm. Features a zipper closure and adjustable shoulder strap.\nHeight x Length x Width: 4.3 x 9.4 x 2.4 inches (11 x 24 x 6 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "563def313ff4b6d023f7358ce640c8d901dd1a20db44adfec9fdaa1738bc9b41",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

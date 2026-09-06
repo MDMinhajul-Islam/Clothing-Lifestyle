@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:04758748",
+  "source_url": "https://www.zara.com/us/en/striped-bandana-p04758748.html",
+  "final_url": "https://www.zara.com/us/en/striped-bandana-p04758748.html",
+  "canonical_url": "https://www.zara.com/us/en/striped-bandana-p04758748.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STRIPED BANDANA",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRIPED BANDANA",
+      "url": "https://www.zara.com/us/en/striped-bandana-p04758748.html",
+      "productGroupID": "04758748",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Thin bandana with stripe print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/5736/b231/941642e4b8e8/3c85d55411b9/04758748630-e1/04758748630-e1.jpg?ts=1780482232890&w=1920",
+        "https://static.zara.net/assets/public/f7c9/0cda/c31a43beaf9e/2e730b81fb27/04758748630-e2/04758748630-e2.jpg?ts=1780482233605&w=1920",
+        "https://static.zara.net/assets/public/af0f/c6dd/11304c8eb0e6/fe892a94eb04/04758748630-e3/04758748630-e3.jpg?ts=1780482233045&w=1920",
+        "https://static.zara.net/assets/public/af0f/9ee1/df644e14ab7f/25db74f65b79/04758748630-e4/04758748630-e4.jpg?ts=1780482232637&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRIPED BANDANA - Fuchsia - M",
+          "sku": "545400489-630-14",
+          "mpn": "545400489-630-14",
+          "color": "Fuchsia",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/5736/b231/941642e4b8e8/3c85d55411b9/04758748630-e1/04758748630-e1.jpg?ts=1780482232890&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/striped-bandana-p04758748.html?v1=545400489",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRIPED BANDANA",
+      "product_group_id": "04758748",
+      "brand": "ZARA",
+      "description": "Thin bandana with stripe print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STRIPED BANDANA - Fuchsia - M",
+          "sku": "545400489-630-14",
+          "mpn": "545400489-630-14",
+          "color_name": "Fuchsia",
+          "size_name": "M",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/striped-bandana-p04758748.html?v1=545400489",
+          "images": [
+            "https://static.zara.net/assets/public/5736/b231/941642e4b8e8/3c85d55411b9/04758748630-e1/04758748630-e1.jpg?ts=1780482232890&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/5736/b231/941642e4b8e8/3c85d55411b9/04758748630-e1/04758748630-e1.jpg?ts=1780482232890&w=1920",
+        "https://static.zara.net/assets/public/f7c9/0cda/c31a43beaf9e/2e730b81fb27/04758748630-e2/04758748630-e2.jpg?ts=1780482233605&w=1920",
+        "https://static.zara.net/assets/public/af0f/c6dd/11304c8eb0e6/fe892a94eb04/04758748630-e3/04758748630-e3.jpg?ts=1780482233045&w=1920",
+        "https://static.zara.net/assets/public/af0f/9ee1/df644e14ab7f/25db74f65b79/04758748630-e4/04758748630-e4.jpg?ts=1780482232637&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nThin bandana with stripe print.",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "c7770c6bb163bfca4af278175d166bdced043d3675513228b78d1dca82163de7",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

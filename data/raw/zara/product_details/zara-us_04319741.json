@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04319741",
+  "source_url": "https://www.zara.com/us/en/two-pack-star-necklaces-p04319741.html",
+  "final_url": "https://www.zara.com/us/en/two-pack-star-necklaces-p04319741.html",
+  "canonical_url": "https://www.zara.com/us/en/two-pack-star-necklaces-p04319741.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PACK OF TWO STAR NECKLACES",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PACK OF TWO STAR NECKLACES",
+      "url": "https://www.zara.com/us/en/two-pack-star-necklaces-p04319741.html",
+      "productGroupID": "04319741",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of two necklaces with adjustable back closure. Featuring small star pendants.\nContains small parts, not suitable for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/351b/2340/84bb4dba9aa2/21d610f96207/04319741808-e1/04319741808-e1.jpg?ts=1783597750765&w=1920",
+        "https://static.zara.net/assets/public/dade/69bd/91bd48278405/44a880ed37ac/04319741808-e2/04319741808-e2.jpg?ts=1783597749900&w=1920",
+        "https://static.zara.net/assets/public/eb69/12ce/3aec4d3d92e0/9b9a84fe5844/04319741808-e3/04319741808-e3.jpg?ts=1783597752250&w=1920",
+        "https://static.zara.net/assets/public/a586/d532/1223453183c5/fd9eb9f8e8c9/04319741808-e5/04319741808-e5.jpg?ts=1783597752897&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PACK OF TWO STAR NECKLACES - Silver - 14",
+          "sku": "545461464-808-14",
+          "mpn": "545461464-808-14",
+          "color": "Silver",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/351b/2340/84bb4dba9aa2/21d610f96207/04319741808-e1/04319741808-e1.jpg?ts=1783597750765&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/two-pack-star-necklaces-p04319741.html?v1=545461464",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PACK OF TWO STAR NECKLACES",
+      "product_group_id": "04319741",
+      "brand": "ZARA",
+      "description": "Pack of two necklaces with adjustable back closure. Featuring small star pendants.\nContains small parts, not suitable for children under 3 years old.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PACK OF TWO STAR NECKLACES - Silver - 14",
+          "sku": "545461464-808-14",
+          "mpn": "545461464-808-14",
+          "color_name": "Silver",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/two-pack-star-necklaces-p04319741.html?v1=545461464",
+          "images": [
+            "https://static.zara.net/assets/public/351b/2340/84bb4dba9aa2/21d610f96207/04319741808-e1/04319741808-e1.jpg?ts=1783597750765&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/351b/2340/84bb4dba9aa2/21d610f96207/04319741808-e1/04319741808-e1.jpg?ts=1783597750765&w=1920",
+        "https://static.zara.net/assets/public/dade/69bd/91bd48278405/44a880ed37ac/04319741808-e2/04319741808-e2.jpg?ts=1783597749900&w=1920",
+        "https://static.zara.net/assets/public/eb69/12ce/3aec4d3d92e0/9b9a84fe5844/04319741808-e3/04319741808-e3.jpg?ts=1783597752250&w=1920",
+        "https://static.zara.net/assets/public/a586/d532/1223453183c5/fd9eb9f8e8c9/04319741808-e5/04319741808-e5.jpg?ts=1783597752897&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nPack of two necklaces with adjustable back closure. Featuring small star pendants.\nContains small parts, not suitable for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 10,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "87dea96274cfd7cc9856bcde2b7dd233ac01e950eb219d68364c25755bb652c8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

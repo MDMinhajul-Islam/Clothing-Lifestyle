@@ -1,0 +1,177 @@
+{
+  "product_id": "zara-us:11150830",
+  "source_url": "https://www.zara.com/us/en/colorblock-backpack-p11150830.html",
+  "final_url": "https://www.zara.com/us/en/colorblock-backpack-p11150830.html",
+  "canonical_url": "https://www.zara.com/us/en/colorblock-backpack-p11150830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COLORBLOCK TECHNICAL BACKPACK",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COLORBLOCK TECHNICAL BACKPACK",
+      "url": "https://www.zara.com/us/en/colorblock-backpack-p11150830.html",
+      "productGroupID": "11150830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Colorblock technical backpack. Features a main compartment and front pocket with zip closure. Includes side pockets and double adjustable shoulder straps.\n\nHeight x Length x Width: 16.5 x 14.6 x 6.3 inches (42 x 37 x 16 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e192/7c67/f7df4cc79653/3198e11994a5/11150830050-e1/11150830050-e1.jpg?ts=1781015057524&w=1920",
+        "https://static.zara.net/assets/public/f802/e121/dbb14f938a54/21e71a600ac2/11150830050-e2/11150830050-e2.jpg?ts=1781015057953&w=1920",
+        "https://static.zara.net/assets/public/7dda/92da/39494ced96dc/4129c5c1883f/11150830050-e3/11150830050-e3.jpg?ts=1781015057818&w=1920",
+        "https://static.zara.net/assets/public/0332/5f91/08d54cd6ba99/deb37985c40b/11150830050-e4/11150830050-e4.jpg?ts=1781015057889&w=1920",
+        "https://static.zara.net/assets/public/6ded/2ea7/1449490ba773/1574c21f070a/11150830050-e5/11150830050-e5.jpg?ts=1781015057646&w=1920",
+        "https://static.zara.net/assets/public/8e2f/5a5f/91e9472c85f2/d9f6168f585e/11150830050-e6/11150830050-e6.jpg?ts=1781015056989&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polypropylene fibre"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COLORBLOCK TECHNICAL BACKPACK - Pink - ONE SIZE ONLY",
+          "sku": "545496322-050-53",
+          "mpn": "545496322-050-53",
+          "color": "Pink",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e192/7c67/f7df4cc79653/3198e11994a5/11150830050-e1/11150830050-e1.jpg?ts=1781015057524&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.94",
+            "url": "https://www.zara.com/us/en/colorblock-backpack-p11150830.html?v1=545496322",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORBLOCK TECHNICAL BACKPACK - Lilac - ONE SIZE ONLY",
+          "sku": "545496322-081-53",
+          "mpn": "545496322-081-53",
+          "color": "Lilac",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/0f0b/6986/07b34f968494/61e07f2db08a/11150830081-e1/11150830081-e1.jpg?ts=1781015060780&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.94",
+            "url": "https://www.zara.com/us/en/colorblock-backpack-p11150830.html?v1=545496321",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COLORBLOCK TECHNICAL BACKPACK",
+      "product_group_id": "11150830",
+      "brand": "ZARA",
+      "description": "Colorblock technical backpack. Features a main compartment and front pocket with zip closure. Includes side pockets and double adjustable shoulder straps.\n\nHeight x Length x Width: 16.5 x 14.6 x 6.3 inches (42 x 37 x 16 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester | FILLING: 100% polypropylene fibre",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COLORBLOCK TECHNICAL BACKPACK - Pink - ONE SIZE ONLY",
+          "sku": "545496322-050-53",
+          "mpn": "545496322-050-53",
+          "color_name": "Pink",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorblock-backpack-p11150830.html?v1=545496322",
+          "images": [
+            "https://static.zara.net/assets/public/e192/7c67/f7df4cc79653/3198e11994a5/11150830050-e1/11150830050-e1.jpg?ts=1781015057524&w=1920"
+          ]
+        },
+        {
+          "name": "COLORBLOCK TECHNICAL BACKPACK - Lilac - ONE SIZE ONLY",
+          "sku": "545496322-081-53",
+          "mpn": "545496322-081-53",
+          "color_name": "Lilac",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colorblock-backpack-p11150830.html?v1=545496321",
+          "images": [
+            "https://static.zara.net/assets/public/0f0b/6986/07b34f968494/61e07f2db08a/11150830081-e1/11150830081-e1.jpg?ts=1781015060780&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e192/7c67/f7df4cc79653/3198e11994a5/11150830050-e1/11150830050-e1.jpg?ts=1781015057524&w=1920",
+        "https://static.zara.net/assets/public/f802/e121/dbb14f938a54/21e71a600ac2/11150830050-e2/11150830050-e2.jpg?ts=1781015057953&w=1920",
+        "https://static.zara.net/assets/public/7dda/92da/39494ced96dc/4129c5c1883f/11150830050-e3/11150830050-e3.jpg?ts=1781015057818&w=1920",
+        "https://static.zara.net/assets/public/0332/5f91/08d54cd6ba99/deb37985c40b/11150830050-e4/11150830050-e4.jpg?ts=1781015057889&w=1920",
+        "https://static.zara.net/assets/public/6ded/2ea7/1449490ba773/1574c21f070a/11150830050-e5/11150830050-e5.jpg?ts=1781015057646&w=1920",
+        "https://static.zara.net/assets/public/8e2f/5a5f/91e9472c85f2/d9f6168f585e/11150830050-e6/11150830050-e6.jpg?ts=1781015056989&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Pink",
+    "Lilac"
+  ],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nColorblock technical backpack. Features a main compartment and front pocket with zip closure. Includes side pockets and double adjustable shoulder straps.\nHeight x Length x Width: 16.5 x 14.6 x 6.3 inches (42 x 37 x 16 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "29.94",
+    "original_price": "49.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "29.94",
+    "dom_price": "49.90",
+    "normalized_price": "29.94",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '29.94' != DOM price '49.90'"
+  },
+  "source_content_hash": "ed7eeb29e739c0aa7f31a7b171f347065ee7bb274ad8b3c5f02fb5e288eb2aaf",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

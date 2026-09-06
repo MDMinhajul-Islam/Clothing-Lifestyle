@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:00653645",
+  "source_url": "https://www.zara.com/us/en/foldable-star-print-umbrella-p00653645.html",
+  "final_url": "https://www.zara.com/us/en/foldable-star-print-umbrella-p00653645.html",
+  "canonical_url": "https://www.zara.com/us/en/foldable-star-print-umbrella-p00653645.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FOLDABLE STAR PRINT UMBRELLA",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FOLDABLE STAR PRINT UMBRELLA",
+      "url": "https://www.zara.com/us/en/foldable-star-print-umbrella-p00653645.html",
+      "productGroupID": "00653645",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Umbrella with combined handle and cord strap. Star print. Matching case. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6c90/4ce5/97ad4e3a9d33/d20327785912/00653645807-e1/00653645807-e1.jpg?ts=1764262439190&w=1920",
+        "https://static.zara.net/assets/public/a3f6/a5a8/c67245ecafc4/9211b7611b7e/00653645807-e2/00653645807-e2.jpg?ts=1764262439109&w=1920",
+        "https://static.zara.net/assets/public/cf2b/e9f0/76764104b1d7/06a133f9b80e/00653645807-e3/00653645807-e3.jpg?ts=1764262436281&w=1920",
+        "https://static.zara.net/assets/public/241a/420c/391a4b26bbe9/021ad3107517/00653645807-e4/00653645807-e4.jpg?ts=1764262435873&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FOLDABLE STAR PRINT UMBRELLA - Anthracite grey - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545461774-807-14",
+          "mpn": "545461774-807-14",
+          "color": "Anthracite grey",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6c90/4ce5/97ad4e3a9d33/d20327785912/00653645807-e1/00653645807-e1.jpg?ts=1764262439190&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/foldable-star-print-umbrella-p00653645.html?v1=545461774",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FOLDABLE STAR PRINT UMBRELLA",
+      "product_group_id": "00653645",
+      "brand": "ZARA",
+      "description": "Umbrella with combined handle and cord strap. Star print. Matching case. Contains small parts, not recommended for children under 3 years old.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FOLDABLE STAR PRINT UMBRELLA - Anthracite grey - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545461774-807-14",
+          "mpn": "545461774-807-14",
+          "color_name": "Anthracite grey",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/foldable-star-print-umbrella-p00653645.html?v1=545461774",
+          "images": [
+            "https://static.zara.net/assets/public/6c90/4ce5/97ad4e3a9d33/d20327785912/00653645807-e1/00653645807-e1.jpg?ts=1764262439190&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6c90/4ce5/97ad4e3a9d33/d20327785912/00653645807-e1/00653645807-e1.jpg?ts=1764262439190&w=1920",
+        "https://static.zara.net/assets/public/a3f6/a5a8/c67245ecafc4/9211b7611b7e/00653645807-e2/00653645807-e2.jpg?ts=1764262439109&w=1920",
+        "https://static.zara.net/assets/public/cf2b/e9f0/76764104b1d7/06a133f9b80e/00653645807-e3/00653645807-e3.jpg?ts=1764262436281&w=1920",
+        "https://static.zara.net/assets/public/241a/420c/391a4b26bbe9/021ad3107517/00653645807-e4/00653645807-e4.jpg?ts=1764262435873&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nUmbrella with combined handle and cord strap. Star print. Matching case. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d46a24202617fc8428ee586ddbc62554bc6ee8d15343441739924188c560d66e",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

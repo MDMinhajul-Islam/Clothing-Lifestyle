@@ -1,0 +1,169 @@
+{
+  "product_id": "zara-us:11276830",
+  "source_url": "https://www.zara.com/us/en/mini-shopper-p11276830.html",
+  "final_url": "https://www.zara.com/us/en/mini-shopper-p11276830.html",
+  "canonical_url": "https://www.zara.com/us/en/mini-shopper-p11276830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MINI SHOPPER",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MINI SHOPPER",
+      "url": "https://www.zara.com/us/en/mini-shopper-p11276830.html",
+      "productGroupID": "11276830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Mini shopper bag with contrasting topstitching detail. Features a main compartment and front pocket. Includes two handles and an adjustable shoulder strap.\n\nHeight x Width x Depth: 7.5 x 10.6 x 1.2 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/65a8/9ab0/c7d0465797b1/60ba61a92144/11276830300-e1/11276830300-e1.jpg?ts=1786965657074&w=1920",
+        "https://static.zara.net/assets/public/407c/e8fb/ae254c3a9bde/60a4b7c345fc/11276830300-e2/11276830300-e2.jpg?ts=1786965656771&w=1920",
+        "https://static.zara.net/assets/public/0c7c/799f/9b1049f3b3c5/7ae5040d844c/11276830300-e3/11276830300-e3.jpg?ts=1786965655430&w=1920",
+        "https://static.zara.net/assets/public/efc7/7be9/331a4b5b9276/209c5c4d63f7/11276830300-e4/11276830300-e4.jpg?ts=1786965655907&w=1920",
+        "https://static.zara.net/assets/public/4d45/6071/372044bcabd9/599a3b31659b/11276830300-e5/11276830300-e5.jpg?ts=1786965656752&w=1920",
+        "https://static.zara.net/assets/public/ad7f/474f/6c124987bb44/5c712be18825/11276830300-e6/11276830300-e6.jpg?ts=1786965657150&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MINI SHOPPER - Yellow - ONE SIZE ONLY",
+          "sku": "555475120-300-53",
+          "mpn": "555475120-300-53",
+          "color": "Yellow",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/65a8/9ab0/c7d0465797b1/60ba61a92144/11276830300-e1/11276830300-e1.jpg?ts=1786965657074&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/mini-shopper-p11276830.html?v1=555475120",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "MINI SHOPPER - Green - ONE SIZE ONLY",
+          "sku": "555475120-500-53",
+          "mpn": "555475120-500-53",
+          "color": "Green",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/9715/90fa/6ee24f9b893b/c196bbcab126/11276830500-e1/11276830500-e1.jpg?ts=1786975434411&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/mini-shopper-p11276830.html?v1=555475121",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MINI SHOPPER",
+      "product_group_id": "11276830",
+      "brand": "ZARA",
+      "description": "Mini shopper bag with contrasting topstitching detail. Features a main compartment and front pocket. Includes two handles and an adjustable shoulder strap.\n\nHeight x Width x Depth: 7.5 x 10.6 x 1.2 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MINI SHOPPER - Yellow - ONE SIZE ONLY",
+          "sku": "555475120-300-53",
+          "mpn": "555475120-300-53",
+          "color_name": "Yellow",
+          "size_name": "ONE SIZE ONLY",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mini-shopper-p11276830.html?v1=555475120",
+          "images": [
+            "https://static.zara.net/assets/public/65a8/9ab0/c7d0465797b1/60ba61a92144/11276830300-e1/11276830300-e1.jpg?ts=1786965657074&w=1920"
+          ]
+        },
+        {
+          "name": "MINI SHOPPER - Green - ONE SIZE ONLY",
+          "sku": "555475120-500-53",
+          "mpn": "555475120-500-53",
+          "color_name": "Green",
+          "size_name": "ONE SIZE ONLY",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/mini-shopper-p11276830.html?v1=555475121",
+          "images": [
+            "https://static.zara.net/assets/public/9715/90fa/6ee24f9b893b/c196bbcab126/11276830500-e1/11276830500-e1.jpg?ts=1786975434411&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/65a8/9ab0/c7d0465797b1/60ba61a92144/11276830300-e1/11276830300-e1.jpg?ts=1786965657074&w=1920",
+        "https://static.zara.net/assets/public/407c/e8fb/ae254c3a9bde/60a4b7c345fc/11276830300-e2/11276830300-e2.jpg?ts=1786965656771&w=1920",
+        "https://static.zara.net/assets/public/0c7c/799f/9b1049f3b3c5/7ae5040d844c/11276830300-e3/11276830300-e3.jpg?ts=1786965655430&w=1920",
+        "https://static.zara.net/assets/public/efc7/7be9/331a4b5b9276/209c5c4d63f7/11276830300-e4/11276830300-e4.jpg?ts=1786965655907&w=1920",
+        "https://static.zara.net/assets/public/4d45/6071/372044bcabd9/599a3b31659b/11276830300-e5/11276830300-e5.jpg?ts=1786965656752&w=1920",
+        "https://static.zara.net/assets/public/ad7f/474f/6c124987bb44/5c712be18825/11276830300-e6/11276830300-e6.jpg?ts=1786965657150&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Yellow",
+    "Green"
+  ],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nMini shopper bag with contrasting topstitching detail. Features a main compartment and front pocket. Includes two handles and an adjustable shoulder strap.\nHeight x Width x Depth: 7.5 x 10.6 x 1.2 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "38d63e9213bb408d59329ccd91d2d4388cac85c72962d8c8a8493c5aa4e72102",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

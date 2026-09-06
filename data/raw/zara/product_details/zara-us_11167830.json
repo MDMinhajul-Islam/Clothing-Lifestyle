@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:11167830",
+  "source_url": "https://www.zara.com/us/en/backpack-trolley-p11167830.html",
+  "final_url": "https://www.zara.com/us/en/backpack-trolley-p11167830.html",
+  "canonical_url": "https://www.zara.com/us/en/backpack-trolley-p11167830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BACKPACK TROLLEY",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BACKPACK TROLLEY",
+      "url": "https://www.zara.com/us/en/backpack-trolley-p11167830.html",
+      "productGroupID": "11167830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Back-to-school backpack trolley. Features three wheels, a lightweight frame, and an adjustable height handle for easy transport. Backpack not included.\n\nHeight x Length x Width: 35.4 x 13.8 x 7.9 inches (90 x 35 x 20 cm).",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/d4dc/bf07/f3d541dbaf29/7e55e1e45e02/11167830081-e1/11167830081-e1.jpg?ts=1781865135440&w=1920",
+        "https://static.zara.net/assets/public/4650/3062/3fb74884990c/447f462e1e1a/11167830081-e2/11167830081-e2.jpg?ts=1781865135437&w=1920",
+        "https://static.zara.net/assets/public/972f/0f05/23da4fa0bf79/d829f539a5eb/11167830081-e3/11167830081-e3.jpg?ts=1781865136243&w=1920",
+        "https://static.zara.net/assets/public/6d4f/2707/a3d447fab16b/3f000b5ee52a/11167830081-e4/11167830081-e4.jpg?ts=1781865135281&w=1920",
+        "https://static.zara.net/assets/public/d864/bb71/ca044e28a245/02c4f899b2e9/11167830081-e5/11167830081-e5.jpg?ts=1781865135126&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BACKPACK TROLLEY - Lilac - ONE SIZE ONLY",
+          "sku": "545466111-081-53",
+          "mpn": "545466111-081-53",
+          "color": "Lilac",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/d4dc/bf07/f3d541dbaf29/7e55e1e45e02/11167830081-e1/11167830081-e1.jpg?ts=1781865135440&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "35.9",
+            "url": "https://www.zara.com/us/en/backpack-trolley-p11167830.html?v1=545466111",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BACKPACK TROLLEY",
+      "product_group_id": "11167830",
+      "brand": "ZARA",
+      "description": "Back-to-school backpack trolley. Features three wheels, a lightweight frame, and an adjustable height handle for easy transport. Backpack not included.\n\nHeight x Length x Width: 35.4 x 13.8 x 7.9 inches (90 x 35 x 20 cm).",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BACKPACK TROLLEY - Lilac - ONE SIZE ONLY",
+          "sku": "545466111-081-53",
+          "mpn": "545466111-081-53",
+          "color_name": "Lilac",
+          "size_name": "ONE SIZE ONLY",
+          "price": "35.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/backpack-trolley-p11167830.html?v1=545466111",
+          "images": [
+            "https://static.zara.net/assets/public/d4dc/bf07/f3d541dbaf29/7e55e1e45e02/11167830081-e1/11167830081-e1.jpg?ts=1781865135440&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/d4dc/bf07/f3d541dbaf29/7e55e1e45e02/11167830081-e1/11167830081-e1.jpg?ts=1781865135440&w=1920",
+        "https://static.zara.net/assets/public/4650/3062/3fb74884990c/447f462e1e1a/11167830081-e2/11167830081-e2.jpg?ts=1781865135437&w=1920",
+        "https://static.zara.net/assets/public/972f/0f05/23da4fa0bf79/d829f539a5eb/11167830081-e3/11167830081-e3.jpg?ts=1781865136243&w=1920",
+        "https://static.zara.net/assets/public/6d4f/2707/a3d447fab16b/3f000b5ee52a/11167830081-e4/11167830081-e4.jpg?ts=1781865135281&w=1920",
+        "https://static.zara.net/assets/public/d864/bb71/ca044e28a245/02c4f899b2e9/11167830081-e5/11167830081-e5.jpg?ts=1781865135126&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "35.90",
+  "rendered_description": "Description\nBack-to-school backpack trolley. Features three wheels, a lightweight frame, and an adjustable height handle for easy transport. Backpack not included.\nHeight x Length x Width: 35.4 x 13.8 x 7.9 inches (90 x 35 x 20 cm).",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 5,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "35.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "35.90",
+    "dom_price": "35.90",
+    "normalized_price": "35.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "977e564296c85e171d167482cc3342a9935218f879ce17207aa8ec20659364bc",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

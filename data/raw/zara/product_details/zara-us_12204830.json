@@ -1,0 +1,475 @@
+{
+  "product_id": "zara-us:12204830",
+  "source_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html",
+  "final_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html",
+  "canonical_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SPORTY ANKLE BOOTS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SPORTY ANKLE BOOTS",
+      "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html",
+      "productGroupID": "12204830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Sporty ankle boot with a combination of panels. Features a lace-up closure and side zipper. Designed with a chunky, lugged rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920",
+        "https://static.zara.net/assets/public/7a27/24a0/86f34b128230/510e33b30adf/12204830102-e2/12204830102-e2.jpg?ts=1787731354797&w=1920",
+        "https://static.zara.net/assets/public/6b59/437f/68f54cd980a0/8e2212eae40f/12204830102-e3/12204830102-e3.jpg?ts=1787731351298&w=1920",
+        "https://static.zara.net/assets/public/25d0/7a22/c70d41699786/203e8bb2aaef/12204830102-e4/12204830102-e4.jpg?ts=1787731355092&w=1920",
+        "https://static.zara.net/assets/public/a720/79b0/b1b64c21a0b1/1336977235fd/12204830102-e5/12204830102-e5.jpg?ts=1787731352160&w=1920",
+        "https://static.zara.net/assets/public/0d99/1498/5f7140b7adfb/b8606b8e157c/12204830102-e6/12204830102-e6.jpg?ts=1787731351222&w=1920",
+        "https://static.zara.net/assets/public/8f78/57a7/c18345e09a96/f6510eebdf8b/12204830102-e7/12204830102-e7.jpg?ts=1787731354586&w=1920"
+      ],
+      "material": "polyester/polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "75% polyester, 25% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 12½ (7.4 INCHES)",
+          "sku": "545437201-102-30",
+          "mpn": "545437201-102-30",
+          "color": "Beige",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 13½ (7.7 INCHES)",
+          "sku": "545437201-102-31",
+          "mpn": "545437201-102-31",
+          "color": "Beige",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 1 (8.0 INCHES)",
+          "sku": "545437201-102-32",
+          "mpn": "545437201-102-32",
+          "color": "Beige",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 2 (8.2 INCHES)",
+          "sku": "545437201-102-33",
+          "mpn": "545437201-102-33",
+          "color": "Beige",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 2½ (8.5 INCHES)",
+          "sku": "545437201-102-34",
+          "mpn": "545437201-102-34",
+          "color": "Beige",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 3½ (8.8 INCHES)",
+          "sku": "545437201-102-35",
+          "mpn": "545437201-102-35",
+          "color": "Beige",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 4 (9.0 INCHES)",
+          "sku": "545437201-102-36",
+          "mpn": "545437201-102-36",
+          "color": "Beige",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 5 (9.3 INCHES)",
+          "sku": "545437201-102-37",
+          "mpn": "545437201-102-37",
+          "color": "Beige",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 5½ (9.5 INCHES)",
+          "sku": "545437201-102-38",
+          "mpn": "545437201-102-38",
+          "color": "Beige",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 6 (9.8 INCHES)",
+          "sku": "545437201-102-39",
+          "mpn": "545437201-102-39",
+          "color": "Beige",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SPORTY ANKLE BOOTS - Beige - 7 (10.0 INCHES)",
+          "sku": "545437201-102-40",
+          "mpn": "545437201-102-40",
+          "color": "Beige",
+          "size": "7 (10.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SPORTY ANKLE BOOTS",
+      "product_group_id": "12204830",
+      "brand": "ZARA",
+      "description": "Sporty ankle boot with a combination of panels. Features a lace-up closure and side zipper. Designed with a chunky, lugged rubber sole.\n\nSIZE 40: Shoes available in size 40.",
+      "material": "polyester/polyurethane",
+      "composition": "UPPER: 75% polyester, 25% polyurethane | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 12½ (7.4 INCHES)",
+          "sku": "545437201-102-30",
+          "mpn": "545437201-102-30",
+          "color_name": "Beige",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 13½ (7.7 INCHES)",
+          "sku": "545437201-102-31",
+          "mpn": "545437201-102-31",
+          "color_name": "Beige",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 1 (8.0 INCHES)",
+          "sku": "545437201-102-32",
+          "mpn": "545437201-102-32",
+          "color_name": "Beige",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 2 (8.2 INCHES)",
+          "sku": "545437201-102-33",
+          "mpn": "545437201-102-33",
+          "color_name": "Beige",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 2½ (8.5 INCHES)",
+          "sku": "545437201-102-34",
+          "mpn": "545437201-102-34",
+          "color_name": "Beige",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 3½ (8.8 INCHES)",
+          "sku": "545437201-102-35",
+          "mpn": "545437201-102-35",
+          "color_name": "Beige",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 4 (9.0 INCHES)",
+          "sku": "545437201-102-36",
+          "mpn": "545437201-102-36",
+          "color_name": "Beige",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 5 (9.3 INCHES)",
+          "sku": "545437201-102-37",
+          "mpn": "545437201-102-37",
+          "color_name": "Beige",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 5½ (9.5 INCHES)",
+          "sku": "545437201-102-38",
+          "mpn": "545437201-102-38",
+          "color_name": "Beige",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 6 (9.8 INCHES)",
+          "sku": "545437201-102-39",
+          "mpn": "545437201-102-39",
+          "color_name": "Beige",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        },
+        {
+          "name": "SPORTY ANKLE BOOTS - Beige - 7 (10.0 INCHES)",
+          "sku": "545437201-102-40",
+          "mpn": "545437201-102-40",
+          "color_name": "Beige",
+          "size_name": "7 (10.0 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/sporty-ankle-boot-p12204830.html?v1=545437201",
+          "images": [
+            "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a2a3/c3eb/94e04af6b491/d3af159b5e0b/12204830102-e1/12204830102-e1.jpg?ts=1787731354333&w=1920",
+        "https://static.zara.net/assets/public/7a27/24a0/86f34b128230/510e33b30adf/12204830102-e2/12204830102-e2.jpg?ts=1787731354797&w=1920",
+        "https://static.zara.net/assets/public/6b59/437f/68f54cd980a0/8e2212eae40f/12204830102-e3/12204830102-e3.jpg?ts=1787731351298&w=1920",
+        "https://static.zara.net/assets/public/25d0/7a22/c70d41699786/203e8bb2aaef/12204830102-e4/12204830102-e4.jpg?ts=1787731355092&w=1920",
+        "https://static.zara.net/assets/public/a720/79b0/b1b64c21a0b1/1336977235fd/12204830102-e5/12204830102-e5.jpg?ts=1787731352160&w=1920",
+        "https://static.zara.net/assets/public/0d99/1498/5f7140b7adfb/b8606b8e157c/12204830102-e6/12204830102-e6.jpg?ts=1787731351222&w=1920",
+        "https://static.zara.net/assets/public/8f78/57a7/c18345e09a96/f6510eebdf8b/12204830102-e7/12204830102-e7.jpg?ts=1787731354586&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nSporty ankle boot with a combination of panels. Features a lace-up closure and side zipper. Designed with a chunky, lugged rubber sole.\nSIZE 40: Shoes available in size 40.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 7,
+  "variants_count": 11,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f095b8e2e3f61e157a4bd34142becdd59bf27086bdc8988f57c1706e1f24dd8f",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

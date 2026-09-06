@@ -1,0 +1,115 @@
+{
+  "product_id": "zara-us:20310513",
+  "source_url": "https://www.zara.com/us/en/princess-snow-white---disney-edt-30-ml--1-01-fl--oz--p20310513.html",
+  "final_url": "https://www.zara.com/us/en/princess-snow-white---disney-edt-30-ml--1-01-fl--oz--p20310513.html",
+  "canonical_url": "https://www.zara.com/us/en/princess-snow-white---disney-edt-30-ml--1-01-fl--oz--p20310513.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PRINCESS SNOW WHITE © DISNEY EDT 30 ML (1.01 FL. OZ)",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PRINCESS SNOW WHITE © DISNEY EDT 30 ML (1.01 FL. OZ)",
+      "url": "https://www.zara.com/us/en/princess-snow-white---disney-edt-30-ml--1-01-fl--oz--p20310513.html",
+      "productGroupID": "20310513",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Inspired by the magical universe of © Disney princesses. This fragrance combines the sweetness of coconut with the delicacy of jasmine and the enveloping softness of amber.\nA light and enchanting aroma, designed for everyday wear, with a soft and luminous character.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/49bf/b064/a8f54111995e/22c14e22d17c/20310513999-e1/20310513999-e1.jpg?ts=1777385728510&w=1920",
+        "https://static.zara.net/assets/public/5d6d/f4ca/cd704739a588/959b8b0d8877/20310513999-e2/20310513999-e2.jpg?ts=1777385732616&w=1920",
+        "https://static.zara.net/assets/public/5697/887f/a0b74c35bd34/27a46232d388/20310513999-e3/20310513999-e3.jpg?ts=1777385729502&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PRINCESS SNOW WHITE © DISNEY EDT 30 ML (1.01 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545413432-999-99",
+          "mpn": "545413432-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/49bf/b064/a8f54111995e/22c14e22d17c/20310513999-e1/20310513999-e1.jpg?ts=1777385728510&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/princess-snow-white---disney-edt-30-ml--1-01-fl--oz--p20310513.html?v1=545413432",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PRINCESS SNOW WHITE © DISNEY EDT 30 ML (1.01 FL. OZ)",
+      "product_group_id": "20310513",
+      "brand": "ZARA",
+      "description": "Inspired by the magical universe of © Disney princesses. This fragrance combines the sweetness of coconut with the delicacy of jasmine and the enveloping softness of amber.\nA light and enchanting aroma, designed for everyday wear, with a soft and luminous character.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PRINCESS SNOW WHITE © DISNEY EDT 30 ML (1.01 FL. OZ) - ONE SIZE ONLY",
+          "sku": "545413432-999-99",
+          "mpn": "545413432-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/princess-snow-white---disney-edt-30-ml--1-01-fl--oz--p20310513.html?v1=545413432",
+          "images": [
+            "https://static.zara.net/assets/public/49bf/b064/a8f54111995e/22c14e22d17c/20310513999-e1/20310513999-e1.jpg?ts=1777385728510&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/49bf/b064/a8f54111995e/22c14e22d17c/20310513999-e1/20310513999-e1.jpg?ts=1777385728510&w=1920",
+        "https://static.zara.net/assets/public/5d6d/f4ca/cd704739a588/959b8b0d8877/20310513999-e2/20310513999-e2.jpg?ts=1777385732616&w=1920",
+        "https://static.zara.net/assets/public/5697/887f/a0b74c35bd34/27a46232d388/20310513999-e3/20310513999-e3.jpg?ts=1777385729502&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nInspired by the magical universe of © Disney princesses. This fragrance combines the sweetness of coconut with the delicacy of jasmine and the enveloping softness of amber.\nA light and enchanting aroma, designed for everyday wear, with a soft and luminous character.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "8ac743327c4447911a5fba2b3004b627c2894306fa6c58c56c35db5c06c6a99a",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

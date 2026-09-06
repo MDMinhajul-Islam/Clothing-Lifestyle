@@ -1,0 +1,124 @@
+{
+  "product_id": "zara-us:04319746",
+  "source_url": "https://www.zara.com/us/en/pack-of-beaded-rings-and-bracelet-smileyworld---p04319746.html",
+  "final_url": "https://www.zara.com/us/en/pack-of-beaded-rings-and-bracelet-smileyworld---p04319746.html",
+  "canonical_url": "https://www.zara.com/us/en/pack-of-beaded-rings-and-bracelet-smileyworld---p04319746.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PACK OF RINGS AND BEADED BRACELET SMILEYWORLD ®",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PACK OF RINGS AND BEADED BRACELET SMILEYWORLD ®",
+      "url": "https://www.zara.com/us/en/pack-of-beaded-rings-and-bracelet-smileyworld---p04319746.html",
+      "productGroupID": "04319746",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of two rings and a beaded bracelet with an adjustable closure. SMILEYWORLD ® details.\nContains small parts, not recommended for children under 3 years.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/3200/81c9/57e34e228492/0a0f8368f3ba/04319746330-e1/04319746330-e1.jpg?ts=1780658703285&w=1920",
+        "https://static.zara.net/assets/public/4499/ff5f/53234dc1b853/ee538ccbd471/04319746330-e2/04319746330-e2.jpg?ts=1780658703821&w=1920",
+        "https://static.zara.net/assets/public/6d0f/aa3d/6ead41aab3ac/f816098ec90b/04319746330-e3/04319746330-e3.jpg?ts=1780658703731&w=1920",
+        "https://static.zara.net/assets/public/1448/7323/00494b89a423/6ab48c8fc93c/04319746330-e4/04319746330-e4.jpg?ts=1780658703393&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PACK OF RINGS AND BEADED BRACELET SMILEYWORLD ® - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545400516-330-14",
+          "mpn": "545400516-330-14",
+          "color": "Multicolored",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/3200/81c9/57e34e228492/0a0f8368f3ba/04319746330-e1/04319746330-e1.jpg?ts=1780658703285&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/pack-of-beaded-rings-and-bracelet-smileyworld---p04319746.html?v1=545400516",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PACK OF RINGS AND BEADED BRACELET SMILEYWORLD ®",
+      "product_group_id": "04319746",
+      "brand": "ZARA",
+      "description": "Pack of two rings and a beaded bracelet with an adjustable closure. SMILEYWORLD ® details.\nContains small parts, not recommended for children under 3 years.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PACK OF RINGS AND BEADED BRACELET SMILEYWORLD ® - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545400516-330-14",
+          "mpn": "545400516-330-14",
+          "color_name": "Multicolored",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pack-of-beaded-rings-and-bracelet-smileyworld---p04319746.html?v1=545400516",
+          "images": [
+            "https://static.zara.net/assets/public/3200/81c9/57e34e228492/0a0f8368f3ba/04319746330-e1/04319746330-e1.jpg?ts=1780658703285&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/3200/81c9/57e34e228492/0a0f8368f3ba/04319746330-e1/04319746330-e1.jpg?ts=1780658703285&w=1920",
+        "https://static.zara.net/assets/public/4499/ff5f/53234dc1b853/ee538ccbd471/04319746330-e2/04319746330-e2.jpg?ts=1780658703821&w=1920",
+        "https://static.zara.net/assets/public/6d0f/aa3d/6ead41aab3ac/f816098ec90b/04319746330-e3/04319746330-e3.jpg?ts=1780658703731&w=1920",
+        "https://static.zara.net/assets/public/1448/7323/00494b89a423/6ab48c8fc93c/04319746330-e4/04319746330-e4.jpg?ts=1780658703393&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nPack of two rings and a beaded bracelet with an adjustable closure. SMILEYWORLD ® details.\nContains small parts, not recommended for children under 3 years.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "da9f6c4d250d1ebfb33f7242f422df9515883392d5b03274f4596ec6329a4051",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

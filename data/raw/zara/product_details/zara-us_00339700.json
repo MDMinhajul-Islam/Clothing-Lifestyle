@@ -1,0 +1,678 @@
+{
+  "product_id": "zara-us:00339700",
+  "source_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html",
+  "final_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html",
+  "canonical_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "RIB KNIT STRIPED TOP",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "RIB KNIT STRIPED TOP",
+      "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html",
+      "productGroupID": "00339700",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Boat neck top with straps and short sleeves. Striped print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920",
+        "https://static.zara.net/assets/public/7544/fe55/09884016bfda/ba558b9f5f0d/00339700104-e2/00339700104-e2.jpg?ts=1780387173655&w=1920",
+        "https://static.zara.net/assets/public/6209/de8a/b7f64b7bb9de/57c34d13b1fe/00339700104-e3/00339700104-e3.jpg?ts=1780387174950&w=1920",
+        "https://static.zara.net/assets/public/49c8/d685/2ca743bf8d7f/993039871b02/00339700104-e4/00339700104-e4.jpg?ts=1780387173641&w=1920",
+        "https://static.zara.net/assets/public/5dbe/41e1/d33f487cafd2/7561cd7893cb/00339700104100-p/00339700104100-p.jpg?ts=1783409796558&w=1920",
+        "https://static.zara.net/assets/public/83b3/c7f9/07e34d878b6a/6a4921a662ae/00339700104100-a1/00339700104100-a1.jpg?ts=1783409791116&w=1920"
+      ],
+      "material": "cotton/modal/polyamide",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "42% cotton, 40% modal, 18% polyamide"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - striped - 6-7 years (48,0 INCHES)",
+          "sku": "545461930-104-7",
+          "mpn": "545461930-104-7",
+          "color": "striped",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - striped - 8-9 years (51,6 INCHES)",
+          "sku": "545461930-104-9",
+          "mpn": "545461930-104-9",
+          "color": "striped",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - striped - 9-10 years (55,1 INCHES)",
+          "sku": "545461930-104-10",
+          "mpn": "545461930-104-10",
+          "color": "striped",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - striped - 11-12 years (58,3 INCHES)",
+          "sku": "545461930-104-12",
+          "mpn": "545461930-104-12",
+          "color": "striped",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - striped - 12-13 years (61,4 INCHES)",
+          "sku": "545461930-104-13",
+          "mpn": "545461930-104-13",
+          "color": "striped",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - striped - 13-14 years (64,6 INCHES)",
+          "sku": "545461930-104-14",
+          "mpn": "545461930-104-14",
+          "color": "striped",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461930-446-7",
+          "mpn": "545461930-446-7",
+          "color": "Electric blue",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 8-9 years (51,6 INCHES)",
+          "sku": "545461930-446-9",
+          "mpn": "545461930-446-9",
+          "color": "Electric blue",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461930-446-10",
+          "mpn": "545461930-446-10",
+          "color": "Electric blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 11-12 years (58,3 INCHES)",
+          "sku": "545461930-446-12",
+          "mpn": "545461930-446-12",
+          "color": "Electric blue",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 12-13 years (61,4 INCHES)",
+          "sku": "545461930-446-13",
+          "mpn": "545461930-446-13",
+          "color": "Electric blue",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461930-446-14",
+          "mpn": "545461930-446-14",
+          "color": "Electric blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 6-7 years (48,0 INCHES)",
+          "sku": "545461930-251-7",
+          "mpn": "545461930-251-7",
+          "color": "Oyster-white",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 8-9 years (51,6 INCHES)",
+          "sku": "545461930-251-9",
+          "mpn": "545461930-251-9",
+          "color": "Oyster-white",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 9-10 years (55,1 INCHES)",
+          "sku": "545461930-251-10",
+          "mpn": "545461930-251-10",
+          "color": "Oyster-white",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 11-12 years (58,3 INCHES)",
+          "sku": "545461930-251-12",
+          "mpn": "545461930-251-12",
+          "color": "Oyster-white",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 12-13 years (61,4 INCHES)",
+          "sku": "545461930-251-13",
+          "mpn": "545461930-251-13",
+          "color": "Oyster-white",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 13-14 years (64,6 INCHES)",
+          "sku": "545461930-251-14",
+          "mpn": "545461930-251-14",
+          "color": "Oyster-white",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "RIB KNIT STRIPED TOP",
+      "product_group_id": "00339700",
+      "brand": "ZARA",
+      "description": "Boat neck top with straps and short sleeves. Striped print.",
+      "material": "cotton/modal/polyamide",
+      "composition": "OUTER SHELL: 42% cotton, 40% modal, 18% polyamide",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "RIB KNIT STRIPED TOP - striped - 6-7 years (48,0 INCHES)",
+          "sku": "545461930-104-7",
+          "mpn": "545461930-104-7",
+          "color_name": "striped",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+          "images": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - striped - 8-9 years (51,6 INCHES)",
+          "sku": "545461930-104-9",
+          "mpn": "545461930-104-9",
+          "color_name": "striped",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+          "images": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - striped - 9-10 years (55,1 INCHES)",
+          "sku": "545461930-104-10",
+          "mpn": "545461930-104-10",
+          "color_name": "striped",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+          "images": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - striped - 11-12 years (58,3 INCHES)",
+          "sku": "545461930-104-12",
+          "mpn": "545461930-104-12",
+          "color_name": "striped",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+          "images": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - striped - 12-13 years (61,4 INCHES)",
+          "sku": "545461930-104-13",
+          "mpn": "545461930-104-13",
+          "color_name": "striped",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+          "images": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - striped - 13-14 years (64,6 INCHES)",
+          "sku": "545461930-104-14",
+          "mpn": "545461930-104-14",
+          "color_name": "striped",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461930",
+          "images": [
+            "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 6-7 years (48,0 INCHES)",
+          "sku": "545461930-446-7",
+          "mpn": "545461930-446-7",
+          "color_name": "Electric blue",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+          "images": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 8-9 years (51,6 INCHES)",
+          "sku": "545461930-446-9",
+          "mpn": "545461930-446-9",
+          "color_name": "Electric blue",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+          "images": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 9-10 years (55,1 INCHES)",
+          "sku": "545461930-446-10",
+          "mpn": "545461930-446-10",
+          "color_name": "Electric blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+          "images": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 11-12 years (58,3 INCHES)",
+          "sku": "545461930-446-12",
+          "mpn": "545461930-446-12",
+          "color_name": "Electric blue",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+          "images": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 12-13 years (61,4 INCHES)",
+          "sku": "545461930-446-13",
+          "mpn": "545461930-446-13",
+          "color_name": "Electric blue",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+          "images": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Electric blue - 13-14 years (64,6 INCHES)",
+          "sku": "545461930-446-14",
+          "mpn": "545461930-446-14",
+          "color_name": "Electric blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461931",
+          "images": [
+            "https://static.zara.net/assets/public/a70d/f682/438f4a6ab891/6ba1d818b744/00339700446-e1/00339700446-e1.jpg?ts=1780387170233&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 6-7 years (48,0 INCHES)",
+          "sku": "545461930-251-7",
+          "mpn": "545461930-251-7",
+          "color_name": "Oyster-white",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+          "images": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 8-9 years (51,6 INCHES)",
+          "sku": "545461930-251-9",
+          "mpn": "545461930-251-9",
+          "color_name": "Oyster-white",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+          "images": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 9-10 years (55,1 INCHES)",
+          "sku": "545461930-251-10",
+          "mpn": "545461930-251-10",
+          "color_name": "Oyster-white",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+          "images": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 11-12 years (58,3 INCHES)",
+          "sku": "545461930-251-12",
+          "mpn": "545461930-251-12",
+          "color_name": "Oyster-white",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+          "images": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 12-13 years (61,4 INCHES)",
+          "sku": "545461930-251-13",
+          "mpn": "545461930-251-13",
+          "color_name": "Oyster-white",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+          "images": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ]
+        },
+        {
+          "name": "RIB KNIT STRIPED TOP - Oyster-white - 13-14 years (64,6 INCHES)",
+          "sku": "545461930-251-14",
+          "mpn": "545461930-251-14",
+          "color_name": "Oyster-white",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ribbed-knit-top-p00339700.html?v1=545461932",
+          "images": [
+            "https://static.zara.net/assets/public/8656/cdf7/677b49fb9a2c/31c56c4c6341/00339700251-e1/00339700251-e1.jpg?ts=1780387166211&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/b073/5547/58744470adba/6de28ddcd06b/00339700104-e1/00339700104-e1.jpg?ts=1780387175296&w=1920",
+        "https://static.zara.net/assets/public/7544/fe55/09884016bfda/ba558b9f5f0d/00339700104-e2/00339700104-e2.jpg?ts=1780387173655&w=1920",
+        "https://static.zara.net/assets/public/6209/de8a/b7f64b7bb9de/57c34d13b1fe/00339700104-e3/00339700104-e3.jpg?ts=1780387174950&w=1920",
+        "https://static.zara.net/assets/public/49c8/d685/2ca743bf8d7f/993039871b02/00339700104-e4/00339700104-e4.jpg?ts=1780387173641&w=1920",
+        "https://static.zara.net/assets/public/5dbe/41e1/d33f487cafd2/7561cd7893cb/00339700104100-p/00339700104100-p.jpg?ts=1783409796558&w=1920",
+        "https://static.zara.net/assets/public/83b3/c7f9/07e34d878b6a/6a4921a662ae/00339700104100-a1/00339700104100-a1.jpg?ts=1783409791116&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "striped",
+    "Electric blue",
+    "Oyster-white"
+  ],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nBoat neck top with straps and short sleeves. Striped print.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 8,
+  "variants_count": 18,
+  "colors_count": 3,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5c0f54fe93b03c218dd348ec87468b277029d93b511101dfe17f5973b6b348b2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

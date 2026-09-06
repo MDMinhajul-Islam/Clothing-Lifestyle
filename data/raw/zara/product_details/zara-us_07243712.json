@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:07243712",
+  "source_url": "https://www.zara.com/us/en/four-pack-beaded-bracelets-p07243712.html",
+  "final_url": "https://www.zara.com/us/en/four-pack-beaded-bracelets-p07243712.html",
+  "canonical_url": "https://www.zara.com/us/en/four-pack-beaded-bracelets-p07243712.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FOUR-PACK BEADED BRACELETS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FOUR-PACK BEADED BRACELETS",
+      "url": "https://www.zara.com/us/en/four-pack-beaded-bracelets-p07243712.html",
+      "productGroupID": "07243712",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of four beaded bracelets. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c6e5/71d5/7ad147338109/73fae551095b/07243712330-e1/07243712330-e1.jpg?ts=1786955657155&w=1920",
+        "https://static.zara.net/assets/public/c794/1cb6/d01845868955/b1e029ac28d9/07243712330-e2/07243712330-e2.jpg?ts=1786955666018&w=1920",
+        "https://static.zara.net/assets/public/966c/f8fb/e0094d39b911/5058ae85b8c7/07243712330-e3/07243712330-e3.jpg?ts=1786955656237&w=1920",
+        "https://static.zara.net/assets/public/482b/45d0/0d7c45c0bda1/b9cb8f18db4d/07243712330-e4/07243712330-e4.jpg?ts=1786955665553&w=1920"
+      ],
+      "material": "glass/mango tree wood/plastic",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "50% glass, 35% mango tree wood, 15% plastic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FOUR-PACK BEADED BRACELETS - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "550550421-330-14",
+          "mpn": "550550421-330-14",
+          "color": "Multicolored",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/c6e5/71d5/7ad147338109/73fae551095b/07243712330-e1/07243712330-e1.jpg?ts=1786955657155&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/four-pack-beaded-bracelets-p07243712.html?v1=550550421",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FOUR-PACK BEADED BRACELETS",
+      "product_group_id": "07243712",
+      "brand": "ZARA",
+      "description": "Pack of four beaded bracelets. Contains small parts, not recommended for children under 3 years old.",
+      "material": "glass/mango tree wood/plastic",
+      "composition": "OUTER SHELL: 50% glass, 35% mango tree wood, 15% plastic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FOUR-PACK BEADED BRACELETS - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "550550421-330-14",
+          "mpn": "550550421-330-14",
+          "color_name": "Multicolored",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-beaded-bracelets-p07243712.html?v1=550550421",
+          "images": [
+            "https://static.zara.net/assets/public/c6e5/71d5/7ad147338109/73fae551095b/07243712330-e1/07243712330-e1.jpg?ts=1786955657155&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c6e5/71d5/7ad147338109/73fae551095b/07243712330-e1/07243712330-e1.jpg?ts=1786955657155&w=1920",
+        "https://static.zara.net/assets/public/c794/1cb6/d01845868955/b1e029ac28d9/07243712330-e2/07243712330-e2.jpg?ts=1786955666018&w=1920",
+        "https://static.zara.net/assets/public/966c/f8fb/e0094d39b911/5058ae85b8c7/07243712330-e3/07243712330-e3.jpg?ts=1786955656237&w=1920",
+        "https://static.zara.net/assets/public/482b/45d0/0d7c45c0bda1/b9cb8f18db4d/07243712330-e4/07243712330-e4.jpg?ts=1786955665553&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nPack of four beaded bracelets. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "4e8e3488797a32cd6dcaa30439ffe4dfe8b5b5679ebc14024a5359a1078bc267",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

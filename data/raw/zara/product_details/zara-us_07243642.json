@@ -1,0 +1,126 @@
+{
+  "product_id": "zara-us:07243642",
+  "source_url": "https://www.zara.com/us/en/paisley-beaded-fringe-bandana-p07243642.html",
+  "final_url": "https://www.zara.com/us/en/paisley-beaded-fringe-bandana-p07243642.html",
+  "canonical_url": "https://www.zara.com/us/en/paisley-beaded-fringe-bandana-p07243642.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PAISLEY BEADED FRINGE BANDANA",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PAISLEY BEADED FRINGE BANDANA",
+      "url": "https://www.zara.com/us/en/paisley-beaded-fringe-bandana-p07243642.html",
+      "productGroupID": "07243642",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Bandana with a paisley print. Features fringe appliqué with beads.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/474d/b03d/7bd34ca7b85e/faf9df23e64e/07243642800-e1/07243642800-e1.jpg?ts=1780492915552&w=1920",
+        "https://static.zara.net/assets/public/9cc0/fc59/30044dcab163/fc9cdfe891a8/07243642800-e2/07243642800-e2.jpg?ts=1780492913925&w=1920",
+        "https://static.zara.net/assets/public/b1fb/7338/ba48424b9a85/63de70fe7781/07243642800-e3/07243642800-e3.jpg?ts=1780492913442&w=1920",
+        "https://static.zara.net/assets/public/4e69/8444/c4184d84a3b8/768c6cf89c14/07243642800-e4/07243642800-e4.jpg?ts=1780492914782&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PAISLEY BEADED FRINGE BANDANA - Black - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545494413-800-14",
+          "mpn": "545494413-800-14",
+          "color": "Black",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/474d/b03d/7bd34ca7b85e/faf9df23e64e/07243642800-e1/07243642800-e1.jpg?ts=1780492915552&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/paisley-beaded-fringe-bandana-p07243642.html?v1=545494413",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PAISLEY BEADED FRINGE BANDANA",
+      "product_group_id": "07243642",
+      "brand": "ZARA",
+      "description": "Bandana with a paisley print. Features fringe appliqué with beads.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PAISLEY BEADED FRINGE BANDANA - Black - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "545494413-800-14",
+          "mpn": "545494413-800-14",
+          "color_name": "Black",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/paisley-beaded-fringe-bandana-p07243642.html?v1=545494413",
+          "images": [
+            "https://static.zara.net/assets/public/474d/b03d/7bd34ca7b85e/faf9df23e64e/07243642800-e1/07243642800-e1.jpg?ts=1780492915552&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/474d/b03d/7bd34ca7b85e/faf9df23e64e/07243642800-e1/07243642800-e1.jpg?ts=1780492915552&w=1920",
+        "https://static.zara.net/assets/public/9cc0/fc59/30044dcab163/fc9cdfe891a8/07243642800-e2/07243642800-e2.jpg?ts=1780492913925&w=1920",
+        "https://static.zara.net/assets/public/b1fb/7338/ba48424b9a85/63de70fe7781/07243642800-e3/07243642800-e3.jpg?ts=1780492913442&w=1920",
+        "https://static.zara.net/assets/public/4e69/8444/c4184d84a3b8/768c6cf89c14/07243642800-e4/07243642800-e4.jpg?ts=1780492914782&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nBandana with a paisley print. Features fringe appliqué with beads.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a280295ca4f05a7e00544f577afc246ef538842f847a593ea46e19b69c536090",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

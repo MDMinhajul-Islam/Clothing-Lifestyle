@@ -1,0 +1,136 @@
+{
+  "product_id": "zara-us:11237730",
+  "source_url": "https://www.zara.com/us/en/donald-duck--disney-and-pluto--disney-bag-pack-p11237730.html",
+  "final_url": "https://www.zara.com/us/en/donald-duck--disney-and-pluto--disney-bag-pack-p11237730.html",
+  "canonical_url": "https://www.zara.com/us/en/donald-duck--disney-and-pluto--disney-bag-pack-p11237730.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "DONALD DUCK© DISNEY AND PLUTO© DISNEY BAG PACK",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "DONALD DUCK© DISNEY AND PLUTO© DISNEY BAG PACK",
+      "url": "https://www.zara.com/us/en/donald-duck--disney-and-pluto--disney-bag-pack-p11237730.html",
+      "productGroupID": "11237730",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of multi-purpose bags featuring Donald Duck© Disney and Pluto© Disney. Each bag has a main compartment with zip closure and a hand strap.\n\nPLUTO© DISNEY\nHeight x Length x Width: 10.6 x 14.6 x 4.7 inches (27 x 37 x 12 cm)\n\nDONALD DUCK© DISNEY\nHeight x Length x Width: 8.7 x 11.8 x 4.7 inches (22 x 30 x 12 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/eecc/44f0/04e44a789103/5e6f0a78cbe0/11237730203-e1/11237730203-e1.jpg?ts=1780587742778&w=1920",
+        "https://static.zara.net/assets/public/1ce0/e35b/6b0d411d964e/bf7cb05e526f/11237730203-e2/11237730203-e2.jpg?ts=1780587742888&w=1920",
+        "https://static.zara.net/assets/public/aab9/60a9/71ed4d4488b0/d765a6d1dd6b/11237730203-e3/11237730203-e3.jpg?ts=1780587742847&w=1920",
+        "https://static.zara.net/assets/public/1ebf/d6bf/066f47788484/e76948a4a010/11237730203-e4/11237730203-e4.jpg?ts=1780587742846&w=1920",
+        "https://static.zara.net/assets/public/6c82/a5f4/0507415cb5d4/f1ba8ac7f0dd/11237730203-e5/11237730203-e5.jpg?ts=1780587743070&w=1920",
+        "https://static.zara.net/assets/public/b823/9678/7d6349ae9eec/485375dd6746/11237730203-e6/11237730203-e6.jpg?ts=1780587743503&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "DONALD DUCK© DISNEY AND PLUTO© DISNEY BAG PACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545461922-203-53",
+          "mpn": "545461922-203-53",
+          "color": "Multi-color",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/eecc/44f0/04e44a789103/5e6f0a78cbe0/11237730203-e1/11237730203-e1.jpg?ts=1780587742778&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/donald-duck--disney-and-pluto--disney-bag-pack-p11237730.html?v1=545461922",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "DONALD DUCK© DISNEY AND PLUTO© DISNEY BAG PACK",
+      "product_group_id": "11237730",
+      "brand": "ZARA",
+      "description": "Pack of multi-purpose bags featuring Donald Duck© Disney and Pluto© Disney. Each bag has a main compartment with zip closure and a hand strap.\n\nPLUTO© DISNEY\nHeight x Length x Width: 10.6 x 14.6 x 4.7 inches (27 x 37 x 12 cm)\n\nDONALD DUCK© DISNEY\nHeight x Length x Width: 8.7 x 11.8 x 4.7 inches (22 x 30 x 12 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "DONALD DUCK© DISNEY AND PLUTO© DISNEY BAG PACK - Multi-color - ONE SIZE ONLY",
+          "sku": "545461922-203-53",
+          "mpn": "545461922-203-53",
+          "color_name": "Multi-color",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/donald-duck--disney-and-pluto--disney-bag-pack-p11237730.html?v1=545461922",
+          "images": [
+            "https://static.zara.net/assets/public/eecc/44f0/04e44a789103/5e6f0a78cbe0/11237730203-e1/11237730203-e1.jpg?ts=1780587742778&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/eecc/44f0/04e44a789103/5e6f0a78cbe0/11237730203-e1/11237730203-e1.jpg?ts=1780587742778&w=1920",
+        "https://static.zara.net/assets/public/1ce0/e35b/6b0d411d964e/bf7cb05e526f/11237730203-e2/11237730203-e2.jpg?ts=1780587742888&w=1920",
+        "https://static.zara.net/assets/public/aab9/60a9/71ed4d4488b0/d765a6d1dd6b/11237730203-e3/11237730203-e3.jpg?ts=1780587742847&w=1920",
+        "https://static.zara.net/assets/public/1ebf/d6bf/066f47788484/e76948a4a010/11237730203-e4/11237730203-e4.jpg?ts=1780587742846&w=1920",
+        "https://static.zara.net/assets/public/6c82/a5f4/0507415cb5d4/f1ba8ac7f0dd/11237730203-e5/11237730203-e5.jpg?ts=1780587743070&w=1920",
+        "https://static.zara.net/assets/public/b823/9678/7d6349ae9eec/485375dd6746/11237730203-e6/11237730203-e6.jpg?ts=1780587743503&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nPack of multi-purpose bags featuring Donald Duck© Disney and Pluto© Disney. Each bag has a main compartment with zip closure and a hand strap.\nPLUTO© DISNEY\nHeight x Length x Width: 10.6 x 14.6 x 4.7 inches (27 x 37 x 12 cm)\nDONALD DUCK© DISNEY\nHeight x Length x Width: 8.7 x 11.8 x 4.7 inches (22 x 30 x 12 cm)\nSee more",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "12e47d289db9dedf3a39c145254ecb3bb7020ee74bd8044b3469366a3380bdf8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

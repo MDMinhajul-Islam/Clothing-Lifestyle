@@ -1,0 +1,307 @@
+{
+  "product_id": "zara-us:01689700",
+  "source_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html",
+  "final_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html",
+  "canonical_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "FAUX SUEDE BOMBER JACKET",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "FAUX SUEDE BOMBER JACKET",
+      "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html",
+      "productGroupID": "01689700",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Faux suede bomber jacket with a high collar and long sleeves. Ribbed trim. Front zip closure and front pockets.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920",
+        "https://static.zara.net/assets/public/8ff4/fc05/d4984ae8ac7d/cbc4a90f9979/01689700704-e2/01689700704-e2.jpg?ts=1781164628224&w=1920",
+        "https://static.zara.net/assets/public/e1d6/13f5/622d4cc89154/c4ef875ccfad/01689700704-e3/01689700704-e3.jpg?ts=1781164631806&w=1920",
+        "https://static.zara.net/assets/public/2747/4692/6ab045f69199/b8444d009e76/01689700704-e4/01689700704-e4.jpg?ts=1781164630475&w=1920",
+        "https://static.zara.net/assets/public/95c5/08db/664c42aaa617/6243195fe910/01689700704-e5/01689700704-e5.jpg?ts=1781164630769&w=1920",
+        "https://static.zara.net/assets/public/50c5/53d7/e2144dc998df/10ef95d0f8b5/01689700704-e6/01689700704-e6.jpg?ts=1781164631416&w=1920",
+        "https://static.zara.net/assets/public/79e8/ef03/9e5646348278/6e0516507761/01689700704-e7/01689700704-e7.jpg?ts=1781164629948&w=1920",
+        "https://static.zara.net/assets/public/7680/7f79/7fd8421db951/17c2079f2356/01689700704-e8/01689700704-e8.jpg?ts=1781164629547&w=1920",
+        "https://static.zara.net/assets/public/9341/3f80/63664421adf2/ceb5ccaffb99/01689700704100-p/01689700704100-p.jpg?ts=1784279673200&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 6-7 years (48,0 INCHES)",
+          "sku": "545442508-704-7",
+          "mpn": "545442508-704-7",
+          "color": "taupe brown",
+          "size": "6-7 years (48,0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 8-9 years (51,6 INCHES)",
+          "sku": "545442508-704-9",
+          "mpn": "545442508-704-9",
+          "color": "taupe brown",
+          "size": "8-9 years (51,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 9-10 years (55,1 INCHES)",
+          "sku": "545442508-704-10",
+          "mpn": "545442508-704-10",
+          "color": "taupe brown",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 11-12 years (58,3 INCHES)",
+          "sku": "545442508-704-12",
+          "mpn": "545442508-704-12",
+          "color": "taupe brown",
+          "size": "11-12 years (58,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 12-13 years (61,4 INCHES)",
+          "sku": "545442508-704-13",
+          "mpn": "545442508-704-13",
+          "color": "taupe brown",
+          "size": "12-13 years (61,4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 13-14 years (64,6 INCHES)",
+          "sku": "545442508-704-14",
+          "mpn": "545442508-704-14",
+          "color": "taupe brown",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "49.9",
+            "url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "FAUX SUEDE BOMBER JACKET",
+      "product_group_id": "01689700",
+      "brand": "ZARA",
+      "description": "Faux suede bomber jacket with a high collar and long sleeves. Ribbed trim. Front zip closure and front pockets.",
+      "material": null,
+      "composition": "LINING: 100% polyester | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 6-7 years (48,0 INCHES)",
+          "sku": "545442508-704-7",
+          "mpn": "545442508-704-7",
+          "color_name": "taupe brown",
+          "size_name": "6-7 years (48,0 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+          "images": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ]
+        },
+        {
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 8-9 years (51,6 INCHES)",
+          "sku": "545442508-704-9",
+          "mpn": "545442508-704-9",
+          "color_name": "taupe brown",
+          "size_name": "8-9 years (51,6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+          "images": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ]
+        },
+        {
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 9-10 years (55,1 INCHES)",
+          "sku": "545442508-704-10",
+          "mpn": "545442508-704-10",
+          "color_name": "taupe brown",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+          "images": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ]
+        },
+        {
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 11-12 years (58,3 INCHES)",
+          "sku": "545442508-704-12",
+          "mpn": "545442508-704-12",
+          "color_name": "taupe brown",
+          "size_name": "11-12 years (58,3 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+          "images": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ]
+        },
+        {
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 12-13 years (61,4 INCHES)",
+          "sku": "545442508-704-13",
+          "mpn": "545442508-704-13",
+          "color_name": "taupe brown",
+          "size_name": "12-13 years (61,4 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+          "images": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ]
+        },
+        {
+          "name": "FAUX SUEDE BOMBER JACKET - taupe brown - 13-14 years (64,6 INCHES)",
+          "sku": "545442508-704-14",
+          "mpn": "545442508-704-14",
+          "color_name": "taupe brown",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "49.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/faux-suede-bomber-jacket-p01689700.html?v1=545442508",
+          "images": [
+            "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/f76f/dff2/2a48405bab46/686524ac340b/01689700704-e1/01689700704-e1.jpg?ts=1781164630680&w=1920",
+        "https://static.zara.net/assets/public/8ff4/fc05/d4984ae8ac7d/cbc4a90f9979/01689700704-e2/01689700704-e2.jpg?ts=1781164628224&w=1920",
+        "https://static.zara.net/assets/public/e1d6/13f5/622d4cc89154/c4ef875ccfad/01689700704-e3/01689700704-e3.jpg?ts=1781164631806&w=1920",
+        "https://static.zara.net/assets/public/2747/4692/6ab045f69199/b8444d009e76/01689700704-e4/01689700704-e4.jpg?ts=1781164630475&w=1920",
+        "https://static.zara.net/assets/public/95c5/08db/664c42aaa617/6243195fe910/01689700704-e5/01689700704-e5.jpg?ts=1781164630769&w=1920",
+        "https://static.zara.net/assets/public/50c5/53d7/e2144dc998df/10ef95d0f8b5/01689700704-e6/01689700704-e6.jpg?ts=1781164631416&w=1920",
+        "https://static.zara.net/assets/public/79e8/ef03/9e5646348278/6e0516507761/01689700704-e7/01689700704-e7.jpg?ts=1781164629948&w=1920",
+        "https://static.zara.net/assets/public/7680/7f79/7fd8421db951/17c2079f2356/01689700704-e8/01689700704-e8.jpg?ts=1781164629547&w=1920",
+        "https://static.zara.net/assets/public/9341/3f80/63664421adf2/ceb5ccaffb99/01689700704100-p/01689700704100-p.jpg?ts=1784279673200&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "49.90",
+  "rendered_description": "Description\nFaux suede bomber jacket with a high collar and long sleeves. Ribbed trim. Front zip closure and front pockets.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 9,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "49.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "49.90",
+    "dom_price": "49.90",
+    "normalized_price": "49.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f7098e19da7a2a1944a34af38982ae888ea3684038834947cfef6da88b941ace",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

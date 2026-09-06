@@ -1,0 +1,259 @@
+{
+  "product_id": "zara-us:01492630",
+  "source_url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html",
+  "final_url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html",
+  "canonical_url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT",
+      "url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html",
+      "productGroupID": "01492630",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Swimsuit with a round neck and adjustable straps at the back. Features a contrasting color lace trim appliqué.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920",
+        "https://static.zara.net/assets/public/6241/22d0/75974054abb4/390357aeceef/01492630409-e2/01492630409-e2.jpg?ts=1777980035532&w=1920",
+        "https://static.zara.net/assets/public/dbf4/dc08/45804e1b8bc0/0ccfddf95290/01492630409-e3/01492630409-e3.jpg?ts=1777980034749&w=1920",
+        "https://static.zara.net/assets/public/8f5e/a438/28484819a89e/483cfda857aa/01492630409-e4/01492630409-e4.jpg?ts=1777980034873&w=1920"
+      ],
+      "material": "polyamide/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "86% polyamide, 14% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 6-7 years (47,2 INCHES)",
+          "sku": "554925820-409-87",
+          "mpn": "554925820-409-87",
+          "color": "Petrol blue",
+          "size": "6-7 years (47,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 8-9 years (51,2 INCHES)",
+          "sku": "554925820-409-89",
+          "mpn": "554925820-409-89",
+          "color": "Petrol blue",
+          "size": "8-9 years (51,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 9-10 years (55,1 INCHES)",
+          "sku": "554925820-409-90",
+          "mpn": "554925820-409-90",
+          "color": "Petrol blue",
+          "size": "9-10 years (55,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 11-12 years (59,8 INCHES)",
+          "sku": "554925820-409-92",
+          "mpn": "554925820-409-92",
+          "color": "Petrol blue",
+          "size": "11-12 years (59,8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 13-14 years (64,6 INCHES)",
+          "sku": "554925820-409-94",
+          "mpn": "554925820-409-94",
+          "color": "Petrol blue",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "25.9",
+            "url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT",
+      "product_group_id": "01492630",
+      "brand": "ZARA",
+      "description": "Swimsuit with a round neck and adjustable straps at the back. Features a contrasting color lace trim appliqué.",
+      "material": "polyamide/elastane",
+      "composition": "OUTER SHELL: 86% polyamide, 14% elastane | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 6-7 years (47,2 INCHES)",
+          "sku": "554925820-409-87",
+          "mpn": "554925820-409-87",
+          "color_name": "Petrol blue",
+          "size_name": "6-7 years (47,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+          "images": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ]
+        },
+        {
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 8-9 years (51,2 INCHES)",
+          "sku": "554925820-409-89",
+          "mpn": "554925820-409-89",
+          "color_name": "Petrol blue",
+          "size_name": "8-9 years (51,2 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+          "images": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ]
+        },
+        {
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 9-10 years (55,1 INCHES)",
+          "sku": "554925820-409-90",
+          "mpn": "554925820-409-90",
+          "color_name": "Petrol blue",
+          "size_name": "9-10 years (55,1 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+          "images": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ]
+        },
+        {
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 11-12 years (59,8 INCHES)",
+          "sku": "554925820-409-92",
+          "mpn": "554925820-409-92",
+          "color_name": "Petrol blue",
+          "size_name": "11-12 years (59,8 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+          "images": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ]
+        },
+        {
+          "name": "6-14 YEARS/ CONTRAST LACE TRIM SWIMSUIT - Petrol blue - 13-14 years (64,6 INCHES)",
+          "sku": "554925820-409-94",
+          "mpn": "554925820-409-94",
+          "color_name": "Petrol blue",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "25.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/6-14-years--contrast-lace-swimsuit-p01492630.html?v1=554925820",
+          "images": [
+            "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/97db/37ca/3c9543dab7f6/6dd09bf58ffc/01492630409-e1/01492630409-e1.jpg?ts=1777980034623&w=1920",
+        "https://static.zara.net/assets/public/6241/22d0/75974054abb4/390357aeceef/01492630409-e2/01492630409-e2.jpg?ts=1777980035532&w=1920",
+        "https://static.zara.net/assets/public/dbf4/dc08/45804e1b8bc0/0ccfddf95290/01492630409-e3/01492630409-e3.jpg?ts=1777980034749&w=1920",
+        "https://static.zara.net/assets/public/8f5e/a438/28484819a89e/483cfda857aa/01492630409-e4/01492630409-e4.jpg?ts=1777980034873&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "25.90",
+  "rendered_description": "Description\nSwimsuit with a round neck and adjustable straps at the back. Features a contrasting color lace trim appliqué.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 5,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "25.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "25.90",
+    "dom_price": "25.90",
+    "normalized_price": "25.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "09be205c087d01ad31d2101573ff7bef76c1b2f90062fc0889c6df45dbd445b5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

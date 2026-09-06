@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04701705",
+  "source_url": "https://www.zara.com/us/en/four-pack-charm-hair-ties-p04701705.html",
+  "final_url": "https://www.zara.com/us/en/four-pack-charm-hair-ties-p04701705.html",
+  "canonical_url": "https://www.zara.com/us/en/four-pack-charm-hair-ties-p04701705.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PACK OF FOUR CHARM HAIR TIES",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PACK OF FOUR CHARM HAIR TIES",
+      "url": "https://www.zara.com/us/en/four-pack-charm-hair-ties-p04701705.html",
+      "productGroupID": "04701705",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Pack of four elastic hair ties with charm appliqués. Includes small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/854b/1b57/bdc947aebda8/d52cc9f4892b/04701705330-e1/04701705330-e1.jpg?ts=1785313983226&w=1920",
+        "https://static.zara.net/assets/public/f8c4/8936/f2094bcfb833/bb59c71693a4/04701705330-e2/04701705330-e2.jpg?ts=1785313984385&w=1920",
+        "https://static.zara.net/assets/public/de5a/3673/ce2849169c00/ed2c62e49675/04701705330-e3/04701705330-e3.jpg?ts=1785313984145&w=1920",
+        "https://static.zara.net/assets/public/a918/0bce/bf6944fd9948/f220f5ff8746/04701705330-e5/04701705330-e5.jpg?ts=1785313984059&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PACK OF FOUR CHARM HAIR TIES - Multicolored - 14",
+          "sku": "553475948-330-14",
+          "mpn": "553475948-330-14",
+          "color": "Multicolored",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/854b/1b57/bdc947aebda8/d52cc9f4892b/04701705330-e1/04701705330-e1.jpg?ts=1785313983226&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/four-pack-charm-hair-ties-p04701705.html?v1=553475948",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PACK OF FOUR CHARM HAIR TIES",
+      "product_group_id": "04701705",
+      "brand": "ZARA",
+      "description": "Pack of four elastic hair ties with charm appliqués. Includes small parts, not recommended for children under 3 years old.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PACK OF FOUR CHARM HAIR TIES - Multicolored - 14",
+          "sku": "553475948-330-14",
+          "mpn": "553475948-330-14",
+          "color_name": "Multicolored",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/four-pack-charm-hair-ties-p04701705.html?v1=553475948",
+          "images": [
+            "https://static.zara.net/assets/public/854b/1b57/bdc947aebda8/d52cc9f4892b/04701705330-e1/04701705330-e1.jpg?ts=1785313983226&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/854b/1b57/bdc947aebda8/d52cc9f4892b/04701705330-e1/04701705330-e1.jpg?ts=1785313983226&w=1920",
+        "https://static.zara.net/assets/public/f8c4/8936/f2094bcfb833/bb59c71693a4/04701705330-e2/04701705330-e2.jpg?ts=1785313984385&w=1920",
+        "https://static.zara.net/assets/public/de5a/3673/ce2849169c00/ed2c62e49675/04701705330-e3/04701705330-e3.jpg?ts=1785313984145&w=1920",
+        "https://static.zara.net/assets/public/a918/0bce/bf6944fd9948/f220f5ff8746/04701705330-e5/04701705330-e5.jpg?ts=1785313984059&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nPack of four elastic hair ties with charm appliqués. Includes small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 5,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e446b360de321f8c95e159c3de95021808e5ba9a35f00430552eb20334e3af95",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

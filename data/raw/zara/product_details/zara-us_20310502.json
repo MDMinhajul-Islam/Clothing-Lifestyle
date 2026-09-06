@@ -1,0 +1,114 @@
+{
+  "product_id": "zara-us:20310502",
+  "source_url": "https://www.zara.com/us/en/moana---disney-edt-12-ml--0-4-fl--oz---p20310502.html",
+  "final_url": "https://www.zara.com/us/en/moana---disney-edt-12-ml--0-4-fl--oz---p20310502.html",
+  "canonical_url": "https://www.zara.com/us/en/moana---disney-edt-12-ml--0-4-fl--oz---p20310502.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MOANA © DISNEY EDT 12 ML (0.4 FL. OZ.)",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MOANA © DISNEY EDT 12 ML (0.4 FL. OZ.)",
+      "url": "https://www.zara.com/us/en/moana---disney-edt-12-ml--0-4-fl--oz---p20310502.html",
+      "productGroupID": "20310502",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "A fresh and energetic fragrance inspired by the adventurous spirit of VAIANA © DISNEY. A modern, vibrant scent that conveys freedom, confidence, and a desire to explore, accompanying every adventure with a sense of freshness and optimism.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/202b/a2a1/62804bfcabb8/06f7d508ab65/20310502999-e1/20310502999-e1.jpg?ts=1779784971451&w=1920",
+        "https://static.zara.net/assets/public/8c1c/a7df/936f43599388/de7eb2e5c862/20310502999-e2/20310502999-e2.jpg?ts=1779784972146&w=1920",
+        "https://static.zara.net/assets/public/1190/a6ed/f4ee412786c1/2c5dd4f6edf8/20310502999-e3/20310502999-e3.jpg?ts=1779784971837&w=1920"
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MOANA © DISNEY EDT 12 ML (0.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545400530-999-99",
+          "mpn": "545400530-999-99",
+          "color": "",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/202b/a2a1/62804bfcabb8/06f7d508ab65/20310502999-e1/20310502999-e1.jpg?ts=1779784971451&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "5.94",
+            "url": "https://www.zara.com/us/en/moana---disney-edt-12-ml--0-4-fl--oz---p20310502.html?v1=545400530",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MOANA © DISNEY EDT 12 ML (0.4 FL. OZ.)",
+      "product_group_id": "20310502",
+      "brand": "ZARA",
+      "description": "A fresh and energetic fragrance inspired by the adventurous spirit of VAIANA © DISNEY. A modern, vibrant scent that conveys freedom, confidence, and a desire to explore, accompanying every adventure with a sense of freshness and optimism.",
+      "material": null,
+      "composition": null,
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MOANA © DISNEY EDT 12 ML (0.4 FL. OZ.) - ONE SIZE ONLY",
+          "sku": "545400530-999-99",
+          "mpn": "545400530-999-99",
+          "color_name": "",
+          "size_name": "ONE SIZE ONLY",
+          "price": "5.94",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/moana---disney-edt-12-ml--0-4-fl--oz---p20310502.html?v1=545400530",
+          "images": [
+            "https://static.zara.net/assets/public/202b/a2a1/62804bfcabb8/06f7d508ab65/20310502999-e1/20310502999-e1.jpg?ts=1779784971451&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/202b/a2a1/62804bfcabb8/06f7d508ab65/20310502999-e1/20310502999-e1.jpg?ts=1779784971451&w=1920",
+        "https://static.zara.net/assets/public/8c1c/a7df/936f43599388/de7eb2e5c862/20310502999-e2/20310502999-e2.jpg?ts=1779784972146&w=1920",
+        "https://static.zara.net/assets/public/1190/a6ed/f4ee412786c1/2c5dd4f6edf8/20310502999-e3/20310502999-e3.jpg?ts=1779784971837&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "9.90",
+  "rendered_description": "Description\nA fresh and energetic fragrance inspired by the adventurous spirit of VAIANA © DISNEY. A modern, vibrant scent that conveys freedom, confidence, and a desire to explore, accompanying every adventure with a sense of freshness and optimism.",
+  "comp_care_text": null,
+  "raw_images_count": 3,
+  "valid_images_count": 3,
+  "variants_count": 1,
+  "colors_count": 0,
+  "pricing_stats": {
+    "current_price": "5.94",
+    "original_price": "9.90",
+    "sale_price": null,
+    "is_on_sale": true,
+    "jsonld_price": "5.94",
+    "dom_price": "9.90",
+    "normalized_price": "5.94",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": true,
+    "price_conflict_details": "JSON-LD price '5.94' != DOM price '9.90'"
+  },
+  "source_content_hash": "82014218ac8b6c5b102f6eef23ce06941a92f901183ea260b115085a2dee9fb6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

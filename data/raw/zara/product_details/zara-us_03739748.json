@@ -1,0 +1,161 @@
+{
+  "product_id": "zara-us:03739748",
+  "source_url": "https://www.zara.com/us/en/star-crochet-headband-p03739748.html",
+  "final_url": "https://www.zara.com/us/en/star-crochet-headband-p03739748.html",
+  "canonical_url": "https://www.zara.com/us/en/star-crochet-headband-p03739748.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STAR CROCHET HEADBAND",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STAR CROCHET HEADBAND",
+      "url": "https://www.zara.com/us/en/star-crochet-headband-p03739748.html",
+      "productGroupID": "03739748",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Crochet knit headband with adjustable closure and star patch appliqués.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/27cd/d323/65e0469c841e/3fc18f908122/03739748700-e1/03739748700-e1.jpg?ts=1782916983258&w=1920",
+        "https://static.zara.net/assets/public/7aec/a8ec/9912411da3d5/c99fe88266a4/03739748700-e2/03739748700-e2.jpg?ts=1782916983225&w=1920",
+        "https://static.zara.net/assets/public/1ec5/6544/52a645789382/3504cc7069af/03739748700-e3/03739748700-e3.jpg?ts=1782916983581&w=1920",
+        "https://static.zara.net/assets/public/5d83/26a0/942244d29841/db757f4548e3/03739748700-e5/03739748700-e5.jpg?ts=1782916981049&w=1920"
+      ],
+      "material": "cotton/polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "88% cotton, 12% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STAR CROCHET HEADBAND - Brown - M",
+          "sku": "545400483-700-14",
+          "mpn": "545400483-700-14",
+          "color": "Brown",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/27cd/d323/65e0469c841e/3fc18f908122/03739748700-e1/03739748700-e1.jpg?ts=1782916983258&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/star-crochet-headband-p03739748.html?v1=545400483",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STAR CROCHET HEADBAND - Ecru - M",
+          "sku": "545400483-712-14",
+          "mpn": "545400483-712-14",
+          "color": "Ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/a2d6/8faa/9d0d43ec999d/f1cd56a8dd1a/03739748712-e1/03739748712-e1.jpg?ts=1782916985362&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "22.9",
+            "url": "https://www.zara.com/us/en/star-crochet-headband-p03739748.html?v1=545400484",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STAR CROCHET HEADBAND",
+      "product_group_id": "03739748",
+      "brand": "ZARA",
+      "description": "Crochet knit headband with adjustable closure and star patch appliqués.",
+      "material": "cotton/polyester",
+      "composition": "OUTER SHELL: 88% cotton, 12% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STAR CROCHET HEADBAND - Brown - M",
+          "sku": "545400483-700-14",
+          "mpn": "545400483-700-14",
+          "color_name": "Brown",
+          "size_name": "M",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-crochet-headband-p03739748.html?v1=545400483",
+          "images": [
+            "https://static.zara.net/assets/public/27cd/d323/65e0469c841e/3fc18f908122/03739748700-e1/03739748700-e1.jpg?ts=1782916983258&w=1920"
+          ]
+        },
+        {
+          "name": "STAR CROCHET HEADBAND - Ecru - M",
+          "sku": "545400483-712-14",
+          "mpn": "545400483-712-14",
+          "color_name": "Ecru",
+          "size_name": "M",
+          "price": "22.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-crochet-headband-p03739748.html?v1=545400484",
+          "images": [
+            "https://static.zara.net/assets/public/a2d6/8faa/9d0d43ec999d/f1cd56a8dd1a/03739748712-e1/03739748712-e1.jpg?ts=1782916985362&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/27cd/d323/65e0469c841e/3fc18f908122/03739748700-e1/03739748700-e1.jpg?ts=1782916983258&w=1920",
+        "https://static.zara.net/assets/public/7aec/a8ec/9912411da3d5/c99fe88266a4/03739748700-e2/03739748700-e2.jpg?ts=1782916983225&w=1920",
+        "https://static.zara.net/assets/public/1ec5/6544/52a645789382/3504cc7069af/03739748700-e3/03739748700-e3.jpg?ts=1782916983581&w=1920",
+        "https://static.zara.net/assets/public/5d83/26a0/942244d29841/db757f4548e3/03739748700-e5/03739748700-e5.jpg?ts=1782916981049&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Brown",
+    "Ecru"
+  ],
+  "rendered_price": "22.90",
+  "rendered_description": "Description\nCrochet knit headband with adjustable closure and star patch appliqués.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 5,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "22.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "22.90",
+    "dom_price": "22.90",
+    "normalized_price": "22.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "10221da285a665e073c368470cdbbe17ccd1bb81db1437de6f4bce6d2391d9b2",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

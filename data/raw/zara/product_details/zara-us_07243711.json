@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:07243711",
+  "source_url": "https://www.zara.com/us/en/two-pack-beaded-necklaces-p07243711.html",
+  "final_url": "https://www.zara.com/us/en/two-pack-beaded-necklaces-p07243711.html",
+  "canonical_url": "https://www.zara.com/us/en/two-pack-beaded-necklaces-p07243711.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "TWO-PACK BEADED NECKLACES",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "TWO-PACK BEADED NECKLACES",
+      "url": "https://www.zara.com/us/en/two-pack-beaded-necklaces-p07243711.html",
+      "productGroupID": "07243711",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Set of two beaded necklaces with an adjustable back closure. Contains small parts, not suitable for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6e64/2d30/865d45cabb4b/7ec03abd97ab/07243711330-e1/07243711330-e1.jpg?ts=1786955675209&w=1920",
+        "https://static.zara.net/assets/public/0353/3ae9/a8a148048273/001c01df1834/07243711330-e2/07243711330-e2.jpg?ts=1786955675608&w=1920",
+        "https://static.zara.net/assets/public/f2c9/923d/690947c88857/7c2982c08bb1/07243711330-e3/07243711330-e3.jpg?ts=1786955665225&w=1920",
+        "https://static.zara.net/assets/public/c732/3224/cfb649f19a5b/aecb4859ca1f/07243711330-e4/07243711330-e4.jpg?ts=1786955666019&w=1920"
+      ],
+      "material": "glass/mango tree wood/iron",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "40% glass, 40% mango tree wood, 10% iron, 10% plastic"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "TWO-PACK BEADED NECKLACES - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "550533696-330-14",
+          "mpn": "550533696-330-14",
+          "color": "Multicolored",
+          "size": "6-14 years (45,7-64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/6e64/2d30/865d45cabb4b/7ec03abd97ab/07243711330-e1/07243711330-e1.jpg?ts=1786955675209&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/two-pack-beaded-necklaces-p07243711.html?v1=550533696",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "TWO-PACK BEADED NECKLACES",
+      "product_group_id": "07243711",
+      "brand": "ZARA",
+      "description": "Set of two beaded necklaces with an adjustable back closure. Contains small parts, not suitable for children under 3 years old.",
+      "material": "glass/mango tree wood/iron",
+      "composition": "OUTER SHELL: 40% glass, 40% mango tree wood, 10% iron, 10% plastic",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "TWO-PACK BEADED NECKLACES - Multicolored - 6-14 years (45,7-64,6 INCHES)",
+          "sku": "550533696-330-14",
+          "mpn": "550533696-330-14",
+          "color_name": "Multicolored",
+          "size_name": "6-14 years (45,7-64,6 INCHES)",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/two-pack-beaded-necklaces-p07243711.html?v1=550533696",
+          "images": [
+            "https://static.zara.net/assets/public/6e64/2d30/865d45cabb4b/7ec03abd97ab/07243711330-e1/07243711330-e1.jpg?ts=1786955675209&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6e64/2d30/865d45cabb4b/7ec03abd97ab/07243711330-e1/07243711330-e1.jpg?ts=1786955675209&w=1920",
+        "https://static.zara.net/assets/public/0353/3ae9/a8a148048273/001c01df1834/07243711330-e2/07243711330-e2.jpg?ts=1786955675608&w=1920",
+        "https://static.zara.net/assets/public/f2c9/923d/690947c88857/7c2982c08bb1/07243711330-e3/07243711330-e3.jpg?ts=1786955665225&w=1920",
+        "https://static.zara.net/assets/public/c732/3224/cfb649f19a5b/aecb4859ca1f/07243711330-e4/07243711330-e4.jpg?ts=1786955666019&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nSet of two beaded necklaces with an adjustable back closure. Contains small parts, not suitable for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "78139ee3c8c3dbbeae79eff8601c0d50d94188445dfe3521453e84616f1196e5",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

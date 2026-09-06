@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:11209830",
+  "source_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11209830.html",
+  "final_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11209830.html",
+  "canonical_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11209830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "MULTI-POCKET SHOULDER BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "MULTI-POCKET SHOULDER BAG",
+      "url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11209830.html",
+      "productGroupID": "11209830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shoulder bag featuring side pockets, a front pocket, and a main compartment with a zipper closure. The front pocket includes a key charm on the zipper pull. Designed with a shoulder strap.\n\nHeight x Width x Depth: 3.9 x 9.8 x 3.9 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/a77d/687b/3ed14d04bd32/04334d1583b8/11209830800-e1/11209830800-e1.jpg?ts=1786371223916&w=1920",
+        "https://static.zara.net/assets/public/863c/0984/acd54121be29/88d2a502f172/11209830800-e2/11209830800-e2.jpg?ts=1786371221109&w=1920",
+        "https://static.zara.net/assets/public/9405/d970/98fa4158bd56/97e236fe9fc3/11209830800-e3/11209830800-e3.jpg?ts=1786371220852&w=1920",
+        "https://static.zara.net/assets/public/c0cf/e69c/416c479d8333/1b6e9801c15f/11209830800-e4/11209830800-e4.jpg?ts=1786371224057&w=1920",
+        "https://static.zara.net/assets/public/68c3/eeea/133a49539aa2/85be3a551bd5/11209830800-e5/11209830800-e5.jpg?ts=1786371221359&w=1920",
+        "https://static.zara.net/assets/public/d96b/d742/527246feb376/041922a64bdd/11209830800-e6/11209830800-e6.jpg?ts=1786371220559&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "MULTI-POCKET SHOULDER BAG - Black - ONE SIZE ONLY",
+          "sku": "545461243-800-53",
+          "mpn": "545461243-800-53",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/a77d/687b/3ed14d04bd32/04334d1583b8/11209830800-e1/11209830800-e1.jpg?ts=1786371223916&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11209830.html?v1=545461243",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "MULTI-POCKET SHOULDER BAG",
+      "product_group_id": "11209830",
+      "brand": "ZARA",
+      "description": "Shoulder bag featuring side pockets, a front pocket, and a main compartment with a zipper closure. The front pocket includes a key charm on the zipper pull. Designed with a shoulder strap.\n\nHeight x Width x Depth: 3.9 x 9.8 x 3.9 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "MULTI-POCKET SHOULDER BAG - Black - ONE SIZE ONLY",
+          "sku": "545461243-800-53",
+          "mpn": "545461243-800-53",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11209830.html?v1=545461243",
+          "images": [
+            "https://static.zara.net/assets/public/a77d/687b/3ed14d04bd32/04334d1583b8/11209830800-e1/11209830800-e1.jpg?ts=1786371223916&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/a77d/687b/3ed14d04bd32/04334d1583b8/11209830800-e1/11209830800-e1.jpg?ts=1786371223916&w=1920",
+        "https://static.zara.net/assets/public/863c/0984/acd54121be29/88d2a502f172/11209830800-e2/11209830800-e2.jpg?ts=1786371221109&w=1920",
+        "https://static.zara.net/assets/public/9405/d970/98fa4158bd56/97e236fe9fc3/11209830800-e3/11209830800-e3.jpg?ts=1786371220852&w=1920",
+        "https://static.zara.net/assets/public/c0cf/e69c/416c479d8333/1b6e9801c15f/11209830800-e4/11209830800-e4.jpg?ts=1786371224057&w=1920",
+        "https://static.zara.net/assets/public/68c3/eeea/133a49539aa2/85be3a551bd5/11209830800-e5/11209830800-e5.jpg?ts=1786371221359&w=1920",
+        "https://static.zara.net/assets/public/d96b/d742/527246feb376/041922a64bdd/11209830800-e6/11209830800-e6.jpg?ts=1786371220559&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nShoulder bag featuring side pockets, a front pocket, and a main compartment with a zipper closure. The front pocket includes a key charm on the zipper pull. Designed with a shoulder strap.\nHeight x Width x Depth: 3.9 x 9.8 x 3.9 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e465a81e85e4ba8ec2a12961e66b5757b7f69b6a8163dd576010221f511f8361",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

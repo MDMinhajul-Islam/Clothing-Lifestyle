@@ -1,0 +1,134 @@
+{
+  "product_id": "zara-us:11239830",
+  "source_url": "https://www.zara.com/us/en/varsity-shoulder-bag-p11239830.html",
+  "final_url": "https://www.zara.com/us/en/varsity-shoulder-bag-p11239830.html",
+  "canonical_url": "https://www.zara.com/us/en/varsity-shoulder-bag-p11239830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "VARSITY SHOULDER BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "VARSITY SHOULDER BAG",
+      "url": "https://www.zara.com/us/en/varsity-shoulder-bag-p11239830.html",
+      "productGroupID": "11239830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shoulder bag with contrasting color details. Features a main compartment with a zipper closure. Includes an adjustable shoulder strap. Height x Width x Depth: 9.4 x 5.1 x 3.1 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/be64/0db6/2ca240be8e1f/fc1e82f28cf3/11239830400-e1/11239830400-e1.jpg?ts=1787047049111&w=1920",
+        "https://static.zara.net/assets/public/f81b/7970/1f214db886cb/ad9f04e7c0d1/11239830400-e2/11239830400-e2.jpg?ts=1787047048939&w=1920",
+        "https://static.zara.net/assets/public/b811/2039/afcc40aaa67a/86141f29439d/11239830400-e3/11239830400-e3.jpg?ts=1787047049506&w=1920",
+        "https://static.zara.net/assets/public/6b66/b5ef/a35346f3bad7/def1236b3c28/11239830400-e4/11239830400-e4.jpg?ts=1787047049298&w=1920",
+        "https://static.zara.net/assets/public/6187/9e16/ae1b4f5d9772/343f2caeb44b/11239830400-e5/11239830400-e5.jpg?ts=1787047049916&w=1920",
+        "https://static.zara.net/assets/public/fee1/67f0/6f784eca8c84/d14e84cfb46b/11239830400-e6/11239830400-e6.jpg?ts=1787047049202&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "VARSITY SHOULDER BAG - Blue - ONE SIZE ONLY",
+          "sku": "557407427-400-53",
+          "mpn": "557407427-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/be64/0db6/2ca240be8e1f/fc1e82f28cf3/11239830400-e1/11239830400-e1.jpg?ts=1787047049111&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/varsity-shoulder-bag-p11239830.html?v1=557407427",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "VARSITY SHOULDER BAG",
+      "product_group_id": "11239830",
+      "brand": "ZARA",
+      "description": "Shoulder bag with contrasting color details. Features a main compartment with a zipper closure. Includes an adjustable shoulder strap. Height x Width x Depth: 9.4 x 5.1 x 3.1 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "VARSITY SHOULDER BAG - Blue - ONE SIZE ONLY",
+          "sku": "557407427-400-53",
+          "mpn": "557407427-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/varsity-shoulder-bag-p11239830.html?v1=557407427",
+          "images": [
+            "https://static.zara.net/assets/public/be64/0db6/2ca240be8e1f/fc1e82f28cf3/11239830400-e1/11239830400-e1.jpg?ts=1787047049111&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/be64/0db6/2ca240be8e1f/fc1e82f28cf3/11239830400-e1/11239830400-e1.jpg?ts=1787047049111&w=1920",
+        "https://static.zara.net/assets/public/f81b/7970/1f214db886cb/ad9f04e7c0d1/11239830400-e2/11239830400-e2.jpg?ts=1787047048939&w=1920",
+        "https://static.zara.net/assets/public/b811/2039/afcc40aaa67a/86141f29439d/11239830400-e3/11239830400-e3.jpg?ts=1787047049506&w=1920",
+        "https://static.zara.net/assets/public/6b66/b5ef/a35346f3bad7/def1236b3c28/11239830400-e4/11239830400-e4.jpg?ts=1787047049298&w=1920",
+        "https://static.zara.net/assets/public/6187/9e16/ae1b4f5d9772/343f2caeb44b/11239830400-e5/11239830400-e5.jpg?ts=1787047049916&w=1920",
+        "https://static.zara.net/assets/public/fee1/67f0/6f784eca8c84/d14e84cfb46b/11239830400-e6/11239830400-e6.jpg?ts=1787047049202&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nShoulder bag with contrasting color details. Features a main compartment with a zipper closure. Includes an adjustable shoulder strap. Height x Width x Depth: 9.4 x 5.1 x 3.1 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e329de36b57372634b0978f5b9ad509b993e9b2a33d4bfb3808aa6ddeef55632",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

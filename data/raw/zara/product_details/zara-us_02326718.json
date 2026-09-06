@@ -1,0 +1,131 @@
+{
+  "product_id": "zara-us:02326718",
+  "source_url": "https://www.zara.com/us/en/pearl-applique-headband-p02326718.html",
+  "final_url": "https://www.zara.com/us/en/pearl-applique-headband-p02326718.html",
+  "canonical_url": "https://www.zara.com/us/en/pearl-applique-headband-p02326718.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "PEARL APPLIQUÉ HEADBAND",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PEARL APPLIQUÉ HEADBAND",
+      "url": "https://www.zara.com/us/en/pearl-applique-headband-p02326718.html",
+      "productGroupID": "02326718",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Headband with pearl appliqué. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/8a70/f5b0/a4784fa3b8d3/74040022ae1b/02326718250-e1/02326718250-e1.jpg?ts=1784796025681&w=1920",
+        "https://static.zara.net/assets/public/fb87/a5c1/fc68409a824f/931e22e2fe86/02326718250-e2/02326718250-e2.jpg?ts=1784796026114&w=1920",
+        "https://static.zara.net/assets/public/698d/e604/7d324da9b553/613c82b13655/02326718250-e3/02326718250-e3.jpg?ts=1784796026212&w=1920",
+        "https://static.zara.net/assets/public/36fc/aca2/b4dc438b9582/df64ce232bdc/02326718250-e4/02326718250-e4.jpg?ts=1784796026411&w=1920"
+      ],
+      "material": "plastic-acrylic/acrylonitrile butadiene styrene",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "70% plastic-acrylic, 30% acrylonitrile butadiene styrene"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PEARL APPLIQUÉ HEADBAND - White - 14",
+          "sku": "551506099-250-14",
+          "mpn": "551506099-250-14",
+          "color": "White",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/8a70/f5b0/a4784fa3b8d3/74040022ae1b/02326718250-e1/02326718250-e1.jpg?ts=1784796025681&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/pearl-applique-headband-p02326718.html?v1=551506099",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PEARL APPLIQUÉ HEADBAND",
+      "product_group_id": "02326718",
+      "brand": "ZARA",
+      "description": "Headband with pearl appliqué. Contains small parts, not recommended for children under 3 years old.",
+      "material": "plastic-acrylic/acrylonitrile butadiene styrene",
+      "composition": "OUTER SHELL: 70% plastic-acrylic, 30% acrylonitrile butadiene styrene | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "PEARL APPLIQUÉ HEADBAND - White - 14",
+          "sku": "551506099-250-14",
+          "mpn": "551506099-250-14",
+          "color_name": "White",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/pearl-applique-headband-p02326718.html?v1=551506099",
+          "images": [
+            "https://static.zara.net/assets/public/8a70/f5b0/a4784fa3b8d3/74040022ae1b/02326718250-e1/02326718250-e1.jpg?ts=1784796025681&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/8a70/f5b0/a4784fa3b8d3/74040022ae1b/02326718250-e1/02326718250-e1.jpg?ts=1784796025681&w=1920",
+        "https://static.zara.net/assets/public/fb87/a5c1/fc68409a824f/931e22e2fe86/02326718250-e2/02326718250-e2.jpg?ts=1784796026114&w=1920",
+        "https://static.zara.net/assets/public/698d/e604/7d324da9b553/613c82b13655/02326718250-e3/02326718250-e3.jpg?ts=1784796026212&w=1920",
+        "https://static.zara.net/assets/public/36fc/aca2/b4dc438b9582/df64ce232bdc/02326718250-e4/02326718250-e4.jpg?ts=1784796026411&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nHeadband with pearl appliqué. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "f730a3dbe1f1677b30adb23c24ccd9afbe9b30f980f8e48f856bbb0221d662b4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

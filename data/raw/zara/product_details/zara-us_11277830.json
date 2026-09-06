@@ -1,0 +1,169 @@
+{
+  "product_id": "zara-us:11277830",
+  "source_url": "https://www.zara.com/us/en/colored-shopper-bag-p11277830.html",
+  "final_url": "https://www.zara.com/us/en/colored-shopper-bag-p11277830.html",
+  "canonical_url": "https://www.zara.com/us/en/colored-shopper-bag-p11277830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "COLORED SHOPPER BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "COLORED SHOPPER BAG",
+      "url": "https://www.zara.com/us/en/colored-shopper-bag-p11277830.html",
+      "productGroupID": "11277830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shopper bag with contrasting topstitching detail. Features a main compartment and a front pocket. Designed with dual shoulder straps.\n\nHeight x Width x Depth: 18.1 x 12.2 x 3.5 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/2e60/f670/1cd1490ca520/0a82db907c3f/11277830400-e1/11277830400-e1.jpg?ts=1786981266456&w=1920",
+        "https://static.zara.net/assets/public/796d/caab/7526470ab489/26f7485314a3/11277830400-e2/11277830400-e2.jpg?ts=1786981266674&w=1920",
+        "https://static.zara.net/assets/public/b2de/f6cd/cf6546079ea0/4464551b1136/11277830400-e3/11277830400-e3.jpg?ts=1786981267034&w=1920",
+        "https://static.zara.net/assets/public/9b9e/fb1b/dedd45e3a024/159ea6c34432/11277830400-e4/11277830400-e4.jpg?ts=1786981268568&w=1920",
+        "https://static.zara.net/assets/public/fc7d/3560/85374d9393de/b00e98a5d222/11277830400-e5/11277830400-e5.jpg?ts=1786981267124&w=1920",
+        "https://static.zara.net/assets/public/fe44/0b7c/87004b3b98c2/4208dcb84d7b/11277830400-e6/11277830400-e6.jpg?ts=1786981266885&w=1920"
+      ],
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": ""
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "COLORED SHOPPER BAG - Blue - ONE SIZE ONLY",
+          "sku": "555832093-400-53",
+          "mpn": "555832093-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/2e60/f670/1cd1490ca520/0a82db907c3f/11277830400-e1/11277830400-e1.jpg?ts=1786981266456&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/colored-shopper-bag-p11277830.html?v1=555832093",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "COLORED SHOPPER BAG - Red - ONE SIZE ONLY",
+          "sku": "555832093-600-53",
+          "mpn": "555832093-600-53",
+          "color": "Red",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/478b/a659/5f844a6b9fe5/d9c2230813ec/11277830600-e1/11277830600-e1.jpg?ts=1786981268995&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/colored-shopper-bag-p11277830.html?v1=555832094",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "COLORED SHOPPER BAG",
+      "product_group_id": "11277830",
+      "brand": "ZARA",
+      "description": "Shopper bag with contrasting topstitching detail. Features a main compartment and a front pocket. Designed with dual shoulder straps.\n\nHeight x Width x Depth: 18.1 x 12.2 x 3.5 inches.",
+      "material": null,
+      "composition": "LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "COLORED SHOPPER BAG - Blue - ONE SIZE ONLY",
+          "sku": "555832093-400-53",
+          "mpn": "555832093-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colored-shopper-bag-p11277830.html?v1=555832093",
+          "images": [
+            "https://static.zara.net/assets/public/2e60/f670/1cd1490ca520/0a82db907c3f/11277830400-e1/11277830400-e1.jpg?ts=1786981266456&w=1920"
+          ]
+        },
+        {
+          "name": "COLORED SHOPPER BAG - Red - ONE SIZE ONLY",
+          "sku": "555832093-600-53",
+          "mpn": "555832093-600-53",
+          "color_name": "Red",
+          "size_name": "ONE SIZE ONLY",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/colored-shopper-bag-p11277830.html?v1=555832094",
+          "images": [
+            "https://static.zara.net/assets/public/478b/a659/5f844a6b9fe5/d9c2230813ec/11277830600-e1/11277830600-e1.jpg?ts=1786981268995&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/2e60/f670/1cd1490ca520/0a82db907c3f/11277830400-e1/11277830400-e1.jpg?ts=1786981266456&w=1920",
+        "https://static.zara.net/assets/public/796d/caab/7526470ab489/26f7485314a3/11277830400-e2/11277830400-e2.jpg?ts=1786981266674&w=1920",
+        "https://static.zara.net/assets/public/b2de/f6cd/cf6546079ea0/4464551b1136/11277830400-e3/11277830400-e3.jpg?ts=1786981267034&w=1920",
+        "https://static.zara.net/assets/public/9b9e/fb1b/dedd45e3a024/159ea6c34432/11277830400-e4/11277830400-e4.jpg?ts=1786981268568&w=1920",
+        "https://static.zara.net/assets/public/fc7d/3560/85374d9393de/b00e98a5d222/11277830400-e5/11277830400-e5.jpg?ts=1786981267124&w=1920",
+        "https://static.zara.net/assets/public/fe44/0b7c/87004b3b98c2/4208dcb84d7b/11277830400-e6/11277830400-e6.jpg?ts=1786981266885&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Blue",
+    "Red"
+  ],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nShopper bag with contrasting topstitching detail. Features a main compartment and a front pocket. Designed with dual shoulder straps.\nHeight x Width x Depth: 18.1 x 12.2 x 3.5 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "dc6ebedd77dd8207a4103f59821d0ff55c19791d8dce0096e992d9e3abdee6e8",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

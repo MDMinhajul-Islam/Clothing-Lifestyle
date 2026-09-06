@@ -1,0 +1,136 @@
+{
+  "product_id": "zara-us:11160830",
+  "source_url": "https://www.zara.com/us/en/skate-bag-p11160830.html",
+  "final_url": "https://www.zara.com/us/en/skate-bag-p11160830.html",
+  "canonical_url": "https://www.zara.com/us/en/skate-bag-p11160830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SKATE BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SKATE BAG",
+      "url": "https://www.zara.com/us/en/skate-bag-p11160830.html",
+      "productGroupID": "11160830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Technical-style skate bag in contrasting colors. Features a main compartment with zip closure, top handle, and adjustable shoulder strap.\n\n\n\n\n\nHeight x Length x Width: 12.6 x 15.7 x 7.9 inches (32 x 40 x 20 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ae5a/50a8/7ebe46b985c9/404ea145d9a6/11160830050-e1/11160830050-e1.jpg?ts=1781015065795&w=1920",
+        "https://static.zara.net/assets/public/62c3/302c/4ee8430e9fc6/17eaa3432cf8/11160830050-e2/11160830050-e2.jpg?ts=1781015063900&w=1920",
+        "https://static.zara.net/assets/public/eeb7/7486/9e684e08bac3/4d38e55ac163/11160830050-e3/11160830050-e3.jpg?ts=1781015066394&w=1920",
+        "https://static.zara.net/assets/public/1fee/e3be/871a42a5b5a0/34cc80b51138/11160830050-e4/11160830050-e4.jpg?ts=1781015064830&w=1920",
+        "https://static.zara.net/assets/public/acfe/dbfa/63b9492f8622/299528b21bf2/11160830050-e5/11160830050-e5.jpg?ts=1781015064235&w=1920",
+        "https://static.zara.net/assets/public/c83c/cdfb/dedd49a499e4/e64fd0ffad8f/11160830050-e6/11160830050-e6.jpg?ts=1781015065652&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SKATE BAG - Pink - ONE SIZE ONLY",
+          "sku": "545461813-050-53",
+          "mpn": "545461813-050-53",
+          "color": "Pink",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ae5a/50a8/7ebe46b985c9/404ea145d9a6/11160830050-e1/11160830050-e1.jpg?ts=1781015065795&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/skate-bag-p11160830.html?v1=545461813",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SKATE BAG",
+      "product_group_id": "11160830",
+      "brand": "ZARA",
+      "description": "Technical-style skate bag in contrasting colors. Features a main compartment with zip closure, top handle, and adjustable shoulder strap.\n\n\n\n\n\nHeight x Length x Width: 12.6 x 15.7 x 7.9 inches (32 x 40 x 20 cm)",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SKATE BAG - Pink - ONE SIZE ONLY",
+          "sku": "545461813-050-53",
+          "mpn": "545461813-050-53",
+          "color_name": "Pink",
+          "size_name": "ONE SIZE ONLY",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/skate-bag-p11160830.html?v1=545461813",
+          "images": [
+            "https://static.zara.net/assets/public/ae5a/50a8/7ebe46b985c9/404ea145d9a6/11160830050-e1/11160830050-e1.jpg?ts=1781015065795&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ae5a/50a8/7ebe46b985c9/404ea145d9a6/11160830050-e1/11160830050-e1.jpg?ts=1781015065795&w=1920",
+        "https://static.zara.net/assets/public/62c3/302c/4ee8430e9fc6/17eaa3432cf8/11160830050-e2/11160830050-e2.jpg?ts=1781015063900&w=1920",
+        "https://static.zara.net/assets/public/eeb7/7486/9e684e08bac3/4d38e55ac163/11160830050-e3/11160830050-e3.jpg?ts=1781015066394&w=1920",
+        "https://static.zara.net/assets/public/1fee/e3be/871a42a5b5a0/34cc80b51138/11160830050-e4/11160830050-e4.jpg?ts=1781015064830&w=1920",
+        "https://static.zara.net/assets/public/acfe/dbfa/63b9492f8622/299528b21bf2/11160830050-e5/11160830050-e5.jpg?ts=1781015064235&w=1920",
+        "https://static.zara.net/assets/public/c83c/cdfb/dedd49a499e4/e64fd0ffad8f/11160830050-e6/11160830050-e6.jpg?ts=1781015065652&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nTechnical-style skate bag in contrasting colors. Features a main compartment with zip closure, top handle, and adjustable shoulder strap.\nHeight x Length x Width: 12.6 x 15.7 x 7.9 inches (32 x 40 x 20 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "35fad2fed3703f4e7791c94202feb0a1c98e16b8770ebbfcdcc29ddb928d14c6",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

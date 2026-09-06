@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04701703",
+  "source_url": "https://www.zara.com/us/en/bear-headband-and-tortoise-effect-clip-set-p04701703.html",
+  "final_url": "https://www.zara.com/us/en/bear-headband-and-tortoise-effect-clip-set-p04701703.html",
+  "canonical_url": "https://www.zara.com/us/en/bear-headband-and-tortoise-effect-clip-set-p04701703.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BEAR HEADBAND AND TORTOISE-EFFECT CLIP SET",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BEAR HEADBAND AND TORTOISE-EFFECT CLIP SET",
+      "url": "https://www.zara.com/us/en/bear-headband-and-tortoise-effect-clip-set-p04701703.html",
+      "productGroupID": "04701703",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Two-piece set. Headband with bear ear detail and hair clip with tortoise-effect bear detail. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/4ebb/44e9/270d49e29a33/428df241de4d/04701703760-e1/04701703760-e1.jpg?ts=1784552854404&w=1920",
+        "https://static.zara.net/assets/public/e9fa/024b/858747d4ac26/6589f94afb09/04701703760-e2/04701703760-e2.jpg?ts=1784552846027&w=1920",
+        "https://static.zara.net/assets/public/ae53/a117/52f9404897ea/3e1b232f3600/04701703760-e3/04701703760-e3.jpg?ts=1784552854232&w=1920",
+        "https://static.zara.net/assets/public/9bb1/f0ae/780347a89f92/fd04b145376e/04701703760-e4/04701703760-e4.jpg?ts=1784552854306&w=1920"
+      ],
+      "material": "100% acetate",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% acetate"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BEAR HEADBAND AND TORTOISE-EFFECT CLIP SET - Tortoise shell - 14",
+          "sku": "553345149-760-14",
+          "mpn": "553345149-760-14",
+          "color": "Tortoise shell",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/4ebb/44e9/270d49e29a33/428df241de4d/04701703760-e1/04701703760-e1.jpg?ts=1784552854404&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/bear-headband-and-tortoise-effect-clip-set-p04701703.html?v1=553345149",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BEAR HEADBAND AND TORTOISE-EFFECT CLIP SET",
+      "product_group_id": "04701703",
+      "brand": "ZARA",
+      "description": "Two-piece set. Headband with bear ear detail and hair clip with tortoise-effect bear detail. Contains small parts, not recommended for children under 3 years old.",
+      "material": "100% acetate",
+      "composition": "OUTER SHELL: 100% acetate",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BEAR HEADBAND AND TORTOISE-EFFECT CLIP SET - Tortoise shell - 14",
+          "sku": "553345149-760-14",
+          "mpn": "553345149-760-14",
+          "color_name": "Tortoise shell",
+          "size_name": "14",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/bear-headband-and-tortoise-effect-clip-set-p04701703.html?v1=553345149",
+          "images": [
+            "https://static.zara.net/assets/public/4ebb/44e9/270d49e29a33/428df241de4d/04701703760-e1/04701703760-e1.jpg?ts=1784552854404&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/4ebb/44e9/270d49e29a33/428df241de4d/04701703760-e1/04701703760-e1.jpg?ts=1784552854404&w=1920",
+        "https://static.zara.net/assets/public/e9fa/024b/858747d4ac26/6589f94afb09/04701703760-e2/04701703760-e2.jpg?ts=1784552846027&w=1920",
+        "https://static.zara.net/assets/public/ae53/a117/52f9404897ea/3e1b232f3600/04701703760-e3/04701703760-e3.jpg?ts=1784552854232&w=1920",
+        "https://static.zara.net/assets/public/9bb1/f0ae/780347a89f92/fd04b145376e/04701703760-e4/04701703760-e4.jpg?ts=1784552854306&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nTwo-piece set. Headband with bear ear detail and hair clip with tortoise-effect bear detail. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d4986e8f0849e743ff97260c82e89d3931ba1f7894c52f7d20addc82db304d23",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

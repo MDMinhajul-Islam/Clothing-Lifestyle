@@ -1,0 +1,135 @@
+{
+  "product_id": "zara-us:11201830",
+  "source_url": "https://www.zara.com/us/en/varsity-bowling-bag-p11201830.html",
+  "final_url": "https://www.zara.com/us/en/varsity-bowling-bag-p11201830.html",
+  "canonical_url": "https://www.zara.com/us/en/varsity-bowling-bag-p11201830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "VARSITY BOWLING BAG",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "VARSITY BOWLING BAG",
+      "url": "https://www.zara.com/us/en/varsity-bowling-bag-p11201830.html",
+      "productGroupID": "11201830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Bowling bag with a front patch. Features a main compartment with a zipper closure, an open front pocket, and side pockets with zipper closures. Includes two top handles and a detachable, adjustable shoulder strap. Height x Width x Depth: 11.4 x 18.1 x 3.9 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/e438/415c/f36a42b8910a/2ecb6cb43e0a/11201830400-e1/11201830400-e1.jpg?ts=1785481532050&w=1920",
+        "https://static.zara.net/assets/public/1546/d427/4df24b6cad6f/24e0259805b8/11201830400-e2/11201830400-e2.jpg?ts=1785481530774&w=1920",
+        "https://static.zara.net/assets/public/9493/eb1e/dea2469293ee/e1ec188b3d58/11201830400-e3/11201830400-e3.jpg?ts=1785481532689&w=1920",
+        "https://static.zara.net/assets/public/623e/639d/4adc4ae39db4/bdc8b9abf0dc/11201830400-e4/11201830400-e4.jpg?ts=1785481532680&w=1920",
+        "https://static.zara.net/assets/public/7385/4d46/62c1400c85c6/7187959c1f2e/11201830400-e5/11201830400-e5.jpg?ts=1785481533075&w=1920",
+        "https://static.zara.net/assets/public/6266/8d47/b48348f88019/f47aa58804f5/11201830400-e6/11201830400-e6.jpg?ts=1785481532446&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "VARSITY BOWLING BAG - Blue - ONE SIZE ONLY",
+          "sku": "545465512-400-53",
+          "mpn": "545465512-400-53",
+          "color": "Blue",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/e438/415c/f36a42b8910a/2ecb6cb43e0a/11201830400-e1/11201830400-e1.jpg?ts=1785481532050&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/varsity-bowling-bag-p11201830.html?v1=545465512",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "VARSITY BOWLING BAG",
+      "product_group_id": "11201830",
+      "brand": "ZARA",
+      "description": "Bowling bag with a front patch. Features a main compartment with a zipper closure, an open front pocket, and side pockets with zipper closures. Includes two top handles and a detachable, adjustable shoulder strap. Height x Width x Depth: 11.4 x 18.1 x 3.9 inches.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "VARSITY BOWLING BAG - Blue - ONE SIZE ONLY",
+          "sku": "545465512-400-53",
+          "mpn": "545465512-400-53",
+          "color_name": "Blue",
+          "size_name": "ONE SIZE ONLY",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/varsity-bowling-bag-p11201830.html?v1=545465512",
+          "images": [
+            "https://static.zara.net/assets/public/e438/415c/f36a42b8910a/2ecb6cb43e0a/11201830400-e1/11201830400-e1.jpg?ts=1785481532050&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/e438/415c/f36a42b8910a/2ecb6cb43e0a/11201830400-e1/11201830400-e1.jpg?ts=1785481532050&w=1920",
+        "https://static.zara.net/assets/public/1546/d427/4df24b6cad6f/24e0259805b8/11201830400-e2/11201830400-e2.jpg?ts=1785481530774&w=1920",
+        "https://static.zara.net/assets/public/9493/eb1e/dea2469293ee/e1ec188b3d58/11201830400-e3/11201830400-e3.jpg?ts=1785481532689&w=1920",
+        "https://static.zara.net/assets/public/623e/639d/4adc4ae39db4/bdc8b9abf0dc/11201830400-e4/11201830400-e4.jpg?ts=1785481532680&w=1920",
+        "https://static.zara.net/assets/public/7385/4d46/62c1400c85c6/7187959c1f2e/11201830400-e5/11201830400-e5.jpg?ts=1785481533075&w=1920",
+        "https://static.zara.net/assets/public/6266/8d47/b48348f88019/f47aa58804f5/11201830400-e6/11201830400-e6.jpg?ts=1785481532446&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nBowling bag with a front patch. Features a main compartment with a zipper closure, an open front pocket, and side pockets with zipper closures. Includes two top handles and a detachable, adjustable shoulder strap. Height x Width x Depth: 11.4 x 18.1 x 3.9 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "5b4a5c3da58f9369abd25997d34646e417f0f75e9910f0c44578f6009b7876f4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

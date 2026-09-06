@@ -1,0 +1,142 @@
+{
+  "product_id": "zara-us:11249830",
+  "source_url": "https://www.zara.com/us/en/cat-crossbody-bag-p11249830.html",
+  "final_url": "https://www.zara.com/us/en/cat-crossbody-bag-p11249830.html",
+  "canonical_url": "https://www.zara.com/us/en/cat-crossbody-bag-p11249830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "CAT CROSSBODY BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "CAT CROSSBODY BAG",
+      "url": "https://www.zara.com/us/en/cat-crossbody-bag-p11249830.html",
+      "productGroupID": "11249830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Halloween crossbody bag featuring a cat design and soft faux-fur finish. Main compartment with zip closure and a checkered scarf detail with a jingle bell. Cord shoulder strap.\n\nHeight x Width x Depth: 8.3 x 11 x 4.7 in.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/be03/15dc/f90d47b080bf/bb7bfd09f4f5/11249830800-e1/11249830800-e1.jpg?ts=1787742206453&w=1920",
+        "https://static.zara.net/assets/public/2586/c0c0/8ee546e68beb/28ad3dc94081/11249830800-e2/11249830800-e2.jpg?ts=1787742202787&w=1920",
+        "https://static.zara.net/assets/public/243c/2d18/71b14fb88b6d/52d65f01ce08/11249830800-e3/11249830800-e3.jpg?ts=1787742201599&w=1920",
+        "https://static.zara.net/assets/public/464e/b5ae/f1a443ebb882/3bf4eb8be84e/11249830800-e4/11249830800-e4.jpg?ts=1787742201854&w=1920",
+        "https://static.zara.net/assets/public/cb70/4fe0/80ba40b6b1b8/5bc82f988194/11249830800-e5/11249830800-e5.jpg?ts=1787742206268&w=1920",
+        "https://static.zara.net/assets/public/7c50/1427/957347b586d1/3a445800323b/11249830800-e6/11249830800-e6.jpg?ts=1787742202904&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "CAT CROSSBODY BAG - Black - ONE SIZE ONLY",
+          "sku": "550334900-800-53",
+          "mpn": "550334900-800-53",
+          "color": "Black",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/be03/15dc/f90d47b080bf/bb7bfd09f4f5/11249830800-e1/11249830800-e1.jpg?ts=1787742206453&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "39.9",
+            "url": "https://www.zara.com/us/en/cat-crossbody-bag-p11249830.html?v1=550334900",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "CAT CROSSBODY BAG",
+      "product_group_id": "11249830",
+      "brand": "ZARA",
+      "description": "Halloween crossbody bag featuring a cat design and soft faux-fur finish. Main compartment with zip closure and a checkered scarf detail with a jingle bell. Cord shoulder strap.\n\nHeight x Width x Depth: 8.3 x 11 x 4.7 in.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester | FILLING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "CAT CROSSBODY BAG - Black - ONE SIZE ONLY",
+          "sku": "550334900-800-53",
+          "mpn": "550334900-800-53",
+          "color_name": "Black",
+          "size_name": "ONE SIZE ONLY",
+          "price": "39.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/cat-crossbody-bag-p11249830.html?v1=550334900",
+          "images": [
+            "https://static.zara.net/assets/public/be03/15dc/f90d47b080bf/bb7bfd09f4f5/11249830800-e1/11249830800-e1.jpg?ts=1787742206453&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/be03/15dc/f90d47b080bf/bb7bfd09f4f5/11249830800-e1/11249830800-e1.jpg?ts=1787742206453&w=1920",
+        "https://static.zara.net/assets/public/2586/c0c0/8ee546e68beb/28ad3dc94081/11249830800-e2/11249830800-e2.jpg?ts=1787742202787&w=1920",
+        "https://static.zara.net/assets/public/243c/2d18/71b14fb88b6d/52d65f01ce08/11249830800-e3/11249830800-e3.jpg?ts=1787742201599&w=1920",
+        "https://static.zara.net/assets/public/464e/b5ae/f1a443ebb882/3bf4eb8be84e/11249830800-e4/11249830800-e4.jpg?ts=1787742201854&w=1920",
+        "https://static.zara.net/assets/public/cb70/4fe0/80ba40b6b1b8/5bc82f988194/11249830800-e5/11249830800-e5.jpg?ts=1787742206268&w=1920",
+        "https://static.zara.net/assets/public/7c50/1427/957347b586d1/3a445800323b/11249830800-e6/11249830800-e6.jpg?ts=1787742202904&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "39.90",
+  "rendered_description": "Description\nHalloween crossbody bag featuring a cat design and soft faux-fur finish. Main compartment with zip closure and a checkered scarf detail with a jingle bell. Cord shoulder strap.\nHeight x Width x Depth: 8.3 x 11 x 4.7 in.",
+  "comp_care_text": null,
+  "raw_images_count": 12,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "39.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "39.90",
+    "dom_price": "39.90",
+    "normalized_price": "39.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "7aeffb010a8d9b1e43865962defc70b56f7986451a7d9ab41bd1f29d11736e95",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,171 @@
+{
+  "product_id": "zara-us:11109830",
+  "source_url": "https://www.zara.com/us/en/metallic-crossbody-bag-p11109830.html",
+  "final_url": "https://www.zara.com/us/en/metallic-crossbody-bag-p11109830.html",
+  "canonical_url": "https://www.zara.com/us/en/metallic-crossbody-bag-p11109830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "METALLIC CROSSBODY BAG",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "METALLIC CROSSBODY BAG",
+      "url": "https://www.zara.com/us/en/metallic-crossbody-bag-p11109830.html",
+      "productGroupID": "11109830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Metallic finish crossbody bag. Features a main compartment with zip closure and an adjustable shoulder strap.\n\nHeight x Length x Width: 3.9 x 7.9 x 2 inches (10 x 20 x 5 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/bc73/eaf9/1d5942559cb9/98e230cf6132/11109830253-e1/11109830253-e1.jpg?ts=1777556872378&w=1920",
+        "https://static.zara.net/assets/public/bcc5/54ee/109e480692c3/e83a83b2d51e/11109830253-e2/11109830253-e2.jpg?ts=1777556872552&w=1920",
+        "https://static.zara.net/assets/public/35fa/66d7/243543129469/62127ccd602c/11109830253-e3/11109830253-e3.jpg?ts=1777556872348&w=1920",
+        "https://static.zara.net/assets/public/6956/c659/3b6a453a876c/c2532c7de36b/11109830253-e4/11109830253-e4.jpg?ts=1777556871969&w=1920",
+        "https://static.zara.net/assets/public/9c62/7257/fe9544098115/7fd112b3826c/11109830253-e5/11109830253-e5.jpg?ts=1777556871830&w=1920",
+        "https://static.zara.net/assets/public/dae0/748c/51dc41b68264/1d4fbd7e5ed7/11109830253-e6/11109830253-e6.jpg?ts=1777556871011&w=1920"
+      ],
+      "material": "100% polyurethane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyurethane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "METALLIC CROSSBODY BAG - Gold - ONE SIZE ONLY",
+          "sku": "545426221-253-53",
+          "mpn": "545426221-253-53",
+          "color": "Gold",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/bc73/eaf9/1d5942559cb9/98e230cf6132/11109830253-e1/11109830253-e1.jpg?ts=1777556872378&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/metallic-crossbody-bag-p11109830.html?v1=545426221",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC CROSSBODY BAG - Silver - ONE SIZE ONLY",
+          "sku": "545426221-808-53",
+          "mpn": "545426221-808-53",
+          "color": "Silver",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/ef8b/5f7d/a96e49d188de/0bb10ac9d7a8/11109830808-e1/11109830808-e1.jpg?ts=1777556874143&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "29.9",
+            "url": "https://www.zara.com/us/en/metallic-crossbody-bag-p11109830.html?v1=545426222",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "METALLIC CROSSBODY BAG",
+      "product_group_id": "11109830",
+      "brand": "ZARA",
+      "description": "Metallic finish crossbody bag. Features a main compartment with zip closure and an adjustable shoulder strap.\n\nHeight x Length x Width: 3.9 x 7.9 x 2 inches (10 x 20 x 5 cm)",
+      "material": "100% polyurethane",
+      "composition": "OUTER SHELL: 100% polyurethane | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "METALLIC CROSSBODY BAG - Gold - ONE SIZE ONLY",
+          "sku": "545426221-253-53",
+          "mpn": "545426221-253-53",
+          "color_name": "Gold",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-crossbody-bag-p11109830.html?v1=545426221",
+          "images": [
+            "https://static.zara.net/assets/public/bc73/eaf9/1d5942559cb9/98e230cf6132/11109830253-e1/11109830253-e1.jpg?ts=1777556872378&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC CROSSBODY BAG - Silver - ONE SIZE ONLY",
+          "sku": "545426221-808-53",
+          "mpn": "545426221-808-53",
+          "color_name": "Silver",
+          "size_name": "ONE SIZE ONLY",
+          "price": "29.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/metallic-crossbody-bag-p11109830.html?v1=545426222",
+          "images": [
+            "https://static.zara.net/assets/public/ef8b/5f7d/a96e49d188de/0bb10ac9d7a8/11109830808-e1/11109830808-e1.jpg?ts=1777556874143&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/bc73/eaf9/1d5942559cb9/98e230cf6132/11109830253-e1/11109830253-e1.jpg?ts=1777556872378&w=1920",
+        "https://static.zara.net/assets/public/bcc5/54ee/109e480692c3/e83a83b2d51e/11109830253-e2/11109830253-e2.jpg?ts=1777556872552&w=1920",
+        "https://static.zara.net/assets/public/35fa/66d7/243543129469/62127ccd602c/11109830253-e3/11109830253-e3.jpg?ts=1777556872348&w=1920",
+        "https://static.zara.net/assets/public/6956/c659/3b6a453a876c/c2532c7de36b/11109830253-e4/11109830253-e4.jpg?ts=1777556871969&w=1920",
+        "https://static.zara.net/assets/public/9c62/7257/fe9544098115/7fd112b3826c/11109830253-e5/11109830253-e5.jpg?ts=1777556871830&w=1920",
+        "https://static.zara.net/assets/public/dae0/748c/51dc41b68264/1d4fbd7e5ed7/11109830253-e6/11109830253-e6.jpg?ts=1777556871011&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Gold",
+    "Silver"
+  ],
+  "rendered_price": "29.90",
+  "rendered_description": "Description\nMetallic finish crossbody bag. Features a main compartment with zip closure and an adjustable shoulder strap.\nHeight x Length x Width: 3.9 x 7.9 x 2 inches (10 x 20 x 5 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "29.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "29.90",
+    "dom_price": "29.90",
+    "normalized_price": "29.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "9fdefaaf05a45863654fe559be60ebbb0a2539478dfbeb71f46089986d998439",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

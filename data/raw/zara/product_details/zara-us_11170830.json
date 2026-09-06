@@ -1,0 +1,171 @@
+{
+  "product_id": "zara-us:11170830",
+  "source_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11170830.html",
+  "final_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11170830.html",
+  "canonical_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11170830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "SHOULDER BAG WITH POCKETS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "SHOULDER BAG WITH POCKETS",
+      "url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11170830.html",
+      "productGroupID": "11170830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Shoulder bag in a contrasting color. Features a main compartment with a zipper closure and a shoulder strap. Includes side compartments with zipper closures.\n\nHeight x Length x Width: 5.1 x 9.4 x 3.1 inches (13 x 24 x 8 cm)",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/c275/8890/24a44e8b855e/83b86ef2a2e4/11170830050-e1/11170830050-e1.jpg?ts=1779890283689&w=1920",
+        "https://static.zara.net/assets/public/1d36/8b5f/88534912828b/e6afff93d49f/11170830050-e2/11170830050-e2.jpg?ts=1779890282669&w=1920",
+        "https://static.zara.net/assets/public/ecb7/bffd/6f7741bc9c97/5956c2c6d9b3/11170830050-e3/11170830050-e3.jpg?ts=1779890283995&w=1920",
+        "https://static.zara.net/assets/public/fed2/e40d/b6404e64914a/ac8ad0fe5cfc/11170830050-e4/11170830050-e4.jpg?ts=1779890284092&w=1920",
+        "https://static.zara.net/assets/public/ee6f/258a/ee7c4f519c3e/72ba8549c57a/11170830050-e5/11170830050-e5.jpg?ts=1779890281267&w=1920",
+        "https://static.zara.net/assets/public/642e/d612/62ce4238a48f/0789486eab4c/11170830050-e6/11170830050-e6.jpg?ts=1779890283518&w=1920"
+      ],
+      "material": "100% polyamide",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyamide"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "SHOULDER BAG WITH POCKETS - Pink - ONE SIZE ONLY",
+          "sku": "545479647-050-53",
+          "mpn": "545479647-050-53",
+          "color": "Pink",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/c275/8890/24a44e8b855e/83b86ef2a2e4/11170830050-e1/11170830050-e1.jpg?ts=1779890283689&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11170830.html?v1=545479647",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "SHOULDER BAG WITH POCKETS - Bluish - ONE SIZE ONLY",
+          "sku": "545479647-420-53",
+          "mpn": "545479647-420-53",
+          "color": "Bluish",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/c7fb/c92a/a12440e69581/9799382e9612/11170830420-e1/11170830420-e1.jpg?ts=1779890288223&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "32.9",
+            "url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11170830.html?v1=545479645",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "SHOULDER BAG WITH POCKETS",
+      "product_group_id": "11170830",
+      "brand": "ZARA",
+      "description": "Shoulder bag in a contrasting color. Features a main compartment with a zipper closure and a shoulder strap. Includes side compartments with zipper closures.\n\nHeight x Length x Width: 5.1 x 9.4 x 3.1 inches (13 x 24 x 8 cm)",
+      "material": "100% polyamide",
+      "composition": "OUTER SHELL: 100% polyamide | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "SHOULDER BAG WITH POCKETS - Pink - ONE SIZE ONLY",
+          "sku": "545479647-050-53",
+          "mpn": "545479647-050-53",
+          "color_name": "Pink",
+          "size_name": "ONE SIZE ONLY",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11170830.html?v1=545479647",
+          "images": [
+            "https://static.zara.net/assets/public/c275/8890/24a44e8b855e/83b86ef2a2e4/11170830050-e1/11170830050-e1.jpg?ts=1779890283689&w=1920"
+          ]
+        },
+        {
+          "name": "SHOULDER BAG WITH POCKETS - Bluish - ONE SIZE ONLY",
+          "sku": "545479647-420-53",
+          "mpn": "545479647-420-53",
+          "color_name": "Bluish",
+          "size_name": "ONE SIZE ONLY",
+          "price": "32.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/shoulder-bag-with-pockets-p11170830.html?v1=545479645",
+          "images": [
+            "https://static.zara.net/assets/public/c7fb/c92a/a12440e69581/9799382e9612/11170830420-e1/11170830420-e1.jpg?ts=1779890288223&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/c275/8890/24a44e8b855e/83b86ef2a2e4/11170830050-e1/11170830050-e1.jpg?ts=1779890283689&w=1920",
+        "https://static.zara.net/assets/public/1d36/8b5f/88534912828b/e6afff93d49f/11170830050-e2/11170830050-e2.jpg?ts=1779890282669&w=1920",
+        "https://static.zara.net/assets/public/ecb7/bffd/6f7741bc9c97/5956c2c6d9b3/11170830050-e3/11170830050-e3.jpg?ts=1779890283995&w=1920",
+        "https://static.zara.net/assets/public/fed2/e40d/b6404e64914a/ac8ad0fe5cfc/11170830050-e4/11170830050-e4.jpg?ts=1779890284092&w=1920",
+        "https://static.zara.net/assets/public/ee6f/258a/ee7c4f519c3e/72ba8549c57a/11170830050-e5/11170830050-e5.jpg?ts=1779890281267&w=1920",
+        "https://static.zara.net/assets/public/642e/d612/62ce4238a48f/0789486eab4c/11170830050-e6/11170830050-e6.jpg?ts=1779890283518&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [
+    "Pink",
+    "Bluish"
+  ],
+  "rendered_price": "32.90",
+  "rendered_description": "Description\nShoulder bag in a contrasting color. Features a main compartment with a zipper closure and a shoulder strap. Includes side compartments with zipper closures.\nHeight x Length x Width: 5.1 x 9.4 x 3.1 inches (13 x 24 x 8 cm)",
+  "comp_care_text": null,
+  "raw_images_count": 8,
+  "valid_images_count": 7,
+  "variants_count": 2,
+  "colors_count": 2,
+  "pricing_stats": {
+    "current_price": "32.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "32.90",
+    "dom_price": "32.90",
+    "normalized_price": "32.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b5e343895d9375b2e34a0bff96bc7721071e92635eb66a5d2d435a0e3a52fbee",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

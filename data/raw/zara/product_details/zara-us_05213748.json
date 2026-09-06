@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:05213748",
+  "source_url": "https://www.zara.com/us/en/embroidered-scrunchie-p05213748.html",
+  "final_url": "https://www.zara.com/us/en/embroidered-scrunchie-p05213748.html",
+  "canonical_url": "https://www.zara.com/us/en/embroidered-scrunchie-p05213748.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "EMBROIDERED SCRUNCHIE",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "EMBROIDERED SCRUNCHIE",
+      "url": "https://www.zara.com/us/en/embroidered-scrunchie-p05213748.html",
+      "productGroupID": "05213748",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Elastic scrunchie with embroidered detail. Contains small parts, not recommended for children under 3 years old.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6ced/fd4c/950f44289fc6/4f5ecdc49ded/05213748250-e1/05213748250-e1.jpg?ts=1779114368417&w=1920",
+        "https://static.zara.net/assets/public/080f/daf8/aef24991ba15/4d728c25f3c3/05213748250-e2/05213748250-e2.jpg?ts=1779114369432&w=1920",
+        "https://static.zara.net/assets/public/7e5d/7ab4/46234e5ba4d4/53b4d9389488/05213748250-e3/05213748250-e3.jpg?ts=1779114369281&w=1920",
+        "https://static.zara.net/assets/public/b874/5296/e13f4a17bd5e/866ef51b5bc8/05213748250-e4/05213748250-e4.jpg?ts=1779114368781&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "EMBROIDERED SCRUNCHIE - White - 14",
+          "sku": "545461927-250-14",
+          "mpn": "545461927-250-14",
+          "color": "White",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/6ced/fd4c/950f44289fc6/4f5ecdc49ded/05213748250-e1/05213748250-e1.jpg?ts=1779114368417&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/embroidered-scrunchie-p05213748.html?v1=545461927",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "EMBROIDERED SCRUNCHIE",
+      "product_group_id": "05213748",
+      "brand": "ZARA",
+      "description": "Elastic scrunchie with embroidered detail. Contains small parts, not recommended for children under 3 years old.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "EMBROIDERED SCRUNCHIE - White - 14",
+          "sku": "545461927-250-14",
+          "mpn": "545461927-250-14",
+          "color_name": "White",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/embroidered-scrunchie-p05213748.html?v1=545461927",
+          "images": [
+            "https://static.zara.net/assets/public/6ced/fd4c/950f44289fc6/4f5ecdc49ded/05213748250-e1/05213748250-e1.jpg?ts=1779114368417&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/6ced/fd4c/950f44289fc6/4f5ecdc49ded/05213748250-e1/05213748250-e1.jpg?ts=1779114368417&w=1920",
+        "https://static.zara.net/assets/public/080f/daf8/aef24991ba15/4d728c25f3c3/05213748250-e2/05213748250-e2.jpg?ts=1779114369432&w=1920",
+        "https://static.zara.net/assets/public/7e5d/7ab4/46234e5ba4d4/53b4d9389488/05213748250-e3/05213748250-e3.jpg?ts=1779114369281&w=1920",
+        "https://static.zara.net/assets/public/b874/5296/e13f4a17bd5e/866ef51b5bc8/05213748250-e4/05213748250-e4.jpg?ts=1779114368781&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nElastic scrunchie with embroidered detail. Contains small parts, not recommended for children under 3 years old.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "fdfcfe554ec4650e443434129dfdf5af82844435081b8c427a67f43a09ea6bec",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04319702",
+  "source_url": "https://www.zara.com/us/en/ice-cream-shaped-hair-clip-p04319702.html",
+  "final_url": "https://www.zara.com/us/en/ice-cream-shaped-hair-clip-p04319702.html",
+  "canonical_url": "https://www.zara.com/us/en/ice-cream-shaped-hair-clip-p04319702.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "ICE CREAM-SHAPED HAIR CLIP",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "ICE CREAM-SHAPED HAIR CLIP",
+      "url": "https://www.zara.com/us/en/ice-cream-shaped-hair-clip-p04319702.html",
+      "productGroupID": "04319702",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Ice cream-shaped hair clip.\nContains small parts, not recommended for children under 3 years.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/44ee/9c3a/e1fc4453b88f/c5750388f8bc/04319702330-e1/04319702330-e1.jpg?ts=1781005658273&w=1920",
+        "https://static.zara.net/assets/public/e763/bbb3/4433471da95f/d611e3a3c084/04319702330-e2/04319702330-e2.jpg?ts=1781005658537&w=1920",
+        "https://static.zara.net/assets/public/abef/a66e/d6a14b868d49/7fd2ef05a194/04319702330-e3/04319702330-e3.jpg?ts=1781005658115&w=1920",
+        "https://static.zara.net/assets/public/6969/1e12/75164babbe20/4f8fff4d4038/04319702330-e4/04319702330-e4.jpg?ts=1781005658443&w=1920"
+      ],
+      "material": "plastic-acrylic/resin",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "95% plastic-acrylic, 5% resin"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "ICE CREAM-SHAPED HAIR CLIP - Multicolored - 14",
+          "sku": "545851072-330-14",
+          "mpn": "545851072-330-14",
+          "color": "Multicolored",
+          "size": "14",
+          "image": [
+            "https://static.zara.net/assets/public/44ee/9c3a/e1fc4453b88f/c5750388f8bc/04319702330-e1/04319702330-e1.jpg?ts=1781005658273&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "12.9",
+            "url": "https://www.zara.com/us/en/ice-cream-shaped-hair-clip-p04319702.html?v1=545851072",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "ICE CREAM-SHAPED HAIR CLIP",
+      "product_group_id": "04319702",
+      "brand": "ZARA",
+      "description": "Ice cream-shaped hair clip.\nContains small parts, not recommended for children under 3 years.",
+      "material": "plastic-acrylic/resin",
+      "composition": "OUTER SHELL: 95% plastic-acrylic, 5% resin",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "ICE CREAM-SHAPED HAIR CLIP - Multicolored - 14",
+          "sku": "545851072-330-14",
+          "mpn": "545851072-330-14",
+          "color_name": "Multicolored",
+          "size_name": "14",
+          "price": "12.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/ice-cream-shaped-hair-clip-p04319702.html?v1=545851072",
+          "images": [
+            "https://static.zara.net/assets/public/44ee/9c3a/e1fc4453b88f/c5750388f8bc/04319702330-e1/04319702330-e1.jpg?ts=1781005658273&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/44ee/9c3a/e1fc4453b88f/c5750388f8bc/04319702330-e1/04319702330-e1.jpg?ts=1781005658273&w=1920",
+        "https://static.zara.net/assets/public/e763/bbb3/4433471da95f/d611e3a3c084/04319702330-e2/04319702330-e2.jpg?ts=1781005658537&w=1920",
+        "https://static.zara.net/assets/public/abef/a66e/d6a14b868d49/7fd2ef05a194/04319702330-e3/04319702330-e3.jpg?ts=1781005658115&w=1920",
+        "https://static.zara.net/assets/public/6969/1e12/75164babbe20/4f8fff4d4038/04319702330-e4/04319702330-e4.jpg?ts=1781005658443&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "12.90",
+  "rendered_description": "Description\nIce cream-shaped hair clip.\nContains small parts, not recommended for children under 3 years.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "12.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "12.90",
+    "dom_price": "12.90",
+    "normalized_price": "12.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "b51448d99c5b4f871fe039b9dbc2ef677bb57690978bc0965880c1826cac7e45",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

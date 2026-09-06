@@ -1,0 +1,451 @@
+{
+  "product_id": "zara-us:12414830",
+  "source_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html",
+  "final_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html",
+  "canonical_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "BAREFOOT SNEAKERS",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "BAREFOOT SNEAKERS",
+      "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html",
+      "productGroupID": "12414830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Barefoot sneakers with a contrasting color panel design. Features elastic laces and a hook-and-loop strap at the instep. Designed with a wide, rounded toe box for natural toe movement, a highly flexible heel counter, and a flexible zero-drop rubber sole.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920",
+        "https://static.zara.net/assets/public/e34d/bcce/a7a549aa8d0c/6695d7f260f9/12414830050-e2/12414830050-e2.jpg?ts=1780307019985&w=1920",
+        "https://static.zara.net/assets/public/d5d7/fc6f/d58540279b80/3dd514d98c2a/12414830050-e3/12414830050-e3.jpg?ts=1780307020538&w=1920",
+        "https://static.zara.net/assets/public/b4e0/c4e3/bf904eff88fc/9f042a8fb48b/12414830050-e4/12414830050-e4.jpg?ts=1780307020555&w=1920",
+        "https://static.zara.net/assets/public/2218/a665/1bfd4118a6bb/587ef1bc67fb/12414830050-e5/12414830050-e5.jpg?ts=1780307020102&w=1920",
+        "https://static.zara.net/assets/public/0b70/f318/81fe4e33a77b/f6e8e6e13efa/12414830050-e6/12414830050-e6.jpg?ts=1780307019191&w=1920",
+        "https://static.zara.net/assets/public/38e4/c5af/1d31407bb9ce/b17d9fac63da/12414830050-e7/12414830050-e7.jpg?ts=1780307020105&w=1920",
+        "https://static.zara.net/assets/public/7133/5c18/6a36479ba41b/c0005a37045a/12414830050-e8/12414830050-e8.jpg?ts=1780307020169&w=1920",
+        "https://static.zara.net/assets/public/4eb3/11c6/0ff946e38498/7b0570d3341c/12414830050-e9/12414830050-e9.jpg?ts=1780307018913&w=1920",
+        "https://static.zara.net/assets/public/1a65/a748/d86c48c6b04e/4c17a2cca93a/1333333333-e13/1333333333-e13.jpg?ts=1780306843566&w=1920",
+        "https://static.zara.net/assets/public/062a/d3f0/7c3e4892a019/0bea840a53a4/1333333333-e14/1333333333-e14.jpg?ts=1780306844547&w=1920"
+      ],
+      "material": "polyester/polyurethane/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "UPPER",
+          "value": "85% polyester, 11% polyurethane, 4% elastane"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "SOLE",
+          "value": "100% sbs"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "INSOLE",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "TONGUE",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 12½ (7.4 INCHES)",
+          "sku": "545456637-050-30",
+          "mpn": "545456637-050-30",
+          "color": "Pink",
+          "size": "12½ (7.4 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 13½ (7.7 INCHES)",
+          "sku": "545456637-050-31",
+          "mpn": "545456637-050-31",
+          "color": "Pink",
+          "size": "13½ (7.7 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 1 (8.0 INCHES)",
+          "sku": "545456637-050-32",
+          "mpn": "545456637-050-32",
+          "color": "Pink",
+          "size": "1 (8.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 2 (8.2 INCHES)",
+          "sku": "545456637-050-33",
+          "mpn": "545456637-050-33",
+          "color": "Pink",
+          "size": "2 (8.2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 2½ (8.5 INCHES)",
+          "sku": "545456637-050-34",
+          "mpn": "545456637-050-34",
+          "color": "Pink",
+          "size": "2½ (8.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 3½ (8.8 INCHES)",
+          "sku": "545456637-050-35",
+          "mpn": "545456637-050-35",
+          "color": "Pink",
+          "size": "3½ (8.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 4 (9.0 INCHES)",
+          "sku": "545456637-050-36",
+          "mpn": "545456637-050-36",
+          "color": "Pink",
+          "size": "4 (9.0 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 5 (9.3 INCHES)",
+          "sku": "545456637-050-37",
+          "mpn": "545456637-050-37",
+          "color": "Pink",
+          "size": "5 (9.3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 5½ (9.5 INCHES)",
+          "sku": "545456637-050-38",
+          "mpn": "545456637-050-38",
+          "color": "Pink",
+          "size": "5½ (9.5 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "BAREFOOT SNEAKERS - Pink - 6 (9.8 INCHES)",
+          "sku": "545456637-050-39",
+          "mpn": "545456637-050-39",
+          "color": "Pink",
+          "size": "6 (9.8 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "45.9",
+            "url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "BAREFOOT SNEAKERS",
+      "product_group_id": "12414830",
+      "brand": "ZARA",
+      "description": "Barefoot sneakers with a contrasting color panel design. Features elastic laces and a hook-and-loop strap at the instep. Designed with a wide, rounded toe box for natural toe movement, a highly flexible heel counter, and a flexible zero-drop rubber sole.",
+      "material": "polyester/polyurethane/elastane",
+      "composition": "UPPER: 85% polyester, 11% polyurethane, 4% elastane | LINING: 100% polyester | SOLE: 100% sbs | INSOLE: 100% polyester | TONGUE: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 12½ (7.4 INCHES)",
+          "sku": "545456637-050-30",
+          "mpn": "545456637-050-30",
+          "color_name": "Pink",
+          "size_name": "12½ (7.4 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 13½ (7.7 INCHES)",
+          "sku": "545456637-050-31",
+          "mpn": "545456637-050-31",
+          "color_name": "Pink",
+          "size_name": "13½ (7.7 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 1 (8.0 INCHES)",
+          "sku": "545456637-050-32",
+          "mpn": "545456637-050-32",
+          "color_name": "Pink",
+          "size_name": "1 (8.0 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 2 (8.2 INCHES)",
+          "sku": "545456637-050-33",
+          "mpn": "545456637-050-33",
+          "color_name": "Pink",
+          "size_name": "2 (8.2 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 2½ (8.5 INCHES)",
+          "sku": "545456637-050-34",
+          "mpn": "545456637-050-34",
+          "color_name": "Pink",
+          "size_name": "2½ (8.5 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 3½ (8.8 INCHES)",
+          "sku": "545456637-050-35",
+          "mpn": "545456637-050-35",
+          "color_name": "Pink",
+          "size_name": "3½ (8.8 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 4 (9.0 INCHES)",
+          "sku": "545456637-050-36",
+          "mpn": "545456637-050-36",
+          "color_name": "Pink",
+          "size_name": "4 (9.0 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 5 (9.3 INCHES)",
+          "sku": "545456637-050-37",
+          "mpn": "545456637-050-37",
+          "color_name": "Pink",
+          "size_name": "5 (9.3 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 5½ (9.5 INCHES)",
+          "sku": "545456637-050-38",
+          "mpn": "545456637-050-38",
+          "color_name": "Pink",
+          "size_name": "5½ (9.5 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        },
+        {
+          "name": "BAREFOOT SNEAKERS - Pink - 6 (9.8 INCHES)",
+          "sku": "545456637-050-39",
+          "mpn": "545456637-050-39",
+          "color_name": "Pink",
+          "size_name": "6 (9.8 INCHES)",
+          "price": "45.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/animal-print-barefoot-sneakers-p12414830.html?v1=545456637",
+          "images": [
+            "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/ef16/5e8a/67e84ffb8ba1/cbd113402fc2/12414830050-e1/12414830050-e1.jpg?ts=1780307019862&w=1920",
+        "https://static.zara.net/assets/public/e34d/bcce/a7a549aa8d0c/6695d7f260f9/12414830050-e2/12414830050-e2.jpg?ts=1780307019985&w=1920",
+        "https://static.zara.net/assets/public/d5d7/fc6f/d58540279b80/3dd514d98c2a/12414830050-e3/12414830050-e3.jpg?ts=1780307020538&w=1920",
+        "https://static.zara.net/assets/public/b4e0/c4e3/bf904eff88fc/9f042a8fb48b/12414830050-e4/12414830050-e4.jpg?ts=1780307020555&w=1920",
+        "https://static.zara.net/assets/public/2218/a665/1bfd4118a6bb/587ef1bc67fb/12414830050-e5/12414830050-e5.jpg?ts=1780307020102&w=1920",
+        "https://static.zara.net/assets/public/0b70/f318/81fe4e33a77b/f6e8e6e13efa/12414830050-e6/12414830050-e6.jpg?ts=1780307019191&w=1920",
+        "https://static.zara.net/assets/public/38e4/c5af/1d31407bb9ce/b17d9fac63da/12414830050-e7/12414830050-e7.jpg?ts=1780307020105&w=1920",
+        "https://static.zara.net/assets/public/7133/5c18/6a36479ba41b/c0005a37045a/12414830050-e8/12414830050-e8.jpg?ts=1780307020169&w=1920",
+        "https://static.zara.net/assets/public/4eb3/11c6/0ff946e38498/7b0570d3341c/12414830050-e9/12414830050-e9.jpg?ts=1780307018913&w=1920",
+        "https://static.zara.net/assets/public/1a65/a748/d86c48c6b04e/4c17a2cca93a/1333333333-e13/1333333333-e13.jpg?ts=1780306843566&w=1920",
+        "https://static.zara.net/assets/public/062a/d3f0/7c3e4892a019/0bea840a53a4/1333333333-e14/1333333333-e14.jpg?ts=1780306844547&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "45.90",
+  "rendered_description": "Description\nBarefoot sneakers with a contrasting color panel design. Features elastic laces and a hook-and-loop strap at the instep. Designed with a wide, rounded toe box for natural toe movement, a highly flexible heel counter, and a flexible zero-drop rubber sole.",
+  "comp_care_text": null,
+  "raw_images_count": 11,
+  "valid_images_count": 11,
+  "variants_count": 10,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "45.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "45.90",
+    "dom_price": "45.90",
+    "normalized_price": "45.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "85a0a8b9f718e1032a11230000758f0228585682004cc5aa5f2f6447b0cc6bb9",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

@@ -1,0 +1,141 @@
+{
+  "product_id": "zara-us:11144830",
+  "source_url": "https://www.zara.com/us/en/varsity-backpack-p11144830.html",
+  "final_url": "https://www.zara.com/us/en/varsity-backpack-p11144830.html",
+  "canonical_url": "https://www.zara.com/us/en/varsity-backpack-p11144830.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "VARSITY BACKPACK",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "VARSITY BACKPACK",
+      "url": "https://www.zara.com/us/en/varsity-backpack-p11144830.html",
+      "productGroupID": "11144830",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Backpack featuring a patch design on the front. Includes a main compartment and a front zip pocket. Features adjustable double shoulder straps. Height x Width x Depth: 15.7 x 11.8 x 4.7 inches.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/12d7/c502/c6444ecb834b/d8fde27229c3/11144830605-e1/11144830605-e1.jpg?ts=1785419603576&w=1920",
+        "https://static.zara.net/assets/public/d4bf/e91e/6cdb48a48ebd/0726cbdf9948/11144830605-e2/11144830605-e2.jpg?ts=1785419603389&w=1920",
+        "https://static.zara.net/assets/public/d6ca/051a/41cb4b1d9ea3/6a082f778b91/11144830605-e3/11144830605-e3.jpg?ts=1785419603431&w=1920",
+        "https://static.zara.net/assets/public/fe0b/e8fc/444a43d7a124/fbd815ce6acc/11144830605-e4/11144830605-e4.jpg?ts=1785419603421&w=1920",
+        "https://static.zara.net/assets/public/2d52/1524/bd5f489fa9cf/4628b44e4aa4/11144830605-e5/11144830605-e5.jpg?ts=1785419601703&w=1920",
+        "https://static.zara.net/assets/public/afb9/d899/846442aa956d/b2a079bff839/11144830605-e6/11144830605-e6.jpg?ts=1785419603394&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "FILLING",
+          "value": ""
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "VARSITY BACKPACK - Maroon - ONE SIZE ONLY",
+          "sku": "545490312-605-53",
+          "mpn": "545490312-605-53",
+          "color": "Maroon",
+          "size": "ONE SIZE ONLY",
+          "image": [
+            "https://static.zara.net/assets/public/12d7/c502/c6444ecb834b/d8fde27229c3/11144830605-e1/11144830605-e1.jpg?ts=1785419603576&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/varsity-backpack-p11144830.html?v1=545490312",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "VARSITY BACKPACK",
+      "product_group_id": "11144830",
+      "brand": "ZARA",
+      "description": "Backpack featuring a patch design on the front. Includes a main compartment and a front zip pocket. Features adjustable double shoulder straps. Height x Width x Depth: 15.7 x 11.8 x 4.7 inches.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester | LINING: 100% polyester",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "VARSITY BACKPACK - Maroon - ONE SIZE ONLY",
+          "sku": "545490312-605-53",
+          "mpn": "545490312-605-53",
+          "color_name": "Maroon",
+          "size_name": "ONE SIZE ONLY",
+          "price": "55.90",
+          "public_availability_state": "OUT_OF_STOCK",
+          "offer_url": "https://www.zara.com/us/en/varsity-backpack-p11144830.html?v1=545490312",
+          "images": [
+            "https://static.zara.net/assets/public/12d7/c502/c6444ecb834b/d8fde27229c3/11144830605-e1/11144830605-e1.jpg?ts=1785419603576&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/12d7/c502/c6444ecb834b/d8fde27229c3/11144830605-e1/11144830605-e1.jpg?ts=1785419603576&w=1920",
+        "https://static.zara.net/assets/public/d4bf/e91e/6cdb48a48ebd/0726cbdf9948/11144830605-e2/11144830605-e2.jpg?ts=1785419603389&w=1920",
+        "https://static.zara.net/assets/public/d6ca/051a/41cb4b1d9ea3/6a082f778b91/11144830605-e3/11144830605-e3.jpg?ts=1785419603431&w=1920",
+        "https://static.zara.net/assets/public/fe0b/e8fc/444a43d7a124/fbd815ce6acc/11144830605-e4/11144830605-e4.jpg?ts=1785419603421&w=1920",
+        "https://static.zara.net/assets/public/2d52/1524/bd5f489fa9cf/4628b44e4aa4/11144830605-e5/11144830605-e5.jpg?ts=1785419601703&w=1920",
+        "https://static.zara.net/assets/public/afb9/d899/846442aa956d/b2a079bff839/11144830605-e6/11144830605-e6.jpg?ts=1785419603394&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nBackpack featuring a patch design on the front. Includes a main compartment and a front zip pocket. Features adjustable double shoulder straps. Height x Width x Depth: 15.7 x 11.8 x 4.7 inches.",
+  "comp_care_text": null,
+  "raw_images_count": 6,
+  "valid_images_count": 6,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "a4f932ce2e53e2742567a1940ccd569fede7fe07942805d5bf3c60c836d06489",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

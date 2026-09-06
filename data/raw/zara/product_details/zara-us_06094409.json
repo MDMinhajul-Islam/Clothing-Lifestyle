@@ -1,0 +1,294 @@
+{
+  "product_id": "zara-us:06094409",
+  "source_url": "https://www.zara.com/us/en/lm-drss-p06094409.html",
+  "final_url": "https://www.zara.com/us/en/lm-drss-p06094409.html",
+  "canonical_url": "https://www.zara.com/us/en/lm-drss-p06094409.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "LM DRSS",
+    "Add to cart",
+    "Description",
+    "Complete your look",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "LM DRSS",
+      "url": "https://www.zara.com/us/en/lm-drss-p06094409.html",
+      "productGroupID": "06094409",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Dress with shirt collar and three-quarter sleeves. Front patch pockets. Fabric made with 33% linen.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920",
+        "https://static.zara.net/assets/public/d41a/05d4/240c4f2cb54f/5537c383d6ab/06094409520-a3/06094409520-a3.jpg?ts=1784822387203&w=1920",
+        "https://static.zara.net/assets/public/9194/7682/c4a2474385c2/3c368d47c2d4/06094409520-a2/06094409520-a2.jpg?ts=1784822387582&w=1920",
+        "https://static.zara.net/assets/public/9dfc/bfec/b55f46879ac2/3a22e4bbd627/06094409520-a1/06094409520-a1.jpg?ts=1784822386413&w=1920",
+        "https://static.zara.net/assets/public/573a/53c8/1cb6449a914a/79a340ad8896/06094409520-e1/06094409520-e1.jpg?ts=1784816527344&w=1920",
+        "https://static.zara.net/assets/public/b65c/7486/609c4c009901/0f22cfea1625/06094409520-e2/06094409520-e2.jpg?ts=1784816527281&w=1920",
+        "https://static.zara.net/assets/public/0e93/c3aa/4de6424b8a77/cec815ff956e/06094409520-e3/06094409520-e3.jpg?ts=1784816530028&w=1920",
+        "https://static.zara.net/assets/public/24e4/37a4/e2d94da8b04b/937c324a00fc/06094409520-e4/06094409520-e4.jpg?ts=1784816531219&w=1920"
+      ],
+      "material": "viscose/linen",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "67% viscose, 33% linen"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "LM DRSS - Lime green - 4-5 years (43,3 INCHES)",
+          "sku": "545470269-520-31",
+          "mpn": "545470269-520-31",
+          "color": "Lime green",
+          "size": "4-5 years (43,3 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LM DRSS - Lime green - 6-7 years (47,2 INCHES)",
+          "sku": "545470269-520-32",
+          "mpn": "545470269-520-32",
+          "color": "Lime green",
+          "size": "6-7 years (47,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/LimitedAvailability"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LM DRSS - Lime green - 8-9 years (51,2 INCHES)",
+          "sku": "545470269-520-33",
+          "mpn": "545470269-520-33",
+          "color": "Lime green",
+          "size": "8-9 years (51,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LM DRSS - Lime green - 10-11 years (57,1 INCHES)",
+          "sku": "545470269-520-34",
+          "mpn": "545470269-520-34",
+          "color": "Lime green",
+          "size": "10-11 years (57,1 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LM DRSS - Lime green - 12-13 years (62,2 INCHES)",
+          "sku": "545470269-520-35",
+          "mpn": "545470269-520-35",
+          "color": "Lime green",
+          "size": "12-13 years (62,2 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "LM DRSS - Lime green - 13-14 years (64,6 INCHES)",
+          "sku": "545470269-520-36",
+          "mpn": "545470269-520-36",
+          "color": "Lime green",
+          "size": "13-14 years (64,6 INCHES)",
+          "image": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "55.9",
+            "url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "LM DRSS",
+      "product_group_id": "06094409",
+      "brand": "ZARA",
+      "description": "Dress with shirt collar and three-quarter sleeves. Front patch pockets. Fabric made with 33% linen.",
+      "material": "viscose/linen",
+      "composition": "OUTER SHELL: 67% viscose, 33% linen",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "LM DRSS - Lime green - 4-5 years (43,3 INCHES)",
+          "sku": "545470269-520-31",
+          "mpn": "545470269-520-31",
+          "color_name": "Lime green",
+          "size_name": "4-5 years (43,3 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+          "images": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ]
+        },
+        {
+          "name": "LM DRSS - Lime green - 6-7 years (47,2 INCHES)",
+          "sku": "545470269-520-32",
+          "mpn": "545470269-520-32",
+          "color_name": "Lime green",
+          "size_name": "6-7 years (47,2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "UNKNOWN",
+          "offer_url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+          "images": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ]
+        },
+        {
+          "name": "LM DRSS - Lime green - 8-9 years (51,2 INCHES)",
+          "sku": "545470269-520-33",
+          "mpn": "545470269-520-33",
+          "color_name": "Lime green",
+          "size_name": "8-9 years (51,2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+          "images": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ]
+        },
+        {
+          "name": "LM DRSS - Lime green - 10-11 years (57,1 INCHES)",
+          "sku": "545470269-520-34",
+          "mpn": "545470269-520-34",
+          "color_name": "Lime green",
+          "size_name": "10-11 years (57,1 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+          "images": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ]
+        },
+        {
+          "name": "LM DRSS - Lime green - 12-13 years (62,2 INCHES)",
+          "sku": "545470269-520-35",
+          "mpn": "545470269-520-35",
+          "color_name": "Lime green",
+          "size_name": "12-13 years (62,2 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+          "images": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ]
+        },
+        {
+          "name": "LM DRSS - Lime green - 13-14 years (64,6 INCHES)",
+          "sku": "545470269-520-36",
+          "mpn": "545470269-520-36",
+          "color_name": "Lime green",
+          "size_name": "13-14 years (64,6 INCHES)",
+          "price": "55.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/lm-drss-p06094409.html?v1=545470269",
+          "images": [
+            "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/898f/38ef/bd614529a2f6/86576f4240a4/06094409520-p/06094409520-p.jpg?ts=1784822387873&w=1920",
+        "https://static.zara.net/assets/public/d41a/05d4/240c4f2cb54f/5537c383d6ab/06094409520-a3/06094409520-a3.jpg?ts=1784822387203&w=1920",
+        "https://static.zara.net/assets/public/9194/7682/c4a2474385c2/3c368d47c2d4/06094409520-a2/06094409520-a2.jpg?ts=1784822387582&w=1920",
+        "https://static.zara.net/assets/public/9dfc/bfec/b55f46879ac2/3a22e4bbd627/06094409520-a1/06094409520-a1.jpg?ts=1784822386413&w=1920",
+        "https://static.zara.net/assets/public/573a/53c8/1cb6449a914a/79a340ad8896/06094409520-e1/06094409520-e1.jpg?ts=1784816527344&w=1920",
+        "https://static.zara.net/assets/public/b65c/7486/609c4c009901/0f22cfea1625/06094409520-e2/06094409520-e2.jpg?ts=1784816527281&w=1920",
+        "https://static.zara.net/assets/public/0e93/c3aa/4de6424b8a77/cec815ff956e/06094409520-e3/06094409520-e3.jpg?ts=1784816530028&w=1920",
+        "https://static.zara.net/assets/public/24e4/37a4/e2d94da8b04b/937c324a00fc/06094409520-e4/06094409520-e4.jpg?ts=1784816531219&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "55.90",
+  "rendered_description": "Description\nDress with shirt collar and three-quarter sleeves. Front patch pockets. Fabric made with 33% linen.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 8,
+  "variants_count": 6,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "55.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "55.90",
+    "dom_price": "55.90",
+    "normalized_price": "55.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "d893bb213dcac5bc19ac03aa95b18e5526657f1145056bfd91263dd3664194d4",
+  "parser_version": "phase_1c_v2.0_3layer"
+}

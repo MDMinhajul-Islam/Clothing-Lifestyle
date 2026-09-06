@@ -1,0 +1,125 @@
+{
+  "product_id": "zara-us:04758746",
+  "source_url": "https://www.zara.com/us/en/star-print-bandana-p04758746.html",
+  "final_url": "https://www.zara.com/us/en/star-print-bandana-p04758746.html",
+  "canonical_url": "https://www.zara.com/us/en/star-print-bandana-p04758746.html",
+  "enriched_at": "2026-09-06T18:28:28.246692+00:00",
+  "http_status": 200,
+  "page_title": "",
+  "headings": [
+    "STAR PRINT BANDANA",
+    "Add to cart",
+    "Description",
+    "Footer"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STAR PRINT BANDANA",
+      "url": "https://www.zara.com/us/en/star-print-bandana-p04758746.html",
+      "productGroupID": "04758746",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Bandana with star print.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/89fa/9834/6d7e47b099d8/4d9e0c33ee52/04758746712-e1/04758746712-e1.jpg?ts=1784202344424&w=1920",
+        "https://static.zara.net/assets/public/bbfa/2499/7f19484a9233/40de0cab21dc/04758746712-e2/04758746712-e2.jpg?ts=1784202344748&w=1920",
+        "https://static.zara.net/assets/public/531f/8e11/4be84765b658/ff23c5b858b8/04758746712-e3/04758746712-e3.jpg?ts=1784202345239&w=1920",
+        "https://static.zara.net/assets/public/8425/8930/3a1245c7b572/cddbedb852f8/04758746712-e4/04758746712-e4.jpg?ts=1784202345057&w=1920"
+      ],
+      "material": "100% cotton",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% cotton"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STAR PRINT BANDANA - Ecru - M",
+          "sku": "545400490-712-14",
+          "mpn": "545400490-712-14",
+          "color": "Ecru",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/89fa/9834/6d7e47b099d8/4d9e0c33ee52/04758746712-e1/04758746712-e1.jpg?ts=1784202344424&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "14.9",
+            "url": "https://www.zara.com/us/en/star-print-bandana-p04758746.html?v1=545400490",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STAR PRINT BANDANA",
+      "product_group_id": "04758746",
+      "brand": "ZARA",
+      "description": "Bandana with star print.",
+      "material": "100% cotton",
+      "composition": "OUTER SHELL: 100% cotton",
+      "price": null,
+      "currency": "USD",
+      "offers": {},
+      "variants": [
+        {
+          "name": "STAR PRINT BANDANA - Ecru - M",
+          "sku": "545400490-712-14",
+          "mpn": "545400490-712-14",
+          "color_name": "Ecru",
+          "size_name": "M",
+          "price": "14.90",
+          "public_availability_state": "IN_STOCK",
+          "offer_url": "https://www.zara.com/us/en/star-print-bandana-p04758746.html?v1=545400490",
+          "images": [
+            "https://static.zara.net/assets/public/89fa/9834/6d7e47b099d8/4d9e0c33ee52/04758746712-e1/04758746712-e1.jpg?ts=1784202344424&w=1920"
+          ]
+        }
+      ],
+      "images": [
+        "https://static.zara.net/assets/public/89fa/9834/6d7e47b099d8/4d9e0c33ee52/04758746712-e1/04758746712-e1.jpg?ts=1784202344424&w=1920",
+        "https://static.zara.net/assets/public/bbfa/2499/7f19484a9233/40de0cab21dc/04758746712-e2/04758746712-e2.jpg?ts=1784202344748&w=1920",
+        "https://static.zara.net/assets/public/531f/8e11/4be84765b658/ff23c5b858b8/04758746712-e3/04758746712-e3.jpg?ts=1784202345239&w=1920",
+        "https://static.zara.net/assets/public/8425/8930/3a1245c7b572/cddbedb852f8/04758746712-e4/04758746712-e4.jpg?ts=1784202345057&w=1920"
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "14.90",
+  "rendered_description": "Description\nBandana with star print.",
+  "comp_care_text": null,
+  "raw_images_count": 4,
+  "valid_images_count": 4,
+  "variants_count": 1,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "14.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "14.90",
+    "dom_price": "14.90",
+    "normalized_price": "14.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "92540e77ecf76eaf639e7a7549f08d990cfdcd38f453bd2ef26ed10cec9220f0",
+  "parser_version": "phase_1c_v2.0_3layer"
+}
