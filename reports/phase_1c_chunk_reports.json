@@ -112,5 +112,62 @@
       "normalized_colors": 323,
       "normalized_images": 2464
     }
+  },
+  {
+    "chunk_number": "VALIDATION_CHUNK_250",
+    "timestamp": "2026-09-06T11:31:38.841695+00:00",
+    "metrics": {
+      "total_attempted": 250,
+      "total_completed": 250,
+      "total_partial": 0,
+      "total_failed_retryable": 0,
+      "total_failed_terminal": 0,
+      "pricing": {
+        "products_with_price": 250,
+        "regular_price_products": 244,
+        "sale_products": 6,
+        "price_conflicts": 6
+      },
+      "variants": {
+        "total_variants": 1432,
+        "avg_variants_per_product": 5.73,
+        "max_variants_per_product": 30
+      },
+      "colors": {
+        "total_colors": 345,
+        "avg_colors_per_product": 1.38,
+        "max_colors_per_product": 7
+      },
+      "images": {
+        "raw_images_observed": 7780,
+        "duplicates_removed": 3523,
+        "valid_retained": 2060,
+        "color_mapped": 1870,
+        "unmapped": 190,
+        "avg_images_per_product": 8.24,
+        "median_images_per_product": 8.0,
+        "max_images_per_product": 13
+      },
+      "timing": {
+        "total_elapsed_seconds": 1588.68,
+        "average_seconds_per_product": 6.22,
+        "median_seconds_per_product": 6.2,
+        "slowest_product": "zara-us:07827777",
+        "slowest_seconds": 7.39
+      },
+      "cumulative_normalized_totals": {
+        "products": 420,
+        "variants": 2432,
+        "colors": 669,
+        "images": 4532
+      }
+    },
+    "cumulative_validation": {
+      "queue_total": 6276,
+      "normalized_products": 420,
+      "normalized_variants": 2432,
+      "normalized_colors": 669,
+      "normalized_images": 4532
+    }
   }
 ]

@@ -1,0 +1,201 @@
+{
+  "product_id": "zara-us:02298705",
+  "source_product_id": "02298705",
+  "source_url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html",
+  "final_url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html",
+  "canonical_url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html",
+  "retrieved_at": "2026-09-06T11:10:43.913912+00:00",
+  "http_status": 200,
+  "page_title": "STRAPPY MAXI DRESS - Stone | ZARA United States",
+  "headings": [
+    "STRAPPY MAXI DRESS",
+    "Add to cart",
+    "Description",
+    "COMPLETE YOUR LOOK",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "STRAPPY MAXI DRESS",
+      "url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html",
+      "productGroupID": "02298705",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Maxi dress with a round neckline and spaghetti straps. Straight hem with side slits.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/6aee/9f32/5e3b41be8a75/8c4c8fab3f05/02298705806-p/02298705806-p.jpg?ts=1786431412762&w=1920",
+        "https://static.zara.net/assets/public/9bff/25dc/2ba3495cbbc7/9eb23a49c5a2/02298705806-a1/02298705806-a1.jpg?ts=1786431412634&w=1920",
+        "https://static.zara.net/assets/public/7ad5/27a0/14244defb294/1ab976707c68/02298705806-a2/02298705806-a2.jpg?ts=1786431413106&w=1920",
+        "https://static.zara.net/assets/public/7592/995e/172d4b7ca8c4/98bbb4e4079f/02298705806-e1/02298705806-e1.jpg?ts=1786440431757&w=1920",
+        "https://static.zara.net/assets/public/df81/d50d/073042828144/61e4a34d53c2/02298705806-e2/02298705806-e2.jpg?ts=1786440433828&w=1920",
+        "https://static.zara.net/assets/public/5428/155a/f8dc4e08b14b/6bb01b6d9971/02298705806-e3/02298705806-e3.jpg?ts=1786440432082&w=1920"
+      ],
+      "material": "polyester/elastane",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "95% polyester, 5% elastane"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "STRAPPY MAXI DRESS - Stone - S",
+          "sku": "560613342-806-2",
+          "mpn": "560613342-806-2",
+          "color": "Stone",
+          "size": "S",
+          "image": [
+            "https://static.zara.net/assets/public/6aee/9f32/5e3b41be8a75/8c4c8fab3f05/02298705806-p/02298705806-p.jpg?ts=1786431412762&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html?v1=560613342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRAPPY MAXI DRESS - Stone - M",
+          "sku": "560613342-806-3",
+          "mpn": "560613342-806-3",
+          "color": "Stone",
+          "size": "M",
+          "image": [
+            "https://static.zara.net/assets/public/6aee/9f32/5e3b41be8a75/8c4c8fab3f05/02298705806-p/02298705806-p.jpg?ts=1786431412762&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html?v1=560613342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "STRAPPY MAXI DRESS - Stone - L",
+          "sku": "560613342-806-4",
+          "mpn": "560613342-806-4",
+          "color": "Stone",
+          "size": "L",
+          "image": [
+            "https://static.zara.net/assets/public/6aee/9f32/5e3b41be8a75/8c4c8fab3f05/02298705806-p/02298705806-p.jpg?ts=1786431412762&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "59.9",
+            "url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html?v1=560613342",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "STRAPPY MAXI DRESS",
+      "product_group_id": "02298705",
+      "brand": "ZARA",
+      "description": "Maxi dress with a round neckline and spaghetti straps. Straight hem with side slits.",
+      "material": "polyester/elastane",
+      "composition": "OUTER SHELL: 95% polyester, 5% elastane",
+      "images": [
+        "https://static.zara.net/assets/public/6aee/9f32/5e3b41be8a75/8c4c8fab3f05/02298705806-p/02298705806-p.jpg?ts=1786431412762&w=1920",
+        "https://static.zara.net/assets/public/9bff/25dc/2ba3495cbbc7/9eb23a49c5a2/02298705806-a1/02298705806-a1.jpg?ts=1786431412634&w=1920",
+        "https://static.zara.net/assets/public/7ad5/27a0/14244defb294/1ab976707c68/02298705806-a2/02298705806-a2.jpg?ts=1786431413106&w=1920",
+        "https://static.zara.net/assets/public/7592/995e/172d4b7ca8c4/98bbb4e4079f/02298705806-e1/02298705806-e1.jpg?ts=1786440431757&w=1920",
+        "https://static.zara.net/assets/public/df81/d50d/073042828144/61e4a34d53c2/02298705806-e2/02298705806-e2.jpg?ts=1786440433828&w=1920",
+        "https://static.zara.net/assets/public/5428/155a/f8dc4e08b14b/6bb01b6d9971/02298705806-e3/02298705806-e3.jpg?ts=1786440432082&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "STRAPPY MAXI DRESS - Stone - S",
+          "sku": "560613342-806-2",
+          "mpn": "560613342-806-2",
+          "color_name": "Stone",
+          "size_name": "S",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html?v1=560613342",
+          "images": [
+            "https://static.zara.net/assets/public/6aee/9f32/5e3b41be8a75/8c4c8fab3f05/02298705806-p/02298705806-p.jpg?ts=1786431412762&w=1920"
+          ]
+        },
+        {
+          "name": "STRAPPY MAXI DRESS - Stone - M",
+          "sku": "560613342-806-3",
+          "mpn": "560613342-806-3",
+          "color_name": "Stone",
+          "size_name": "M",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html?v1=560613342",
+          "images": [
+            "https://static.zara.net/assets/public/6aee/9f32/5e3b41be8a75/8c4c8fab3f05/02298705806-p/02298705806-p.jpg?ts=1786431412762&w=1920"
+          ]
+        },
+        {
+          "name": "STRAPPY MAXI DRESS - Stone - L",
+          "sku": "560613342-806-4",
+          "mpn": "560613342-806-4",
+          "color_name": "Stone",
+          "size_name": "L",
+          "price": "59.90",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/long-strappy-dress-p02298705.html?v1=560613342",
+          "images": [
+            "https://static.zara.net/assets/public/6aee/9f32/5e3b41be8a75/8c4c8fab3f05/02298705806-p/02298705806-p.jpg?ts=1786431412762&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "59.90",
+  "rendered_description": "Description\n\nMaxi dress with a round neckline and spaghetti straps. Straight hem with side slits.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 6,
+  "raw_images_observed": 22,
+  "delivery_duplicates_removed": 10,
+  "valid_images_retained": 6,
+  "color_mapped_images": 6,
+  "variants_count": 3,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "59.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "59.90",
+    "dom_price": "59.90",
+    "normalized_price": "59.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "e5ce6fba9f0e9e33871f977f920f2605e0c8dab3b1022bf1dde5bef7eaf561eb",
+  "parser_version": "phase_1c_v1.1"
+}

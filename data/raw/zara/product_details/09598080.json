@@ -1,0 +1,162 @@
+{
+  "product_id": "zara-us:09598080",
+  "source_product_id": "09598080",
+  "source_url": "https://www.zara.com/us/en/marisa-berenson-x-zara-metallic-thread-knit-maxi-dress-p09598080.html",
+  "final_url": "https://www.zara.com/us/en/marisa-berenson-x-zara-metallic-thread-knit-maxi-dress-p09598080.html",
+  "canonical_url": "https://www.zara.com/us/en/marisa-berenson-x-zara-metallic-thread-knit-maxi-dress-p09598080.html",
+  "retrieved_at": "2026-09-06T11:11:46.234781+00:00",
+  "http_status": 200,
+  "page_title": "METALLIC THREAD KNIT MAXI DRESS MARISA BERENSON X ZARA - Golden | ZARA United States",
+  "headings": [
+    "METALLIC THREAD KNIT MAXI DRESS MARISA BERENSON X ZARA",
+    "Add to cart",
+    "Description",
+    "COMPLETE YOUR LOOK",
+    "Footer",
+    "Privacy Preference Center",
+    "HELLO,"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "METALLIC THREAD KNIT MAXI DRESS MARISA BERENSON X ZARA",
+      "url": "https://www.zara.com/us/en/marisa-berenson-x-zara-metallic-thread-knit-maxi-dress-p09598080.html",
+      "productGroupID": "09598080",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Extra long fine knit dress with metallic thread. Round neck and long sleeves. Asymmetric hem.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/022a/db7f/ef154bc9b4b4/6cb21d514110/09598080303-e1/09598080303-e1.jpg?ts=1779879387476&w=1920",
+        "https://static.zara.net/assets/public/ceb5/d3da/a11545c29d7c/180d346d7290/09598080303-e2/09598080303-e2.jpg?ts=1779879388415&w=1920",
+        "https://static.zara.net/assets/public/c088/1ed3/89124409be15/e5683530438b/09598080303-e3/09598080303-e3.jpg?ts=1779879389257&w=1920"
+      ],
+      "material": "viscose/metallised fibre",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "75% viscose, 25% metallised fibre"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "METALLIC THREAD KNIT MAXI DRESS MARISA BERENSON X ZARA - Golden - S-M",
+          "sku": "550672200-303-97",
+          "mpn": "550672200-303-97",
+          "color": "Golden",
+          "size": "S-M",
+          "image": [
+            "https://static.zara.net/assets/public/022a/db7f/ef154bc9b4b4/6cb21d514110/09598080303-e1/09598080303-e1.jpg?ts=1779879387476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/marisa-berenson-x-zara-metallic-thread-knit-maxi-dress-p09598080.html?v1=550672200",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "METALLIC THREAD KNIT MAXI DRESS MARISA BERENSON X ZARA - Golden - L-XL",
+          "sku": "550672200-303-96",
+          "mpn": "550672200-303-96",
+          "color": "Golden",
+          "size": "L-XL",
+          "image": [
+            "https://static.zara.net/assets/public/022a/db7f/ef154bc9b4b4/6cb21d514110/09598080303-e1/09598080303-e1.jpg?ts=1779879387476&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "149",
+            "url": "https://www.zara.com/us/en/marisa-berenson-x-zara-metallic-thread-knit-maxi-dress-p09598080.html?v1=550672200",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "METALLIC THREAD KNIT MAXI DRESS MARISA BERENSON X ZARA",
+      "product_group_id": "09598080",
+      "brand": "ZARA",
+      "description": "Extra long fine knit dress with metallic thread. Round neck and long sleeves. Asymmetric hem.",
+      "material": "viscose/metallised fibre",
+      "composition": "OUTER SHELL: 75% viscose, 25% metallised fibre",
+      "images": [
+        "https://static.zara.net/assets/public/022a/db7f/ef154bc9b4b4/6cb21d514110/09598080303-e1/09598080303-e1.jpg?ts=1779879387476&w=1920",
+        "https://static.zara.net/assets/public/ceb5/d3da/a11545c29d7c/180d346d7290/09598080303-e2/09598080303-e2.jpg?ts=1779879388415&w=1920",
+        "https://static.zara.net/assets/public/c088/1ed3/89124409be15/e5683530438b/09598080303-e3/09598080303-e3.jpg?ts=1779879389257&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "METALLIC THREAD KNIT MAXI DRESS MARISA BERENSON X ZARA - Golden - S-M",
+          "sku": "550672200-303-97",
+          "mpn": "550672200-303-97",
+          "color_name": "Golden",
+          "size_name": "S-M",
+          "price": "149.00",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/marisa-berenson-x-zara-metallic-thread-knit-maxi-dress-p09598080.html?v1=550672200",
+          "images": [
+            "https://static.zara.net/assets/public/022a/db7f/ef154bc9b4b4/6cb21d514110/09598080303-e1/09598080303-e1.jpg?ts=1779879387476&w=1920"
+          ]
+        },
+        {
+          "name": "METALLIC THREAD KNIT MAXI DRESS MARISA BERENSON X ZARA - Golden - L-XL",
+          "sku": "550672200-303-96",
+          "mpn": "550672200-303-96",
+          "color_name": "Golden",
+          "size_name": "L-XL",
+          "price": "149.00",
+          "currency": "USD",
+          "public_availability_state": "IN_STOCK",
+          "variant_url": "https://www.zara.com/us/en/marisa-berenson-x-zara-metallic-thread-knit-maxi-dress-p09598080.html?v1=550672200",
+          "images": [
+            "https://static.zara.net/assets/public/022a/db7f/ef154bc9b4b4/6cb21d514110/09598080303-e1/09598080303-e1.jpg?ts=1779879387476&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "149.00",
+  "rendered_description": "Description\n\nExtra long fine knit dress with metallic thread. Round neck and long sleeves. Asymmetric hem.",
+  "comp_care_text": null,
+  "raw_images_count": 7,
+  "valid_images_count": 4,
+  "raw_images_observed": 15,
+  "delivery_duplicates_removed": 5,
+  "valid_images_retained": 4,
+  "color_mapped_images": 3,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "149.00",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "149.00",
+    "dom_price": "149.00",
+    "normalized_price": "149.00",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "0c0f376dfc56daea04541bbe8622b3e8f02584ff0eb12ea7482665421ce8c169",
+  "parser_version": "phase_1c_v1.1"
+}

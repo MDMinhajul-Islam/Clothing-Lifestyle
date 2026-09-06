@@ -1,0 +1,179 @@
+{
+  "product_id": "zara-us:07932169",
+  "source_product_id": "07932169",
+  "source_url": "https://www.zara.com/us/en/printed-maxi-dress-p07932169.html",
+  "final_url": "https://www.zara.com/us/en/printed-maxi-dress-p07932169.html",
+  "canonical_url": "https://www.zara.com/us/en/printed-maxi-dress-p07932169.html",
+  "retrieved_at": "2026-09-06T11:05:30.229123+00:00",
+  "http_status": 200,
+  "page_title": "PRINTED MAXI DRESS - Multicolored | ZARA United States",
+  "headings": [
+    "PRINTED MAXI DRESS",
+    "Add to cart",
+    "Description",
+    "Footer",
+    "HELLO,",
+    "Privacy Preference Center"
+  ],
+  "jsonld_raw": [
+    {
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": "PRINTED MAXI DRESS",
+      "url": "https://www.zara.com/us/en/printed-maxi-dress-p07932169.html",
+      "productGroupID": "07932169",
+      "brand": {
+        "@type": "Brand",
+        "name": "ZARA"
+      },
+      "description": "Long dress with a criss-cross halter neckline. Side zip fastening hidden in the seam.",
+      "variesBy": [
+        "https://schema.org/size",
+        "https://schema.org/color"
+      ],
+      "image": [
+        "https://static.zara.net/assets/public/233e/c53b/2d8941d5bb95/6a38aacdfedc/07932169330-p/07932169330-p.jpg?ts=1787844261049&w=1920",
+        "https://static.zara.net/assets/public/367b/ca62/9d3343fb811e/3a6fbc8d848a/07932169330-a1/07932169330-a1.jpg?ts=1787844260081&w=1920",
+        "https://static.zara.net/assets/public/94d3/d8a7/2d474601b26a/82b58f064cf4/07932169330-a2/07932169330-a2.jpg?ts=1787844259889&w=1920",
+        "https://static.zara.net/assets/public/a5cf/3f25/60f94492bde9/0b8bbed5d66e/07932169330-a3/07932169330-a3.jpg?ts=1787844260275&w=1920",
+        "https://static.zara.net/assets/public/0529/0380/e3784f6ab458/e25a1d70bef3/07932169330-a4/07932169330-a4.jpg?ts=1787844259405&w=1920",
+        "https://static.zara.net/assets/public/4c00/fb28/7d8540cc9186/27543e2c3c52/07932169330-a5/07932169330-a5.jpg?ts=1787844258989&w=1920",
+        "https://static.zara.net/assets/public/cafc/d0a0/a1c545af8903/5353aa16b37d/07932169330-e1/07932169330-e1.jpg?ts=1787578002594&w=1920",
+        "https://static.zara.net/assets/public/1e69/24ce/015f43d68f30/15e0f5331d74/07932169330-e2/07932169330-e2.jpg?ts=1787578002936&w=1920",
+        "https://static.zara.net/assets/public/bb59/700c/a3a643a29a59/8837c1fc2dbf/07932169330-e3/07932169330-e3.jpg?ts=1787578004245&w=1920"
+      ],
+      "material": "100% polyester",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "OUTER SHELL",
+          "value": "100% polyester"
+        },
+        {
+          "@type": "PropertyValue",
+          "propertyID": "Composition",
+          "name": "LINING",
+          "value": "100% polyester"
+        }
+      ],
+      "hasVariant": [
+        {
+          "@type": "Product",
+          "name": "PRINTED MAXI DRESS - Multicolored - XS-S",
+          "sku": "574463233-330-10",
+          "mpn": "574463233-330-10",
+          "color": "Multicolored",
+          "size": "XS-S",
+          "image": [
+            "https://static.zara.net/assets/public/233e/c53b/2d8941d5bb95/6a38aacdfedc/07932169330-p/07932169330-p.jpg?ts=1787844261049&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/printed-maxi-dress-p07932169.html?v1=574463233",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        },
+        {
+          "@type": "Product",
+          "name": "PRINTED MAXI DRESS - Multicolored - M-L",
+          "sku": "574463233-330-98",
+          "mpn": "574463233-330-98",
+          "color": "Multicolored",
+          "size": "M-L",
+          "image": [
+            "https://static.zara.net/assets/public/233e/c53b/2d8941d5bb95/6a38aacdfedc/07932169330-p/07932169330-p.jpg?ts=1787844261049&w=1920"
+          ],
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "89.9",
+            "url": "https://www.zara.com/us/en/printed-maxi-dress-p07932169.html?v1=574463233",
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/OutOfStock"
+          }
+        }
+      ]
+    }
+  ],
+  "parsed_product_groups": [
+    {
+      "name": "PRINTED MAXI DRESS",
+      "product_group_id": "07932169",
+      "brand": "ZARA",
+      "description": "Long dress with a criss-cross halter neckline. Side zip fastening hidden in the seam.",
+      "material": "100% polyester",
+      "composition": "OUTER SHELL: 100% polyester; LINING: 100% polyester",
+      "images": [
+        "https://static.zara.net/assets/public/233e/c53b/2d8941d5bb95/6a38aacdfedc/07932169330-p/07932169330-p.jpg?ts=1787844261049&w=1920",
+        "https://static.zara.net/assets/public/367b/ca62/9d3343fb811e/3a6fbc8d848a/07932169330-a1/07932169330-a1.jpg?ts=1787844260081&w=1920",
+        "https://static.zara.net/assets/public/94d3/d8a7/2d474601b26a/82b58f064cf4/07932169330-a2/07932169330-a2.jpg?ts=1787844259889&w=1920",
+        "https://static.zara.net/assets/public/a5cf/3f25/60f94492bde9/0b8bbed5d66e/07932169330-a3/07932169330-a3.jpg?ts=1787844260275&w=1920",
+        "https://static.zara.net/assets/public/0529/0380/e3784f6ab458/e25a1d70bef3/07932169330-a4/07932169330-a4.jpg?ts=1787844259405&w=1920",
+        "https://static.zara.net/assets/public/4c00/fb28/7d8540cc9186/27543e2c3c52/07932169330-a5/07932169330-a5.jpg?ts=1787844258989&w=1920",
+        "https://static.zara.net/assets/public/cafc/d0a0/a1c545af8903/5353aa16b37d/07932169330-e1/07932169330-e1.jpg?ts=1787578002594&w=1920",
+        "https://static.zara.net/assets/public/1e69/24ce/015f43d68f30/15e0f5331d74/07932169330-e2/07932169330-e2.jpg?ts=1787578002936&w=1920",
+        "https://static.zara.net/assets/public/bb59/700c/a3a643a29a59/8837c1fc2dbf/07932169330-e3/07932169330-e3.jpg?ts=1787578004245&w=1920"
+      ],
+      "variants": [
+        {
+          "name": "PRINTED MAXI DRESS - Multicolored - XS-S",
+          "sku": "574463233-330-10",
+          "mpn": "574463233-330-10",
+          "color_name": "Multicolored",
+          "size_name": "XS-S",
+          "price": "89.90",
+          "currency": "USD",
+          "public_availability_state": "OUT_OF_STOCK",
+          "variant_url": "https://www.zara.com/us/en/printed-maxi-dress-p07932169.html?v1=574463233",
+          "images": [
+            "https://static.zara.net/assets/public/233e/c53b/2d8941d5bb95/6a38aacdfedc/07932169330-p/07932169330-p.jpg?ts=1787844261049&w=1920"
+          ]
+        },
+        {
+          "name": "PRINTED MAXI DRESS - Multicolored - M-L",
+          "sku": "574463233-330-98",
+          "mpn": "574463233-330-98",
+          "color_name": "Multicolored",
+          "size_name": "M-L",
+          "price": "89.90",
+          "currency": "USD",
+          "public_availability_state": "OUT_OF_STOCK",
+          "variant_url": "https://www.zara.com/us/en/printed-maxi-dress-p07932169.html?v1=574463233",
+          "images": [
+            "https://static.zara.net/assets/public/233e/c53b/2d8941d5bb95/6a38aacdfedc/07932169330-p/07932169330-p.jpg?ts=1787844261049&w=1920"
+          ]
+        }
+      ]
+    }
+  ],
+  "dom_colors": [],
+  "rendered_price": "89.90",
+  "rendered_description": "Description\n\nLong dress with a criss-cross halter neckline. Side zip fastening hidden in the seam.",
+  "comp_care_text": null,
+  "raw_images_count": 9,
+  "valid_images_count": 9,
+  "raw_images_observed": 29,
+  "delivery_duplicates_removed": 12,
+  "valid_images_retained": 9,
+  "color_mapped_images": 9,
+  "variants_count": 2,
+  "colors_count": 1,
+  "pricing_stats": {
+    "current_price": "89.90",
+    "original_price": null,
+    "sale_price": null,
+    "is_on_sale": false,
+    "jsonld_price": "89.90",
+    "dom_price": "89.90",
+    "normalized_price": "89.90",
+    "normalization_reason": "JSON-LD price preferred",
+    "price_conflict": false,
+    "price_conflict_details": null
+  },
+  "source_content_hash": "be17cb6f44aa5b75369a2e7c356e49f9502e1f0a0f127af4b4e79261d3c0fdac",
+  "parser_version": "phase_1c_v1.1"
+}
