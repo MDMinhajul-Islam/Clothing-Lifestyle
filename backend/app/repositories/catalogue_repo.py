@@ -65,6 +65,10 @@ class CatalogueRepository(BaseRepository):
             total_matching = cur.fetchone()["cnt"]
 
             # Select products with aggregated colors, sizes, and primary image
+            order_prefix = (
+                "ts_rank(p.search_vector, websearch_to_tsquery('english', %s)) DESC, "
+                if query and query.strip() else ""
+            )
             select_sql = f"""
                 SELECT
                     p.product_id,
@@ -93,7 +97,7 @@ class CatalogueRepository(BaseRepository):
                     ) as primary_image_url
                 FROM products p
                 WHERE {where_sql}
-                ORDER BY { 'ts_rank(p.search_vector, websearch_to_tsquery(\'english\', %s)) DESC,' if query and query.strip() else '' } p.product_id ASC
+                ORDER BY {order_prefix}p.product_id ASC
                 LIMIT %s;
             """
             select_params = list(params)
@@ -242,4 +246,3 @@ class CatalogueRepository(BaseRepository):
                 r["colors"] = [c for c in r["colors"] if c]
                 r["sizes"] = [s for s in r["sizes"] if s]
             return rows
-
