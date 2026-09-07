@@ -11,8 +11,10 @@ from backend.app.schemas.returns import CreateReturnInput, ReturnItemRequest
 from backend.app.rules.cancellation import CancellationRules
 from backend.app.rules.returns import ReturnRules
 from backend.app.services.capability_service import RetailCapabilityService
+from backend.app.services.catalogue_service import CatalogueService
 from backend.app.services.return_service import ReturnService
-from backend.app.tools.registry import TOOL_REGISTRY
+from backend.app.schemas.catalogue import SearchProductsInput
+from backend.app.tools.registry import TOOL_REGISTRY, export_tool_definitions
 
 TOKEN='verified-access-token-1234567890'
 GUEST='guest-access-token-123456789012'
@@ -74,6 +76,13 @@ class FakeReturnRepo:
             'items':[{'order_item_id':'ITEM-1','product_name_snapshot':'Demo item',
                 'size_snapshot':'M','color_snapshot':'black','quantity':1,
                 'already_returned_quantity':0,'unit_price':50,'line_total':50}]}
+
+class FakeCatalogueRepo:
+    def search_products(self,**kwargs):
+        self.arguments=kwargs
+        return 1,[{'product_id':'zara-us:00387161','name':'DRAPED MINI DRESS WITH HARDWARE',
+            'department':'WOMAN','price':69.9,'currency':'USD','is_on_sale':False,
+            'colors':['Black'],'sizes':['S','M'],'primary_image_url':None}]
 
 class CapabilityTests(unittest.TestCase):
     def setUp(self):
@@ -174,5 +183,14 @@ class CapabilityTests(unittest.TestCase):
         self.assertEqual(store[3].summary['return_fee'],0.0)
         self.assertEqual(drop[3].summary['return_fee'],4.95)
         self.assertEqual(drop[3].summary['estimated_refund'],45.05)
+    def test_46_black_dresses_use_category_and_color_facets(self):
+        service=CatalogueService.__new__(CatalogueService); service.repo=FakeCatalogueRepo()
+        result=service.search_products(SearchProductsInput(query='Show me black dresses'))
+        self.assertEqual((service.repo.arguments['query'],service.repo.arguments['color']),('dress','black'))
+        self.assertEqual((result.total_matching,result.returned_count),(1,1))
+    def test_47_policy_rag_is_internal_not_gateway_definition(self):
+        definitions=export_tool_definitions()
+        self.assertEqual(definitions['total_tools'],30)
+        self.assertNotIn('retrieve_policy_knowledge',definitions['tools'])
 
 if __name__=='__main__': unittest.main()

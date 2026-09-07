@@ -6,6 +6,8 @@ Priority is fixed: explicit writes, dynamic account/order/inventory facts, offic
 
 `POLICY_RAG` plans target `retrieve_policy_knowledge`, which preserves official-source filtering and insufficient-evidence behavior. `PRODUCT_RECOMMENDATION` selects the registered `find_similar_products` or `recommend_matching_products` tools. Exact attribute/category browsing such as “Show me black dresses” routes to `TOOL_GATEWAY/search_products`; reference-relative language such as “similar to this” or “matches this shirt” routes to product recommendation.
 
+`retrieve_policy_knowledge` is an internal RAG capability executed by the voice capability adapter, not a public Tool Gateway registry entry. Therefore `/v1/tools/definitions` continues to expose 30 gateway tools and does not list this internal capability.
+
 Explicit IDs may be copied from the message or structured context. Required IDs are never guessed. Missing requirements return `NEEDS_CONTEXT` with `missing_fields`. The router exposes no chain-of-thought and adds no model or paid API dependency.
 
 ## Manual VS Code PowerShell runbook
