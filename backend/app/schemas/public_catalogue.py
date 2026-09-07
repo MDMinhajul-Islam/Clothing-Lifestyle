@@ -40,4 +40,3 @@ class CatalogueFacets(BaseModel):
 
 class StyledEditResponse(BaseModel):
     items: List[PublicProduct]
-

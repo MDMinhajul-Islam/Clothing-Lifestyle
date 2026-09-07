@@ -38,4 +38,3 @@ def get_facets(service: PublicCatalogueService = Depends(get_public_catalogue)):
 @router.get("/styled-edit", response_model=StyledEditResponse)
 def get_styled_edit(limit: int = Query(8, ge=3, le=12), service: PublicCatalogueService = Depends(get_public_catalogue)):
     return service.styled_edit(limit)
-
