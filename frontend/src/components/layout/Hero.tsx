@@ -1,10 +1,12 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2, Mic, PhoneCall } from 'lucide-react';
+import type { Product } from '../../types/catalog';
 
 interface HeroProps {
   onStartVoice: () => void;
   onExploreCollection: () => void;
   onSelectPrompt?: (prompt: string) => void;
+  featuredProducts?: Product[];
 }
 
 const prompts = [
@@ -14,9 +16,10 @@ const prompts = [
   'Track my order',
 ];
 
-export const Hero: React.FC<HeroProps> = ({ onStartVoice, onExploreCollection, onSelectPrompt }) => (
-  <section className="overflow-hidden border-b border-neutral-200/70 bg-gradient-to-b from-[#f4f1eb] via-[#faf9f6] to-white py-12 lg:py-20">
-    <div className="mx-auto grid max-w-[1600px] grid-cols-1 items-center gap-12 px-4 sm:px-8 lg:grid-cols-12 lg:px-12 2xl:px-16">
+export const Hero: React.FC<HeroProps> = ({ onStartVoice, onExploreCollection, onSelectPrompt, featuredProducts = [] }) => (
+  <section className="relative overflow-hidden border-b border-neutral-200/70 bg-[#f3f0e9] py-10 lg:min-h-[760px] lg:py-16">
+    <div className="pointer-events-none absolute -left-32 top-10 h-96 w-96 rounded-full bg-white/80 blur-3xl" />
+    <div className="mx-auto grid max-w-[1700px] grid-cols-1 items-center gap-10 px-4 sm:px-8 lg:grid-cols-12 lg:px-12 2xl:px-16">
       <div className="space-y-7 lg:col-span-7">
         <div className="inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white/80 px-3.5 py-1.5 text-[10px] font-medium uppercase tracking-[0.2em] text-neutral-700">
           <span className="h-2 w-2 animate-pulse rounded-full bg-emerald-500" />
@@ -57,11 +60,10 @@ export const Hero: React.FC<HeroProps> = ({ onStartVoice, onExploreCollection, o
         </div>
       </div>
 
-      <div className="relative mx-auto w-full max-w-lg lg:col-span-5">
-        <div className="relative aspect-[3/4] overflow-hidden bg-neutral-200 shadow-2xl">
-          <img src="https://static.zara.net/assets/public/c3e1/96d8/59d548568418/4e180af2076e/03152205485-p/03152205485-p.jpg?ts=1783689777150&w=1920" alt="Editorial tailored fashion" className="h-full w-full object-cover object-top" />
-          <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent" />
-          <div className="absolute inset-x-5 bottom-5 border border-white/20 bg-black/80 p-4 text-white backdrop-blur-md">
+      <div className="relative mx-auto w-full max-w-2xl lg:col-span-5 [perspective:1400px]">
+        <div className="relative aspect-[5/6] transition-transform duration-700 [transform:rotateY(-4deg)_rotateX(1deg)] hover:[transform:rotateY(0deg)_rotateX(0deg)]">
+          {featuredProducts.slice(0, 3).map((product, index) => <button key={product.id} onClick={onExploreCollection} className={`cinematic-card absolute overflow-hidden bg-neutral-200 shadow-2xl transition duration-700 hover:z-20 hover:scale-[1.03] ${index === 0 ? 'inset-y-0 left-[12%] w-[66%]' : index === 1 ? 'right-0 top-[8%] h-[43%] w-[31%] rotate-3 [animation-delay:-2s]' : 'bottom-[4%] left-0 h-[38%] w-[32%] -rotate-3 [animation-delay:-4s]'}`} aria-label={`Browse ${product.name}`}><img src={product.image} alt={product.name} className="h-full w-full object-cover object-top transition duration-700 hover:scale-105" /><span className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-3 pt-10 text-left text-[9px] uppercase tracking-wider text-white">{product.name}</span></button>)}
+          <div className="absolute bottom-[7%] right-[4%] z-30 w-[72%] border border-white/20 bg-black/85 p-4 text-white shadow-2xl backdrop-blur-md">
             <div className="mb-3 flex items-center justify-between text-[10px] uppercase tracking-[0.18em]">
               <span className="flex items-center gap-2 text-emerald-400"><span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" />Live AI shopping assistant</span>
               <span className="text-neutral-400">Connected</span>
