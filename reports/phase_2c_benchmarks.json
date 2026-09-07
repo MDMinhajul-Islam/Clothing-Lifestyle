@@ -1,0 +1,128 @@
+{
+  "flows": [
+    {
+      "flow": "FLOW_A",
+      "status": "PASS",
+      "elapsed_ms": 1316,
+      "product_id": "zara-us:00264719"
+    },
+    {
+      "flow": "FLOW_B",
+      "status": "PASS",
+      "elapsed_ms": 657,
+      "order_number": "ZUS-2025-00002"
+    },
+    {
+      "flow": "FLOW_C",
+      "status": "PASS",
+      "elapsed_ms": 887,
+      "order_number": "ZUS-2025-00230"
+    },
+    {
+      "flow": "FLOW_D",
+      "status": "PASS",
+      "elapsed_ms": 1092,
+      "return_id": "RET-ZUS-2025-00139-53767"
+    },
+    {
+      "flow": "FLOW_E",
+      "status": "PASS",
+      "elapsed_ms": 298,
+      "order_item_id": "ITEM-00002-01"
+    }
+  ],
+  "benchmarks": {
+    "search_products": {
+      "min_ms": 214.8,
+      "p50_ms": 218.9,
+      "p95_ms": 253.6,
+      "max_ms": 253.6,
+      "avg_ms": 224.5
+    },
+    "get_product_details": {
+      "min_ms": 336.4,
+      "p50_ms": 339.0,
+      "p95_ms": 356.8,
+      "max_ms": 356.8,
+      "avg_ms": 342.0
+    },
+    "compare_products": {
+      "min_ms": 173.1,
+      "p50_ms": 174.3,
+      "p95_ms": 177.2,
+      "max_ms": 177.2,
+      "avg_ms": 174.6
+    },
+    "check_inventory": {
+      "min_ms": 173.8,
+      "p50_ms": 179.4,
+      "p95_ms": 185.5,
+      "max_ms": 185.5,
+      "avg_ms": 178.7
+    },
+    "find_stores": {
+      "min_ms": 169.0,
+      "p50_ms": 173.6,
+      "p95_ms": 250.7,
+      "max_ms": 250.7,
+      "avg_ms": 194.3
+    },
+    "find_stores_geo": {
+      "min_ms": 172.6,
+      "p50_ms": 174.6,
+      "p95_ms": 179.7,
+      "max_ms": 179.7,
+      "avg_ms": 175.3
+    },
+    "get_customer": {
+      "min_ms": 209.8,
+      "p50_ms": 214.9,
+      "p95_ms": 278.6,
+      "max_ms": 278.6,
+      "avg_ms": 226.5
+    },
+    "get_order": {
+      "min_ms": 374.1,
+      "p50_ms": 376.3,
+      "p95_ms": 571.9,
+      "max_ms": 571.9,
+      "avg_ms": 415.2
+    },
+    "track_order": {
+      "min_ms": 211.2,
+      "p50_ms": 213.1,
+      "p95_ms": 416.2,
+      "max_ms": 416.2,
+      "avg_ms": 253.5
+    },
+    "check_cancellation_eligibility": {
+      "min_ms": 374.3,
+      "p50_ms": 378.9,
+      "p95_ms": 548.9,
+      "max_ms": 548.9,
+      "avg_ms": 412.0
+    },
+    "check_return_eligibility": {
+      "min_ms": 213.0,
+      "p50_ms": 215.5,
+      "p95_ms": 471.8,
+      "max_ms": 471.8,
+      "avg_ms": 266.3
+    },
+    "get_refund_status": {
+      "min_ms": 172.0,
+      "p50_ms": 172.4,
+      "p95_ms": 173.8,
+      "max_ms": 173.8,
+      "avg_ms": 172.7
+    },
+    "check_exchange_availability": {
+      "min_ms": 294.5,
+      "p50_ms": 296.6,
+      "p95_ms": 302.8,
+      "max_ms": 302.8,
+      "avg_ms": 297.6
+    }
+  },
+  "total_elapsed_sec": 20.92
+}

@@ -1,0 +1,2412 @@
+{
+  "gateway_version": "1.0.0",
+  "total_tools": 14,
+  "tools": {
+    "search_products": {
+      "name": "search_products",
+      "description": "Search Zara catalogue using full-text search and faceted filters (department, category, price range, color, size, on sale). Returns compact product cards.",
+      "category": "catalogue",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "query": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Free-text search query (e.g. 'linen shirt', 'black dress')",
+            "title": "Query"
+          },
+          "department": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Department filter: WOMAN, MAN, or KIDS",
+            "title": "Department"
+          },
+          "category_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Zara category identifier",
+            "title": "Category Id"
+          },
+          "min_price": {
+            "anyOf": [
+              {
+                "minimum": 0.0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Minimum price filter",
+            "title": "Min Price"
+          },
+          "max_price": {
+            "anyOf": [
+              {
+                "minimum": 0.0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Maximum price filter",
+            "title": "Max Price"
+          },
+          "color": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Color name filter (e.g. 'Black', 'Ecru')",
+            "title": "Color"
+          },
+          "size": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Size filter (e.g. 'M', 'L', 'S')",
+            "title": "Size"
+          },
+          "on_sale": {
+            "anyOf": [
+              {
+                "type": "boolean"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Filter for products on sale",
+            "title": "On Sale"
+          },
+          "limit": {
+            "default": 20,
+            "description": "Number of results to return (max 50)",
+            "maximum": 50,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          }
+        },
+        "title": "SearchProductsInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "ProductCard": {
+            "properties": {
+              "product_id": {
+                "title": "Product Id",
+                "type": "string"
+              },
+              "name": {
+                "title": "Name",
+                "type": "string"
+              },
+              "department": {
+                "title": "Department",
+                "type": "string"
+              },
+              "price": {
+                "title": "Price",
+                "type": "number"
+              },
+              "currency": {
+                "title": "Currency",
+                "type": "string"
+              },
+              "is_on_sale": {
+                "title": "Is On Sale",
+                "type": "boolean"
+              },
+              "original_price": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Original Price"
+              },
+              "colors": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Colors",
+                "type": "array"
+              },
+              "sizes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Sizes",
+                "type": "array"
+              },
+              "primary_image_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Primary Image Url"
+              }
+            },
+            "required": [
+              "product_id",
+              "name",
+              "department",
+              "price",
+              "currency",
+              "is_on_sale"
+            ],
+            "title": "ProductCard",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "total_matching": {
+            "title": "Total Matching",
+            "type": "integer"
+          },
+          "returned_count": {
+            "title": "Returned Count",
+            "type": "integer"
+          },
+          "products": {
+            "items": {
+              "$ref": "#/$defs/ProductCard"
+            },
+            "title": "Products",
+            "type": "array"
+          }
+        },
+        "required": [
+          "total_matching",
+          "returned_count",
+          "products"
+        ],
+        "title": "SearchProductsOutput",
+        "type": "object"
+      }
+    },
+    "get_product_details": {
+      "name": "get_product_details",
+      "description": "Fetch authoritative, full relational details for a Zara product by ID, including current price, variants, sizes, colors, swatches, images, and category hierarchy.",
+      "category": "catalogue",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "product_id": {
+            "description": "Zara canonical product ID (e.g. 'zara-us:00029400')",
+            "title": "Product Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "title": "GetProductDetailsInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "CategoryDetail": {
+            "properties": {
+              "category_id": {
+                "title": "Category Id",
+                "type": "string"
+              },
+              "name": {
+                "title": "Name",
+                "type": "string"
+              },
+              "department": {
+                "title": "Department",
+                "type": "string"
+              }
+            },
+            "required": [
+              "category_id",
+              "name",
+              "department"
+            ],
+            "title": "CategoryDetail",
+            "type": "object"
+          },
+          "ColorDetail": {
+            "properties": {
+              "color_id": {
+                "title": "Color Id",
+                "type": "string"
+              },
+              "color_name": {
+                "title": "Color Name",
+                "type": "string"
+              },
+              "hex_code": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Hex Code"
+              },
+              "swatch_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Swatch Url"
+              }
+            },
+            "required": [
+              "color_id",
+              "color_name"
+            ],
+            "title": "ColorDetail",
+            "type": "object"
+          },
+          "ImageDetail": {
+            "properties": {
+              "image_id": {
+                "title": "Image Id",
+                "type": "string"
+              },
+              "canonical_url": {
+                "title": "Canonical Url",
+                "type": "string"
+              },
+              "image_type": {
+                "title": "Image Type",
+                "type": "string"
+              },
+              "width": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Width"
+              },
+              "height": {
+                "anyOf": [
+                  {
+                    "type": "integer"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Height"
+              }
+            },
+            "required": [
+              "image_id",
+              "canonical_url",
+              "image_type"
+            ],
+            "title": "ImageDetail",
+            "type": "object"
+          },
+          "VariantDetail": {
+            "properties": {
+              "variant_id": {
+                "title": "Variant Id",
+                "type": "string"
+              },
+              "sku": {
+                "title": "Sku",
+                "type": "string"
+              },
+              "size_name": {
+                "title": "Size Name",
+                "type": "string"
+              },
+              "color_name": {
+                "title": "Color Name",
+                "type": "string"
+              },
+              "in_stock": {
+                "title": "In Stock",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "variant_id",
+              "sku",
+              "size_name",
+              "color_name",
+              "in_stock"
+            ],
+            "title": "VariantDetail",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "product_id": {
+            "title": "Product Id",
+            "type": "string"
+          },
+          "name": {
+            "title": "Name",
+            "type": "string"
+          },
+          "description": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Description"
+          },
+          "materials_care": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Materials Care"
+          },
+          "department": {
+            "title": "Department",
+            "type": "string"
+          },
+          "price": {
+            "title": "Price",
+            "type": "number"
+          },
+          "currency": {
+            "title": "Currency",
+            "type": "string"
+          },
+          "is_on_sale": {
+            "title": "Is On Sale",
+            "type": "boolean"
+          },
+          "original_price": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Original Price"
+          },
+          "variants": {
+            "items": {
+              "$ref": "#/$defs/VariantDetail"
+            },
+            "title": "Variants",
+            "type": "array"
+          },
+          "colors": {
+            "items": {
+              "$ref": "#/$defs/ColorDetail"
+            },
+            "title": "Colors",
+            "type": "array"
+          },
+          "images": {
+            "items": {
+              "$ref": "#/$defs/ImageDetail"
+            },
+            "title": "Images",
+            "type": "array"
+          },
+          "categories": {
+            "items": {
+              "$ref": "#/$defs/CategoryDetail"
+            },
+            "title": "Categories",
+            "type": "array"
+          }
+        },
+        "required": [
+          "product_id",
+          "name",
+          "department",
+          "price",
+          "currency",
+          "is_on_sale",
+          "variants",
+          "colors",
+          "images",
+          "categories"
+        ],
+        "title": "ProductDetailsOutput",
+        "type": "object"
+      }
+    },
+    "compare_products": {
+      "name": "compare_products",
+      "description": "Compare 2 to 4 Zara products side-by-side across key attributes including name, price, sale status, materials, available colors, and sizes.",
+      "category": "catalogue",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "product_ids": {
+            "description": "List of 2 to 4 product IDs to compare",
+            "items": {
+              "type": "string"
+            },
+            "maxItems": 4,
+            "minItems": 2,
+            "title": "Product Ids",
+            "type": "array"
+          }
+        },
+        "required": [
+          "product_ids"
+        ],
+        "title": "CompareProductsInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "ProductComparisonItem": {
+            "properties": {
+              "product_id": {
+                "title": "Product Id",
+                "type": "string"
+              },
+              "name": {
+                "title": "Name",
+                "type": "string"
+              },
+              "department": {
+                "title": "Department",
+                "type": "string"
+              },
+              "price": {
+                "title": "Price",
+                "type": "number"
+              },
+              "currency": {
+                "title": "Currency",
+                "type": "string"
+              },
+              "is_on_sale": {
+                "title": "Is On Sale",
+                "type": "boolean"
+              },
+              "colors": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Colors",
+                "type": "array"
+              },
+              "sizes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Sizes",
+                "type": "array"
+              },
+              "materials_care": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Materials Care"
+              },
+              "primary_image_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Primary Image Url"
+              }
+            },
+            "required": [
+              "product_id",
+              "name",
+              "department",
+              "price",
+              "currency",
+              "is_on_sale",
+              "colors",
+              "sizes"
+            ],
+            "title": "ProductComparisonItem",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "compared_count": {
+            "title": "Compared Count",
+            "type": "integer"
+          },
+          "products": {
+            "items": {
+              "$ref": "#/$defs/ProductComparisonItem"
+            },
+            "title": "Products",
+            "type": "array"
+          }
+        },
+        "required": [
+          "compared_count",
+          "products"
+        ],
+        "title": "CompareProductsOutput",
+        "type": "object"
+      }
+    },
+    "check_inventory": {
+      "name": "check_inventory",
+      "description": "Check real-time stock levels across retail stores and online network by product ID, variant SKU, size, or color. Never hallucinates stock.",
+      "category": "inventory",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "product_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Zara product ID (e.g. 'zara-us:00029400')",
+            "title": "Product Id"
+          },
+          "variant_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Specific Zara variant SKU ID",
+            "title": "Variant Id"
+          },
+          "store_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Filter for a specific store ID",
+            "title": "Store Id"
+          },
+          "size": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Filter variant by size (e.g. 'M', 'L')",
+            "title": "Size"
+          },
+          "color": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Filter variant by color name",
+            "title": "Color"
+          }
+        },
+        "title": "CheckInventoryInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "StoreStockItem": {
+            "properties": {
+              "store_id": {
+                "title": "Store Id",
+                "type": "string"
+              },
+              "store_name": {
+                "title": "Store Name",
+                "type": "string"
+              },
+              "city": {
+                "title": "City",
+                "type": "string"
+              },
+              "state": {
+                "title": "State",
+                "type": "string"
+              },
+              "quantity_on_hand": {
+                "title": "Quantity On Hand",
+                "type": "integer"
+              },
+              "quantity_reserved": {
+                "title": "Quantity Reserved",
+                "type": "integer"
+              },
+              "quantity_available": {
+                "title": "Quantity Available",
+                "type": "integer"
+              },
+              "availability_status": {
+                "title": "Availability Status",
+                "type": "string"
+              }
+            },
+            "required": [
+              "store_id",
+              "store_name",
+              "city",
+              "state",
+              "quantity_on_hand",
+              "quantity_reserved",
+              "quantity_available",
+              "availability_status"
+            ],
+            "title": "StoreStockItem",
+            "type": "object"
+          },
+          "VariantInventoryResult": {
+            "properties": {
+              "variant_id": {
+                "title": "Variant Id",
+                "type": "string"
+              },
+              "size_name": {
+                "title": "Size Name",
+                "type": "string"
+              },
+              "color_name": {
+                "title": "Color Name",
+                "type": "string"
+              },
+              "total_available_in_network": {
+                "title": "Total Available In Network",
+                "type": "integer"
+              },
+              "stores": {
+                "items": {
+                  "$ref": "#/$defs/StoreStockItem"
+                },
+                "title": "Stores",
+                "type": "array"
+              }
+            },
+            "required": [
+              "variant_id",
+              "size_name",
+              "color_name",
+              "total_available_in_network",
+              "stores"
+            ],
+            "title": "VariantInventoryResult",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "product_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Product Id"
+          },
+          "total_network_available": {
+            "title": "Total Network Available",
+            "type": "integer"
+          },
+          "overall_status": {
+            "title": "Overall Status",
+            "type": "string"
+          },
+          "matching_variants": {
+            "items": {
+              "$ref": "#/$defs/VariantInventoryResult"
+            },
+            "title": "Matching Variants",
+            "type": "array"
+          }
+        },
+        "required": [
+          "total_network_available",
+          "overall_status",
+          "matching_variants"
+        ],
+        "title": "CheckInventoryOutput",
+        "type": "object"
+      }
+    },
+    "find_stores": {
+      "name": "find_stores",
+      "description": "Search synthetic demo Zara store locations by city, state, zip code, or geographical coordinates (ranked by distance in miles).",
+      "category": "stores",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "city": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "City name filter",
+            "title": "City"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "US State filter (e.g. 'CA', 'NY', 'IL')",
+            "title": "State"
+          },
+          "postal_code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "ZIP code filter",
+            "title": "Postal Code"
+          },
+          "latitude": {
+            "anyOf": [
+              {
+                "maximum": 90.0,
+                "minimum": -90.0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Latitude for distance calculation",
+            "title": "Latitude"
+          },
+          "longitude": {
+            "anyOf": [
+              {
+                "maximum": 180.0,
+                "minimum": -180.0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Longitude for distance calculation",
+            "title": "Longitude"
+          },
+          "limit": {
+            "default": 10,
+            "description": "Max stores to return",
+            "maximum": 30,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          }
+        },
+        "title": "FindStoresInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "StoreItem": {
+            "properties": {
+              "store_id": {
+                "title": "Store Id",
+                "type": "string"
+              },
+              "store_code": {
+                "title": "Store Code",
+                "type": "string"
+              },
+              "store_name": {
+                "title": "Store Name",
+                "type": "string"
+              },
+              "address_line_1": {
+                "title": "Address Line 1",
+                "type": "string"
+              },
+              "city": {
+                "title": "City",
+                "type": "string"
+              },
+              "state": {
+                "title": "State",
+                "type": "string"
+              },
+              "postal_code": {
+                "title": "Postal Code",
+                "type": "string"
+              },
+              "phone": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Phone"
+              },
+              "distance_miles": {
+                "anyOf": [
+                  {
+                    "type": "number"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Distance Miles"
+              },
+              "status": {
+                "title": "Status",
+                "type": "string"
+              },
+              "is_synthetic": {
+                "default": true,
+                "title": "Is Synthetic",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "store_id",
+              "store_code",
+              "store_name",
+              "address_line_1",
+              "city",
+              "state",
+              "postal_code",
+              "status"
+            ],
+            "title": "StoreItem",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "total_matching": {
+            "title": "Total Matching",
+            "type": "integer"
+          },
+          "stores": {
+            "items": {
+              "$ref": "#/$defs/StoreItem"
+            },
+            "title": "Stores",
+            "type": "array"
+          }
+        },
+        "required": [
+          "total_matching",
+          "stores"
+        ],
+        "title": "FindStoresOutput",
+        "type": "object"
+      }
+    },
+    "get_customer": {
+      "name": "get_customer",
+      "description": "Securely look up a customer profile by exact customer_id, email, or phone number. Blocks unconstrained enumeration.",
+      "category": "customer",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "customer_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Customer UUID",
+            "title": "Customer Id"
+          },
+          "email": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Customer email address",
+            "title": "Email"
+          },
+          "phone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Customer phone number",
+            "title": "Phone"
+          }
+        },
+        "title": "GetCustomerInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "CustomerAddressItem": {
+            "properties": {
+              "address_id": {
+                "title": "Address Id",
+                "type": "string"
+              },
+              "address_type": {
+                "title": "Address Type",
+                "type": "string"
+              },
+              "recipient_name": {
+                "title": "Recipient Name",
+                "type": "string"
+              },
+              "address_line_1": {
+                "title": "Address Line 1",
+                "type": "string"
+              },
+              "city": {
+                "title": "City",
+                "type": "string"
+              },
+              "state": {
+                "title": "State",
+                "type": "string"
+              },
+              "postal_code": {
+                "title": "Postal Code",
+                "type": "string"
+              },
+              "is_default_shipping": {
+                "title": "Is Default Shipping",
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "address_id",
+              "address_type",
+              "recipient_name",
+              "address_line_1",
+              "city",
+              "state",
+              "postal_code",
+              "is_default_shipping"
+            ],
+            "title": "CustomerAddressItem",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "customer_id": {
+            "title": "Customer Id",
+            "type": "string"
+          },
+          "first_name": {
+            "title": "First Name",
+            "type": "string"
+          },
+          "last_name": {
+            "title": "Last Name",
+            "type": "string"
+          },
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "phone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Phone"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "City"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "State"
+          },
+          "preferred_language": {
+            "title": "Preferred Language",
+            "type": "string"
+          },
+          "preferred_currency": {
+            "title": "Preferred Currency",
+            "type": "string"
+          },
+          "account_status": {
+            "title": "Account Status",
+            "type": "string"
+          },
+          "addresses": {
+            "items": {
+              "$ref": "#/$defs/CustomerAddressItem"
+            },
+            "title": "Addresses",
+            "type": "array"
+          }
+        },
+        "required": [
+          "customer_id",
+          "first_name",
+          "last_name",
+          "email",
+          "preferred_language",
+          "preferred_currency",
+          "account_status"
+        ],
+        "title": "CustomerProfileOutput",
+        "type": "object"
+      }
+    },
+    "get_order": {
+      "name": "get_order",
+      "description": "Retrieve full details for an order by order number, including line items, payment status, shipment status, returns, and refunds.",
+      "category": "order",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "order_number": {
+            "description": "Zara order number (e.g. 'ZUS-2025-00002')",
+            "title": "Order Number",
+            "type": "string"
+          },
+          "customer_verification": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional customer email or phone for verification",
+            "title": "Customer Verification"
+          }
+        },
+        "required": [
+          "order_number"
+        ],
+        "title": "GetOrderInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "OrderItemSummary": {
+            "properties": {
+              "order_item_id": {
+                "title": "Order Item Id",
+                "type": "string"
+              },
+              "product_id": {
+                "title": "Product Id",
+                "type": "string"
+              },
+              "variant_id": {
+                "title": "Variant Id",
+                "type": "string"
+              },
+              "product_name": {
+                "title": "Product Name",
+                "type": "string"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "color": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Color"
+              },
+              "quantity": {
+                "title": "Quantity",
+                "type": "integer"
+              },
+              "unit_price": {
+                "title": "Unit Price",
+                "type": "number"
+              },
+              "line_discount": {
+                "title": "Line Discount",
+                "type": "number"
+              },
+              "line_total": {
+                "title": "Line Total",
+                "type": "number"
+              }
+            },
+            "required": [
+              "order_item_id",
+              "product_id",
+              "variant_id",
+              "product_name",
+              "quantity",
+              "unit_price",
+              "line_discount",
+              "line_total"
+            ],
+            "title": "OrderItemSummary",
+            "type": "object"
+          },
+          "PaymentSummary": {
+            "properties": {
+              "payment_method": {
+                "title": "Payment Method",
+                "type": "string"
+              },
+              "payment_status": {
+                "title": "Payment Status",
+                "type": "string"
+              },
+              "amount": {
+                "title": "Amount",
+                "type": "number"
+              },
+              "currency": {
+                "title": "Currency",
+                "type": "string"
+              },
+              "provider_reference": {
+                "title": "Provider Reference",
+                "type": "string"
+              }
+            },
+            "required": [
+              "payment_method",
+              "payment_status",
+              "amount",
+              "currency",
+              "provider_reference"
+            ],
+            "title": "PaymentSummary",
+            "type": "object"
+          },
+          "ShipmentSummary": {
+            "properties": {
+              "carrier": {
+                "title": "Carrier",
+                "type": "string"
+              },
+              "tracking_number": {
+                "title": "Tracking Number",
+                "type": "string"
+              },
+              "shipment_status": {
+                "title": "Shipment Status",
+                "type": "string"
+              },
+              "shipped_at": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Shipped At"
+              },
+              "delivered_at": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Delivered At"
+              }
+            },
+            "required": [
+              "carrier",
+              "tracking_number",
+              "shipment_status"
+            ],
+            "title": "ShipmentSummary",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "order_id": {
+            "title": "Order Id",
+            "type": "string"
+          },
+          "order_number": {
+            "title": "Order Number",
+            "type": "string"
+          },
+          "customer_id": {
+            "title": "Customer Id",
+            "type": "string"
+          },
+          "order_status": {
+            "title": "Order Status",
+            "type": "string"
+          },
+          "placed_at": {
+            "title": "Placed At",
+            "type": "string"
+          },
+          "currency": {
+            "title": "Currency",
+            "type": "string"
+          },
+          "subtotal": {
+            "title": "Subtotal",
+            "type": "number"
+          },
+          "discount_total": {
+            "title": "Discount Total",
+            "type": "number"
+          },
+          "tax_total": {
+            "title": "Tax Total",
+            "type": "number"
+          },
+          "shipping_total": {
+            "title": "Shipping Total",
+            "type": "number"
+          },
+          "grand_total": {
+            "title": "Grand Total",
+            "type": "number"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/$defs/OrderItemSummary"
+            },
+            "title": "Items",
+            "type": "array"
+          },
+          "payment": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/PaymentSummary"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "shipment": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/ShipmentSummary"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null
+          },
+          "return_status": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Return Status"
+          },
+          "refund_status": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Refund Status"
+          }
+        },
+        "required": [
+          "order_id",
+          "order_number",
+          "customer_id",
+          "order_status",
+          "placed_at",
+          "currency",
+          "subtotal",
+          "discount_total",
+          "tax_total",
+          "shipping_total",
+          "grand_total",
+          "items"
+        ],
+        "title": "GetOrderOutput",
+        "type": "object"
+      }
+    },
+    "track_order": {
+      "name": "track_order",
+      "description": "Track carrier status and chronological tracking events for an order by order number.",
+      "category": "shipment",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "order_number": {
+            "description": "Order number to track",
+            "title": "Order Number",
+            "type": "string"
+          }
+        },
+        "required": [
+          "order_number"
+        ],
+        "title": "TrackOrderInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "ShipmentEventSummary": {
+            "properties": {
+              "event_type": {
+                "title": "Event Type",
+                "type": "string"
+              },
+              "description": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Description"
+              },
+              "location_text": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Location Text"
+              },
+              "occurred_at": {
+                "title": "Occurred At",
+                "type": "string"
+              }
+            },
+            "required": [
+              "event_type",
+              "occurred_at"
+            ],
+            "title": "ShipmentEventSummary",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "order_number": {
+            "title": "Order Number",
+            "type": "string"
+          },
+          "order_status": {
+            "title": "Order Status",
+            "type": "string"
+          },
+          "carrier": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Carrier"
+          },
+          "tracking_number": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Tracking Number"
+          },
+          "shipment_status": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Shipment Status"
+          },
+          "shipped_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Shipped At"
+          },
+          "estimated_delivery_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Estimated Delivery At"
+          },
+          "delivered_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Delivered At"
+          },
+          "events": {
+            "items": {
+              "$ref": "#/$defs/ShipmentEventSummary"
+            },
+            "title": "Events",
+            "type": "array"
+          }
+        },
+        "required": [
+          "order_number",
+          "order_status"
+        ],
+        "title": "TrackOrderOutput",
+        "type": "object"
+      }
+    },
+    "check_cancellation_eligibility": {
+      "name": "check_cancellation_eligibility",
+      "description": "Evaluate deterministic business rules to determine whether an order is eligible for cancellation before initiating any changes.",
+      "category": "order",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "order_number": {
+            "description": "Order number to check for cancellation",
+            "title": "Order Number",
+            "type": "string"
+          }
+        },
+        "required": [
+          "order_number"
+        ],
+        "title": "CheckCancellationEligibilityInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "properties": {
+          "order_number": {
+            "title": "Order Number",
+            "type": "string"
+          },
+          "eligible": {
+            "title": "Eligible",
+            "type": "boolean"
+          },
+          "current_status": {
+            "title": "Current Status",
+            "type": "string"
+          },
+          "reason": {
+            "title": "Reason",
+            "type": "string"
+          },
+          "allowed_action": {
+            "title": "Allowed Action",
+            "type": "string"
+          }
+        },
+        "required": [
+          "order_number",
+          "eligible",
+          "current_status",
+          "reason",
+          "allowed_action"
+        ],
+        "title": "CheckCancellationEligibilityOutput",
+        "type": "object"
+      }
+    },
+    "cancel_order": {
+      "name": "cancel_order",
+      "description": "Cancel an eligible order with mandatory two-step confirmation protocol and idempotency. Releases reserved store inventory.",
+      "category": "order",
+      "is_write": true,
+      "requires_confirmation": true,
+      "input_schema": {
+        "properties": {
+          "order_number": {
+            "description": "Order number to cancel",
+            "title": "Order Number",
+            "type": "string"
+          },
+          "reason": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": "Customer requested cancellation via AI assistant",
+            "description": "Cancellation reason",
+            "title": "Reason"
+          },
+          "confirmation_token": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "HMAC confirmation token from prior check",
+            "title": "Confirmation Token"
+          },
+          "confirmed": {
+            "default": false,
+            "description": "Explicit confirmation flag",
+            "title": "Confirmed",
+            "type": "boolean"
+          },
+          "idempotency_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Unique client key preventing duplicate cancellation",
+            "title": "Idempotency Key"
+          }
+        },
+        "required": [
+          "order_number"
+        ],
+        "title": "CancelOrderInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "properties": {
+          "order_number": {
+            "title": "Order Number",
+            "type": "string"
+          },
+          "order_status": {
+            "title": "Order Status",
+            "type": "string"
+          },
+          "cancelled_at": {
+            "title": "Cancelled At",
+            "type": "string"
+          },
+          "message": {
+            "title": "Message",
+            "type": "string"
+          },
+          "inventory_released": {
+            "title": "Inventory Released",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "order_number",
+          "order_status",
+          "cancelled_at",
+          "message",
+          "inventory_released"
+        ],
+        "title": "CancelOrderOutput",
+        "type": "object"
+      }
+    },
+    "check_return_eligibility": {
+      "name": "check_return_eligibility",
+      "description": "Evaluate 30-day return window, remaining returnable item quantities, and calculate estimated refundable amounts for an order.",
+      "category": "returns",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "order_number": {
+            "description": "Zara order number to check for return eligibility",
+            "title": "Order Number",
+            "type": "string"
+          },
+          "order_item_ids": {
+            "anyOf": [
+              {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional list of specific order_item_ids",
+            "title": "Order Item Ids"
+          }
+        },
+        "required": [
+          "order_number"
+        ],
+        "title": "CheckReturnEligibilityInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "ReturnItemEligibility": {
+            "properties": {
+              "order_item_id": {
+                "title": "Order Item Id",
+                "type": "string"
+              },
+              "product_name": {
+                "title": "Product Name",
+                "type": "string"
+              },
+              "size": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size"
+              },
+              "color": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Color"
+              },
+              "ordered_quantity": {
+                "title": "Ordered Quantity",
+                "type": "integer"
+              },
+              "already_returned_quantity": {
+                "title": "Already Returned Quantity",
+                "type": "integer"
+              },
+              "available_to_return": {
+                "title": "Available To Return",
+                "type": "integer"
+              },
+              "eligible": {
+                "title": "Eligible",
+                "type": "boolean"
+              },
+              "reason": {
+                "title": "Reason",
+                "type": "string"
+              },
+              "effective_unit_price": {
+                "title": "Effective Unit Price",
+                "type": "number"
+              },
+              "estimated_refundable_amount": {
+                "title": "Estimated Refundable Amount",
+                "type": "number"
+              }
+            },
+            "required": [
+              "order_item_id",
+              "product_name",
+              "ordered_quantity",
+              "already_returned_quantity",
+              "available_to_return",
+              "eligible",
+              "reason",
+              "effective_unit_price",
+              "estimated_refundable_amount"
+            ],
+            "title": "ReturnItemEligibility",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "order_number": {
+            "title": "Order Number",
+            "type": "string"
+          },
+          "eligible": {
+            "title": "Eligible",
+            "type": "boolean"
+          },
+          "order_status": {
+            "title": "Order Status",
+            "type": "string"
+          },
+          "reason": {
+            "title": "Reason",
+            "type": "string"
+          },
+          "deadline": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Deadline"
+          },
+          "days_remaining": {
+            "title": "Days Remaining",
+            "type": "integer"
+          },
+          "estimated_total_refund": {
+            "title": "Estimated Total Refund",
+            "type": "number"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/$defs/ReturnItemEligibility"
+            },
+            "title": "Items",
+            "type": "array"
+          }
+        },
+        "required": [
+          "order_number",
+          "eligible",
+          "order_status",
+          "reason",
+          "days_remaining",
+          "estimated_total_refund",
+          "items"
+        ],
+        "title": "CheckReturnEligibilityOutput",
+        "type": "object"
+      }
+    },
+    "create_return": {
+      "name": "create_return",
+      "description": "Initiate a customer return for eligible items with mandatory two-step confirmation, quantity validation, and idempotency.",
+      "category": "returns",
+      "is_write": true,
+      "requires_confirmation": true,
+      "input_schema": {
+        "$defs": {
+          "ReturnItemRequest": {
+            "properties": {
+              "order_item_id": {
+                "description": "ID of line item to return",
+                "title": "Order Item Id",
+                "type": "string"
+              },
+              "quantity": {
+                "default": 1,
+                "description": "Quantity to return",
+                "minimum": 1,
+                "title": "Quantity",
+                "type": "integer"
+              },
+              "reason_code": {
+                "default": "DOES_NOT_FIT",
+                "description": "Reason code: DOES_NOT_FIT, DEFECTIVE, WRONG_ITEM, NOT_AS_DESCRIBED, CHANGED_MIND",
+                "title": "Reason Code",
+                "type": "string"
+              }
+            },
+            "required": [
+              "order_item_id"
+            ],
+            "title": "ReturnItemRequest",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "order_number": {
+            "description": "Order number",
+            "title": "Order Number",
+            "type": "string"
+          },
+          "items": {
+            "description": "Items to return",
+            "items": {
+              "$ref": "#/$defs/ReturnItemRequest"
+            },
+            "minItems": 1,
+            "title": "Items",
+            "type": "array"
+          },
+          "return_reason": {
+            "default": "Customer initiated return via AI assistant",
+            "description": "High-level return reason",
+            "title": "Return Reason",
+            "type": "string"
+          },
+          "confirmation_token": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "HMAC confirmation token from prior check",
+            "title": "Confirmation Token"
+          },
+          "confirmed": {
+            "default": false,
+            "description": "Explicit confirmation flag",
+            "title": "Confirmed",
+            "type": "boolean"
+          },
+          "idempotency_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Unique client key preventing duplicate return",
+            "title": "Idempotency Key"
+          }
+        },
+        "required": [
+          "order_number",
+          "items"
+        ],
+        "title": "CreateReturnInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "properties": {
+          "return_id": {
+            "title": "Return Id",
+            "type": "string"
+          },
+          "order_number": {
+            "title": "Order Number",
+            "type": "string"
+          },
+          "return_status": {
+            "title": "Return Status",
+            "type": "string"
+          },
+          "return_method": {
+            "title": "Return Method",
+            "type": "string"
+          },
+          "total_items_returned": {
+            "title": "Total Items Returned",
+            "type": "integer"
+          },
+          "estimated_refund": {
+            "title": "Estimated Refund",
+            "type": "number"
+          },
+          "message": {
+            "title": "Message",
+            "type": "string"
+          }
+        },
+        "required": [
+          "return_id",
+          "order_number",
+          "return_status",
+          "return_method",
+          "total_items_returned",
+          "estimated_refund",
+          "message"
+        ],
+        "title": "CreateReturnOutput",
+        "type": "object"
+      }
+    },
+    "get_refund_status": {
+      "name": "get_refund_status",
+      "description": "Inquire about processed refunds by order number, return ID, or refund ID.",
+      "category": "returns",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "order_number": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Lookup refunds by order number",
+            "title": "Order Number"
+          },
+          "return_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Lookup refunds by return ID",
+            "title": "Return Id"
+          },
+          "refund_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Lookup by specific refund ID",
+            "title": "Refund Id"
+          }
+        },
+        "title": "GetRefundStatusInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "RefundItem": {
+            "properties": {
+              "refund_id": {
+                "title": "Refund Id",
+                "type": "string"
+              },
+              "order_id": {
+                "title": "Order Id",
+                "type": "string"
+              },
+              "return_id": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Return Id"
+              },
+              "refund_status": {
+                "title": "Refund Status",
+                "type": "string"
+              },
+              "refund_method": {
+                "title": "Refund Method",
+                "type": "string"
+              },
+              "amount": {
+                "title": "Amount",
+                "type": "number"
+              },
+              "currency": {
+                "title": "Currency",
+                "type": "string"
+              },
+              "requested_at": {
+                "title": "Requested At",
+                "type": "string"
+              },
+              "processed_at": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Processed At"
+              },
+              "provider_reference": {
+                "title": "Provider Reference",
+                "type": "string"
+              }
+            },
+            "required": [
+              "refund_id",
+              "order_id",
+              "refund_status",
+              "refund_method",
+              "amount",
+              "currency",
+              "requested_at",
+              "provider_reference"
+            ],
+            "title": "RefundItem",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "total_refunds": {
+            "title": "Total Refunds",
+            "type": "integer"
+          },
+          "total_amount": {
+            "title": "Total Amount",
+            "type": "number"
+          },
+          "refunds": {
+            "items": {
+              "$ref": "#/$defs/RefundItem"
+            },
+            "title": "Refunds",
+            "type": "array"
+          }
+        },
+        "required": [
+          "total_refunds",
+          "total_amount",
+          "refunds"
+        ],
+        "title": "GetRefundStatusOutput",
+        "type": "object"
+      }
+    },
+    "check_exchange_availability": {
+      "name": "check_exchange_availability",
+      "description": "Check if an order item can be exchanged for an alternate size or color and verify stock availability for the replacement variant.",
+      "category": "returns",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "order_item_id": {
+            "description": "Original order_item_id to exchange",
+            "title": "Order Item Id",
+            "type": "string"
+          },
+          "replacement_size": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Requested replacement size (e.g. 'L')",
+            "title": "Replacement Size"
+          },
+          "replacement_color": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Requested replacement color",
+            "title": "Replacement Color"
+          },
+          "store_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "description": "Optional store ID to check local availability",
+            "title": "Store Id"
+          }
+        },
+        "required": [
+          "order_item_id"
+        ],
+        "title": "CheckExchangeAvailabilityInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "properties": {
+          "eligible": {
+            "title": "Eligible",
+            "type": "boolean"
+          },
+          "reason": {
+            "title": "Reason",
+            "type": "string"
+          },
+          "original_item": {
+            "additionalProperties": true,
+            "title": "Original Item",
+            "type": "object"
+          },
+          "replacement_variant": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Replacement Variant"
+          },
+          "quantity_available": {
+            "default": 0,
+            "title": "Quantity Available",
+            "type": "integer"
+          },
+          "stock_status": {
+            "default": "OUT_OF_STOCK",
+            "title": "Stock Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "eligible",
+          "reason",
+          "original_item"
+        ],
+        "title": "CheckExchangeAvailabilityOutput",
+        "type": "object"
+      }
+    }
+  }
+}
