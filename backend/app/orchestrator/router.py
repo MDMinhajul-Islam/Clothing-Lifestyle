@@ -22,6 +22,9 @@ class IntentRouter:
     def route(self, request: RouteRequest) -> RouteDecision:
         text = " ".join(request.message.casefold().split())
         context = request.context.model_dump(exclude_none=True)
+        if _has(text, ("ignore your rules", "bypass privacy", "another customer's", "another customer’s")):
+            return RouteDecision(route=Route.GENERAL_CHAT, intent="SECURITY_REFUSAL",
+                confidence=.99, reason_codes=["PROMPT_INJECTION_BLOCKED", "PRIVACY_BOUNDARY"])
         order_match = ORDER_ID.search(request.message)
         product_match = PRODUCT_ID.search(request.message)
         if order_match and "order_id" not in context:
@@ -76,7 +79,7 @@ class IntentRouter:
         if "exchange" in text and _has(text, ("available", "availability", "size", "color")):
             return self._tool("CHECK_EXCHANGE_INVENTORY", "check_exchange_inventory",
                               context, .97, "DYNAMIC_EXCHANGE_FACT")
-        if _has(text, ("in stock", "inventory", "available in size", "have size")):
+        if _has(text, ("in stock", "inventory", "available in size", "have size", "do you have")):
             return self._tool("CHECK_INVENTORY", "check_inventory", context, .98,
                               "DYNAMIC_INVENTORY_FACT")
         if _has(text,("pick up","pick this up","pickup","collect in store","store pickup")):
@@ -103,6 +106,9 @@ class IntentRouter:
         if _has(text, ("current price", "product details", "available colors", "available sizes")):
             return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .97,
                               "DYNAMIC_CATALOGUE_FACT")
+        if _has(text, ("cotton", "material", "fabric", "machine wash", "care instructions")):
+            return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .96,
+                              "PRODUCT_SPECIFIC_FACT")
         if _has(text, ("find a store", "find store", "nearest store", "store near")):
             return self._tool("FIND_STORES", "find_stores", context, .96,
                               "DYNAMIC_STORE_FACT")
@@ -128,8 +134,14 @@ class IntentRouter:
             return self._tool(intent, tool, context, .95, "SEMANTIC_PRODUCT_INTENT",
                               route=Route.PRODUCT_RECOMMENDATION)
 
+        if _has(text, ("wedding", "occasion", "party", "work event")) and not _has(text, PRODUCT_TERMS):
+            return RouteDecision(status=RouteStatus.NEEDS_CONTEXT, route=Route.TOOL_GATEWAY,
+                intent="SEARCH_PRODUCTS", confidence=.91, tool_name="search_products",
+                missing_fields=["category"], reason_codes=["BROAD_SHOPPING_INTENT", "HIGH_VALUE_CLARIFICATION"],
+                tool_arguments={"query": request.message})
+
         # Attribute/category browsing uses the authoritative catalogue search tool.
-        if _has(text, ("show me", "find", "search", "looking for")) and _has(text, PRODUCT_TERMS):
+        if _has(text, ("show me", "find", "search", "looking for", "i need", "need a")) and _has(text, PRODUCT_TERMS):
             context.setdefault("query", request.message)
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
                               "CATALOGUE_DISCOVERY_INTENT")
@@ -155,7 +167,7 @@ class IntentRouter:
     @staticmethod
     def _arguments(tool_name, context):
         allowed = {
-            "search_products": ("query", "size", "color"),
+            "search_products": ("query", "size", "color", "min_price", "max_price"),
             "get_product_details": ("product_id",),
             "check_inventory": ("product_id", "size", "color", "store_id"),
             "get_size_guidance": ("product_id",),
@@ -177,6 +189,10 @@ class IntentRouter:
             "recommend_matching_products": ("reference_product_id", "size", "color"),
         }
         arguments = {key: context[key] for key in allowed.get(tool_name, ()) if context.get(key)}
+        if tool_name == "search_products":
+            if context.get("budget_min") is not None: arguments["min_price"] = context["budget_min"]
+            if context.get("budget_max") is not None: arguments["max_price"] = context["budget_max"]
+            if context.get("category") and not arguments.get("query"): arguments["query"] = context["category"]
         if tool_name in ORDER_TOOLS and context.get("order_id"):
             arguments["order_number"] = context["order_id"]
         if tool_name == "create_return" and context.get("items"):

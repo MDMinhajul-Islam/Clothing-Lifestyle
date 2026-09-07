@@ -1,4 +1,4 @@
-"""FastAPI Application Entry Point for Zara AI Tool Gateway."""
+"""FastAPI application entry point for the NexGen retail assistant."""
 
 import logging
 from contextlib import asynccontextmanager
@@ -23,17 +23,17 @@ logger = logging.getLogger("tool_gateway.main")
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifecycle managing database connection pool."""
-    logger.info("Starting Zara AI Tool Gateway (Environment: %s)...", settings.environment)
+    logger.info("Starting %s (Environment: %s)...", settings.app_name, settings.environment)
     init_db_pool()
     yield
-    logger.info("Shutting down Zara AI Tool Gateway...")
+    logger.info("Shutting down %s...", settings.app_name)
     close_db_pool()
 
 
 app = FastAPI(
     title=settings.app_name,
     version=settings.app_version,
-    description="Deterministic AI Tool Gateway providing safe, controlled business operations over the Zara retail dataset.",
+    description="Deterministic backend for the NexGen retail voice commerce assistant.",
     lifespan=lifespan,
     docs_url="/docs",
     redoc_url="/redoc",

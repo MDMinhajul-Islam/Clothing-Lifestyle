@@ -5,8 +5,8 @@ from pydantic import BaseModel, Field
 
 
 class CheckInventoryInput(BaseModel):
-    product_id: Optional[str] = Field(None, description="Zara product ID (e.g. 'zara-us:00029400')")
-    variant_id: Optional[str] = Field(None, description="Specific Zara variant SKU ID")
+    product_id: Optional[str] = Field(None, description="Stable source-catalogue product ID")
+    variant_id: Optional[str] = Field(None, description="Specific source-catalogue variant ID")
     store_id: Optional[str] = Field(None, description="Filter for a specific store ID")
     size: Optional[str] = Field(None, description="Filter variant by size (e.g. 'M', 'L')")
     color: Optional[str] = Field(None, description="Filter variant by color name")
@@ -64,4 +64,3 @@ class StoreItem(BaseModel):
 class FindStoresOutput(BaseModel):
     total_matching: int
     stores: List[StoreItem]
-

@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 
 
 class CheckReturnEligibilityInput(BaseModel):
-    order_number: str = Field(..., description="Zara order number to check for return eligibility")
+    order_number: str = Field(..., description="Synthetic demo order number to check for return eligibility")
     order_item_ids: Optional[List[str]] = Field(None, description="Optional list of specific order_item_ids")
 
 
@@ -98,4 +98,3 @@ class CheckExchangeAvailabilityOutput(BaseModel):
     replacement_variant: Optional[Dict[str, Any]] = None
     quantity_available: int = 0
     stock_status: str = "OUT_OF_STOCK"
-

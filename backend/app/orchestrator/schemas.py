@@ -26,9 +26,24 @@ class OrchestratorContext(BaseModel):
     items: list[dict[str, Any]] | None = None
     product_id: str | None = None
     reference_product_id: str | None = None
+    active_variant_id: str | None = None
+    category: str | None = None
+    occasion: str | None = None
+    budget_min: float | None = None
+    budget_max: float | None = None
     size: str | None = None
+    fit: str | None = None
     color: str | None = None
+    colors: list[str] | None = None
+    materials: list[str] | None = None
+    must_have: list[str] | None = None
+    avoid: list[str] | None = None
     store_id: str | None = None
+    preferred_store: str | None = None
+    location: str | None = None
+    delivery_deadline: str | None = None
+    secondary_intents: list[str] | None = None
+    unresolved_issue: str | None = None
     query: str | None = None
     email: str | None = None
     phone: str | None = None
@@ -44,8 +59,10 @@ class OrchestratorContext(BaseModel):
     requested_outcome: str | None = None
 
     @field_validator("customer_type", "auth_level", "access_token", "customer_id", "order_id",
-                     "order_item_id", "product_id", "reference_product_id", "size", "color",
+                     "order_item_id", "product_id", "reference_product_id", "active_variant_id",
+                     "category", "occasion", "size", "fit", "color",
                      "store_id", "query", "email", "phone", "verification_value", "promotion_code",
+                     "preferred_store", "location", "delivery_deadline", "unresolved_issue",
                      "destination", "purpose", "issue_type", "issue_category", "factual_summary", "requested_outcome")
     @classmethod
     def strip_values(cls, value):

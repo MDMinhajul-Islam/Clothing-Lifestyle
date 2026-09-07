@@ -2,7 +2,9 @@
 
 from fastapi import APIRouter, Depends, HTTPException, status
 
-from backend.app.api.deps import verify_tool_secret
+from backend.app.api.deps import get_db, verify_tool_secret
+from backend.app.voice.capabilities.local import LocalVoiceCapabilityBackend
+from backend.app.voice.executor import VoiceCapabilityExecutor
 from backend.app.voice.schemas import (
     CreateVoiceSessionRequest, EndVoiceSessionResponse, VoiceSessionView,
     VoiceTurnRequest, VoiceTurnResponse,
@@ -21,14 +23,23 @@ def create_voice_session(payload: CreateVoiceSessionRequest):
 
 
 @router.post("/turn", response_model=VoiceTurnResponse)
-def process_voice_turn(payload: VoiceTurnRequest):
+def process_voice_turn(payload: VoiceTurnRequest, conn=Depends(get_db)):
     try:
-        return voice_service.process_voice_turn(payload)
+        executor = VoiceCapabilityExecutor(LocalVoiceCapabilityBackend(conn))
+        return voice_service.process_voice_turn(payload, executor=executor)
     except VoiceSessionNotFound as exc:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from None
     except Exception:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                             detail="Voice turn processing failed.") from None
+
+
+@router.get("/session/{session_id}", response_model=VoiceSessionView)
+def get_voice_session(session_id: str):
+    try:
+        return VoiceSessionView(**voice_service.get_session(session_id).model_dump())
+    except VoiceSessionNotFound as exc:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from None
 
 
 @router.delete("/session/{session_id}", response_model=EndVoiceSessionResponse)

@@ -5,7 +5,7 @@ from pydantic import BaseModel, Field
 
 
 class GetOrderInput(BaseModel):
-    order_number: str = Field(..., description="Zara order number (e.g. 'ZUS-2025-00002')")
+    order_number: str = Field(..., description="Synthetic demo order number (e.g. 'ZUS-2025-00002')")
     customer_verification: Optional[str] = Field(None, description="Optional customer email or phone for verification")
 
 
@@ -106,4 +106,3 @@ class CancelOrderOutput(BaseModel):
     cancelled_at: str
     message: str
     inventory_released: bool
-

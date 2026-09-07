@@ -1,4 +1,4 @@
-"""Deterministic request routing for the Zara assistant."""
+"""Deterministic request routing for the NexGen assistant."""
 
 from .service import OrchestratorService
 

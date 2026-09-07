@@ -84,7 +84,7 @@ class ToolDefinition:
 TOOL_REGISTRY: Dict[str, ToolDefinition] = {
     "search_products": ToolDefinition(
         name="search_products",
-        description="Search Zara catalogue using full-text search and faceted filters (department, category, price range, color, size, on sale). Returns compact product cards.",
+        description="Search the reference catalogue using full-text search and faceted filters (department, category, price range, color, size, on sale). Returns compact product cards.",
         input_model=SearchProductsInput,
         output_model=SearchProductsOutput,
         is_write=False,
@@ -93,7 +93,7 @@ TOOL_REGISTRY: Dict[str, ToolDefinition] = {
     ),
     "get_product_details": ToolDefinition(
         name="get_product_details",
-        description="Fetch authoritative, full relational details for a Zara product by ID, including current price, variants, sizes, colors, swatches, images, and category hierarchy.",
+        description="Fetch authoritative relational details for a source-catalogue product ID, including price, variants, sizes, colors, images, and category hierarchy.",
         input_model=GetProductDetailsInput,
         output_model=ProductDetailsOutput,
         is_write=False,
@@ -102,7 +102,7 @@ TOOL_REGISTRY: Dict[str, ToolDefinition] = {
     ),
     "compare_products": ToolDefinition(
         name="compare_products",
-        description="Compare 2 to 4 Zara products side-by-side across key attributes including name, price, sale status, materials, available colors, and sizes.",
+        description="Compare 2 to 4 source-catalogue products across name, price, sale status, materials, available colors, and sizes.",
         input_model=CompareProductsInput,
         output_model=CompareProductsOutput,
         is_write=False,
@@ -120,7 +120,7 @@ TOOL_REGISTRY: Dict[str, ToolDefinition] = {
     ),
     "find_stores": ToolDefinition(
         name="find_stores",
-        description="Search synthetic demo Zara store locations by city, state, zip code, or geographical coordinates (ranked by distance in miles).",
+        description="Search synthetic demo store locations by city, state, zip code, or geographical coordinates (ranked by distance in miles).",
         input_model=FindStoresInput,
         output_model=FindStoresOutput,
         is_write=False,

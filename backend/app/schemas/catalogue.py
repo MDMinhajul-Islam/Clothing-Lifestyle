@@ -7,7 +7,7 @@ from pydantic import BaseModel, Field
 class SearchProductsInput(BaseModel):
     query: Optional[str] = Field(None, description="Free-text search query (e.g. 'linen shirt', 'black dress')")
     department: Optional[str] = Field(None, description="Department filter: WOMAN, MAN, or KIDS")
-    category_id: Optional[str] = Field(None, description="Zara category identifier")
+    category_id: Optional[str] = Field(None, description="Source-catalogue category identifier")
     min_price: Optional[float] = Field(None, ge=0.0, description="Minimum price filter")
     max_price: Optional[float] = Field(None, ge=0.0, description="Maximum price filter")
     color: Optional[str] = Field(None, description="Color name filter (e.g. 'Black', 'Ecru')")
@@ -36,7 +36,7 @@ class SearchProductsOutput(BaseModel):
 
 
 class GetProductDetailsInput(BaseModel):
-    product_id: str = Field(..., description="Zara canonical product ID (e.g. 'zara-us:00029400')")
+    product_id: str = Field(..., description="Stable source-catalogue product ID (e.g. 'zara-us:00029400')")
 
 
 class VariantDetail(BaseModel):
@@ -105,4 +105,3 @@ class ProductComparisonItem(BaseModel):
 class CompareProductsOutput(BaseModel):
     compared_count: int
     products: List[ProductComparisonItem]
-

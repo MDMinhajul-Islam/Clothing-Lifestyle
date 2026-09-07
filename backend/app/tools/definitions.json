@@ -4,7 +4,7 @@
   "tools": {
     "search_products": {
       "name": "search_products",
-      "description": "Search Zara catalogue using full-text search and faceted filters (department, category, price range, color, size, on sale). Returns compact product cards.",
+      "description": "Search the reference catalogue using full-text search and faceted filters (department, category, price range, color, size, on sale). Returns compact product cards.",
       "category": "catalogue",
       "is_write": false,
       "requires_confirmation": false,
@@ -46,7 +46,7 @@
               }
             ],
             "default": null,
-            "description": "Zara category identifier",
+            "description": "Source-catalogue category identifier",
             "title": "Category Id"
           },
           "min_price": {
@@ -235,14 +235,14 @@
     },
     "get_product_details": {
       "name": "get_product_details",
-      "description": "Fetch authoritative, full relational details for a Zara product by ID, including current price, variants, sizes, colors, swatches, images, and category hierarchy.",
+      "description": "Fetch authoritative relational details for a source-catalogue product ID, including price, variants, sizes, colors, images, and category hierarchy.",
       "category": "catalogue",
       "is_write": false,
       "requires_confirmation": false,
       "input_schema": {
         "properties": {
           "product_id": {
-            "description": "Zara canonical product ID (e.g. 'zara-us:00029400')",
+            "description": "Stable source-catalogue product ID (e.g. 'zara-us:00029400')",
             "title": "Product Id",
             "type": "string"
           }
@@ -552,7 +552,7 @@
     },
     "compare_products": {
       "name": "compare_products",
-      "description": "Compare 2 to 4 Zara products side-by-side across key attributes including name, price, sale status, materials, available colors, and sizes.",
+      "description": "Compare 2 to 4 source-catalogue products across name, price, sale status, materials, available colors, and sizes.",
       "category": "catalogue",
       "is_write": false,
       "requires_confirmation": false,
@@ -693,7 +693,7 @@
               }
             ],
             "default": null,
-            "description": "Zara product ID (e.g. 'zara-us:00029400')",
+            "description": "Stable source-catalogue product ID",
             "title": "Product Id"
           },
           "variant_id": {
@@ -706,7 +706,7 @@
               }
             ],
             "default": null,
-            "description": "Specific Zara variant SKU ID",
+            "description": "Specific source-catalogue variant ID",
             "title": "Variant Id"
           },
           "store_id": {
@@ -879,7 +879,7 @@
     },
     "find_stores": {
       "name": "find_stores",
-      "description": "Search synthetic demo Zara store locations by city, state, zip code, or geographical coordinates (ranked by distance in miles).",
+      "description": "Search synthetic demo store locations by city, state, zip code, or geographical coordinates (ranked by distance in miles).",
       "category": "stores",
       "is_write": false,
       "requires_confirmation": false,
@@ -1264,7 +1264,7 @@
       "input_schema": {
         "properties": {
           "order_number": {
-            "description": "Zara order number (e.g. 'ZUS-2025-00002')",
+            "description": "Synthetic demo order number (e.g. 'ZUS-2025-00002')",
             "title": "Order Number",
             "type": "string"
           },
@@ -1884,7 +1884,7 @@
       "input_schema": {
         "properties": {
           "order_number": {
-            "description": "Zara order number to check for return eligibility",
+            "description": "Synthetic demo order number to check for return eligibility",
             "title": "Order Number",
             "type": "string"
           },

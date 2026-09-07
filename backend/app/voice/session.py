@@ -20,7 +20,24 @@ class VoiceSession(BaseModel):
     current_order_id: str | None = None
     current_product_id: str | None = None
     reference_product_id: str | None = None
+    active_variant_id: str | None = None
+    active_order_item_id: str | None = None
     current_store_id: str | None = None
+    preferred_store: str | None = None
+    location: str | None = None
+    category: str | None = None
+    occasion: str | None = None
+    budget_min: float | None = None
+    budget_max: float | None = None
+    size: str | None = None
+    fit: str | None = None
+    colors: list[str] = Field(default_factory=list)
+    materials: list[str] = Field(default_factory=list)
+    must_have: list[str] = Field(default_factory=list)
+    avoid: list[str] = Field(default_factory=list)
+    delivery_deadline: str | None = None
+    secondary_intents: list[str] = Field(default_factory=list)
+    unresolved_issue: str | None = None
     last_intent: str | None = None
     last_route: str | None = None
     pending_tool_name: str | None = None

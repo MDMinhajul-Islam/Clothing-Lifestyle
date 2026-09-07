@@ -29,7 +29,13 @@ _load_env_file(ENV_PATH)
 class Settings(BaseModel):
     """Application Settings validated by Pydantic."""
 
-    app_name: str = "Zara AI Tool Gateway"
+    app_name: str = "NexGen AI Retail Voice Commerce Assistant"
+    brand_name: str = Field(default_factory=lambda: os.getenv("BRAND_NAME", "NexGen"))
+    agent_name: str = Field(default_factory=lambda: os.getenv("AGENT_NAME", "NexGen Assistant"))
+    policy_reference_brand: str = "Zara"
+    policy_reference_market: str = "US"
+    policy_reference_locale: str = "en"
+    policy_usage: str = "REFERENCE_DEMO"
     app_version: str = "1.0.0"
     environment: str = Field(default_factory=lambda: os.getenv("ENVIRONMENT", "development"))
     
@@ -68,4 +74,3 @@ class Settings(BaseModel):
 
 # Global cached settings instance
 settings = Settings()
-

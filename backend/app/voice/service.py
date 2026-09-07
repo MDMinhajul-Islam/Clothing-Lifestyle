@@ -2,9 +2,11 @@
 
 import re
 
+from backend.app.config import settings
 from backend.app.orchestrator.schemas import OrchestratorContext, Route, RouteRequest
 from backend.app.orchestrator.service import OrchestratorService
 from .executor import VoiceCapabilityExecutor
+from .composer import VoiceResponseComposer
 from .schemas import (
     CreateVoiceSessionRequest, EndVoiceSessionResponse, VoiceSessionView,
     VoiceTurnRequest, VoiceTurnResponse,
@@ -15,8 +17,13 @@ YES = {"yes", "confirm", "proceed", "go ahead", "yes please", "do it"}
 NO = {"no", "cancel", "never mind", "nevermind", "stop", "don't", "do not"}
 ORDER_ID = re.compile(r"\b(?:ORD|ZUS)-[A-Z0-9-]+\b", re.IGNORECASE)
 PRODUCT_ID = re.compile(r"\bzara-us:\d{8}\b", re.IGNORECASE)
+BUDGET_MAX = re.compile(r"(?:under|below|less than|up to)\s*\$?\s*(\d+(?:\.\d+)?)", re.IGNORECASE)
+SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
+COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
+CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "top", "skirt", "shoes", "coat"}
 CLARIFICATIONS = {
     "product_id": "Which product are you asking about?",
+    "category": "What kind of item would you like?",
     "order_id": "Could you give me your order number?",
     "items": "Which item or items from the order would you like to return?",
     "reference_product_id": "Which product would you like recommendations for?",
@@ -64,6 +71,7 @@ class VoiceService:
         self.sessions = sessions or InMemoryVoiceSessionStore()
         self.orchestrator = orchestrator or OrchestratorService()
         self.executor = executor or VoiceCapabilityExecutor()
+        self.composer = VoiceResponseComposer()
 
     def create_session(self, request: CreateVoiceSessionRequest):
         session = self.sessions.create_session(request.provider, request.customer_id)
@@ -76,7 +84,8 @@ class VoiceService:
         self.sessions.end_session(session_id)
         return EndVoiceSessionResponse(session_id=session_id, ended=True)
 
-    def process_voice_turn(self, request: VoiceTurnRequest):
+    def process_voice_turn(self, request: VoiceTurnRequest, *, executor=None):
+        executor = executor or self.executor
         session = self.sessions.get_session(request.session_id)
         session.conversation_turn += 1
         text = " ".join(request.transcript.casefold().split())
@@ -89,7 +98,7 @@ class VoiceService:
                 return self._response(session, "READY", "CANCELLED_BY_USER",
                     "Okay, I won't proceed with that action.", tool_name=tool)
             if text in YES:
-                return self._confirm_pending(session)
+                return self._confirm_pending(session, executor)
             self.sessions.update_session(session)
             return self._response(session, "NEEDS_CONFIRMATION", "AWAITING_EXPLICIT_CONFIRMATION",
                 "Please say yes to proceed or no to cancel.", needs_user_input=True,
@@ -100,6 +109,8 @@ class VoiceService:
         if session.pending_tool_name and session.pending_missing_fields:
             if not any(not context.get(field) for field in session.pending_missing_fields):
                 message = RESUME_MESSAGES.get(session.pending_tool_name, request.transcript)
+        elif (session.last_intent == "SEARCH_PRODUCTS" or session.category) and self._is_preference_update(text):
+            message = "Show me products"
 
         decision = self.orchestrator.route(RouteRequest(message=message,
             context=OrchestratorContext(**context)))
@@ -117,9 +128,19 @@ class VoiceService:
 
         session.pending_missing_fields = []
         if decision.requires_confirmation:
-            prepared = self.executor.prepare_write(decision)
+            prepared = executor.prepare_write(decision)
+            if not prepared.confirmation_token:
+                session.pending_tool_name = None
+                session.pending_arguments = {}
+                self.sessions.update_session(session)
+                spoken = prepared.spoken_text or self.composer.compose(decision, prepared.data,
+                                                                        prepared.execution_status)
+                return self._response(session, "READY", prepared.execution_status, spoken,
+                                      decision=decision,
+                                      metadata={"capability_data": self._safe_metadata(prepared.data)})
             session.pending_tool_name = decision.tool_name
-            session.pending_arguments = dict(decision.tool_arguments)
+            session.pending_arguments = dict(prepared.data.get("prepared_arguments",
+                                                               decision.tool_arguments))
             session.pending_confirmation = True
             session.pending_confirmation_token = prepared.confirmation_token
             self.sessions.update_session(session)
@@ -132,23 +153,23 @@ class VoiceService:
         session.pending_arguments = {}
         if decision.route == Route.GENERAL_CHAT:
             self.sessions.update_session(session)
-            greeting = text in {"hello", "hi", "hey", "good morning", "good afternoon"}
-            spoken = ("Hello. How can I help with Zara products, orders, or policies?" if greeting
-                      else "I can help with Zara products, orders, inventory, and official policies.")
-            return self._response(session, "READY", "LLM_NOT_CONFIGURED", spoken,
+            execution = "SECURITY_REFUSED" if decision.intent == "SECURITY_REFUSAL" else "LLM_NOT_CONFIGURED"
+            spoken = self.composer.general(text, decision.intent)
+            return self._response(session, "READY", execution, spoken,
                                   decision=decision)
 
-        result = self.executor.execute(decision)
+        result = executor.execute(decision)
+        self._apply_capability_context(session, decision, result.data)
         self.sessions.update_session(session)
-        spoken = result.spoken_text or self._format_result(decision, result.data,
-                                                           result.execution_status)
+        spoken = result.spoken_text or self.composer.compose(decision, result.data,
+                                                              result.execution_status)
         return self._response(session, "READY", result.execution_status, spoken,
-                              decision=decision, metadata={"capability_data": result.data})
+                              decision=decision, metadata={"capability_data": self._safe_metadata(result.data)})
 
-    def _confirm_pending(self, session):
+    def _confirm_pending(self, session, executor):
         tool = session.pending_tool_name
-        result = self.executor.confirm_write(tool, session.pending_arguments,
-                                             session.pending_confirmation_token)
+        result = executor.confirm_write(tool, session.pending_arguments,
+                                        session.pending_confirmation_token)
         if result.execution_status in {"SUCCESS", "CONFIRMED_BY_GATEWAY"}:
             self._clear_pending(session)
         self.sessions.update_session(session)
@@ -157,10 +178,26 @@ class VoiceService:
         return self._response(session, "READY", result.execution_status, spoken,
             needs_user_input=session.pending_confirmation,
             requires_confirmation=session.pending_confirmation, tool_name=tool,
-            metadata={"capability_data": result.data})
+            metadata={"capability_data": self._safe_metadata(result.data)})
 
     @staticmethod
-    def _merged_context(session, request):
+    def _apply_capability_context(session, decision, data):
+        if decision.intent == "VERIFY_CUSTOMER" and data.get("verified"):
+            session.access_token=data.get("access_token")
+            session.auth_level=str(data.get("auth_level","PUBLIC"))
+            session.customer_type=data.get("customer_type") or session.customer_type
+
+    @classmethod
+    def _safe_metadata(cls, value):
+        sensitive={"access_token","confirmation_token","verification_value","email","phone","destination"}
+        if isinstance(value,dict):
+            return {key:("[REDACTED]" if key in sensitive else cls._safe_metadata(item))
+                    for key,item in value.items() if key != "prepared_arguments"}
+        if isinstance(value,list):return [cls._safe_metadata(item) for item in value]
+        return value
+
+    @classmethod
+    def _merged_context(cls, session, request):
         context = {
             "customer_id": session.customer_id,
             "customer_type": session.customer_type,
@@ -170,12 +207,44 @@ class VoiceService:
             "product_id": session.current_product_id,
             "reference_product_id": session.reference_product_id,
             "store_id": session.current_store_id,
+            "order_item_id": session.active_order_item_id,
+            "active_variant_id": session.active_variant_id,
+            "category": session.category,
+            "occasion": session.occasion,
+            "budget_min": session.budget_min,
+            "budget_max": session.budget_max,
+            "size": session.size,
+            "fit": session.fit,
+            "colors": list(session.colors),
+            "materials": list(session.materials),
+            "must_have": list(session.must_have),
+            "avoid": list(session.avoid),
+            "preferred_store": session.preferred_store,
+            "location": session.location,
+            "delivery_deadline": session.delivery_deadline,
+            "secondary_intents": list(session.secondary_intents),
+            "unresolved_issue": session.unresolved_issue,
         }
         context.update(request.context.model_dump(exclude_none=True))
         order = ORDER_ID.search(request.transcript)
         product = PRODUCT_ID.search(request.transcript)
         if order: context["order_id"] = order.group(0).upper()
         if product: context["product_id"] = product.group(0).lower()
+        budget=BUDGET_MAX.search(request.transcript)
+        if budget: context["budget_max"]=float(budget.group(1))
+        size=SIZE_ONLY.match(" ".join(request.transcript.casefold().split()))
+        if size:
+            context["size"]={"small":"S","medium":"M","large":"L"}.get(size.group(1).lower(),size.group(1).upper())
+        words=set(re.findall(r"[a-z]+",request.transcript.casefold()))
+        found_colors=[color for color in COLORS if color in words]
+        if found_colors:
+            context["colors"]=list(dict.fromkeys([*(context.get("colors") or []),*found_colors]))
+            context["color"]=found_colors[-1]
+        found_category=next((item for item in CATEGORIES if item in words),None)
+        if found_category: context["category"]=found_category
+        if "wedding" in words: context["occasion"]="wedding"
+        if "order" in words and "exchange" in words:
+            context["secondary_intents"]=["CHECK_EXCHANGE_INVENTORY"]
         if context.get("product_id") and not context.get("reference_product_id"):
             context["reference_product_id"] = context["product_id"]
         return {key:value for key,value in context.items() if value is not None}
@@ -193,6 +262,13 @@ class VoiceService:
         if context.get("reference_product_id"):
             session.reference_product_id = context["reference_product_id"]
         if context.get("store_id"): session.current_store_id = context["store_id"]
+        if context.get("order_item_id"): session.active_order_item_id=context["order_item_id"]
+        if context.get("active_variant_id"): session.active_variant_id=context["active_variant_id"]
+        for field in ("category","occasion","budget_min","budget_max","size","fit",
+                      "preferred_store","location","delivery_deadline","unresolved_issue"):
+            if context.get(field) is not None:setattr(session,field,context[field])
+        for field in ("colors","materials","must_have","avoid","secondary_intents"):
+            if context.get(field) is not None:setattr(session,field,list(context[field]))
 
     @staticmethod
     def _clear_pending(session):
@@ -213,21 +289,8 @@ class VoiceService:
         return f"You'd like me to {action}{target}. Should I proceed?"
 
     @staticmethod
-    def _format_result(decision, data, status):
-        if status == "CAPABILITY_ADAPTER_NOT_CONFIGURED":
-            return "That service is not configured for local voice execution yet."
-        if decision.route == Route.POLICY_RAG:
-            if data.get("status") == "INSUFFICIENT_EVIDENCE":
-                return "I couldn't verify that from the official Zara US information currently available."
-            evidence = data.get("evidence") or []
-            if evidence:
-                return str(evidence[0].get("chunk_text", ""))[:500]
-        if decision.route == Route.PRODUCT_RECOMMENDATION:
-            results = (data.get("results") or [])[:3]
-            if results:
-                names = [str(item.get("name")) for item in results if item.get("name")]
-                return "I found these options: " + ", ".join(names) + "."
-        return "I completed that request."
+    def _is_preference_update(text):
+        return bool(SIZE_ONLY.match(text) or any(color in text.split() for color in COLORS))
 
     @staticmethod
     def _response(session, status, execution_status, spoken_text, *, decision=None,
@@ -241,7 +304,12 @@ class VoiceService:
             missing_fields=list(decision.missing_fields) if decision else [],
             requires_confirmation=requires_confirmation,
             tool_name=tool_name or (decision.tool_name if decision else None),
-            metadata={"provider": session.provider.value, "conversation_turn": session.conversation_turn,
+            metadata={"provider": session.provider.value, "assistant_brand": settings.brand_name,
+                      "conversation_turn": session.conversation_turn,
+                      "session_state":{"category":session.category,"occasion":session.occasion,
+                          "budget_min":session.budget_min,"budget_max":session.budget_max,
+                          "size":session.size,"colors":session.colors,
+                          "secondary_intents":session.secondary_intents},
                       **(metadata or {})})
 
     @staticmethod
