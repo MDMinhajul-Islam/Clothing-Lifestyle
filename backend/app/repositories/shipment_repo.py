@@ -58,3 +58,4 @@ class ShipmentRepository(BaseRepository):
 
             result["events"] = events
             return result
+

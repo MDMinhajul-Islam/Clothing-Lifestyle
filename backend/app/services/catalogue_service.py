@@ -54,3 +54,4 @@ class CatalogueService:
             compared_count=len(items),
             products=items
         )
+

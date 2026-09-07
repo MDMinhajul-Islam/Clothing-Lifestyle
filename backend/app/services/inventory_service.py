@@ -123,3 +123,4 @@ class InventoryService:
                 total_matching=len(stores),
                 stores=[StoreItem(**s) for s in stores]
             )
+

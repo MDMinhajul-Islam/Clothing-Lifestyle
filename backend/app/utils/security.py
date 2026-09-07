@@ -70,3 +70,4 @@ def verify_confirmation_token(
         return True
     except Exception:
         return False
+

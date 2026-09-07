@@ -61,3 +61,4 @@ def root_index():
         "health": "/health",
         "tool_definitions": "/v1/tools/definitions"
     }
+

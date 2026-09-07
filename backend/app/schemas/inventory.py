@@ -64,3 +64,4 @@ class StoreItem(BaseModel):
 class FindStoresOutput(BaseModel):
     total_matching: int
     stores: List[StoreItem]
+

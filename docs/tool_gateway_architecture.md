@@ -207,3 +207,4 @@ All 14 tools execute well within the **300ms–400ms latency budget** required f
    The gateway exposes clean semantics: read tools never mutate state, and write tools cleanly intercept accidental execution via `CONFIRMATION_REQUIRED`.
 3. **No Database Credentials**:
    The AI agent environment needs only `TOOL_GATEWAY_URL` and `TOOL_GATEWAY_SECRET`.
+

@@ -80,3 +80,4 @@ def get_db_cursor(commit_on_success: bool = False) -> Generator[psycopg2.extras.
             yield cur
             if commit_on_success:
                 conn.commit()
+

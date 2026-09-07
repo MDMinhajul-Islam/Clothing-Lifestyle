@@ -242,3 +242,4 @@ class CatalogueRepository(BaseRepository):
                 r["colors"] = [c for c in r["colors"] if c]
                 r["sizes"] = [s for s in r["sizes"] if s]
             return rows
+

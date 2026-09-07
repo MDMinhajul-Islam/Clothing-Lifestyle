@@ -17,3 +17,4 @@ def haversine_distance_miles(lat1: float, lon1: float, lat2: float, lon2: float)
     c = 2.0 * math.atan2(math.sqrt(a), math.sqrt(1.0 - a))
 
     return round(r * c, 2)
+

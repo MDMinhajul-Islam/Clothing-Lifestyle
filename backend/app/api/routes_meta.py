@@ -29,3 +29,4 @@ def health_check(conn: psycopg2.extensions.connection = Depends(get_db)):
 def get_definitions():
     """Retrieve machine-readable tool catalog definitions."""
     return export_tool_definitions()
+

@@ -88,3 +88,4 @@ class ExchangeService:
             quantity_available=available_stock,
             stock_status=stock_status
         )
+

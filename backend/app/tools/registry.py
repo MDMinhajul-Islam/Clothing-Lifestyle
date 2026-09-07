@@ -204,3 +204,4 @@ def export_tool_definitions() -> Dict[str, Any]:
         "total_tools": len(TOOL_REGISTRY),
         "tools": {name: tool.to_dict() for name, tool in TOOL_REGISTRY.items()}
     }
+

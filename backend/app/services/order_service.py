@@ -108,7 +108,7 @@ class OrderService:
             (success: bool, data: Optional[CancelOrderOutput], error: Optional[ToolError], confirmation: Optional[ConfirmationPayload], cached: bool)
         """
         # 1. Idempotency Check
-        req_hash = hash_request_payload(input_data.model_dump())
+        req_hash = hash_request_payload(input_data.dict())
         if input_data.idempotency_key:
             existing = self.idem_repo.get_idempotency_record(input_data.idempotency_key)
             if existing:
@@ -187,9 +187,10 @@ class OrderService:
                 key=input_data.idempotency_key,
                 tool_name="cancel_order",
                 request_hash=req_hash,
-                response_json=output.model_dump(),
+                response_json=output.dict(),
                 status="SUCCEEDED"
             )
 
         self.conn.commit()
         return True, output, None, None, False
+

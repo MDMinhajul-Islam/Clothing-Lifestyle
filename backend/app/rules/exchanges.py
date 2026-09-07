@@ -26,3 +26,4 @@ class ExchangeRules:
             return False, f"Replacement variant is out of stock (available: {available_stock}, requested: {requested_qty})."
 
         return True, f"Exchange available. {available_stock} units in stock."
+

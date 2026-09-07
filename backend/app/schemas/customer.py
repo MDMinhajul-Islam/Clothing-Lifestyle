@@ -33,3 +33,4 @@ class CustomerProfileOutput(BaseModel):
     preferred_currency: str
     account_status: str
     addresses: List[CustomerAddressItem] = Field(default_factory=list)
+

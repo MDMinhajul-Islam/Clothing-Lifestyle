@@ -66,3 +66,4 @@ def log_tool_audit(
         conn.commit()
     except Exception as e:
         logger.error("Failed to write tool audit log: %s", e)
+

@@ -87,7 +87,7 @@ def search_products_tool(
         service = CatalogueService(conn)
         res = service.search_products(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "search_products", request_id, payload.model_dump(), "SUCCESS", dur)
+        log_tool_audit(conn, "search_products", request_id, payload.dict(), "SUCCESS", dur)
         return ToolResponse(
             success=True,
             data=res,
@@ -95,7 +95,7 @@ def search_products_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "search_products", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "search_products", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -114,7 +114,7 @@ def get_product_details_tool(
         service = CatalogueService(conn)
         res = service.get_product_details(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_product_details", request_id, payload.model_dump(), "SUCCESS", dur)
+        log_tool_audit(conn, "get_product_details", request_id, payload.dict(), "SUCCESS", dur)
         return ToolResponse(
             success=True,
             data=res,
@@ -122,7 +122,7 @@ def get_product_details_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_product_details", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.PRODUCT_NOT_FOUND)
+        log_tool_audit(conn, "get_product_details", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.PRODUCT_NOT_FOUND)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.PRODUCT_NOT_FOUND, message=str(e)),
@@ -130,7 +130,7 @@ def get_product_details_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_product_details", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "get_product_details", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -149,7 +149,7 @@ def compare_products_tool(
         service = CatalogueService(conn)
         res = service.compare_products(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "compare_products", request_id, payload.model_dump(), "SUCCESS", dur)
+        log_tool_audit(conn, "compare_products", request_id, payload.dict(), "SUCCESS", dur)
         return ToolResponse(
             success=True,
             data=res,
@@ -157,7 +157,7 @@ def compare_products_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "compare_products", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "compare_products", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -180,7 +180,7 @@ def check_inventory_tool(
         service = InventoryService(conn)
         res = service.check_inventory(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_inventory", request_id, payload.model_dump(), "SUCCESS", dur)
+        log_tool_audit(conn, "check_inventory", request_id, payload.dict(), "SUCCESS", dur)
         return ToolResponse(
             success=True,
             data=res,
@@ -188,7 +188,7 @@ def check_inventory_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_inventory", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.VALIDATION_ERROR)
+        log_tool_audit(conn, "check_inventory", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.VALIDATION_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.VALIDATION_ERROR, message=str(e)),
@@ -196,7 +196,7 @@ def check_inventory_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_inventory", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "check_inventory", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -215,7 +215,7 @@ def find_stores_tool(
         service = InventoryService(conn)
         res = service.find_stores(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "find_stores", request_id, payload.model_dump(), "SUCCESS", dur)
+        log_tool_audit(conn, "find_stores", request_id, payload.dict(), "SUCCESS", dur)
         return ToolResponse(
             success=True,
             data=res,
@@ -223,7 +223,7 @@ def find_stores_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "find_stores", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "find_stores", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -246,7 +246,7 @@ def get_customer_tool(
         service = CustomerService(conn)
         res = service.get_customer(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_customer", request_id, payload.model_dump(), "SUCCESS", dur, customer_id=res.customer_id)
+        log_tool_audit(conn, "get_customer", request_id, payload.dict(), "SUCCESS", dur, customer_id=res.customer_id)
         return ToolResponse(
             success=True,
             data=res,
@@ -254,7 +254,7 @@ def get_customer_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_customer", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.CUSTOMER_NOT_FOUND)
+        log_tool_audit(conn, "get_customer", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.CUSTOMER_NOT_FOUND)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.CUSTOMER_NOT_FOUND, message=str(e)),
@@ -262,7 +262,7 @@ def get_customer_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_customer", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "get_customer", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -285,7 +285,7 @@ def get_order_tool(
         service = OrderService(conn)
         res = service.get_order(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_order", request_id, payload.model_dump(), "SUCCESS", dur, order_id=res.order_number, customer_id=res.customer_id)
+        log_tool_audit(conn, "get_order", request_id, payload.dict(), "SUCCESS", dur, order_id=res.order_number, customer_id=res.customer_id)
         return ToolResponse(
             success=True,
             data=res,
@@ -293,7 +293,7 @@ def get_order_tool(
         )
     except PermissionError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_order", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.UNAUTHORIZED)
+        log_tool_audit(conn, "get_order", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.UNAUTHORIZED)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.UNAUTHORIZED, message=str(e)),
@@ -301,7 +301,7 @@ def get_order_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_order", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.ORDER_NOT_FOUND)
+        log_tool_audit(conn, "get_order", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.ORDER_NOT_FOUND)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.ORDER_NOT_FOUND, message=str(e)),
@@ -309,7 +309,7 @@ def get_order_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_order", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "get_order", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -328,7 +328,7 @@ def track_order_tool(
         service = ShipmentService(conn)
         res = service.track_order(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "track_order", request_id, payload.model_dump(), "SUCCESS", dur, order_id=payload.order_number)
+        log_tool_audit(conn, "track_order", request_id, payload.dict(), "SUCCESS", dur, order_id=payload.order_number)
         return ToolResponse(
             success=True,
             data=res,
@@ -336,7 +336,7 @@ def track_order_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "track_order", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.ORDER_NOT_FOUND)
+        log_tool_audit(conn, "track_order", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.ORDER_NOT_FOUND)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.ORDER_NOT_FOUND, message=str(e)),
@@ -344,7 +344,7 @@ def track_order_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "track_order", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "track_order", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -363,7 +363,7 @@ def check_cancellation_eligibility_tool(
         service = OrderService(conn)
         res = service.check_cancellation_eligibility(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_cancellation_eligibility", request_id, payload.model_dump(), "SUCCESS", dur, order_id=payload.order_number)
+        log_tool_audit(conn, "check_cancellation_eligibility", request_id, payload.dict(), "SUCCESS", dur, order_id=payload.order_number)
         return ToolResponse(
             success=True,
             data=res,
@@ -371,7 +371,7 @@ def check_cancellation_eligibility_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_cancellation_eligibility", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.ORDER_NOT_FOUND)
+        log_tool_audit(conn, "check_cancellation_eligibility", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.ORDER_NOT_FOUND)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.ORDER_NOT_FOUND, message=str(e)),
@@ -379,7 +379,7 @@ def check_cancellation_eligibility_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_cancellation_eligibility", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "check_cancellation_eligibility", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -401,7 +401,7 @@ def cancel_order_tool(
     result_status = "SUCCESS" if success else ("CONFIRMATION_REQUIRED" if confirmation else "ERROR")
     error_code = error.code if error else None
     log_tool_audit(
-        conn, "cancel_order", request_id, payload.model_dump(), result_status, dur,
+        conn, "cancel_order", request_id, payload.dict(), result_status, dur,
         order_id=payload.order_number, error_code=error_code, idempotency_key=payload.idempotency_key
     )
 
@@ -429,7 +429,7 @@ def check_return_eligibility_tool(
         service = ReturnService(conn)
         res = service.check_return_eligibility(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_return_eligibility", request_id, payload.model_dump(), "SUCCESS", dur, order_id=payload.order_number)
+        log_tool_audit(conn, "check_return_eligibility", request_id, payload.dict(), "SUCCESS", dur, order_id=payload.order_number)
         return ToolResponse(
             success=True,
             data=res,
@@ -437,7 +437,7 @@ def check_return_eligibility_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_return_eligibility", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.ORDER_NOT_FOUND)
+        log_tool_audit(conn, "check_return_eligibility", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.ORDER_NOT_FOUND)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.ORDER_NOT_FOUND, message=str(e)),
@@ -445,7 +445,7 @@ def check_return_eligibility_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_return_eligibility", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "check_return_eligibility", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -467,7 +467,7 @@ def create_return_tool(
     result_status = "SUCCESS" if success else ("CONFIRMATION_REQUIRED" if confirmation else "ERROR")
     error_code = error.code if error else None
     log_tool_audit(
-        conn, "create_return", request_id, payload.model_dump(), result_status, dur,
+        conn, "create_return", request_id, payload.dict(), result_status, dur,
         order_id=payload.order_number, error_code=error_code, idempotency_key=payload.idempotency_key
     )
 
@@ -491,7 +491,7 @@ def get_refund_status_tool(
         service = RefundService(conn)
         res = service.get_refund_status(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_refund_status", request_id, payload.model_dump(), "SUCCESS", dur, order_id=payload.order_number)
+        log_tool_audit(conn, "get_refund_status", request_id, payload.dict(), "SUCCESS", dur, order_id=payload.order_number)
         return ToolResponse(
             success=True,
             data=res,
@@ -499,7 +499,7 @@ def get_refund_status_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_refund_status", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.VALIDATION_ERROR)
+        log_tool_audit(conn, "get_refund_status", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.VALIDATION_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.VALIDATION_ERROR, message=str(e)),
@@ -507,7 +507,7 @@ def get_refund_status_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "get_refund_status", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "get_refund_status", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
@@ -526,7 +526,7 @@ def check_exchange_availability_tool(
         service = ExchangeService(conn)
         res = service.check_exchange_availability(payload)
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_exchange_availability", request_id, payload.model_dump(), "SUCCESS", dur)
+        log_tool_audit(conn, "check_exchange_availability", request_id, payload.dict(), "SUCCESS", dur)
         return ToolResponse(
             success=True,
             data=res,
@@ -534,7 +534,7 @@ def check_exchange_availability_tool(
         )
     except ValueError as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_exchange_availability", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.VALIDATION_ERROR)
+        log_tool_audit(conn, "check_exchange_availability", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.VALIDATION_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.VALIDATION_ERROR, message=str(e)),
@@ -542,9 +542,10 @@ def check_exchange_availability_tool(
         )
     except Exception as e:
         dur = int((time.time() - t0) * 1000)
-        log_tool_audit(conn, "check_exchange_availability", request_id, payload.model_dump(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
+        log_tool_audit(conn, "check_exchange_availability", request_id, payload.dict(), "ERROR", dur, error_code=ErrorCode.INTERNAL_ERROR)
         return ToolResponse(
             success=False,
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
             meta=ResponseMeta(tool_name="check_exchange_availability", request_id=request_id, duration_ms=dur)
         )
+

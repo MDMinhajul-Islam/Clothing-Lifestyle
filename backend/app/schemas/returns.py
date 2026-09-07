@@ -98,3 +98,4 @@ class CheckExchangeAvailabilityOutput(BaseModel):
     replacement_variant: Optional[Dict[str, Any]] = None
     quantity_available: int = 0
     stock_status: str = "OUT_OF_STOCK"
+

@@ -54,3 +54,4 @@ class ToolResponse(BaseModel, Generic[T]):
     error: Optional[ToolError] = None
     confirmation: Optional[ConfirmationPayload] = None
     meta: ResponseMeta
+

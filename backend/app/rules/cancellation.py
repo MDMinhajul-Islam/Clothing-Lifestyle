@@ -35,3 +35,4 @@ class CancellationRules:
         )
         allowed_action = "INITIATE_RETURN" if status == "DELIVERED" else "NONE"
         return False, reason, allowed_action
+

@@ -106,3 +106,4 @@ class CancelOrderOutput(BaseModel):
     cancelled_at: str
     message: str
     inventory_released: bool
+

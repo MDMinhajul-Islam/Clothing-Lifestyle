@@ -84,3 +84,4 @@ class StoreRepository(BaseRepository):
                 r["latitude"] = float(r["latitude"]) if r.get("latitude") else None
                 r["longitude"] = float(r["longitude"]) if r.get("longitude") else None
             return rows
+

@@ -79,3 +79,4 @@ class CustomerRepository(BaseRepository):
             customer["addresses"] = addresses
 
             return customer
+

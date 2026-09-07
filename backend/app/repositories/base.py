@@ -13,3 +13,4 @@ class BaseRepository:
 
     def cursor(self) -> RealDictCursor:
         return self.conn.cursor(cursor_factory=RealDictCursor)
+

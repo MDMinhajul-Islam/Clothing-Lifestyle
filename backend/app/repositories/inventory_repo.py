@@ -97,3 +97,4 @@ class InventoryRepository(BaseRepository):
                 )
                 released_count += 1
             return released_count
+

@@ -105,3 +105,4 @@ class ProductComparisonItem(BaseModel):
 class CompareProductsOutput(BaseModel):
     compared_count: int
     products: List[ProductComparisonItem]
+

@@ -34,3 +34,4 @@ class ShipmentService:
             delivered_at=data.get("delivered_at"),
             events=events
         )
+

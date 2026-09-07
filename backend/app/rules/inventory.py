@@ -29,3 +29,4 @@ class InventoryRules:
         """Check if requested quantity can be fulfilled."""
         available, _ = cls.calculate_availability(on_hand, reserved)
         return available >= requested
+

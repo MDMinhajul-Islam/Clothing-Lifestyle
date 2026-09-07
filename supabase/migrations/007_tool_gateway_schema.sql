@@ -45,3 +45,4 @@ ALTER TABLE tool_audit_log ENABLE ROW LEVEL SECURITY;
 -- Anonymous users cannot read or write to gateway internal tables
 DROP POLICY IF EXISTS tool_idempotency_service_policy ON tool_idempotency_keys;
 DROP POLICY IF EXISTS tool_audit_log_service_policy ON tool_audit_log;
+

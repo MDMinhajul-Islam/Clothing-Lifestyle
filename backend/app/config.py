@@ -68,3 +68,4 @@ class Settings(BaseModel):
 
 # Global cached settings instance
 settings = Settings()
+
