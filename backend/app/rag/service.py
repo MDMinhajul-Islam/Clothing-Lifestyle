@@ -1,5 +1,5 @@
 """Future orchestrator contract returning evidence only, never a policy answer."""
-from .embeddings import EmbeddingClient, EmbeddingUnavailable
+from .embeddings import EmbeddingUnavailable, get_embedding_client
 from .retriever import PolicyRetriever, query_terms
 from .schemas import PolicyEvidence, PolicyQuery, PolicyResult
 
@@ -25,7 +25,7 @@ def retrieve_policy_knowledge(query, policy_type=None, market='US', locale='en',
     semantic_status = 'NOT_CONFIGURED'
     vector = None
     try:
-        embedding_client = embedding_client or EmbeddingClient.from_environment()
+        embedding_client = embedding_client or get_embedding_client()
         vector = embedding_client.embed([query])[0]
         semantic_status = 'ENABLED'
     except EmbeddingUnavailable:

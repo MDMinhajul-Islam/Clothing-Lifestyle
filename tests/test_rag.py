@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 from pydantic import ValidationError
-from backend.app.rag.embeddings import EmbeddingClient, EmbeddingUnavailable, validate_vector
+from backend.app.rag.embeddings import EmbeddingClient, EmbeddingUnavailable, LocalSentenceTransformerClient, get_embedding_client, validate_vector
 from backend.app.rag.retriever import fuse
 from backend.app.rag.schemas import PolicyQuery
 from backend.app.rag.service import retrieve_policy_knowledge, select_evidence
@@ -45,6 +45,31 @@ class TestPolicyRag(unittest.TestCase):
             with self.assertRaises(EmbeddingUnavailable):
                 EmbeddingClient.from_environment()
 
+    def test_local_embedding_client_selection(self):
+        fake = object()
+        get_embedding_client.cache_clear()
+        with patch('backend.app.rag.embeddings.LocalSentenceTransformerClient', return_value=fake), patch.dict('os.environ', {}, clear=True):
+            self.assertIs(get_embedding_client(), fake)
+        get_embedding_client.cache_clear()
+
+    def test_local_embedding_metadata(self):
+        client = LocalSentenceTransformerClient.__new__(LocalSentenceTransformerClient)
+        self.assertEqual(client.provider, 'local_sentence_transformers')
+        self.assertEqual(client.model, 'sentence-transformers/all-MiniLM-L6-v2')
+        self.assertEqual(client.dimension, 384)
+        self.assertEqual(client.version, 'v1')
+
+    def test_all_policy_chunks_have_local_embeddings(self):
+        chunks = read(CORPUS/'chunks.json')
+        embeddings = read(CORPUS/'embeddings.json')
+        self.assertEqual({c['chunk_id'] for c in chunks}, {e['chunk_id'] for e in embeddings})
+        for record in embeddings:
+            self.assertEqual(record['embedding_provider'], 'local_sentence_transformers')
+            self.assertEqual(record['embedding_model'], 'sentence-transformers/all-MiniLM-L6-v2')
+            self.assertEqual(record['embedding_dimension'], 384)
+            self.assertEqual(record['embedding_version'], 'v1')
+            validate_vector(record['embedding'], 384)
+
     def test_invalid_vectors(self):
         for vector in [[0,0], [1,float('nan')], [1], [True,2], [1,float('inf')]]:
             with self.assertRaises(ValueError):
@@ -57,13 +82,13 @@ class TestPolicyRag(unittest.TestCase):
         self.assertEqual(len(rows),2)
 
     def test_insufficient_evidence(self):
-        with patch('backend.app.rag.service.PolicyRetriever.retrieve', return_value=[]), patch.dict('os.environ',{},clear=True):
+        with patch('backend.app.rag.service.PolicyRetriever.retrieve', return_value=[]), patch('backend.app.rag.service.get_embedding_client', side_effect=EmbeddingUnavailable):
             result = retrieve_policy_knowledge('lunar delivery guarantee', conn=object())
         self.assertEqual(result.status,'INSUFFICIENT_EVIDENCE')
         self.assertFalse(result.evidence)
 
     def test_retrieval_failure_is_distinct(self):
-        with patch('backend.app.rag.service.PolicyRetriever.retrieve', side_effect=RuntimeError('private error')), patch.dict('os.environ',{},clear=True):
+        with patch('backend.app.rag.service.PolicyRetriever.retrieve', side_effect=RuntimeError('private error')), patch('backend.app.rag.service.get_embedding_client', side_effect=EmbeddingUnavailable):
             result = retrieve_policy_knowledge('return',conn=object())
         self.assertEqual(result.status,'RETRIEVAL_UNAVAILABLE')
         self.assertNotIn('private error',result.model_dump_json())

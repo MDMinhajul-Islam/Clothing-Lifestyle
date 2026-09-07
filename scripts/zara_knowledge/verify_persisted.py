@@ -15,10 +15,16 @@ def main():
             for c in chunks:
                 cur.execute('SELECT knowledge_id,chunk_text FROM public.knowledge_chunks WHERE chunk_id=%s',(c['chunk_id'],))
                 assert cur.fetchone()==(c['knowledge_id'],c['chunk_text'])
-            cur.execute('SELECT count(embedding) FROM public.knowledge_chunks')
-            embeddings=cur.fetchone()[0]
+            cur.execute('''SELECT count(*), count(embedding), min(vector_dims(embedding)), max(vector_dims(embedding))
+                FROM public.knowledge_chunks WHERE embedding_provider='local_sentence_transformers'
+                AND embedding_model='sentence-transformers/all-MiniLM-L6-v2' AND embedding_version='v1'
+                AND embedding_dimension=384''')
+            matched,embeddings,min_dimension,max_dimension=cur.fetchone()
+            assert matched == len(chunks) and embeddings == len(chunks)
+            assert min_dimension == max_dimension == 384
         result=dict(status='PASS',transaction='READ_ONLY',documents=len(docs),chunks=len(chunks),
-                    embeddings=embeddings,source_and_content_parity='PASS')
+                    embeddings=embeddings,embedding_metadata='PASS',embedding_dimension=384,
+                    source_and_content_parity='PASS')
         write(ROOT/'reports/phase_2d_persisted_validation.json',result)
         print(result)
     finally:

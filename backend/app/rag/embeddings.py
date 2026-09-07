@@ -7,6 +7,7 @@ import json
 import math
 import os
 from dataclasses import dataclass, field
+from functools import lru_cache
 from urllib.parse import urlparse
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 
@@ -66,3 +67,41 @@ class EmbeddingClient:
         except Exception:
             # Never propagate provider bodies, request headers or credentials.
             raise EmbeddingUnavailable('Embedding provider request failed') from None
+
+
+@dataclass
+class LocalSentenceTransformerClient:
+    provider: str = 'local_sentence_transformers'
+    model: str = 'sentence-transformers/all-MiniLM-L6-v2'
+    dimension: int = 384
+    version: str = 'v1'
+    device: str = field(init=False)
+    _encoder: object = field(init=False, repr=False)
+
+    def __post_init__(self):
+        try:
+            import torch
+            from sentence_transformers import SentenceTransformer
+            self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
+            self._encoder = SentenceTransformer(self.model, device=self.device, local_files_only=True)
+            if self._encoder.get_embedding_dimension() != self.dimension:
+                raise EmbeddingUnavailable('Local model dimension does not match configuration')
+        except EmbeddingUnavailable:
+            raise
+        except Exception:
+            raise EmbeddingUnavailable('Local SentenceTransformer model could not be loaded') from None
+
+    def embed(self, texts):
+        if not texts:
+            return []
+        vectors = self._encoder.encode(texts, normalize_embeddings=True, convert_to_numpy=True)
+        return [validate_vector(vector.tolist(), self.dimension) for vector in vectors]
+
+
+@lru_cache(maxsize=1)
+def get_embedding_client():
+    """Use the free local model unless an explicit legacy provider is configured."""
+    provider = os.getenv('RAG_EMBEDDING_PROVIDER', 'local_sentence_transformers')
+    if provider == 'local_sentence_transformers':
+        return LocalSentenceTransformerClient()
+    return EmbeddingClient.from_environment()

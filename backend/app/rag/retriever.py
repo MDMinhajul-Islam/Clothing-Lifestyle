@@ -60,5 +60,5 @@ class PolicyRetriever:
                     ORDER BY embedding <=> %s::vector, chunk_id LIMIT 40''', filters + (
                     embedding_client.provider, embedding_client.model, embedding_client.dimension,
                     embedding_client.version, json.dumps(vector), json.dumps(vector)))
-                vector_rows = [dict(r) for r in cur.fetchall() if r['similarity'] >= 0.75]
+                vector_rows = [dict(r) for r in cur.fetchall() if r['similarity'] >= 0.30]
         return fuse(text_rows, vector_rows)

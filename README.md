@@ -4,9 +4,9 @@ An enterprise-grade, omnichannel AI retail assistant platform built upon the liv
 
 ## Project Architecture & Current State
 
-- **Current Status**: Phase 2D structurally complete; live embeddings pending provider configuration. Official corpus, pgvector schema/import, lexical retrieval and audits are implemented; existing business rules are unchanged.
-- **Next Step**: Configure real embeddings and validate semantic retrieval before Phase 2E orchestration.
-- **Fresh Safe Tests**: 82 passing (68 historical local + 14 RAG). The historical 83-test suite includes 15 database-writing gateway tests excluded from this run.
+- **Current Status**: Phase 2D.1 complete with 11 local MiniLM policy embeddings and validated hybrid retrieval. Existing business rules are unchanged.
+- **Next Step**: Phase 2E orchestration after reviewing the documented policy/security discrepancies.
+- **Fresh Safe Tests**: 85 passing (68 historical local + 17 RAG). The historical 83-test suite includes 15 database-writing gateway tests excluded from this run.
 - **Phase 2D Documentation**: [Architecture, commands, validation and limitations](docs/phase_2d_rag_architecture.md).
 
 ## Autonomous Agent & Developer Handoff
