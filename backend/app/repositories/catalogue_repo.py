@@ -246,3 +246,95 @@ class CatalogueRepository(BaseRepository):
                 r["colors"] = [c for c in r["colors"] if c]
                 r["sizes"] = [s for s in r["sizes"] if s]
             return rows
+
+    def list_public_products(
+        self, query: Optional[str] = None, category: Optional[str] = None,
+        department: Optional[str] = None, color: Optional[str] = None,
+        min_price: Optional[float] = None, max_price: Optional[float] = None,
+        sort: str = "featured", limit: int = 24, offset: int = 0,
+        available_only: bool = False, product_id: Optional[str] = None,
+    ) -> Tuple[int, List[Dict[str, Any]]]:
+        """List lifecycle-active products through the public response allowlist."""
+        where = ["p.lifecycle_status = 'ACTIVE'", "p.exact_product_name !~* '(magnetic board|towel|candle|candlestick)'"]
+        params: List[Any] = []
+        if product_id:
+            where.append("p.product_id = %s"); params.append(product_id)
+        if query:
+            where.append("p.search_vector @@ websearch_to_tsquery('english', %s)"); params.append(query)
+        if department:
+            where.append("p.department ILIKE %s"); params.append(department)
+        if category:
+            where.append("EXISTS (SELECT 1 FROM product_categories pc JOIN categories cat ON cat.category_id = pc.category_id WHERE pc.product_id = p.product_id AND (cat.name ILIKE %s OR cat.slug ILIKE %s))")
+            params.extend([f"%{category}%", f"%{category}%"])
+        if color:
+            where.append("EXISTS (SELECT 1 FROM product_colors c WHERE c.product_id = p.product_id AND c.color_name ILIKE %s)"); params.append(f"%{color}%")
+        if min_price is not None:
+            where.append("p.current_price >= %s"); params.append(Decimal(str(min_price)))
+        if max_price is not None:
+            where.append("p.current_price <= %s"); params.append(Decimal(str(max_price)))
+        if available_only:
+            where.append("EXISTS (SELECT 1 FROM product_variants v WHERE v.product_id = p.product_id AND v.public_availability_state = 'IN_STOCK')")
+        where_sql = " AND ".join(where)
+        order_sql = {
+            "price_low_high": "p.current_price ASC, p.product_id ASC",
+            "price_high_low": "p.current_price DESC, p.product_id ASC",
+            "newest": "p.first_seen_at DESC NULLS LAST, p.product_id ASC",
+        }.get(sort, "p.is_on_sale DESC, p.last_seen_at DESC NULLS LAST, p.product_id ASC")
+        if query:
+            order_sql = "ts_rank(p.search_vector, websearch_to_tsquery('english', %s)) DESC, " + order_sql
+
+        with self.cursor() as cur:
+            cur.execute(f"SELECT count(*) AS cnt FROM products p WHERE {where_sql}", tuple(params))
+            total = cur.fetchone()["cnt"]
+            select_params = list(params)
+            if query:
+                select_params.append(query)
+            select_params.extend([limit, offset])
+            cur.execute(f"""
+                SELECT p.product_id, p.exact_product_name AS name, p.department,
+                    (SELECT cat.name FROM product_categories pc JOIN categories cat ON cat.category_id = pc.category_id WHERE pc.product_id = p.product_id ORDER BY cat.name LIMIT 1) AS category,
+                    COALESCE(p.long_description, p.short_description) AS description,
+                    p.current_price AS price, p.original_price, p.currency, p.is_on_sale,
+                    COALESCE((SELECT array_agg(DISTINCT c.color_name) FROM product_colors c WHERE c.product_id = p.product_id AND c.color_name IS NOT NULL), ARRAY[]::TEXT[]) AS colors,
+                    COALESCE((SELECT array_agg(DISTINCT v.size_name) FROM product_variants v WHERE v.product_id = p.product_id AND v.size_name IS NOT NULL), ARRAY[]::TEXT[]) AS sizes,
+                    COALESCE((SELECT array_agg(i.source_image_url ORDER BY (i.image_role = 'PRIMARY') DESC, i.display_order) FROM product_images i WHERE i.product_id = p.product_id), ARRAY[]::TEXT[]) AS image_urls,
+                    EXISTS (SELECT 1 FROM product_variants v WHERE v.product_id = p.product_id AND v.public_availability_state = 'IN_STOCK') AS available,
+                    'catalogue' AS source
+                FROM products p WHERE {where_sql}
+                ORDER BY {order_sql} LIMIT %s OFFSET %s
+            """, tuple(select_params))
+            return total, [self._format_public_product(dict(row)) for row in cur.fetchall()]
+
+    def get_public_product(self, product_id: str) -> Optional[Dict[str, Any]]:
+        _, rows = self.list_public_products(product_id=product_id, limit=1)
+        return rows[0] if rows else None
+
+    def get_public_facets(self) -> Dict[str, Any]:
+        """Return filter values derived only from active public products."""
+        with self.cursor() as cur:
+            cur.execute("""
+                SELECT count(*) AS total_products, COALESCE(min(current_price), 0) AS price_min,
+                    COALESCE(max(current_price), 0) AS price_max,
+                    ARRAY(SELECT DISTINCT department FROM products WHERE lifecycle_status = 'ACTIVE' ORDER BY department) AS departments,
+                    ARRAY(SELECT DISTINCT cat.name FROM categories cat JOIN product_categories pc ON pc.category_id = cat.category_id JOIN products p2 ON p2.product_id = pc.product_id WHERE p2.lifecycle_status = 'ACTIVE' ORDER BY cat.name) AS categories,
+                    ARRAY(SELECT DISTINCT c.color_name FROM product_colors c JOIN products p3 ON p3.product_id = c.product_id WHERE p3.lifecycle_status = 'ACTIVE' AND c.color_name IS NOT NULL ORDER BY c.color_name) AS colors
+                FROM products WHERE lifecycle_status = 'ACTIVE'
+            """)
+            row = dict(cur.fetchone())
+            row["price_min"] = float(row["price_min"]); row["price_max"] = float(row["price_max"])
+            return row
+
+    def get_styled_edit(self, limit: int = 8) -> List[Dict[str, Any]]:
+        """Select current image-backed fashion products for an editorial rail."""
+        _, rows = self.list_public_products(available_only=True, sort="newest", limit=limit * 3)
+        excluded = ("board", "towel", "candle", "home", "perfume", "parfum", "lipstick", "eyeliner", "edp")
+        return [row for row in rows if row["image_urls"] and not any(term in row["name"].casefold() for term in excluded)][:limit]
+
+    @staticmethod
+    def _format_public_product(row: Dict[str, Any]) -> Dict[str, Any]:
+        row["price"] = float(row["price"])
+        row["original_price"] = float(row["original_price"]) if row.get("original_price") is not None else None
+        row["colors"] = [value for value in row.get("colors", []) if value]
+        row["sizes"] = [value for value in row.get("sizes", []) if value]
+        row["image_urls"] = [value for value in row.get("image_urls", []) if value]
+        return row

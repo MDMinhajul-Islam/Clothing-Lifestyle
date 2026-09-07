@@ -19,11 +19,13 @@ from backend.app.repositories.catalogue_repo import CatalogueRepository
 
 SEARCH_FILLER = {
     "a", "an", "find", "for", "i", "looking", "me", "need", "please",
-    "search", "show", "some", "under", "up", "to",
+    "search", "show", "some", "under", "up", "to", "party", "evening",
+    "occasion", "wear",
 }
 SEARCH_PLURALS = {
     "dresses": "dress", "shirts": "shirt", "jackets": "jacket",
     "tops": "top", "skirts": "skirt", "shoes": "shoe", "coats": "coat",
+    "blazers": "blazer", "pants": "pant", "trousers": "trouser", "jeans": "jean",
 }
 SEARCH_COLORS = {
     "black", "white", "navy", "blue", "red", "green", "beige", "brown",
