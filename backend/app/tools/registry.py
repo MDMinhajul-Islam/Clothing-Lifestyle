@@ -48,6 +48,15 @@ from backend.app.recommendation.schemas import (
     RecommendMatchingProductsInput,
     RecommendationOutput,
 )
+from backend.app.schemas.capabilities import (
+    IdentifyCustomerInput, IdentifyCustomerOutput, VerifyCustomerInput, VerifyCustomerOutput,
+    GetCustomerProfileInput, AuthorizedProfileOutput, GetCustomerOrdersInput, GetCustomerOrdersOutput,
+    GetSizeGuidanceInput, SizeGuidanceOutput, CheckPickupAvailabilityInput, CheckPickupAvailabilityOutput,
+    GetLoyaltyStatusInput, LoyaltyStatusOutput, CheckPromotionInput, CheckPromotionOutput,
+    CheckExchangeInventoryInput, CreateExchangeInput, CreateExchangeOutput,
+    CreateIncidentInput, CreateIncidentOutput, CreateSupportCaseInput, CreateSupportCaseOutput,
+    PrepareHandoffInput, HandoffPacketOutput, SendSecureLinkInput, SendSecureLinkOutput,
+)
 
 
 @dataclass
@@ -217,6 +226,20 @@ TOOL_REGISTRY: Dict[str, ToolDefinition] = {
         requires_confirmation=False,
         category="recommendation",
     ),
+    "get_size_guidance": ToolDefinition("get_size_guidance", "Return documented product fit and size evidence without guaranteeing fit.", GetSizeGuidanceInput, SizeGuidanceOutput, False, False, "catalogue"),
+    "check_pickup_availability": ToolDefinition("check_pickup_availability", "Check synthetic demo store pickup availability for an exact product and store.", CheckPickupAvailabilityInput, CheckPickupAvailabilityOutput, False, False, "inventory"),
+    "identify_customer": ToolDefinition("identify_customer", "Identify a synthetic customer using an exact identifier and return masked verification guidance only.", IdentifyCustomerInput, IdentifyCustomerOutput, False, False, "customer"),
+    "verify_customer": ToolDefinition("verify_customer", "Verify registered or guest synthetic customer access and issue a scoped expiring token.", VerifyCustomerInput, VerifyCustomerOutput, False, False, "customer"),
+    "get_customer_profile": ToolDefinition("get_customer_profile", "Return a private customer profile only with transaction-verified access.", GetCustomerProfileInput, AuthorizedProfileOutput, False, False, "customer"),
+    "get_customer_orders": ToolDefinition("get_customer_orders", "Return authorized customer order history or one guest-verified order.", GetCustomerOrdersInput, GetCustomerOrdersOutput, False, False, "order"),
+    "get_loyalty_status": ToolDefinition("get_loyalty_status", "Return authenticated synthetic demo loyalty tier, points, and benefits.", GetLoyaltyStatusInput, LoyaltyStatusOutput, False, False, "loyalty"),
+    "check_promotion": ToolDefinition("check_promotion", "Evaluate a synthetic demo promotion using deterministic backend rules.", CheckPromotionInput, CheckPromotionOutput, False, False, "promotion"),
+    "check_exchange_inventory": ToolDefinition("check_exchange_inventory", "Authenticated exchange eligibility and replacement inventory check; alias of the existing exchange availability capability.", CheckExchangeInventoryInput, CheckExchangeAvailabilityOutput, False, False, "returns"),
+    "create_exchange": ToolDefinition("create_exchange", "Create an authenticated synthetic exchange with gateway confirmation and idempotency.", CreateExchangeInput, CreateExchangeOutput, True, True, "returns"),
+    "create_incident": ToolDefinition("create_incident", "Create a confirmed, authenticated synthetic order-item incident.", CreateIncidentInput, CreateIncidentOutput, True, True, "support"),
+    "create_support_case": ToolDefinition("create_support_case", "Create a confirmed, authenticated synthetic human-support case.", CreateSupportCaseInput, CreateSupportCaseOutput, True, True, "support"),
+    "prepare_handoff": ToolDefinition("prepare_handoff", "Prepare a least-privilege structured human handoff packet without transferring a call.", PrepareHandoffInput, HandoffPacketOutput, False, False, "support"),
+    "send_secure_link": ToolDefinition("send_secure_link", "Validate consent and destination, then return a delivery-not-configured secure-link contract.", SendSecureLinkInput, SendSecureLinkOutput, False, False, "support"),
 }
 
 

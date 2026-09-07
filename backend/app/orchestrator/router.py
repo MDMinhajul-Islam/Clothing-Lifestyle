@@ -45,6 +45,18 @@ class IntentRouter:
         if cancel_action:
             return self._tool("CANCEL_ORDER", "cancel_order", context, .99,
                               "WRITE_ACTION_INTENT")
+        if "exchange" in text and _has(text,("start", "create", "process", "place the exchange")):
+            return self._tool("CREATE_EXCHANGE","create_exchange",context,.99,"WRITE_ACTION_INTENT")
+        if _has(text,("arrived damaged","damaged item","wrong item","missing item","defective item","delivered but")):
+            context.setdefault("factual_summary",request.message)
+            if not context.get("issue_type"):
+                signals=(("damaged","DAMAGED_ITEM"),("wrong","WRONG_ITEM"),("missing","MISSING_ITEM"),("defective","DEFECTIVE_ITEM"),("delivered","DELIVERED_NOT_RECEIVED"))
+                context["issue_type"]=next((kind for word,kind in signals if word in text),None)
+            return self._tool("CREATE_INCIDENT","create_incident",context,.98,"VERIFIED_INCIDENT_INTAKE")
+        if _has(text,("open a support case","create a support case","file a support case")):
+            context.setdefault("factual_summary",request.message)
+            context.setdefault("issue_category","GENERAL_SUPPORT")
+            return self._tool("CREATE_SUPPORT_CASE","create_support_case",context,.98,"SUPPORT_CASE_ACTION")
 
         # 2. Dynamic account, order, catalogue, and inventory facts.
         has_order_id = "order_id" in context
@@ -62,11 +74,32 @@ class IntentRouter:
             return self._tool("GET_REFUND_STATUS", "get_refund_status", context, .97,
                               "DYNAMIC_REFUND_FACT")
         if "exchange" in text and _has(text, ("available", "availability", "size", "color")):
-            return self._tool("CHECK_EXCHANGE_AVAILABILITY", "check_exchange_availability",
+            return self._tool("CHECK_EXCHANGE_INVENTORY", "check_exchange_inventory",
                               context, .97, "DYNAMIC_EXCHANGE_FACT")
         if _has(text, ("in stock", "inventory", "available in size", "have size")):
             return self._tool("CHECK_INVENTORY", "check_inventory", context, .98,
                               "DYNAMIC_INVENTORY_FACT")
+        if _has(text,("pick up","pick this up","pickup","collect in store","store pickup")):
+            return self._tool("CHECK_PICKUP_AVAILABILITY","check_pickup_availability",context,.98,"DYNAMIC_PICKUP_FACT")
+        if _has(text,("points","loyalty","rewards","reward tier","member tier")):
+            return self._tool("GET_LOYALTY_STATUS","get_loyalty_status",context,.98,"PRIVATE_LOYALTY_FACT")
+        if _has(text,("coupon","promotion code","promo code","discount code")):
+            return self._tool("CHECK_PROMOTION","check_promotion",context,.97,"SYNTHETIC_PROMOTION_CHECK")
+        if _has(text,("what size did i buy","purchase recently","purchased recently","bought last time","order history","buy the same","latest order","recent orders")):
+            return self._tool("GET_CUSTOMER_ORDERS","get_customer_orders",context,.97,"PRIVATE_ORDER_HISTORY")
+        if "exchange" in text and _has(text,("next size","too small","too large","replacement","available")):
+            return self._tool("CHECK_EXCHANGE_INVENTORY","check_exchange_inventory",context,.97,"EXCHANGE_ELIGIBILITY_AND_INVENTORY")
+        if _has(text,("size guidance","what size","which size","fit guidance","how does this fit")):
+            return self._tool("GET_SIZE_GUIDANCE","get_size_guidance",context,.95,"DOCUMENTED_SIZE_EVIDENCE")
+        if _has(text,("speak to a person","talk to a person","human support","human agent","speak to an agent")):
+            context.setdefault("factual_summary",request.message); context.setdefault("intent","HUMAN_SUPPORT_REQUEST")
+            return self._tool("PREPARE_HANDOFF","prepare_handoff",context,.99,"HUMAN_HANDOFF_REQUEST")
+        if _has(text,("send me a link","text me a link","email me a link","secure link")):
+            return self._tool("SEND_SECURE_LINK","send_secure_link",context,.96,"SECURE_LINK_REQUEST")
+        if _has(text,("verify my account","verify me","verify my order")):
+            return self._tool("VERIFY_CUSTOMER","verify_customer",context,.96,"CUSTOMER_VERIFICATION_REQUEST")
+        if _has(text,("identify me","find my account","recognize my account")):
+            return self._tool("IDENTIFY_CUSTOMER","identify_customer",context,.95,"CUSTOMER_IDENTIFICATION_REQUEST")
         if _has(text, ("current price", "product details", "available colors", "available sizes")):
             return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .97,
                               "DYNAMIC_CATALOGUE_FACT")
@@ -74,8 +107,8 @@ class IntentRouter:
             return self._tool("FIND_STORES", "find_stores", context, .96,
                               "DYNAMIC_STORE_FACT")
         if _has(text, ("my profile", "customer profile", "customer account")):
-            return self._tool("GET_CUSTOMER", "get_customer", context, .96,
-                              "DYNAMIC_CUSTOMER_FACT")
+            return self._tool("GET_CUSTOMER_PROFILE", "get_customer_profile", context, .96,
+                              "PRIVATE_CUSTOMER_FACT")
         if has_order_id and _has(text, ("order details", "order information", "order status")):
             return self._tool("GET_ORDER", "get_order", context, .96,
                               "DYNAMIC_ORDER_FACT")
@@ -107,6 +140,10 @@ class IntentRouter:
     def _tool(self, intent, tool_name, context, confidence, reason, route=Route.TOOL_GATEWAY):
         definition = TOOL_REGISTRY[tool_name]
         missing = [field for field in REQUIRED_CONTEXT.get(tool_name, ()) if not context.get(field)]
+        if tool_name in {"identify_customer","verify_customer"} and not any(context.get(k) for k in ("email","phone","order_id")):
+            missing.append("email_or_phone_or_order_id")
+        if tool_name=="verify_customer" and not context.get("verification_value"):
+            missing.append("verification_value")
         arguments = self._arguments(tool_name, context)
         return RouteDecision(status=RouteStatus.NEEDS_CONTEXT if missing else RouteStatus.READY,
             route=route, intent=intent, confidence=confidence, tool_name=tool_name,
@@ -121,6 +158,20 @@ class IntentRouter:
             "search_products": ("query", "size", "color"),
             "get_product_details": ("product_id",),
             "check_inventory": ("product_id", "size", "color", "store_id"),
+            "get_size_guidance": ("product_id",),
+            "check_pickup_availability": ("product_id","store_id","size","color"),
+            "identify_customer": ("email","phone"),
+            "verify_customer": ("email","phone","verification_value"),
+            "get_customer_profile": ("access_token",),
+            "get_customer_orders": ("access_token",),
+            "get_loyalty_status": ("access_token",),
+            "check_promotion": ("promotion_code","cart_subtotal","product_id"),
+            "check_exchange_inventory": ("access_token","order_item_id","size","color","store_id"),
+            "create_exchange": ("access_token","order_item_id","size","color","store_id"),
+            "create_incident": ("access_token","order_item_id","issue_type","factual_summary"),
+            "create_support_case": ("access_token","product_id","issue_category","factual_summary","requested_outcome"),
+            "prepare_handoff": ("access_token","product_id","factual_summary","requested_outcome"),
+            "send_secure_link": ("access_token","destination","purpose","consent_confirmed"),
             "get_customer": ("customer_id",),
             "find_similar_products": ("reference_product_id", "size", "color"),
             "recommend_matching_products": ("reference_product_id", "size", "color"),
@@ -135,4 +186,13 @@ class IntentRouter:
             if context.get("size"): arguments["replacement_size"] = context["size"]
             if context.get("color"): arguments["replacement_color"] = context["color"]
             if context.get("store_id"): arguments["store_id"] = context["store_id"]
+        if context.get("order_id") and tool_name in {"identify_customer","verify_customer"}:
+            arguments["order_number"]=context["order_id"]
+        if context.get("order_id") and tool_name in {"create_incident","create_support_case","prepare_handoff"}:
+            arguments["order_number"]=context["order_id"]
+        if tool_name in {"check_exchange_inventory","create_exchange"}:
+            if arguments.pop("size",None): arguments["replacement_size"]=context["size"]
+            if arguments.pop("color",None): arguments["replacement_color"]=context["color"]
+        if tool_name=="prepare_handoff":
+            arguments["intent"]=context.get("intent","HUMAN_SUPPORT_REQUEST")
         return arguments

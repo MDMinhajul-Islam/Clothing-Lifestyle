@@ -66,6 +66,16 @@ from backend.app.recommendation.schemas import (
     RecommendationOutput,
 )
 from backend.app.recommendation.service import RecommendationService
+from backend.app.schemas.capabilities import (
+    IdentifyCustomerInput, IdentifyCustomerOutput, VerifyCustomerInput, VerifyCustomerOutput,
+    GetCustomerProfileInput, AuthorizedProfileOutput, GetCustomerOrdersInput, GetCustomerOrdersOutput,
+    GetSizeGuidanceInput, SizeGuidanceOutput, CheckPickupAvailabilityInput, CheckPickupAvailabilityOutput,
+    GetLoyaltyStatusInput, LoyaltyStatusOutput, CheckPromotionInput, CheckPromotionOutput,
+    CheckExchangeInventoryInput, CreateExchangeInput, CreateExchangeOutput,
+    CreateIncidentInput, CreateIncidentOutput, CreateSupportCaseInput, CreateSupportCaseOutput,
+    PrepareHandoffInput, HandoffPacketOutput, SendSecureLinkInput, SendSecureLinkOutput,
+)
+from backend.app.services.capability_service import RetailCapabilityService
 
 router = APIRouter(
     prefix="/v1/tools",
@@ -596,4 +606,76 @@ def recommend_matching_products_tool(payload: RecommendMatchingProductsInput,
         request_id: str = Depends(_get_request_id)):
     return _recommendation_response("recommend_matching_products", payload, conn, request_id,
         lambda service, request: service.recommend_matching_products(request))
+
+# ---------------------------------------------------------------------------
+# 8. AUTHORIZED RETAIL AND SUPPORT CAPABILITIES
+# ---------------------------------------------------------------------------
+
+_SENSITIVE_FIELDS = {"access_token", "confirmation_token", "verification_value", "email",
+                     "phone", "destination", "factual_summary"}
+
+def _capability_summary(payload):
+    return {key:value for key,value in payload.model_dump().items()
+            if key not in _SENSITIVE_FIELDS and value is not None}
+
+def _capability_read(tool_name, payload, conn, request_id, operation):
+    t0=time.time()
+    try:
+        data=operation(RetailCapabilityService(conn),payload); duration=int((time.time()-t0)*1000)
+        log_tool_audit(conn,tool_name,request_id,_capability_summary(payload),"SUCCESS",duration)
+        return ToolResponse(success=True,data=data,meta=ResponseMeta(tool_name=tool_name,request_id=request_id,duration_ms=duration))
+    except PermissionError:
+        duration=int((time.time()-t0)*1000); log_tool_audit(conn,tool_name,request_id,_capability_summary(payload),"ERROR",duration,error_code=ErrorCode.UNAUTHORIZED)
+        return ToolResponse(success=False,error=ToolError(code=ErrorCode.UNAUTHORIZED,message="Verified access is required."),meta=ResponseMeta(tool_name=tool_name,request_id=request_id,duration_ms=duration))
+    except ValueError as exc:
+        duration=int((time.time()-t0)*1000); log_tool_audit(conn,tool_name,request_id,_capability_summary(payload),"ERROR",duration,error_code=ErrorCode.VALIDATION_ERROR)
+        return ToolResponse(success=False,error=ToolError(code=ErrorCode.VALIDATION_ERROR,message=str(exc)),meta=ResponseMeta(tool_name=tool_name,request_id=request_id,duration_ms=duration))
+    except Exception:
+        duration=int((time.time()-t0)*1000); log_tool_audit(conn,tool_name,request_id,_capability_summary(payload),"ERROR",duration,error_code=ErrorCode.INTERNAL_ERROR)
+        return ToolResponse(success=False,error=ToolError(code=ErrorCode.INTERNAL_ERROR,message="Capability execution failed."),meta=ResponseMeta(tool_name=tool_name,request_id=request_id,duration_ms=duration))
+
+def _capability_write(tool_name,payload,conn,request_id,operation):
+    t0=time.time()
+    try:
+        success,data,error,confirmation,cached=operation(RetailCapabilityService(conn),payload)
+        duration=int((time.time()-t0)*1000); result="SUCCESS" if success else ("CONFIRMATION_REQUIRED" if confirmation else "ERROR")
+        log_tool_audit(conn,tool_name,request_id,_capability_summary(payload),result,duration,
+                       error_code=error.code if error else None,idempotency_key=payload.idempotency_key)
+        return ToolResponse(success=success,data=data,error=error,confirmation=confirmation,
+            meta=ResponseMeta(tool_name=tool_name,request_id=request_id,duration_ms=duration,cached=cached))
+    except PermissionError:
+        duration=int((time.time()-t0)*1000); log_tool_audit(conn,tool_name,request_id,_capability_summary(payload),"ERROR",duration,error_code=ErrorCode.UNAUTHORIZED)
+        return ToolResponse(success=False,error=ToolError(code=ErrorCode.UNAUTHORIZED,message="Verified access is required."),meta=ResponseMeta(tool_name=tool_name,request_id=request_id,duration_ms=duration))
+    except ValueError as exc:
+        duration=int((time.time()-t0)*1000); log_tool_audit(conn,tool_name,request_id,_capability_summary(payload),"ERROR",duration,error_code=ErrorCode.VALIDATION_ERROR)
+        return ToolResponse(success=False,error=ToolError(code=ErrorCode.VALIDATION_ERROR,message=str(exc)),meta=ResponseMeta(tool_name=tool_name,request_id=request_id,duration_ms=duration))
+
+@router.post('/identify-customer',response_model=ToolResponse[IdentifyCustomerOutput])
+def identify_customer_tool(payload:IdentifyCustomerInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('identify_customer',payload,conn,request_id,lambda s,p:s.identify_customer(p))
+@router.post('/verify-customer',response_model=ToolResponse[VerifyCustomerOutput])
+def verify_customer_tool(payload:VerifyCustomerInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('verify_customer',payload,conn,request_id,lambda s,p:s.verify_customer(p))
+@router.post('/get-customer-profile',response_model=ToolResponse[AuthorizedProfileOutput])
+def get_customer_profile_tool(payload:GetCustomerProfileInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('get_customer_profile',payload,conn,request_id,lambda s,p:s.get_customer_profile(p))
+@router.post('/get-customer-orders',response_model=ToolResponse[GetCustomerOrdersOutput])
+def get_customer_orders_tool(payload:GetCustomerOrdersInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('get_customer_orders',payload,conn,request_id,lambda s,p:s.get_customer_orders(p))
+@router.post('/get-size-guidance',response_model=ToolResponse[SizeGuidanceOutput])
+def get_size_guidance_tool(payload:GetSizeGuidanceInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('get_size_guidance',payload,conn,request_id,lambda s,p:s.get_size_guidance(p))
+@router.post('/check-pickup-availability',response_model=ToolResponse[CheckPickupAvailabilityOutput])
+def check_pickup_availability_tool(payload:CheckPickupAvailabilityInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('check_pickup_availability',payload,conn,request_id,lambda s,p:s.check_pickup_availability(p))
+@router.post('/get-loyalty-status',response_model=ToolResponse[LoyaltyStatusOutput])
+def get_loyalty_status_tool(payload:GetLoyaltyStatusInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('get_loyalty_status',payload,conn,request_id,lambda s,p:s.get_loyalty_status(p))
+@router.post('/check-promotion',response_model=ToolResponse[CheckPromotionOutput])
+def check_promotion_tool(payload:CheckPromotionInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('check_promotion',payload,conn,request_id,lambda s,p:s.check_promotion(p))
+@router.post('/check-exchange-inventory',response_model=ToolResponse[CheckExchangeAvailabilityOutput])
+def check_exchange_inventory_tool(payload:CheckExchangeInventoryInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('check_exchange_inventory',payload,conn,request_id,lambda s,p:s.check_exchange_inventory(p))
+@router.post('/create-exchange',response_model=ToolResponse[CreateExchangeOutput])
+def create_exchange_tool(payload:CreateExchangeInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_write('create_exchange',payload,conn,request_id,lambda s,p:s.create_exchange(p))
+@router.post('/create-incident',response_model=ToolResponse[CreateIncidentOutput])
+def create_incident_tool(payload:CreateIncidentInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_write('create_incident',payload,conn,request_id,lambda s,p:s.create_incident(p))
+@router.post('/create-support-case',response_model=ToolResponse[CreateSupportCaseOutput])
+def create_support_case_tool(payload:CreateSupportCaseInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_write('create_support_case',payload,conn,request_id,lambda s,p:s.create_support_case(p))
+@router.post('/prepare-handoff',response_model=ToolResponse[HandoffPacketOutput])
+def prepare_handoff_tool(payload:PrepareHandoffInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('prepare_handoff',payload,conn,request_id,lambda s,p:s.prepare_handoff(p))
+@router.post('/send-secure-link',response_model=ToolResponse[SendSecureLinkOutput])
+def send_secure_link_tool(payload:SendSecureLinkInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('send_secure_link',payload,conn,request_id,lambda s,p:s.send_secure_link(p))
 

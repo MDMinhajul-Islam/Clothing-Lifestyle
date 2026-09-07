@@ -1,6 +1,6 @@
 {
   "gateway_version": "1.0.0",
-  "total_tools": 16,
+  "total_tools": 30,
   "tools": {
     "search_products": {
       "name": "search_products",
@@ -266,14 +266,21 @@
                 "type": "string"
               },
               "department": {
-                "title": "Department",
-                "type": "string"
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Department"
               }
             },
             "required": [
               "category_id",
-              "name",
-              "department"
+              "name"
             ],
             "title": "CategoryDetail",
             "type": "object"
@@ -285,10 +292,6 @@
                 "type": "string"
               },
               "color_name": {
-                "title": "Color Name",
-                "type": "string"
-              },
-              "hex_code": {
                 "anyOf": [
                   {
                     "type": "string"
@@ -298,9 +301,9 @@
                   }
                 ],
                 "default": null,
-                "title": "Hex Code"
+                "title": "Color Name"
               },
-              "swatch_url": {
+              "color_code": {
                 "anyOf": [
                   {
                     "type": "string"
@@ -310,12 +313,35 @@
                   }
                 ],
                 "default": null,
-                "title": "Swatch Url"
+                "title": "Color Code"
+              },
+              "color_reference": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Color Reference"
+              },
+              "color_specific_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Color Specific Url"
               }
             },
             "required": [
-              "color_id",
-              "color_name"
+              "color_id"
             ],
             "title": "ColorDetail",
             "type": "object"
@@ -326,43 +352,38 @@
                 "title": "Image Id",
                 "type": "string"
               },
-              "canonical_url": {
-                "title": "Canonical Url",
+              "image_url": {
+                "title": "Image Url",
                 "type": "string"
               },
-              "image_type": {
-                "title": "Image Type",
-                "type": "string"
-              },
-              "width": {
+              "image_role": {
                 "anyOf": [
                   {
-                    "type": "integer"
+                    "type": "string"
                   },
                   {
                     "type": "null"
                   }
                 ],
                 "default": null,
-                "title": "Width"
+                "title": "Image Role"
               },
-              "height": {
+              "alt_text": {
                 "anyOf": [
                   {
-                    "type": "integer"
+                    "type": "string"
                   },
                   {
                     "type": "null"
                   }
                 ],
                 "default": null,
-                "title": "Height"
+                "title": "Alt Text"
               }
             },
             "required": [
               "image_id",
-              "canonical_url",
-              "image_type"
+              "image_url"
             ],
             "title": "ImageDetail",
             "type": "object"
@@ -374,28 +395,54 @@
                 "type": "string"
               },
               "sku": {
-                "title": "Sku",
-                "type": "string"
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Sku"
               },
               "size_name": {
-                "title": "Size Name",
-                "type": "string"
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Size Name"
               },
               "color_name": {
-                "title": "Color Name",
-                "type": "string"
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Color Name"
               },
               "in_stock": {
+                "default": true,
                 "title": "In Stock",
                 "type": "boolean"
+              },
+              "availability_state": {
+                "default": "IN_STOCK",
+                "title": "Availability State",
+                "type": "string"
               }
             },
             "required": [
-              "variant_id",
-              "sku",
-              "size_name",
-              "color_name",
-              "in_stock"
+              "variant_id"
             ],
             "title": "VariantDetail",
             "type": "object"
@@ -497,11 +544,7 @@
           "department",
           "price",
           "currency",
-          "is_on_sale",
-          "variants",
-          "colors",
-          "images",
-          "categories"
+          "is_on_sale"
         ],
         "title": "ProductDetailsOutput",
         "type": "object"
@@ -605,9 +648,7 @@
               "department",
               "price",
               "currency",
-              "is_on_sale",
-              "colors",
-              "sizes"
+              "is_on_sale"
             ],
             "title": "ProductComparisonItem",
             "type": "object"
@@ -2963,6 +3004,1644 @@
           "results"
         ],
         "title": "RecommendationOutput",
+        "type": "object"
+      }
+    },
+    "get_size_guidance": {
+      "name": "get_size_guidance",
+      "description": "Return documented product fit and size evidence without guaranteeing fit.",
+      "category": "catalogue",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "product_id": {
+            "title": "Product Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "product_id"
+        ],
+        "title": "GetSizeGuidanceInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "product_id": {
+            "title": "Product Id",
+            "type": "string"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "documented_fit": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Documented Fit"
+          },
+          "documented_sizes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Documented Sizes",
+            "type": "array"
+          },
+          "measurements_available": {
+            "default": false,
+            "title": "Measurements Available",
+            "type": "boolean"
+          },
+          "advisory": {
+            "title": "Advisory",
+            "type": "string"
+          },
+          "evidence_origin": {
+            "const": "public_catalogue",
+            "default": "public_catalogue",
+            "title": "Evidence Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "product_id",
+          "status",
+          "advisory"
+        ],
+        "title": "SizeGuidanceOutput",
+        "type": "object"
+      }
+    },
+    "check_pickup_availability": {
+      "name": "check_pickup_availability",
+      "description": "Check synthetic demo store pickup availability for an exact product and store.",
+      "category": "inventory",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "product_id": {
+            "title": "Product Id",
+            "type": "string"
+          },
+          "store_id": {
+            "title": "Store Id",
+            "type": "string"
+          },
+          "variant_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Variant Id"
+          },
+          "size": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Size"
+          },
+          "color": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Color"
+          }
+        },
+        "required": [
+          "product_id",
+          "store_id"
+        ],
+        "title": "CheckPickupAvailabilityInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "enum": [
+              "AVAILABLE",
+              "UNAVAILABLE",
+              "UNKNOWN"
+            ],
+            "title": "Status",
+            "type": "string"
+          },
+          "quantity_available": {
+            "title": "Quantity Available",
+            "type": "integer"
+          },
+          "matching_variants": {
+            "title": "Matching Variants",
+            "type": "integer"
+          },
+          "store_id": {
+            "title": "Store Id",
+            "type": "string"
+          },
+          "product_id": {
+            "title": "Product Id",
+            "type": "string"
+          },
+          "data_origin": {
+            "const": "synthetic_operational_layer",
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "quantity_available",
+          "matching_variants",
+          "store_id",
+          "product_id"
+        ],
+        "title": "CheckPickupAvailabilityOutput",
+        "type": "object"
+      }
+    },
+    "identify_customer": {
+      "name": "identify_customer",
+      "description": "Identify a synthetic customer using an exact identifier and return masked verification guidance only.",
+      "category": "customer",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Email"
+          },
+          "phone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Phone"
+          },
+          "order_number": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Order Number"
+          }
+        },
+        "title": "IdentifyCustomerInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "found": {
+            "title": "Found",
+            "type": "boolean"
+          },
+          "customer_type": {
+            "title": "Customer Type",
+            "type": "string"
+          },
+          "masked_destination": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Masked Destination"
+          },
+          "verification_method": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Verification Method"
+          },
+          "data_origin": {
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "found",
+          "customer_type"
+        ],
+        "title": "IdentifyCustomerOutput",
+        "type": "object"
+      }
+    },
+    "verify_customer": {
+      "name": "verify_customer",
+      "description": "Verify registered or guest synthetic customer access and issue a scoped expiring token.",
+      "category": "customer",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "email": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Email"
+          },
+          "phone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Phone"
+          },
+          "order_number": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Order Number"
+          },
+          "verification_value": {
+            "maxLength": 160,
+            "minLength": 1,
+            "title": "Verification Value",
+            "type": "string"
+          }
+        },
+        "required": [
+          "verification_value"
+        ],
+        "title": "VerifyCustomerInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "AuthLevel": {
+            "enum": [
+              "PUBLIC",
+              "ORDER_VERIFIED",
+              "TRANSACTION_VERIFIED"
+            ],
+            "title": "AuthLevel",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "verified": {
+            "title": "Verified",
+            "type": "boolean"
+          },
+          "auth_level": {
+            "$ref": "#/$defs/AuthLevel"
+          },
+          "access_token": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Access Token"
+          },
+          "expires_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Expires At"
+          },
+          "customer_type": {
+            "title": "Customer Type",
+            "type": "string"
+          },
+          "data_origin": {
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "verified",
+          "auth_level",
+          "customer_type"
+        ],
+        "title": "VerifyCustomerOutput",
+        "type": "object"
+      }
+    },
+    "get_customer_profile": {
+      "name": "get_customer_profile",
+      "description": "Return a private customer profile only with transaction-verified access.",
+      "category": "customer",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "maxLength": 500,
+            "minLength": 20,
+            "title": "Access Token",
+            "type": "string"
+          }
+        },
+        "required": [
+          "access_token"
+        ],
+        "title": "GetCustomerProfileInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "AuthLevel": {
+            "enum": [
+              "PUBLIC",
+              "ORDER_VERIFIED",
+              "TRANSACTION_VERIFIED"
+            ],
+            "title": "AuthLevel",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "customer_id": {
+            "title": "Customer Id",
+            "type": "string"
+          },
+          "first_name": {
+            "title": "First Name",
+            "type": "string"
+          },
+          "last_name": {
+            "title": "Last Name",
+            "type": "string"
+          },
+          "email": {
+            "title": "Email",
+            "type": "string"
+          },
+          "phone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Phone"
+          },
+          "city": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "City"
+          },
+          "state": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "State"
+          },
+          "preferred_language": {
+            "title": "Preferred Language",
+            "type": "string"
+          },
+          "preferred_currency": {
+            "title": "Preferred Currency",
+            "type": "string"
+          },
+          "account_status": {
+            "title": "Account Status",
+            "type": "string"
+          },
+          "auth_level": {
+            "$ref": "#/$defs/AuthLevel"
+          },
+          "data_origin": {
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "customer_id",
+          "first_name",
+          "last_name",
+          "email",
+          "preferred_language",
+          "preferred_currency",
+          "account_status",
+          "auth_level"
+        ],
+        "title": "AuthorizedProfileOutput",
+        "type": "object"
+      }
+    },
+    "get_customer_orders": {
+      "name": "get_customer_orders",
+      "description": "Return authorized customer order history or one guest-verified order.",
+      "category": "order",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "maxLength": 500,
+            "minLength": 20,
+            "title": "Access Token",
+            "type": "string"
+          },
+          "limit": {
+            "default": 10,
+            "maximum": 25,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "access_token"
+        ],
+        "title": "GetCustomerOrdersInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "AuthLevel": {
+            "enum": [
+              "PUBLIC",
+              "ORDER_VERIFIED",
+              "TRANSACTION_VERIFIED"
+            ],
+            "title": "AuthLevel",
+            "type": "string"
+          },
+          "OrderHistoryItem": {
+            "additionalProperties": false,
+            "properties": {
+              "order_number": {
+                "title": "Order Number",
+                "type": "string"
+              },
+              "order_status": {
+                "title": "Order Status",
+                "type": "string"
+              },
+              "placed_at": {
+                "title": "Placed At",
+                "type": "string"
+              },
+              "grand_total": {
+                "title": "Grand Total",
+                "type": "number"
+              },
+              "currency": {
+                "title": "Currency",
+                "type": "string"
+              },
+              "items": {
+                "items": {
+                  "additionalProperties": true,
+                  "type": "object"
+                },
+                "title": "Items",
+                "type": "array"
+              }
+            },
+            "required": [
+              "order_number",
+              "order_status",
+              "placed_at",
+              "grand_total",
+              "currency",
+              "items"
+            ],
+            "title": "OrderHistoryItem",
+            "type": "object"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "auth_level": {
+            "$ref": "#/$defs/AuthLevel"
+          },
+          "total_orders": {
+            "title": "Total Orders",
+            "type": "integer"
+          },
+          "orders": {
+            "items": {
+              "$ref": "#/$defs/OrderHistoryItem"
+            },
+            "title": "Orders",
+            "type": "array"
+          },
+          "data_origin": {
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "auth_level",
+          "total_orders",
+          "orders"
+        ],
+        "title": "GetCustomerOrdersOutput",
+        "type": "object"
+      }
+    },
+    "get_loyalty_status": {
+      "name": "get_loyalty_status",
+      "description": "Return authenticated synthetic demo loyalty tier, points, and benefits.",
+      "category": "loyalty",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "maxLength": 500,
+            "minLength": 20,
+            "title": "Access Token",
+            "type": "string"
+          }
+        },
+        "required": [
+          "access_token"
+        ],
+        "title": "GetLoyaltyStatusInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "tier": {
+            "title": "Tier",
+            "type": "string"
+          },
+          "points_balance": {
+            "title": "Points Balance",
+            "type": "integer"
+          },
+          "benefits": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Benefits",
+            "type": "array"
+          },
+          "points_expire_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Points Expire At"
+          },
+          "data_origin": {
+            "const": "synthetic_operational_layer",
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          },
+          "is_demo": {
+            "const": true,
+            "default": true,
+            "title": "Is Demo",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "tier",
+          "points_balance",
+          "benefits"
+        ],
+        "title": "LoyaltyStatusOutput",
+        "type": "object"
+      }
+    },
+    "check_promotion": {
+      "name": "check_promotion",
+      "description": "Evaluate a synthetic demo promotion using deterministic backend rules.",
+      "category": "promotion",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "promotion_code": {
+            "maxLength": 80,
+            "minLength": 1,
+            "title": "Promotion Code",
+            "type": "string"
+          },
+          "cart_subtotal": {
+            "minimum": 0,
+            "title": "Cart Subtotal",
+            "type": "number"
+          },
+          "product_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Product Id"
+          }
+        },
+        "required": [
+          "promotion_code",
+          "cart_subtotal"
+        ],
+        "title": "CheckPromotionInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "eligible": {
+            "title": "Eligible",
+            "type": "boolean"
+          },
+          "status": {
+            "title": "Status",
+            "type": "string"
+          },
+          "reason_codes": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Reason Codes",
+            "type": "array"
+          },
+          "discount_type": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Discount Type"
+          },
+          "discount_value": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Discount Value"
+          },
+          "stacking_allowed": {
+            "default": false,
+            "title": "Stacking Allowed",
+            "type": "boolean"
+          },
+          "data_origin": {
+            "const": "synthetic_operational_layer",
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          },
+          "is_demo": {
+            "const": true,
+            "default": true,
+            "title": "Is Demo",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "eligible",
+          "status",
+          "reason_codes"
+        ],
+        "title": "CheckPromotionOutput",
+        "type": "object"
+      }
+    },
+    "check_exchange_inventory": {
+      "name": "check_exchange_inventory",
+      "description": "Authenticated exchange eligibility and replacement inventory check; alias of the existing exchange availability capability.",
+      "category": "returns",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "maxLength": 500,
+            "minLength": 20,
+            "title": "Access Token",
+            "type": "string"
+          },
+          "order_item_id": {
+            "title": "Order Item Id",
+            "type": "string"
+          },
+          "replacement_size": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Replacement Size"
+          },
+          "replacement_color": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Replacement Color"
+          },
+          "store_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Store Id"
+          }
+        },
+        "required": [
+          "access_token",
+          "order_item_id"
+        ],
+        "title": "CheckExchangeInventoryInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "properties": {
+          "eligible": {
+            "title": "Eligible",
+            "type": "boolean"
+          },
+          "reason": {
+            "title": "Reason",
+            "type": "string"
+          },
+          "original_item": {
+            "additionalProperties": true,
+            "title": "Original Item",
+            "type": "object"
+          },
+          "replacement_variant": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Replacement Variant"
+          },
+          "quantity_available": {
+            "default": 0,
+            "title": "Quantity Available",
+            "type": "integer"
+          },
+          "stock_status": {
+            "default": "OUT_OF_STOCK",
+            "title": "Stock Status",
+            "type": "string"
+          }
+        },
+        "required": [
+          "eligible",
+          "reason",
+          "original_item"
+        ],
+        "title": "CheckExchangeAvailabilityOutput",
+        "type": "object"
+      }
+    },
+    "create_exchange": {
+      "name": "create_exchange",
+      "description": "Create an authenticated synthetic exchange with gateway confirmation and idempotency.",
+      "category": "returns",
+      "is_write": true,
+      "requires_confirmation": true,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "maxLength": 500,
+            "minLength": 20,
+            "title": "Access Token",
+            "type": "string"
+          },
+          "order_item_id": {
+            "title": "Order Item Id",
+            "type": "string"
+          },
+          "replacement_size": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Replacement Size"
+          },
+          "replacement_color": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Replacement Color"
+          },
+          "store_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Store Id"
+          },
+          "confirmation_token": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Confirmation Token"
+          },
+          "confirmed": {
+            "default": false,
+            "title": "Confirmed",
+            "type": "boolean"
+          },
+          "idempotency_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Idempotency Key"
+          }
+        },
+        "required": [
+          "access_token",
+          "order_item_id"
+        ],
+        "title": "CreateExchangeInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "exchange_id": {
+            "title": "Exchange Id",
+            "type": "string"
+          },
+          "order_item_id": {
+            "title": "Order Item Id",
+            "type": "string"
+          },
+          "replacement_variant_id": {
+            "title": "Replacement Variant Id",
+            "type": "string"
+          },
+          "exchange_status": {
+            "title": "Exchange Status",
+            "type": "string"
+          },
+          "data_origin": {
+            "const": "synthetic_operational_layer",
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "exchange_id",
+          "order_item_id",
+          "replacement_variant_id",
+          "exchange_status"
+        ],
+        "title": "CreateExchangeOutput",
+        "type": "object"
+      }
+    },
+    "create_incident": {
+      "name": "create_incident",
+      "description": "Create a confirmed, authenticated synthetic order-item incident.",
+      "category": "support",
+      "is_write": true,
+      "requires_confirmation": true,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "maxLength": 500,
+            "minLength": 20,
+            "title": "Access Token",
+            "type": "string"
+          },
+          "order_number": {
+            "title": "Order Number",
+            "type": "string"
+          },
+          "order_item_id": {
+            "title": "Order Item Id",
+            "type": "string"
+          },
+          "issue_type": {
+            "enum": [
+              "MISSING_ITEM",
+              "WRONG_ITEM",
+              "DAMAGED_ITEM",
+              "DEFECTIVE_ITEM",
+              "DELIVERED_NOT_RECEIVED"
+            ],
+            "title": "Issue Type",
+            "type": "string"
+          },
+          "factual_summary": {
+            "maxLength": 1000,
+            "minLength": 5,
+            "title": "Factual Summary",
+            "type": "string"
+          },
+          "confirmation_token": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Confirmation Token"
+          },
+          "confirmed": {
+            "default": false,
+            "title": "Confirmed",
+            "type": "boolean"
+          },
+          "idempotency_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Idempotency Key"
+          }
+        },
+        "required": [
+          "access_token",
+          "order_number",
+          "order_item_id",
+          "issue_type",
+          "factual_summary"
+        ],
+        "title": "CreateIncidentInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "incident_id": {
+            "title": "Incident Id",
+            "type": "string"
+          },
+          "incident_status": {
+            "title": "Incident Status",
+            "type": "string"
+          },
+          "data_origin": {
+            "const": "synthetic_operational_layer",
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "incident_id",
+          "incident_status"
+        ],
+        "title": "CreateIncidentOutput",
+        "type": "object"
+      }
+    },
+    "create_support_case": {
+      "name": "create_support_case",
+      "description": "Create a confirmed, authenticated synthetic human-support case.",
+      "category": "support",
+      "is_write": true,
+      "requires_confirmation": true,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "maxLength": 500,
+            "minLength": 20,
+            "title": "Access Token",
+            "type": "string"
+          },
+          "issue_category": {
+            "maxLength": 100,
+            "minLength": 2,
+            "title": "Issue Category",
+            "type": "string"
+          },
+          "factual_summary": {
+            "maxLength": 1000,
+            "minLength": 5,
+            "title": "Factual Summary",
+            "type": "string"
+          },
+          "requested_outcome": {
+            "anyOf": [
+              {
+                "maxLength": 500,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Requested Outcome"
+          },
+          "order_number": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Order Number"
+          },
+          "product_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Product Id"
+          },
+          "verified_facts": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Verified Facts",
+            "type": "array"
+          },
+          "attempted_actions": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Attempted Actions",
+            "type": "array"
+          },
+          "tool_errors": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Tool Errors",
+            "type": "array"
+          },
+          "confirmation_token": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Confirmation Token"
+          },
+          "confirmed": {
+            "default": false,
+            "title": "Confirmed",
+            "type": "boolean"
+          },
+          "idempotency_key": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Idempotency Key"
+          }
+        },
+        "required": [
+          "access_token",
+          "issue_category",
+          "factual_summary"
+        ],
+        "title": "CreateSupportCaseInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "case_id": {
+            "title": "Case Id",
+            "type": "string"
+          },
+          "case_status": {
+            "title": "Case Status",
+            "type": "string"
+          },
+          "data_origin": {
+            "const": "synthetic_operational_layer",
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "case_id",
+          "case_status"
+        ],
+        "title": "CreateSupportCaseOutput",
+        "type": "object"
+      }
+    },
+    "prepare_handoff": {
+      "name": "prepare_handoff",
+      "description": "Prepare a least-privilege structured human handoff packet without transferring a call.",
+      "category": "support",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Access Token"
+          },
+          "intent": {
+            "title": "Intent",
+            "type": "string"
+          },
+          "order_number": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Order Number"
+          },
+          "product_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Product Id"
+          },
+          "verified_facts": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Verified Facts",
+            "type": "array"
+          },
+          "actions_attempted": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Actions Attempted",
+            "type": "array"
+          },
+          "tool_errors": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Tool Errors",
+            "type": "array"
+          },
+          "case_reference_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Case Reference Id"
+          },
+          "customer_requested_outcome": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Customer Requested Outcome"
+          },
+          "factual_summary": {
+            "maxLength": 1000,
+            "minLength": 2,
+            "title": "Factual Summary",
+            "type": "string"
+          }
+        },
+        "required": [
+          "intent",
+          "factual_summary"
+        ],
+        "title": "PrepareHandoffInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "AuthLevel": {
+            "enum": [
+              "PUBLIC",
+              "ORDER_VERIFIED",
+              "TRANSACTION_VERIFIED"
+            ],
+            "title": "AuthLevel",
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "properties": {
+          "customer_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Customer Id"
+          },
+          "auth_level": {
+            "$ref": "#/$defs/AuthLevel"
+          },
+          "intent": {
+            "title": "Intent",
+            "type": "string"
+          },
+          "order_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Order Id"
+          },
+          "product_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Product Id"
+          },
+          "verified_facts": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Verified Facts",
+            "type": "array"
+          },
+          "actions_attempted": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Actions Attempted",
+            "type": "array"
+          },
+          "tool_errors": {
+            "items": {
+              "type": "string"
+            },
+            "title": "Tool Errors",
+            "type": "array"
+          },
+          "case_reference_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Case Reference Id"
+          },
+          "customer_requested_outcome": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Customer Requested Outcome"
+          },
+          "factual_summary": {
+            "title": "Factual Summary",
+            "type": "string"
+          },
+          "recommended_route": {
+            "title": "Recommended Route",
+            "type": "string"
+          }
+        },
+        "required": [
+          "auth_level",
+          "intent",
+          "verified_facts",
+          "actions_attempted",
+          "tool_errors",
+          "factual_summary",
+          "recommended_route"
+        ],
+        "title": "HandoffPacketOutput",
+        "type": "object"
+      }
+    },
+    "send_secure_link": {
+      "name": "send_secure_link",
+      "description": "Validate consent and destination, then return a delivery-not-configured secure-link contract.",
+      "category": "support",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "access_token": {
+            "maxLength": 500,
+            "minLength": 20,
+            "title": "Access Token",
+            "type": "string"
+          },
+          "purpose": {
+            "enum": [
+              "PRODUCT",
+              "CART",
+              "CHECKOUT",
+              "RETURN",
+              "SUPPORT"
+            ],
+            "title": "Purpose",
+            "type": "string"
+          },
+          "destination": {
+            "title": "Destination",
+            "type": "string"
+          },
+          "consent_confirmed": {
+            "title": "Consent Confirmed",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "access_token",
+          "purpose",
+          "destination",
+          "consent_confirmed"
+        ],
+        "title": "SendSecureLinkInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "status": {
+            "const": "DELIVERY_NOT_CONFIGURED",
+            "title": "Status",
+            "type": "string"
+          },
+          "purpose": {
+            "enum": [
+              "PRODUCT",
+              "CART",
+              "CHECKOUT",
+              "RETURN",
+              "SUPPORT"
+            ],
+            "title": "Purpose",
+            "type": "string"
+          },
+          "handoff_url": {
+            "title": "Handoff Url",
+            "type": "string"
+          },
+          "delivery_claimed": {
+            "const": false,
+            "default": false,
+            "title": "Delivery Claimed",
+            "type": "boolean"
+          },
+          "data_origin": {
+            "const": "synthetic_operational_layer",
+            "default": "synthetic_operational_layer",
+            "title": "Data Origin",
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "purpose",
+          "handoff_url"
+        ],
+        "title": "SendSecureLinkOutput",
         "type": "object"
       }
     }

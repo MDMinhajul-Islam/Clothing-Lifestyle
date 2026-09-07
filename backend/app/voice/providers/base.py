@@ -1,0 +1,9 @@
+from typing import Any, Protocol
+
+from backend.app.voice.schemas import VoiceTurnRequest, VoiceTurnResponse
+
+
+class VoiceProviderAdapter(Protocol):
+    def verify_webhook(self, headers: dict[str, str], body: bytes) -> bool: ...
+    def normalize_event(self, event: dict[str, Any]) -> VoiceTurnRequest: ...
+    def build_response(self, response: VoiceTurnResponse) -> dict[str, Any]: ...

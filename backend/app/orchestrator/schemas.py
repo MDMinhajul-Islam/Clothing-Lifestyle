@@ -17,6 +17,9 @@ class RouteStatus(str, Enum):
 
 
 class OrchestratorContext(BaseModel):
+    customer_type: str | None = None
+    auth_level: str | None = None
+    access_token: str | None = None
     customer_id: str | None = None
     order_id: str | None = None
     order_item_id: str | None = None
@@ -27,9 +30,23 @@ class OrchestratorContext(BaseModel):
     color: str | None = None
     store_id: str | None = None
     query: str | None = None
+    email: str | None = None
+    phone: str | None = None
+    verification_value: str | None = None
+    promotion_code: str | None = None
+    cart_subtotal: float | None = None
+    destination: str | None = None
+    purpose: str | None = None
+    consent_confirmed: bool | None = None
+    issue_type: str | None = None
+    issue_category: str | None = None
+    factual_summary: str | None = None
+    requested_outcome: str | None = None
 
-    @field_validator("customer_id", "order_id", "order_item_id", "product_id",
-                     "reference_product_id", "size", "color", "store_id", "query")
+    @field_validator("customer_type", "auth_level", "access_token", "customer_id", "order_id",
+                     "order_item_id", "product_id", "reference_product_id", "size", "color",
+                     "store_id", "query", "email", "phone", "verification_value", "promotion_code",
+                     "destination", "purpose", "issue_type", "issue_category", "factual_summary", "requested_outcome")
     @classmethod
     def strip_values(cls, value):
         if isinstance(value, str):
