@@ -4,9 +4,10 @@ An enterprise-grade, omnichannel AI retail assistant platform built upon the liv
 
 ## Project Architecture & Current State
 
-- **Current Status**: Phase 2C Complete (Backend Domain Services & AI Tool Gateway API).
-- **Next Phase**: Phase 2D (Official Zara US Policy Knowledge Corpus, Supabase pgvector RAG, and Business Rules Discrepancy Audit).
-- **Test Baseline**: 83 / 83 unit and integration tests passing (`python -m unittest discover tests`).
+- **Current Status**: Phase 2D structurally complete; live embeddings pending provider configuration. Official corpus, pgvector schema/import, lexical retrieval and audits are implemented; existing business rules are unchanged.
+- **Next Step**: Configure real embeddings and validate semantic retrieval before Phase 2E orchestration.
+- **Fresh Safe Tests**: 82 passing (68 historical local + 14 RAG). The historical 83-test suite includes 15 database-writing gateway tests excluded from this run.
+- **Phase 2D Documentation**: [Architecture, commands, validation and limitations](docs/phase_2d_rag_architecture.md).
 
 ## Autonomous Agent & Developer Handoff
 
@@ -19,13 +20,12 @@ For autonomous coding agents (such as Codex) or engineers continuing development
 ## Quick Start & Verification
 
 ```bash
-# 1. Run complete regression test suite
-python -m unittest discover tests
+# 1. Run safe local regression tests (excludes live gateway writes)
+python -m scripts.zara_knowledge.run_safe_tests
 
 # 2. Start FastAPI Tool Gateway server
 uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
 
-# 3. Test Tool Gateway flows and latency benchmarks
-python scripts/supabase/test_tool_gateway_flows.py
+# 3. Validate local policy evidence without database writes
+python -m scripts.zara_knowledge.validate_knowledge
 ```
-

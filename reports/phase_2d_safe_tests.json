@@ -1,0 +1,25 @@
+{
+  "run": 82,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "excluded_live_gateway_tests": [
+    "test_tool_gateway.TestToolGatewayAPI.test_authentication_protection",
+    "test_tool_gateway.TestToolGatewayAPI.test_cancellation_confirmation_and_idempotency_flow",
+    "test_tool_gateway.TestToolGatewayAPI.test_check_cancellation_eligibility_tool",
+    "test_tool_gateway.TestToolGatewayAPI.test_check_exchange_availability",
+    "test_tool_gateway.TestToolGatewayAPI.test_check_inventory_tool",
+    "test_tool_gateway.TestToolGatewayAPI.test_compare_products_tool",
+    "test_tool_gateway.TestToolGatewayAPI.test_create_return_confirmation_and_execution",
+    "test_tool_gateway.TestToolGatewayAPI.test_find_stores_tool",
+    "test_tool_gateway.TestToolGatewayAPI.test_get_customer_tool",
+    "test_tool_gateway.TestToolGatewayAPI.test_get_order_and_tracking_tool",
+    "test_tool_gateway.TestToolGatewayAPI.test_get_product_details_tool",
+    "test_tool_gateway.TestToolGatewayAPI.test_invalid_inputs_and_bounds",
+    "test_tool_gateway.TestToolGatewayAPI.test_return_eligibility_and_refund_status",
+    "test_tool_gateway.TestToolGatewayAPI.test_search_products_tool",
+    "test_tool_gateway.TestToolGatewayAPI.test_tool_audit_logging_persistence"
+  ],
+  "historical_baseline": 83,
+  "success": true
+}

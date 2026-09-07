@@ -1,0 +1,56 @@
+[
+  {
+    "question": "What is the return window?",
+    "expected_policy_type": "returns",
+    "expected_source": "https://www.zara.com/us/en/help-center/HowToReturn",
+    "expected_section": "HOW TO RETURN"
+  },
+  {
+    "question": "Can I return an online purchase in store?",
+    "expected_policy_type": "returns",
+    "expected_source": "https://www.zara.com/us/en/help-center/HowToReturn",
+    "expected_section": "HOW TO RETURN"
+  },
+  {
+    "question": "How are refunds processed?",
+    "expected_policy_type": "refunds",
+    "expected_source": "https://www.zara.com/us/en/help-center/Refund",
+    "expected_section": "RETURN REFUND"
+  },
+  {
+    "question": "What payment methods are supported?",
+    "expected_policy_type": "payment",
+    "expected_source": "https://www.zara.com/us/en/help-center/PaymentMethods",
+    "expected_section": "PAYMENT METHODS"
+  },
+  {
+    "question": "Can an order be modified or cancelled?",
+    "expected_policy_type": "cancellation",
+    "expected_source": "https://www.zara.com/us/en/help-center/EditOrder",
+    "expected_section": "CHANGE OR CANCEL AN ONLINE ORDER"
+  },
+  {
+    "question": "Are there return exceptions?",
+    "expected_policy_type": "returns",
+    "expected_source": "https://www.zara.com/us/en/help-center/ReturnSpecialConditions",
+    "expected_section": "SPECIAL RETURN CONDITIONS"
+  },
+  {
+    "question": "How does delivery work?",
+    "expected_policy_type": "shipping",
+    "expected_source": "https://www.zara.com/us/en/help-center/DeliveryMethods",
+    "expected_section": "SHIPPING METHODS, TIMES AND PRICING"
+  },
+  {
+    "question": "Where is the measurement guide?",
+    "expected_policy_type": "sizing",
+    "expected_source": "https://www.zara.com/us/en/help-center/MySize",
+    "expected_section": "WHAT'S MY SIZE?"
+  },
+  {
+    "question": "What are the exchange conditions?",
+    "expected_policy_type": "exchanges",
+    "expected_source": "https://www.zara.com/us/en/help-center/HowToExchange",
+    "expected_section": "HOW TO MAKE AN EXCHANGE"
+  }
+]

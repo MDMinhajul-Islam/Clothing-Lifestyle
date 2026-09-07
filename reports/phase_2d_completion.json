@@ -1,0 +1,29 @@
+{
+  "status": "PHASE_2D_RAG_COMPLETE_WITH_EMBEDDINGS_PENDING",
+  "base_commit": "670d705",
+  "official_sources": 11,
+  "raw_tool_extracted_evidence": 11,
+  "normalized_documents": 11,
+  "chunks": 11,
+  "policy_facts": 15,
+  "embedding_provider": null,
+  "embedding_model": null,
+  "embedding_version": null,
+  "embedding_count": 0,
+  "migration_008": "APPLIED_AND_VERIFIED",
+  "knowledge_import": "COMMITTED_AND_READ_ONLY_PARITY_VERIFIED",
+  "retrieval": "FULL_TEXT_FALLBACK_READY; COSINE_AND_RRF_INTERFACE_IMPLEMENTED",
+  "lexical_evaluation": {"expected_source_at_5": "9/9", "negative_abstention": "3/3"},
+  "semantic_evaluation": "PENDING_REAL_EMBEDDING_CONFIGURATION",
+  "rule_audit": {"MATCH": 0, "MISMATCH": 4, "PARTIAL": 5, "UNKNOWN": 2},
+  "existing_rules_changed": false,
+  "security_reconciliation": "reports/phase_2d_security_reconciliation.md",
+  "tests": {"passed": 82, "historical_local": 68, "new_rag": 14, "excluded_live_gateway": 15},
+  "limitations": [
+    "Evidence is official-page research-tool extraction, not direct HTTP HTML; upstream freshness and effective dates remain unknown.",
+    "Whole-article chunks use documented approximate token counts and conservative lexical grounding.",
+    "Corpus covers required topics but is not exhaustive; optional legal/detail-source gaps are recorded in the manifest.",
+    "Real semantic quality validation requires embedding provider/model/dimension/version/endpoint/credentials."
+  ],
+  "next_step": "Configure and generate real embeddings, import them, and evaluate hybrid retrieval before Phase 2E."
+}

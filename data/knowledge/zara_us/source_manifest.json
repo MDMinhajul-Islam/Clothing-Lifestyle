@@ -1,0 +1,200 @@
+{
+  "sources": [
+    {
+      "source_id": "HowToReturn",
+      "policy_type": "returns",
+      "title": "How To Return",
+      "source_url": "https://www.zara.com/us/en/help-center/HowToReturn",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:01.248Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/HowToReturn/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "Refund",
+      "policy_type": "refunds",
+      "title": "Return Refund",
+      "source_url": "https://www.zara.com/us/en/help-center/Refund",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:04.167Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/Refund/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "HowToExchange",
+      "policy_type": "exchanges",
+      "title": "How To Make An Exchange",
+      "source_url": "https://www.zara.com/us/en/help-center/HowToExchange",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:05.098Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/HowToExchange/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "PaymentMethods",
+      "policy_type": "payment",
+      "title": "Payment Methods",
+      "source_url": "https://www.zara.com/us/en/help-center/PaymentMethods",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:06.177Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/PaymentMethods/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "DeliveryMethods",
+      "policy_type": "shipping",
+      "title": "Shipping Methods, Times And Pricing",
+      "source_url": "https://www.zara.com/us/en/help-center/DeliveryMethods",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:07.433Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/DeliveryMethods/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "ReturnSpecialConditions",
+      "policy_type": "returns",
+      "title": "Special Return Conditions",
+      "source_url": "https://www.zara.com/us/en/help-center/ReturnSpecialConditions",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:08.331Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/ReturnSpecialConditions/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "CareAndComposition",
+      "policy_type": "care",
+      "title": "Composition And Care",
+      "source_url": "https://www.zara.com/us/en/help-center/CareAndComposition",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:09.342Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/CareAndComposition/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "MySize",
+      "policy_type": "sizing",
+      "title": "What's My Size?",
+      "source_url": "https://www.zara.com/us/en/help-center/MySize",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:10.377Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/MySize/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "EditOrder",
+      "policy_type": "cancellation",
+      "title": "Change Or Cancel An Online Order",
+      "source_url": "https://www.zara.com/us/en/help-center/EditOrder",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:11.412Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/EditOrder/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "OrderStatus",
+      "policy_type": "orders",
+      "title": "Status Of My Online Order",
+      "source_url": "https://www.zara.com/us/en/help-center/OrderStatus",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:12.427Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/OrderStatus/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    },
+    {
+      "source_id": "FaultyItems",
+      "policy_type": "customer_service",
+      "title": "Our Item Warranty",
+      "source_url": "https://www.zara.com/us/en/help-center/FaultyItems",
+      "market": "US",
+      "locale": "en",
+      "discovered_at": "2026-09-07T04:42:13.518Z",
+      "retrieval_status": "CAPTURED_TOOL_TEXT",
+      "http_status": null,
+      "effective_date": null,
+      "captures": [
+        "data/raw/zara/help/FaultyItems/20260907-web-extract.json"
+      ],
+      "notes": "Official-page research-tool extraction; upstream freshness unverified. Direct HTTP probe on HowToReturn returned 403; no bypass attempted."
+    }
+  ],
+  "coverage_gaps": [
+    {
+      "policy_type": "legal",
+      "retrieval_status": "NOT_CAPTURED",
+      "source_url": null,
+      "notes": "Conditions-of-use link discovered on HowToReturn; legal PDF not ingested or audited."
+    },
+    {
+      "policy_type": "customer_service",
+      "retrieval_status": "PARTIAL",
+      "source_url": null,
+      "notes": "Warranty assistance covered; dedicated contact channels, fitting rooms and store-service terms not captured."
+    },
+    {
+      "policy_type": "care",
+      "retrieval_status": "PARTIAL",
+      "source_url": null,
+      "notes": "Care overview captured; linked detailed garment-care guide not captured."
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "mode": "LIVE_POSTGRES_TEXT_ONLY",
+  "semantic_evaluation": "NOT_RUN_NO_EMBEDDING_CONFIGURATION",
+  "cases": [
+    {
+      "question": "What is the return window?",
+      "expected_policy_type": "returns",
+      "expected_source": "https://www.zara.com/us/en/help-center/HowToReturn",
+      "expected_section": "HOW TO RETURN",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToReturn",
+          "section": "HOW TO RETURN",
+          "method": "text",
+          "score": 0.01639344262295082
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/Refund",
+          "section": "RETURN REFUND",
+          "method": "text",
+          "score": 0.016129032258064516
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToExchange",
+          "section": "HOW TO MAKE AN EXCHANGE",
+          "method": "text",
+          "score": 0.015625
+        }
+      ]
+    },
+    {
+      "question": "Can I return an online purchase in store?",
+      "expected_policy_type": "returns",
+      "expected_source": "https://www.zara.com/us/en/help-center/HowToReturn",
+      "expected_section": "HOW TO RETURN",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToReturn",
+          "section": "HOW TO RETURN",
+          "method": "text",
+          "score": 0.01639344262295082
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/Refund",
+          "section": "RETURN REFUND",
+          "method": "text",
+          "score": 0.016129032258064516
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToExchange",
+          "section": "HOW TO MAKE AN EXCHANGE",
+          "method": "text",
+          "score": 0.015873015873015872
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/PaymentMethods",
+          "section": "PAYMENT METHODS",
+          "method": "text",
+          "score": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "question": "How are refunds processed?",
+      "expected_policy_type": "refunds",
+      "expected_source": "https://www.zara.com/us/en/help-center/Refund",
+      "expected_section": "RETURN REFUND",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/Refund",
+          "section": "RETURN REFUND",
+          "method": "text",
+          "score": 0.01639344262295082
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToReturn",
+          "section": "HOW TO RETURN",
+          "method": "text",
+          "score": 0.016129032258064516
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/PaymentMethods",
+          "section": "PAYMENT METHODS",
+          "method": "text",
+          "score": 0.015873015873015872
+        }
+      ]
+    },
+    {
+      "question": "What payment methods are supported?",
+      "expected_policy_type": "payment",
+      "expected_source": "https://www.zara.com/us/en/help-center/PaymentMethods",
+      "expected_section": "PAYMENT METHODS",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/PaymentMethods",
+          "section": "PAYMENT METHODS",
+          "method": "text",
+          "score": 0.01639344262295082
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToExchange",
+          "section": "HOW TO MAKE AN EXCHANGE",
+          "method": "text",
+          "score": 0.015625
+        }
+      ]
+    },
+    {
+      "question": "Can an order be modified or cancelled?",
+      "expected_policy_type": "cancellation",
+      "expected_source": "https://www.zara.com/us/en/help-center/EditOrder",
+      "expected_section": "CHANGE OR CANCEL AN ONLINE ORDER",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/EditOrder",
+          "section": "CHANGE OR CANCEL AN ONLINE ORDER",
+          "method": "text",
+          "score": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "question": "Are there return exceptions?",
+      "expected_policy_type": "returns",
+      "expected_source": "https://www.zara.com/us/en/help-center/ReturnSpecialConditions",
+      "expected_section": "SPECIAL RETURN CONDITIONS",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToReturn",
+          "section": "HOW TO RETURN",
+          "method": "text",
+          "score": 0.01639344262295082
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/ReturnSpecialConditions",
+          "section": "SPECIAL RETURN CONDITIONS",
+          "method": "text",
+          "score": 0.016129032258064516
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/Refund",
+          "section": "RETURN REFUND",
+          "method": "text",
+          "score": 0.015873015873015872
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToExchange",
+          "section": "HOW TO MAKE AN EXCHANGE",
+          "method": "text",
+          "score": 0.015625
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/PaymentMethods",
+          "section": "PAYMENT METHODS",
+          "method": "text",
+          "score": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "question": "How does delivery work?",
+      "expected_policy_type": "shipping",
+      "expected_source": "https://www.zara.com/us/en/help-center/DeliveryMethods",
+      "expected_section": "SHIPPING METHODS, TIMES AND PRICING",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/DeliveryMethods",
+          "section": "SHIPPING METHODS, TIMES AND PRICING",
+          "method": "text",
+          "score": 0.01639344262295082
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToReturn",
+          "section": "HOW TO RETURN",
+          "method": "text",
+          "score": 0.016129032258064516
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/EditOrder",
+          "section": "CHANGE OR CANCEL AN ONLINE ORDER",
+          "method": "text",
+          "score": 0.015873015873015872
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/OrderStatus",
+          "section": "STATUS OF MY ONLINE ORDER",
+          "method": "text",
+          "score": 0.015625
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/Refund",
+          "section": "RETURN REFUND",
+          "method": "text",
+          "score": 0.015384615384615385
+        }
+      ]
+    },
+    {
+      "question": "Where is the measurement guide?",
+      "expected_policy_type": "sizing",
+      "expected_source": "https://www.zara.com/us/en/help-center/MySize",
+      "expected_section": "WHAT'S MY SIZE?",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/MySize",
+          "section": "WHAT'S MY SIZE?",
+          "method": "text",
+          "score": 0.01639344262295082
+        }
+      ]
+    },
+    {
+      "question": "What are the exchange conditions?",
+      "expected_policy_type": "exchanges",
+      "expected_source": "https://www.zara.com/us/en/help-center/HowToExchange",
+      "expected_section": "HOW TO MAKE AN EXCHANGE",
+      "status": "EVIDENCE_FOUND",
+      "source_correct_at_5": true,
+      "policy_type_correct": true,
+      "section_relevant": true,
+      "provenance_complete": true,
+      "retrieved": [
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToExchange",
+          "section": "HOW TO MAKE AN EXCHANGE",
+          "method": "text",
+          "score": 0.01639344262295082
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/HowToReturn",
+          "section": "HOW TO RETURN",
+          "method": "text",
+          "score": 0.015873015873015872
+        },
+        {
+          "source_url": "https://www.zara.com/us/en/help-center/Refund",
+          "section": "RETURN REFUND",
+          "method": "text",
+          "score": 0.015625
+        }
+      ]
+    }
+  ],
+  "negative_cases": [
+    {
+      "query": "lunar delivery guarantee",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "passed": true
+    },
+    {
+      "query": "cryptocurrency refund reimbursement",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "passed": true
+    },
+    {
+      "query": "employee pension contributions",
+      "status": "INSUFFICIENT_EVIDENCE",
+      "passed": true
+    }
+  ],
+  "source_correct_at_5": 9,
+  "total": 9
+}
