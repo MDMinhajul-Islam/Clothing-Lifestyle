@@ -10,6 +10,9 @@ class CapturingBackend:
     def __init__(self): self.calls=[]
     def execute(self,decision):
         self.calls.append(decision)
+        if decision.tool_name == "search_products" and decision.tool_arguments.get("max_price") != 0.01:
+            return CapabilityResult(execution_status="SUCCESS",data={"products":[{
+                "name":"Grounded black dress","price":69.9,"currency":"USD"}]})
         return CapabilityResult(execution_status="SUCCESS",data={"products":[]})
     def prepare_write(self,*args): return CapabilityResult(execution_status="REJECTED")
     def confirm_write(self,*args): return CapabilityResult(execution_status="REJECTED")
@@ -62,11 +65,20 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual(safe["access_token"],"[REDACTED]")
         self.assertEqual(safe["nested"]["email"],"[REDACTED]")
 
-    def test_product_search_zero_results_are_explained(self):
+    def test_black_dress_search_returns_grounded_products(self):
         result=self.turn("Show me black dresses")
         self.assertEqual(result.tool_name,"search_products")
-        self.assertIn("couldn’t find matching products",result.spoken_text)
+        self.assertIn("Grounded black dress",result.spoken_text)
+
+    def test_impossible_product_search_zero_results_are_explained(self):
+        result=self.turn("Show me black dresses under $0.01")
+        self.assertEqual(result.tool_name,"search_products")
+        self.assertIn("couldn't find matching products",result.spoken_text)
         self.assertIn("broaden the search",result.spoken_text)
+
+    def test_voice_text_normalizes_smart_quotes(self):
+        self.assertEqual(self.service._voice_text("I’m sorry, I couldn’t access customer’s data."),
+                         "I'm sorry, I couldn't access customer's data.")
 
     def test_pickup_wording_does_not_promise_reservation(self):
         from types import SimpleNamespace

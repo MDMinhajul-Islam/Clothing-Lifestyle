@@ -327,7 +327,8 @@ class VoiceService:
 
     @staticmethod
     def _voice_text(value):
-        text = re.sub(r"https?://\S+", "", str(value))
+        text = str(value).translate(str.maketrans({"’": "'", "‘": "'", "“": '"', "”": '"'}))
+        text = re.sub(r"https?://\S+", "", text)
         text = re.sub(r"[*_`#]+", "", text)
         text = " ".join(text.split())
         sentences = re.split(r"(?<=[.!?])\s+", text)

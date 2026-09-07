@@ -7,11 +7,11 @@ from backend.app.orchestrator.schemas import Route
 class VoiceResponseComposer:
     def general(self, text, intent):
         if intent == "SECURITY_REFUSAL":
-            return "I can’t bypass privacy controls or access another customer’s information."
+            return "I can't bypass privacy controls or access another customer's information."
         if text in {"hello", "hi", "hey", "good morning", "good afternoon"}:
-            return f"Hello, I’m the {settings.agent_name}. How can I help?"
+            return f"Hello, I'm the {settings.agent_name}. How can I help?"
         if text in {"thanks", "thank you", "thank you very much"}:
-            return "You’re welcome."
+            return "You're welcome."
         if text in {"bye", "goodbye", "see you"}:
             return "Goodbye."
         if "help" in text:
@@ -25,7 +25,7 @@ class VoiceResponseComposer:
             return "That service is not configured for local execution yet."
         if decision.route == Route.POLICY_RAG:
             if data.get("status") == "INSUFFICIENT_EVIDENCE":
-                return "I couldn’t verify that from the reference policy information available in this demo. Would you like human support to review it?"
+                return "I couldn't verify that from the reference policy information available in this demo. Would you like human support to review it?"
             evidence = data.get("evidence") or []
             if evidence:
                 answer = str(evidence[0].get("chunk_text", "")).strip()
@@ -42,7 +42,7 @@ class VoiceResponseComposer:
         if status == "SUCCESS" and decision.intent in {
             "SEARCH_PRODUCTS", "FIND_SIMILAR_PRODUCTS", "RECOMMEND_MATCHING_PRODUCTS",
         }:
-            return "I couldn’t find matching products for that. Would you like me to broaden the search or try another color?"
+            return "I couldn't find matching products for that. Would you like me to broaden the search or try another color?"
         if decision.intent == "GET_PRODUCT_DETAILS":
             name=data.get("name","This item"); details=data.get("materials_care") or data.get("description")
             return f"{name}: {details}" if details else f"I found the current details for {name}."
@@ -100,4 +100,4 @@ class VoiceResponseComposer:
             return "I prepared a support handoff using the verified context available."
         if status == "SUCCESS":
             return "The request completed successfully."
-        return "I couldn’t safely complete that request with the information available."
+        return "I couldn't safely complete that request with the information available."
