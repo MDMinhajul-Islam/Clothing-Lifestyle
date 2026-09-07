@@ -11,7 +11,10 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements-backend.txt .
-RUN pip install --no-cache-dir -r requirements-backend.txt
+RUN pip install --no-cache-dir \
+        --index-url https://download.pytorch.org/whl/cpu \
+        torch==2.14.0 \
+    && pip install --no-cache-dir -r requirements-backend.txt
 
 RUN useradd --create-home --uid 10001 nexgen \
     && mkdir -p /opt/huggingface \
