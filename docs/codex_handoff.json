@@ -1,0 +1,368 @@
+{
+  "project_name": "Zara AI Retail Assistant & Tool Gateway",
+  "handoff_version": "1.0.0",
+  "generated_at": "2026-09-07T10:25:00+06:00",
+  "current_phase": "PHASE_2C_COMPLETE",
+  "next_phase": "PHASE_2D_OFFICIAL_POLICY_RAG_AND_RULES_AUDIT",
+  "current_head": {
+    "commit_hash": "701bae1f9b5c571ab352467d165683933c06173c",
+    "short_hash": "701bae1",
+    "commit_message": "chore(backend): synchronize Phase 2C working tree and normalize file endings",
+    "branch": "main",
+    "working_tree_status": "clean",
+    "untracked_files": 0,
+    "uncommitted_changes": 0
+  },
+  "recent_key_commits": [
+    {
+      "hash": "701bae1",
+      "phase": "Phase 2C Post-Recovery",
+      "summary": "chore(backend): synchronize Phase 2C working tree and normalize file endings"
+    },
+    {
+      "hash": "8b9998e",
+      "phase": "Phase 2C",
+      "summary": "feat(backend): implement Phase 2C backend domain services and AI tool gateway"
+    },
+    {
+      "hash": "dfc8805",
+      "phase": "Phase 2B",
+      "summary": "feat(supabase): implement Phase 2B synthetic operational data layer"
+    },
+    {
+      "hash": "b4dc703",
+      "phase": "Phase 2A",
+      "summary": "feat(phase-2a): complete live Supabase catalogue import and verification"
+    },
+    {
+      "hash": "34da904",
+      "phase": "Phase 2A",
+      "summary": "feat(phase-2a): define Supabase schema, migrations, RLS policies, and bulk import pipeline with dry-run validation"
+    },
+    {
+      "hash": "510d0be",
+      "phase": "Phase 1D",
+      "summary": "feat(phase-1d): complete final catalogue audit and import readiness report"
+    },
+    {
+      "hash": "a97d679",
+      "phase": "Phase 1C",
+      "summary": "feat(phase-1c): complete large-scale catalogue enrichment with final Phase 1C report"
+    }
+  ],
+  "completed_phases": [
+    {
+      "phase_id": "1A",
+      "name": "Catalogue Discovery & Classification",
+      "status": "COMPLETED",
+      "description": "Exploration, mapping, and categorization of Zara US store taxonomy across Women, Men, and Kids departments."
+    },
+    {
+      "phase_id": "1B",
+      "name": "Catalogue Enumeration",
+      "status": "COMPLETED",
+      "description": "Full queue enumeration yielding 6,276 unique Zara US product identities and canonical URLs."
+    },
+    {
+      "phase_id": "1C",
+      "name": "Large-Scale Product Enrichment",
+      "status": "COMPLETED",
+      "final_commit": "a97d679",
+      "description": "High-throughput 4-worker Playwright pipeline (Config D) with attached JSON-LD readiness, achieving 6,017 fully enriched products."
+    },
+    {
+      "phase_id": "1D",
+      "name": "Catalogue Accounting & Audit",
+      "status": "COMPLETED",
+      "final_commit": "510d0be",
+      "description": "Exhaustive audit confirming 0 orphan variants, colors, images, or categories; certified READY_FOR_SUPABASE_IMPORT."
+    },
+    {
+      "phase_id": "2A",
+      "name": "Supabase Relational Catalogue & Live Bulk Import",
+      "status": "COMPLETED",
+      "final_commit": "b4dc703",
+      "description": "PostgreSQL schema, indexes, RLS, and idempotent bulk import pipeline into Supabase."
+    },
+    {
+      "phase_id": "2B",
+      "name": "Synthetic Operational Retail Layer",
+      "status": "COMPLETED",
+      "final_commit": "dfc8805",
+      "description": "Synthetic stores, inventory levels, customer profiles, orders, shipments, returns, refunds, and exchanges."
+    },
+    {
+      "phase_id": "2C",
+      "name": "Backend Domain Services & AI Tool Gateway",
+      "status": "COMPLETED",
+      "final_commit": "701bae1",
+      "description": "FastAPI service exposing 14 AI-callable tools with business rules, HMAC confirmation tokens, idempotency, and audit logging."
+    }
+  ],
+  "database_counts": {
+    "live_verified": true,
+    "verified_timestamp": "2026-09-07T10:23:47+06:00",
+    "catalogue_real_data": {
+      "products": 6018,
+      "categories": 745,
+      "product_variants": 38002,
+      "product_colors": 7717,
+      "product_images": 40228,
+      "product_categories": 8200,
+      "product_price_history": 6018,
+      "catalogue_sync_state": 6276
+    },
+    "synthetic_operational_data": {
+      "stores": 30,
+      "inventory_levels": 117258,
+      "customers": 2000,
+      "customer_addresses": 2500,
+      "orders": 5000,
+      "order_items": 12500,
+      "payments": 5000,
+      "shipments": 4250,
+      "shipment_events": 20250,
+      "returns": 757,
+      "return_items": 1679,
+      "refunds": 615,
+      "exchanges": 102
+    },
+    "internal_gateway_data": {
+      "tool_idempotency_keys": 18,
+      "tool_audit_log": 297
+    },
+    "notes": "Returns and return_items include 7 additional records generated during live end-to-end integration and benchmark test flows."
+  },
+  "tool_catalog": {
+    "total_tools": 14,
+    "authentication": "X-Tool-Secret HTTP header",
+    "endpoint_prefix": "/v1/tools",
+    "tools": [
+      {
+        "name": "search_products",
+        "method": "POST",
+        "endpoint": "/v1/tools/search-products",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Full-text search across Zara US catalogue with price, category, and sorting filters."
+      },
+      {
+        "name": "get_product_details",
+        "method": "POST",
+        "endpoint": "/v1/tools/get-product-details",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Retrieves comprehensive details for a product including variants, colors, and live image assets."
+      },
+      {
+        "name": "compare_products",
+        "method": "POST",
+        "endpoint": "/v1/tools/compare-products",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Compares 2 to 5 products side-by-side on price, materials, colors, and sizing."
+      },
+      {
+        "name": "check_inventory",
+        "method": "POST",
+        "endpoint": "/v1/tools/check-inventory",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Checks stock availability for product variants online and across physical retail stores."
+      },
+      {
+        "name": "find_stores",
+        "method": "POST",
+        "endpoint": "/v1/tools/find-stores",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Locates nearest retail stores by geographical coordinates or city/state."
+      },
+      {
+        "name": "get_customer",
+        "method": "POST",
+        "endpoint": "/v1/tools/get-customer",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Fetches verified customer account profile, addresses, and membership tier."
+      },
+      {
+        "name": "get_order",
+        "method": "POST",
+        "endpoint": "/v1/tools/get-order",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Retrieves full details of a specific order, including line items and monetary totals."
+      },
+      {
+        "name": "track_order",
+        "method": "POST",
+        "endpoint": "/v1/tools/track-order",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Retrieves real-time carrier tracking status and milestone history for order shipments."
+      },
+      {
+        "name": "check_cancellation_eligibility",
+        "method": "POST",
+        "endpoint": "/v1/tools/check-cancellation-eligibility",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Evaluates whether an order can be cancelled and produces a secure HMAC confirmation token."
+      },
+      {
+        "name": "cancel_order",
+        "method": "POST",
+        "endpoint": "/v1/tools/cancel-order",
+        "type": "WRITE",
+        "confirmation_required": true,
+        "idempotency_required": true,
+        "description": "Executes cancellation of an eligible order using an authenticated HMAC confirmation token."
+      },
+      {
+        "name": "check_return_eligibility",
+        "method": "POST",
+        "endpoint": "/v1/tools/check-return-eligibility",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Evaluates return eligibility per order line item and issues an HMAC confirmation token."
+      },
+      {
+        "name": "create_return",
+        "method": "POST",
+        "endpoint": "/v1/tools/create-return",
+        "type": "WRITE",
+        "confirmation_required": true,
+        "idempotency_required": true,
+        "description": "Initiates an authoritative return request using an authenticated HMAC confirmation token."
+      },
+      {
+        "name": "get_refund_status",
+        "method": "POST",
+        "endpoint": "/v1/tools/get-refund-status",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Retrieves the status, method, and breakdown of refunds associated with an order or return."
+      },
+      {
+        "name": "check_exchange_availability",
+        "method": "POST",
+        "endpoint": "/v1/tools/check-exchange-availability",
+        "type": "READ",
+        "confirmation_required": false,
+        "description": "Checks stock availability of a target replacement variant for an item being exchanged."
+      }
+    ]
+  },
+  "architecture_rules": {
+    "strict_isolation": "Dual-layer separation between Real Public Zara US Catalogue and Synthetic Operational Data. Operational records must maintain is_synthetic=true and data_origin='synthetic'. Never fabricate or alter catalogue data.",
+    "zero_direct_llm_db_access": "The LLM or voice agent must NEVER receive raw SQL access, connection strings, or unrestricted database credentials. All authoritative state interactions must proceed via the Tool Gateway.",
+    "two_phase_write_protocol": [
+      "1. READ CURRENT STATE",
+      "2. EVALUATE DETERMINISTIC BUSINESS RULES (Eligibility Check)",
+      "3. EXPLAIN STATUS AND CONDITIONS TO USER",
+      "4. SECURE USER CONFIRMATION (HMAC-SHA256 Token Generation)",
+      "5. EXECUTE IDEMPOTENT WRITE WITH TOKEN",
+      "6. VERIFY PERSISTED OUTCOME",
+      "7. WRITE TOOL AUDIT LOG"
+    ],
+    "idempotency": "Every mutating write requires a unique idempotency_key. Repeat submissions with identical payloads return cached results without re-executing transactions.",
+    "audit_logging": "Every tool execution is logged with timestamp, duration, caller request ID, payload, result status, and error codes in tool_audit_log."
+  },
+  "rag_requirements": {
+    "scope": "Phase 2D must research and ingest OFFICIAL ZARA US PUBLIC SOURCES (zara.com/us/en). Generic ecommerce templates or invented policies are strictly prohibited.",
+    "two_tier_storage": {
+      "layer_1": "Raw Evidence: Unaltered HTTP response, raw HTML, and raw text preserved with cryptographic hashes.",
+      "layer_2": "Clean RAG-Ready Knowledge: Segmented, structured markdown documents with complete provenance metadata."
+    },
+    "document_metadata_fields": [
+      "source",
+      "source_url",
+      "market",
+      "locale",
+      "retrieved_at",
+      "effective_date",
+      "policy_type",
+      "section_title",
+      "raw_text",
+      "clean_text",
+      "source_hash"
+    ],
+    "cleaning_policy": {
+      "allowed": [
+        "Strip header/footer/cookie banner boilerplate",
+        "Normalize whitespace and line endings",
+        "Structure semantic markdown headers (#, ##, ###)",
+        "Format bulleted lists and numbered procedures",
+        "Logically segment multi-topic policy documents"
+      ],
+      "prohibited": [
+        "Altering policy meaning or legal stipulations",
+        "Changing eligibility conditions, fees, or timeframes",
+        "Inventing missing rules",
+        "Paraphrasing away exact conditions"
+      ]
+    },
+    "storage_backend": "Supabase pgvector extension integrated with unified PostgreSQL database.",
+    "domain_separation": {
+      "belongs_in_rag": [
+        "Return policy conditions, windows, and fee structures",
+        "Shipping options, standard transit times, and delivery policies",
+        "Exchange procedures and in-store vs online options",
+        "Accepted payment methods and gift card rules",
+        "Product care and fabric maintenance guidelines",
+        "Size guide explanations and customer service FAQs"
+      ],
+      "belongs_in_tool_gateway": [
+        "Live product prices, discounts, and active promotions",
+        "Real-time variant and SKU inventory levels",
+        "Physical retail store locations and stock availability",
+        "Specific customer accounts, orders, line items, and tracking numbers",
+        "Order cancellation eligibility and execution",
+        "Return authorization and return item processing",
+        "Active refund transaction status and monetary calculations"
+      ]
+    },
+    "business_rule_discrepancy_audit": "Before altering deterministic backend rule constants (e.g. 30-day return window), generate a formal discrepancy audit comparing CURRENT_BACKEND_RULE against OFFICIAL_POLICY_RULE."
+  },
+  "security_rules": {
+    "credentials_protection": "Never commit .env, API keys, database URLs, or service role keys to Git. Keep .env gitignored.",
+    "secret_logging": "Do NOT print, log, or transmit secrets or credentials in standard output, audit records, or trace logs.",
+    "service_role_isolation": "Service role key is restricted strictly to trusted backend processes; never expose to client or frontend.",
+    "gateway_authentication": "All Tool Gateway endpoints enforce X-Tool-Secret validation.",
+    "rls_enforcement": "Catalogue tables permit public read via RLS; operational tables deny anonymous access and require authenticated backend execution."
+  },
+  "important_paths": {
+    "backend_root": "backend/",
+    "fastapi_app": "backend/app/main.py",
+    "tool_routes": "backend/app/api/routes_tools.py",
+    "tool_definitions": "backend/app/tools/definitions.json",
+    "tool_registry": "backend/app/tools/registry.py",
+    "business_rules": "backend/app/rules/",
+    "domain_services": "backend/app/services/",
+    "repositories": "backend/app/repositories/",
+    "schemas": "backend/app/schemas/",
+    "supabase_migrations": "supabase/migrations/",
+    "catalogue_data": "data/zara/",
+    "synthetic_data": "data/synthetic/",
+    "test_suite": "tests/",
+    "tool_gateway_tests": "tests/test_tool_gateway.py",
+    "benchmarks_report": "reports/phase_2c_benchmarks.json",
+    "architecture_doc": "docs/tool_gateway_architecture.md",
+    "planned_phase_2d_raw_evidence": "data/raw/zara/help/",
+    "planned_phase_2d_clean_corpus": "data/knowledge/zara_us/",
+    "planned_phase_2d_migration": "supabase/migrations/008_knowledge_rag_schema.sql",
+    "planned_phase_2d_scraper": "scripts/zara_knowledge/"
+  },
+  "test_baseline": {
+    "test_command": "python -m unittest discover tests",
+    "expected_result": "83 passed, 0 failed, 0 errors",
+    "runtime_approx_seconds": 12,
+    "test_suites": [
+      "tests/test_tool_gateway.py (20 gateway tests)",
+      "tests/test_synthetic_data.py (17 operational schema/data tests)",
+      "tests/test_phase1d_audit.py (25 catalogue integrity tests)",
+      "tests/test_parser.py (21 parser/extractor unit tests)"
+    ]
+  }
+}
