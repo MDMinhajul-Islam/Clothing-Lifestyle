@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Any
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import AliasChoices, BaseModel, Field, field_validator
 
 from backend.app.orchestrator.schemas import OrchestratorContext, Route
 
@@ -22,7 +22,11 @@ class CreateVoiceSessionRequest(BaseModel):
 
 class VoiceTurnRequest(BaseModel):
     session_id: str = Field(min_length=1, max_length=120)
-    transcript: str = Field(min_length=1, max_length=1000)
+    transcript: str = Field(
+        min_length=1,
+        max_length=1000,
+        validation_alias=AliasChoices("transcript", "message"),
+    )
     context: OrchestratorContext = Field(default_factory=OrchestratorContext)
 
     @field_validator("session_id", "transcript")

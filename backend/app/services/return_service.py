@@ -73,6 +73,11 @@ class ReturnService:
         request_id: str
     ) -> Tuple[bool, Optional[CreateReturnOutput], Optional[ToolError], Optional[ConfirmationPayload], bool]:
         """Execute return creation with confirmation and idempotency."""
+        if input_data.return_method is None:
+            return False, None, ToolError(
+                code=ErrorCode.VALIDATION_ERROR,
+                message="Choose STORE or DROP_OFF before creating the return. Store returns are free; drop-off returns have a $4.95 fee per request."
+            ), None, False
         # 1. Idempotency check
         req_hash = hash_request_payload(input_data.model_dump())
         if input_data.idempotency_key:
@@ -142,6 +147,10 @@ class ReturnService:
                 "name": available_info["product_name"]
             })
 
+        return_fee = Decimal("4.95") if input_data.return_method == "DROP_OFF" else Decimal("0.00")
+        net_estimated_refund = max(Decimal("0.00"), total_estimated_refund - return_fee)
+        fee_text = "after the $4.95 return fee" if return_fee else "with no return fee"
+
         # 5. Confirmation Verification
         is_token_valid = False
         if input_data.confirmation_token:
@@ -159,12 +168,15 @@ class ReturnService:
                 confirmation_token=token,
                 prompt_message=(
                     f"Please confirm: Initiating return for {total_items_qty} item(s) from order "
-                    f"'{input_data.order_number}' with an estimated refund of ${total_estimated_refund:.2f}."
+                    f"'{input_data.order_number}' by {input_data.return_method.lower().replace('_', ' ')} "
+                    f"with an estimated refund of ${net_estimated_refund:.2f} {fee_text}."
                 ),
                 summary={
                     "order_number": input_data.order_number,
                     "total_items": total_items_qty,
-                    "estimated_refund": float(total_estimated_refund),
+                    "estimated_refund": float(net_estimated_refund),
+                    "return_fee": float(return_fee),
+                    "return_method": input_data.return_method,
                     "items": validated_items
                 }
             )
@@ -179,6 +191,7 @@ class ReturnService:
             return_id=return_id,
             order_id=context["order_id"],
             return_reason=input_data.return_reason,
+            return_method=input_data.return_method,
             items=validated_items
         )
 
@@ -186,9 +199,10 @@ class ReturnService:
             return_id=return_id,
             order_number=input_data.order_number,
             return_status="REQUESTED",
-            return_method="MAIL",
+            return_method=input_data.return_method,
             total_items_returned=total_items_qty,
-            estimated_refund=float(total_estimated_refund),
+            estimated_refund=float(net_estimated_refund),
+            return_fee=float(return_fee),
             message=f"Return '{return_id}' successfully created for order '{input_data.order_number}'."
         )
 

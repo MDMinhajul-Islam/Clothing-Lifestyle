@@ -83,7 +83,7 @@ def main():
           Scenario("cancellation preflight","Cancel my order","TOOL_GATEWAY","cancel_order",common,{"CONFIRMATION_REQUIRED","ORDER_NOT_CANCELLABLE"}),
           Scenario("return eligibility","Can I return my order?","TOOL_GATEWAY","check_return_eligibility",common),
           Scenario("return preflight","Start a return","TOOL_GATEWAY","create_return",
-                   {**common,"items":[{"order_item_id":f["order_item_id"],"quantity":1}]},
+                   {**common,"items":[{"order_item_id":f["order_item_id"],"quantity":1}],"return_method":"DROP_OFF"},
                    {"CONFIRMATION_REQUIRED","RETURN_NOT_ELIGIBLE"}),
           Scenario("exchange inventory","Is the next size available for exchange?","TOOL_GATEWAY","check_exchange_inventory",common),
           Scenario("exchange preflight","Start an exchange","TOOL_GATEWAY","create_exchange",common,

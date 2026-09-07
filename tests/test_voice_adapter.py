@@ -37,7 +37,7 @@ class AdapterTests(unittest.TestCase):
         self.assertEqual(gateway.calls[0][0],"search_products")
 
     def test_preflight_preserves_generated_idempotency_key(self):
-        backend=LocalVoiceCapabilityBackend(object(),gateway=FakeGateway())
+        backend=LocalVoiceCapabilityBackend(object(),gateway=FakeGateway(),authorizer=lambda *args,**kwargs:None)
         result=backend.prepare_write("cancel_order",{"order_number":"ORD-1"})
         self.assertEqual(result.execution_status,"CONFIRMATION_REQUIRED")
         self.assertTrue(result.data["prepared_arguments"]["idempotency_key"].startswith("voice-"))

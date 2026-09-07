@@ -1,6 +1,6 @@
 """Pydantic schemas for return eligibility, create return, refund status, and exchanges."""
 
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Literal, Optional
 from pydantic import BaseModel, Field
 
 
@@ -44,6 +44,7 @@ class CreateReturnInput(BaseModel):
     order_number: str = Field(..., description="Order number")
     items: List[ReturnItemRequest] = Field(..., min_length=1, description="Items to return")
     return_reason: str = Field("Customer initiated return via AI assistant", description="High-level return reason")
+    return_method: Optional[Literal["STORE", "DROP_OFF"]] = Field(None, description="Evidence-backed return channel")
     confirmation_token: Optional[str] = Field(None, description="HMAC confirmation token from prior check")
     confirmed: bool = Field(False, description="Explicit confirmation flag")
     idempotency_key: Optional[str] = Field(None, description="Unique client key preventing duplicate return")
@@ -56,6 +57,7 @@ class CreateReturnOutput(BaseModel):
     return_method: str
     total_items_returned: int
     estimated_refund: float
+    return_fee: float = 0.0
     message: str
 
 

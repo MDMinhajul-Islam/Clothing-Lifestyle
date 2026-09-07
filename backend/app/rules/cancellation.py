@@ -16,6 +16,12 @@ class CancellationRules:
         "RETURNED": "Order has already been returned.",
         "REFUNDED": "Order has already been refunded.",
     }
+    NEXT_ACTIONS = {
+        "SHIPPED": "TRACK_ORDER_OR_RETURN_AFTER_DELIVERY",
+        "DELIVERED": "INITIATE_RETURN",
+        "RETURN_REQUESTED": "TRACK_RETURN_OR_HUMAN_SUPPORT",
+        "PARTIALLY_RETURNED": "HUMAN_SUPPORT",
+    }
 
     @classmethod
     def evaluate_cancellation_eligibility(cls, order: Dict[str, Any]) -> Tuple[bool, str, str]:
@@ -33,6 +39,5 @@ class CancellationRules:
             status,
             f"Order status '{status}' is not eligible for cancellation."
         )
-        allowed_action = "INITIATE_RETURN" if status == "DELIVERED" else "NONE"
+        allowed_action = cls.NEXT_ACTIONS.get(status, "HUMAN_SUPPORT" if status else "NONE")
         return False, reason, allowed_action
-

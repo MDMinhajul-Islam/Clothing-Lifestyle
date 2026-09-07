@@ -69,7 +69,7 @@ class TestBusinessRules(unittest.TestCase):
         # Shipped and delivered orders are NOT cancellable
         eligible, reason, act = CancellationRules.evaluate_cancellation_eligibility({"order_status": "SHIPPED"})
         self.assertFalse(eligible)
-        self.assertEqual(act, "NONE")
+        self.assertEqual(act, "TRACK_ORDER_OR_RETURN_AFTER_DELIVERY")
 
         eligible, reason, act = CancellationRules.evaluate_cancellation_eligibility({"order_status": "DELIVERED"})
         self.assertFalse(eligible)

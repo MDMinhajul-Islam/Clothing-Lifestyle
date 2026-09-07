@@ -21,7 +21,8 @@ class OrchestratorTests(unittest.TestCase):
         self.assertEqual(result.tool_arguments["order_number"], "ORD-123")
 
     def test_create_return_preserves_gateway_confirmation(self):
-        result = self.route("Start a return for order ORD-123")
+        result = self.route("Start a return for order ORD-123",
+                            access_token="verified-token", return_method="STORE")
         self.assertEqual(result.tool_name, "create_return")
         self.assertTrue(result.requires_confirmation)
         self.assertEqual(result.status, RouteStatus.NEEDS_CONTEXT)
@@ -54,7 +55,7 @@ class OrchestratorTests(unittest.TestCase):
         self.assertEqual(self.route("Hello").route, Route.GENERAL_CHAT)
 
     def test_missing_order_context(self):
-        result = self.route("Cancel my order")
+        result = self.route("Cancel my order", access_token="verified-token")
         self.assertEqual(result.status, RouteStatus.NEEDS_CONTEXT)
         self.assertEqual(result.missing_fields, ["order_id"])
 
@@ -63,9 +64,14 @@ class OrchestratorTests(unittest.TestCase):
         self.assertEqual(result.route, Route.POLICY_RAG)
 
     def test_cancel_action_requires_confirmation(self):
-        result = self.route("Cancel my order")
+        result = self.route("Cancel my order", order_id="ORD-123",
+                            access_token="verified-token")
         self.assertEqual(result.tool_name, "cancel_order")
         self.assertTrue(result.requires_confirmation)
+
+    def test_private_order_action_requires_verification(self):
+        result = self.route("Cancel order ORD-123")
+        self.assertEqual(result.missing_fields, ["access_token"])
 
 
 if __name__ == "__main__":

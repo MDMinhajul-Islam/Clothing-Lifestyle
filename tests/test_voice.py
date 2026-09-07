@@ -1,8 +1,11 @@
 import unittest
+from types import SimpleNamespace
 
 from pydantic import ValidationError
 
 from backend.app.voice.executor import VoiceCapabilityExecutor
+from backend.app.voice.composer import VoiceResponseComposer
+from backend.app.orchestrator.schemas import Route
 from backend.app.voice.providers.mock import MockVoiceProviderAdapter
 from backend.app.voice.schemas import (
     CapabilityResult, CreateVoiceSessionRequest, VoiceTurnRequest,
@@ -52,6 +55,10 @@ class VoiceTests(unittest.TestCase):
         self.backend = FakeCapabilityBackend()
         self.service = VoiceService(executor=VoiceCapabilityExecutor(self.backend))
         self.session = self.service.create_session(CreateVoiceSessionRequest()).session_id
+        state = self.service.get_session(self.session)
+        state.access_token = "verified-access-token-1234567890"
+        state.auth_level = "TRANSACTION_VERIFIED"
+        self.service.sessions.update_session(state)
 
     def turn(self, transcript, **context):
         return self.service.process_voice_turn(VoiceTurnRequest(
@@ -97,6 +104,7 @@ class VoiceTests(unittest.TestCase):
         result = self.turn("Show me products similar to this one",
                            reference_product_id="zara-us:00029400")
         self.assertEqual(result.tool_name, "find_similar_products")
+        self.assertIn("Grounded catalogue option", result.spoken_text)
 
     def test_09_outfit_matching(self):
         result = self.turn("What pants match this shirt?",
@@ -158,6 +166,61 @@ class VoiceTests(unittest.TestCase):
         response = self.service.process_voice_turn(request)
         self.assertTrue(adapter.verify_webhook({}, b""))
         self.assertEqual(adapter.build_response(response)["session_id"], self.session)
+
+    def test_voice_turn_accepts_message_as_transcript(self):
+        request = VoiceTurnRequest.model_validate({
+            "session_id": self.session, "message": "Hello",
+        })
+        self.assertEqual(request.transcript, "Hello")
+
+    def test_anonymous_cancel_requires_verification(self):
+        anonymous = self.service.create_session(CreateVoiceSessionRequest()).session_id
+        result = self.service.process_voice_turn(VoiceTurnRequest(
+            session_id=anonymous, transcript="Cancel order ORD-123"))
+        self.assertEqual(result.missing_fields, ["access_token"])
+        self.assertIn("verify", result.spoken_text.lower())
+
+    def test_return_method_can_be_answered_one_question_at_a_time(self):
+        first=self.turn("Start a return",order_id="ORD-123",
+                        items=[{"order_item_id":"ITEM-1","quantity":1}])
+        self.assertEqual(first.missing_fields,["return_method"])
+        second=self.turn("store")
+        self.assertTrue(second.requires_confirmation)
+        self.assertEqual(self.backend.calls[-1][2]["return_method"],"STORE")
+
+    def test_transcript_wins_when_message_is_also_present(self):
+        request = VoiceTurnRequest.model_validate({
+            "session_id": self.session,
+            "transcript": "Hello",
+            "message": "Goodbye",
+        })
+        self.assertEqual(request.transcript, "Hello")
+
+    def test_refund_without_record_is_explicit(self):
+        spoken=VoiceResponseComposer().compose(
+            SimpleNamespace(route=Route.TOOL_GATEWAY,intent="GET_REFUND_STATUS"),
+            {"total_refunds":0,"refunds":[]},"SUCCESS")
+        self.assertIn("No refund is currently recorded",spoken)
+
+    def test_refund_uses_newest_backend_record(self):
+        spoken=VoiceResponseComposer().compose(
+            SimpleNamespace(route=Route.TOOL_GATEWAY,intent="GET_REFUND_STATUS"),
+            {"refunds":[{"refund_status":"PROCESSING"}]},"SUCCESS")
+        self.assertIn("processing",spoken)
+        self.assertNotIn("14 days",spoken)
+
+    def test_non_cancellable_voice_offers_next_step(self):
+        spoken=VoiceResponseComposer().compose(
+            SimpleNamespace(route=Route.TOOL_GATEWAY,intent="CANCEL_ORDER"),
+            {"error":{"message":"The order has shipped."}},"ORDER_NOT_CANCELLABLE")
+        self.assertIn("track it",spoken)
+
+    def test_insufficient_policy_offers_human_support(self):
+        spoken=VoiceResponseComposer().compose(
+            SimpleNamespace(route=Route.POLICY_RAG,intent="RETRIEVE_POLICY_KNOWLEDGE"),
+            {"status":"INSUFFICIENT_EVIDENCE"},"INSUFFICIENT_EVIDENCE")
+        self.assertIn("reference policy",spoken)
+        self.assertIn("human support",spoken)
 
 
 if __name__ == "__main__":

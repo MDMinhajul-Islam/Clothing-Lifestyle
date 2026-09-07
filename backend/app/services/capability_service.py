@@ -58,6 +58,10 @@ class RetailCapabilityService:
             if auth['auth_level']=='TRANSACTION_VERIFIED' and not self.repo.order_belongs_to(auth['customer_id'],order_number): raise PermissionError('Access is restricted to the verified customer.')
         return auth
 
+    def authorize_private_access(self,access_token,*,order_number=None,order_item_id=None):
+        """Validate registered ownership or guest order scope for legacy private tools."""
+        return self._auth(access_token,order_number=order_number,order_item_id=order_item_id)
+
     def get_customer_profile(self,d):
         auth=self._auth(d.access_token,transaction=True); row=self.repo.get_profile(auth['customer_id'])
         return AuthorizedProfileOutput(**row,auth_level=auth['auth_level'])
@@ -125,7 +129,9 @@ class RetailCapabilityService:
         if cached:return True,cached,None,None,True
         check=self.exchange.check_exchange_availability(CheckExchangeAvailabilityInput(order_item_id=d.order_item_id,replacement_size=d.replacement_size,replacement_color=d.replacement_color,store_id=d.store_id))
         if not check.eligible:return False,None,ToolError(code=ErrorCode.RETURN_NOT_ELIGIBLE,message=check.reason),None,False
-        gate=self._confirm('create_exchange',d.order_item_id,d,f"Please confirm exchange for item {d.order_item_id}.",{'order_item_id':d.order_item_id,'replacement_variant':check.replacement_variant})
+        gate=self._confirm('create_exchange',d.order_item_id,d,
+            f"Please confirm exchange for item {d.order_item_id}. The reference policy requires the replaced merchandise to be returned within 14 days; this demo does not automatically enforce or charge for that deadline.",
+            {'order_item_id':d.order_item_id,'replacement_variant':check.replacement_variant,'reference_return_days':14,'automatic_charge_enforced':False})
         if gate:return gate
         item=self.repo.item_scope(d.order_item_id); exchange_id='EXC-'+uuid4().hex[:16].upper()
         self.repo.create_exchange_atomic(exchange_id,item,check.replacement_variant['variant_id'])
@@ -140,7 +146,9 @@ class RetailCapabilityService:
         auth=self._auth(d.access_token,order_number=d.order_number,order_item_id=d.order_item_id); req_hash=hash_request_payload(d.model_dump())
         cached=self._cached(d.idempotency_key,req_hash,CreateIncidentOutput)
         if cached:return True,cached,None,None,True
-        gate=self._confirm('create_incident',d.order_item_id,d,'Please confirm creation of this incident.',{'issue_type':d.issue_type,'order_number':d.order_number})
+        gate=self._confirm('create_incident',d.order_item_id,d,
+            'Please confirm that I should record this issue for human review. This does not approve a refund or replacement.',
+            {'issue_type':d.issue_type,'order_number':d.order_number})
         if gate:return gate
         item=self.repo.item_scope(d.order_item_id); incident_id='INC-'+uuid4().hex[:16].upper()
         self.repo.create_incident(incident_id,item['customer_id'],item['order_id'],d.order_item_id,d.issue_type,d.factual_summary)

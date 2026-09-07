@@ -19,6 +19,7 @@ class ReturnRepository(BaseRepository):
                     o.order_status,
                     o.placed_at,
                     o.updated_at,
+                    s.shipped_at,
                     s.delivered_at
                 FROM orders o
                 LEFT JOIN shipments s ON o.order_id = s.order_id
@@ -70,6 +71,7 @@ class ReturnRepository(BaseRepository):
         return_id: str,
         order_id: str,
         return_reason: str,
+        return_method: str,
         items: List[Dict[str, Any]]
     ) -> None:
         """Atomically insert return and return items, updating order status."""
@@ -85,9 +87,9 @@ class ReturnRepository(BaseRepository):
                     return_method,
                     requested_at,
                     is_synthetic
-                ) VALUES (%s, %s, 'REQUESTED', %s, 'MAIL', now(), true);
+                ) VALUES (%s, %s, 'REQUESTED', %s, %s, now(), true);
                 """,
-                (return_id, order_id, return_reason)
+                (return_id, order_id, return_reason, return_method)
             )
 
             # 2. Insert return items
@@ -126,4 +128,3 @@ class ReturnRepository(BaseRepository):
                 """,
                 (order_id,)
             )
-

@@ -7,7 +7,11 @@ from backend.app.orchestrator.schemas import RouteRequest
 from backend.app.orchestrator.service import OrchestratorService
 from backend.app.schemas.capabilities import *
 from backend.app.schemas.returns import CheckExchangeAvailabilityOutput
+from backend.app.schemas.returns import CreateReturnInput, ReturnItemRequest
+from backend.app.rules.cancellation import CancellationRules
+from backend.app.rules.returns import ReturnRules
 from backend.app.services.capability_service import RetailCapabilityService
+from backend.app.services.return_service import ReturnService
 from backend.app.tools.registry import TOOL_REGISTRY
 
 TOKEN='verified-access-token-1234567890'
@@ -62,6 +66,15 @@ class FakeExchange:
             original_item={'order_item_id':d.order_item_id},replacement_variant={'variant_id':'variant-2'} if self.eligible else None,
             quantity_available=2 if self.eligible else 0,stock_status='IN_STOCK' if self.eligible else 'OUT_OF_STOCK')
 
+class FakeReturnRepo:
+    def get_return_context_for_order(self,order_number):
+        return {'order_id':'order-1','order_number':order_number,'order_status':'DELIVERED',
+            'shipped_at':datetime.now(timezone.utc)-timedelta(days=2),
+            'delivered_at':datetime.now(timezone.utc)-timedelta(days=1),
+            'items':[{'order_item_id':'ITEM-1','product_name_snapshot':'Demo item',
+                'size_snapshot':'M','color_snapshot':'black','quantity':1,
+                'already_returned_quantity':0,'unit_price':50,'line_total':50}]}
+
 class CapabilityTests(unittest.TestCase):
     def setUp(self):
         self.conn=FakeConn(); self.repo=FakeRepo(); self.idem=FakeIdempotency(); self.inventory=FakeInventory(); self.exchange=FakeExchange()
@@ -102,6 +115,7 @@ class CapabilityTests(unittest.TestCase):
         result=self.service.create_exchange(CreateExchangeInput(access_token=TOKEN,order_item_id='ITEM-1')); self.assertIsNotNone(result[3]); self.assertFalse(result[0])
     def test_22_exchange_confirmation_token(self):
         first=self.service.create_exchange(CreateExchangeInput(access_token=TOKEN,order_item_id='ITEM-1'))
+        self.assertIn('14 days',first[3].prompt_message)
         second=self.service.create_exchange(CreateExchangeInput(access_token=TOKEN,order_item_id='ITEM-1',confirmed=True,confirmation_token=first[3].confirmation_token)); self.assertTrue(second[0])
     def test_23_exchange_idempotency(self):
         base=CreateExchangeInput(access_token=TOKEN,order_item_id='ITEM-1',idempotency_key='idem-ex')
@@ -109,7 +123,8 @@ class CapabilityTests(unittest.TestCase):
         first=self.service.create_exchange(CreateExchangeInput(**{**base.model_dump(),'confirmed':True,'confirmation_token':token})); second=self.service.create_exchange(base); self.assertTrue(second[4]); self.assertEqual(first[1].exchange_id,second[1].exchange_id)
     def test_24_damaged_incident_creation(self):
         base=CreateIncidentInput(access_token=TOKEN,order_number='ORD-1',order_item_id='ITEM-1',issue_type='DAMAGED_ITEM',factual_summary='Item arrived damaged')
-        token=self.service.create_incident(base)[3].confirmation_token; out=self.service.create_incident(CreateIncidentInput(**{**base.model_dump(),'confirmed':True,'confirmation_token':token})); self.assertTrue(out[0])
+        preflight=self.service.create_incident(base); self.assertIn('human review',preflight[3].prompt_message)
+        token=preflight[3].confirmation_token; out=self.service.create_incident(CreateIncidentInput(**{**base.model_dump(),'confirmed':True,'confirmation_token':token})); self.assertTrue(out[0])
     def test_25_unauthorized_incident(self):
         with self.assertRaises(PermissionError): self.service.create_incident(CreateIncidentInput(access_token='invalid-token-1234567890',order_number='ORD-1',order_item_id='ITEM-1',issue_type='DAMAGED_ITEM',factual_summary='Item arrived damaged'))
     def test_26_incident_idempotency(self):
@@ -135,5 +150,29 @@ class CapabilityTests(unittest.TestCase):
         old={'search_products','get_product_details','compare_products','check_inventory','find_stores','get_customer','get_order','track_order','check_cancellation_eligibility','cancel_order','check_return_eligibility','create_return','get_refund_status','check_exchange_availability','find_similar_products','recommend_matching_products'}; self.assertTrue(old<=set(TOOL_REGISTRY))
     def test_39_recommendation_tools_preserved(self): self.assertTrue({'find_similar_products','recommend_matching_products'}<=set(TOOL_REGISTRY))
     def test_40_existing_write_confirmation_unchanged(self): self.assertTrue(TOOL_REGISTRY['cancel_order'].requires_confirmation and TOOL_REGISTRY['create_return'].requires_confirmation)
+    def test_41_registered_token_cannot_access_another_order(self):
+        with self.assertRaises(PermissionError): self.service._auth(TOKEN,order_number='ORD-2')
+    def test_42_cancellation_next_steps_are_structured(self):
+        eligible,reason,action=CancellationRules.evaluate_cancellation_eligibility({'order_status':'SHIPPED'})
+        self.assertFalse(eligible); self.assertEqual(action,'TRACK_ORDER_OR_RETURN_AFTER_DELIVERY')
+    def test_43_return_window_uses_shipment_date(self):
+        now=datetime.now(timezone.utc)
+        item={'order_item_id':'ITEM-1','product_name_snapshot':'Demo','quantity':1,
+              'already_returned_quantity':0,'unit_price':10,'line_total':10}
+        result=ReturnRules.evaluate_order_return_eligibility(
+            {'order_status':'DELIVERED','shipped_at':now-timedelta(days=31),'delivered_at':now-timedelta(days=1)},[item],now)
+        self.assertFalse(result['eligible']); self.assertIn('shipment',result['reason'])
+    def test_44_missing_shipment_date_does_not_approve_return(self):
+        result=ReturnRules.evaluate_order_return_eligibility(
+            {'order_status':'DELIVERED','delivered_at':datetime.now(timezone.utc)},[],datetime.now(timezone.utc))
+        self.assertFalse(result['eligible']); self.assertIn('cannot be verified',result['reason'])
+    def test_45_store_and_drop_off_return_fees(self):
+        service=ReturnService(self.conn); service.return_repo=FakeReturnRepo(); service.idem_repo=self.idem
+        base={'order_number':'ORD-1','items':[ReturnItemRequest(order_item_id='ITEM-1')]}
+        store=service.create_return(CreateReturnInput(**base,return_method='STORE'),'request-store')
+        drop=service.create_return(CreateReturnInput(**base,return_method='DROP_OFF'),'request-drop')
+        self.assertEqual(store[3].summary['return_fee'],0.0)
+        self.assertEqual(drop[3].summary['return_fee'],4.95)
+        self.assertEqual(drop[3].summary['estimated_refund'],45.05)
 
 if __name__=='__main__': unittest.main()

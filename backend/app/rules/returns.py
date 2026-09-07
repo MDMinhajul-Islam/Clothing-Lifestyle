@@ -21,7 +21,7 @@ class ReturnRules:
         """Evaluate return eligibility for an order and its items.
         
         Args:
-            order: Order dict including order_status and delivered_at.
+            order: Order dict including order_status and shipped_at.
             items: List of line items with ordered quantity and previously returned quantities.
             now: Current timestamp (defaults to UTC now).
         """
@@ -38,25 +38,32 @@ class ReturnRules:
                 "items": []
             }
 
-        delivered_at = order.get("delivered_at")
-        if not delivered_at:
-            # Check placed_at or updated_at as fallback
-            delivered_at = order.get("updated_at") or order.get("placed_at")
+        shipped_at = order.get("shipped_at")
+        if not shipped_at:
+            return {
+                "eligible": False,
+                "order_status": status,
+                "reason": "Shipment date is unavailable, so return eligibility cannot be verified automatically. Human support can review this order.",
+                "deadline": None,
+                "days_remaining": 0,
+                "estimated_total_refund": 0.0,
+                "items": []
+            }
 
-        if isinstance(delivered_at, str):
-            delivered_at = datetime.fromisoformat(delivered_at.replace("Z", "+00:00"))
+        if isinstance(shipped_at, str):
+            shipped_at = datetime.fromisoformat(shipped_at.replace("Z", "+00:00"))
 
-        if delivered_at.tzinfo is None:
-            delivered_at = delivered_at.replace(tzinfo(timezone.utc))
+        if shipped_at.tzinfo is None:
+            shipped_at = shipped_at.replace(tzinfo=timezone.utc)
 
-        deadline = delivered_at + timedelta(days=cls.RETURN_WINDOW_DAYS)
+        deadline = shipped_at + timedelta(days=cls.RETURN_WINDOW_DAYS)
         days_remaining = (deadline - now).days
 
         if now > deadline:
             return {
                 "eligible": False,
                 "order_status": status,
-                "reason": f"Return window has expired ({cls.RETURN_WINDOW_DAYS} days from delivery on {delivered_at.strftime('%Y-%m-%d')}).",
+                "reason": f"Return window has expired ({cls.RETURN_WINDOW_DAYS} days from shipment on {shipped_at.strftime('%Y-%m-%d')}).",
                 "deadline": deadline.isoformat(),
                 "days_remaining": 0,
                 "items": []
@@ -101,7 +108,7 @@ class ReturnRules:
         return {
             "eligible": any_eligible,
             "order_status": status,
-            "reason": "Items eligible for return within 30-day window" if any_eligible else "No remaining returnable items",
+            "reason": "Backend state is within the 30-day shipment window; item condition, labels, market, and special restrictions must still be verified." if any_eligible else "No remaining returnable items",
             "deadline": deadline.isoformat(),
             "days_remaining": max(0, days_remaining),
             "estimated_total_refund": float(total_estimated_refund),

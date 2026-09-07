@@ -26,6 +26,7 @@ CLARIFICATIONS = {
     "category": "What kind of item would you like?",
     "order_id": "Could you give me your order number?",
     "items": "Which item or items from the order would you like to return?",
+    "return_method": "Would you prefer a free store return or a drop-off return with the $4.95 fee?",
     "reference_product_id": "Which product would you like recommendations for?",
     "order_item_id": "Which order item would you like to exchange?",
     "customer_id": "Could you provide your customer ID?",
@@ -90,6 +91,14 @@ class VoiceService:
         session.conversation_turn += 1
         text = " ".join(request.transcript.casefold().split())
 
+        if any(signal in text for signal in (
+            "ignore your rules", "bypass privacy", "another customer's", "another customer’s",
+        )):
+            decision = self.orchestrator.route(RouteRequest(message=request.transcript))
+            self.sessions.update_session(session)
+            return self._response(session, "READY", "SECURITY_REFUSED",
+                self.composer.general(text, decision.intent), decision=decision)
+
         if session.pending_confirmation:
             if text in NO:
                 tool = session.pending_tool_name
@@ -107,8 +116,7 @@ class VoiceService:
         context = self._merged_context(session, request)
         message = request.transcript
         if session.pending_tool_name and session.pending_missing_fields:
-            if not any(not context.get(field) for field in session.pending_missing_fields):
-                message = RESUME_MESSAGES.get(session.pending_tool_name, request.transcript)
+            message = RESUME_MESSAGES.get(session.pending_tool_name, request.transcript)
         elif (session.last_intent == "SEARCH_PRODUCTS" or session.category) and self._is_preference_update(text):
             message = "Show me products"
 
@@ -225,6 +233,7 @@ class VoiceService:
             "secondary_intents": list(session.secondary_intents),
             "unresolved_issue": session.unresolved_issue,
         }
+        context.update(session.pending_arguments)
         context.update(request.context.model_dump(exclude_none=True))
         order = ORDER_ID.search(request.transcript)
         product = PRODUCT_ID.search(request.transcript)
@@ -243,6 +252,10 @@ class VoiceService:
         found_category=next((item for item in CATEGORIES if item in words),None)
         if found_category: context["category"]=found_category
         if "wedding" in words: context["occasion"]="wedding"
+        if "drop off" in request.transcript.casefold() or "drop-off" in request.transcript.casefold():
+            context["return_method"]="DROP_OFF"
+        elif " ".join(request.transcript.casefold().split()) in {"store", "store return", "return in store"}:
+            context["return_method"]="STORE"
         if "order" in words and "exchange" in words:
             context["secondary_intents"]=["CHECK_EXCHANGE_INVENTORY"]
         if context.get("product_id") and not context.get("reference_product_id"):
