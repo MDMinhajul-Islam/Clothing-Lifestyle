@@ -11,13 +11,15 @@ interface FilterBarProps {
   activeVoiceFilterLabel?: string | null;
   onClearVoiceFilter?: () => void;
   availableColors?: Array<{ name: string; hex: string }>;
+  availableCategories?: string[];
+  availableDepartments?: string[];
 }
 
 const CATEGORIES = ['All Items', 'Dresses', 'Blazers & Jackets', 'Tops & Shirts', 'Pants & Jeans', 'Knitwear', 'Shoes & Bags'];
 const DEPARTMENTS = ['All', 'WOMAN', 'MAN', 'UNISEX'];
 const PRICE_PRESETS = [{ label: 'Under $50', maxPrice: 50 }, { label: 'Under $100', maxPrice: 100 }, { label: '$100–$200', minPrice: 100, maxPrice: 200 }, { label: '$200+', minPrice: 200 }];
 
-export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, onResetFilter, totalResults, totalCatalogueCount = 6018, activeVoiceFilterLabel, onClearVoiceFilter, availableColors = [] }) => {
+export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, onResetFilter, totalResults, totalCatalogueCount = 6018, activeVoiceFilterLabel, onClearVoiceFilter, availableColors = [], availableCategories = CATEGORIES.slice(1), availableDepartments = DEPARTMENTS.slice(1) }) => {
   const [expanded, setExpanded] = React.useState(false);
   const active = Boolean(filter.category || filter.department || filter.color || filter.searchQuery || filter.minPrice !== undefined || filter.maxPrice !== undefined || filter.inStockOnly);
   const update = (patch: Partial<ProductFilter>) => onChangeFilter({ ...filter, ...patch });
@@ -27,7 +29,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, on
       <div className="mx-auto max-w-[1600px] px-4 py-4 sm:px-8 lg:px-12 2xl:px-16">
         <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
           <div className="flex gap-2 overflow-x-auto pb-1">
-            {CATEGORIES.map((category) => {
+            {['All Items', ...availableCategories].map((category) => {
               const selected = category === 'All Items' ? !filter.category : filter.category === category;
               return <button key={category} onClick={() => update({ category: category === 'All Items' ? undefined : category })} className={`whitespace-nowrap border px-3.5 py-2 text-[10px] font-semibold uppercase tracking-[0.14em] ${selected ? 'border-black bg-black text-white' : 'border-neutral-200 bg-neutral-50 text-neutral-600 hover:border-black'}`}>{category}</button>;
             })}
@@ -55,7 +57,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, on
             {active && <button onClick={onResetFilter} className="underline hover:text-black">Clear all</button>}
           </div>
           <div className="flex gap-3 text-[10px] font-semibold uppercase tracking-wider text-neutral-500">
-            {DEPARTMENTS.map((department) => <button key={department} onClick={() => update({ department: department === 'All' ? undefined : department })} className={(department === 'All' ? !filter.department : filter.department === department) ? 'border-b border-black text-black' : 'hover:text-black'}>{department}</button>)}
+            {['All', ...availableDepartments].map((department) => <button key={department} onClick={() => update({ department: department === 'All' ? undefined : department })} className={(department === 'All' ? !filter.department : filter.department === department) ? 'border-b border-black text-black' : 'hover:text-black'}>{department}</button>)}
           </div>
         </div>
 

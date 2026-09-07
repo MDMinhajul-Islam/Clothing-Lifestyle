@@ -37,6 +37,10 @@ export interface Product {
   commercialReference?: string;
   provenance: 'REFERENCE_SOURCE_CDN' | 'SOURCE_CATALOGUE_CDN' | 'NEXGEN_DEMO';
   matchingProductIds?: string[];
+  videoUrl?: string;
+  modelWalkUrl?: string;
+  lookbookMedia?: string[];
+  variantMedia?: Record<string, string[]>;
 }
 
 export type SortOption = 'featured' | 'price-asc' | 'price-desc' | 'newest';
