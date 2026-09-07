@@ -78,3 +78,17 @@
 .live-pulse {
   animation: livePulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
+
+@keyframes cinematicFloat {
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -8px; }
+}
+
+.cinematic-card {
+  animation: cinematicFloat 8s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cinematic-card { animation: none; }
+}

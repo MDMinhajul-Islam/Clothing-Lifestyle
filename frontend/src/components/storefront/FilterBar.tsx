@@ -10,18 +10,16 @@ interface FilterBarProps {
   totalCatalogueCount?: number;
   activeVoiceFilterLabel?: string | null;
   onClearVoiceFilter?: () => void;
+  availableColors?: Array<{ name: string; hex: string }>;
 }
 
 const CATEGORIES = ['All Items', 'Dresses', 'Blazers & Jackets', 'Tops & Shirts', 'Pants & Jeans', 'Knitwear', 'Shoes & Bags'];
 const DEPARTMENTS = ['All', 'WOMAN', 'MAN', 'UNISEX'];
-const COLORS = [
-  ['All Colors', ''], ['Black', '#111111'], ['Ecru', '#f5f4ef'], ['Blue', '#355c7d'],
-  ['Brown', '#3d2314'], ['Charcoal', '#2d2d2d'],
-] as const;
+const PRICE_PRESETS = [{ label: 'Under $50', maxPrice: 50 }, { label: 'Under $100', maxPrice: 100 }, { label: '$100–$200', minPrice: 100, maxPrice: 200 }, { label: '$200+', minPrice: 200 }];
 
-export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, onResetFilter, totalResults, totalCatalogueCount = 6018, activeVoiceFilterLabel, onClearVoiceFilter }) => {
+export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, onResetFilter, totalResults, totalCatalogueCount = 6018, activeVoiceFilterLabel, onClearVoiceFilter, availableColors = [] }) => {
   const [expanded, setExpanded] = React.useState(false);
-  const active = Boolean(filter.category || filter.department || filter.color || filter.searchQuery || filter.maxPrice || filter.inStockOnly);
+  const active = Boolean(filter.category || filter.department || filter.color || filter.searchQuery || filter.minPrice !== undefined || filter.maxPrice !== undefined || filter.inStockOnly);
   const update = (patch: Partial<ProductFilter>) => onChangeFilter({ ...filter, ...patch });
 
   return (
@@ -62,9 +60,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, on
         </div>
 
         {expanded && (
-          <div className="mt-4 grid gap-6 border-t border-neutral-200 pt-4 md:grid-cols-3">
-            <div><span className="mb-2 block text-[10px] uppercase tracking-widest text-neutral-500">Color</span><div className="flex flex-wrap gap-2">{COLORS.map(([name, hex]) => <button key={name} onClick={() => update({ color: name === 'All Colors' ? undefined : name })} className={`flex items-center gap-1.5 border px-2.5 py-1.5 text-xs ${(!filter.color && name === 'All Colors') || filter.color === name ? 'border-black' : 'border-neutral-200'}`}>{hex && <span className="h-2.5 w-2.5 rounded-full border" style={{ backgroundColor: hex }} />}{name}</button>)}</div></div>
-            <div><span className="mb-2 block text-[10px] uppercase tracking-widest text-neutral-500">Price</span><div className="flex gap-2"><button onClick={() => update({ maxPrice: 75 })} className={`border px-3 py-1.5 text-xs ${filter.maxPrice === 75 ? 'border-black bg-black text-white' : 'border-neutral-200'}`}>Under $75</button><button onClick={() => update({ maxPrice: 150 })} className={`border px-3 py-1.5 text-xs ${filter.maxPrice === 150 ? 'border-black bg-black text-white' : 'border-neutral-200'}`}>Under $150</button></div></div>
+          <div className="mt-4 grid gap-6 border-t border-neutral-200 pt-4 lg:grid-cols-[1.3fr_1.3fr_0.7fr]">
+            <div><span className="mb-2 block text-[10px] uppercase tracking-widest text-neutral-500">Color</span><div className="flex max-h-24 flex-wrap gap-2 overflow-y-auto"><button onClick={() => update({ color: undefined })} className={`border px-2.5 py-1.5 text-xs ${!filter.color ? 'border-black bg-black text-white' : 'border-neutral-200'}`}>All colors</button>{availableColors.map(({ name, hex }) => <button key={name} onClick={() => update({ color: name })} className={`flex items-center gap-1.5 border px-2.5 py-1.5 text-xs ${filter.color === name ? 'border-black' : 'border-neutral-200'}`}><span className="h-2.5 w-2.5 rounded-full border border-black/20" style={{ backgroundColor: hex }} />{name}</button>)}</div></div>
+            <div><span className="mb-2 block text-[10px] uppercase tracking-widest text-neutral-500">Price</span><div className="flex flex-wrap gap-2">{PRICE_PRESETS.map((preset) => <button key={preset.label} onClick={() => update({ minPrice: preset.minPrice, maxPrice: preset.maxPrice })} className={`border px-2.5 py-1.5 text-xs ${filter.minPrice === preset.minPrice && filter.maxPrice === preset.maxPrice ? 'border-black bg-black text-white' : 'border-neutral-200'}`}>{preset.label}</button>)}</div><div className="mt-2 flex items-center gap-2"><label className="flex items-center border border-neutral-200 px-2 text-xs text-neutral-400">$<input type="number" min="0" value={filter.minPrice ?? ''} onChange={(event) => update({ minPrice: event.target.value ? Number(event.target.value) : undefined })} placeholder="Min" className="w-16 px-1 py-2 text-neutral-900 outline-none" /></label><span className="text-neutral-300">—</span><label className="flex items-center border border-neutral-200 px-2 text-xs text-neutral-400">$<input type="number" min="0" value={filter.maxPrice ?? ''} onChange={(event) => update({ maxPrice: event.target.value ? Number(event.target.value) : undefined })} placeholder="Max" className="w-16 px-1 py-2 text-neutral-900 outline-none" /></label></div></div>
             <label className="flex items-center gap-2 text-xs text-neutral-700"><input type="checkbox" checked={Boolean(filter.inStockOnly)} onChange={(event) => update({ inStockOnly: event.target.checked })} className="accent-black" />Available pieces only</label>
           </div>
         )}
