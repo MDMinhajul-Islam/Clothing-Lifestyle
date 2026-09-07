@@ -1,14 +1,13 @@
 # NexGen — AI Retail Voice Commerce Frontend
 
-NexGen is an editorial, modern fashion e-commerce storefront powered by a voice-first conversational AI shopping assistant. Built with **React 19**, **TypeScript**, **Vite 8**, and **Tailwind CSS v4**, the application is inspired by the minimalist elegance of luxury fashion houses and backed by a demo reference retail catalogue.
+NexGen is an editorial, modern fashion e-commerce storefront powered by a voice-first conversational AI shopping assistant. Built with **React 19**, **TypeScript**, **Vite 8**, and **Tailwind CSS v4**, the application combines high-fashion minimalism with real-time duplex voice commerce capabilities.
 
 ---
 
-## Legal & Prototype Reference Notice
+## Legal Notice
 
 > [!IMPORTANT]
-> **Prototype / Demo Dataset Notice**:
-> Product images and catalogue entries are used only as a prototype reference/demo dataset (reflecting a Zara-style reference process and public source-catalogue product images). A production client must replace them with licensed client-owned catalogue assets or approved brand feeds. NexGen is an independent voice commerce demonstration system and is not affiliated with, endorsed by, or an official service of Zara or Inditex.
+NexGen is an independent AI retail commerce system. Brand assets, catalogue data, and policies should be replaced or licensed for production deployment.
 
 ---
 
@@ -28,7 +27,7 @@ NexGen is an editorial, modern fashion e-commerce storefront powered by a voice-
                │                                     │
                ▼                                     ▼
      Web Speech Recognition               Deterministic Simulator
-     / Retell Turn Adapter                (Offline / Fallback Demo)
+     / Retell Turn Adapter                (Offline / Fallback Mode)
                │                                     │
                └──────────────────┬──────────────────┘
                                   │
@@ -48,12 +47,12 @@ NexGen is an editorial, modern fashion e-commerce storefront powered by a voice-
 ```
 
 ### Voice-First Principles
-1. **Hands-Free Call HUD**: Persistent floating voice call interface featuring an animated multi-ring waveform orb, call duration timer, and dedicated mute/end controls.
+1. **Live AI Call Experience**: Persistent voice shopping call interface featuring an animated multi-ring waveform orb, live running call timer, state progression (Connected / Caller Speaking / Stylist Thinking / Assistant Speaking), audio equalizer, and dedicated mute/end controls.
 2. **Push-to-Speak & Web Speech API**: Browser-native voice input directly captures speech and passes transcripts to the assistant engine.
 3. **Developer Text Fallback**: Text input is secondary and clearly designated as a developer testing fallback.
 4. **Retell-Ready Architecture**:
    - Designed for seamless Retell audio streaming & speech-to-text integration in future phases.
-   - The backend session currently initializes with provider `"mock"`.
+   - The backend session initializes with provider `"mock"`.
    - The voice turn request strictly follows the backend schema (`POST /v1/voice/turn` with `{ session_id, transcript, context }`), omitting the `provider` field.
 5. **Interactive Action Contracts**:
    - **Confirmation Cards**: Two-step HMAC action confirmations for sensitive operations (order cancellations, returns, account changes).
@@ -68,7 +67,7 @@ NexGen is an editorial, modern fashion e-commerce storefront powered by a voice-
 The backend service is protected by `TOOL_GATEWAY_SECRET` (`X-Tool-Secret`). In accordance with security best practices:
 - **Zero secrets in client-side code**: Browser bundles never contain administrative API keys, confirmation secrets, or database connection strings (`TOOL_GATEWAY_SECRET`, `CONFIRMATION_SECRET`, `SUPABASE_SERVICE_ROLE_KEY`, and `SUPABASE_DB_URL` are strictly excluded).
 - **Production Architecture**: In production, voice turns and private customer operations route through a trusted backend/BFF (Backend-for-Frontend) or edge serverless proxy that securely injects `X-Tool-Secret`.
-- **Stand-alone Demo Mode**: When running directly against a public endpoint without a proxy or when offline, the frontend's built-in deterministic simulator handles all voice shopping and customer service scenarios with zero downtime without faking protected server credentials.
+- **Interactive Browser Mode**: When running directly against a public endpoint without a proxy or when offline, the frontend's built-in deterministic simulator handles voice shopping and customer service scenarios with zero downtime without faking protected server credentials.
 
 ---
 
@@ -119,18 +118,18 @@ VITE_BACKEND_API_URL=http://nexgenclothing-lifestyle-nexgenbackend-t-dab46e-206-
 
 ---
 
-## Demo Scenarios to Try
+## Voice Scenarios to Try
 
-Click **"Start Voice Assistant"** or use the quick voice action prompts:
+Click **"Start Live AI Call"** or use the quick voice action prompts:
 
 | Voice Prompt | UI Action Triggered |
 | :--- | :--- |
 | **"Show me black dresses for an evening event"** | Storefront filters dynamically to evening black dresses |
-| **"Tell me more about the satin halter gown"** | Opens product slide-over drawer with reference catalogue images |
+| **"Tell me more about the satin halter gown"** | Opens product slide-over drawer with high-resolution imagery |
 | **"What matches with this?"** | Displays "Complete the Look" curated outfit pairings |
 | **"What size should I choose?"** | AI size advisor analyzes garment fit and customer profile |
 | **"Where is my order?"** | Pulls guest/member shipment status with live carrier tracking |
-| **"Can I return a damaged blazer?"** | Displays return policy reference guidance & HMAC confirmation card |
+| **"Can I return a damaged blazer?"** | Displays return assistance & HMAC confirmation card |
 | **"I want to speak with a human stylist"** | Triggers VIP Concierge escalation card with queue status |
 
 ---
@@ -146,7 +145,7 @@ frontend/
 └── src/
     ├── types/                 # Type contracts for catalog, voice, auth, and admin
     ├── lib/                   # API client, simulator, and Retell turn adapter
-    ├── data/                  # Demo product catalogue items and admin analytics
+    ├── data/                  # Curated product collection items and admin analytics
     ├── components/
     │   ├── layout/            # Navbar, Hero banner, Footer
     │   ├── storefront/        # FilterBar, ProductCard, ProductGrid, ProductDetailModal

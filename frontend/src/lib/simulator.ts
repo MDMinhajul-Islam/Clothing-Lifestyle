@@ -4,7 +4,7 @@ import type { Product } from '../types/catalog';
 
 /**
  * High-fidelity local voice turn simulator for NexGen AI Voice Commerce.
- * Operates on demo product catalogue items and policy reference/demo guidance.
+ * Operates on curated retail catalogue items and store policies.
  * Enables 100% interactive demo behavior even when the protected backend requires a server-side proxy.
  */
 export function simulateVoiceTurn(
