@@ -10,6 +10,7 @@ from backend.app.config import settings
 from backend.app.db import init_db_pool, close_db_pool
 from backend.app.api.routes_tools import router as tools_router
 from backend.app.api.routes_meta import router as meta_router
+from backend.app.api.routes_orchestrator import router as orchestrator_router
 
 logging.basicConfig(
     level=logging.INFO,
@@ -49,6 +50,7 @@ app.add_middleware(
 # Mount Routers
 app.include_router(meta_router)
 app.include_router(tools_router)
+app.include_router(orchestrator_router)
 
 
 @app.get("/")
@@ -61,4 +63,3 @@ def root_index():
         "health": "/health",
         "tool_definitions": "/v1/tools/definitions"
     }
-
