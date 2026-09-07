@@ -1,6 +1,6 @@
 {
   "gateway_version": "1.0.0",
-  "total_tools": 14,
+  "total_tools": 16,
   "tools": {
     "search_products": {
       "name": "search_products",
@@ -2405,6 +2405,564 @@
           "original_item"
         ],
         "title": "CheckExchangeAvailabilityOutput",
+        "type": "object"
+      }
+    },
+    "find_similar_products": {
+      "name": "find_similar_products",
+      "description": "Find active products semantically similar to a catalogue product, with catalogue filters and synthetic inventory verification.",
+      "category": "recommendation",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "target_category": {
+            "anyOf": [
+              {
+                "maxLength": 120,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Target Category"
+          },
+          "department": {
+            "anyOf": [
+              {
+                "maxLength": 40,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Department"
+          },
+          "min_price": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Min Price"
+          },
+          "max_price": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Max Price"
+          },
+          "size": {
+            "anyOf": [
+              {
+                "maxLength": 40,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Size"
+          },
+          "color": {
+            "anyOf": [
+              {
+                "maxLength": 80,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Color"
+          },
+          "limit": {
+            "default": 8,
+            "maximum": 20,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          },
+          "reference_product_id": {
+            "pattern": "^zara-us:\\d{8}$",
+            "title": "Reference Product Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "reference_product_id"
+        ],
+        "title": "FindSimilarProductsInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "RecommendationItem": {
+            "properties": {
+              "product_id": {
+                "pattern": "^zara-us:\\d{8}$",
+                "title": "Product Id",
+                "type": "string"
+              },
+              "name": {
+                "title": "Name",
+                "type": "string"
+              },
+              "department": {
+                "title": "Department",
+                "type": "string"
+              },
+              "price": {
+                "title": "Price",
+                "type": "number"
+              },
+              "currency": {
+                "title": "Currency",
+                "type": "string"
+              },
+              "categories": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Categories",
+                "type": "array"
+              },
+              "colors": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Colors",
+                "type": "array"
+              },
+              "sizes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Sizes",
+                "type": "array"
+              },
+              "is_on_sale": {
+                "title": "Is On Sale",
+                "type": "boolean"
+              },
+              "primary_image_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Primary Image Url"
+              },
+              "semantic_score": {
+                "maximum": 1,
+                "minimum": -1,
+                "title": "Semantic Score",
+                "type": "number"
+              },
+              "recommendation_score": {
+                "maximum": 1,
+                "minimum": 0,
+                "title": "Recommendation Score",
+                "type": "number"
+              },
+              "availability_verified": {
+                "title": "Availability Verified",
+                "type": "boolean"
+              },
+              "availability_status": {
+                "title": "Availability Status",
+                "type": "string"
+              },
+              "availability_origin": {
+                "const": "synthetic_operational_layer",
+                "title": "Availability Origin",
+                "type": "string"
+              },
+              "reason_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Reason Codes",
+                "type": "array"
+              }
+            },
+            "required": [
+              "product_id",
+              "name",
+              "department",
+              "price",
+              "currency",
+              "categories",
+              "colors",
+              "sizes",
+              "is_on_sale",
+              "semantic_score",
+              "recommendation_score",
+              "availability_verified",
+              "availability_status",
+              "availability_origin",
+              "reason_codes"
+            ],
+            "title": "RecommendationItem",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "reference_product_id": {
+            "anyOf": [
+              {
+                "pattern": "^zara-us:\\d{8}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Reference Product Id"
+          },
+          "total_results": {
+            "title": "Total Results",
+            "type": "integer"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/$defs/RecommendationItem"
+            },
+            "title": "Results",
+            "type": "array"
+          },
+          "embedding_provider": {
+            "const": "local_sentence_transformers",
+            "default": "local_sentence_transformers",
+            "title": "Embedding Provider",
+            "type": "string"
+          },
+          "embedding_model": {
+            "const": "sentence-transformers/all-MiniLM-L6-v2",
+            "default": "sentence-transformers/all-MiniLM-L6-v2",
+            "title": "Embedding Model",
+            "type": "string"
+          },
+          "embedding_version": {
+            "const": "v1",
+            "default": "v1",
+            "title": "Embedding Version",
+            "type": "string"
+          },
+          "availability_is_synthetic": {
+            "const": true,
+            "default": true,
+            "title": "Availability Is Synthetic",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "total_results",
+          "results"
+        ],
+        "title": "RecommendationOutput",
+        "type": "object"
+      }
+    },
+    "recommend_matching_products": {
+      "name": "recommend_matching_products",
+      "description": "Recommend active outfit candidates for a product using semantic similarity, a requested category, catalogue filters, and synthetic inventory verification.",
+      "category": "recommendation",
+      "is_write": false,
+      "requires_confirmation": false,
+      "input_schema": {
+        "properties": {
+          "target_category": {
+            "anyOf": [
+              {
+                "maxLength": 120,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Target Category"
+          },
+          "department": {
+            "anyOf": [
+              {
+                "maxLength": 40,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Department"
+          },
+          "min_price": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Min Price"
+          },
+          "max_price": {
+            "anyOf": [
+              {
+                "minimum": 0,
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Max Price"
+          },
+          "size": {
+            "anyOf": [
+              {
+                "maxLength": 40,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Size"
+          },
+          "color": {
+            "anyOf": [
+              {
+                "maxLength": 80,
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Color"
+          },
+          "limit": {
+            "default": 8,
+            "maximum": 20,
+            "minimum": 1,
+            "title": "Limit",
+            "type": "integer"
+          },
+          "reference_product_id": {
+            "pattern": "^zara-us:\\d{8}$",
+            "title": "Reference Product Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "reference_product_id"
+        ],
+        "title": "RecommendMatchingProductsInput",
+        "type": "object"
+      },
+      "output_schema": {
+        "$defs": {
+          "RecommendationItem": {
+            "properties": {
+              "product_id": {
+                "pattern": "^zara-us:\\d{8}$",
+                "title": "Product Id",
+                "type": "string"
+              },
+              "name": {
+                "title": "Name",
+                "type": "string"
+              },
+              "department": {
+                "title": "Department",
+                "type": "string"
+              },
+              "price": {
+                "title": "Price",
+                "type": "number"
+              },
+              "currency": {
+                "title": "Currency",
+                "type": "string"
+              },
+              "categories": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Categories",
+                "type": "array"
+              },
+              "colors": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Colors",
+                "type": "array"
+              },
+              "sizes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Sizes",
+                "type": "array"
+              },
+              "is_on_sale": {
+                "title": "Is On Sale",
+                "type": "boolean"
+              },
+              "primary_image_url": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ],
+                "default": null,
+                "title": "Primary Image Url"
+              },
+              "semantic_score": {
+                "maximum": 1,
+                "minimum": -1,
+                "title": "Semantic Score",
+                "type": "number"
+              },
+              "recommendation_score": {
+                "maximum": 1,
+                "minimum": 0,
+                "title": "Recommendation Score",
+                "type": "number"
+              },
+              "availability_verified": {
+                "title": "Availability Verified",
+                "type": "boolean"
+              },
+              "availability_status": {
+                "title": "Availability Status",
+                "type": "string"
+              },
+              "availability_origin": {
+                "const": "synthetic_operational_layer",
+                "title": "Availability Origin",
+                "type": "string"
+              },
+              "reason_codes": {
+                "items": {
+                  "type": "string"
+                },
+                "title": "Reason Codes",
+                "type": "array"
+              }
+            },
+            "required": [
+              "product_id",
+              "name",
+              "department",
+              "price",
+              "currency",
+              "categories",
+              "colors",
+              "sizes",
+              "is_on_sale",
+              "semantic_score",
+              "recommendation_score",
+              "availability_verified",
+              "availability_status",
+              "availability_origin",
+              "reason_codes"
+            ],
+            "title": "RecommendationItem",
+            "type": "object"
+          }
+        },
+        "properties": {
+          "reference_product_id": {
+            "anyOf": [
+              {
+                "pattern": "^zara-us:\\d{8}$",
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Reference Product Id"
+          },
+          "total_results": {
+            "title": "Total Results",
+            "type": "integer"
+          },
+          "results": {
+            "items": {
+              "$ref": "#/$defs/RecommendationItem"
+            },
+            "title": "Results",
+            "type": "array"
+          },
+          "embedding_provider": {
+            "const": "local_sentence_transformers",
+            "default": "local_sentence_transformers",
+            "title": "Embedding Provider",
+            "type": "string"
+          },
+          "embedding_model": {
+            "const": "sentence-transformers/all-MiniLM-L6-v2",
+            "default": "sentence-transformers/all-MiniLM-L6-v2",
+            "title": "Embedding Model",
+            "type": "string"
+          },
+          "embedding_version": {
+            "const": "v1",
+            "default": "v1",
+            "title": "Embedding Version",
+            "type": "string"
+          },
+          "availability_is_synthetic": {
+            "const": true,
+            "default": true,
+            "title": "Availability Is Synthetic",
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "total_results",
+          "results"
+        ],
+        "title": "RecommendationOutput",
         "type": "object"
       }
     }

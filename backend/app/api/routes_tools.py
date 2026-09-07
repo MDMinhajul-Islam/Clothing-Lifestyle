@@ -60,6 +60,12 @@ from backend.app.services.shipment_service import ShipmentService
 from backend.app.services.return_service import ReturnService
 from backend.app.services.refund_service import RefundService
 from backend.app.services.exchange_service import ExchangeService
+from backend.app.recommendation.schemas import (
+    FindSimilarProductsInput,
+    RecommendMatchingProductsInput,
+    RecommendationOutput,
+)
+from backend.app.recommendation.service import RecommendationService
 
 router = APIRouter(
     prefix="/v1/tools",
@@ -548,4 +554,46 @@ def check_exchange_availability_tool(
             error=ToolError(code=ErrorCode.INTERNAL_ERROR, message=str(e)),
             meta=ResponseMeta(tool_name="check_exchange_availability", request_id=request_id, duration_ms=dur)
         )
+
+
+# ---------------------------------------------------------------------------
+# 7. READ-ONLY PRODUCT RECOMMENDATION TOOLS
+# ---------------------------------------------------------------------------
+
+def _recommendation_response(tool_name, payload, conn, request_id, operation):
+    t0 = time.time()
+    try:
+        data = operation(RecommendationService(conn), payload)
+        duration = int((time.time() - t0) * 1000)
+        log_tool_audit(conn, tool_name, request_id, payload.model_dump(), "SUCCESS", duration)
+        return ToolResponse(success=True, data=data,
+            meta=ResponseMeta(tool_name=tool_name, request_id=request_id, duration_ms=duration))
+    except ValueError as exc:
+        duration = int((time.time() - t0) * 1000)
+        log_tool_audit(conn, tool_name, request_id, payload.model_dump(), "ERROR", duration,
+                       error_code=ErrorCode.PRODUCT_NOT_FOUND)
+        return ToolResponse(success=False,
+            error=ToolError(code=ErrorCode.PRODUCT_NOT_FOUND, message=str(exc)),
+            meta=ResponseMeta(tool_name=tool_name, request_id=request_id, duration_ms=duration))
+    except Exception:
+        duration = int((time.time() - t0) * 1000)
+        log_tool_audit(conn, tool_name, request_id, payload.model_dump(), "ERROR", duration,
+                       error_code=ErrorCode.INTERNAL_ERROR)
+        return ToolResponse(success=False,
+            error=ToolError(code=ErrorCode.INTERNAL_ERROR, message="Recommendation retrieval failed."),
+            meta=ResponseMeta(tool_name=tool_name, request_id=request_id, duration_ms=duration))
+
+@router.post("/find-similar-products", response_model=ToolResponse[RecommendationOutput])
+def find_similar_products_tool(payload: FindSimilarProductsInput,
+        conn: psycopg2.extensions.connection = Depends(get_db),
+        request_id: str = Depends(_get_request_id)):
+    return _recommendation_response("find_similar_products", payload, conn, request_id,
+        lambda service, request: service.find_similar_products(request))
+
+@router.post("/recommend-matching-products", response_model=ToolResponse[RecommendationOutput])
+def recommend_matching_products_tool(payload: RecommendMatchingProductsInput,
+        conn: psycopg2.extensions.connection = Depends(get_db),
+        request_id: str = Depends(_get_request_id)):
+    return _recommendation_response("recommend_matching_products", payload, conn, request_id,
+        lambda service, request: service.recommend_matching_products(request))
 

@@ -43,6 +43,11 @@ from backend.app.schemas.returns import (
     CheckExchangeAvailabilityInput,
     CheckExchangeAvailabilityOutput,
 )
+from backend.app.recommendation.schemas import (
+    FindSimilarProductsInput,
+    RecommendMatchingProductsInput,
+    RecommendationOutput,
+)
 
 
 @dataclass
@@ -194,6 +199,24 @@ TOOL_REGISTRY: Dict[str, ToolDefinition] = {
         requires_confirmation=False,
         category="returns",
     ),
+    "find_similar_products": ToolDefinition(
+        name="find_similar_products",
+        description="Find active products semantically similar to a catalogue product, with catalogue filters and synthetic inventory verification.",
+        input_model=FindSimilarProductsInput,
+        output_model=RecommendationOutput,
+        is_write=False,
+        requires_confirmation=False,
+        category="recommendation",
+    ),
+    "recommend_matching_products": ToolDefinition(
+        name="recommend_matching_products",
+        description="Recommend active outfit candidates for a product using semantic similarity, a requested category, catalogue filters, and synthetic inventory verification.",
+        input_model=RecommendMatchingProductsInput,
+        output_model=RecommendationOutput,
+        is_write=False,
+        requires_confirmation=False,
+        category="recommendation",
+    ),
 }
 
 
@@ -204,4 +227,3 @@ def export_tool_definitions() -> Dict[str, Any]:
         "total_tools": len(TOOL_REGISTRY),
         "tools": {name: tool.to_dict() for name, tool in TOOL_REGISTRY.items()}
     }
-
