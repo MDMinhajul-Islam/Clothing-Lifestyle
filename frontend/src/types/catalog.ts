@@ -10,6 +10,10 @@ export interface ProductVariant {
   sku: string;
   inStock: boolean;
   stockQuantity?: number;
+  color?: string;
+  image?: string;
+  price?: number;
+  availabilityState?: string;
 }
 
 export interface Product {
@@ -41,6 +45,7 @@ export interface Product {
   modelWalkUrl?: string;
   lookbookMedia?: string[];
   variantMedia?: Record<string, string[]>;
+  matchedVariant?: ProductVariant;
 }
 
 export type SortOption = 'featured' | 'price-asc' | 'price-desc' | 'newest';

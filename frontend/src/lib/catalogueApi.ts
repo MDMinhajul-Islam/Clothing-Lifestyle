@@ -2,7 +2,8 @@ import type { Product, ProductFilter } from '../types/catalog';
 
 const API_URL = (import.meta.env.VITE_BACKEND_API_URL || 'http://localhost:8000').replace(/\/$/, '');
 
-interface ApiProduct { product_id: string; name: string; department: string; category?: string | null; description?: string | null; price: number; original_price?: number | null; currency: string; colors: string[]; sizes: string[]; image_urls: string[]; available: boolean; is_on_sale: boolean; hero_video_url?: string | null; hero_media_url?: string | null; model_walk_url?: string | null; lookbook_media?: string[] | null }
+interface ApiMatchedVariant { variant_id: string; sku?: string | null; color?: string | null; size?: string | null; availability_state: string; in_stock: boolean; image_url?: string | null; price?: number | null }
+interface ApiProduct { product_id: string; name: string; department: string; category?: string | null; description?: string | null; price: number; original_price?: number | null; currency: string; colors: string[]; sizes: string[]; image_urls: string[]; available: boolean; is_on_sale: boolean; matched_variant?: ApiMatchedVariant | null; hero_video_url?: string | null; hero_media_url?: string | null; model_walk_url?: string | null; lookbook_media?: string[] | null }
 interface ApiList { items: ApiProduct[]; total: number; limit: number; offset: number; has_more: boolean }
 export interface CatalogueFacets { departments: string[]; categories: string[]; colors: string[]; price_min: number; price_max: number; total_products: number }
 
@@ -15,16 +16,35 @@ const colorHex = (name: string) => {
 };
 
 export const toProduct = (item: ApiProduct): Product => {
-  const images = Array.from(new Set((item.image_urls || []).filter(Boolean)));
+  const matched = item.matched_variant;
+  const images = Array.from(new Set([matched?.image_url, ...(item.image_urls || [])].filter((value): value is string => Boolean(value))));
+  const colorNames = Array.from(new Set([matched?.color, ...(item.colors || [])].filter((value): value is string => Boolean(value))));
+  const matchedVariant = matched ? { id: matched.variant_id, sku: matched.sku || 'Information unavailable',
+    size: matched.size || 'Information unavailable', color: matched.color || undefined,
+    inStock: matched.in_stock, availabilityState: matched.availability_state,
+    image: matched.image_url || undefined, price: matched.price == null ? undefined : Number(matched.price) } : undefined;
   return {
-  id: item.product_id, name: item.name || 'Information unavailable', price: Number(item.price) || 0, originalPrice: item.original_price,
+  id: item.product_id, name: item.name || 'Information unavailable', price: matchedVariant?.price ?? (Number(item.price) || 0), originalPrice: item.original_price,
   currency: item.currency || 'USD', department: item.department || 'Collection', category: item.category || 'Information unavailable',
   description: item.description?.trim() || 'Information unavailable', longDescription: item.description?.trim() || 'Information unavailable', image: images[0] || '', gallery: images,
-  colors: (item.colors || []).filter(Boolean).map((name) => ({ name, hex: colorHex(name) })), sizes: (item.sizes || []).filter(Boolean),
-  inStock: item.available, isSale: item.is_on_sale, provenance: 'SOURCE_CATALOGUE_CDN',
+  colors: colorNames.map((name) => ({ name, hex: colorHex(name) })), sizes: (item.sizes || []).filter(Boolean),
+  variants: matchedVariant ? [matchedVariant] : undefined, matchedVariant,
+  inStock: matchedVariant?.inStock ?? item.available, isSale: item.is_on_sale, provenance: 'SOURCE_CATALOGUE_CDN',
   videoUrl: item.hero_video_url || undefined, modelWalkUrl: item.model_walk_url || undefined,
   lookbookMedia: item.lookbook_media || (item.hero_media_url ? [item.hero_media_url] : undefined),
   };
+};
+
+export const preserveMatchedVariant = (details: Product, result: Product): Product => {
+  if (!result.matchedVariant) return details;
+  const matched = result.matchedVariant;
+  const colors = matched.color
+    ? [details.colors.find((color) => color.name === matched.color) || { name: matched.color, hex: colorHex(matched.color) },
+       ...details.colors.filter((color) => color.name !== matched.color)]
+    : details.colors;
+  const gallery = Array.from(new Set([matched.image, ...details.gallery].filter((value): value is string => Boolean(value))));
+  return { ...details, matchedVariant: matched, variants: [matched, ...(details.variants || []).filter((item) => item.id !== matched.id)],
+    colors, gallery, image: matched.image || details.image, price: matched.price ?? details.price, inStock: matched.inStock };
 };
 
 export async function fetchCatalogueProducts(filter: ProductFilter, limit = 24, offset = 0, signal?: AbortSignal) {

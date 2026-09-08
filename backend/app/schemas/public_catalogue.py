@@ -4,6 +4,17 @@ from typing import List, Optional
 from pydantic import BaseModel, Field
 
 
+class PublicMatchedVariant(BaseModel):
+    variant_id: str
+    sku: Optional[str] = None
+    color: Optional[str] = None
+    size: Optional[str] = None
+    availability_state: str
+    in_stock: bool
+    image_url: Optional[str] = None
+    price: Optional[float] = None
+
+
 class PublicProduct(BaseModel):
     product_id: str
     name: str
@@ -19,6 +30,7 @@ class PublicProduct(BaseModel):
     available: bool
     is_on_sale: bool = False
     source: str = "catalogue"
+    matched_variant: Optional[PublicMatchedVariant] = None
 
 
 class PublicProductList(BaseModel):

@@ -8,12 +8,29 @@ class SearchProductsInput(BaseModel):
     query: Optional[str] = Field(None, description="Free-text search query (e.g. 'linen shirt', 'black dress')")
     department: Optional[str] = Field(None, description="Department filter: WOMAN, MAN, or KIDS")
     category_id: Optional[str] = Field(None, description="Source-catalogue category identifier")
+    category: Optional[str] = Field(None, description="Human-readable catalogue category")
+    product_type: Optional[str] = Field(None, description="Product type such as dress, shirt, jeans, blazer, or shoes")
+    gender: Optional[str] = Field(None, description="Customer department: women, men, or kids")
+    material: Optional[str] = Field(None, description="Material or fabric filter")
+    brand: Optional[str] = Field(None, description="Brand filter")
+    occasion: Optional[str] = Field(None, description="Shopping occasion such as wedding, office, party, or vacation")
     min_price: Optional[float] = Field(None, ge=0.0, description="Minimum price filter")
     max_price: Optional[float] = Field(None, ge=0.0, description="Maximum price filter")
     color: Optional[str] = Field(None, description="Color name filter (e.g. 'Black', 'Ecru')")
     size: Optional[str] = Field(None, description="Size filter (e.g. 'M', 'L', 'S')")
     on_sale: Optional[bool] = Field(None, description="Filter for products on sale")
     limit: int = Field(20, ge=1, le=50, description="Number of results to return (max 50)")
+
+
+class MatchedVariant(BaseModel):
+    variant_id: str
+    sku: Optional[str] = None
+    color: Optional[str] = None
+    size: Optional[str] = None
+    availability_state: str
+    in_stock: bool
+    image_url: Optional[str] = None
+    price: Optional[float] = None
 
 
 class ProductCard(BaseModel):
@@ -27,12 +44,15 @@ class ProductCard(BaseModel):
     colors: List[str] = Field(default_factory=list)
     sizes: List[str] = Field(default_factory=list)
     primary_image_url: Optional[str] = None
+    matched_variant: Optional[MatchedVariant] = None
 
 
 class SearchProductsOutput(BaseModel):
     total_matching: int
     returned_count: int
     products: List[ProductCard]
+    occasion: Optional[str] = None
+    fallback_message: Optional[str] = None
 
 
 class GetProductDetailsInput(BaseModel):

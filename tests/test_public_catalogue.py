@@ -63,8 +63,10 @@ class PublicCatalogueTests(unittest.TestCase):
         service = PublicCatalogueService(None, repo=repo)
         result = service.products(query="black party dresses under 100")
         self.assertEqual(result.total, 1)
-        self.assertEqual(repo.arguments["query"], "dress")
+        self.assertIsNone(repo.arguments["query"])
         self.assertEqual(repo.arguments["color"], "black")
+        self.assertEqual(repo.arguments["product_type"], "dress")
+        self.assertEqual(repo.arguments["occasion"], "party")
         self.assertEqual(repo.arguments["max_price"], 100.0)
 
     def test_private_gateway_auth_still_rejects_missing_secret(self):

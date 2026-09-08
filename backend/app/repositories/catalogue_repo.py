@@ -2,6 +2,7 @@
 
 from typing import Any, Dict, List, Optional, Tuple
 from decimal import Decimal
+from re import escape as re_escape
 from backend.app.repositories.base import BaseRepository
 
 
@@ -11,12 +12,18 @@ class CatalogueRepository(BaseRepository):
     def search_products(
         self,
         query: Optional[str] = None,
+        semantic_vector: Optional[List[float]] = None,
         department: Optional[str] = None,
         category_id: Optional[str] = None,
+        category: Optional[str] = None,
+        product_type: Optional[str] = None,
         min_price: Optional[float] = None,
         max_price: Optional[float] = None,
         color: Optional[str] = None,
         size: Optional[str] = None,
+        material: Optional[str] = None,
+        brand: Optional[str] = None,
+        occasion: Optional[str] = None,
         on_sale: Optional[bool] = None,
         limit: int = 20
     ) -> Tuple[int, List[Dict[str, Any]]]:
@@ -36,6 +43,26 @@ class CatalogueRepository(BaseRepository):
             where_clauses.append("EXISTS (SELECT 1 FROM product_categories pc WHERE pc.product_id = p.product_id AND pc.category_id = %s)")
             params.append(category_id.strip())
 
+        if category and category.strip():
+            where_clauses.append("EXISTS (SELECT 1 FROM product_categories pc JOIN categories cat USING(category_id) WHERE pc.product_id=p.product_id AND (cat.name ILIKE %s OR cat.slug ILIKE %s))")
+            params.extend([f"%{category.strip()}%", f"%{category.strip()}%"])
+
+        if product_type and product_type.strip():
+            product_pattern = rf"\m{product_type.strip()}(?:es|s)?\M"
+            aliases = {
+                "dress": r"\m(dress(?:es)?|gown(?:s)?)\M",
+                "shirt": r"\m(shirt(?:s)?|blouse(?:s)?)\M",
+                "jeans": r"\mjeans?\M",
+                "pants": r"\m(pants?|trousers?|slacks)\M",
+                "shoes": r"\m(shoes?|sneakers?|trainers?|loafers?)\M",
+                "top": r"\m(tops?|tees?|t-shirts?)\M",
+            }
+            product_pattern = aliases.get(product_type.strip().casefold(), product_pattern)
+            where_clauses.append("p.exact_product_name ~* %s")
+            params.append(product_pattern)
+            if product_type.strip().casefold() == "dress":
+                where_clauses.append("p.exact_product_name !~* '\\mdress shoes?\\M'")
+
         if min_price is not None:
             where_clauses.append("p.current_price >= %s")
             params.append(Decimal(str(min_price)))
@@ -45,12 +72,29 @@ class CatalogueRepository(BaseRepository):
             params.append(Decimal(str(max_price)))
 
         if color and color.strip():
-            where_clauses.append("EXISTS (SELECT 1 FROM product_colors col WHERE col.product_id = p.product_id AND col.color_name ILIKE %s)")
-            params.append(f"%{color.strip()}%")
+            where_clauses.append("EXISTS (SELECT 1 FROM product_colors col WHERE col.product_id = p.product_id AND col.color_name ~* %s)")
+            params.append(rf"\m{re_escape(color.strip())}\M")
 
         if size and size.strip():
             where_clauses.append("EXISTS (SELECT 1 FROM product_variants v WHERE v.product_id = p.product_id AND v.size_name ILIKE %s)")
             params.append(f"%{size.strip()}%")
+
+        if material and material.strip():
+            where_clauses.append("(COALESCE(p.material_text,'') ILIKE %s OR COALESCE(p.composition_text,'') ILIKE %s OR p.exact_product_name ILIKE %s)")
+            params.extend([f"%{material.strip()}%"] * 3)
+
+        if brand and brand.strip():
+            where_clauses.append("p.brand ILIKE %s")
+            params.append(brand.strip())
+
+        if occasion and occasion.strip():
+            occasion_pattern = re_escape(occasion.strip()).replace(r"\ ", r"\s+")
+            pattern = rf"\m{occasion_pattern}\M"
+            where_clauses.append("""(p.exact_product_name ~* %s OR COALESCE(p.short_description,'') ~* %s
+                OR COALESCE(p.long_description,'') ~* %s OR EXISTS (SELECT 1 FROM product_categories pc
+                JOIN categories cat USING(category_id) WHERE pc.product_id=p.product_id
+                AND (cat.name ~* %s OR cat.slug ~* %s)))""")
+            params.extend([pattern] * 5)
 
         if on_sale is not None:
             where_clauses.append("p.is_on_sale = %s")
@@ -65,10 +109,15 @@ class CatalogueRepository(BaseRepository):
             total_matching = cur.fetchone()["cnt"]
 
             # Select products with aggregated colors, sizes, and primary image
-            order_prefix = (
-                "ts_rank(p.search_vector, websearch_to_tsquery('english', %s)) DESC, "
-                if query and query.strip() else ""
-            )
+            embedding_join = ""
+            if semantic_vector:
+                embedding_join = "LEFT JOIN product_embeddings pe ON pe.product_id=p.product_id AND pe.embedding_provider='local_sentence_transformers' AND pe.embedding_model='sentence-transformers/all-MiniLM-L6-v2' AND pe.embedding_version='v1' AND pe.embedding_dimension=384"
+            order_parts = []
+            if query and query.strip():
+                order_parts.append("ts_rank(p.search_vector, websearch_to_tsquery('english', %s)) DESC")
+            if semantic_vector:
+                order_parts.append("pe.embedding <=> %s::vector")
+            order_sql = ", ".join([*order_parts, "p.product_id ASC"])
             select_sql = f"""
                 SELECT
                     p.product_id,
@@ -95,14 +144,41 @@ class CatalogueRepository(BaseRepository):
                         ORDER BY (img.image_role = 'PRIMARY') DESC, img.display_order ASC
                         LIMIT 1
                     ) as primary_image_url
+                    ,CASE WHEN %s::text IS NOT NULL OR %s::text IS NOT NULL THEN (
+                        SELECT jsonb_build_object(
+                            'variant_id', v.variant_id, 'sku', v.sku, 'color', v.color_name,
+                            'size', v.size_name, 'availability_state', v.public_availability_state,
+                            'in_stock', v.public_availability_state='IN_STOCK', 'price', p.current_price,
+                            'image_url', (SELECT i.source_image_url FROM product_images i
+                                WHERE i.product_id=p.product_id AND
+                                (i.variant_id=v.variant_id OR i.color_name ILIKE v.color_name)
+                                ORDER BY (i.variant_id=v.variant_id) DESC,
+                                    (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC, i.display_order LIMIT 1))
+                        FROM product_variants v WHERE v.product_id=p.product_id
+                            AND (%s::text IS NULL OR v.color_name ILIKE %s)
+                            AND (%s::text IS NULL OR v.size_name ILIKE %s)
+                        ORDER BY (v.public_availability_state='IN_STOCK') DESC, v.variant_id LIMIT 1
+                    ) END AS matched_variant
                 FROM products p
+                {embedding_join}
                 WHERE {where_sql}
-                ORDER BY {order_prefix}p.product_id ASC
+                ORDER BY {order_sql}
                 LIMIT %s;
             """
-            select_params = list(params)
+            select_params = [
+                color.strip() if color and color.strip() else None,
+                size.strip() if size and size.strip() else None,
+                color.strip() if color and color.strip() else None,
+                f"%{color.strip()}%" if color and color.strip() else None,
+                size.strip() if size and size.strip() else None,
+                f"%{size.strip()}%" if size and size.strip() else None,
+            ]
+            select_params.extend(params)
             if query and query.strip():
                 select_params.append(query.strip())
+            if semantic_vector:
+                import json
+                select_params.append(json.dumps(semantic_vector))
             select_params.append(limit)
 
             cur.execute(select_sql, tuple(select_params))
@@ -114,6 +190,8 @@ class CatalogueRepository(BaseRepository):
                 r["original_price"] = float(r["original_price"]) if r.get("original_price") else None
                 r["colors"] = [c for c in r["colors"] if c]
                 r["sizes"] = [s for s in r["sizes"] if s]
+                if r.get("matched_variant") and r["matched_variant"].get("image_url"):
+                    r["primary_image_url"] = r["matched_variant"]["image_url"]
 
             return total_matching, rows
 
@@ -253,6 +331,10 @@ class CatalogueRepository(BaseRepository):
         min_price: Optional[float] = None, max_price: Optional[float] = None,
         sort: str = "featured", limit: int = 24, offset: int = 0,
         available_only: bool = False, product_id: Optional[str] = None,
+        product_type: Optional[str] = None, size: Optional[str] = None,
+        material: Optional[str] = None, brand: Optional[str] = None,
+        occasion: Optional[str] = None,
+        semantic_vector: Optional[List[float]] = None,
     ) -> Tuple[int, List[Dict[str, Any]]]:
         """List lifecycle-active products through the public response allowlist."""
         where = ["p.lifecycle_status = 'ACTIVE'", "p.exact_product_name !~* '(magnetic board|towel|candle|candlestick)'"]
@@ -266,8 +348,35 @@ class CatalogueRepository(BaseRepository):
         if category:
             where.append("EXISTS (SELECT 1 FROM product_categories pc JOIN categories cat ON cat.category_id = pc.category_id WHERE pc.product_id = p.product_id AND (cat.name ILIKE %s OR cat.slug ILIKE %s))")
             params.extend([f"%{category}%", f"%{category}%"])
+        if product_type:
+            patterns = {
+                "dress": r"\m(dress(?:es)?|gown(?:s)?)\M",
+                "shirt": r"\m(shirt(?:s)?|blouse(?:s)?)\M",
+                "jeans": r"\mjeans?\M",
+                "pants": r"\m(pants?|trousers?|slacks)\M",
+                "shoes": r"\m(shoes?|sneakers?|trainers?|loafers?)\M",
+                "top": r"\m(tops?|tees?|t-shirts?)\M",
+            }
+            pattern = patterns.get(product_type, rf"\m{product_type}(?:s)?\M")
+            where.append("p.exact_product_name ~* %s")
+            params.append(pattern)
+            if product_type == "dress": where.append("p.exact_product_name !~* '\\mdress shoes?\\M'")
         if color:
-            where.append("EXISTS (SELECT 1 FROM product_colors c WHERE c.product_id = p.product_id AND c.color_name ILIKE %s)"); params.append(f"%{color}%")
+            where.append("EXISTS (SELECT 1 FROM product_colors c WHERE c.product_id = p.product_id AND c.color_name ~* %s)"); params.append(rf"\m{re_escape(color)}\M")
+        if size:
+            where.append("EXISTS (SELECT 1 FROM product_variants v WHERE v.product_id=p.product_id AND v.size_name ILIKE %s)"); params.append(f"%{size}%")
+        if material:
+            where.append("(COALESCE(p.material_text,'') ILIKE %s OR COALESCE(p.composition_text,'') ILIKE %s OR p.exact_product_name ILIKE %s)"); params.extend([f"%{material}%"] * 3)
+        if brand:
+            where.append("p.brand ILIKE %s"); params.append(brand)
+        if occasion:
+            occasion_pattern = re_escape(occasion).replace(r"\ ", r"\s+")
+            pattern = rf"\m{occasion_pattern}\M"
+            where.append("""(p.exact_product_name ~* %s OR COALESCE(p.short_description,'') ~* %s
+                OR COALESCE(p.long_description,'') ~* %s OR EXISTS (SELECT 1 FROM product_categories pc
+                JOIN categories cat USING(category_id) WHERE pc.product_id=p.product_id
+                AND (cat.name ~* %s OR cat.slug ~* %s)))""")
+            params.extend([pattern] * 5)
         if min_price is not None:
             where.append("p.current_price >= %s"); params.append(Decimal(str(min_price)))
         if max_price is not None:
@@ -282,11 +391,25 @@ class CatalogueRepository(BaseRepository):
         }.get(sort, "p.is_on_sale DESC, p.last_seen_at DESC NULLS LAST, p.product_id ASC")
         if query:
             order_sql = "ts_rank(p.search_vector, websearch_to_tsquery('english', %s)) DESC, " + order_sql
+        embedding_join = ""
+        if semantic_vector:
+            embedding_join = "LEFT JOIN product_embeddings pe ON pe.product_id=p.product_id AND pe.embedding_provider='local_sentence_transformers' AND pe.embedding_model='sentence-transformers/all-MiniLM-L6-v2' AND pe.embedding_version='v1' AND pe.embedding_dimension=384"
+            order_sql = "pe.embedding <=> %s::vector, " + order_sql
 
         with self.cursor() as cur:
             cur.execute(f"SELECT count(*) AS cnt FROM products p WHERE {where_sql}", tuple(params))
             total = cur.fetchone()["cnt"]
-            select_params = list(params)
+            requested_color = color.strip() if color else None
+            requested_size = size.strip() if size else None
+            select_params = [requested_color, f"%{requested_color}%" if requested_color else None,
+                requested_color, requested_size, requested_color,
+                f"%{requested_color}%" if requested_color else None,
+                requested_size, f"%{requested_size}%" if requested_size else None,
+            ]
+            select_params.extend(params)
+            if semantic_vector:
+                import json
+                select_params.append(json.dumps(semantic_vector))
             if query:
                 select_params.append(query)
             select_params.extend([limit, offset])
@@ -297,10 +420,26 @@ class CatalogueRepository(BaseRepository):
                     p.current_price AS price, p.original_price, p.currency, p.is_on_sale,
                     COALESCE((SELECT array_agg(DISTINCT c.color_name) FROM product_colors c WHERE c.product_id = p.product_id AND c.color_name IS NOT NULL), ARRAY[]::TEXT[]) AS colors,
                     COALESCE((SELECT array_agg(DISTINCT v.size_name) FROM product_variants v WHERE v.product_id = p.product_id AND v.size_name IS NOT NULL), ARRAY[]::TEXT[]) AS sizes,
-                    COALESCE((SELECT array_agg(i.source_image_url ORDER BY (i.image_role = 'PRIMARY') DESC, i.display_order) FROM product_images i WHERE i.product_id = p.product_id), ARRAY[]::TEXT[]) AS image_urls,
+                    COALESCE((SELECT array_agg(i.source_image_url ORDER BY
+                        (CASE WHEN %s::text IS NOT NULL AND i.color_name ILIKE %s THEN 1 ELSE 0 END) DESC,
+                        (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC, i.display_order)
+                        FROM product_images i WHERE i.product_id = p.product_id), ARRAY[]::TEXT[]) AS image_urls,
                     EXISTS (SELECT 1 FROM product_variants v WHERE v.product_id = p.product_id AND v.public_availability_state = 'IN_STOCK') AS available,
-                    'catalogue' AS source
-                FROM products p WHERE {where_sql}
+                    'catalogue' AS source,
+                    CASE WHEN %s::text IS NOT NULL OR %s::text IS NOT NULL THEN (
+                        SELECT jsonb_build_object('variant_id',v.variant_id,'sku',v.sku,'color',v.color_name,
+                            'size',v.size_name,'availability_state',v.public_availability_state,
+                            'in_stock',v.public_availability_state='IN_STOCK','price',p.current_price,
+                            'image_url',(SELECT i.source_image_url FROM product_images i WHERE i.product_id=p.product_id
+                                AND (i.variant_id=v.variant_id OR i.color_name ILIKE v.color_name)
+                                ORDER BY (i.variant_id=v.variant_id) DESC,
+                                    (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC,i.display_order LIMIT 1))
+                        FROM product_variants v WHERE v.product_id=p.product_id
+                            AND (%s::text IS NULL OR v.color_name ILIKE %s)
+                            AND (%s::text IS NULL OR v.size_name ILIKE %s)
+                        ORDER BY (v.public_availability_state='IN_STOCK') DESC,v.variant_id LIMIT 1
+                    ) END AS matched_variant
+                FROM products p {embedding_join} WHERE {where_sql}
                 ORDER BY {order_sql} LIMIT %s OFFSET %s
             """, tuple(select_params))
             return total, [self._format_public_product(dict(row)) for row in cur.fetchall()]

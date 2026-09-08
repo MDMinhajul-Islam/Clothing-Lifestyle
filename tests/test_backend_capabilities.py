@@ -186,7 +186,8 @@ class CapabilityTests(unittest.TestCase):
     def test_46_black_dresses_use_category_and_color_facets(self):
         service=CatalogueService.__new__(CatalogueService); service.repo=FakeCatalogueRepo()
         result=service.search_products(SearchProductsInput(query='Show me black dresses'))
-        self.assertEqual((service.repo.arguments['query'],service.repo.arguments['color']),('dress','black'))
+        self.assertEqual((service.repo.arguments['query'],service.repo.arguments['color'],
+                          service.repo.arguments['product_type']),(None,'black','dress'))
         self.assertEqual((result.total_matching,result.returned_count),(1,1))
     def test_47_policy_rag_is_internal_not_gateway_definition(self):
         definitions=export_tool_definitions()

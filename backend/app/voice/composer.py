@@ -46,6 +46,8 @@ class VoiceResponseComposer:
         if status == "SUCCESS" and decision.intent in {
             "SEARCH_PRODUCTS", "FIND_SIMILAR_PRODUCTS", "RECOMMEND_MATCHING_PRODUCTS",
         }:
+            if data.get("fallback_message"):
+                return data["fallback_message"]
             return "I couldn't find matching products in that selection. Would you like me to broaden the search or try another color?"
         if decision.intent == "GET_PRODUCT_DETAILS":
             name=data.get("name","This item"); details=data.get("materials_care") or data.get("description")

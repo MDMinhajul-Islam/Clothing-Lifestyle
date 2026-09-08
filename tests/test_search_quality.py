@@ -1,0 +1,113 @@
+import unittest
+from types import SimpleNamespace
+
+from backend.app.orchestrator.schemas import Route
+from backend.app.schemas.catalogue import SearchProductsInput
+from backend.app.services.catalogue_service import CatalogueService
+from backend.app.voice.composer import VoiceResponseComposer
+
+
+BLACK_VARIANT = {
+    "variant_id": "zara-us:00387161:black-m", "sku": "BLACK-M", "color": "Black",
+    "size": "M", "availability_state": "IN_STOCK", "in_stock": True,
+    "image_url": "https://example.test/black-dress.jpg", "price": 69.9,
+}
+ROW = {
+    "product_id": "zara-us:00387161", "name": "DRAPED MINI DRESS WITH HARDWARE",
+    "department": "WOMAN", "price": 69.9, "currency": "USD", "is_on_sale": False,
+    "original_price": None, "colors": ["Black", "Blue"], "sizes": ["S", "M"],
+    "primary_image_url": BLACK_VARIANT["image_url"], "matched_variant": BLACK_VARIANT,
+}
+
+
+class FakeEmbedding:
+    def embed(self, texts):
+        self.texts = texts
+        return [[0.01] * 384]
+
+
+class FakeRepo:
+    def search_products(self, **kwargs):
+        self.arguments = kwargs
+        return (0, []) if kwargs.get("occasion") in {"wedding", "office", "evening", "casual", "eid"} else (1, [ROW])
+
+
+class SearchQualityTests(unittest.TestCase):
+    def service(self):
+        service = CatalogueService.__new__(CatalogueService)
+        service.repo = FakeRepo()
+        service.embedding_client = FakeEmbedding()
+        return service
+
+    def assert_facets(self, query, *, product_type, color=None, residual=None):
+        service = self.service()
+        service.search_products(SearchProductsInput(query=query))
+        args = service.repo.arguments
+        self.assertEqual(args["product_type"], product_type)
+        self.assertEqual(args["color"], color)
+        self.assertEqual(args["query"], residual)
+        self.assertEqual(len(args["semantic_vector"]), 384)
+        return args
+
+    def test_structured_facets_precede_semantic_ranking(self):
+        for query, kind, color in (("black dress", "dress", "black"),
+                                   ("white shirt", "shirt", "white"),
+                                   ("blue jeans", "jeans", "blue"),
+                                   ("red blazer", "blazer", "red")):
+            with self.subTest(query=query):
+                self.assert_facets(query, product_type=kind, color=color)
+
+    def test_wedding_requests_extract_an_occasion_without_ignoring_it(self):
+        service = self.service()
+        result = service.search_products(SearchProductsInput(query="black wedding dress"))
+        self.assertIsNone(service.repo.arguments["query"])
+        self.assertEqual(service.repo.arguments["occasion"], "wedding")
+        self.assertEqual(service.repo.arguments["product_type"], "dress")
+        self.assertEqual(service.repo.arguments["color"], "black")
+        self.assertEqual(result.total_matching, 0)
+
+    def test_dress_shoes_are_shoes_not_dresses(self):
+        self.assert_facets("dress shoes", product_type="shoes", residual="dress")
+
+    def test_matching_variant_is_preserved_in_result(self):
+        result = self.service().search_products(SearchProductsInput(query="black dress"))
+        card = result.products[0]
+        self.assertEqual(card.matched_variant.color, "Black")
+        self.assertEqual(card.matched_variant.sku, "BLACK-M")
+        self.assertTrue(card.matched_variant.in_stock)
+        self.assertEqual(card.primary_image_url, card.matched_variant.image_url)
+
+    def test_occasion_taxonomy_and_graceful_fallbacks(self):
+        cases = (
+            ("wedding dress", "wedding", "dress", True),
+            ("office outfit", "office", None, True),
+            ("party dress", "party", "dress", False),
+            ("evening dress", "evening", "dress", True),
+            ("casual shirt", "casual", "shirt", True),
+            ("Eid collection", "eid", None, True),
+        )
+        for query, occasion, product_type, unavailable in cases:
+            with self.subTest(query=query):
+                service = self.service()
+                result = service.search_products(SearchProductsInput(query=query))
+                self.assertEqual(service.repo.arguments["occasion"], occasion)
+                self.assertEqual(service.repo.arguments["product_type"], product_type)
+                if unavailable:
+                    self.assertEqual(result.products, [])
+                    self.assertIn(f"{occasion}-specific", result.fallback_message)
+                    self.assertIn("I can show", result.fallback_message)
+                else:
+                    self.assertEqual(result.returned_count, 1)
+                    self.assertIsNone(result.fallback_message)
+
+    def test_voice_composer_speaks_grounded_occasion_fallback(self):
+        decision = SimpleNamespace(route=Route.TOOL_GATEWAY, intent="SEARCH_PRODUCTS")
+        message = VoiceResponseComposer().compose(decision, {
+            "products": [], "fallback_message": "I couldn't find wedding-specific dresses. I can show elegant formal dresses."
+        }, "SUCCESS")
+        self.assertIn("wedding-specific", message)
+        self.assertNotIn("completed successfully", message)
+
+
+if __name__ == "__main__":
+    unittest.main()
