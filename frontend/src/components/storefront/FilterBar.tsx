@@ -6,8 +6,8 @@ interface FilterBarProps {
   filter: ProductFilter;
   onChangeFilter: (filter: ProductFilter) => void;
   onResetFilter: () => void;
-  totalResults: number;
-  totalCatalogueCount?: number;
+  renderedCount: number;
+  matchingCount: number;
   activeVoiceFilterLabel?: string | null;
   onClearVoiceFilter?: () => void;
   availableColors?: Array<{ name: string; hex: string }>;
@@ -19,7 +19,7 @@ const CATEGORIES = ['All Items', 'Dresses', 'Blazers & Jackets', 'Tops & Shirts'
 const DEPARTMENTS = ['All', 'WOMAN', 'MAN', 'UNISEX'];
 const PRICE_PRESETS = [{ label: 'Under $50', maxPrice: 50 }, { label: 'Under $100', maxPrice: 100 }, { label: '$100–$200', minPrice: 100, maxPrice: 200 }, { label: '$200+', minPrice: 200 }];
 
-export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, onResetFilter, totalResults, totalCatalogueCount = 6018, activeVoiceFilterLabel, onClearVoiceFilter, availableColors = [], availableCategories = CATEGORIES.slice(1), availableDepartments = DEPARTMENTS.slice(1) }) => {
+export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, onResetFilter, renderedCount, matchingCount, activeVoiceFilterLabel, onClearVoiceFilter, availableColors = [], availableCategories = CATEGORIES.slice(1), availableDepartments = DEPARTMENTS.slice(1) }) => {
   const [expanded, setExpanded] = React.useState(false);
   const active = Boolean(filter.category || filter.department || filter.color || filter.searchQuery || filter.minPrice !== undefined || filter.maxPrice !== undefined || filter.inStockOnly);
   const update = (patch: Partial<ProductFilter>) => onChangeFilter({ ...filter, ...patch });
@@ -52,7 +52,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, on
 
         <div className="mt-3 flex flex-col gap-3 border-t border-neutral-100 pt-3 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap items-center gap-2 text-[10px] uppercase tracking-wider text-neutral-500">
-            <span><strong className="text-neutral-900">{totalResults}</strong> products shown · {totalCatalogueCount.toLocaleString()}</span>
+            <span><strong className="text-neutral-900">{renderedCount}</strong> products shown{matchingCount > renderedCount ? ` · ${matchingCount.toLocaleString()} matching` : ''}</span>
             {activeVoiceFilterLabel && <span className="inline-flex items-center gap-1.5 bg-neutral-900 px-2.5 py-1 text-white"><Sparkles className="h-3 w-3 text-emerald-400" />AI curated: {activeVoiceFilterLabel}<button onClick={onClearVoiceFilter} aria-label="Clear voice selection"><X className="h-3 w-3" /></button></span>}
             {active && <button onClick={onResetFilter} className="underline hover:text-black">Clear all</button>}
           </div>

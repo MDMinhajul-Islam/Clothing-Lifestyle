@@ -14,15 +14,18 @@ const colorHex = (name: string) => {
   if (value.includes('pink')) return '#d6a7af'; if (value.includes('yellow')) return '#d3af47'; return '#777777';
 };
 
-export const toProduct = (item: ApiProduct): Product => ({
-  id: item.product_id, name: item.name, price: item.price, originalPrice: item.original_price,
-  currency: item.currency, department: item.department, category: item.category || 'Collection',
-  description: item.description || '', longDescription: item.description || '', image: item.image_urls[0] || '', gallery: item.image_urls,
-  colors: item.colors.map((name) => ({ name, hex: colorHex(name) })), sizes: item.sizes,
+export const toProduct = (item: ApiProduct): Product => {
+  const images = Array.from(new Set((item.image_urls || []).filter(Boolean)));
+  return {
+  id: item.product_id, name: item.name || 'Information unavailable', price: Number(item.price) || 0, originalPrice: item.original_price,
+  currency: item.currency || 'USD', department: item.department || 'Collection', category: item.category || 'Information unavailable',
+  description: item.description?.trim() || 'Information unavailable', longDescription: item.description?.trim() || 'Information unavailable', image: images[0] || '', gallery: images,
+  colors: (item.colors || []).filter(Boolean).map((name) => ({ name, hex: colorHex(name) })), sizes: (item.sizes || []).filter(Boolean),
   inStock: item.available, isSale: item.is_on_sale, provenance: 'SOURCE_CATALOGUE_CDN',
   videoUrl: item.hero_video_url || undefined, modelWalkUrl: item.model_walk_url || undefined,
   lookbookMedia: item.lookbook_media || (item.hero_media_url ? [item.hero_media_url] : undefined),
-});
+  };
+};
 
 export async function fetchCatalogueProducts(filter: ProductFilter, limit = 24, offset = 0, signal?: AbortSignal) {
   const params = new URLSearchParams({ limit: String(limit), offset: String(offset), sort: ({ 'price-asc': 'price_low_high', 'price-desc': 'price_high_low' } as Record<string, string>)[filter.sort] || filter.sort });

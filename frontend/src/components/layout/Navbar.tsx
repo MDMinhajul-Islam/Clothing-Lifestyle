@@ -45,9 +45,9 @@ export const Navbar: React.FC<NavbarProps> = ({
     <header className="sticky top-0 z-40 border-b border-neutral-200/80 bg-white/95 backdrop-blur-xl">
       <div className="mx-auto flex h-20 max-w-[1600px] items-center justify-between px-4 sm:px-8 lg:px-12 2xl:px-16">
         <div className="flex items-center gap-8 xl:gap-14">
-          <button onClick={() => browse('All Items')} className="group text-left" aria-label="Open NexGen collection">
+          <button onClick={() => browse('All Items')} className="group inline-flex flex-col justify-center self-center text-left leading-none" aria-label="Open NexGen collection">
             <span className="block font-display text-2xl font-bold tracking-[0.3em] text-black lg:text-3xl">NEXGEN</span>
-            <span className="block text-[9px] uppercase tracking-[0.24em] text-neutral-500 sm:text-[10px]">
+            <span className="mt-1.5 block text-[9px] uppercase leading-none tracking-[0.24em] text-neutral-500 sm:text-[10px]">
               AI Fashion & Voice Commerce
             </span>
           </button>
