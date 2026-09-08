@@ -45,6 +45,38 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual(result.missing_fields,["category"])
         self.assertEqual(result.spoken_text,"What kind of item would you like?")
 
+    def test_broad_dress_request_asks_occasion_before_search(self):
+        result=self.turn("I need a dress")
+        self.assertEqual(result.missing_fields,["occasion"])
+        self.assertEqual(result.spoken_text,"What kind of occasion are you shopping for?")
+        self.assertEqual(self.backend.calls,[])
+
+    def test_office_request_asks_one_high_value_style_question(self):
+        result=self.turn("I need office clothes")
+        self.assertEqual(result.missing_fields,["style"])
+        self.assertIn("polished, relaxed, or modern",result.spoken_text)
+
+    def test_styling_context_and_recommendations_are_remembered(self):
+        self.turn("I need office clothes")
+        result=self.turn("Modern")
+        state=self.service.get_session(self.session)
+        self.assertEqual((state.occasion,state.style),("office","modern"))
+        self.assertTrue(state.previous_recommendations)
+        self.assertIn("previous_recommendations",result.metadata["session_state"])
+
+    def test_color_correction_replaces_previous_color(self):
+        self.turn("Show me black dresses")
+        self.turn("No, I meant navy")
+        self.assertEqual(self.service.get_session(self.session).colors,["navy"])
+
+    def test_start_over_clears_shopping_memory(self):
+        self.turn("Show me black dresses")
+        result=self.turn("Let's start over")
+        state=self.service.get_session(self.session)
+        self.assertEqual(state.colors,[])
+        self.assertIsNone(state.category)
+        self.assertEqual(result.execution_status,"CONTEXT_RESET")
+
     def test_multi_intent_is_retained(self):
         result=self.turn("Where is my order, and can I exchange the jeans?")
         self.assertIn("CHECK_EXCHANGE_INVENTORY",result.metadata["session_state"]["secondary_intents"])

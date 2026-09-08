@@ -154,7 +154,7 @@ class VoiceTests(unittest.TestCase):
 
     def test_17_unsupported_provider_rejected(self):
         with self.assertRaises(ValidationError):
-            CreateVoiceSessionRequest(provider="retell")
+            CreateVoiceSessionRequest(provider="unsupported")
 
     def test_18_general_chat_never_calls_backend(self):
         self.turn("Tell me about linen")

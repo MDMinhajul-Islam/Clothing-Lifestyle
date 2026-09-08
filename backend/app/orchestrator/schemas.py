@@ -33,6 +33,8 @@ class OrchestratorContext(BaseModel):
     budget_max: float | None = None
     size: str | None = None
     fit: str | None = None
+    style: str | None = None
+    gender: str | None = None
     color: str | None = None
     colors: list[str] | None = None
     materials: list[str] | None = None
@@ -61,7 +63,7 @@ class OrchestratorContext(BaseModel):
 
     @field_validator("customer_type", "auth_level", "access_token", "customer_id", "order_id",
                      "order_item_id", "product_id", "reference_product_id", "active_variant_id",
-                     "category", "occasion", "size", "fit", "color",
+                     "category", "occasion", "size", "fit", "style", "gender", "color",
                      "store_id", "query", "email", "phone", "verification_value", "promotion_code",
                      "preferred_store", "location", "delivery_deadline", "unresolved_issue",
                      "destination", "purpose", "issue_type", "issue_category", "factual_summary", "requested_outcome",

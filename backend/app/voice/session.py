@@ -31,12 +31,15 @@ class VoiceSession(BaseModel):
     budget_max: float | None = None
     size: str | None = None
     fit: str | None = None
+    style: str | None = None
+    gender: str | None = None
     colors: list[str] = Field(default_factory=list)
     materials: list[str] = Field(default_factory=list)
     must_have: list[str] = Field(default_factory=list)
     avoid: list[str] = Field(default_factory=list)
     delivery_deadline: str | None = None
     secondary_intents: list[str] = Field(default_factory=list)
+    previous_recommendations: list[dict[str, Any]] = Field(default_factory=list)
     unresolved_issue: str | None = None
     last_intent: str | None = None
     last_route: str | None = None

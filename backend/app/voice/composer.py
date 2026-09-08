@@ -7,22 +7,22 @@ from backend.app.orchestrator.schemas import Route
 class VoiceResponseComposer:
     def general(self, text, intent):
         if intent == "SECURITY_REFUSAL":
-            return "I can't bypass privacy controls or access another customer's information."
+            return "I can't access another customer's private information because your privacy comes first. I can still help with your own shopping or order."
         if text in {"hello", "hi", "hey", "good morning", "good afternoon"}:
-            return f"Hello, I'm the {settings.agent_name}. How can I help?"
+            return f"Hello, I'm the {settings.agent_name}, your personal stylist. What can I help you find today?"
         if text in {"thanks", "thank you", "thank you very much"}:
-            return "You're welcome."
+            return "My pleasure."
         if text in {"bye", "goodbye", "see you"}:
-            return "Goodbye."
+            return "It was a pleasure helping you today. I'll be here whenever you're ready."
         if "help" in text:
-            return "I can help with products, availability, orders, returns, rewards, promotions, and reference policy questions."
-        return "I can help with retail shopping and support requests, but general question answering is not configured yet."
+            return "I can help you find the right pieces, build an outfit, check availability, or assist with an order. Where shall we begin?"
+        return "I'd be happy to help with your shopping. What would you like to find?"
 
     def compose(self, decision, data, status):
         if status in {"AUTHORIZATION_REQUIRED", "AUTH_TOKEN_INVALID", "AUTH_TOKEN_EXPIRED"}:
-            return "Please verify your identity before I access that information."
+            return "I'll need to verify your identity before I can look into that."
         if status == "CAPABILITY_ADAPTER_NOT_CONFIGURED":
-            return "That service is not configured for local execution yet."
+            return "I'm unable to check that just now. Would you like to try something else?"
         if decision.route == Route.POLICY_RAG:
             if data.get("status") == "INSUFFICIENT_EVIDENCE":
                 return "I couldn't verify that from the reference policy information available in this demo. Would you like human support to review it?"
@@ -38,14 +38,18 @@ class VoiceResponseComposer:
                 if item.get("price") is not None:
                     label += f" at {item['price']} {item.get('currency', 'USD')}"
                 labels.append(label)
-            return "I found " + "; ".join(labels) + "."
+            introduction = "I found a few pieces worth considering: "
+            follow_up = (" Would you like me to find pieces to complete the look?"
+                         if decision.intent == "RECOMMEND_MATCHING_PRODUCTS"
+                         else " Would you like details on any of them?")
+            return introduction + "; ".join(labels) + "." + follow_up
         if status == "SUCCESS" and decision.intent in {
             "SEARCH_PRODUCTS", "FIND_SIMILAR_PRODUCTS", "RECOMMEND_MATCHING_PRODUCTS",
         }:
-            return "I couldn't find matching products for that. Would you like me to broaden the search or try another color?"
+            return "I couldn't find matching products in that selection. Would you like me to broaden the search or try another color?"
         if decision.intent == "GET_PRODUCT_DETAILS":
             name=data.get("name","This item"); details=data.get("materials_care") or data.get("description")
-            return f"{name}: {details}" if details else f"I found the current details for {name}."
+            return f"{name}. {details}" if details else f"I have the latest details for {name}. What would you like to know?"
         if decision.intent in {"CHECK_INVENTORY", "CHECK_PICKUP_AVAILABILITY", "CHECK_EXCHANGE_INVENTORY"}:
             if decision.intent == "CHECK_EXCHANGE_INVENTORY" and not data.get("eligible", False):
                 reason=data.get("reason") or "Exchange eligibility or replacement stock could not be verified."
@@ -55,7 +59,7 @@ class VoiceResponseComposer:
             suffix=f" with {quantity} available" if quantity is not None else ""
             if decision.intent == "CHECK_PICKUP_AVAILABILITY":
                 return f"The synthetic store stock status is {str(state).replace('_',' ').lower()}{suffix}. This does not reserve the item or confirm that an order is ready for pickup."
-            return f"The verified availability is {str(state).replace('_',' ').lower()}{suffix}."
+            return f"It's currently {str(state).replace('_',' ').lower()}{suffix}. Would you like me to check another size or color?"
         if decision.intent == "GET_SIZE_GUIDANCE":
             sizes=", ".join(data.get("documented_sizes") or [])
             advisory=data.get("advisory") or "Check the documented measurements before choosing."
@@ -64,14 +68,14 @@ class VoiceResponseComposer:
             orders=data.get("orders") or []
             items=orders[0].get("items",[]) if orders else []
             size=(items[0].get("size") or items[0].get("size_name")) if items else None
-            return f"Your most recent recorded item was size {size}. Fit can vary by item." if size else "I found your authorized order history."
+            return f"Your most recent item was size {size}. Fit can vary by style, so I can also check this piece's guidance." if size else "I found your order history. Which order would you like help with?"
         if decision.intent == "GET_LOYALTY_STATUS":
             return f"Your demo rewards balance is {data.get('points_balance', 0)} points at the {data.get('tier','current')} tier."
         if decision.intent == "CHECK_PROMOTION":
             reasons=", ".join(str(x).replace("_"," ").lower() for x in data.get("reason_codes",[]))
             return ("That demo promotion is eligible." if data.get("eligible") else "That demo promotion is not eligible.") + (f" Reason: {reasons}." if reasons else "")
         if decision.intent == "TRACK_ORDER":
-            return f"The current shipment status is {str(data.get('shipment_status') or data.get('order_status') or data.get('status','unknown')).replace('_',' ').lower()}."
+            return f"Your shipment is currently {str(data.get('shipment_status') or data.get('order_status') or data.get('status','unknown')).replace('_',' ').lower()}."
         if decision.intent == "CHECK_CANCELLATION_ELIGIBILITY":
             if data.get("eligible"):
                 return "The current NexGen fulfillment state allows cancellation. Would you like me to prepare the cancellation for confirmation?"
@@ -97,7 +101,7 @@ class VoiceResponseComposer:
         if decision.intent == "CREATE_INCIDENT" and status == "SUCCESS":
             return "I recorded the item issue for review. This does not promise a refund or replacement; would you like human support next?"
         if decision.intent == "PREPARE_HANDOFF":
-            return "I prepared a support handoff using the verified context available."
+            return "I've prepared the details for our support team, so you won't need to repeat everything."
         if status == "SUCCESS":
-            return "The request completed successfully."
-        return "I couldn't safely complete that request with the information available."
+            return "That's taken care of."
+        return "I couldn't complete that with the information available. Would you like to try another approach?"

@@ -13,6 +13,7 @@ from backend.app.api.routes_meta import router as meta_router
 from backend.app.api.routes_orchestrator import router as orchestrator_router
 from backend.app.api.routes_voice import router as voice_router
 from backend.app.api.routes_catalogue import router as catalogue_router
+from backend.app.api.routes_retell import router as retell_router
 
 logging.basicConfig(
     level=logging.INFO,
@@ -55,6 +56,7 @@ app.include_router(tools_router)
 app.include_router(orchestrator_router)
 app.include_router(voice_router)
 app.include_router(catalogue_router)
+app.include_router(retell_router)
 
 
 @app.get("/")

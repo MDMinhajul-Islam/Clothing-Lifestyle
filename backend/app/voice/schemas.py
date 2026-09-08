@@ -8,6 +8,7 @@ from backend.app.orchestrator.schemas import OrchestratorContext, Route
 
 class VoiceProvider(str, Enum):
     MOCK = "mock"
+    RETELL = "retell"
 
 
 class CreateVoiceSessionRequest(BaseModel):

@@ -3,7 +3,7 @@
 import re
 
 from backend.app.config import settings
-from backend.app.orchestrator.schemas import OrchestratorContext, Route, RouteRequest
+from backend.app.orchestrator.schemas import OrchestratorContext, Route, RouteDecision, RouteRequest, RouteStatus
 from backend.app.orchestrator.service import OrchestratorService
 from .executor import VoiceCapabilityExecutor
 from .composer import VoiceResponseComposer
@@ -21,9 +21,17 @@ BUDGET_MAX = re.compile(r"(?:under|below|less than|up to)\s*\$?\s*(\d+(?:\.\d+)?
 SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
 CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "top", "skirt", "shoes", "coat"}
+CATEGORY_ALIASES = {"dresses":"dress", "shirts":"shirt", "jackets":"jacket", "tops":"top",
+                    "skirts":"skirt", "coats":"coat", "trousers":"pants", "sneakers":"shoes"}
+OCCASIONS = {"wedding", "office", "work", "interview", "formal", "cocktail", "party",
+             "vacation", "beach", "date", "graduation", "everyday"}
+STYLES = {"elegant", "casual", "formal", "minimal", "classic", "modern", "modest",
+          "relaxed", "tailored", "oversized", "smart casual", "luxury minimalist"}
 CLARIFICATIONS = {
     "product_id": "Which product are you asking about?",
     "category": "What kind of item would you like?",
+    "occasion": "What kind of occasion are you shopping for?",
+    "style": "Would you prefer something more polished, relaxed, or modern?",
     "order_id": "Could you give me your order number?",
     "items": "Which item or items from the order would you like to return?",
     "return_method": "Would you prefer a free store return or a drop-off return with the $4.95 fee?",
@@ -43,6 +51,7 @@ CLARIFICATIONS = {
     "consent_confirmed": "Do I have your consent to use that verified destination?",
 }
 RESUME_MESSAGES = {
+    "search_products": "Show me products",
     "track_order": "Track my order",
     "check_inventory": "Check inventory",
     "get_product_details": "Show product details",
@@ -91,6 +100,12 @@ class VoiceService:
         session.conversation_turn += 1
         text = " ".join(request.transcript.casefold().split())
 
+        if text in {"start over", "let's start over", "lets start over"}:
+            self._clear_shopping_context(session)
+            self.sessions.update_session(session)
+            return self._response(session, "READY", "CONTEXT_RESET",
+                "Of course. What would you like to shop for?", tool_name=None)
+
         if any(signal in text for signal in (
             "ignore your rules", "bypass privacy", "another customer's", "another customer’s",
         )):
@@ -114,8 +129,24 @@ class VoiceService:
                 requires_confirmation=True, tool_name=session.pending_tool_name)
 
         context = self._merged_context(session, request)
+        clarification = self._shopping_clarification(text, context, session)
+        if clarification:
+            field, prompt = clarification
+            decision = RouteDecision(status=RouteStatus.NEEDS_CONTEXT, route=Route.TOOL_GATEWAY,
+                intent="SEARCH_PRODUCTS", confidence=.94, tool_name="search_products",
+                missing_fields=[field], reason_codes=["HIGH_VALUE_STYLING_CLARIFICATION"],
+                tool_arguments={"query": context.get("query", request.transcript)})
+            self._remember_decision(session, decision, context)
+            session.pending_tool_name = "search_products"
+            session.pending_arguments = dict(decision.tool_arguments)
+            session.pending_missing_fields = [field]
+            self.sessions.update_session(session)
+            return self._response(session, "NEEDS_CONTEXT", "AWAITING_CONTEXT", prompt,
+                decision=decision, needs_user_input=True)
         message = request.transcript
         if session.pending_tool_name and session.pending_missing_fields:
+            if session.pending_tool_name == "search_products" and context.get("query"):
+                context["query"] = f"{context['query']} {request.transcript}".strip()
             message = RESUME_MESSAGES.get(session.pending_tool_name, request.transcript)
         elif (session.last_intent == "SEARCH_PRODUCTS" or session.category) and self._is_preference_update(text):
             message = "Show me products"
@@ -194,6 +225,12 @@ class VoiceService:
             session.access_token=data.get("access_token")
             session.auth_level=str(data.get("auth_level","PUBLIC"))
             session.customer_type=data.get("customer_type") or session.customer_type
+        if decision.intent in {"SEARCH_PRODUCTS", "FIND_SIMILAR_PRODUCTS", "RECOMMEND_MATCHING_PRODUCTS"}:
+            products = data.get("results") or data.get("products") or []
+            session.previous_recommendations = [
+                {key: item[key] for key in ("product_id", "name") if item.get(key)}
+                for item in products[:5]
+            ]
 
     @classmethod
     def _safe_metadata(cls, value):
@@ -223,6 +260,8 @@ class VoiceService:
             "budget_max": session.budget_max,
             "size": session.size,
             "fit": session.fit,
+            "style": session.style,
+            "gender": session.gender,
             "colors": list(session.colors),
             "materials": list(session.materials),
             "must_have": list(session.must_have),
@@ -247,11 +286,20 @@ class VoiceService:
         words=set(re.findall(r"[a-z]+",request.transcript.casefold()))
         found_colors=[color for color in COLORS if color in words]
         if found_colors:
-            context["colors"]=list(dict.fromkeys([*(context.get("colors") or []),*found_colors]))
+            correcting = any(signal in request.transcript.casefold() for signal in ("meant", "instead", "not "))
+            prior = [] if correcting else (context.get("colors") or [])
+            context["colors"]=list(dict.fromkeys([*prior,*found_colors]))
             context["color"]=found_colors[-1]
         found_category=next((item for item in CATEGORIES if item in words),None)
+        if not found_category:
+            found_category=next((value for key,value in CATEGORY_ALIASES.items() if key in words),None)
         if found_category: context["category"]=found_category
-        if "wedding" in words: context["occasion"]="wedding"
+        found_occasion=next((item for item in OCCASIONS if item in words),None)
+        if found_occasion: context["occasion"]="office" if found_occasion == "work" else found_occasion
+        found_style=next((item for item in STYLES if item in request.transcript.casefold()),None)
+        if found_style: context["style"]=found_style
+        if words & {"women", "woman", "wife", "daughter", "her"}: context["gender"]="women"
+        elif words & {"men", "man", "husband", "son", "him"}: context["gender"]="men"
         if "drop off" in request.transcript.casefold() or "drop-off" in request.transcript.casefold():
             context["return_method"]="DROP_OFF"
         elif " ".join(request.transcript.casefold().split()) in {"store", "store return", "return in store"}:
@@ -277,7 +325,7 @@ class VoiceService:
         if context.get("store_id"): session.current_store_id = context["store_id"]
         if context.get("order_item_id"): session.active_order_item_id=context["order_item_id"]
         if context.get("active_variant_id"): session.active_variant_id=context["active_variant_id"]
-        for field in ("category","occasion","budget_min","budget_max","size","fit",
+        for field in ("category","occasion","budget_min","budget_max","size","fit","style","gender",
                       "preferred_store","location","delivery_deadline","unresolved_issue"):
             if context.get(field) is not None:setattr(session,field,context[field])
         for field in ("colors","materials","must_have","avoid","secondary_intents"):
@@ -290,6 +338,34 @@ class VoiceService:
         session.pending_missing_fields = []
         session.pending_confirmation = False
         session.pending_confirmation_token = None
+
+    @staticmethod
+    def _clear_shopping_context(session):
+        for field in ("current_product_id", "reference_product_id", "active_variant_id", "category",
+                      "occasion", "budget_min", "budget_max", "size", "fit", "style", "gender"):
+            setattr(session, field, None)
+        for field in ("colors", "materials", "must_have", "avoid", "previous_recommendations"):
+            setattr(session, field, [])
+        VoiceService._clear_pending(session)
+
+    @staticmethod
+    def _shopping_clarification(text, context, session):
+        if session.pending_tool_name == "search_products" and session.pending_missing_fields:
+            field = session.pending_missing_fields[0]
+            if not context.get(field):
+                return field, CLARIFICATIONS[field]
+            return None
+        broad_request = any(signal in text for signal in ("i need", "looking for", "find me", "something"))
+        if context.get("category") == "dress" and broad_request and not context.get("occasion"):
+            context.setdefault("query", text)
+            return "occasion", CLARIFICATIONS["occasion"]
+        if context.get("occasion") == "office" and not context.get("style"):
+            context.setdefault("query", text)
+            return "style", CLARIFICATIONS["style"]
+        if context.get("style") in {"elegant", "formal", "modest"} and not context.get("occasion"):
+            context.setdefault("query", text)
+            return "occasion", CLARIFICATIONS["occasion"]
+        return None
 
     @staticmethod
     def _confirmation_prompt(decision):
@@ -321,7 +397,9 @@ class VoiceService:
                       "conversation_turn": session.conversation_turn,
                       "session_state":{"category":session.category,"occasion":session.occasion,
                           "budget_min":session.budget_min,"budget_max":session.budget_max,
-                          "size":session.size,"colors":session.colors,
+                          "size":session.size,"fit":session.fit,"style":session.style,
+                          "gender":session.gender,"colors":session.colors,
+                          "previous_recommendations":session.previous_recommendations,
                           "secondary_intents":session.secondary_intents},
                       **(metadata or {})})
 

@@ -58,6 +58,13 @@ class Settings(BaseModel):
         default_factory=lambda: os.getenv("CONFIRMATION_SECRET", os.getenv("TOOL_GATEWAY_SECRET", "confirm-secret-seed"))
     )
 
+    # Retell credentials remain server-side. The webhook secret may be the
+    # Retell API key designated for webhook signing or a separately managed key.
+    retell_api_key: str = Field(default_factory=lambda: os.getenv("RETELL_API_KEY", ""))
+    retell_webhook_secret: str = Field(
+        default_factory=lambda: os.getenv("RETELL_WEBHOOK_SECRET", "")
+    )
+
     # Transactional email. Credentials remain server-side and are never logged.
     email_provider: str = Field(default_factory=lambda: os.getenv("EMAIL_PROVIDER", "smtp"))
     email_from_name: str = Field(default_factory=lambda: os.getenv("EMAIL_FROM_NAME", "NexGen AI Fashion & Voice Commerce"))
