@@ -2,12 +2,15 @@
 
 import json
 import logging
+import time
+from collections import defaultdict, deque
+from threading import Lock
 from typing import Any
 
 from fastapi import APIRouter, Depends, Header, HTTPException, Request, status
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
-from backend.app.api.deps import get_db, verify_tool_secret
+from backend.app.api.deps import get_db
 from backend.app.api.routes_voice import voice_service
 from backend.app.config import settings
 from backend.app.retell.client import RetellClient, RetellClientError
@@ -22,7 +25,7 @@ router = APIRouter(prefix="/v1/retell", tags=["Retell Transport"])
 
 
 class CreateWebCallRequest(BaseModel):
-    agent_id: str = Field(min_length=1, max_length=120)
+    model_config = ConfigDict(extra="forbid")
     customer_id: str | None = Field(default=None, max_length=120)
 
 
@@ -31,20 +34,54 @@ class CreateWebCallResponse(BaseModel):
     access_token: str
 
 
+class WebCallRateLimiter:
+    """Small process-local guard for the anonymous call-creation boundary."""
+
+    def __init__(self, limit: int = 10, window_seconds: int = 60):
+        self.limit = limit
+        self.window_seconds = window_seconds
+        self._attempts: dict[str, deque[float]] = defaultdict(deque)
+        self._lock = Lock()
+
+    def allow(self, client_key: str) -> bool:
+        now = time.monotonic()
+        with self._lock:
+            attempts = self._attempts[client_key]
+            while attempts and now - attempts[0] >= self.window_seconds:
+                attempts.popleft()
+            if len(attempts) >= self.limit:
+                return False
+            attempts.append(now)
+            return True
+
+
+web_call_rate_limiter = WebCallRateLimiter()
+
+
+def _client_key(request: Request) -> str:
+    forwarded = request.headers.get("x-forwarded-for", "").split(",", 1)[0].strip()
+    return forwarded or (request.client.host if request.client else "unknown")
+
+
 @router.post(
     "/create-web-call",
     response_model=CreateWebCallResponse,
-    dependencies=[Depends(verify_tool_secret)],
     status_code=status.HTTP_201_CREATED,
 )
-def create_web_call(payload: CreateWebCallRequest):
-    """Create a Retell room without returning server credentials."""
+def create_web_call(payload: CreateWebCallRequest, request: Request):
+    """Create an anonymous-safe Retell room without browser-held secrets."""
+    if not web_call_rate_limiter.allow(_client_key(request)):
+        raise HTTPException(status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+                            detail="Too many web call requests. Please try again shortly.")
+    if not settings.retell_agent_id:
+        raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+                            detail="Voice calling is not configured.")
     session = voice_service.create_session(CreateVoiceSessionRequest(
         provider=VoiceProvider.RETELL,
         customer_id=payload.customer_id,
     ))
     body: dict[str, Any] = {
-        "agent_id": payload.agent_id,
+        "agent_id": settings.retell_agent_id,
         "metadata": {"nexgen_session_id": session.session_id},
     }
     try:

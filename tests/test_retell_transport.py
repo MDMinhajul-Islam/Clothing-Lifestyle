@@ -3,9 +3,15 @@ import hmac
 import json
 import time
 import unittest
+from types import SimpleNamespace
 from unittest.mock import patch
 
-from backend.app.api.routes_retell import CreateWebCallRequest, create_web_call, router
+from fastapi import HTTPException
+from pydantic import ValidationError
+
+from backend.app.api.routes_retell import (
+    CreateWebCallRequest, WebCallRateLimiter, create_web_call, router,
+)
 from backend.app.voice.providers.retell import RetellProviderAdapter
 from backend.app.voice.schemas import VoiceTurnResponse
 from backend.app.orchestrator.schemas import Route
@@ -56,17 +62,42 @@ class RetellTransportTests(unittest.TestCase):
         self.assertNotIn("metadata", built)
 
     @patch("backend.app.api.routes_retell.RetellClient.create_web_call")
-    def test_create_web_call_returns_only_public_call_credentials(self, create_call):
+    @patch("backend.app.api.routes_retell.settings.retell_agent_id", "agent-configured")
+    @patch("backend.app.api.routes_retell.web_call_rate_limiter.allow", return_value=True)
+    def test_create_web_call_returns_only_public_call_credentials(self, _allow, create_call):
         create_call.return_value = {
             "call_id": "call-123", "access_token": "public-token", "agent_id": "agent-1"
         }
-        response = create_web_call(CreateWebCallRequest(agent_id="agent-1"))
+        request = SimpleNamespace(headers={}, client=SimpleNamespace(host="127.0.0.1"))
+        response = create_web_call(CreateWebCallRequest(), request)
         self.assertEqual(response.model_dump(), {
             "call_id": "call-123", "access_token": "public-token"
         })
         sent = create_call.call_args.args[0]
-        self.assertEqual(sent["agent_id"], "agent-1")
+        self.assertEqual(sent["agent_id"], "agent-configured")
         self.assertIn("nexgen_session_id", sent["metadata"])
+
+    def test_create_web_call_schema_rejects_browser_agent_override(self):
+        with self.assertRaises(ValidationError):
+            CreateWebCallRequest.model_validate({"agent_id": "browser-selected"})
+
+    def test_create_web_call_has_no_tool_secret_dependency(self):
+        route = next(item for item in router.routes if item.path.endswith("/create-web-call"))
+        header_names = {parameter.alias for parameter in route.dependant.header_params}
+        self.assertNotIn("X-Tool-Secret", header_names)
+
+    def test_anonymous_rate_limit_rejects_excess_calls(self):
+        limiter = WebCallRateLimiter(limit=2, window_seconds=60)
+        self.assertTrue(limiter.allow("guest"))
+        self.assertTrue(limiter.allow("guest"))
+        self.assertFalse(limiter.allow("guest"))
+
+    @patch("backend.app.api.routes_retell.web_call_rate_limiter.allow", return_value=False)
+    def test_create_web_call_returns_429_when_limited(self, _allow):
+        request = SimpleNamespace(headers={}, client=SimpleNamespace(host="127.0.0.1"))
+        with self.assertRaises(HTTPException) as raised:
+            create_web_call(CreateWebCallRequest(), request)
+        self.assertEqual(raised.exception.status_code, 429)
 
 
 if __name__ == "__main__":

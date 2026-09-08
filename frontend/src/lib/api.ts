@@ -189,6 +189,24 @@ export async function sendVoiceTurn(
   };
 }
 
+export interface RetellWebCallAuthorization {
+  call_id: string;
+  access_token: string;
+}
+
+/** Creates a browser-safe Retell call authorization without sending internal credentials. */
+export async function createRetellWebCall(customerId?: string): Promise<RetellWebCallAuthorization> {
+  const response = await fetch(`${BACKEND_BASE_URL}/v1/retell/create-web-call`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(customerId ? { customer_id: customerId } : {}),
+  });
+  if (!response.ok) throw new Error(`Unable to start voice call (${response.status})`);
+  const payload = await response.json() as Partial<RetellWebCallAuthorization>;
+  if (!payload.call_id || !payload.access_token) throw new Error('Voice call authorization was incomplete.');
+  return { call_id: payload.call_id, access_token: payload.access_token };
+}
+
 /**
  * Terminates the active voice session.
  */

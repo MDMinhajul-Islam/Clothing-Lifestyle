@@ -61,6 +61,7 @@ class Settings(BaseModel):
     # Retell credentials remain server-side. The webhook secret may be the
     # Retell API key designated for webhook signing or a separately managed key.
     retell_api_key: str = Field(default_factory=lambda: os.getenv("RETELL_API_KEY", ""))
+    retell_agent_id: str = Field(default_factory=lambda: os.getenv("RETELL_AGENT_ID", ""))
     retell_webhook_secret: str = Field(
         default_factory=lambda: os.getenv("RETELL_WEBHOOK_SECRET", "")
     )
