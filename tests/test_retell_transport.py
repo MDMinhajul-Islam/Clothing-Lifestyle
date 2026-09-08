@@ -7,11 +7,14 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 from fastapi import HTTPException
+from fastapi.testclient import TestClient
 from pydantic import ValidationError
 
 from backend.app.api.routes_retell import (
-    CreateWebCallRequest, WebCallRateLimiter, create_web_call, router,
+    CreateWebCallRequest, WebCallRateLimiter, create_web_call, retell_function_results, router,
 )
+from backend.app.api.deps import get_db
+from backend.app.main import app
 from backend.app.voice.providers.retell import RetellProviderAdapter
 from backend.app.voice.schemas import VoiceTurnResponse
 from backend.app.orchestrator.schemas import Route
@@ -22,6 +25,7 @@ class RetellTransportTests(unittest.TestCase):
         paths = {route.path for route in router.routes}
         self.assertIn("/v1/retell/create-web-call", paths)
         self.assertIn("/v1/retell/webhook", paths)
+        self.assertIn("/v1/retell/function", paths)
 
     def test_signature_verification_uses_raw_body_and_rejects_tampering(self):
         body = b'{"event":"transcript_updated"}'
@@ -98,6 +102,52 @@ class RetellTransportTests(unittest.TestCase):
         with self.assertRaises(HTTPException) as raised:
             create_web_call(CreateWebCallRequest(), request)
         self.assertEqual(raised.exception.status_code, 429)
+
+    @staticmethod
+    def _signed_headers(body: bytes) -> dict[str, str]:
+        timestamp = str(int(time.time() * 1000))
+        digest = hmac.new(b"secret", body + timestamp.encode(), hashlib.sha256).hexdigest()
+        return {"X-Retell-Signature": f"v={timestamp},d={digest}",
+                "Content-Type": "application/json"}
+
+    @patch("backend.app.api.routes_retell.settings.retell_webhook_secret", "secret")
+    @patch("backend.app.api.routes_retell.voice_service.process_voice_turn")
+    def test_transcript_webhook_never_executes_conversation(self, process_turn):
+        body = json.dumps({"event": "transcript_updated", "call": {}}).encode()
+        response = TestClient(app).post("/v1/retell/webhook", content=body,
+                                        headers=self._signed_headers(body))
+        self.assertEqual(response.status_code, 200)
+        self.assertFalse(response.json()["processed"])
+        process_turn.assert_not_called()
+
+    @patch("backend.app.api.routes_retell.settings.retell_webhook_secret", "secret")
+    @patch("backend.app.api.routes_retell.voice_service.process_voice_turn")
+    def test_custom_function_executes_once_and_returns_spoken_text(self, process_turn):
+        process_turn.return_value = VoiceTurnResponse(
+            session_id="voice-123", status="READY", route=Route.TOOL_GATEWAY,
+            intent="SEARCH_PRODUCTS", execution_status="SUCCESS",
+            spoken_text="I found three black dresses.")
+        body = json.dumps({
+            "name": "nexgen_voice_turn",
+            "args": {"transcript": "Show me black dresses"},
+            "call": {"call_id": "call-123",
+                     "metadata": {"nexgen_session_id": "voice-123"}},
+        }, separators=(",", ":")).encode()
+        app.dependency_overrides[get_db] = lambda: object()
+        retell_function_results.clear()
+        try:
+            client = TestClient(app)
+            first = client.post("/v1/retell/function", content=body,
+                                headers=self._signed_headers(body))
+            second = client.post("/v1/retell/function", content=body,
+                                 headers=self._signed_headers(body))
+        finally:
+            app.dependency_overrides.pop(get_db, None)
+            retell_function_results.clear()
+        self.assertEqual(first.status_code, 200)
+        self.assertEqual(first.json()["result"], "I found three black dresses.")
+        self.assertEqual(second.json(), first.json())
+        process_turn.assert_called_once()
 
 
 if __name__ == "__main__":

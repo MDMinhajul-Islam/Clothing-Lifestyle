@@ -9,6 +9,7 @@ import { VoiceOrb } from './VoiceOrb';
 
 interface VoiceAssistantPanelProps {
   session: VoiceSession | null; voiceState: VoiceState; onStartSession: () => void; onEndSession: () => void;
+  isMuted: boolean; onToggleMute: () => void;
   onSendTranscript: (text: string) => void; history: VoiceTurnMessage[]; lastTurn: VoiceTurnMessage | null;
   onConfirmAction: (actionName: string, token?: string) => void; onCancelAction: () => void;
   isExpanded: boolean; onToggleExpand: () => void; authNotice?: string | null;
@@ -25,19 +26,19 @@ const inquiries = [
 ] as const;
 
 const stateLabel: Record<VoiceState, string> = {
-  IDLE: 'Ready to connect', CONNECTING: 'Connecting', LISTENING: 'Listening',
-  THINKING: 'Stylist finding pieces', SPEAKING: 'Stylist speaking',
+  IDLE: 'Ready to connect', CONNECTING: 'Connecting', CONNECTED: 'Connected', LISTENING: 'Listening',
+  THINKING: 'Stylist finding pieces', SPEAKING: 'Stylist speaking', DISCONNECTED: 'Disconnected',
+  ENDED: 'Call ended', ERROR: 'Unable to connect',
 };
 
-export const VoiceAssistantPanel: React.FC<VoiceAssistantPanelProps> = ({ session, voiceState, onStartSession, onEndSession, onSendTranscript, history, lastTurn, onConfirmAction, onCancelAction, isExpanded, onToggleExpand, authNotice }) => {
+export const VoiceAssistantPanel: React.FC<VoiceAssistantPanelProps> = ({ session, voiceState, onStartSession, onEndSession, isMuted, onToggleMute, onSendTranscript, history, lastTurn, onConfirmAction, onCancelAction, isExpanded, onToggleExpand, authNotice }) => {
   const [textInput, setTextInput] = React.useState('');
-  const [isMuted, setIsMuted] = React.useState(false);
   const [isDebugOpen, setIsDebugOpen] = React.useState(false);
   const [showCallDetails, setShowCallDetails] = React.useState(false);
   const [showTextRequest, setShowTextRequest] = React.useState(false);
   const [elapsedSeconds, setElapsedSeconds] = React.useState(0);
   const [micNotice, setMicNotice] = React.useState<string | null>(null);
-  const isActive = session?.status === 'ACTIVE';
+  const isActive = session !== null && voiceState !== 'IDLE';
 
   React.useEffect(() => {
     if (!isActive) return;
@@ -46,7 +47,6 @@ export const VoiceAssistantPanel: React.FC<VoiceAssistantPanelProps> = ({ sessio
   }, [isActive, session?.sessionId]);
 
   const endCall = () => { setElapsedSeconds(0); onEndSession(); };
-  const toggleMute = () => { setIsMuted((muted) => { if (!muted && 'speechSynthesis' in window) window.speechSynthesis.cancel(); return !muted; }); };
   const startBrowserMic = () => {
     const speechWindow = window as Window & { SpeechRecognition?: SpeechRecognizerConstructor; webkitSpeechRecognition?: SpeechRecognizerConstructor };
     const Recognition = speechWindow.SpeechRecognition ?? speechWindow.webkitSpeechRecognition;
@@ -68,7 +68,8 @@ export const VoiceAssistantPanel: React.FC<VoiceAssistantPanelProps> = ({ sessio
       <header className="bg-neutral-950 px-5 py-4 text-white">
         <div className="flex items-center justify-between"><div><p className="flex items-center gap-2 text-[10px] uppercase tracking-[0.18em] text-emerald-400"><span className="h-2 w-2 animate-pulse rounded-full bg-emerald-400" />Live AI Shopping Assistant</p><h2 className="mt-1 font-serif-luxury text-lg">NexGen personal stylist</h2></div><div className="flex items-center gap-3"><span className="font-mono text-xs text-neutral-300">{duration}</span><button onClick={onToggleExpand} className="p-1.5 text-neutral-300 hover:text-white" aria-label={isExpanded ? 'Collapse call' : 'Expand call'}>{isExpanded ? <ChevronDown className="h-4 w-4" /> : <ChevronUp className="h-4 w-4" />}</button></div></div>
         <div className="mt-2 flex items-center gap-2"><div className="-my-3 scale-[0.58]"><VoiceOrb state={voiceState} isMuted={isMuted} /></div><div className="min-w-0 flex-1"><p className="text-sm font-medium">{stateLabel[voiceState]}</p><AudioWave state={voiceState} muted={isMuted} /></div></div>
-        <div className="mt-2 flex items-center justify-center gap-3"><button onClick={toggleMute} className={`rounded-full border p-3 ${isMuted ? 'border-red-400 bg-red-500/20 text-red-300' : 'border-neutral-700 text-white hover:border-neutral-500'}`} aria-label={isMuted ? 'Unmute assistant' : 'Mute assistant'}>{isMuted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}</button><button onClick={startBrowserMic} className="rounded-full border border-neutral-700 p-3 text-white hover:border-emerald-400" aria-label="Use browser microphone fallback"><Mic className="h-4 w-4" /></button><button onClick={endCall} className="rounded-full bg-red-600 p-3 text-white hover:bg-red-700" aria-label="End voice call"><PhoneOff className="h-4 w-4" /></button></div>
+        <div className="mt-2 flex items-center justify-center gap-3"><button onClick={onToggleMute} className={`rounded-full border p-3 ${isMuted ? 'border-red-400 bg-red-500/20 text-red-300' : 'border-neutral-700 text-white hover:border-neutral-500'}`} aria-label={isMuted ? 'Unmute microphone' : 'Mute microphone'}>{isMuted ? <VolumeX className="h-4 w-4" /> : <Volume2 className="h-4 w-4" />}</button>{session?.provider !== 'retell' && <button onClick={startBrowserMic} className="rounded-full border border-neutral-700 p-3 text-white hover:border-emerald-400" aria-label="Use browser microphone fallback"><Mic className="h-4 w-4" /></button>}<button onClick={endCall} className="rounded-full bg-red-600 p-3 text-white hover:bg-red-700" aria-label="End voice call"><PhoneOff className="h-4 w-4" /></button></div>
+        {(voiceState === 'DISCONNECTED' || voiceState === 'ERROR' || voiceState === 'ENDED') && <button onClick={onStartSession} className="mx-auto mt-3 block text-[10px] uppercase tracking-[0.16em] text-white underline underline-offset-4">Reconnect</button>}
       </header>
 
       <div className="flex flex-col">

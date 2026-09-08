@@ -19,9 +19,13 @@ interface NavbarProps {
 const voiceLabel: Record<VoiceState, string> = {
   IDLE: 'Start live AI call',
   CONNECTING: 'Connecting',
+  CONNECTED: 'Connected',
   LISTENING: 'Caller speaking',
   THINKING: 'Stylist thinking',
   SPEAKING: 'Stylist speaking',
+  DISCONNECTED: 'Reconnect voice',
+  ENDED: 'Call ended',
+  ERROR: 'Voice unavailable',
 };
 
 export const Navbar: React.FC<NavbarProps> = ({

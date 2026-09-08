@@ -1,4 +1,4 @@
-"""Retell transport adapter; commerce decisions stay in VoiceService."""
+"""Retell signed-request and custom-function payload adapter."""
 
 import hashlib
 import hmac

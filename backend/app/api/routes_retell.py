@@ -1,6 +1,7 @@
-"""Authenticated Retell transport routes."""
+"""Retell web-call, lifecycle webhook, and synchronous function transport."""
 
 import json
+import hashlib
 import logging
 import time
 from collections import defaultdict, deque
@@ -58,6 +59,36 @@ class WebCallRateLimiter:
 web_call_rate_limiter = WebCallRateLimiter()
 
 
+class RetellFunctionResultCache:
+    """Deduplicate Retell retries without changing commerce-layer idempotency."""
+
+    def __init__(self, ttl_seconds: int = 300):
+        self.ttl_seconds = ttl_seconds
+        self._responses: dict[str, tuple[float, dict[str, Any]]] = {}
+        self._lock = Lock()
+
+    def get(self, key: str) -> dict[str, Any] | None:
+        now = time.monotonic()
+        with self._lock:
+            expired = [item for item, (created, _) in self._responses.items()
+                       if now - created >= self.ttl_seconds]
+            for item in expired:
+                self._responses.pop(item, None)
+            cached = self._responses.get(key)
+            return dict(cached[1]) if cached else None
+
+    def put(self, key: str, response: dict[str, Any]) -> None:
+        with self._lock:
+            self._responses[key] = (time.monotonic(), dict(response))
+
+    def clear(self) -> None:
+        with self._lock:
+            self._responses.clear()
+
+
+retell_function_results = RetellFunctionResultCache()
+
+
 def _client_key(request: Request) -> str:
     forwarded = request.headers.get("x-forwarded-for", "").split(",", 1)[0].strip()
     return forwarded or (request.client.host if request.client else "unknown")
@@ -92,30 +123,68 @@ def create_web_call(payload: CreateWebCallRequest, request: Request):
     return CreateWebCallResponse(call_id=result["call_id"], access_token=result["access_token"])
 
 
+def _verify_retell_request(adapter: RetellProviderAdapter, signature: str | None,
+                           raw_body: bytes) -> None:
+    if not adapter.verify_webhook({"X-Retell-Signature": signature or ""}, raw_body):
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
+                            detail="Invalid Retell signature.")
+
+
+def _decode_json(raw_body: bytes) -> dict[str, Any]:
+    try:
+        payload = json.loads(raw_body)
+    except (UnicodeDecodeError, json.JSONDecodeError):
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
+                            detail="Invalid JSON payload.") from None
+    if not isinstance(payload, dict):
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+                            detail="Retell payload must be an object.")
+    return payload
+
+
 @router.post("/webhook")
 async def retell_webhook(
     request: Request,
     x_retell_signature: str | None = Header(default=None, alias="X-Retell-Signature"),
-    conn=Depends(get_db),
 ):
-    """Verify, normalize, and execute Retell transcript/custom-function events."""
+    """Verify and acknowledge lifecycle events; never execute conversation turns."""
     raw_body = await request.body()
     adapter = RetellProviderAdapter()
-    if not adapter.verify_webhook({"X-Retell-Signature": x_retell_signature or ""}, raw_body):
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid Retell signature.")
-    try:
-        event = json.loads(raw_body)
-    except (UnicodeDecodeError, json.JSONDecodeError):
-        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST, detail="Invalid JSON payload.") from None
-
+    _verify_retell_request(adapter, x_retell_signature, raw_body)
+    event = _decode_json(raw_body)
     event_name = event.get("event")
-    if event_name in {"call_started", "call_ended", "call_analyzed"}:
-        return {"received": True}
-    if event_name not in {None, "transcript_updated"}:
-        return {"received": True}
+    if event_name == "call_ended":
+        session_id = ((event.get("call") or {}).get("metadata") or {}).get("nexgen_session_id")
+        if session_id:
+            try:
+                voice_service.end_session(str(session_id))
+            except VoiceSessionNotFound:
+                pass
+    return {"received": True, "event": event_name, "processed": False}
+
+
+@router.post("/function")
+async def retell_custom_function(
+    request: Request,
+    x_retell_signature: str | None = Header(default=None, alias="X-Retell-Signature"),
+    conn=Depends(get_db),
+):
+    """Execute one signed Retell custom function synchronously through VoiceService."""
+    raw_body = await request.body()
+    adapter = RetellProviderAdapter()
+    _verify_retell_request(adapter, x_retell_signature, raw_body)
+    payload = _decode_json(raw_body)
+    if payload.get("name") != "nexgen_voice_turn":
+        raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+                            detail="Unsupported Retell function.")
+
+    request_key = hashlib.sha256(raw_body).hexdigest()
+    cached = retell_function_results.get(request_key)
+    if cached is not None:
+        return cached
 
     try:
-        voice_request = adapter.normalize_event(event)
+        voice_request = adapter.normalize_event(payload)
         executor = VoiceCapabilityExecutor(LocalVoiceCapabilityBackend(conn))
         response = voice_service.process_voice_turn(voice_request, executor=executor)
     except VoiceSessionNotFound as exc:
@@ -126,5 +195,7 @@ async def retell_webhook(
     except Exception:
         logger.exception("Retell voice turn processing failed.")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                            detail="Retell voice turn processing failed.") from None
-    return adapter.build_response(response)
+                            detail="Retell function processing failed.") from None
+    result = adapter.build_response(response)
+    retell_function_results.put(request_key, result)
+    return result

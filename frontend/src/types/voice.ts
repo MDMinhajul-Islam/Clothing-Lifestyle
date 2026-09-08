@@ -1,6 +1,15 @@
 import type { Product } from './catalog';
 
-export type VoiceState = 'IDLE' | 'CONNECTING' | 'LISTENING' | 'THINKING' | 'SPEAKING';
+export type VoiceState =
+  | 'IDLE'
+  | 'CONNECTING'
+  | 'CONNECTED'
+  | 'LISTENING'
+  | 'THINKING'
+  | 'SPEAKING'
+  | 'DISCONNECTED'
+  | 'ENDED'
+  | 'ERROR';
 
 /**
  * Voice session provider. Backend session accepts 'mock'. Retell integration will be supported in future phases.
