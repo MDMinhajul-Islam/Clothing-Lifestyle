@@ -1,6 +1,7 @@
 import React from 'react';
 import { Check, ChevronRight, Loader2, MapPin, Mic, Sparkles, X } from 'lucide-react';
 import type { Product } from '../../types/catalog';
+import { resolveProductImage } from '../../lib/catalogueApi';
 
 interface ProductDetailModalProps {
   product: Product | null;
@@ -17,10 +18,13 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
   const [sizeSelection, setSizeSelection] = React.useState<{ productId: string; value: string } | null>(null);
   const [imageSelection, setImageSelection] = React.useState<{ productId: string; value: string } | null>(null);
   const [addedProductId, setAddedProductId] = React.useState<string | null>(null);
+  const [failedImages, setFailedImages] = React.useState<{ productId: string; values: string[] } | null>(null);
 
   if (!product) return null;
   const selectedSize = sizeSelection?.productId === product.id ? sizeSelection.value : product.matchedVariant?.size || product.sizes[0] || 'One size';
-  const selectedImage = imageSelection?.productId === product.id ? imageSelection.value : product.image;
+  const unavailableImages = failedImages?.productId === product.id ? failedImages.values : [];
+  const requestedImage = imageSelection?.productId === product.id ? imageSelection.value : product.image;
+  const selectedImage = resolveProductImage(product, requestedImage, unavailableImages);
   const isAdded = addedProductId === product.id;
   const purchasable = product.inStock;
   const addToBag = () => {
@@ -32,15 +36,15 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({ product,
   return (
     <div className="fixed inset-0 z-50 flex justify-end overflow-y-auto bg-black/60 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label={product.name}>
       <button className="fixed inset-0 cursor-default" onClick={onClose} aria-label="Close product details" />
-      <article className="relative z-10 min-h-screen w-full max-w-3xl overflow-y-auto border-l border-neutral-200 bg-white shadow-2xl">
+      <article className="relative z-10 min-h-screen w-full max-w-4xl overflow-y-auto border-l border-neutral-200 bg-white shadow-2xl">
         <header className="sticky top-0 z-20 flex items-center justify-between border-b border-neutral-200 bg-white/95 px-6 py-4 backdrop-blur-md">
           <div className="text-[10px] uppercase tracking-[0.18em] text-neutral-500"><span>NexGen collection</span><span className="mx-2 text-neutral-300">/</span><span>Ref. {product.commercialReference || product.id}</span></div>
           <button onClick={onClose} className="rounded-full p-2 text-neutral-500 hover:bg-neutral-100 hover:text-black" aria-label="Close"><X className="h-5 w-5" /></button>
         </header>
 
-        <div className="grid gap-8 p-6 md:grid-cols-[1.15fr_0.85fr] md:p-8">
+        <div className="grid gap-10 px-7 py-8 md:grid-cols-[1.1fr_0.9fr] md:px-12 md:py-10 lg:px-14">
           <div>
-            <div className="relative aspect-[3/4] overflow-hidden bg-neutral-100">{selectedImage ? <img src={selectedImage} alt={product.name} className="h-full w-full object-cover object-top" /> : <span className="absolute inset-0 grid place-items-center text-[10px] uppercase tracking-widest text-neutral-400">Image unavailable</span>}{isLoading && <span className="absolute inset-0 grid place-items-center bg-white/70"><Loader2 className="h-5 w-5 animate-spin" /></span>}</div>
+            <div className="relative aspect-[3/4] overflow-hidden bg-neutral-100">{selectedImage ? <img src={selectedImage} alt={product.name} onError={() => setFailedImages((current) => ({ productId: product.id, values: Array.from(new Set([...(current?.productId === product.id ? current.values : []), selectedImage])) }))} className="h-full w-full object-cover object-top" /> : <span className="absolute inset-0 grid place-items-center px-6 text-center text-[10px] uppercase tracking-widest text-neutral-400">Product imagery is unavailable. Details and availability remain current.</span>}{isLoading && <span className="absolute inset-0 grid place-items-center bg-white/70"><Loader2 className="h-5 w-5 animate-spin" /></span>}</div>
             {product.gallery.length > 1 && <div className="mt-3 flex gap-2 overflow-x-auto">{product.gallery.map((image) => <button key={image} onClick={() => setImageSelection({ productId: product.id, value: image })} className={`w-16 shrink-0 overflow-hidden border ${selectedImage === image ? 'border-black' : 'border-neutral-200 opacity-70'}`}><img src={image} alt="" className="aspect-[3/4] h-full w-full object-cover object-top" /></button>)}</div>}
           </div>
 

@@ -10,7 +10,9 @@ from backend.app.voice.composer import VoiceResponseComposer
 BLACK_VARIANT = {
     "variant_id": "zara-us:00387161:black-m", "sku": "BLACK-M", "color": "Black",
     "size": "M", "availability_state": "IN_STOCK", "in_stock": True,
-    "image_url": "https://example.test/black-dress.jpg", "price": 69.9,
+    "image_url": "https://example.test/black-dress.jpg",
+    "gallery_urls": ["https://example.test/black-dress.jpg", "https://example.test/black-detail.jpg"],
+    "price": 69.9,
 }
 ROW = {
     "product_id": "zara-us:00387161", "name": "DRAPED MINI DRESS WITH HARDWARE",
@@ -76,6 +78,7 @@ class SearchQualityTests(unittest.TestCase):
         self.assertEqual(card.matched_variant.sku, "BLACK-M")
         self.assertTrue(card.matched_variant.in_stock)
         self.assertEqual(card.primary_image_url, card.matched_variant.image_url)
+        self.assertEqual(card.matched_variant.gallery_urls[1], "https://example.test/black-detail.jpg")
 
     def test_occasion_taxonomy_and_graceful_fallbacks(self):
         cases = (

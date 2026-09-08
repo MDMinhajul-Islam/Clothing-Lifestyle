@@ -12,6 +12,7 @@ export interface ProductVariant {
   stockQuantity?: number;
   color?: string;
   image?: string;
+  gallery?: string[];
   price?: number;
   availabilityState?: string;
 }

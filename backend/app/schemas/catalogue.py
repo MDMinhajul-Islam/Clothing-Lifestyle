@@ -30,6 +30,7 @@ class MatchedVariant(BaseModel):
     availability_state: str
     in_stock: bool
     image_url: Optional[str] = None
+    gallery_urls: List[str] = Field(default_factory=list)
     price: Optional[float] = None
 
 

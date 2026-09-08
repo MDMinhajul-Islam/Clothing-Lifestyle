@@ -144,21 +144,32 @@ class CatalogueRepository(BaseRepository):
                         ORDER BY (img.image_role = 'PRIMARY') DESC, img.display_order ASC
                         LIMIT 1
                     ) as primary_image_url
-                    ,CASE WHEN %s::text IS NOT NULL OR %s::text IS NOT NULL THEN (
+                    ,(
                         SELECT jsonb_build_object(
                             'variant_id', v.variant_id, 'sku', v.sku, 'color', v.color_name,
                             'size', v.size_name, 'availability_state', v.public_availability_state,
                             'in_stock', v.public_availability_state='IN_STOCK', 'price', p.current_price,
-                            'image_url', (SELECT i.source_image_url FROM product_images i
+                            'image_url', COALESCE((SELECT i.source_image_url FROM product_images i
                                 WHERE i.product_id=p.product_id AND
                                 (i.variant_id=v.variant_id OR i.color_name ILIKE v.color_name)
                                 ORDER BY (i.variant_id=v.variant_id) DESC,
-                                    (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC, i.display_order LIMIT 1))
+                                    (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC, i.display_order LIMIT 1),
+                                (SELECT i.source_image_url FROM product_images i WHERE i.product_id=p.product_id
+                                    ORDER BY (i.image_role='PRIMARY') DESC,i.display_order LIMIT 1)),
+                            'gallery_urls', COALESCE((SELECT jsonb_agg(i.source_image_url ORDER BY
+                                (i.variant_id=v.variant_id) DESC,(i.color_name ILIKE v.color_name) DESC,
+                                (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC,i.display_order)
+                                FROM product_images i WHERE i.product_id=p.product_id AND
+                                (i.variant_id=v.variant_id OR i.color_name ILIKE v.color_name)),
+                                (SELECT jsonb_agg(i.source_image_url ORDER BY
+                                    (i.image_role='PRIMARY') DESC,i.display_order)
+                                    FROM product_images i WHERE i.product_id=p.product_id),
+                                '[]'::jsonb))
                         FROM product_variants v WHERE v.product_id=p.product_id
                             AND (%s::text IS NULL OR v.color_name ILIKE %s)
                             AND (%s::text IS NULL OR v.size_name ILIKE %s)
                         ORDER BY (v.public_availability_state='IN_STOCK') DESC, v.variant_id LIMIT 1
-                    ) END AS matched_variant
+                    ) AS matched_variant
                 FROM products p
                 {embedding_join}
                 WHERE {where_sql}
@@ -166,8 +177,6 @@ class CatalogueRepository(BaseRepository):
                 LIMIT %s;
             """
             select_params = [
-                color.strip() if color and color.strip() else None,
-                size.strip() if size and size.strip() else None,
                 color.strip() if color and color.strip() else None,
                 f"%{color.strip()}%" if color and color.strip() else None,
                 size.strip() if size and size.strip() else None,
@@ -402,8 +411,7 @@ class CatalogueRepository(BaseRepository):
             requested_color = color.strip() if color else None
             requested_size = size.strip() if size else None
             select_params = [requested_color, f"%{requested_color}%" if requested_color else None,
-                requested_color, requested_size, requested_color,
-                f"%{requested_color}%" if requested_color else None,
+                requested_color, f"%{requested_color}%" if requested_color else None,
                 requested_size, f"%{requested_size}%" if requested_size else None,
             ]
             select_params.extend(params)
@@ -426,19 +434,30 @@ class CatalogueRepository(BaseRepository):
                         FROM product_images i WHERE i.product_id = p.product_id), ARRAY[]::TEXT[]) AS image_urls,
                     EXISTS (SELECT 1 FROM product_variants v WHERE v.product_id = p.product_id AND v.public_availability_state = 'IN_STOCK') AS available,
                     'catalogue' AS source,
-                    CASE WHEN %s::text IS NOT NULL OR %s::text IS NOT NULL THEN (
+                    (
                         SELECT jsonb_build_object('variant_id',v.variant_id,'sku',v.sku,'color',v.color_name,
                             'size',v.size_name,'availability_state',v.public_availability_state,
                             'in_stock',v.public_availability_state='IN_STOCK','price',p.current_price,
-                            'image_url',(SELECT i.source_image_url FROM product_images i WHERE i.product_id=p.product_id
+                            'image_url',COALESCE((SELECT i.source_image_url FROM product_images i WHERE i.product_id=p.product_id
                                 AND (i.variant_id=v.variant_id OR i.color_name ILIKE v.color_name)
                                 ORDER BY (i.variant_id=v.variant_id) DESC,
-                                    (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC,i.display_order LIMIT 1))
+                                    (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC,i.display_order LIMIT 1),
+                                (SELECT i.source_image_url FROM product_images i WHERE i.product_id=p.product_id
+                                    ORDER BY (i.image_role='PRIMARY') DESC,i.display_order LIMIT 1)),
+                            'gallery_urls',COALESCE((SELECT jsonb_agg(i.source_image_url ORDER BY
+                                (i.variant_id=v.variant_id) DESC,(i.color_name ILIKE v.color_name) DESC,
+                                (i.image_role IN ('PRIMARY','COLOR_SPECIFIC')) DESC,i.display_order)
+                                FROM product_images i WHERE i.product_id=p.product_id AND
+                                (i.variant_id=v.variant_id OR i.color_name ILIKE v.color_name)),
+                                (SELECT jsonb_agg(i.source_image_url ORDER BY
+                                    (i.image_role='PRIMARY') DESC,i.display_order)
+                                    FROM product_images i WHERE i.product_id=p.product_id),
+                                '[]'::jsonb))
                         FROM product_variants v WHERE v.product_id=p.product_id
                             AND (%s::text IS NULL OR v.color_name ILIKE %s)
                             AND (%s::text IS NULL OR v.size_name ILIKE %s)
                         ORDER BY (v.public_availability_state='IN_STOCK') DESC,v.variant_id LIMIT 1
-                    ) END AS matched_variant
+                    ) AS matched_variant
                 FROM products p {embedding_join} WHERE {where_sql}
                 ORDER BY {order_sql} LIMIT %s OFFSET %s
             """, tuple(select_params))

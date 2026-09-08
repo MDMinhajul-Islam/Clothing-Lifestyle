@@ -2,7 +2,7 @@ import type { Product, ProductFilter } from '../types/catalog';
 
 const API_URL = (import.meta.env.VITE_BACKEND_API_URL || 'http://localhost:8000').replace(/\/$/, '');
 
-interface ApiMatchedVariant { variant_id: string; sku?: string | null; color?: string | null; size?: string | null; availability_state: string; in_stock: boolean; image_url?: string | null; price?: number | null }
+interface ApiMatchedVariant { variant_id: string; sku?: string | null; color?: string | null; size?: string | null; availability_state: string; in_stock: boolean; image_url?: string | null; gallery_urls?: string[] | null; price?: number | null }
 interface ApiProduct { product_id: string; name: string; department: string; category?: string | null; description?: string | null; price: number; original_price?: number | null; currency: string; colors: string[]; sizes: string[]; image_urls: string[]; available: boolean; is_on_sale: boolean; matched_variant?: ApiMatchedVariant | null; hero_video_url?: string | null; hero_media_url?: string | null; model_walk_url?: string | null; lookbook_media?: string[] | null }
 interface ApiList { items: ApiProduct[]; total: number; limit: number; offset: number; has_more: boolean }
 export interface CatalogueFacets { departments: string[]; categories: string[]; colors: string[]; price_min: number; price_max: number; total_products: number }
@@ -17,12 +17,13 @@ const colorHex = (name: string) => {
 
 export const toProduct = (item: ApiProduct): Product => {
   const matched = item.matched_variant;
-  const images = Array.from(new Set([matched?.image_url, ...(item.image_urls || [])].filter((value): value is string => Boolean(value))));
+  const matchedGallery = (matched?.gallery_urls || []).filter(Boolean);
+  const images = Array.from(new Set([matched?.image_url, ...matchedGallery, ...(item.image_urls || [])].filter((value): value is string => Boolean(value))));
   const colorNames = Array.from(new Set([matched?.color, ...(item.colors || [])].filter((value): value is string => Boolean(value))));
   const matchedVariant = matched ? { id: matched.variant_id, sku: matched.sku || 'Information unavailable',
     size: matched.size || 'Information unavailable', color: matched.color || undefined,
     inStock: matched.in_stock, availabilityState: matched.availability_state,
-    image: matched.image_url || undefined, price: matched.price == null ? undefined : Number(matched.price) } : undefined;
+    image: matched.image_url || undefined, gallery: matchedGallery, price: matched.price == null ? undefined : Number(matched.price) } : undefined;
   return {
   id: item.product_id, name: item.name || 'Information unavailable', price: matchedVariant?.price ?? (Number(item.price) || 0), originalPrice: item.original_price,
   currency: item.currency || 'USD', department: item.department || 'Collection', category: item.category || 'Information unavailable',
@@ -42,10 +43,13 @@ export const preserveMatchedVariant = (details: Product, result: Product): Produ
     ? [details.colors.find((color) => color.name === matched.color) || { name: matched.color, hex: colorHex(matched.color) },
        ...details.colors.filter((color) => color.name !== matched.color)]
     : details.colors;
-  const gallery = Array.from(new Set([matched.image, ...details.gallery].filter((value): value is string => Boolean(value))));
+  const gallery = Array.from(new Set([matched.image, ...(matched.gallery || []), ...details.gallery].filter((value): value is string => Boolean(value))));
   return { ...details, matchedVariant: matched, variants: [matched, ...(details.variants || []).filter((item) => item.id !== matched.id)],
     colors, gallery, image: matched.image || details.image, price: matched.price ?? details.price, inStock: matched.inStock };
 };
+
+export const resolveProductImage = (product: Product, requested: string, failed: string[]) =>
+  !failed.includes(requested) ? requested : product.gallery.find((image) => !failed.includes(image)) || '';
 
 export async function fetchCatalogueProducts(filter: ProductFilter, limit = 24, offset = 0, signal?: AbortSignal) {
   const params = new URLSearchParams({ limit: String(limit), offset: String(offset), sort: ({ 'price-asc': 'price_low_high', 'price-desc': 'price_high_low' } as Record<string, string>)[filter.sort] || filter.sort });
