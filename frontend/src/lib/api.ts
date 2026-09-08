@@ -1,4 +1,4 @@
-import type { VoiceSession, VoiceTurnMessage, VoiceProvider } from '../types/voice';
+import type { VoiceSession, VoiceTurnMessage, VoiceProvider, WebpageVoiceContext } from '../types/voice';
 import type { Product } from '../types/catalog';
 
 const BACKEND_BASE_URL = 
@@ -129,7 +129,8 @@ export async function createVoiceSession(
 export async function sendVoiceTurn(
   session: VoiceSession,
   transcript: string,
-  _catalogProducts: Product[]
+  _catalogProducts: Product[],
+  webpageContext: WebpageVoiceContext = {},
 ): Promise<{
   message: VoiceTurnMessage;
   updatedFilter?: { category?: string; color?: string; searchQuery?: string };
@@ -153,6 +154,7 @@ export async function sendVoiceTurn(
           auth_level: session.authLevel,
           order_id: session.activeOrderNumber,
           product_id: session.currentProductId,
+          ...webpageContext,
         },
       }),
     });
@@ -195,11 +197,11 @@ export interface RetellWebCallAuthorization {
 }
 
 /** Creates a browser-safe Retell call authorization without sending internal credentials. */
-export async function createRetellWebCall(customerId?: string): Promise<RetellWebCallAuthorization> {
+export async function createRetellWebCall(customerId?: string, context: WebpageVoiceContext = {}): Promise<RetellWebCallAuthorization> {
   const response = await fetch(`${BACKEND_BASE_URL}/v1/retell/create-web-call`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(customerId ? { customer_id: customerId } : {}),
+    body: JSON.stringify({ ...(customerId ? { customer_id: customerId } : {}), context }),
   });
   if (!response.ok) throw new Error(`Unable to start voice call (${response.status})`);
   const payload = await response.json() as Partial<RetellWebCallAuthorization>;

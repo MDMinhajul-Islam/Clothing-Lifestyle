@@ -16,7 +16,7 @@ class VoiceResponseComposer:
             return "It was a pleasure helping you today. I'll be here whenever you're ready."
         if "help" in text:
             return "I can help you find the right pieces, build an outfit, check availability, or assist with an order. Where shall we begin?"
-        return "I'd be happy to help with your shopping. What would you like to find?"
+        return "Live shopping information is temporarily unavailable. Please try again in a moment."
 
     def compose(self, decision, data, status):
         if status in {"AUTHORIZATION_REQUIRED", "AUTH_TOKEN_INVALID", "AUTH_TOKEN_EXPIRED"}:
@@ -38,7 +38,9 @@ class VoiceResponseComposer:
                 if item.get("price") is not None:
                     label += f" at {item['price']} {item.get('currency', 'USD')}"
                 labels.append(label)
-            introduction = "I found a few pieces worth considering: "
+            introduction = ((str(data.get("fallback_message")).rstrip(".") + ". Here are a few: ")
+                            if data.get("fallback_message") else
+                            "I found a few pieces worth considering: ")
             follow_up = (" Would you like me to find pieces to complete the look?"
                          if decision.intent == "RECOMMEND_MATCHING_PRODUCTS"
                          else " Would you like details on any of them?")

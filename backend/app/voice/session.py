@@ -21,6 +21,10 @@ class VoiceSession(BaseModel):
     current_product_id: str | None = None
     reference_product_id: str | None = None
     active_variant_id: str | None = None
+    current_product_reference: str | None = None
+    current_sku: str | None = None
+    current_page_url: str | None = None
+    current_search_query: str | None = None
     active_order_item_id: str | None = None
     current_store_id: str | None = None
     preferred_store: str | None = None

@@ -30,6 +30,7 @@ class FakeEmbedding:
 
 class FakeRepo:
     def search_products(self, **kwargs):
+        self.calls = getattr(self, "calls", []) + [kwargs]
         self.arguments = kwargs
         return (0, []) if kwargs.get("occasion") in {"wedding", "office", "evening", "casual", "eid"} else (1, [ROW])
 
@@ -62,11 +63,13 @@ class SearchQualityTests(unittest.TestCase):
     def test_wedding_requests_extract_an_occasion_without_ignoring_it(self):
         service = self.service()
         result = service.search_products(SearchProductsInput(query="black wedding dress"))
-        self.assertIsNone(service.repo.arguments["query"])
-        self.assertEqual(service.repo.arguments["occasion"], "wedding")
-        self.assertEqual(service.repo.arguments["product_type"], "dress")
-        self.assertEqual(service.repo.arguments["color"], "black")
-        self.assertEqual(result.total_matching, 0)
+        initial = service.repo.calls[0]
+        self.assertIsNone(initial["query"])
+        self.assertEqual(initial["occasion"], "wedding")
+        self.assertEqual(initial["product_type"], "dress")
+        self.assertEqual(initial["color"], "black")
+        self.assertEqual(service.repo.calls[1]["occasion"], None)
+        self.assertEqual(result.total_matching, 1)
 
     def test_dress_shoes_are_shoes_not_dresses(self):
         self.assert_facets("dress shoes", product_type="shoes", residual="dress")
@@ -93,12 +96,13 @@ class SearchQualityTests(unittest.TestCase):
             with self.subTest(query=query):
                 service = self.service()
                 result = service.search_products(SearchProductsInput(query=query))
-                self.assertEqual(service.repo.arguments["occasion"], occasion)
-                self.assertEqual(service.repo.arguments["product_type"], product_type)
+                self.assertEqual(service.repo.calls[0]["occasion"], occasion)
+                self.assertEqual(service.repo.calls[0]["product_type"], product_type)
                 if unavailable:
-                    self.assertEqual(result.products, [])
+                    self.assertEqual(result.returned_count, 1)
+                    self.assertIsNone(service.repo.calls[1]["occasion"])
                     self.assertIn(f"{occasion}-specific", result.fallback_message)
-                    self.assertIn("I can show", result.fallback_message)
+                    self.assertIn("I found", result.fallback_message)
                 else:
                     self.assertEqual(result.returned_count, 1)
                     self.assertIsNone(result.fallback_message)

@@ -57,6 +57,19 @@ class RetellTransportTests(unittest.TestCase):
         self.assertEqual(request.session_id, "voice-123")
         self.assertEqual(request.transcript, "Show me black dresses")
 
+    def test_webpage_context_is_restored_and_function_context_wins(self):
+        request = RetellProviderAdapter(webhook_secret="secret").normalize_event({
+            "name": "nexgen_voice_turn",
+            "args": {"transcript": "Medium?", "context": {"size": "M"}},
+            "call": {"metadata": {"nexgen_session_id": "voice-123", "webpage_context": {
+                "product_id": "zara-us:00000001", "size": "S",
+                "visible_products": [{"product_id": "zara-us:00000001", "name": "Dress"}],
+            }}},
+        })
+        self.assertEqual(request.context.product_id, "zara-us:00000001")
+        self.assertEqual(request.context.size, "M")
+        self.assertEqual(request.context.visible_products[0]["name"], "Dress")
+
     def test_build_response_returns_retell_spoken_result(self):
         response = VoiceTurnResponse(session_id="voice-123", status="READY",
             route=Route.GENERAL_CHAT, intent="GENERAL_CONVERSATION",
@@ -80,6 +93,7 @@ class RetellTransportTests(unittest.TestCase):
         sent = create_call.call_args.args[0]
         self.assertEqual(sent["agent_id"], "agent-configured")
         self.assertIn("nexgen_session_id", sent["metadata"])
+        self.assertEqual(sent["metadata"]["webpage_context"], {})
 
     def test_create_web_call_schema_rejects_browser_agent_override(self):
         with self.assertRaises(ValidationError):

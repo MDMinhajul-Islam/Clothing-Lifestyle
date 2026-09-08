@@ -47,6 +47,10 @@ class OrchestratorContext(BaseModel):
     secondary_intents: list[str] | None = None
     unresolved_issue: str | None = None
     query: str | None = None
+    product_reference: str | None = None
+    sku: str | None = None
+    page_url: str | None = None
+    visible_products: list[dict[str, Any]] | None = None
     email: str | None = None
     phone: str | None = None
     verification_value: str | None = None
@@ -64,7 +68,7 @@ class OrchestratorContext(BaseModel):
     @field_validator("customer_type", "auth_level", "access_token", "customer_id", "order_id",
                      "order_item_id", "product_id", "reference_product_id", "active_variant_id",
                      "category", "occasion", "size", "fit", "style", "gender", "color",
-                     "store_id", "query", "email", "phone", "verification_value", "promotion_code",
+                     "store_id", "query", "product_reference", "sku", "page_url", "email", "phone", "verification_value", "promotion_code",
                      "preferred_store", "location", "delivery_deadline", "unresolved_issue",
                      "destination", "purpose", "issue_type", "issue_category", "factual_summary", "requested_outcome",
                      "return_method")

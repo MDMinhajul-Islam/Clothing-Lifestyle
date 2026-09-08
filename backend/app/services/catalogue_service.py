@@ -118,7 +118,17 @@ class CatalogueService:
         if facets.occasion and not cards:
             alternative = OCCASION_ALTERNATIVES[facets.occasion]
             requested = f"{facets.occasion}-specific"
-            fallback = f"I couldn't find {requested} pieces in our current collection. I can show {alternative}."
+            total, rows = self.repo.search_products(
+                query=facets.query, semantic_vector=semantic_vector, department=facets.department,
+                category_id=input_data.category_id, category=input_data.category,
+                product_type=facets.product_type, min_price=facets.min_price,
+                max_price=facets.max_price, color=facets.color, size=input_data.size,
+                material=facets.material, brand=facets.brand, occasion=None,
+                on_sale=input_data.on_sale, limit=input_data.limit,
+            )
+            cards = [ProductCard(**r) for r in rows]
+            fallback = (f"I couldn't find {requested} pieces in our current collection. "
+                        f"I found {alternative} instead.")
         return SearchProductsOutput(
             total_matching=total,
             returned_count=len(cards),

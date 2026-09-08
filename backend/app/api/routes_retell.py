@@ -19,6 +19,7 @@ from backend.app.retell.timing import TimedConnection, begin as begin_timing, fi
 from backend.app.voice.capabilities.local import LocalVoiceCapabilityBackend
 from backend.app.voice.executor import VoiceCapabilityExecutor
 from backend.app.voice.providers.retell import RetellProviderAdapter
+from backend.app.orchestrator.schemas import OrchestratorContext
 from backend.app.voice.schemas import CreateVoiceSessionRequest, VoiceProvider
 from backend.app.voice.session import VoiceSessionNotFound
 
@@ -29,6 +30,7 @@ router = APIRouter(prefix="/v1/retell", tags=["Retell Transport"])
 class CreateWebCallRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
     customer_id: str | None = Field(default=None, max_length=120)
+    context: OrchestratorContext = Field(default_factory=OrchestratorContext)
 
 
 class CreateWebCallResponse(BaseModel):
@@ -131,7 +133,10 @@ def create_web_call(payload: CreateWebCallRequest, request: Request):
     ))
     body: dict[str, Any] = {
         "agent_id": settings.retell_agent_id,
-        "metadata": {"nexgen_session_id": session.session_id},
+        "metadata": {
+            "nexgen_session_id": session.session_id,
+            "webpage_context": payload.context.model_dump(exclude_none=True),
+        },
     }
     try:
         result = RetellClient(settings.retell_api_key).create_web_call(body)

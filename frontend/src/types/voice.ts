@@ -30,6 +30,26 @@ export interface VoiceSession {
   currentProductId?: string;
 }
 
+export interface WebpageVoiceContext {
+  product_id?: string;
+  reference_product_id?: string;
+  active_variant_id?: string;
+  product_reference?: string;
+  sku?: string;
+  color?: string;
+  size?: string;
+  query?: string;
+  page_url?: string;
+  visible_products?: Array<{
+    product_id: string;
+    name: string;
+    variant_id?: string;
+    sku?: string;
+    color?: string;
+    size?: string;
+  }>;
+}
+
 export type RouteType = 
   | 'DYNAMIC_TOOL_CALL' 
   | 'RAG_GROUNDED_RETRIEVAL' 

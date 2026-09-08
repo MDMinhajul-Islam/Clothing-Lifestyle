@@ -20,6 +20,9 @@ NO = {"no", "cancel", "never mind", "nevermind", "stop", "don't", "do not"}
 ORDER_ID = re.compile(r"\b(?:ORD|ZUS)-[A-Z0-9-]+\b", re.IGNORECASE)
 PRODUCT_ID = re.compile(r"\bzara-us:\d{8}\b", re.IGNORECASE)
 BUDGET_MAX = re.compile(r"(?:under|below|less than|up to)\s*\$?\s*(\d+(?:\.\d+)?)", re.IGNORECASE)
+BUDGET_WORD = re.compile(r"(?:under|below|less than|up to)\s+(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)", re.IGNORECASE)
+BUDGET_VALUES = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60,
+                 "seventy": 70, "eighty": 80, "ninety": 90, "hundred": 100}
 SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
 CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "top", "skirt", "shoes", "coat"}
@@ -135,6 +138,7 @@ class VoiceService:
                 requires_confirmation=True, tool_name=session.pending_tool_name)
 
         context = self._merged_context(session, request)
+        self._resolve_product_reference(text, context, session)
         clarification = self._shopping_clarification(text, context, session)
         if clarification:
             field, prompt = clarification
@@ -234,9 +238,11 @@ class VoiceService:
         if decision.intent in {"SEARCH_PRODUCTS", "FIND_SIMILAR_PRODUCTS", "RECOMMEND_MATCHING_PRODUCTS"}:
             products = data.get("results") or data.get("products") or []
             session.previous_recommendations = [
-                {key: item[key] for key in ("product_id", "name") if item.get(key)}
+                {key: item[key] for key in ("product_id", "name", "variant_id", "sku", "color", "size") if item.get(key)}
                 for item in products[:5]
             ]
+            if session.previous_recommendations:
+                session.current_product_id = session.previous_recommendations[0].get("product_id")
 
     @classmethod
     def _safe_metadata(cls, value):
@@ -277,6 +283,11 @@ class VoiceService:
             "delivery_deadline": session.delivery_deadline,
             "secondary_intents": list(session.secondary_intents),
             "unresolved_issue": session.unresolved_issue,
+            "query": session.current_search_query,
+            "product_reference": session.current_product_reference,
+            "sku": session.current_sku,
+            "page_url": session.current_page_url,
+            "visible_products": list(session.previous_recommendations),
         }
         context.update(session.pending_arguments)
         context.update(request.context.model_dump(exclude_none=True))
@@ -286,7 +297,9 @@ class VoiceService:
         if product: context["product_id"] = product.group(0).lower()
         budget=BUDGET_MAX.search(request.transcript)
         if budget: context["budget_max"]=float(budget.group(1))
-        size=SIZE_ONLY.match(" ".join(request.transcript.casefold().split()))
+        budget_word=BUDGET_WORD.search(request.transcript)
+        if budget_word: context["budget_max"]=float(BUDGET_VALUES[budget_word.group(1).casefold()])
+        size=SIZE_ONLY.match(" ".join(request.transcript.casefold().split()).rstrip("?!."))
         if size:
             context["size"]={"small":"S","medium":"M","large":"L"}.get(size.group(1).lower(),size.group(1).upper())
         words=set(re.findall(r"[a-z]+",request.transcript.casefold()))
@@ -331,6 +344,12 @@ class VoiceService:
         if context.get("store_id"): session.current_store_id = context["store_id"]
         if context.get("order_item_id"): session.active_order_item_id=context["order_item_id"]
         if context.get("active_variant_id"): session.active_variant_id=context["active_variant_id"]
+        if context.get("product_reference") is not None: session.current_product_reference=context["product_reference"]
+        if context.get("sku") is not None: session.current_sku=context["sku"]
+        if context.get("page_url") is not None: session.current_page_url=context["page_url"]
+        if context.get("query") is not None: session.current_search_query=context["query"]
+        if context.get("visible_products") is not None:
+            session.previous_recommendations = list(context["visible_products"][:10])
         for field in ("category","occasion","budget_min","budget_max","size","fit","style","gender",
                       "preferred_store","location","delivery_deadline","unresolved_issue"):
             if context.get(field) is not None:setattr(session,field,context[field])
@@ -355,6 +374,23 @@ class VoiceService:
         VoiceService._clear_pending(session)
 
     @staticmethod
+    def _resolve_product_reference(text, context, session):
+        visible = context.get("visible_products") or session.previous_recommendations
+        ordinal = re.search(r"\b(?:the\s+)?(first|second|third|fourth|fifth)\s+(?:one|item|piece)\b", text)
+        if ordinal and visible:
+            index = {"first": 0, "second": 1, "third": 2, "fourth": 3, "fifth": 4}[ordinal.group(1)]
+            if index < len(visible):
+                selected = visible[index]
+                context["product_id"] = selected.get("product_id")
+                context["reference_product_id"] = selected.get("product_id")
+                if selected.get("variant_id"): context["active_variant_id"] = selected["variant_id"]
+                if selected.get("color"): context["color"] = selected["color"]
+                if selected.get("size"): context["size"] = selected["size"]
+        elif any(reference in text for reference in ("this one", "this item", "this piece")):
+            if context.get("product_id"):
+                context.setdefault("reference_product_id", context["product_id"])
+
+    @staticmethod
     def _shopping_clarification(text, context, session):
         if session.pending_tool_name == "search_products" and session.pending_missing_fields:
             field = session.pending_missing_fields[0]
@@ -365,9 +401,6 @@ class VoiceService:
         if context.get("category") == "dress" and broad_request and not context.get("occasion"):
             context.setdefault("query", text)
             return "occasion", CLARIFICATIONS["occasion"]
-        if context.get("occasion") == "office" and not context.get("style"):
-            context.setdefault("query", text)
-            return "style", CLARIFICATIONS["style"]
         if context.get("style") in {"elegant", "formal", "modest"} and not context.get("occasion"):
             context.setdefault("query", text)
             return "occasion", CLARIFICATIONS["occasion"]
@@ -385,7 +418,9 @@ class VoiceService:
 
     @staticmethod
     def _is_preference_update(text):
-        return bool(SIZE_ONLY.match(text) or any(color in text.split() for color in COLORS))
+        return bool(SIZE_ONLY.match(text.rstrip("?!.")) or BUDGET_MAX.search(text) or BUDGET_WORD.search(text)
+                    or any(color in text.split() for color in COLORS)
+                    or any(style in text for style in STYLES))
 
     @staticmethod
     def _response(session, status, execution_status, spoken_text, *, decision=None,

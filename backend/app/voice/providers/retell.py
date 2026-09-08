@@ -54,7 +54,9 @@ class RetellProviderAdapter:
         transcript = args.get("transcript") or args.get("message")
         if not transcript:
             transcript = self._latest_user_utterance(call)
-        context = args.get("context") or {}
+        webpage_context = metadata.get("webpage_context") or {}
+        function_context = args.get("context") or {}
+        context = {**webpage_context, **function_context}
         return VoiceTurnRequest(
             session_id=session_id,
             transcript=transcript,

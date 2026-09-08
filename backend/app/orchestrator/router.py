@@ -35,6 +35,14 @@ class IntentRouter:
         if size_match and "size" not in context:
             context["size"] = size_match.group(1).upper()
 
+        current_product = bool(context.get("product_id"))
+        if current_product and re.fullmatch(r"(?:do you have (?:this|it) in )?(?:size )?(?:xs|s|m|l|xl|xxl|small|medium|large)\??", text):
+            return self._tool("CHECK_INVENTORY", "check_inventory", context, .98,
+                              "CURRENT_PRODUCT_INVENTORY")
+        if current_product and not _has(text, RECOMMENDATION_SIGNALS) and _has(text, ("how much", "what does it cost", "what colors", "which colors", "what colour", "this one", "this item", "this piece", "first one", "second one", "third one", "fourth one", "fifth one")):
+            return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .97,
+                              "CURRENT_PRODUCT_CONTEXT")
+
         # 1. Explicit writes. Confirmation remains owned by the Tool Gateway.
         return_action = "return" in text and (
             re.search(r"\b(start|initiate|create|open|begin|file)\b.*\breturn\b", text)
@@ -133,6 +141,11 @@ class IntentRouter:
             intent = "FIND_SIMILAR_PRODUCTS" if tool == "find_similar_products" else "RECOMMEND_MATCHING_PRODUCTS"
             return self._tool(intent, tool, context, .95, "SEMANTIC_PRODUCT_INTENT",
                               route=Route.PRODUCT_RECOMMENDATION)
+
+        if context.get("occasion") and _has(text, ("clothes", "clothing", "outfit")):
+            context.setdefault("query", request.message)
+            return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
+                              "OCCASION_DISCOVERY_INTENT")
 
         if _has(text, ("wedding", "occasion", "party", "work event")) and not _has(text, PRODUCT_TERMS):
             return RouteDecision(status=RouteStatus.NEEDS_CONTEXT, route=Route.TOOL_GATEWAY,

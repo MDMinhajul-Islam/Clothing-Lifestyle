@@ -40,7 +40,7 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual((state.category,state.budget_max,state.size),("shirt",50.0,"M"))
         self.assertEqual(set(state.colors),{"black","navy"})
 
-    def test_broad_occasion_asks_one_question(self):
+    def test_broad_occasion_asks_one_high_value_question(self):
         result=self.turn("I need something for a wedding")
         self.assertEqual(result.missing_fields,["category"])
         self.assertEqual(result.spoken_text,"What kind of item would you like?")
@@ -51,10 +51,10 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual(result.spoken_text,"What kind of occasion are you shopping for?")
         self.assertEqual(self.backend.calls,[])
 
-    def test_office_request_asks_one_high_value_style_question(self):
+    def test_office_request_recommends_before_optional_clarification(self):
         result=self.turn("I need office clothes")
-        self.assertEqual(result.missing_fields,["style"])
-        self.assertIn("polished, relaxed, or modern",result.spoken_text)
+        self.assertEqual(result.execution_status,"SUCCESS")
+        self.assertEqual(result.tool_name,"search_products")
 
     def test_styling_context_and_recommendations_are_remembered(self):
         self.turn("I need office clothes")
@@ -63,6 +63,26 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual((state.occasion,state.style),("office","modern"))
         self.assertTrue(state.previous_recommendations)
         self.assertIn("previous_recommendations",result.metadata["session_state"])
+
+    def test_visible_product_references_and_price_continuation(self):
+        visible = [
+            {"product_id": "zara-us:00000001", "name": "First dress", "color": "black"},
+            {"product_id": "zara-us:00000002", "name": "Second dress", "color": "black"},
+        ]
+        first = self.turn("The first one", visible_products=visible)
+        self.assertEqual(first.tool_name, "get_product_details")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_id"], "zara-us:00000001")
+        medium = self.turn("Medium?")
+        self.assertEqual(medium.tool_name, "check_inventory")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["size"], "M")
+        colors = self.turn("What colors are available?")
+        self.assertEqual(colors.tool_name, "get_product_details")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_id"], "zara-us:00000001")
+        price = self.turn("How much?")
+        self.assertEqual(price.tool_name, "get_product_details")
+        self.turn("Show me dresses")
+        self.turn("Under fifty dollars")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["max_price"], 50.0)
 
     def test_color_correction_replaces_previous_color(self):
         self.turn("Show me black dresses")
