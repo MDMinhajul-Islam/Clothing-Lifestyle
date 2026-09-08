@@ -11,10 +11,11 @@ from typing import Any
 from fastapi import APIRouter, Depends, Header, HTTPException, Request, status
 from pydantic import BaseModel, ConfigDict, Field
 
-from backend.app.api.deps import get_db
 from backend.app.api.routes_voice import voice_service
 from backend.app.config import settings
+from backend.app.db import get_db_connection
 from backend.app.retell.client import RetellClient, RetellClientError
+from backend.app.retell.timing import TimedConnection, begin as begin_timing, finish as finish_timing, mark, timed
 from backend.app.voice.capabilities.local import LocalVoiceCapabilityBackend
 from backend.app.voice.executor import VoiceCapabilityExecutor
 from backend.app.voice.providers.retell import RetellProviderAdapter
@@ -87,6 +88,23 @@ class RetellFunctionResultCache:
 
 
 retell_function_results = RetellFunctionResultCache()
+
+
+class RetellFunctionContext:
+    def __init__(self, connection):
+        self.connection = connection
+
+
+async def get_retell_function_context():
+    """Start timing before database-pool acquisition so pool waits remain visible."""
+    timing_token = begin_timing()
+    started = time.perf_counter()
+    try:
+        with get_db_connection() as connection:
+            timed("database_connection_acquired", started)
+            yield RetellFunctionContext(TimedConnection(connection))
+    finally:
+        finish_timing(timing_token)
 
 
 def _client_key(request: Request) -> str:
@@ -167,26 +185,36 @@ async def retell_webhook(
 async def retell_custom_function(
     request: Request,
     x_retell_signature: str | None = Header(default=None, alias="X-Retell-Signature"),
-    conn=Depends(get_db),
+    timing_context: RetellFunctionContext = Depends(get_retell_function_context),
 ):
     """Execute one signed Retell custom function synchronously through VoiceService."""
+    read_started = time.perf_counter()
     raw_body = await request.body()
+    timed("request_body_read", read_started, bytes=len(raw_body))
     adapter = RetellProviderAdapter()
+    verify_started = time.perf_counter()
     _verify_retell_request(adapter, x_retell_signature, raw_body)
+    timed("signature_verification", verify_started)
     payload = _decode_json(raw_body)
+    mark("request_decoded")
     if payload.get("name") != "nexgen_voice_turn":
         raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
                             detail="Unsupported Retell function.")
 
     request_key = hashlib.sha256(raw_body).hexdigest()
     cached = retell_function_results.get(request_key)
+    mark("idempotency_lookup", cached=bool(cached))
     if cached is not None:
         return cached
 
     try:
+        normalize_started = time.perf_counter()
         voice_request = adapter.normalize_event(payload)
-        executor = VoiceCapabilityExecutor(LocalVoiceCapabilityBackend(conn))
+        timed("session_reference_normalized", normalize_started)
+        executor = VoiceCapabilityExecutor(LocalVoiceCapabilityBackend(timing_context.connection))
+        service_started = time.perf_counter()
         response = voice_service.process_voice_turn(voice_request, executor=executor)
+        timed("voice_service_returned", service_started)
     except VoiceSessionNotFound as exc:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from None
     except (TypeError, ValueError) as exc:
@@ -196,6 +224,8 @@ async def retell_custom_function(
         logger.exception("Retell voice turn processing failed.")
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                             detail="Retell function processing failed.") from None
+    serialize_started = time.perf_counter()
     result = adapter.build_response(response)
     retell_function_results.put(request_key, result)
+    timed("response_serialization", serialize_started)
     return result

@@ -1,8 +1,12 @@
 """Minimal server-side client for the Retell REST API."""
 
 import json
+import logging
+import time
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+
+logger = logging.getLogger("retell.http")
 
 
 class RetellClientError(RuntimeError):
@@ -30,12 +34,16 @@ class RetellClient:
             method="POST",
         )
         try:
+            started = time.perf_counter()
             with urlopen(request, timeout=self.timeout_seconds) as response:
                 result = json.loads(response.read().decode("utf-8"))
         except HTTPError as exc:
             raise RetellClientError(f"Retell rejected the web call request ({exc.code}).") from None
         except (URLError, TimeoutError, json.JSONDecodeError):
             raise RetellClientError("Retell web call creation is temporarily unavailable.") from None
+        finally:
+            if 'started' in locals():
+                logger.info("operation=create_web_call elapsed_ms=%.2f", (time.perf_counter()-started)*1000)
         if not result.get("call_id") or not result.get("access_token"):
             raise RetellClientError("Retell returned an incomplete web call response.")
         return result

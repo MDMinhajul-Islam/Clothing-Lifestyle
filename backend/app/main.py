@@ -1,6 +1,7 @@
 """FastAPI application entry point for the NexGen retail assistant."""
 
 import logging
+import time
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request, status
 from fastapi.responses import JSONResponse
@@ -8,6 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from backend.app.config import settings
 from backend.app.db import init_db_pool, close_db_pool
+from backend.app.rag.embeddings import initialize_embedding_client
 from backend.app.api.routes_tools import router as tools_router
 from backend.app.api.routes_meta import router as meta_router
 from backend.app.api.routes_orchestrator import router as orchestrator_router
@@ -27,6 +29,16 @@ async def lifespan(app: FastAPI):
     """Application lifecycle managing database connection pool."""
     logger.info("Starting %s (Environment: %s)...", settings.app_name, settings.environment)
     init_db_pool()
+    embedding_started = time.perf_counter()
+    embedding_client = initialize_embedding_client()
+    logger.info("Embedding model initialized at startup: provider=%s model=%s device=%s elapsed_ms=%.2f",
+                embedding_client.provider, embedding_client.model,
+                getattr(embedding_client, "device", "remote"),
+                (time.perf_counter() - embedding_started) * 1000)
+    warmup_started = time.perf_counter()
+    embedding_client.embed(["NexGen voice commerce startup warmup"])
+    logger.info("Embedding model warmed at startup: elapsed_ms=%.2f",
+                (time.perf_counter() - warmup_started) * 1000)
     yield
     logger.info("Shutting down %s...", settings.app_name)
     close_db_pool()

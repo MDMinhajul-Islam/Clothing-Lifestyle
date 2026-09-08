@@ -1,4 +1,5 @@
 """Real local adapter: voice plans to existing RAG, recommendation, and gateway services."""
+import time
 from uuid import uuid4
 from backend.app.orchestrator.schemas import Route,RouteDecision
 from backend.app.config import settings
@@ -6,6 +7,7 @@ from backend.app.rag.service import retrieve_policy_knowledge
 from backend.app.services.capability_service import RetailCapabilityService
 from backend.app.tools.dispatcher import ToolGatewayDispatcher
 from backend.app.voice.schemas import CapabilityResult
+from backend.app.retell.timing import timed
 
 class LocalVoiceCapabilityBackend:
     PRIVATE_LEGACY_TOOLS={"get_order","track_order","check_cancellation_eligibility",
@@ -18,7 +20,9 @@ class LocalVoiceCapabilityBackend:
 
     def execute(self,decision:RouteDecision):
         if decision.route==Route.POLICY_RAG:
-            result=self.policy_retriever(conn=self.conn,**decision.tool_arguments)
+            started=time.perf_counter()
+            try:result=self.policy_retriever(conn=self.conn,**decision.tool_arguments)
+            finally:timed("policy_retrieval",started,tool=decision.tool_name)
             data=result.model_dump(mode="json")
             data.update({"policy_source_brand":settings.policy_reference_brand,
                          "policy_market":settings.policy_reference_market,
@@ -27,7 +31,9 @@ class LocalVoiceCapabilityBackend:
             return CapabilityResult(execution_status=result.status,data=data)
         try:
             self._authorize_private(decision.tool_name,decision.tool_arguments)
-            result=self.gateway.execute(decision.tool_name,decision.tool_arguments,self._request_id())
+            started=time.perf_counter()
+            try:result=self.gateway.execute(decision.tool_name,decision.tool_arguments,self._request_id())
+            finally:timed("tool_gateway",started,tool=decision.tool_name)
             return CapabilityResult(execution_status="SUCCESS" if result.success else self._error_status(result),
                                     data=result.data or {"error":result.error or {}})
         except PermissionError:
@@ -43,7 +49,9 @@ class LocalVoiceCapabilityBackend:
         prepared=dict(arguments); prepared.setdefault("idempotency_key",f"voice-{uuid4().hex}")
         try:
             self._authorize_private(tool_name,prepared)
-            result=self.gateway.execute(tool_name,prepared,self._request_id())
+            started=time.perf_counter()
+            try:result=self.gateway.execute(tool_name,prepared,self._request_id())
+            finally:timed("tool_gateway_prepare",started,tool=tool_name)
             if result.confirmation:
                 return CapabilityResult(execution_status="CONFIRMATION_REQUIRED",data={"prepared_arguments":prepared,
                     "confirmation_summary":result.confirmation.get("summary",{})},
@@ -66,7 +74,9 @@ class LocalVoiceCapabilityBackend:
         confirmed={**arguments,"confirmed":True,"confirmation_token":confirmation_token}
         try:
             self._authorize_private(tool_name,confirmed)
-            result=self.gateway.execute(tool_name,confirmed,self._request_id())
+            started=time.perf_counter()
+            try:result=self.gateway.execute(tool_name,confirmed,self._request_id())
+            finally:timed("tool_gateway_confirm",started,tool=tool_name)
             if result.success:return CapabilityResult(execution_status="SUCCESS",data=result.data or {})
             return CapabilityResult(execution_status=self._error_status(result),data={"error":result.error or {}})
         except PermissionError:

@@ -6,10 +6,13 @@ Provider credentials are only sent to the configured HTTPS endpoint; redirects d
 import json
 import math
 import os
+import time
+from threading import Lock
 from dataclasses import dataclass, field
 from functools import lru_cache
 from urllib.parse import urlparse
 from urllib.request import Request, build_opener, HTTPRedirectHandler
+from backend.app.retell.timing import timed
 
 class EmbeddingUnavailable(RuntimeError):
     pass
@@ -57,6 +60,7 @@ class EmbeddingClient:
             return []
         req = Request(self.endpoint, data=json.dumps({'model':self.model, 'input':texts}).encode(),
             headers={'Content-Type':'application/json', 'Authorization':'Bearer ' + self.key}, method='POST')
+        started = time.perf_counter()
         try:
             with build_opener(NoRedirect).open(req, timeout=30) as response:
                 data = json.load(response)['data']
@@ -67,6 +71,8 @@ class EmbeddingClient:
         except Exception:
             # Never propagate provider bodies, request headers or credentials.
             raise EmbeddingUnavailable('Embedding provider request failed') from None
+        finally:
+            timed("external_http_request", started, service="embedding_provider")
 
 
 @dataclass
@@ -77,8 +83,10 @@ class LocalSentenceTransformerClient:
     version: str = 'v1'
     device: str = field(init=False)
     _encoder: object = field(init=False, repr=False)
+    _encode_lock: object = field(default_factory=Lock, init=False, repr=False)
 
     def __post_init__(self):
+        started = time.perf_counter()
         try:
             import torch
             from sentence_transformers import SentenceTransformer
@@ -90,11 +98,18 @@ class LocalSentenceTransformerClient:
             raise
         except Exception:
             raise EmbeddingUnavailable('Local SentenceTransformer model could not be loaded') from None
+        finally:
+            timed("local_embedding_model_load", started, model="all-MiniLM-L6-v2")
 
     def embed(self, texts):
         if not texts:
             return []
-        vectors = self._encoder.encode(texts, normalize_embeddings=True, convert_to_numpy=True)
+        started = time.perf_counter()
+        try:
+            with self._encode_lock:
+                vectors = self._encoder.encode(texts, normalize_embeddings=True, convert_to_numpy=True)
+        finally:
+            timed("local_embedding_encode", started, count=len(texts))
         return [validate_vector(vector.tolist(), self.dimension) for vector in vectors]
 
 
@@ -105,3 +120,8 @@ def get_embedding_client():
     if provider == 'local_sentence_transformers':
         return LocalSentenceTransformerClient()
     return EmbeddingClient.from_environment()
+
+
+def initialize_embedding_client():
+    """Load and cache the process-wide embedding client during application startup."""
+    return get_embedding_client()

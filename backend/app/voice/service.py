@@ -1,8 +1,10 @@
 """Stateful provider-neutral voice turn processing without direct data access."""
 
 import re
+import time
 
 from backend.app.config import settings
+from backend.app.retell.timing import timed
 from backend.app.orchestrator.schemas import OrchestratorContext, Route, RouteDecision, RouteRequest, RouteStatus
 from backend.app.orchestrator.service import OrchestratorService
 from .executor import VoiceCapabilityExecutor
@@ -96,7 +98,11 @@ class VoiceService:
 
     def process_voice_turn(self, request: VoiceTurnRequest, *, executor=None):
         executor = executor or self.executor
-        session = self.sessions.get_session(request.session_id)
+        session_started = time.perf_counter()
+        try:
+            session = self.sessions.get_session(request.session_id)
+        finally:
+            timed("session_restoration", session_started)
         session.conversation_turn += 1
         text = " ".join(request.transcript.casefold().split())
 

@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 from pydantic import ValidationError
-from backend.app.rag.embeddings import EmbeddingClient, EmbeddingUnavailable, LocalSentenceTransformerClient, get_embedding_client, validate_vector
+from backend.app.rag.embeddings import EmbeddingClient, EmbeddingUnavailable, LocalSentenceTransformerClient, get_embedding_client, initialize_embedding_client, validate_vector
 from backend.app.rag.retriever import fuse
 from backend.app.rag.schemas import PolicyQuery
 from backend.app.rag.service import retrieve_policy_knowledge, select_evidence
@@ -47,6 +47,14 @@ class TestPolicyRag(unittest.TestCase):
 
     def test_local_embedding_client_selection(self):
         fake = object()
+        get_embedding_client.cache_clear()
+
+    def test_startup_initializer_reuses_singleton(self):
+        fake = object()
+        get_embedding_client.cache_clear()
+        with patch('backend.app.rag.embeddings.LocalSentenceTransformerClient', return_value=fake), patch.dict('os.environ', {}, clear=True):
+            self.assertIs(initialize_embedding_client(), fake)
+            self.assertIs(initialize_embedding_client(), fake)
         get_embedding_client.cache_clear()
         with patch('backend.app.rag.embeddings.LocalSentenceTransformerClient', return_value=fake), patch.dict('os.environ', {}, clear=True):
             self.assertIs(get_embedding_client(), fake)

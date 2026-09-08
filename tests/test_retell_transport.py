@@ -11,9 +11,9 @@ from fastapi.testclient import TestClient
 from pydantic import ValidationError
 
 from backend.app.api.routes_retell import (
-    CreateWebCallRequest, WebCallRateLimiter, create_web_call, retell_function_results, router,
+    CreateWebCallRequest, RetellFunctionContext, WebCallRateLimiter, create_web_call,
+    get_retell_function_context, retell_function_results, router,
 )
-from backend.app.api.deps import get_db
 from backend.app.main import app
 from backend.app.voice.providers.retell import RetellProviderAdapter
 from backend.app.voice.schemas import VoiceTurnResponse
@@ -133,7 +133,7 @@ class RetellTransportTests(unittest.TestCase):
             "call": {"call_id": "call-123",
                      "metadata": {"nexgen_session_id": "voice-123"}},
         }, separators=(",", ":")).encode()
-        app.dependency_overrides[get_db] = lambda: object()
+        app.dependency_overrides[get_retell_function_context] = lambda: RetellFunctionContext(object())
         retell_function_results.clear()
         try:
             client = TestClient(app)
@@ -142,7 +142,7 @@ class RetellTransportTests(unittest.TestCase):
             second = client.post("/v1/retell/function", content=body,
                                  headers=self._signed_headers(body))
         finally:
-            app.dependency_overrides.pop(get_db, None)
+            app.dependency_overrides.pop(get_retell_function_context, None)
             retell_function_results.clear()
         self.assertEqual(first.status_code, 200)
         self.assertEqual(first.json()["result"], "I found three black dresses.")
