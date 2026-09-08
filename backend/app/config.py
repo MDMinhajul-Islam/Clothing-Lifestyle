@@ -58,6 +58,16 @@ class Settings(BaseModel):
         default_factory=lambda: os.getenv("CONFIRMATION_SECRET", os.getenv("TOOL_GATEWAY_SECRET", "confirm-secret-seed"))
     )
 
+    # Transactional email. Credentials remain server-side and are never logged.
+    email_provider: str = Field(default_factory=lambda: os.getenv("EMAIL_PROVIDER", "smtp"))
+    email_from_name: str = Field(default_factory=lambda: os.getenv("EMAIL_FROM_NAME", "NexGen AI Fashion & Voice Commerce"))
+    email_from_address: str = Field(default_factory=lambda: os.getenv("EMAIL_FROM_ADDRESS", ""))
+    smtp_host: str = Field(default_factory=lambda: os.getenv("SMTP_HOST", "smtp.gmail.com"))
+    smtp_port: int = Field(default_factory=lambda: int(os.getenv("SMTP_PORT", "587")))
+    smtp_username: str = Field(default_factory=lambda: os.getenv("SMTP_USERNAME", ""))
+    smtp_password: str = Field(default_factory=lambda: os.getenv("SMTP_PASSWORD", ""))
+    smtp_use_tls: bool = Field(default_factory=lambda: os.getenv("SMTP_USE_TLS", "true").lower() == "true")
+
     # Database Pool Settings
     db_pool_min_conns: int = 2
     db_pool_max_conns: int = 10

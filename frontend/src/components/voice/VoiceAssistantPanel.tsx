@@ -34,7 +34,7 @@ export const VoiceAssistantPanel: React.FC<VoiceAssistantPanelProps> = ({ sessio
   const [isMuted, setIsMuted] = React.useState(false);
   const [isDebugOpen, setIsDebugOpen] = React.useState(false);
   const [showCallDetails, setShowCallDetails] = React.useState(false);
-  const [showDeveloperFallback, setShowDeveloperFallback] = React.useState(false);
+  const [showTextRequest, setShowTextRequest] = React.useState(false);
   const [elapsedSeconds, setElapsedSeconds] = React.useState(0);
   const [micNotice, setMicNotice] = React.useState<string | null>(null);
   const isActive = session?.status === 'ACTIVE';
@@ -50,7 +50,7 @@ export const VoiceAssistantPanel: React.FC<VoiceAssistantPanelProps> = ({ sessio
   const startBrowserMic = () => {
     const speechWindow = window as Window & { SpeechRecognition?: SpeechRecognizerConstructor; webkitSpeechRecognition?: SpeechRecognizerConstructor };
     const Recognition = speechWindow.SpeechRecognition ?? speechWindow.webkitSpeechRecognition;
-    if (!Recognition) { setMicNotice('Browser microphone is unavailable. Open Developer fallback to type a request.'); return; }
+    if (!Recognition) { setMicNotice('Your browser microphone is unavailable. You can type a request instead.'); return; }
     const recognition = new Recognition();
     recognition.lang = 'en-US'; recognition.interimResults = false; recognition.maxAlternatives = 1;
     recognition.onresult = (event) => { const spoken = event.results[0][0].transcript.trim(); if (spoken) onSendTranscript(spoken); };
@@ -84,8 +84,8 @@ export const VoiceAssistantPanel: React.FC<VoiceAssistantPanelProps> = ({ sessio
         {showCallDetails && <div className="max-h-56 overflow-y-auto border-t border-neutral-200 bg-neutral-50 p-3">
           <div className="space-y-2">{history.map((message) => <div key={message.id} className="text-[10px] leading-relaxed text-neutral-600"><span className="mr-2 font-semibold uppercase tracking-wider text-neutral-400">{message.sender === 'user' ? 'Caller' : 'NexGen'}</span>{message.text}</div>)}</div>
           {(authNotice || micNotice) && <p className="mt-3 border-t border-neutral-200 pt-2 text-[9px] leading-relaxed text-neutral-400">{micNotice || authNotice}</p>}
-          <button onClick={() => setShowDeveloperFallback((shown) => !shown)} className="mt-3 text-[9px] uppercase tracking-wider text-neutral-500 underline">Developer fallback</button>
-          {showDeveloperFallback && <form onSubmit={submitText} className="mt-2 flex gap-2"><input value={textInput} onChange={(event) => setTextInput(event.target.value)} placeholder="Type a test turn" className="min-w-0 flex-1 border border-neutral-200 bg-white px-3 py-2 text-xs outline-none focus:border-black" /><button type="submit" disabled={!textInput.trim()} className="bg-black px-3 text-white disabled:opacity-30" aria-label="Send developer fallback"><Send className="h-4 w-4" /></button></form>}
+          <button onClick={() => setShowTextRequest((shown) => !shown)} className="mt-3 text-[9px] uppercase tracking-wider text-neutral-500 underline">Type a request</button>
+          {showTextRequest && <form onSubmit={submitText} className="mt-2 flex gap-2"><input value={textInput} onChange={(event) => setTextInput(event.target.value)} placeholder="What can your stylist help with?" className="min-w-0 flex-1 border border-neutral-200 bg-white px-3 py-2 text-xs outline-none focus:border-black" /><button type="submit" disabled={!textInput.trim()} className="bg-black px-3 text-white disabled:opacity-30" aria-label="Send request"><Send className="h-4 w-4" /></button></form>}
           <VoiceDebugDrawer lastTurn={lastTurn} isOpen={isDebugOpen} onToggle={() => setIsDebugOpen((open) => !open)} />
         </div>}
       </div>
