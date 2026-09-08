@@ -35,7 +35,7 @@ export interface Product {
   isNew?: boolean;
   isSale?: boolean;
   commercialReference?: string;
-  provenance: 'REFERENCE_SOURCE_CDN' | 'SOURCE_CATALOGUE_CDN' | 'NEXGEN_DEMO';
+  provenance: 'REFERENCE_SOURCE_CDN' | 'SOURCE_CATALOGUE_CDN';
   matchingProductIds?: string[];
   videoUrl?: string;
   modelWalkUrl?: string;

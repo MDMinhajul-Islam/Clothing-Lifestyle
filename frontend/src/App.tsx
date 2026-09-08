@@ -1,5 +1,5 @@
 import React from 'react';
-import { AdminDashboard } from './components/admin/AdminDashboard';
+import { AdminAccess } from './components/admin/AdminAccess';
 import { CustomerAuthModal } from './components/auth/CustomerAuthModal';
 import { Footer } from './components/layout/Footer';
 import { Hero } from './components/layout/Hero';
@@ -9,7 +9,6 @@ import { ProductDetailModal } from './components/storefront/ProductDetailModal';
 import { ProductGrid } from './components/storefront/ProductGrid';
 import { StyledEdit } from './components/storefront/StyledEdit';
 import { VoiceAssistantPanel } from './components/voice/VoiceAssistantPanel';
-import { MOCK_PRODUCTS } from './data/mockCatalog';
 import { createVoiceSession, endVoiceSession, getHealth, sendVoiceTurn } from './lib/api';
 import { fetchCatalogueFacets, fetchCatalogueProducts, fetchProductDetails, fetchStyledEdit, type CatalogueFacets } from './lib/catalogueApi';
 import { compatibleProducts, isMainFashionProduct, matchesColor, matchesProductSearch } from './lib/catalogue';
@@ -19,7 +18,7 @@ import type { VoiceSession, VoiceState, VoiceTurnMessage } from './types/voice';
 
 const DEFAULT_FILTER: ProductFilter = { inStockOnly: false, sort: 'featured' };
 const PAGE_SIZE = 24;
-const FALLBACK_PRODUCTS = MOCK_PRODUCTS.filter(isMainFashionProduct);
+const FALLBACK_PRODUCTS: Product[] = [];
 const fallbackColors = Array.from(new Map(FALLBACK_PRODUCTS.flatMap((product) => product.colors).map((color) => [color.name, color])).values());
 
 const localResults = (filter: ProductFilter) => FALLBACK_PRODUCTS.filter((product) => {
@@ -43,7 +42,7 @@ const voiceFilter = (text: string): Partial<ProductFilter> => {
 export const App: React.FC = () => {
   const [currentView, setCurrentView] = React.useState<'storefront' | 'admin'>('storefront');
   const [isAuthModalOpen, setIsAuthModalOpen] = React.useState(false);
-  const [customer, setCustomer] = React.useState<CustomerProfile>({ id: 'ae7cdeee-b0a3-5c13-9f18-6a57187fea1e', name: 'Elena Vance', email: 'elena.vance@example.com', type: 'VIP_LOYALTY', authLevel: 'VIP_VERIFIED', verified: true, activeOrderNumber: 'ZUS-2025-00001' });
+  const [customer, setCustomer] = React.useState<CustomerProfile>({ id: '', name: 'Guest', email: '', type: 'GUEST', authLevel: 'ANONYMOUS', verified: false });
   const [cartItems, setCartItems] = React.useState<Array<{ product: Product; size: string }>>([]);
   const [filter, setFilter] = React.useState<ProductFilter>(DEFAULT_FILTER);
   const [products, setProducts] = React.useState<Product[]>([]);
@@ -75,7 +74,7 @@ export const App: React.FC = () => {
   const loadMore = async () => { if (!hasMore || isLoadingMore) return; setIsLoadingMore(true); try { const result = await fetchCatalogueProducts(filter, PAGE_SIZE, products.length); setProducts((current) => [...current, ...result.items.filter(isMainFashionProduct)]); setHasMore(result.has_more); } finally { setIsLoadingMore(false); } };
   const selectCategory = (category: string) => { setFilter((current) => ({ ...current, category: category === 'All Items' ? undefined : category })); document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' }); };
 
-  if (currentView === 'admin') return <AdminDashboard onBackToStorefront={() => setCurrentView('storefront')} />;
+  if (currentView === 'admin') return <AdminAccess onBackToStorefront={() => setCurrentView('storefront')} />;
   const colors = facets?.colors.map((name) => ({ name, hex: fallbackColors.find((color) => color.name === name)?.hex || '#777777' })) || fallbackColors;
   return <div className="flex min-h-screen flex-col bg-[#fcfcfc] text-neutral-900">
     <Navbar currentView={currentView} onNavigate={setCurrentView} customer={customer} onOpenAuth={() => setIsAuthModalOpen(true)} voiceState={voiceState} isVoiceActive={voiceSession?.status === 'ACTIVE'} onToggleVoice={() => voiceSession?.status === 'ACTIVE' ? void endVoice() : void startVoice()} cartCount={cartItems.length} onSearchClick={() => document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' })} onSelectCategory={selectCategory} />

@@ -52,7 +52,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({ filter, onChangeFilter, on
 
         <div className="mt-3 flex flex-col gap-3 border-t border-neutral-100 pt-3 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap items-center gap-2 text-[10px] uppercase tracking-wider text-neutral-500">
-            <span><strong className="text-neutral-900">{totalResults}</strong> preview pieces shown · connected catalogue {totalCatalogueCount.toLocaleString()}</span>
+            <span><strong className="text-neutral-900">{totalResults}</strong> products shown · {totalCatalogueCount.toLocaleString()}</span>
             {activeVoiceFilterLabel && <span className="inline-flex items-center gap-1.5 bg-neutral-900 px-2.5 py-1 text-white"><Sparkles className="h-3 w-3 text-emerald-400" />AI curated: {activeVoiceFilterLabel}<button onClick={onClearVoiceFilter} aria-label="Clear voice selection"><X className="h-3 w-3" /></button></span>}
             {active && <button onClick={onResetFilter} className="underline hover:text-black">Clear all</button>}
           </div>

@@ -2,7 +2,7 @@ import type { Product, ProductFilter } from '../types/catalog';
 
 const API_URL = (import.meta.env.VITE_BACKEND_API_URL || 'http://localhost:8000').replace(/\/$/, '');
 
-interface ApiProduct { product_id: string; name: string; department: string; category?: string | null; description?: string | null; price: number; original_price?: number | null; currency: string; colors: string[]; sizes: string[]; image_urls: string[]; available: boolean; is_on_sale: boolean }
+interface ApiProduct { product_id: string; name: string; department: string; category?: string | null; description?: string | null; price: number; original_price?: number | null; currency: string; colors: string[]; sizes: string[]; image_urls: string[]; available: boolean; is_on_sale: boolean; hero_video_url?: string | null; hero_media_url?: string | null; model_walk_url?: string | null; lookbook_media?: string[] | null }
 interface ApiList { items: ApiProduct[]; total: number; limit: number; offset: number; has_more: boolean }
 export interface CatalogueFacets { departments: string[]; categories: string[]; colors: string[]; price_min: number; price_max: number; total_products: number }
 
@@ -20,6 +20,8 @@ export const toProduct = (item: ApiProduct): Product => ({
   description: item.description || '', longDescription: item.description || '', image: item.image_urls[0] || '', gallery: item.image_urls,
   colors: item.colors.map((name) => ({ name, hex: colorHex(name) })), sizes: item.sizes,
   inStock: item.available, isSale: item.is_on_sale, provenance: 'SOURCE_CATALOGUE_CDN',
+  videoUrl: item.hero_video_url || undefined, modelWalkUrl: item.model_walk_url || undefined,
+  lookbookMedia: item.lookbook_media || (item.hero_media_url ? [item.hero_media_url] : undefined),
 });
 
 export async function fetchCatalogueProducts(filter: ProductFilter, limit = 24, offset = 0, signal?: AbortSignal) {

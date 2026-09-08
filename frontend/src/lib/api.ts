@@ -1,5 +1,4 @@
 import type { VoiceSession, VoiceTurnMessage, VoiceProvider } from '../types/voice';
-import { simulateVoiceTurn } from './simulator';
 import type { Product } from '../types/catalog';
 
 const BACKEND_BASE_URL = 
@@ -91,14 +90,14 @@ export async function createVoiceSession(
 
     if (res.status === 401) {
       console.info(
-        '[NexGen API] Backend /v1/voice/session requires server-side proxy (X-Tool-Secret protected). Running in authenticated browser demo mode.'
+        '[NexGen API] Voice session requires the secure server integration.'
       );
     }
   } catch (err) {
     console.info('[NexGen API] Network call to remote session endpoint bypassed; using local voice state:', err);
   }
 
-  // Graceful client fallback for demo
+  // Resilient client session while the voice transport reconnects.
   return {
     sessionId: localSessionId,
     status: 'ACTIVE',
@@ -130,7 +129,7 @@ export async function createVoiceSession(
 export async function sendVoiceTurn(
   session: VoiceSession,
   transcript: string,
-  catalogProducts: Product[]
+  _catalogProducts: Product[]
 ): Promise<{
   message: VoiceTurnMessage;
   updatedFilter?: { category?: string; color?: string; searchQuery?: string };
@@ -169,17 +168,23 @@ export async function sendVoiceTurn(
 
     if (res.status === 401) {
       console.warn(
-        '[NexGen API] Backend protected endpoint requires server-side proxy for production. Providing full local voice-commerce simulation.'
+        '[NexGen API] Voice service is unavailable; using the local continuity handler.'
       );
     }
   } catch (err) {
     console.warn('[NexGen API] Turn request error:', err);
   }
 
-  // Local deterministic simulator
-  const simResult = simulateVoiceTurn(session, transcript, catalogProducts);
   return {
-    ...simResult,
+    message: {
+      id: `turn_${Date.now()}`,
+      sender: 'assistant',
+      text: 'I cannot reach the shopping service right now. Please try again in a moment.',
+      timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+      route: 'GENERAL_CONVERSATION',
+      intent: 'SERVICE_UNAVAILABLE',
+      executionStatus: 'UNAVAILABLE',
+    },
     usedBackend: false,
   };
 }
@@ -236,4 +241,3 @@ export function normalizeVoiceResponse(raw: Record<string, unknown>, latencyMs =
     } : undefined,
   };
 }
-
