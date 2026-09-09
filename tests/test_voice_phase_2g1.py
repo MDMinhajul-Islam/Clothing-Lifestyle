@@ -97,6 +97,15 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertIn("Size M is in stock", result.spoken_text)
         self.assertIn("Black, White", result.spoken_text)
 
+    def test_high_confidence_asr_recovery_confirms_then_resumes_search(self):
+        self.turn("Show me dresses for a wedding")
+        clarification = self.turn("blank waiting list")
+        self.assertEqual(clarification.execution_status, "ASR_CLARIFICATION_REQUIRED")
+        self.assertEqual(clarification.spoken_text, "Did you mean a black wedding dress?")
+        resumed = self.turn("Yes")
+        self.assertEqual(resumed.tool_name, "search_products")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["color"], "black")
+
     def test_color_correction_replaces_previous_color(self):
         self.turn("Show me black dresses")
         self.turn("No, I meant navy")

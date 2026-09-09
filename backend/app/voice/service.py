@@ -9,6 +9,7 @@ from backend.app.orchestrator.schemas import OrchestratorContext, Route, RouteDe
 from backend.app.orchestrator.service import OrchestratorService
 from .executor import VoiceCapabilityExecutor
 from .composer import VoiceResponseComposer
+from .conversation_policy import ConversationPolicy
 from .schemas import (
     CreateVoiceSessionRequest, EndVoiceSessionResponse, VoiceSessionView,
     VoiceTurnRequest, VoiceTurnResponse,
@@ -88,6 +89,7 @@ class VoiceService:
         self.orchestrator = orchestrator or OrchestratorService()
         self.executor = executor or VoiceCapabilityExecutor()
         self.composer = VoiceResponseComposer()
+        self.conversation_policy = ConversationPolicy()
 
     def create_session(self, request: CreateVoiceSessionRequest):
         session = self.sessions.create_session(request.provider, request.customer_id)
@@ -138,8 +140,29 @@ class VoiceService:
                 "Please say yes to proceed or no to cancel.", needs_user_input=True,
                 requires_confirmation=True, tool_name=session.pending_tool_name)
 
+        if session.pending_asr_correction:
+            if text in YES:
+                request = request.model_copy(update={"transcript": session.pending_asr_correction})
+                text = " ".join(request.transcript.casefold().split())
+                session.pending_asr_correction = None
+            elif text in NO:
+                session.pending_asr_correction = None
+                self.sessions.update_session(session)
+                return self._response(session, "READY", "ASR_CORRECTION_DECLINED",
+                    "No problem. Please tell me what you would like to find.")
+            else:
+                session.pending_asr_correction = None
+
         context = self._merged_context(session, request)
         self._resolve_product_reference(text, context, session)
+        policy = self.conversation_policy.evaluate(request.transcript, context)
+        session.conversational_goal = policy.goal
+        session.shopping_scenario = policy.scenario
+        if policy.clarification and policy.suggested_transcript:
+            session.pending_asr_correction = policy.suggested_transcript
+            self.sessions.update_session(session)
+            return self._response(session, "NEEDS_CONTEXT", "ASR_CLARIFICATION_REQUIRED",
+                                  policy.clarification, needs_user_input=True)
         compound = self._answer_compound_product_question(
             request.transcript, text, context, session, executor)
         if compound:
@@ -486,6 +509,8 @@ class VoiceService:
                           "size":session.size,"fit":session.fit,"style":session.style,
                           "gender":session.gender,"colors":session.colors,
                           "previous_recommendations":session.previous_recommendations,
+                          "conversational_goal":session.conversational_goal,
+                          "shopping_scenario":session.shopping_scenario,
                           "secondary_intents":session.secondary_intents},
                       **(metadata or {})})
 

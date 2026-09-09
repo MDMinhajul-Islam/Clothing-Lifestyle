@@ -52,6 +52,9 @@ class VoiceSession(BaseModel):
     pending_missing_fields: list[str] = Field(default_factory=list)
     pending_confirmation: bool = False
     pending_confirmation_token: str | None = None
+    pending_asr_correction: str | None = None
+    conversational_goal: str | None = None
+    shopping_scenario: str | None = None
     conversation_turn: int = 0
     created_at: str = Field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
