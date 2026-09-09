@@ -11,6 +11,7 @@ from backend.app.schemas.returns import CheckExchangeAvailabilityInput
 from backend.app.schemas.common import ConfirmationPayload, ErrorCode, ToolError
 from backend.app.schemas.capabilities import *
 from backend.app.utils.security import generate_confirmation_token, verify_confirmation_token, hash_request_payload
+from backend.app.config import settings
 
 class RetailCapabilityService:
     def __init__(self,conn,*,repo=None,inventory=None,exchange=None,idempotency=None):
@@ -167,6 +168,45 @@ class RetailCapabilityService:
         out=CreateSupportCaseOutput(case_id=case_id,case_status='OPEN')
         if d.idempotency_key:self.idempotency.record_idempotency(d.idempotency_key,'create_support_case',req_hash,out.model_dump())
         self.conn.commit(); return True,out,None,None,False
+
+    def create_order_request(self,d):
+        auth=self._auth(d.access_token,transaction=True); req_hash=hash_request_payload(d.model_dump())
+        cached=self._cached(d.idempotency_key,req_hash,CreateOrderRequestOutput)
+        if cached:return True,cached,None,None,True
+        product=self.repo.order_request_product(d.product_id,d.variant_id)
+        if not product: raise ValueError('The selected product variant is unavailable.')
+        if d.size and product.get('size_name') and d.size.casefold() != product['size_name'].casefold():
+            raise ValueError('The selected size does not match the selected product variant.')
+        stock=self.inventory.check_inventory(CheckInventoryInput(product_id=d.product_id,variant_id=d.variant_id,size=d.size))
+        if stock.total_network_available < d.quantity: raise ValueError('The requested quantity is unavailable.')
+        address=self.repo.shipping_address(auth['customer_id'],d.shipping_address_id)
+        if not address and not d.shipping_address: raise ValueError('A shipping address is required.')
+        summary={'product':product['product_name'],'variant_id':d.variant_id,'color':product.get('color'),
+                 'size':product.get('size_name'),'quantity':d.quantity,
+                 'shipping':self._address_summary(address) if address else self._address_summary(d.shipping_address.model_dump())}
+        gate=self._confirm('create_order_request',d.variant_id,d,'Would you like me to submit this order request?',summary)
+        if gate:return gate
+        if not address:
+            address_id=str(uuid4()); self.repo.create_shipping_address(auth['customer_id'],address_id,d.shipping_address)
+            address=self.repo.shipping_address(auth['customer_id'],address_id)
+        order_id='ORDREQ-'+uuid4().hex[:16].upper(); order_number='NGR-'+uuid4().hex[:10].upper()
+        item_id='ITEM-'+uuid4().hex[:16].upper()
+        self.repo.create_order_request(order_id,order_number,auth['customer_id'],address['address_id'],item_id,product,d.quantity)
+        persisted=self.repo.get_order_request(order_id,auth['customer_id'])
+        if not persisted: raise RuntimeError('The order request could not be verified after creation.')
+        out=CreateOrderRequestOutput(order_id=persisted['order_id'],order_number=persisted['order_number'],
+            order_status=persisted['order_status'],payment_status=persisted['payment_status'],
+            product_name=persisted['product_name'],product_id=persisted['product_id'],variant_id=persisted['variant_id'],
+            color=persisted.get('color'),size=persisted.get('size'),quantity=persisted['quantity'],
+            grand_total=persisted['grand_total'],currency=persisted['currency'],shipping_summary=self._address_summary(address),
+            created_at=persisted['created_at'].isoformat(),payment_url=f"{settings.payment_placeholder_url.rstrip('/')}?order={order_number}")
+        if d.idempotency_key:self.idempotency.record_idempotency(d.idempotency_key,'create_order_request',req_hash,out.model_dump())
+        self.conn.commit(); return True,out,None,None,False
+
+    @staticmethod
+    def _address_summary(value):
+        get=value.get if isinstance(value,dict) else lambda key,default=None:getattr(value,key,default)
+        return ', '.join(str(get(key)) for key in ('recipient_name','address_line_1','city','state','postal_code') if get(key))
 
     def prepare_handoff(self,d):
         auth=None

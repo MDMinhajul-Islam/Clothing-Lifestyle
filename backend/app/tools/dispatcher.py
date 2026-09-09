@@ -17,7 +17,7 @@ from backend.app.tools.registry import TOOL_REGISTRY
 
 SENSITIVE={"access_token","confirmation_token","verification_value","email","phone",
            "destination","factual_summary"}
-WRITE_TOOLS={"cancel_order","create_return","create_exchange","create_incident","create_support_case"}
+WRITE_TOOLS={"cancel_order","create_return","create_exchange","create_incident","create_support_case","create_order_request"}
 
 @dataclass
 class GatewayExecution:
@@ -69,7 +69,7 @@ class ToolGatewayDispatcher:
     def _write(self,name,payload,request_id):
         if name=="cancel_order": raw=OrderService(self.conn).cancel_order(payload,request_id)
         elif name=="create_return": raw=ReturnService(self.conn).create_return(payload,request_id)
-        elif name in {"create_exchange","create_incident","create_support_case"}:
+        elif name in {"create_exchange","create_incident","create_support_case","create_order_request"}:
             raw=getattr(RetailCapabilityService(self.conn),name)(payload)
         else: raise ValueError("Capability is not configured for write execution.")
         success,data,error,confirmation,cached=raw

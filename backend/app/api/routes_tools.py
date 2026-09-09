@@ -73,6 +73,7 @@ from backend.app.schemas.capabilities import (
     GetLoyaltyStatusInput, LoyaltyStatusOutput, CheckPromotionInput, CheckPromotionOutput,
     CheckExchangeInventoryInput, CreateExchangeInput, CreateExchangeOutput,
     CreateIncidentInput, CreateIncidentOutput, CreateSupportCaseInput, CreateSupportCaseOutput,
+    CreateOrderRequestInput, CreateOrderRequestOutput,
     PrepareHandoffInput, HandoffPacketOutput, SendSecureLinkInput, SendSecureLinkOutput,
 )
 from backend.app.services.capability_service import RetailCapabilityService
@@ -674,6 +675,8 @@ def create_exchange_tool(payload:CreateExchangeInput,conn=Depends(get_db),reques
 def create_incident_tool(payload:CreateIncidentInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_write('create_incident',payload,conn,request_id,lambda s,p:s.create_incident(p))
 @router.post('/create-support-case',response_model=ToolResponse[CreateSupportCaseOutput])
 def create_support_case_tool(payload:CreateSupportCaseInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_write('create_support_case',payload,conn,request_id,lambda s,p:s.create_support_case(p))
+@router.post('/create-order-request',response_model=ToolResponse[CreateOrderRequestOutput])
+def create_order_request_tool(payload:CreateOrderRequestInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_write('create_order_request',payload,conn,request_id,lambda s,p:s.create_order_request(p))
 @router.post('/prepare-handoff',response_model=ToolResponse[HandoffPacketOutput])
 def prepare_handoff_tool(payload:PrepareHandoffInput,conn=Depends(get_db),request_id=Depends(_get_request_id)): return _capability_read('prepare_handoff',payload,conn,request_id,lambda s,p:s.prepare_handoff(p))
 @router.post('/send-secure-link',response_model=ToolResponse[SendSecureLinkOutput])

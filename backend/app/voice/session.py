@@ -57,6 +57,7 @@ class VoiceSession(BaseModel):
     shopping_scenario: str | None = None
     intent_confidence: float | None = None
     conversation_turn: int = 0
+    quantity: int | None = None
     created_at: str = Field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
 

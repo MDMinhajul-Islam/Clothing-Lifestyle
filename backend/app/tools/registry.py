@@ -55,6 +55,7 @@ from backend.app.schemas.capabilities import (
     GetLoyaltyStatusInput, LoyaltyStatusOutput, CheckPromotionInput, CheckPromotionOutput,
     CheckExchangeInventoryInput, CreateExchangeInput, CreateExchangeOutput,
     CreateIncidentInput, CreateIncidentOutput, CreateSupportCaseInput, CreateSupportCaseOutput,
+    CreateOrderRequestInput, CreateOrderRequestOutput,
     PrepareHandoffInput, HandoffPacketOutput, SendSecureLinkInput, SendSecureLinkOutput,
 )
 
@@ -238,6 +239,7 @@ TOOL_REGISTRY: Dict[str, ToolDefinition] = {
     "create_exchange": ToolDefinition("create_exchange", "Create an authenticated synthetic exchange with gateway confirmation and idempotency.", CreateExchangeInput, CreateExchangeOutput, True, True, "returns"),
     "create_incident": ToolDefinition("create_incident", "Create a confirmed, authenticated synthetic order-item incident.", CreateIncidentInput, CreateIncidentOutput, True, True, "support"),
     "create_support_case": ToolDefinition("create_support_case", "Create a confirmed, authenticated synthetic human-support case.", CreateSupportCaseInput, CreateSupportCaseOutput, True, True, "support"),
+    "create_order_request": ToolDefinition("create_order_request", "Create a verified, explicitly confirmed unpaid order request.", CreateOrderRequestInput, CreateOrderRequestOutput, True, True, "order"),
     "prepare_handoff": ToolDefinition("prepare_handoff", "Prepare a least-privilege structured human handoff packet without transferring a call.", PrepareHandoffInput, HandoffPacketOutput, False, False, "support"),
     "send_secure_link": ToolDefinition("send_secure_link", "Validate consent and destination, then return a delivery-not-configured secure-link contract.", SendSecureLinkInput, SendSecureLinkOutput, False, False, "support"),
 }

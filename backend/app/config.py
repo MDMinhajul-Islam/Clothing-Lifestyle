@@ -75,6 +75,9 @@ class Settings(BaseModel):
     smtp_username: str = Field(default_factory=lambda: os.getenv("SMTP_USERNAME", ""))
     smtp_password: str = Field(default_factory=lambda: os.getenv("SMTP_PASSWORD", ""))
     smtp_use_tls: bool = Field(default_factory=lambda: os.getenv("SMTP_USE_TLS", "true").lower() == "true")
+    payment_placeholder_url: str = Field(default_factory=lambda: os.getenv("PAYMENT_PLACEHOLDER_URL", "https://example.invalid/complete-payment"))
+    admin_email: str = Field(default_factory=lambda: os.getenv("ADMIN_EMAIL", ""))
+    admin_password_hash: str = Field(default_factory=lambda: os.getenv("ADMIN_PASSWORD_HASH", ""))
 
     # Database Pool Settings
     db_pool_min_conns: int = 2

@@ -14,7 +14,9 @@ class CapturingBackend:
             return CapabilityResult(execution_status="SUCCESS",data={"overall_status":"IN_STOCK"})
         if decision.tool_name == "get_product_details":
             return CapabilityResult(execution_status="SUCCESS",data={"name":"Grounded dress","price":69.9,
-                "currency":"USD","colors":[{"color_name":"Black"},{"color_name":"White"}]})
+                "currency":"USD","materials_care":"100% linen",
+                "colors":[{"color_name":"Black"},{"color_name":"White"}],
+                "variants":[{"size_name":"S"},{"size_name":"M"}]})
         if decision.tool_name == "track_order":
             return CapabilityResult(execution_status="SUCCESS", data={
                 "order_number":"ORD-100", "shipment_status":"IN_TRANSIT"})
@@ -40,6 +42,21 @@ class ColorFallbackBackend(CapturingBackend):
 class CapturingCommunicator:
     def __init__(self): self.messages=[]
     def send(self, **message): self.messages.append(message); return "accepted"
+
+class CommerceBackend(CapturingBackend):
+    def prepare_write(self,tool_name,arguments):
+        self.calls.append(("prepare",tool_name,dict(arguments)))
+        return CapabilityResult(execution_status="CONFIRMATION_REQUIRED",
+            data={"prepared_arguments":dict(arguments)},confirmation_token="confirm-token",
+            confirmation_prompt="Would you like me to submit this order request?")
+    def confirm_write(self,tool_name,arguments,confirmation_token):
+        self.calls.append(("confirm",tool_name,dict(arguments),confirmation_token))
+        return CapabilityResult(execution_status="SUCCESS",data={"order_id":"order-1","order_number":"NGR-1",
+            "product_name":"Grounded dress","variant_id":"black-m","color":"Black","size":"M","quantity":1,
+            "shipping_summary":"1 Main St, New York, NY, 10001","payment_url":"https://example.test/pay?order=NGR-1"})
+
+class FailingCommunicator:
+    def send(self,**_message): raise RuntimeError("SMTP unavailable")
 
 
 class Phase2G1VoiceTests(unittest.TestCase):
@@ -116,6 +133,32 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertIn("Size M is in stock", result.spoken_text)
         self.assertIn("Black, White", result.spoken_text)
 
+    def test_compound_product_details_are_answered_together(self):
+        result = self.turn(
+            "Tell me its price, material, available colors, sizes, and whether Medium is in stock.",
+            product_id="zara-us:00000001")
+        self.assertEqual([call.tool_name for call in self.backend.calls],
+                         ["check_inventory", "get_product_details"])
+        self.assertIn("69.9 USD", result.spoken_text)
+        self.assertIn("100% linen", result.spoken_text)
+        self.assertIn("Black, White", result.spoken_text)
+        self.assertIn("S, M", result.spoken_text)
+
+    def test_new_policy_intent_bypasses_stale_shopping_clarification(self):
+        first = self.turn("I need something for a party")
+        self.assertEqual(first.execution_status, "AWAITING_CONTEXT")
+        policy = self.turn("What is the return and exchange policy?")
+        self.assertEqual(policy.route.value, "POLICY_RAG")
+        self.assertEqual(policy.tool_name, "retrieve_policy_knowledge")
+
+    def test_recommendation_preserves_budget_and_category(self):
+        self.turn("Show me black shirts under 100")
+        result = self.turn("Show me something similar",
+                           reference_product_id="zara-us:00000001")
+        self.assertEqual(result.tool_name, "find_similar_products")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["max_price"], 100.0)
+        self.assertEqual(self.backend.calls[-1].tool_arguments["target_category"], "shirt")
+
     def test_reference_product_controls_natural_purchase_and_size_turns(self):
         context = {"reference_product_id":"zara-us:00000001",
                    "active_variant_id":"black-m"}
@@ -129,8 +172,9 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertNotEqual(size.execution_status, "LLM_NOT_CONFIGURED")
 
         purchase = self.turn("I love this dress. I'd like to order it.")
-        self.assertEqual(purchase.intent, "PURCHASE_GUIDANCE")
-        self.assertIn("website checkout", purchase.spoken_text)
+        self.assertEqual(purchase.intent, "CREATE_ORDER_REQUEST")
+        self.assertEqual(purchase.execution_status, "AWAITING_CONTEXT")
+        self.assertIn("verify", purchase.spoken_text.lower())
 
     def test_reference_product_remains_authoritative_for_detail_followups(self):
         visible = [{"product_id":"zara-us:99999999", "name":"Different product"}]
@@ -275,6 +319,21 @@ class Phase2G1VoiceTests(unittest.TestCase):
             {"status":"AVAILABLE","quantity_available":2},"SUCCESS")
         self.assertIn("synthetic store stock",spoken)
         self.assertIn("does not reserve",spoken)
+
+    def test_order_email_failure_does_not_undo_successful_order_request(self):
+        backend=CommerceBackend(); service=VoiceService(executor=VoiceCapabilityExecutor(backend))
+        session=service.create_session(CreateVoiceSessionRequest()).session_id
+        state=service.get_session(session); state.access_token='verified-token'; state.auth_level='TRANSACTION_VERIFIED'
+        service.sessions.update_session(state)
+        prepared=service.process_voice_turn(VoiceTurnRequest(session_id=session,
+            transcript="I'd like to order it",context={"product_id":"zara-us:00000001",
+            "reference_product_id":"zara-us:00000001","active_variant_id":"black-m","size":"M","quantity":1}))
+        self.assertEqual(prepared.execution_status,'CONFIRMATION_REQUIRED')
+        confirmed=service.process_voice_turn(VoiceTurnRequest(session_id=session,transcript='Yes'),
+                                             communicator=FailingCommunicator())
+        self.assertEqual(confirmed.execution_status,'SUCCESS')
+        self.assertIn("received successfully",confirmed.spoken_text)
+        self.assertIn("couldn't send",confirmed.spoken_text)
 
 
 if __name__ == "__main__": unittest.main()

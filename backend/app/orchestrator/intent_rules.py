@@ -19,7 +19,7 @@ ORDER_TOOLS = {
     "get_order", "track_order", "check_cancellation_eligibility", "cancel_order",
     "check_return_eligibility", "create_return", "get_refund_status",
     "check_exchange_availability", "get_customer_orders", "check_exchange_inventory",
-    "create_exchange", "create_incident", "create_support_case", "prepare_handoff",
+    "create_exchange", "create_incident", "create_support_case", "create_order_request", "prepare_handoff",
 }
 
 REQUIRED_CONTEXT = {
@@ -46,5 +46,6 @@ REQUIRED_CONTEXT = {
     "create_exchange": ("access_token", "order_item_id"),
     "create_incident": ("access_token", "order_id", "order_item_id", "issue_type", "factual_summary"),
     "create_support_case": ("access_token", "issue_category", "factual_summary"),
+    "create_order_request": ("access_token", "product_id", "active_variant_id", "quantity"),
     "send_secure_link": ("access_token", "destination", "purpose", "consent_confirmed"),
 }

@@ -87,6 +87,22 @@ class CreateSupportCaseInput(AuthorizedInput):
 class CreateSupportCaseOutput(StrictModel):
     case_id:str; case_status:str; data_origin:Literal['synthetic_operational_layer']='synthetic_operational_layer'
 
+class ShippingAddressInput(StrictModel):
+    recipient_name:str=Field(min_length=2,max_length=160); address_line_1:str=Field(min_length=3,max_length=240)
+    address_line_2:str|None=Field(None,max_length=240); city:str=Field(min_length=2,max_length=120)
+    state:str=Field(min_length=2,max_length=120); postal_code:str=Field(min_length=2,max_length=30)
+    country_code:str=Field('US',min_length=2,max_length=2)
+
+class CreateOrderRequestInput(AuthorizedInput):
+    product_id:str; variant_id:str; size:str|None=None; quantity:int=Field(ge=1,le=10)
+    shipping_address_id:str|None=None; shipping_address:ShippingAddressInput|None=None
+    confirmation_token:str|None=None; confirmed:bool=False; idempotency_key:str|None=None
+class CreateOrderRequestOutput(StrictModel):
+    order_id:str; order_number:str; order_status:Literal['PENDING_PAYMENT']; payment_status:Literal['PENDING']
+    product_name:str; product_id:str; variant_id:str; color:str|None=None; size:str|None=None
+    quantity:int; grand_total:float; currency:str; shipping_summary:str; created_at:str
+    payment_url:str; data_origin:Literal['synthetic_operational_layer']='synthetic_operational_layer'
+
 class PrepareHandoffInput(StrictModel):
     access_token:str|None=None; intent:str; order_number:str|None=None; product_id:str|None=None
     verified_facts:list[str]=Field(default_factory=list); actions_attempted:list[str]=Field(default_factory=list)

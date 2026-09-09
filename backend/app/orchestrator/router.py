@@ -63,12 +63,15 @@ class IntentRouter:
             or bool(CURRENT_PRODUCT_REFERENCE.search(text))
         )
         if current_product and (purchase_intent or (requested_size and refers_to_current_product)):
+            if purchase_intent:
+                return self._tool("CREATE_ORDER_REQUEST", "create_order_request", context, .99,
+                                  "CURRENT_PRODUCT_ORDER_REQUEST")
             return self._tool("PURCHASE_GUIDANCE", "check_inventory", context, .98,
                               "CURRENT_PRODUCT_PURCHASE_GUIDANCE")
         if current_product and re.fullmatch(r"(?:do you have (?:this|it) in )?(?:size )?(?:xs|s|m|l|xl|xxl|small|medium|large)\??", text):
             return self._tool("CHECK_INVENTORY", "check_inventory", context, .98,
                               "CURRENT_PRODUCT_INVENTORY")
-        if current_product and not _has(text, RECOMMENDATION_SIGNALS) and _has(text, ("how much", "what does it cost", "what colors", "what other colors", "which colors", "what colour", "what other colours", "this one", "this item", "this piece", "first one", "second one", "third one", "fourth one", "fifth one")):
+        if current_product and not _has(text, RECOMMENDATION_SIGNALS) and _has(text, ("how much", "what does it cost", "what colors", "what other colors", "which colors", "what colour", "what other colours", "this one", "this item", "this piece", "first one", "second one", "third one", "fourth one", "fifth one", "tell me about")):
             return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .97,
                               "CURRENT_PRODUCT_CONTEXT")
         if current_product and refers_to_current_product and POSITIVE_PRODUCT_SENTIMENT.search(text):
@@ -88,8 +91,20 @@ class IntentRouter:
         if cancel_action:
             return self._tool("CANCEL_ORDER", "cancel_order", context, .99,
                               "WRITE_ACTION_INTENT")
-        if "exchange" in text and _has(text,("start", "create", "process", "place the exchange")):
-            return self._tool("CREATE_EXCHANGE","create_exchange",context,.99,"WRITE_ACTION_INTENT")
+        if "exchange" in text and _has(text,("start", "create", "request", "want", "need", "process", "place the exchange")):
+            context.setdefault("issue_category","EXCHANGE_REQUEST")
+            context.setdefault("requested_outcome", "Human review for an exchange" +
+                               (f" in size {context['size']}" if context.get('size') else "") +
+                               (f" and color {context['color']}" if context.get('color') else ""))
+            if _has(text,("because", "too small", "too large", "wrong", "damaged", "doesn't fit", "does not fit")):
+                context.setdefault("factual_summary",request.message)
+            return self._tool("CREATE_EXCHANGE_CASE","create_support_case",context,.99,"HUMAN_REVIEW_CASE")
+        if "refund" in text and _has(text,("request", "want", "need", "start", "submit")):
+            context.setdefault("issue_category","REFUND_REQUEST")
+            context.setdefault("requested_outcome","Human refund review")
+            if _has(text,("because", "reason", "damaged", "wrong", "missing", "late", "not received")):
+                context.setdefault("factual_summary",request.message)
+            return self._tool("CREATE_REFUND_CASE","create_support_case",context,.99,"HUMAN_REVIEW_CASE")
         if _has(text,("arrived damaged","damaged item","wrong item","missing item","defective item","delivered but")):
             context.setdefault("factual_summary",request.message)
             if not context.get("issue_type"):
@@ -204,6 +219,11 @@ class IntentRouter:
         missing = [field for field in REQUIRED_CONTEXT.get(tool_name, ()) if not context.get(field)]
         if tool_name == "check_inventory" and context.get("active_variant_id"):
             missing = [field for field in missing if field != "product_id"]
+        if tool_name == "create_support_case" and context.get("issue_category") in {"EXCHANGE_REQUEST","REFUND_REQUEST"}:
+            if not context.get("order_id"): missing.append("order_id")
+            if context.get("issue_category") == "EXCHANGE_REQUEST":
+                for field in ("size","color"):
+                    if not context.get(field): missing.append(field)
         if tool_name in {"identify_customer","verify_customer"} and not any(context.get(k) for k in ("email","phone","order_id")):
             missing.append("email_or_phone_or_order_id")
         if tool_name=="verify_customer" and not context.get("verification_value"):
@@ -242,18 +262,28 @@ class IntentRouter:
             "create_exchange": ("access_token","order_item_id","size","color","store_id"),
             "create_incident": ("access_token","order_item_id","issue_type","factual_summary"),
             "create_support_case": ("access_token","product_id","issue_category","factual_summary","requested_outcome"),
+            "create_order_request": ("access_token","product_id","size","quantity","shipping_address_id","shipping_address"),
             "prepare_handoff": ("access_token","product_id","factual_summary","requested_outcome"),
             "send_secure_link": ("access_token","destination","purpose","consent_confirmed"),
             "get_customer": ("customer_id",),
-            "find_similar_products": ("reference_product_id", "size", "color"),
-            "recommend_matching_products": ("reference_product_id", "size", "color"),
+            "find_similar_products": ("reference_product_id", "size", "color", "min_price", "max_price", "target_category", "department"),
+            "recommend_matching_products": ("reference_product_id", "size", "color", "min_price", "max_price", "target_category", "department"),
         }
         arguments = {key: context[key] for key in allowed.get(tool_name, ()) if context.get(key)}
         if tool_name == "search_products":
             if context.get("budget_min") is not None: arguments["min_price"] = context["budget_min"]
             if context.get("budget_max") is not None: arguments["max_price"] = context["budget_max"]
             if context.get("category") and not arguments.get("query"): arguments["query"] = context["category"]
+        if tool_name in {"find_similar_products", "recommend_matching_products"}:
+            if context.get("budget_min") is not None: arguments["min_price"] = context["budget_min"]
+            if context.get("budget_max") is not None: arguments["max_price"] = context["budget_max"]
+            if context.get("category") is not None: arguments["target_category"] = context["category"]
+            if context.get("gender") is not None:
+                arguments["department"] = {"women":"WOMAN", "men":"MAN", "kids":"KIDS"}.get(
+                    str(context["gender"]).casefold(), context["gender"])
         if tool_name == "check_inventory" and context.get("active_variant_id"):
+            arguments["variant_id"] = context["active_variant_id"]
+        if tool_name == "create_order_request" and context.get("active_variant_id"):
             arguments["variant_id"] = context["active_variant_id"]
         if tool_name in ORDER_TOOLS and context.get("order_id"):
             arguments["order_number"] = context["order_id"]

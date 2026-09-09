@@ -53,13 +53,28 @@ class FakeRepo:
     def get_exchange(self,exchange_id): return {'exchange_id':exchange_id,'replacement_variant_id':'variant-2','exchange_status':'APPROVED'}
     def create_incident(self,*args): self.created.append(('incident',args[0]))
     def create_support_case(self,*args): self.created.append(('case',args[0]))
+    def order_request_product(self,product_id,variant_id):
+        return {'product_id':product_id,'variant_id':variant_id,'product_name':'Grounded dress',
+                'price':49.0,'currency':'USD','size_name':'M','color':'Black',
+                'public_availability_state':'IN_STOCK'}
+    def shipping_address(self,customer_id,address_id=None):
+        return {'address_id':'address-1','recipient_name':'Demo Customer','address_line_1':'1 Main St',
+                'city':'New York','state':'NY','postal_code':'10001'}
+    def create_shipping_address(self,*args): self.created.append(('address',args[1]))
+    def create_order_request(self,order_id,order_number,customer_id,address_id,item_id,product,quantity):
+        self.created.append(('order',order_id,order_number,quantity))
+        self.order_row={'order_id':order_id,'order_number':order_number,'order_status':'PENDING_PAYMENT',
+            'payment_status':'PENDING','grand_total':product['price']*quantity,'currency':product['currency'],
+            'created_at':datetime.now(timezone.utc),'product_id':product['product_id'],'variant_id':product['variant_id'],
+            'product_name':product['product_name'],'color':product['color'],'size':product['size_name'],'quantity':quantity}
+    def get_order_request(self,order_id,customer_id): return getattr(self,'order_row',None)
 
 class FakeInventory:
     available=2
     def check_inventory(self,d):
         store=SimpleNamespace(store_id=d.store_id,quantity_available=self.available)
         variant=SimpleNamespace(stores=[store])
-        return SimpleNamespace(matching_variants=[variant])
+        return SimpleNamespace(matching_variants=[variant],total_network_available=self.available)
 
 class FakeExchange:
     eligible=True
@@ -191,7 +206,40 @@ class CapabilityTests(unittest.TestCase):
         self.assertEqual((result.total_matching,result.returned_count),(1,1))
     def test_47_policy_rag_is_internal_not_gateway_definition(self):
         definitions=export_tool_definitions()
-        self.assertEqual(definitions['total_tools'],30)
+        self.assertEqual(definitions['total_tools'],31)
         self.assertNotIn('retrieve_policy_knowledge',definitions['tools'])
+
+    def test_48_order_request_requires_confirmation_and_persists_pending_payment(self):
+        base=CreateOrderRequestInput(access_token=TOKEN,product_id='zara-us:1',variant_id='variant-1',
+                                     size='M',quantity=1,idempotency_key='idem-order')
+        preflight=self.service.create_order_request(base)
+        self.assertFalse(preflight[0]); self.assertEqual(preflight[3].summary['shipping'],'Demo Customer, 1 Main St, New York, NY, 10001')
+        confirmed=self.service.create_order_request(CreateOrderRequestInput(**{
+            **base.model_dump(),'confirmed':True,'confirmation_token':preflight[3].confirmation_token}))
+        self.assertTrue(confirmed[0]); self.assertEqual(confirmed[1].order_status,'PENDING_PAYMENT')
+        self.assertEqual(confirmed[1].payment_status,'PENDING'); self.assertEqual(self.conn.commits,1)
+
+    def test_49_duplicate_order_confirmation_is_idempotent(self):
+        base=CreateOrderRequestInput(access_token=TOKEN,product_id='zara-us:1',variant_id='variant-1',
+                                     size='M',quantity=1,idempotency_key='idem-order-repeat')
+        token=self.service.create_order_request(base)[3].confirmation_token
+        first=self.service.create_order_request(CreateOrderRequestInput(**{
+            **base.model_dump(),'confirmed':True,'confirmation_token':token}))
+        second=self.service.create_order_request(base)
+        self.assertEqual(first[1].order_id,second[1].order_id); self.assertTrue(second[4])
+        self.assertEqual(len([row for row in self.repo.created if row[0]=='order']),1)
+
+    def test_50_order_request_rejects_variant_size_mismatch(self):
+        with self.assertRaisesRegex(ValueError,'size does not match'):
+            self.service.create_order_request(CreateOrderRequestInput(
+                access_token=TOKEN,product_id='zara-us:1',variant_id='variant-1',size='L',quantity=1))
+
+    def test_51_exchange_and_refund_requests_route_to_support_cases(self):
+        exchange=self.router.route(RouteRequest(message='I want to exchange order ORD-1 because it is too small',
+            context={'access_token':TOKEN,'order_id':'ORD-1','size':'L','color':'Black'}))
+        refund=self.router.route(RouteRequest(message='I want a refund for order ORD-1 because it arrived damaged',
+            context={'access_token':TOKEN,'order_id':'ORD-1'}))
+        self.assertEqual((exchange.tool_name,exchange.tool_arguments['issue_category']),('create_support_case','EXCHANGE_REQUEST'))
+        self.assertEqual((refund.tool_name,refund.tool_arguments['issue_category']),('create_support_case','REFUND_REQUEST'))
 
 if __name__=='__main__': unittest.main()

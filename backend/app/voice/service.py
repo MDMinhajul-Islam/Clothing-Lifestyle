@@ -56,6 +56,10 @@ CLARIFICATIONS = {
     "destination": "Which verified email address or phone number should receive the link?",
     "purpose": "What should the secure link be used for?",
     "consent_confirmed": "Do I have your consent to use that verified destination?",
+    "quantity": "How many would you like?",
+    "active_variant_id": "Which size and color would you like?",
+    "size": "Which size would you like?",
+    "color": "Which color would you like?",
 }
 RESUME_MESSAGES = {
     "search_products": "Show me products",
@@ -80,6 +84,7 @@ RESUME_MESSAGES = {
     "create_incident": "Create an item incident",
     "create_support_case": "Create a support case",
     "send_secure_link": "Send me a secure link",
+    "create_order_request": "Submit this order request",
 }
 
 
@@ -134,7 +139,7 @@ class VoiceService:
                 return self._response(session, "READY", "CANCELLED_BY_USER",
                     "Okay, I won't proceed with that action.", tool_name=tool)
             if text in YES:
-                return self._confirm_pending(session, executor)
+                return self._confirm_pending(session, executor, communicator)
             self.sessions.update_session(session)
             return self._response(session, "NEEDS_CONFIRMATION", "AWAITING_EXPLICIT_CONFIRMATION",
                 "Please say yes to proceed or no to cancel.", needs_user_input=True,
@@ -152,6 +157,10 @@ class VoiceService:
                     "No problem. Please tell me what you would like to find.")
             else:
                 session.pending_asr_correction = None
+
+        if (session.pending_tool_name == "search_products" and session.pending_missing_fields
+                and self._interrupts_pending_clarification(text)):
+            self._clear_pending(session)
 
         context = self._merged_context(session, request)
         self._resolve_product_reference(text, context, session)
@@ -350,14 +359,49 @@ class VoiceService:
         if session.unresolved_issue: facts.append(f"Required follow-up: {session.unresolved_issue}")
         return "; ".join(facts)
 
-    def _confirm_pending(self, session, executor):
+    def _confirm_pending(self, session, executor, communicator=None):
         tool = session.pending_tool_name
+        prepared_arguments = dict(session.pending_arguments)
         result = executor.confirm_write(tool, session.pending_arguments,
                                         session.pending_confirmation_token)
+        email_sent = None
         if result.execution_status in {"SUCCESS", "CONFIRMED_BY_GATEWAY"}:
             self._clear_pending(session)
+            if communicator and session.access_token and tool in {"create_order_request", "create_support_case"}:
+                try:
+                    if tool == "create_order_request":
+                        data=result.data; communicator.send(access_token=session.access_token,
+                            subject=f"NexGen order request {data.get('order_number','')}",
+                            lines=[f"Order: {data.get('order_number')}",f"Product: {data.get('product_name')}",
+                                   f"Variant: {data.get('variant_id')}",f"Color: {data.get('color')}",
+                                   f"Size: {data.get('size')}",f"Quantity: {data.get('quantity')}",
+                                   f"Shipping: {data.get('shipping_summary')}","Status: PENDING_PAYMENT"],
+                            action_label="Complete Payment",action_url=data.get("payment_url"),
+                            order_id=data.get("order_id"),event_type="ORDER_REQUEST_RECEIVED"); email_sent=True
+                    else:
+                        category=prepared_arguments.get("issue_category","SUPPORT_REQUEST")
+                        label=category.replace('_',' ').title()
+                        communicator.send(access_token=session.access_token,subject=f"NexGen {label.lower()} received",
+                            lines=[f"Case: {result.data.get('case_id')}",
+                                   f"Order: {prepared_arguments.get('order_number')}","Status: OPEN",
+                                   f"Request: {label}",f"Summary: {prepared_arguments.get('factual_summary')}",
+                                   "Our support team will review your request and contact you."]); email_sent=True
+                except Exception: email_sent=False
         self.sessions.update_session(session)
-        spoken = result.spoken_text or ("The action was completed." if not session.pending_confirmation
+        if tool == "create_order_request" and result.execution_status in {"SUCCESS", "CONFIRMED_BY_GATEWAY"}:
+            spoken = ("Your order request has been received successfully. I've sent the order details to your email. "
+                      "Please complete the payment using the link in the email to confirm your purchase." if email_sent
+                      else "Your order request has been received successfully, but I couldn't send the payment email. Our support team can help you complete it.")
+        elif tool == "create_support_case" and result.execution_status in {"SUCCESS", "CONFIRMED_BY_GATEWAY"}:
+            category=prepared_arguments.get("issue_category")
+            success_text=("Your exchange request has been created successfully. Our support team will review it and contact you shortly."
+                          if category=="EXCHANGE_REQUEST" else
+                          "Your refund request has been submitted successfully. Our support team will review your request and contact you."
+                          if category=="REFUND_REQUEST" else
+                          "Your request has been submitted successfully. Our support team will review it and contact you.")
+            spoken = (success_text
+                      if email_sent is not False else "Your request was created, but the confirmation email could not be sent. Our support team will still review it.")
+        else: spoken = result.spoken_text or ("The action was completed." if not session.pending_confirmation
             else "I couldn't safely complete that action. Please try again later.")
         return self._response(session, "READY", result.execution_status, spoken,
             needs_user_input=session.pending_confirmation,
@@ -423,6 +467,7 @@ class VoiceService:
             "sku": session.current_sku,
             "page_url": session.current_page_url,
             "visible_products": list(session.previous_recommendations),
+            "quantity": session.quantity,
         }
         context.update(session.pending_arguments)
         context.update(request.context.model_dump(exclude_none=True))
@@ -465,6 +510,9 @@ class VoiceService:
             context["return_method"]="STORE"
         if "order" in words and "exchange" in words:
             context["secondary_intents"]=["CHECK_EXCHANGE_INVENTORY"]
+        quantity_match=re.fullmatch(r"(?:quantity\s+)?(one|two|three|four|five|[1-9]|10)", " ".join(request.transcript.casefold().split()).strip(" .?!"))
+        if quantity_match:
+            context["quantity"]={"one":1,"two":2,"three":3,"four":4,"five":5}.get(quantity_match.group(1),int(quantity_match.group(1)) if quantity_match.group(1).isdigit() else 1)
         if context.get("product_id") and not context.get("reference_product_id"):
             context["reference_product_id"] = context["product_id"]
         return {key:value for key,value in context.items() if value is not None}
@@ -495,6 +543,7 @@ class VoiceService:
             if context.get(field) is not None:setattr(session,field,context[field])
         for field in ("colors","materials","must_have","avoid","secondary_intents"):
             if context.get(field) is not None:setattr(session,field,list(context[field]))
+        if context.get("quantity") is not None: session.quantity=context["quantity"]
 
     @staticmethod
     def _clear_pending(session):
@@ -536,13 +585,18 @@ class VoiceService:
         asks_colors = any(signal in text for signal in
                           ("what other color", "what other colour", "what colors", "what colours",
                            "available colors", "available colours"))
-        if not context.get("product_id") or not (asks_inventory and asks_colors):
+        asks_price = any(signal in text for signal in ("price", "how much", "cost"))
+        asks_material = any(signal in text for signal in ("material", "fabric", "made from"))
+        asks_sizes = any(signal in text for signal in ("what sizes", "available sizes")) or bool(
+            re.search(r"\bsizes\b", text))
+        detail_requests = sum((asks_colors, asks_price, asks_material, asks_sizes))
+        if not context.get("product_id") or not (asks_inventory and detail_requests):
             return None
         request_context = OrchestratorContext(**context)
         inventory_decision = self.orchestrator.route(RouteRequest(
             message=transcript, context=request_context))
         details_decision = self.orchestrator.route(RouteRequest(
-            message="What colors are available?", context=request_context))
+            message="Show product details", context=request_context))
         if inventory_decision.tool_name != "check_inventory" or details_decision.tool_name != "get_product_details":
             return None
         inventory = executor.execute(inventory_decision)
@@ -561,9 +615,27 @@ class VoiceService:
             if value and value not in colors:
                 colors.append(str(value))
         color_text = ("The available colors are " + ", ".join(colors)) if colors else "I couldn't confirm the available colors"
+        facts = [availability]
+        if asks_price:
+            price = details.data.get("price")
+            facts.append((f"The current price is {price} {details.data.get('currency', 'USD')}"
+                          if price is not None else "I couldn't confirm the current price"))
+        if asks_material:
+            material = details.data.get("materials_care") or details.data.get("description")
+            facts.append(str(material) if material else "I couldn't confirm the material")
+        if asks_colors:
+            facts.append(color_text)
+        if asks_sizes:
+            sizes=[]
+            for variant in details.data.get("variants") or []:
+                value=(variant.get("size_name") or variant.get("size")) if isinstance(variant,dict) else None
+                if value and value not in sizes: sizes.append(str(value))
+            facts.append(("The available sizes are " + ", ".join(sizes)) if sizes
+                         else "I couldn't confirm the available sizes")
         status = ("SUCCESS" if inventory.execution_status == "SUCCESS" and
                   details.execution_status == "SUCCESS" else "PARTIAL_RESULT")
-        return self._response(session, "READY", status, f"{availability}. {color_text}.",
+        return self._response(session, "READY", status,
+                              facts[0] + ". " + "; ".join(facts[1:]) + ".",
                               decision=inventory_decision,
                               metadata={"capability_data": self._safe_metadata({
                                   "inventory": inventory.data, "product_details": details.data,
@@ -571,6 +643,8 @@ class VoiceService:
 
     @staticmethod
     def _shopping_clarification(text, context, session):
+        if context.get("product_id"):
+            return None
         if session.pending_tool_name == "search_products" and session.pending_missing_fields:
             field = session.pending_missing_fields[0]
             if not context.get(field):
@@ -584,6 +658,14 @@ class VoiceService:
             context.setdefault("query", text)
             return "occasion", CLARIFICATIONS["occasion"]
         return None
+
+    @staticmethod
+    def _interrupts_pending_clarification(text):
+        return any(signal in text for signal in (
+            "return", "exchange", "refund", "track", "where is my order", "policy",
+            "shipping", "delivery", "payment method", "wishlist", "store", "human support",
+            "speak to a person", "another customer's", "another customer’s",
+        ))
 
     @staticmethod
     def _confirmation_prompt(decision):

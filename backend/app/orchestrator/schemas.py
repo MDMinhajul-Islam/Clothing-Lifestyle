@@ -64,6 +64,9 @@ class OrchestratorContext(BaseModel):
     factual_summary: str | None = None
     requested_outcome: str | None = None
     return_method: str | None = None
+    quantity: int | None = Field(None, ge=1, le=10)
+    shipping_address_id: str | None = None
+    shipping_address: dict[str, Any] | None = None
 
     @field_validator("customer_type", "auth_level", "access_token", "customer_id", "order_id",
                      "order_item_id", "product_id", "reference_product_id", "active_variant_id",
@@ -71,7 +74,7 @@ class OrchestratorContext(BaseModel):
                      "store_id", "query", "product_reference", "sku", "page_url", "email", "phone", "verification_value", "promotion_code",
                      "preferred_store", "location", "delivery_deadline", "unresolved_issue",
                      "destination", "purpose", "issue_type", "issue_category", "factual_summary", "requested_outcome",
-                     "return_method")
+                     "return_method", "shipping_address_id")
     @classmethod
     def strip_values(cls, value):
         if isinstance(value, str):
