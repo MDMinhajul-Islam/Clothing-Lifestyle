@@ -63,7 +63,7 @@ class VoiceResponseComposer:
             if colors: facts.append("The available colors are " + ", ".join(colors))
             if details: facts.append(str(details))
             return f"{name}. " + ". ".join(facts) + "." if facts else f"I have the latest details for {name}. What would you like to know?"
-        if decision.intent in {"CHECK_INVENTORY", "CHECK_PICKUP_AVAILABILITY", "CHECK_EXCHANGE_INVENTORY"}:
+        if decision.intent in {"CHECK_INVENTORY", "PURCHASE_GUIDANCE", "CHECK_PICKUP_AVAILABILITY", "CHECK_EXCHANGE_INVENTORY"}:
             if decision.intent == "CHECK_EXCHANGE_INVENTORY" and not data.get("eligible", False):
                 reason=data.get("reason") or "Exchange eligibility or replacement stock could not be verified."
                 return f"{reason} Would you like me to help with a return or human support?"
@@ -72,6 +72,11 @@ class VoiceResponseComposer:
             suffix=f" with {quantity} available" if quantity is not None else ""
             if decision.intent == "CHECK_PICKUP_AVAILABILITY":
                 return f"The synthetic store stock status is {str(state).replace('_',' ').lower()}{suffix}. This does not reserve the item or confirm that an order is ready for pickup."
+            if decision.intent == "PURCHASE_GUIDANCE":
+                if str(state).upper() == "OUT_OF_STOCK":
+                    return "That selection is currently out of stock. I can check another size or color for you."
+                return (f"It's currently {str(state).replace('_',' ').lower()}{suffix}. "
+                        "You can select the available size on the product page and continue through website checkout.")
             return f"It's currently {str(state).replace('_',' ').lower()}{suffix}. Would you like me to check another size or color?"
         if decision.intent == "GET_SIZE_GUIDANCE":
             sizes=", ".join(data.get("documented_sizes") or [])

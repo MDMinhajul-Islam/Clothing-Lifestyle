@@ -426,6 +426,10 @@ class VoiceService:
         }
         context.update(session.pending_arguments)
         context.update(request.context.model_dump(exclude_none=True))
+        # Webpage product context is authoritative even when the integration supplies
+        # only its recommendation/reference identifier.
+        if context.get("reference_product_id"):
+            context["product_id"] = context["reference_product_id"]
         order = ORDER_ID.search(request.transcript)
         product = PRODUCT_ID.search(request.transcript)
         if order: context["order_id"] = order.group(0).upper()

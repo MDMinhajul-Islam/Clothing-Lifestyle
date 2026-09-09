@@ -35,11 +35,19 @@ class IntentRouter:
         if size_match and "size" not in context:
             context["size"] = size_match.group(1).upper()
 
-        current_product = bool(context.get("product_id"))
+        current_product = bool(context.get("product_id") or context.get("active_variant_id"))
+        purchase_intent = _has(text, ("want to buy", "like to buy", "want to order",
+                                      "like to order", "i'll take", "ill take"))
+        requested_size = bool(SIZE.search(request.message) or re.search(
+            r"\b(?:xs|s|m|l|xl|xxl|small|medium|large)(?:\s+size)?\b", text))
+        refers_to_current_product = _has(text, ("this", "this one", "this item", "this piece"))
+        if current_product and (purchase_intent or (requested_size and refers_to_current_product)):
+            return self._tool("PURCHASE_GUIDANCE", "check_inventory", context, .98,
+                              "CURRENT_PRODUCT_PURCHASE_GUIDANCE")
         if current_product and re.fullmatch(r"(?:do you have (?:this|it) in )?(?:size )?(?:xs|s|m|l|xl|xxl|small|medium|large)\??", text):
             return self._tool("CHECK_INVENTORY", "check_inventory", context, .98,
                               "CURRENT_PRODUCT_INVENTORY")
-        if current_product and not _has(text, RECOMMENDATION_SIGNALS) and _has(text, ("how much", "what does it cost", "what colors", "which colors", "what colour", "this one", "this item", "this piece", "first one", "second one", "third one", "fourth one", "fifth one")):
+        if current_product and not _has(text, RECOMMENDATION_SIGNALS) and _has(text, ("how much", "what does it cost", "what colors", "what other colors", "which colors", "what colour", "what other colours", "this one", "this item", "this piece", "first one", "second one", "third one", "fourth one", "fifth one")):
             return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .97,
                               "CURRENT_PRODUCT_CONTEXT")
 
@@ -165,6 +173,8 @@ class IntentRouter:
     def _tool(self, intent, tool_name, context, confidence, reason, route=Route.TOOL_GATEWAY):
         definition = TOOL_REGISTRY[tool_name]
         missing = [field for field in REQUIRED_CONTEXT.get(tool_name, ()) if not context.get(field)]
+        if tool_name == "check_inventory" and context.get("active_variant_id"):
+            missing = [field for field in missing if field != "product_id"]
         if tool_name in {"identify_customer","verify_customer"} and not any(context.get(k) for k in ("email","phone","order_id")):
             missing.append("email_or_phone_or_order_id")
         if tool_name=="verify_customer" and not context.get("verification_value"):
@@ -214,6 +224,8 @@ class IntentRouter:
             if context.get("budget_min") is not None: arguments["min_price"] = context["budget_min"]
             if context.get("budget_max") is not None: arguments["max_price"] = context["budget_max"]
             if context.get("category") and not arguments.get("query"): arguments["query"] = context["category"]
+        if tool_name == "check_inventory" and context.get("active_variant_id"):
+            arguments["variant_id"] = context["active_variant_id"]
         if tool_name in ORDER_TOOLS and context.get("order_id"):
             arguments["order_number"] = context["order_id"]
         if tool_name == "create_return" and context.get("items"):

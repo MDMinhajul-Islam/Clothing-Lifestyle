@@ -116,6 +116,36 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertIn("Size M is in stock", result.spoken_text)
         self.assertIn("Black, White", result.spoken_text)
 
+    def test_reference_product_controls_natural_purchase_and_size_turns(self):
+        context = {"reference_product_id":"zara-us:00000001",
+                   "active_variant_id":"black-m"}
+        size = self.turn("I love this dress. I'd like it in medium size.", **context)
+        self.assertEqual(size.intent, "PURCHASE_GUIDANCE")
+        self.assertEqual(size.tool_name, "check_inventory")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_id"],
+                         "zara-us:00000001")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["variant_id"], "black-m")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["size"], "M")
+        self.assertNotEqual(size.execution_status, "LLM_NOT_CONFIGURED")
+
+        purchase = self.turn("I love this dress. I'd like to order it.")
+        self.assertEqual(purchase.intent, "PURCHASE_GUIDANCE")
+        self.assertIn("website checkout", purchase.spoken_text)
+
+    def test_reference_product_remains_authoritative_for_detail_followups(self):
+        visible = [{"product_id":"zara-us:99999999", "name":"Different product"}]
+        colors = self.turn("What other colors does this come in?",
+                           reference_product_id="zara-us:00000001",
+                           visible_products=visible)
+        self.assertEqual(colors.tool_name, "get_product_details")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_id"],
+                         "zara-us:00000001")
+        price = self.turn("How much is this?")
+        self.assertEqual(price.tool_name, "get_product_details")
+        medium = self.turn("This one in medium.")
+        self.assertEqual(medium.tool_name, "check_inventory")
+        self.assertNotEqual(medium.execution_status, "LLM_NOT_CONFIGURED")
+
     def test_high_confidence_asr_recovery_confirms_then_resumes_search(self):
         self.turn("Show me dresses for a wedding")
         clarification = self.turn("blank waiting list")
