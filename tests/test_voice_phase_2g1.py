@@ -10,6 +10,11 @@ class CapturingBackend:
     def __init__(self): self.calls=[]
     def execute(self,decision):
         self.calls.append(decision)
+        if decision.tool_name == "check_inventory":
+            return CapabilityResult(execution_status="SUCCESS",data={"overall_status":"IN_STOCK"})
+        if decision.tool_name == "get_product_details":
+            return CapabilityResult(execution_status="SUCCESS",data={"name":"Grounded dress","price":69.9,
+                "currency":"USD","colors":[{"color_name":"Black"},{"color_name":"White"}]})
         if decision.tool_name == "search_products" and decision.tool_arguments.get("max_price") != 0.01:
             return CapabilityResult(execution_status="SUCCESS",data={"products":[{
                 "name":"Grounded black dress","price":69.9,"currency":"USD"}]})
@@ -83,6 +88,14 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.turn("Show me dresses")
         self.turn("Under fifty dollars")
         self.assertEqual(self.backend.calls[-1].tool_arguments["max_price"], 50.0)
+
+    def test_compound_current_product_question_answers_inventory_and_colors(self):
+        result = self.turn("Do you have this in medium and what other colors are available?",
+                           product_id="zara-us:00000001")
+        self.assertEqual([call.tool_name for call in self.backend.calls],
+                         ["check_inventory", "get_product_details"])
+        self.assertIn("Size M is in stock", result.spoken_text)
+        self.assertIn("Black, White", result.spoken_text)
 
     def test_color_correction_replaces_previous_color(self):
         self.turn("Show me black dresses")

@@ -86,14 +86,18 @@ class RetellTransportTests(unittest.TestCase):
             "call_id": "call-123", "access_token": "public-token", "agent_id": "agent-1"
         }
         request = SimpleNamespace(headers={}, client=SimpleNamespace(host="127.0.0.1"))
-        response = create_web_call(CreateWebCallRequest(), request)
+        response = create_web_call(CreateWebCallRequest(context={
+            "product_id": "zara-us:00000001", "active_variant_id": "black-m",
+            "color": "Black", "size": "M",
+        }), request)
         self.assertEqual(response.model_dump(), {
             "call_id": "call-123", "access_token": "public-token"
         })
         sent = create_call.call_args.args[0]
         self.assertEqual(sent["agent_id"], "agent-configured")
         self.assertIn("nexgen_session_id", sent["metadata"])
-        self.assertEqual(sent["metadata"]["webpage_context"], {})
+        self.assertEqual(sent["metadata"]["webpage_context"]["product_id"], "zara-us:00000001")
+        self.assertEqual(sent["metadata"]["webpage_context"]["active_variant_id"], "black-m")
 
     def test_create_web_call_schema_rejects_browser_agent_override(self):
         with self.assertRaises(ValidationError):

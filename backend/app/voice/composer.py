@@ -53,7 +53,16 @@ class VoiceResponseComposer:
             return "I couldn't find matching products in that selection. Would you like me to broaden the search or try another color?"
         if decision.intent == "GET_PRODUCT_DETAILS":
             name=data.get("name","This item"); details=data.get("materials_care") or data.get("description")
-            return f"{name}. {details}" if details else f"I have the latest details for {name}. What would you like to know?"
+            facts=[]
+            if data.get("price") is not None:
+                facts.append(f"The current price is {data['price']} {data.get('currency', 'USD')}")
+            colors=[]
+            for color in data.get("colors") or []:
+                value=(color.get("color_name") or color.get("name")) if isinstance(color,dict) else color
+                if value and value not in colors: colors.append(str(value))
+            if colors: facts.append("The available colors are " + ", ".join(colors))
+            if details: facts.append(str(details))
+            return f"{name}. " + ". ".join(facts) + "." if facts else f"I have the latest details for {name}. What would you like to know?"
         if decision.intent in {"CHECK_INVENTORY", "CHECK_PICKUP_AVAILABILITY", "CHECK_EXCHANGE_INVENTORY"}:
             if decision.intent == "CHECK_EXCHANGE_INVENTORY" and not data.get("eligible", False):
                 reason=data.get("reason") or "Exchange eligibility or replacement stock could not be verified."

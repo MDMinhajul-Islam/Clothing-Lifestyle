@@ -131,13 +131,13 @@ export const App: React.FC = () => {
     fallbackVoice.current = startFallbackVoice;
   }, [startFallbackVoice]);
 
-  const webpageVoiceContext = React.useCallback((): WebpageVoiceContext => {
-    const matched = selectedProduct?.matchedVariant;
+  const webpageVoiceContext = React.useCallback((activeProduct: Product | null = selectedProduct): WebpageVoiceContext => {
+    const matched = activeProduct?.matchedVariant;
     return {
-      product_id: selectedProduct?.id,
-      reference_product_id: selectedProduct?.id,
+      product_id: activeProduct?.id,
+      reference_product_id: activeProduct?.id,
       active_variant_id: matched?.id,
-      product_reference: selectedProduct?.commercialReference,
+      product_reference: activeProduct?.commercialReference,
       sku: matched?.sku,
       color: matched?.color,
       size: matched?.size,
@@ -151,7 +151,7 @@ export const App: React.FC = () => {
     };
   }, [filter.searchQuery, products, selectedProduct]);
 
-  const startVoice = React.useCallback(async () => {
+  const startVoice = React.useCallback(async (activeProduct: Product | null = selectedProduct) => {
     if (voiceSession?.provider === 'retell' && voiceState !== 'DISCONNECTED' && voiceState !== 'ERROR' && voiceState !== 'ENDED') {
       setIsVoiceExpanded(true);
       return voiceSession;
@@ -164,7 +164,7 @@ export const App: React.FC = () => {
     try {
       const permission = await navigator.mediaDevices.getUserMedia({ audio: true });
       permission.getTracks().forEach((track) => track.stop());
-      const authorization = await createRetellWebCall(customer.id || undefined, webpageVoiceContext());
+      const authorization = await createRetellWebCall(customer.id || undefined, webpageVoiceContext(activeProduct));
       const session: VoiceSession = {
         sessionId: authorization.call_id,
         status: 'ACTIVE',
@@ -175,7 +175,7 @@ export const App: React.FC = () => {
         conversationTurn: 0,
         durationSeconds: 0,
         createdAt: new Date().toISOString(),
-        currentProductId: selectedProduct?.id,
+        currentProductId: activeProduct?.id,
       };
       setVoiceSession(session);
       retellTranscriptKey.current = '';
@@ -186,7 +186,7 @@ export const App: React.FC = () => {
       try { return await startFallbackVoice(); } catch { setVoiceState('ERROR'); return null; }
     }
   }, [customer.id, getRetellClient, selectedProduct, startFallbackVoice, voiceSession, voiceState, webpageVoiceContext]);
-  const sendTranscript = React.useCallback(async (transcript: string) => { const text = transcript.trim(); if (!text) return; const session = voiceSession?.status === 'ACTIVE' ? voiceSession : await startVoice(); if (!session) return; if (session.provider === 'retell') { window.speechSynthesis.cancel(); setAuthNotice('The live stylist is connected. Say your request naturally.'); return; } setTurnHistory((history) => [...history, { id: `user-${Date.now()}`, sender: 'user', text, timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }]); setVoiceState('THINKING'); setIsVoiceExpanded(true); const productIntent = voiceFilter(text); if (Object.keys(productIntent).length) { setFilter((current) => ({ ...current, ...productIntent })); setActiveVoiceFilterLabel(text); } const result = await sendVoiceTurn(session, text, products.length ? products : FALLBACK_PRODUCTS, webpageVoiceContext()); if (result.updatedFilter) { setFilter((current) => ({ ...current, ...result.updatedFilter })); setActiveVoiceFilterLabel(text); } setLastTurn(result.message); setTurnHistory((history) => [...history, result.message]); setVoiceState('SPEAKING'); window.speechSynthesis.cancel(); const speech = new SpeechSynthesisUtterance(result.message.text); speech.rate = 1.05; speech.onend = () => setVoiceState('LISTENING'); speech.onerror = () => setVoiceState('LISTENING'); window.speechSynthesis.speak(speech); }, [products, startVoice, voiceSession, webpageVoiceContext]);
+  const sendTranscript = React.useCallback(async (transcript: string, activeProduct: Product | null = selectedProduct) => { const text = transcript.trim(); if (!text) return; const session = voiceSession?.status === 'ACTIVE' ? voiceSession : await startVoice(activeProduct); if (!session) return; if (session.provider === 'retell') { window.speechSynthesis.cancel(); setAuthNotice('The live stylist is connected. Say your request naturally.'); return; } setTurnHistory((history) => [...history, { id: `user-${Date.now()}`, sender: 'user', text, timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }]); setVoiceState('THINKING'); setIsVoiceExpanded(true); const productIntent = voiceFilter(text); if (Object.keys(productIntent).length) { setFilter((current) => ({ ...current, ...productIntent })); setActiveVoiceFilterLabel(text); } const result = await sendVoiceTurn(session, text, products.length ? products : FALLBACK_PRODUCTS, webpageVoiceContext(activeProduct)); if (result.updatedFilter) { setFilter((current) => ({ ...current, ...result.updatedFilter })); setActiveVoiceFilterLabel(text); } setLastTurn(result.message); setTurnHistory((history) => [...history, result.message]); setVoiceState('SPEAKING'); window.speechSynthesis.cancel(); const speech = new SpeechSynthesisUtterance(result.message.text); speech.rate = 1.05; speech.onend = () => setVoiceState('LISTENING'); speech.onerror = () => setVoiceState('LISTENING'); window.speechSynthesis.speak(speech); }, [products, selectedProduct, startVoice, voiceSession, webpageVoiceContext]);
   const toggleVoiceMute = () => {
     const nextMuted = !isVoiceMuted;
     if (voiceSession?.provider === 'retell') {
@@ -216,10 +216,10 @@ export const App: React.FC = () => {
   return <div className="flex min-h-screen flex-col bg-[#fcfcfc] text-neutral-900">
     <Navbar currentView={currentView} onNavigate={setCurrentView} customer={customer} onOpenAuth={() => setIsAuthModalOpen(true)} voiceState={voiceState} isVoiceActive={voiceSession?.status === 'ACTIVE'} onToggleVoice={() => voiceSession?.status === 'ACTIVE' ? void endVoice() : void startVoice()} cartCount={cartItems.length} onSearchClick={() => document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' })} onSelectCategory={selectCategory} />
     <Hero featuredProducts={styledProducts.slice(0, 3)} onStartVoice={() => void startVoice()} onExploreCollection={() => document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' })} onSelectPrompt={(prompt) => void sendTranscript(prompt)} />
-    <StyledEdit products={styledProducts} onSelectProduct={(product) => void selectProduct(product)} onAskVoice={(prompt) => void sendTranscript(prompt)} />
+    <StyledEdit products={styledProducts} onSelectProduct={(product) => void selectProduct(product)} onAskVoice={(prompt, product) => void sendTranscript(prompt, product)} />
     <div id="catalogue"><FilterBar filter={filter} onChangeFilter={setFilter} onResetFilter={resetFilters} renderedCount={products.length} matchingCount={totalProducts} activeVoiceFilterLabel={activeVoiceFilterLabel} onClearVoiceFilter={resetFilters} availableColors={colors} availableCategories={facets?.categories} availableDepartments={facets?.departments} /></div>
-    <main className="flex-1"><ProductGrid products={products} isLoading={isLoading} onSelectProduct={(product) => void selectProduct(product)} onAskAboutProduct={(product) => void sendTranscript(`Tell me about ${product.name}`)} onResetFilters={resetFilters} onAskVoice={(prompt) => void sendTranscript(prompt)} voiceActionNotice={activeVoiceFilterLabel ? { actionText: `Stylist selected for “${activeVoiceFilterLabel}”`, route: lastTurn?.route, onClear: resetFilters } : null} totalMatchingCount={totalProducts} hasMore={hasMore} isLoadingMore={isLoadingMore} onLoadMore={() => void loadMore()} /></main>
-    <ProductDetailModal product={selectedProduct} isLoading={isProductDetailLoading} error={productDetailError} onClose={closeProduct} onAddToCart={(product, size) => setCartItems((items) => [...items, { product, size }])} onAskVoicePrompt={(prompt) => void sendTranscript(prompt)} matchingProducts={matchingProducts} onSelectMatchingProduct={(product) => void selectProduct(product)} onContextChange={setSelectedProduct} />
+    <main className="flex-1"><ProductGrid products={products} isLoading={isLoading} onSelectProduct={(product) => void selectProduct(product)} onAskAboutProduct={(product) => void sendTranscript(`Tell me about ${product.name}`, product)} onResetFilters={resetFilters} onAskVoice={(prompt) => void sendTranscript(prompt)} voiceActionNotice={activeVoiceFilterLabel ? { actionText: `Stylist selected for “${activeVoiceFilterLabel}”`, route: lastTurn?.route, onClear: resetFilters } : null} totalMatchingCount={totalProducts} hasMore={hasMore} isLoadingMore={isLoadingMore} onLoadMore={() => void loadMore()} /></main>
+    <ProductDetailModal product={selectedProduct} isLoading={isProductDetailLoading} error={productDetailError} onClose={closeProduct} onAddToCart={(product, size) => setCartItems((items) => [...items, { product, size }])} onAskVoicePrompt={(prompt, product) => void sendTranscript(prompt, product)} matchingProducts={matchingProducts} onSelectMatchingProduct={(product) => void selectProduct(product)} onContextChange={setSelectedProduct} />
     <CustomerAuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} currentCustomer={customer} onUpdateCustomer={setCustomer} />
     <VoiceAssistantPanel session={voiceSession} voiceState={voiceState} onStartSession={() => void startVoice()} onEndSession={() => void endVoice()} isMuted={isVoiceMuted} onToggleMute={toggleVoiceMute} onSendTranscript={(text) => void sendTranscript(text)} history={turnHistory} lastTurn={lastTurn} onConfirmAction={() => void sendTranscript('Yes, confirm the action')} onCancelAction={() => void sendTranscript('Cancel that action')} isExpanded={isVoiceExpanded} onToggleExpand={() => setIsVoiceExpanded((expanded) => !expanded)} authNotice={authNotice} />
     <Footer onShop={() => { resetFilters(); document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' }); }} onNewArrivals={() => document.getElementById('styled-edit')?.scrollIntoView({ behavior: 'smooth' })} onSelectCategory={selectCategory} onStartVoice={() => void startVoice()} onAskVoice={(prompt) => void sendTranscript(prompt)} onOpenAccount={() => setIsAuthModalOpen(true)} />

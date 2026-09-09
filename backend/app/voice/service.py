@@ -24,6 +24,7 @@ BUDGET_WORD = re.compile(r"(?:under|below|less than|up to)\s+(twenty|thirty|fort
 BUDGET_VALUES = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60,
                  "seventy": 70, "eighty": 80, "ninety": 90, "hundred": 100}
 SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
+SIZE_IN_SENTENCE = re.compile(r"\b(?:in|size)\s+(xxs|xs|s|m|l|xl|xxl|small|medium|large)\b", re.IGNORECASE)
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
 CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "top", "skirt", "shoes", "coat"}
 CATEGORY_ALIASES = {"dresses":"dress", "shirts":"shirt", "jackets":"jacket", "tops":"top",
@@ -139,6 +140,10 @@ class VoiceService:
 
         context = self._merged_context(session, request)
         self._resolve_product_reference(text, context, session)
+        compound = self._answer_compound_product_question(
+            request.transcript, text, context, session, executor)
+        if compound:
+            return compound
         clarification = self._shopping_clarification(text, context, session)
         if clarification:
             field, prompt = clarification
@@ -300,6 +305,7 @@ class VoiceService:
         budget_word=BUDGET_WORD.search(request.transcript)
         if budget_word: context["budget_max"]=float(BUDGET_VALUES[budget_word.group(1).casefold()])
         size=SIZE_ONLY.match(" ".join(request.transcript.casefold().split()).rstrip("?!."))
+        if not size: size=SIZE_IN_SENTENCE.search(request.transcript)
         if size:
             context["size"]={"small":"S","medium":"M","large":"L"}.get(size.group(1).lower(),size.group(1).upper())
         words=set(re.findall(r"[a-z]+",request.transcript.casefold()))
@@ -389,6 +395,45 @@ class VoiceService:
         elif any(reference in text for reference in ("this one", "this item", "this piece")):
             if context.get("product_id"):
                 context.setdefault("reference_product_id", context["product_id"])
+
+    def _answer_compound_product_question(self, transcript, text, context, session, executor):
+        asks_inventory = any(signal in text for signal in
+                             ("do you have", "in stock", "available in size", "have size"))
+        asks_colors = any(signal in text for signal in
+                          ("what other color", "what other colour", "what colors", "what colours",
+                           "available colors", "available colours"))
+        if not context.get("product_id") or not (asks_inventory and asks_colors):
+            return None
+        request_context = OrchestratorContext(**context)
+        inventory_decision = self.orchestrator.route(RouteRequest(
+            message=transcript, context=request_context))
+        details_decision = self.orchestrator.route(RouteRequest(
+            message="What colors are available?", context=request_context))
+        if inventory_decision.tool_name != "check_inventory" or details_decision.tool_name != "get_product_details":
+            return None
+        inventory = executor.execute(inventory_decision)
+        details = executor.execute(details_decision)
+        self._remember_decision(session, inventory_decision, context)
+        self.sessions.update_session(session)
+        size = context.get("size")
+        state = inventory.data.get("overall_status") or inventory.data.get("status")
+        if state:
+            availability = f"Size {size} is {str(state).replace('_', ' ').lower()}" if size else f"It is {str(state).replace('_', ' ').lower()}"
+        else:
+            availability = f"I couldn't confirm size {size} availability" if size else "I couldn't confirm availability"
+        colors = []
+        for color in details.data.get("colors") or []:
+            value = color.get("color_name") or color.get("name") if isinstance(color, dict) else color
+            if value and value not in colors:
+                colors.append(str(value))
+        color_text = ("The available colors are " + ", ".join(colors)) if colors else "I couldn't confirm the available colors"
+        status = ("SUCCESS" if inventory.execution_status == "SUCCESS" and
+                  details.execution_status == "SUCCESS" else "PARTIAL_RESULT")
+        return self._response(session, "READY", status, f"{availability}. {color_text}.",
+                              decision=inventory_decision,
+                              metadata={"capability_data": self._safe_metadata({
+                                  "inventory": inventory.data, "product_details": details.data,
+                              })})
 
     @staticmethod
     def _shopping_clarification(text, context, session):

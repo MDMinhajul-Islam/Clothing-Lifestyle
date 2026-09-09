@@ -1,7 +1,10 @@
 import { renderToStaticMarkup } from 'react-dom/server';
-import { describe, expect, it } from 'vitest';
+import { afterEach, describe, expect, it, vi } from 'vitest';
 import { ProductCard } from '../components/storefront/ProductCard';
 import { preserveMatchedVariant, resolveProductImage, toProduct } from './catalogueApi';
+import { createRetellWebCall } from './api';
+
+afterEach(() => vi.unstubAllGlobals());
 
 const response = {
   product_id: 'zara-us:00264719', name: 'COMBINED STRAP DRESS', department: 'WOMAN',
@@ -47,5 +50,27 @@ describe('variant-aware catalogue rendering', () => {
     expect(resolveProductImage(product, product.image, [product.image]))
       .toBe('https://example.test/black-detail.jpg');
     expect(resolveProductImage(product, product.image, product.gallery)).toBe('');
+  });
+});
+
+describe('voice product context', () => {
+  it('sends the canonical product and matched variant when creating a Retell call', async () => {
+    const fetchMock = vi.fn().mockResolvedValue({ ok: true, json: async () => ({
+      call_id: 'call-1', access_token: 'public-token',
+    }) });
+    vi.stubGlobal('fetch', fetchMock);
+    await createRetellWebCall(undefined, {
+      product_id: response.product_id,
+      reference_product_id: response.product_id,
+      active_variant_id: response.matched_variant.variant_id,
+      sku: response.matched_variant.sku,
+      color: response.matched_variant.color,
+      size: response.matched_variant.size,
+    });
+    const request = fetchMock.mock.calls[0][1] as RequestInit;
+    expect(JSON.parse(String(request.body))).toMatchObject({ context: {
+      product_id: response.product_id,
+      active_variant_id: 'black-m', sku: 'BLACK-M', color: 'Black', size: 'M',
+    } });
   });
 });
