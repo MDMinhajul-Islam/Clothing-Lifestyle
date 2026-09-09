@@ -78,6 +78,10 @@ class Settings(BaseModel):
     payment_placeholder_url: str = Field(default_factory=lambda: os.getenv("PAYMENT_PLACEHOLDER_URL", "https://example.invalid/complete-payment"))
     admin_email: str = Field(default_factory=lambda: os.getenv("ADMIN_EMAIL", ""))
     admin_password_hash: str = Field(default_factory=lambda: os.getenv("ADMIN_PASSWORD_HASH", ""))
+    customer_portal_url: str = Field(default_factory=lambda: os.getenv("CUSTOMER_PORTAL_URL", "http://localhost:5173"))
+    customer_session_cookie: str = Field(default_factory=lambda: os.getenv("CUSTOMER_SESSION_COOKIE", "nexgen_customer_session"))
+    customer_session_days: int = Field(default_factory=lambda: int(os.getenv("CUSTOMER_SESSION_DAYS", "7")))
+    cors_origins: str = Field(default_factory=lambda: os.getenv("CORS_ORIGINS", "*"))
 
     # Database Pool Settings
     db_pool_min_conns: int = 2

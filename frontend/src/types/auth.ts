@@ -12,4 +12,6 @@ export interface CustomerProfile {
   verified: boolean;
   activeOrderNumber?: string;
   defaultAddress?: string;
+  addresses?: Array<Record<string, unknown>>;
+  orders?: Array<Record<string, unknown>>;
 }

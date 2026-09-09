@@ -17,6 +17,7 @@ from backend.app.api.routes_voice import router as voice_router
 from backend.app.api.routes_catalogue import router as catalogue_router
 from backend.app.api.routes_retell import router as retell_router
 from backend.app.api.routes_admin import router as admin_router
+from backend.app.api.routes_customer_auth import router as customer_auth_router
 
 logging.basicConfig(
     level=logging.INFO,
@@ -55,10 +56,11 @@ app = FastAPI(
 )
 
 # CORS Middleware
+_cors_origins=[value.strip() for value in settings.cors_origins.split(',') if value.strip()]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
+    allow_origins=_cors_origins,
+    allow_credentials="*" not in _cors_origins,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -71,6 +73,7 @@ app.include_router(voice_router)
 app.include_router(catalogue_router)
 app.include_router(retell_router)
 app.include_router(admin_router)
+app.include_router(customer_auth_router)
 
 
 @app.get("/")

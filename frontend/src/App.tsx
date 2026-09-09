@@ -13,6 +13,7 @@ import { VoiceAssistantPanel } from './components/voice/VoiceAssistantPanel';
 import { createRetellWebCall, createVoiceSession, endVoiceSession, getHealth, sendVoiceTurn } from './lib/api';
 import { fetchCatalogueFacets, fetchCatalogueProducts, fetchProductDetails, fetchStyledEdit, preserveMatchedVariant, type CatalogueFacets } from './lib/catalogueApi';
 import { compatibleProducts, matchesColor, matchesProductSearch } from './lib/catalogue';
+import { customerAuthTokensFromFragment, customerMe, verifyCustomerEmail } from './lib/customerAuthApi';
 import type { CustomerProfile } from './types/auth';
 import type { Product, ProductFilter } from './types/catalog';
 import type { VoiceSession, VoiceState, VoiceTurnMessage, WebpageVoiceContext } from './types/voice';
@@ -21,6 +22,14 @@ const DEFAULT_FILTER: ProductFilter = { inStockOnly: false, sort: 'featured' };
 const PAGE_SIZE = 24;
 const FALLBACK_PRODUCTS: Product[] = [];
 const fallbackColors = Array.from(new Map(FALLBACK_PRODUCTS.flatMap((product) => product.colors).map((color) => [color.name, color])).values());
+
+const consumePortalLinkTokens = () => {
+  const tokens = customerAuthTokensFromFragment(window.location.hash);
+  if (tokens.verify || tokens.reset) {
+    window.history.replaceState({}, '', `${window.location.pathname}${window.location.search}`);
+  }
+  return tokens;
+};
 
 const localResults = (filter: ProductFilter) => FALLBACK_PRODUCTS.filter((product) => {
   if (filter.department && product.department !== filter.department) return false;
@@ -41,8 +50,9 @@ const voiceFilter = (text: string): Partial<ProductFilter> => {
 };
 
 export const App: React.FC = () => {
+  const [portalTokens] = React.useState(consumePortalLinkTokens);
   const [currentView, setCurrentView] = React.useState<'storefront' | 'admin'>('storefront');
-  const [isAuthModalOpen, setIsAuthModalOpen] = React.useState(false);
+  const [isAuthModalOpen, setIsAuthModalOpen] = React.useState(() => Boolean(portalTokens.verify || portalTokens.reset));
   const [customer, setCustomer] = React.useState<CustomerProfile>({ id: '', name: 'Guest', email: '', type: 'GUEST', authLevel: 'ANONYMOUS', verified: false });
   const [cartItems, setCartItems] = React.useState<Array<{ product: Product; size: string }>>([]);
   const [filter, setFilter] = React.useState<ProductFilter>(DEFAULT_FILTER);
@@ -65,6 +75,8 @@ export const App: React.FC = () => {
   const [lastTurn, setLastTurn] = React.useState<VoiceTurnMessage | null>(null);
   const [isVoiceExpanded, setIsVoiceExpanded] = React.useState(false);
   const [authNotice, setAuthNotice] = React.useState<string | null>(null);
+  const [portalNotice, setPortalNotice] = React.useState<string | null>(null);
+  const resetToken = portalTokens.reset;
   const [activeVoiceFilterLabel, setActiveVoiceFilterLabel] = React.useState<string | null>(null);
 
   const detailRequest = React.useRef(0);
@@ -115,6 +127,13 @@ export const App: React.FC = () => {
   }, [appendRetellTranscript]);
 
   React.useEffect(() => () => retellClient.current?.stopCall(), []);
+  React.useEffect(() => {
+    void customerMe().then(setCustomer).catch(() => undefined);
+    const token=portalTokens.verify;
+    if(token){void verifyCustomerEmail(token).then(()=>{
+      setPortalNotice('Your email is verified. You can now sign in.');
+    }).catch((reason:unknown)=>setPortalNotice(reason instanceof Error?reason.message:'The verification link could not be used.'));}
+  },[portalTokens.verify]);
   React.useEffect(() => { const controller = new AbortController(); void Promise.all([fetchCatalogueFacets(controller.signal), fetchStyledEdit(controller.signal)]).then(([nextFacets, edit]) => { setFacets(nextFacets); if (edit.length) { const unique = Array.from(new Map(edit.map((item) => [item.id, item])).values()); const prior = Number(window.sessionStorage.getItem('nexgen-styled-edit-offset') || '-1'); const offset = (prior + 1) % unique.length; window.sessionStorage.setItem('nexgen-styled-edit-offset', String(offset)); setStyledProducts([...unique.slice(offset), ...unique.slice(0, offset)]); } }).catch(() => undefined); void getHealth().then((health) => { if (health.proxyRequiredNotice) setAuthNotice('Voice service details are available in Call details.'); }); return () => controller.abort(); }, []);
   React.useEffect(() => { const controller = new AbortController(); const timer = window.setTimeout(() => { setIsLoading(true); void fetchCatalogueProducts(filter, PAGE_SIZE, 0, controller.signal).then((result) => { setProducts(result.items); setTotalProducts(result.total); setHasMore(result.has_more); setUsingFallback(false); }).catch((error: unknown) => { if (error instanceof DOMException && error.name === 'AbortError') return; const fallback = localResults(filter); setProducts(fallback); setTotalProducts(fallback.length); setHasMore(false); setUsingFallback(true); }).finally(() => setIsLoading(false)); }, 250); return () => { window.clearTimeout(timer); controller.abort(); }; }, [filter]);
 
@@ -220,7 +239,7 @@ export const App: React.FC = () => {
     <div id="catalogue"><FilterBar filter={filter} onChangeFilter={setFilter} onResetFilter={resetFilters} renderedCount={products.length} matchingCount={totalProducts} activeVoiceFilterLabel={activeVoiceFilterLabel} onClearVoiceFilter={resetFilters} availableColors={colors} availableCategories={facets?.categories} availableDepartments={facets?.departments} /></div>
     <main className="flex-1"><ProductGrid products={products} isLoading={isLoading} onSelectProduct={(product) => void selectProduct(product)} onAskAboutProduct={(product) => void sendTranscript(`Tell me about ${product.name}`, product)} onResetFilters={resetFilters} onAskVoice={(prompt) => void sendTranscript(prompt)} voiceActionNotice={activeVoiceFilterLabel ? { actionText: `Stylist selected for “${activeVoiceFilterLabel}”`, route: lastTurn?.route, onClear: resetFilters } : null} totalMatchingCount={totalProducts} hasMore={hasMore} isLoadingMore={isLoadingMore} onLoadMore={() => void loadMore()} /></main>
     <ProductDetailModal product={selectedProduct} isLoading={isProductDetailLoading} error={productDetailError} onClose={closeProduct} onAddToCart={(product, size) => setCartItems((items) => [...items, { product, size }])} onAskVoicePrompt={(prompt, product) => void sendTranscript(prompt, product)} matchingProducts={matchingProducts} onSelectMatchingProduct={(product) => void selectProduct(product)} onContextChange={setSelectedProduct} />
-    <CustomerAuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} currentCustomer={customer} onUpdateCustomer={setCustomer} />
+    <CustomerAuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} currentCustomer={customer} onUpdateCustomer={setCustomer} resetToken={resetToken} initialNotice={portalNotice} />
     <VoiceAssistantPanel session={voiceSession} voiceState={voiceState} onStartSession={() => void startVoice()} onEndSession={() => void endVoice()} isMuted={isVoiceMuted} onToggleMute={toggleVoiceMute} onSendTranscript={(text) => void sendTranscript(text)} history={turnHistory} lastTurn={lastTurn} onConfirmAction={() => void sendTranscript('Yes, confirm the action')} onCancelAction={() => void sendTranscript('Cancel that action')} isExpanded={isVoiceExpanded} onToggleExpand={() => setIsVoiceExpanded((expanded) => !expanded)} authNotice={authNotice} />
     <Footer onShop={() => { resetFilters(); document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' }); }} onNewArrivals={() => document.getElementById('styled-edit')?.scrollIntoView({ behavior: 'smooth' })} onSelectCategory={selectCategory} onStartVoice={() => void startVoice()} onAskVoice={(prompt) => void sendTranscript(prompt)} onOpenAccount={() => setIsAuthModalOpen(true)} />
   </div>;

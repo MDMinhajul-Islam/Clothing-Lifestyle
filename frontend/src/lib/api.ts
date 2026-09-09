@@ -200,6 +200,7 @@ export interface RetellWebCallAuthorization {
 export async function createRetellWebCall(customerId?: string, context: WebpageVoiceContext = {}): Promise<RetellWebCallAuthorization> {
   const response = await fetch(`${BACKEND_BASE_URL}/v1/retell/create-web-call`, {
     method: 'POST',
+    credentials: 'include',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ ...(customerId ? { customer_id: customerId } : {}), context }),
   });
