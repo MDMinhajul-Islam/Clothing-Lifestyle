@@ -28,7 +28,7 @@ GOALS = (
 SCENARIOS = (
     "formal event", "date night", "business", "interview", "wedding", "party",
     "office", "casual", "vacation", "travel", "gym", "birthday", "gift",
-    "winter", "summer", "seasonal",
+    "winter", "summer", "seasonal shopping", "seasonal", "formal", "luxury",
 )
 
 ASR_CORRECTIONS = {
@@ -43,6 +43,8 @@ class ConversationPolicyDecision:
     goal: str
     scenario: str | None
     strategy: str
+    confidence: float
+    clarification_field: str | None = None
     clarification: str | None = None
     suggested_transcript: str | None = None
 
@@ -56,16 +58,32 @@ class ConversationPolicy:
         if correction and self._shopping_context_supports_correction(context):
             return ConversationPolicyDecision(
                 goal="PRODUCT_SEARCH", scenario="wedding", strategy="clarify_asr",
+                confidence=.93,
                 clarification="Did you mean a black wedding dress?",
                 suggested_transcript=correction,
             )
-        goal = next((name for name, signals in GOALS if any(signal in text for signal in signals)),
-                    "GENERAL_ASSISTANCE")
+        match = next(((name, signals) for name, signals in GOALS
+                      if any(signal in text for signal in signals)), None)
+        goal = match[0] if match else "GENERAL_ASSISTANCE"
         scenario = next((item for item in SCENARIOS
                          if re.search(rf"(?<!\w){re.escape(item)}(?!\w)", text)), None)
         enough = self._has_actionable_context(goal, text, context)
         strategy = "recommend_or_execute" if enough else "clarify_once"
-        return ConversationPolicyDecision(goal=goal, scenario=scenario, strategy=strategy)
+        confidence = .92 if match else .55
+        clarification_field = None if enough else self._highest_value_missing(text, context)
+        return ConversationPolicyDecision(goal=goal, scenario=scenario, strategy=strategy,
+                                          confidence=confidence,
+                                          clarification_field=clarification_field)
+
+    @staticmethod
+    def _highest_value_missing(text: str, context: Mapping[str, Any]) -> str | None:
+        """Return one material clarification using the approved retail priority."""
+        product_terms = re.search(r"\b(dress|shirt|jeans|jacket|shoe|coat|clothes|outfit)s?\b", text)
+        if not context.get("category") and not product_terms:
+            return "category"
+        if context.get("category") == "dress" and not context.get("occasion"):
+            return "occasion"
+        return None
 
     @staticmethod
     def _shopping_context_supports_correction(context: Mapping[str, Any]) -> bool:

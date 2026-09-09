@@ -22,6 +22,7 @@ from backend.app.voice.providers.retell import RetellProviderAdapter
 from backend.app.orchestrator.schemas import OrchestratorContext
 from backend.app.voice.schemas import CreateVoiceSessionRequest, VoiceProvider
 from backend.app.voice.session import VoiceSessionNotFound
+from backend.app.notifications.customer_communication import CustomerCommunicationService
 
 logger = logging.getLogger("retell.transport")
 router = APIRouter(prefix="/v1/retell", tags=["Retell Transport"])
@@ -218,7 +219,9 @@ async def retell_custom_function(
         timed("session_reference_normalized", normalize_started)
         executor = VoiceCapabilityExecutor(LocalVoiceCapabilityBackend(timing_context.connection))
         service_started = time.perf_counter()
-        response = voice_service.process_voice_turn(voice_request, executor=executor)
+        response = voice_service.process_voice_turn(
+            voice_request, executor=executor,
+            communicator=CustomerCommunicationService(timing_context.connection))
         timed("voice_service_returned", service_started)
     except VoiceSessionNotFound as exc:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from None

@@ -11,6 +11,7 @@ from backend.app.voice.schemas import (
 )
 from backend.app.voice.service import VoiceService
 from backend.app.voice.session import VoiceSessionNotFound
+from backend.app.notifications.customer_communication import CustomerCommunicationService
 
 router = APIRouter(prefix="/v1/voice", tags=["Voice Agent"],
                    dependencies=[Depends(verify_tool_secret)])
@@ -26,7 +27,8 @@ def create_voice_session(payload: CreateVoiceSessionRequest):
 def process_voice_turn(payload: VoiceTurnRequest, conn=Depends(get_db)):
     try:
         executor = VoiceCapabilityExecutor(LocalVoiceCapabilityBackend(conn))
-        return voice_service.process_voice_turn(payload, executor=executor)
+        return voice_service.process_voice_turn(
+            payload, executor=executor, communicator=CustomerCommunicationService(conn))
     except VoiceSessionNotFound as exc:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=str(exc)) from None
     except Exception:

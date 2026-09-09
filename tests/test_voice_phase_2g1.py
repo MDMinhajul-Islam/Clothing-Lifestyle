@@ -15,12 +15,31 @@ class CapturingBackend:
         if decision.tool_name == "get_product_details":
             return CapabilityResult(execution_status="SUCCESS",data={"name":"Grounded dress","price":69.9,
                 "currency":"USD","colors":[{"color_name":"Black"},{"color_name":"White"}]})
+        if decision.tool_name == "track_order":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "order_number":"ORD-100", "shipment_status":"IN_TRANSIT"})
         if decision.tool_name == "search_products" and decision.tool_arguments.get("max_price") != 0.01:
             return CapabilityResult(execution_status="SUCCESS",data={"products":[{
                 "name":"Grounded black dress","price":69.9,"currency":"USD"}]})
         return CapabilityResult(execution_status="SUCCESS",data={"products":[]})
     def prepare_write(self,*args): return CapabilityResult(execution_status="REJECTED")
     def confirm_write(self,*args): return CapabilityResult(execution_status="REJECTED")
+
+
+class ColorFallbackBackend(CapturingBackend):
+    def execute(self, decision):
+        self.calls.append(decision)
+        if decision.tool_name == "search_products":
+            if decision.tool_arguments.get("color"):
+                return CapabilityResult(execution_status="SUCCESS", data={"products": []})
+            return CapabilityResult(execution_status="SUCCESS", data={"products":[{
+                "name":"Grounded navy dress", "price":69.9, "currency":"USD"}]})
+        return super().execute(decision)
+
+
+class CapturingCommunicator:
+    def __init__(self): self.messages=[]
+    def send(self, **message): self.messages.append(message); return "accepted"
 
 
 class Phase2G1VoiceTests(unittest.TestCase):
@@ -149,6 +168,70 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual(result.tool_name,"search_products")
         self.assertIn("couldn't find matching products",result.spoken_text)
         self.assertIn("broaden the search",result.spoken_text)
+
+    def test_unavailable_color_relaxes_only_color(self):
+        backend = ColorFallbackBackend()
+        service = VoiceService(executor=VoiceCapabilityExecutor(backend))
+        session = service.create_session(CreateVoiceSessionRequest()).session_id
+        result = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session, transcript="Show me purple dresses"))
+        self.assertIn("couldn't find that item in purple", result.spoken_text)
+        self.assertNotIn("purple", backend.calls[-1].tool_arguments.get("query", ""))
+        self.assertEqual(service.get_session(session).category, "dress")
+
+    def test_verified_customer_can_email_recommendations(self):
+        self.turn("I need office clothes")
+        session = self.service.get_session(self.session)
+        session.access_token = "verified-token"
+        self.service.sessions.update_session(session)
+        communicator = CapturingCommunicator()
+        result = self.service.process_voice_turn(
+            VoiceTurnRequest(session_id=self.session, transcript="Email me these recommendations"),
+            communicator=communicator)
+        self.assertEqual(result.execution_status, "EMAIL_SENT")
+        self.assertEqual(len(communicator.messages), 1)
+        self.assertEqual(communicator.messages[0]["access_token"], "verified-token")
+
+    def test_return_instructions_email_uses_verified_destination(self):
+        session = self.service.get_session(self.session)
+        session.access_token = "verified-token"
+        self.service.sessions.update_session(session)
+        communicator = CapturingCommunicator()
+        result = self.service.process_voice_turn(
+            VoiceTurnRequest(session_id=self.session,
+                             transcript="Send me the return instructions"),
+            communicator=communicator)
+        self.assertEqual(result.execution_status, "EMAIL_SENT")
+        self.assertEqual(communicator.messages[0]["subject"], "Your NexGen return guidance")
+
+    def test_product_and_tracking_emails_use_grounded_context(self):
+        session = self.service.get_session(self.session)
+        session.access_token = "verified-token"
+        session.current_product_id = "zara-us:00000001"
+        self.service.sessions.update_session(session)
+        product_mail = CapturingCommunicator()
+        product = self.service.process_voice_turn(
+            VoiceTurnRequest(session_id=self.session, transcript="Email this product"),
+            communicator=product_mail)
+        self.assertEqual(product.execution_status, "EMAIL_SENT")
+        self.assertIn("Grounded dress", product_mail.messages[0]["lines"])
+
+        session = self.service.get_session(self.session)
+        session.current_order_id = "ORD-100"
+        self.service.sessions.update_session(session)
+        tracking_mail = CapturingCommunicator()
+        tracking = self.service.process_voice_turn(
+            VoiceTurnRequest(session_id=self.session, transcript="Email my tracking summary"),
+            communicator=tracking_mail)
+        self.assertEqual(tracking.execution_status, "EMAIL_SENT")
+        self.assertIn("Status: IN_TRANSIT", tracking_mail.messages[0]["lines"])
+
+    def test_handoff_contains_minimum_session_summary(self):
+        self.turn("Show me black dresses")
+        self.turn("Speak to a human agent")
+        summary = self.backend.calls[-1].tool_arguments["factual_summary"]
+        self.assertIn("Category: dress", summary)
+        self.assertIn("Colors: black", summary)
 
     def test_voice_text_normalizes_smart_quotes(self):
         self.assertEqual(self.service._voice_text("I’m sorry, I couldn’t access customer’s data."),

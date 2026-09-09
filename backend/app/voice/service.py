@@ -102,7 +102,7 @@ class VoiceService:
         self.sessions.end_session(session_id)
         return EndVoiceSessionResponse(session_id=session_id, ended=True)
 
-    def process_voice_turn(self, request: VoiceTurnRequest, *, executor=None):
+    def process_voice_turn(self, request: VoiceTurnRequest, *, executor=None, communicator=None):
         executor = executor or self.executor
         session_started = time.perf_counter()
         try:
@@ -158,11 +158,16 @@ class VoiceService:
         policy = self.conversation_policy.evaluate(request.transcript, context)
         session.conversational_goal = policy.goal
         session.shopping_scenario = policy.scenario
+        session.intent_confidence = policy.confidence
         if policy.clarification and policy.suggested_transcript:
             session.pending_asr_correction = policy.suggested_transcript
             self.sessions.update_session(session)
             return self._response(session, "NEEDS_CONTEXT", "ASR_CLARIFICATION_REQUIRED",
                                   policy.clarification, needs_user_input=True)
+        email_response = self._handle_email_request(
+            request.transcript, text, context, session, executor, communicator)
+        if email_response:
+            return email_response
         compound = self._answer_compound_product_question(
             request.transcript, text, context, session, executor)
         if compound:
@@ -189,6 +194,9 @@ class VoiceService:
         elif (session.last_intent == "SEARCH_PRODUCTS" or session.category) and self._is_preference_update(text):
             message = "Show me products"
 
+        if any(signal in text for signal in
+               ("speak to a person", "talk to a person", "human support", "human agent", "speak to an agent")):
+            context["factual_summary"] = self._handoff_summary(session, request.transcript)
         decision = self.orchestrator.route(RouteRequest(message=message,
             context=OrchestratorContext(**context)))
         self._remember_decision(session, decision, context)
@@ -236,12 +244,111 @@ class VoiceService:
                                   decision=decision)
 
         result = executor.execute(decision)
+        result = self._relax_unavailable_color(decision, result, executor)
         self._apply_capability_context(session, decision, result.data)
         self.sessions.update_session(session)
         spoken = result.spoken_text or self.composer.compose(decision, result.data,
                                                               result.execution_status)
         return self._response(session, "READY", result.execution_status, spoken,
                               decision=decision, metadata={"capability_data": self._safe_metadata(result.data)})
+
+    def _handle_email_request(self, transcript, text, context, session, executor, communicator):
+        email_requested = (bool(re.match(r"^(?:please\s+)?email\b", text)) or
+                           ("send" in text and "email" in text) or
+                           ("send me" in text and "return instructions" in text))
+        if not email_requested:
+            return None
+        if not context.get("access_token"):
+            self.sessions.update_session(session)
+            return self._response(session, "NEEDS_CONTEXT", "AUTHORIZATION_REQUIRED",
+                "I'll need to verify your identity before I send anything to your email.",
+                needs_user_input=True)
+        if communicator is None:
+            self.sessions.update_session(session)
+            return self._response(session, "READY", "COMMUNICATION_UNAVAILABLE",
+                "Email is temporarily unavailable. I can still help you here.")
+        subject = "Your NexGen shopping summary"
+        lines = []
+        try:
+            if "tracking" in text:
+                decision = self.orchestrator.route(RouteRequest(
+                    message="Track my order", context=OrchestratorContext(**context)))
+                if decision.status != RouteStatus.READY:
+                    return self._response(session, "NEEDS_CONTEXT", "AWAITING_CONTEXT",
+                        "Could you give me your order number?", needs_user_input=True)
+                result = executor.execute(decision)
+                if result.execution_status != "SUCCESS":
+                    return self._response(session, "READY", result.execution_status,
+                        result.spoken_text or "I couldn't verify the tracking details to email them.")
+                subject = "Your NexGen tracking summary"
+                lines = [f"Order: {result.data.get('order_number', context.get('order_id'))}",
+                         f"Status: {result.data.get('shipment_status') or result.data.get('order_status', 'Unavailable')}"]
+            elif "return" in text:
+                subject = "Your NexGen return guidance"
+                lines = ["For the latest return eligibility and instructions, use your verified order details with NexGen support.",
+                         "Eligibility and refund timing must be confirmed against the current order record."]
+            elif session.previous_recommendations:
+                subject = "Your NexGen recommendations"
+                lines = ["Pieces selected during your conversation:"] + [
+                    f"{item.get('name', 'Product')} ({item.get('product_id', 'reference unavailable')})"
+                    for item in session.previous_recommendations[:5]]
+            elif context.get("product_id"):
+                subject = "A NexGen product you selected"
+                decision = self.orchestrator.route(RouteRequest(
+                    message="Show product details", context=OrchestratorContext(**context)))
+                result = executor.execute(decision)
+                details = result.data if result.execution_status == "SUCCESS" else {}
+                lines = [str(details.get("name") or "Your selected product"),
+                         f"Product reference: {context['product_id']}"]
+                if details.get("price") is not None:
+                    lines.append(f"Price: {details['price']} {details.get('currency', 'USD')}")
+                if context.get("sku"): lines.append(f"SKU: {context['sku']}")
+            else:
+                lines = [self._handoff_summary(session, transcript)]
+            communicator.send(access_token=context["access_token"], subject=subject, lines=lines)
+        except PermissionError:
+            return self._response(session, "NEEDS_CONTEXT", "AUTHORIZATION_REQUIRED",
+                "I'll need to verify your identity again before I send that email.", needs_user_input=True)
+        except Exception:
+            return self._response(session, "READY", "COMMUNICATION_UNAVAILABLE",
+                "I couldn't send the email just now. I can still help you here.")
+        self.sessions.update_session(session)
+        return self._response(session, "READY", "EMAIL_SENT",
+            "I've sent that to your verified email address.")
+
+    @staticmethod
+    def _relax_unavailable_color(decision, result, executor):
+        if (decision.intent != "SEARCH_PRODUCTS" or result.execution_status != "SUCCESS" or
+                (result.data.get("products") or []) or not decision.tool_arguments.get("color")):
+            return result
+        color = str(decision.tool_arguments["color"])
+        arguments = dict(decision.tool_arguments)
+        arguments.pop("color", None)
+        query = str(arguments.get("query") or "")
+        arguments["query"] = re.sub(rf"(?<!\w){re.escape(color)}(?!\w)", "", query,
+                                    flags=re.IGNORECASE).strip()
+        if not arguments["query"]:
+            return result
+        relaxed_decision = decision.model_copy(update={"tool_arguments": arguments})
+        relaxed = executor.execute(relaxed_decision)
+        if relaxed.execution_status == "SUCCESS" and relaxed.data.get("products"):
+            relaxed.data["fallback_message"] = (
+                f"I couldn't find that item in {color}. I kept the rest of your request and found available colors instead.")
+            return relaxed
+        return result
+
+    @staticmethod
+    def _handoff_summary(session, current_request):
+        facts = [f"Customer goal: {session.conversational_goal or 'human assistance'}",
+                 f"Current request: {current_request}"]
+        if session.current_product_id: facts.append(f"Product: {session.current_product_id}")
+        if session.current_order_id: facts.append(f"Order: {session.current_order_id}")
+        if session.category: facts.append(f"Category: {session.category}")
+        if session.occasion: facts.append(f"Occasion: {session.occasion}")
+        if session.budget_max is not None: facts.append(f"Budget maximum: {session.budget_max}")
+        if session.colors: facts.append("Colors: " + ", ".join(session.colors))
+        if session.unresolved_issue: facts.append(f"Required follow-up: {session.unresolved_issue}")
+        return "; ".join(facts)
 
     def _confirm_pending(self, session, executor):
         tool = session.pending_tool_name

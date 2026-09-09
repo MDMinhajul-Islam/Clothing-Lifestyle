@@ -12,6 +12,7 @@ class ConversationPolicyTests(unittest.TestCase):
         self.assertEqual(decision.goal, "PRODUCT_SEARCH")
         self.assertEqual(decision.scenario, "wedding")
         self.assertEqual(decision.strategy, "recommend_or_execute")
+        self.assertGreaterEqual(decision.confidence, .9)
 
     def test_product_context_avoids_unnecessary_clarification(self):
         decision = self.policy.evaluate("How much is this?", {"product_id": "zara-us:00000001"})
@@ -23,6 +24,15 @@ class ConversationPolicyTests(unittest.TestCase):
         faq = self.policy.evaluate("What payment methods are accepted?", {})
         self.assertEqual(policy.goal, "POLICY")
         self.assertEqual(faq.goal, "FAQ")
+
+    def test_clarification_selects_only_highest_value_field(self):
+        decision = self.policy.evaluate("I need something for a wedding", {"occasion": "wedding"})
+        self.assertEqual(decision.strategy, "clarify_once")
+        self.assertEqual(decision.clarification_field, "category")
+
+    def test_luxury_and_formal_are_shopping_scenarios(self):
+        self.assertEqual(self.policy.evaluate("I want a luxury outfit", {}).scenario, "luxury")
+        self.assertEqual(self.policy.evaluate("I need something formal", {}).scenario, "formal")
 
     def test_high_confidence_asr_recovery_requires_shopping_context(self):
         recovered = self.policy.evaluate("blank waiting list", {"query": "wedding outfits"})
