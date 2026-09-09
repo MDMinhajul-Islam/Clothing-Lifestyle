@@ -51,6 +51,37 @@ class OrchestratorTests(unittest.TestCase):
         result = self.route("Show me black dresses")
         self.assertEqual((result.route, result.tool_name), (Route.TOOL_GATEWAY, "search_products"))
 
+    def test_active_product_sentiment_uses_product_details(self):
+        for message in ("I love this dress", "I really like it", "I prefer that one"):
+            with self.subTest(message=message):
+                result = self.route(message, reference_product_id="zara-us:00029400")
+                self.assertEqual((result.intent, result.tool_name),
+                                 ("GET_PRODUCT_DETAILS", "get_product_details"))
+                self.assertEqual(result.tool_arguments["product_id"], "zara-us:00029400")
+
+    def test_expanded_current_product_references_use_existing_capability(self):
+        for reference in ("it", "that", "the dress", "the shirt", "the product"):
+            with self.subTest(reference=reference):
+                result = self.route(f"Tell me about {reference}",
+                                    reference_product_id="zara-us:00029400")
+                self.assertEqual(result.tool_name, "get_product_details")
+
+    def test_authoritative_product_falls_back_to_product_details(self):
+        result = self.route("Tell me more", reference_product_id="zara-us:00029400")
+        self.assertEqual(result.intent, "GET_PRODUCT_DETAILS")
+        self.assertEqual(result.reason_codes[0], "AUTHORITATIVE_CURRENT_PRODUCT_FALLBACK")
+
+    def test_specialized_route_wins_over_active_product_fallback(self):
+        result = self.route("What is the return policy?",
+                            reference_product_id="zara-us:00029400")
+        self.assertEqual(result.route, Route.POLICY_RAG)
+
+    def test_explicit_unrelated_topic_stays_general(self):
+        result = self.route("Explain quantum gravity",
+                            reference_product_id="zara-us:00029400")
+        self.assertEqual((result.route, result.intent),
+                         (Route.GENERAL_CHAT, "GENERAL_CONVERSATION"))
+
     def test_general_chat(self):
         self.assertEqual(self.route("Hello").route, Route.GENERAL_CHAT)
 

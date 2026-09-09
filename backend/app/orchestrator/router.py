@@ -12,6 +12,22 @@ from .schemas import Route, RouteDecision, RouteRequest, RouteStatus
 ORDER_ID = re.compile(r"\b(?:ORD|ZUS)-[A-Z0-9-]+\b", re.IGNORECASE)
 PRODUCT_ID = re.compile(r"\bzara-us:\d{8}\b", re.IGNORECASE)
 SIZE = re.compile(r"\bsize\s+([A-Z0-9]+)\b", re.IGNORECASE)
+CURRENT_PRODUCT_REFERENCE = re.compile(
+    r"\b(?:it|that|that one|the product|the item|the piece|the dress|the shirt|"
+    r"the shoes?|the jeans|the trousers|the pants|the blazer|the jacket|the coat|"
+    r"the skirt|the top|the bag|the handbag|the hoodie|the sweater)\b",
+    re.IGNORECASE,
+)
+POSITIVE_PRODUCT_SENTIMENT = re.compile(
+    r"\b(?:i\s+)?(?:love|like|really like|prefer|adore)\b",
+    re.IGNORECASE,
+)
+EXPLICIT_EXTERNAL_TOPIC = re.compile(
+    r"^(?:explain|define|who is|what is|tell me about)\s+"
+    r"(?!(?:it|that|this|the (?:product|item|piece|dress|shirt|shoes?|jeans|"
+    r"trousers|pants|blazer|jacket|coat|skirt|top|bag|handbag|hoodie|sweater))\b)",
+    re.IGNORECASE,
+)
 
 
 def _has(text, values):
@@ -31,6 +47,8 @@ class IntentRouter:
             context["order_id"] = order_match.group(0).upper()
         if product_match and "product_id" not in context:
             context["product_id"] = product_match.group(0).lower()
+        if context.get("reference_product_id") and not context.get("product_id"):
+            context["product_id"] = context["reference_product_id"]
         size_match = SIZE.search(request.message)
         if size_match and "size" not in context:
             context["size"] = size_match.group(1).upper()
@@ -40,7 +58,10 @@ class IntentRouter:
                                       "like to order", "i'll take", "ill take"))
         requested_size = bool(SIZE.search(request.message) or re.search(
             r"\b(?:xs|s|m|l|xl|xxl|small|medium|large)(?:\s+size)?\b", text))
-        refers_to_current_product = _has(text, ("this", "this one", "this item", "this piece"))
+        refers_to_current_product = (
+            _has(text, ("this", "this one", "this item", "this piece"))
+            or bool(CURRENT_PRODUCT_REFERENCE.search(text))
+        )
         if current_product and (purchase_intent or (requested_size and refers_to_current_product)):
             return self._tool("PURCHASE_GUIDANCE", "check_inventory", context, .98,
                               "CURRENT_PRODUCT_PURCHASE_GUIDANCE")
@@ -50,6 +71,9 @@ class IntentRouter:
         if current_product and not _has(text, RECOMMENDATION_SIGNALS) and _has(text, ("how much", "what does it cost", "what colors", "what other colors", "which colors", "what colour", "what other colours", "this one", "this item", "this piece", "first one", "second one", "third one", "fourth one", "fifth one")):
             return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .97,
                               "CURRENT_PRODUCT_CONTEXT")
+        if current_product and refers_to_current_product and POSITIVE_PRODUCT_SENTIMENT.search(text):
+            return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .96,
+                              "CURRENT_PRODUCT_SENTIMENT")
 
         # 1. Explicit writes. Confirmation remains owned by the Tool Gateway.
         return_action = "return" in text and (
@@ -166,6 +190,11 @@ class IntentRouter:
             context.setdefault("query", request.message)
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
                               "CATALOGUE_DISCOVERY_INTENT")
+
+        if (request.context.reference_product_id
+                and not EXPLICIT_EXTERNAL_TOPIC.search(text)):
+            return self._tool("GET_PRODUCT_DETAILS", "get_product_details", context, .90,
+                              "AUTHORITATIVE_CURRENT_PRODUCT_FALLBACK")
 
         return RouteDecision(route=Route.GENERAL_CHAT, intent="GENERAL_CONVERSATION",
             confidence=.70, reason_codes=["NO_AUTHORITATIVE_CAPABILITY_REQUIRED"])
