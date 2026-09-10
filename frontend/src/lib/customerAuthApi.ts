@@ -24,6 +24,7 @@ export const customerLogin=async(email:string,password:string)=>{await call('/se
 export const customerMe=async()=>mapProfile(await call('/me'));
 export const customerLogout=()=>call('/session',{method:'DELETE'});
 export const verifyCustomerEmail=(token:string)=>call('/verify-email',{method:'POST',body:JSON.stringify({token})});
+export const resendCustomerVerification=(email:string)=>call('/resend-verification',{method:'POST',body:JSON.stringify({email})});
 export const forgotCustomerPassword=(email:string)=>call('/forgot-password',{method:'POST',body:JSON.stringify({email})});
 export const resetCustomerPassword=(token:string,password:string)=>call('/reset-password',{method:'POST',body:JSON.stringify({token,password})});
 export const trackCustomerOrder=(orderNumber:string)=>call(`/orders/${encodeURIComponent(orderNumber)}/tracking`);

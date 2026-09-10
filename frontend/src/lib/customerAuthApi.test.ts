@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
-import { customerAuthTokensFromFragment, customerLogin, customerMe } from './customerAuthApi';
+import { customerAuthTokensFromFragment, customerLogin, customerMe, resendCustomerVerification } from './customerAuthApi';
 
 describe('customer portal API',()=>{
   afterEach(()=>vi.unstubAllGlobals());
@@ -19,5 +19,15 @@ describe('customer portal API',()=>{
   it('accepts auth tokens only from the URL fragment',()=>{
     expect(customerAuthTokensFromFragment('#reset_token=opaque-reset')).toEqual({verify:null,reset:'opaque-reset'});
     expect(customerAuthTokensFromFragment('?reset_token=query-token')).toEqual({verify:null,reset:null});
+  });
+  it('resends verification without exposing an authentication secret',async()=>{
+    const fetchMock=vi.fn().mockResolvedValue(new Response(JSON.stringify({status:'IF_ELIGIBLE_EMAIL_SENT'}),{status:202,headers:{'Content-Type':'application/json'}}));
+    vi.stubGlobal('fetch',fetchMock);
+    await resendCustomerVerification('new@example.test');
+    expect(fetchMock).toHaveBeenCalledWith(expect.stringContaining('/v1/customer/auth/resend-verification'),expect.objectContaining({
+      method:'POST',credentials:'include',body:JSON.stringify({email:'new@example.test'}),
+    }));
+    const headers=fetchMock.mock.calls[0][1].headers as Record<string,string>;
+    expect(headers['X-Tool-Secret']).toBeUndefined();
   });
 });

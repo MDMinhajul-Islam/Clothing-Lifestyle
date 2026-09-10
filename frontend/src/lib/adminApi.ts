@@ -4,3 +4,4 @@ export type AdminCase={case_id:string;customer:string;order_number?:string;categ
 const call=async(path:string,token:string,init?:RequestInit)=>{const response=await fetch(`${BASE}${path}`,{...init,headers:{'Content-Type':'application/json',Authorization:`Bearer ${token}`,...init?.headers}});if(!response.ok)throw new Error('Admin request failed');return response.json();};
 export const adminLogin=async(email:string,password:string)=>(await call('/v1/admin/session','',{method:'POST',body:JSON.stringify({email,password})})).access_token as string;
 export const adminData=async(token:string)=>Promise.all([call('/v1/admin/orders',token),call('/v1/admin/support-cases',token)]);
+export const adminLogout=(token:string)=>call('/v1/admin/session',token,{method:'DELETE'});

@@ -84,9 +84,9 @@ export const Navbar: React.FC<NavbarProps> = ({
             <span className="hidden sm:inline">{voiceLabel[voiceState]}</span>
             <Sparkles className="h-3.5 w-3.5 text-emerald-400 sm:hidden" />
           </button>
-          <button onClick={onOpenAuth} className="flex items-center gap-1.5 rounded-full border border-neutral-200 bg-neutral-100 px-3 py-2 text-[11px] text-neutral-700">
+          <button onClick={onOpenAuth} className="flex items-center gap-1.5 rounded-full border border-neutral-200 bg-white px-3 py-2 text-[10px] font-semibold uppercase tracking-[0.1em] text-neutral-700 shadow-sm transition hover:border-neutral-400 hover:text-black sm:px-4">
             {customer.verified ? <ShieldCheck className="h-3.5 w-3.5 text-emerald-600" /> : <UserCheck className="h-3.5 w-3.5" />}
-            <span className="hidden sm:inline">{customer.authLevel === 'ANONYMOUS' ? 'Guest' : customer.name.split(' ')[0]}</span>
+            <span>{customer.authLevel === 'ANONYMOUS' ? 'Sign in / Register' : customer.name.split(' ')[0]}</span>
           </button>
           <div className="relative p-2 text-neutral-800" aria-label={`${cartCount} items in bag`}>
             <ShoppingBag className="h-4 w-4" />
