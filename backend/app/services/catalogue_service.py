@@ -19,8 +19,9 @@ from backend.app.repositories.catalogue_repo import CatalogueRepository
 
 
 SEARCH_FILLER = {
-    "a", "an", "find", "for", "i", "looking", "me", "need", "please",
-    "search", "show", "some", "under", "up", "to", "occasion", "wear",
+    "a", "am", "an", "can", "could", "find", "for", "hello", "help", "hi", "i", "like", "looking",
+    "me", "my", "need", "please", "product", "search", "show", "some", "t",
+    "under", "up", "to", "want", "with", "would", "you", "occasion", "wear",
     "dollar", "dollars", "one", "hundred",
 }
 
@@ -144,6 +145,21 @@ class CatalogueService:
                 item = facets.product_type or "pieces"
                 fallback = (f"I couldn't find {requested} {item} matching the rest of your request. "
                             "Would you like me to try another color or budget?")
+        if not cards and facets.query and (facets.product_type or input_data.category or input_data.category_id):
+            total, rows = self.repo.search_products(
+                query=None, semantic_vector=semantic_vector, department=facets.department,
+                category_id=input_data.category_id, category=input_data.category,
+                product_type=facets.product_type, min_price=facets.min_price,
+                max_price=facets.max_price, color=facets.color, size=input_data.size,
+                material=facets.material, brand=facets.brand, occasion=None,
+                on_sale=input_data.on_sale, limit=input_data.limit,
+            )
+            cards = [ProductCard(**r) for r in rows]
+            if cards:
+                item = facets.product_type or input_data.category or "product"
+                occasion = f" for {facets.occasion}" if facets.occasion else ""
+                fallback = (f"I couldn't find an exact {item} match{occasion}, but I found the "
+                            f"closest {item} options matching the rest of your request.")
         return SearchProductsOutput(
             total_matching=total,
             returned_count=len(cards),

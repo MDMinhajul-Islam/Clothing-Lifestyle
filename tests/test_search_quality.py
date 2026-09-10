@@ -42,6 +42,13 @@ class EmptyRepo(FakeRepo):
         return 0, []
 
 
+class ExactPhraseMissRepo(FakeRepo):
+    def search_products(self, **kwargs):
+        self.calls = getattr(self, "calls", []) + [kwargs]
+        self.arguments = kwargs
+        return (0, []) if kwargs.get("query") else (1, [ROW])
+
+
 class SearchQualityTests(unittest.TestCase):
     def service(self):
         service = CatalogueService.__new__(CatalogueService)
@@ -84,6 +91,13 @@ class SearchQualityTests(unittest.TestCase):
             product_type="dress", color="black", residual=None,
         )
         self.assertEqual(args["occasion"], "formal")
+        self.assertEqual(args["max_price"], 100.0)
+
+    def test_spoken_polo_request_removes_conversational_fillers(self):
+        args = self.assert_facets(
+            "Hi. I am looking for a Polo t shirt. Under one hundred dollars. Can you help me?",
+            product_type="shirt", residual="polo",
+        )
         self.assertEqual(args["max_price"], 100.0)
 
     def test_empty_occasion_fallback_never_claims_products_were_found(self):
@@ -141,6 +155,25 @@ class SearchQualityTests(unittest.TestCase):
         }, "SUCCESS")
         self.assertIn("wedding-specific", message)
         self.assertNotIn("completed successfully", message)
+
+    def test_residual_wording_relaxes_to_semantic_ranking_inside_structured_candidates(self):
+        service = self.service()
+        service.repo = ExactPhraseMissRepo()
+        result = service.search_products(SearchProductsInput(
+            query="premium ribbed black polo shirt for the office under one hundred dollars",
+            department="MAN",
+        ))
+        relaxed = service.repo.calls[-1]
+        self.assertEqual(len(service.repo.calls), 3)
+        self.assertIsNone(relaxed["query"])
+        self.assertIsNone(relaxed["occasion"])
+        self.assertEqual(relaxed["product_type"], "shirt")
+        self.assertEqual(relaxed["department"], "MAN")
+        self.assertEqual(relaxed["color"], "black")
+        self.assertEqual(relaxed["max_price"], 100.0)
+        self.assertEqual(len(relaxed["semantic_vector"]), 384)
+        self.assertEqual(result.returned_count, 1)
+        self.assertIn("closest shirt options", result.fallback_message)
 
 
 if __name__ == "__main__":
