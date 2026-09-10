@@ -56,6 +56,7 @@ class IntentRouter:
         current_product = bool(context.get("product_id") or context.get("active_variant_id"))
         purchase_intent = _has(text, ("want to buy", "like to buy", "want to order",
                                       "like to order", "place my order", "confirm my order",
+                                      "order this", "order it",
                                       "continue with my order", "proceed with my order",
                                       "proceed my order", "continue my order",
                                       "proceed to checkout", "complete my purchase",

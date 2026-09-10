@@ -36,8 +36,9 @@ CATEGORY_ALIASES = {"dresses":"dress", "shirts":"shirt", "jackets":"jacket", "to
                     "bags":"bag", "handbag":"bag", "handbags":"bag", "purse":"bag", "purses":"bag",
                     "backpack":"bag", "backpacks":"bag", "hoodies":"hoodie", "sweaters":"sweater",
                     "accessories":"accessory"}
-OCCASIONS = {"wedding", "office", "work", "interview", "formal", "cocktail", "party",
-             "vacation", "beach", "date", "graduation", "everyday"}
+OCCASIONS = {"wedding", "bridal", "office", "work", "business", "interview", "formal",
+             "evening", "cocktail", "party", "casual", "vacation", "beach", "date",
+             "festival", "eid", "graduation", "everyday", "winter", "summer", "gym"}
 STYLES = {"elegant", "casual", "formal", "minimal", "classic", "modern", "modest",
           "relaxed", "tailored", "oversized", "smart casual", "luxury minimalist"}
 CLARIFICATIONS = {
@@ -318,6 +319,8 @@ class VoiceService:
         self.sessions.update_session(session)
         spoken = result.spoken_text or self.composer.compose(decision, result.data,
                                                               result.execution_status)
+        if not result.spoken_text and decision.intent == "GET_PRODUCT_DETAILS":
+            spoken = self._focused_product_detail_response(text, result.data, spoken)
         return self._response(session, "READY", result.execution_status, spoken,
                               decision=decision, metadata={"capability_data": self._safe_metadata(result.data)})
 
@@ -798,7 +801,7 @@ class VoiceService:
                   "five":"5", "six":"6", "seven":"7", "eight":"8", "nine":"9"}
         normalized = re.sub(r"\b(zero|one|two|three|four|five|six|seven|eight|nine)\b",
                             lambda match: digits[match.group(1)], normalized)
-        normalized = re.sub(r"\s+(?:at the rate|at sign|at direct)\s+", "@", normalized)
+        normalized = re.sub(r"\s+(?:at the rate|at sign|at direct|at)\s+", "@", normalized)
         normalized = re.sub(r"\s+dot\s+", ".", normalized)
         normalized = re.sub(r"\s*@\s*", "@", normalized)
         normalized = re.sub(r"\s*\.\s*", ".", normalized)
@@ -871,6 +874,54 @@ class VoiceService:
                               metadata={"capability_data": self._safe_metadata({
                                   "inventory": inventory.data, "product_details": details.data,
                               })})
+
+    @staticmethod
+    def _focused_product_detail_response(text, data, default):
+        """Answer one requested product fact without repeating the full detail card."""
+        asks = {
+            "price": any(signal in text for signal in ("price", "how much", "cost")),
+            "colors": any(signal in text for signal in
+                          ("what color", "what colour", "available color", "available colour")),
+            "sizes": any(signal in text for signal in
+                         ("what size", "what sizes", "available size")),
+            "material": any(signal in text for signal in
+                            ("material", "fabric", "made from", "composition", "cotton",
+                             "synthetic", "leather")),
+            "care": any(signal in text for signal in ("care", "wash", "clean")),
+        }
+        requested = [name for name, selected in asks.items() if selected]
+        if len(requested) != 1:
+            return default
+        name = str(data.get("name") or "This item")
+        field = requested[0]
+        if field == "price":
+            price = data.get("price")
+            fact = (f"The current price is {price} {data.get('currency', 'USD')}"
+                    if price is not None else "The current price is unavailable")
+        elif field == "colors":
+            colors = []
+            for color in data.get("colors") or []:
+                value = (color.get("color_name") or color.get("name")) if isinstance(color, dict) else color
+                if value and value not in colors:
+                    colors.append(str(value))
+            fact = ("The available colors are " + ", ".join(colors) if colors
+                    else "Color information is unavailable for this item")
+        elif field == "sizes":
+            sizes = []
+            for variant in data.get("variants") or []:
+                value = (variant.get("size_name") or variant.get("size")) if isinstance(variant, dict) else None
+                if value and value not in sizes:
+                    sizes.append(str(value))
+            fact = ("The available sizes are " + ", ".join(sizes) if sizes
+                    else "Size information is unavailable for this item")
+        elif field == "care":
+            care = data.get("care") or data.get("materials_care")
+            fact = str(care) if care else "Care information is unavailable for this item"
+        else:
+            material = data.get("materials_care") or data.get("composition") or data.get("description")
+            fact = (str(material) if material else
+                    "Material information is unavailable for this item. I can ask human support to confirm the composition")
+        return f"{name}. {fact}."
 
     @staticmethod
     def _shopping_clarification(text, context, session):

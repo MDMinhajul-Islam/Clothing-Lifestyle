@@ -42,6 +42,35 @@ class GroundedCommerceBackend:
             return CapabilityResult(execution_status="SUCCESS", data={
                 "overall_status": "IN_STOCK", "total_network_available": 8,
             })
+        if tool == "identify_customer":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "found": True, "customer_type": "REGISTERED",
+                "masked_destination": "j***@example.test",
+                "verification_method": "POSTAL_CODE",
+            })
+        if tool == "verify_customer":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "verified": True, "access_token": "verified-access-token",
+                "auth_level": "TRANSACTION_VERIFIED", "customer_type": "REGISTERED",
+            })
+        if tool == "track_order":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "order_number": args.get("order_number", "ORD-100"),
+                "shipment_status": "IN_TRANSIT",
+            })
+        if tool == "check_return_eligibility":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "eligible": True, "reason": "This item is within the recorded return window.",
+            })
+        if tool == "check_exchange_inventory":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "eligible": True, "reason": "The requested replacement is available.",
+                "quantity_available": 2, "status": "IN_STOCK",
+            })
+        if tool == "get_refund_status":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "refunds": [{"refund_status": "PROCESSING"}],
+            })
         if tool in {"find_similar_products", "recommend_matching_products"}:
             return CapabilityResult(execution_status="SUCCESS", data={"results": [{
                 "product_id": "zara-us:00000002", "name": "LINEN EVENING DRESS",
@@ -249,6 +278,167 @@ class VoiceCustomerAcceptanceTests(unittest.TestCase):
         self.assertIn("Occasion: wedding", summary)
         self.assertIn("Colors: black", summary)
         self.assertIn("won't need to repeat", result.spoken_text)
+
+    def test_16_broad_occasion_asks_one_useful_question_then_recommends(self):
+        first = self.turn("I need something for a business meeting under $120")
+        self.assertEqual(first.missing_fields, ["category"])
+        second = self.turn("A blazer")
+        self.assertEqual(second.tool_name, "search_products")
+        args = self.backend.calls[-1].tool_arguments
+        self.assertEqual((args["product_type"], args["occasion"], args["max_price"]),
+                         ("blazer", "business", 120.0))
+        self.assertFalse(second.needs_user_input)
+
+    def test_17_eid_request_retains_occasion_after_clarification(self):
+        first = self.turn("Find something modest for Eid for my mother")
+        self.assertEqual(first.missing_fields, ["category"])
+        second = self.turn("A dress")
+        args = self.backend.calls[-1].tool_arguments
+        self.assertEqual(second.tool_name, "search_products")
+        self.assertEqual((args["occasion"], args["department"], args["product_type"]),
+                         ("eid", "WOMAN", "dress"))
+
+    def test_18_child_recommendation_keeps_age_and_season_in_grounded_query(self):
+        result = self.turn("Show me summer shirts for my 12-year-old son under $50")
+        args = self.backend.calls[-1].tool_arguments
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertEqual((args["department"], args["product_type"], args["max_price"]),
+                         ("KIDS", "shirt", 50.0))
+        self.assertIn("12-year-old", args["query"])
+
+    def test_19_second_visible_product_becomes_authoritative_context(self):
+        visible = [
+            {"product_id": "zara-us:00000001", "name": "FIRST DRESS", "variant_id": "first-m"},
+            {"product_id": "zara-us:00000002", "name": "SECOND DRESS", "variant_id": "second-m"},
+        ]
+        result = self.turn("Tell me about the second one", visible_products=visible)
+        self.assertEqual(result.tool_name, "get_product_details")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_id"], "zara-us:00000002")
+        state = self.service.get_session(self.session)
+        self.assertEqual((state.current_product_id, state.active_variant_id),
+                         ("zara-us:00000002", "second-m"))
+
+    def test_20_successive_product_questions_are_focused_not_repeated(self):
+        context = {"reference_product_id": "zara-us:00000001", "active_variant_id": "black-m"}
+        price = self.turn("How much is it?", **context)
+        colors = self.turn("What colors are available?")
+        sizes = self.turn("What sizes do you have?")
+        self.assertIn("79.9 USD", price.spoken_text)
+        self.assertNotIn("available colors", price.spoken_text.casefold())
+        self.assertIn("Black, Navy", colors.spoken_text)
+        self.assertNotIn("current price", colors.spoken_text.casefold())
+        self.assertIn("S, M", sizes.spoken_text)
+        self.assertEqual(len({price.spoken_text, colors.spoken_text, sizes.spoken_text}), 3)
+
+    def test_21_price_and_color_correction_continues_existing_search(self):
+        self.turn("Show me black dresses under $100")
+        result = self.turn("Actually navy and under $90")
+        args = self.backend.calls[-1].tool_arguments
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertEqual((args["product_type"], args["color"], args["max_price"]),
+                         ("dress", "navy", 90.0))
+
+    def test_22_start_over_clears_stale_product_and_preferences(self):
+        self.turn("Show me black dresses under $100")
+        reset = self.turn("Let's start over")
+        state = self.service.get_session(self.session)
+        self.assertEqual(reset.execution_status, "CONTEXT_RESET")
+        self.assertIsNone(state.current_product_id)
+        self.assertIsNone(state.category)
+        self.assertIsNone(state.budget_max)
+        self.assertEqual(state.colors, [])
+
+    def test_23_unverified_order_never_claims_success(self):
+        result = self.turn("I want to order this in medium",
+                           reference_product_id="zara-us:00000001",
+                           active_variant_id="black-m", color="Black", size="M")
+        self.assertEqual(result.execution_status, "AWAITING_CONTEXT")
+        self.assertEqual(result.missing_fields, ["access_token"])
+        self.assertIn("verify", result.spoken_text.casefold())
+        self.assertNotIn("received successfully", result.spoken_text.casefold())
+
+    def test_24_spoken_email_verification_then_order_sends_grounded_email(self):
+        self.turn("I want to order this in medium", reference_product_id="zara-us:00000001",
+                  active_variant_id="black-m", color="Black", size="M")
+        heard = self.turn("My email is jess dot carter at example dot test")
+        self.assertEqual(heard.execution_status, "AWAITING_EMAIL_CONFIRMATION")
+        self.assertIn("jess.carter@example.test", heard.spoken_text)
+        challenge = self.turn("Yes, correct")
+        self.assertEqual(challenge.execution_status, "AWAITING_VERIFICATION_VALUE")
+        prepared = self.turn("10001")
+        self.assertTrue(prepared.requires_confirmation)
+        communicator = CapturingCommunicator()
+        confirmed = self.service.process_voice_turn(VoiceTurnRequest(
+            session_id=self.session, transcript="Yes, submit it"), communicator=communicator)
+        self.assertEqual(confirmed.execution_status, "SUCCESS")
+        self.assertEqual(len(communicator.messages), 1)
+        message = communicator.messages[0]
+        self.assertIn("NGR-1001", message["subject"])
+        self.assertIn("Product: TAILORED LINEN DRESS", message["lines"])
+        self.assertEqual(message["action_label"], "Complete Payment")
+        self.assertIn("sent the order details", confirmed.spoken_text)
+
+    def test_25_order_email_failure_is_disclosed_without_losing_order(self):
+        class FailingCommunicator:
+            def send(self, **_message):
+                raise RuntimeError("SMTP unavailable")
+
+        self.verify_session()
+        prepared = self.turn("Order this in medium", reference_product_id="zara-us:00000001",
+                             active_variant_id="black-m", color="Black", size="M")
+        self.assertTrue(prepared.requires_confirmation)
+        confirmed = self.service.process_voice_turn(VoiceTurnRequest(
+            session_id=self.session, transcript="Yes"), communicator=FailingCommunicator())
+        self.assertEqual(confirmed.execution_status, "SUCCESS")
+        self.assertIn("order request has been received", confirmed.spoken_text.casefold())
+        self.assertIn("couldn't send", confirmed.spoken_text.casefold())
+
+    def test_26_repeated_confirmation_cannot_create_duplicate_order(self):
+        self.verify_session()
+        self.turn("Order this in medium", reference_product_id="zara-us:00000001",
+                  active_variant_id="black-m", color="Black", size="M")
+        self.service.process_voice_turn(VoiceTurnRequest(
+            session_id=self.session, transcript="Yes"), communicator=CapturingCommunicator())
+        repeated = self.turn("Yes, confirm it again")
+        confirms = [call for call in self.backend.calls
+                    if isinstance(call, tuple) and call[0] == "confirm"
+                    and call[1] == "create_order_request"]
+        self.assertEqual(len(confirms), 1)
+        self.assertNotIn("order request has been received", repeated.spoken_text.casefold())
+
+    def test_27_tracking_requires_verification_then_uses_order_number(self):
+        unverified = self.turn("Track order ORD-100")
+        self.assertEqual(unverified.missing_fields, ["access_token"])
+        self.verify_session()
+        tracked = self.turn("Track order ORD-100")
+        self.assertEqual(tracked.tool_name, "track_order")
+        self.assertIn("in transit", tracked.spoken_text.casefold())
+        self.assertEqual(self.backend.calls[-1].tool_arguments["order_number"], "ORD-100")
+
+    def test_28_return_policy_and_order_eligibility_stay_separate(self):
+        policy = self.turn("What is your return policy?")
+        self.assertEqual(policy.tool_name, "retrieve_policy_knowledge")
+        self.verify_session()
+        eligibility = self.turn("Is order ORD-100 eligible for return?")
+        self.assertEqual(eligibility.tool_name, "check_return_eligibility")
+        self.assertIn("within the recorded return window", eligibility.spoken_text)
+
+    def test_29_exchange_eligibility_checks_replacement_without_creating_case(self):
+        self.verify_session()
+        result = self.turn("Can I exchange this for size large?", order_id="ORD-100",
+                           order_item_id="ITEM-1", size="L", color="Black")
+        self.assertEqual(result.tool_name, "check_exchange_inventory")
+        self.assertIn("in stock", result.spoken_text.casefold())
+        self.assertFalse(any(isinstance(call, tuple) and call[0] == "prepare"
+                             for call in self.backend.calls))
+
+    def test_30_refund_status_is_grounded_and_does_not_claim_refund_issued(self):
+        self.verify_session()
+        result = self.turn("What is the refund status for order ORD-100?")
+        self.assertEqual(result.tool_name, "get_refund_status")
+        self.assertIn("processing", result.spoken_text.casefold())
+        self.assertNotIn("refund issued", result.spoken_text.casefold())
+        self.assert_no_duplicate_sentences(result.spoken_text)
 
 
 if __name__ == "__main__":
