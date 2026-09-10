@@ -94,6 +94,17 @@ class OrchestratorTests(unittest.TestCase):
         result = self.route("What is the return policy for my order?")
         self.assertEqual(result.route, Route.POLICY_RAG)
 
+    def test_policy_timing_without_order_stays_general_policy(self):
+        result = self.route("After how many days am I eligible for an exchange or refund?")
+        self.assertEqual((result.route,result.tool_name),
+                         (Route.POLICY_RAG,"retrieve_policy_knowledge"))
+
+    def test_category_recommendation_ignores_unrelated_active_product(self):
+        result = self.route("Recommend a black blazer from your current collection",
+                            reference_product_id="zara-us:00029400")
+        self.assertEqual((result.intent,result.tool_name),("SEARCH_PRODUCTS","search_products"))
+        self.assertIn("black blazer",result.tool_arguments["query"].casefold())
+
     def test_cancel_action_requires_confirmation(self):
         result = self.route("Cancel my order", order_id="ORD-123",
                             access_token="verified-token")

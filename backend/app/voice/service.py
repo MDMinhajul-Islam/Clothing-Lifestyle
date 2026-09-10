@@ -27,9 +27,9 @@ BUDGET_VALUES = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 
 SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
 SIZE_IN_SENTENCE = re.compile(r"\b(?:in|size)\s+(xxs|xs|s|m|l|xl|xxl|small|medium|large)\b", re.IGNORECASE)
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
-CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "top", "skirt", "shoes", "coat"}
+CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "blazer", "top", "skirt", "shoes", "coat"}
 CATEGORY_ALIASES = {"dresses":"dress", "shirts":"shirt", "jackets":"jacket", "tops":"top",
-                    "skirts":"skirt", "coats":"coat", "trousers":"pants", "sneakers":"shoes"}
+                    "blazers":"blazer", "skirts":"skirt", "coats":"coat", "trousers":"pants", "sneakers":"shoes"}
 OCCASIONS = {"wedding", "office", "work", "interview", "formal", "cocktail", "party",
              "vacation", "beach", "date", "graduation", "everyday"}
 STYLES = {"elegant", "casual", "formal", "minimal", "classic", "modern", "modest",
@@ -158,6 +158,38 @@ class VoiceService:
             else:
                 session.pending_asr_correction = None
 
+        spoken_email = self._spoken_email(request.transcript)
+        if session.pending_spoken_email:
+            if text in YES:
+                session.confirmed_spoken_email = session.pending_spoken_email
+                resumed = session.pending_spoken_email_transcript or request.transcript
+                session.pending_spoken_email = None
+                session.pending_spoken_email_transcript = None
+                request = request.model_copy(update={"transcript": resumed})
+                text = " ".join(request.transcript.casefold().split())
+            elif text in NO:
+                session.pending_spoken_email = None
+                session.pending_spoken_email_transcript = None
+                self.sessions.update_session(session)
+                return self._response(session, "NEEDS_CONTEXT", "EMAIL_CONFIRMATION_DECLINED",
+                    "No problem. Please say the email address again.", needs_user_input=True)
+            elif spoken_email:
+                session.pending_spoken_email = spoken_email
+                session.pending_spoken_email_transcript = request.transcript
+                self.sessions.update_session(session)
+                return self._response(session, "NEEDS_CONTEXT", "AWAITING_EMAIL_CONFIRMATION",
+                    f"I heard {spoken_email}. Is that correct?", needs_user_input=True)
+            else:
+                self.sessions.update_session(session)
+                return self._response(session, "NEEDS_CONTEXT", "AWAITING_EMAIL_CONFIRMATION",
+                    f"I heard {session.pending_spoken_email}. Is that correct?", needs_user_input=True)
+        elif spoken_email and spoken_email != session.confirmed_spoken_email:
+            session.pending_spoken_email = spoken_email
+            session.pending_spoken_email_transcript = request.transcript
+            self.sessions.update_session(session)
+            return self._response(session, "NEEDS_CONTEXT", "AWAITING_EMAIL_CONFIRMATION",
+                f"I heard {spoken_email}. Is that correct?", needs_user_input=True)
+
         if (session.pending_tool_name == "search_products" and session.pending_missing_fields
                 and self._interrupts_pending_clarification(text)):
             self._clear_pending(session)
@@ -239,6 +271,9 @@ class VoiceService:
             session.pending_confirmation_token = prepared.confirmation_token
             self.sessions.update_session(session)
             prompt = prepared.confirmation_prompt or self._confirmation_prompt(decision)
+            if decision.tool_name == "create_order_request":
+                prompt = ("I have the order request ready, but nothing has been submitted yet. "
+                          "Would you like me to submit it?")
             return self._response(session, "NEEDS_CONFIRMATION", prepared.execution_status,
                 prompt, decision=decision, needs_user_input=True, requires_confirmation=True,
                 metadata={"gateway_preflight_status": prepared.execution_status})
@@ -471,6 +506,11 @@ class VoiceService:
         }
         context.update(session.pending_arguments)
         context.update(request.context.model_dump(exclude_none=True))
+        if (session.previous_recommendations and
+                session.last_intent in {"SEARCH_PRODUCTS", "FIND_SIMILAR_PRODUCTS", "RECOMMEND_MATCHING_PRODUCTS"}):
+            context["visible_products"] = list(session.previous_recommendations)
+        if session.confirmed_spoken_email:
+            context["email"] = session.confirmed_spoken_email
         # Webpage product context is authoritative even when the integration supplies
         # only its recommendation/reference identifier.
         if context.get("reference_product_id"):
@@ -499,6 +539,8 @@ class VoiceService:
             found_category=next((value for key,value in CATEGORY_ALIASES.items() if key in words),None)
         if found_category: context["category"]=found_category
         found_occasion=next((item for item in OCCASIONS if item in words),None)
+        if "official meeting" in request.transcript.casefold() or "business meeting" in request.transcript.casefold():
+            found_occasion="business"
         if found_occasion: context["occasion"]="office" if found_occasion == "work" else found_occasion
         found_style=next((item for item in STYLES if item in request.transcript.casefold()),None)
         if found_style: context["style"]=found_style
@@ -578,6 +620,16 @@ class VoiceService:
         elif any(reference in text for reference in ("this one", "this item", "this piece")):
             if context.get("product_id"):
                 context.setdefault("reference_product_id", context["product_id"])
+
+    @staticmethod
+    def _spoken_email(transcript):
+        normalized = transcript.casefold()
+        normalized = re.sub(r"\s+(?:at the rate|at sign)\s+", "@", normalized)
+        normalized = re.sub(r"\s+dot\s+", ".", normalized)
+        normalized = re.sub(r"\s*@\s*", "@", normalized)
+        normalized = re.sub(r"\s*\.\s*", ".", normalized)
+        match = re.search(r"[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)+", normalized)
+        return match.group(0).strip(".,") if match else None
 
     def _answer_compound_product_question(self, transcript, text, context, session, executor):
         asks_inventory = any(signal in text for signal in

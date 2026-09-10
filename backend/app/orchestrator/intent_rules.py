@@ -5,14 +5,14 @@ POLICY_TOPICS = (
 )
 POLICY_SIGNALS = (
     "policy", "deadline", "window", "fee", "fees", "condition", "exclusion",
-    "how long", "what is", "what's", "how does",
+    "how long", "how many days", "after how many days", "what is", "what's", "how does",
 )
 RECOMMENDATION_SIGNALS = (
-    "similar", "match", "matches", "matching", "go with", "pair with", "outfit",
+    "recommend", "suggest", "similar", "match", "matches", "matching", "go with", "pair with", "outfit",
 )
 PRODUCT_TERMS = (
     "dress", "dresses", "shirt", "shirts", "pants", "jeans", "jacket", "jackets",
-    "top", "tops", "skirt", "skirts", "shoe", "shoes", "coat", "coats", "product",
+    "blazer", "blazers", "top", "tops", "skirt", "skirts", "shoe", "shoes", "coat", "coats", "product",
 )
 
 ORDER_TOOLS = {

@@ -38,6 +38,18 @@ class ColorFallbackBackend(CapturingBackend):
                 "name":"Grounded navy dress", "price":69.9, "currency":"USD"}]})
         return super().execute(decision)
 
+class RecommendationMemoryBackend(CapturingBackend):
+    def execute(self,decision):
+        self.calls.append(decision)
+        if decision.tool_name == "search_products":
+            return CapabilityResult(execution_status="SUCCESS",data={"products":[
+                {"product_id":"zara-us:00000011","name":"Recommended dress","variant_id":"variant-11"},
+                {"product_id":"zara-us:00000012","name":"Second dress","variant_id":"variant-12"},
+            ]})
+        if decision.tool_name == "get_product_details":
+            return CapabilityResult(execution_status="SUCCESS",data={"name":"Recommended dress"})
+        return super().execute(decision)
+
 
 class CapturingCommunicator:
     def __init__(self): self.messages=[]
@@ -96,6 +108,34 @@ class Phase2G1VoiceTests(unittest.TestCase):
         result=self.turn("I need office clothes")
         self.assertEqual(result.execution_status,"SUCCESS")
         self.assertEqual(result.tool_name,"search_products")
+
+    def test_official_meeting_with_product_type_recommends_immediately(self):
+        result=self.turn("I need a dress under one hundred dollars for an official meeting")
+        self.assertEqual(result.tool_name,"search_products")
+        self.assertEqual(result.execution_status,"SUCCESS")
+        self.assertEqual(self.service.get_session(self.session).occasion,"business")
+
+    def test_backend_recommendations_outlive_static_retell_page_results(self):
+        backend=RecommendationMemoryBackend(); service=VoiceService(executor=VoiceCapabilityExecutor(backend))
+        session=service.create_session(CreateVoiceSessionRequest()).session_id
+        stale=[{"product_id":"zara-us:99999999","name":"Stale webpage item"}]
+        service.process_voice_turn(VoiceTurnRequest(session_id=session,
+            transcript="Show me black dresses",context={"visible_products":stale}))
+        result=service.process_voice_turn(VoiceTurnRequest(session_id=session,
+            transcript="Tell me about the first one",context={"visible_products":stale}))
+        self.assertEqual(result.tool_name,"get_product_details")
+        self.assertEqual(backend.calls[-1].tool_arguments["product_id"],"zara-us:00000011")
+
+    def test_spoken_email_requires_confirmation_before_use(self):
+        first=self.turn("Verify my account using jess.carter@nextgen.test")
+        self.assertEqual(first.execution_status,"AWAITING_EMAIL_CONFIRMATION")
+        self.assertIn("jess.carter@nextgen.test",first.spoken_text)
+        self.assertEqual(self.backend.calls,[])
+        second=self.turn("Yes")
+        self.assertEqual(second.execution_status,"AWAITING_CONTEXT")
+        self.assertEqual(second.missing_fields,["verification_value"])
+        self.assertEqual(self.service.get_session(self.session).confirmed_spoken_email,
+                         "jess.carter@nextgen.test")
 
     def test_styling_context_and_recommendations_are_remembered(self):
         self.turn("I need office clothes")
@@ -329,6 +369,7 @@ class Phase2G1VoiceTests(unittest.TestCase):
             transcript="I'd like to order it",context={"product_id":"zara-us:00000001",
             "reference_product_id":"zara-us:00000001","active_variant_id":"black-m","size":"M","quantity":1}))
         self.assertEqual(prepared.execution_status,'CONFIRMATION_REQUIRED')
+        self.assertIn("nothing has been submitted yet",prepared.spoken_text)
         confirmed=service.process_voice_turn(VoiceTurnRequest(session_id=session,transcript='Yes'),
                                              communicator=FailingCommunicator())
         self.assertEqual(confirmed.execution_status,'SUCCESS')

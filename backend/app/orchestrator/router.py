@@ -118,6 +118,11 @@ class IntentRouter:
 
         # 2. Dynamic account, order, catalogue, and inventory facts.
         has_order_id = "order_id" in context
+        if not has_order_id and _has(text, POLICY_TOPICS) and _has(text, POLICY_SIGNALS):
+            return RouteDecision(route=Route.POLICY_RAG, intent="RETRIEVE_POLICY_KNOWLEDGE",
+                confidence=.96, tool_name="retrieve_policy_knowledge",
+                reason_codes=["GENERAL_POLICY_QUESTION", "OFFICIAL_RAG_REQUIRED"],
+                tool_arguments={"query": request.message, "market": "US", "locale": "en"})
         if "cancel" in text and _has(text, ("can i", "eligible", "eligibility")):
             return self._tool("CHECK_CANCELLATION_ELIGIBILITY",
                               "check_cancellation_eligibility", context, .98,
@@ -181,6 +186,13 @@ class IntentRouter:
                 confidence=.96, tool_name="retrieve_policy_knowledge",
                 reason_codes=["OFFICIAL_POLICY_QUESTION", "OFFICIAL_RAG_REQUIRED"],
                 tool_arguments={"query": request.message, "market": "US", "locale": "en"})
+
+        # A category-specific request asks the catalogue for grounded choices even
+        # when an unrelated webpage product remains in session context.
+        if _has(text, ("recommend", "suggest")) and _has(text, PRODUCT_TERMS):
+            context["query"] = request.message
+            return self._tool("SEARCH_PRODUCTS", "search_products", context, .95,
+                              "GROUNDED_CATEGORY_RECOMMENDATION")
 
         # 4. Reference-based semantic recommendation.
         if _has(text, RECOMMENDATION_SIGNALS):

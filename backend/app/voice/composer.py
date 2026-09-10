@@ -61,6 +61,16 @@ class VoiceResponseComposer:
                 value=(color.get("color_name") or color.get("name")) if isinstance(color,dict) else color
                 if value and value not in colors: colors.append(str(value))
             if colors: facts.append("The available colors are " + ", ".join(colors))
+            sizes=[]
+            in_stock=False
+            for variant in data.get("variants") or []:
+                if isinstance(variant,dict):
+                    value=variant.get("size_name") or variant.get("size")
+                    if value and value not in sizes:sizes.append(str(value))
+                    in_stock = in_stock or variant.get("public_availability_state") == "IN_STOCK" or variant.get("in_stock") is True
+            if sizes:facts.append("The available sizes are " + ", ".join(sizes))
+            if data.get("available") is True or in_stock:facts.append("It is currently available")
+            elif data.get("available") is False:facts.append("It is currently unavailable")
             if details: facts.append(str(details))
             return f"{name}. " + ". ".join(facts) + "." if facts else f"I have the latest details for {name}. What would you like to know?"
         if decision.intent in {"CHECK_INVENTORY", "PURCHASE_GUIDANCE", "CHECK_PICKUP_AVAILABILITY", "CHECK_EXCHANGE_INVENTORY"}:

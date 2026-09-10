@@ -53,6 +53,9 @@ class VoiceSession(BaseModel):
     pending_confirmation: bool = False
     pending_confirmation_token: str | None = None
     pending_asr_correction: str | None = None
+    confirmed_spoken_email: str | None = None
+    pending_spoken_email: str | None = None
+    pending_spoken_email_transcript: str | None = None
     conversational_goal: str | None = None
     shopping_scenario: str | None = None
     intent_confidence: float | None = None
