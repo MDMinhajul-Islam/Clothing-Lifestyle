@@ -117,7 +117,7 @@ def _client_key(request: Request) -> str:
     return forwarded or (request.client.host if request.client else "unknown")
 
 
-def _portal_voice_identity(request: Request) -> tuple[str, str | None, str] | None:
+def _portal_voice_identity(request: Request) -> dict[str, Any] | None:
     """Resolve the HTTP-only portal cookie and mint server-side voice authorization."""
     cookies = getattr(request, "cookies", {}) or {}
     portal_token = cookies.get(settings.customer_session_cookie)
@@ -130,7 +130,20 @@ def _portal_voice_identity(request: Request) -> tuple[str, str | None, str] | No
                 profile["customer_id"])
     except PermissionError:
         return None
-    return str(profile["customer_id"]), profile.get("email"), access_token
+    addresses = profile.get("addresses") or []
+    default_address = next(
+        (item for item in addresses if item.get("is_default_shipping")),
+        addresses[0] if addresses else None,
+    )
+    return {
+        "customer_id": str(profile["customer_id"]),
+        "customer_name": " ".join(
+            value for value in (profile.get("first_name"), profile.get("last_name")) if value
+        ) or None,
+        "email": profile.get("email"),
+        "access_token": access_token,
+        "shipping_address_id": default_address.get("address_id") if default_address else None,
+    }
 
 
 @router.post(
@@ -147,7 +160,7 @@ def create_web_call(payload: CreateWebCallRequest, request: Request):
         raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
                             detail="Voice calling is not configured.")
     portal_identity = _portal_voice_identity(request)
-    trusted_customer_id = portal_identity[0] if portal_identity else payload.customer_id
+    trusted_customer_id = portal_identity["customer_id"] if portal_identity else payload.customer_id
     session = voice_service.create_session(CreateVoiceSessionRequest(
         provider=VoiceProvider.RETELL,
         customer_id=trusted_customer_id,
@@ -156,8 +169,11 @@ def create_web_call(payload: CreateWebCallRequest, request: Request):
         state = voice_service.get_session(session.session_id)
         state.customer_type = "REGISTERED"
         state.auth_level = "TRANSACTION_VERIFIED"
-        state.access_token = portal_identity[2]
-        state.confirmed_spoken_email = portal_identity[1]
+        state.customer_name = portal_identity["customer_name"]
+        state.access_token = portal_identity["access_token"]
+        state.confirmed_spoken_email = portal_identity["email"]
+        state.shipping_address_id = portal_identity["shipping_address_id"]
+        state.shipping_profile_loaded = True
         voice_service.sessions.update_session(state)
     body: dict[str, Any] = {
         "agent_id": settings.retell_agent_id,

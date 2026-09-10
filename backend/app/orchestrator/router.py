@@ -28,6 +28,27 @@ EXPLICIT_EXTERNAL_TOPIC = re.compile(
     r"trousers|pants|blazer|jacket|coat|skirt|top|bag|handbag|hoodie|sweater))\b)",
     re.IGNORECASE,
 )
+HUMAN_SUPPORT_SIGNALS = (
+    "speak to a person", "talk to a person", "human support", "human agent",
+    "speak to an agent", "talk to someone", "speak to someone", "representative",
+    "customer service",
+)
+INSPIRATION_SIGNALS = (
+    "surprise me", "recommend something", "suggest something", "help me find something",
+    "help me choose", "need recommendations", "recommend options", "best options",
+    "i don't know what i want", "i dont know what i want", "what should i wear",
+)
+MERCHANDISING_SIGNALS = (
+    "what's trending", "whats trending", "what is trending", "what's popular",
+    "whats popular", "what is popular", "new arrivals", "best sellers", "bestsellers",
+    "luxury essentials",
+)
+RECIPIENT_ONLY_SIGNALS = (
+    "shopping for my wife", "shopping for my husband", "shopping for my daughter",
+    "shopping for my son", "shopping for my mother", "shopping for my father",
+    "something for my wife", "something for my husband", "something for my daughter",
+    "something for my son", "something for my mother", "something for my father",
+)
 
 
 def _has(text, values):
@@ -62,7 +83,8 @@ class IntentRouter:
                                       "proceed to checkout", "complete my purchase",
                                       "submit this order request", "submit my order request",
                                       "purchase this", "purchase it", "check out", "checkout",
-                                      "i'll take", "ill take"))
+                                      "i'll take", "ill take", "take this", "book this", "book it",
+                                      "booking this", "reserve this", "reserve it"))
         requested_size = bool(SIZE.search(request.message) or re.search(
             r"\b(?:xs|s|m|l|xl|xxl|small|medium|large)(?:\s+size)?\b", text))
         refers_to_current_product = (
@@ -138,7 +160,10 @@ class IntentRouter:
         if "return" in text and has_order_id and _has(text, ("can i", "eligible", "eligibility")):
             return self._tool("CHECK_RETURN_ELIGIBILITY", "check_return_eligibility",
                               context, .98, "DYNAMIC_ORDER_FACT")
-        if _has(text, ("track order", "track my order", "where is my order", "shipment status")):
+        if _has(text, ("track order", "track my order", "where is my order", "shipment status",
+                       "order hasn't arrived", "order has not arrived", "package hasn't arrived",
+                       "package has not arrived", "delivery hasn't arrived", "delivery has not arrived",
+                       "late order")):
             return self._tool("TRACK_ORDER", "track_order", context, .98,
                               "DYNAMIC_SHIPMENT_FACT")
         if "refund" in text and _has(text, ("status", "where", "processed")):
@@ -162,7 +187,7 @@ class IntentRouter:
             return self._tool("CHECK_EXCHANGE_INVENTORY","check_exchange_inventory",context,.97,"EXCHANGE_ELIGIBILITY_AND_INVENTORY")
         if _has(text,("size guidance","what size","which size","fit guidance","how does this fit")):
             return self._tool("GET_SIZE_GUIDANCE","get_size_guidance",context,.95,"DOCUMENTED_SIZE_EVIDENCE")
-        if _has(text,("speak to a person","talk to a person","human support","human agent","speak to an agent")):
+        if _has(text, HUMAN_SUPPORT_SIGNALS):
             context.setdefault("factual_summary",request.message); context.setdefault("intent","HUMAN_SUPPORT_REQUEST")
             return self._tool("PREPARE_HANDOFF","prepare_handoff",context,.99,"HUMAN_HANDOFF_REQUEST")
         if _has(text,("send me a link","text me a link","email me a link","secure link")):
@@ -186,6 +211,10 @@ class IntentRouter:
         if has_order_id and _has(text, ("order details", "order information", "order status")):
             return self._tool("GET_ORDER", "get_order", context, .96,
                               "DYNAMIC_ORDER_FACT")
+        if _has(text, ("forgot my order number", "don't know my order number",
+                       "dont know my order number", "lost my order number")):
+            return self._tool("GET_CUSTOMER_ORDERS", "get_customer_orders", context, .96,
+                              "ORDER_REFERENCE_RECOVERY")
 
         # 3. Official policies. A policy mention without a concrete eligibility/action
         # request stays here even when it says "my order".
@@ -214,6 +243,51 @@ class IntentRouter:
             context["query"] = request.message
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
                               "WORKPLACE_DISCOVERY_INTENT")
+
+        # A recommendation that names a category is catalogue discovery unless the
+        # customer is already discussing a reference product.
+        if (not current_product and _has(text, RECOMMENDATION_SIGNALS)
+                and _has(text, PRODUCT_TERMS)):
+            context["query"] = request.message
+            return self._tool("SEARCH_PRODUCTS", "search_products", context, .94,
+                              "CATEGORY_RECOMMENDATION_DISCOVERY")
+
+        # Inspiration requests do not need a reference product. Ground them in the
+        # catalogue instead of sending them to the reference-based recommender.
+        if _has(text, INSPIRATION_SIGNALS):
+            context["query"] = request.message
+            return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
+                              "OPEN_CATALOGUE_DISCOVERY")
+
+        # Building a complete wardrobe benefits from one high-value occasion question.
+        if not current_product and _has(text, ("build me an outfit", "build an outfit",
+                                               "capsule wardrobe", "refresh my wardrobe")):
+            if not context.get("occasion") and not context.get("category"):
+                return RouteDecision(status=RouteStatus.NEEDS_CONTEXT, route=Route.TOOL_GATEWAY,
+                    intent="SEARCH_PRODUCTS", confidence=.91, tool_name="search_products",
+                    missing_fields=["occasion"], reason_codes=["WARDROBE_GOAL_CLARIFICATION"],
+                    tool_arguments={"query": request.message})
+            context["query"] = request.message
+            return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
+                              "WARDROBE_DISCOVERY_INTENT")
+
+        # Trend and arrival labels are discovery cues. The catalogue remains
+        # authoritative and may return the closest currently available pieces.
+        if _has(text, MERCHANDISING_SIGNALS):
+            context["query"] = request.message
+            return self._tool("SEARCH_PRODUCTS", "search_products", context, .90,
+                              "MERCHANDISING_DISCOVERY_INTENT")
+
+        if _has(text, RECIPIENT_ONLY_SIGNALS) or _has(text, ("i need something cheap",
+                                                             "i need something premium")):
+            return RouteDecision(status=RouteStatus.NEEDS_CONTEXT, route=Route.TOOL_GATEWAY,
+                intent="SEARCH_PRODUCTS", confidence=.90, tool_name="search_products",
+                missing_fields=["category"], reason_codes=["BROAD_RECIPIENT_DISCOVERY"],
+                tool_arguments={"query": request.message})
+
+        if EXPLICIT_EXTERNAL_TOPIC.search(text):
+            return RouteDecision(route=Route.GENERAL_CHAT, intent="GENERAL_CONVERSATION",
+                confidence=.90, reason_codes=["EXPLICIT_NON_COMMERCE_TOPIC"])
 
         # 4. Reference-based semantic recommendation.
         if _has(text, RECOMMENDATION_SIGNALS):

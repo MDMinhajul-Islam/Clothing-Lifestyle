@@ -113,7 +113,10 @@ class RetellTransportTests(unittest.TestCase):
         )
         with patch("backend.app.api.routes_retell.get_db_connection", return_value=manager), \
                 patch("backend.app.api.routes_retell.CustomerAuthService.profile", return_value={
-                    "customer_id": "customer-1", "email": "jess@example.test",
+                    "customer_id": "customer-1", "first_name": "Minhajul", "last_name": "Islam",
+                    "email": "mdminhajul.islam1823@gmail.com", "addresses": [{
+                        "address_id": "address-1", "is_default_shipping": True,
+                    }],
                 }), \
                 patch("backend.app.api.routes_retell.RetailCapabilityService.issue_portal_voice_access",
                       return_value="server-side-voice-token"):
@@ -124,7 +127,10 @@ class RetellTransportTests(unittest.TestCase):
         self.assertEqual(state.customer_id, "customer-1")
         self.assertEqual(state.auth_level, "TRANSACTION_VERIFIED")
         self.assertEqual(state.access_token, "server-side-voice-token")
-        self.assertEqual(state.confirmed_spoken_email, "jess@example.test")
+        self.assertEqual(state.confirmed_spoken_email, "mdminhajul.islam1823@gmail.com")
+        self.assertEqual(state.customer_name, "Minhajul Islam")
+        self.assertEqual(state.shipping_address_id, "address-1")
+        self.assertTrue(state.shipping_profile_loaded)
 
     def test_create_web_call_schema_rejects_browser_agent_override(self):
         with self.assertRaises(ValidationError):

@@ -39,10 +39,13 @@ class GroundedCommerceBackend:
                 data["materials_care"] = "100% linen. Machine wash on a gentle cycle."
             return CapabilityResult(execution_status="SUCCESS", data=data)
         if tool == "check_inventory":
+            size = args.get("size") or "L"
+            color = args.get("color") or "Yellow"
             return CapabilityResult(execution_status="SUCCESS", data={
                 "overall_status": "IN_STOCK", "total_network_available": 8,
-                "matching_variants": [{"variant_id": "yellow-l", "size_name": "L",
-                                       "color_name": "Yellow"}],
+                "matching_variants": [{"variant_id": f"{str(color).casefold()}-{str(size).casefold()}",
+                                       "sku": f"{str(color).upper()}-{str(size).upper()}",
+                                       "size_name": size, "color_name": color}],
             })
         if tool == "identify_customer":
             return CapabilityResult(execution_status="SUCCESS", data={
@@ -488,6 +491,194 @@ class VoiceCustomerAcceptanceTests(unittest.TestCase):
         self.assertEqual(stock.tool_name, "check_inventory")
         self.assertNotIn("verify", details.spoken_text.casefold())
         self.assertNotIn("verify", stock.spoken_text.casefold())
+
+    def test_34_open_ended_recommendation_uses_grounded_catalogue(self):
+        for transcript in ("Recommend something", "Surprise me", "I don't know what I want",
+                           "Help me choose", "I need recommendations"):
+            with self.subTest(transcript=transcript):
+                result = self.turn(transcript)
+                self.assertEqual(result.tool_name, "search_products")
+                self.assertNotEqual(result.execution_status, "LLM_NOT_CONFIGURED")
+
+        category_result = self.turn("Recommend a black dress for a wedding")
+        self.assertEqual(category_result.tool_name, "search_products")
+        args = self.backend.calls[-1].tool_arguments
+        self.assertEqual((args["product_type"], args["color"], args["occasion"]),
+                         ("dress", "black", "wedding"))
+
+    def test_35_recipient_only_request_asks_one_useful_question_and_remembers_department(self):
+        first = self.turn("I'm shopping for my wife")
+        self.assertEqual(first.missing_fields, ["category"])
+        second = self.turn("A handbag")
+        self.assertEqual(second.tool_name, "search_products")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["department"], "WOMAN")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_type"], "bag")
+
+    def test_36_outfit_building_asks_only_for_occasion_then_searches(self):
+        first = self.turn("Build me an outfit")
+        self.assertEqual(first.missing_fields, ["occasion"])
+        second = self.turn("For a business meeting")
+        self.assertEqual(second.tool_name, "search_products")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["occasion"], "business")
+
+    def test_37_capsule_wardrobe_continues_with_remembered_work_context(self):
+        first = self.turn("Help me create a capsule wardrobe")
+        self.assertEqual(first.missing_fields, ["occasion"])
+        second = self.turn("For work")
+        self.assertEqual(second.tool_name, "search_products")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["occasion"], "office")
+
+    def test_38_merchandising_language_stays_grounded(self):
+        for transcript in ("What's trending?", "Show me new arrivals", "Show me best sellers"):
+            with self.subTest(transcript=transcript):
+                result = self.turn(transcript)
+                self.assertEqual(result.tool_name, "search_products")
+                self.assertNotEqual(result.execution_status, "LLM_NOT_CONFIGURED")
+
+    def test_39_delayed_order_language_routes_to_tracking(self):
+        self.verify_session()
+        result = self.turn("My package hasn't arrived", order_id="ORD-100")
+        self.assertEqual(result.tool_name, "track_order")
+        self.assertIn("in transit", result.spoken_text.casefold())
+
+    def test_40_missing_order_number_uses_verified_order_history(self):
+        self.verify_session()
+        result = self.turn("I forgot my order number")
+        self.assertEqual(result.tool_name, "get_customer_orders")
+        self.assertNotEqual(result.execution_status, "LLM_NOT_CONFIGURED")
+
+    def test_41_natural_human_support_phrases_prepare_handoff(self):
+        for transcript in ("I want to talk to someone", "Can I speak to a representative?"):
+            with self.subTest(transcript=transcript):
+                result = self.turn(transcript)
+                self.assertEqual(result.tool_name, "prepare_handoff")
+                self.assertIn("won't need to repeat", result.spoken_text)
+
+    def test_42_fit_problem_gets_a_helpful_next_step(self):
+        result = self.turn("My size doesn't fit")
+        self.assertIn("exchange", result.spoken_text.casefold())
+        self.assertIn("return", result.spoken_text.casefold())
+        self.assertNotIn("temporarily unavailable", result.spoken_text.casefold())
+
+    def test_43_payment_failure_never_collects_card_details_or_claims_success(self):
+        result = self.turn("My payment failed, please help")
+        spoken = result.spoken_text.casefold()
+        self.assertIn("don't share card details", spoken)
+        self.assertNotIn("payment is complete", spoken)
+        self.assertNotIn("temporarily unavailable", spoken)
+
+    def test_44_confused_customer_is_guided_without_a_system_failure_message(self):
+        result = self.turn("I'm confused and I don't know fashion")
+        self.assertIn("one step at a time", result.spoken_text.casefold())
+        self.assertNotIn("temporarily unavailable", result.spoken_text.casefold())
+
+    def test_45_unknown_external_request_redirects_without_claiming_an_outage(self):
+        result = self.turn("Tell me about tomorrow's football match")
+        self.assertIn("NexGen products", result.spoken_text)
+        self.assertNotIn("temporarily unavailable", result.spoken_text.casefold())
+
+    def test_46_formal_assist_asr_is_recovered_as_a_dress_search(self):
+        result = self.turn("I need a formal assist for a wedding under one hundred dollars")
+        self.assertEqual(result.tool_name, "search_products")
+        args = self.backend.calls[-1].tool_arguments
+        self.assertEqual((args["product_type"], args["occasion"], args["max_price"]),
+                         ("dress", "wedding", 100.0))
+
+    def test_47_child_coding_desk_asr_is_recovered_as_a_dress(self):
+        result = self.turn("I need a coding desk for my five years old daughter")
+        self.assertEqual(result.tool_name, "search_products")
+        args = self.backend.calls[-1].tool_arguments
+        self.assertEqual((args["product_type"], args["department"]), ("dress", "KIDS"))
+
+    def test_48_generic_style_and_recipient_terms_do_not_become_hard_lexical_filters(self):
+        from backend.app.services.catalogue_service import CatalogueService
+
+        for transcript in ("Surprise me", "Show me new arrivals", "Luxury essentials for my wife"):
+            with self.subTest(transcript=transcript):
+                query, _ = CatalogueService._normalize_search(transcript, None)
+                self.assertIsNone(query)
+
+    def test_49_logged_in_variant_switch_resolves_before_single_confirmation(self):
+        self.verify_session()
+        state = self.service.get_session(self.session)
+        state.customer_name = "Jess Carter"
+        state.shipping_profile_loaded = True
+        state.shipping_address_id = "address-1"
+        self.service.sessions.update_session(state)
+        result = self.turn("Book this item in yellow, large size",
+                           reference_product_id="zara-us:00000001",
+                           active_variant_id="black-m", color="Black", size="M")
+        self.assertTrue(result.requires_confirmation)
+        prepared = next(call for call in reversed(self.backend.calls)
+                        if isinstance(call, tuple) and call[0] == "prepare")
+        self.assertEqual(prepared[2]["variant_id"], "yellow-l")
+        self.assertEqual(prepared[2]["shipping_address_id"], "address-1")
+        self.assertIn("quantity 1", result.spoken_text)
+        self.assertIn("saved shipping address", result.spoken_text)
+
+    def test_50_pending_order_survives_product_question(self):
+        self.verify_session()
+        prepared = self.turn("Order this in medium", reference_product_id="zara-us:00000001",
+                             active_variant_id="black-m", color="Black", size="M")
+        self.assertTrue(prepared.requires_confirmation)
+        details = self.turn("What material is it and how much does it cost?")
+        state = self.service.get_session(self.session)
+        self.assertTrue(state.pending_confirmation)
+        self.assertEqual(state.pending_tool_name, "create_order_request")
+        self.assertIn("79.9 USD", details.spoken_text)
+        self.assertIn("order selection is still saved", details.spoken_text.casefold())
+        confirmed = self.turn("Yes")
+        self.assertEqual(confirmed.execution_status, "SUCCESS")
+
+    def test_51_natural_quantity_answers_resume_order(self):
+        for phrase in ("just one", "only one", "a single one", "in one piece"):
+            with self.subTest(phrase=phrase):
+                state = self.service.get_session(self.session)
+                state.pending_tool_name = "create_order_request"
+                state.pending_arguments = {
+                    "access_token": "verified-access-token", "product_id": "zara-us:00000001",
+                    "variant_id": "black-m", "size": "M", "shipping_address_id": "address-1",
+                }
+                state.pending_missing_fields = ["quantity"]
+                self.service.sessions.update_session(state)
+                result = self.turn(phrase)
+                self.assertTrue(result.requires_confirmation)
+                self.assertEqual(self.service.get_session(self.session).quantity, 1)
+                self._clear_test_order_state()
+
+    def _clear_test_order_state(self):
+        state = self.service.get_session(self.session)
+        state.pending_tool_name = None
+        state.pending_arguments = {}
+        state.pending_missing_fields = []
+        state.pending_confirmation = False
+        state.pending_confirmation_token = None
+        state.quantity = None
+        self.service.sessions.update_session(state)
+
+    def test_52_common_xl_asr_and_purchase_phrases_are_recovered(self):
+        state = self.service.get_session(self.session)
+        state.current_product_id = "zara-us:00000001"
+        self.service.sessions.update_session(state)
+        self.assertIn("XL", self.service._recover_fashion_asr("Book this in Excel size", state))
+        self.assertIn("XL", self.service._recover_fashion_asr("Reserve this in excess size", state))
+
+    def test_53_missing_address_is_collected_once_then_order_is_prepared(self):
+        self.verify_session()
+        state = self.service.get_session(self.session)
+        state.customer_name = "Jess Carter"
+        state.shipping_profile_loaded = True
+        self.service.sessions.update_session(state)
+        requested = self.turn("Take this", reference_product_id="zara-us:00000001",
+                              active_variant_id="black-m", color="Black", size="M")
+        self.assertEqual(requested.execution_status, "AWAITING_SHIPPING_ADDRESS")
+        self.assertNotIn("email", requested.spoken_text.casefold())
+        prepared = self.turn("10 Main Street, New York, New York, 10001")
+        self.assertTrue(prepared.requires_confirmation)
+        call = next(item for item in reversed(self.backend.calls)
+                    if isinstance(item, tuple) and item[0] == "prepare")
+        self.assertEqual(call[2]["shipping_address"]["recipient_name"], "Jess Carter")
+        self.assertEqual(call[2]["shipping_address"]["postal_code"], "10001")
 
 
 if __name__ == "__main__":

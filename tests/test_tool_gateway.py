@@ -380,7 +380,7 @@ class TestToolGatewayAPI(unittest.TestCase):
                     JOIN shipments s ON o.order_id = s.order_id
                     JOIN order_items oi ON o.order_id = oi.order_id
                     WHERE o.order_status = 'DELIVERED'
-                      AND s.delivered_at >= '2026-08-08'
+                      AND s.shipped_at + interval '30 days' >= now()
                       AND NOT EXISTS (
                           SELECT 1 FROM return_items ri WHERE ri.order_item_id = oi.order_item_id
                       )
@@ -398,6 +398,7 @@ class TestToolGatewayAPI(unittest.TestCase):
             json={
                 "order_number": order_num,
                 "items": [{"order_item_id": item_id, "quantity": 1, "reason_code": "DOES_NOT_FIT"}],
+                "return_method": "STORE",
                 "confirmed": False
             }
         )
@@ -416,6 +417,7 @@ class TestToolGatewayAPI(unittest.TestCase):
             json={
                 "order_number": order_num,
                 "items": [{"order_item_id": item_id, "quantity": 1, "reason_code": "DOES_NOT_FIT"}],
+                "return_method": "STORE",
                 "confirmed": True,
                 "confirmation_token": conf_token,
                 "idempotency_key": idem_key
@@ -434,6 +436,7 @@ class TestToolGatewayAPI(unittest.TestCase):
             json={
                 "order_number": order_num,
                 "items": [{"order_item_id": item_id, "quantity": 1, "reason_code": "DOES_NOT_FIT"}],
+                "return_method": "STORE",
                 "confirmed": True,
                 "confirmation_token": conf_token,
                 "idempotency_key": idem_key

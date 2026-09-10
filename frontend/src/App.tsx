@@ -96,6 +96,10 @@ export const App: React.FC = () => {
   const endingRetellCall = React.useRef(false);
   const retellTranscriptKey = React.useRef('');
   const fallbackVoice = React.useRef<(() => Promise<VoiceSession>) | null>(null);
+  const customerRef = React.useRef(customer);
+  const customerSessionRestoration = React.useRef<Promise<void> | null>(null);
+
+  React.useEffect(() => { customerRef.current = customer; }, [customer]);
 
   const appendRetellTranscript = React.useCallback((update: unknown) => {
     const transcript = (update as { transcript?: Array<{ role?: string; content?: string }> })?.transcript;
@@ -150,12 +154,14 @@ export const App: React.FC = () => {
     return () => window.removeEventListener('popstate', restoreView);
   }, []);
   React.useEffect(() => {
-    void customerMe().then((profile) => {
+    const restoration = customerMe().then((profile) => {
       setCustomer(profile);
+      customerRef.current = profile;
       if (viewFromPath() === 'account') setIsAuthModalOpen(true);
     }).catch(() => {
       if (viewFromPath() === 'account') setIsAuthModalOpen(true);
     }).finally(() => setIsCustomerSessionReady(true));
+    customerSessionRestoration.current = restoration.then(() => undefined);
     const token=portalTokens.verify;
     if(token){void verifyCustomerEmail(token).then(()=>{
       setPortalNotice('Your email is verified. You can now sign in.');
@@ -166,13 +172,13 @@ export const App: React.FC = () => {
 
   const resetFilters = React.useCallback(() => { setFilter(DEFAULT_FILTER); setActiveVoiceFilterLabel(null); }, []);
   const startFallbackVoice = React.useCallback(async () => {
-    const session = await createVoiceSession('mock', customer.id);
+    const session = await createVoiceSession('mock', customerRef.current.id);
     setVoiceSession(session);
     setVoiceState('LISTENING');
     setIsVoiceExpanded(true);
     setAuthNotice('Live calling is unavailable. Browser voice and text fallback are ready.');
     return session;
-  }, [customer.id]);
+  }, []);
   React.useEffect(() => {
     fallbackVoice.current = startFallbackVoice;
   }, [startFallbackVoice]);
@@ -193,16 +199,18 @@ export const App: React.FC = () => {
     setIsVoiceMuted(false);
     endingRetellCall.current = false;
     try {
+      if (!isCustomerSessionReady) await customerSessionRestoration.current;
+      const activeCustomer = customerRef.current;
       const permission = await navigator.mediaDevices.getUserMedia({ audio: true });
       permission.getTracks().forEach((track) => track.stop());
-      const authorization = await createRetellWebCall(customer.id || undefined, webpageVoiceContext(activeProduct, visibleProducts));
+      const authorization = await createRetellWebCall(activeCustomer.id || undefined, webpageVoiceContext(activeProduct, visibleProducts));
       const session: VoiceSession = {
         sessionId: authorization.call_id,
         status: 'ACTIVE',
         provider: 'retell',
-        customerId: customer.id || undefined,
-        customerType: customer.id ? 'REGISTERED' : 'GUEST',
-        authLevel: customer.id ? 'LOGGED_IN' : 'ANONYMOUS',
+        customerId: activeCustomer.id || undefined,
+        customerType: activeCustomer.id ? 'REGISTERED' : 'GUEST',
+        authLevel: activeCustomer.id ? 'LOGGED_IN' : 'ANONYMOUS',
         conversationTurn: 0,
         durationSeconds: 0,
         createdAt: new Date().toISOString(),
@@ -216,7 +224,7 @@ export const App: React.FC = () => {
       setVoiceState('ERROR');
       try { return await startFallbackVoice(); } catch { setVoiceState('ERROR'); return null; }
     }
-  }, [customer.id, getRetellClient, products, selectedProduct, startFallbackVoice, voiceSession, voiceState, webpageVoiceContext]);
+  }, [getRetellClient, isCustomerSessionReady, products, selectedProduct, startFallbackVoice, voiceSession, voiceState, webpageVoiceContext]);
   const sendTranscript = React.useCallback(async (transcript: string, activeProduct: Product | null = selectedProduct, visibleProducts: Product[] = products) => { const text = transcript.trim(); if (!text) return; const session = voiceSession?.status === 'ACTIVE' ? voiceSession : await startVoice(activeProduct, visibleProducts); if (!session) return; if (session.provider === 'retell') { window.speechSynthesis.cancel(); setAuthNotice('The live stylist is connected. Say your request naturally.'); return; } setTurnHistory((history) => [...history, { id: `user-${Date.now()}`, sender: 'user', text, timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) }]); setVoiceState('THINKING'); setIsVoiceExpanded(true); const productIntent = voiceFilter(text); if (Object.keys(productIntent).length) { setFilter((current) => ({ ...current, ...productIntent })); setActiveVoiceFilterLabel(text); } const result = await sendVoiceTurn(session, text, products.length ? products : FALLBACK_PRODUCTS, webpageVoiceContext(activeProduct, visibleProducts)); if (result.updatedFilter) { setFilter((current) => ({ ...current, ...result.updatedFilter })); setActiveVoiceFilterLabel(text); } setLastTurn(result.message); setTurnHistory((history) => [...history, result.message]); setVoiceState('SPEAKING'); window.speechSynthesis.cancel(); const speech = new SpeechSynthesisUtterance(result.message.text); speech.rate = 1.05; speech.onend = () => setVoiceState('LISTENING'); speech.onerror = () => setVoiceState('LISTENING'); window.speechSynthesis.speak(speech); }, [products, selectedProduct, startVoice, voiceSession, webpageVoiceContext]);
   const toggleVoiceMute = () => {
     const nextMuted = !isVoiceMuted;

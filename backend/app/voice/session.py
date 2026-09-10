@@ -14,6 +14,7 @@ class VoiceSession(BaseModel):
     session_id: str
     provider: VoiceProvider
     customer_id: str | None = None
+    customer_name: str | None = None
     customer_type: str | None = None
     auth_level: str = "PUBLIC"
     access_token: str | None = None
@@ -62,6 +63,10 @@ class VoiceSession(BaseModel):
     intent_confidence: float | None = None
     conversation_turn: int = 0
     quantity: int | None = None
+    shipping_address_id: str | None = None
+    shipping_address: dict[str, Any] | None = None
+    shipping_profile_loaded: bool = False
+    awaiting_shipping_address: bool = False
     created_at: str = Field(default_factory=lambda: datetime.now(timezone.utc).isoformat())
 
 

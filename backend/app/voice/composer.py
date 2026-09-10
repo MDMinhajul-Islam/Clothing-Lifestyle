@@ -14,9 +14,17 @@ class VoiceResponseComposer:
             return "My pleasure."
         if text in {"bye", "goodbye", "see you"}:
             return "It was a pleasure helping you today. I'll be here whenever you're ready."
+        if "size" in text and any(signal in text for signal in ("doesn't fit", "does not fit", "too small", "too large")):
+            return "I can help with that. Would you prefer to check another size, request an exchange, or review the return options?"
+        if "order number" in text and any(signal in text for signal in ("forgot", "don't know", "dont know", "lost")):
+            return "I can help locate your recent orders after verifying your account. What email address is linked to it?"
+        if "payment" in text and any(signal in text for signal in ("failed", "declined", "not working", "didn't work", "did not work")):
+            return "I'm sorry the payment did not go through. Please don't share card details by voice. I can help you retry the secure payment link or prepare support."
+        if any(signal in text for signal in ("i'm confused", "im confused", "don't know fashion", "dont know fashion", "help me choose")):
+            return "Of course. Tell me what you are shopping for, and I'll narrow it down one step at a time."
         if "help" in text:
             return "I can help you find the right pieces, build an outfit, check availability, or assist with an order. Where shall we begin?"
-        return "Live shopping information is temporarily unavailable. Please try again in a moment."
+        return "I can help with NexGen products, styling, orders, policies, or customer support. What would you like help with?"
 
     def compose(self, decision, data, status):
         if status in {"AUTHORIZATION_REQUIRED", "AUTH_TOKEN_INVALID", "AUTH_TOKEN_EXPIRED"}:

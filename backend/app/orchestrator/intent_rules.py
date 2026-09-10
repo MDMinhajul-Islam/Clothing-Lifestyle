@@ -9,6 +9,7 @@ POLICY_SIGNALS = (
 )
 RECOMMENDATION_SIGNALS = (
     "recommend", "suggest", "similar", "match", "matches", "matching", "go with", "pair with", "outfit",
+    "complete the look", "help me choose", "which one should i", "what should i wear",
 )
 PRODUCT_TERMS = (
     "dress", "dresses", "shirt", "shirts", "pants", "jeans", "jacket", "jackets",

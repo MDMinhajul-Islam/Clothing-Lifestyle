@@ -35,7 +35,7 @@ def login(payload:Login):
 
 @router.delete("/session")
 def logout(token=Depends(admin_session)):
-    with _lock:_sessions.discard(token)
+    with _lock:_sessions.pop(token,None)
     return {"ended":True}
 
 @router.get("/orders")

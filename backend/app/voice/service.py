@@ -29,6 +29,10 @@ BUDGET_VALUES = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 
 SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
 SIZE_IN_SENTENCE = re.compile(r"\b(?:in|size)\s+(xxs|xs|s|m|l|xl|xxl|small|medium|large)\b", re.IGNORECASE)
 SIZE_BEFORE_WORD = re.compile(r"\b(xxs|xs|s|m|l|xl|xxl|small|medium|large)\s+size\b", re.IGNORECASE)
+NATURAL_QUANTITY = re.compile(
+    r"^(?:(?:quantity|just|only)\s+)?(one|two|three|four|five|[1-9]|10)(?:\s+(?:piece|pieces|item|items|one))?$",
+    re.IGNORECASE,
+)
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
 CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "blazer", "top", "skirt", "shoes", "coat",
               "bag", "hoodie", "sweater", "accessory", "perfume"}
@@ -127,6 +131,22 @@ class VoiceService:
         if recovered != request.transcript:
             request = request.model_copy(update={"transcript": recovered})
         text = " ".join(request.transcript.casefold().split())
+
+        if session.pending_tool_name == "create_order_request":
+            interruption = self._answer_order_product_interruption(
+                request.transcript, text, session, executor)
+            if interruption:
+                return interruption
+
+        if session.awaiting_shipping_address or (
+                session.pending_tool_name == "create_order_request" and
+                any(signal in text for signal in
+                    ("change my address", "different address", "new address"))):
+            address_context = self._merged_context(session, request)
+            address_response = self._handle_shipping_address(
+                request.transcript, text, address_context, session)
+            if address_response:
+                return address_response
 
         if text in {"start over", "let's start over", "lets start over"}:
             self._clear_shopping_context(session)
@@ -234,6 +254,10 @@ class VoiceService:
         context = self._merged_context(session, request)
         self._apply_explicit_search_relaxation(text, context, session)
         self._resolve_product_reference(text, context, session)
+        address_response = self._handle_shipping_address(
+            request.transcript, text, context, session)
+        if address_response:
+            return address_response
         policy = self.conversation_policy.evaluate(request.transcript, context)
         session.conversational_goal = policy.goal
         session.shopping_scenario = policy.scenario
@@ -255,6 +279,14 @@ class VoiceService:
             request.transcript, text, context, session, executor)
         if compound:
             return compound
+        order_interruption = self._answer_order_product_interruption(
+            request.transcript, text, session, executor, context=context)
+        if order_interruption:
+            return order_interruption
+        address_request = self._request_missing_shipping_address(
+            request.transcript, text, context, session)
+        if address_request:
+            return address_request
         clarification = (None if self._is_search_continuation(text)
                          else self._shopping_clarification(text, context, session))
         if clarification:
@@ -281,7 +313,9 @@ class VoiceService:
             message = "Show me products"
 
         if any(signal in text for signal in
-               ("speak to a person", "talk to a person", "human support", "human agent", "speak to an agent")):
+               ("speak to a person", "talk to a person", "human support", "human agent",
+                "speak to an agent", "talk to someone", "speak to someone", "representative",
+                "customer service")):
             context["factual_summary"] = self._handoff_summary(session, request.transcript)
         decision = self.orchestrator.route(RouteRequest(message=message,
             context=OrchestratorContext(**context)))
@@ -303,6 +337,21 @@ class VoiceService:
         if decision.requires_confirmation:
             prepared = executor.prepare_write(decision)
             if not prepared.confirmation_token:
+                error = prepared.spoken_text or str(
+                    (prepared.data.get("error") or {}).get("message") or "")
+                if (decision.tool_name == "create_order_request" and
+                        "shipping address" in error.casefold()):
+                    session.pending_tool_name = "create_order_request"
+                    session.pending_arguments = dict(decision.tool_arguments)
+                    session.pending_missing_fields = ["shipping_address"]
+                    session.awaiting_shipping_address = True
+                    self.sessions.update_session(session)
+                    fields = ("recipient name, street address, city, state, and postal code"
+                              if not session.customer_name else
+                              "street address, city, state, and postal code")
+                    return self._response(session, "NEEDS_CONTEXT", "AWAITING_SHIPPING_ADDRESS",
+                        f"Please tell me the {fields} for shipping.", decision=decision,
+                        needs_user_input=True)
                 session.pending_tool_name = None
                 session.pending_arguments = {}
                 self.sessions.update_session(session)
@@ -319,8 +368,7 @@ class VoiceService:
             self.sessions.update_session(session)
             prompt = prepared.confirmation_prompt or self._confirmation_prompt(decision)
             if decision.tool_name == "create_order_request":
-                prompt = ("That selection is available. I have the order request ready, but nothing has been submitted yet. "
-                          "Would you like me to submit it?")
+                prompt = self._order_confirmation_prompt(session, session.pending_arguments)
             return self._response(session, "NEEDS_CONFIRMATION", prepared.execution_status,
                 prompt, decision=decision, needs_user_input=True, requires_confirmation=True,
                 metadata={"gateway_preflight_status": prepared.execution_status})
@@ -489,6 +537,8 @@ class VoiceService:
         email_sent = None
         if result.execution_status in {"SUCCESS", "CONFIRMED_BY_GATEWAY"}:
             self._clear_pending(session)
+            if tool == "create_order_request":
+                session.quantity = None
             if communicator and session.access_token and tool in {"create_order_request", "create_support_case"}:
                 try:
                     if tool == "create_order_request":
@@ -599,9 +649,13 @@ class VoiceService:
             "page_url": session.current_page_url,
             "visible_products": list(session.previous_recommendations),
             "quantity": session.quantity,
+            "shipping_address_id": session.shipping_address_id,
+            "shipping_address": session.shipping_address,
         }
         context.update(session.pending_arguments)
         context.update(request.context.model_dump(exclude_none=True))
+        if not context.get("active_variant_id") and context.get("variant_id"):
+            context["active_variant_id"] = context["variant_id"]
         variant_size = context.get("size")
         variant_color = context.get("color") or ((context.get("colors") or [None])[-1])
         if (session.previous_recommendations and
@@ -647,8 +701,14 @@ class VoiceService:
             found_category=next((value for key,value in CATEGORY_ALIASES.items() if key in words),None)
         if found_category: context["category"]=found_category
         workplace = bool(words & {"office", "corporate", "work", "workwear"})
+        occasion_priority = (
+            "bridal", "wedding", "interview", "office", "business", "work",
+            "evening", "cocktail", "party", "formal", "date", "vacation",
+            "beach", "festival", "eid", "graduation", "everyday", "casual",
+            "winter", "summer", "gym",
+        )
         found_occasion = "office" if workplace else next(
-            (item for item in sorted(OCCASIONS) if item in words), None)
+            (item for item in occasion_priority if item in words), None)
         if "official meeting" in request.transcript.casefold() or "business meeting" in request.transcript.casefold():
             found_occasion="business"
         if found_occasion: context["occasion"]="office" if found_occasion == "work" else found_occasion
@@ -670,13 +730,17 @@ class VoiceService:
             context["return_method"]="STORE"
         if "order" in words and "exchange" in words:
             context["secondary_intents"]=["CHECK_EXCHANGE_INVENTORY"]
-        quantity_match=re.fullmatch(r"(?:quantity\s+)?(one|two|three|four|five|[1-9]|10)", " ".join(request.transcript.casefold().split()).strip(" .?!"))
-        if quantity_match:
+        quantity_text = " ".join(request.transcript.casefold().split()).strip(" .?!")
+        quantity_match=NATURAL_QUANTITY.fullmatch(quantity_text)
+        if quantity_text in {"a single one", "in one piece"}:
+            context["quantity"] = 1
+        elif quantity_match:
             context["quantity"]={"one":1,"two":2,"three":3,"four":4,"five":5}.get(quantity_match.group(1),int(quantity_match.group(1)) if quantity_match.group(1).isdigit() else 1)
         if context.get("product_id") and not context.get("reference_product_id"):
             context["reference_product_id"] = context["product_id"]
         purchase = any(signal in request.transcript.casefold() for signal in (
-            "buy", "purchase", "order this", "order it", "place my order", "checkout", "check out"))
+            "buy", "purchase", "order this", "order it", "place my order", "checkout", "check out",
+            "book this", "book it", "booking this", "reserve this", "reserve it", "take this"))
         if purchase and context.get("product_id") and context.get("quantity") is None:
             context["quantity"] = 1
         return {key:value for key,value in context.items() if value is not None}
@@ -708,6 +772,10 @@ class VoiceService:
         for field in ("colors","materials","must_have","avoid","secondary_intents"):
             if context.get(field) is not None:setattr(session,field,list(context[field]))
         if context.get("quantity") is not None: session.quantity=context["quantity"]
+        if context.get("shipping_address_id") is not None:
+            session.shipping_address_id=context["shipping_address_id"]
+        if context.get("shipping_address") is not None:
+            session.shipping_address=dict(context["shipping_address"])
 
     @staticmethod
     def _clear_pending(session):
@@ -813,9 +881,15 @@ class VoiceService:
             text = re.sub(r"\b(need|want|looking for)\s+(?:an?\s+)?address\b",
                           lambda match: f"{match.group(1)} a dress", text, flags=re.IGNORECASE)
         text = re.sub(r"\bformal\s+list\b", "formal dress", text, flags=re.IGNORECASE)
+        text = re.sub(r"\bformal\s+assist\b", "formal dress", text, flags=re.IGNORECASE)
         text = re.sub(r"\bblacklist\b", "black dress", text, flags=re.IGNORECASE)
-        if any(signal in folded for signal in ("wedding", "guest", "outfit")):
+        if any(signal in folded for signal in ("wedding", "guest", "outfit", "five years old",
+                                                "child", "baby", "daughter", "son")):
             text = re.sub(r"\b(?:coding|clothing)\s+desk\b", "dress", text, flags=re.IGNORECASE)
+        if (session.current_product_id or session.reference_product_id) and re.search(
+                r"\b(?:excel|excess)(?:\s+size)?\b", text, re.IGNORECASE):
+            text = re.sub(r"\b(?:excel|excess)(?:\s+size)?\b", "XL", text,
+                          flags=re.IGNORECASE)
         return text
 
     @staticmethod
@@ -825,6 +899,7 @@ class VoiceService:
             setattr(session, field, None)
         for field in ("colors", "materials", "must_have", "avoid", "previous_recommendations"):
             setattr(session, field, [])
+        session.quantity = None
         VoiceService._clear_pending(session)
 
     @staticmethod
@@ -889,11 +964,16 @@ class VoiceService:
     def _answer_purchase_availability_before_auth(self, transcript, text, context, session, executor):
         purchase = any(signal in text for signal in (
             "want to buy", "like to buy", "want to order", "like to order", "order this",
-            "order it", "purchase this", "purchase it", "i'll take", "ill take"))
+            "order it", "purchase this", "purchase it", "i'll take", "ill take",
+            "take this", "book this", "book it", "booking this", "reserve this", "reserve it"))
         availability = any(signal in text for signal in (
             "available", "in stock", "do you have", "have it", "is that possible"))
-        if (not context.get("product_id") or context.get("access_token") or
-                not purchase or not availability):
+        needs_variant_resolution = bool(
+            not context.get("active_variant_id") and
+            (context.get("size") or context.get("color") or context.get("colors"))
+        )
+        if (not context.get("product_id") or not purchase or
+                (not availability and not needs_variant_resolution)):
             return None
         inventory_decision = self.orchestrator.route(RouteRequest(
             message="Check inventory", context=OrchestratorContext(**context)))
@@ -915,8 +995,23 @@ class VoiceService:
             if variant_id:
                 context["active_variant_id"] = variant_id
                 session.active_variant_id = variant_id
+                if variants[0].get("sku"):
+                    context["sku"] = variants[0]["sku"]
+                    session.current_sku = variants[0]["sku"]
+                resolved_size = variants[0].get("size_name") or variants[0].get("size")
+                resolved_color = variants[0].get("color_name") or variants[0].get("color")
+                if resolved_size:
+                    context["size"] = resolved_size
+                    session.size = resolved_size
+                if resolved_color:
+                    context["color"] = resolved_color
+                    context["colors"] = [resolved_color]
+                    session.colors = [resolved_color]
         order_decision = self.orchestrator.route(RouteRequest(
             message="I want to order this", context=OrchestratorContext(**context)))
+        if context.get("access_token"):
+            self.sessions.update_session(session)
+            return None
         session.pending_tool_name = order_decision.tool_name
         session.pending_arguments = dict(order_decision.tool_arguments)
         session.pending_missing_fields = list(order_decision.missing_fields)
@@ -933,6 +1028,147 @@ class VoiceService:
                               prefix + " To prepare the order request, please provide your email address.",
                               decision=order_decision, needs_user_input=True,
                               metadata={"capability_data": self._safe_metadata(inventory.data)})
+
+    @staticmethod
+    def _is_order_product_question(text):
+        return any(signal in text for signal in (
+            "what color", "what colour", "available color", "available colour",
+            "what size", "available size", "material", "fabric", "made from",
+            "composition", "how much", "price", "cost", "in stock", "available",
+            "do you have",
+        ))
+
+    def _answer_order_product_interruption(self, transcript, text, session, executor, context=None):
+        if (session.pending_tool_name != "create_order_request" or
+                not self._is_order_product_question(text)):
+            return None
+        context = context or self._merged_context(session, VoiceTurnRequest(
+            session_id=session.session_id, transcript=transcript))
+        self._resolve_product_reference(text, context, session)
+        wants_inventory = any(signal in text for signal in
+                              ("in stock", "available", "do you have"))
+        message = "Check inventory" if wants_inventory else "Show product details"
+        decision = self.orchestrator.route(RouteRequest(
+            message=message, context=OrchestratorContext(**context)))
+        if decision.status != RouteStatus.READY:
+            return None
+        result = executor.execute(decision)
+        spoken = result.spoken_text or self.composer.compose(
+            decision, result.data, result.execution_status)
+        if decision.intent == "GET_PRODUCT_DETAILS" and not result.spoken_text:
+            spoken = self._focused_product_detail_response(text, result.data, spoken)
+        self.sessions.update_session(session)
+        continuation = ("Your order selection is still saved; say yes when you're ready to submit it."
+                        if session.pending_confirmation else
+                        "Your order selection is still saved, and we can continue from there.")
+        return self._response(session,
+                              "NEEDS_CONFIRMATION" if session.pending_confirmation else "READY",
+                              result.execution_status, continuation + " " + spoken,
+                              decision=decision, needs_user_input=session.pending_confirmation,
+                              requires_confirmation=session.pending_confirmation,
+                              metadata={"capability_data": self._safe_metadata(result.data)})
+
+    @staticmethod
+    def _purchase_intent(text):
+        return any(signal in text for signal in (
+            "want to buy", "like to buy", "want to order", "like to order",
+            "order this", "order it", "place my order", "confirm my order",
+            "purchase this", "purchase it", "check out", "checkout", "i'll take",
+            "ill take", "book this", "book it", "booking this", "reserve this",
+            "reserve it", "take this",
+        ))
+
+    def _request_missing_shipping_address(self, transcript, text, context, session):
+        if (not self._purchase_intent(text) or not session.shipping_profile_loaded or
+                not context.get("access_token") or
+                not context.get("product_id") or not context.get("active_variant_id") or
+                context.get("shipping_address_id") or context.get("shipping_address")):
+            return None
+        decision = self.orchestrator.route(RouteRequest(
+            message="Submit this order request", context=OrchestratorContext(**context)))
+        session.pending_tool_name = "create_order_request"
+        session.pending_arguments = dict(decision.tool_arguments)
+        session.pending_missing_fields = ["shipping_address"]
+        session.awaiting_shipping_address = True
+        self.sessions.update_session(session)
+        name = f" for {session.customer_name}" if session.customer_name else ""
+        return self._response(session, "NEEDS_CONTEXT", "AWAITING_SHIPPING_ADDRESS",
+            f"I have the product selection{name}. Please tell me the street address, city, state, and postal code for shipping.",
+            decision=decision, needs_user_input=True)
+
+    def _handle_shipping_address(self, transcript, text, context, session):
+        wants_change = any(signal in text for signal in
+                           ("change my address", "different address", "new address"))
+        if wants_change and context.get("access_token"):
+            session.shipping_address_id = None
+            session.shipping_address = None
+            session.awaiting_shipping_address = True
+            session.pending_confirmation = False
+            session.pending_confirmation_token = None
+            session.pending_missing_fields = ["shipping_address"]
+            self.sessions.update_session(session)
+            return self._response(session, "NEEDS_CONTEXT", "AWAITING_SHIPPING_ADDRESS",
+                "Of course. Please tell me the new street address, city, state, and postal code.",
+                needs_user_input=True, tool_name="create_order_request")
+        if not session.awaiting_shipping_address:
+            return None
+        address = self._parse_shipping_address(transcript, session.customer_name)
+        if not address:
+            self.sessions.update_session(session)
+            return self._response(session, "NEEDS_CONTEXT", "INVALID_SHIPPING_ADDRESS",
+                "I need the complete shipping address. Please say the street address, city, state, and postal code.",
+                needs_user_input=True, tool_name="create_order_request")
+        session.shipping_address = address
+        session.awaiting_shipping_address = False
+        session.pending_arguments["shipping_address"] = address
+        context["shipping_address"] = address
+        self.sessions.update_session(session)
+        return None
+
+    @staticmethod
+    def _parse_shipping_address(transcript, customer_name=None):
+        from backend.app.schemas.capabilities import ShippingAddressInput
+
+        parts = [part.strip(" .") for part in transcript.split(",") if part.strip(" .")]
+        if len(parts) < 4:
+            return None
+        if len(parts) >= 5 and not customer_name:
+            recipient, street, city, state, postal = parts[:5]
+        else:
+            recipient = customer_name or "Customer"
+            street, city, state, postal = parts[:4]
+        postal_match = re.search(r"\b[A-Z0-9][A-Z0-9 -]{1,28}[A-Z0-9]\b", postal,
+                                 re.IGNORECASE)
+        if not postal_match or not re.search(r"\d", street):
+            return None
+        try:
+            return ShippingAddressInput(
+                recipient_name=recipient, address_line_1=street, city=city, state=state,
+                postal_code=postal_match.group(0), country_code="US",
+            ).model_dump(exclude_none=True)
+        except ValueError:
+            return None
+
+    @staticmethod
+    def _order_confirmation_prompt(session, arguments):
+        color = (session.colors[-1] if session.colors else None)
+        size = arguments.get("size") or session.size
+        quantity = arguments.get("quantity") or session.quantity or 1
+        selection = ", ".join(part for part in (
+            str(color) if color else None,
+            f"size {size}" if size else None,
+            f"quantity {quantity}",
+        ) if part)
+        address = arguments.get("shipping_address")
+        if isinstance(address, dict):
+            shipping = ", ".join(str(address.get(key)) for key in
+                                  ("address_line_1", "city", "state", "postal_code")
+                                  if address.get(key))
+            destination = f"shipping to {shipping}" if shipping else "using the address provided"
+        else:
+            destination = "using your saved shipping address"
+        return (f"Your order request is ready for this item in {selection}, {destination}; "
+                "nothing has been submitted yet. Would you like me to submit it?")
 
     def _answer_compound_product_question(self, transcript, text, context, session, executor):
         asks_inventory = any(signal in text for signal in
@@ -1012,9 +1248,36 @@ class VoiceService:
             "care": any(signal in text for signal in ("care", "wash", "clean")),
         }
         requested = [name for name, selected in asks.items() if selected]
-        if len(requested) != 1:
-            return default
         name = str(data.get("name") or "This item")
+        if not requested:
+            return default
+        if len(requested) > 1:
+            facts = []
+            for requested_field in requested:
+                if requested_field == "price":
+                    price = data.get("price")
+                    facts.append(f"The current price is {price} {data.get('currency', 'USD')}"
+                                 if price is not None else "The current price is unavailable")
+                elif requested_field == "colors":
+                    colors = [str(value) for value in (
+                        ((item.get("color_name") or item.get("name")) if isinstance(item, dict) else item)
+                        for item in (data.get("colors") or [])) if value]
+                    facts.append("The available colors are " + ", ".join(dict.fromkeys(colors))
+                                 if colors else "Color information is unavailable for this item")
+                elif requested_field == "sizes":
+                    sizes = [str(value) for value in (
+                        ((item.get("size_name") or item.get("size")) if isinstance(item, dict) else None)
+                        for item in (data.get("variants") or [])) if value]
+                    facts.append("The available sizes are " + ", ".join(dict.fromkeys(sizes))
+                                 if sizes else "Size information is unavailable for this item")
+                elif requested_field == "care":
+                    care = data.get("care") or data.get("materials_care")
+                    facts.append(str(care) if care else "Care information is unavailable for this item")
+                else:
+                    material = data.get("materials_care") or data.get("composition") or data.get("description")
+                    facts.append(str(material) if material else
+                                 "Material information is unavailable for this item")
+            return f"{name}. " + ". ".join(facts) + "."
         field = requested[0]
         if field == "price":
             price = data.get("price")
@@ -1055,7 +1318,8 @@ class VoiceService:
                 return field, CLARIFICATIONS[field]
             return None
         broad_request = any(signal in text for signal in ("i need", "looking for", "find me", "something"))
-        if context.get("category") == "dress" and broad_request and not context.get("occasion"):
+        if (context.get("category") == "dress" and broad_request and
+                not context.get("occasion") and context.get("gender") != "kids"):
             context.setdefault("query", text)
             return "occasion", CLARIFICATIONS["occasion"]
         if context.get("style") in {"elegant", "formal", "modest"} and not context.get("occasion"):

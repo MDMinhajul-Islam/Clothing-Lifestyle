@@ -25,6 +25,10 @@ SEARCH_FILLER = {
     "dollar", "dollars", "one", "hundred",
     "clothes", "clothing", "corporate", "formal", "meeting", "option", "options", "outfit",
     "piece", "pieces", "recommend", "regular", "something", "suggest",
+    "arrival", "arrivals", "best", "bestseller", "bestsellers", "build", "complete",
+    "essential", "essentials", "help", "luxury", "new", "popular", "seller", "sellers",
+    "shopping", "surprise", "trending", "wardrobe", "wife", "husband", "daughter", "son",
+    "mother", "father",
 }
 
 PRODUCT_TYPES = {
