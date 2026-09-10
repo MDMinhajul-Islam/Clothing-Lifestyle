@@ -97,6 +97,8 @@ class ConversationPolicy:
                     "PRICE_INQUIRY", "MATERIAL_INQUIRY"}:
             return bool(context.get("product_id") or context.get("visible_products"))
         if goal in {"PRODUCT_SEARCH", "PRODUCT_RECOMMENDATION"}:
-            return bool(context.get("category") or context.get("query") or
+            workplace = (context.get("occasion") == "office" or
+                           re.search(r"\b(office|corporate|workwear)\b", text))
+            return bool(context.get("category") or workplace or context.get("query") or
                         re.search(r"\b(dress|shirt|jeans|jacket|shoe|coat|clothes|outfit)s?\b", text))
         return True

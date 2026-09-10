@@ -139,6 +139,15 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual(result.execution_status,"SUCCESS")
         self.assertEqual(result.tool_name,"search_products")
 
+    def test_corporate_formal_office_brief_recommends_and_remembers_context(self):
+        first = self.turn("I need something for a corporate formal office")
+        self.assertEqual(first.execution_status, "SUCCESS")
+        self.assertEqual(first.tool_name, "search_products")
+        self.assertFalse(first.needs_user_input)
+        self.turn("Something modern")
+        state = self.service.get_session(self.session)
+        self.assertEqual((state.occasion, state.style), ("office", "modern"))
+
     def test_official_meeting_with_product_type_recommends_immediately(self):
         result=self.turn("I need a dress under one hundred dollars for an official meeting")
         self.assertEqual(result.tool_name,"search_products")
@@ -476,6 +485,17 @@ class Phase2G1VoiceTests(unittest.TestCase):
         parsed = self.service._spoken_email(
             "My email is minhajul dot islam one eight two three at direct g mail dot com")
         self.assertEqual(parsed, "minhajul.islam1823@gmail.com")
+
+    def test_spoken_email_numeric_suffix_correction_replaces_pending_value(self):
+        first = self.turn("My email is minhajul dot islam one eight three at gmail dot com")
+        self.assertEqual(first.execution_status, "AWAITING_EMAIL_CONFIRMATION")
+        corrected = self.turn("No, I meant one eight two three")
+        self.assertEqual(corrected.execution_status, "AWAITING_EMAIL_CONFIRMATION")
+        self.assertIn("minhajul.islam1823@gmail.com", corrected.spoken_text)
+        self.assertNotIn("islam183@gmail.com", corrected.spoken_text)
+        self.turn("Yes, correct")
+        state = self.service.get_session(self.session)
+        self.assertEqual(state.confirmed_spoken_email, "minhajul.islam1823@gmail.com")
 
     def test_verified_order_flow_requires_backend_confirmation_before_email(self):
         backend = VerifiedCommerceBackend()

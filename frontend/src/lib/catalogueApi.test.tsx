@@ -3,6 +3,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { ProductCard } from '../components/storefront/ProductCard';
 import { preserveMatchedVariant, resolveProductImage, toProduct } from './catalogueApi';
 import { createRetellWebCall } from './api';
+import { buildWebpageVoiceContext } from './voiceContext';
 
 afterEach(() => vi.unstubAllGlobals());
 
@@ -54,6 +55,18 @@ describe('variant-aware catalogue rendering', () => {
 });
 
 describe('voice product context', () => {
+  it('uses the visible collection supplied by each voice entry point', () => {
+    const catalogueProduct = toProduct(response);
+    const arrivalProduct = toProduct({ ...response, product_id: 'zara-us:new-arrival',
+      name: 'NEW ARRIVAL', matched_variant: { ...response.matched_variant, variant_id: 'arrival-black-m' } });
+    const context = buildWebpageVoiceContext(
+      arrivalProduct, [arrivalProduct], '', 'https://store.example.test/');
+    expect(context.product_id).toBe('zara-us:new-arrival');
+    expect(context.active_variant_id).toBe('arrival-black-m');
+    expect(context.visible_products?.map((item) => item.product_id)).toEqual(['zara-us:new-arrival']);
+    expect(context.visible_products).not.toContainEqual(expect.objectContaining({ product_id: catalogueProduct.id }));
+  });
+
   it('sends the canonical product and matched variant when creating a Retell call', async () => {
     const fetchMock = vi.fn().mockResolvedValue({ ok: true, json: async () => ({
       call_id: 'call-1', access_token: 'public-token',

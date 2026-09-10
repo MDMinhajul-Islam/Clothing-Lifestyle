@@ -215,6 +215,13 @@ class IntentRouter:
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
                               "OCCASION_DISCOVERY_INTENT")
 
+        # A workplace brief is already a useful merchandising direction. Let the
+        # catalogue rank office-appropriate pieces before asking for a category.
+        if _has(text, ("office", "corporate", "workwear", "work wear")):
+            context["query"] = request.message
+            return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
+                              "WORKPLACE_DISCOVERY_INTENT")
+
         if _has(text, ("wedding", "bridal", "occasion", "party", "formal", "evening",
                        "office", "business", "work event", "business meeting", "interview",
                        "date night", "vacation", "festival", "eid", "gift")) and not _has(text, PRODUCT_TERMS):

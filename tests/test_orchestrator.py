@@ -51,14 +51,18 @@ class OrchestratorTests(unittest.TestCase):
         result = self.route("Show me black dresses")
         self.assertEqual((result.route, result.tool_name), (Route.TOOL_GATEWAY, "search_products"))
 
-    def test_broad_formal_and_office_requests_ask_for_product_type(self):
-        for message in ("Show me black formal pieces under one hundred dollars",
-                        "I need something for the office"):
-            with self.subTest(message=message):
-                result = self.route(message)
-                self.assertEqual(result.tool_name, "search_products")
-                self.assertEqual(result.status, RouteStatus.NEEDS_CONTEXT)
-                self.assertEqual(result.missing_fields, ["category"])
+    def test_broad_formal_request_asks_for_product_type(self):
+        result = self.route("Show me black formal pieces under one hundred dollars")
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertEqual(result.status, RouteStatus.NEEDS_CONTEXT)
+        self.assertEqual(result.missing_fields, ["category"])
+
+    def test_workplace_brief_recommends_before_optional_clarification(self):
+        result = self.route("I need something for a corporate formal office")
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertEqual(result.status, RouteStatus.READY)
+        self.assertEqual(result.tool_arguments["query"],
+                         "I need something for a corporate formal office")
 
     def test_business_meeting_suggestion_keeps_semantic_recommendation(self):
         result = self.route("Suggest something for a business meeting")

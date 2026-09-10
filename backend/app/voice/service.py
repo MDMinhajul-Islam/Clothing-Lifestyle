@@ -172,6 +172,15 @@ class VoiceService:
 
         spoken_email = self._spoken_email(request.transcript)
         if session.pending_spoken_email:
+            corrected_email = self._correct_pending_email(
+                session.pending_spoken_email, request.transcript)
+            if corrected_email:
+                session.pending_spoken_email = corrected_email
+                session.pending_spoken_email_transcript = request.transcript
+                self.sessions.update_session(session)
+                return self._response(session, "NEEDS_CONTEXT", "AWAITING_EMAIL_CONFIRMATION",
+                    f"I've corrected that to {corrected_email}. Is that right?",
+                    needs_user_input=True)
             if self._confirmation_answer(text) is True:
                 session.confirmed_spoken_email = session.pending_spoken_email
                 resumed = session.pending_spoken_email_transcript or request.transcript
@@ -630,7 +639,9 @@ class VoiceService:
         if not found_category:
             found_category=next((value for key,value in CATEGORY_ALIASES.items() if key in words),None)
         if found_category: context["category"]=found_category
-        found_occasion=next((item for item in OCCASIONS if item in words),None)
+        workplace = bool(words & {"office", "corporate", "work", "workwear"})
+        found_occasion = "office" if workplace else next(
+            (item for item in sorted(OCCASIONS) if item in words), None)
         if "official meeting" in request.transcript.casefold() or "business meeting" in request.transcript.casefold():
             found_occasion="business"
         if found_occasion: context["occasion"]="office" if found_occasion == "work" else found_occasion
@@ -844,6 +855,29 @@ class VoiceService:
         normalized = re.sub(r"\s+", "", normalized)
         match = re.search(r"[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)+", normalized)
         return match.group(0).strip(".,") if match else None
+
+    @staticmethod
+    def _correct_pending_email(pending_email, transcript):
+        """Apply an explicit spoken correction to a pending numeric local-part suffix."""
+        folded = " ".join(transcript.casefold().split())
+        if not re.search(r"\b(no|actually|correction|correct|meant|should be|i said)\b", folded):
+            return None
+        digit_words = {
+            "zero": "0", "oh": "0", "one": "1", "two": "2", "three": "3",
+            "four": "4", "five": "5", "six": "6", "seven": "7",
+            "eight": "8", "nine": "9",
+        }
+        normalized = re.sub(
+            r"\b(?:zero|oh|one|two|three|four|five|six|seven|eight|nine)\b",
+            lambda match: digit_words[match.group(0)], folded)
+        groups = re.findall(r"(?<![a-z0-9])(?:\d[\s.-]*){2,}(?![a-z0-9])", normalized)
+        if not groups or "@" not in pending_email:
+            return None
+        replacement = re.sub(r"\D", "", groups[-1])
+        local, domain = pending_email.split("@", 1)
+        if not replacement or not re.search(r"\d+$", local):
+            return None
+        return f"{re.sub(r'\d+$', replacement, local)}@{domain}"
 
     def _answer_purchase_availability_before_auth(self, transcript, text, context, session, executor):
         purchase = any(signal in text for signal in (
