@@ -278,7 +278,7 @@ class VoiceCustomerAcceptanceTests(unittest.TestCase):
         result = self.turn("Please connect me to human support")
         self.assertEqual(result.tool_name, "prepare_handoff")
         summary = self.backend.calls[-1].tool_arguments["factual_summary"]
-        self.assertIn("Product: zara-us:00000001", summary)
+        self.assertIn("Visible products: zara-us:00000001", summary)
         self.assertIn("Category: dress", summary)
         self.assertIn("Occasion: wedding", summary)
         self.assertIn("Colors: black", summary)

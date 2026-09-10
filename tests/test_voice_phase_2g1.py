@@ -538,5 +538,62 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertIn("received successfully", confirmed.spoken_text)
         self.assertEqual(len(communicator.messages), 1)
 
+    def test_standalone_office_discovery_refines_without_selecting_or_looping(self):
+        backend = RecommendationMemoryBackend()
+        service = VoiceService(executor=VoiceCapabilityExecutor(backend))
+        session = service.create_session(CreateVoiceSessionRequest()).session_id
+
+        def turn(transcript, **context):
+            return service.process_voice_turn(VoiceTurnRequest(
+                session_id=session, transcript=transcript, context=context))
+
+        first = turn("I need an office outfit, basically a shirt. Can you recommend one?")
+        self.assertEqual((first.tool_name, first.execution_status),
+                         ("search_products", "SUCCESS"))
+        state = service.get_session(session)
+        self.assertTrue(state.previous_recommendations)
+        self.assertIsNone(state.current_product_id)
+        self.assertIsNone(state.reference_product_id)
+
+        preference_free = turn(
+            "I don't have a specific style or color, just tell me the products.")
+        self.assertEqual((preference_free.tool_name, preference_free.execution_status),
+                         ("search_products", "SUCCESS"))
+        self.assertFalse(preference_free.needs_user_input)
+        self.assertEqual(service.get_session(session).occasion, "office")
+
+        button_down = turn("Yeah. Button down shirts.")
+        self.assertEqual((button_down.tool_name, button_down.execution_status),
+                         ("search_products", "SUCCESS"))
+        self.assertIn("button down shirts", backend.calls[-1].tool_arguments["query"].casefold())
+
+        mens = turn("Men's shirts.")
+        self.assertEqual((mens.tool_name, mens.execution_status),
+                         ("search_products", "SUCCESS"))
+        self.assertEqual(backend.calls[-1].tool_arguments["department"], "MAN")
+        self.assertIsNone(service.get_session(session).current_product_id)
+        self.assertEqual(service.get_session(session).occasion, "office")
+
+        selected = turn("Tell me about the first one")
+        self.assertEqual(selected.tool_name, "get_product_details")
+        self.assertEqual(backend.calls[-1].tool_arguments["product_id"],
+                         "zara-us:00000011")
+        self.assertEqual(service.get_session(session).current_product_id,
+                         "zara-us:00000011")
+
+    def test_integrated_product_context_remains_authoritative_after_search_state_fix(self):
+        result = self.turn(
+            "Do you have this in medium?",
+            reference_product_id="zara-us:00000001",
+            active_variant_id="black-m",
+            color="Black",
+            size="M",
+        )
+        self.assertEqual(result.tool_name, "check_inventory")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_id"],
+                         "zara-us:00000001")
+        self.assertEqual(self.service.get_session(self.session).current_product_id,
+                         "zara-us:00000001")
+
 
 if __name__ == "__main__": unittest.main()

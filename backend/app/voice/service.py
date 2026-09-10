@@ -310,6 +310,12 @@ class VoiceService:
         elif session.last_intent == "SEARCH_PRODUCTS" and self._is_search_continuation(text):
             message = "Show me products"
         elif (session.last_intent == "SEARCH_PRODUCTS" or session.category) and self._is_preference_update(text):
+            if any(signal in text for signal in (
+                    "button down", "button-down", "polo", "long sleeve", "short sleeve",
+                    "men's", "mens", "women's", "womens", "for men", "for women")):
+                prior_query = str(context.get("query") or "").strip()
+                if text not in prior_query.casefold():
+                    context["query"] = f"{prior_query} {request.transcript}".strip()
             message = "Show me products"
 
         if any(signal in text for signal in
@@ -521,6 +527,11 @@ class VoiceService:
         facts = [f"Customer goal: {session.conversational_goal or 'human assistance'}",
                  f"Current request: {current_request}"]
         if session.current_product_id: facts.append(f"Product: {session.current_product_id}")
+        elif session.previous_recommendations:
+            visible = [str(item.get("product_id")) for item in session.previous_recommendations[:3]
+                       if item.get("product_id")]
+            if visible:
+                facts.append("Visible products: " + ", ".join(visible))
         if session.current_order_id: facts.append(f"Order: {session.current_order_id}")
         if session.category: facts.append(f"Category: {session.category}")
         if session.occasion: facts.append(f"Occasion: {session.occasion}")
@@ -601,8 +612,6 @@ class VoiceService:
                         recommendation[key] = value
                 recommendations.append(recommendation)
             session.previous_recommendations = recommendations
-            if session.previous_recommendations:
-                session.current_product_id = session.previous_recommendations[0].get("product_id")
 
     @classmethod
     def _safe_metadata(cls, value):
@@ -804,6 +813,9 @@ class VoiceService:
             "more options", "something else", "other options", "just my budget",
             "adjust my budget", "change my budget", "increase my budget",
             "remove the budget", "ignore the budget", "no budget limit",
+            "no specific style", "no specific color", "no specific colour",
+            "no style preference", "just show me", "just tell me",
+            "show me the products", "tell me the products",
         ))
 
     @staticmethod
@@ -813,14 +825,20 @@ class VoiceService:
             "does not have to be formal", "no matter if it is formal", "any style",
         ))
         no_color = any(signal in text for signal in (
-            "no particular color", "no colour preference", "no color preference", "any color", "any colour",
+            "no particular color", "no specific color", "no specific colour",
+            "no colour preference", "no color preference", "any color", "any colour",
+            "specific style or color", "specific style or colour",
+        ))
+        no_style = any(signal in text for signal in (
+            "no specific style", "no particular style", "no style preference", "any style",
+            "don't have a specific style", "dont have a specific style",
         ))
         no_budget = any(signal in text for signal in (
             "just my budget", "adjust my budget", "change my budget", "increase my budget",
             "remove the budget", "ignore the budget", "no budget limit",
         ))
         broaden = VoiceService._is_search_continuation(text) and not (
-            clear_formal or no_color or no_budget)
+            clear_formal or no_color or no_style or no_budget)
         removed = []
         if clear_formal:
             if context.get("occasion") == "formal":
@@ -836,6 +854,11 @@ class VoiceService:
             context.pop("color", None)
             context["colors"] = []
             session.colors = []
+        if no_style:
+            if context.get("style"):
+                removed.append(str(context["style"]))
+            context.pop("style", None)
+            session.style = None
         if no_budget:
             context.pop("min_price", None)
             context.pop("max_price", None)
@@ -1349,7 +1372,13 @@ class VoiceService:
     def _is_preference_update(text):
         return bool(SIZE_ONLY.match(text.rstrip("?!.")) or BUDGET_MAX.search(text) or BUDGET_WORD.search(text)
                     or any(color in text.split() for color in COLORS)
-                    or any(style in text for style in STYLES))
+                    or any(style in text for style in STYLES)
+                    or any(category in text.split() for category in CATEGORIES)
+                    or any(alias in text.split() for alias in CATEGORY_ALIASES)
+                    or any(signal in text for signal in (
+                        "button down", "button-down", "polo", "long sleeve", "short sleeve",
+                        "men's", "mens", "women's", "womens", "for men", "for women",
+                    )))
 
     @staticmethod
     def _response(session, status, execution_status, spoken_text, *, decision=None,
