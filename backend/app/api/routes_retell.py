@@ -23,6 +23,8 @@ from backend.app.orchestrator.schemas import OrchestratorContext
 from backend.app.voice.schemas import CreateVoiceSessionRequest, VoiceProvider
 from backend.app.voice.session import VoiceSessionNotFound
 from backend.app.notifications.customer_communication import CustomerCommunicationService
+from backend.app.services.customer_auth_service import CustomerAuthService
+from backend.app.services.capability_service import RetailCapabilityService
 
 logger = logging.getLogger("retell.transport")
 router = APIRouter(prefix="/v1/retell", tags=["Retell Transport"])
@@ -115,6 +117,22 @@ def _client_key(request: Request) -> str:
     return forwarded or (request.client.host if request.client else "unknown")
 
 
+def _portal_voice_identity(request: Request) -> tuple[str, str | None, str] | None:
+    """Resolve the HTTP-only portal cookie and mint server-side voice authorization."""
+    cookies = getattr(request, "cookies", {}) or {}
+    portal_token = cookies.get(settings.customer_session_cookie)
+    if not portal_token:
+        return None
+    try:
+        with get_db_connection() as connection:
+            profile = CustomerAuthService(connection).profile(portal_token)
+            access_token = RetailCapabilityService(connection).issue_portal_voice_access(
+                profile["customer_id"])
+    except PermissionError:
+        return None
+    return str(profile["customer_id"]), profile.get("email"), access_token
+
+
 @router.post(
     "/create-web-call",
     response_model=CreateWebCallResponse,
@@ -128,10 +146,19 @@ def create_web_call(payload: CreateWebCallRequest, request: Request):
     if not settings.retell_agent_id:
         raise HTTPException(status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
                             detail="Voice calling is not configured.")
+    portal_identity = _portal_voice_identity(request)
+    trusted_customer_id = portal_identity[0] if portal_identity else payload.customer_id
     session = voice_service.create_session(CreateVoiceSessionRequest(
         provider=VoiceProvider.RETELL,
-        customer_id=payload.customer_id,
+        customer_id=trusted_customer_id,
     ))
+    if portal_identity:
+        state = voice_service.get_session(session.session_id)
+        state.customer_type = "REGISTERED"
+        state.auth_level = "TRANSACTION_VERIFIED"
+        state.access_token = portal_identity[2]
+        state.confirmed_spoken_email = portal_identity[1]
+        voice_service.sessions.update_session(state)
     body: dict[str, Any] = {
         "agent_id": settings.retell_agent_id,
         "metadata": {

@@ -46,6 +46,13 @@ class RetailCapabilityService:
         return VerifyCustomerOutput(verified=True,auth_level=level,access_token=token,expires_at=expires.isoformat(),
                                     customer_type='GUEST' if d.order_number else 'REGISTERED')
 
+    def issue_portal_voice_access(self, customer_id):
+        """Bridge an authenticated portal customer into a short server-side voice session."""
+        token=secrets.token_urlsafe(32); expires=datetime.now(timezone.utc)+timedelta(minutes=30)
+        self.repo.create_auth_session(self._hash(token),customer_id,None,AuthLevel.TRANSACTION_VERIFIED.value,expires)
+        self.conn.commit()
+        return token
+
     def _auth(self,token,*,transaction=False,order_number=None,order_item_id=None):
         auth=self.repo.get_auth_session(self._hash(token))
         if not auth or (transaction and auth['auth_level']!='TRANSACTION_VERIFIED'): raise PermissionError('Verified access is required.')

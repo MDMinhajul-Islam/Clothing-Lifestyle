@@ -4,7 +4,7 @@ import json
 import time
 import unittest
 from types import SimpleNamespace
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 from fastapi import HTTPException
 from fastapi.testclient import TestClient
@@ -98,6 +98,33 @@ class RetellTransportTests(unittest.TestCase):
         self.assertIn("nexgen_session_id", sent["metadata"])
         self.assertEqual(sent["metadata"]["webpage_context"]["product_id"], "zara-us:00000001")
         self.assertEqual(sent["metadata"]["webpage_context"]["active_variant_id"], "black-m")
+
+    @patch("backend.app.api.routes_retell.RetellClient.create_web_call")
+    @patch("backend.app.api.routes_retell.settings.retell_agent_id", "agent-configured")
+    @patch("backend.app.api.routes_retell.web_call_rate_limiter.allow", return_value=True)
+    def test_logged_in_portal_cookie_authorizes_voice_server_side(self, _allow, create_call):
+        create_call.return_value = {"call_id": "call-portal", "access_token": "public-token"}
+        connection = object()
+        manager = MagicMock()
+        manager.__enter__.return_value = connection
+        request = SimpleNamespace(
+            headers={}, cookies={"nexgen_customer_session": "portal-cookie"},
+            client=SimpleNamespace(host="127.0.0.1"),
+        )
+        with patch("backend.app.api.routes_retell.get_db_connection", return_value=manager), \
+                patch("backend.app.api.routes_retell.CustomerAuthService.profile", return_value={
+                    "customer_id": "customer-1", "email": "jess@example.test",
+                }), \
+                patch("backend.app.api.routes_retell.RetailCapabilityService.issue_portal_voice_access",
+                      return_value="server-side-voice-token"):
+            create_web_call(CreateWebCallRequest(customer_id="untrusted-browser-id"), request)
+        metadata = create_call.call_args.args[0]["metadata"]
+        state = __import__("backend.app.api.routes_retell", fromlist=["voice_service"]).voice_service.get_session(
+            metadata["nexgen_session_id"])
+        self.assertEqual(state.customer_id, "customer-1")
+        self.assertEqual(state.auth_level, "TRANSACTION_VERIFIED")
+        self.assertEqual(state.access_token, "server-side-voice-token")
+        self.assertEqual(state.confirmed_spoken_email, "jess@example.test")
 
     def test_create_web_call_schema_rejects_browser_agent_override(self):
         with self.assertRaises(ValidationError):

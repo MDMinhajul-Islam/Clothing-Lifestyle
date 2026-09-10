@@ -41,6 +41,8 @@ class GroundedCommerceBackend:
         if tool == "check_inventory":
             return CapabilityResult(execution_status="SUCCESS", data={
                 "overall_status": "IN_STOCK", "total_network_available": 8,
+                "matching_variants": [{"variant_id": "yellow-l", "size_name": "L",
+                                       "color_name": "Yellow"}],
             })
         if tool == "identify_customer":
             return CapabilityResult(execution_status="SUCCESS", data={
@@ -439,6 +441,54 @@ class VoiceCustomerAcceptanceTests(unittest.TestCase):
         self.assertIn("processing", result.spoken_text.casefold())
         self.assertNotIn("refund issued", result.spoken_text.casefold())
         self.assert_no_duplicate_sentences(result.spoken_text)
+
+    def test_31_customer_can_relax_only_budget_after_no_results(self):
+        class BudgetSensitiveBackend(GroundedCommerceBackend):
+            def execute(self, decision):
+                if decision.tool_name == "search_products" and decision.tool_arguments.get("max_price"):
+                    self.calls.append(decision)
+                    return CapabilityResult(execution_status="SUCCESS", data={
+                        "products": [],
+                        "fallback_message": "I couldn't find office-specific shirts matching the rest of your request.",
+                    })
+                return super().execute(decision)
+
+        backend = BudgetSensitiveBackend()
+        service = VoiceService(executor=VoiceCapabilityExecutor(backend))
+        session = service.create_session(CreateVoiceSessionRequest()).session_id
+        first = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session,
+            transcript="I need a men's polo shirt under sixty dollars for the office."))
+        self.assertEqual(first.execution_status, "SUCCESS")
+        second = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session, transcript="Just my budget. I couldn't"))
+        args = backend.calls[-1].tool_arguments
+        self.assertEqual(second.tool_name, "search_products")
+        self.assertNotIn("max_price", args)
+        self.assertEqual((args["product_type"], args["occasion"], args["department"]),
+                         ("shirt", "office", "MAN"))
+        self.assertIn("TAILORED LINEN DRESS", second.spoken_text)
+
+    def test_32_guest_checks_availability_before_order_verification(self):
+        result = self.turn("I want to order this product, large size, in yellow. Is that available?",
+                           reference_product_id="zara-us:00000001",
+                           active_variant_id="black-m", color="Black", size="M")
+        self.assertEqual(self.backend.calls[-1].tool_name, "check_inventory")
+        self.assertIn("yellow size l", result.spoken_text.casefold())
+        self.assertIn("in stock", result.spoken_text.casefold())
+        self.assertIn("provide your email", result.spoken_text.casefold())
+        state = self.service.get_session(self.session)
+        self.assertEqual(state.pending_tool_name, "create_order_request")
+        self.assertEqual(state.active_variant_id, "yellow-l")
+
+    def test_33_public_product_details_and_inventory_never_require_email(self):
+        details = self.turn("Tell me the price and available colors",
+                            reference_product_id="zara-us:00000001")
+        stock = self.turn("Do you have this in medium?")
+        self.assertEqual(details.tool_name, "get_product_details")
+        self.assertEqual(stock.tool_name, "check_inventory")
+        self.assertNotIn("verify", details.spoken_text.casefold())
+        self.assertNotIn("verify", stock.spoken_text.casefold())
 
 
 if __name__ == "__main__":

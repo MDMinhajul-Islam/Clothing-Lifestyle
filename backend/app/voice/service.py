@@ -28,6 +28,7 @@ BUDGET_VALUES = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 
                  "one hundred": 100, "a hundred": 100}
 SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
 SIZE_IN_SENTENCE = re.compile(r"\b(?:in|size)\s+(xxs|xs|s|m|l|xl|xxl|small|medium|large)\b", re.IGNORECASE)
+SIZE_BEFORE_WORD = re.compile(r"\b(xxs|xs|s|m|l|xl|xxl|small|medium|large)\s+size\b", re.IGNORECASE)
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
 CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "blazer", "top", "skirt", "shoes", "coat",
               "bag", "hoodie", "sweater", "accessory", "perfume"}
@@ -230,6 +231,10 @@ class VoiceService:
             request.transcript, text, context, session, executor, communicator)
         if email_response:
             return email_response
+        purchase_availability = self._answer_purchase_availability_before_auth(
+            request.transcript, text, context, session, executor)
+        if purchase_availability:
+            return purchase_availability
         compound = self._answer_compound_product_question(
             request.transcript, text, context, session, executor)
         if compound:
@@ -298,7 +303,7 @@ class VoiceService:
             self.sessions.update_session(session)
             prompt = prepared.confirmation_prompt or self._confirmation_prompt(decision)
             if decision.tool_name == "create_order_request":
-                prompt = ("I have the order request ready, but nothing has been submitted yet. "
+                prompt = ("That selection is available. I have the order request ready, but nothing has been submitted yet. "
                           "Would you like me to submit it?")
             return self._response(session, "NEEDS_CONFIRMATION", prepared.execution_status,
                 prompt, decision=decision, needs_user_input=True, requires_confirmation=True,
@@ -581,6 +586,8 @@ class VoiceService:
         }
         context.update(session.pending_arguments)
         context.update(request.context.model_dump(exclude_none=True))
+        variant_size = context.get("size")
+        variant_color = context.get("color") or ((context.get("colors") or [None])[-1])
         if (session.previous_recommendations and
                 session.last_intent in {"SEARCH_PRODUCTS", "FIND_SIMILAR_PRODUCTS", "RECOMMEND_MATCHING_PRODUCTS"}):
             context["visible_products"] = list(session.previous_recommendations)
@@ -600,12 +607,20 @@ class VoiceService:
         if budget_word: context["budget_max"]=float(BUDGET_VALUES[budget_word.group(1).casefold()])
         size=SIZE_ONLY.match(" ".join(request.transcript.casefold().split()).rstrip("?!."))
         if not size: size=SIZE_IN_SENTENCE.search(request.transcript)
+        if not size: size=SIZE_BEFORE_WORD.search(request.transcript)
         if size:
-            context["size"]={"small":"S","medium":"M","large":"L"}.get(size.group(1).lower(),size.group(1).upper())
+            selected_size={"small":"S","medium":"M","large":"L"}.get(size.group(1).lower(),size.group(1).upper())
+            if (context.get("active_variant_id") and variant_size and
+                    str(variant_size).casefold() != selected_size.casefold()):
+                context.pop("active_variant_id", None)
+            context["size"]=selected_size
         words=set(re.findall(r"[a-z]+",request.transcript.casefold()))
         found_colors=[color for color in COLORS if color in words]
         if found_colors:
             folded = request.transcript.casefold()
+            if (context.get("active_variant_id") and variant_color and
+                    str(variant_color).casefold() != found_colors[-1].casefold()):
+                context.pop("active_variant_id", None)
             correcting = (any(signal in folded for signal in ("meant", "instead", "not "))
                           or ("actually" in folded and not any(signal in folded for signal in (" too", "also"))))
             prior = [] if correcting else (context.get("colors") or [])
@@ -700,7 +715,9 @@ class VoiceService:
     def _is_search_continuation(text):
         return any(signal in text for signal in (
             "broaden the search", "broaden search", "more in the search", "show more",
-            "more options", "something else", "other options",
+            "more options", "something else", "other options", "just my budget",
+            "adjust my budget", "change my budget", "increase my budget",
+            "remove the budget", "ignore the budget", "no budget limit",
         ))
 
     @staticmethod
@@ -712,7 +729,12 @@ class VoiceService:
         no_color = any(signal in text for signal in (
             "no particular color", "no colour preference", "no color preference", "any color", "any colour",
         ))
-        broaden = VoiceService._is_search_continuation(text)
+        no_budget = any(signal in text for signal in (
+            "just my budget", "adjust my budget", "change my budget", "increase my budget",
+            "remove the budget", "ignore the budget", "no budget limit",
+        ))
+        broaden = VoiceService._is_search_continuation(text) and not (
+            clear_formal or no_color or no_budget)
         removed = []
         if clear_formal:
             if context.get("occasion") == "formal":
@@ -728,6 +750,13 @@ class VoiceService:
             context.pop("color", None)
             context["colors"] = []
             session.colors = []
+        if no_budget:
+            context.pop("min_price", None)
+            context.pop("max_price", None)
+            context.pop("budget_min", None)
+            context.pop("budget_max", None)
+            session.budget_min = None
+            session.budget_max = None
         if broaden:
             if context.get("occasion"):
                 removed.append(str(context.pop("occasion")))
@@ -741,6 +770,10 @@ class VoiceService:
                 context["colors"] = []
                 session.colors = []
         query = str(context.get("query") or session.current_search_query or "")
+        if no_budget:
+            query = BUDGET_MAX.sub("", query)
+            query = BUDGET_WORD.sub("", query)
+            query = re.sub(r"\bdollars?\b", "", query, flags=re.IGNORECASE)
         for value in set(removed):
             query = re.sub(rf"(?<!\w){re.escape(value)}(?!\w)", "", query, flags=re.IGNORECASE)
         if query:
@@ -811,6 +844,54 @@ class VoiceService:
         normalized = re.sub(r"\s+", "", normalized)
         match = re.search(r"[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)+", normalized)
         return match.group(0).strip(".,") if match else None
+
+    def _answer_purchase_availability_before_auth(self, transcript, text, context, session, executor):
+        purchase = any(signal in text for signal in (
+            "want to buy", "like to buy", "want to order", "like to order", "order this",
+            "order it", "purchase this", "purchase it", "i'll take", "ill take"))
+        availability = any(signal in text for signal in (
+            "available", "in stock", "do you have", "have it", "is that possible"))
+        if (not context.get("product_id") or context.get("access_token") or
+                not purchase or not availability):
+            return None
+        inventory_decision = self.orchestrator.route(RouteRequest(
+            message="Check inventory", context=OrchestratorContext(**context)))
+        if inventory_decision.status != RouteStatus.READY:
+            return None
+        inventory = executor.execute(inventory_decision)
+        self._remember_decision(session, inventory_decision, context)
+        state = str(inventory.data.get("overall_status") or inventory.data.get("status") or "UNKNOWN")
+        if inventory.execution_status != "SUCCESS" or state.upper() == "OUT_OF_STOCK":
+            self.sessions.update_session(session)
+            spoken = inventory.spoken_text or self.composer.compose(
+                inventory_decision, inventory.data, inventory.execution_status)
+            return self._response(session, "READY", inventory.execution_status, spoken,
+                                  decision=inventory_decision,
+                                  metadata={"capability_data": self._safe_metadata(inventory.data)})
+        variants = inventory.data.get("matching_variants") or []
+        if len(variants) == 1 and isinstance(variants[0], dict):
+            variant_id = variants[0].get("variant_id")
+            if variant_id:
+                context["active_variant_id"] = variant_id
+                session.active_variant_id = variant_id
+        order_decision = self.orchestrator.route(RouteRequest(
+            message="I want to order this", context=OrchestratorContext(**context)))
+        session.pending_tool_name = order_decision.tool_name
+        session.pending_arguments = dict(order_decision.tool_arguments)
+        session.pending_missing_fields = list(order_decision.missing_fields)
+        self.sessions.update_session(session)
+        size = context.get("size")
+        color = context.get("color") or ((context.get("colors") or [None])[-1])
+        selection = " ".join(value for value in (
+            str(color) if color else None, f"size {size}" if size else None) if value)
+        quantity = inventory.data.get("total_network_available")
+        stock = f" with {quantity} available" if quantity is not None else ""
+        prefix = (f"The {selection} selection is {state.replace('_', ' ').lower()}{stock}."
+                  if selection else f"It is {state.replace('_', ' ').lower()}{stock}.")
+        return self._response(session, "NEEDS_CONTEXT", "AWAITING_CONTEXT",
+                              prefix + " To prepare the order request, please provide your email address.",
+                              decision=order_decision, needs_user_input=True,
+                              metadata={"capability_data": self._safe_metadata(inventory.data)})
 
     def _answer_compound_product_question(self, transcript, text, context, session, executor):
         asks_inventory = any(signal in text for signal in
