@@ -16,7 +16,8 @@ from .schemas import (
 )
 from .session import InMemoryVoiceSessionStore
 
-YES = {"yes", "confirm", "proceed", "go ahead", "yes please", "do it"}
+YES = {"yes", "confirm", "correct", "that's correct", "thats correct", "proceed",
+       "go ahead", "yes please", "do it", "continue", "submit it", "send it"}
 NO = {"no", "cancel", "never mind", "nevermind", "stop", "don't", "do not"}
 ORDER_ID = re.compile(r"\b(?:ORD|ZUS)-[A-Z0-9-]+\b", re.IGNORECASE)
 PRODUCT_ID = re.compile(r"\bzara-us:\d{8}\b", re.IGNORECASE)
@@ -28,9 +29,13 @@ BUDGET_VALUES = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 
 SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
 SIZE_IN_SENTENCE = re.compile(r"\b(?:in|size)\s+(xxs|xs|s|m|l|xl|xxl|small|medium|large)\b", re.IGNORECASE)
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
-CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "blazer", "top", "skirt", "shoes", "coat"}
+CATEGORIES = {"dress", "shirt", "pants", "jeans", "jacket", "blazer", "top", "skirt", "shoes", "coat",
+              "bag", "hoodie", "sweater", "accessory", "perfume"}
 CATEGORY_ALIASES = {"dresses":"dress", "shirts":"shirt", "jackets":"jacket", "tops":"top",
-                    "blazers":"blazer", "skirts":"skirt", "coats":"coat", "trousers":"pants", "sneakers":"shoes"}
+                    "blazers":"blazer", "skirts":"skirt", "coats":"coat", "trousers":"pants", "sneakers":"shoes",
+                    "bags":"bag", "handbag":"bag", "handbags":"bag", "purse":"bag", "purses":"bag",
+                    "backpack":"bag", "backpacks":"bag", "hoodies":"hoodie", "sweaters":"sweater",
+                    "accessories":"accessory"}
 OCCASIONS = {"wedding", "office", "work", "interview", "formal", "cocktail", "party",
              "vacation", "beach", "date", "graduation", "everyday"}
 STYLES = {"elegant", "casual", "formal", "minimal", "classic", "modern", "modest",
@@ -116,6 +121,9 @@ class VoiceService:
         finally:
             timed("session_restoration", session_started)
         session.conversation_turn += 1
+        recovered = self._recover_fashion_asr(request.transcript, session)
+        if recovered != request.transcript:
+            request = request.model_copy(update={"transcript": recovered})
         text = " ".join(request.transcript.casefold().split())
 
         if text in {"start over", "let's start over", "lets start over"}:
@@ -133,13 +141,14 @@ class VoiceService:
                 self.composer.general(text, decision.intent), decision=decision)
 
         if session.pending_confirmation:
-            if text in NO:
+            confirmation = self._confirmation_answer(text)
+            if confirmation is False:
                 tool = session.pending_tool_name
                 self._clear_pending(session)
                 self.sessions.update_session(session)
                 return self._response(session, "READY", "CANCELLED_BY_USER",
                     "Okay, I won't proceed with that action.", tool_name=tool)
-            if text in YES:
+            if confirmation is True:
                 return self._confirm_pending(session, executor, communicator)
             self.sessions.update_session(session)
             return self._response(session, "NEEDS_CONFIRMATION", "AWAITING_EXPLICIT_CONFIRMATION",
@@ -147,11 +156,11 @@ class VoiceService:
                 requires_confirmation=True, tool_name=session.pending_tool_name)
 
         if session.pending_asr_correction:
-            if text in YES:
+            if self._confirmation_answer(text) is True:
                 request = request.model_copy(update={"transcript": session.pending_asr_correction})
                 text = " ".join(request.transcript.casefold().split())
                 session.pending_asr_correction = None
-            elif text in NO:
+            elif self._confirmation_answer(text) is False:
                 session.pending_asr_correction = None
                 self.sessions.update_session(session)
                 return self._response(session, "READY", "ASR_CORRECTION_DECLINED",
@@ -161,14 +170,17 @@ class VoiceService:
 
         spoken_email = self._spoken_email(request.transcript)
         if session.pending_spoken_email:
-            if text in YES:
+            if self._confirmation_answer(text) is True:
                 session.confirmed_spoken_email = session.pending_spoken_email
                 resumed = session.pending_spoken_email_transcript or request.transcript
                 session.pending_spoken_email = None
                 session.pending_spoken_email_transcript = None
+                if (session.pending_tool_name and
+                        "access_token" in session.pending_missing_fields):
+                    return self._begin_customer_verification(session, executor)
                 request = request.model_copy(update={"transcript": resumed})
                 text = " ".join(request.transcript.casefold().split())
-            elif text in NO:
+            elif self._confirmation_answer(text) is False:
                 session.pending_spoken_email = None
                 session.pending_spoken_email_transcript = None
                 self.sessions.update_session(session)
@@ -191,11 +203,18 @@ class VoiceService:
             return self._response(session, "NEEDS_CONTEXT", "AWAITING_EMAIL_CONFIRMATION",
                 f"I heard {spoken_email}. Is that correct?", needs_user_input=True)
 
+        if session.awaiting_verification_value:
+            verified = self._verify_customer_for_pending_action(
+                request.transcript, session, executor)
+            if verified:
+                return verified
+
         if (session.pending_tool_name == "search_products" and session.pending_missing_fields
                 and self._interrupts_pending_clarification(text)):
             self._clear_pending(session)
 
         context = self._merged_context(session, request)
+        self._apply_explicit_search_relaxation(text, context, session)
         self._resolve_product_reference(text, context, session)
         policy = self.conversation_policy.evaluate(request.transcript, context)
         session.conversational_goal = policy.goal
@@ -214,7 +233,8 @@ class VoiceService:
             request.transcript, text, context, session, executor)
         if compound:
             return compound
-        clarification = self._shopping_clarification(text, context, session)
+        clarification = (None if self._is_search_continuation(text)
+                         else self._shopping_clarification(text, context, session))
         if clarification:
             field, prompt = clarification
             decision = RouteDecision(status=RouteStatus.NEEDS_CONTEXT, route=Route.TOOL_GATEWAY,
@@ -233,6 +253,8 @@ class VoiceService:
             if session.pending_tool_name == "search_products" and context.get("query"):
                 context["query"] = f"{context['query']} {request.transcript}".strip()
             message = RESUME_MESSAGES.get(session.pending_tool_name, request.transcript)
+        elif session.last_intent == "SEARCH_PRODUCTS" and self._is_search_continuation(text):
+            message = "Show me products"
         elif (session.last_intent == "SEARCH_PRODUCTS" or session.category) and self._is_preference_update(text):
             message = "Show me products"
 
@@ -363,6 +385,44 @@ class VoiceService:
         return self._response(session, "READY", "EMAIL_SENT",
             "I've sent that to your verified email address.")
 
+    def _begin_customer_verification(self, session, executor):
+        context = self._merged_context(session, VoiceTurnRequest(
+            session_id=session.session_id, transcript="Find my account"))
+        decision = self.orchestrator.route(RouteRequest(
+            message="Find my account", context=OrchestratorContext(**context)))
+        result = executor.execute(decision)
+        if result.execution_status != "SUCCESS" or not result.data.get("found"):
+            self.sessions.update_session(session)
+            return self._response(session, "NEEDS_CONTEXT", "CUSTOMER_NOT_FOUND",
+                "I couldn't find a customer account for that email. Please check the address or use human support.",
+                needs_user_input=True, decision=decision)
+        session.awaiting_verification_value = True
+        self.sessions.update_session(session)
+        method = str(result.data.get("verification_method") or "POSTAL_CODE")
+        prompt = ("What is the postal code on your saved address?"
+                  if method == "POSTAL_CODE" else
+                  "What verification value should I use for your account?")
+        return self._response(session, "NEEDS_CONTEXT", "AWAITING_VERIFICATION_VALUE",
+            prompt, needs_user_input=True, decision=decision)
+
+    def _verify_customer_for_pending_action(self, transcript, session, executor):
+        value = " ".join(transcript.strip().split())
+        context = self._merged_context(session, VoiceTurnRequest(
+            session_id=session.session_id, transcript=value))
+        context["verification_value"] = value
+        decision = self.orchestrator.route(RouteRequest(
+            message="Verify my account", context=OrchestratorContext(**context)))
+        result = executor.execute(decision)
+        if result.execution_status != "SUCCESS" or not result.data.get("verified"):
+            self.sessions.update_session(session)
+            return self._response(session, "NEEDS_CONTEXT", "VERIFICATION_FAILED",
+                "I couldn't verify that postal code. Please try again or use human support.",
+                needs_user_input=True, decision=decision)
+        session.awaiting_verification_value = False
+        self._apply_capability_context(session, decision, result.data)
+        self.sessions.update_session(session)
+        return None
+
     @staticmethod
     def _relax_unavailable_color(decision, result, executor):
         if (decision.intent != "SEARCH_PRODUCTS" or result.execution_status != "SUCCESS" or
@@ -454,10 +514,19 @@ class VoiceService:
             session.customer_type=data.get("customer_type") or session.customer_type
         if decision.intent in {"SEARCH_PRODUCTS", "FIND_SIMILAR_PRODUCTS", "RECOMMEND_MATCHING_PRODUCTS"}:
             products = data.get("results") or data.get("products") or []
-            session.previous_recommendations = [
-                {key: item[key] for key in ("product_id", "name", "variant_id", "sku", "color", "size") if item.get(key)}
-                for item in products[:5]
-            ]
+            recommendations = []
+            for item in products[:5]:
+                matched = item.get("matched_variant") or {}
+                recommendation = {
+                    key: item[key]
+                    for key in ("product_id", "name") if item.get(key)
+                }
+                for key in ("variant_id", "sku", "color", "size"):
+                    value = item.get(key) or matched.get(key)
+                    if value:
+                        recommendation[key] = value
+                recommendations.append(recommendation)
+            session.previous_recommendations = recommendations
             if session.previous_recommendations:
                 session.current_product_id = session.previous_recommendations[0].get("product_id")
 
@@ -533,7 +602,9 @@ class VoiceService:
         words=set(re.findall(r"[a-z]+",request.transcript.casefold()))
         found_colors=[color for color in COLORS if color in words]
         if found_colors:
-            correcting = any(signal in request.transcript.casefold() for signal in ("meant", "instead", "not "))
+            folded = request.transcript.casefold()
+            correcting = (any(signal in folded for signal in ("meant", "instead", "not "))
+                          or ("actually" in folded and not any(signal in folded for signal in (" too", "also"))))
             prior = [] if correcting else (context.get("colors") or [])
             context["colors"]=list(dict.fromkeys([*prior,*found_colors]))
             context["color"]=found_colors[-1]
@@ -547,8 +618,16 @@ class VoiceService:
         if found_occasion: context["occasion"]="office" if found_occasion == "work" else found_occasion
         found_style=next((item for item in STYLES if item in request.transcript.casefold()),None)
         if found_style: context["style"]=found_style
-        if words & {"women", "woman", "wife", "daughter", "her"}: context["gender"]="women"
-        elif words & {"men", "man", "husband", "son", "him"}: context["gender"]="men"
+        folded = request.transcript.casefold()
+        numeric_age = re.search(r"\b(\d{1,2})[- ]?years?[- ]?old\b", folded)
+        word_age = re.search(r"\b(one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen)\s+years?\s+old\b", folded)
+        child_age = bool(word_age or (numeric_age and int(numeric_age.group(1)) < 18))
+        if child_age or words & {"kid", "kids", "child", "children", "baby", "toddler", "teenager"}:
+            context["gender"]="kids"
+        elif words & {"women", "woman", "wife", "daughter", "mother", "mom", "mum", "her"}:
+            context["gender"]="women"
+        elif words & {"men", "man", "husband", "son", "father", "dad", "him"}:
+            context["gender"]="men"
         if "drop off" in request.transcript.casefold() or "drop-off" in request.transcript.casefold():
             context["return_method"]="DROP_OFF"
         elif " ".join(request.transcript.casefold().split()) in {"store", "store return", "return in store"}:
@@ -560,6 +639,10 @@ class VoiceService:
             context["quantity"]={"one":1,"two":2,"three":3,"four":4,"five":5}.get(quantity_match.group(1),int(quantity_match.group(1)) if quantity_match.group(1).isdigit() else 1)
         if context.get("product_id") and not context.get("reference_product_id"):
             context["reference_product_id"] = context["product_id"]
+        purchase = any(signal in request.transcript.casefold() for signal in (
+            "buy", "purchase", "order this", "order it", "place my order", "checkout", "check out"))
+        if purchase and context.get("product_id") and context.get("quantity") is None:
+            context["quantity"] = 1
         return {key:value for key,value in context.items() if value is not None}
 
     @staticmethod
@@ -599,6 +682,89 @@ class VoiceService:
         session.pending_confirmation_token = None
 
     @staticmethod
+    def _confirmation_answer(text):
+        normalized = " ".join(text.casefold().strip(" .?!").split())
+        if normalized in YES or re.match(
+                r"^(?:yes|correct|that's correct|thats correct|please proceed|go ahead|confirm|submit it)\b",
+                normalized):
+            return True
+        if normalized in NO or re.match(
+                r"^(?:no|cancel|stop|never mind|nevermind)\b", normalized):
+            return False
+        return None
+
+    @staticmethod
+    def _is_search_continuation(text):
+        return any(signal in text for signal in (
+            "broaden the search", "broaden search", "more in the search", "show more",
+            "more options", "something else", "other options",
+        ))
+
+    @staticmethod
+    def _apply_explicit_search_relaxation(text, context, session):
+        clear_formal = any(signal in text for signal in (
+            "whether formal or not", "formal or not formal", "doesn't have to be formal",
+            "does not have to be formal", "no matter if it is formal", "any style",
+        ))
+        no_color = any(signal in text for signal in (
+            "no particular color", "no colour preference", "no color preference", "any color", "any colour",
+        ))
+        broaden = VoiceService._is_search_continuation(text)
+        removed = []
+        if clear_formal:
+            if context.get("occasion") == "formal":
+                context.pop("occasion", None)
+                session.occasion = None
+                removed.append("formal")
+            if context.get("style") == "formal":
+                context.pop("style", None)
+                session.style = None
+                removed.append("formal")
+        if no_color:
+            removed.extend(str(value) for value in context.get("colors") or [])
+            context.pop("color", None)
+            context["colors"] = []
+            session.colors = []
+        if broaden:
+            if context.get("occasion"):
+                removed.append(str(context.pop("occasion")))
+                session.occasion = None
+            elif context.get("style"):
+                removed.append(str(context.pop("style")))
+                session.style = None
+            elif context.get("colors"):
+                removed.extend(str(value) for value in context.get("colors") or [])
+                context.pop("color", None)
+                context["colors"] = []
+                session.colors = []
+        query = str(context.get("query") or session.current_search_query or "")
+        for value in set(removed):
+            query = re.sub(rf"(?<!\w){re.escape(value)}(?!\w)", "", query, flags=re.IGNORECASE)
+        if query:
+            context["query"] = " ".join(query.split())
+            session.current_search_query = context["query"]
+
+    @staticmethod
+    def _recover_fashion_asr(transcript, session):
+        text = transcript
+        folded = text.casefold()
+        shopping_cues = any(signal in folded for signal in (
+            "wedding", "outfit", "formal", "size", "color", "colour", "under ",
+            "five years old", "baby", "child", "wear",
+        )) or bool(session.category or session.occasion)
+        if not shopping_cues:
+            return text
+        if not any(signal in folded for signal in (
+                "shipping address", "home address", "delivery address")):
+            text = re.sub(r"\b(need|want|looking for)\s+(?:an?\s+)?address\b",
+                          lambda match: f"{match.group(1)} a dress", text, flags=re.IGNORECASE)
+        text = re.sub(r"\bformal\s+list\b", "formal dress", text, flags=re.IGNORECASE)
+        text = re.sub(r"\bblacklist\b", "black dress", text, flags=re.IGNORECASE)
+        if any(signal in folded for signal in ("wedding", "guest", "outfit")):
+            text = re.sub(r"\b(?:coding|clothing)\s+desk\b", "dress", text, flags=re.IGNORECASE)
+        return text
+
+    @staticmethod
     def _clear_shopping_context(session):
         for field in ("current_product_id", "reference_product_id", "active_variant_id", "category",
                       "occasion", "budget_min", "budget_max", "size", "fit", "style", "gender"):
@@ -627,19 +793,29 @@ class VoiceService:
     @staticmethod
     def _spoken_email(transcript):
         normalized = transcript.casefold()
-        normalized = re.sub(r"\s+(?:at the rate|at sign)\s+", "@", normalized)
+        normalized = re.sub(r"\bg\s+mail\b", "gmail", normalized)
+        digits = {"zero":"0", "one":"1", "two":"2", "three":"3", "four":"4",
+                  "five":"5", "six":"6", "seven":"7", "eight":"8", "nine":"9"}
+        normalized = re.sub(r"\b(zero|one|two|three|four|five|six|seven|eight|nine)\b",
+                            lambda match: digits[match.group(1)], normalized)
+        normalized = re.sub(r"\s+(?:at the rate|at sign|at direct)\s+", "@", normalized)
         normalized = re.sub(r"\s+dot\s+", ".", normalized)
         normalized = re.sub(r"\s*@\s*", "@", normalized)
         normalized = re.sub(r"\s*\.\s*", ".", normalized)
+        marker = re.search(r"\b(?:email(?: address)?(?: is| as)?|using)\s+(.+)$", normalized)
+        if marker:
+            normalized = marker.group(1)
+        normalized = re.sub(r"\s+", "", normalized)
         match = re.search(r"[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)+", normalized)
         return match.group(0).strip(".,") if match else None
 
     def _answer_compound_product_question(self, transcript, text, context, session, executor):
         asks_inventory = any(signal in text for signal in
-                             ("do you have", "in stock", "available in size", "have size"))
+                             ("do you have", "in stock", "available in size", "have size")) or bool(
+            re.search(r"\b(?:is|are)\s+(?:this|it|that|these|they)\s+(?:available\s+)?in\s+(?:size\s+)?(?:xxs|xs|s|m|l|xl|xxl|small|medium|large)\b", text))
         asks_colors = any(signal in text for signal in
                           ("what other color", "what other colour", "what colors", "what colours",
-                           "available colors", "available colours"))
+                           "available colors", "available colours")) or bool(re.search(r"\bcolou?rs\b", text))
         asks_price = any(signal in text for signal in ("price", "how much", "cost"))
         asks_material = any(signal in text for signal in ("material", "fabric", "made from"))
         asks_sizes = any(signal in text for signal in ("what sizes", "available sizes")) or bool(

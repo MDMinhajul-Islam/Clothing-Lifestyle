@@ -54,6 +54,10 @@ class VoiceResponseComposer:
         if decision.intent == "GET_PRODUCT_DETAILS":
             name=data.get("name","This item"); details=data.get("materials_care") or data.get("description")
             facts=[]
+            material_request = "PRODUCT_SPECIFIC_FACT" in getattr(decision, "reason_codes", [])
+            if material_request:
+                facts.append(str(details) if details else
+                             "Material information is unavailable for this item. I can ask human support to confirm the composition")
             if data.get("price") is not None:
                 facts.append(f"The current price is {data['price']} {data.get('currency', 'USD')}")
             colors=[]
@@ -71,7 +75,8 @@ class VoiceResponseComposer:
             if sizes:facts.append("The available sizes are " + ", ".join(sizes))
             if data.get("available") is True or in_stock:facts.append("It is currently available")
             elif data.get("available") is False:facts.append("It is currently unavailable")
-            if details: facts.append(str(details))
+            if details and not material_request:
+                facts.append(str(details))
             return f"{name}. " + ". ".join(facts) + "." if facts else f"I have the latest details for {name}. What would you like to know?"
         if decision.intent in {"CHECK_INVENTORY", "PURCHASE_GUIDANCE", "CHECK_PICKUP_AVAILABILITY", "CHECK_EXCHANGE_INVENTORY"}:
             if decision.intent == "CHECK_EXCHANGE_INVENTORY" and not data.get("eligible", False):

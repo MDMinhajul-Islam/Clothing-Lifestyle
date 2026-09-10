@@ -13,6 +13,8 @@ RECOMMENDATION_SIGNALS = (
 PRODUCT_TERMS = (
     "dress", "dresses", "shirt", "shirts", "pants", "jeans", "jacket", "jackets",
     "blazer", "blazers", "top", "tops", "skirt", "skirts", "shoe", "shoes", "coat", "coats", "product",
+    "bag", "bags", "handbag", "handbags", "purse", "purses", "backpack", "backpacks",
+    "hoodie", "hoodies", "sweater", "sweaters", "accessory", "accessories", "perfume",
 )
 
 ORDER_TOOLS = {

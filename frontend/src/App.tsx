@@ -6,6 +6,7 @@ import { Footer } from './components/layout/Footer';
 import { Hero } from './components/layout/Hero';
 import { Navbar } from './components/layout/Navbar';
 import { FilterBar } from './components/storefront/FilterBar';
+import { CartDrawer, type CartItem } from './components/storefront/CartDrawer';
 import { ProductDetailModal } from './components/storefront/ProductDetailModal';
 import { ProductGrid } from './components/storefront/ProductGrid';
 import { StyledEdit } from './components/storefront/StyledEdit';
@@ -22,6 +23,14 @@ const DEFAULT_FILTER: ProductFilter = { inStockOnly: false, sort: 'featured' };
 const PAGE_SIZE = 24;
 const FALLBACK_PRODUCTS: Product[] = [];
 const fallbackColors = Array.from(new Map(FALLBACK_PRODUCTS.flatMap((product) => product.colors).map((color) => [color.name, color])).values());
+type AppView = 'storefront' | 'account' | 'admin';
+
+const viewFromPath = (): AppView => {
+  const path = window.location.pathname.replace(/\/+$/, '') || '/';
+  if (path === '/admin') return 'admin';
+  if (path === '/account') return 'account';
+  return 'storefront';
+};
 
 const consumePortalLinkTokens = () => {
   const tokens = customerAuthTokensFromFragment(window.location.hash);
@@ -51,10 +60,12 @@ const voiceFilter = (text: string): Partial<ProductFilter> => {
 
 export const App: React.FC = () => {
   const [portalTokens] = React.useState(consumePortalLinkTokens);
-  const [currentView, setCurrentView] = React.useState<'storefront' | 'admin'>('storefront');
-  const [isAuthModalOpen, setIsAuthModalOpen] = React.useState(() => Boolean(portalTokens.verify || portalTokens.reset));
+  const [currentView, setCurrentView] = React.useState<AppView>(viewFromPath);
+  const [isAuthModalOpen, setIsAuthModalOpen] = React.useState(() => Boolean(portalTokens.verify || portalTokens.reset || viewFromPath() === 'account'));
   const [customer, setCustomer] = React.useState<CustomerProfile>({ id: '', name: 'Guest', email: '', type: 'GUEST', authLevel: 'ANONYMOUS', verified: false });
-  const [cartItems, setCartItems] = React.useState<Array<{ product: Product; size: string }>>([]);
+  const [isCustomerSessionReady, setIsCustomerSessionReady] = React.useState(false);
+  const [cartItems, setCartItems] = React.useState<CartItem[]>([]);
+  const [isCartOpen, setIsCartOpen] = React.useState(false);
   const [filter, setFilter] = React.useState<ProductFilter>(DEFAULT_FILTER);
   const [products, setProducts] = React.useState<Product[]>([]);
   const [styledProducts, setStyledProducts] = React.useState<Product[]>(FALLBACK_PRODUCTS.slice(0, 8));
@@ -127,8 +138,23 @@ export const App: React.FC = () => {
   }, [appendRetellTranscript]);
 
   React.useEffect(() => () => retellClient.current?.stopCall(), []);
+  const navigate = React.useCallback((view: AppView, replace = false) => {
+    const path = view === 'admin' ? '/admin' : view === 'account' ? '/account' : '/';
+    if (window.location.pathname !== path) window.history[replace ? 'replaceState' : 'pushState']({}, '', path);
+    setCurrentView(view);
+  }, []);
   React.useEffect(() => {
-    void customerMe().then(setCustomer).catch(() => undefined);
+    const restoreView = () => setCurrentView(viewFromPath());
+    window.addEventListener('popstate', restoreView);
+    return () => window.removeEventListener('popstate', restoreView);
+  }, []);
+  React.useEffect(() => {
+    void customerMe().then((profile) => {
+      setCustomer(profile);
+      if (viewFromPath() === 'account') setIsAuthModalOpen(true);
+    }).catch(() => {
+      if (viewFromPath() === 'account') setIsAuthModalOpen(true);
+    }).finally(() => setIsCustomerSessionReady(true));
     const token=portalTokens.verify;
     if(token){void verifyCustomerEmail(token).then(()=>{
       setPortalNotice('Your email is verified. You can now sign in.');
@@ -230,18 +256,21 @@ export const App: React.FC = () => {
   const loadMore = async () => { if (!hasMore || isLoadingMore) return; setIsLoadingMore(true); try { const result = await fetchCatalogueProducts(filter, PAGE_SIZE, products.length); setProducts((current) => Array.from(new Map([...current, ...result.items].map((item) => [item.id, item])).values())); setHasMore(result.has_more); } finally { setIsLoadingMore(false); } };
   const selectCategory = (category: string) => { if (category === 'All Items') resetFilters(); else { const requested = category.toLowerCase(); const exact = facets?.categories.find((item) => item.toLowerCase() === requested); const terms = requested.split(/\s+&\s+|\s+/).filter((term) => term.length > 3); const mapped = exact || facets?.categories.find((item) => terms.some((term) => item.toLowerCase().includes(term))) || category; setFilter((current) => ({ ...current, category: mapped, department: requested.includes("women") ? 'WOMAN' : current.department })); } document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' }); };
 
-  if (currentView === 'admin') return <AdminAccess onBackToStorefront={() => setCurrentView('storefront')} />;
+  if (currentView === 'admin') return <AdminAccess onBackToStorefront={() => navigate('storefront')} />;
+  if (currentView === 'account' && !isCustomerSessionReady) return <main className="grid min-h-screen place-items-center bg-[#f2f1ed] text-neutral-950"><div className="text-center"><p className="font-display text-2xl font-bold tracking-[0.28em]">NEXGEN</p><p className="mt-4 text-[10px] font-semibold uppercase tracking-[0.18em] text-neutral-500">Opening your account</p></div></main>;
+  if (currentView === 'account' && customer.verified) return <CustomerAuthModal isOpen currentCustomer={customer} onClose={() => navigate('storefront')} onUpdateCustomer={(profile) => { setCustomer(profile); if (!profile.verified) navigate('storefront', true); }} resetToken={resetToken} initialNotice={portalNotice} />;
   const colors = facets?.colors.map((name) => ({ name, hex: fallbackColors.find((color) => color.name === name)?.hex || '#777777' })) || fallbackColors;
   return <div className="flex min-h-screen flex-col bg-[#fcfcfc] text-neutral-900">
-    <Navbar currentView={currentView} onNavigate={setCurrentView} customer={customer} onOpenAuth={() => setIsAuthModalOpen(true)} voiceState={voiceState} isVoiceActive={voiceSession?.status === 'ACTIVE'} onToggleVoice={() => voiceSession?.status === 'ACTIVE' ? void endVoice() : void startVoice()} cartCount={cartItems.length} onSearchClick={() => document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' })} onSelectCategory={selectCategory} />
+    <Navbar currentView="storefront" onNavigate={(view) => navigate(view)} customer={customer} onOpenAuth={() => customer.verified ? navigate('account') : setIsAuthModalOpen(true)} voiceState={voiceState} isVoiceActive={voiceSession?.status === 'ACTIVE'} onToggleVoice={() => voiceSession?.status === 'ACTIVE' ? void endVoice() : void startVoice()} cartCount={cartItems.length} onOpenCart={() => setIsCartOpen(true)} onSearchClick={() => document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' })} onSelectCategory={selectCategory} />
     <Hero featuredProducts={styledProducts.slice(0, 3)} onStartVoice={() => void startVoice()} onExploreCollection={() => document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' })} onSelectPrompt={(prompt) => void sendTranscript(prompt)} />
     <StyledEdit products={styledProducts} onSelectProduct={(product) => void selectProduct(product)} onAskVoice={(prompt, product) => void sendTranscript(prompt, product)} />
     <div id="catalogue"><FilterBar filter={filter} onChangeFilter={setFilter} onResetFilter={resetFilters} renderedCount={products.length} matchingCount={totalProducts} activeVoiceFilterLabel={activeVoiceFilterLabel} onClearVoiceFilter={resetFilters} availableColors={colors} availableCategories={facets?.categories} availableDepartments={facets?.departments} /></div>
     <main className="flex-1"><ProductGrid products={products} isLoading={isLoading} onSelectProduct={(product) => void selectProduct(product)} onAskAboutProduct={(product) => void sendTranscript(`Tell me about ${product.name}`, product)} onResetFilters={resetFilters} onAskVoice={(prompt) => void sendTranscript(prompt)} voiceActionNotice={activeVoiceFilterLabel ? { actionText: `Stylist selected for “${activeVoiceFilterLabel}”`, route: lastTurn?.route, onClear: resetFilters } : null} totalMatchingCount={totalProducts} hasMore={hasMore} isLoadingMore={isLoadingMore} onLoadMore={() => void loadMore()} /></main>
-    <ProductDetailModal product={selectedProduct} isLoading={isProductDetailLoading} error={productDetailError} onClose={closeProduct} onAddToCart={(product, size) => setCartItems((items) => [...items, { product, size }])} onAskVoicePrompt={(prompt, product) => void sendTranscript(prompt, product)} matchingProducts={matchingProducts} onSelectMatchingProduct={(product) => void selectProduct(product)} onContextChange={setSelectedProduct} />
-    <CustomerAuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} currentCustomer={customer} onUpdateCustomer={setCustomer} resetToken={resetToken} initialNotice={portalNotice} />
+    <ProductDetailModal product={selectedProduct} isLoading={isProductDetailLoading} error={productDetailError} onClose={closeProduct} onAddToCart={(product, size) => { setCartItems((items) => [...items, { id: window.crypto.randomUUID(), product, size }]); setIsCartOpen(true); }} onAskVoicePrompt={(prompt, product) => void sendTranscript(prompt, product)} matchingProducts={matchingProducts} onSelectMatchingProduct={(product) => void selectProduct(product)} onContextChange={setSelectedProduct} />
+    <CartDrawer isOpen={isCartOpen} items={cartItems} onClose={() => setIsCartOpen(false)} onRemove={(itemId) => setCartItems((items) => items.filter((item) => item.id !== itemId))} />
+    <CustomerAuthModal isOpen={isAuthModalOpen} onClose={() => setIsAuthModalOpen(false)} currentCustomer={customer} onUpdateCustomer={(profile) => { setCustomer(profile); if (profile.verified) { setIsAuthModalOpen(false); navigate('account'); } }} resetToken={resetToken} initialNotice={portalNotice} />
     <VoiceAssistantPanel session={voiceSession} voiceState={voiceState} onStartSession={() => void startVoice()} onEndSession={() => void endVoice()} isMuted={isVoiceMuted} onToggleMute={toggleVoiceMute} onSendTranscript={(text) => void sendTranscript(text)} history={turnHistory} lastTurn={lastTurn} onConfirmAction={() => void sendTranscript('Yes, confirm the action')} onCancelAction={() => void sendTranscript('Cancel that action')} isExpanded={isVoiceExpanded} onToggleExpand={() => setIsVoiceExpanded((expanded) => !expanded)} authNotice={authNotice} />
-    <Footer onShop={() => { resetFilters(); document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' }); }} onNewArrivals={() => document.getElementById('styled-edit')?.scrollIntoView({ behavior: 'smooth' })} onSelectCategory={selectCategory} onStartVoice={() => void startVoice()} onAskVoice={(prompt) => void sendTranscript(prompt)} onOpenAccount={() => setIsAuthModalOpen(true)} />
+    <Footer onShop={() => { resetFilters(); document.getElementById('catalogue')?.scrollIntoView({ behavior: 'smooth' }); }} onNewArrivals={() => document.getElementById('styled-edit')?.scrollIntoView({ behavior: 'smooth' })} onSelectCategory={selectCategory} onStartVoice={() => void startVoice()} onAskVoice={(prompt) => void sendTranscript(prompt)} onOpenAccount={() => customer.verified ? navigate('account') : setIsAuthModalOpen(true)} />
   </div>;
 };
 

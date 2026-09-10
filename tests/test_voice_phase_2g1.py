@@ -67,6 +67,36 @@ class CommerceBackend(CapturingBackend):
             "product_name":"Grounded dress","variant_id":"black-m","color":"Black","size":"M","quantity":1,
             "shipping_summary":"1 Main St, New York, NY, 10001","payment_url":"https://example.test/pay?order=NGR-1"})
 
+
+class VerifiedCommerceBackend(CommerceBackend):
+    def execute(self, decision):
+        self.calls.append(decision)
+        if decision.tool_name == "identify_customer":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "found": True, "verification_method": "POSTAL_CODE",
+            })
+        if decision.tool_name == "verify_customer":
+            verified = decision.tool_arguments.get("verification_value") == "10001"
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "verified": verified,
+                "access_token": "verified-token" if verified else None,
+                "auth_level": "TRANSACTION_VERIFIED" if verified else "PUBLIC",
+                "customer_type": "REGISTERED" if verified else "UNKNOWN",
+            })
+        return CapturingBackend.execute(self, decision)
+
+
+class NoMaterialBackend(CapturingBackend):
+    def execute(self, decision):
+        self.calls.append(decision)
+        if decision.tool_name == "get_product_details":
+            return CapabilityResult(execution_status="SUCCESS", data={
+                "name": "Grounded polo", "price": 35.94, "currency": "USD",
+                "colors": [{"color_name": "Yellow"}],
+                "variants": [{"size_name": "M"}],
+            })
+        return CapturingBackend.execute(self, decision)
+
 class FailingCommunicator:
     def send(self,**_message): raise RuntimeError("SMTP unavailable")
 
@@ -391,6 +421,88 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual(confirmed.execution_status,'SUCCESS')
         self.assertIn("received successfully",confirmed.spoken_text)
         self.assertIn("couldn't send",confirmed.spoken_text)
+
+    def test_search_memory_preserves_nested_matched_variant(self):
+        backend = RecommendationMemoryBackend()
+        backend.execute = lambda decision: CapabilityResult(execution_status="SUCCESS", data={
+            "products": [{
+                "product_id": "zara-us:00000011", "name": "Black dress",
+                "matched_variant": {
+                    "variant_id": "black-m", "sku": "BLACK-M", "color": "Black", "size": "M",
+                },
+            }],
+        }) if decision.tool_name == "search_products" else CapturingBackend.execute(backend, decision)
+        service = VoiceService(executor=VoiceCapabilityExecutor(backend))
+        session = service.create_session(CreateVoiceSessionRequest()).session_id
+        service.process_voice_turn(VoiceTurnRequest(
+            session_id=session, transcript="Show me black dresses"))
+        state = service.get_session(session)
+        self.assertEqual(state.previous_recommendations[0]["variant_id"], "black-m")
+        self.assertEqual(state.previous_recommendations[0]["sku"], "BLACK-M")
+
+    def test_spoken_search_broadening_stays_in_catalogue_and_relaxes_occasion(self):
+        self.turn("Show me formal dresses")
+        result = self.turn("Okay, show me more options and broaden the search")
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertNotEqual(result.execution_status, "LLM_NOT_CONFIGURED")
+        self.assertNotIn("occasion", self.backend.calls[-1].tool_arguments)
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_type"], "dress")
+
+    def test_customer_can_explicitly_remove_formal_constraint(self):
+        self.turn("Show me formal dresses")
+        result = self.turn("Show tailored dresses whether formal or not")
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertNotIn("occasion", self.backend.calls[-1].tool_arguments)
+        self.assertNotIn("formal", self.backend.calls[-1].tool_arguments.get("query", "").casefold())
+
+    def test_high_context_asr_address_is_recovered_as_childrens_dress(self):
+        result = self.turn("I need an address for my five years old baby")
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertNotEqual(result.execution_status, "LLM_NOT_CONFIGURED")
+        state = self.service.get_session(self.session)
+        self.assertEqual(state.category, "dress")
+        self.assertEqual(state.gender, "kids")
+
+    def test_missing_material_is_explicit(self):
+        backend = NoMaterialBackend()
+        service = VoiceService(executor=VoiceCapabilityExecutor(backend))
+        session = service.create_session(CreateVoiceSessionRequest()).session_id
+        result = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session, transcript="What type of cotton is this?",
+            context={"reference_product_id": "zara-us:00000001"}))
+        self.assertIn("Material information is unavailable", result.spoken_text)
+
+    def test_spoken_email_with_digit_words_is_normalized(self):
+        parsed = self.service._spoken_email(
+            "My email is minhajul dot islam one eight two three at direct g mail dot com")
+        self.assertEqual(parsed, "minhajul.islam1823@gmail.com")
+
+    def test_verified_order_flow_requires_backend_confirmation_before_email(self):
+        backend = VerifiedCommerceBackend()
+        service = VoiceService(executor=VoiceCapabilityExecutor(backend))
+        session = service.create_session(CreateVoiceSessionRequest()).session_id
+        started = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session, transcript="I want to order this",
+            context={"reference_product_id": "zara-us:00000001",
+                     "active_variant_id": "black-m", "size": "M", "color": "Black"}))
+        self.assertEqual(started.execution_status, "AWAITING_CONTEXT")
+        email = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session,
+            transcript="My email is jess dot carter at the rate nextgen dot test"))
+        self.assertEqual(email.execution_status, "AWAITING_EMAIL_CONFIRMATION")
+        identified = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session, transcript="Correct"))
+        self.assertEqual(identified.execution_status, "AWAITING_VERIFICATION_VALUE")
+        prepared = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session, transcript="10001"))
+        self.assertEqual(prepared.execution_status, "CONFIRMATION_REQUIRED")
+        communicator = CapturingCommunicator()
+        confirmed = service.process_voice_turn(VoiceTurnRequest(
+            session_id=session, transcript="Yes, please submit my order request"),
+            communicator=communicator)
+        self.assertEqual(confirmed.execution_status, "SUCCESS")
+        self.assertIn("received successfully", confirmed.spoken_text)
+        self.assertEqual(len(communicator.messages), 1)
 
 
 if __name__ == "__main__": unittest.main()

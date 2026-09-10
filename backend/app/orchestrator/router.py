@@ -57,14 +57,19 @@ class IntentRouter:
         purchase_intent = _has(text, ("want to buy", "like to buy", "want to order",
                                       "like to order", "place my order", "confirm my order",
                                       "continue with my order", "proceed with my order",
-                                      "check out", "checkout", "i'll take", "ill take"))
+                                      "proceed my order", "continue my order",
+                                      "proceed to checkout", "complete my purchase",
+                                      "submit this order request", "submit my order request",
+                                      "purchase this", "purchase it", "check out", "checkout",
+                                      "i'll take", "ill take"))
         requested_size = bool(SIZE.search(request.message) or re.search(
             r"\b(?:xs|s|m|l|xl|xxl|small|medium|large)(?:\s+size)?\b", text))
         refers_to_current_product = (
             _has(text, ("this", "this one", "this item", "this piece"))
             or bool(CURRENT_PRODUCT_REFERENCE.search(text))
         )
-        if current_product and (purchase_intent or (requested_size and refers_to_current_product)):
+        support_intent = _has(text, ("exchange", "refund", "return"))
+        if current_product and not support_intent and (purchase_intent or (requested_size and refers_to_current_product)):
             if purchase_intent:
                 return self._tool("CREATE_ORDER_REQUEST", "create_order_request", context, .99,
                                   "CURRENT_PRODUCT_ORDER_REQUEST")
@@ -304,6 +309,8 @@ class IntentRouter:
             if context.get("budget_min") is not None: arguments["min_price"] = context["budget_min"]
             if context.get("budget_max") is not None: arguments["max_price"] = context["budget_max"]
             if context.get("category") is not None: arguments["target_category"] = context["category"]
+            if not arguments.get("color") and context.get("colors"):
+                arguments["color"] = context["colors"][-1]
             if context.get("gender") is not None:
                 arguments["department"] = {"women":"WOMAN", "men":"MAN", "kids":"KIDS"}.get(
                     str(context["gender"]).casefold(), context["gender"])

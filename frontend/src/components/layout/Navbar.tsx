@@ -12,6 +12,7 @@ interface NavbarProps {
   isVoiceActive: boolean;
   onToggleVoice: () => void;
   cartCount: number;
+  onOpenCart: () => void;
   onSearchClick: () => void;
   onSelectCategory?: (category: string) => void;
 }
@@ -37,6 +38,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   isVoiceActive,
   onToggleVoice,
   cartCount,
+  onOpenCart,
   onSearchClick,
   onSelectCategory,
 }) => {
@@ -88,10 +90,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             {customer.verified ? <ShieldCheck className="h-3.5 w-3.5 text-emerald-600" /> : <UserCheck className="h-3.5 w-3.5" />}
             <span>{customer.authLevel === 'ANONYMOUS' ? 'Sign in / Register' : customer.name.split(' ')[0]}</span>
           </button>
-          <div className="relative p-2 text-neutral-800" aria-label={`${cartCount} items in bag`}>
+          <button onClick={onOpenCart} className="relative rounded-full p-2 text-neutral-800 transition hover:bg-neutral-100" aria-label={`Open shopping bag, ${cartCount} ${cartCount === 1 ? 'item' : 'items'}`}>
             <ShoppingBag className="h-4 w-4" />
             {cartCount > 0 && <span className="absolute right-0 top-0 grid h-4 min-w-4 place-items-center rounded-full bg-black px-1 text-[9px] text-white">{cartCount}</span>}
-          </div>
+          </button>
         </div>
       </div>
     </header>
