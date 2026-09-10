@@ -115,6 +115,22 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual(result.execution_status,"SUCCESS")
         self.assertEqual(self.service.get_session(self.session).occasion,"business")
 
+    def test_spoken_hundred_and_search_constraints_survive_follow_up(self):
+        self.turn("Show me black formal dresses under one hundred dollars",
+                  query="stale shirts")
+        first = self.backend.calls[-1].tool_arguments
+        self.assertEqual(first["query"], "Show me black formal dresses under one hundred dollars")
+        self.assertEqual(first["product_type"], "dress")
+        self.assertEqual(first["occasion"], "formal")
+        self.assertEqual(first["color"], "black")
+        self.assertEqual(first["max_price"], 100.0)
+        self.turn("Show me products")
+        follow_up = self.backend.calls[-1].tool_arguments
+        self.assertEqual(follow_up["product_type"], "dress")
+        self.assertEqual(follow_up["occasion"], "formal")
+        self.assertEqual(follow_up["color"], "black")
+        self.assertEqual(follow_up["max_price"], 100.0)
+
     def test_backend_recommendations_outlive_static_retell_page_results(self):
         backend=RecommendationMemoryBackend(); service=VoiceService(executor=VoiceCapabilityExecutor(backend))
         session=service.create_session(CreateVoiceSessionRequest()).session_id

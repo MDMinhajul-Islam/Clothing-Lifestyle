@@ -21,9 +21,10 @@ NO = {"no", "cancel", "never mind", "nevermind", "stop", "don't", "do not"}
 ORDER_ID = re.compile(r"\b(?:ORD|ZUS)-[A-Z0-9-]+\b", re.IGNORECASE)
 PRODUCT_ID = re.compile(r"\bzara-us:\d{8}\b", re.IGNORECASE)
 BUDGET_MAX = re.compile(r"(?:under|below|less than|up to)\s*\$?\s*(\d+(?:\.\d+)?)", re.IGNORECASE)
-BUDGET_WORD = re.compile(r"(?:under|below|less than|up to)\s+(twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)", re.IGNORECASE)
+BUDGET_WORD = re.compile(r"(?:under|below|less than|up to)\s+(one\s+hundred|a\s+hundred|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)", re.IGNORECASE)
 BUDGET_VALUES = {"twenty": 20, "thirty": 30, "forty": 40, "fifty": 50, "sixty": 60,
-                 "seventy": 70, "eighty": 80, "ninety": 90, "hundred": 100}
+                 "seventy": 70, "eighty": 80, "ninety": 90, "hundred": 100,
+                 "one hundred": 100, "a hundred": 100}
 SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$", re.IGNORECASE)
 SIZE_IN_SENTENCE = re.compile(r"\b(?:in|size)\s+(xxs|xs|s|m|l|xl|xxl|small|medium|large)\b", re.IGNORECASE)
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
@@ -240,6 +241,8 @@ class VoiceService:
             context["factual_summary"] = self._handoff_summary(session, request.transcript)
         decision = self.orchestrator.route(RouteRequest(message=message,
             context=OrchestratorContext(**context)))
+        if decision.tool_name == "search_products" and decision.tool_arguments.get("query"):
+            context["query"] = decision.tool_arguments["query"]
         self._remember_decision(session, decision, context)
 
         if decision.status.value == "NEEDS_CONTEXT":

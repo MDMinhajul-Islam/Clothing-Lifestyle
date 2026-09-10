@@ -202,7 +202,8 @@ class IntentRouter:
                               route=Route.PRODUCT_RECOMMENDATION)
 
         if context.get("occasion") and _has(text, ("clothes", "clothing", "outfit")):
-            context.setdefault("query", request.message)
+            if text != "show me products" or not context.get("query"):
+                context["query"] = request.message
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
                               "OCCASION_DISCOVERY_INTENT")
 
@@ -214,7 +215,8 @@ class IntentRouter:
 
         # Attribute/category browsing uses the authoritative catalogue search tool.
         if _has(text, ("show me", "find", "search", "looking for", "i need", "need a")) and _has(text, PRODUCT_TERMS):
-            context.setdefault("query", request.message)
+            if text != "show me products" or not context.get("query"):
+                context["query"] = request.message
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
                               "CATALOGUE_DISCOVERY_INTENT")
 
@@ -251,7 +253,8 @@ class IntentRouter:
     @staticmethod
     def _arguments(tool_name, context):
         allowed = {
-            "search_products": ("query", "size", "color", "min_price", "max_price"),
+            "search_products": ("query", "size", "color", "min_price", "max_price",
+                                "product_type", "department", "occasion", "material", "brand"),
             "get_product_details": ("product_id",),
             "check_inventory": ("product_id", "size", "color", "store_id"),
             "get_size_guidance": ("product_id",),
@@ -285,7 +288,14 @@ class IntentRouter:
         if tool_name == "search_products":
             if context.get("budget_min") is not None: arguments["min_price"] = context["budget_min"]
             if context.get("budget_max") is not None: arguments["max_price"] = context["budget_max"]
-            if context.get("category") and not arguments.get("query"): arguments["query"] = context["category"]
+            if context.get("category"): arguments["product_type"] = context["category"]
+            if context.get("occasion"): arguments["occasion"] = context["occasion"]
+            if not arguments.get("color") and context.get("colors"):
+                arguments["color"] = context["colors"][-1]
+            if context.get("materials"): arguments["material"] = context["materials"][-1]
+            if context.get("gender"):
+                arguments["department"] = {"women":"WOMAN", "men":"MAN", "kids":"KIDS"}.get(
+                    str(context["gender"]).casefold(), context["gender"])
         if tool_name in {"find_similar_products", "recommend_matching_products"}:
             if context.get("budget_min") is not None: arguments["min_price"] = context["budget_min"]
             if context.get("budget_max") is not None: arguments["max_price"] = context["budget_max"]

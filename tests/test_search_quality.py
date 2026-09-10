@@ -35,6 +35,13 @@ class FakeRepo:
         return (0, []) if kwargs.get("occasion") in {"wedding", "office", "evening", "casual", "eid"} else (1, [ROW])
 
 
+class EmptyRepo(FakeRepo):
+    def search_products(self, **kwargs):
+        self.calls = getattr(self, "calls", []) + [kwargs]
+        self.arguments = kwargs
+        return 0, []
+
+
 class SearchQualityTests(unittest.TestCase):
     def service(self):
         service = CatalogueService.__new__(CatalogueService)
@@ -70,6 +77,26 @@ class SearchQualityTests(unittest.TestCase):
         self.assertEqual(initial["color"], "black")
         self.assertEqual(service.repo.calls[1]["occasion"], None)
         self.assertEqual(result.total_matching, 1)
+
+    def test_spoken_hundred_is_an_authoritative_price_filter(self):
+        args = self.assert_facets(
+            "black formal dresses under one hundred dollars",
+            product_type="dress", color="black", residual=None,
+        )
+        self.assertEqual(args["occasion"], "formal")
+        self.assertEqual(args["max_price"], 100.0)
+
+    def test_empty_occasion_fallback_never_claims_products_were_found(self):
+        service = self.service()
+        service.repo = EmptyRepo()
+        result = service.search_products(SearchProductsInput(
+            query="black formal dresses under one hundred dollars"))
+        self.assertEqual(result.products, [])
+        self.assertNotIn("I found", result.fallback_message)
+        self.assertIn("formal-specific dress", result.fallback_message)
+        self.assertEqual(service.repo.calls[-1]["product_type"], "dress")
+        self.assertEqual(service.repo.calls[-1]["color"], "black")
+        self.assertEqual(service.repo.calls[-1]["max_price"], 100.0)
 
     def test_dress_shoes_are_shoes_not_dresses(self):
         self.assert_facets("dress shoes", product_type="shoes", residual="dress")

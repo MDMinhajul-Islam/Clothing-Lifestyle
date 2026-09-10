@@ -51,6 +51,19 @@ class OrchestratorTests(unittest.TestCase):
         result = self.route("Show me black dresses")
         self.assertEqual((result.route, result.tool_name), (Route.TOOL_GATEWAY, "search_products"))
 
+    def test_new_spoken_search_replaces_stale_page_query_and_keeps_structured_context(self):
+        result = self.route(
+            "Show me black formal dresses under one hundred dollars",
+            query="shirts", category="dress", occasion="formal", color="black",
+            budget_max=100,
+        )
+        self.assertEqual(result.tool_arguments["query"],
+                         "Show me black formal dresses under one hundred dollars")
+        self.assertEqual(result.tool_arguments["product_type"], "dress")
+        self.assertEqual(result.tool_arguments["occasion"], "formal")
+        self.assertEqual(result.tool_arguments["color"], "black")
+        self.assertEqual(result.tool_arguments["max_price"], 100)
+
     def test_active_product_sentiment_uses_product_details(self):
         for message in ("I love this dress", "I really like it", "I prefer that one"):
             with self.subTest(message=message):

@@ -20,7 +20,8 @@ from backend.app.repositories.catalogue_repo import CatalogueRepository
 
 SEARCH_FILLER = {
     "a", "an", "find", "for", "i", "looking", "me", "need", "please",
-    "search", "show", "some", "up", "to", "occasion", "wear",
+    "search", "show", "some", "under", "up", "to", "occasion", "wear",
+    "dollar", "dollars", "one", "hundred",
 }
 
 PRODUCT_TYPES = {
@@ -81,6 +82,15 @@ SEARCH_COLORS = {
     "black", "white", "navy", "blue", "red", "green", "beige", "brown",
     "gray", "grey", "pink", "yellow", "orange", "purple",
 }
+PRICE_WORDS = {
+    "twenty": 20.0, "thirty": 30.0, "forty": 40.0, "fifty": 50.0,
+    "sixty": 60.0, "seventy": 70.0, "eighty": 80.0, "ninety": 90.0,
+    "hundred": 100.0, "one hundred": 100.0, "a hundred": 100.0,
+}
+PRICE_VALUE_PATTERN = (
+    r"\d+(?:\.\d+)?|one\s+hundred|a\s+hundred|hundred|twenty|thirty|forty|"
+    r"fifty|sixty|seventy|eighty|ninety"
+)
 
 
 class CatalogueService:
@@ -127,8 +137,13 @@ class CatalogueService:
                 on_sale=input_data.on_sale, limit=input_data.limit,
             )
             cards = [ProductCard(**r) for r in rows]
-            fallback = (f"I couldn't find {requested} pieces in our current collection. "
-                        f"I found {alternative} instead.")
+            if cards:
+                fallback = (f"I couldn't find {requested} pieces in our current collection. "
+                            f"I found {alternative} instead.")
+            else:
+                item = facets.product_type or "pieces"
+                fallback = (f"I couldn't find {requested} {item} matching the rest of your request. "
+                            "Would you like me to try another color or budget?")
         return SearchProductsOutput(
             total_matching=total,
             returned_count=len(cards),
@@ -185,14 +200,20 @@ class CatalogueService:
             (value for value in OCCASIONS if re.search(rf"(?<!\w){re.escape(value)}(?!\w)", text)), None)
         min_price, max_price = data.min_price, data.max_price
         between = re.search(r"(?:between|from)\s*\$?(\d+(?:\.\d+)?)\s*(?:and|to)\s*\$?(\d+(?:\.\d+)?)", text)
-        under = re.search(r"(?:under|below|less than|max(?:imum)?(?: of)?)\s*\$?(\d+(?:\.\d+)?)", text)
-        over = re.search(r"(?:over|above|more than|min(?:imum)?(?: of)?)\s*\$?(\d+(?:\.\d+)?)", text)
+        under = re.search(
+            rf"(?:under|below|less than|max(?:imum)?(?: of)?)\s*\$?({PRICE_VALUE_PATTERN})(?:\s+dollars?)?",
+            text,
+        )
+        over = re.search(
+            rf"(?:over|above|more than|min(?:imum)?(?: of)?)\s*\$?({PRICE_VALUE_PATTERN})(?:\s+dollars?)?",
+            text,
+        )
         if between:
             min_price = min_price if min_price is not None else float(between.group(1))
             max_price = max_price if max_price is not None else float(between.group(2))
         else:
-            if under and max_price is None: max_price = float(under.group(1))
-            if over and min_price is None: min_price = float(over.group(1))
+            if under and max_price is None: max_price = cls._price_value(under.group(1))
+            if over and min_price is None: min_price = cls._price_value(over.group(1))
         removed = set(SEARCH_FILLER) | matched_aliases | set(GENDERS) | set(MATERIALS)
         if color: removed.add(color.casefold())
         if brand: removed.add(brand.casefold())
@@ -203,6 +224,11 @@ class CatalogueService:
                                    "of", "over", "above", "more", "min", "minimum"}]
         return SearchFacets(" ".join(terms) or None, color, product_type, department,
                             material, brand, min_price, max_price, occasion)
+
+    @staticmethod
+    def _price_value(value: str) -> float:
+        normalized = " ".join(value.casefold().split())
+        return PRICE_WORDS.get(normalized, float(normalized) if normalized.replace(".", "", 1).isdigit() else 0.0)
 
     def get_product_details(self, input_data: GetProductDetailsInput) -> ProductDetailsOutput:
         prod = self.repo.get_product_details(input_data.product_id)
