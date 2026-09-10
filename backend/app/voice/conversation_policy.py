@@ -98,7 +98,10 @@ class ConversationPolicy:
             return bool(context.get("product_id") or context.get("visible_products"))
         if goal in {"PRODUCT_SEARCH", "PRODUCT_RECOMMENDATION"}:
             workplace = (context.get("occasion") == "office" or
-                           re.search(r"\b(office|corporate|workwear)\b", text))
+                           re.search(
+                               r"\b(office|corporate|workwear|business meeting|interview)\b|\bfor work\b",
+                               text,
+                           ))
             return bool(context.get("category") or workplace or context.get("query") or
                         re.search(r"\b(dress|shirt|jeans|jacket|shoe|coat|clothes|outfit)s?\b", text))
         return True

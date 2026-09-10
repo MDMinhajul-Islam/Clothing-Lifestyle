@@ -172,6 +172,13 @@ class VoiceService:
 
         spoken_email = self._spoken_email(request.transcript)
         if session.pending_spoken_email:
+            if spoken_email and spoken_email != session.pending_spoken_email:
+                session.pending_spoken_email = spoken_email
+                session.pending_spoken_email_transcript = request.transcript
+                self.sessions.update_session(session)
+                return self._response(session, "NEEDS_CONTEXT", "AWAITING_EMAIL_CONFIRMATION",
+                    f"I've corrected that to {spoken_email}. Is that right?",
+                    needs_user_input=True)
             corrected_email = self._correct_pending_email(
                 session.pending_spoken_email, request.transcript)
             if corrected_email:

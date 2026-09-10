@@ -23,6 +23,8 @@ SEARCH_FILLER = {
     "me", "my", "need", "please", "product", "search", "show", "some", "t",
     "under", "up", "to", "want", "with", "would", "you", "occasion", "wear",
     "dollar", "dollars", "one", "hundred",
+    "clothes", "clothing", "corporate", "formal", "meeting", "option", "options", "outfit",
+    "piece", "pieces", "recommend", "regular", "something", "suggest",
 }
 
 PRODUCT_TYPES = {
@@ -39,13 +41,14 @@ PRODUCT_TYPES = {
     "top": ("top", "tops", "tee", "tees", "t-shirt", "t-shirts"),
 }
 MATERIALS = ("cashmere", "cotton", "denim", "leather", "linen", "silk", "suede", "wool")
-OCCASIONS = ("date night", "wedding", "bridal", "office", "business", "formal", "evening",
+OCCASIONS = ("date night", "wedding", "bridal", "office", "business", "interview", "formal", "evening",
              "party", "casual", "vacation", "festival", "eid", "winter", "summer", "gym")
 OCCASION_ALTERNATIVES = {
     "wedding": "elegant formal dresses that may suit a wedding",
     "bridal": "elegant white dresses that may suit a bridal occasion",
     "office": "polished tailoring for work",
     "business": "polished tailoring for work",
+    "interview": "polished professional pieces",
     "formal": "elegant occasion pieces",
     "evening": "elegant occasion pieces",
     "party": "statement styles for going out",

@@ -66,7 +66,15 @@ class OrchestratorTests(unittest.TestCase):
 
     def test_business_meeting_suggestion_keeps_semantic_recommendation(self):
         result = self.route("Suggest something for a business meeting")
-        self.assertEqual(result.tool_name, "recommend_matching_products")
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertEqual(result.status, RouteStatus.READY)
+
+    def test_work_and_interview_briefs_recommend_before_clarifying(self):
+        for transcript in ("I need something for work", "I need an interview outfit"):
+            with self.subTest(transcript=transcript):
+                result = self.route(transcript)
+                self.assertEqual(result.tool_name, "search_products")
+                self.assertEqual(result.status, RouteStatus.READY)
 
     def test_current_product_order_language_starts_existing_order_workflow(self):
         for message in ("Confirm my order", "Continue with my order",

@@ -41,6 +41,17 @@ class ConversationPolicyTests(unittest.TestCase):
         unrelated = self.policy.evaluate("blank waiting list", {})
         self.assertIsNone(unrelated.suggested_transcript)
 
+    def test_workplace_briefs_are_actionable_without_a_product_category(self):
+        for transcript in (
+            "I need something for work",
+            "Suggest something for a business meeting",
+            "I need an interview outfit",
+        ):
+            with self.subTest(transcript=transcript):
+                decision = self.policy.evaluate(transcript, {})
+                self.assertEqual(decision.strategy, "recommend_or_execute")
+                self.assertIsNone(decision.clarification_field)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -32,7 +32,9 @@ class FakeRepo:
     def search_products(self, **kwargs):
         self.calls = getattr(self, "calls", []) + [kwargs]
         self.arguments = kwargs
-        return (0, []) if kwargs.get("occasion") in {"wedding", "office", "evening", "casual", "eid"} else (1, [ROW])
+        return (0, []) if kwargs.get("occasion") in {
+            "wedding", "office", "interview", "evening", "casual", "eid",
+        } else (1, [ROW])
 
 
 class EmptyRepo(FakeRepo):
@@ -128,6 +130,7 @@ class SearchQualityTests(unittest.TestCase):
         cases = (
             ("wedding dress", "wedding", "dress", True),
             ("office outfit", "office", None, True),
+            ("interview outfit", "interview", None, True),
             ("party dress", "party", "dress", False),
             ("evening dress", "evening", "dress", True),
             ("casual shirt", "casual", "shirt", True),
@@ -174,6 +177,18 @@ class SearchQualityTests(unittest.TestCase):
         self.assertEqual(len(relaxed["semantic_vector"]), 384)
         self.assertEqual(result.returned_count, 1)
         self.assertIn("closest shirt options", result.fallback_message)
+
+    def test_workplace_conversation_fillers_do_not_become_lexical_constraints(self):
+        for query, occasion in (
+            ("I need something for regular office", "office"),
+            ("I need something for corporate formal office", "office"),
+            ("Suggest something for a business meeting", "business"),
+        ):
+            with self.subTest(query=query):
+                service = self.service()
+                service.search_products(SearchProductsInput(query=query))
+                self.assertIsNone(service.repo.calls[0]["query"])
+                self.assertEqual(service.repo.calls[0]["occasion"], occasion)
 
 
 if __name__ == "__main__":

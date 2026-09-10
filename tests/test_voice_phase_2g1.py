@@ -497,6 +497,20 @@ class Phase2G1VoiceTests(unittest.TestCase):
         state = self.service.get_session(self.session)
         self.assertEqual(state.confirmed_spoken_email, "minhajul.islam1823@gmail.com")
 
+    def test_full_spoken_email_correction_replaces_the_entire_pending_address(self):
+        first = self.turn("My email is jess dot carter one eight three at gmail dot com")
+        self.assertEqual(first.execution_status, "AWAITING_EMAIL_CONFIRMATION")
+        corrected = self.turn(
+            "No, my email is minhajul dot islam one eight two three at outlook dot com")
+        self.assertEqual(corrected.execution_status, "AWAITING_EMAIL_CONFIRMATION")
+        self.assertIn("minhajul.islam1823@outlook.com", corrected.spoken_text)
+        self.assertNotIn("jess.carter", corrected.spoken_text)
+        self.turn("Yes, correct")
+        self.assertEqual(
+            self.service.get_session(self.session).confirmed_spoken_email,
+            "minhajul.islam1823@outlook.com",
+        )
+
     def test_verified_order_flow_requires_backend_confirmation_before_email(self):
         backend = VerifiedCommerceBackend()
         service = VoiceService(executor=VoiceCapabilityExecutor(backend))

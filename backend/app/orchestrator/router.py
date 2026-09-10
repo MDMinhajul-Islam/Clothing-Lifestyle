@@ -202,6 +202,19 @@ class IntentRouter:
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .95,
                               "GROUNDED_CATEGORY_RECOMMENDATION")
 
+        # Work and interview briefs already provide a useful merchandising direction.
+        # Route them to grounded catalogue discovery before the reference-product
+        # recommendation branch, which requires an existing product selection.
+        workplace_discovery = (
+            _has(text, ("office", "corporate", "workwear", "work wear",
+                        "business meeting", "interview"))
+            or bool(re.search(r"\bfor work\b", text))
+        )
+        if workplace_discovery:
+            context["query"] = request.message
+            return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
+                              "WORKPLACE_DISCOVERY_INTENT")
+
         # 4. Reference-based semantic recommendation.
         if _has(text, RECOMMENDATION_SIGNALS):
             tool = "find_similar_products" if "similar" in text else "recommend_matching_products"
@@ -214,13 +227,6 @@ class IntentRouter:
                 context["query"] = request.message
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
                               "OCCASION_DISCOVERY_INTENT")
-
-        # A workplace brief is already a useful merchandising direction. Let the
-        # catalogue rank office-appropriate pieces before asking for a category.
-        if _has(text, ("office", "corporate", "workwear", "work wear")):
-            context["query"] = request.message
-            return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
-                              "WORKPLACE_DISCOVERY_INTENT")
 
         if _has(text, ("wedding", "bridal", "occasion", "party", "formal", "evening",
                        "office", "business", "work event", "business meeting", "interview",

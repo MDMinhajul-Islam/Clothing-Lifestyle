@@ -281,15 +281,14 @@ class VoiceCustomerAcceptanceTests(unittest.TestCase):
         self.assertIn("Colors: black", summary)
         self.assertIn("won't need to repeat", result.spoken_text)
 
-    def test_16_broad_occasion_asks_one_useful_question_then_recommends(self):
-        first = self.turn("I need something for a business meeting under $120")
-        self.assertEqual(first.missing_fields, ["category"])
-        second = self.turn("A blazer")
-        self.assertEqual(second.tool_name, "search_products")
+    def test_16_business_meeting_brief_recommends_without_interrogation(self):
+        result = self.turn("I need something for a business meeting under $120")
+        self.assertEqual(result.tool_name, "search_products")
+        self.assertEqual(result.missing_fields, [])
         args = self.backend.calls[-1].tool_arguments
-        self.assertEqual((args["product_type"], args["occasion"], args["max_price"]),
-                         ("blazer", "business", 120.0))
-        self.assertFalse(second.needs_user_input)
+        self.assertEqual((args["occasion"], args["max_price"]),
+                         ("business", 120.0))
+        self.assertFalse(result.needs_user_input)
 
     def test_17_eid_request_retains_occasion_after_clarification(self):
         first = self.turn("Find something modest for Eid for my mother")
