@@ -631,7 +631,9 @@ class VoiceCustomerAcceptanceTests(unittest.TestCase):
         self.assertEqual(confirmed.execution_status, "SUCCESS")
 
     def test_51_natural_quantity_answers_resume_order(self):
-        for phrase in ("just one", "only one", "a single one", "in one piece"):
+        for phrase in (
+                "just one", "just like one", "only one", "a single one", "in one piece",
+                "Right. I want one medium CASSETTE PRINT STRIPED SHIRT in bluish."):
             with self.subTest(phrase=phrase):
                 state = self.service.get_session(self.session)
                 state.pending_tool_name = "create_order_request"
@@ -679,6 +681,30 @@ class VoiceCustomerAcceptanceTests(unittest.TestCase):
                     if isinstance(item, tuple) and item[0] == "prepare")
         self.assertEqual(call[2]["shipping_address"]["recipient_name"], "Jess Carter")
         self.assertEqual(call[2]["shipping_address"]["postal_code"], "10001")
+
+    def test_54_logged_in_submit_order_defaults_to_one_without_email_or_quantity_loop(self):
+        self.verify_session()
+        state = self.service.get_session(self.session)
+        state.customer_name = "Jess Carter"
+        state.confirmed_spoken_email = "jess.carter@example.test"
+        state.shipping_profile_loaded = True
+        state.shipping_address_id = "address-1"
+        state.current_product_id = "zara-us:00000001"
+        state.reference_product_id = "zara-us:00000001"
+        state.active_variant_id = "black-m"
+        state.size = "M"
+        state.colors = ["Black"]
+        self.service.sessions.update_session(state)
+
+        result = self.turn("Proceed with this order. Please submit my order request.")
+
+        self.assertTrue(result.requires_confirmation)
+        self.assertNotIn("how many", result.spoken_text.casefold())
+        self.assertNotIn("email", result.spoken_text.casefold())
+        prepared = next(call for call in reversed(self.backend.calls)
+                        if isinstance(call, tuple) and call[0] == "prepare")
+        self.assertEqual(prepared[2]["quantity"], 1)
+        self.assertEqual(prepared[2]["shipping_address_id"], "address-1")
 
 
 if __name__ == "__main__":

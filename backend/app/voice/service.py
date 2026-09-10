@@ -30,7 +30,11 @@ SIZE_ONLY = re.compile(r"^(?:size\s+)?(xxs|xs|s|m|l|xl|xxl|small|medium|large)$"
 SIZE_IN_SENTENCE = re.compile(r"\b(?:in|size)\s+(xxs|xs|s|m|l|xl|xxl|small|medium|large)\b", re.IGNORECASE)
 SIZE_BEFORE_WORD = re.compile(r"\b(xxs|xs|s|m|l|xl|xxl|small|medium|large)\s+size\b", re.IGNORECASE)
 NATURAL_QUANTITY = re.compile(
-    r"^(?:(?:quantity|just|only)\s+)?(one|two|three|four|five|[1-9]|10)(?:\s+(?:piece|pieces|item|items|one))?$",
+    r"^(?:(?:quantity|just(?:\s+like)?|only)\s+)?(one|two|three|four|five|[1-9]|10)(?:\s+(?:piece|pieces|item|items|one))?$",
+    re.IGNORECASE,
+)
+ORDER_QUANTITY_IN_SENTENCE = re.compile(
+    r"\b(?:want|order|take|need|like)\s+(?:just\s+)?(one|two|three|four|five|[1-9]|10)\b",
     re.IGNORECASE,
 )
 COLORS = {"black", "white", "navy", "blue", "red", "green", "beige", "brown", "gray", "grey", "pink", "yellow", "orange", "purple"}
@@ -741,6 +745,9 @@ class VoiceService:
             context["secondary_intents"]=["CHECK_EXCHANGE_INVENTORY"]
         quantity_text = " ".join(request.transcript.casefold().split()).strip(" .?!")
         quantity_match=NATURAL_QUANTITY.fullmatch(quantity_text)
+        if (not quantity_match and session.pending_tool_name == "create_order_request" and
+                "quantity" in session.pending_missing_fields):
+            quantity_match = ORDER_QUANTITY_IN_SENTENCE.search(quantity_text)
         if quantity_text in {"a single one", "in one piece"}:
             context["quantity"] = 1
         elif quantity_match:
@@ -749,6 +756,8 @@ class VoiceService:
             context["reference_product_id"] = context["product_id"]
         purchase = any(signal in request.transcript.casefold() for signal in (
             "buy", "purchase", "order this", "order it", "place my order", "checkout", "check out",
+            "proceed with this order", "proceed with my order", "continue with this order",
+            "continue with my order", "submit my order request", "submit this order request",
             "book this", "book it", "booking this", "reserve this", "reserve it", "take this"))
         if purchase and context.get("product_id") and context.get("quantity") is None:
             context["quantity"] = 1
