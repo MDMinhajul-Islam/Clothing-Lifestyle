@@ -51,6 +51,31 @@ class OrchestratorTests(unittest.TestCase):
         result = self.route("Show me black dresses")
         self.assertEqual((result.route, result.tool_name), (Route.TOOL_GATEWAY, "search_products"))
 
+    def test_broad_formal_and_office_requests_ask_for_product_type(self):
+        for message in ("Show me black formal pieces under one hundred dollars",
+                        "I need something for the office"):
+            with self.subTest(message=message):
+                result = self.route(message)
+                self.assertEqual(result.tool_name, "search_products")
+                self.assertEqual(result.status, RouteStatus.NEEDS_CONTEXT)
+                self.assertEqual(result.missing_fields, ["category"])
+
+    def test_business_meeting_suggestion_keeps_semantic_recommendation(self):
+        result = self.route("Suggest something for a business meeting")
+        self.assertEqual(result.tool_name, "recommend_matching_products")
+
+    def test_current_product_order_language_starts_existing_order_workflow(self):
+        for message in ("Confirm my order", "Continue with my order",
+                        "Check out the product"):
+            with self.subTest(message=message):
+                result = self.route(message,
+                                    reference_product_id="zara-us:00029400",
+                                    active_variant_id="zara-us:00029400:sku-1",
+                                    size="M", color="Yellow", quantity=1)
+                self.assertEqual(result.tool_name, "create_order_request")
+                self.assertEqual(result.status, RouteStatus.NEEDS_CONTEXT)
+                self.assertIn("access_token", result.missing_fields)
+
     def test_new_spoken_search_replaces_stale_page_query_and_keeps_structured_context(self):
         result = self.route(
             "Show me black formal dresses under one hundred dollars",

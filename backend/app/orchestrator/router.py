@@ -55,7 +55,9 @@ class IntentRouter:
 
         current_product = bool(context.get("product_id") or context.get("active_variant_id"))
         purchase_intent = _has(text, ("want to buy", "like to buy", "want to order",
-                                      "like to order", "i'll take", "ill take"))
+                                      "like to order", "place my order", "confirm my order",
+                                      "continue with my order", "proceed with my order",
+                                      "check out", "checkout", "i'll take", "ill take"))
         requested_size = bool(SIZE.search(request.message) or re.search(
             r"\b(?:xs|s|m|l|xl|xxl|small|medium|large)(?:\s+size)?\b", text))
         refers_to_current_product = (
@@ -207,7 +209,9 @@ class IntentRouter:
             return self._tool("SEARCH_PRODUCTS", "search_products", context, .92,
                               "OCCASION_DISCOVERY_INTENT")
 
-        if _has(text, ("wedding", "occasion", "party", "work event")) and not _has(text, PRODUCT_TERMS):
+        if _has(text, ("wedding", "bridal", "occasion", "party", "formal", "evening",
+                       "office", "business", "work event", "business meeting", "interview",
+                       "date night", "vacation", "festival", "eid", "gift")) and not _has(text, PRODUCT_TERMS):
             return RouteDecision(status=RouteStatus.NEEDS_CONTEXT, route=Route.TOOL_GATEWAY,
                 intent="SEARCH_PRODUCTS", confidence=.91, tool_name="search_products",
                 missing_fields=["category"], reason_codes=["BROAD_SHOPPING_INTENT", "HIGH_VALUE_CLARIFICATION"],
