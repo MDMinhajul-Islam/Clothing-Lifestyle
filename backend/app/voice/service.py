@@ -991,7 +991,8 @@ class VoiceService:
         local, domain = pending_email.split("@", 1)
         if not replacement or not re.search(r"\d+$", local):
             return None
-        return f"{re.sub(r'\d+$', replacement, local)}@{domain}"
+        corrected_local = re.sub(r"\d+$", replacement, local)
+        return f"{corrected_local}@{domain}"
 
     def _answer_purchase_availability_before_auth(self, transcript, text, context, session, executor):
         purchase = any(signal in text for signal in (

@@ -31,6 +31,9 @@ ENV HF_HUB_OFFLINE=1 \
 
 COPY --chown=nexgen:nexgen . .
 
+# Fail the build on syntax that the production Python runtime cannot import.
+RUN python -m compileall -q backend
+
 EXPOSE 8000
 
 HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
