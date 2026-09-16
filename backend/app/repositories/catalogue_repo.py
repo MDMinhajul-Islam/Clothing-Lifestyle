@@ -27,10 +27,14 @@ class CatalogueRepository(BaseRepository):
         on_sale: Optional[bool] = None,
         limit: int = 20,
         semantic_only: bool = False,
+        fashion_only: bool = False,
     ) -> Tuple[int, List[Dict[str, Any]]]:
         """Search products with full-text search and faceted filters."""
         where_clauses = ["1=1"]
         params: List[Any] = []
+        if fashion_only:
+            where_clauses.append("p.department IN ('WOMAN', 'MAN', 'KIDS')")
+            where_clauses.append("p.exact_product_name ~* '\\m(dress(es)?|gowns?|shirts?|blouses?|tops?|tees?|pants?|trousers?|jeans|skirts?|blazers?|jackets?|coats?|sweaters?|cardigans?|knitwear|hoodies?|sweatshirts?|suits?|jumpsuits?|rompers?|shorts?|vests?|shoes?|sneakers?|loafers?|boots?|sandals?)\\M'")
 
         # Semantic recovery must retrieve candidates, not merely reorder lexical hits.
         # Keep the same embedding identity as ranking and exclude missing/unrelated vectors.
@@ -67,6 +71,9 @@ class CatalogueRepository(BaseRepository):
         if product_type and product_type.strip():
             product_pattern = rf"\m{product_type.strip()}(?:es|s)?\M"
             aliases = {
+                "bag": r"\m(bags?|handbags?|backpacks?|totes?|shoppers?|satchels?|suitcases?)\M",
+                "outerwear": r"\m(jackets?|coats?|parkas?|anoraks?|windbreakers?)\M",
+                "coverup": r"\m(kaftans?|caftans?|tunics?|cover.?ups?)\M",
                 "dress": r"\m(dress(?:es)?|gown(?:s)?)\M",
                 "shirt": r"\m(shirt(?:s)?|blouse(?:s)?)\M",
                 "jeans": r"\mjeans?\M",
@@ -79,6 +86,8 @@ class CatalogueRepository(BaseRepository):
             params.append(product_pattern)
             if product_type.strip().casefold() == "dress":
                 where_clauses.append("p.exact_product_name !~* '\\mdress shoes?\\M'")
+            if product_type.strip().casefold() == "bag":
+                where_clauses.append("p.exact_product_name !~* '\\mtoys?\\M'")
 
         if min_price is not None:
             where_clauses.append("p.current_price >= %s")

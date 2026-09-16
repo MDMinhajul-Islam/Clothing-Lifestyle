@@ -62,6 +62,37 @@ class SemanticRecoveryTests(unittest.TestCase):
         self.assertIsNone(result.fallback_message)
         self.assertEqual(result.products[0].matched_variant.color, 'Black')
 
+    def test_outfit_search_excludes_home_but_respects_explicit_department(self):
+        service = self.service()
+        service.search_products(SearchProductsInput(query='office outfit'))
+        self.assertTrue(all(c['fashion_only'] for c in service.repo.calls))
+        service = self.service()
+        service.search_products(SearchProductsInput(query='office chair', department='ZARA HOME'))
+        self.assertFalse(any(c['fashion_only'] for c in service.repo.calls))
+
+    def test_product_family_aliases_preserve_user_intent(self):
+        for query, expected in [('carryall for travel', 'bag'), ('handbag', 'bag'),
+                                ('warm outerwear', 'outerwear'), ('beach coverup', 'coverup')]:
+            facets = CatalogueService._extract_facets(SearchProductsInput(query=query))
+            self.assertEqual(facets.product_type, expected)
+
+    def test_occasion_embedding_uses_shopping_intent_without_boilerplate(self):
+        service = self.service()
+        service.search_products(SearchProductsInput(query='I want to buy a new product for my office outfit.'))
+        self.assertEqual(service.embedding_client.texts, ['office outfit clothing'])
+
+    def test_reported_asr_error_clarifies_and_resumes_confirmed_product(self):
+        backend = CapturingBackend()
+        service = VoiceService(executor=VoiceCapabilityExecutor(backend))
+        sid = service.create_session(CreateVoiceSessionRequest()).session_id
+        result = service.process_voice_turn(VoiceTurnRequest(session_id=sid,
+            transcript="I'm looking for a formal raise for my office. Can you help me?"))
+        self.assertEqual(result.execution_status, 'ASR_CLARIFICATION_REQUIRED')
+        self.assertEqual(backend.calls, [])
+        result = service.process_voice_turn(VoiceTurnRequest(session_id=sid, transcript='Yes'))
+        self.assertEqual(result.tool_name, 'search_products')
+        self.assertEqual(backend.calls[-1].tool_arguments['product_type'], 'dress')
+
     def test_lexical_sql_remains_unchanged_for_normal_search(self):
         conn = MagicMock()
         cursor = conn.cursor.return_value.__enter__.return_value

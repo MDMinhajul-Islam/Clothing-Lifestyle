@@ -54,6 +54,15 @@ class ConversationPolicy:
 
     def evaluate(self, transcript: str, context: Mapping[str, Any]) -> ConversationPolicyDecision:
         text = " ".join(transcript.casefold().split()).strip(" .?!")
+        if (re.search(r"\bformal raise\b", text) and "office" in text
+                and not context.get("product_id")
+                and not re.search(r"\b(salary|pay|promotion|boss|manager)\b", text)):
+            return ConversationPolicyDecision(
+                goal="PRODUCT_SEARCH", scenario="office", strategy="clarify_asr",
+                confidence=.85, clarification="Did you mean a formal dress for the office?",
+                suggested_transcript=re.sub(r"\bformal raise\b", "formal dress", transcript,
+                                            flags=re.IGNORECASE),
+            )
         if (re.search(r"\boffice desk\b", text) and not context.get("product_id") and
                 not re.search(r"\b(furniture|wood|wooden|table|workstation|standing|computer)\b", text)):
             return ConversationPolicyDecision(

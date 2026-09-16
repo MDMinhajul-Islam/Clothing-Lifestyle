@@ -1,5 +1,53 @@
 # NexGen handoff — semantic product search
 
+## Latest update — relevance checked, ready for source push
+
+This update supersedes the local-only test limitations below. The user authorized
+the code push. Their existing commit `733c790` already contains the earlier work;
+the follow-up adds measured relevance corrections and tests. No production
+deployment or new image build was performed.
+
+Final offline suite: **375/375 passed**, excluding 15 live Tool Gateway API tests
+and blocking live psycopg2 connections. Windows temp-folder failures were resolved
+by running the same offline tests outside the filesystem sandbox. Linux runtime
+tests also passed for the available backend modules; research modules were missing
+bs4/playwright in the intentionally minimal runtime image.
+
+Real-data validation used an isolated local PostgreSQL database with **6,018 actual
+catalogue snapshot products and 6,018 existing stored vectors**, not the earlier
+synthetic qualification vectors. Search transactions were read-only; import writes
+affected only the new local database `nexgen_semantic_check`. The current code was
+mounted read-only into the old qualified image, without rebuilding. Production
+data, processes, frontend and deployment settings were untouched.
+
+Observed final examples: athletic kicks -> training/trail sneakers; running
+footwear -> running sneakers; carryall -> travel suitcases/backpack; handbag ->
+real bowling/shoulder bags (toy excluded); outerwear -> jackets; office outfit ->
+blouses instead of furniture/perfume. Impossible purple linen shirt under $1 ->
+empty, truthful broadening prompt. Twelve query timings: **0.023–0.516 seconds**
+after model initialization on local capped containers; not VPS/concurrent benchmarks.
+
+Additional corrections: fashion-only occasion/outfit candidate filter; normalized
+occasion embedding query without speech boilerplate; bag/outerwear/coverup aliases;
+toy exclusion for bag requests; reported formal-raise ASR ambiguity asks for dress
+confirmation and resumes correctly. Unit regressions cover these behaviors.
+
+Quality limits remain: vague cozy-commute returned a backpack plus two jackets;
+office-dress alternatives included halter/slip dresses, so they are explicitly
+described as alternatives with uncertain occasion suitability. Beach coverup
+returned no sufficiently matching product rather than unrelated jackets. Do not
+claim universal stylist quality or production acceptance from these tests.
+
+Final raw local outputs: `tmp/semantic-final-tests.txt`,
+`tmp/semantic-real-final.txt`. Local test database retains its snapshot; the test
+container exited. Stop only the local test DB when finished; do not remove data.
+
+RELEASE BLOCKER: Dokploy still uses the OLD digest-pinned GHCR image described
+below. A GitHub push or clicking Rebuild does not put these source changes into
+that image. Build and qualify a new image OFF the VPS, publish its digest and
+update only backend's image before a controlled manual deployment. Do not switch
+to source builds or trigger main-branch frontend auto-deploy.
+
 ## User request and immediate state
 
 User wants the AI shopping assistant to recommend real related catalogue products

@@ -32,6 +32,9 @@ SEARCH_FILLER = {
 }
 
 PRODUCT_TYPES = {
+    "bag": ("bag", "bags", "handbag", "handbags", "carryall"),
+    "outerwear": ("outerwear",),
+    "coverup": ("coverup", "cover-up", "cover up"),
     "blazer": ("blazer", "blazers"),
     "coat": ("coat", "coats", "overcoat", "overcoats"),
     "dress": ("dress", "dresses", "gown", "gowns"),
@@ -111,12 +114,23 @@ class CatalogueService:
 
     def search_products(self, input_data: SearchProductsInput) -> SearchProductsOutput:
         facets = self._extract_facets(input_data)
+        # Occasion/outfit searches are clothing requests unless a department is explicit.
+        # In the catalogue, literal 'office' also matches desks and office chairs.
+        fashion_only = bool(not facets.department and (
+            facets.occasion or re.search(r"\b(outfit|clothing|clothes|wear)\b", input_data.query or "", re.I)))
         semantic_vector = None
         if input_data.query and getattr(self, "embedding_client", None):
-            semantic_vector = self.embedding_client.embed([input_data.query])[0]
+            semantic_query = input_data.query
+            if facets.occasion:
+                # Remove speech boilerplate while retaining occasion and product intent.
+                semantic_query = " ".join(value for value in (
+                    facets.query, facets.occasion, facets.product_type or "outfit clothing",
+                    facets.color, facets.material) if value)
+            semantic_vector = self.embedding_client.embed([semantic_query])[0]
         total, rows = self.repo.search_products(
             query=facets.query,
             semantic_vector=semantic_vector,
+            fashion_only=fashion_only,
             department=facets.department,
             category_id=input_data.category_id,
             category=input_data.category,
@@ -139,6 +153,7 @@ class CatalogueService:
                 query=None if semantic_vector else facets.query,
                 semantic_vector=semantic_vector, department=facets.department,
                 semantic_only=bool(semantic_vector),
+                fashion_only=fashion_only,
                 category_id=input_data.category_id, category=input_data.category,
                 product_type=facets.product_type, min_price=facets.min_price,
                 max_price=facets.max_price, color=facets.color, size=input_data.size,
@@ -159,6 +174,7 @@ class CatalogueService:
             total, rows = self.repo.search_products(
                 query=None, semantic_vector=semantic_vector, department=facets.department,
                 semantic_only=bool(semantic_vector),
+                fashion_only=fashion_only,
                 category_id=input_data.category_id, category=input_data.category,
                 product_type=facets.product_type, min_price=facets.min_price,
                 max_price=facets.max_price, color=facets.color, size=input_data.size,

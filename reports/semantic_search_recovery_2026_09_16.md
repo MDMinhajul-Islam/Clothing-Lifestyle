@@ -1,5 +1,14 @@
 # Conversational catalogue search recovery
 
+Latest verification: 375/375 offline tests passed after resolving sandbox temp
+permissions. Real local catalogue (6,018 products / 6,018 stored vectors) exercised
+the actual SQL and model: 12 queries took 0.023–0.516s after initialization. Added
+fashion candidate filtering, query normalization, family aliases and ASR
+clarification after observing furniture/perfume/toy false positives. See the
+latest section in `docs/HANDOFF-semantic-search-2026-09-16.md` for measured examples
+and remaining ambiguous-query relevance limitations. This supersedes the earlier
+mock-only validation status below. No new image or production deployment yet.
+
 Status: implemented locally; not committed, pushed, built, or deployed.
 
 ## Cause and scope
