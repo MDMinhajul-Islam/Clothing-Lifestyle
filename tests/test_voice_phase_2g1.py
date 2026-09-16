@@ -581,6 +581,32 @@ class Phase2G1VoiceTests(unittest.TestCase):
         self.assertEqual(service.get_session(session).current_product_id,
                          "zara-us:00000011")
 
+    def test_office_desk_asr_clarifies_once_then_accepts_casual_shirt(self):
+        first = self.turn("Hi. I'm looking for a office desk. How can you help me?")
+        self.assertEqual(first.execution_status, "ASR_CLARIFICATION_REQUIRED")
+        self.assertEqual(first.spoken_text, "Did you mean a dress for the office?")
+        shirt = self.turn("Normal casual chart.")
+        self.assertEqual((shirt.tool_name, shirt.execution_status), ("search_products", "SUCCESS"))
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_type"], "shirt")
+        cotton = self.turn("A normal basic cotton chart.")
+        self.assertEqual((cotton.tool_name, cotton.execution_status), ("search_products", "SUCCESS"))
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_type"], "shirt")
+
+    def test_office_desk_confirmation_searches_dresses(self):
+        self.turn("I'm looking for an office desk")
+        confirmed = self.turn("Yes")
+        self.assertEqual(confirmed.tool_name, "search_products")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["product_type"], "dress")
+        self.assertEqual(self.backend.calls[-1].tool_arguments["occasion"], "office")
+
+    def test_furniture_request_is_not_silently_changed_to_a_dress(self):
+        from backend.app.voice.conversation_policy import ConversationPolicy
+        result = ConversationPolicy().evaluate("I need a wooden office desk", {})
+        self.assertIsNone(result.suggested_transcript)
+        state = self.service.get_session(self.session)
+        self.assertEqual(self.service._recover_fashion_asr("Show me a stock chart", state),
+                         "Show me a stock chart")
+
     def test_integrated_product_context_remains_authoritative_after_search_state_fix(self):
         result = self.turn(
             "Do you have this in medium?",

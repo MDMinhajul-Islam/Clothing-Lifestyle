@@ -268,6 +268,11 @@ class VoiceService:
         session.intent_confidence = policy.confidence
         if policy.clarification and policy.suggested_transcript:
             session.pending_asr_correction = policy.suggested_transcript
+            if policy.scenario == "office" and not context.get("product_id"):
+                session.occasion = "office"
+                session.pending_tool_name = "search_products"
+                session.pending_arguments = {"query": policy.suggested_transcript}
+                session.pending_missing_fields = ["category"]
             self.sessions.update_session(session)
             return self._response(session, "NEEDS_CONTEXT", "ASR_CLARIFICATION_REQUIRED",
                                   policy.clarification, needs_user_input=True)
@@ -313,10 +318,12 @@ class VoiceService:
             message = RESUME_MESSAGES.get(session.pending_tool_name, request.transcript)
         elif session.last_intent == "SEARCH_PRODUCTS" and self._is_search_continuation(text):
             message = "Show me products"
-        elif (session.last_intent == "SEARCH_PRODUCTS" or session.category) and self._is_preference_update(text):
+        elif (session.last_intent == "SEARCH_PRODUCTS" or session.category) and self._is_preference_update(
+                text, discovery=not bool(context.get("product_id"))):
             if any(signal in text for signal in (
                     "button down", "button-down", "polo", "long sleeve", "short sleeve",
-                    "men's", "mens", "women's", "womens", "for men", "for women")):
+                    "men's", "mens", "women's", "womens", "for men", "for women",
+                    "cotton", "linen", "silk", "wool")):
                 prior_query = str(context.get("query") or "").strip()
                 if text not in prior_query.casefold():
                     context["query"] = f"{prior_query} {request.transcript}".strip()
@@ -817,6 +824,8 @@ class VoiceService:
 
     @staticmethod
     def _is_search_continuation(text):
+        if text.strip().casefold().rstrip(".!?") in {"please try", "try again", "please try again"}:
+            return True
         return any(signal in text for signal in (
             "broaden the search", "broaden search", "more in the search", "show more",
             "more options", "something else", "other options", "just my budget",
@@ -846,7 +855,8 @@ class VoiceService:
             "just my budget", "adjust my budget", "change my budget", "increase my budget",
             "remove the budget", "ignore the budget", "no budget limit",
         ))
-        broaden = VoiceService._is_search_continuation(text) and not (
+        retry = text.strip().casefold().rstrip(".!?") in {"please try", "try again", "please try again"}
+        broaden = VoiceService._is_search_continuation(text) and not retry and not (
             clear_formal or no_color or no_style or no_budget)
         removed = []
         if clear_formal:
@@ -904,7 +914,7 @@ class VoiceService:
         folded = text.casefold()
         shopping_cues = any(signal in folded for signal in (
             "wedding", "outfit", "formal", "size", "color", "colour", "under ",
-            "five years old", "baby", "child", "wear",
+            "five years old", "baby", "child", "wear", "casual", "cotton",
         )) or bool(session.category or session.occasion)
         if not shopping_cues:
             return text
@@ -915,6 +925,8 @@ class VoiceService:
         text = re.sub(r"\bformal\s+list\b", "formal dress", text, flags=re.IGNORECASE)
         text = re.sub(r"\bformal\s+assist\b", "formal dress", text, flags=re.IGNORECASE)
         text = re.sub(r"\bblacklist\b", "black dress", text, flags=re.IGNORECASE)
+        text = re.sub(r"\b(casual|cotton|basic)\s+chart\b", r"\1 shirt", text,
+                      flags=re.IGNORECASE)
         if any(signal in folded for signal in ("wedding", "guest", "outfit", "five years old",
                                                 "child", "baby", "daughter", "son")):
             text = re.sub(r"\b(?:coding|clothing)\s+desk\b", "dress", text, flags=re.IGNORECASE)
@@ -1379,12 +1391,13 @@ class VoiceService:
         return f"You'd like me to {action}{target}. Should I proceed?"
 
     @staticmethod
-    def _is_preference_update(text):
+    def _is_preference_update(text, *, discovery=False):
+        words = set(re.findall(r"[a-z]+", text))
         return bool(SIZE_ONLY.match(text.rstrip("?!.")) or BUDGET_MAX.search(text) or BUDGET_WORD.search(text)
                     or any(color in text.split() for color in COLORS)
                     or any(style in text for style in STYLES)
-                    or any(category in text.split() for category in CATEGORIES)
-                    or any(alias in text.split() for alias in CATEGORY_ALIASES)
+                    or (discovery and bool(words & CATEGORIES))
+                    or (discovery and bool(words & CATEGORY_ALIASES.keys()))
                     or any(signal in text for signal in (
                         "button down", "button-down", "polo", "long sleeve", "short sleeve",
                         "men's", "mens", "women's", "womens", "for men", "for women",

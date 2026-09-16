@@ -28,7 +28,7 @@ SEARCH_FILLER = {
     "arrival", "arrivals", "best", "bestseller", "bestsellers", "build", "complete",
     "essential", "essentials", "help", "luxury", "new", "popular", "seller", "sellers",
     "shopping", "surprise", "trending", "wardrobe", "wife", "husband", "daughter", "son",
-    "mother", "father",
+    "mother", "father", "im", "buy", "is", "there", "any", "available", "products", "the",
 }
 
 PRODUCT_TYPES = {
@@ -134,10 +134,11 @@ class CatalogueService:
         cards = [ProductCard(**r) for r in rows]
         fallback = None
         if facets.occasion and not cards:
-            alternative = OCCASION_ALTERNATIVES[facets.occasion]
             requested = f"{facets.occasion}-specific"
             total, rows = self.repo.search_products(
-                query=facets.query, semantic_vector=semantic_vector, department=facets.department,
+                query=None if semantic_vector else facets.query,
+                semantic_vector=semantic_vector, department=facets.department,
+                semantic_only=bool(semantic_vector),
                 category_id=input_data.category_id, category=input_data.category,
                 product_type=facets.product_type, min_price=facets.min_price,
                 max_price=facets.max_price, color=facets.color, size=input_data.size,
@@ -147,14 +148,17 @@ class CatalogueService:
             cards = [ProductCard(**r) for r in rows]
             if cards:
                 fallback = (f"I couldn't find {requested} pieces in our current collection. "
-                            f"I found {alternative} instead.")
+                            "I found related options to consider instead; their suitability for the occasion may vary.")
             else:
                 item = facets.product_type or "pieces"
                 fallback = (f"I couldn't find {requested} {item} matching the rest of your request. "
-                            "Would you like me to try another color or budget?")
-        if not cards and facets.query and (facets.product_type or input_data.category or input_data.category_id):
+                            "Which part of your request would you like to broaden?")
+        if not cards and not (facets.occasion and semantic_vector) and facets.query and (
+            semantic_vector or facets.product_type or input_data.category or input_data.category_id
+        ):
             total, rows = self.repo.search_products(
                 query=None, semantic_vector=semantic_vector, department=facets.department,
+                semantic_only=bool(semantic_vector),
                 category_id=input_data.category_id, category=input_data.category,
                 product_type=facets.product_type, min_price=facets.min_price,
                 max_price=facets.max_price, color=facets.color, size=input_data.size,
@@ -167,6 +171,9 @@ class CatalogueService:
                 occasion = f" for {facets.occasion}" if facets.occasion else ""
                 fallback = (f"I couldn't find an exact {item} match{occasion}, but I found the "
                             f"closest {item} options matching the rest of your request.")
+        if not cards and not fallback:
+            fallback = ("I couldn't find a close match within your current preferences. "
+                        "Which part of your request would you like to broaden?")
         return SearchProductsOutput(
             total_matching=total,
             returned_count=len(cards),

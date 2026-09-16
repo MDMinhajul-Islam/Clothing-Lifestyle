@@ -1,0 +1,22 @@
+{
+  "private_registry_manifest_verified_from_vps": true,
+  "manifest_digest": "sha256:07b7148c579d926e47caa8f89fafb05de38f6b8efeee4911880def10a852ff45",
+  "saved": {
+    "sourceType": "docker",
+    "image": "ghcr.io/mdminhajul-islam/nexgen-backend@sha256:07b7148c579d926e47caa8f89fafb05de38f6b8efeee4911880def10a852ff45",
+    "registry": "ghcr.io",
+    "username": "MDMinhajul-Islam",
+    "credentialPresent": true,
+    "replicas": 0,
+    "mode": {
+      "Replicated": {
+        "Replicas": 0
+      }
+    },
+    "autoDeploy": false
+  },
+  "available_memory_mib": 1879,
+  "startup_gate_pass": false,
+  "backend_started": false,
+  "backup_saved_root_only": true
+}

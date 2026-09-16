@@ -1,0 +1,65 @@
+{
+  "buildx.build.provenance": {
+    "builder": {
+      "id": ""
+    },
+    "buildType": "https://mobyproject.org/buildkit@v1",
+    "materials": [
+      {
+        "uri": "pkg:docker/python@3.11-slim?platform=linux%2Famd64",
+        "digest": {
+          "sha256": "9534e5a8e315485d4061ed659af0fd78a284c015f9b73661b41d6bab25604534"
+        }
+      }
+    ],
+    "invocation": {
+      "configSource": {
+        "entryPoint": "Dockerfile"
+      },
+      "parameters": {
+        "frontend": "dockerfile.v0",
+        "locals": [
+          {
+            "name": "context"
+          },
+          {
+            "name": "dockerfile"
+          }
+        ],
+        "root": {
+          "configSource": {
+            "path": "Dockerfile"
+          },
+          "request": {
+            "args": {
+              "vcs:localdir:context": "tmp\\nexgen-qualification-source",
+              "vcs:localdir:dockerfile": "tmp\\nexgen-qualification-source",
+              "vcs:revision": "f2ba6d70be90807b462afd6993b5f27b186543f0",
+              "vcs:source": "https://github.com/MDMinhajul-Islam/Clothing-Lifestyle.git"
+            }
+          }
+        },
+        "compatibilityVersion": 30
+      },
+      "environment": {
+        "dockerfileVersion": "1.26.0",
+        "platform": "linux/amd64"
+      }
+    }
+  },
+  "buildx.build.ref": "nexgen-qualification/nexgen-qualification0/r7nhki1ra71e9y8h4oh5hs1ls",
+  "containerimage.descriptor": {
+    "mediaType": "application/vnd.oci.image.manifest.v1+json",
+    "digest": "sha256:07b7148c579d926e47caa8f89fafb05de38f6b8efeee4911880def10a852ff45",
+    "size": 2581,
+    "annotations": {
+      "org.opencontainers.image.created": "2026-09-16T05:30:36Z"
+    },
+    "platform": {
+      "architecture": "amd64",
+      "os": "linux"
+    }
+  },
+  "containerimage.digest": "sha256:07b7148c579d926e47caa8f89fafb05de38f6b8efeee4911880def10a852ff45",
+  "image.name": "docker.io/library/nexgen-backend:qualification-20260916"
+}

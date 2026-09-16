@@ -1,0 +1,16 @@
+{
+  "context": "desktop-linux",
+  "container": "nexgen-backend-qualification-20260916",
+  "image": "nexgen-backend:qualification-20260916",
+  "production_changed": false,
+  "database_mode": "default_transaction_read_only=on",
+  "checks": [],
+  "samples": [],
+  "passed": false,
+  "image_id": "sha256:07b7148c579d926e47caa8f89fafb05de38f6b8efeee4911880def10a852ff45",
+  "container_id": "bf9bbf87063b7f371f368dbaf776ad9446db67235707c33f44c8a7798bf850e7",
+  "startup_seconds": 21.167,
+  "failure": "Read-only database transaction setting not active",
+  "stopped": true,
+  "elapsed_seconds": 29.392
+}

@@ -1,0 +1,1002 @@
+{
+  "passed": true,
+  "image": "ghcr.io/mdminhajul-islam/nexgen-backend@sha256:07b7148c579d926e47caa8f89fafb05de38f6b8efeee4911880def10a852ff45",
+  "samples": [
+    {
+      "elapsed": 2.2,
+      "available_mib": 1835,
+      "container_memory_mib": 22.41,
+      "peak_mib": 22.66,
+      "cpu_stat": "usage_usec 936534\nuser_usec 822515\nsystem_usec 114019\ncore_sched.force_idle_usec 0\nnr_periods 17\nnr_throttled 7\nthrottled_usec 89530\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 4.5,
+      "available_mib": 1832,
+      "container_memory_mib": 61.25,
+      "peak_mib": 61.48,
+      "cpu_stat": "usage_usec 2514173\nuser_usec 2188375\nsystem_usec 325797\ncore_sched.force_idle_usec 0\nnr_periods 38\nnr_throttled 26\nthrottled_usec 387309\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 6.6,
+      "available_mib": 1807,
+      "container_memory_mib": 85.14,
+      "peak_mib": 85.39,
+      "cpu_stat": "usage_usec 3610897\nuser_usec 3190744\nsystem_usec 420153\ncore_sched.force_idle_usec 0\nnr_periods 59\nnr_throttled 40\nthrottled_usec 714554\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 8.8,
+      "available_mib": 1775,
+      "container_memory_mib": 172.9,
+      "peak_mib": 172.9,
+      "cpu_stat": "usage_usec 4326202\nuser_usec 3759337\nsystem_usec 566865\ncore_sched.force_idle_usec 0\nnr_periods 77\nnr_throttled 45\nthrottled_usec 776983\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 10.9,
+      "available_mib": 1714,
+      "container_memory_mib": 279.07,
+      "peak_mib": 279.07,
+      "cpu_stat": "usage_usec 5772649\nuser_usec 4917801\nsystem_usec 854847\ncore_sched.force_idle_usec 0\nnr_periods 99\nnr_throttled 58\nthrottled_usec 925710\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 13.0,
+      "available_mib": 1680,
+      "container_memory_mib": 319.71,
+      "peak_mib": 319.86,
+      "cpu_stat": "usage_usec 7419947\nuser_usec 6380475\nsystem_usec 1039471\ncore_sched.force_idle_usec 0\nnr_periods 120\nnr_throttled 77\nthrottled_usec 2375044\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 15.2,
+      "available_mib": 1667,
+      "container_memory_mib": 335.2,
+      "peak_mib": 339.81,
+      "cpu_stat": "usage_usec 8963387\nuser_usec 7758234\nsystem_usec 1205153\ncore_sched.force_idle_usec 0\nnr_periods 141\nnr_throttled 96\nthrottled_usec 3106738\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 17.3,
+      "available_mib": 1662,
+      "container_memory_mib": 361.46,
+      "peak_mib": 361.46,
+      "cpu_stat": "usage_usec 10112826\nuser_usec 8680779\nsystem_usec 1432046\ncore_sched.force_idle_usec 0\nnr_periods 163\nnr_throttled 101\nthrottled_usec 3188197\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 19.4,
+      "available_mib": 1640,
+      "container_memory_mib": 424.86,
+      "peak_mib": 424.86,
+      "cpu_stat": "usage_usec 11659064\nuser_usec 9896542\nsystem_usec 1762521\ncore_sched.force_idle_usec 0\nnr_periods 184\nnr_throttled 114\nthrottled_usec 4158969\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 21.5,
+      "available_mib": 1639,
+      "container_memory_mib": 469.73,
+      "peak_mib": 469.88,
+      "cpu_stat": "usage_usec 13211167\nuser_usec 11299517\nsystem_usec 1911650\ncore_sched.force_idle_usec 0\nnr_periods 205\nnr_throttled 131\nthrottled_usec 4882619\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 23.7,
+      "available_mib": 1592,
+      "container_memory_mib": 550.6,
+      "peak_mib": 550.6,
+      "cpu_stat": "usage_usec 14751698\nuser_usec 12534705\nsystem_usec 2216993\ncore_sched.force_idle_usec 0\nnr_periods 227\nnr_throttled 142\nthrottled_usec 5012235\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 25.8,
+      "available_mib": 1552,
+      "container_memory_mib": 581.95,
+      "peak_mib": 582.33,
+      "cpu_stat": "usage_usec 16392280\nuser_usec 13968756\nsystem_usec 2423523\ncore_sched.force_idle_usec 0\nnr_periods 248\nnr_throttled 163\nthrottled_usec 6138718\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 28.0,
+      "available_mib": 1546,
+      "container_memory_mib": 598.8,
+      "peak_mib": 598.8,
+      "cpu_stat": "usage_usec 17972195\nuser_usec 15360618\nsystem_usec 2611577\ncore_sched.force_idle_usec 0\nnr_periods 270\nnr_throttled 184\nthrottled_usec 7249948\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 30.1,
+      "available_mib": 1523,
+      "container_memory_mib": 632.94,
+      "peak_mib": 633.13,
+      "cpu_stat": "usage_usec 19546005\nuser_usec 16742124\nsystem_usec 2803880\ncore_sched.force_idle_usec 0\nnr_periods 291\nnr_throttled 205\nthrottled_usec 7606009\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 32.2,
+      "available_mib": 1478,
+      "container_memory_mib": 727.27,
+      "peak_mib": 727.52,
+      "cpu_stat": "usage_usec 20636014\nuser_usec 17692817\nsystem_usec 2943196\ncore_sched.force_idle_usec 0\nnr_periods 310\nnr_throttled 214\nthrottled_usec 7777006\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "starting",
+      "readiness": 502
+    },
+    {
+      "elapsed": 34.4,
+      "available_mib": 1482,
+      "container_memory_mib": 715.74,
+      "peak_mib": 728.85,
+      "cpu_stat": "usage_usec 20808359\nuser_usec 17847139\nsystem_usec 2961219\ncore_sched.force_idle_usec 0\nnr_periods 326\nnr_throttled 216\nthrottled_usec 7818566\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 51.1,
+      "available_mib": 1508,
+      "container_memory_mib": 716.62,
+      "peak_mib": 728.85,
+      "cpu_stat": "usage_usec 21288229\nuser_usec 18316521\nsystem_usec 2971707\ncore_sched.force_idle_usec 0\nnr_periods 416\nnr_throttled 219\nthrottled_usec 7881659\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 66.1,
+      "available_mib": 1508,
+      "container_memory_mib": 716.46,
+      "peak_mib": 730.3,
+      "cpu_stat": "usage_usec 22004492\nuser_usec 18960927\nsystem_usec 3043565\ncore_sched.force_idle_usec 0\nnr_periods 492\nnr_throttled 227\nthrottled_usec 8041690\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 81.2,
+      "available_mib": 1479,
+      "container_memory_mib": 716.46,
+      "peak_mib": 730.3,
+      "cpu_stat": "usage_usec 22047483\nuser_usec 18995611\nsystem_usec 3051872\ncore_sched.force_idle_usec 0\nnr_periods 560\nnr_throttled 227\nthrottled_usec 8041690\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 96.4,
+      "available_mib": 1492,
+      "container_memory_mib": 716.46,
+      "peak_mib": 730.3,
+      "cpu_stat": "usage_usec 23230615\nuser_usec 20030552\nsystem_usec 3200062\ncore_sched.force_idle_usec 0\nnr_periods 647\nnr_throttled 239\nthrottled_usec 8306170\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 111.7,
+      "available_mib": 1476,
+      "container_memory_mib": 716.46,
+      "peak_mib": 730.3,
+      "cpu_stat": "usage_usec 23280261\nuser_usec 20073310\nsystem_usec 3206951\ncore_sched.force_idle_usec 0\nnr_periods 725\nnr_throttled 239\nthrottled_usec 8306170\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 126.9,
+      "available_mib": 1485,
+      "container_memory_mib": 720.28,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 27099934\nuser_usec 23484460\nsystem_usec 3615473\ncore_sched.force_idle_usec 0\nnr_periods 853\nnr_throttled 273\nthrottled_usec 9154009\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 141.9,
+      "available_mib": 1505,
+      "container_memory_mib": 720.54,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 27242365\nuser_usec 23605559\nsystem_usec 3636805\ncore_sched.force_idle_usec 0\nnr_periods 948\nnr_throttled 273\nthrottled_usec 9154009\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 157.1,
+      "available_mib": 1500,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 28082991\nuser_usec 24360962\nsystem_usec 3722029\ncore_sched.force_idle_usec 0\nnr_periods 1030\nnr_throttled 283\nthrottled_usec 9362021\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 172.2,
+      "available_mib": 1503,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 28130019\nuser_usec 24406292\nsystem_usec 3723727\ncore_sched.force_idle_usec 0\nnr_periods 1107\nnr_throttled 283\nthrottled_usec 9362021\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 187.2,
+      "available_mib": 1490,
+      "container_memory_mib": 732.65,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 28672413\nuser_usec 24889378\nsystem_usec 3783035\ncore_sched.force_idle_usec 0\nnr_periods 1180\nnr_throttled 289\nthrottled_usec 9485085\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 202.3,
+      "available_mib": 1500,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 28858513\nuser_usec 25057475\nsystem_usec 3801037\ncore_sched.force_idle_usec 0\nnr_periods 1251\nnr_throttled 291\nthrottled_usec 9530487\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 217.4,
+      "available_mib": 1496,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 28908992\nuser_usec 25096274\nsystem_usec 3812718\ncore_sched.force_idle_usec 0\nnr_periods 1328\nnr_throttled 291\nthrottled_usec 9530487\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 232.4,
+      "available_mib": 1494,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 29651689\nuser_usec 25760081\nsystem_usec 3891608\ncore_sched.force_idle_usec 0\nnr_periods 1404\nnr_throttled 299\nthrottled_usec 9703874\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 247.5,
+      "available_mib": 1499,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 29710641\nuser_usec 25809633\nsystem_usec 3901008\ncore_sched.force_idle_usec 0\nnr_periods 1481\nnr_throttled 299\nthrottled_usec 9703874\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 262.6,
+      "available_mib": 1481,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 30335451\nuser_usec 26381029\nsystem_usec 3954421\ncore_sched.force_idle_usec 0\nnr_periods 1560\nnr_throttled 306\nthrottled_usec 9864842\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 277.7,
+      "available_mib": 1484,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 30377389\nuser_usec 26417491\nsystem_usec 3959897\ncore_sched.force_idle_usec 0\nnr_periods 1631\nnr_throttled 306\nthrottled_usec 9864842\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 292.9,
+      "available_mib": 1483,
+      "container_memory_mib": 720.39,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 31135358\nuser_usec 27100550\nsystem_usec 4034807\ncore_sched.force_idle_usec 0\nnr_periods 1713\nnr_throttled 314\nthrottled_usec 10020306\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 308.0,
+      "available_mib": 1477,
+      "container_memory_mib": 720.41,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 31186881\nuser_usec 27138515\nsystem_usec 4048366\ncore_sched.force_idle_usec 0\nnr_periods 1786\nnr_throttled 314\nthrottled_usec 10020306\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 323.0,
+      "available_mib": 1479,
+      "container_memory_mib": 720.63,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 31914133\nuser_usec 27799141\nsystem_usec 4114992\ncore_sched.force_idle_usec 0\nnr_periods 1867\nnr_throttled 321\nthrottled_usec 10160838\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 338.1,
+      "available_mib": 1474,
+      "container_memory_mib": 720.59,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 31987547\nuser_usec 27856759\nsystem_usec 4130787\ncore_sched.force_idle_usec 0\nnr_periods 1943\nnr_throttled 321\nthrottled_usec 10160838\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 353.4,
+      "available_mib": 1473,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 32785902\nuser_usec 28551683\nsystem_usec 4234218\ncore_sched.force_idle_usec 0\nnr_periods 2026\nnr_throttled 322\nthrottled_usec 10169477\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 368.5,
+      "available_mib": 1466,
+      "container_memory_mib": 720.59,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 32829753\nuser_usec 28589248\nsystem_usec 4240505\ncore_sched.force_idle_usec 0\nnr_periods 2098\nnr_throttled 322\nthrottled_usec 10169477\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 383.5,
+      "available_mib": 1494,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 33490194\nuser_usec 29185003\nsystem_usec 4305190\ncore_sched.force_idle_usec 0\nnr_periods 2176\nnr_throttled 329\nthrottled_usec 10305071\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 398.7,
+      "available_mib": 1495,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 33533157\nuser_usec 29217373\nsystem_usec 4315784\ncore_sched.force_idle_usec 0\nnr_periods 2246\nnr_throttled 329\nthrottled_usec 10305071\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 413.9,
+      "available_mib": 1491,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 34301683\nuser_usec 29910511\nsystem_usec 4391172\ncore_sched.force_idle_usec 0\nnr_periods 2330\nnr_throttled 336\nthrottled_usec 10452746\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 429.1,
+      "available_mib": 1491,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 34344994\nuser_usec 29948520\nsystem_usec 4396473\ncore_sched.force_idle_usec 0\nnr_periods 2396\nnr_throttled 336\nthrottled_usec 10452746\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 444.2,
+      "available_mib": 1482,
+      "container_memory_mib": 720.85,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 35056169\nuser_usec 30595862\nsystem_usec 4460306\ncore_sched.force_idle_usec 0\nnr_periods 2475\nnr_throttled 344\nthrottled_usec 10628197\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 459.3,
+      "available_mib": 1478,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 35101140\nuser_usec 30635412\nsystem_usec 4465728\ncore_sched.force_idle_usec 0\nnr_periods 2548\nnr_throttled 344\nthrottled_usec 10628197\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 475.4,
+      "available_mib": 1477,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 35730215\nuser_usec 31200792\nsystem_usec 4529423\ncore_sched.force_idle_usec 0\nnr_periods 2620\nnr_throttled 348\nthrottled_usec 10705783\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 490.4,
+      "available_mib": 1469,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 35769810\nuser_usec 31236927\nsystem_usec 4532883\ncore_sched.force_idle_usec 0\nnr_periods 2685\nnr_throttled 348\nthrottled_usec 10705783\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 505.4,
+      "available_mib": 1482,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 36461331\nuser_usec 31875435\nsystem_usec 4585895\ncore_sched.force_idle_usec 0\nnr_periods 2763\nnr_throttled 352\nthrottled_usec 10779375\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 520.6,
+      "available_mib": 1482,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 36505588\nuser_usec 31913383\nsystem_usec 4592205\ncore_sched.force_idle_usec 0\nnr_periods 2835\nnr_throttled 352\nthrottled_usec 10779375\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 535.7,
+      "available_mib": 1485,
+      "container_memory_mib": 720.85,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 37212203\nuser_usec 32556322\nsystem_usec 4655880\ncore_sched.force_idle_usec 0\nnr_periods 2912\nnr_throttled 359\nthrottled_usec 10915957\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 550.7,
+      "available_mib": 1481,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 37256532\nuser_usec 32594861\nsystem_usec 4661670\ncore_sched.force_idle_usec 0\nnr_periods 2984\nnr_throttled 359\nthrottled_usec 10915957\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 565.8,
+      "available_mib": 1494,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 37990955\nuser_usec 33259039\nsystem_usec 4731915\ncore_sched.force_idle_usec 0\nnr_periods 3065\nnr_throttled 367\nthrottled_usec 11082396\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 581.0,
+      "available_mib": 1501,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 38041609\nuser_usec 33302944\nsystem_usec 4738665\ncore_sched.force_idle_usec 0\nnr_periods 3142\nnr_throttled 367\nthrottled_usec 11082396\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 596.1,
+      "available_mib": 1497,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 38737858\nuser_usec 33938712\nsystem_usec 4799146\ncore_sched.force_idle_usec 0\nnr_periods 3221\nnr_throttled 375\nthrottled_usec 11262611\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 611.1,
+      "available_mib": 1488,
+      "container_memory_mib": 720.6,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 38781953\nuser_usec 33972309\nsystem_usec 4809644\ncore_sched.force_idle_usec 0\nnr_periods 3293\nnr_throttled 375\nthrottled_usec 11262611\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    },
+    {
+      "elapsed": 628.2,
+      "available_mib": 1484,
+      "container_memory_mib": 720.85,
+      "peak_mib": 807.61,
+      "cpu_stat": "usage_usec 39514137\nuser_usec 34630758\nsystem_usec 4883378\ncore_sched.force_idle_usec 0\nnr_periods 3380\nnr_throttled 383\nthrottled_usec 11439873\nnr_bursts 0\nburst_usec 0\n",
+      "memory_events": {
+        "low": "0",
+        "high": "0",
+        "max": "0",
+        "oom": "0",
+        "oom_kill": "0",
+        "oom_group_kill": "0"
+      },
+      "health": "healthy",
+      "readiness": 200
+    }
+  ],
+  "checks": [
+    {
+      "path": "/livez",
+      "status": 200,
+      "items": 0,
+      "total": null
+    },
+    {
+      "path": "/health",
+      "status": 200,
+      "items": 0,
+      "total": null
+    },
+    {
+      "path": "/v1/catalogue/products?limit=3",
+      "status": 200,
+      "items": 3,
+      "total": 5905
+    },
+    {
+      "path": "/v1/catalogue/facets",
+      "status": 200,
+      "items": 0,
+      "total": null
+    },
+    {
+      "path": "/v1/catalogue/products?q=cotton%20shirt&limit=3",
+      "status": 200,
+      "items": 3,
+      "total": 771
+    },
+    {
+      "path": "/v1/tools/definitions",
+      "status": 200,
+      "items": 0,
+      "total": null
+    },
+    {
+      "path": "/v1/customer/auth/me",
+      "status": 401,
+      "items": 0,
+      "total": null
+    }
+  ],
+  "preflight": {
+    "available_mib": 1887,
+    "memory_psi": "some avg10=0.00 avg60=0.00 avg300=0.00 total=7672520285\nfull avg10=0.00 avg60=0.00 avg300=0.00 total=5049144221",
+    "host_oom_count": 8,
+    "backend_limit_mib": 1024,
+    "qualified_peak_mib": 389.39
+  },
+  "baseline_services": "dokploy:1/1\ndokploy-postgres:1/1\nfissabdlaravel-fissabd-yufdim:1/1\ninternrasheduzzamanvoiceagents-northstar-auto-gallery-u2pic3:0/0\ninternrasheduzzamanvoiceagents-northstarbackend-1folqa:0/0\nlenscraftai-frontend-fkfml0:1/1\nminhaj-bds-frontend-7wmdcd:1/1\nminhaj-bds-voice-broker-s2q8xl:1/1\nminhaj-bdsbackend-xbnn3q:1/1\nnexdigital360-wfwtek:1/1\nnexdrivebackend-4xwjzn:1/1\nnexdrivefrontend-vabnd6:1/1\nnexgenclothing-lifestyle-frontend-nexgen-8mc71i:1/1\nnexgenclothing-lifestyle-nexgenbackend-tok2fu:0/0\nnorthstar-retell-integration-northstarretell-cii7yf:0/0",
+  "pulled_image_id": "sha256:c76e25f9daf2ac2eb86ac45e62d7e1c889a88706ecd107df752468f077ce3e7b",
+  "post_pull_available_mib": 1876,
+  "startup_seconds": 34.36,
+  "restart_count": 0,
+  "final_services": "dokploy:1/1\ndokploy-postgres:1/1\nfissabdlaravel-fissabd-yufdim:1/1\ninternrasheduzzamanvoiceagents-northstar-auto-gallery-u2pic3:0/0\ninternrasheduzzamanvoiceagents-northstarbackend-1folqa:0/0\nlenscraftai-frontend-fkfml0:1/1\nminhaj-bds-frontend-7wmdcd:1/1\nminhaj-bds-voice-broker-s2q8xl:1/1\nminhaj-bdsbackend-xbnn3q:1/1\nnexdigital360-wfwtek:1/1\nnexdrivebackend-4xwjzn:1/1\nnexdrivefrontend-vabnd6:1/1\nnexgenclothing-lifestyle-frontend-nexgen-8mc71i:1/1\nnexgenclothing-lifestyle-nexgenbackend-tok2fu:1/1\nnorthstar-retell-integration-northstarretell-cii7yf:0/0",
+  "container_id": "66eb5fd87cc5",
+  "duration_seconds": 684.4,
+  "final_available_mib": 1480,
+  "host_oom_delta": 0
+}

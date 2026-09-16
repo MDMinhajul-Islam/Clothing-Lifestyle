@@ -1,0 +1,15 @@
+{
+  "context": "desktop-linux",
+  "container": "nexgen-backend-qualification-localdb-20260916",
+  "image": "nexgen-backend:qualification-20260916",
+  "production_changed": false,
+  "database_mode": "isolated local pgvector, SELECT-only role, default_transaction_read_only=on",
+  "checks": [],
+  "samples": [],
+  "passed": false,
+  "image_id": "sha256:07b7148c579d926e47caa8f89fafb05de38f6b8efeee4911880def10a852ff45",
+  "container_id": "be804e99b6ee1e68cc0c52ce09895c2369e6da00aa02e04c57ed6e5fca0c3e00",
+  "failure": "Startup exceeded 60 seconds",
+  "stopped": true,
+  "elapsed_seconds": 70.71
+}

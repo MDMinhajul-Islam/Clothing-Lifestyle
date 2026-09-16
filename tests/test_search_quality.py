@@ -167,7 +167,7 @@ class SearchQualityTests(unittest.TestCase):
             department="MAN",
         ))
         relaxed = service.repo.calls[-1]
-        self.assertEqual(len(service.repo.calls), 3)
+        self.assertEqual(len(service.repo.calls), 2)
         self.assertIsNone(relaxed["query"])
         self.assertIsNone(relaxed["occasion"])
         self.assertEqual(relaxed["product_type"], "shirt")
@@ -176,7 +176,8 @@ class SearchQualityTests(unittest.TestCase):
         self.assertEqual(relaxed["max_price"], 100.0)
         self.assertEqual(len(relaxed["semantic_vector"]), 384)
         self.assertEqual(result.returned_count, 1)
-        self.assertIn("closest shirt options", result.fallback_message)
+        self.assertTrue(relaxed["semantic_only"])
+        self.assertIn("related options", result.fallback_message)
 
     def test_workplace_conversation_fillers_do_not_become_lexical_constraints(self):
         for query, occasion in (

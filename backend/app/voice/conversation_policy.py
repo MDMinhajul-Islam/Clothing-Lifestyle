@@ -54,6 +54,14 @@ class ConversationPolicy:
 
     def evaluate(self, transcript: str, context: Mapping[str, Any]) -> ConversationPolicyDecision:
         text = " ".join(transcript.casefold().split()).strip(" .?!")
+        if (re.search(r"\boffice desk\b", text) and not context.get("product_id") and
+                not re.search(r"\b(furniture|wood|wooden|table|workstation|standing|computer)\b", text)):
+            return ConversationPolicyDecision(
+                goal="PRODUCT_SEARCH", scenario="office", strategy="clarify_asr",
+                confidence=.85, clarification="Did you mean a dress for the office?",
+                suggested_transcript=re.sub(r"\boffice desk\b", "office dress", transcript,
+                                            flags=re.IGNORECASE),
+            )
         correction = ASR_CORRECTIONS.get(text)
         if correction and self._shopping_context_supports_correction(context):
             return ConversationPolicyDecision(

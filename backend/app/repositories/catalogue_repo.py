@@ -25,11 +25,28 @@ class CatalogueRepository(BaseRepository):
         brand: Optional[str] = None,
         occasion: Optional[str] = None,
         on_sale: Optional[bool] = None,
-        limit: int = 20
+        limit: int = 20,
+        semantic_only: bool = False,
     ) -> Tuple[int, List[Dict[str, Any]]]:
         """Search products with full-text search and faceted filters."""
         where_clauses = ["1=1"]
         params: List[Any] = []
+
+        # Semantic recovery must retrieve candidates, not merely reorder lexical hits.
+        # Keep the same embedding identity as ranking and exclude missing/unrelated vectors.
+        if semantic_only:
+            if not semantic_vector:
+                return 0, []
+            import json
+            query = None
+            where_clauses.append("p.lifecycle_status = 'ACTIVE'")
+            where_clauses.append("""EXISTS (SELECT 1 FROM product_embeddings candidate
+                WHERE candidate.product_id=p.product_id
+                AND candidate.embedding_provider='local_sentence_transformers'
+                AND candidate.embedding_model='sentence-transformers/all-MiniLM-L6-v2'
+                AND candidate.embedding_version='v1' AND candidate.embedding_dimension=384
+                AND 1 - (candidate.embedding <=> %s::vector) >= 0.30)""")
+            params.append(json.dumps(semantic_vector))
 
         if query and query.strip():
             where_clauses.append("p.search_vector @@ websearch_to_tsquery('english', %s)")

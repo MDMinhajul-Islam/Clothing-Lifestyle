@@ -1,0 +1,224 @@
+--- a/Dockerfile
++++ b/Dockerfile
+@@ -2,7 +2,11 @@
+ 
+ ENV PYTHONDONTWRITEBYTECODE=1 \
+     PYTHONUNBUFFERED=1 \
+-    HF_HOME=/opt/huggingface
++    HF_HOME=/opt/huggingface \
++    OMP_NUM_THREADS=1 \
++    MKL_NUM_THREADS=1 \
++    OPENBLAS_NUM_THREADS=1 \
++    TOKENIZERS_PARALLELISM=false
+ 
+ WORKDIR /app
+ 
+@@ -37,6 +41,6 @@
+ EXPOSE 8000
+ 
+ HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
+-    CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
++    CMD ["python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/livez', timeout=5)"]
+ 
+-CMD ["python", "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000"]
++CMD ["python", "-m", "uvicorn", "backend.app.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+--- a/backend/app/api/routes_meta.py
++++ b/backend/app/api/routes_meta.py
+@@ -9,9 +9,15 @@
+ router = APIRouter(tags=["Metadata"])
+ 
+ 
++@router.get("/livez")
++async def liveness_check():
++    """Process liveness after ASGI startup; no database or external service calls."""
++    return {"status": "alive"}
++
++
+ @router.get("/health")
+ def health_check(conn: psycopg2.extensions.connection = Depends(get_db)):
+-    """Health check validating application lifecycle and database pool connectivity."""
++    """Readiness check; retain the existing database-aware API contract."""
+     with conn.cursor() as cur:
+         cur.execute("SELECT 1;")
+         cur.fetchone()
+@@ -29,4 +35,3 @@
+ def get_definitions():
+     """Retrieve machine-readable tool catalog definitions."""
+     return export_tool_definitions()
+-
+--- a/backend/app/main.py
++++ b/backend/app/main.py
+@@ -30,20 +30,34 @@
+ async def lifespan(app: FastAPI):
+     """Application lifecycle managing database connection pool."""
+     logger.info("Starting %s (Environment: %s)...", settings.app_name, settings.environment)
+-    init_db_pool()
+-    embedding_started = time.perf_counter()
+-    embedding_client = initialize_embedding_client()
+-    logger.info("Embedding model initialized at startup: provider=%s model=%s device=%s elapsed_ms=%.2f",
+-                embedding_client.provider, embedding_client.model,
+-                getattr(embedding_client, "device", "remote"),
+-                (time.perf_counter() - embedding_started) * 1000)
+-    warmup_started = time.perf_counter()
+-    embedding_client.embed(["NexGen voice commerce startup warmup"])
+-    logger.info("Embedding model warmed at startup: elapsed_ms=%.2f",
+-                (time.perf_counter() - warmup_started) * 1000)
+-    yield
+-    logger.info("Shutting down %s...", settings.app_name)
+-    close_db_pool()
++    stage = "database_pool"
++    try:
++        try:
++            logger.info("Startup stage=%s", stage)
++            init_db_pool()
++            stage = "embedding_model"
++            logger.info("Startup stage=%s", stage)
++            embedding_started = time.perf_counter()
++            embedding_client = initialize_embedding_client()
++            logger.info("Embedding model initialized at startup: provider=%s model=%s device=%s elapsed_ms=%.2f",
++                        embedding_client.provider, embedding_client.model,
++                        getattr(embedding_client, "device", "remote"),
++                        (time.perf_counter() - embedding_started) * 1000)
++            stage = "embedding_warmup"
++            logger.info("Startup stage=%s", stage)
++            warmup_started = time.perf_counter()
++            embedding_client.embed(["NexGen voice commerce startup warmup"])
++            logger.info("Embedding model warmed at startup: elapsed_ms=%.2f",
++                        (time.perf_counter() - warmup_started) * 1000)
++        except Exception as exc:
++            # Exception text can contain connection strings or provider credentials.
++            logger.error("Startup failed stage=%s error_type=%s", stage, type(exc).__name__)
++            raise
++        logger.info("Startup complete; liveness=/livez readiness=/health")
++        yield
++    finally:
++        logger.info("Shutting down %s...", settings.app_name)
++        close_db_pool()
+ 
+ 
+ app = FastAPI(
+--- /dev/null
++++ b/deploy/nexgen-backend-safety.json
+@@ -0,0 +1,53 @@
++{
++  "status": "PROPOSED_NOT_APPLIED_REQUIRES_ISOLATED_QUALIFICATION",
++  "service": "nexgenclothing-lifestyle-nexgenbackend-tok2fu",
++  "normalReplicasAfterExplicitApproval": 1,
++  "dokployApplicationUpdate": {
++    "applicationId": "kNKuOmx16MVTd4Y71Wk1D",
++    "autoDeploy": false,
++    "replicas": 0,
++    "modeSwarm": {"Replicated": {"Replicas": 0}},
++    "cpuLimit": "750000000",
++    "cpuReservation": "750000000",
++    "memoryLimit": "1073741824",
++    "memoryReservation": "1073741824",
++    "restartPolicySwarm": {
++      "Condition": "on-failure",
++      "Delay": 60000000000,
++      "MaxAttempts": 2,
++      "Window": 600000000000
++    },
++    "updateConfigSwarm": {
++      "Parallelism": 1,
++      "Delay": 30000000000,
++      "Order": "stop-first",
++      "FailureAction": "pause",
++      "Monitor": 180000000000,
++      "MaxFailureRatio": 0
++    },
++    "rollbackConfigSwarm": {
++      "Parallelism": 1,
++      "Delay": 30000000000,
++      "Order": "stop-first",
++      "FailureAction": "pause",
++      "Monitor": 180000000000,
++      "MaxFailureRatio": 0
++    },
++    "stopGracePeriodSwarm": 30000000000
++  },
++  "swarmTaskLogDriver": {
++    "Name": "json-file",
++    "Options": {"max-size": "10m", "max-file": "3"}
++  },
++  "qualification": {
++    "restart": "no",
++    "cpus": "0.75",
++    "memory": "1g",
++    "memorySwap": "1g",
++    "pidsLimit": 128,
++    "minimumHostAvailableMemoryMiB": 2048,
++    "maximumObservedContainerPeakMiB": 768,
++    "startupDeadlineSeconds": 60,
++    "observationSeconds": 600
++  }
++}
+--- /dev/null
++++ b/tests/test_production_health.py
+@@ -0,0 +1,66 @@
++"""Offline health/lifecycle regression checks; never connect to a live database."""
++import unittest
++from unittest.mock import MagicMock, patch
++
++from fastapi import FastAPI
++from fastapi.testclient import TestClient
++
++from backend.app.api.deps import get_db
++from backend.app.api.routes_meta import router
++from backend.app.main import app, lifespan
++
++
++class TestProductionHealth(unittest.TestCase):
++    def setUp(self):
++        self.web = FastAPI()
++        self.web.include_router(router)
++
++    def test_liveness_does_not_acquire_database(self):
++        def unavailable():
++            raise RuntimeError("database unavailable")
++
++        self.web.dependency_overrides[get_db] = unavailable
++        with TestClient(self.web, raise_server_exceptions=False) as client:
++            self.assertEqual(client.get("/livez").json(), {"status": "alive"})
++            self.assertEqual(client.get("/livez").status_code, 200)
++            self.assertEqual(client.get("/health").status_code, 500)
++
++    def test_existing_readiness_contract_still_checks_database(self):
++        conn = MagicMock()
++        self.web.dependency_overrides[get_db] = lambda: conn
++        with TestClient(self.web) as client:
++            response = client.get("/health")
++        self.assertEqual(response.status_code, 200)
++        self.assertEqual(response.json()["status"], "healthy")
++        self.assertEqual(response.json()["database"], "connected")
++        conn.cursor.return_value.__enter__.return_value.execute.assert_called_once_with("SELECT 1;")
++
++
++class TestStartupLifecycle(unittest.IsolatedAsyncioTestCase):
++    async def test_failed_model_startup_closes_pool_and_identifies_stage(self):
++        with patch("backend.app.main.init_db_pool"), \
++             patch("backend.app.main.close_db_pool") as close, \
++             patch("backend.app.main.initialize_embedding_client", side_effect=RuntimeError("private detail")):
++            with self.assertLogs("tool_gateway.main", level="INFO") as captured:
++                with self.assertRaises(RuntimeError):
++                    async with lifespan(app):
++                        self.fail("Failed initialization must not yield readiness")
++            close.assert_called_once_with()
++        output = "\n".join(captured.output)
++        self.assertIn("Startup failed stage=embedding_model error_type=RuntimeError", output)
++        self.assertNotIn("private detail", output)
++
++    async def test_successful_startup_preserves_warmup_and_cleanup(self):
++        encoder = MagicMock(provider="local", model="test", device="cpu")
++        with patch("backend.app.main.init_db_pool") as init, \
++             patch("backend.app.main.close_db_pool") as close, \
++             patch("backend.app.main.initialize_embedding_client", return_value=encoder):
++            async with lifespan(app):
++                init.assert_called_once_with()
++                encoder.embed.assert_called_once_with(["NexGen voice commerce startup warmup"])
++                close.assert_not_called()
++            close.assert_called_once_with()
++
++
++if __name__ == "__main__":
++    unittest.main()
