@@ -30,20 +30,34 @@ logger = logging.getLogger("tool_gateway.main")
 async def lifespan(app: FastAPI):
     """Application lifecycle managing database connection pool."""
     logger.info("Starting %s (Environment: %s)...", settings.app_name, settings.environment)
-    init_db_pool()
-    embedding_started = time.perf_counter()
-    embedding_client = initialize_embedding_client()
-    logger.info("Embedding model initialized at startup: provider=%s model=%s device=%s elapsed_ms=%.2f",
-                embedding_client.provider, embedding_client.model,
-                getattr(embedding_client, "device", "remote"),
-                (time.perf_counter() - embedding_started) * 1000)
-    warmup_started = time.perf_counter()
-    embedding_client.embed(["NexGen voice commerce startup warmup"])
-    logger.info("Embedding model warmed at startup: elapsed_ms=%.2f",
-                (time.perf_counter() - warmup_started) * 1000)
-    yield
-    logger.info("Shutting down %s...", settings.app_name)
-    close_db_pool()
+    stage = "database_pool"
+    try:
+        try:
+            logger.info("Startup stage=%s", stage)
+            init_db_pool()
+            stage = "embedding_model"
+            logger.info("Startup stage=%s", stage)
+            embedding_started = time.perf_counter()
+            embedding_client = initialize_embedding_client()
+            logger.info("Embedding model initialized at startup: provider=%s model=%s device=%s elapsed_ms=%.2f",
+                        embedding_client.provider, embedding_client.model,
+                        getattr(embedding_client, "device", "remote"),
+                        (time.perf_counter() - embedding_started) * 1000)
+            stage = "embedding_warmup"
+            logger.info("Startup stage=%s", stage)
+            warmup_started = time.perf_counter()
+            embedding_client.embed(["NexGen voice commerce startup warmup"])
+            logger.info("Embedding model warmed at startup: elapsed_ms=%.2f",
+                        (time.perf_counter() - warmup_started) * 1000)
+        except Exception as exc:
+            # Exception text can contain connection strings or provider credentials.
+            logger.error("Startup failed stage=%s error_type=%s", stage, type(exc).__name__)
+            raise
+        logger.info("Startup complete; liveness=/livez readiness=/health")
+        yield
+    finally:
+        logger.info("Shutting down %s...", settings.app_name)
+        close_db_pool()
 
 
 app = FastAPI(
